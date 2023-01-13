@@ -12,6 +12,8 @@ from symbols import bitfinex
 
 symbol = bitfinex.BTCUSD  
 
+print(symbol)
+> "tBTCUSD"
 
 print(symbol.name)
 > "tBTCUSD"
@@ -33,9 +35,6 @@ print(symbol.maximum_order_size)
 
 print(symbol.margin)
 > True
-  
-print(symbol)
-> "tBTCUSD"
 
 str(symbol)
 > "tBTCUSD"
