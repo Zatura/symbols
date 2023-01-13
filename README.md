@@ -33,5 +33,16 @@ print(symbol.maximum_order_size)
 
 print(symbol.margin)
 > True
+  
+print(symbol)
+> "tBTCUSD"
 
+str(symbol)
+> "tBTCUSD"
+
+repr(symbol)
+> "tBTCUSD"
+
+print(bitfinex.BTCUSD)
+> "tBTCUSD"
 ```
