@@ -1,3 +1,4 @@
 build
 symbols.egg-info
 .idea
+dist
