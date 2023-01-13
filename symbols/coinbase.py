@@ -1,8 +1,22 @@
 from dataclasses import dataclass
 
 
+
+
+ZERO0_USD = ZERO0_USD()
+
+
 @dataclass(slots=True, frozen=True)
 class ZERO0_USD:
+    """
+        name: 00-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "00-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -21,11 +35,20 @@ class ZERO0_USD:
         return "00-USD"
 
 
-ZERO0_USD = ZERO0_USD()
+ONEINCH_BTC = ONEINCH_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEINCH_BTC:
+    """
+        name: 1INCH-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "1INCH-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -44,11 +67,20 @@ class ONEINCH_BTC:
         return "1INCH-BTC"
 
 
-ONEINCH_BTC = ONEINCH_BTC()
+ONEINCH_EUR = ONEINCH_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEINCH_EUR:
+    """
+        name: 1INCH-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "1INCH-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -67,11 +99,20 @@ class ONEINCH_EUR:
         return "1INCH-EUR"
 
 
-ONEINCH_EUR = ONEINCH_EUR()
+ONEINCH_GBP = ONEINCH_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEINCH_GBP:
+    """
+        name: 1INCH-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "1INCH-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -90,11 +131,20 @@ class ONEINCH_GBP:
         return "1INCH-GBP"
 
 
-ONEINCH_GBP = ONEINCH_GBP()
+ONEINCH_USD = ONEINCH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEINCH_USD:
+    """
+        name: 1INCH-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "1INCH-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -113,11 +163,20 @@ class ONEINCH_USD:
         return "1INCH-USD"
 
 
-ONEINCH_USD = ONEINCH_USD()
+AAVE_BTC = AAVE_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_BTC:
+    """
+        name: AAVE-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AAVE-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -136,11 +195,20 @@ class AAVE_BTC:
         return "AAVE-BTC"
 
 
-AAVE_BTC = AAVE_BTC()
+AAVE_EUR = AAVE_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_EUR:
+    """
+        name: AAVE-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AAVE-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -159,11 +227,20 @@ class AAVE_EUR:
         return "AAVE-EUR"
 
 
-AAVE_EUR = AAVE_EUR()
+AAVE_GBP = AAVE_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_GBP:
+    """
+        name: AAVE-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AAVE-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -182,11 +259,20 @@ class AAVE_GBP:
         return "AAVE-GBP"
 
 
-AAVE_GBP = AAVE_GBP()
+AAVE_USD = AAVE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_USD:
+    """
+        name: AAVE-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AAVE-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -205,11 +291,20 @@ class AAVE_USD:
         return "AAVE-USD"
 
 
-AAVE_USD = AAVE_USD()
+ABT_USD = ABT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ABT_USD:
+    """
+        name: ABT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ABT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -228,11 +323,20 @@ class ABT_USD:
         return "ABT-USD"
 
 
-ABT_USD = ABT_USD()
+ACH_USD = ACH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ACH_USD:
+    """
+        name: ACH-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ACH-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -251,11 +355,20 @@ class ACH_USD:
         return "ACH-USD"
 
 
-ACH_USD = ACH_USD()
+ACH_USDT = ACH_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ACH_USDT:
+    """
+        name: ACH-USDT
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ACH-USDT"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -274,11 +387,20 @@ class ACH_USDT:
         return "ACH-USDT"
 
 
-ACH_USDT = ACH_USDT()
+ADA_BTC = ADA_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_BTC:
+    """
+        name: ADA-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -297,11 +419,20 @@ class ADA_BTC:
         return "ADA-BTC"
 
 
-ADA_BTC = ADA_BTC()
+ADA_ETH = ADA_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_ETH:
+    """
+        name: ADA-ETH
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-ETH"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -320,11 +451,20 @@ class ADA_ETH:
         return "ADA-ETH"
 
 
-ADA_ETH = ADA_ETH()
+ADA_EUR = ADA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_EUR:
+    """
+        name: ADA-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -343,11 +483,20 @@ class ADA_EUR:
         return "ADA-EUR"
 
 
-ADA_EUR = ADA_EUR()
+ADA_GBP = ADA_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_GBP:
+    """
+        name: ADA-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -366,11 +515,20 @@ class ADA_GBP:
         return "ADA-GBP"
 
 
-ADA_GBP = ADA_GBP()
+ADA_USD = ADA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_USD:
+    """
+        name: ADA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -389,11 +547,20 @@ class ADA_USD:
         return "ADA-USD"
 
 
-ADA_USD = ADA_USD()
+ADA_USDC = ADA_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_USDC:
+    """
+        name: ADA-USDC
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-USDC"
     precision: int = 0.001
     minimum_margin: float = None
@@ -412,11 +579,20 @@ class ADA_USDC:
         return "ADA-USDC"
 
 
-ADA_USDC = ADA_USDC()
+ADA_USDT = ADA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ADA_USDT:
+    """
+        name: ADA-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ADA-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -435,11 +611,20 @@ class ADA_USDT:
         return "ADA-USDT"
 
 
-ADA_USDT = ADA_USDT()
+AERGO_USD = AERGO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AERGO_USD:
+    """
+        name: AERGO-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AERGO-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -458,11 +643,20 @@ class AERGO_USD:
         return "AERGO-USD"
 
 
-AERGO_USD = AERGO_USD()
+AGLD_USD = AGLD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AGLD_USD:
+    """
+        name: AGLD-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AGLD-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -481,11 +675,20 @@ class AGLD_USD:
         return "AGLD-USD"
 
 
-AGLD_USD = AGLD_USD()
+AGLD_USDT = AGLD_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class AGLD_USDT:
+    """
+        name: AGLD-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AGLD-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -504,11 +707,20 @@ class AGLD_USDT:
         return "AGLD-USDT"
 
 
-AGLD_USDT = AGLD_USDT()
+AIOZ_USD = AIOZ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AIOZ_USD:
+    """
+        name: AIOZ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AIOZ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -527,11 +739,20 @@ class AIOZ_USD:
         return "AIOZ-USD"
 
 
-AIOZ_USD = AIOZ_USD()
+AIOZ_USDT = AIOZ_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class AIOZ_USDT:
+    """
+        name: AIOZ-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AIOZ-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -550,11 +771,20 @@ class AIOZ_USDT:
         return "AIOZ-USDT"
 
 
-AIOZ_USDT = AIOZ_USDT()
+ALCX_EUR = ALCX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ALCX_EUR:
+    """
+        name: ALCX-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALCX-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -573,11 +803,20 @@ class ALCX_EUR:
         return "ALCX-EUR"
 
 
-ALCX_EUR = ALCX_EUR()
+ALCX_USD = ALCX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALCX_USD:
+    """
+        name: ALCX-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALCX-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -596,11 +835,20 @@ class ALCX_USD:
         return "ALCX-USD"
 
 
-ALCX_USD = ALCX_USD()
+ALCX_USDT = ALCX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ALCX_USDT:
+    """
+        name: ALCX-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALCX-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -619,11 +867,20 @@ class ALCX_USDT:
         return "ALCX-USDT"
 
 
-ALCX_USDT = ALCX_USDT()
+ALEPH_USD = ALEPH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALEPH_USD:
+    """
+        name: ALEPH-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALEPH-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -642,11 +899,20 @@ class ALEPH_USD:
         return "ALEPH-USD"
 
 
-ALEPH_USD = ALEPH_USD()
+ALGO_BTC = ALGO_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGO_BTC:
+    """
+        name: ALGO-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALGO-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -665,11 +931,20 @@ class ALGO_BTC:
         return "ALGO-BTC"
 
 
-ALGO_BTC = ALGO_BTC()
+ALGO_EUR = ALGO_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGO_EUR:
+    """
+        name: ALGO-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALGO-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -688,11 +963,20 @@ class ALGO_EUR:
         return "ALGO-EUR"
 
 
-ALGO_EUR = ALGO_EUR()
+ALGO_GBP = ALGO_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGO_GBP:
+    """
+        name: ALGO-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALGO-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -711,11 +995,20 @@ class ALGO_GBP:
         return "ALGO-GBP"
 
 
-ALGO_GBP = ALGO_GBP()
+ALGO_USD = ALGO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGO_USD:
+    """
+        name: ALGO-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALGO-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -734,11 +1027,20 @@ class ALGO_USD:
         return "ALGO-USD"
 
 
-ALGO_USD = ALGO_USD()
+ALICE_USD = ALICE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALICE_USD:
+    """
+        name: ALICE-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ALICE-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -757,11 +1059,20 @@ class ALICE_USD:
         return "ALICE-USD"
 
 
-ALICE_USD = ALICE_USD()
+AMP_USD = AMP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AMP_USD:
+    """
+        name: AMP-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AMP-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -780,11 +1091,20 @@ class AMP_USD:
         return "AMP-USD"
 
 
-AMP_USD = AMP_USD()
+ANKR_BTC = ANKR_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ANKR_BTC:
+    """
+        name: ANKR-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ANKR-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -803,11 +1123,20 @@ class ANKR_BTC:
         return "ANKR-BTC"
 
 
-ANKR_BTC = ANKR_BTC()
+ANKR_EUR = ANKR_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ANKR_EUR:
+    """
+        name: ANKR-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ANKR-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -826,11 +1155,20 @@ class ANKR_EUR:
         return "ANKR-EUR"
 
 
-ANKR_EUR = ANKR_EUR()
+ANKR_GBP = ANKR_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ANKR_GBP:
+    """
+        name: ANKR-GBP
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ANKR-GBP"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -849,11 +1187,20 @@ class ANKR_GBP:
         return "ANKR-GBP"
 
 
-ANKR_GBP = ANKR_GBP()
+ANKR_USD = ANKR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ANKR_USD:
+    """
+        name: ANKR-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ANKR-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -872,11 +1219,20 @@ class ANKR_USD:
         return "ANKR-USD"
 
 
-ANKR_USD = ANKR_USD()
+ANT_USD = ANT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ANT_USD:
+    """
+        name: ANT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 5.0
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ANT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -895,11 +1251,20 @@ class ANT_USD:
         return "ANT-USD"
 
 
-ANT_USD = ANT_USD()
+APE_EUR = APE_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class APE_EUR:
+    """
+        name: APE-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "APE-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -918,11 +1283,20 @@ class APE_EUR:
         return "APE-EUR"
 
 
-APE_EUR = APE_EUR()
+APE_USD = APE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class APE_USD:
+    """
+        name: APE-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "APE-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -941,11 +1315,20 @@ class APE_USD:
         return "APE-USD"
 
 
-APE_USD = APE_USD()
+APE_USDT = APE_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class APE_USDT:
+    """
+        name: APE-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "APE-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -964,11 +1347,20 @@ class APE_USDT:
         return "APE-USDT"
 
 
-APE_USDT = APE_USDT()
+API3_USD = API3_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class API3_USD:
+    """
+        name: API3-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 5
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "API3-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -987,11 +1379,20 @@ class API3_USD:
         return "API3-USD"
 
 
-API3_USD = API3_USD()
+API3_USDT = API3_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class API3_USDT:
+    """
+        name: API3-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 5
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "API3-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -1010,11 +1411,20 @@ class API3_USDT:
         return "API3-USDT"
 
 
-API3_USDT = API3_USDT()
+APT_USD = APT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class APT_USD:
+    """
+        name: APT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "APT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1033,11 +1443,20 @@ class APT_USD:
         return "APT-USD"
 
 
-APT_USD = APT_USD()
+APT_USDT = APT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class APT_USDT:
+    """
+        name: APT-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "APT-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1056,11 +1475,20 @@ class APT_USDT:
         return "APT-USDT"
 
 
-APT_USDT = APT_USDT()
+ARPA_EUR = ARPA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ARPA_EUR:
+    """
+        name: ARPA-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ARPA-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -1079,11 +1507,20 @@ class ARPA_EUR:
         return "ARPA-EUR"
 
 
-ARPA_EUR = ARPA_EUR()
+ARPA_USD = ARPA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ARPA_USD:
+    """
+        name: ARPA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ARPA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -1102,11 +1539,20 @@ class ARPA_USD:
         return "ARPA-USD"
 
 
-ARPA_USD = ARPA_USD()
+ARPA_USDT = ARPA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ARPA_USDT:
+    """
+        name: ARPA-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ARPA-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -1125,11 +1571,20 @@ class ARPA_USDT:
         return "ARPA-USDT"
 
 
-ARPA_USDT = ARPA_USDT()
+ASM_USD = ASM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ASM_USD:
+    """
+        name: ASM-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ASM-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -1148,11 +1603,20 @@ class ASM_USD:
         return "ASM-USD"
 
 
-ASM_USD = ASM_USD()
+ASM_USDT = ASM_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ASM_USDT:
+    """
+        name: ASM-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ASM-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -1171,11 +1635,20 @@ class ASM_USDT:
         return "ASM-USDT"
 
 
-ASM_USDT = ASM_USDT()
+AST_USD = AST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AST_USD:
+    """
+        name: AST-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AST-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -1194,11 +1667,20 @@ class AST_USD:
         return "AST-USD"
 
 
-AST_USD = AST_USD()
+ATA_USD = ATA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ATA_USD:
+    """
+        name: ATA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -1217,11 +1699,20 @@ class ATA_USD:
         return "ATA-USD"
 
 
-ATA_USD = ATA_USD()
+ATA_USDT = ATA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ATA_USDT:
+    """
+        name: ATA-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATA-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -1240,11 +1731,20 @@ class ATA_USDT:
         return "ATA-USDT"
 
 
-ATA_USDT = ATA_USDT()
+ATOM_BTC = ATOM_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOM_BTC:
+    """
+        name: ATOM-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATOM-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -1263,11 +1763,20 @@ class ATOM_BTC:
         return "ATOM-BTC"
 
 
-ATOM_BTC = ATOM_BTC()
+ATOM_EUR = ATOM_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOM_EUR:
+    """
+        name: ATOM-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATOM-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1286,11 +1795,20 @@ class ATOM_EUR:
         return "ATOM-EUR"
 
 
-ATOM_EUR = ATOM_EUR()
+ATOM_GBP = ATOM_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOM_GBP:
+    """
+        name: ATOM-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATOM-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1309,11 +1827,20 @@ class ATOM_GBP:
         return "ATOM-GBP"
 
 
-ATOM_GBP = ATOM_GBP()
+ATOM_USD = ATOM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOM_USD:
+    """
+        name: ATOM-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATOM-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -1332,11 +1859,20 @@ class ATOM_USD:
         return "ATOM-USD"
 
 
-ATOM_USD = ATOM_USD()
+ATOM_USDT = ATOM_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOM_USDT:
+    """
+        name: ATOM-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ATOM-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1355,11 +1891,20 @@ class ATOM_USDT:
         return "ATOM-USDT"
 
 
-ATOM_USDT = ATOM_USDT()
+AUCTION_EUR = AUCTION_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class AUCTION_EUR:
+    """
+        name: AUCTION-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AUCTION-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1378,11 +1923,20 @@ class AUCTION_EUR:
         return "AUCTION-EUR"
 
 
-AUCTION_EUR = AUCTION_EUR()
+AUCTION_USD = AUCTION_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AUCTION_USD:
+    """
+        name: AUCTION-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AUCTION-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1401,11 +1955,20 @@ class AUCTION_USD:
         return "AUCTION-USD"
 
 
-AUCTION_USD = AUCTION_USD()
+AUCTION_USDT = AUCTION_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class AUCTION_USDT:
+    """
+        name: AUCTION-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AUCTION-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1424,11 +1987,20 @@ class AUCTION_USDT:
         return "AUCTION-USDT"
 
 
-AUCTION_USDT = AUCTION_USDT()
+AURORA_USD = AURORA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AURORA_USD:
+    """
+        name: AURORA-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AURORA-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -1447,11 +2019,20 @@ class AURORA_USD:
         return "AURORA-USD"
 
 
-AURORA_USD = AURORA_USD()
+AVAX_BTC = AVAX_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_BTC:
+    """
+        name: AVAX-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AVAX-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -1470,11 +2051,20 @@ class AVAX_BTC:
         return "AVAX-BTC"
 
 
-AVAX_BTC = AVAX_BTC()
+AVAX_EUR = AVAX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_EUR:
+    """
+        name: AVAX-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AVAX-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1493,11 +2083,20 @@ class AVAX_EUR:
         return "AVAX-EUR"
 
 
-AVAX_EUR = AVAX_EUR()
+AVAX_USD = AVAX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_USD:
+    """
+        name: AVAX-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AVAX-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1516,11 +2115,20 @@ class AVAX_USD:
         return "AVAX-USD"
 
 
-AVAX_USD = AVAX_USD()
+AVAX_USDT = AVAX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_USDT:
+    """
+        name: AVAX-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AVAX-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1539,11 +2147,20 @@ class AVAX_USDT:
         return "AVAX-USDT"
 
 
-AVAX_USDT = AVAX_USDT()
+AVT_USD = AVT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AVT_USD:
+    """
+        name: AVT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AVT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1562,11 +2179,20 @@ class AVT_USD:
         return "AVT-USD"
 
 
-AVT_USD = AVT_USD()
+AXS_BTC = AXS_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class AXS_BTC:
+    """
+        name: AXS-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AXS-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -1585,11 +2211,20 @@ class AXS_BTC:
         return "AXS-BTC"
 
 
-AXS_BTC = AXS_BTC()
+AXS_EUR = AXS_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class AXS_EUR:
+    """
+        name: AXS-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AXS-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1608,11 +2243,20 @@ class AXS_EUR:
         return "AXS-EUR"
 
 
-AXS_EUR = AXS_EUR()
+AXS_USD = AXS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AXS_USD:
+    """
+        name: AXS-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AXS-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1631,11 +2275,20 @@ class AXS_USD:
         return "AXS-USD"
 
 
-AXS_USD = AXS_USD()
+AXS_USDT = AXS_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class AXS_USDT:
+    """
+        name: AXS-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "AXS-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1654,11 +2307,20 @@ class AXS_USDT:
         return "AXS-USDT"
 
 
-AXS_USDT = AXS_USDT()
+BADGER_EUR = BADGER_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BADGER_EUR:
+    """
+        name: BADGER-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BADGER-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1677,11 +2339,20 @@ class BADGER_EUR:
         return "BADGER-EUR"
 
 
-BADGER_EUR = BADGER_EUR()
+BADGER_USD = BADGER_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BADGER_USD:
+    """
+        name: BADGER-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BADGER-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1700,11 +2371,20 @@ class BADGER_USD:
         return "BADGER-USD"
 
 
-BADGER_USD = BADGER_USD()
+BADGER_USDT = BADGER_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BADGER_USDT:
+    """
+        name: BADGER-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BADGER-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1723,11 +2403,20 @@ class BADGER_USDT:
         return "BADGER-USDT"
 
 
-BADGER_USDT = BADGER_USDT()
+BAL_BTC = BAL_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BAL_BTC:
+    """
+        name: BAL-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAL-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -1746,11 +2435,20 @@ class BAL_BTC:
         return "BAL-BTC"
 
 
-BAL_BTC = BAL_BTC()
+BAL_USD = BAL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BAL_USD:
+    """
+        name: BAL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1769,11 +2467,20 @@ class BAL_USD:
         return "BAL-USD"
 
 
-BAL_USD = BAL_USD()
+BAND_BTC = BAND_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_BTC:
+    """
+        name: BAND-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAND-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -1792,11 +2499,20 @@ class BAND_BTC:
         return "BAND-BTC"
 
 
-BAND_BTC = BAND_BTC()
+BAND_EUR = BAND_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_EUR:
+    """
+        name: BAND-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAND-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -1815,11 +2531,20 @@ class BAND_EUR:
         return "BAND-EUR"
 
 
-BAND_EUR = BAND_EUR()
+BAND_GBP = BAND_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_GBP:
+    """
+        name: BAND-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAND-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -1838,11 +2563,20 @@ class BAND_GBP:
         return "BAND-GBP"
 
 
-BAND_GBP = BAND_GBP()
+BAND_USD = BAND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_USD:
+    """
+        name: BAND-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAND-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -1861,11 +2595,20 @@ class BAND_USD:
         return "BAND-USD"
 
 
-BAND_USD = BAND_USD()
+BAT_BTC = BAT_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BAT_BTC:
+    """
+        name: BAT-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAT-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -1884,11 +2627,20 @@ class BAT_BTC:
         return "BAT-BTC"
 
 
-BAT_BTC = BAT_BTC()
+BAT_ETH = BAT_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class BAT_ETH:
+    """
+        name: BAT-ETH
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAT-ETH"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -1907,11 +2659,20 @@ class BAT_ETH:
         return "BAT-ETH"
 
 
-BAT_ETH = BAT_ETH()
+BAT_EUR = BAT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BAT_EUR:
+    """
+        name: BAT-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAT-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -1930,11 +2691,20 @@ class BAT_EUR:
         return "BAT-EUR"
 
 
-BAT_EUR = BAT_EUR()
+BAT_USD = BAT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BAT_USD:
+    """
+        name: BAT-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAT-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -1953,11 +2723,20 @@ class BAT_USD:
         return "BAT-USD"
 
 
-BAT_USD = BAT_USD()
+BAT_USDC = BAT_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class BAT_USDC:
+    """
+        name: BAT-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BAT-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -1976,11 +2755,20 @@ class BAT_USDC:
         return "BAT-USDC"
 
 
-BAT_USDC = BAT_USDC()
+BCH_BTC = BCH_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BCH_BTC:
+    """
+        name: BCH-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BCH-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -1999,11 +2787,20 @@ class BCH_BTC:
         return "BCH-BTC"
 
 
-BCH_BTC = BCH_BTC()
+BCH_EUR = BCH_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BCH_EUR:
+    """
+        name: BCH-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BCH-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2022,11 +2819,20 @@ class BCH_EUR:
         return "BCH-EUR"
 
 
-BCH_EUR = BCH_EUR()
+BCH_GBP = BCH_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BCH_GBP:
+    """
+        name: BCH-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BCH-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2045,11 +2851,20 @@ class BCH_GBP:
         return "BCH-GBP"
 
 
-BCH_GBP = BCH_GBP()
+BCH_USD = BCH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BCH_USD:
+    """
+        name: BCH-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BCH-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2068,11 +2883,20 @@ class BCH_USD:
         return "BCH-USD"
 
 
-BCH_USD = BCH_USD()
+BICO_EUR = BICO_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BICO_EUR:
+    """
+        name: BICO-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BICO-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2091,11 +2915,20 @@ class BICO_EUR:
         return "BICO-EUR"
 
 
-BICO_EUR = BICO_EUR()
+BICO_USD = BICO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BICO_USD:
+    """
+        name: BICO-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BICO-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2114,11 +2947,20 @@ class BICO_USD:
         return "BICO-USD"
 
 
-BICO_USD = BICO_USD()
+BICO_USDT = BICO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BICO_USDT:
+    """
+        name: BICO-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BICO-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2137,11 +2979,20 @@ class BICO_USDT:
         return "BICO-USDT"
 
 
-BICO_USDT = BICO_USDT()
+BIT_USD = BIT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BIT_USD:
+    """
+        name: BIT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BIT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2160,11 +3011,20 @@ class BIT_USD:
         return "BIT-USD"
 
 
-BIT_USD = BIT_USD()
+BIT_USDT = BIT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BIT_USDT:
+    """
+        name: BIT-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BIT-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2183,11 +3043,20 @@ class BIT_USDT:
         return "BIT-USDT"
 
 
-BIT_USDT = BIT_USDT()
+BLZ_USD = BLZ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BLZ_USD:
+    """
+        name: BLZ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BLZ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2206,11 +3075,20 @@ class BLZ_USD:
         return "BLZ-USD"
 
 
-BLZ_USD = BLZ_USD()
+BNT_BTC = BNT_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BNT_BTC:
+    """
+        name: BNT-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BNT-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -2229,11 +3107,20 @@ class BNT_BTC:
         return "BNT-BTC"
 
 
-BNT_BTC = BNT_BTC()
+BNT_EUR = BNT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BNT_EUR:
+    """
+        name: BNT-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BNT-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2252,11 +3139,20 @@ class BNT_EUR:
         return "BNT-EUR"
 
 
-BNT_EUR = BNT_EUR()
+BNT_GBP = BNT_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BNT_GBP:
+    """
+        name: BNT-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BNT-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2275,11 +3171,20 @@ class BNT_GBP:
         return "BNT-GBP"
 
 
-BNT_GBP = BNT_GBP()
+BNT_USD = BNT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BNT_USD:
+    """
+        name: BNT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BNT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2298,11 +3203,20 @@ class BNT_USD:
         return "BNT-USD"
 
 
-BNT_USD = BNT_USD()
+BOBA_USD = BOBA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BOBA_USD:
+    """
+        name: BOBA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BOBA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2321,11 +3235,20 @@ class BOBA_USD:
         return "BOBA-USD"
 
 
-BOBA_USD = BOBA_USD()
+BOBA_USDT = BOBA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BOBA_USDT:
+    """
+        name: BOBA-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BOBA-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2344,11 +3267,20 @@ class BOBA_USDT:
         return "BOBA-USDT"
 
 
-BOBA_USDT = BOBA_USDT()
+BOND_USD = BOND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BOND_USD:
+    """
+        name: BOND-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BOND-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2367,11 +3299,20 @@ class BOND_USD:
         return "BOND-USD"
 
 
-BOND_USD = BOND_USD()
+BOND_USDT = BOND_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BOND_USDT:
+    """
+        name: BOND-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BOND-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2390,11 +3331,20 @@ class BOND_USDT:
         return "BOND-USDT"
 
 
-BOND_USDT = BOND_USDT()
+BTC_EUR = BTC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_EUR:
+    """
+        name: BTC-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTC-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2413,11 +3363,20 @@ class BTC_EUR:
         return "BTC-EUR"
 
 
-BTC_EUR = BTC_EUR()
+BTC_GBP = BTC_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_GBP:
+    """
+        name: BTC-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTC-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2436,11 +3395,20 @@ class BTC_GBP:
         return "BTC-GBP"
 
 
-BTC_GBP = BTC_GBP()
+BTC_USD = BTC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_USD:
+    """
+        name: BTC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2459,11 +3427,20 @@ class BTC_USD:
         return "BTC-USD"
 
 
-BTC_USD = BTC_USD()
+BTC_USDC = BTC_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_USDC:
+    """
+        name: BTC-USDC
+        precision: 1
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTC-USDC"
     precision: int = 1
     minimum_margin: float = None
@@ -2482,11 +3459,20 @@ class BTC_USDC:
         return "BTC-USDC"
 
 
-BTC_USDC = BTC_USDC()
+BTC_USDT = BTC_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_USDT:
+    """
+        name: BTC-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTC-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2505,11 +3491,20 @@ class BTC_USDT:
         return "BTC-USDT"
 
 
-BTC_USDT = BTC_USDT()
+BTRST_BTC = BTRST_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BTRST_BTC:
+    """
+        name: BTRST-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTRST-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -2528,11 +3523,20 @@ class BTRST_BTC:
         return "BTRST-BTC"
 
 
-BTRST_BTC = BTRST_BTC()
+BTRST_EUR = BTRST_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BTRST_EUR:
+    """
+        name: BTRST-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTRST-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2551,11 +3555,20 @@ class BTRST_EUR:
         return "BTRST-EUR"
 
 
-BTRST_EUR = BTRST_EUR()
+BTRST_GBP = BTRST_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BTRST_GBP:
+    """
+        name: BTRST-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTRST-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2574,11 +3587,20 @@ class BTRST_GBP:
         return "BTRST-GBP"
 
 
-BTRST_GBP = BTRST_GBP()
+BTRST_USD = BTRST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTRST_USD:
+    """
+        name: BTRST-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTRST-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2597,11 +3619,20 @@ class BTRST_USD:
         return "BTRST-USD"
 
 
-BTRST_USD = BTRST_USD()
+BTRST_USDT = BTRST_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTRST_USDT:
+    """
+        name: BTRST-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BTRST-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2620,11 +3651,20 @@ class BTRST_USDT:
         return "BTRST-USDT"
 
 
-BTRST_USDT = BTRST_USDT()
+BUSD_USD = BUSD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BUSD_USD:
+    """
+        name: BUSD-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "BUSD-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2643,11 +3683,20 @@ class BUSD_USD:
         return "BUSD-USD"
 
 
-BUSD_USD = BUSD_USD()
+C98_USD = C98_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class C98_USD:
+    """
+        name: C98-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "C98-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2666,11 +3715,20 @@ class C98_USD:
         return "C98-USD"
 
 
-C98_USD = C98_USD()
+C98_USDT = C98_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class C98_USDT:
+    """
+        name: C98-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "C98-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2689,11 +3747,20 @@ class C98_USDT:
         return "C98-USDT"
 
 
-C98_USDT = C98_USDT()
+CBETH_ETH = CBETH_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class CBETH_ETH:
+    """
+        name: CBETH-ETH
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.002
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CBETH-ETH"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -2712,11 +3779,20 @@ class CBETH_ETH:
         return "CBETH-ETH"
 
 
-CBETH_ETH = CBETH_ETH()
+CBETH_USD = CBETH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CBETH_USD:
+    """
+        name: CBETH-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CBETH-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2735,11 +3811,20 @@ class CBETH_USD:
         return "CBETH-USD"
 
 
-CBETH_USD = CBETH_USD()
+CELR_USD = CELR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CELR_USD:
+    """
+        name: CELR-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CELR-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -2758,11 +3843,20 @@ class CELR_USD:
         return "CELR-USD"
 
 
-CELR_USD = CELR_USD()
+CGLD_BTC = CGLD_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class CGLD_BTC:
+    """
+        name: CGLD-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CGLD-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -2781,11 +3875,20 @@ class CGLD_BTC:
         return "CGLD-BTC"
 
 
-CGLD_BTC = CGLD_BTC()
+CGLD_EUR = CGLD_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CGLD_EUR:
+    """
+        name: CGLD-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CGLD-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -2804,11 +3907,20 @@ class CGLD_EUR:
         return "CGLD-EUR"
 
 
-CGLD_EUR = CGLD_EUR()
+CGLD_GBP = CGLD_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class CGLD_GBP:
+    """
+        name: CGLD-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CGLD-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2827,11 +3939,20 @@ class CGLD_GBP:
         return "CGLD-GBP"
 
 
-CGLD_GBP = CGLD_GBP()
+CGLD_USD = CGLD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CGLD_USD:
+    """
+        name: CGLD-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CGLD-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -2850,11 +3971,20 @@ class CGLD_USD:
         return "CGLD-USD"
 
 
-CGLD_USD = CGLD_USD()
+CHZ_EUR = CHZ_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZ_EUR:
+    """
+        name: CHZ-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CHZ-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2873,11 +4003,20 @@ class CHZ_EUR:
         return "CHZ-EUR"
 
 
-CHZ_EUR = CHZ_EUR()
+CHZ_GBP = CHZ_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZ_GBP:
+    """
+        name: CHZ-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CHZ-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2896,11 +4035,20 @@ class CHZ_GBP:
         return "CHZ-GBP"
 
 
-CHZ_GBP = CHZ_GBP()
+CHZ_USD = CHZ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZ_USD:
+    """
+        name: CHZ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CHZ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2919,11 +4067,20 @@ class CHZ_USD:
         return "CHZ-USD"
 
 
-CHZ_USD = CHZ_USD()
+CHZ_USDT = CHZ_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZ_USDT:
+    """
+        name: CHZ-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CHZ-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2942,11 +4099,20 @@ class CHZ_USDT:
         return "CHZ-USDT"
 
 
-CHZ_USDT = CHZ_USDT()
+CLV_EUR = CLV_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CLV_EUR:
+    """
+        name: CLV-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CLV-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -2965,11 +4131,20 @@ class CLV_EUR:
         return "CLV-EUR"
 
 
-CLV_EUR = CLV_EUR()
+CLV_GBP = CLV_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class CLV_GBP:
+    """
+        name: CLV-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CLV-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -2988,11 +4163,20 @@ class CLV_GBP:
         return "CLV-GBP"
 
 
-CLV_GBP = CLV_GBP()
+CLV_USD = CLV_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CLV_USD:
+    """
+        name: CLV-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CLV-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3011,11 +4195,20 @@ class CLV_USD:
         return "CLV-USD"
 
 
-CLV_USD = CLV_USD()
+CLV_USDT = CLV_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class CLV_USDT:
+    """
+        name: CLV-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CLV-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3034,11 +4227,20 @@ class CLV_USDT:
         return "CLV-USDT"
 
 
-CLV_USDT = CLV_USDT()
+COMP_BTC = COMP_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class COMP_BTC:
+    """
+        name: COMP-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "COMP-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -3057,11 +4259,20 @@ class COMP_BTC:
         return "COMP-BTC"
 
 
-COMP_BTC = COMP_BTC()
+COMP_USD = COMP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class COMP_USD:
+    """
+        name: COMP-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "COMP-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3080,11 +4291,20 @@ class COMP_USD:
         return "COMP-USD"
 
 
-COMP_USD = COMP_USD()
+COTI_USD = COTI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class COTI_USD:
+    """
+        name: COTI-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "COTI-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3103,11 +4323,20 @@ class COTI_USD:
         return "COTI-USD"
 
 
-COTI_USD = COTI_USD()
+COVAL_USD = COVAL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class COVAL_USD:
+    """
+        name: COVAL-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "COVAL-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -3126,11 +4355,20 @@ class COVAL_USD:
         return "COVAL-USD"
 
 
-COVAL_USD = COVAL_USD()
+COVAL_USDT = COVAL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class COVAL_USDT:
+    """
+        name: COVAL-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "COVAL-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -3149,11 +4387,20 @@ class COVAL_USDT:
         return "COVAL-USDT"
 
 
-COVAL_USDT = COVAL_USDT()
+CRO_EUR = CRO_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CRO_EUR:
+    """
+        name: CRO-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRO-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3172,11 +4419,20 @@ class CRO_EUR:
         return "CRO-EUR"
 
 
-CRO_EUR = CRO_EUR()
+CRO_USD = CRO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CRO_USD:
+    """
+        name: CRO-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRO-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3195,11 +4451,20 @@ class CRO_USD:
         return "CRO-USD"
 
 
-CRO_USD = CRO_USD()
+CRO_USDT = CRO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class CRO_USDT:
+    """
+        name: CRO-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRO-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3218,11 +4483,20 @@ class CRO_USDT:
         return "CRO-USDT"
 
 
-CRO_USDT = CRO_USDT()
+CRPT_USD = CRPT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CRPT_USD:
+    """
+        name: CRPT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRPT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3241,11 +4515,20 @@ class CRPT_USD:
         return "CRPT-USD"
 
 
-CRPT_USD = CRPT_USD()
+CRV_BTC = CRV_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class CRV_BTC:
+    """
+        name: CRV-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRV-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -3264,11 +4547,20 @@ class CRV_BTC:
         return "CRV-BTC"
 
 
-CRV_BTC = CRV_BTC()
+CRV_EUR = CRV_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CRV_EUR:
+    """
+        name: CRV-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRV-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3287,11 +4579,20 @@ class CRV_EUR:
         return "CRV-EUR"
 
 
-CRV_EUR = CRV_EUR()
+CRV_GBP = CRV_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class CRV_GBP:
+    """
+        name: CRV-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRV-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3310,11 +4611,20 @@ class CRV_GBP:
         return "CRV-GBP"
 
 
-CRV_GBP = CRV_GBP()
+CRV_USD = CRV_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CRV_USD:
+    """
+        name: CRV-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CRV-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3333,11 +4643,20 @@ class CRV_USD:
         return "CRV-USD"
 
 
-CRV_USD = CRV_USD()
+CTSI_BTC = CTSI_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class CTSI_BTC:
+    """
+        name: CTSI-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CTSI-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -3356,11 +4675,20 @@ class CTSI_BTC:
         return "CTSI-BTC"
 
 
-CTSI_BTC = CTSI_BTC()
+CTSI_USD = CTSI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CTSI_USD:
+    """
+        name: CTSI-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CTSI-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3379,11 +4707,20 @@ class CTSI_USD:
         return "CTSI-USD"
 
 
-CTSI_USD = CTSI_USD()
+CTX_EUR = CTX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class CTX_EUR:
+    """
+        name: CTX-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CTX-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3402,11 +4739,20 @@ class CTX_EUR:
         return "CTX-EUR"
 
 
-CTX_EUR = CTX_EUR()
+CTX_USD = CTX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CTX_USD:
+    """
+        name: CTX-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 5
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CTX-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3425,11 +4771,20 @@ class CTX_USD:
         return "CTX-USD"
 
 
-CTX_USD = CTX_USD()
+CTX_USDT = CTX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class CTX_USDT:
+    """
+        name: CTX-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 5
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CTX-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3448,11 +4803,20 @@ class CTX_USDT:
         return "CTX-USDT"
 
 
-CTX_USDT = CTX_USDT()
+CVC_USD = CVC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CVC_USD:
+    """
+        name: CVC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CVC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3471,11 +4835,20 @@ class CVC_USD:
         return "CVC-USD"
 
 
-CVC_USD = CVC_USD()
+CVC_USDC = CVC_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class CVC_USDC:
+    """
+        name: CVC-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CVC-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -3494,11 +4867,20 @@ class CVC_USDC:
         return "CVC-USDC"
 
 
-CVC_USDC = CVC_USDC()
+CVX_USD = CVX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CVX_USD:
+    """
+        name: CVX-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "CVX-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -3517,11 +4899,20 @@ class CVX_USD:
         return "CVX-USD"
 
 
-CVX_USD = CVX_USD()
+DAI_USD = DAI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DAI_USD:
+    """
+        name: DAI-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DAI-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3540,11 +4931,20 @@ class DAI_USD:
         return "DAI-USD"
 
 
-DAI_USD = DAI_USD()
+DAI_USDC = DAI_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class DAI_USDC:
+    """
+        name: DAI-USDC
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DAI-USDC"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3563,11 +4963,20 @@ class DAI_USDC:
         return "DAI-USDC"
 
 
-DAI_USDC = DAI_USDC()
+DAR_USD = DAR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DAR_USD:
+    """
+        name: DAR-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DAR-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -3586,11 +4995,20 @@ class DAR_USD:
         return "DAR-USD"
 
 
-DAR_USD = DAR_USD()
+DASH_BTC = DASH_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DASH_BTC:
+    """
+        name: DASH-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DASH-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -3609,11 +5027,20 @@ class DASH_BTC:
         return "DASH-BTC"
 
 
-DASH_BTC = DASH_BTC()
+DASH_USD = DASH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DASH_USD:
+    """
+        name: DASH-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DASH-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3632,11 +5059,20 @@ class DASH_USD:
         return "DASH-USD"
 
 
-DASH_USD = DASH_USD()
+DDX_EUR = DDX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class DDX_EUR:
+    """
+        name: DDX-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DDX-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3655,11 +5091,20 @@ class DDX_EUR:
         return "DDX-EUR"
 
 
-DDX_EUR = DDX_EUR()
+DDX_USD = DDX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DDX_USD:
+    """
+        name: DDX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DDX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3678,11 +5123,20 @@ class DDX_USD:
         return "DDX-USD"
 
 
-DDX_USD = DDX_USD()
+DDX_USDT = DDX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DDX_USDT:
+    """
+        name: DDX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DDX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3701,11 +5155,20 @@ class DDX_USDT:
         return "DDX-USDT"
 
 
-DDX_USDT = DDX_USDT()
+DESO_EUR = DESO_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class DESO_EUR:
+    """
+        name: DESO-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DESO-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3724,11 +5187,20 @@ class DESO_EUR:
         return "DESO-EUR"
 
 
-DESO_EUR = DESO_EUR()
+DESO_USD = DESO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DESO_USD:
+    """
+        name: DESO-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DESO-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3747,11 +5219,20 @@ class DESO_USD:
         return "DESO-USD"
 
 
-DESO_USD = DESO_USD()
+DESO_USDT = DESO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DESO_USDT:
+    """
+        name: DESO-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DESO-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -3770,11 +5251,20 @@ class DESO_USDT:
         return "DESO-USDT"
 
 
-DESO_USDT = DESO_USDT()
+DEXT_USD = DEXT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DEXT_USD:
+    """
+        name: DEXT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DEXT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3793,11 +5283,20 @@ class DEXT_USD:
         return "DEXT-USD"
 
 
-DEXT_USD = DEXT_USD()
+DIA_EUR = DIA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class DIA_EUR:
+    """
+        name: DIA-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DIA-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -3816,11 +5315,20 @@ class DIA_EUR:
         return "DIA-EUR"
 
 
-DIA_EUR = DIA_EUR()
+DIA_USD = DIA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DIA_USD:
+    """
+        name: DIA-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DIA-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -3839,11 +5347,20 @@ class DIA_USD:
         return "DIA-USD"
 
 
-DIA_USD = DIA_USD()
+DIA_USDT = DIA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DIA_USDT:
+    """
+        name: DIA-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DIA-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -3862,11 +5379,20 @@ class DIA_USDT:
         return "DIA-USDT"
 
 
-DIA_USDT = DIA_USDT()
+DNT_USD = DNT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DNT_USD:
+    """
+        name: DNT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DNT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3885,11 +5411,20 @@ class DNT_USD:
         return "DNT-USD"
 
 
-DNT_USD = DNT_USD()
+DNT_USDC = DNT_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class DNT_USDC:
+    """
+        name: DNT-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DNT-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -3908,11 +5443,20 @@ class DNT_USDC:
         return "DNT-USDC"
 
 
-DNT_USDC = DNT_USDC()
+DOGE_BTC = DOGE_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_BTC:
+    """
+        name: DOGE-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOGE-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -3931,11 +5475,20 @@ class DOGE_BTC:
         return "DOGE-BTC"
 
 
-DOGE_BTC = DOGE_BTC()
+DOGE_EUR = DOGE_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_EUR:
+    """
+        name: DOGE-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOGE-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3954,11 +5507,20 @@ class DOGE_EUR:
         return "DOGE-EUR"
 
 
-DOGE_EUR = DOGE_EUR()
+DOGE_GBP = DOGE_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_GBP:
+    """
+        name: DOGE-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOGE-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -3977,11 +5539,20 @@ class DOGE_GBP:
         return "DOGE-GBP"
 
 
-DOGE_GBP = DOGE_GBP()
+DOGE_USD = DOGE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_USD:
+    """
+        name: DOGE-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOGE-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -4000,11 +5571,20 @@ class DOGE_USD:
         return "DOGE-USD"
 
 
-DOGE_USD = DOGE_USD()
+DOGE_USDT = DOGE_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_USDT:
+    """
+        name: DOGE-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOGE-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4023,11 +5603,20 @@ class DOGE_USDT:
         return "DOGE-USDT"
 
 
-DOGE_USDT = DOGE_USDT()
+DOT_BTC = DOT_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DOT_BTC:
+    """
+        name: DOT-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOT-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -4046,11 +5635,20 @@ class DOT_BTC:
         return "DOT-BTC"
 
 
-DOT_BTC = DOT_BTC()
+DOT_EUR = DOT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class DOT_EUR:
+    """
+        name: DOT-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOT-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4069,11 +5667,20 @@ class DOT_EUR:
         return "DOT-EUR"
 
 
-DOT_EUR = DOT_EUR()
+DOT_GBP = DOT_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class DOT_GBP:
+    """
+        name: DOT-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOT-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4092,11 +5699,20 @@ class DOT_GBP:
         return "DOT-GBP"
 
 
-DOT_GBP = DOT_GBP()
+DOT_USD = DOT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DOT_USD:
+    """
+        name: DOT-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOT-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -4115,11 +5731,20 @@ class DOT_USD:
         return "DOT-USD"
 
 
-DOT_USD = DOT_USD()
+DOT_USDT = DOT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DOT_USDT:
+    """
+        name: DOT-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DOT-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4138,11 +5763,20 @@ class DOT_USDT:
         return "DOT-USDT"
 
 
-DOT_USDT = DOT_USDT()
+DREP_USD = DREP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DREP_USD:
+    """
+        name: DREP-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DREP-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4161,11 +5795,20 @@ class DREP_USD:
         return "DREP-USD"
 
 
-DREP_USD = DREP_USD()
+DREP_USDT = DREP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DREP_USDT:
+    """
+        name: DREP-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DREP-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4184,11 +5827,20 @@ class DREP_USDT:
         return "DREP-USDT"
 
 
-DREP_USDT = DREP_USDT()
+DYP_USD = DYP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DYP_USD:
+    """
+        name: DYP-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DYP-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -4207,11 +5859,20 @@ class DYP_USD:
         return "DYP-USD"
 
 
-DYP_USD = DYP_USD()
+DYP_USDT = DYP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class DYP_USDT:
+    """
+        name: DYP-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "DYP-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -4230,11 +5891,20 @@ class DYP_USDT:
         return "DYP-USDT"
 
 
-DYP_USDT = DYP_USDT()
+EGLD_USD = EGLD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class EGLD_USD:
+    """
+        name: EGLD-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "EGLD-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4253,11 +5923,20 @@ class EGLD_USD:
         return "EGLD-USD"
 
 
-EGLD_USD = EGLD_USD()
+ELA_USD = ELA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ELA_USD:
+    """
+        name: ELA-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ELA-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -4276,11 +5955,20 @@ class ELA_USD:
         return "ELA-USD"
 
 
-ELA_USD = ELA_USD()
+ELA_USDT = ELA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ELA_USDT:
+    """
+        name: ELA-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ELA-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -4299,11 +5987,20 @@ class ELA_USDT:
         return "ELA-USDT"
 
 
-ELA_USDT = ELA_USDT()
+ENJ_BTC = ENJ_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ENJ_BTC:
+    """
+        name: ENJ-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENJ-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -4322,11 +6019,20 @@ class ENJ_BTC:
         return "ENJ-BTC"
 
 
-ENJ_BTC = ENJ_BTC()
+ENJ_USD = ENJ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ENJ_USD:
+    """
+        name: ENJ-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENJ-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -4345,11 +6051,20 @@ class ENJ_USD:
         return "ENJ-USD"
 
 
-ENJ_USD = ENJ_USD()
+ENJ_USDT = ENJ_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ENJ_USDT:
+    """
+        name: ENJ-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENJ-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -4368,11 +6083,20 @@ class ENJ_USDT:
         return "ENJ-USDT"
 
 
-ENJ_USDT = ENJ_USDT()
+ENS_EUR = ENS_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ENS_EUR:
+    """
+        name: ENS-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENS-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4391,11 +6115,20 @@ class ENS_EUR:
         return "ENS-EUR"
 
 
-ENS_EUR = ENS_EUR()
+ENS_USD = ENS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ENS_USD:
+    """
+        name: ENS-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENS-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4414,11 +6147,20 @@ class ENS_USD:
         return "ENS-USD"
 
 
-ENS_USD = ENS_USD()
+ENS_USDT = ENS_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ENS_USDT:
+    """
+        name: ENS-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ENS-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4437,11 +6179,20 @@ class ENS_USDT:
         return "ENS-USDT"
 
 
-ENS_USDT = ENS_USDT()
+EOS_BTC = EOS_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class EOS_BTC:
+    """
+        name: EOS-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "EOS-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -4460,11 +6211,20 @@ class EOS_BTC:
         return "EOS-BTC"
 
 
-EOS_BTC = EOS_BTC()
+EOS_EUR = EOS_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class EOS_EUR:
+    """
+        name: EOS-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "EOS-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4483,11 +6243,20 @@ class EOS_EUR:
         return "EOS-EUR"
 
 
-EOS_EUR = EOS_EUR()
+EOS_USD = EOS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class EOS_USD:
+    """
+        name: EOS-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "EOS-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4506,11 +6275,20 @@ class EOS_USD:
         return "EOS-USD"
 
 
-EOS_USD = EOS_USD()
+ERN_EUR = ERN_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ERN_EUR:
+    """
+        name: ERN-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ERN-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4529,11 +6307,20 @@ class ERN_EUR:
         return "ERN-EUR"
 
 
-ERN_EUR = ERN_EUR()
+ERN_USD = ERN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ERN_USD:
+    """
+        name: ERN-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ERN-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4552,11 +6339,20 @@ class ERN_USD:
         return "ERN-USD"
 
 
-ERN_USD = ERN_USD()
+ERN_USDT = ERN_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ERN_USDT:
+    """
+        name: ERN-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ERN-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4575,11 +6371,20 @@ class ERN_USDT:
         return "ERN-USDT"
 
 
-ERN_USDT = ERN_USDT()
+ETC_BTC = ETC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ETC_BTC:
+    """
+        name: ETC-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETC-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -4598,11 +6403,20 @@ class ETC_BTC:
         return "ETC-BTC"
 
 
-ETC_BTC = ETC_BTC()
+ETC_EUR = ETC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ETC_EUR:
+    """
+        name: ETC-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETC-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4621,11 +6435,20 @@ class ETC_EUR:
         return "ETC-EUR"
 
 
-ETC_EUR = ETC_EUR()
+ETC_GBP = ETC_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ETC_GBP:
+    """
+        name: ETC-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETC-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4644,11 +6467,20 @@ class ETC_GBP:
         return "ETC-GBP"
 
 
-ETC_GBP = ETC_GBP()
+ETC_USD = ETC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETC_USD:
+    """
+        name: ETC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4667,11 +6499,20 @@ class ETC_USD:
         return "ETC-USD"
 
 
-ETC_USD = ETC_USD()
+ETH_BTC = ETH_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_BTC:
+    """
+        name: ETH-BTC
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-BTC"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -4690,11 +6531,20 @@ class ETH_BTC:
         return "ETH-BTC"
 
 
-ETH_BTC = ETH_BTC()
+ETH_DAI = ETH_DAI()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_DAI:
+    """
+        name: ETH-DAI
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-DAI"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4713,11 +6563,20 @@ class ETH_DAI:
         return "ETH-DAI"
 
 
-ETH_DAI = ETH_DAI()
+ETH_EUR = ETH_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_EUR:
+    """
+        name: ETH-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4736,11 +6595,20 @@ class ETH_EUR:
         return "ETH-EUR"
 
 
-ETH_EUR = ETH_EUR()
+ETH_GBP = ETH_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_GBP:
+    """
+        name: ETH-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4759,11 +6627,20 @@ class ETH_GBP:
         return "ETH-GBP"
 
 
-ETH_GBP = ETH_GBP()
+ETH_USD = ETH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_USD:
+    """
+        name: ETH-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4782,11 +6659,20 @@ class ETH_USD:
         return "ETH-USD"
 
 
-ETH_USD = ETH_USD()
+ETH_USDC = ETH_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_USDC:
+    """
+        name: ETH-USDC
+        precision: 1
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-USDC"
     precision: int = 1
     minimum_margin: float = None
@@ -4805,11 +6691,20 @@ class ETH_USDC:
         return "ETH-USDC"
 
 
-ETH_USDC = ETH_USDC()
+ETH_USDT = ETH_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_USDT:
+    """
+        name: ETH-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ETH-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4828,11 +6723,20 @@ class ETH_USDT:
         return "ETH-USDT"
 
 
-ETH_USDT = ETH_USDT()
+FARM_USD = FARM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FARM_USD:
+    """
+        name: FARM-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FARM-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4851,11 +6755,20 @@ class FARM_USD:
         return "FARM-USD"
 
 
-FARM_USD = FARM_USD()
+FARM_USDT = FARM_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FARM_USDT:
+    """
+        name: FARM-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FARM-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -4874,11 +6787,20 @@ class FARM_USDT:
         return "FARM-USDT"
 
 
-FARM_USDT = FARM_USDT()
+FET_USD = FET_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FET_USD:
+    """
+        name: FET-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FET-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4897,11 +6819,20 @@ class FET_USD:
         return "FET-USD"
 
 
-FET_USD = FET_USD()
+FET_USDT = FET_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FET_USDT:
+    """
+        name: FET-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FET-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4920,11 +6851,20 @@ class FET_USDT:
         return "FET-USDT"
 
 
-FET_USDT = FET_USDT()
+FIDA_EUR = FIDA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class FIDA_EUR:
+    """
+        name: FIDA-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIDA-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4943,11 +6883,20 @@ class FIDA_EUR:
         return "FIDA-EUR"
 
 
-FIDA_EUR = FIDA_EUR()
+FIDA_USD = FIDA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FIDA_USD:
+    """
+        name: FIDA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIDA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4966,11 +6915,20 @@ class FIDA_USD:
         return "FIDA-USD"
 
 
-FIDA_USD = FIDA_USD()
+FIDA_USDT = FIDA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FIDA_USDT:
+    """
+        name: FIDA-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIDA-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -4989,11 +6947,20 @@ class FIDA_USDT:
         return "FIDA-USDT"
 
 
-FIDA_USDT = FIDA_USDT()
+FIL_BTC = FIL_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class FIL_BTC:
+    """
+        name: FIL-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIL-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -5012,11 +6979,20 @@ class FIL_BTC:
         return "FIL-BTC"
 
 
-FIL_BTC = FIL_BTC()
+FIL_EUR = FIL_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class FIL_EUR:
+    """
+        name: FIL-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIL-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5035,11 +7011,20 @@ class FIL_EUR:
         return "FIL-EUR"
 
 
-FIL_EUR = FIL_EUR()
+FIL_GBP = FIL_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class FIL_GBP:
+    """
+        name: FIL-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIL-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5058,11 +7043,20 @@ class FIL_GBP:
         return "FIL-GBP"
 
 
-FIL_GBP = FIL_GBP()
+FIL_USD = FIL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FIL_USD:
+    """
+        name: FIL-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIL-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5081,11 +7075,20 @@ class FIL_USD:
         return "FIL-USD"
 
 
-FIL_USD = FIL_USD()
+FIS_USD = FIS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FIS_USD:
+    """
+        name: FIS-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIS-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5104,11 +7107,20 @@ class FIS_USD:
         return "FIS-USD"
 
 
-FIS_USD = FIS_USD()
+FIS_USDT = FIS_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FIS_USDT:
+    """
+        name: FIS-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FIS-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5127,11 +7139,20 @@ class FIS_USDT:
         return "FIS-USDT"
 
 
-FIS_USDT = FIS_USDT()
+FLOW_USD = FLOW_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FLOW_USD:
+    """
+        name: FLOW-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FLOW-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5150,11 +7171,20 @@ class FLOW_USD:
         return "FLOW-USD"
 
 
-FLOW_USD = FLOW_USD()
+FLOW_USDT = FLOW_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FLOW_USDT:
+    """
+        name: FLOW-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FLOW-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5173,11 +7203,20 @@ class FLOW_USDT:
         return "FLOW-USDT"
 
 
-FLOW_USDT = FLOW_USDT()
+FORT_USD = FORT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FORT_USD:
+    """
+        name: FORT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5196,11 +7235,20 @@ class FORT_USD:
         return "FORT-USD"
 
 
-FORT_USD = FORT_USD()
+FORT_USDT = FORT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FORT_USDT:
+    """
+        name: FORT-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORT-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5219,11 +7267,20 @@ class FORT_USDT:
         return "FORT-USDT"
 
 
-FORT_USDT = FORT_USDT()
+FORTH_BTC = FORTH_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_BTC:
+    """
+        name: FORTH-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORTH-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -5242,11 +7299,20 @@ class FORTH_BTC:
         return "FORTH-BTC"
 
 
-FORTH_BTC = FORTH_BTC()
+FORTH_EUR = FORTH_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_EUR:
+    """
+        name: FORTH-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORTH-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5265,11 +7331,20 @@ class FORTH_EUR:
         return "FORTH-EUR"
 
 
-FORTH_EUR = FORTH_EUR()
+FORTH_GBP = FORTH_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_GBP:
+    """
+        name: FORTH-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORTH-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5288,11 +7363,20 @@ class FORTH_GBP:
         return "FORTH-GBP"
 
 
-FORTH_GBP = FORTH_GBP()
+FORTH_USD = FORTH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_USD:
+    """
+        name: FORTH-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FORTH-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5311,11 +7395,20 @@ class FORTH_USD:
         return "FORTH-USD"
 
 
-FORTH_USD = FORTH_USD()
+FOX_USD = FOX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FOX_USD:
+    """
+        name: FOX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FOX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5334,11 +7427,20 @@ class FOX_USD:
         return "FOX-USD"
 
 
-FOX_USD = FOX_USD()
+FOX_USDT = FOX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class FOX_USDT:
+    """
+        name: FOX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FOX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5357,11 +7459,20 @@ class FOX_USDT:
         return "FOX-USDT"
 
 
-FOX_USDT = FOX_USDT()
+FX_USD = FX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FX_USD:
+    """
+        name: FX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "FX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5380,11 +7491,20 @@ class FX_USD:
         return "FX-USD"
 
 
-FX_USD = FX_USD()
+GAL_USD = GAL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GAL_USD:
+    """
+        name: GAL-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GAL-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5403,11 +7523,20 @@ class GAL_USD:
         return "GAL-USD"
 
 
-GAL_USD = GAL_USD()
+GAL_USDT = GAL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class GAL_USDT:
+    """
+        name: GAL-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GAL-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5426,11 +7555,20 @@ class GAL_USDT:
         return "GAL-USDT"
 
 
-GAL_USDT = GAL_USDT()
+GALA_EUR = GALA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class GALA_EUR:
+    """
+        name: GALA-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GALA-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5449,11 +7587,20 @@ class GALA_EUR:
         return "GALA-EUR"
 
 
-GALA_EUR = GALA_EUR()
+GALA_USD = GALA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GALA_USD:
+    """
+        name: GALA-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GALA-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -5472,11 +7619,20 @@ class GALA_USD:
         return "GALA-USD"
 
 
-GALA_USD = GALA_USD()
+GALA_USDT = GALA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class GALA_USDT:
+    """
+        name: GALA-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GALA-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -5495,11 +7651,20 @@ class GALA_USDT:
         return "GALA-USDT"
 
 
-GALA_USDT = GALA_USDT()
+GFI_USD = GFI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GFI_USD:
+    """
+        name: GFI-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GFI-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5518,11 +7683,20 @@ class GFI_USD:
         return "GFI-USD"
 
 
-GFI_USD = GFI_USD()
+GHST_USD = GHST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GHST_USD:
+    """
+        name: GHST-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GHST-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5541,11 +7715,20 @@ class GHST_USD:
         return "GHST-USD"
 
 
-GHST_USD = GHST_USD()
+GLM_USD = GLM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GLM_USD:
+    """
+        name: GLM-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GLM-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5564,11 +7747,20 @@ class GLM_USD:
         return "GLM-USD"
 
 
-GLM_USD = GLM_USD()
+GMT_USD = GMT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GMT_USD:
+    """
+        name: GMT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GMT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5587,11 +7779,20 @@ class GMT_USD:
         return "GMT-USD"
 
 
-GMT_USD = GMT_USD()
+GMT_USDT = GMT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class GMT_USDT:
+    """
+        name: GMT-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GMT-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5610,11 +7811,20 @@ class GMT_USDT:
         return "GMT-USDT"
 
 
-GMT_USDT = GMT_USDT()
+GNO_USD = GNO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GNO_USD:
+    """
+        name: GNO-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GNO-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5633,11 +7843,20 @@ class GNO_USD:
         return "GNO-USD"
 
 
-GNO_USD = GNO_USD()
+GNO_USDT = GNO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class GNO_USDT:
+    """
+        name: GNO-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GNO-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5656,11 +7875,20 @@ class GNO_USDT:
         return "GNO-USDT"
 
 
-GNO_USDT = GNO_USDT()
+GNT_USDC = GNT_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class GNT_USDC:
+    """
+        name: GNT-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GNT-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -5679,11 +7907,20 @@ class GNT_USDC:
         return "GNT-USDC"
 
 
-GNT_USDC = GNT_USDC()
+GODS_USD = GODS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GODS_USD:
+    """
+        name: GODS-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GODS-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -5702,11 +7939,20 @@ class GODS_USD:
         return "GODS-USD"
 
 
-GODS_USD = GODS_USD()
+GRT_BTC = GRT_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class GRT_BTC:
+    """
+        name: GRT-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GRT-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -5725,11 +7971,20 @@ class GRT_BTC:
         return "GRT-BTC"
 
 
-GRT_BTC = GRT_BTC()
+GRT_EUR = GRT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class GRT_EUR:
+    """
+        name: GRT-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GRT-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5748,11 +8003,20 @@ class GRT_EUR:
         return "GRT-EUR"
 
 
-GRT_EUR = GRT_EUR()
+GRT_GBP = GRT_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class GRT_GBP:
+    """
+        name: GRT-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GRT-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5771,11 +8035,20 @@ class GRT_GBP:
         return "GRT-GBP"
 
 
-GRT_GBP = GRT_GBP()
+GRT_USD = GRT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GRT_USD:
+    """
+        name: GRT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GRT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5794,11 +8067,20 @@ class GRT_USD:
         return "GRT-USD"
 
 
-GRT_USD = GRT_USD()
+GST_USD = GST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GST_USD:
+    """
+        name: GST-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GST-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -5817,11 +8099,20 @@ class GST_USD:
         return "GST-USD"
 
 
-GST_USD = GST_USD()
+GTC_USD = GTC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GTC_USD:
+    """
+        name: GTC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GTC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -5840,11 +8131,20 @@ class GTC_USD:
         return "GTC-USD"
 
 
-GTC_USD = GTC_USD()
+GUSD_USD = GUSD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GUSD_USD:
+    """
+        name: GUSD-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GUSD-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -5863,11 +8163,20 @@ class GUSD_USD:
         return "GUSD-USD"
 
 
-GUSD_USD = GUSD_USD()
+GYEN_USD = GYEN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GYEN_USD:
+    """
+        name: GYEN-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "GYEN-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -5886,11 +8195,20 @@ class GYEN_USD:
         return "GYEN-USD"
 
 
-GYEN_USD = GYEN_USD()
+HBAR_USD = HBAR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class HBAR_USD:
+    """
+        name: HBAR-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HBAR-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -5909,11 +8227,20 @@ class HBAR_USD:
         return "HBAR-USD"
 
 
-HBAR_USD = HBAR_USD()
+HBAR_USDT = HBAR_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class HBAR_USDT:
+    """
+        name: HBAR-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HBAR-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -5932,11 +8259,20 @@ class HBAR_USDT:
         return "HBAR-USDT"
 
 
-HBAR_USDT = HBAR_USDT()
+HFT_USD = HFT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class HFT_USD:
+    """
+        name: HFT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HFT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5955,11 +8291,20 @@ class HFT_USD:
         return "HFT-USD"
 
 
-HFT_USD = HFT_USD()
+HFT_USDT = HFT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class HFT_USDT:
+    """
+        name: HFT-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HFT-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -5978,11 +8323,20 @@ class HFT_USDT:
         return "HFT-USDT"
 
 
-HFT_USDT = HFT_USDT()
+HIGH_USD = HIGH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class HIGH_USD:
+    """
+        name: HIGH-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HIGH-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -6001,11 +8355,20 @@ class HIGH_USD:
         return "HIGH-USD"
 
 
-HIGH_USD = HIGH_USD()
+HOPR_USD = HOPR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class HOPR_USD:
+    """
+        name: HOPR-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HOPR-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6024,11 +8387,20 @@ class HOPR_USD:
         return "HOPR-USD"
 
 
-HOPR_USD = HOPR_USD()
+HOPR_USDT = HOPR_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class HOPR_USDT:
+    """
+        name: HOPR-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "HOPR-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6047,11 +8419,20 @@ class HOPR_USDT:
         return "HOPR-USDT"
 
 
-HOPR_USDT = HOPR_USDT()
+ICP_BTC = ICP_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ICP_BTC:
+    """
+        name: ICP-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ICP-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -6070,11 +8451,20 @@ class ICP_BTC:
         return "ICP-BTC"
 
 
-ICP_BTC = ICP_BTC()
+ICP_EUR = ICP_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ICP_EUR:
+    """
+        name: ICP-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ICP-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6093,11 +8483,20 @@ class ICP_EUR:
         return "ICP-EUR"
 
 
-ICP_EUR = ICP_EUR()
+ICP_GBP = ICP_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ICP_GBP:
+    """
+        name: ICP-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ICP-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6116,11 +8515,20 @@ class ICP_GBP:
         return "ICP-GBP"
 
 
-ICP_GBP = ICP_GBP()
+ICP_USD = ICP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ICP_USD:
+    """
+        name: ICP-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ICP-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -6139,11 +8547,20 @@ class ICP_USD:
         return "ICP-USD"
 
 
-ICP_USD = ICP_USD()
+ICP_USDT = ICP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ICP_USDT:
+    """
+        name: ICP-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ICP-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6162,11 +8579,20 @@ class ICP_USDT:
         return "ICP-USDT"
 
 
-ICP_USDT = ICP_USDT()
+IDEX_USD = IDEX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class IDEX_USD:
+    """
+        name: IDEX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IDEX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6185,11 +8611,20 @@ class IDEX_USD:
         return "IDEX-USD"
 
 
-IDEX_USD = IDEX_USD()
+IDEX_USDT = IDEX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class IDEX_USDT:
+    """
+        name: IDEX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IDEX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6208,11 +8643,20 @@ class IDEX_USDT:
         return "IDEX-USDT"
 
 
-IDEX_USDT = IDEX_USDT()
+ILV_USD = ILV_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ILV_USD:
+    """
+        name: ILV-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ILV-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6231,11 +8675,20 @@ class ILV_USD:
         return "ILV-USD"
 
 
-ILV_USD = ILV_USD()
+IMX_USD = IMX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class IMX_USD:
+    """
+        name: IMX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IMX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6254,11 +8707,20 @@ class IMX_USD:
         return "IMX-USD"
 
 
-IMX_USD = IMX_USD()
+IMX_USDT = IMX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class IMX_USDT:
+    """
+        name: IMX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IMX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6277,11 +8739,20 @@ class IMX_USDT:
         return "IMX-USDT"
 
 
-IMX_USDT = IMX_USDT()
+INDEX_USD = INDEX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class INDEX_USD:
+    """
+        name: INDEX-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "INDEX-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6300,11 +8771,20 @@ class INDEX_USD:
         return "INDEX-USD"
 
 
-INDEX_USD = INDEX_USD()
+INDEX_USDT = INDEX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class INDEX_USDT:
+    """
+        name: INDEX-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "INDEX-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6323,11 +8803,20 @@ class INDEX_USDT:
         return "INDEX-USDT"
 
 
-INDEX_USDT = INDEX_USDT()
+INJ_USD = INJ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class INJ_USD:
+    """
+        name: INJ-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "INJ-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -6346,11 +8835,20 @@ class INJ_USD:
         return "INJ-USD"
 
 
-INJ_USD = INJ_USD()
+INV_USD = INV_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class INV_USD:
+    """
+        name: INV-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "INV-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6369,11 +8867,20 @@ class INV_USD:
         return "INV-USD"
 
 
-INV_USD = INV_USD()
+IOTX_EUR = IOTX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTX_EUR:
+    """
+        name: IOTX-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IOTX-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -6392,11 +8899,20 @@ class IOTX_EUR:
         return "IOTX-EUR"
 
 
-IOTX_EUR = IOTX_EUR()
+IOTX_USD = IOTX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTX_USD:
+    """
+        name: IOTX-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "IOTX-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -6415,11 +8931,20 @@ class IOTX_USD:
         return "IOTX-USD"
 
 
-IOTX_USD = IOTX_USD()
+JASMY_USD = JASMY_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class JASMY_USD:
+    """
+        name: JASMY-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "JASMY-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -6438,11 +8963,20 @@ class JASMY_USD:
         return "JASMY-USD"
 
 
-JASMY_USD = JASMY_USD()
+JASMY_USDT = JASMY_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class JASMY_USDT:
+    """
+        name: JASMY-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "JASMY-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -6461,11 +8995,20 @@ class JASMY_USDT:
         return "JASMY-USDT"
 
 
-JASMY_USDT = JASMY_USDT()
+JUP_USD = JUP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class JUP_USD:
+    """
+        name: JUP-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "JUP-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -6484,11 +9027,20 @@ class JUP_USD:
         return "JUP-USD"
 
 
-JUP_USD = JUP_USD()
+KEEP_USD = KEEP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class KEEP_USD:
+    """
+        name: KEEP-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KEEP-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6507,11 +9059,20 @@ class KEEP_USD:
         return "KEEP-USD"
 
 
-KEEP_USD = KEEP_USD()
+KNC_BTC = KNC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class KNC_BTC:
+    """
+        name: KNC-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KNC-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -6530,11 +9091,20 @@ class KNC_BTC:
         return "KNC-BTC"
 
 
-KNC_BTC = KNC_BTC()
+KNC_USD = KNC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class KNC_USD:
+    """
+        name: KNC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KNC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6553,11 +9123,20 @@ class KNC_USD:
         return "KNC-USD"
 
 
-KNC_USD = KNC_USD()
+KRL_EUR = KRL_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class KRL_EUR:
+    """
+        name: KRL-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KRL-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6576,11 +9155,20 @@ class KRL_EUR:
         return "KRL-EUR"
 
 
-KRL_EUR = KRL_EUR()
+KRL_USD = KRL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class KRL_USD:
+    """
+        name: KRL-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KRL-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6599,11 +9187,20 @@ class KRL_USD:
         return "KRL-USD"
 
 
-KRL_USD = KRL_USD()
+KRL_USDT = KRL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class KRL_USDT:
+    """
+        name: KRL-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KRL-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6622,11 +9219,20 @@ class KRL_USDT:
         return "KRL-USDT"
 
 
-KRL_USDT = KRL_USDT()
+KSM_USD = KSM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class KSM_USD:
+    """
+        name: KSM-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KSM-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6645,11 +9251,20 @@ class KSM_USD:
         return "KSM-USD"
 
 
-KSM_USD = KSM_USD()
+KSM_USDT = KSM_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class KSM_USDT:
+    """
+        name: KSM-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "KSM-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6668,11 +9283,20 @@ class KSM_USDT:
         return "KSM-USDT"
 
 
-KSM_USDT = KSM_USDT()
+LCX_EUR = LCX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class LCX_EUR:
+    """
+        name: LCX-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LCX-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6691,11 +9315,20 @@ class LCX_EUR:
         return "LCX-EUR"
 
 
-LCX_EUR = LCX_EUR()
+LCX_USD = LCX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LCX_USD:
+    """
+        name: LCX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LCX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6714,11 +9347,20 @@ class LCX_USD:
         return "LCX-USD"
 
 
-LCX_USD = LCX_USD()
+LCX_USDT = LCX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class LCX_USDT:
+    """
+        name: LCX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LCX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6737,11 +9379,20 @@ class LCX_USDT:
         return "LCX-USDT"
 
 
-LCX_USDT = LCX_USDT()
+LDO_USD = LDO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LDO_USD:
+    """
+        name: LDO-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LDO-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -6760,11 +9411,20 @@ class LDO_USD:
         return "LDO-USD"
 
 
-LDO_USD = LDO_USD()
+LINK_BTC = LINK_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_BTC:
+    """
+        name: LINK-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -6783,11 +9443,20 @@ class LINK_BTC:
         return "LINK-BTC"
 
 
-LINK_BTC = LINK_BTC()
+LINK_ETH = LINK_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_ETH:
+    """
+        name: LINK-ETH
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-ETH"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -6806,11 +9475,20 @@ class LINK_ETH:
         return "LINK-ETH"
 
 
-LINK_ETH = LINK_ETH()
+LINK_EUR = LINK_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_EUR:
+    """
+        name: LINK-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6829,11 +9507,20 @@ class LINK_EUR:
         return "LINK-EUR"
 
 
-LINK_EUR = LINK_EUR()
+LINK_GBP = LINK_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_GBP:
+    """
+        name: LINK-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6852,11 +9539,20 @@ class LINK_GBP:
         return "LINK-GBP"
 
 
-LINK_GBP = LINK_GBP()
+LINK_USD = LINK_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_USD:
+    """
+        name: LINK-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -6875,11 +9571,20 @@ class LINK_USD:
         return "LINK-USD"
 
 
-LINK_USD = LINK_USD()
+LINK_USDT = LINK_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_USDT:
+    """
+        name: LINK-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LINK-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -6898,11 +9603,20 @@ class LINK_USDT:
         return "LINK-USDT"
 
 
-LINK_USDT = LINK_USDT()
+LIT_USD = LIT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LIT_USD:
+    """
+        name: LIT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LIT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6921,11 +9635,20 @@ class LIT_USD:
         return "LIT-USD"
 
 
-LIT_USD = LIT_USD()
+LOKA_USD = LOKA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LOKA_USD:
+    """
+        name: LOKA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LOKA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6944,11 +9667,20 @@ class LOKA_USD:
         return "LOKA-USD"
 
 
-LOKA_USD = LOKA_USD()
+LOOM_USD = LOOM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LOOM_USD:
+    """
+        name: LOOM-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LOOM-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -6967,11 +9699,20 @@ class LOOM_USD:
         return "LOOM-USD"
 
 
-LOOM_USD = LOOM_USD()
+LOOM_USDC = LOOM_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class LOOM_USDC:
+    """
+        name: LOOM-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LOOM-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -6990,11 +9731,20 @@ class LOOM_USDC:
         return "LOOM-USDC"
 
 
-LOOM_USDC = LOOM_USDC()
+LPT_USD = LPT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LPT_USD:
+    """
+        name: LPT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LPT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7013,11 +9763,20 @@ class LPT_USD:
         return "LPT-USD"
 
 
-LPT_USD = LPT_USD()
+LQTY_EUR = LQTY_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class LQTY_EUR:
+    """
+        name: LQTY-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LQTY-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7036,11 +9795,20 @@ class LQTY_EUR:
         return "LQTY-EUR"
 
 
-LQTY_EUR = LQTY_EUR()
+LQTY_USD = LQTY_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LQTY_USD:
+    """
+        name: LQTY-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LQTY-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7059,11 +9827,20 @@ class LQTY_USD:
         return "LQTY-USD"
 
 
-LQTY_USD = LQTY_USD()
+LQTY_USDT = LQTY_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class LQTY_USDT:
+    """
+        name: LQTY-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LQTY-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7082,11 +9859,20 @@ class LQTY_USDT:
         return "LQTY-USDT"
 
 
-LQTY_USDT = LQTY_USDT()
+LRC_BTC = LRC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class LRC_BTC:
+    """
+        name: LRC-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LRC-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -7105,11 +9891,20 @@ class LRC_BTC:
         return "LRC-BTC"
 
 
-LRC_BTC = LRC_BTC()
+LRC_USD = LRC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LRC_USD:
+    """
+        name: LRC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LRC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7128,11 +9923,20 @@ class LRC_USD:
         return "LRC-USD"
 
 
-LRC_USD = LRC_USD()
+LRC_USDT = LRC_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class LRC_USDT:
+    """
+        name: LRC-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LRC-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7151,11 +9955,20 @@ class LRC_USDT:
         return "LRC-USDT"
 
 
-LRC_USDT = LRC_USDT()
+LTC_BTC = LTC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class LTC_BTC:
+    """
+        name: LTC-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LTC-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -7174,11 +9987,20 @@ class LTC_BTC:
         return "LTC-BTC"
 
 
-LTC_BTC = LTC_BTC()
+LTC_EUR = LTC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class LTC_EUR:
+    """
+        name: LTC-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LTC-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7197,11 +10019,20 @@ class LTC_EUR:
         return "LTC-EUR"
 
 
-LTC_EUR = LTC_EUR()
+LTC_GBP = LTC_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class LTC_GBP:
+    """
+        name: LTC-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LTC-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7220,11 +10051,20 @@ class LTC_GBP:
         return "LTC-GBP"
 
 
-LTC_GBP = LTC_GBP()
+LTC_USD = LTC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LTC_USD:
+    """
+        name: LTC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "LTC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7243,11 +10083,20 @@ class LTC_USD:
         return "LTC-USD"
 
 
-LTC_USD = LTC_USD()
+MAGIC_USD = MAGIC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MAGIC_USD:
+    """
+        name: MAGIC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MAGIC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7266,11 +10115,20 @@ class MAGIC_USD:
         return "MAGIC-USD"
 
 
-MAGIC_USD = MAGIC_USD()
+MANA_BTC = MANA_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MANA_BTC:
+    """
+        name: MANA-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MANA-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -7289,11 +10147,20 @@ class MANA_BTC:
         return "MANA-BTC"
 
 
-MANA_BTC = MANA_BTC()
+MANA_ETH = MANA_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class MANA_ETH:
+    """
+        name: MANA-ETH
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MANA-ETH"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -7312,11 +10179,20 @@ class MANA_ETH:
         return "MANA-ETH"
 
 
-MANA_ETH = MANA_ETH()
+MANA_EUR = MANA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class MANA_EUR:
+    """
+        name: MANA-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MANA-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7335,11 +10211,20 @@ class MANA_EUR:
         return "MANA-EUR"
 
 
-MANA_EUR = MANA_EUR()
+MANA_USD = MANA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MANA_USD:
+    """
+        name: MANA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MANA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7358,11 +10243,20 @@ class MANA_USD:
         return "MANA-USD"
 
 
-MANA_USD = MANA_USD()
+MANA_USDC = MANA_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class MANA_USDC:
+    """
+        name: MANA-USDC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MANA-USDC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -7381,11 +10275,20 @@ class MANA_USDC:
         return "MANA-USDC"
 
 
-MANA_USDC = MANA_USDC()
+MASK_EUR = MASK_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class MASK_EUR:
+    """
+        name: MASK-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MASK-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7404,11 +10307,20 @@ class MASK_EUR:
         return "MASK-EUR"
 
 
-MASK_EUR = MASK_EUR()
+MASK_GBP = MASK_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class MASK_GBP:
+    """
+        name: MASK-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MASK-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7427,11 +10339,20 @@ class MASK_GBP:
         return "MASK-GBP"
 
 
-MASK_GBP = MASK_GBP()
+MASK_USD = MASK_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MASK_USD:
+    """
+        name: MASK-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MASK-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7450,11 +10371,20 @@ class MASK_USD:
         return "MASK-USD"
 
 
-MASK_USD = MASK_USD()
+MASK_USDT = MASK_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MASK_USDT:
+    """
+        name: MASK-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MASK-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7473,11 +10403,20 @@ class MASK_USDT:
         return "MASK-USDT"
 
 
-MASK_USDT = MASK_USDT()
+MATH_USD = MATH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MATH_USD:
+    """
+        name: MATH-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATH-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7496,11 +10435,20 @@ class MATH_USD:
         return "MATH-USD"
 
 
-MATH_USD = MATH_USD()
+MATH_USDT = MATH_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MATH_USDT:
+    """
+        name: MATH-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATH-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7519,11 +10467,20 @@ class MATH_USDT:
         return "MATH-USDT"
 
 
-MATH_USDT = MATH_USDT()
+MATIC_BTC = MATIC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_BTC:
+    """
+        name: MATIC-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATIC-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -7542,11 +10499,20 @@ class MATIC_BTC:
         return "MATIC-BTC"
 
 
-MATIC_BTC = MATIC_BTC()
+MATIC_EUR = MATIC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_EUR:
+    """
+        name: MATIC-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATIC-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7565,11 +10531,20 @@ class MATIC_EUR:
         return "MATIC-EUR"
 
 
-MATIC_EUR = MATIC_EUR()
+MATIC_GBP = MATIC_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_GBP:
+    """
+        name: MATIC-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATIC-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7588,11 +10563,20 @@ class MATIC_GBP:
         return "MATIC-GBP"
 
 
-MATIC_GBP = MATIC_GBP()
+MATIC_USD = MATIC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_USD:
+    """
+        name: MATIC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATIC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7611,11 +10595,20 @@ class MATIC_USD:
         return "MATIC-USD"
 
 
-MATIC_USD = MATIC_USD()
+MATIC_USDT = MATIC_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_USDT:
+    """
+        name: MATIC-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MATIC-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7634,11 +10627,20 @@ class MATIC_USDT:
         return "MATIC-USDT"
 
 
-MATIC_USDT = MATIC_USDT()
+MCO2_USD = MCO2_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MCO2_USD:
+    """
+        name: MCO2-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MCO2-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7657,11 +10659,20 @@ class MCO2_USD:
         return "MCO2-USD"
 
 
-MCO2_USD = MCO2_USD()
+MCO2_USDT = MCO2_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MCO2_USDT:
+    """
+        name: MCO2-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MCO2-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7680,11 +10691,20 @@ class MCO2_USDT:
         return "MCO2-USDT"
 
 
-MCO2_USDT = MCO2_USDT()
+MDT_USD = MDT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MDT_USD:
+    """
+        name: MDT-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MDT-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -7703,11 +10723,20 @@ class MDT_USD:
         return "MDT-USD"
 
 
-MDT_USD = MDT_USD()
+MDT_USDT = MDT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MDT_USDT:
+    """
+        name: MDT-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MDT-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -7726,11 +10755,20 @@ class MDT_USDT:
         return "MDT-USDT"
 
 
-MDT_USDT = MDT_USDT()
+MEDIA_USD = MEDIA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MEDIA_USD:
+    """
+        name: MEDIA-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MEDIA-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7749,11 +10787,20 @@ class MEDIA_USD:
         return "MEDIA-USD"
 
 
-MEDIA_USD = MEDIA_USD()
+MEDIA_USDT = MEDIA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MEDIA_USDT:
+    """
+        name: MEDIA-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MEDIA-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7772,11 +10819,20 @@ class MEDIA_USDT:
         return "MEDIA-USDT"
 
 
-MEDIA_USDT = MEDIA_USDT()
+METIS_USD = METIS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class METIS_USD:
+    """
+        name: METIS-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "METIS-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7795,11 +10851,20 @@ class METIS_USD:
         return "METIS-USD"
 
 
-METIS_USD = METIS_USD()
+METIS_USDT = METIS_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class METIS_USDT:
+    """
+        name: METIS-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "METIS-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -7818,11 +10883,20 @@ class METIS_USDT:
         return "METIS-USDT"
 
 
-METIS_USDT = METIS_USDT()
+MINA_EUR = MINA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class MINA_EUR:
+    """
+        name: MINA-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MINA-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7841,11 +10915,20 @@ class MINA_EUR:
         return "MINA-EUR"
 
 
-MINA_EUR = MINA_EUR()
+MINA_USD = MINA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MINA_USD:
+    """
+        name: MINA-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MINA-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7864,11 +10947,20 @@ class MINA_USD:
         return "MINA-USD"
 
 
-MINA_USD = MINA_USD()
+MINA_USDT = MINA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class MINA_USDT:
+    """
+        name: MINA-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MINA-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7887,11 +10979,20 @@ class MINA_USDT:
         return "MINA-USDT"
 
 
-MINA_USDT = MINA_USDT()
+MIR_BTC = MIR_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MIR_BTC:
+    """
+        name: MIR-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MIR-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -7910,11 +11011,20 @@ class MIR_BTC:
         return "MIR-BTC"
 
 
-MIR_BTC = MIR_BTC()
+MIR_EUR = MIR_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class MIR_EUR:
+    """
+        name: MIR-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MIR-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7933,11 +11043,20 @@ class MIR_EUR:
         return "MIR-EUR"
 
 
-MIR_EUR = MIR_EUR()
+MIR_GBP = MIR_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class MIR_GBP:
+    """
+        name: MIR-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MIR-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -7956,11 +11075,20 @@ class MIR_GBP:
         return "MIR-GBP"
 
 
-MIR_GBP = MIR_GBP()
+MIR_USD = MIR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MIR_USD:
+    """
+        name: MIR-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MIR-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -7979,11 +11107,20 @@ class MIR_USD:
         return "MIR-USD"
 
 
-MIR_USD = MIR_USD()
+MKR_BTC = MKR_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MKR_BTC:
+    """
+        name: MKR-BTC
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MKR-BTC"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8002,11 +11139,20 @@ class MKR_BTC:
         return "MKR-BTC"
 
 
-MKR_BTC = MKR_BTC()
+MKR_USD = MKR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MKR_USD:
+    """
+        name: MKR-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MKR-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8025,11 +11171,20 @@ class MKR_USD:
         return "MKR-USD"
 
 
-MKR_USD = MKR_USD()
+MLN_USD = MLN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MLN_USD:
+    """
+        name: MLN-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MLN-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8048,11 +11203,20 @@ class MLN_USD:
         return "MLN-USD"
 
 
-MLN_USD = MLN_USD()
+MNDE_USD = MNDE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MNDE_USD:
+    """
+        name: MNDE-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MNDE-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8071,11 +11235,20 @@ class MNDE_USD:
         return "MNDE-USD"
 
 
-MNDE_USD = MNDE_USD()
+MONA_USD = MONA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MONA_USD:
+    """
+        name: MONA-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MONA-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8094,11 +11267,20 @@ class MONA_USD:
         return "MONA-USD"
 
 
-MONA_USD = MONA_USD()
+MPL_USD = MPL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MPL_USD:
+    """
+        name: MPL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MPL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8117,11 +11299,20 @@ class MPL_USD:
         return "MPL-USD"
 
 
-MPL_USD = MPL_USD()
+MSOL_USD = MSOL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MSOL_USD:
+    """
+        name: MSOL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MSOL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8140,11 +11331,20 @@ class MSOL_USD:
         return "MSOL-USD"
 
 
-MSOL_USD = MSOL_USD()
+MTL_USD = MTL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MTL_USD:
+    """
+        name: MTL-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MTL-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8163,11 +11363,20 @@ class MTL_USD:
         return "MTL-USD"
 
 
-MTL_USD = MTL_USD()
+MUSD_USD = MUSD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MUSD_USD:
+    """
+        name: MUSD-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MUSD-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8186,11 +11395,20 @@ class MUSD_USD:
         return "MUSD-USD"
 
 
-MUSD_USD = MUSD_USD()
+MUSE_USD = MUSE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MUSE_USD:
+    """
+        name: MUSE-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MUSE-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8209,11 +11427,20 @@ class MUSE_USD:
         return "MUSE-USD"
 
 
-MUSE_USD = MUSE_USD()
+MXC_USD = MXC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MXC_USD:
+    """
+        name: MXC-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "MXC-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8232,11 +11459,20 @@ class MXC_USD:
         return "MXC-USD"
 
 
-MXC_USD = MXC_USD()
+NCT_EUR = NCT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class NCT_EUR:
+    """
+        name: NCT-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NCT-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8255,11 +11491,20 @@ class NCT_EUR:
         return "NCT-EUR"
 
 
-NCT_EUR = NCT_EUR()
+NCT_USD = NCT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NCT_USD:
+    """
+        name: NCT-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NCT-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8278,11 +11523,20 @@ class NCT_USD:
         return "NCT-USD"
 
 
-NCT_USD = NCT_USD()
+NCT_USDT = NCT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class NCT_USDT:
+    """
+        name: NCT-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NCT-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8301,11 +11555,20 @@ class NCT_USDT:
         return "NCT-USDT"
 
 
-NCT_USDT = NCT_USDT()
+NEAR_USD = NEAR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NEAR_USD:
+    """
+        name: NEAR-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NEAR-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8324,11 +11587,20 @@ class NEAR_USD:
         return "NEAR-USD"
 
 
-NEAR_USD = NEAR_USD()
+NEAR_USDT = NEAR_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class NEAR_USDT:
+    """
+        name: NEAR-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NEAR-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8347,11 +11619,20 @@ class NEAR_USDT:
         return "NEAR-USDT"
 
 
-NEAR_USDT = NEAR_USDT()
+NEST_USD = NEST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NEST_USD:
+    """
+        name: NEST-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NEST-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8370,11 +11651,20 @@ class NEST_USD:
         return "NEST-USD"
 
 
-NEST_USD = NEST_USD()
+NEST_USDT = NEST_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class NEST_USDT:
+    """
+        name: NEST-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NEST-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8393,11 +11683,20 @@ class NEST_USDT:
         return "NEST-USDT"
 
 
-NEST_USDT = NEST_USDT()
+NKN_BTC = NKN_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class NKN_BTC:
+    """
+        name: NKN-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NKN-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -8416,11 +11715,20 @@ class NKN_BTC:
         return "NKN-BTC"
 
 
-NKN_BTC = NKN_BTC()
+NKN_EUR = NKN_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class NKN_EUR:
+    """
+        name: NKN-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NKN-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8439,11 +11747,20 @@ class NKN_EUR:
         return "NKN-EUR"
 
 
-NKN_EUR = NKN_EUR()
+NKN_GBP = NKN_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class NKN_GBP:
+    """
+        name: NKN-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NKN-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8462,11 +11779,20 @@ class NKN_GBP:
         return "NKN-GBP"
 
 
-NKN_GBP = NKN_GBP()
+NKN_USD = NKN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NKN_USD:
+    """
+        name: NKN-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NKN-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8485,11 +11811,20 @@ class NKN_USD:
         return "NKN-USD"
 
 
-NKN_USD = NKN_USD()
+NMR_BTC = NMR_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class NMR_BTC:
+    """
+        name: NMR-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NMR-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -8508,11 +11843,20 @@ class NMR_BTC:
         return "NMR-BTC"
 
 
-NMR_BTC = NMR_BTC()
+NMR_EUR = NMR_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class NMR_EUR:
+    """
+        name: NMR-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NMR-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8531,11 +11875,20 @@ class NMR_EUR:
         return "NMR-EUR"
 
 
-NMR_EUR = NMR_EUR()
+NMR_GBP = NMR_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class NMR_GBP:
+    """
+        name: NMR-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NMR-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8554,11 +11907,20 @@ class NMR_GBP:
         return "NMR-GBP"
 
 
-NMR_GBP = NMR_GBP()
+NMR_USD = NMR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NMR_USD:
+    """
+        name: NMR-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NMR-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -8577,11 +11939,20 @@ class NMR_USD:
         return "NMR-USD"
 
 
-NMR_USD = NMR_USD()
+NU_BTC = NU_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class NU_BTC:
+    """
+        name: NU-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NU-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -8600,11 +11971,20 @@ class NU_BTC:
         return "NU-BTC"
 
 
-NU_BTC = NU_BTC()
+NU_EUR = NU_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class NU_EUR:
+    """
+        name: NU-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NU-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8623,11 +12003,20 @@ class NU_EUR:
         return "NU-EUR"
 
 
-NU_EUR = NU_EUR()
+NU_GBP = NU_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class NU_GBP:
+    """
+        name: NU-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NU-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8646,11 +12035,20 @@ class NU_GBP:
         return "NU-GBP"
 
 
-NU_GBP = NU_GBP()
+NU_USD = NU_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NU_USD:
+    """
+        name: NU-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "NU-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8669,11 +12067,20 @@ class NU_USD:
         return "NU-USD"
 
 
-NU_USD = NU_USD()
+OCEAN_USD = OCEAN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OCEAN_USD:
+    """
+        name: OCEAN-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OCEAN-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8692,11 +12099,20 @@ class OCEAN_USD:
         return "OCEAN-USD"
 
 
-OCEAN_USD = OCEAN_USD()
+OGN_BTC = OGN_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class OGN_BTC:
+    """
+        name: OGN-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OGN-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -8715,11 +12131,20 @@ class OGN_BTC:
         return "OGN-BTC"
 
 
-OGN_BTC = OGN_BTC()
+OGN_USD = OGN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OGN_USD:
+    """
+        name: OGN-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OGN-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -8738,11 +12163,20 @@ class OGN_USD:
         return "OGN-USD"
 
 
-OGN_USD = OGN_USD()
+OMG_BTC = OMG_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class OMG_BTC:
+    """
+        name: OMG-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OMG-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -8761,11 +12195,20 @@ class OMG_BTC:
         return "OMG-BTC"
 
 
-OMG_BTC = OMG_BTC()
+OMG_EUR = OMG_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class OMG_EUR:
+    """
+        name: OMG-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OMG-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8784,11 +12227,20 @@ class OMG_EUR:
         return "OMG-EUR"
 
 
-OMG_EUR = OMG_EUR()
+OMG_GBP = OMG_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class OMG_GBP:
+    """
+        name: OMG-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OMG-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8807,11 +12259,20 @@ class OMG_GBP:
         return "OMG-GBP"
 
 
-OMG_GBP = OMG_GBP()
+OMG_USD = OMG_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OMG_USD:
+    """
+        name: OMG-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OMG-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8830,11 +12291,20 @@ class OMG_USD:
         return "OMG-USD"
 
 
-OMG_USD = OMG_USD()
+OOKI_USD = OOKI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OOKI_USD:
+    """
+        name: OOKI-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OOKI-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -8853,11 +12323,20 @@ class OOKI_USD:
         return "OOKI-USD"
 
 
-OOKI_USD = OOKI_USD()
+OP_USD = OP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OP_USD:
+    """
+        name: OP-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OP-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8876,11 +12355,20 @@ class OP_USD:
         return "OP-USD"
 
 
-OP_USD = OP_USD()
+OP_USDT = OP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class OP_USDT:
+    """
+        name: OP-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OP-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8899,11 +12387,20 @@ class OP_USDT:
         return "OP-USDT"
 
 
-OP_USDT = OP_USDT()
+ORCA_USD = ORCA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ORCA_USD:
+    """
+        name: ORCA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ORCA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -8922,11 +12419,20 @@ class ORCA_USD:
         return "ORCA-USD"
 
 
-ORCA_USD = ORCA_USD()
+ORN_BTC = ORN_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ORN_BTC:
+    """
+        name: ORN-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ORN-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -8945,11 +12451,20 @@ class ORN_BTC:
         return "ORN-BTC"
 
 
-ORN_BTC = ORN_BTC()
+ORN_USD = ORN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ORN_USD:
+    """
+        name: ORN-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ORN-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8968,11 +12483,20 @@ class ORN_USD:
         return "ORN-USD"
 
 
-ORN_USD = ORN_USD()
+ORN_USDT = ORN_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ORN_USDT:
+    """
+        name: ORN-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ORN-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -8991,11 +12515,20 @@ class ORN_USDT:
         return "ORN-USDT"
 
 
-ORN_USDT = ORN_USDT()
+OXT_USD = OXT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OXT_USD:
+    """
+        name: OXT-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "OXT-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9014,11 +12547,20 @@ class OXT_USD:
         return "OXT-USD"
 
 
-OXT_USD = OXT_USD()
+PAX_USD = PAX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PAX_USD:
+    """
+        name: PAX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PAX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9037,11 +12579,20 @@ class PAX_USD:
         return "PAX-USD"
 
 
-PAX_USD = PAX_USD()
+PAX_USDT = PAX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class PAX_USDT:
+    """
+        name: PAX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PAX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9060,11 +12611,20 @@ class PAX_USDT:
         return "PAX-USDT"
 
 
-PAX_USDT = PAX_USDT()
+PERP_EUR = PERP_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class PERP_EUR:
+    """
+        name: PERP-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PERP-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9083,11 +12643,20 @@ class PERP_EUR:
         return "PERP-EUR"
 
 
-PERP_EUR = PERP_EUR()
+PERP_USD = PERP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PERP_USD:
+    """
+        name: PERP-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PERP-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9106,11 +12675,20 @@ class PERP_USD:
         return "PERP-USD"
 
 
-PERP_USD = PERP_USD()
+PERP_USDT = PERP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class PERP_USDT:
+    """
+        name: PERP-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PERP-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9129,11 +12707,20 @@ class PERP_USDT:
         return "PERP-USDT"
 
 
-PERP_USDT = PERP_USDT()
+PLA_USD = PLA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PLA_USD:
+    """
+        name: PLA-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PLA-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9152,11 +12739,20 @@ class PLA_USD:
         return "PLA-USD"
 
 
-PLA_USD = PLA_USD()
+PLU_USD = PLU_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PLU_USD:
+    """
+        name: PLU-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PLU-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9175,11 +12771,20 @@ class PLU_USD:
         return "PLU-USD"
 
 
-PLU_USD = PLU_USD()
+PNG_USD = PNG_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PNG_USD:
+    """
+        name: PNG-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PNG-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9198,11 +12803,20 @@ class PNG_USD:
         return "PNG-USD"
 
 
-PNG_USD = PNG_USD()
+POLS_USD = POLS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POLS_USD:
+    """
+        name: POLS-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POLS-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9221,11 +12835,20 @@ class POLS_USD:
         return "POLS-USD"
 
 
-POLS_USD = POLS_USD()
+POLS_USDT = POLS_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class POLS_USDT:
+    """
+        name: POLS-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POLS-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9244,11 +12867,20 @@ class POLS_USDT:
         return "POLS-USDT"
 
 
-POLS_USDT = POLS_USDT()
+POLY_USD = POLY_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POLY_USD:
+    """
+        name: POLY-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POLY-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9267,11 +12899,20 @@ class POLY_USD:
         return "POLY-USD"
 
 
-POLY_USD = POLY_USD()
+POLY_USDT = POLY_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class POLY_USDT:
+    """
+        name: POLY-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POLY-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9290,11 +12931,20 @@ class POLY_USDT:
         return "POLY-USDT"
 
 
-POLY_USDT = POLY_USDT()
+POND_USD = POND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POND_USD:
+    """
+        name: POND-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POND-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9313,11 +12963,20 @@ class POND_USD:
         return "POND-USD"
 
 
-POND_USD = POND_USD()
+POND_USDT = POND_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class POND_USDT:
+    """
+        name: POND-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POND-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9336,11 +12995,20 @@ class POND_USDT:
         return "POND-USDT"
 
 
-POND_USDT = POND_USDT()
+POWR_EUR = POWR_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class POWR_EUR:
+    """
+        name: POWR-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POWR-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9359,11 +13027,20 @@ class POWR_EUR:
         return "POWR-EUR"
 
 
-POWR_EUR = POWR_EUR()
+POWR_USD = POWR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POWR_USD:
+    """
+        name: POWR-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POWR-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9382,11 +13059,20 @@ class POWR_USD:
         return "POWR-USD"
 
 
-POWR_USD = POWR_USD()
+POWR_USDT = POWR_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class POWR_USDT:
+    """
+        name: POWR-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "POWR-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9405,11 +13091,20 @@ class POWR_USDT:
         return "POWR-USDT"
 
 
-POWR_USDT = POWR_USDT()
+PRO_USD = PRO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PRO_USD:
+    """
+        name: PRO-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PRO-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9428,11 +13123,20 @@ class PRO_USD:
         return "PRO-USD"
 
 
-PRO_USD = PRO_USD()
+PRQ_USD = PRQ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PRQ_USD:
+    """
+        name: PRQ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PRQ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9451,11 +13155,20 @@ class PRQ_USD:
         return "PRQ-USD"
 
 
-PRQ_USD = PRQ_USD()
+PRQ_USDT = PRQ_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class PRQ_USDT:
+    """
+        name: PRQ-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PRQ-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9474,11 +13187,20 @@ class PRQ_USDT:
         return "PRQ-USDT"
 
 
-PRQ_USDT = PRQ_USDT()
+PUNDIX_USD = PUNDIX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PUNDIX_USD:
+    """
+        name: PUNDIX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PUNDIX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9497,11 +13219,20 @@ class PUNDIX_USD:
         return "PUNDIX-USD"
 
 
-PUNDIX_USD = PUNDIX_USD()
+PYR_USD = PYR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PYR_USD:
+    """
+        name: PYR-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "PYR-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -9520,11 +13251,20 @@ class PYR_USD:
         return "PYR-USD"
 
 
-PYR_USD = PYR_USD()
+QI_USD = QI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class QI_USD:
+    """
+        name: QI-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QI-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -9543,11 +13283,20 @@ class QI_USD:
         return "QI-USD"
 
 
-QI_USD = QI_USD()
+QNT_USD = QNT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class QNT_USD:
+    """
+        name: QNT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QNT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9566,11 +13315,20 @@ class QNT_USD:
         return "QNT-USD"
 
 
-QNT_USD = QNT_USD()
+QNT_USDT = QNT_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class QNT_USDT:
+    """
+        name: QNT-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QNT-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9589,11 +13347,20 @@ class QNT_USDT:
         return "QNT-USDT"
 
 
-QNT_USDT = QNT_USDT()
+QSP_USD = QSP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class QSP_USD:
+    """
+        name: QSP-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QSP-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9612,11 +13379,20 @@ class QSP_USD:
         return "QSP-USD"
 
 
-QSP_USD = QSP_USD()
+QSP_USDT = QSP_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class QSP_USDT:
+    """
+        name: QSP-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QSP-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9635,11 +13411,20 @@ class QSP_USDT:
         return "QSP-USDT"
 
 
-QSP_USDT = QSP_USDT()
+QUICK_USD = QUICK_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class QUICK_USD:
+    """
+        name: QUICK-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "QUICK-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9658,11 +13443,20 @@ class QUICK_USD:
         return "QUICK-USD"
 
 
-QUICK_USD = QUICK_USD()
+RAD_BTC = RAD_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class RAD_BTC:
+    """
+        name: RAD-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAD-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -9681,11 +13475,20 @@ class RAD_BTC:
         return "RAD-BTC"
 
 
-RAD_BTC = RAD_BTC()
+RAD_EUR = RAD_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class RAD_EUR:
+    """
+        name: RAD-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAD-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -9704,11 +13507,20 @@ class RAD_EUR:
         return "RAD-EUR"
 
 
-RAD_EUR = RAD_EUR()
+RAD_GBP = RAD_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class RAD_GBP:
+    """
+        name: RAD-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAD-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -9727,11 +13539,20 @@ class RAD_GBP:
         return "RAD-GBP"
 
 
-RAD_GBP = RAD_GBP()
+RAD_USD = RAD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RAD_USD:
+    """
+        name: RAD-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAD-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9750,11 +13571,20 @@ class RAD_USD:
         return "RAD-USD"
 
 
-RAD_USD = RAD_USD()
+RAD_USDT = RAD_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class RAD_USDT:
+    """
+        name: RAD-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAD-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9773,11 +13603,20 @@ class RAD_USDT:
         return "RAD-USDT"
 
 
-RAD_USDT = RAD_USDT()
+RAI_USD = RAI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RAI_USD:
+    """
+        name: RAI-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RAI-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9796,11 +13635,20 @@ class RAI_USD:
         return "RAI-USD"
 
 
-RAI_USD = RAI_USD()
+RARE_USD = RARE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RARE_USD:
+    """
+        name: RARE-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RARE-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9819,11 +13667,20 @@ class RARE_USD:
         return "RARE-USD"
 
 
-RARE_USD = RARE_USD()
+RARI_USD = RARI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RARI_USD:
+    """
+        name: RARI-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RARI-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9842,11 +13699,20 @@ class RARI_USD:
         return "RARI-USD"
 
 
-RARI_USD = RARI_USD()
+RBN_USD = RBN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RBN_USD:
+    """
+        name: RBN-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RBN-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -9865,11 +13731,20 @@ class RBN_USD:
         return "RBN-USD"
 
 
-RBN_USD = RBN_USD()
+REN_BTC = REN_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class REN_BTC:
+    """
+        name: REN-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REN-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -9888,11 +13763,20 @@ class REN_BTC:
         return "REN-BTC"
 
 
-REN_BTC = REN_BTC()
+REN_USD = REN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class REN_USD:
+    """
+        name: REN-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REN-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -9911,11 +13795,20 @@ class REN_USD:
         return "REN-USD"
 
 
-REN_USD = REN_USD()
+REP_BTC = REP_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class REP_BTC:
+    """
+        name: REP-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REP-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -9934,11 +13827,20 @@ class REP_BTC:
         return "REP-BTC"
 
 
-REP_BTC = REP_BTC()
+REP_USD = REP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class REP_USD:
+    """
+        name: REP-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REP-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -9957,11 +13859,20 @@ class REP_USD:
         return "REP-USD"
 
 
-REP_USD = REP_USD()
+REQ_BTC = REQ_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class REQ_BTC:
+    """
+        name: REQ-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REQ-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -9980,11 +13891,20 @@ class REQ_BTC:
         return "REQ-BTC"
 
 
-REQ_BTC = REQ_BTC()
+REQ_EUR = REQ_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class REQ_EUR:
+    """
+        name: REQ-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REQ-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -10003,11 +13923,20 @@ class REQ_EUR:
         return "REQ-EUR"
 
 
-REQ_EUR = REQ_EUR()
+REQ_GBP = REQ_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class REQ_GBP:
+    """
+        name: REQ-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REQ-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10026,11 +13955,20 @@ class REQ_GBP:
         return "REQ-GBP"
 
 
-REQ_GBP = REQ_GBP()
+REQ_USD = REQ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class REQ_USD:
+    """
+        name: REQ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REQ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10049,11 +13987,20 @@ class REQ_USD:
         return "REQ-USD"
 
 
-REQ_USD = REQ_USD()
+REQ_USDT = REQ_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class REQ_USDT:
+    """
+        name: REQ-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "REQ-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10072,11 +14019,20 @@ class REQ_USDT:
         return "REQ-USDT"
 
 
-REQ_USDT = REQ_USDT()
+RGT_USD = RGT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RGT_USD:
+    """
+        name: RGT-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RGT-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10095,11 +14051,20 @@ class RGT_USD:
         return "RGT-USD"
 
 
-RGT_USD = RGT_USD()
+RLC_BTC = RLC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class RLC_BTC:
+    """
+        name: RLC-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLC-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10118,11 +14083,20 @@ class RLC_BTC:
         return "RLC-BTC"
 
 
-RLC_BTC = RLC_BTC()
+RLC_USD = RLC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RLC_USD:
+    """
+        name: RLC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10141,11 +14115,20 @@ class RLC_USD:
         return "RLC-USD"
 
 
-RLC_USD = RLC_USD()
+RLY_EUR = RLY_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class RLY_EUR:
+    """
+        name: RLY-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLY-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10164,11 +14147,20 @@ class RLY_EUR:
         return "RLY-EUR"
 
 
-RLY_EUR = RLY_EUR()
+RLY_GBP = RLY_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class RLY_GBP:
+    """
+        name: RLY-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLY-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10187,11 +14179,20 @@ class RLY_GBP:
         return "RLY-GBP"
 
 
-RLY_GBP = RLY_GBP()
+RLY_USD = RLY_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RLY_USD:
+    """
+        name: RLY-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLY-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10210,11 +14211,20 @@ class RLY_USD:
         return "RLY-USD"
 
 
-RLY_USD = RLY_USD()
+RLY_USDT = RLY_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class RLY_USDT:
+    """
+        name: RLY-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RLY-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10233,11 +14243,20 @@ class RLY_USDT:
         return "RLY-USDT"
 
 
-RLY_USDT = RLY_USDT()
+RNDR_EUR = RNDR_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class RNDR_EUR:
+    """
+        name: RNDR-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RNDR-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10256,11 +14275,20 @@ class RNDR_EUR:
         return "RNDR-EUR"
 
 
-RNDR_EUR = RNDR_EUR()
+RNDR_USD = RNDR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RNDR_USD:
+    """
+        name: RNDR-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RNDR-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10279,11 +14307,20 @@ class RNDR_USD:
         return "RNDR-USD"
 
 
-RNDR_USD = RNDR_USD()
+RNDR_USDT = RNDR_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class RNDR_USDT:
+    """
+        name: RNDR-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RNDR-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10302,11 +14339,20 @@ class RNDR_USDT:
         return "RNDR-USDT"
 
 
-RNDR_USDT = RNDR_USDT()
+ROSE_USD = ROSE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ROSE_USD:
+    """
+        name: ROSE-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ROSE-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -10325,11 +14371,20 @@ class ROSE_USD:
         return "ROSE-USD"
 
 
-ROSE_USD = ROSE_USD()
+ROSE_USDT = ROSE_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ROSE_USDT:
+    """
+        name: ROSE-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ROSE-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10348,11 +14403,20 @@ class ROSE_USDT:
         return "ROSE-USDT"
 
 
-ROSE_USDT = ROSE_USDT()
+RPL_USD = RPL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class RPL_USD:
+    """
+        name: RPL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "RPL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10371,11 +14435,20 @@ class RPL_USD:
         return "RPL-USD"
 
 
-RPL_USD = RPL_USD()
+SAND_USD = SAND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SAND_USD:
+    """
+        name: SAND-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SAND-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10394,11 +14467,20 @@ class SAND_USD:
         return "SAND-USD"
 
 
-SAND_USD = SAND_USD()
+SAND_USDT = SAND_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SAND_USDT:
+    """
+        name: SAND-USDT
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SAND-USDT"
     precision: int = 0.001
     minimum_margin: float = None
@@ -10417,11 +14499,20 @@ class SAND_USDT:
         return "SAND-USDT"
 
 
-SAND_USDT = SAND_USDT()
+SHIB_EUR = SHIB_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_EUR:
+    """
+        name: SHIB-EUR
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHIB-EUR"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -10440,11 +14531,20 @@ class SHIB_EUR:
         return "SHIB-EUR"
 
 
-SHIB_EUR = SHIB_EUR()
+SHIB_GBP = SHIB_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_GBP:
+    """
+        name: SHIB-GBP
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHIB-GBP"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -10463,11 +14563,20 @@ class SHIB_GBP:
         return "SHIB-GBP"
 
 
-SHIB_GBP = SHIB_GBP()
+SHIB_USD = SHIB_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_USD:
+    """
+        name: SHIB-USD
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHIB-USD"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -10486,11 +14595,20 @@ class SHIB_USD:
         return "SHIB-USD"
 
 
-SHIB_USD = SHIB_USD()
+SHIB_USDT = SHIB_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_USDT:
+    """
+        name: SHIB-USDT
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHIB-USDT"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10509,11 +14627,20 @@ class SHIB_USDT:
         return "SHIB-USDT"
 
 
-SHIB_USDT = SHIB_USDT()
+SHPING_EUR = SHPING_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SHPING_EUR:
+    """
+        name: SHPING-EUR
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHPING-EUR"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -10532,11 +14659,20 @@ class SHPING_EUR:
         return "SHPING-EUR"
 
 
-SHPING_EUR = SHPING_EUR()
+SHPING_USD = SHPING_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SHPING_USD:
+    """
+        name: SHPING-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHPING-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -10555,11 +14691,20 @@ class SHPING_USD:
         return "SHPING-USD"
 
 
-SHPING_USD = SHPING_USD()
+SHPING_USDT = SHPING_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SHPING_USDT:
+    """
+        name: SHPING-USDT
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SHPING-USDT"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -10578,11 +14723,20 @@ class SHPING_USDT:
         return "SHPING-USDT"
 
 
-SHPING_USDT = SHPING_USDT()
+SKL_BTC = SKL_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class SKL_BTC:
+    """
+        name: SKL-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SKL-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -10601,11 +14755,20 @@ class SKL_BTC:
         return "SKL-BTC"
 
 
-SKL_BTC = SKL_BTC()
+SKL_EUR = SKL_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SKL_EUR:
+    """
+        name: SKL-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SKL-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10624,11 +14787,20 @@ class SKL_EUR:
         return "SKL-EUR"
 
 
-SKL_EUR = SKL_EUR()
+SKL_GBP = SKL_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class SKL_GBP:
+    """
+        name: SKL-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SKL-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10647,11 +14819,20 @@ class SKL_GBP:
         return "SKL-GBP"
 
 
-SKL_GBP = SKL_GBP()
+SKL_USD = SKL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SKL_USD:
+    """
+        name: SKL-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SKL-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10670,11 +14851,20 @@ class SKL_USD:
         return "SKL-USD"
 
 
-SKL_USD = SKL_USD()
+SNT_USD = SNT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SNT_USD:
+    """
+        name: SNT-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SNT-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -10693,11 +14883,20 @@ class SNT_USD:
         return "SNT-USD"
 
 
-SNT_USD = SNT_USD()
+SNX_BTC = SNX_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class SNX_BTC:
+    """
+        name: SNX-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SNX-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10716,11 +14915,20 @@ class SNX_BTC:
         return "SNX-BTC"
 
 
-SNX_BTC = SNX_BTC()
+SNX_EUR = SNX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SNX_EUR:
+    """
+        name: SNX-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SNX-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -10739,11 +14947,20 @@ class SNX_EUR:
         return "SNX-EUR"
 
 
-SNX_EUR = SNX_EUR()
+SNX_GBP = SNX_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class SNX_GBP:
+    """
+        name: SNX-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SNX-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -10762,11 +14979,20 @@ class SNX_GBP:
         return "SNX-GBP"
 
 
-SNX_GBP = SNX_GBP()
+SNX_USD = SNX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SNX_USD:
+    """
+        name: SNX-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SNX-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -10785,11 +15011,20 @@ class SNX_USD:
         return "SNX-USD"
 
 
-SNX_USD = SNX_USD()
+SOL_BTC = SOL_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_BTC:
+    """
+        name: SOL-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10808,11 +15043,20 @@ class SOL_BTC:
         return "SOL-BTC"
 
 
-SOL_BTC = SOL_BTC()
+SOL_ETH = SOL_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_ETH:
+    """
+        name: SOL-ETH
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-ETH"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -10831,11 +15075,20 @@ class SOL_ETH:
         return "SOL-ETH"
 
 
-SOL_ETH = SOL_ETH()
+SOL_EUR = SOL_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_EUR:
+    """
+        name: SOL-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10854,11 +15107,20 @@ class SOL_EUR:
         return "SOL-EUR"
 
 
-SOL_EUR = SOL_EUR()
+SOL_GBP = SOL_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_GBP:
+    """
+        name: SOL-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10877,11 +15139,20 @@ class SOL_GBP:
         return "SOL-GBP"
 
 
-SOL_GBP = SOL_GBP()
+SOL_USD = SOL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_USD:
+    """
+        name: SOL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10900,11 +15171,20 @@ class SOL_USD:
         return "SOL-USD"
 
 
-SOL_USD = SOL_USD()
+SOL_USDT = SOL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SOL_USDT:
+    """
+        name: SOL-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SOL-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -10923,11 +15203,20 @@ class SOL_USDT:
         return "SOL-USDT"
 
 
-SOL_USDT = SOL_USDT()
+SPELL_USD = SPELL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SPELL_USD:
+    """
+        name: SPELL-USD
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SPELL-USD"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10946,11 +15235,20 @@ class SPELL_USD:
         return "SPELL-USD"
 
 
-SPELL_USD = SPELL_USD()
+SPELL_USDT = SPELL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SPELL_USDT:
+    """
+        name: SPELL-USDT
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SPELL-USDT"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -10969,11 +15267,20 @@ class SPELL_USDT:
         return "SPELL-USDT"
 
 
-SPELL_USDT = SPELL_USDT()
+STG_USD = STG_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class STG_USD:
+    """
+        name: STG-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STG-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -10992,11 +15299,20 @@ class STG_USD:
         return "STG-USD"
 
 
-STG_USD = STG_USD()
+STG_USDT = STG_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class STG_USDT:
+    """
+        name: STG-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STG-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11015,11 +15331,20 @@ class STG_USDT:
         return "STG-USDT"
 
 
-STG_USDT = STG_USDT()
+STORJ_BTC = STORJ_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class STORJ_BTC:
+    """
+        name: STORJ-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STORJ-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -11038,11 +15363,20 @@ class STORJ_BTC:
         return "STORJ-BTC"
 
 
-STORJ_BTC = STORJ_BTC()
+STORJ_USD = STORJ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class STORJ_USD:
+    """
+        name: STORJ-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STORJ-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11061,11 +15395,20 @@ class STORJ_USD:
         return "STORJ-USD"
 
 
-STORJ_USD = STORJ_USD()
+STX_USD = STX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class STX_USD:
+    """
+        name: STX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11084,11 +15427,20 @@ class STX_USD:
         return "STX-USD"
 
 
-STX_USD = STX_USD()
+STX_USDT = STX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class STX_USDT:
+    """
+        name: STX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "STX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11107,11 +15459,20 @@ class STX_USDT:
         return "STX-USDT"
 
 
-STX_USDT = STX_USDT()
+SUKU_EUR = SUKU_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SUKU_EUR:
+    """
+        name: SUKU-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUKU-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11130,11 +15491,20 @@ class SUKU_EUR:
         return "SUKU-EUR"
 
 
-SUKU_EUR = SUKU_EUR()
+SUKU_USD = SUKU_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUKU_USD:
+    """
+        name: SUKU-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUKU-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11153,11 +15523,20 @@ class SUKU_USD:
         return "SUKU-USD"
 
 
-SUKU_USD = SUKU_USD()
+SUKU_USDT = SUKU_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SUKU_USDT:
+    """
+        name: SUKU-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUKU-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11176,11 +15555,20 @@ class SUKU_USDT:
         return "SUKU-USDT"
 
 
-SUKU_USDT = SUKU_USDT()
+SUPER_USD = SUPER_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUPER_USD:
+    """
+        name: SUPER-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUPER-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -11199,11 +15587,20 @@ class SUPER_USD:
         return "SUPER-USD"
 
 
-SUPER_USD = SUPER_USD()
+SUPER_USDT = SUPER_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SUPER_USDT:
+    """
+        name: SUPER-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUPER-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -11222,11 +15619,20 @@ class SUPER_USDT:
         return "SUPER-USDT"
 
 
-SUPER_USDT = SUPER_USDT()
+SUSHI_BTC = SUSHI_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_BTC:
+    """
+        name: SUSHI-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUSHI-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -11245,11 +15651,20 @@ class SUSHI_BTC:
         return "SUSHI-BTC"
 
 
-SUSHI_BTC = SUSHI_BTC()
+SUSHI_ETH = SUSHI_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_ETH:
+    """
+        name: SUSHI-ETH
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00022
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUSHI-ETH"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -11268,11 +15683,20 @@ class SUSHI_ETH:
         return "SUSHI-ETH"
 
 
-SUSHI_ETH = SUSHI_ETH()
+SUSHI_EUR = SUSHI_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_EUR:
+    """
+        name: SUSHI-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUSHI-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11291,11 +15715,20 @@ class SUSHI_EUR:
         return "SUSHI-EUR"
 
 
-SUSHI_EUR = SUSHI_EUR()
+SUSHI_GBP = SUSHI_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_GBP:
+    """
+        name: SUSHI-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUSHI-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11314,11 +15747,20 @@ class SUSHI_GBP:
         return "SUSHI-GBP"
 
 
-SUSHI_GBP = SUSHI_GBP()
+SUSHI_USD = SUSHI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_USD:
+    """
+        name: SUSHI-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SUSHI-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11337,11 +15779,20 @@ class SUSHI_USD:
         return "SUSHI-USD"
 
 
-SUSHI_USD = SUSHI_USD()
+SWFTC_USD = SWFTC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SWFTC_USD:
+    """
+        name: SWFTC-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SWFTC-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -11360,11 +15811,20 @@ class SWFTC_USD:
         return "SWFTC-USD"
 
 
-SWFTC_USD = SWFTC_USD()
+SYLO_USD = SYLO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SYLO_USD:
+    """
+        name: SYLO-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SYLO-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -11383,11 +15843,20 @@ class SYLO_USD:
         return "SYLO-USD"
 
 
-SYLO_USD = SYLO_USD()
+SYLO_USDT = SYLO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class SYLO_USDT:
+    """
+        name: SYLO-USDT
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SYLO-USDT"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -11406,11 +15875,20 @@ class SYLO_USDT:
         return "SYLO-USDT"
 
 
-SYLO_USDT = SYLO_USDT()
+SYN_USD = SYN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SYN_USD:
+    """
+        name: SYN-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "SYN-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -11429,11 +15907,20 @@ class SYN_USD:
         return "SYN-USD"
 
 
-SYN_USD = SYN_USD()
+TIME_USD = TIME_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TIME_USD:
+    """
+        name: TIME-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TIME-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11452,11 +15939,20 @@ class TIME_USD:
         return "TIME-USD"
 
 
-TIME_USD = TIME_USD()
+TIME_USDT = TIME_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class TIME_USDT:
+    """
+        name: TIME-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TIME-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11475,11 +15971,20 @@ class TIME_USDT:
         return "TIME-USDT"
 
 
-TIME_USDT = TIME_USDT()
+TONE_USD = TONE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TONE_USD:
+    """
+        name: TONE-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TONE-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -11498,11 +16003,20 @@ class TONE_USD:
         return "TONE-USD"
 
 
-TONE_USD = TONE_USD()
+TRAC_EUR = TRAC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class TRAC_EUR:
+    """
+        name: TRAC-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRAC-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11521,11 +16035,20 @@ class TRAC_EUR:
         return "TRAC-EUR"
 
 
-TRAC_EUR = TRAC_EUR()
+TRAC_USD = TRAC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRAC_USD:
+    """
+        name: TRAC-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRAC-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11544,11 +16067,20 @@ class TRAC_USD:
         return "TRAC-USD"
 
 
-TRAC_USD = TRAC_USD()
+TRAC_USDT = TRAC_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class TRAC_USDT:
+    """
+        name: TRAC-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRAC-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11567,11 +16099,20 @@ class TRAC_USDT:
         return "TRAC-USDT"
 
 
-TRAC_USDT = TRAC_USDT()
+TRB_BTC = TRB_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class TRB_BTC:
+    """
+        name: TRB-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRB-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -11590,11 +16131,20 @@ class TRB_BTC:
         return "TRB-BTC"
 
 
-TRB_BTC = TRB_BTC()
+TRB_USD = TRB_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRB_USD:
+    """
+        name: TRB-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRB-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11613,11 +16163,20 @@ class TRB_USD:
         return "TRB-USD"
 
 
-TRB_USD = TRB_USD()
+TRIBE_USD = TRIBE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRIBE_USD:
+    """
+        name: TRIBE-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRIBE-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11636,11 +16195,20 @@ class TRIBE_USD:
         return "TRIBE-USD"
 
 
-TRIBE_USD = TRIBE_USD()
+TRU_BTC = TRU_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class TRU_BTC:
+    """
+        name: TRU-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRU-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -11659,11 +16227,20 @@ class TRU_BTC:
         return "TRU-BTC"
 
 
-TRU_BTC = TRU_BTC()
+TRU_EUR = TRU_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class TRU_EUR:
+    """
+        name: TRU-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRU-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11682,11 +16259,20 @@ class TRU_EUR:
         return "TRU-EUR"
 
 
-TRU_EUR = TRU_EUR()
+TRU_USD = TRU_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRU_USD:
+    """
+        name: TRU-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRU-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11705,11 +16291,20 @@ class TRU_USD:
         return "TRU-USD"
 
 
-TRU_USD = TRU_USD()
+TRU_USDT = TRU_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class TRU_USDT:
+    """
+        name: TRU-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "TRU-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -11728,11 +16323,20 @@ class TRU_USDT:
         return "TRU-USDT"
 
 
-TRU_USDT = TRU_USDT()
+UMA_BTC = UMA_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class UMA_BTC:
+    """
+        name: UMA-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UMA-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -11751,11 +16355,20 @@ class UMA_BTC:
         return "UMA-BTC"
 
 
-UMA_BTC = UMA_BTC()
+UMA_EUR = UMA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class UMA_EUR:
+    """
+        name: UMA-EUR
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UMA-EUR"
     precision: int = 0.001
     minimum_margin: float = None
@@ -11774,11 +16387,20 @@ class UMA_EUR:
         return "UMA-EUR"
 
 
-UMA_EUR = UMA_EUR()
+UMA_GBP = UMA_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class UMA_GBP:
+    """
+        name: UMA-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UMA-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11797,11 +16419,20 @@ class UMA_GBP:
         return "UMA-GBP"
 
 
-UMA_GBP = UMA_GBP()
+UMA_USD = UMA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class UMA_USD:
+    """
+        name: UMA-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UMA-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -11820,11 +16451,20 @@ class UMA_USD:
         return "UMA-USD"
 
 
-UMA_USD = UMA_USD()
+UNFI_USD = UNFI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class UNFI_USD:
+    """
+        name: UNFI-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UNFI-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11843,11 +16483,20 @@ class UNFI_USD:
         return "UNFI-USD"
 
 
-UNFI_USD = UNFI_USD()
+UNI_BTC = UNI_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class UNI_BTC:
+    """
+        name: UNI-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UNI-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -11866,11 +16515,20 @@ class UNI_BTC:
         return "UNI-BTC"
 
 
-UNI_BTC = UNI_BTC()
+UNI_EUR = UNI_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class UNI_EUR:
+    """
+        name: UNI-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UNI-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11889,11 +16547,20 @@ class UNI_EUR:
         return "UNI-EUR"
 
 
-UNI_EUR = UNI_EUR()
+UNI_GBP = UNI_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class UNI_GBP:
+    """
+        name: UNI-GBP
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UNI-GBP"
     precision: int = 0.01
     minimum_margin: float = None
@@ -11912,11 +16579,20 @@ class UNI_GBP:
         return "UNI-GBP"
 
 
-UNI_GBP = UNI_GBP()
+UNI_USD = UNI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class UNI_USD:
+    """
+        name: UNI-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UNI-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -11935,11 +16611,20 @@ class UNI_USD:
         return "UNI-USD"
 
 
-UNI_USD = UNI_USD()
+UPI_USD = UPI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class UPI_USD:
+    """
+        name: UPI-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UPI-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -11958,11 +16643,20 @@ class UPI_USD:
         return "UPI-USD"
 
 
-UPI_USD = UPI_USD()
+UPI_USDT = UPI_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class UPI_USDT:
+    """
+        name: UPI-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UPI-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -11981,11 +16675,20 @@ class UPI_USDT:
         return "UPI-USDT"
 
 
-UPI_USDT = UPI_USDT()
+USDC_EUR = USDC_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class USDC_EUR:
+    """
+        name: USDC-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDC-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12004,11 +16707,20 @@ class USDC_EUR:
         return "USDC-EUR"
 
 
-USDC_EUR = USDC_EUR()
+USDC_GBP = USDC_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class USDC_GBP:
+    """
+        name: USDC-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDC-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12027,11 +16739,20 @@ class USDC_GBP:
         return "USDC-GBP"
 
 
-USDC_GBP = USDC_GBP()
+USDT_EUR = USDT_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class USDT_EUR:
+    """
+        name: USDT-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDT-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12050,11 +16771,20 @@ class USDT_EUR:
         return "USDT-EUR"
 
 
-USDT_EUR = USDT_EUR()
+USDT_GBP = USDT_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class USDT_GBP:
+    """
+        name: USDT-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDT-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12073,11 +16803,20 @@ class USDT_GBP:
         return "USDT-GBP"
 
 
-USDT_GBP = USDT_GBP()
+USDT_USD = USDT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class USDT_USD:
+    """
+        name: USDT-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDT-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12096,11 +16835,20 @@ class USDT_USD:
         return "USDT-USD"
 
 
-USDT_USD = USDT_USD()
+USDT_USDC = USDT_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class USDT_USDC:
+    """
+        name: USDT-USDC
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "USDT-USDC"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12119,11 +16867,20 @@ class USDT_USDC:
         return "USDT-USDC"
 
 
-USDT_USDC = USDT_USDC()
+UST_EUR = UST_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class UST_EUR:
+    """
+        name: UST-EUR
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UST-EUR"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12142,11 +16899,20 @@ class UST_EUR:
         return "UST-EUR"
 
 
-UST_EUR = UST_EUR()
+UST_USD = UST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class UST_USD:
+    """
+        name: UST-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UST-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12165,11 +16931,20 @@ class UST_USD:
         return "UST-USD"
 
 
-UST_USD = UST_USD()
+UST_USDT = UST_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class UST_USDT:
+    """
+        name: UST-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "UST-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12188,11 +16963,20 @@ class UST_USDT:
         return "UST-USDT"
 
 
-UST_USDT = UST_USDT()
+VGX_EUR = VGX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class VGX_EUR:
+    """
+        name: VGX-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "VGX-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12211,11 +16995,20 @@ class VGX_EUR:
         return "VGX-EUR"
 
 
-VGX_EUR = VGX_EUR()
+VGX_USD = VGX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class VGX_USD:
+    """
+        name: VGX-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "VGX-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12234,11 +17027,20 @@ class VGX_USD:
         return "VGX-USD"
 
 
-VGX_USD = VGX_USD()
+VGX_USDT = VGX_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class VGX_USDT:
+    """
+        name: VGX-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "VGX-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12257,11 +17059,20 @@ class VGX_USDT:
         return "VGX-USDT"
 
 
-VGX_USDT = VGX_USDT()
+WAMPL_USD = WAMPL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WAMPL_USD:
+    """
+        name: WAMPL-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WAMPL-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -12280,11 +17091,20 @@ class WAMPL_USD:
         return "WAMPL-USD"
 
 
-WAMPL_USD = WAMPL_USD()
+WAMPL_USDT = WAMPL_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class WAMPL_USDT:
+    """
+        name: WAMPL-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WAMPL-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -12303,11 +17123,20 @@ class WAMPL_USDT:
         return "WAMPL-USDT"
 
 
-WAMPL_USDT = WAMPL_USDT()
+WAXL_USD = WAXL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WAXL_USD:
+    """
+        name: WAXL-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WAXL-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12326,11 +17155,20 @@ class WAXL_USD:
         return "WAXL-USD"
 
 
-WAXL_USD = WAXL_USD()
+WBTC_BTC = WBTC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class WBTC_BTC:
+    """
+        name: WBTC-BTC
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.0001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WBTC-BTC"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12349,11 +17187,20 @@ class WBTC_BTC:
         return "WBTC-BTC"
 
 
-WBTC_BTC = WBTC_BTC()
+WBTC_USD = WBTC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WBTC_USD:
+    """
+        name: WBTC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WBTC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -12372,11 +17219,20 @@ class WBTC_USD:
         return "WBTC-USD"
 
 
-WBTC_USD = WBTC_USD()
+WCFG_BTC = WCFG_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class WCFG_BTC:
+    """
+        name: WCFG-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WCFG-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12395,11 +17251,20 @@ class WCFG_BTC:
         return "WCFG-BTC"
 
 
-WCFG_BTC = WCFG_BTC()
+WCFG_EUR = WCFG_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class WCFG_EUR:
+    """
+        name: WCFG-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WCFG-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12418,11 +17283,20 @@ class WCFG_EUR:
         return "WCFG-EUR"
 
 
-WCFG_EUR = WCFG_EUR()
+WCFG_USD = WCFG_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WCFG_USD:
+    """
+        name: WCFG-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WCFG-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -12441,11 +17315,20 @@ class WCFG_USD:
         return "WCFG-USD"
 
 
-WCFG_USD = WCFG_USD()
+WCFG_USDT = WCFG_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class WCFG_USDT:
+    """
+        name: WCFG-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WCFG-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12464,11 +17347,20 @@ class WCFG_USDT:
         return "WCFG-USDT"
 
 
-WCFG_USDT = WCFG_USDT()
+WLUNA_EUR = WLUNA_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class WLUNA_EUR:
+    """
+        name: WLUNA-EUR
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WLUNA-EUR"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12487,11 +17379,20 @@ class WLUNA_EUR:
         return "WLUNA-EUR"
 
 
-WLUNA_EUR = WLUNA_EUR()
+WLUNA_GBP = WLUNA_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class WLUNA_GBP:
+    """
+        name: WLUNA-GBP
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WLUNA-GBP"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12510,11 +17411,20 @@ class WLUNA_GBP:
         return "WLUNA-GBP"
 
 
-WLUNA_GBP = WLUNA_GBP()
+WLUNA_USD = WLUNA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WLUNA_USD:
+    """
+        name: WLUNA-USD
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WLUNA-USD"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12533,11 +17443,20 @@ class WLUNA_USD:
         return "WLUNA-USD"
 
 
-WLUNA_USD = WLUNA_USD()
+WLUNA_USDT = WLUNA_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class WLUNA_USDT:
+    """
+        name: WLUNA-USDT
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "WLUNA-USDT"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12556,11 +17475,20 @@ class WLUNA_USDT:
         return "WLUNA-USDT"
 
 
-WLUNA_USDT = WLUNA_USDT()
+XCN_USD = XCN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XCN_USD:
+    """
+        name: XCN-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XCN-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12579,11 +17507,20 @@ class XCN_USD:
         return "XCN-USD"
 
 
-XCN_USD = XCN_USD()
+XCN_USDT = XCN_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class XCN_USDT:
+    """
+        name: XCN-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XCN-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12602,11 +17539,20 @@ class XCN_USDT:
         return "XCN-USDT"
 
 
-XCN_USDT = XCN_USDT()
+XLM_BTC = XLM_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XLM_BTC:
+    """
+        name: XLM-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XLM-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12625,11 +17571,20 @@ class XLM_BTC:
         return "XLM-BTC"
 
 
-XLM_BTC = XLM_BTC()
+XLM_EUR = XLM_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class XLM_EUR:
+    """
+        name: XLM-EUR
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XLM-EUR"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -12648,11 +17603,20 @@ class XLM_EUR:
         return "XLM-EUR"
 
 
-XLM_EUR = XLM_EUR()
+XLM_USD = XLM_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XLM_USD:
+    """
+        name: XLM-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XLM-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -12671,11 +17635,20 @@ class XLM_USD:
         return "XLM-USD"
 
 
-XLM_USD = XLM_USD()
+XLM_USDT = XLM_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class XLM_USDT:
+    """
+        name: XLM-USDT
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XLM-USDT"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12694,11 +17667,20 @@ class XLM_USDT:
         return "XLM-USDT"
 
 
-XLM_USDT = XLM_USDT()
+XRP_BTC = XRP_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XRP_BTC:
+    """
+        name: XRP-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XRP-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12717,11 +17699,20 @@ class XRP_BTC:
         return "XRP-BTC"
 
 
-XRP_BTC = XRP_BTC()
+XRP_EUR = XRP_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class XRP_EUR:
+    """
+        name: XRP-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 10
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XRP-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12740,11 +17731,20 @@ class XRP_EUR:
         return "XRP-EUR"
 
 
-XRP_EUR = XRP_EUR()
+XRP_GBP = XRP_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class XRP_GBP:
+    """
+        name: XRP-GBP
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 10
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XRP-GBP"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12763,11 +17763,20 @@ class XRP_GBP:
         return "XRP-GBP"
 
 
-XRP_GBP = XRP_GBP()
+XRP_USD = XRP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XRP_USD:
+    """
+        name: XRP-USD
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 10
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XRP-USD"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12786,11 +17795,20 @@ class XRP_USD:
         return "XRP-USD"
 
 
-XRP_USD = XRP_USD()
+XTZ_BTC = XTZ_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZ_BTC:
+    """
+        name: XTZ-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XTZ-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12809,11 +17827,20 @@ class XTZ_BTC:
         return "XTZ-BTC"
 
 
-XTZ_BTC = XTZ_BTC()
+XTZ_EUR = XTZ_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZ_EUR:
+    """
+        name: XTZ-EUR
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XTZ-EUR"
     precision: int = 0.01
     minimum_margin: float = None
@@ -12832,11 +17859,20 @@ class XTZ_EUR:
         return "XTZ-EUR"
 
 
-XTZ_EUR = XTZ_EUR()
+XTZ_GBP = XTZ_GBP()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZ_GBP:
+    """
+        name: XTZ-GBP
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.72
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XTZ-GBP"
     precision: int = 0.001
     minimum_margin: float = None
@@ -12855,11 +17891,20 @@ class XTZ_GBP:
         return "XTZ-GBP"
 
 
-XTZ_GBP = XTZ_GBP()
+XTZ_USD = XTZ_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZ_USD:
+    """
+        name: XTZ-USD
+        precision: 0.001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XTZ-USD"
     precision: int = 0.001
     minimum_margin: float = None
@@ -12878,11 +17923,20 @@ class XTZ_USD:
         return "XTZ-USD"
 
 
-XTZ_USD = XTZ_USD()
+XYO_BTC = XYO_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XYO_BTC:
+    """
+        name: XYO-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XYO-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -12901,11 +17955,20 @@ class XYO_BTC:
         return "XYO-BTC"
 
 
-XYO_BTC = XYO_BTC()
+XYO_EUR = XYO_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class XYO_EUR:
+    """
+        name: XYO-EUR
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XYO-EUR"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -12924,11 +17987,20 @@ class XYO_EUR:
         return "XYO-EUR"
 
 
-XYO_EUR = XYO_EUR()
+XYO_USD = XYO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XYO_USD:
+    """
+        name: XYO-USD
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XYO-USD"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12947,11 +18019,20 @@ class XYO_USD:
         return "XYO-USD"
 
 
-XYO_USD = XYO_USD()
+XYO_USDT = XYO_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class XYO_USDT:
+    """
+        name: XYO-USDT
+        precision: 0.00001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "XYO-USDT"
     precision: int = 0.00001
     minimum_margin: float = None
@@ -12970,11 +18051,20 @@ class XYO_USDT:
         return "XYO-USDT"
 
 
-XYO_USDT = XYO_USDT()
+YFI_BTC = YFI_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class YFI_BTC:
+    """
+        name: YFI-BTC
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.00001
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "YFI-BTC"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -12993,11 +18083,20 @@ class YFI_BTC:
         return "YFI-BTC"
 
 
-YFI_BTC = YFI_BTC()
+YFI_USD = YFI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class YFI_USD:
+    """
+        name: YFI-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "YFI-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13016,11 +18115,20 @@ class YFI_USD:
         return "YFI-USD"
 
 
-YFI_USD = YFI_USD()
+YFII_USD = YFII_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class YFII_USD:
+    """
+        name: YFII-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "YFII-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13039,11 +18147,20 @@ class YFII_USD:
         return "YFII-USD"
 
 
-YFII_USD = YFII_USD()
+ZEC_BTC = ZEC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEC_BTC:
+    """
+        name: ZEC-BTC
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEC-BTC"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -13062,11 +18179,20 @@ class ZEC_BTC:
         return "ZEC-BTC"
 
 
-ZEC_BTC = ZEC_BTC()
+ZEC_USD = ZEC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEC_USD:
+    """
+        name: ZEC-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEC-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13085,11 +18211,20 @@ class ZEC_USD:
         return "ZEC-USD"
 
 
-ZEC_USD = ZEC_USD()
+ZEC_USDC = ZEC_USDC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEC_USDC:
+    """
+        name: ZEC-USDC
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEC-USDC"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13108,11 +18243,20 @@ class ZEC_USDC:
         return "ZEC-USDC"
 
 
-ZEC_USDC = ZEC_USDC()
+ZEN_BTC = ZEN_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEN_BTC:
+    """
+        name: ZEN-BTC
+        precision: 0.0000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEN-BTC"
     precision: int = 0.0000001
     minimum_margin: float = None
@@ -13131,11 +18275,20 @@ class ZEN_BTC:
         return "ZEN-BTC"
 
 
-ZEN_BTC = ZEN_BTC()
+ZEN_USD = ZEN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEN_USD:
+    """
+        name: ZEN-USD
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEN-USD"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13154,11 +18307,20 @@ class ZEN_USD:
         return "ZEN-USD"
 
 
-ZEN_USD = ZEN_USD()
+ZEN_USDT = ZEN_USDT()
 
 
 @dataclass(slots=True, frozen=True)
 class ZEN_USDT:
+    """
+        name: ZEN-USDT
+        precision: 0.01
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZEN-USDT"
     precision: int = 0.01
     minimum_margin: float = None
@@ -13177,11 +18339,20 @@ class ZEN_USDT:
         return "ZEN-USDT"
 
 
-ZEN_USDT = ZEN_USDT()
+ZRX_BTC = ZRX_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRX_BTC:
+    """
+        name: ZRX-BTC
+        precision: 0.00000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.000016
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZRX-BTC"
     precision: int = 0.00000001
     minimum_margin: float = None
@@ -13200,11 +18371,20 @@ class ZRX_BTC:
         return "ZRX-BTC"
 
 
-ZRX_BTC = ZRX_BTC()
+ZRX_EUR = ZRX_EUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRX_EUR:
+    """
+        name: ZRX-EUR
+        precision: 0.0001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.84
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZRX-EUR"
     precision: int = 0.0001
     minimum_margin: float = None
@@ -13223,11 +18403,20 @@ class ZRX_EUR:
         return "ZRX-EUR"
 
 
-ZRX_EUR = ZRX_EUR()
+ZRX_USD = ZRX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRX_USD:
+    """
+        name: ZRX-USD
+        precision: 0.000001
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 1
+        maximum_order_size: None
+        margin: False
+    """
     name: str = "ZRX-USD"
     precision: int = 0.000001
     minimum_margin: float = None
@@ -13244,8 +18433,3 @@ class ZRX_USD:
 
     def __call__(self):
         return "ZRX-USD"
-
-
-ZRX_USD = ZRX_USD()
-
-

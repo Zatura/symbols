@@ -1,8 +1,22 @@
 from dataclasses import dataclass
 
 
+
+
+ONEINCH_USD = ONEINCH_USD()
+
+
 @dataclass(slots=True, frozen=True)
 class ONEINCH_USD:
+    """
+        name: t1INCH:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "t1INCH:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -21,11 +35,20 @@ class ONEINCH_USD:
         return "t1INCH:USD"
 
 
-ONEINCH_USD = ONEINCH_USD()
+ONEINCH_UST = ONEINCH_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEINCH_UST:
+    """
+        name: t1INCH:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "t1INCH:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -44,11 +67,20 @@ class ONEINCH_UST:
         return "t1INCH:UST"
 
 
-ONEINCH_UST = ONEINCH_UST()
+AAABBB = AAABBB()
 
 
 @dataclass(slots=True, frozen=True)
 class AAABBB:
+    """
+        name: tAAABBB
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100.0
+        margin: False
+    """
     name: str = "tAAABBB"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -67,11 +99,20 @@ class AAABBB:
         return "tAAABBB"
 
 
-AAABBB = AAABBB()
+AAVE_USD = AAVE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_USD:
+    """
+        name: tAAVE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tAAVE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -90,11 +131,20 @@ class AAVE_USD:
         return "tAAVE:USD"
 
 
-AAVE_USD = AAVE_USD()
+AAVE_UST = AAVE_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVE_UST:
+    """
+        name: tAAVE:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tAAVE:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -113,11 +163,20 @@ class AAVE_UST:
         return "tAAVE:UST"
 
 
-AAVE_UST = AAVE_UST()
+AAVEF0_USTF0 = AAVEF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class AAVEF0_USTF0:
+    """
+        name: tAAVEF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tAAVEF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -136,11 +195,20 @@ class AAVEF0_USTF0:
         return "tAAVEF0:USTF0"
 
 
-AAVEF0_USTF0 = AAVEF0_USTF0()
+ADABTC = ADABTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ADABTC:
+    """
+        name: tADABTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tADABTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -159,11 +227,20 @@ class ADABTC:
         return "tADABTC"
 
 
-ADABTC = ADABTC()
+ADAF0_USTF0 = ADAF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ADAF0_USTF0:
+    """
+        name: tADAF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tADAF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -182,11 +259,20 @@ class ADAF0_USTF0:
         return "tADAF0:USTF0"
 
 
-ADAF0_USTF0 = ADAF0_USTF0()
+ADAUSD = ADAUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ADAUSD:
+    """
+        name: tADAUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tADAUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -205,11 +291,20 @@ class ADAUSD:
         return "tADAUSD"
 
 
-ADAUSD = ADAUSD()
+ADAUST = ADAUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ADAUST:
+    """
+        name: tADAUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tADAUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -228,11 +323,20 @@ class ADAUST:
         return "tADAUST"
 
 
-ADAUST = ADAUST()
+AIXUSD = AIXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class AIXUSD:
+    """
+        name: tAIXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 570.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tAIXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -251,11 +355,20 @@ class AIXUSD:
         return "tAIXUSD"
 
 
-AIXUSD = AIXUSD()
+AIXUST = AIXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class AIXUST:
+    """
+        name: tAIXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 570.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tAIXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -274,11 +387,20 @@ class AIXUST:
         return "tAIXUST"
 
 
-AIXUST = AIXUST()
+ALBT_USD = ALBT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALBT_USD:
+    """
+        name: tALBT:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 22.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tALBT:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -297,11 +419,20 @@ class ALBT_USD:
         return "tALBT:USD"
 
 
-ALBT_USD = ALBT_USD()
+ALGBTC = ALGBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGBTC:
+    """
+        name: tALGBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 150000.0
+        margin: False
+    """
     name: str = "tALGBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -320,11 +451,20 @@ class ALGBTC:
         return "tALGBTC"
 
 
-ALGBTC = ALGBTC()
+ALGF0_USTF0 = ALGF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGF0_USTF0:
+    """
+        name: tALGF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tALGF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -343,11 +483,20 @@ class ALGF0_USTF0:
         return "tALGF0:USTF0"
 
 
-ALGF0_USTF0 = ALGF0_USTF0()
+ALGUSD = ALGUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGUSD:
+    """
+        name: tALGUSD
+        precision: 5
+        minimum_margin: 25.0
+        initial_margin: 50.0
+        minimum_order_size: 6.0
+        maximum_order_size: 150000.0
+        margin: True
+    """
     name: str = "tALGUSD"
     precision: int = 5
     minimum_margin: float = 25.0
@@ -366,11 +515,20 @@ class ALGUSD:
         return "tALGUSD"
 
 
-ALGUSD = ALGUSD()
+ALGUST = ALGUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ALGUST:
+    """
+        name: tALGUST
+        precision: 5
+        minimum_margin: 25.0
+        initial_margin: 50.0
+        minimum_order_size: 6.0
+        maximum_order_size: 150000.0
+        margin: True
+    """
     name: str = "tALGUST"
     precision: int = 5
     minimum_margin: float = 25.0
@@ -389,11 +547,20 @@ class ALGUST:
         return "tALGUST"
 
 
-ALGUST = ALGUST()
+AMPBTC = AMPBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class AMPBTC:
+    """
+        name: tAMPBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tAMPBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -412,11 +579,20 @@ class AMPBTC:
         return "tAMPBTC"
 
 
-AMPBTC = AMPBTC()
+AMPF0_USTF0 = AMPF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class AMPF0_USTF0:
+    """
+        name: tAMPF0:USTF0
+        precision: 5
+        minimum_margin: 2.5
+        initial_margin: 5.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tAMPF0:USTF0"
     precision: int = 5
     minimum_margin: float = 2.5
@@ -435,11 +611,20 @@ class AMPF0_USTF0:
         return "tAMPF0:USTF0"
 
 
-AMPF0_USTF0 = AMPF0_USTF0()
+AMPUSD = AMPUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class AMPUSD:
+    """
+        name: tAMPUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tAMPUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -458,11 +643,20 @@ class AMPUSD:
         return "tAMPUSD"
 
 
-AMPUSD = AMPUSD()
+AMPUST = AMPUST()
 
 
 @dataclass(slots=True, frozen=True)
 class AMPUST:
+    """
+        name: tAMPUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tAMPUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -481,11 +675,20 @@ class AMPUST:
         return "tAMPUST"
 
 
-AMPUST = AMPUST()
+ANCUSD = ANCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ANCUSD:
+    """
+        name: tANCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tANCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -504,11 +707,20 @@ class ANCUSD:
         return "tANCUSD"
 
 
-ANCUSD = ANCUSD()
+ANTBTC = ANTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ANTBTC:
+    """
+        name: tANTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tANTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -527,11 +739,20 @@ class ANTBTC:
         return "tANTBTC"
 
 
-ANTBTC = ANTBTC()
+ANTUSD = ANTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ANTUSD:
+    """
+        name: tANTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tANTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -550,11 +771,20 @@ class ANTUSD:
         return "tANTUSD"
 
 
-ANTUSD = ANTUSD()
+APEF0_USTF0 = APEF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class APEF0_USTF0:
+    """
+        name: tAPEF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.4
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAPEF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -573,11 +803,20 @@ class APEF0_USTF0:
         return "tAPEF0:USTF0"
 
 
-APEF0_USTF0 = APEF0_USTF0()
+APENFT_USD = APENFT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class APENFT_USD:
+    """
+        name: tAPENFT:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 40000000000.0
+        margin: False
+    """
     name: str = "tAPENFT:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -596,11 +835,20 @@ class APENFT_USD:
         return "tAPENFT:USD"
 
 
-APENFT_USD = APENFT_USD()
+APENFT_UST = APENFT_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class APENFT_UST:
+    """
+        name: tAPENFT:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 40000000000.0
+        margin: False
+    """
     name: str = "tAPENFT:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -619,11 +867,20 @@ class APENFT_UST:
         return "tAPENFT:UST"
 
 
-APENFT_UST = APENFT_UST()
+APEUSD = APEUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class APEUSD:
+    """
+        name: tAPEUSD
+        precision: 5
+        minimum_margin: 30.0
+        initial_margin: 60.0
+        minimum_order_size: 0.4
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAPEUSD"
     precision: int = 5
     minimum_margin: float = 30.0
@@ -642,11 +899,20 @@ class APEUSD:
         return "tAPEUSD"
 
 
-APEUSD = APEUSD()
+APEUST = APEUST()
 
 
 @dataclass(slots=True, frozen=True)
 class APEUST:
+    """
+        name: tAPEUST
+        precision: 5
+        minimum_margin: 30.0
+        initial_margin: 60.0
+        minimum_order_size: 0.4
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAPEUST"
     precision: int = 5
     minimum_margin: float = 30.0
@@ -665,11 +931,20 @@ class APEUST:
         return "tAPEUST"
 
 
-APEUST = APEUST()
+APTF0_USTF0 = APTF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class APTF0_USTF0:
+    """
+        name: tAPTF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.001
+        maximum_order_size: 30000.0
+        margin: True
+    """
     name: str = "tAPTF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -688,11 +963,20 @@ class APTF0_USTF0:
         return "tAPTF0:USTF0"
 
 
-APTF0_USTF0 = APTF0_USTF0()
+APTUSD = APTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class APTUSD:
+    """
+        name: tAPTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 30000.0
+        margin: False
+    """
     name: str = "tAPTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -711,11 +995,20 @@ class APTUSD:
         return "tAPTUSD"
 
 
-APTUSD = APTUSD()
+APTUST = APTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class APTUST:
+    """
+        name: tAPTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 30000.0
+        margin: False
+    """
     name: str = "tAPTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -734,11 +1027,20 @@ class APTUST:
         return "tAPTUST"
 
 
-APTUST = APTUST()
+ATLAS_USD = ATLAS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ATLAS_USD:
+    """
+        name: tATLAS:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 232.0
+        maximum_order_size: 25000000.0
+        margin: False
+    """
     name: str = "tATLAS:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -757,11 +1059,20 @@ class ATLAS_USD:
         return "tATLAS:USD"
 
 
-ATLAS_USD = ATLAS_USD()
+ATLAS_UST = ATLAS_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class ATLAS_UST:
+    """
+        name: tATLAS:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 232.0
+        maximum_order_size: 25000000.0
+        margin: False
+    """
     name: str = "tATLAS:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -780,11 +1091,20 @@ class ATLAS_UST:
         return "tATLAS:UST"
 
 
-ATLAS_UST = ATLAS_UST()
+ATOBTC = ATOBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOBTC:
+    """
+        name: tATOBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tATOBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -803,11 +1123,20 @@ class ATOBTC:
         return "tATOBTC"
 
 
-ATOBTC = ATOBTC()
+ATOETH = ATOETH()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOETH:
+    """
+        name: tATOETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tATOETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -826,11 +1155,20 @@ class ATOETH:
         return "tATOETH"
 
 
-ATOETH = ATOETH()
+ATOF0_USTF0 = ATOF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOF0_USTF0:
+    """
+        name: tATOF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tATOF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -849,11 +1187,20 @@ class ATOF0_USTF0:
         return "tATOF0:USTF0"
 
 
-ATOF0_USTF0 = ATOF0_USTF0()
+ATOUSD = ATOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOUSD:
+    """
+        name: tATOUSD
+        precision: 5
+        minimum_margin: 25.0
+        initial_margin: 50.0
+        minimum_order_size: 0.2
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tATOUSD"
     precision: int = 5
     minimum_margin: float = 25.0
@@ -872,11 +1219,20 @@ class ATOUSD:
         return "tATOUSD"
 
 
-ATOUSD = ATOUSD()
+ATOUST = ATOUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ATOUST:
+    """
+        name: tATOUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tATOUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -895,11 +1251,20 @@ class ATOUST:
         return "tATOUST"
 
 
-ATOUST = ATOUST()
+AVAX_BTC = AVAX_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_BTC:
+    """
+        name: tAVAX:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.08
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAVAX:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -918,11 +1283,20 @@ class AVAX_BTC:
         return "tAVAX:BTC"
 
 
-AVAX_BTC = AVAX_BTC()
+AVAX_USD = AVAX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_USD:
+    """
+        name: tAVAX:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.08
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAVAX:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -941,11 +1315,20 @@ class AVAX_USD:
         return "tAVAX:USD"
 
 
-AVAX_USD = AVAX_USD()
+AVAX_UST = AVAX_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAX_UST:
+    """
+        name: tAVAX:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.08
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAVAX:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -964,11 +1347,20 @@ class AVAX_UST:
         return "tAVAX:UST"
 
 
-AVAX_UST = AVAX_UST()
+AVAXF0_BTCF0 = AVAXF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAXF0_BTCF0:
+    """
+        name: tAVAXF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.08
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tAVAXF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -987,11 +1379,20 @@ class AVAXF0_BTCF0:
         return "tAVAXF0:BTCF0"
 
 
-AVAXF0_BTCF0 = AVAXF0_BTCF0()
+AVAXF0_USTF0 = AVAXF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class AVAXF0_USTF0:
+    """
+        name: tAVAXF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.08
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tAVAXF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -1010,11 +1411,20 @@ class AVAXF0_USTF0:
         return "tAVAXF0:USTF0"
 
 
-AVAXF0_USTF0 = AVAXF0_USTF0()
+AXSF0_USTF0 = AXSF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class AXSF0_USTF0:
+    """
+        name: tAXSF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tAXSF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -1033,11 +1443,20 @@ class AXSF0_USTF0:
         return "tAXSF0:USTF0"
 
 
-AXSF0_USTF0 = AXSF0_USTF0()
+AXSUSD = AXSUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class AXSUSD:
+    """
+        name: tAXSUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tAXSUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1056,11 +1475,20 @@ class AXSUSD:
         return "tAXSUSD"
 
 
-AXSUSD = AXSUSD()
+AXSUST = AXSUST()
 
 
 @dataclass(slots=True, frozen=True)
 class AXSUST:
+    """
+        name: tAXSUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tAXSUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1079,11 +1507,20 @@ class AXSUST:
         return "tAXSUST"
 
 
-AXSUST = AXSUST()
+B2MUSD = B2MUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class B2MUSD:
+    """
+        name: tB2MUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 144.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tB2MUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1102,11 +1539,20 @@ class B2MUSD:
         return "tB2MUSD"
 
 
-B2MUSD = B2MUSD()
+B2MUST = B2MUST()
 
 
 @dataclass(slots=True, frozen=True)
 class B2MUST:
+    """
+        name: tB2MUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 144.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tB2MUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1125,11 +1571,20 @@ class B2MUST:
         return "tB2MUST"
 
 
-B2MUST = B2MUST()
+BALUSD = BALUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BALUSD:
+    """
+        name: tBALUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tBALUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1148,11 +1603,20 @@ class BALUSD:
         return "tBALUSD"
 
 
-BALUSD = BALUSD()
+BALUST = BALUST()
 
 
 @dataclass(slots=True, frozen=True)
 class BALUST:
+    """
+        name: tBALUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tBALUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1171,11 +1635,20 @@ class BALUST:
         return "tBALUST"
 
 
-BALUST = BALUST()
+BAND_USD = BAND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_USD:
+    """
+        name: tBAND:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBAND:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1194,11 +1667,20 @@ class BAND_USD:
         return "tBAND:USD"
 
 
-BAND_USD = BAND_USD()
+BAND_UST = BAND_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class BAND_UST:
+    """
+        name: tBAND:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBAND:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1217,11 +1699,20 @@ class BAND_UST:
         return "tBAND:UST"
 
 
-BAND_UST = BAND_UST()
+BATUSD = BATUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BATUSD:
+    """
+        name: tBATUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tBATUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1240,11 +1731,20 @@ class BATUSD:
         return "tBATUSD"
 
 
-BATUSD = BATUSD()
+BATUST = BATUST()
 
 
 @dataclass(slots=True, frozen=True)
 class BATUST:
+    """
+        name: tBATUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tBATUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1263,11 +1763,20 @@ class BATUST:
         return "tBATUST"
 
 
-BATUST = BATUST()
+BCHABC_USD = BCHABC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BCHABC_USD:
+    """
+        name: tBCHABC:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 40962.0
+        maximum_order_size: 1000000000.0
+        margin: False
+    """
     name: str = "tBCHABC:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1286,11 +1795,20 @@ class BCHABC_USD:
         return "tBCHABC:USD"
 
 
-BCHABC_USD = BCHABC_USD()
+BCHN_USD = BCHN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BCHN_USD:
+    """
+        name: tBCHN:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 1000.0
+        margin: True
+    """
     name: str = "tBCHN:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1309,11 +1827,20 @@ class BCHN_USD:
         return "tBCHN:USD"
 
 
-BCHN_USD = BCHN_USD()
+BEST_USD = BEST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BEST_USD:
+    """
+        name: tBEST:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBEST:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1332,11 +1859,20 @@ class BEST_USD:
         return "tBEST:USD"
 
 
-BEST_USD = BEST_USD()
+BMNBTC = BMNBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BMNBTC:
+    """
+        name: tBMNBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00002
+        maximum_order_size: 1.0
+        margin: False
+    """
     name: str = "tBMNBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1355,11 +1891,20 @@ class BMNBTC:
         return "tBMNBTC"
 
 
-BMNBTC = BMNBTC()
+BMNUSD = BMNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BMNUSD:
+    """
+        name: tBMNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00002
+        maximum_order_size: 1.0
+        margin: False
+    """
     name: str = "tBMNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1378,11 +1923,20 @@ class BMNUSD:
         return "tBMNUSD"
 
 
-BMNUSD = BMNUSD()
+BNTUSD = BNTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BNTUSD:
+    """
+        name: tBNTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 20000.0
+        margin: False
+    """
     name: str = "tBNTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1401,11 +1955,20 @@ class BNTUSD:
         return "tBNTUSD"
 
 
-BNTUSD = BNTUSD()
+BOBA_USD = BOBA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BOBA_USD:
+    """
+        name: tBOBA:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBOBA:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1424,11 +1987,20 @@ class BOBA_USD:
         return "tBOBA:USD"
 
 
-BOBA_USD = BOBA_USD()
+BOBA_UST = BOBA_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class BOBA_UST:
+    """
+        name: tBOBA:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBOBA:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1447,11 +2019,20 @@ class BOBA_UST:
         return "tBOBA:UST"
 
 
-BOBA_UST = BOBA_UST()
+BOOUSD = BOOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BOOUSD:
+    """
+        name: tBOOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 45000.0
+        margin: False
+    """
     name: str = "tBOOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1470,11 +2051,20 @@ class BOOUSD:
         return "tBOOUSD"
 
 
-BOOUSD = BOOUSD()
+BOOUST = BOOUST()
 
 
 @dataclass(slots=True, frozen=True)
 class BOOUST:
+    """
+        name: tBOOUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 45000.0
+        margin: False
+    """
     name: str = "tBOOUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1493,11 +2083,20 @@ class BOOUST:
         return "tBOOUST"
 
 
-BOOUST = BOOUST()
+BOSON_USD = BOSON_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BOSON_USD:
+    """
+        name: tBOSON:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBOSON:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1516,11 +2115,20 @@ class BOSON_USD:
         return "tBOSON:USD"
 
 
-BOSON_USD = BOSON_USD()
+BOSON_UST = BOSON_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class BOSON_UST:
+    """
+        name: tBOSON:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tBOSON:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1539,11 +2147,20 @@ class BOSON_UST:
         return "tBOSON:UST"
 
 
-BOSON_UST = BOSON_UST()
+BTC_CNHT = BTC_CNHT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_CNHT:
+    """
+        name: tBTC:CNHT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tBTC:CNHT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1562,11 +2179,20 @@ class BTC_CNHT:
         return "tBTC:CNHT"
 
 
-BTC_CNHT = BTC_CNHT()
+BTC_MXNT = BTC_MXNT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_MXNT:
+    """
+        name: tBTC:MXNT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 500.0
+        margin: False
+    """
     name: str = "tBTC:MXNT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1585,11 +2211,20 @@ class BTC_MXNT:
         return "tBTC:MXNT"
 
 
-BTC_MXNT = BTC_MXNT()
+BTC_XAUT = BTC_XAUT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTC_XAUT:
+    """
+        name: tBTC:XAUT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.0002
+        maximum_order_size: 250.0
+        margin: False
+    """
     name: str = "tBTC:XAUT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1608,11 +2243,20 @@ class BTC_XAUT:
         return "tBTC:XAUT"
 
 
-BTC_XAUT = BTC_XAUT()
+BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCDOMF0_USTF0:
+    """
+        name: tBTCDOMF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.01
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tBTCDOMF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -1631,11 +2275,20 @@ class BTCDOMF0_USTF0:
         return "tBTCDOMF0:USTF0"
 
 
-BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
+BTCEUR = BTCEUR()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCEUR:
+    """
+        name: tBTCEUR
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCEUR"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -1654,11 +2307,20 @@ class BTCEUR:
         return "tBTCEUR"
 
 
-BTCEUR = BTCEUR()
+BTCEUT = BTCEUT()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCEUT:
+    """
+        name: tBTCEUT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCEUT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1677,11 +2339,20 @@ class BTCEUT:
         return "tBTCEUT"
 
 
-BTCEUT = BTCEUT()
+BTCF0_EUTF0 = BTCF0_EUTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCF0_EUTF0:
+    """
+        name: tBTCF0:EUTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.0002
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCF0:EUTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -1700,11 +2371,20 @@ class BTCF0_EUTF0:
         return "tBTCF0:EUTF0"
 
 
-BTCF0_EUTF0 = BTCF0_EUTF0()
+BTCF0_USTF0 = BTCF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCF0_USTF0:
+    """
+        name: tBTCF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tBTCF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -1723,11 +2403,20 @@ class BTCF0_USTF0:
         return "tBTCF0:USTF0"
 
 
-BTCF0_USTF0 = BTCF0_USTF0()
+BTCGBP = BTCGBP()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCGBP:
+    """
+        name: tBTCGBP
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCGBP"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1746,11 +2435,20 @@ class BTCGBP:
         return "tBTCGBP"
 
 
-BTCGBP = BTCGBP()
+BTCJPY = BTCJPY()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCJPY:
+    """
+        name: tBTCJPY
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCJPY"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1769,11 +2467,20 @@ class BTCJPY:
         return "tBTCJPY"
 
 
-BTCJPY = BTCJPY()
+BTCMIM = BTCMIM()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCMIM:
+    """
+        name: tBTCMIM
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.0002
+        maximum_order_size: 2500.0
+        margin: False
+    """
     name: str = "tBTCMIM"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1792,11 +2499,20 @@ class BTCMIM:
         return "tBTCMIM"
 
 
-BTCMIM = BTCMIM()
+BTCTRY = BTCTRY()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCTRY:
+    """
+        name: tBTCTRY
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tBTCTRY"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1815,11 +2531,20 @@ class BTCTRY:
         return "tBTCTRY"
 
 
-BTCTRY = BTCTRY()
+BTCUSD = BTCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCUSD:
+    """
+        name: tBTCUSD
+        precision: 5
+        minimum_margin: 5.0
+        initial_margin: 10.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCUSD"
     precision: int = 5
     minimum_margin: float = 5.0
@@ -1838,11 +2563,20 @@ class BTCUSD:
         return "tBTCUSD"
 
 
-BTCUSD = BTCUSD()
+BTCUST = BTCUST()
 
 
 @dataclass(slots=True, frozen=True)
 class BTCUST:
+    """
+        name: tBTCUST
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tBTCUST"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -1861,11 +2595,20 @@ class BTCUST:
         return "tBTCUST"
 
 
-BTCUST = BTCUST()
+BTGBTC = BTGBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class BTGBTC:
+    """
+        name: tBTGBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.1
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tBTGBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1884,11 +2627,20 @@ class BTGBTC:
         return "tBTGBTC"
 
 
-BTGBTC = BTGBTC()
+BTGUSD = BTGUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTGUSD:
+    """
+        name: tBTGUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.1
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tBTGUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1907,11 +2659,20 @@ class BTGUSD:
         return "tBTGUSD"
 
 
-BTGUSD = BTGUSD()
+BTSE_USD = BTSE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTSE_USD:
+    """
+        name: tBTSE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tBTSE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1930,11 +2691,20 @@ class BTSE_USD:
         return "tBTSE:USD"
 
 
-BTSE_USD = BTSE_USD()
+BTTUSD = BTTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class BTTUSD:
+    """
+        name: tBTTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1970444.0
+        maximum_order_size: 25000000000.0
+        margin: False
+    """
     name: str = "tBTTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1953,11 +2723,20 @@ class BTTUSD:
         return "tBTTUSD"
 
 
-BTTUSD = BTTUSD()
+CCDBTC = CCDBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class CCDBTC:
+    """
+        name: tCCDBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 100.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tCCDBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1976,11 +2755,20 @@ class CCDBTC:
         return "tCCDBTC"
 
 
-CCDBTC = CCDBTC()
+CCDUSD = CCDUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class CCDUSD:
+    """
+        name: tCCDUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 100.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tCCDUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -1999,11 +2787,20 @@ class CCDUSD:
         return "tCCDUSD"
 
 
-CCDUSD = CCDUSD()
+CCDUST = CCDUST()
 
 
 @dataclass(slots=True, frozen=True)
 class CCDUST:
+    """
+        name: tCCDUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 100.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tCCDUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2022,11 +2819,20 @@ class CCDUST:
         return "tCCDUST"
 
 
-CCDUST = CCDUST()
+CHEX_USD = CHEX_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CHEX_USD:
+    """
+        name: tCHEX:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 88.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tCHEX:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2045,11 +2851,20 @@ class CHEX_USD:
         return "tCHEX:USD"
 
 
-CHEX_USD = CHEX_USD()
+CHSB_BTC = CHSB_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class CHSB_BTC:
+    """
+        name: tCHSB:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tCHSB:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2068,11 +2883,20 @@ class CHSB_BTC:
         return "tCHSB:BTC"
 
 
-CHSB_BTC = CHSB_BTC()
+CHSB_USD = CHSB_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CHSB_USD:
+    """
+        name: tCHSB:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tCHSB:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2091,11 +2915,20 @@ class CHSB_USD:
         return "tCHSB:USD"
 
 
-CHSB_USD = CHSB_USD()
+CHSB_UST = CHSB_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class CHSB_UST:
+    """
+        name: tCHSB:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tCHSB:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2114,11 +2947,20 @@ class CHSB_UST:
         return "tCHSB:UST"
 
 
-CHSB_UST = CHSB_UST()
+CHZUSD = CHZUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZUSD:
+    """
+        name: tCHZUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 16.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tCHZUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2137,11 +2979,20 @@ class CHZUSD:
         return "tCHZUSD"
 
 
-CHZUSD = CHZUSD()
+CHZUST = CHZUST()
 
 
 @dataclass(slots=True, frozen=True)
 class CHZUST:
+    """
+        name: tCHZUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 16.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tCHZUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2160,11 +3011,20 @@ class CHZUST:
         return "tCHZUST"
 
 
-CHZUST = CHZUST()
+CLOUSD = CLOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class CLOUSD:
+    """
+        name: tCLOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 624.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tCLOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2183,11 +3043,20 @@ class CLOUSD:
         return "tCLOUSD"
 
 
-CLOUSD = CLOUSD()
+CNH_CNHT = CNH_CNHT()
 
 
 @dataclass(slots=True, frozen=True)
 class CNH_CNHT:
+    """
+        name: tCNH:CNHT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tCNH:CNHT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2206,11 +3075,20 @@ class CNH_CNHT:
         return "tCNH:CNHT"
 
 
-CNH_CNHT = CNH_CNHT()
+COMP_USD = COMP_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class COMP_USD:
+    """
+        name: tCOMP:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tCOMP:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2229,11 +3107,20 @@ class COMP_USD:
         return "tCOMP:USD"
 
 
-COMP_USD = COMP_USD()
+COMP_UST = COMP_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class COMP_UST:
+    """
+        name: tCOMP:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tCOMP:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2252,11 +3139,20 @@ class COMP_UST:
         return "tCOMP:UST"
 
 
-COMP_UST = COMP_UST()
+COMPF0_USTF0 = COMPF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class COMPF0_USTF0:
+    """
+        name: tCOMPF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tCOMPF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2275,11 +3171,20 @@ class COMPF0_USTF0:
         return "tCOMPF0:USTF0"
 
 
-COMPF0_USTF0 = COMPF0_USTF0()
+CONV_USD = CONV_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class CONV_USD:
+    """
+        name: tCONV:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 50000000.0
+        margin: False
+    """
     name: str = "tCONV:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2298,11 +3203,20 @@ class CONV_USD:
         return "tCONV:USD"
 
 
-CONV_USD = CONV_USD()
+CONV_UST = CONV_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class CONV_UST:
+    """
+        name: tCONV:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 50000000.0
+        margin: False
+    """
     name: str = "tCONV:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2321,11 +3235,20 @@ class CONV_UST:
         return "tCONV:UST"
 
 
-CONV_UST = CONV_UST()
+CRVF0_USTF0 = CRVF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class CRVF0_USTF0:
+    """
+        name: tCRVF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tCRVF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2344,11 +3267,20 @@ class CRVF0_USTF0:
         return "tCRVF0:USTF0"
 
 
-CRVF0_USTF0 = CRVF0_USTF0()
+CRVUSD = CRVUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class CRVUSD:
+    """
+        name: tCRVUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tCRVUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2367,11 +3299,20 @@ class CRVUSD:
         return "tCRVUSD"
 
 
-CRVUSD = CRVUSD()
+CRVUST = CRVUST()
 
 
 @dataclass(slots=True, frozen=True)
 class CRVUST:
+    """
+        name: tCRVUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tCRVUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2390,11 +3331,20 @@ class CRVUST:
         return "tCRVUST"
 
 
-CRVUST = CRVUST()
+DAIBTC = DAIBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DAIBTC:
+    """
+        name: tDAIBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tDAIBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2413,11 +3363,20 @@ class DAIBTC:
         return "tDAIBTC"
 
 
-DAIBTC = DAIBTC()
+DAIETH = DAIETH()
 
 
 @dataclass(slots=True, frozen=True)
 class DAIETH:
+    """
+        name: tDAIETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tDAIETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2436,11 +3395,20 @@ class DAIETH:
         return "tDAIETH"
 
 
-DAIETH = DAIETH()
+DAIUSD = DAIUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class DAIUSD:
+    """
+        name: tDAIUSD
+        precision: 5
+        minimum_margin: 33.0
+        initial_margin: 66.0
+        minimum_order_size: 2.0
+        maximum_order_size: 200000.0
+        margin: True
+    """
     name: str = "tDAIUSD"
     precision: int = 5
     minimum_margin: float = 33.0
@@ -2459,11 +3427,20 @@ class DAIUSD:
         return "tDAIUSD"
 
 
-DAIUSD = DAIUSD()
+DGBUSD = DGBUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class DGBUSD:
+    """
+        name: tDGBUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 184.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tDGBUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2482,11 +3459,20 @@ class DGBUSD:
         return "tDGBUSD"
 
 
-DGBUSD = DGBUSD()
+DOGE_BTC = DOGE_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_BTC:
+    """
+        name: tDOGE:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 1500000.0
+        margin: True
+    """
     name: str = "tDOGE:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2505,11 +3491,20 @@ class DOGE_BTC:
         return "tDOGE:BTC"
 
 
-DOGE_BTC = DOGE_BTC()
+DOGE_USD = DOGE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_USD:
+    """
+        name: tDOGE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 1500000.0
+        margin: True
+    """
     name: str = "tDOGE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2528,11 +3523,20 @@ class DOGE_USD:
         return "tDOGE:USD"
 
 
-DOGE_USD = DOGE_USD()
+DOGE_UST = DOGE_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGE_UST:
+    """
+        name: tDOGE:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 1500000.0
+        margin: True
+    """
     name: str = "tDOGE:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2551,11 +3555,20 @@ class DOGE_UST:
         return "tDOGE:UST"
 
 
-DOGE_UST = DOGE_UST()
+DOGEF0_USTF0 = DOGEF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class DOGEF0_USTF0:
+    """
+        name: tDOGEF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 26.0
+        maximum_order_size: 1500000.0
+        margin: True
+    """
     name: str = "tDOGEF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2574,11 +3587,20 @@ class DOGEF0_USTF0:
         return "tDOGEF0:USTF0"
 
 
-DOGEF0_USTF0 = DOGEF0_USTF0()
+DORA_USD = DORA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DORA_USD:
+    """
+        name: tDORA:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tDORA:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2597,11 +3619,20 @@ class DORA_USD:
         return "tDORA:USD"
 
 
-DORA_USD = DORA_USD()
+DORA_UST = DORA_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class DORA_UST:
+    """
+        name: tDORA:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tDORA:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2620,11 +3651,20 @@ class DORA_UST:
         return "tDORA:UST"
 
 
-DORA_UST = DORA_UST()
+DOTBTC = DOTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DOTBTC:
+    """
+        name: tDOTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tDOTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2643,11 +3683,20 @@ class DOTBTC:
         return "tDOTBTC"
 
 
-DOTBTC = DOTBTC()
+DOTF0_BTCF0 = DOTF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class DOTF0_BTCF0:
+    """
+        name: tDOTF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tDOTF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2666,11 +3715,20 @@ class DOTF0_BTCF0:
         return "tDOTF0:BTCF0"
 
 
-DOTF0_BTCF0 = DOTF0_BTCF0()
+DOTF0_USTF0 = DOTF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class DOTF0_USTF0:
+    """
+        name: tDOTF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tDOTF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2689,11 +3747,20 @@ class DOTF0_USTF0:
         return "tDOTF0:USTF0"
 
 
-DOTF0_USTF0 = DOTF0_USTF0()
+DOTUSD = DOTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class DOTUSD:
+    """
+        name: tDOTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tDOTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2712,11 +3779,20 @@ class DOTUSD:
         return "tDOTUSD"
 
 
-DOTUSD = DOTUSD()
+DOTUST = DOTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class DOTUST:
+    """
+        name: tDOTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tDOTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2735,11 +3811,20 @@ class DOTUST:
         return "tDOTUST"
 
 
-DOTUST = DOTUST()
+DSHBTC = DSHBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DSHBTC:
+    """
+        name: tDSHBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tDSHBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2758,11 +3843,20 @@ class DSHBTC:
         return "tDSHBTC"
 
 
-DSHBTC = DSHBTC()
+DSHUSD = DSHUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class DSHUSD:
+    """
+        name: tDSHUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tDSHUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2781,11 +3875,20 @@ class DSHUSD:
         return "tDSHUSD"
 
 
-DSHUSD = DSHUSD()
+DUSK_BTC = DUSK_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class DUSK_BTC:
+    """
+        name: tDUSK:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tDUSK:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2804,11 +3907,20 @@ class DUSK_BTC:
         return "tDUSK:BTC"
 
 
-DUSK_BTC = DUSK_BTC()
+DUSK_USD = DUSK_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class DUSK_USD:
+    """
+        name: tDUSK:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tDUSK:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2827,11 +3939,20 @@ class DUSK_USD:
         return "tDUSK:USD"
 
 
-DUSK_USD = DUSK_USD()
+DVFUSD = DVFUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class DVFUSD:
+    """
+        name: tDVFUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tDVFUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2850,11 +3971,20 @@ class DVFUSD:
         return "tDVFUSD"
 
 
-DVFUSD = DVFUSD()
+EDOUSD = EDOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class EDOUSD:
+    """
+        name: tEDOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEDOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2873,11 +4003,20 @@ class EDOUSD:
         return "tEDOUSD"
 
 
-EDOUSD = EDOUSD()
+EGLD_USD = EGLD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class EGLD_USD:
+    """
+        name: tEGLD:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tEGLD:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2896,11 +4035,20 @@ class EGLD_USD:
         return "tEGLD:USD"
 
 
-EGLD_USD = EGLD_USD()
+EGLD_UST = EGLD_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class EGLD_UST:
+    """
+        name: tEGLD:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tEGLD:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2919,11 +4067,20 @@ class EGLD_UST:
         return "tEGLD:UST"
 
 
-EGLD_UST = EGLD_UST()
+EGLDF0_USTF0 = EGLDF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class EGLDF0_USTF0:
+    """
+        name: tEGLDF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tEGLDF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -2942,11 +4099,20 @@ class EGLDF0_USTF0:
         return "tEGLDF0:USTF0"
 
 
-EGLDF0_USTF0 = EGLDF0_USTF0()
+ENJUSD = ENJUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ENJUSD:
+    """
+        name: tENJUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tENJUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2965,11 +4131,20 @@ class ENJUSD:
         return "tENJUSD"
 
 
-ENJUSD = ENJUSD()
+EOSBTC = EOSBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSBTC:
+    """
+        name: tEOSBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEOSBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -2988,11 +4163,20 @@ class EOSBTC:
         return "tEOSBTC"
 
 
-EOSBTC = EOSBTC()
+EOSETH = EOSETH()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSETH:
+    """
+        name: tEOSETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEOSETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3011,11 +4195,20 @@ class EOSETH:
         return "tEOSETH"
 
 
-EOSETH = EOSETH()
+EOSEUR = EOSEUR()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSEUR:
+    """
+        name: tEOSEUR
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEOSEUR"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3034,11 +4227,20 @@ class EOSEUR:
         return "tEOSEUR"
 
 
-EOSEUR = EOSEUR()
+EOSF0_USTF0 = EOSF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSF0_USTF0:
+    """
+        name: tEOSF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tEOSF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3057,11 +4259,20 @@ class EOSF0_USTF0:
         return "tEOSF0:USTF0"
 
 
-EOSF0_USTF0 = EOSF0_USTF0()
+EOSUSD = EOSUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSUSD:
+    """
+        name: tEOSUSD
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEOSUSD"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -3080,11 +4291,20 @@ class EOSUSD:
         return "tEOSUSD"
 
 
-EOSUSD = EOSUSD()
+EOSUST = EOSUST()
 
 
 @dataclass(slots=True, frozen=True)
 class EOSUST:
+    """
+        name: tEOSUST
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tEOSUST"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -3103,11 +4323,20 @@ class EOSUST:
         return "tEOSUST"
 
 
-EOSUST = EOSUST()
+ETCBTC = ETCBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ETCBTC:
+    """
+        name: tETCBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.1
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tETCBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3126,11 +4355,20 @@ class ETCBTC:
         return "tETCBTC"
 
 
-ETCBTC = ETCBTC()
+ETCF0_USTF0 = ETCF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ETCF0_USTF0:
+    """
+        name: tETCF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.1
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tETCF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3149,11 +4387,20 @@ class ETCF0_USTF0:
         return "tETCF0:USTF0"
 
 
-ETCF0_USTF0 = ETCF0_USTF0()
+ETCUSD = ETCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETCUSD:
+    """
+        name: tETCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.1
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tETCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3172,11 +4419,20 @@ class ETCUSD:
         return "tETCUSD"
 
 
-ETCUSD = ETCUSD()
+ETCUST = ETCUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ETCUST:
+    """
+        name: tETCUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.1
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tETCUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3195,11 +4451,20 @@ class ETCUST:
         return "tETCUST"
 
 
-ETCUST = ETCUST()
+ETH2X_ETH = ETH2X_ETH()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH2X_ETH:
+    """
+        name: tETH2X:ETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tETH2X:ETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3218,11 +4483,20 @@ class ETH2X_ETH:
         return "tETH2X:ETH"
 
 
-ETH2X_ETH = ETH2X_ETH()
+ETH2X_USD = ETH2X_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH2X_USD:
+    """
+        name: tETH2X:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tETH2X:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3241,11 +4515,20 @@ class ETH2X_USD:
         return "tETH2X:USD"
 
 
-ETH2X_USD = ETH2X_USD()
+ETH2X_UST = ETH2X_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH2X_UST:
+    """
+        name: tETH2X:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tETH2X:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3264,11 +4547,20 @@ class ETH2X_UST:
         return "tETH2X:UST"
 
 
-ETH2X_UST = ETH2X_UST()
+ETH_MXNT = ETH_MXNT()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_MXNT:
+    """
+        name: tETH:MXNT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 2000.0
+        margin: False
+    """
     name: str = "tETH:MXNT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3287,11 +4579,20 @@ class ETH_MXNT:
         return "tETH:MXNT"
 
 
-ETH_MXNT = ETH_MXNT()
+ETH_XAUT = ETH_XAUT()
 
 
 @dataclass(slots=True, frozen=True)
 class ETH_XAUT:
+    """
+        name: tETH:XAUT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2500.0
+        margin: False
+    """
     name: str = "tETH:XAUT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3310,11 +4611,20 @@ class ETH_XAUT:
         return "tETH:XAUT"
 
 
-ETH_XAUT = ETH_XAUT()
+ETHBTC = ETHBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHBTC:
+    """
+        name: tETHBTC
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHBTC"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -3333,11 +4643,20 @@ class ETHBTC:
         return "tETHBTC"
 
 
-ETHBTC = ETHBTC()
+ETHEUR = ETHEUR()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHEUR:
+    """
+        name: tETHEUR
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHEUR"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3356,11 +4675,20 @@ class ETHEUR:
         return "tETHEUR"
 
 
-ETHEUR = ETHEUR()
+ETHEUT = ETHEUT()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHEUT:
+    """
+        name: tETHEUT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tETHEUT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3379,11 +4707,20 @@ class ETHEUT:
         return "tETHEUT"
 
 
-ETHEUT = ETHEUT()
+ETHF0_BTCF0 = ETHF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHF0_BTCF0:
+    """
+        name: tETHF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tETHF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3402,11 +4739,20 @@ class ETHF0_BTCF0:
         return "tETHF0:BTCF0"
 
 
-ETHF0_BTCF0 = ETHF0_BTCF0()
+ETHF0_EUTF0 = ETHF0_EUTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHF0_EUTF0:
+    """
+        name: tETHF0:EUTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHF0:EUTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3425,11 +4771,20 @@ class ETHF0_EUTF0:
         return "tETHF0:EUTF0"
 
 
-ETHF0_EUTF0 = ETHF0_EUTF0()
+ETHF0_USTF0 = ETHF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHF0_USTF0:
+    """
+        name: tETHF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 1000.0
+        margin: True
+    """
     name: str = "tETHF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3448,11 +4803,20 @@ class ETHF0_USTF0:
         return "tETHF0:USTF0"
 
 
-ETHF0_USTF0 = ETHF0_USTF0()
+ETHGBP = ETHGBP()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHGBP:
+    """
+        name: tETHGBP
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHGBP"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3471,11 +4835,20 @@ class ETHGBP:
         return "tETHGBP"
 
 
-ETHGBP = ETHGBP()
+ETHJPY = ETHJPY()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHJPY:
+    """
+        name: tETHJPY
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHJPY"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3494,11 +4867,20 @@ class ETHJPY:
         return "tETHJPY"
 
 
-ETHJPY = ETHJPY()
+ETHUSD = ETHUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHUSD:
+    """
+        name: tETHUSD
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tETHUSD"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -3517,11 +4899,20 @@ class ETHUSD:
         return "tETHUSD"
 
 
-ETHUSD = ETHUSD()
+ETHUST = ETHUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHUST:
+    """
+        name: tETHUST
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tETHUST"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -3540,11 +4931,20 @@ class ETHUST:
         return "tETHUST"
 
 
-ETHUST = ETHUST()
+ETHW_USD = ETHW_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHW_USD:
+    """
+        name: tETHW:USD
+        precision: 5
+        minimum_margin: 30.0
+        initial_margin: 60.0
+        minimum_order_size: 0.001
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tETHW:USD"
     precision: int = 5
     minimum_margin: float = 30.0
@@ -3563,11 +4963,20 @@ class ETHW_USD:
         return "tETHW:USD"
 
 
-ETHW_USD = ETHW_USD()
+ETHW_UST = ETHW_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class ETHW_UST:
+    """
+        name: tETHW:UST
+        precision: 5
+        minimum_margin: 30.0
+        initial_margin: 60.0
+        minimum_order_size: 0.001
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tETHW:UST"
     precision: int = 5
     minimum_margin: float = 30.0
@@ -3586,11 +4995,20 @@ class ETHW_UST:
         return "tETHW:UST"
 
 
-ETHW_UST = ETHW_UST()
+ETPUSD = ETPUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ETPUSD:
+    """
+        name: tETPUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 42.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tETPUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3609,11 +5027,20 @@ class ETPUSD:
         return "tETPUSD"
 
 
-ETPUSD = ETPUSD()
+EURF0_USTF0 = EURF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class EURF0_USTF0:
+    """
+        name: tEURF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tEURF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3632,11 +5059,20 @@ class EURF0_USTF0:
         return "tEURF0:USTF0"
 
 
-EURF0_USTF0 = EURF0_USTF0()
+EURUST = EURUST()
 
 
 @dataclass(slots=True, frozen=True)
 class EURUST:
+    """
+        name: tEURUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tEURUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3655,11 +5091,20 @@ class EURUST:
         return "tEURUST"
 
 
-EURUST = EURUST()
+EUSUSD = EUSUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class EUSUSD:
+    """
+        name: tEUSUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tEUSUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3678,11 +5123,20 @@ class EUSUSD:
         return "tEUSUSD"
 
 
-EUSUSD = EUSUSD()
+EUT_MXNT = EUT_MXNT()
 
 
 @dataclass(slots=True, frozen=True)
 class EUT_MXNT:
+    """
+        name: tEUT:MXNT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10000000.0
+        margin: False
+    """
     name: str = "tEUT:MXNT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3701,11 +5155,20 @@ class EUT_MXNT:
         return "tEUT:MXNT"
 
 
-EUT_MXNT = EUT_MXNT()
+EUTEUR = EUTEUR()
 
 
 @dataclass(slots=True, frozen=True)
 class EUTEUR:
+    """
+        name: tEUTEUR
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tEUTEUR"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3724,11 +5187,20 @@ class EUTEUR:
         return "tEUTEUR"
 
 
-EUTEUR = EUTEUR()
+EUTUSD = EUTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class EUTUSD:
+    """
+        name: tEUTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tEUTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3747,11 +5219,20 @@ class EUTUSD:
         return "tEUTUSD"
 
 
-EUTUSD = EUTUSD()
+EUTUST = EUTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class EUTUST:
+    """
+        name: tEUTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tEUTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3770,11 +5251,20 @@ class EUTUST:
         return "tEUTUST"
 
 
-EUTUST = EUTUST()
+EXOUSD = EXOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class EXOUSD:
+    """
+        name: tEXOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tEXOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3793,11 +5283,20 @@ class EXOUSD:
         return "tEXOUSD"
 
 
-EXOUSD = EXOUSD()
+FBTUSD = FBTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FBTUSD:
+    """
+        name: tFBTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tFBTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3816,11 +5315,20 @@ class FBTUSD:
         return "tFBTUSD"
 
 
-FBTUSD = FBTUSD()
+FBTUST = FBTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FBTUST:
+    """
+        name: tFBTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tFBTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3839,11 +5347,20 @@ class FBTUST:
         return "tFBTUST"
 
 
-FBTUST = FBTUST()
+FCLUSD = FCLUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FCLUSD:
+    """
+        name: tFCLUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 62.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tFCLUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3862,11 +5379,20 @@ class FCLUSD:
         return "tFCLUSD"
 
 
-FCLUSD = FCLUSD()
+FCLUST = FCLUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FCLUST:
+    """
+        name: tFCLUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 62.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tFCLUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3885,11 +5411,20 @@ class FCLUST:
         return "tFCLUST"
 
 
-FCLUST = FCLUST()
+FETUSD = FETUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FETUSD:
+    """
+        name: tFETUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tFETUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3908,11 +5443,20 @@ class FETUSD:
         return "tFETUSD"
 
 
-FETUSD = FETUSD()
+FETUST = FETUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FETUST:
+    """
+        name: tFETUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tFETUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3931,11 +5475,20 @@ class FETUST:
         return "tFETUST"
 
 
-FETUST = FETUST()
+FILF0_USTF0 = FILF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class FILF0_USTF0:
+    """
+        name: tFILF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tFILF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -3954,11 +5507,20 @@ class FILF0_USTF0:
         return "tFILF0:USTF0"
 
 
-FILF0_USTF0 = FILF0_USTF0()
+FILUSD = FILUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FILUSD:
+    """
+        name: tFILUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tFILUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -3977,11 +5539,20 @@ class FILUSD:
         return "tFILUSD"
 
 
-FILUSD = FILUSD()
+FILUST = FILUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FILUST:
+    """
+        name: tFILUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tFILUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4000,11 +5571,20 @@ class FILUST:
         return "tFILUST"
 
 
-FILUST = FILUST()
+FLRUSD = FLRUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FLRUSD:
+    """
+        name: tFLRUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tFLRUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4023,11 +5603,20 @@ class FLRUSD:
         return "tFLRUSD"
 
 
-FLRUSD = FLRUSD()
+FLRUST = FLRUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FLRUST:
+    """
+        name: tFLRUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tFLRUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4046,11 +5635,20 @@ class FLRUST:
         return "tFLRUST"
 
 
-FLRUST = FLRUST()
+FORTH_USD = FORTH_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_USD:
+    """
+        name: tFORTH:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tFORTH:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4069,11 +5667,20 @@ class FORTH_USD:
         return "tFORTH:USD"
 
 
-FORTH_USD = FORTH_USD()
+FORTH_UST = FORTH_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class FORTH_UST:
+    """
+        name: tFORTH:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tFORTH:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4092,11 +5699,20 @@ class FORTH_UST:
         return "tFORTH:UST"
 
 
-FORTH_UST = FORTH_UST()
+FTMF0_USTF0 = FTMF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class FTMF0_USTF0:
+    """
+        name: tFTMF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tFTMF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -4115,11 +5731,20 @@ class FTMF0_USTF0:
         return "tFTMF0:USTF0"
 
 
-FTMF0_USTF0 = FTMF0_USTF0()
+FTMUSD = FTMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FTMUSD:
+    """
+        name: tFTMUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tFTMUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4138,11 +5763,20 @@ class FTMUSD:
         return "tFTMUSD"
 
 
-FTMUSD = FTMUSD()
+FTMUST = FTMUST()
 
 
 @dataclass(slots=True, frozen=True)
 class FTMUST:
+    """
+        name: tFTMUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tFTMUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4161,11 +5795,20 @@ class FTMUST:
         return "tFTMUST"
 
 
-FTMUST = FTMUST()
+FUNUSD = FUNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class FUNUSD:
+    """
+        name: tFUNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 226.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tFUNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4184,11 +5827,20 @@ class FUNUSD:
         return "tFUNUSD"
 
 
-FUNUSD = FUNUSD()
+GALA_USD = GALA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class GALA_USD:
+    """
+        name: tGALA:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGALA:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4207,11 +5859,20 @@ class GALA_USD:
         return "tGALA:USD"
 
 
-GALA_USD = GALA_USD()
+GALA_UST = GALA_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class GALA_UST:
+    """
+        name: tGALA:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGALA:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4230,11 +5891,20 @@ class GALA_UST:
         return "tGALA:UST"
 
 
-GALA_UST = GALA_UST()
+GALAF0_USTF0 = GALAF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class GALAF0_USTF0:
+    """
+        name: tGALAF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 26.0
+        maximum_order_size: 500000.0
+        margin: True
+    """
     name: str = "tGALAF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -4253,11 +5923,20 @@ class GALAF0_USTF0:
         return "tGALAF0:USTF0"
 
 
-GALAF0_USTF0 = GALAF0_USTF0()
+GBPEUT = GBPEUT()
 
 
 @dataclass(slots=True, frozen=True)
 class GBPEUT:
+    """
+        name: tGBPEUT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGBPEUT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4276,11 +5955,20 @@ class GBPEUT:
         return "tGBPEUT"
 
 
-GBPEUT = GBPEUT()
+GBPF0_USTF0 = GBPF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class GBPF0_USTF0:
+    """
+        name: tGBPF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tGBPF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -4299,11 +5987,20 @@ class GBPF0_USTF0:
         return "tGBPF0:USTF0"
 
 
-GBPF0_USTF0 = GBPF0_USTF0()
+GBPUST = GBPUST()
 
 
 @dataclass(slots=True, frozen=True)
 class GBPUST:
+    """
+        name: tGBPUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGBPUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4322,11 +6019,20 @@ class GBPUST:
         return "tGBPUST"
 
 
-GBPUST = GBPUST()
+GNOUSD = GNOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class GNOUSD:
+    """
+        name: tGNOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 1000.0
+        margin: False
+    """
     name: str = "tGNOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4345,11 +6051,20 @@ class GNOUSD:
         return "tGNOUSD"
 
 
-GNOUSD = GNOUSD()
+GNTUSD = GNTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class GNTUSD:
+    """
+        name: tGNTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tGNTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4368,11 +6083,20 @@ class GNTUSD:
         return "tGNTUSD"
 
 
-GNTUSD = GNTUSD()
+GRTUSD = GRTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class GRTUSD:
+    """
+        name: tGRTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tGRTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4391,11 +6115,20 @@ class GRTUSD:
         return "tGRTUSD"
 
 
-GRTUSD = GRTUSD()
+GRTUST = GRTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class GRTUST:
+    """
+        name: tGRTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tGRTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4414,11 +6147,20 @@ class GRTUST:
         return "tGRTUST"
 
 
-GRTUST = GRTUST()
+GTXUSD = GTXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class GTXUSD:
+    """
+        name: tGTXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tGTXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4437,11 +6179,20 @@ class GTXUSD:
         return "tGTXUSD"
 
 
-GTXUSD = GTXUSD()
+GTXUST = GTXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class GTXUST:
+    """
+        name: tGTXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tGTXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4460,11 +6211,20 @@ class GTXUST:
         return "tGTXUST"
 
 
-GTXUST = GTXUST()
+GXTUSD = GXTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class GXTUSD:
+    """
+        name: tGXTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGXTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4483,11 +6243,20 @@ class GXTUSD:
         return "tGXTUSD"
 
 
-GXTUSD = GXTUSD()
+GXTUST = GXTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class GXTUST:
+    """
+        name: tGXTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tGXTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4506,11 +6275,20 @@ class GXTUST:
         return "tGXTUST"
 
 
-GXTUST = GXTUST()
+HECUSD = HECUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class HECUSD:
+    """
+        name: tHECUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tHECUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4529,11 +6307,20 @@ class HECUSD:
         return "tHECUSD"
 
 
-HECUSD = HECUSD()
+HECUST = HECUST()
 
 
 @dataclass(slots=True, frozen=True)
 class HECUST:
+    """
+        name: tHECUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tHECUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4552,11 +6339,20 @@ class HECUST:
         return "tHECUST"
 
 
-HECUST = HECUST()
+HIXUSD = HIXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class HIXUSD:
+    """
+        name: tHIXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tHIXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4575,11 +6371,20 @@ class HIXUSD:
         return "tHIXUSD"
 
 
-HIXUSD = HIXUSD()
+HIXUST = HIXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class HIXUST:
+    """
+        name: tHIXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tHIXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4598,11 +6403,20 @@ class HIXUST:
         return "tHIXUST"
 
 
-HIXUST = HIXUST()
+HMTUSD = HMTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class HMTUSD:
+    """
+        name: tHMTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tHMTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4621,11 +6435,20 @@ class HMTUSD:
         return "tHMTUSD"
 
 
-HMTUSD = HMTUSD()
+HMTUST = HMTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class HMTUST:
+    """
+        name: tHMTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tHMTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4644,11 +6467,20 @@ class HMTUST:
         return "tHMTUST"
 
 
-HMTUST = HMTUST()
+HTXUSD = HTXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class HTXUSD:
+    """
+        name: tHTXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tHTXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4667,11 +6499,20 @@ class HTXUSD:
         return "tHTXUSD"
 
 
-HTXUSD = HTXUSD()
+HTXUST = HTXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class HTXUST:
+    """
+        name: tHTXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tHTXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4690,11 +6531,20 @@ class HTXUST:
         return "tHTXUST"
 
 
-HTXUST = HTXUST()
+ICEUSD = ICEUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ICEUSD:
+    """
+        name: tICEUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tICEUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4713,11 +6563,20 @@ class ICEUSD:
         return "tICEUSD"
 
 
-ICEUSD = ICEUSD()
+ICPBTC = ICPBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ICPBTC:
+    """
+        name: tICPBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tICPBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4736,11 +6595,20 @@ class ICPBTC:
         return "tICPBTC"
 
 
-ICPBTC = ICPBTC()
+ICPF0_USTF0 = ICPF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ICPF0_USTF0:
+    """
+        name: tICPF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tICPF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -4759,11 +6627,20 @@ class ICPF0_USTF0:
         return "tICPF0:USTF0"
 
 
-ICPF0_USTF0 = ICPF0_USTF0()
+ICPUSD = ICPUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ICPUSD:
+    """
+        name: tICPUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tICPUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4782,11 +6659,20 @@ class ICPUSD:
         return "tICPUSD"
 
 
-ICPUSD = ICPUSD()
+ICPUST = ICPUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ICPUST:
+    """
+        name: tICPUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tICPUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4805,11 +6691,20 @@ class ICPUST:
         return "tICPUST"
 
 
-ICPUST = ICPUST()
+IDXUSD = IDXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class IDXUSD:
+    """
+        name: tIDXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tIDXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4828,11 +6723,20 @@ class IDXUSD:
         return "tIDXUSD"
 
 
-IDXUSD = IDXUSD()
+IDXUST = IDXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class IDXUST:
+    """
+        name: tIDXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tIDXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4851,11 +6755,20 @@ class IDXUST:
         return "tIDXUST"
 
 
-IDXUST = IDXUST()
+IOTBTC = IOTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTBTC:
+    """
+        name: tIOTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tIOTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4874,11 +6787,20 @@ class IOTBTC:
         return "tIOTBTC"
 
 
-IOTBTC = IOTBTC()
+IOTETH = IOTETH()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTETH:
+    """
+        name: tIOTETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tIOTETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4897,11 +6819,20 @@ class IOTETH:
         return "tIOTETH"
 
 
-IOTETH = IOTETH()
+IOTF0_USTF0 = IOTF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTF0_USTF0:
+    """
+        name: tIOTF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tIOTF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -4920,11 +6851,20 @@ class IOTF0_USTF0:
         return "tIOTF0:USTF0"
 
 
-IOTF0_USTF0 = IOTF0_USTF0()
+IOTUSD = IOTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class IOTUSD:
+    """
+        name: tIOTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tIOTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4943,11 +6883,20 @@ class IOTUSD:
         return "tIOTUSD"
 
 
-IOTUSD = IOTUSD()
+IQXUSD = IQXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class IQXUSD:
+    """
+        name: tIQXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 334.0
+        maximum_order_size: 100000000.0
+        margin: False
+    """
     name: str = "tIQXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4966,11 +6915,20 @@ class IQXUSD:
         return "tIQXUSD"
 
 
-IQXUSD = IQXUSD()
+JASMY_USD = JASMY_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class JASMY_USD:
+    """
+        name: tJASMY:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 168.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tJASMY:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -4989,11 +6947,20 @@ class JASMY_USD:
         return "tJASMY:USD"
 
 
-JASMY_USD = JASMY_USD()
+JASMY_UST = JASMY_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class JASMY_UST:
+    """
+        name: tJASMY:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 168.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tJASMY:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5012,11 +6979,20 @@ class JASMY_UST:
         return "tJASMY:UST"
 
 
-JASMY_UST = JASMY_UST()
+JASMYF0_USTF0 = JASMYF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class JASMYF0_USTF0:
+    """
+        name: tJASMYF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 168.0
+        maximum_order_size: 2500000.0
+        margin: True
+    """
     name: str = "tJASMYF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5035,11 +7011,20 @@ class JASMYF0_USTF0:
         return "tJASMYF0:USTF0"
 
 
-JASMYF0_USTF0 = JASMYF0_USTF0()
+JPYF0_USTF0 = JPYF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class JPYF0_USTF0:
+    """
+        name: tJPYF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 262.0
+        maximum_order_size: 100000000.0
+        margin: True
+    """
     name: str = "tJPYF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5058,11 +7043,20 @@ class JPYF0_USTF0:
         return "tJPYF0:USTF0"
 
 
-JPYF0_USTF0 = JPYF0_USTF0()
+JPYUST = JPYUST()
 
 
 @dataclass(slots=True, frozen=True)
 class JPYUST:
+    """
+        name: tJPYUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 262.0
+        maximum_order_size: 100000000.0
+        margin: False
+    """
     name: str = "tJPYUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5081,11 +7075,20 @@ class JPYUST:
         return "tJPYUST"
 
 
-JPYUST = JPYUST()
+JSTBTC = JSTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class JSTBTC:
+    """
+        name: tJSTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 48.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tJSTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5104,11 +7107,20 @@ class JSTBTC:
         return "tJSTBTC"
 
 
-JSTBTC = JSTBTC()
+JSTUSD = JSTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class JSTUSD:
+    """
+        name: tJSTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 48.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tJSTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5127,11 +7139,20 @@ class JSTUSD:
         return "tJSTUSD"
 
 
-JSTUSD = JSTUSD()
+JSTUST = JSTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class JSTUST:
+    """
+        name: tJSTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 48.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tJSTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5150,11 +7171,20 @@ class JSTUST:
         return "tJSTUST"
 
 
-JSTUST = JSTUST()
+KAIUSD = KAIUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class KAIUSD:
+    """
+        name: tKAIUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 132.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tKAIUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5173,11 +7203,20 @@ class KAIUSD:
         return "tKAIUSD"
 
 
-KAIUSD = KAIUSD()
+KAIUST = KAIUST()
 
 
 @dataclass(slots=True, frozen=True)
 class KAIUST:
+    """
+        name: tKAIUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 132.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tKAIUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5196,11 +7235,20 @@ class KAIUST:
         return "tKAIUST"
 
 
-KAIUST = KAIUST()
+KANUSD = KANUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class KANUSD:
+    """
+        name: tKANUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1542.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tKANUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5219,11 +7267,20 @@ class KANUSD:
         return "tKANUSD"
 
 
-KANUSD = KANUSD()
+KANUST = KANUST()
 
 
 @dataclass(slots=True, frozen=True)
 class KANUST:
+    """
+        name: tKANUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1542.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tKANUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5242,11 +7299,20 @@ class KANUST:
         return "tKANUST"
 
 
-KANUST = KANUST()
+KNCBTC = KNCBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class KNCBTC:
+    """
+        name: tKNCBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 20000.0
+        margin: False
+    """
     name: str = "tKNCBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5265,11 +7331,20 @@ class KNCBTC:
         return "tKNCBTC"
 
 
-KNCBTC = KNCBTC()
+KNCF0_USTF0 = KNCF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class KNCF0_USTF0:
+    """
+        name: tKNCF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tKNCF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5288,11 +7363,20 @@ class KNCF0_USTF0:
         return "tKNCF0:USTF0"
 
 
-KNCF0_USTF0 = KNCF0_USTF0()
+KNCUSD = KNCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class KNCUSD:
+    """
+        name: tKNCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tKNCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5311,11 +7395,20 @@ class KNCUSD:
         return "tKNCUSD"
 
 
-KNCUSD = KNCUSD()
+KSMUSD = KSMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class KSMUSD:
+    """
+        name: tKSMUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tKSMUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5334,11 +7427,20 @@ class KSMUSD:
         return "tKSMUSD"
 
 
-KSMUSD = KSMUSD()
+KSMUST = KSMUST()
 
 
 @dataclass(slots=True, frozen=True)
 class KSMUST:
+    """
+        name: tKSMUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tKSMUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5357,11 +7459,20 @@ class KSMUST:
         return "tKSMUST"
 
 
-KSMUST = KSMUST()
+LEOBTC = LEOBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class LEOBTC:
+    """
+        name: tLEOBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tLEOBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5380,11 +7491,20 @@ class LEOBTC:
         return "tLEOBTC"
 
 
-LEOBTC = LEOBTC()
+LEOETH = LEOETH()
 
 
 @dataclass(slots=True, frozen=True)
 class LEOETH:
+    """
+        name: tLEOETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tLEOETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5403,11 +7523,20 @@ class LEOETH:
         return "tLEOETH"
 
 
-LEOETH = LEOETH()
+LEOUSD = LEOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class LEOUSD:
+    """
+        name: tLEOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tLEOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5426,11 +7555,20 @@ class LEOUSD:
         return "tLEOUSD"
 
 
-LEOUSD = LEOUSD()
+LEOUST = LEOUST()
 
 
 @dataclass(slots=True, frozen=True)
 class LEOUST:
+    """
+        name: tLEOUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tLEOUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5449,11 +7587,20 @@ class LEOUST:
         return "tLEOUST"
 
 
-LEOUST = LEOUST()
+LINK_USD = LINK_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_USD:
+    """
+        name: tLINK:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tLINK:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5472,11 +7619,20 @@ class LINK_USD:
         return "tLINK:USD"
 
 
-LINK_USD = LINK_USD()
+LINK_UST = LINK_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class LINK_UST:
+    """
+        name: tLINK:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tLINK:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5495,11 +7651,20 @@ class LINK_UST:
         return "tLINK:UST"
 
 
-LINK_UST = LINK_UST()
+LINKF0_USTF0 = LINKF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class LINKF0_USTF0:
+    """
+        name: tLINKF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tLINKF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5518,11 +7683,20 @@ class LINKF0_USTF0:
         return "tLINKF0:USTF0"
 
 
-LINKF0_USTF0 = LINKF0_USTF0()
+LRCUSD = LRCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class LRCUSD:
+    """
+        name: tLRCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tLRCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5541,11 +7715,20 @@ class LRCUSD:
         return "tLRCUSD"
 
 
-LRCUSD = LRCUSD()
+LTCBTC = LTCBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class LTCBTC:
+    """
+        name: tLTCBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tLTCBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5564,11 +7747,20 @@ class LTCBTC:
         return "tLTCBTC"
 
 
-LTCBTC = LTCBTC()
+LTCF0_BTCF0 = LTCF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class LTCF0_BTCF0:
+    """
+        name: tLTCF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.04
+        maximum_order_size: 7500.0
+        margin: True
+    """
     name: str = "tLTCF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5587,11 +7779,20 @@ class LTCF0_BTCF0:
         return "tLTCF0:BTCF0"
 
 
-LTCF0_BTCF0 = LTCF0_BTCF0()
+LTCF0_USTF0 = LTCF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class LTCF0_USTF0:
+    """
+        name: tLTCF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.04
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tLTCF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5610,11 +7811,20 @@ class LTCF0_USTF0:
         return "tLTCF0:USTF0"
 
 
-LTCF0_USTF0 = LTCF0_USTF0()
+LTCUSD = LTCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class LTCUSD:
+    """
+        name: tLTCUSD
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.04
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tLTCUSD"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -5633,11 +7843,20 @@ class LTCUSD:
         return "tLTCUSD"
 
 
-LTCUSD = LTCUSD()
+LTCUST = LTCUST()
 
 
 @dataclass(slots=True, frozen=True)
 class LTCUST:
+    """
+        name: tLTCUST
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.04
+        maximum_order_size: 2000.0
+        margin: True
+    """
     name: str = "tLTCUST"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -5656,11 +7875,20 @@ class LTCUST:
         return "tLTCUST"
 
 
-LTCUST = LTCUST()
+LUNA2_USD = LUNA2_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LUNA2_USD:
+    """
+        name: tLUNA2:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tLUNA2:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5679,11 +7907,20 @@ class LUNA2_USD:
         return "tLUNA2:USD"
 
 
-LUNA2_USD = LUNA2_USD()
+LUNA2_UST = LUNA2_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class LUNA2_UST:
+    """
+        name: tLUNA2:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tLUNA2:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5702,11 +7939,20 @@ class LUNA2_UST:
         return "tLUNA2:UST"
 
 
-LUNA2_UST = LUNA2_UST()
+LUNA_USD = LUNA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LUNA_USD:
+    """
+        name: tLUNA:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20814.0
+        maximum_order_size: 100000000000.0
+        margin: False
+    """
     name: str = "tLUNA:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5725,11 +7971,20 @@ class LUNA_USD:
         return "tLUNA:USD"
 
 
-LUNA_USD = LUNA_USD()
+LUNA_UST = LUNA_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class LUNA_UST:
+    """
+        name: tLUNA:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20814.0
+        maximum_order_size: 100000000000.0
+        margin: False
+    """
     name: str = "tLUNA:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5748,11 +8003,20 @@ class LUNA_UST:
         return "tLUNA:UST"
 
 
-LUNA_UST = LUNA_UST()
+LUXO_USD = LUXO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class LUXO_USD:
+    """
+        name: tLUXO:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tLUXO:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5771,11 +8035,20 @@ class LUXO_USD:
         return "tLUXO:USD"
 
 
-LUXO_USD = LUXO_USD()
+LYMUSD = LYMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class LYMUSD:
+    """
+        name: tLYMUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 740.0
+        maximum_order_size: 400000.0
+        margin: False
+    """
     name: str = "tLYMUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5794,11 +8067,20 @@ class LYMUSD:
         return "tLYMUSD"
 
 
-LYMUSD = LYMUSD()
+MATIC_BTC = MATIC_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_BTC:
+    """
+        name: tMATIC:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tMATIC:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5817,11 +8099,20 @@ class MATIC_BTC:
         return "tMATIC:BTC"
 
 
-MATIC_BTC = MATIC_BTC()
+MATIC_USD = MATIC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_USD:
+    """
+        name: tMATIC:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tMATIC:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5840,11 +8131,20 @@ class MATIC_USD:
         return "tMATIC:USD"
 
 
-MATIC_USD = MATIC_USD()
+MATIC_UST = MATIC_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class MATIC_UST:
+    """
+        name: tMATIC:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tMATIC:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5863,11 +8163,20 @@ class MATIC_UST:
         return "tMATIC:UST"
 
 
-MATIC_UST = MATIC_UST()
+MATICF0_USTF0 = MATICF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class MATICF0_USTF0:
+    """
+        name: tMATICF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 4.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tMATICF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5886,11 +8195,20 @@ class MATICF0_USTF0:
         return "tMATICF0:USTF0"
 
 
-MATICF0_USTF0 = MATICF0_USTF0()
+MIMUSD = MIMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MIMUSD:
+    """
+        name: tMIMUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tMIMUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5909,11 +8227,20 @@ class MIMUSD:
         return "tMIMUSD"
 
 
-MIMUSD = MIMUSD()
+MIMUST = MIMUST()
 
 
 @dataclass(slots=True, frozen=True)
 class MIMUST:
+    """
+        name: tMIMUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tMIMUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5932,11 +8259,20 @@ class MIMUST:
         return "tMIMUST"
 
 
-MIMUST = MIMUST()
+MIRUSD = MIRUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MIRUSD:
+    """
+        name: tMIRUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tMIRUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -5955,11 +8291,20 @@ class MIRUSD:
         return "tMIRUSD"
 
 
-MIRUSD = MIRUSD()
+MKRF0_USTF0 = MKRF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class MKRF0_USTF0:
+    """
+        name: tMKRF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2500.0
+        margin: True
+    """
     name: str = "tMKRF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -5978,11 +8323,20 @@ class MKRF0_USTF0:
         return "tMKRF0:USTF0"
 
 
-MKRF0_USTF0 = MKRF0_USTF0()
+MKRUSD = MKRUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MKRUSD:
+    """
+        name: tMKRUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2500.0
+        margin: True
+    """
     name: str = "tMKRUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6001,11 +8355,20 @@ class MKRUSD:
         return "tMKRUSD"
 
 
-MKRUSD = MKRUSD()
+MKRUST = MKRUST()
 
 
 @dataclass(slots=True, frozen=True)
 class MKRUST:
+    """
+        name: tMKRUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.002
+        maximum_order_size: 2500.0
+        margin: False
+    """
     name: str = "tMKRUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6024,11 +8387,20 @@ class MKRUST:
         return "tMKRUST"
 
 
-MKRUST = MKRUST()
+MLNUSD = MLNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MLNUSD:
+    """
+        name: tMLNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.08
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tMLNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6047,11 +8419,20 @@ class MLNUSD:
         return "tMLNUSD"
 
 
-MLNUSD = MLNUSD()
+MNABTC = MNABTC()
 
 
 @dataclass(slots=True, frozen=True)
 class MNABTC:
+    """
+        name: tMNABTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tMNABTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6070,11 +8451,20 @@ class MNABTC:
         return "tMNABTC"
 
 
-MNABTC = MNABTC()
+MNAUSD = MNAUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MNAUSD:
+    """
+        name: tMNAUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tMNAUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6093,11 +8483,20 @@ class MNAUSD:
         return "tMNAUSD"
 
 
-MNAUSD = MNAUSD()
+MOBUSD = MOBUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class MOBUSD:
+    """
+        name: tMOBUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tMOBUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6116,11 +8515,20 @@ class MOBUSD:
         return "tMOBUSD"
 
 
-MOBUSD = MOBUSD()
+MOBUST = MOBUST()
 
 
 @dataclass(slots=True, frozen=True)
 class MOBUST:
+    """
+        name: tMOBUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tMOBUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6139,11 +8547,20 @@ class MOBUST:
         return "tMOBUST"
 
 
-MOBUST = MOBUST()
+MXNT_USD = MXNT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class MXNT_USD:
+    """
+        name: tMXNT:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10000000.0
+        margin: False
+    """
     name: str = "tMXNT:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6162,11 +8579,20 @@ class MXNT_USD:
         return "tMXNT:USD"
 
 
-MXNT_USD = MXNT_USD()
+NEAR_USD = NEAR_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NEAR_USD:
+    """
+        name: tNEAR:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tNEAR:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6185,11 +8611,20 @@ class NEAR_USD:
         return "tNEAR:USD"
 
 
-NEAR_USD = NEAR_USD()
+NEAR_UST = NEAR_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class NEAR_UST:
+    """
+        name: tNEAR:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 25000.0
+        margin: False
+    """
     name: str = "tNEAR:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6208,11 +8643,20 @@ class NEAR_UST:
         return "tNEAR:UST"
 
 
-NEAR_UST = NEAR_UST()
+NEARF0_USTF0 = NEARF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class NEARF0_USTF0:
+    """
+        name: tNEARF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.4
+        maximum_order_size: 25000.0
+        margin: True
+    """
     name: str = "tNEARF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -6231,11 +8675,20 @@ class NEARF0_USTF0:
         return "tNEARF0:USTF0"
 
 
-NEARF0_USTF0 = NEARF0_USTF0()
+NEOBTC = NEOBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class NEOBTC:
+    """
+        name: tNEOBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tNEOBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6254,11 +8707,20 @@ class NEOBTC:
         return "tNEOBTC"
 
 
-NEOBTC = NEOBTC()
+NEOF0_USTF0 = NEOF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class NEOF0_USTF0:
+    """
+        name: tNEOF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tNEOF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -6277,11 +8739,20 @@ class NEOF0_USTF0:
         return "tNEOF0:USTF0"
 
 
-NEOF0_USTF0 = NEOF0_USTF0()
+NEOUSD = NEOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class NEOUSD:
+    """
+        name: tNEOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tNEOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6300,11 +8771,20 @@ class NEOUSD:
         return "tNEOUSD"
 
 
-NEOUSD = NEOUSD()
+NEOUST = NEOUST()
 
 
 @dataclass(slots=True, frozen=True)
 class NEOUST:
+    """
+        name: tNEOUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tNEOUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6323,11 +8803,20 @@ class NEOUST:
         return "tNEOUST"
 
 
-NEOUST = NEOUST()
+NEXO_BTC = NEXO_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class NEXO_BTC:
+    """
+        name: tNEXO:BTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tNEXO:BTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6346,11 +8835,20 @@ class NEXO_BTC:
         return "tNEXO:BTC"
 
 
-NEXO_BTC = NEXO_BTC()
+NEXO_USD = NEXO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class NEXO_USD:
+    """
+        name: tNEXO:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tNEXO:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6369,11 +8867,20 @@ class NEXO_USD:
         return "tNEXO:USD"
 
 
-NEXO_USD = NEXO_USD()
+NEXO_UST = NEXO_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class NEXO_UST:
+    """
+        name: tNEXO:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tNEXO:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6392,11 +8899,20 @@ class NEXO_UST:
         return "tNEXO:UST"
 
 
-NEXO_UST = NEXO_UST()
+OCEAN_USD = OCEAN_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class OCEAN_USD:
+    """
+        name: tOCEAN:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tOCEAN:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6415,11 +8931,20 @@ class OCEAN_USD:
         return "tOCEAN:USD"
 
 
-OCEAN_USD = OCEAN_USD()
+OCEAN_UST = OCEAN_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class OCEAN_UST:
+    """
+        name: tOCEAN:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tOCEAN:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6438,11 +8963,20 @@ class OCEAN_UST:
         return "tOCEAN:UST"
 
 
-OCEAN_UST = OCEAN_UST()
+OMGBTC = OMGBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class OMGBTC:
+    """
+        name: tOMGBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tOMGBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6461,11 +8995,20 @@ class OMGBTC:
         return "tOMGBTC"
 
 
-OMGBTC = OMGBTC()
+OMGETH = OMGETH()
 
 
 @dataclass(slots=True, frozen=True)
 class OMGETH:
+    """
+        name: tOMGETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tOMGETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6484,11 +9027,20 @@ class OMGETH:
         return "tOMGETH"
 
 
-OMGETH = OMGETH()
+OMGF0_USTF0 = OMGF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class OMGF0_USTF0:
+    """
+        name: tOMGF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.8
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tOMGF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -6507,11 +9059,20 @@ class OMGF0_USTF0:
         return "tOMGF0:USTF0"
 
 
-OMGF0_USTF0 = OMGF0_USTF0()
+OMGUSD = OMGUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class OMGUSD:
+    """
+        name: tOMGUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tOMGUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6530,11 +9091,20 @@ class OMGUSD:
         return "tOMGUSD"
 
 
-OMGUSD = OMGUSD()
+OMNUSD = OMNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class OMNUSD:
+    """
+        name: tOMNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 20000.0
+        margin: False
+    """
     name: str = "tOMNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6553,11 +9123,20 @@ class OMNUSD:
         return "tOMNUSD"
 
 
-OMNUSD = OMNUSD()
+ONEUSD = ONEUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEUSD:
+    """
+        name: tONEUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 3500000.0
+        margin: False
+    """
     name: str = "tONEUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6576,11 +9155,20 @@ class ONEUSD:
         return "tONEUSD"
 
 
-ONEUSD = ONEUSD()
+ONEUST = ONEUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ONEUST:
+    """
+        name: tONEUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 3500000.0
+        margin: False
+    """
     name: str = "tONEUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6599,11 +9187,20 @@ class ONEUST:
         return "tONEUST"
 
 
-ONEUST = ONEUST()
+OXYUSD = OXYUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class OXYUSD:
+    """
+        name: tOXYUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 22.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tOXYUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6622,11 +9219,20 @@ class OXYUSD:
         return "tOXYUSD"
 
 
-OXYUSD = OXYUSD()
+PASUSD = PASUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class PASUSD:
+    """
+        name: tPASUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1588.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tPASUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6645,11 +9251,20 @@ class PASUSD:
         return "tPASUSD"
 
 
-PASUSD = PASUSD()
+PAXUSD = PAXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class PAXUSD:
+    """
+        name: tPAXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tPAXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6668,11 +9283,20 @@ class PAXUSD:
         return "tPAXUSD"
 
 
-PAXUSD = PAXUSD()
+PAXUST = PAXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class PAXUST:
+    """
+        name: tPAXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tPAXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6691,11 +9315,20 @@ class PAXUST:
         return "tPAXUST"
 
 
-PAXUST = PAXUST()
+PLANETS_USD = PLANETS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class PLANETS_USD:
+    """
+        name: tPLANETS:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 124.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tPLANETS:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6714,11 +9347,20 @@ class PLANETS_USD:
         return "tPLANETS:USD"
 
 
-PLANETS_USD = PLANETS_USD()
+PLANETS_UST = PLANETS_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class PLANETS_UST:
+    """
+        name: tPLANETS:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 124.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tPLANETS:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6737,11 +9379,20 @@ class PLANETS_UST:
         return "tPLANETS:UST"
 
 
-PLANETS_UST = PLANETS_UST()
+PLUUSD = PLUUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class PLUUSD:
+    """
+        name: tPLUUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 10000.0
+        margin: False
+    """
     name: str = "tPLUUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6760,11 +9411,20 @@ class PLUUSD:
         return "tPLUUSD"
 
 
-PLUUSD = PLUUSD()
+PNKUSD = PNKUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class PNKUSD:
+    """
+        name: tPNKUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 52.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tPNKUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6783,11 +9443,20 @@ class PNKUSD:
         return "tPNKUSD"
 
 
-PNKUSD = PNKUSD()
+POLC_USD = POLC_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POLC_USD:
+    """
+        name: tPOLC:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tPOLC:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6806,11 +9475,20 @@ class POLC_USD:
         return "tPOLC:USD"
 
 
-POLC_USD = POLC_USD()
+POLC_UST = POLC_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class POLC_UST:
+    """
+        name: tPOLC:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 26.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tPOLC:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6829,11 +9507,20 @@ class POLC_UST:
         return "tPOLC:UST"
 
 
-POLC_UST = POLC_UST()
+POLIS_USD = POLIS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class POLIS_USD:
+    """
+        name: tPOLIS:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tPOLIS:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6852,11 +9539,20 @@ class POLIS_USD:
         return "tPOLIS:USD"
 
 
-POLIS_USD = POLIS_USD()
+POLIS_UST = POLIS_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class POLIS_UST:
+    """
+        name: tPOLIS:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tPOLIS:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6875,11 +9571,20 @@ class POLIS_UST:
         return "tPOLIS:UST"
 
 
-POLIS_UST = POLIS_UST()
+QRDO_USD = QRDO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class QRDO_USD:
+    """
+        name: tQRDO:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tQRDO:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6898,11 +9603,20 @@ class QRDO_USD:
         return "tQRDO:USD"
 
 
-QRDO_USD = QRDO_USD()
+QRDO_UST = QRDO_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class QRDO_UST:
+    """
+        name: tQRDO:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tQRDO:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6921,11 +9635,20 @@ class QRDO_UST:
         return "tQRDO:UST"
 
 
-QRDO_UST = QRDO_UST()
+QTFBTC = QTFBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class QTFBTC:
+    """
+        name: tQTFBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tQTFBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6944,11 +9667,20 @@ class QTFBTC:
         return "tQTFBTC"
 
 
-QTFBTC = QTFBTC()
+QTFUSD = QTFUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class QTFUSD:
+    """
+        name: tQTFUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tQTFUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6967,11 +9699,20 @@ class QTFUSD:
         return "tQTFUSD"
 
 
-QTFUSD = QTFUSD()
+QTMUSD = QTMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class QTMUSD:
+    """
+        name: tQTMUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.6
+        maximum_order_size: 5000.0
+        margin: False
+    """
     name: str = "tQTMUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -6990,11 +9731,20 @@ class QTMUSD:
         return "tQTMUSD"
 
 
-QTMUSD = QTMUSD()
+RBTBTC = RBTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class RBTBTC:
+    """
+        name: tRBTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 500.0
+        margin: False
+    """
     name: str = "tRBTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7013,11 +9763,20 @@ class RBTBTC:
         return "tRBTBTC"
 
 
-RBTBTC = RBTBTC()
+RBTUSD = RBTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class RBTUSD:
+    """
+        name: tRBTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 500.0
+        margin: False
+    """
     name: str = "tRBTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7036,11 +9795,20 @@ class RBTUSD:
         return "tRBTUSD"
 
 
-RBTUSD = RBTUSD()
+REEF_USD = REEF_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class REEF_USD:
+    """
+        name: tREEF:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 466.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tREEF:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7059,11 +9827,20 @@ class REEF_USD:
         return "tREEF:USD"
 
 
-REEF_USD = REEF_USD()
+REEF_UST = REEF_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class REEF_UST:
+    """
+        name: tREEF:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 466.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tREEF:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7082,11 +9859,20 @@ class REEF_UST:
         return "tREEF:UST"
 
 
-REEF_UST = REEF_UST()
+REPUSD = REPUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class REPUSD:
+    """
+        name: tREPUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 1000.0
+        margin: False
+    """
     name: str = "tREPUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7105,11 +9891,20 @@ class REPUSD:
         return "tREPUSD"
 
 
-REPUSD = REPUSD()
+REQUSD = REQUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class REQUSD:
+    """
+        name: tREQUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 16.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tREQUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7128,11 +9923,20 @@ class REQUSD:
         return "tREQUSD"
 
 
-REQUSD = REQUSD()
+RLYUSD = RLYUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class RLYUSD:
+    """
+        name: tRLYUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tRLYUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7151,11 +9955,20 @@ class RLYUSD:
         return "tRLYUSD"
 
 
-RLYUSD = RLYUSD()
+RLYUST = RLYUST()
 
 
 @dataclass(slots=True, frozen=True)
 class RLYUST:
+    """
+        name: tRLYUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tRLYUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7174,11 +9987,20 @@ class RLYUST:
         return "tRLYUST"
 
 
-RLYUST = RLYUST()
+ROSE_USD = ROSE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class ROSE_USD:
+    """
+        name: tROSE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 32.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tROSE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7197,11 +10019,20 @@ class ROSE_USD:
         return "tROSE:USD"
 
 
-ROSE_USD = ROSE_USD()
+RRTUSD = RRTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class RRTUSD:
+    """
+        name: tRRTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 100000.0
+        margin: False
+    """
     name: str = "tRRTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7220,11 +10051,20 @@ class RRTUSD:
         return "tRRTUSD"
 
 
-RRTUSD = RRTUSD()
+SAND_USD = SAND_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SAND_USD:
+    """
+        name: tSAND:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSAND:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7243,11 +10083,20 @@ class SAND_USD:
         return "tSAND:USD"
 
 
-SAND_USD = SAND_USD()
+SAND_UST = SAND_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SAND_UST:
+    """
+        name: tSAND:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSAND:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7266,11 +10115,20 @@ class SAND_UST:
         return "tSAND:UST"
 
 
-SAND_UST = SAND_UST()
+SANDF0_USTF0 = SANDF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class SANDF0_USTF0:
+    """
+        name: tSANDF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tSANDF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -7289,11 +10147,20 @@ class SANDF0_USTF0:
         return "tSANDF0:USTF0"
 
 
-SANDF0_USTF0 = SANDF0_USTF0()
+SENATE_USD = SENATE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SENATE_USD:
+    """
+        name: tSENATE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tSENATE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7312,11 +10179,20 @@ class SENATE_USD:
         return "tSENATE:USD"
 
 
-SENATE_USD = SENATE_USD()
+SENATE_UST = SENATE_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SENATE_UST:
+    """
+        name: tSENATE:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 20.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tSENATE:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7335,11 +10211,20 @@ class SENATE_UST:
         return "tSENATE:UST"
 
 
-SENATE_UST = SENATE_UST()
+SGBUSD = SGBUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SGBUSD:
+    """
+        name: tSGBUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 52.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tSGBUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7358,11 +10243,20 @@ class SGBUSD:
         return "tSGBUSD"
 
 
-SGBUSD = SGBUSD()
+SGBUST = SGBUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SGBUST:
+    """
+        name: tSGBUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 52.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tSGBUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7381,11 +10275,20 @@ class SGBUST:
         return "tSGBUST"
 
 
-SGBUST = SGBUST()
+SHFT_USD = SHFT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SHFT_USD:
+    """
+        name: tSHFT:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 52.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tSHFT:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7404,11 +10307,20 @@ class SHFT_USD:
         return "tSHFT:USD"
 
 
-SHFT_USD = SHFT_USD()
+SHFT_UST = SHFT_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SHFT_UST:
+    """
+        name: tSHFT:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 52.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tSHFT:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7427,11 +10339,20 @@ class SHFT_UST:
         return "tSHFT:UST"
 
 
-SHFT_UST = SHFT_UST()
+SHIB_USD = SHIB_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_USD:
+    """
+        name: tSHIB:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 187004.0
+        maximum_order_size: 5000000000.0
+        margin: True
+    """
     name: str = "tSHIB:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7450,11 +10371,20 @@ class SHIB_USD:
         return "tSHIB:USD"
 
 
-SHIB_USD = SHIB_USD()
+SHIB_UST = SHIB_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIB_UST:
+    """
+        name: tSHIB:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 187004.0
+        maximum_order_size: 5000000000.0
+        margin: True
+    """
     name: str = "tSHIB:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7473,11 +10403,20 @@ class SHIB_UST:
         return "tSHIB:UST"
 
 
-SHIB_UST = SHIB_UST()
+SHIBF0_USTF0 = SHIBF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class SHIBF0_USTF0:
+    """
+        name: tSHIBF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 187004.0
+        maximum_order_size: 5000000000.0
+        margin: True
+    """
     name: str = "tSHIBF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -7496,11 +10435,20 @@ class SHIBF0_USTF0:
         return "tSHIBF0:USTF0"
 
 
-SHIBF0_USTF0 = SHIBF0_USTF0()
+SIDUS_USD = SIDUS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SIDUS_USD:
+    """
+        name: tSIDUS:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 664.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tSIDUS:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7519,11 +10467,20 @@ class SIDUS_USD:
         return "tSIDUS:USD"
 
 
-SIDUS_USD = SIDUS_USD()
+SMRUSD = SMRUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SMRUSD:
+    """
+        name: tSMRUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 700000.0
+        margin: False
+    """
     name: str = "tSMRUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7542,11 +10499,20 @@ class SMRUSD:
         return "tSMRUSD"
 
 
-SMRUSD = SMRUSD()
+SMRUST = SMRUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SMRUST:
+    """
+        name: tSMRUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 700000.0
+        margin: False
+    """
     name: str = "tSMRUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7565,11 +10531,20 @@ class SMRUST:
         return "tSMRUST"
 
 
-SMRUST = SMRUST()
+SNTUSD = SNTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SNTUSD:
+    """
+        name: tSNTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 48.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tSNTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7588,11 +10563,20 @@ class SNTUSD:
         return "tSNTUSD"
 
 
-SNTUSD = SNTUSD()
+SNXUSD = SNXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SNXUSD:
+    """
+        name: tSNXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tSNXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7611,11 +10595,20 @@ class SNXUSD:
         return "tSNXUSD"
 
 
-SNXUSD = SNXUSD()
+SNXUST = SNXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SNXUST:
+    """
+        name: tSNXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.8
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tSNXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7634,11 +10627,20 @@ class SNXUST:
         return "tSNXUST"
 
 
-SNXUST = SNXUST()
+SOLBTC = SOLBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class SOLBTC:
+    """
+        name: tSOLBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.06
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSOLBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7657,11 +10659,20 @@ class SOLBTC:
         return "tSOLBTC"
 
 
-SOLBTC = SOLBTC()
+SOLF0_BTCF0 = SOLF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class SOLF0_BTCF0:
+    """
+        name: tSOLF0:BTCF0
+        precision: 5
+        minimum_margin: 2.5
+        initial_margin: 5.0
+        minimum_order_size: 0.06
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSOLF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 2.5
@@ -7680,11 +10691,20 @@ class SOLF0_BTCF0:
         return "tSOLF0:BTCF0"
 
 
-SOLF0_BTCF0 = SOLF0_BTCF0()
+SOLF0_USTF0 = SOLF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class SOLF0_USTF0:
+    """
+        name: tSOLF0:USTF0
+        precision: 5
+        minimum_margin: 2.5
+        initial_margin: 5.0
+        minimum_order_size: 0.06
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tSOLF0:USTF0"
     precision: int = 5
     minimum_margin: float = 2.5
@@ -7703,11 +10723,20 @@ class SOLF0_USTF0:
         return "tSOLF0:USTF0"
 
 
-SOLF0_USTF0 = SOLF0_USTF0()
+SOLUSD = SOLUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SOLUSD:
+    """
+        name: tSOLUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.06
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSOLUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7726,11 +10755,20 @@ class SOLUSD:
         return "tSOLUSD"
 
 
-SOLUSD = SOLUSD()
+SOLUST = SOLUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SOLUST:
+    """
+        name: tSOLUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.06
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSOLUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7749,11 +10787,20 @@ class SOLUST:
         return "tSOLUST"
 
 
-SOLUST = SOLUST()
+SPELL_USD = SPELL_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SPELL_USD:
+    """
+        name: tSPELL:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1640.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tSPELL:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7772,11 +10819,20 @@ class SPELL_USD:
         return "tSPELL:USD"
 
 
-SPELL_USD = SPELL_USD()
+SPELL_UST = SPELL_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SPELL_UST:
+    """
+        name: tSPELL:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1640.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tSPELL:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7795,11 +10851,20 @@ class SPELL_UST:
         return "tSPELL:UST"
 
 
-SPELL_UST = SPELL_UST()
+STGF0_USTF0 = STGF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class STGF0_USTF0:
+    """
+        name: tSTGF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tSTGF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -7818,11 +10883,20 @@ class STGF0_USTF0:
         return "tSTGF0:USTF0"
 
 
-STGF0_USTF0 = STGF0_USTF0()
+STGUSD = STGUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class STGUSD:
+    """
+        name: tSTGUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSTGUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7841,11 +10915,20 @@ class STGUSD:
         return "tSTGUSD"
 
 
-STGUSD = STGUSD()
+STGUST = STGUST()
 
 
 @dataclass(slots=True, frozen=True)
 class STGUST:
+    """
+        name: tSTGUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSTGUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7864,11 +10947,20 @@ class STGUST:
         return "tSTGUST"
 
 
-STGUST = STGUST()
+STJUSD = STJUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class STJUSD:
+    """
+        name: tSTJUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 30000.0
+        margin: False
+    """
     name: str = "tSTJUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7887,11 +10979,20 @@ class STJUSD:
         return "tSTJUSD"
 
 
-STJUSD = STJUSD()
+SUKU_USD = SUKU_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUKU_USD:
+    """
+        name: tSUKU:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSUKU:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7910,11 +11011,20 @@ class SUKU_USD:
         return "tSUKU:USD"
 
 
-SUKU_USD = SUKU_USD()
+SUKU_UST = SUKU_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SUKU_UST:
+    """
+        name: tSUKU:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 18.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tSUKU:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7933,11 +11043,20 @@ class SUKU_UST:
         return "tSUKU:UST"
 
 
-SUKU_UST = SUKU_UST()
+SUNUSD = SUNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUNUSD:
+    """
+        name: tSUNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 216.0
+        maximum_order_size: 10000000.0
+        margin: False
+    """
     name: str = "tSUNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7956,11 +11075,20 @@ class SUNUSD:
         return "tSUNUSD"
 
 
-SUNUSD = SUNUSD()
+SUNUST = SUNUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SUNUST:
+    """
+        name: tSUNUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 216.0
+        maximum_order_size: 10000000.0
+        margin: False
+    """
     name: str = "tSUNUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -7979,11 +11107,20 @@ class SUNUST:
         return "tSUNUST"
 
 
-SUNUST = SUNUST()
+SUSHI_USD = SUSHI_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_USD:
+    """
+        name: tSUSHI:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSUSHI:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8002,11 +11139,20 @@ class SUSHI_USD:
         return "tSUSHI:USD"
 
 
-SUSHI_USD = SUSHI_USD()
+SUSHI_UST = SUSHI_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHI_UST:
+    """
+        name: tSUSHI:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tSUSHI:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8025,11 +11171,20 @@ class SUSHI_UST:
         return "tSUSHI:UST"
 
 
-SUSHI_UST = SUSHI_UST()
+SUSHIF0_USTF0 = SUSHIF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class SUSHIF0_USTF0:
+    """
+        name: tSUSHIF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tSUSHIF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -8048,11 +11203,20 @@ class SUSHIF0_USTF0:
         return "tSUSHIF0:USTF0"
 
 
-SUSHIF0_USTF0 = SUSHIF0_USTF0()
+SWEAT_USD = SWEAT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class SWEAT_USD:
+    """
+        name: tSWEAT:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 7000000.0
+        margin: False
+    """
     name: str = "tSWEAT:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8071,11 +11235,20 @@ class SWEAT_USD:
         return "tSWEAT:USD"
 
 
-SWEAT_USD = SWEAT_USD()
+SWEAT_UST = SWEAT_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class SWEAT_UST:
+    """
+        name: tSWEAT:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 7000000.0
+        margin: False
+    """
     name: str = "tSWEAT:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8094,11 +11267,20 @@ class SWEAT_UST:
         return "tSWEAT:UST"
 
 
-SWEAT_UST = SWEAT_UST()
+SXXUSD = SXXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class SXXUSD:
+    """
+        name: tSXXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tSXXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8117,11 +11299,20 @@ class SXXUSD:
         return "tSXXUSD"
 
 
-SXXUSD = SXXUSD()
+SXXUST = SXXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class SXXUST:
+    """
+        name: tSXXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tSXXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8140,11 +11331,20 @@ class SXXUST:
         return "tSXXUST"
 
 
-SXXUST = SXXUST()
+TERRAUST_USD = TERRAUST_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TERRAUST_USD:
+    """
+        name: tTERRAUST:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 100.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tTERRAUST:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8163,11 +11363,20 @@ class TERRAUST_USD:
         return "tTERRAUST:USD"
 
 
-TERRAUST_USD = TERRAUST_USD()
+TESTBTC_TESTUSD = TESTBTC_TESTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class TESTBTC_TESTUSD:
+    """
+        name: tTESTBTC:TESTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tTESTBTC:TESTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8186,11 +11395,20 @@ class TESTBTC_TESTUSD:
         return "tTESTBTC:TESTUSD"
 
 
-TESTBTC_TESTUSD = TESTBTC_TESTUSD()
+TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
 
 
 @dataclass(slots=True, frozen=True)
 class TESTBTC_TESTUSDT:
+    """
+        name: tTESTBTC:TESTUSDT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tTESTBTC:TESTUSDT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8209,11 +11427,20 @@ class TESTBTC_TESTUSDT:
         return "tTESTBTC:TESTUSDT"
 
 
-TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
+TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class TESTBTCF0_TESTUSDTF0:
+    """
+        name: tTESTBTCF0:TESTUSDTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 1000.0
+        margin: True
+    """
     name: str = "tTESTBTCF0:TESTUSDTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -8232,11 +11459,20 @@ class TESTBTCF0_TESTUSDTF0:
         return "tTESTBTCF0:TESTUSDTF0"
 
 
-TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
+THETA_USD = THETA_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class THETA_USD:
+    """
+        name: tTHETA:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tTHETA:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8255,11 +11491,20 @@ class THETA_USD:
         return "tTHETA:USD"
 
 
-THETA_USD = THETA_USD()
+THETA_UST = THETA_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class THETA_UST:
+    """
+        name: tTHETA:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tTHETA:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8278,11 +11523,20 @@ class THETA_UST:
         return "tTHETA:UST"
 
 
-THETA_UST = THETA_UST()
+TLOS_USD = TLOS_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TLOS_USD:
+    """
+        name: tTLOS:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 8.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tTLOS:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8301,11 +11555,20 @@ class TLOS_USD:
         return "tTLOS:USD"
 
 
-TLOS_USD = TLOS_USD()
+TRADE_USD = TRADE_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRADE_USD:
+    """
+        name: tTRADE:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 28.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tTRADE:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8324,11 +11587,20 @@ class TRADE_USD:
         return "tTRADE:USD"
 
 
-TRADE_USD = TRADE_USD()
+TRADE_UST = TRADE_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class TRADE_UST:
+    """
+        name: tTRADE:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 28.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tTRADE:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8347,11 +11619,20 @@ class TRADE_UST:
         return "tTRADE:UST"
 
 
-TRADE_UST = TRADE_UST()
+TREEB_USD = TREEB_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class TREEB_USD:
+    """
+        name: tTREEB:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 3000000.0
+        margin: False
+    """
     name: str = "tTREEB:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8370,11 +11651,20 @@ class TREEB_USD:
         return "tTREEB:USD"
 
 
-TREEB_USD = TREEB_USD()
+TREEB_UST = TREEB_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class TREEB_UST:
+    """
+        name: tTREEB:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 3000000.0
+        margin: False
+    """
     name: str = "tTREEB:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8393,11 +11683,20 @@ class TREEB_UST:
         return "tTREEB:UST"
 
 
-TREEB_UST = TREEB_UST()
+TRXBTC = TRXBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXBTC:
+    """
+        name: tTRXBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 34.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tTRXBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8416,11 +11715,20 @@ class TRXBTC:
         return "tTRXBTC"
 
 
-TRXBTC = TRXBTC()
+TRXETH = TRXETH()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXETH:
+    """
+        name: tTRXETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 34.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tTRXETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8439,11 +11747,20 @@ class TRXETH:
         return "tTRXETH"
 
 
-TRXETH = TRXETH()
+TRXEUR = TRXEUR()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXEUR:
+    """
+        name: tTRXEUR
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 34.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tTRXEUR"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8462,11 +11779,20 @@ class TRXEUR:
         return "tTRXEUR"
 
 
-TRXEUR = TRXEUR()
+TRXF0_USTF0 = TRXF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXF0_USTF0:
+    """
+        name: tTRXF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 24.0
+        maximum_order_size: 1000000.0
+        margin: True
+    """
     name: str = "tTRXF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -8485,11 +11811,20 @@ class TRXF0_USTF0:
         return "tTRXF0:USTF0"
 
 
-TRXF0_USTF0 = TRXF0_USTF0()
+TRXUSD = TRXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXUSD:
+    """
+        name: tTRXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 34.0
+        maximum_order_size: 1000000.0
+        margin: True
+    """
     name: str = "tTRXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8508,11 +11843,20 @@ class TRXUSD:
         return "tTRXUSD"
 
 
-TRXUSD = TRXUSD()
+TRXUST = TRXUST()
 
 
 @dataclass(slots=True, frozen=True)
 class TRXUST:
+    """
+        name: tTRXUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 24.0
+        maximum_order_size: 1000000.0
+        margin: True
+    """
     name: str = "tTRXUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8531,11 +11875,20 @@ class TRXUST:
         return "tTRXUST"
 
 
-TRXUST = TRXUST()
+TRYUST = TRYUST()
 
 
 @dataclass(slots=True, frozen=True)
 class TRYUST:
+    """
+        name: tTRYUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tTRYUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8554,11 +11907,20 @@ class TRYUST:
         return "tTRYUST"
 
 
-TRYUST = TRYUST()
+TSDUSD = TSDUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class TSDUSD:
+    """
+        name: tTSDUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tTSDUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8577,11 +11939,20 @@ class TSDUSD:
         return "tTSDUSD"
 
 
-TSDUSD = TSDUSD()
+TSDUST = TSDUST()
 
 
 @dataclass(slots=True, frozen=True)
 class TSDUST:
+    """
+        name: tTSDUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tTSDUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8600,11 +11971,20 @@ class TSDUST:
         return "tTSDUST"
 
 
-TSDUST = TSDUST()
+UDCUSD = UDCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class UDCUSD:
+    """
+        name: tUDCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tUDCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8623,11 +12003,20 @@ class UDCUSD:
         return "tUDCUSD"
 
 
-UDCUSD = UDCUSD()
+UDCUST = UDCUST()
 
 
 @dataclass(slots=True, frozen=True)
 class UDCUST:
+    """
+        name: tUDCUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tUDCUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8646,11 +12035,20 @@ class UDCUST:
         return "tUDCUST"
 
 
-UDCUST = UDCUST()
+UNIF0_USTF0 = UNIF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class UNIF0_USTF0:
+    """
+        name: tUNIF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.4
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tUNIF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -8669,11 +12067,20 @@ class UNIF0_USTF0:
         return "tUNIF0:USTF0"
 
 
-UNIF0_USTF0 = UNIF0_USTF0()
+UNIUSD = UNIUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class UNIUSD:
+    """
+        name: tUNIUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tUNIUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8692,11 +12099,20 @@ class UNIUSD:
         return "tUNIUSD"
 
 
-UNIUSD = UNIUSD()
+UNIUST = UNIUST()
 
 
 @dataclass(slots=True, frozen=True)
 class UNIUST:
+    """
+        name: tUNIUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.4
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tUNIUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8715,11 +12131,20 @@ class UNIUST:
         return "tUNIUST"
 
 
-UNIUST = UNIUST()
+UOSBTC = UOSBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class UOSBTC:
+    """
+        name: tUOSBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 400000.0
+        margin: False
+    """
     name: str = "tUOSBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8738,11 +12163,20 @@ class UOSBTC:
         return "tUOSBTC"
 
 
-UOSBTC = UOSBTC()
+UOSUSD = UOSUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class UOSUSD:
+    """
+        name: tUOSUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 4.0
+        maximum_order_size: 400000.0
+        margin: False
+    """
     name: str = "tUOSUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8761,11 +12195,20 @@ class UOSUSD:
         return "tUOSUSD"
 
 
-UOSUSD = UOSUSD()
+UST_CNHT = UST_CNHT()
 
 
 @dataclass(slots=True, frozen=True)
 class UST_CNHT:
+    """
+        name: tUST:CNHT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tUST:CNHT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8784,11 +12227,20 @@ class UST_CNHT:
         return "tUST:CNHT"
 
 
-UST_CNHT = UST_CNHT()
+UST_MXNT = UST_MXNT()
 
 
 @dataclass(slots=True, frozen=True)
 class UST_MXNT:
+    """
+        name: tUST:MXNT
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10000000.0
+        margin: False
+    """
     name: str = "tUST:MXNT"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8807,11 +12259,20 @@ class UST_MXNT:
         return "tUST:MXNT"
 
 
-UST_MXNT = UST_MXNT()
+USTUSD = USTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class USTUSD:
+    """
+        name: tUSTUSD
+        precision: 5
+        minimum_margin: 5.0
+        initial_margin: 10.0
+        minimum_order_size: 2.0
+        maximum_order_size: 5000000.0
+        margin: True
+    """
     name: str = "tUSTUSD"
     precision: int = 5
     minimum_margin: float = 5.0
@@ -8830,11 +12291,20 @@ class USTUSD:
         return "tUSTUSD"
 
 
-USTUSD = USTUSD()
+UTKUSD = UTKUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class UTKUSD:
+    """
+        name: tUTKUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 300000.0
+        margin: False
+    """
     name: str = "tUTKUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8853,11 +12323,20 @@ class UTKUSD:
         return "tUTKUSD"
 
 
-UTKUSD = UTKUSD()
+VEEUSD = VEEUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class VEEUSD:
+    """
+        name: tVEEUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 1258.0
+        maximum_order_size: 15000000.0
+        margin: False
+    """
     name: str = "tVEEUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8876,11 +12355,20 @@ class VEEUSD:
         return "tVEEUSD"
 
 
-VEEUSD = VEEUSD()
+VELO_USD = VELO_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class VELO_USD:
+    """
+        name: tVELO:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 66.0
+        maximum_order_size: 75000.0
+        margin: False
+    """
     name: str = "tVELO:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8899,11 +12387,20 @@ class VELO_USD:
         return "tVELO:USD"
 
 
-VELO_USD = VELO_USD()
+VELO_UST = VELO_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class VELO_UST:
+    """
+        name: tVELO:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 66.0
+        maximum_order_size: 75000.0
+        margin: False
+    """
     name: str = "tVELO:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8922,11 +12419,20 @@ class VELO_UST:
         return "tVELO:UST"
 
 
-VELO_UST = VELO_UST()
+VETBTC = VETBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class VETBTC:
+    """
+        name: tVETBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 66.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tVETBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8945,11 +12451,20 @@ class VETBTC:
         return "tVETBTC"
 
 
-VETBTC = VETBTC()
+VETUSD = VETUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class VETUSD:
+    """
+        name: tVETUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 66.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tVETUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8968,11 +12483,20 @@ class VETUSD:
         return "tVETUSD"
 
 
-VETUSD = VETUSD()
+VETUST = VETUST()
 
 
 @dataclass(slots=True, frozen=True)
 class VETUST:
+    """
+        name: tVETUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 66.0
+        maximum_order_size: 5000000.0
+        margin: False
+    """
     name: str = "tVETUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -8991,11 +12515,20 @@ class VETUST:
         return "tVETUST"
 
 
-VETUST = VETUST()
+VRAUSD = VRAUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class VRAUSD:
+    """
+        name: tVRAUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 286.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tVRAUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9014,11 +12547,20 @@ class VRAUSD:
         return "tVRAUSD"
 
 
-VRAUSD = VRAUSD()
+VRAUST = VRAUST()
 
 
 @dataclass(slots=True, frozen=True)
 class VRAUST:
+    """
+        name: tVRAUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 286.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tVRAUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9037,11 +12579,20 @@ class VRAUST:
         return "tVRAUST"
 
 
-VRAUST = VRAUST()
+VSYUSD = VSYUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class VSYUSD:
+    """
+        name: tVSYUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 432.0
+        maximum_order_size: 250000.0
+        margin: False
+    """
     name: str = "tVSYUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9060,11 +12611,20 @@ class VSYUSD:
         return "tVSYUSD"
 
 
-VSYUSD = VSYUSD()
+WAVES_USD = WAVES_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WAVES_USD:
+    """
+        name: tWAVES:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWAVES:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9083,11 +12643,20 @@ class WAVES_USD:
         return "tWAVES:USD"
 
 
-WAVES_USD = WAVES_USD()
+WAVES_UST = WAVES_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class WAVES_UST:
+    """
+        name: tWAVES:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWAVES:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9106,11 +12675,20 @@ class WAVES_UST:
         return "tWAVES:UST"
 
 
-WAVES_UST = WAVES_UST()
+WAVESF0_USTF0 = WAVESF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class WAVESF0_USTF0:
+    """
+        name: tWAVESF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.2
+        maximum_order_size: 50000.0
+        margin: True
+    """
     name: str = "tWAVESF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9129,11 +12707,20 @@ class WAVESF0_USTF0:
         return "tWAVESF0:USTF0"
 
 
-WAVESF0_USTF0 = WAVESF0_USTF0()
+WAXUSD = WAXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class WAXUSD:
+    """
+        name: tWAXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 16.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWAXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9152,11 +12739,20 @@ class WAXUSD:
         return "tWAXUSD"
 
 
-WAXUSD = WAXUSD()
+WBTBTC = WBTBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class WBTBTC:
+    """
+        name: tWBTBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 10.0
+        margin: False
+    """
     name: str = "tWBTBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9175,11 +12771,20 @@ class WBTBTC:
         return "tWBTBTC"
 
 
-WBTBTC = WBTBTC()
+WBTUSD = WBTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class WBTUSD:
+    """
+        name: tWBTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.00006
+        maximum_order_size: 10.0
+        margin: False
+    """
     name: str = "tWBTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9198,11 +12803,20 @@ class WBTUSD:
         return "tWBTUSD"
 
 
-WBTUSD = WBTUSD()
+WILD_USD = WILD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WILD_USD:
+    """
+        name: tWILD:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWILD:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9221,11 +12835,20 @@ class WILD_USD:
         return "tWILD:USD"
 
 
-WILD_USD = WILD_USD()
+WILD_UST = WILD_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class WILD_UST:
+    """
+        name: tWILD:UST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWILD:UST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9244,11 +12867,20 @@ class WILD_UST:
         return "tWILD:UST"
 
 
-WILD_UST = WILD_UST()
+WNCG_USD = WNCG_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class WNCG_USD:
+    """
+        name: tWNCG:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 12.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tWNCG:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9267,11 +12899,20 @@ class WNCG_USD:
         return "tWNCG:USD"
 
 
-WNCG_USD = WNCG_USD()
+WOOUSD = WOOUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class WOOUSD:
+    """
+        name: tWOOUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tWOOUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9290,11 +12931,20 @@ class WOOUSD:
         return "tWOOUSD"
 
 
-WOOUSD = WOOUSD()
+WOOUST = WOOUST()
 
 
 @dataclass(slots=True, frozen=True)
 class WOOUST:
+    """
+        name: tWOOUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 2500000.0
+        margin: False
+    """
     name: str = "tWOOUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9313,11 +12963,20 @@ class WOOUST:
         return "tWOOUST"
 
 
-WOOUST = WOOUST()
+XAGF0_USTF0 = XAGF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XAGF0_USTF0:
+    """
+        name: tXAGF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.1
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tXAGF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9336,11 +12995,20 @@ class XAGF0_USTF0:
         return "tXAGF0:USTF0"
 
 
-XAGF0_USTF0 = XAGF0_USTF0()
+XAUT_BTC = XAUT_BTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XAUT_BTC:
+    """
+        name: tXAUT:BTC
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 400.0
+        margin: True
+    """
     name: str = "tXAUT:BTC"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -9359,11 +13027,20 @@ class XAUT_BTC:
         return "tXAUT:BTC"
 
 
-XAUT_BTC = XAUT_BTC()
+XAUT_USD = XAUT_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XAUT_USD:
+    """
+        name: tXAUT:USD
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 400.0
+        margin: True
+    """
     name: str = "tXAUT:USD"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -9382,11 +13059,20 @@ class XAUT_USD:
         return "tXAUT:USD"
 
 
-XAUT_USD = XAUT_USD()
+XAUT_UST = XAUT_UST()
 
 
 @dataclass(slots=True, frozen=True)
 class XAUT_UST:
+    """
+        name: tXAUT:UST
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 0.002
+        maximum_order_size: 400.0
+        margin: True
+    """
     name: str = "tXAUT:UST"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -9405,11 +13091,20 @@ class XAUT_UST:
         return "tXAUT:UST"
 
 
-XAUT_UST = XAUT_UST()
+XAUTF0_BTCF0 = XAUTF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XAUTF0_BTCF0:
+    """
+        name: tXAUTF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 500.0
+        margin: True
+    """
     name: str = "tXAUTF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9428,11 +13123,20 @@ class XAUTF0_BTCF0:
         return "tXAUTF0:BTCF0"
 
 
-XAUTF0_BTCF0 = XAUTF0_BTCF0()
+XAUTF0_USTF0 = XAUTF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XAUTF0_USTF0:
+    """
+        name: tXAUTF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.002
+        maximum_order_size: 400.0
+        margin: True
+    """
     name: str = "tXAUTF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9451,11 +13155,20 @@ class XAUTF0_USTF0:
         return "tXAUTF0:USTF0"
 
 
-XAUTF0_USTF0 = XAUTF0_USTF0()
+XCAD_USD = XCAD_USD()
 
 
 @dataclass(slots=True, frozen=True)
 class XCAD_USD:
+    """
+        name: tXCAD:USD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 15000.0
+        margin: False
+    """
     name: str = "tXCAD:USD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9474,11 +13187,20 @@ class XCAD_USD:
         return "tXCAD:USD"
 
 
-XCAD_USD = XCAD_USD()
+XCNUSD = XCNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XCNUSD:
+    """
+        name: tXCNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXCNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9497,11 +13219,20 @@ class XCNUSD:
         return "tXCNUSD"
 
 
-XCNUSD = XCNUSD()
+XCNUST = XCNUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XCNUST:
+    """
+        name: tXCNUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.001
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXCNUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9520,11 +13251,20 @@ class XCNUST:
         return "tXCNUST"
 
 
-XCNUST = XCNUST()
+XDCUSD = XDCUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XDCUSD:
+    """
+        name: tXDCUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 54.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXDCUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9543,11 +13283,20 @@ class XDCUSD:
         return "tXDCUSD"
 
 
-XDCUSD = XDCUSD()
+XDCUST = XDCUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XDCUST:
+    """
+        name: tXDCUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 54.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXDCUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9566,11 +13315,20 @@ class XDCUST:
         return "tXDCUST"
 
 
-XDCUST = XDCUST()
+XLMBTC = XLMBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XLMBTC:
+    """
+        name: tXLMBTC
+        precision: 5
+        minimum_margin: 25.0
+        initial_margin: 50.0
+        minimum_order_size: 14.0
+        maximum_order_size: 1000000.0
+        margin: True
+    """
     name: str = "tXLMBTC"
     precision: int = 5
     minimum_margin: float = 25.0
@@ -9589,11 +13347,20 @@ class XLMBTC:
         return "tXLMBTC"
 
 
-XLMBTC = XLMBTC()
+XLMF0_USTF0 = XLMF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XLMF0_USTF0:
+    """
+        name: tXLMF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 14.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tXLMF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9612,11 +13379,20 @@ class XLMF0_USTF0:
         return "tXLMF0:USTF0"
 
 
-XLMF0_USTF0 = XLMF0_USTF0()
+XLMUSD = XLMUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XLMUSD:
+    """
+        name: tXLMUSD
+        precision: 5
+        minimum_margin: 25.0
+        initial_margin: 50.0
+        minimum_order_size: 14.0
+        maximum_order_size: 1000000.0
+        margin: True
+    """
     name: str = "tXLMUSD"
     precision: int = 5
     minimum_margin: float = 25.0
@@ -9635,11 +13411,20 @@ class XLMUSD:
         return "tXLMUSD"
 
 
-XLMUSD = XLMUSD()
+XLMUST = XLMUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XLMUST:
+    """
+        name: tXLMUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 14.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXLMUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9658,11 +13443,20 @@ class XLMUST:
         return "tXLMUST"
 
 
-XLMUST = XLMUST()
+XMRBTC = XMRBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XMRBTC:
+    """
+        name: tXMRBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tXMRBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9681,11 +13475,20 @@ class XMRBTC:
         return "tXMRBTC"
 
 
-XMRBTC = XMRBTC()
+XMRF0_USTF0 = XMRF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XMRF0_USTF0:
+    """
+        name: tXMRF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.02
+        maximum_order_size: 10000.0
+        margin: True
+    """
     name: str = "tXMRF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9704,11 +13507,20 @@ class XMRF0_USTF0:
         return "tXMRF0:USTF0"
 
 
-XMRF0_USTF0 = XMRF0_USTF0()
+XMRUSD = XMRUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XMRUSD:
+    """
+        name: tXMRUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tXMRUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9727,11 +13539,20 @@ class XMRUSD:
         return "tXMRUSD"
 
 
-XMRUSD = XMRUSD()
+XMRUST = XMRUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XMRUST:
+    """
+        name: tXMRUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 5000.0
+        margin: True
+    """
     name: str = "tXMRUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9750,11 +13571,20 @@ class XMRUST:
         return "tXMRUST"
 
 
-XMRUST = XMRUST()
+XRAUSD = XRAUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XRAUSD:
+    """
+        name: tXRAUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 196.0
+        maximum_order_size: 500000.0
+        margin: False
+    """
     name: str = "tXRAUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9773,11 +13603,20 @@ class XRAUSD:
         return "tXRAUSD"
 
 
-XRAUSD = XRAUSD()
+XRDBTC = XRDBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XRDBTC:
+    """
+        name: tXRDBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 24.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXRDBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9796,11 +13635,20 @@ class XRDBTC:
         return "tXRDBTC"
 
 
-XRDBTC = XRDBTC()
+XRDUSD = XRDUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XRDUSD:
+    """
+        name: tXRDUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 24.0
+        maximum_order_size: 1000000.0
+        margin: False
+    """
     name: str = "tXRDUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9819,11 +13667,20 @@ class XRDUSD:
         return "tXRDUSD"
 
 
-XRDUSD = XRDUSD()
+XRPBTC = XRPBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XRPBTC:
+    """
+        name: tXRPBTC
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 6.0
+        maximum_order_size: 2000000.0
+        margin: True
+    """
     name: str = "tXRPBTC"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -9842,11 +13699,20 @@ class XRPBTC:
         return "tXRPBTC"
 
 
-XRPBTC = XRPBTC()
+XRPF0_BTCF0 = XRPF0_BTCF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XRPF0_BTCF0:
+    """
+        name: tXRPF0:BTCF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 6.0
+        maximum_order_size: 250000.0
+        margin: True
+    """
     name: str = "tXRPF0:BTCF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9865,11 +13731,20 @@ class XRPF0_BTCF0:
         return "tXRPF0:BTCF0"
 
 
-XRPF0_BTCF0 = XRPF0_BTCF0()
+XRPF0_USTF0 = XRPF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XRPF0_USTF0:
+    """
+        name: tXRPF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 6.0
+        maximum_order_size: 500000.0
+        margin: True
+    """
     name: str = "tXRPF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9888,11 +13763,20 @@ class XRPF0_USTF0:
         return "tXRPF0:USTF0"
 
 
-XRPF0_USTF0 = XRPF0_USTF0()
+XRPUSD = XRPUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XRPUSD:
+    """
+        name: tXRPUSD
+        precision: 5
+        minimum_margin: 10.0
+        initial_margin: 20.0
+        minimum_order_size: 6.0
+        maximum_order_size: 2000000.0
+        margin: True
+    """
     name: str = "tXRPUSD"
     precision: int = 5
     minimum_margin: float = 10.0
@@ -9911,11 +13795,20 @@ class XRPUSD:
         return "tXRPUSD"
 
 
-XRPUSD = XRPUSD()
+XRPUST = XRPUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XRPUST:
+    """
+        name: tXRPUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 2000000.0
+        margin: True
+    """
     name: str = "tXRPUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9934,11 +13827,20 @@ class XRPUST:
         return "tXRPUST"
 
 
-XRPUST = XRPUST()
+XTZBTC = XTZBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZBTC:
+    """
+        name: tXTZBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tXTZBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -9957,11 +13859,20 @@ class XTZBTC:
         return "tXTZBTC"
 
 
-XTZBTC = XTZBTC()
+XTZF0_USTF0 = XTZF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZF0_USTF0:
+    """
+        name: tXTZF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tXTZF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -9980,11 +13891,20 @@ class XTZF0_USTF0:
         return "tXTZF0:USTF0"
 
 
-XTZF0_USTF0 = XTZF0_USTF0()
+XTZUSD = XTZUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZUSD:
+    """
+        name: tXTZUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tXTZUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10003,11 +13923,20 @@ class XTZUSD:
         return "tXTZUSD"
 
 
-XTZUSD = XTZUSD()
+XTZUST = XTZUST()
 
 
 @dataclass(slots=True, frozen=True)
 class XTZUST:
+    """
+        name: tXTZUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 100000.0
+        margin: True
+    """
     name: str = "tXTZUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10026,11 +13955,20 @@ class XTZUST:
         return "tXTZUST"
 
 
-XTZUST = XTZUST()
+XVGUSD = XVGUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class XVGUSD:
+    """
+        name: tXVGUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 432.0
+        maximum_order_size: 1500000.0
+        margin: False
+    """
     name: str = "tXVGUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10049,11 +13987,20 @@ class XVGUSD:
         return "tXVGUSD"
 
 
-XVGUSD = XVGUSD()
+YFIUSD = YFIUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class YFIUSD:
+    """
+        name: tYFIUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.0002
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tYFIUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10072,11 +14019,20 @@ class YFIUSD:
         return "tYFIUSD"
 
 
-YFIUSD = YFIUSD()
+YFIUST = YFIUST()
 
 
 @dataclass(slots=True, frozen=True)
 class YFIUST:
+    """
+        name: tYFIUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.0002
+        maximum_order_size: 100.0
+        margin: True
+    """
     name: str = "tYFIUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10095,11 +14051,20 @@ class YFIUST:
         return "tYFIUST"
 
 
-YFIUST = YFIUST()
+ZCNUSD = ZCNUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZCNUSD:
+    """
+        name: tZCNUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 10.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tZCNUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10118,11 +14083,20 @@ class ZCNUSD:
         return "tZCNUSD"
 
 
-ZCNUSD = ZCNUSD()
+ZECBTC = ZECBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZECBTC:
+    """
+        name: tZECBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 20000.0
+        margin: True
+    """
     name: str = "tZECBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10141,11 +14115,20 @@ class ZECBTC:
         return "tZECBTC"
 
 
-ZECBTC = ZECBTC()
+ZECF0_USTF0 = ZECF0_USTF0()
 
 
 @dataclass(slots=True, frozen=True)
 class ZECF0_USTF0:
+    """
+        name: tZECF0:USTF0
+        precision: 5
+        minimum_margin: 0.5
+        initial_margin: 1.0
+        minimum_order_size: 0.02
+        maximum_order_size: 20000.0
+        margin: True
+    """
     name: str = "tZECF0:USTF0"
     precision: int = 5
     minimum_margin: float = 0.5
@@ -10164,11 +14147,20 @@ class ZECF0_USTF0:
         return "tZECF0:USTF0"
 
 
-ZECF0_USTF0 = ZECF0_USTF0()
+ZECUSD = ZECUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZECUSD:
+    """
+        name: tZECUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 0.02
+        maximum_order_size: 20000.0
+        margin: True
+    """
     name: str = "tZECUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10187,11 +14179,20 @@ class ZECUSD:
         return "tZECUSD"
 
 
-ZECUSD = ZECUSD()
+ZILBTC = ZILBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZILBTC:
+    """
+        name: tZILBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 40.0
+        maximum_order_size: 1500000.0
+        margin: False
+    """
     name: str = "tZILBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10210,11 +14211,20 @@ class ZILBTC:
         return "tZILBTC"
 
 
-ZILBTC = ZILBTC()
+ZILUSD = ZILUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZILUSD:
+    """
+        name: tZILUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 40.0
+        maximum_order_size: 1500000.0
+        margin: False
+    """
     name: str = "tZILUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10233,11 +14243,20 @@ class ZILUSD:
         return "tZILUSD"
 
 
-ZILUSD = ZILUSD()
+ZMTUSD = ZMTUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZMTUSD:
+    """
+        name: tZMTUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tZMTUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10256,11 +14275,20 @@ class ZMTUSD:
         return "tZMTUSD"
 
 
-ZMTUSD = ZMTUSD()
+ZMTUST = ZMTUST()
 
 
 @dataclass(slots=True, frozen=True)
 class ZMTUST:
+    """
+        name: tZMTUST
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 2.0
+        maximum_order_size: 50000.0
+        margin: False
+    """
     name: str = "tZMTUST"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10279,11 +14307,20 @@ class ZMTUST:
         return "tZMTUST"
 
 
-ZMTUST = ZMTUST()
+ZRXBTC = ZRXBTC()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRXBTC:
+    """
+        name: tZRXBTC
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 200000.0
+        margin: False
+    """
     name: str = "tZRXBTC"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10302,11 +14339,20 @@ class ZRXBTC:
         return "tZRXBTC"
 
 
-ZRXBTC = ZRXBTC()
+ZRXETH = ZRXETH()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRXETH:
+    """
+        name: tZRXETH
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 200000.0
+        margin: True
+    """
     name: str = "tZRXETH"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10325,11 +14371,20 @@ class ZRXETH:
         return "tZRXETH"
 
 
-ZRXETH = ZRXETH()
+ZRXUSD = ZRXUSD()
 
 
 @dataclass(slots=True, frozen=True)
 class ZRXUSD:
+    """
+        name: tZRXUSD
+        precision: 5
+        minimum_margin: 15.0
+        initial_margin: 30.0
+        minimum_order_size: 6.0
+        maximum_order_size: 200000.0
+        margin: True
+    """
     name: str = "tZRXUSD"
     precision: int = 5
     minimum_margin: float = 15.0
@@ -10346,8 +14401,3 @@ class ZRXUSD:
 
     def __call__(self):
         return "tZRXUSD"
-
-
-ZRXUSD = ZRXUSD()
-
-
