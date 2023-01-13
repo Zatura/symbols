@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass(slots=True)
+@dataclass(slots=True, frozen=True)
 class ONEINCHBTC:
     name: str = "1INCHBTC"
     precision: int = 8
@@ -21,7 +21,10 @@ class ONEINCHBTC:
         return "1INCHBTC"
 
 
-@dataclass(slots=True)
+ONEINCHBTC = ONEINCHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCHBUSD:
     name: str = "1INCHBUSD"
     precision: int = 8
@@ -41,7 +44,10 @@ class ONEINCHBUSD:
         return "1INCHBUSD"
 
 
-@dataclass(slots=True)
+ONEINCHBUSD = ONEINCHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCHDOWNUSDT:
     name: str = "1INCHDOWNUSDT"
     precision: int = 8
@@ -61,7 +67,10 @@ class ONEINCHDOWNUSDT:
         return "1INCHDOWNUSDT"
 
 
-@dataclass(slots=True)
+ONEINCHDOWNUSDT = ONEINCHDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCHUPUSDT:
     name: str = "1INCHUPUSDT"
     precision: int = 8
@@ -81,7 +90,10 @@ class ONEINCHUPUSDT:
         return "1INCHUPUSDT"
 
 
-@dataclass(slots=True)
+ONEINCHUPUSDT = ONEINCHUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCHUSDT:
     name: str = "1INCHUSDT"
     precision: int = 8
@@ -101,7 +113,10 @@ class ONEINCHUSDT:
         return "1INCHUSDT"
 
 
-@dataclass(slots=True)
+ONEINCHUSDT = ONEINCHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEBKRW:
     name: str = "AAVEBKRW"
     precision: int = 8
@@ -121,7 +136,10 @@ class AAVEBKRW:
         return "AAVEBKRW"
 
 
-@dataclass(slots=True)
+AAVEBKRW = AAVEBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEBNB:
     name: str = "AAVEBNB"
     precision: int = 8
@@ -141,7 +159,10 @@ class AAVEBNB:
         return "AAVEBNB"
 
 
-@dataclass(slots=True)
+AAVEBNB = AAVEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEBRL:
     name: str = "AAVEBRL"
     precision: int = 8
@@ -161,7 +182,10 @@ class AAVEBRL:
         return "AAVEBRL"
 
 
-@dataclass(slots=True)
+AAVEBRL = AAVEBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEBTC:
     name: str = "AAVEBTC"
     precision: int = 8
@@ -181,7 +205,10 @@ class AAVEBTC:
         return "AAVEBTC"
 
 
-@dataclass(slots=True)
+AAVEBTC = AAVEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEBUSD:
     name: str = "AAVEBUSD"
     precision: int = 8
@@ -201,7 +228,10 @@ class AAVEBUSD:
         return "AAVEBUSD"
 
 
-@dataclass(slots=True)
+AAVEBUSD = AAVEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEDOWNUSDT:
     name: str = "AAVEDOWNUSDT"
     precision: int = 8
@@ -221,7 +251,10 @@ class AAVEDOWNUSDT:
         return "AAVEDOWNUSDT"
 
 
-@dataclass(slots=True)
+AAVEDOWNUSDT = AAVEDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEETH:
     name: str = "AAVEETH"
     precision: int = 8
@@ -241,7 +274,10 @@ class AAVEETH:
         return "AAVEETH"
 
 
-@dataclass(slots=True)
+AAVEETH = AAVEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEUPUSDT:
     name: str = "AAVEUPUSDT"
     precision: int = 8
@@ -261,7 +297,10 @@ class AAVEUPUSDT:
         return "AAVEUPUSDT"
 
 
-@dataclass(slots=True)
+AAVEUPUSDT = AAVEUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVEUSDT:
     name: str = "AAVEUSDT"
     precision: int = 8
@@ -281,7 +320,10 @@ class AAVEUSDT:
         return "AAVEUSDT"
 
 
-@dataclass(slots=True)
+AAVEUSDT = AAVEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ACABTC:
     name: str = "ACABTC"
     precision: int = 8
@@ -301,7 +343,10 @@ class ACABTC:
         return "ACABTC"
 
 
-@dataclass(slots=True)
+ACABTC = ACABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ACABUSD:
     name: str = "ACABUSD"
     precision: int = 8
@@ -321,7 +366,10 @@ class ACABUSD:
         return "ACABUSD"
 
 
-@dataclass(slots=True)
+ACABUSD = ACABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ACAUSDT:
     name: str = "ACAUSDT"
     precision: int = 8
@@ -341,7 +389,10 @@ class ACAUSDT:
         return "ACAUSDT"
 
 
-@dataclass(slots=True)
+ACAUSDT = ACAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ACHBTC:
     name: str = "ACHBTC"
     precision: int = 8
@@ -361,7 +412,10 @@ class ACHBTC:
         return "ACHBTC"
 
 
-@dataclass(slots=True)
+ACHBTC = ACHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ACHBUSD:
     name: str = "ACHBUSD"
     precision: int = 8
@@ -381,7 +435,10 @@ class ACHBUSD:
         return "ACHBUSD"
 
 
-@dataclass(slots=True)
+ACHBUSD = ACHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ACHUSDT:
     name: str = "ACHUSDT"
     precision: int = 8
@@ -401,7 +458,10 @@ class ACHUSDT:
         return "ACHUSDT"
 
 
-@dataclass(slots=True)
+ACHUSDT = ACHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ACMBTC:
     name: str = "ACMBTC"
     precision: int = 8
@@ -421,7 +481,10 @@ class ACMBTC:
         return "ACMBTC"
 
 
-@dataclass(slots=True)
+ACMBTC = ACMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ACMBUSD:
     name: str = "ACMBUSD"
     precision: int = 8
@@ -441,7 +504,10 @@ class ACMBUSD:
         return "ACMBUSD"
 
 
-@dataclass(slots=True)
+ACMBUSD = ACMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ACMUSDT:
     name: str = "ACMUSDT"
     precision: int = 8
@@ -461,7 +527,10 @@ class ACMUSDT:
         return "ACMUSDT"
 
 
-@dataclass(slots=True)
+ACMUSDT = ACMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAAUD:
     name: str = "ADAAUD"
     precision: int = 8
@@ -481,7 +550,10 @@ class ADAAUD:
         return "ADAAUD"
 
 
-@dataclass(slots=True)
+ADAAUD = ADAAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABIDR:
     name: str = "ADABIDR"
     precision: int = 2
@@ -501,7 +573,10 @@ class ADABIDR:
         return "ADABIDR"
 
 
-@dataclass(slots=True)
+ADABIDR = ADABIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABKRW:
     name: str = "ADABKRW"
     precision: int = 8
@@ -521,7 +596,10 @@ class ADABKRW:
         return "ADABKRW"
 
 
-@dataclass(slots=True)
+ADABKRW = ADABKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABNB:
     name: str = "ADABNB"
     precision: int = 8
@@ -541,7 +619,10 @@ class ADABNB:
         return "ADABNB"
 
 
-@dataclass(slots=True)
+ADABNB = ADABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABRL:
     name: str = "ADABRL"
     precision: int = 8
@@ -561,7 +642,10 @@ class ADABRL:
         return "ADABRL"
 
 
-@dataclass(slots=True)
+ADABRL = ADABRL()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABTC:
     name: str = "ADABTC"
     precision: int = 8
@@ -581,7 +665,10 @@ class ADABTC:
         return "ADABTC"
 
 
-@dataclass(slots=True)
+ADABTC = ADABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ADABUSD:
     name: str = "ADABUSD"
     precision: int = 8
@@ -601,7 +688,10 @@ class ADABUSD:
         return "ADABUSD"
 
 
-@dataclass(slots=True)
+ADABUSD = ADABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ADADOWNUSDT:
     name: str = "ADADOWNUSDT"
     precision: int = 8
@@ -621,7 +711,10 @@ class ADADOWNUSDT:
         return "ADADOWNUSDT"
 
 
-@dataclass(slots=True)
+ADADOWNUSDT = ADADOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAETH:
     name: str = "ADAETH"
     precision: int = 8
@@ -641,7 +734,10 @@ class ADAETH:
         return "ADAETH"
 
 
-@dataclass(slots=True)
+ADAETH = ADAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAEUR:
     name: str = "ADAEUR"
     precision: int = 8
@@ -661,7 +757,10 @@ class ADAEUR:
         return "ADAEUR"
 
 
-@dataclass(slots=True)
+ADAEUR = ADAEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAGBP:
     name: str = "ADAGBP"
     precision: int = 8
@@ -681,7 +780,10 @@ class ADAGBP:
         return "ADAGBP"
 
 
-@dataclass(slots=True)
+ADAGBP = ADAGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAPAX:
     name: str = "ADAPAX"
     precision: int = 8
@@ -701,7 +803,10 @@ class ADAPAX:
         return "ADAPAX"
 
 
-@dataclass(slots=True)
+ADAPAX = ADAPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ADARUB:
     name: str = "ADARUB"
     precision: int = 8
@@ -721,7 +826,10 @@ class ADARUB:
         return "ADARUB"
 
 
-@dataclass(slots=True)
+ADARUB = ADARUB()
+
+
+@dataclass(slots=True, frozen=True)
 class ADATRY:
     name: str = "ADATRY"
     precision: int = 8
@@ -741,7 +849,10 @@ class ADATRY:
         return "ADATRY"
 
 
-@dataclass(slots=True)
+ADATRY = ADATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ADATUSD:
     name: str = "ADATUSD"
     precision: int = 8
@@ -761,7 +872,10 @@ class ADATUSD:
         return "ADATUSD"
 
 
-@dataclass(slots=True)
+ADATUSD = ADATUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAUPUSDT:
     name: str = "ADAUPUSDT"
     precision: int = 8
@@ -781,7 +895,10 @@ class ADAUPUSDT:
         return "ADAUPUSDT"
 
 
-@dataclass(slots=True)
+ADAUPUSDT = ADAUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAUSDC:
     name: str = "ADAUSDC"
     precision: int = 8
@@ -801,7 +918,10 @@ class ADAUSDC:
         return "ADAUSDC"
 
 
-@dataclass(slots=True)
+ADAUSDC = ADAUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ADAUSDT:
     name: str = "ADAUSDT"
     precision: int = 8
@@ -821,7 +941,10 @@ class ADAUSDT:
         return "ADAUSDT"
 
 
-@dataclass(slots=True)
+ADAUSDT = ADAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ADXBNB:
     name: str = "ADXBNB"
     precision: int = 8
@@ -841,7 +964,10 @@ class ADXBNB:
         return "ADXBNB"
 
 
-@dataclass(slots=True)
+ADXBNB = ADXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ADXBTC:
     name: str = "ADXBTC"
     precision: int = 8
@@ -861,7 +987,10 @@ class ADXBTC:
         return "ADXBTC"
 
 
-@dataclass(slots=True)
+ADXBTC = ADXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ADXBUSD:
     name: str = "ADXBUSD"
     precision: int = 8
@@ -881,7 +1010,10 @@ class ADXBUSD:
         return "ADXBUSD"
 
 
-@dataclass(slots=True)
+ADXBUSD = ADXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ADXETH:
     name: str = "ADXETH"
     precision: int = 8
@@ -901,7 +1033,10 @@ class ADXETH:
         return "ADXETH"
 
 
-@dataclass(slots=True)
+ADXETH = ADXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ADXUSDT:
     name: str = "ADXUSDT"
     precision: int = 8
@@ -921,7 +1056,10 @@ class ADXUSDT:
         return "ADXUSDT"
 
 
-@dataclass(slots=True)
+ADXUSDT = ADXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AEBNB:
     name: str = "AEBNB"
     precision: int = 8
@@ -941,7 +1079,10 @@ class AEBNB:
         return "AEBNB"
 
 
-@dataclass(slots=True)
+AEBNB = AEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AEBTC:
     name: str = "AEBTC"
     precision: int = 8
@@ -961,7 +1102,10 @@ class AEBTC:
         return "AEBTC"
 
 
-@dataclass(slots=True)
+AEBTC = AEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AEETH:
     name: str = "AEETH"
     precision: int = 8
@@ -981,7 +1125,10 @@ class AEETH:
         return "AEETH"
 
 
-@dataclass(slots=True)
+AEETH = AEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AERGOBTC:
     name: str = "AERGOBTC"
     precision: int = 8
@@ -1001,7 +1148,10 @@ class AERGOBTC:
         return "AERGOBTC"
 
 
-@dataclass(slots=True)
+AERGOBTC = AERGOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AERGOBUSD:
     name: str = "AERGOBUSD"
     precision: int = 8
@@ -1021,7 +1171,10 @@ class AERGOBUSD:
         return "AERGOBUSD"
 
 
-@dataclass(slots=True)
+AERGOBUSD = AERGOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AGIBNB:
     name: str = "AGIBNB"
     precision: int = 8
@@ -1041,7 +1194,10 @@ class AGIBNB:
         return "AGIBNB"
 
 
-@dataclass(slots=True)
+AGIBNB = AGIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AGIBTC:
     name: str = "AGIBTC"
     precision: int = 8
@@ -1061,7 +1217,10 @@ class AGIBTC:
         return "AGIBTC"
 
 
-@dataclass(slots=True)
+AGIBTC = AGIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AGIETH:
     name: str = "AGIETH"
     precision: int = 8
@@ -1081,7 +1240,10 @@ class AGIETH:
         return "AGIETH"
 
 
-@dataclass(slots=True)
+AGIETH = AGIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AGIXBTC:
     name: str = "AGIXBTC"
     precision: int = 8
@@ -1101,7 +1263,10 @@ class AGIXBTC:
         return "AGIXBTC"
 
 
-@dataclass(slots=True)
+AGIXBTC = AGIXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AGIXBUSD:
     name: str = "AGIXBUSD"
     precision: int = 8
@@ -1121,7 +1286,10 @@ class AGIXBUSD:
         return "AGIXBUSD"
 
 
-@dataclass(slots=True)
+AGIXBUSD = AGIXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLDBNB:
     name: str = "AGLDBNB"
     precision: int = 8
@@ -1141,7 +1309,10 @@ class AGLDBNB:
         return "AGLDBNB"
 
 
-@dataclass(slots=True)
+AGLDBNB = AGLDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLDBTC:
     name: str = "AGLDBTC"
     precision: int = 8
@@ -1161,7 +1332,10 @@ class AGLDBTC:
         return "AGLDBTC"
 
 
-@dataclass(slots=True)
+AGLDBTC = AGLDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLDBUSD:
     name: str = "AGLDBUSD"
     precision: int = 8
@@ -1181,7 +1355,10 @@ class AGLDBUSD:
         return "AGLDBUSD"
 
 
-@dataclass(slots=True)
+AGLDBUSD = AGLDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLDUSDT:
     name: str = "AGLDUSDT"
     precision: int = 8
@@ -1201,7 +1378,10 @@ class AGLDUSDT:
         return "AGLDUSDT"
 
 
-@dataclass(slots=True)
+AGLDUSDT = AGLDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AIONBNB:
     name: str = "AIONBNB"
     precision: int = 8
@@ -1221,7 +1401,10 @@ class AIONBNB:
         return "AIONBNB"
 
 
-@dataclass(slots=True)
+AIONBNB = AIONBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AIONBTC:
     name: str = "AIONBTC"
     precision: int = 8
@@ -1241,7 +1424,10 @@ class AIONBTC:
         return "AIONBTC"
 
 
-@dataclass(slots=True)
+AIONBTC = AIONBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AIONBUSD:
     name: str = "AIONBUSD"
     precision: int = 8
@@ -1261,7 +1447,10 @@ class AIONBUSD:
         return "AIONBUSD"
 
 
-@dataclass(slots=True)
+AIONBUSD = AIONBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AIONETH:
     name: str = "AIONETH"
     precision: int = 8
@@ -1281,7 +1470,10 @@ class AIONETH:
         return "AIONETH"
 
 
-@dataclass(slots=True)
+AIONETH = AIONETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AIONUSDT:
     name: str = "AIONUSDT"
     precision: int = 8
@@ -1301,7 +1493,10 @@ class AIONUSDT:
         return "AIONUSDT"
 
 
-@dataclass(slots=True)
+AIONUSDT = AIONUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AKROBTC:
     name: str = "AKROBTC"
     precision: int = 8
@@ -1321,7 +1516,10 @@ class AKROBTC:
         return "AKROBTC"
 
 
-@dataclass(slots=True)
+AKROBTC = AKROBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AKROBUSD:
     name: str = "AKROBUSD"
     precision: int = 8
@@ -1341,7 +1539,10 @@ class AKROBUSD:
         return "AKROBUSD"
 
 
-@dataclass(slots=True)
+AKROBUSD = AKROBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AKROUSDT:
     name: str = "AKROUSDT"
     precision: int = 8
@@ -1361,7 +1562,10 @@ class AKROUSDT:
         return "AKROUSDT"
 
 
-@dataclass(slots=True)
+AKROUSDT = AKROUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCXBTC:
     name: str = "ALCXBTC"
     precision: int = 8
@@ -1381,7 +1585,10 @@ class ALCXBTC:
         return "ALCXBTC"
 
 
-@dataclass(slots=True)
+ALCXBTC = ALCXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCXBUSD:
     name: str = "ALCXBUSD"
     precision: int = 8
@@ -1401,7 +1608,10 @@ class ALCXBUSD:
         return "ALCXBUSD"
 
 
-@dataclass(slots=True)
+ALCXBUSD = ALCXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCXUSDT:
     name: str = "ALCXUSDT"
     precision: int = 8
@@ -1421,7 +1631,10 @@ class ALCXUSDT:
         return "ALCXUSDT"
 
 
-@dataclass(slots=True)
+ALCXUSDT = ALCXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOBIDR:
     name: str = "ALGOBIDR"
     precision: int = 2
@@ -1441,7 +1654,10 @@ class ALGOBIDR:
         return "ALGOBIDR"
 
 
-@dataclass(slots=True)
+ALGOBIDR = ALGOBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOBNB:
     name: str = "ALGOBNB"
     precision: int = 8
@@ -1461,7 +1677,10 @@ class ALGOBNB:
         return "ALGOBNB"
 
 
-@dataclass(slots=True)
+ALGOBNB = ALGOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOBTC:
     name: str = "ALGOBTC"
     precision: int = 8
@@ -1481,7 +1700,10 @@ class ALGOBTC:
         return "ALGOBTC"
 
 
-@dataclass(slots=True)
+ALGOBTC = ALGOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOBUSD:
     name: str = "ALGOBUSD"
     precision: int = 8
@@ -1501,7 +1723,10 @@ class ALGOBUSD:
         return "ALGOBUSD"
 
 
-@dataclass(slots=True)
+ALGOBUSD = ALGOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOETH:
     name: str = "ALGOETH"
     precision: int = 8
@@ -1521,7 +1746,10 @@ class ALGOETH:
         return "ALGOETH"
 
 
-@dataclass(slots=True)
+ALGOETH = ALGOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOPAX:
     name: str = "ALGOPAX"
     precision: int = 8
@@ -1541,7 +1769,10 @@ class ALGOPAX:
         return "ALGOPAX"
 
 
-@dataclass(slots=True)
+ALGOPAX = ALGOPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGORUB:
     name: str = "ALGORUB"
     precision: int = 8
@@ -1561,7 +1792,10 @@ class ALGORUB:
         return "ALGORUB"
 
 
-@dataclass(slots=True)
+ALGORUB = ALGORUB()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOTRY:
     name: str = "ALGOTRY"
     precision: int = 8
@@ -1581,7 +1815,10 @@ class ALGOTRY:
         return "ALGOTRY"
 
 
-@dataclass(slots=True)
+ALGOTRY = ALGOTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOTUSD:
     name: str = "ALGOTUSD"
     precision: int = 8
@@ -1601,7 +1838,10 @@ class ALGOTUSD:
         return "ALGOTUSD"
 
 
-@dataclass(slots=True)
+ALGOTUSD = ALGOTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOUSDC:
     name: str = "ALGOUSDC"
     precision: int = 8
@@ -1621,7 +1861,10 @@ class ALGOUSDC:
         return "ALGOUSDC"
 
 
-@dataclass(slots=True)
+ALGOUSDC = ALGOUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGOUSDT:
     name: str = "ALGOUSDT"
     precision: int = 8
@@ -1641,7 +1884,10 @@ class ALGOUSDT:
         return "ALGOUSDT"
 
 
-@dataclass(slots=True)
+ALGOUSDT = ALGOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICEBIDR:
     name: str = "ALICEBIDR"
     precision: int = 2
@@ -1661,7 +1907,10 @@ class ALICEBIDR:
         return "ALICEBIDR"
 
 
-@dataclass(slots=True)
+ALICEBIDR = ALICEBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICEBNB:
     name: str = "ALICEBNB"
     precision: int = 8
@@ -1681,7 +1930,10 @@ class ALICEBNB:
         return "ALICEBNB"
 
 
-@dataclass(slots=True)
+ALICEBNB = ALICEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICEBTC:
     name: str = "ALICEBTC"
     precision: int = 8
@@ -1701,7 +1953,10 @@ class ALICEBTC:
         return "ALICEBTC"
 
 
-@dataclass(slots=True)
+ALICEBTC = ALICEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICEBUSD:
     name: str = "ALICEBUSD"
     precision: int = 8
@@ -1721,7 +1976,10 @@ class ALICEBUSD:
         return "ALICEBUSD"
 
 
-@dataclass(slots=True)
+ALICEBUSD = ALICEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICETRY:
     name: str = "ALICETRY"
     precision: int = 8
@@ -1741,7 +1999,10 @@ class ALICETRY:
         return "ALICETRY"
 
 
-@dataclass(slots=True)
+ALICETRY = ALICETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICEUSDT:
     name: str = "ALICEUSDT"
     precision: int = 8
@@ -1761,7 +2022,10 @@ class ALICEUSDT:
         return "ALICEUSDT"
 
 
-@dataclass(slots=True)
+ALICEUSDT = ALICEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPACABNB:
     name: str = "ALPACABNB"
     precision: int = 8
@@ -1781,7 +2045,10 @@ class ALPACABNB:
         return "ALPACABNB"
 
 
-@dataclass(slots=True)
+ALPACABNB = ALPACABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPACABTC:
     name: str = "ALPACABTC"
     precision: int = 8
@@ -1801,7 +2068,10 @@ class ALPACABTC:
         return "ALPACABTC"
 
 
-@dataclass(slots=True)
+ALPACABTC = ALPACABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPACABUSD:
     name: str = "ALPACABUSD"
     precision: int = 8
@@ -1821,7 +2091,10 @@ class ALPACABUSD:
         return "ALPACABUSD"
 
 
-@dataclass(slots=True)
+ALPACABUSD = ALPACABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPACAUSDT:
     name: str = "ALPACAUSDT"
     precision: int = 8
@@ -1841,7 +2114,10 @@ class ALPACAUSDT:
         return "ALPACAUSDT"
 
 
-@dataclass(slots=True)
+ALPACAUSDT = ALPACAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPHABNB:
     name: str = "ALPHABNB"
     precision: int = 8
@@ -1861,7 +2137,10 @@ class ALPHABNB:
         return "ALPHABNB"
 
 
-@dataclass(slots=True)
+ALPHABNB = ALPHABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPHABTC:
     name: str = "ALPHABTC"
     precision: int = 8
@@ -1881,7 +2160,10 @@ class ALPHABTC:
         return "ALPHABTC"
 
 
-@dataclass(slots=True)
+ALPHABTC = ALPHABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPHABUSD:
     name: str = "ALPHABUSD"
     precision: int = 8
@@ -1901,7 +2183,10 @@ class ALPHABUSD:
         return "ALPHABUSD"
 
 
-@dataclass(slots=True)
+ALPHABUSD = ALPHABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPHAUSDT:
     name: str = "ALPHAUSDT"
     precision: int = 8
@@ -1921,7 +2206,10 @@ class ALPHAUSDT:
         return "ALPHAUSDT"
 
 
-@dataclass(slots=True)
+ALPHAUSDT = ALPHAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPINEBTC:
     name: str = "ALPINEBTC"
     precision: int = 8
@@ -1941,7 +2229,10 @@ class ALPINEBTC:
         return "ALPINEBTC"
 
 
-@dataclass(slots=True)
+ALPINEBTC = ALPINEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPINEBUSD:
     name: str = "ALPINEBUSD"
     precision: int = 8
@@ -1961,7 +2252,10 @@ class ALPINEBUSD:
         return "ALPINEBUSD"
 
 
-@dataclass(slots=True)
+ALPINEBUSD = ALPINEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPINEEUR:
     name: str = "ALPINEEUR"
     precision: int = 8
@@ -1981,7 +2275,10 @@ class ALPINEEUR:
         return "ALPINEEUR"
 
 
-@dataclass(slots=True)
+ALPINEEUR = ALPINEEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPINETRY:
     name: str = "ALPINETRY"
     precision: int = 8
@@ -2001,7 +2298,10 @@ class ALPINETRY:
         return "ALPINETRY"
 
 
-@dataclass(slots=True)
+ALPINETRY = ALPINETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ALPINEUSDT:
     name: str = "ALPINEUSDT"
     precision: int = 8
@@ -2021,7 +2321,10 @@ class ALPINEUSDT:
         return "ALPINEUSDT"
 
 
-@dataclass(slots=True)
+ALPINEUSDT = ALPINEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AMBBNB:
     name: str = "AMBBNB"
     precision: int = 8
@@ -2041,7 +2344,10 @@ class AMBBNB:
         return "AMBBNB"
 
 
-@dataclass(slots=True)
+AMBBNB = AMBBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AMBBTC:
     name: str = "AMBBTC"
     precision: int = 8
@@ -2061,7 +2367,10 @@ class AMBBTC:
         return "AMBBTC"
 
 
-@dataclass(slots=True)
+AMBBTC = AMBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AMBBUSD:
     name: str = "AMBBUSD"
     precision: int = 8
@@ -2081,7 +2390,10 @@ class AMBBUSD:
         return "AMBBUSD"
 
 
-@dataclass(slots=True)
+AMBBUSD = AMBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AMBETH:
     name: str = "AMBETH"
     precision: int = 8
@@ -2101,7 +2413,10 @@ class AMBETH:
         return "AMBETH"
 
 
-@dataclass(slots=True)
+AMBETH = AMBETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AMPBNB:
     name: str = "AMPBNB"
     precision: int = 8
@@ -2121,7 +2436,10 @@ class AMPBNB:
         return "AMPBNB"
 
 
-@dataclass(slots=True)
+AMPBNB = AMPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AMPBTC:
     name: str = "AMPBTC"
     precision: int = 8
@@ -2141,7 +2459,10 @@ class AMPBTC:
         return "AMPBTC"
 
 
-@dataclass(slots=True)
+AMPBTC = AMPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AMPBUSD:
     name: str = "AMPBUSD"
     precision: int = 8
@@ -2161,7 +2482,10 @@ class AMPBUSD:
         return "AMPBUSD"
 
 
-@dataclass(slots=True)
+AMPBUSD = AMPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AMPUSDT:
     name: str = "AMPUSDT"
     precision: int = 8
@@ -2181,7 +2505,10 @@ class AMPUSDT:
         return "AMPUSDT"
 
 
-@dataclass(slots=True)
+AMPUSDT = AMPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ANCBNB:
     name: str = "ANCBNB"
     precision: int = 8
@@ -2201,7 +2528,10 @@ class ANCBNB:
         return "ANCBNB"
 
 
-@dataclass(slots=True)
+ANCBNB = ANCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ANCBTC:
     name: str = "ANCBTC"
     precision: int = 8
@@ -2221,7 +2551,10 @@ class ANCBTC:
         return "ANCBTC"
 
 
-@dataclass(slots=True)
+ANCBTC = ANCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANCBUSD:
     name: str = "ANCBUSD"
     precision: int = 8
@@ -2241,7 +2574,10 @@ class ANCBUSD:
         return "ANCBUSD"
 
 
-@dataclass(slots=True)
+ANCBUSD = ANCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANCUSDT:
     name: str = "ANCUSDT"
     precision: int = 8
@@ -2261,7 +2597,10 @@ class ANCUSDT:
         return "ANCUSDT"
 
 
-@dataclass(slots=True)
+ANCUSDT = ANCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRBNB:
     name: str = "ANKRBNB"
     precision: int = 8
@@ -2281,7 +2620,10 @@ class ANKRBNB:
         return "ANKRBNB"
 
 
-@dataclass(slots=True)
+ANKRBNB = ANKRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRBTC:
     name: str = "ANKRBTC"
     precision: int = 8
@@ -2301,7 +2643,10 @@ class ANKRBTC:
         return "ANKRBTC"
 
 
-@dataclass(slots=True)
+ANKRBTC = ANKRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRBUSD:
     name: str = "ANKRBUSD"
     precision: int = 8
@@ -2321,7 +2666,10 @@ class ANKRBUSD:
         return "ANKRBUSD"
 
 
-@dataclass(slots=True)
+ANKRBUSD = ANKRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRPAX:
     name: str = "ANKRPAX"
     precision: int = 8
@@ -2341,7 +2689,10 @@ class ANKRPAX:
         return "ANKRPAX"
 
 
-@dataclass(slots=True)
+ANKRPAX = ANKRPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRTRY:
     name: str = "ANKRTRY"
     precision: int = 8
@@ -2361,7 +2712,10 @@ class ANKRTRY:
         return "ANKRTRY"
 
 
-@dataclass(slots=True)
+ANKRTRY = ANKRTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRTUSD:
     name: str = "ANKRTUSD"
     precision: int = 8
@@ -2381,7 +2735,10 @@ class ANKRTUSD:
         return "ANKRTUSD"
 
 
-@dataclass(slots=True)
+ANKRTUSD = ANKRTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRUSDC:
     name: str = "ANKRUSDC"
     precision: int = 8
@@ -2401,7 +2758,10 @@ class ANKRUSDC:
         return "ANKRUSDC"
 
 
-@dataclass(slots=True)
+ANKRUSDC = ANKRUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKRUSDT:
     name: str = "ANKRUSDT"
     precision: int = 8
@@ -2421,7 +2781,10 @@ class ANKRUSDT:
         return "ANKRUSDT"
 
 
-@dataclass(slots=True)
+ANKRUSDT = ANKRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ANTBNB:
     name: str = "ANTBNB"
     precision: int = 8
@@ -2441,7 +2804,10 @@ class ANTBNB:
         return "ANTBNB"
 
 
-@dataclass(slots=True)
+ANTBNB = ANTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ANTBTC:
     name: str = "ANTBTC"
     precision: int = 8
@@ -2461,7 +2827,10 @@ class ANTBTC:
         return "ANTBTC"
 
 
-@dataclass(slots=True)
+ANTBTC = ANTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANTBUSD:
     name: str = "ANTBUSD"
     precision: int = 8
@@ -2481,7 +2850,10 @@ class ANTBUSD:
         return "ANTBUSD"
 
 
-@dataclass(slots=True)
+ANTBUSD = ANTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANTUSDT:
     name: str = "ANTUSDT"
     precision: int = 8
@@ -2501,7 +2873,10 @@ class ANTUSDT:
         return "ANTUSDT"
 
 
-@dataclass(slots=True)
+ANTUSDT = ANTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ANYBTC:
     name: str = "ANYBTC"
     precision: int = 8
@@ -2521,7 +2896,10 @@ class ANYBTC:
         return "ANYBTC"
 
 
-@dataclass(slots=True)
+ANYBTC = ANYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANYBUSD:
     name: str = "ANYBUSD"
     precision: int = 8
@@ -2541,7 +2919,10 @@ class ANYBUSD:
         return "ANYBUSD"
 
 
-@dataclass(slots=True)
+ANYBUSD = ANYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANYUSDT:
     name: str = "ANYUSDT"
     precision: int = 8
@@ -2561,7 +2942,10 @@ class ANYUSDT:
         return "ANYUSDT"
 
 
-@dataclass(slots=True)
+ANYUSDT = ANYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class APEAUD:
     name: str = "APEAUD"
     precision: int = 8
@@ -2581,7 +2965,10 @@ class APEAUD:
         return "APEAUD"
 
 
-@dataclass(slots=True)
+APEAUD = APEAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class APEBNB:
     name: str = "APEBNB"
     precision: int = 8
@@ -2601,7 +2988,10 @@ class APEBNB:
         return "APEBNB"
 
 
-@dataclass(slots=True)
+APEBNB = APEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class APEBRL:
     name: str = "APEBRL"
     precision: int = 8
@@ -2621,7 +3011,10 @@ class APEBRL:
         return "APEBRL"
 
 
-@dataclass(slots=True)
+APEBRL = APEBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class APEBTC:
     name: str = "APEBTC"
     precision: int = 8
@@ -2641,7 +3034,10 @@ class APEBTC:
         return "APEBTC"
 
 
-@dataclass(slots=True)
+APEBTC = APEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class APEBUSD:
     name: str = "APEBUSD"
     precision: int = 8
@@ -2661,7 +3057,10 @@ class APEBUSD:
         return "APEBUSD"
 
 
-@dataclass(slots=True)
+APEBUSD = APEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class APEETH:
     name: str = "APEETH"
     precision: int = 8
@@ -2681,7 +3080,10 @@ class APEETH:
         return "APEETH"
 
 
-@dataclass(slots=True)
+APEETH = APEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class APEEUR:
     name: str = "APEEUR"
     precision: int = 8
@@ -2701,7 +3103,10 @@ class APEEUR:
         return "APEEUR"
 
 
-@dataclass(slots=True)
+APEEUR = APEEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class APEGBP:
     name: str = "APEGBP"
     precision: int = 8
@@ -2721,7 +3126,10 @@ class APEGBP:
         return "APEGBP"
 
 
-@dataclass(slots=True)
+APEGBP = APEGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class APETRY:
     name: str = "APETRY"
     precision: int = 8
@@ -2741,7 +3149,10 @@ class APETRY:
         return "APETRY"
 
 
-@dataclass(slots=True)
+APETRY = APETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class APEUSDT:
     name: str = "APEUSDT"
     precision: int = 8
@@ -2761,7 +3172,10 @@ class APEUSDT:
         return "APEUSDT"
 
 
-@dataclass(slots=True)
+APEUSDT = APEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class API3BNB:
     name: str = "API3BNB"
     precision: int = 8
@@ -2781,7 +3195,10 @@ class API3BNB:
         return "API3BNB"
 
 
-@dataclass(slots=True)
+API3BNB = API3BNB()
+
+
+@dataclass(slots=True, frozen=True)
 class API3BTC:
     name: str = "API3BTC"
     precision: int = 8
@@ -2801,7 +3218,10 @@ class API3BTC:
         return "API3BTC"
 
 
-@dataclass(slots=True)
+API3BTC = API3BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class API3BUSD:
     name: str = "API3BUSD"
     precision: int = 8
@@ -2821,7 +3241,10 @@ class API3BUSD:
         return "API3BUSD"
 
 
-@dataclass(slots=True)
+API3BUSD = API3BUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class API3TRY:
     name: str = "API3TRY"
     precision: int = 8
@@ -2841,7 +3264,10 @@ class API3TRY:
         return "API3TRY"
 
 
-@dataclass(slots=True)
+API3TRY = API3TRY()
+
+
+@dataclass(slots=True, frozen=True)
 class API3USDT:
     name: str = "API3USDT"
     precision: int = 8
@@ -2861,7 +3287,10 @@ class API3USDT:
         return "API3USDT"
 
 
-@dataclass(slots=True)
+API3USDT = API3USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class APPCBNB:
     name: str = "APPCBNB"
     precision: int = 8
@@ -2881,7 +3310,10 @@ class APPCBNB:
         return "APPCBNB"
 
 
-@dataclass(slots=True)
+APPCBNB = APPCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class APPCBTC:
     name: str = "APPCBTC"
     precision: int = 8
@@ -2901,7 +3333,10 @@ class APPCBTC:
         return "APPCBTC"
 
 
-@dataclass(slots=True)
+APPCBTC = APPCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class APPCETH:
     name: str = "APPCETH"
     precision: int = 8
@@ -2921,7 +3356,10 @@ class APPCETH:
         return "APPCETH"
 
 
-@dataclass(slots=True)
+APPCETH = APPCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class APTBRL:
     name: str = "APTBRL"
     precision: int = 8
@@ -2941,7 +3379,10 @@ class APTBRL:
         return "APTBRL"
 
 
-@dataclass(slots=True)
+APTBRL = APTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class APTBTC:
     name: str = "APTBTC"
     precision: int = 8
@@ -2961,7 +3402,10 @@ class APTBTC:
         return "APTBTC"
 
 
-@dataclass(slots=True)
+APTBTC = APTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class APTBUSD:
     name: str = "APTBUSD"
     precision: int = 8
@@ -2981,7 +3425,10 @@ class APTBUSD:
         return "APTBUSD"
 
 
-@dataclass(slots=True)
+APTBUSD = APTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class APTEUR:
     name: str = "APTEUR"
     precision: int = 8
@@ -3001,7 +3448,10 @@ class APTEUR:
         return "APTEUR"
 
 
-@dataclass(slots=True)
+APTEUR = APTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class APTTRY:
     name: str = "APTTRY"
     precision: int = 8
@@ -3021,7 +3471,10 @@ class APTTRY:
         return "APTTRY"
 
 
-@dataclass(slots=True)
+APTTRY = APTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class APTUSDT:
     name: str = "APTUSDT"
     precision: int = 8
@@ -3041,7 +3494,10 @@ class APTUSDT:
         return "APTUSDT"
 
 
-@dataclass(slots=True)
+APTUSDT = APTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ARBNB:
     name: str = "ARBNB"
     precision: int = 8
@@ -3061,7 +3517,10 @@ class ARBNB:
         return "ARBNB"
 
 
-@dataclass(slots=True)
+ARBNB = ARBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ARBTC:
     name: str = "ARBTC"
     precision: int = 8
@@ -3081,7 +3540,10 @@ class ARBTC:
         return "ARBTC"
 
 
-@dataclass(slots=True)
+ARBTC = ARBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ARBUSD:
     name: str = "ARBUSD"
     precision: int = 8
@@ -3101,7 +3563,10 @@ class ARBUSD:
         return "ARBUSD"
 
 
-@dataclass(slots=True)
+ARBUSD = ARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ARDRBNB:
     name: str = "ARDRBNB"
     precision: int = 8
@@ -3121,7 +3586,10 @@ class ARDRBNB:
         return "ARDRBNB"
 
 
-@dataclass(slots=True)
+ARDRBNB = ARDRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ARDRBTC:
     name: str = "ARDRBTC"
     precision: int = 8
@@ -3141,7 +3609,10 @@ class ARDRBTC:
         return "ARDRBTC"
 
 
-@dataclass(slots=True)
+ARDRBTC = ARDRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ARDRETH:
     name: str = "ARDRETH"
     precision: int = 8
@@ -3161,7 +3632,10 @@ class ARDRETH:
         return "ARDRETH"
 
 
-@dataclass(slots=True)
+ARDRETH = ARDRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ARDRUSDT:
     name: str = "ARDRUSDT"
     precision: int = 8
@@ -3181,7 +3655,10 @@ class ARDRUSDT:
         return "ARDRUSDT"
 
 
-@dataclass(slots=True)
+ARDRUSDT = ARDRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ARKBTC:
     name: str = "ARKBTC"
     precision: int = 8
@@ -3201,7 +3678,10 @@ class ARKBTC:
         return "ARKBTC"
 
 
-@dataclass(slots=True)
+ARKBTC = ARKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ARKBUSD:
     name: str = "ARKBUSD"
     precision: int = 8
@@ -3221,7 +3701,10 @@ class ARKBUSD:
         return "ARKBUSD"
 
 
-@dataclass(slots=True)
+ARKBUSD = ARKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ARKETH:
     name: str = "ARKETH"
     precision: int = 8
@@ -3241,7 +3724,10 @@ class ARKETH:
         return "ARKETH"
 
 
-@dataclass(slots=True)
+ARKETH = ARKETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ARNBTC:
     name: str = "ARNBTC"
     precision: int = 8
@@ -3261,7 +3747,10 @@ class ARNBTC:
         return "ARNBTC"
 
 
-@dataclass(slots=True)
+ARNBTC = ARNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ARNETH:
     name: str = "ARNETH"
     precision: int = 8
@@ -3281,7 +3770,10 @@ class ARNETH:
         return "ARNETH"
 
 
-@dataclass(slots=True)
+ARNETH = ARNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPABNB:
     name: str = "ARPABNB"
     precision: int = 8
@@ -3301,7 +3793,10 @@ class ARPABNB:
         return "ARPABNB"
 
 
-@dataclass(slots=True)
+ARPABNB = ARPABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPABTC:
     name: str = "ARPABTC"
     precision: int = 8
@@ -3321,7 +3816,10 @@ class ARPABTC:
         return "ARPABTC"
 
 
-@dataclass(slots=True)
+ARPABTC = ARPABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPABUSD:
     name: str = "ARPABUSD"
     precision: int = 8
@@ -3341,7 +3839,10 @@ class ARPABUSD:
         return "ARPABUSD"
 
 
-@dataclass(slots=True)
+ARPABUSD = ARPABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPAETH:
     name: str = "ARPAETH"
     precision: int = 8
@@ -3361,7 +3862,10 @@ class ARPAETH:
         return "ARPAETH"
 
 
-@dataclass(slots=True)
+ARPAETH = ARPAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPARUB:
     name: str = "ARPARUB"
     precision: int = 8
@@ -3381,7 +3885,10 @@ class ARPARUB:
         return "ARPARUB"
 
 
-@dataclass(slots=True)
+ARPARUB = ARPARUB()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPATRY:
     name: str = "ARPATRY"
     precision: int = 8
@@ -3401,7 +3908,10 @@ class ARPATRY:
         return "ARPATRY"
 
 
-@dataclass(slots=True)
+ARPATRY = ARPATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPAUSDT:
     name: str = "ARPAUSDT"
     precision: int = 8
@@ -3421,7 +3931,10 @@ class ARPAUSDT:
         return "ARPAUSDT"
 
 
-@dataclass(slots=True)
+ARPAUSDT = ARPAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ARUSDT:
     name: str = "ARUSDT"
     precision: int = 8
@@ -3441,7 +3954,10 @@ class ARUSDT:
         return "ARUSDT"
 
 
-@dataclass(slots=True)
+ARUSDT = ARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ASRBTC:
     name: str = "ASRBTC"
     precision: int = 8
@@ -3461,7 +3977,10 @@ class ASRBTC:
         return "ASRBTC"
 
 
-@dataclass(slots=True)
+ASRBTC = ASRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ASRBUSD:
     name: str = "ASRBUSD"
     precision: int = 8
@@ -3481,7 +4000,10 @@ class ASRBUSD:
         return "ASRBUSD"
 
 
-@dataclass(slots=True)
+ASRBUSD = ASRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ASRUSDT:
     name: str = "ASRUSDT"
     precision: int = 8
@@ -3501,7 +4023,10 @@ class ASRUSDT:
         return "ASRUSDT"
 
 
-@dataclass(slots=True)
+ASRUSDT = ASRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTBTC:
     name: str = "ASTBTC"
     precision: int = 8
@@ -3521,7 +4046,10 @@ class ASTBTC:
         return "ASTBTC"
 
 
-@dataclass(slots=True)
+ASTBTC = ASTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTETH:
     name: str = "ASTETH"
     precision: int = 8
@@ -3541,7 +4069,10 @@ class ASTETH:
         return "ASTETH"
 
 
-@dataclass(slots=True)
+ASTETH = ASTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTRBTC:
     name: str = "ASTRBTC"
     precision: int = 8
@@ -3561,7 +4092,10 @@ class ASTRBTC:
         return "ASTRBTC"
 
 
-@dataclass(slots=True)
+ASTRBTC = ASTRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTRBUSD:
     name: str = "ASTRBUSD"
     precision: int = 8
@@ -3581,7 +4115,10 @@ class ASTRBUSD:
         return "ASTRBUSD"
 
 
-@dataclass(slots=True)
+ASTRBUSD = ASTRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTRETH:
     name: str = "ASTRETH"
     precision: int = 8
@@ -3601,7 +4138,10 @@ class ASTRETH:
         return "ASTRETH"
 
 
-@dataclass(slots=True)
+ASTRETH = ASTRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ASTRUSDT:
     name: str = "ASTRUSDT"
     precision: int = 8
@@ -3621,7 +4161,10 @@ class ASTRUSDT:
         return "ASTRUSDT"
 
 
-@dataclass(slots=True)
+ASTRUSDT = ASTRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ATABNB:
     name: str = "ATABNB"
     precision: int = 8
@@ -3641,7 +4184,10 @@ class ATABNB:
         return "ATABNB"
 
 
-@dataclass(slots=True)
+ATABNB = ATABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ATABTC:
     name: str = "ATABTC"
     precision: int = 8
@@ -3661,7 +4207,10 @@ class ATABTC:
         return "ATABTC"
 
 
-@dataclass(slots=True)
+ATABTC = ATABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ATABUSD:
     name: str = "ATABUSD"
     precision: int = 8
@@ -3681,7 +4230,10 @@ class ATABUSD:
         return "ATABUSD"
 
 
-@dataclass(slots=True)
+ATABUSD = ATABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATAUSDT:
     name: str = "ATAUSDT"
     precision: int = 8
@@ -3701,7 +4253,10 @@ class ATAUSDT:
         return "ATAUSDT"
 
 
-@dataclass(slots=True)
+ATAUSDT = ATAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ATMBTC:
     name: str = "ATMBTC"
     precision: int = 8
@@ -3721,7 +4276,10 @@ class ATMBTC:
         return "ATMBTC"
 
 
-@dataclass(slots=True)
+ATMBTC = ATMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ATMBUSD:
     name: str = "ATMBUSD"
     precision: int = 8
@@ -3741,7 +4299,10 @@ class ATMBUSD:
         return "ATMBUSD"
 
 
-@dataclass(slots=True)
+ATMBUSD = ATMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATMUSDT:
     name: str = "ATMUSDT"
     precision: int = 8
@@ -3761,7 +4322,10 @@ class ATMUSDT:
         return "ATMUSDT"
 
 
-@dataclass(slots=True)
+ATMUSDT = ATMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMBIDR:
     name: str = "ATOMBIDR"
     precision: int = 2
@@ -3781,7 +4345,10 @@ class ATOMBIDR:
         return "ATOMBIDR"
 
 
-@dataclass(slots=True)
+ATOMBIDR = ATOMBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMBNB:
     name: str = "ATOMBNB"
     precision: int = 8
@@ -3801,7 +4368,10 @@ class ATOMBNB:
         return "ATOMBNB"
 
 
-@dataclass(slots=True)
+ATOMBNB = ATOMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMBRL:
     name: str = "ATOMBRL"
     precision: int = 8
@@ -3821,7 +4391,10 @@ class ATOMBRL:
         return "ATOMBRL"
 
 
-@dataclass(slots=True)
+ATOMBRL = ATOMBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMBTC:
     name: str = "ATOMBTC"
     precision: int = 8
@@ -3841,7 +4414,10 @@ class ATOMBTC:
         return "ATOMBTC"
 
 
-@dataclass(slots=True)
+ATOMBTC = ATOMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMBUSD:
     name: str = "ATOMBUSD"
     precision: int = 8
@@ -3861,7 +4437,10 @@ class ATOMBUSD:
         return "ATOMBUSD"
 
 
-@dataclass(slots=True)
+ATOMBUSD = ATOMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMETH:
     name: str = "ATOMETH"
     precision: int = 8
@@ -3881,7 +4460,10 @@ class ATOMETH:
         return "ATOMETH"
 
 
-@dataclass(slots=True)
+ATOMETH = ATOMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMEUR:
     name: str = "ATOMEUR"
     precision: int = 8
@@ -3901,7 +4483,10 @@ class ATOMEUR:
         return "ATOMEUR"
 
 
-@dataclass(slots=True)
+ATOMEUR = ATOMEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMPAX:
     name: str = "ATOMPAX"
     precision: int = 8
@@ -3921,7 +4506,10 @@ class ATOMPAX:
         return "ATOMPAX"
 
 
-@dataclass(slots=True)
+ATOMPAX = ATOMPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMTRY:
     name: str = "ATOMTRY"
     precision: int = 8
@@ -3941,7 +4529,10 @@ class ATOMTRY:
         return "ATOMTRY"
 
 
-@dataclass(slots=True)
+ATOMTRY = ATOMTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMTUSD:
     name: str = "ATOMTUSD"
     precision: int = 8
@@ -3961,7 +4552,10 @@ class ATOMTUSD:
         return "ATOMTUSD"
 
 
-@dataclass(slots=True)
+ATOMTUSD = ATOMTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMUSDC:
     name: str = "ATOMUSDC"
     precision: int = 8
@@ -3981,7 +4575,10 @@ class ATOMUSDC:
         return "ATOMUSDC"
 
 
-@dataclass(slots=True)
+ATOMUSDC = ATOMUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOMUSDT:
     name: str = "ATOMUSDT"
     precision: int = 8
@@ -4001,7 +4598,10 @@ class ATOMUSDT:
         return "ATOMUSDT"
 
 
-@dataclass(slots=True)
+ATOMUSDT = ATOMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTIONBTC:
     name: str = "AUCTIONBTC"
     precision: int = 8
@@ -4021,7 +4621,10 @@ class AUCTIONBTC:
         return "AUCTIONBTC"
 
 
-@dataclass(slots=True)
+AUCTIONBTC = AUCTIONBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTIONBUSD:
     name: str = "AUCTIONBUSD"
     precision: int = 8
@@ -4041,7 +4644,10 @@ class AUCTIONBUSD:
         return "AUCTIONBUSD"
 
 
-@dataclass(slots=True)
+AUCTIONBUSD = AUCTIONBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTIONUSDT:
     name: str = "AUCTIONUSDT"
     precision: int = 8
@@ -4061,7 +4667,10 @@ class AUCTIONUSDT:
         return "AUCTIONUSDT"
 
 
-@dataclass(slots=True)
+AUCTIONUSDT = AUCTIONUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDBUSD:
     name: str = "AUDBUSD"
     precision: int = 8
@@ -4081,7 +4690,10 @@ class AUDBUSD:
         return "AUDBUSD"
 
 
-@dataclass(slots=True)
+AUDBUSD = AUDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDIOBTC:
     name: str = "AUDIOBTC"
     precision: int = 8
@@ -4101,7 +4713,10 @@ class AUDIOBTC:
         return "AUDIOBTC"
 
 
-@dataclass(slots=True)
+AUDIOBTC = AUDIOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDIOBUSD:
     name: str = "AUDIOBUSD"
     precision: int = 8
@@ -4121,7 +4736,10 @@ class AUDIOBUSD:
         return "AUDIOBUSD"
 
 
-@dataclass(slots=True)
+AUDIOBUSD = AUDIOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDIOTRY:
     name: str = "AUDIOTRY"
     precision: int = 8
@@ -4141,7 +4759,10 @@ class AUDIOTRY:
         return "AUDIOTRY"
 
 
-@dataclass(slots=True)
+AUDIOTRY = AUDIOTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDIOUSDT:
     name: str = "AUDIOUSDT"
     precision: int = 8
@@ -4161,7 +4782,10 @@ class AUDIOUSDT:
         return "AUDIOUSDT"
 
 
-@dataclass(slots=True)
+AUDIOUSDT = AUDIOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDUSDC:
     name: str = "AUDUSDC"
     precision: int = 8
@@ -4181,7 +4805,10 @@ class AUDUSDC:
         return "AUDUSDC"
 
 
-@dataclass(slots=True)
+AUDUSDC = AUDUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class AUDUSDT:
     name: str = "AUDUSDT"
     precision: int = 8
@@ -4201,7 +4828,10 @@ class AUDUSDT:
         return "AUDUSDT"
 
 
-@dataclass(slots=True)
+AUDUSDT = AUDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AUTOBTC:
     name: str = "AUTOBTC"
     precision: int = 8
@@ -4221,7 +4851,10 @@ class AUTOBTC:
         return "AUTOBTC"
 
 
-@dataclass(slots=True)
+AUTOBTC = AUTOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AUTOBUSD:
     name: str = "AUTOBUSD"
     precision: int = 8
@@ -4241,7 +4874,10 @@ class AUTOBUSD:
         return "AUTOBUSD"
 
 
-@dataclass(slots=True)
+AUTOBUSD = AUTOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AUTOUSDT:
     name: str = "AUTOUSDT"
     precision: int = 8
@@ -4261,7 +4897,10 @@ class AUTOUSDT:
         return "AUTOUSDT"
 
 
-@dataclass(slots=True)
+AUTOUSDT = AUTOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AVABNB:
     name: str = "AVABNB"
     precision: int = 8
@@ -4281,7 +4920,10 @@ class AVABNB:
         return "AVABNB"
 
 
-@dataclass(slots=True)
+AVABNB = AVABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AVABTC:
     name: str = "AVABTC"
     precision: int = 8
@@ -4301,7 +4943,10 @@ class AVABTC:
         return "AVABTC"
 
 
-@dataclass(slots=True)
+AVABTC = AVABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AVABUSD:
     name: str = "AVABUSD"
     precision: int = 8
@@ -4321,7 +4966,10 @@ class AVABUSD:
         return "AVABUSD"
 
 
-@dataclass(slots=True)
+AVABUSD = AVABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAUSDT:
     name: str = "AVAUSDT"
     precision: int = 8
@@ -4341,7 +4989,10 @@ class AVAUSDT:
         return "AVAUSDT"
 
 
-@dataclass(slots=True)
+AVAUSDT = AVAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXAUD:
     name: str = "AVAXAUD"
     precision: int = 8
@@ -4361,7 +5012,10 @@ class AVAXAUD:
         return "AVAXAUD"
 
 
-@dataclass(slots=True)
+AVAXAUD = AVAXAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXBIDR:
     name: str = "AVAXBIDR"
     precision: int = 2
@@ -4381,7 +5035,10 @@ class AVAXBIDR:
         return "AVAXBIDR"
 
 
-@dataclass(slots=True)
+AVAXBIDR = AVAXBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXBNB:
     name: str = "AVAXBNB"
     precision: int = 8
@@ -4401,7 +5058,10 @@ class AVAXBNB:
         return "AVAXBNB"
 
 
-@dataclass(slots=True)
+AVAXBNB = AVAXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXBRL:
     name: str = "AVAXBRL"
     precision: int = 8
@@ -4421,7 +5081,10 @@ class AVAXBRL:
         return "AVAXBRL"
 
 
-@dataclass(slots=True)
+AVAXBRL = AVAXBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXBTC:
     name: str = "AVAXBTC"
     precision: int = 8
@@ -4441,7 +5104,10 @@ class AVAXBTC:
         return "AVAXBTC"
 
 
-@dataclass(slots=True)
+AVAXBTC = AVAXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXBUSD:
     name: str = "AVAXBUSD"
     precision: int = 8
@@ -4461,7 +5127,10 @@ class AVAXBUSD:
         return "AVAXBUSD"
 
 
-@dataclass(slots=True)
+AVAXBUSD = AVAXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXETH:
     name: str = "AVAXETH"
     precision: int = 8
@@ -4481,7 +5150,10 @@ class AVAXETH:
         return "AVAXETH"
 
 
-@dataclass(slots=True)
+AVAXETH = AVAXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXEUR:
     name: str = "AVAXEUR"
     precision: int = 8
@@ -4501,7 +5173,10 @@ class AVAXEUR:
         return "AVAXEUR"
 
 
-@dataclass(slots=True)
+AVAXEUR = AVAXEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXGBP:
     name: str = "AVAXGBP"
     precision: int = 8
@@ -4521,7 +5196,10 @@ class AVAXGBP:
         return "AVAXGBP"
 
 
-@dataclass(slots=True)
+AVAXGBP = AVAXGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXTRY:
     name: str = "AVAXTRY"
     precision: int = 8
@@ -4541,7 +5219,10 @@ class AVAXTRY:
         return "AVAXTRY"
 
 
-@dataclass(slots=True)
+AVAXTRY = AVAXTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAXUSDT:
     name: str = "AVAXUSDT"
     precision: int = 8
@@ -4561,7 +5242,10 @@ class AVAXUSDT:
         return "AVAXUSDT"
 
 
-@dataclass(slots=True)
+AVAXUSDT = AVAXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSAUD:
     name: str = "AXSAUD"
     precision: int = 8
@@ -4581,7 +5265,10 @@ class AXSAUD:
         return "AXSAUD"
 
 
-@dataclass(slots=True)
+AXSAUD = AXSAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSBIDR:
     name: str = "AXSBIDR"
     precision: int = 2
@@ -4601,7 +5288,10 @@ class AXSBIDR:
         return "AXSBIDR"
 
 
-@dataclass(slots=True)
+AXSBIDR = AXSBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSBNB:
     name: str = "AXSBNB"
     precision: int = 8
@@ -4621,7 +5311,10 @@ class AXSBNB:
         return "AXSBNB"
 
 
-@dataclass(slots=True)
+AXSBNB = AXSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSBRL:
     name: str = "AXSBRL"
     precision: int = 8
@@ -4641,7 +5334,10 @@ class AXSBRL:
         return "AXSBRL"
 
 
-@dataclass(slots=True)
+AXSBRL = AXSBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSBTC:
     name: str = "AXSBTC"
     precision: int = 8
@@ -4661,7 +5357,10 @@ class AXSBTC:
         return "AXSBTC"
 
 
-@dataclass(slots=True)
+AXSBTC = AXSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSBUSD:
     name: str = "AXSBUSD"
     precision: int = 8
@@ -4681,7 +5380,10 @@ class AXSBUSD:
         return "AXSBUSD"
 
 
-@dataclass(slots=True)
+AXSBUSD = AXSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSETH:
     name: str = "AXSETH"
     precision: int = 8
@@ -4701,7 +5403,10 @@ class AXSETH:
         return "AXSETH"
 
 
-@dataclass(slots=True)
+AXSETH = AXSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSTRY:
     name: str = "AXSTRY"
     precision: int = 8
@@ -4721,7 +5426,10 @@ class AXSTRY:
         return "AXSTRY"
 
 
-@dataclass(slots=True)
+AXSTRY = AXSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class AXSUSDT:
     name: str = "AXSUSDT"
     precision: int = 8
@@ -4741,7 +5449,10 @@ class AXSUSDT:
         return "AXSUSDT"
 
 
-@dataclass(slots=True)
+AXSUSDT = AXSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGERBTC:
     name: str = "BADGERBTC"
     precision: int = 8
@@ -4761,7 +5472,10 @@ class BADGERBTC:
         return "BADGERBTC"
 
 
-@dataclass(slots=True)
+BADGERBTC = BADGERBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGERBUSD:
     name: str = "BADGERBUSD"
     precision: int = 8
@@ -4781,7 +5495,10 @@ class BADGERBUSD:
         return "BADGERBUSD"
 
 
-@dataclass(slots=True)
+BADGERBUSD = BADGERBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGERUSDT:
     name: str = "BADGERUSDT"
     precision: int = 8
@@ -4801,7 +5518,10 @@ class BADGERUSDT:
         return "BADGERUSDT"
 
 
-@dataclass(slots=True)
+BADGERUSDT = BADGERUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BAKEBNB:
     name: str = "BAKEBNB"
     precision: int = 8
@@ -4821,7 +5541,10 @@ class BAKEBNB:
         return "BAKEBNB"
 
 
-@dataclass(slots=True)
+BAKEBNB = BAKEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BAKEBTC:
     name: str = "BAKEBTC"
     precision: int = 8
@@ -4841,7 +5564,10 @@ class BAKEBTC:
         return "BAKEBTC"
 
 
-@dataclass(slots=True)
+BAKEBTC = BAKEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BAKEBUSD:
     name: str = "BAKEBUSD"
     precision: int = 8
@@ -4861,7 +5587,10 @@ class BAKEBUSD:
         return "BAKEBUSD"
 
 
-@dataclass(slots=True)
+BAKEBUSD = BAKEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BAKEUSDT:
     name: str = "BAKEUSDT"
     precision: int = 8
@@ -4881,7 +5610,10 @@ class BAKEUSDT:
         return "BAKEUSDT"
 
 
-@dataclass(slots=True)
+BAKEUSDT = BAKEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BALBNB:
     name: str = "BALBNB"
     precision: int = 8
@@ -4901,7 +5633,10 @@ class BALBNB:
         return "BALBNB"
 
 
-@dataclass(slots=True)
+BALBNB = BALBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BALBTC:
     name: str = "BALBTC"
     precision: int = 8
@@ -4921,7 +5656,10 @@ class BALBTC:
         return "BALBTC"
 
 
-@dataclass(slots=True)
+BALBTC = BALBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BALBUSD:
     name: str = "BALBUSD"
     precision: int = 8
@@ -4941,7 +5679,10 @@ class BALBUSD:
         return "BALBUSD"
 
 
-@dataclass(slots=True)
+BALBUSD = BALBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BALUSDT:
     name: str = "BALUSDT"
     precision: int = 8
@@ -4961,7 +5702,10 @@ class BALUSDT:
         return "BALUSDT"
 
 
-@dataclass(slots=True)
+BALUSDT = BALUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BANDBNB:
     name: str = "BANDBNB"
     precision: int = 8
@@ -4981,7 +5725,10 @@ class BANDBNB:
         return "BANDBNB"
 
 
-@dataclass(slots=True)
+BANDBNB = BANDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BANDBTC:
     name: str = "BANDBTC"
     precision: int = 8
@@ -5001,7 +5748,10 @@ class BANDBTC:
         return "BANDBTC"
 
 
-@dataclass(slots=True)
+BANDBTC = BANDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BANDBUSD:
     name: str = "BANDBUSD"
     precision: int = 8
@@ -5021,7 +5771,10 @@ class BANDBUSD:
         return "BANDBUSD"
 
 
-@dataclass(slots=True)
+BANDBUSD = BANDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BANDUSDT:
     name: str = "BANDUSDT"
     precision: int = 8
@@ -5041,7 +5794,10 @@ class BANDUSDT:
         return "BANDUSDT"
 
 
-@dataclass(slots=True)
+BANDUSDT = BANDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BARBTC:
     name: str = "BARBTC"
     precision: int = 8
@@ -5061,7 +5817,10 @@ class BARBTC:
         return "BARBTC"
 
 
-@dataclass(slots=True)
+BARBTC = BARBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BARBUSD:
     name: str = "BARBUSD"
     precision: int = 8
@@ -5081,7 +5840,10 @@ class BARBUSD:
         return "BARBUSD"
 
 
-@dataclass(slots=True)
+BARBUSD = BARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BARUSDT:
     name: str = "BARUSDT"
     precision: int = 8
@@ -5101,7 +5863,10 @@ class BARUSDT:
         return "BARUSDT"
 
 
-@dataclass(slots=True)
+BARUSDT = BARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BATBNB:
     name: str = "BATBNB"
     precision: int = 8
@@ -5121,7 +5886,10 @@ class BATBNB:
         return "BATBNB"
 
 
-@dataclass(slots=True)
+BATBNB = BATBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BATBTC:
     name: str = "BATBTC"
     precision: int = 8
@@ -5141,7 +5909,10 @@ class BATBTC:
         return "BATBTC"
 
 
-@dataclass(slots=True)
+BATBTC = BATBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BATBUSD:
     name: str = "BATBUSD"
     precision: int = 8
@@ -5161,7 +5932,10 @@ class BATBUSD:
         return "BATBUSD"
 
 
-@dataclass(slots=True)
+BATBUSD = BATBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BATETH:
     name: str = "BATETH"
     precision: int = 8
@@ -5181,7 +5955,10 @@ class BATETH:
         return "BATETH"
 
 
-@dataclass(slots=True)
+BATETH = BATETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BATPAX:
     name: str = "BATPAX"
     precision: int = 8
@@ -5201,7 +5978,10 @@ class BATPAX:
         return "BATPAX"
 
 
-@dataclass(slots=True)
+BATPAX = BATPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BATTUSD:
     name: str = "BATTUSD"
     precision: int = 8
@@ -5221,7 +6001,10 @@ class BATTUSD:
         return "BATTUSD"
 
 
-@dataclass(slots=True)
+BATTUSD = BATTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BATUSDC:
     name: str = "BATUSDC"
     precision: int = 8
@@ -5241,7 +6024,10 @@ class BATUSDC:
         return "BATUSDC"
 
 
-@dataclass(slots=True)
+BATUSDC = BATUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BATUSDT:
     name: str = "BATUSDT"
     precision: int = 8
@@ -5261,7 +6047,10 @@ class BATUSDT:
         return "BATUSDT"
 
 
-@dataclass(slots=True)
+BATUSDT = BATUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCCBNB:
     name: str = "BCCBNB"
     precision: int = 8
@@ -5281,7 +6070,10 @@ class BCCBNB:
         return "BCCBNB"
 
 
-@dataclass(slots=True)
+BCCBNB = BCCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BCCBTC:
     name: str = "BCCBTC"
     precision: int = 8
@@ -5301,7 +6093,10 @@ class BCCBTC:
         return "BCCBTC"
 
 
-@dataclass(slots=True)
+BCCBTC = BCCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCCETH:
     name: str = "BCCETH"
     precision: int = 8
@@ -5321,7 +6116,10 @@ class BCCETH:
         return "BCCETH"
 
 
-@dataclass(slots=True)
+BCCETH = BCCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BCCUSDT:
     name: str = "BCCUSDT"
     precision: int = 8
@@ -5341,7 +6139,10 @@ class BCCUSDT:
         return "BCCUSDT"
 
 
-@dataclass(slots=True)
+BCCUSDT = BCCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCDBTC:
     name: str = "BCDBTC"
     precision: int = 8
@@ -5361,7 +6162,10 @@ class BCDBTC:
         return "BCDBTC"
 
 
-@dataclass(slots=True)
+BCDBTC = BCDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCDETH:
     name: str = "BCDETH"
     precision: int = 8
@@ -5381,7 +6185,10 @@ class BCDETH:
         return "BCDETH"
 
 
-@dataclass(slots=True)
+BCDETH = BCDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCBTC:
     name: str = "BCHABCBTC"
     precision: int = 8
@@ -5401,7 +6208,10 @@ class BCHABCBTC:
         return "BCHABCBTC"
 
 
-@dataclass(slots=True)
+BCHABCBTC = BCHABCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCBUSD:
     name: str = "BCHABCBUSD"
     precision: int = 8
@@ -5421,7 +6231,10 @@ class BCHABCBUSD:
         return "BCHABCBUSD"
 
 
-@dataclass(slots=True)
+BCHABCBUSD = BCHABCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCPAX:
     name: str = "BCHABCPAX"
     precision: int = 8
@@ -5441,7 +6254,10 @@ class BCHABCPAX:
         return "BCHABCPAX"
 
 
-@dataclass(slots=True)
+BCHABCPAX = BCHABCPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCTUSD:
     name: str = "BCHABCTUSD"
     precision: int = 8
@@ -5461,7 +6277,10 @@ class BCHABCTUSD:
         return "BCHABCTUSD"
 
 
-@dataclass(slots=True)
+BCHABCTUSD = BCHABCTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCUSDC:
     name: str = "BCHABCUSDC"
     precision: int = 8
@@ -5481,7 +6300,10 @@ class BCHABCUSDC:
         return "BCHABCUSDC"
 
 
-@dataclass(slots=True)
+BCHABCUSDC = BCHABCUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABCUSDT:
     name: str = "BCHABCUSDT"
     precision: int = 8
@@ -5501,7 +6323,10 @@ class BCHABCUSDT:
         return "BCHABCUSDT"
 
 
-@dataclass(slots=True)
+BCHABCUSDT = BCHABCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHABUSD:
     name: str = "BCHABUSD"
     precision: int = 8
@@ -5521,7 +6346,10 @@ class BCHABUSD:
         return "BCHABUSD"
 
 
-@dataclass(slots=True)
+BCHABUSD = BCHABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHBNB:
     name: str = "BCHBNB"
     precision: int = 8
@@ -5541,7 +6369,10 @@ class BCHBNB:
         return "BCHBNB"
 
 
-@dataclass(slots=True)
+BCHBNB = BCHBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHBTC:
     name: str = "BCHBTC"
     precision: int = 8
@@ -5561,7 +6392,10 @@ class BCHBTC:
         return "BCHBTC"
 
 
-@dataclass(slots=True)
+BCHBTC = BCHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHBUSD:
     name: str = "BCHBUSD"
     precision: int = 8
@@ -5581,7 +6415,10 @@ class BCHBUSD:
         return "BCHBUSD"
 
 
-@dataclass(slots=True)
+BCHBUSD = BCHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHDOWNUSDT:
     name: str = "BCHDOWNUSDT"
     precision: int = 8
@@ -5601,7 +6438,10 @@ class BCHDOWNUSDT:
         return "BCHDOWNUSDT"
 
 
-@dataclass(slots=True)
+BCHDOWNUSDT = BCHDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHEUR:
     name: str = "BCHEUR"
     precision: int = 8
@@ -5621,7 +6461,10 @@ class BCHEUR:
         return "BCHEUR"
 
 
-@dataclass(slots=True)
+BCHEUR = BCHEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHPAX:
     name: str = "BCHPAX"
     precision: int = 8
@@ -5641,7 +6484,10 @@ class BCHPAX:
         return "BCHPAX"
 
 
-@dataclass(slots=True)
+BCHPAX = BCHPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHSVBTC:
     name: str = "BCHSVBTC"
     precision: int = 8
@@ -5661,7 +6507,10 @@ class BCHSVBTC:
         return "BCHSVBTC"
 
 
-@dataclass(slots=True)
+BCHSVBTC = BCHSVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHSVPAX:
     name: str = "BCHSVPAX"
     precision: int = 8
@@ -5681,7 +6530,10 @@ class BCHSVPAX:
         return "BCHSVPAX"
 
 
-@dataclass(slots=True)
+BCHSVPAX = BCHSVPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHSVTUSD:
     name: str = "BCHSVTUSD"
     precision: int = 8
@@ -5701,7 +6553,10 @@ class BCHSVTUSD:
         return "BCHSVTUSD"
 
 
-@dataclass(slots=True)
+BCHSVTUSD = BCHSVTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHSVUSDC:
     name: str = "BCHSVUSDC"
     precision: int = 8
@@ -5721,7 +6576,10 @@ class BCHSVUSDC:
         return "BCHSVUSDC"
 
 
-@dataclass(slots=True)
+BCHSVUSDC = BCHSVUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHSVUSDT:
     name: str = "BCHSVUSDT"
     precision: int = 8
@@ -5741,7 +6599,10 @@ class BCHSVUSDT:
         return "BCHSVUSDT"
 
 
-@dataclass(slots=True)
+BCHSVUSDT = BCHSVUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHTUSD:
     name: str = "BCHTUSD"
     precision: int = 8
@@ -5761,7 +6622,10 @@ class BCHTUSD:
         return "BCHTUSD"
 
 
-@dataclass(slots=True)
+BCHTUSD = BCHTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHUPUSDT:
     name: str = "BCHUPUSDT"
     precision: int = 8
@@ -5781,7 +6645,10 @@ class BCHUPUSDT:
         return "BCHUPUSDT"
 
 
-@dataclass(slots=True)
+BCHUPUSDT = BCHUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHUSDC:
     name: str = "BCHUSDC"
     precision: int = 8
@@ -5801,7 +6668,10 @@ class BCHUSDC:
         return "BCHUSDC"
 
 
-@dataclass(slots=True)
+BCHUSDC = BCHUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCHUSDT:
     name: str = "BCHUSDT"
     precision: int = 8
@@ -5821,7 +6691,10 @@ class BCHUSDT:
         return "BCHUSDT"
 
 
-@dataclass(slots=True)
+BCHUSDT = BCHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BCNBNB:
     name: str = "BCNBNB"
     precision: int = 8
@@ -5841,7 +6714,10 @@ class BCNBNB:
         return "BCNBNB"
 
 
-@dataclass(slots=True)
+BCNBNB = BCNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BCNBTC:
     name: str = "BCNBTC"
     precision: int = 8
@@ -5861,7 +6737,10 @@ class BCNBTC:
         return "BCNBTC"
 
 
-@dataclass(slots=True)
+BCNBTC = BCNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCNETH:
     name: str = "BCNETH"
     precision: int = 8
@@ -5881,7 +6760,10 @@ class BCNETH:
         return "BCNETH"
 
 
-@dataclass(slots=True)
+BCNETH = BCNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTBNB:
     name: str = "BCPTBNB"
     precision: int = 8
@@ -5901,7 +6783,10 @@ class BCPTBNB:
         return "BCPTBNB"
 
 
-@dataclass(slots=True)
+BCPTBNB = BCPTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTBTC:
     name: str = "BCPTBTC"
     precision: int = 8
@@ -5921,7 +6806,10 @@ class BCPTBTC:
         return "BCPTBTC"
 
 
-@dataclass(slots=True)
+BCPTBTC = BCPTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTETH:
     name: str = "BCPTETH"
     precision: int = 8
@@ -5941,7 +6829,10 @@ class BCPTETH:
         return "BCPTETH"
 
 
-@dataclass(slots=True)
+BCPTETH = BCPTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTPAX:
     name: str = "BCPTPAX"
     precision: int = 8
@@ -5961,7 +6852,10 @@ class BCPTPAX:
         return "BCPTPAX"
 
 
-@dataclass(slots=True)
+BCPTPAX = BCPTPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTTUSD:
     name: str = "BCPTTUSD"
     precision: int = 8
@@ -5981,7 +6875,10 @@ class BCPTTUSD:
         return "BCPTTUSD"
 
 
-@dataclass(slots=True)
+BCPTTUSD = BCPTTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BCPTUSDC:
     name: str = "BCPTUSDC"
     precision: int = 8
@@ -6001,7 +6898,10 @@ class BCPTUSDC:
         return "BCPTUSDC"
 
 
-@dataclass(slots=True)
+BCPTUSDC = BCPTUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BDOTDOT:
     name: str = "BDOTDOT"
     precision: int = 8
@@ -6021,7 +6921,10 @@ class BDOTDOT:
         return "BDOTDOT"
 
 
-@dataclass(slots=True)
+BDOTDOT = BDOTDOT()
+
+
+@dataclass(slots=True, frozen=True)
 class BEAMBNB:
     name: str = "BEAMBNB"
     precision: int = 8
@@ -6041,7 +6944,10 @@ class BEAMBNB:
         return "BEAMBNB"
 
 
-@dataclass(slots=True)
+BEAMBNB = BEAMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BEAMBTC:
     name: str = "BEAMBTC"
     precision: int = 8
@@ -6061,7 +6967,10 @@ class BEAMBTC:
         return "BEAMBTC"
 
 
-@dataclass(slots=True)
+BEAMBTC = BEAMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BEAMUSDT:
     name: str = "BEAMUSDT"
     precision: int = 8
@@ -6081,7 +6990,10 @@ class BEAMUSDT:
         return "BEAMUSDT"
 
 
-@dataclass(slots=True)
+BEAMUSDT = BEAMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BEARBUSD:
     name: str = "BEARBUSD"
     precision: int = 8
@@ -6101,7 +7013,10 @@ class BEARBUSD:
         return "BEARBUSD"
 
 
-@dataclass(slots=True)
+BEARBUSD = BEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BEARUSDT:
     name: str = "BEARUSDT"
     precision: int = 8
@@ -6121,7 +7036,10 @@ class BEARUSDT:
         return "BEARUSDT"
 
 
-@dataclass(slots=True)
+BEARUSDT = BEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BELBNB:
     name: str = "BELBNB"
     precision: int = 8
@@ -6141,7 +7059,10 @@ class BELBNB:
         return "BELBNB"
 
 
-@dataclass(slots=True)
+BELBNB = BELBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BELBTC:
     name: str = "BELBTC"
     precision: int = 8
@@ -6161,7 +7082,10 @@ class BELBTC:
         return "BELBTC"
 
 
-@dataclass(slots=True)
+BELBTC = BELBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BELBUSD:
     name: str = "BELBUSD"
     precision: int = 8
@@ -6181,7 +7105,10 @@ class BELBUSD:
         return "BELBUSD"
 
 
-@dataclass(slots=True)
+BELBUSD = BELBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BELETH:
     name: str = "BELETH"
     precision: int = 8
@@ -6201,7 +7128,10 @@ class BELETH:
         return "BELETH"
 
 
-@dataclass(slots=True)
+BELETH = BELETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BELTRY:
     name: str = "BELTRY"
     precision: int = 8
@@ -6221,7 +7151,10 @@ class BELTRY:
         return "BELTRY"
 
 
-@dataclass(slots=True)
+BELTRY = BELTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BELUSDT:
     name: str = "BELUSDT"
     precision: int = 8
@@ -6241,7 +7174,10 @@ class BELUSDT:
         return "BELUSDT"
 
 
-@dataclass(slots=True)
+BELUSDT = BELUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BETABNB:
     name: str = "BETABNB"
     precision: int = 8
@@ -6261,7 +7197,10 @@ class BETABNB:
         return "BETABNB"
 
 
-@dataclass(slots=True)
+BETABNB = BETABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BETABTC:
     name: str = "BETABTC"
     precision: int = 8
@@ -6281,7 +7220,10 @@ class BETABTC:
         return "BETABTC"
 
 
-@dataclass(slots=True)
+BETABTC = BETABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BETABUSD:
     name: str = "BETABUSD"
     precision: int = 8
@@ -6301,7 +7243,10 @@ class BETABUSD:
         return "BETABUSD"
 
 
-@dataclass(slots=True)
+BETABUSD = BETABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BETAETH:
     name: str = "BETAETH"
     precision: int = 8
@@ -6321,7 +7266,10 @@ class BETAETH:
         return "BETAETH"
 
 
-@dataclass(slots=True)
+BETAETH = BETAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BETAUSDT:
     name: str = "BETAUSDT"
     precision: int = 8
@@ -6341,7 +7289,10 @@ class BETAUSDT:
         return "BETAUSDT"
 
 
-@dataclass(slots=True)
+BETAUSDT = BETAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BETHBUSD:
     name: str = "BETHBUSD"
     precision: int = 8
@@ -6361,7 +7312,10 @@ class BETHBUSD:
         return "BETHBUSD"
 
 
-@dataclass(slots=True)
+BETHBUSD = BETHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BETHETH:
     name: str = "BETHETH"
     precision: int = 8
@@ -6381,7 +7335,10 @@ class BETHETH:
         return "BETHETH"
 
 
-@dataclass(slots=True)
+BETHETH = BETHETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BGBPUSDC:
     name: str = "BGBPUSDC"
     precision: int = 8
@@ -6401,7 +7358,10 @@ class BGBPUSDC:
         return "BGBPUSDC"
 
 
-@dataclass(slots=True)
+BGBPUSDC = BGBPUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BICOBTC:
     name: str = "BICOBTC"
     precision: int = 8
@@ -6421,7 +7381,10 @@ class BICOBTC:
         return "BICOBTC"
 
 
-@dataclass(slots=True)
+BICOBTC = BICOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BICOBUSD:
     name: str = "BICOBUSD"
     precision: int = 8
@@ -6441,7 +7404,10 @@ class BICOBUSD:
         return "BICOBUSD"
 
 
-@dataclass(slots=True)
+BICOBUSD = BICOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BICOUSDT:
     name: str = "BICOUSDT"
     precision: int = 8
@@ -6461,7 +7427,10 @@ class BICOUSDT:
         return "BICOUSDT"
 
 
-@dataclass(slots=True)
+BICOUSDT = BICOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BIFIBNB:
     name: str = "BIFIBNB"
     precision: int = 8
@@ -6481,7 +7450,10 @@ class BIFIBNB:
         return "BIFIBNB"
 
 
-@dataclass(slots=True)
+BIFIBNB = BIFIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BIFIBUSD:
     name: str = "BIFIBUSD"
     precision: int = 8
@@ -6501,7 +7473,10 @@ class BIFIBUSD:
         return "BIFIBUSD"
 
 
-@dataclass(slots=True)
+BIFIBUSD = BIFIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BIFIUSDT:
     name: str = "BIFIUSDT"
     precision: int = 8
@@ -6521,7 +7496,10 @@ class BIFIUSDT:
         return "BIFIUSDT"
 
 
-@dataclass(slots=True)
+BIFIUSDT = BIFIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BKRWBUSD:
     name: str = "BKRWBUSD"
     precision: int = 8
@@ -6541,7 +7519,10 @@ class BKRWBUSD:
         return "BKRWBUSD"
 
 
-@dataclass(slots=True)
+BKRWBUSD = BKRWBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BKRWUSDT:
     name: str = "BKRWUSDT"
     precision: int = 8
@@ -6561,7 +7542,10 @@ class BKRWUSDT:
         return "BKRWUSDT"
 
 
-@dataclass(slots=True)
+BKRWUSDT = BKRWUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZBNB:
     name: str = "BLZBNB"
     precision: int = 8
@@ -6581,7 +7565,10 @@ class BLZBNB:
         return "BLZBNB"
 
 
-@dataclass(slots=True)
+BLZBNB = BLZBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZBTC:
     name: str = "BLZBTC"
     precision: int = 8
@@ -6601,7 +7588,10 @@ class BLZBTC:
         return "BLZBTC"
 
 
-@dataclass(slots=True)
+BLZBTC = BLZBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZBUSD:
     name: str = "BLZBUSD"
     precision: int = 8
@@ -6621,7 +7611,10 @@ class BLZBUSD:
         return "BLZBUSD"
 
 
-@dataclass(slots=True)
+BLZBUSD = BLZBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZETH:
     name: str = "BLZETH"
     precision: int = 8
@@ -6641,7 +7634,10 @@ class BLZETH:
         return "BLZETH"
 
 
-@dataclass(slots=True)
+BLZETH = BLZETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZUSDT:
     name: str = "BLZUSDT"
     precision: int = 8
@@ -6661,7 +7657,10 @@ class BLZUSDT:
         return "BLZUSDT"
 
 
-@dataclass(slots=True)
+BLZUSDT = BLZUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBAUD:
     name: str = "BNBAUD"
     precision: int = 8
@@ -6681,7 +7680,10 @@ class BNBAUD:
         return "BNBAUD"
 
 
-@dataclass(slots=True)
+BNBAUD = BNBAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBEARBUSD:
     name: str = "BNBBEARBUSD"
     precision: int = 8
@@ -6701,7 +7703,10 @@ class BNBBEARBUSD:
         return "BNBBEARBUSD"
 
 
-@dataclass(slots=True)
+BNBBEARBUSD = BNBBEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBEARUSDT:
     name: str = "BNBBEARUSDT"
     precision: int = 8
@@ -6721,7 +7726,10 @@ class BNBBEARUSDT:
         return "BNBBEARUSDT"
 
 
-@dataclass(slots=True)
+BNBBEARUSDT = BNBBEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBIDR:
     name: str = "BNBBIDR"
     precision: int = 2
@@ -6741,7 +7749,10 @@ class BNBBIDR:
         return "BNBBIDR"
 
 
-@dataclass(slots=True)
+BNBBIDR = BNBBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBKRW:
     name: str = "BNBBKRW"
     precision: int = 8
@@ -6761,7 +7772,10 @@ class BNBBKRW:
         return "BNBBKRW"
 
 
-@dataclass(slots=True)
+BNBBKRW = BNBBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBRL:
     name: str = "BNBBRL"
     precision: int = 8
@@ -6781,7 +7795,10 @@ class BNBBRL:
         return "BNBBRL"
 
 
-@dataclass(slots=True)
+BNBBRL = BNBBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBTC:
     name: str = "BNBBTC"
     precision: int = 8
@@ -6801,7 +7818,10 @@ class BNBBTC:
         return "BNBBTC"
 
 
-@dataclass(slots=True)
+BNBBTC = BNBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBULLBUSD:
     name: str = "BNBBULLBUSD"
     precision: int = 8
@@ -6821,7 +7841,10 @@ class BNBBULLBUSD:
         return "BNBBULLBUSD"
 
 
-@dataclass(slots=True)
+BNBBULLBUSD = BNBBULLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBULLUSDT:
     name: str = "BNBBULLUSDT"
     precision: int = 8
@@ -6841,7 +7864,10 @@ class BNBBULLUSDT:
         return "BNBBULLUSDT"
 
 
-@dataclass(slots=True)
+BNBBULLUSDT = BNBBULLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBBUSD:
     name: str = "BNBBUSD"
     precision: int = 8
@@ -6861,7 +7887,10 @@ class BNBBUSD:
         return "BNBBUSD"
 
 
-@dataclass(slots=True)
+BNBBUSD = BNBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBDAI:
     name: str = "BNBDAI"
     precision: int = 8
@@ -6881,7 +7910,10 @@ class BNBDAI:
         return "BNBDAI"
 
 
-@dataclass(slots=True)
+BNBDAI = BNBDAI()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBDOWNUSDT:
     name: str = "BNBDOWNUSDT"
     precision: int = 8
@@ -6901,7 +7933,10 @@ class BNBDOWNUSDT:
         return "BNBDOWNUSDT"
 
 
-@dataclass(slots=True)
+BNBDOWNUSDT = BNBDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBETH:
     name: str = "BNBETH"
     precision: int = 8
@@ -6921,7 +7956,10 @@ class BNBETH:
         return "BNBETH"
 
 
-@dataclass(slots=True)
+BNBETH = BNBETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBEUR:
     name: str = "BNBEUR"
     precision: int = 8
@@ -6941,7 +7979,10 @@ class BNBEUR:
         return "BNBEUR"
 
 
-@dataclass(slots=True)
+BNBEUR = BNBEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBGBP:
     name: str = "BNBGBP"
     precision: int = 8
@@ -6961,7 +8002,10 @@ class BNBGBP:
         return "BNBGBP"
 
 
-@dataclass(slots=True)
+BNBGBP = BNBGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBIDRT:
     name: str = "BNBIDRT"
     precision: int = 2
@@ -6981,7 +8025,10 @@ class BNBIDRT:
         return "BNBIDRT"
 
 
-@dataclass(slots=True)
+BNBIDRT = BNBIDRT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBNGN:
     name: str = "BNBNGN"
     precision: int = 8
@@ -7001,7 +8048,10 @@ class BNBNGN:
         return "BNBNGN"
 
 
-@dataclass(slots=True)
+BNBNGN = BNBNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBPAX:
     name: str = "BNBPAX"
     precision: int = 8
@@ -7021,7 +8071,10 @@ class BNBPAX:
         return "BNBPAX"
 
 
-@dataclass(slots=True)
+BNBPAX = BNBPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBRUB:
     name: str = "BNBRUB"
     precision: int = 8
@@ -7041,7 +8094,10 @@ class BNBRUB:
         return "BNBRUB"
 
 
-@dataclass(slots=True)
+BNBRUB = BNBRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBTRY:
     name: str = "BNBTRY"
     precision: int = 8
@@ -7061,7 +8117,10 @@ class BNBTRY:
         return "BNBTRY"
 
 
-@dataclass(slots=True)
+BNBTRY = BNBTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBTUSD:
     name: str = "BNBTUSD"
     precision: int = 8
@@ -7081,7 +8140,10 @@ class BNBTUSD:
         return "BNBTUSD"
 
 
-@dataclass(slots=True)
+BNBTUSD = BNBTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUAH:
     name: str = "BNBUAH"
     precision: int = 8
@@ -7101,7 +8163,10 @@ class BNBUAH:
         return "BNBUAH"
 
 
-@dataclass(slots=True)
+BNBUAH = BNBUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUPUSDT:
     name: str = "BNBUPUSDT"
     precision: int = 8
@@ -7121,7 +8186,10 @@ class BNBUPUSDT:
         return "BNBUPUSDT"
 
 
-@dataclass(slots=True)
+BNBUPUSDT = BNBUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUSDC:
     name: str = "BNBUSDC"
     precision: int = 8
@@ -7141,7 +8209,10 @@ class BNBUSDC:
         return "BNBUSDC"
 
 
-@dataclass(slots=True)
+BNBUSDC = BNBUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUSDP:
     name: str = "BNBUSDP"
     precision: int = 8
@@ -7161,7 +8232,10 @@ class BNBUSDP:
         return "BNBUSDP"
 
 
-@dataclass(slots=True)
+BNBUSDP = BNBUSDP()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUSDS:
     name: str = "BNBUSDS"
     precision: int = 8
@@ -7181,7 +8255,10 @@ class BNBUSDS:
         return "BNBUSDS"
 
 
-@dataclass(slots=True)
+BNBUSDS = BNBUSDS()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUSDT:
     name: str = "BNBUSDT"
     precision: int = 8
@@ -7201,7 +8278,10 @@ class BNBUSDT:
         return "BNBUSDT"
 
 
-@dataclass(slots=True)
+BNBUSDT = BNBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBUST:
     name: str = "BNBUST"
     precision: int = 8
@@ -7221,7 +8301,10 @@ class BNBUST:
         return "BNBUST"
 
 
-@dataclass(slots=True)
+BNBUST = BNBUST()
+
+
+@dataclass(slots=True, frozen=True)
 class BNBZAR:
     name: str = "BNBZAR"
     precision: int = 8
@@ -7241,7 +8324,10 @@ class BNBZAR:
         return "BNBZAR"
 
 
-@dataclass(slots=True)
+BNBZAR = BNBZAR()
+
+
+@dataclass(slots=True, frozen=True)
 class BNTBTC:
     name: str = "BNTBTC"
     precision: int = 8
@@ -7261,7 +8347,10 @@ class BNTBTC:
         return "BNTBTC"
 
 
-@dataclass(slots=True)
+BNTBTC = BNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BNTBUSD:
     name: str = "BNTBUSD"
     precision: int = 8
@@ -7281,7 +8370,10 @@ class BNTBUSD:
         return "BNTBUSD"
 
 
-@dataclass(slots=True)
+BNTBUSD = BNTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNTETH:
     name: str = "BNTETH"
     precision: int = 8
@@ -7301,7 +8393,10 @@ class BNTETH:
         return "BNTETH"
 
 
-@dataclass(slots=True)
+BNTETH = BNTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BNTUSDT:
     name: str = "BNTUSDT"
     precision: int = 8
@@ -7321,7 +8416,10 @@ class BNTUSDT:
         return "BNTUSDT"
 
 
-@dataclass(slots=True)
+BNTUSDT = BNTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BNXBNB:
     name: str = "BNXBNB"
     precision: int = 8
@@ -7341,7 +8439,10 @@ class BNXBNB:
         return "BNXBNB"
 
 
-@dataclass(slots=True)
+BNXBNB = BNXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BNXBTC:
     name: str = "BNXBTC"
     precision: int = 8
@@ -7361,7 +8462,10 @@ class BNXBTC:
         return "BNXBTC"
 
 
-@dataclass(slots=True)
+BNXBTC = BNXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BNXBUSD:
     name: str = "BNXBUSD"
     precision: int = 8
@@ -7381,7 +8485,10 @@ class BNXBUSD:
         return "BNXBUSD"
 
 
-@dataclass(slots=True)
+BNXBUSD = BNXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNXUSDT:
     name: str = "BNXUSDT"
     precision: int = 8
@@ -7401,7 +8508,10 @@ class BNXUSDT:
         return "BNXUSDT"
 
 
-@dataclass(slots=True)
+BNXUSDT = BNXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BONDBNB:
     name: str = "BONDBNB"
     precision: int = 8
@@ -7421,7 +8531,10 @@ class BONDBNB:
         return "BONDBNB"
 
 
-@dataclass(slots=True)
+BONDBNB = BONDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BONDBTC:
     name: str = "BONDBTC"
     precision: int = 8
@@ -7441,7 +8554,10 @@ class BONDBTC:
         return "BONDBTC"
 
 
-@dataclass(slots=True)
+BONDBTC = BONDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BONDBUSD:
     name: str = "BONDBUSD"
     precision: int = 8
@@ -7461,7 +8577,10 @@ class BONDBUSD:
         return "BONDBUSD"
 
 
-@dataclass(slots=True)
+BONDBUSD = BONDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BONDETH:
     name: str = "BONDETH"
     precision: int = 8
@@ -7481,7 +8600,10 @@ class BONDETH:
         return "BONDETH"
 
 
-@dataclass(slots=True)
+BONDETH = BONDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BONDUSDT:
     name: str = "BONDUSDT"
     precision: int = 8
@@ -7501,7 +8623,10 @@ class BONDUSDT:
         return "BONDUSDT"
 
 
-@dataclass(slots=True)
+BONDUSDT = BONDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BOTBTC:
     name: str = "BOTBTC"
     precision: int = 8
@@ -7521,7 +8646,10 @@ class BOTBTC:
         return "BOTBTC"
 
 
-@dataclass(slots=True)
+BOTBTC = BOTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BOTBUSD:
     name: str = "BOTBUSD"
     precision: int = 8
@@ -7541,7 +8669,10 @@ class BOTBUSD:
         return "BOTBUSD"
 
 
-@dataclass(slots=True)
+BOTBUSD = BOTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BQXBTC:
     name: str = "BQXBTC"
     precision: int = 8
@@ -7561,7 +8692,10 @@ class BQXBTC:
         return "BQXBTC"
 
 
-@dataclass(slots=True)
+BQXBTC = BQXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BQXETH:
     name: str = "BQXETH"
     precision: int = 8
@@ -7581,7 +8715,10 @@ class BQXETH:
         return "BQXETH"
 
 
-@dataclass(slots=True)
+BQXETH = BQXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BRDBNB:
     name: str = "BRDBNB"
     precision: int = 8
@@ -7601,7 +8738,10 @@ class BRDBNB:
         return "BRDBNB"
 
 
-@dataclass(slots=True)
+BRDBNB = BRDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BRDBTC:
     name: str = "BRDBTC"
     precision: int = 8
@@ -7621,7 +8761,10 @@ class BRDBTC:
         return "BRDBTC"
 
 
-@dataclass(slots=True)
+BRDBTC = BRDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BRDETH:
     name: str = "BRDETH"
     precision: int = 8
@@ -7641,7 +8784,10 @@ class BRDETH:
         return "BRDETH"
 
 
-@dataclass(slots=True)
+BRDETH = BRDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BSWBNB:
     name: str = "BSWBNB"
     precision: int = 8
@@ -7661,7 +8807,10 @@ class BSWBNB:
         return "BSWBNB"
 
 
-@dataclass(slots=True)
+BSWBNB = BSWBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BSWBUSD:
     name: str = "BSWBUSD"
     precision: int = 8
@@ -7681,7 +8830,10 @@ class BSWBUSD:
         return "BSWBUSD"
 
 
-@dataclass(slots=True)
+BSWBUSD = BSWBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BSWETH:
     name: str = "BSWETH"
     precision: int = 8
@@ -7701,7 +8853,10 @@ class BSWETH:
         return "BSWETH"
 
 
-@dataclass(slots=True)
+BSWETH = BSWETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BSWTRY:
     name: str = "BSWTRY"
     precision: int = 8
@@ -7721,7 +8876,10 @@ class BSWTRY:
         return "BSWTRY"
 
 
-@dataclass(slots=True)
+BSWTRY = BSWTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BSWUSDT:
     name: str = "BSWUSDT"
     precision: int = 8
@@ -7741,7 +8899,10 @@ class BSWUSDT:
         return "BSWUSDT"
 
 
-@dataclass(slots=True)
+BSWUSDT = BSWUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCAUD:
     name: str = "BTCAUD"
     precision: int = 8
@@ -7761,7 +8922,10 @@ class BTCAUD:
         return "BTCAUD"
 
 
-@dataclass(slots=True)
+BTCAUD = BTCAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCBBTC:
     name: str = "BTCBBTC"
     precision: int = 8
@@ -7781,7 +8945,10 @@ class BTCBBTC:
         return "BTCBBTC"
 
 
-@dataclass(slots=True)
+BTCBBTC = BTCBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCBIDR:
     name: str = "BTCBIDR"
     precision: int = 2
@@ -7801,7 +8968,10 @@ class BTCBIDR:
         return "BTCBIDR"
 
 
-@dataclass(slots=True)
+BTCBIDR = BTCBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCBKRW:
     name: str = "BTCBKRW"
     precision: int = 8
@@ -7821,7 +8991,10 @@ class BTCBKRW:
         return "BTCBKRW"
 
 
-@dataclass(slots=True)
+BTCBKRW = BTCBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCBRL:
     name: str = "BTCBRL"
     precision: int = 8
@@ -7841,7 +9014,10 @@ class BTCBRL:
         return "BTCBRL"
 
 
-@dataclass(slots=True)
+BTCBRL = BTCBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCBUSD:
     name: str = "BTCBUSD"
     precision: int = 8
@@ -7861,7 +9037,10 @@ class BTCBUSD:
         return "BTCBUSD"
 
 
-@dataclass(slots=True)
+BTCBUSD = BTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCDAI:
     name: str = "BTCDAI"
     precision: int = 8
@@ -7881,7 +9060,10 @@ class BTCDAI:
         return "BTCDAI"
 
 
-@dataclass(slots=True)
+BTCDAI = BTCDAI()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCDOWNUSDT:
     name: str = "BTCDOWNUSDT"
     precision: int = 8
@@ -7901,7 +9083,10 @@ class BTCDOWNUSDT:
         return "BTCDOWNUSDT"
 
 
-@dataclass(slots=True)
+BTCDOWNUSDT = BTCDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCEUR:
     name: str = "BTCEUR"
     precision: int = 8
@@ -7921,7 +9106,10 @@ class BTCEUR:
         return "BTCEUR"
 
 
-@dataclass(slots=True)
+BTCEUR = BTCEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCGBP:
     name: str = "BTCGBP"
     precision: int = 8
@@ -7941,7 +9129,10 @@ class BTCGBP:
         return "BTCGBP"
 
 
-@dataclass(slots=True)
+BTCGBP = BTCGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCIDRT:
     name: str = "BTCIDRT"
     precision: int = 2
@@ -7961,7 +9152,10 @@ class BTCIDRT:
         return "BTCIDRT"
 
 
-@dataclass(slots=True)
+BTCIDRT = BTCIDRT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCNGN:
     name: str = "BTCNGN"
     precision: int = 8
@@ -7981,7 +9175,10 @@ class BTCNGN:
         return "BTCNGN"
 
 
-@dataclass(slots=True)
+BTCNGN = BTCNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCPAX:
     name: str = "BTCPAX"
     precision: int = 8
@@ -8001,7 +9198,10 @@ class BTCPAX:
         return "BTCPAX"
 
 
-@dataclass(slots=True)
+BTCPAX = BTCPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCPLN:
     name: str = "BTCPLN"
     precision: int = 8
@@ -8021,7 +9221,10 @@ class BTCPLN:
         return "BTCPLN"
 
 
-@dataclass(slots=True)
+BTCPLN = BTCPLN()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCRUB:
     name: str = "BTCRUB"
     precision: int = 8
@@ -8041,7 +9244,10 @@ class BTCRUB:
         return "BTCRUB"
 
 
-@dataclass(slots=True)
+BTCRUB = BTCRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCSTBTC:
     name: str = "BTCSTBTC"
     precision: int = 8
@@ -8061,7 +9267,10 @@ class BTCSTBTC:
         return "BTCSTBTC"
 
 
-@dataclass(slots=True)
+BTCSTBTC = BTCSTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCSTBUSD:
     name: str = "BTCSTBUSD"
     precision: int = 8
@@ -8081,7 +9290,10 @@ class BTCSTBUSD:
         return "BTCSTBUSD"
 
 
-@dataclass(slots=True)
+BTCSTBUSD = BTCSTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCSTUSDT:
     name: str = "BTCSTUSDT"
     precision: int = 8
@@ -8101,7 +9313,10 @@ class BTCSTUSDT:
         return "BTCSTUSDT"
 
 
-@dataclass(slots=True)
+BTCSTUSDT = BTCSTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCTRY:
     name: str = "BTCTRY"
     precision: int = 8
@@ -8121,7 +9336,10 @@ class BTCTRY:
         return "BTCTRY"
 
 
-@dataclass(slots=True)
+BTCTRY = BTCTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCTUSD:
     name: str = "BTCTUSD"
     precision: int = 8
@@ -8141,7 +9359,10 @@ class BTCTUSD:
         return "BTCTUSD"
 
 
-@dataclass(slots=True)
+BTCTUSD = BTCTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUAH:
     name: str = "BTCUAH"
     precision: int = 8
@@ -8161,7 +9382,10 @@ class BTCUAH:
         return "BTCUAH"
 
 
-@dataclass(slots=True)
+BTCUAH = BTCUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUPUSDT:
     name: str = "BTCUPUSDT"
     precision: int = 8
@@ -8181,7 +9405,10 @@ class BTCUPUSDT:
         return "BTCUPUSDT"
 
 
-@dataclass(slots=True)
+BTCUPUSDT = BTCUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUSDC:
     name: str = "BTCUSDC"
     precision: int = 8
@@ -8201,7 +9428,10 @@ class BTCUSDC:
         return "BTCUSDC"
 
 
-@dataclass(slots=True)
+BTCUSDC = BTCUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUSDP:
     name: str = "BTCUSDP"
     precision: int = 8
@@ -8221,7 +9451,10 @@ class BTCUSDP:
         return "BTCUSDP"
 
 
-@dataclass(slots=True)
+BTCUSDP = BTCUSDP()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUSDS:
     name: str = "BTCUSDS"
     precision: int = 8
@@ -8241,7 +9474,10 @@ class BTCUSDS:
         return "BTCUSDS"
 
 
-@dataclass(slots=True)
+BTCUSDS = BTCUSDS()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUSDT:
     name: str = "BTCUSDT"
     precision: int = 8
@@ -8261,7 +9497,10 @@ class BTCUSDT:
         return "BTCUSDT"
 
 
-@dataclass(slots=True)
+BTCUSDT = BTCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCUST:
     name: str = "BTCUST"
     precision: int = 8
@@ -8281,7 +9520,10 @@ class BTCUST:
         return "BTCUST"
 
 
-@dataclass(slots=True)
+BTCUST = BTCUST()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCVAI:
     name: str = "BTCVAI"
     precision: int = 8
@@ -8301,7 +9543,10 @@ class BTCVAI:
         return "BTCVAI"
 
 
-@dataclass(slots=True)
+BTCVAI = BTCVAI()
+
+
+@dataclass(slots=True, frozen=True)
 class BTCZAR:
     name: str = "BTCZAR"
     precision: int = 8
@@ -8321,7 +9566,10 @@ class BTCZAR:
         return "BTCZAR"
 
 
-@dataclass(slots=True)
+BTCZAR = BTCZAR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTGBTC:
     name: str = "BTGBTC"
     precision: int = 8
@@ -8341,7 +9589,10 @@ class BTGBTC:
         return "BTGBTC"
 
 
-@dataclass(slots=True)
+BTGBTC = BTGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTGBUSD:
     name: str = "BTGBUSD"
     precision: int = 8
@@ -8361,7 +9612,10 @@ class BTGBUSD:
         return "BTGBUSD"
 
 
-@dataclass(slots=True)
+BTGBUSD = BTGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTGETH:
     name: str = "BTGETH"
     precision: int = 8
@@ -8381,7 +9635,10 @@ class BTGETH:
         return "BTGETH"
 
 
-@dataclass(slots=True)
+BTGETH = BTGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BTGUSDT:
     name: str = "BTGUSDT"
     precision: int = 8
@@ -8401,7 +9658,10 @@ class BTGUSDT:
         return "BTGUSDT"
 
 
-@dataclass(slots=True)
+BTGUSDT = BTGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTSBNB:
     name: str = "BTSBNB"
     precision: int = 8
@@ -8421,7 +9681,10 @@ class BTSBNB:
         return "BTSBNB"
 
 
-@dataclass(slots=True)
+BTSBNB = BTSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BTSBTC:
     name: str = "BTSBTC"
     precision: int = 8
@@ -8441,7 +9704,10 @@ class BTSBTC:
         return "BTSBTC"
 
 
-@dataclass(slots=True)
+BTSBTC = BTSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTSBUSD:
     name: str = "BTSBUSD"
     precision: int = 8
@@ -8461,7 +9727,10 @@ class BTSBUSD:
         return "BTSBUSD"
 
 
-@dataclass(slots=True)
+BTSBUSD = BTSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTSETH:
     name: str = "BTSETH"
     precision: int = 8
@@ -8481,7 +9750,10 @@ class BTSETH:
         return "BTSETH"
 
 
-@dataclass(slots=True)
+BTSETH = BTSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BTSUSDT:
     name: str = "BTSUSDT"
     precision: int = 8
@@ -8501,7 +9773,10 @@ class BTSUSDT:
         return "BTSUSDT"
 
 
-@dataclass(slots=True)
+BTSUSDT = BTSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTBNB:
     name: str = "BTTBNB"
     precision: int = 8
@@ -8521,7 +9796,10 @@ class BTTBNB:
         return "BTTBNB"
 
 
-@dataclass(slots=True)
+BTTBNB = BTTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTBRL:
     name: str = "BTTBRL"
     precision: int = 8
@@ -8541,7 +9819,10 @@ class BTTBRL:
         return "BTTBRL"
 
 
-@dataclass(slots=True)
+BTTBRL = BTTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTBTC:
     name: str = "BTTBTC"
     precision: int = 8
@@ -8561,7 +9842,10 @@ class BTTBTC:
         return "BTTBTC"
 
 
-@dataclass(slots=True)
+BTTBTC = BTTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTBUSD:
     name: str = "BTTBUSD"
     precision: int = 8
@@ -8581,7 +9865,10 @@ class BTTBUSD:
         return "BTTBUSD"
 
 
-@dataclass(slots=True)
+BTTBUSD = BTTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTCBUSD:
     name: str = "BTTCBUSD"
     precision: int = 8
@@ -8601,7 +9888,10 @@ class BTTCBUSD:
         return "BTTCBUSD"
 
 
-@dataclass(slots=True)
+BTTCBUSD = BTTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTCTRY:
     name: str = "BTTCTRY"
     precision: int = 8
@@ -8621,7 +9911,10 @@ class BTTCTRY:
         return "BTTCTRY"
 
 
-@dataclass(slots=True)
+BTTCTRY = BTTCTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTCUSDC:
     name: str = "BTTCUSDC"
     precision: int = 8
@@ -8641,7 +9934,10 @@ class BTTCUSDC:
         return "BTTCUSDC"
 
 
-@dataclass(slots=True)
+BTTCUSDC = BTTCUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTCUSDT:
     name: str = "BTTCUSDT"
     precision: int = 8
@@ -8661,7 +9957,10 @@ class BTTCUSDT:
         return "BTTCUSDT"
 
 
-@dataclass(slots=True)
+BTTCUSDT = BTTCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTEUR:
     name: str = "BTTEUR"
     precision: int = 8
@@ -8681,7 +9980,10 @@ class BTTEUR:
         return "BTTEUR"
 
 
-@dataclass(slots=True)
+BTTEUR = BTTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTPAX:
     name: str = "BTTPAX"
     precision: int = 8
@@ -8701,7 +10003,10 @@ class BTTPAX:
         return "BTTPAX"
 
 
-@dataclass(slots=True)
+BTTPAX = BTTPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTTRX:
     name: str = "BTTTRX"
     precision: int = 8
@@ -8721,7 +10026,10 @@ class BTTTRX:
         return "BTTTRX"
 
 
-@dataclass(slots=True)
+BTTTRX = BTTTRX()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTTRY:
     name: str = "BTTTRY"
     precision: int = 8
@@ -8741,7 +10049,10 @@ class BTTTRY:
         return "BTTTRY"
 
 
-@dataclass(slots=True)
+BTTTRY = BTTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTTUSD:
     name: str = "BTTTUSD"
     precision: int = 8
@@ -8761,7 +10072,10 @@ class BTTTUSD:
         return "BTTTUSD"
 
 
-@dataclass(slots=True)
+BTTTUSD = BTTTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTUSDC:
     name: str = "BTTUSDC"
     precision: int = 8
@@ -8781,7 +10095,10 @@ class BTTUSDC:
         return "BTTUSDC"
 
 
-@dataclass(slots=True)
+BTTUSDC = BTTUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTTUSDT:
     name: str = "BTTUSDT"
     precision: int = 8
@@ -8801,7 +10118,10 @@ class BTTUSDT:
         return "BTTUSDT"
 
 
-@dataclass(slots=True)
+BTTUSDT = BTTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BULLBUSD:
     name: str = "BULLBUSD"
     precision: int = 8
@@ -8821,7 +10141,10 @@ class BULLBUSD:
         return "BULLBUSD"
 
 
-@dataclass(slots=True)
+BULLBUSD = BULLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BULLUSDT:
     name: str = "BULLUSDT"
     precision: int = 8
@@ -8841,7 +10164,10 @@ class BULLUSDT:
         return "BULLUSDT"
 
 
-@dataclass(slots=True)
+BULLUSDT = BULLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BURGERBNB:
     name: str = "BURGERBNB"
     precision: int = 8
@@ -8861,7 +10187,10 @@ class BURGERBNB:
         return "BURGERBNB"
 
 
-@dataclass(slots=True)
+BURGERBNB = BURGERBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BURGERBUSD:
     name: str = "BURGERBUSD"
     precision: int = 8
@@ -8881,7 +10210,10 @@ class BURGERBUSD:
         return "BURGERBUSD"
 
 
-@dataclass(slots=True)
+BURGERBUSD = BURGERBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BURGERETH:
     name: str = "BURGERETH"
     precision: int = 8
@@ -8901,7 +10233,10 @@ class BURGERETH:
         return "BURGERETH"
 
 
-@dataclass(slots=True)
+BURGERETH = BURGERETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BURGERUSDT:
     name: str = "BURGERUSDT"
     precision: int = 8
@@ -8921,7 +10256,10 @@ class BURGERUSDT:
         return "BURGERUSDT"
 
 
-@dataclass(slots=True)
+BURGERUSDT = BURGERUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDBIDR:
     name: str = "BUSDBIDR"
     precision: int = 2
@@ -8941,7 +10279,10 @@ class BUSDBIDR:
         return "BUSDBIDR"
 
 
-@dataclass(slots=True)
+BUSDBIDR = BUSDBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDBKRW:
     name: str = "BUSDBKRW"
     precision: int = 8
@@ -8961,7 +10302,10 @@ class BUSDBKRW:
         return "BUSDBKRW"
 
 
-@dataclass(slots=True)
+BUSDBKRW = BUSDBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDBRL:
     name: str = "BUSDBRL"
     precision: int = 8
@@ -8981,7 +10325,10 @@ class BUSDBRL:
         return "BUSDBRL"
 
 
-@dataclass(slots=True)
+BUSDBRL = BUSDBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDBVND:
     name: str = "BUSDBVND"
     precision: int = 2
@@ -9001,7 +10348,10 @@ class BUSDBVND:
         return "BUSDBVND"
 
 
-@dataclass(slots=True)
+BUSDBVND = BUSDBVND()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDDAI:
     name: str = "BUSDDAI"
     precision: int = 8
@@ -9021,7 +10371,10 @@ class BUSDDAI:
         return "BUSDDAI"
 
 
-@dataclass(slots=True)
+BUSDDAI = BUSDDAI()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDIDRT:
     name: str = "BUSDIDRT"
     precision: int = 2
@@ -9041,7 +10394,10 @@ class BUSDIDRT:
         return "BUSDIDRT"
 
 
-@dataclass(slots=True)
+BUSDIDRT = BUSDIDRT()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDNGN:
     name: str = "BUSDNGN"
     precision: int = 8
@@ -9061,7 +10417,10 @@ class BUSDNGN:
         return "BUSDNGN"
 
 
-@dataclass(slots=True)
+BUSDNGN = BUSDNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDPLN:
     name: str = "BUSDPLN"
     precision: int = 8
@@ -9081,7 +10440,10 @@ class BUSDPLN:
         return "BUSDPLN"
 
 
-@dataclass(slots=True)
+BUSDPLN = BUSDPLN()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDRON:
     name: str = "BUSDRON"
     precision: int = 8
@@ -9101,7 +10463,10 @@ class BUSDRON:
         return "BUSDRON"
 
 
-@dataclass(slots=True)
+BUSDRON = BUSDRON()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDRUB:
     name: str = "BUSDRUB"
     precision: int = 8
@@ -9121,7 +10486,10 @@ class BUSDRUB:
         return "BUSDRUB"
 
 
-@dataclass(slots=True)
+BUSDRUB = BUSDRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDTRY:
     name: str = "BUSDTRY"
     precision: int = 8
@@ -9141,7 +10509,10 @@ class BUSDTRY:
         return "BUSDTRY"
 
 
-@dataclass(slots=True)
+BUSDTRY = BUSDTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDUAH:
     name: str = "BUSDUAH"
     precision: int = 8
@@ -9161,7 +10532,10 @@ class BUSDUAH:
         return "BUSDUAH"
 
 
-@dataclass(slots=True)
+BUSDUAH = BUSDUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDUSDT:
     name: str = "BUSDUSDT"
     precision: int = 8
@@ -9181,7 +10555,10 @@ class BUSDUSDT:
         return "BUSDUSDT"
 
 
-@dataclass(slots=True)
+BUSDUSDT = BUSDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDVAI:
     name: str = "BUSDVAI"
     precision: int = 8
@@ -9201,7 +10578,10 @@ class BUSDVAI:
         return "BUSDVAI"
 
 
-@dataclass(slots=True)
+BUSDVAI = BUSDVAI()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSDZAR:
     name: str = "BUSDZAR"
     precision: int = 8
@@ -9221,7 +10601,10 @@ class BUSDZAR:
         return "BUSDZAR"
 
 
-@dataclass(slots=True)
+BUSDZAR = BUSDZAR()
+
+
+@dataclass(slots=True, frozen=True)
 class BZRXBNB:
     name: str = "BZRXBNB"
     precision: int = 8
@@ -9241,7 +10624,10 @@ class BZRXBNB:
         return "BZRXBNB"
 
 
-@dataclass(slots=True)
+BZRXBNB = BZRXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class BZRXBTC:
     name: str = "BZRXBTC"
     precision: int = 8
@@ -9261,7 +10647,10 @@ class BZRXBTC:
         return "BZRXBTC"
 
 
-@dataclass(slots=True)
+BZRXBTC = BZRXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BZRXBUSD:
     name: str = "BZRXBUSD"
     precision: int = 8
@@ -9281,7 +10670,10 @@ class BZRXBUSD:
         return "BZRXBUSD"
 
 
-@dataclass(slots=True)
+BZRXBUSD = BZRXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class BZRXUSDT:
     name: str = "BZRXUSDT"
     precision: int = 8
@@ -9301,7 +10693,10 @@ class BZRXUSDT:
         return "BZRXUSDT"
 
 
-@dataclass(slots=True)
+BZRXUSDT = BZRXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class C98BNB:
     name: str = "C98BNB"
     precision: int = 8
@@ -9321,7 +10716,10 @@ class C98BNB:
         return "C98BNB"
 
 
-@dataclass(slots=True)
+C98BNB = C98BNB()
+
+
+@dataclass(slots=True, frozen=True)
 class C98BRL:
     name: str = "C98BRL"
     precision: int = 8
@@ -9341,7 +10739,10 @@ class C98BRL:
         return "C98BRL"
 
 
-@dataclass(slots=True)
+C98BRL = C98BRL()
+
+
+@dataclass(slots=True, frozen=True)
 class C98BTC:
     name: str = "C98BTC"
     precision: int = 8
@@ -9361,7 +10762,10 @@ class C98BTC:
         return "C98BTC"
 
 
-@dataclass(slots=True)
+C98BTC = C98BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class C98BUSD:
     name: str = "C98BUSD"
     precision: int = 8
@@ -9381,7 +10785,10 @@ class C98BUSD:
         return "C98BUSD"
 
 
-@dataclass(slots=True)
+C98BUSD = C98BUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class C98USDT:
     name: str = "C98USDT"
     precision: int = 8
@@ -9401,7 +10808,10 @@ class C98USDT:
         return "C98USDT"
 
 
-@dataclass(slots=True)
+C98USDT = C98USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEAUD:
     name: str = "CAKEAUD"
     precision: int = 8
@@ -9421,7 +10831,10 @@ class CAKEAUD:
         return "CAKEAUD"
 
 
-@dataclass(slots=True)
+CAKEAUD = CAKEAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEBNB:
     name: str = "CAKEBNB"
     precision: int = 8
@@ -9441,7 +10854,10 @@ class CAKEBNB:
         return "CAKEBNB"
 
 
-@dataclass(slots=True)
+CAKEBNB = CAKEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEBRL:
     name: str = "CAKEBRL"
     precision: int = 8
@@ -9461,7 +10877,10 @@ class CAKEBRL:
         return "CAKEBRL"
 
 
-@dataclass(slots=True)
+CAKEBRL = CAKEBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEBTC:
     name: str = "CAKEBTC"
     precision: int = 8
@@ -9481,7 +10900,10 @@ class CAKEBTC:
         return "CAKEBTC"
 
 
-@dataclass(slots=True)
+CAKEBTC = CAKEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEBUSD:
     name: str = "CAKEBUSD"
     precision: int = 8
@@ -9501,7 +10923,10 @@ class CAKEBUSD:
         return "CAKEBUSD"
 
 
-@dataclass(slots=True)
+CAKEBUSD = CAKEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEGBP:
     name: str = "CAKEGBP"
     precision: int = 8
@@ -9521,7 +10946,10 @@ class CAKEGBP:
         return "CAKEGBP"
 
 
-@dataclass(slots=True)
+CAKEGBP = CAKEGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CAKEUSDT:
     name: str = "CAKEUSDT"
     precision: int = 8
@@ -9541,7 +10969,10 @@ class CAKEUSDT:
         return "CAKEUSDT"
 
 
-@dataclass(slots=True)
+CAKEUSDT = CAKEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CDTBTC:
     name: str = "CDTBTC"
     precision: int = 8
@@ -9561,7 +10992,10 @@ class CDTBTC:
         return "CDTBTC"
 
 
-@dataclass(slots=True)
+CDTBTC = CDTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CDTETH:
     name: str = "CDTETH"
     precision: int = 8
@@ -9581,7 +11015,10 @@ class CDTETH:
         return "CDTETH"
 
 
-@dataclass(slots=True)
+CDTETH = CDTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CELOBTC:
     name: str = "CELOBTC"
     precision: int = 8
@@ -9601,7 +11038,10 @@ class CELOBTC:
         return "CELOBTC"
 
 
-@dataclass(slots=True)
+CELOBTC = CELOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CELOBUSD:
     name: str = "CELOBUSD"
     precision: int = 8
@@ -9621,7 +11061,10 @@ class CELOBUSD:
         return "CELOBUSD"
 
 
-@dataclass(slots=True)
+CELOBUSD = CELOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CELOUSDT:
     name: str = "CELOUSDT"
     precision: int = 8
@@ -9641,7 +11084,10 @@ class CELOUSDT:
         return "CELOUSDT"
 
 
-@dataclass(slots=True)
+CELOUSDT = CELOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CELRBNB:
     name: str = "CELRBNB"
     precision: int = 8
@@ -9661,7 +11107,10 @@ class CELRBNB:
         return "CELRBNB"
 
 
-@dataclass(slots=True)
+CELRBNB = CELRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CELRBTC:
     name: str = "CELRBTC"
     precision: int = 8
@@ -9681,7 +11130,10 @@ class CELRBTC:
         return "CELRBTC"
 
 
-@dataclass(slots=True)
+CELRBTC = CELRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CELRBUSD:
     name: str = "CELRBUSD"
     precision: int = 8
@@ -9701,7 +11153,10 @@ class CELRBUSD:
         return "CELRBUSD"
 
 
-@dataclass(slots=True)
+CELRBUSD = CELRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CELRETH:
     name: str = "CELRETH"
     precision: int = 8
@@ -9721,7 +11176,10 @@ class CELRETH:
         return "CELRETH"
 
 
-@dataclass(slots=True)
+CELRETH = CELRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CELRUSDT:
     name: str = "CELRUSDT"
     precision: int = 8
@@ -9741,7 +11199,10 @@ class CELRUSDT:
         return "CELRUSDT"
 
 
-@dataclass(slots=True)
+CELRUSDT = CELRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CFXBTC:
     name: str = "CFXBTC"
     precision: int = 8
@@ -9761,7 +11222,10 @@ class CFXBTC:
         return "CFXBTC"
 
 
-@dataclass(slots=True)
+CFXBTC = CFXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CFXBUSD:
     name: str = "CFXBUSD"
     precision: int = 8
@@ -9781,7 +11245,10 @@ class CFXBUSD:
         return "CFXBUSD"
 
 
-@dataclass(slots=True)
+CFXBUSD = CFXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CFXUSDT:
     name: str = "CFXUSDT"
     precision: int = 8
@@ -9801,7 +11268,10 @@ class CFXUSDT:
         return "CFXUSDT"
 
 
-@dataclass(slots=True)
+CFXUSDT = CFXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CHATBTC:
     name: str = "CHATBTC"
     precision: int = 8
@@ -9821,7 +11291,10 @@ class CHATBTC:
         return "CHATBTC"
 
 
-@dataclass(slots=True)
+CHATBTC = CHATBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CHATETH:
     name: str = "CHATETH"
     precision: int = 8
@@ -9841,7 +11314,10 @@ class CHATETH:
         return "CHATETH"
 
 
-@dataclass(slots=True)
+CHATETH = CHATETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CHESSBNB:
     name: str = "CHESSBNB"
     precision: int = 8
@@ -9861,7 +11337,10 @@ class CHESSBNB:
         return "CHESSBNB"
 
 
-@dataclass(slots=True)
+CHESSBNB = CHESSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CHESSBTC:
     name: str = "CHESSBTC"
     precision: int = 8
@@ -9881,7 +11360,10 @@ class CHESSBTC:
         return "CHESSBTC"
 
 
-@dataclass(slots=True)
+CHESSBTC = CHESSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CHESSBUSD:
     name: str = "CHESSBUSD"
     precision: int = 8
@@ -9901,7 +11383,10 @@ class CHESSBUSD:
         return "CHESSBUSD"
 
 
-@dataclass(slots=True)
+CHESSBUSD = CHESSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CHESSUSDT:
     name: str = "CHESSUSDT"
     precision: int = 8
@@ -9921,7 +11406,10 @@ class CHESSUSDT:
         return "CHESSUSDT"
 
 
-@dataclass(slots=True)
+CHESSUSDT = CHESSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CHRBNB:
     name: str = "CHRBNB"
     precision: int = 8
@@ -9941,7 +11429,10 @@ class CHRBNB:
         return "CHRBNB"
 
 
-@dataclass(slots=True)
+CHRBNB = CHRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CHRBTC:
     name: str = "CHRBTC"
     precision: int = 8
@@ -9961,7 +11452,10 @@ class CHRBTC:
         return "CHRBTC"
 
 
-@dataclass(slots=True)
+CHRBTC = CHRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CHRBUSD:
     name: str = "CHRBUSD"
     precision: int = 8
@@ -9981,7 +11475,10 @@ class CHRBUSD:
         return "CHRBUSD"
 
 
-@dataclass(slots=True)
+CHRBUSD = CHRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CHRETH:
     name: str = "CHRETH"
     precision: int = 8
@@ -10001,7 +11498,10 @@ class CHRETH:
         return "CHRETH"
 
 
-@dataclass(slots=True)
+CHRETH = CHRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CHRUSDT:
     name: str = "CHRUSDT"
     precision: int = 8
@@ -10021,7 +11521,10 @@ class CHRUSDT:
         return "CHRUSDT"
 
 
-@dataclass(slots=True)
+CHRUSDT = CHRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZBNB:
     name: str = "CHZBNB"
     precision: int = 8
@@ -10041,7 +11544,10 @@ class CHZBNB:
         return "CHZBNB"
 
 
-@dataclass(slots=True)
+CHZBNB = CHZBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZBRL:
     name: str = "CHZBRL"
     precision: int = 8
@@ -10061,7 +11567,10 @@ class CHZBRL:
         return "CHZBRL"
 
 
-@dataclass(slots=True)
+CHZBRL = CHZBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZBTC:
     name: str = "CHZBTC"
     precision: int = 8
@@ -10081,7 +11590,10 @@ class CHZBTC:
         return "CHZBTC"
 
 
-@dataclass(slots=True)
+CHZBTC = CHZBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZBUSD:
     name: str = "CHZBUSD"
     precision: int = 8
@@ -10101,7 +11613,10 @@ class CHZBUSD:
         return "CHZBUSD"
 
 
-@dataclass(slots=True)
+CHZBUSD = CHZBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZEUR:
     name: str = "CHZEUR"
     precision: int = 8
@@ -10121,7 +11636,10 @@ class CHZEUR:
         return "CHZEUR"
 
 
-@dataclass(slots=True)
+CHZEUR = CHZEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZGBP:
     name: str = "CHZGBP"
     precision: int = 8
@@ -10141,7 +11659,10 @@ class CHZGBP:
         return "CHZGBP"
 
 
-@dataclass(slots=True)
+CHZGBP = CHZGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZTRY:
     name: str = "CHZTRY"
     precision: int = 8
@@ -10161,7 +11682,10 @@ class CHZTRY:
         return "CHZTRY"
 
 
-@dataclass(slots=True)
+CHZTRY = CHZTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZUSDT:
     name: str = "CHZUSDT"
     precision: int = 8
@@ -10181,7 +11705,10 @@ class CHZUSDT:
         return "CHZUSDT"
 
 
-@dataclass(slots=True)
+CHZUSDT = CHZUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CITYBNB:
     name: str = "CITYBNB"
     precision: int = 8
@@ -10201,7 +11728,10 @@ class CITYBNB:
         return "CITYBNB"
 
 
-@dataclass(slots=True)
+CITYBNB = CITYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CITYBTC:
     name: str = "CITYBTC"
     precision: int = 8
@@ -10221,7 +11751,10 @@ class CITYBTC:
         return "CITYBTC"
 
 
-@dataclass(slots=True)
+CITYBTC = CITYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CITYBUSD:
     name: str = "CITYBUSD"
     precision: int = 8
@@ -10241,7 +11774,10 @@ class CITYBUSD:
         return "CITYBUSD"
 
 
-@dataclass(slots=True)
+CITYBUSD = CITYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CITYUSDT:
     name: str = "CITYUSDT"
     precision: int = 8
@@ -10261,7 +11797,10 @@ class CITYUSDT:
         return "CITYUSDT"
 
 
-@dataclass(slots=True)
+CITYUSDT = CITYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CKBBTC:
     name: str = "CKBBTC"
     precision: int = 8
@@ -10281,7 +11820,10 @@ class CKBBTC:
         return "CKBBTC"
 
 
-@dataclass(slots=True)
+CKBBTC = CKBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CKBBUSD:
     name: str = "CKBBUSD"
     precision: int = 8
@@ -10301,7 +11843,10 @@ class CKBBUSD:
         return "CKBBUSD"
 
 
-@dataclass(slots=True)
+CKBBUSD = CKBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CKBUSDT:
     name: str = "CKBUSDT"
     precision: int = 8
@@ -10321,7 +11866,10 @@ class CKBUSDT:
         return "CKBUSDT"
 
 
-@dataclass(slots=True)
+CKBUSDT = CKBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CLOAKBTC:
     name: str = "CLOAKBTC"
     precision: int = 8
@@ -10341,7 +11889,10 @@ class CLOAKBTC:
         return "CLOAKBTC"
 
 
-@dataclass(slots=True)
+CLOAKBTC = CLOAKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CLOAKETH:
     name: str = "CLOAKETH"
     precision: int = 8
@@ -10361,7 +11912,10 @@ class CLOAKETH:
         return "CLOAKETH"
 
 
-@dataclass(slots=True)
+CLOAKETH = CLOAKETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CLVBNB:
     name: str = "CLVBNB"
     precision: int = 8
@@ -10381,7 +11935,10 @@ class CLVBNB:
         return "CLVBNB"
 
 
-@dataclass(slots=True)
+CLVBNB = CLVBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CLVBTC:
     name: str = "CLVBTC"
     precision: int = 8
@@ -10401,7 +11958,10 @@ class CLVBTC:
         return "CLVBTC"
 
 
-@dataclass(slots=True)
+CLVBTC = CLVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CLVBUSD:
     name: str = "CLVBUSD"
     precision: int = 8
@@ -10421,7 +11981,10 @@ class CLVBUSD:
         return "CLVBUSD"
 
 
-@dataclass(slots=True)
+CLVBUSD = CLVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CLVUSDT:
     name: str = "CLVUSDT"
     precision: int = 8
@@ -10441,7 +12004,10 @@ class CLVUSDT:
         return "CLVUSDT"
 
 
-@dataclass(slots=True)
+CLVUSDT = CLVUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CMTBNB:
     name: str = "CMTBNB"
     precision: int = 8
@@ -10461,7 +12027,10 @@ class CMTBNB:
         return "CMTBNB"
 
 
-@dataclass(slots=True)
+CMTBNB = CMTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CMTBTC:
     name: str = "CMTBTC"
     precision: int = 8
@@ -10481,7 +12050,10 @@ class CMTBTC:
         return "CMTBTC"
 
 
-@dataclass(slots=True)
+CMTBTC = CMTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CMTETH:
     name: str = "CMTETH"
     precision: int = 8
@@ -10501,7 +12073,10 @@ class CMTETH:
         return "CMTETH"
 
 
-@dataclass(slots=True)
+CMTETH = CMTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CNDBNB:
     name: str = "CNDBNB"
     precision: int = 8
@@ -10521,7 +12096,10 @@ class CNDBNB:
         return "CNDBNB"
 
 
-@dataclass(slots=True)
+CNDBNB = CNDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CNDBTC:
     name: str = "CNDBTC"
     precision: int = 8
@@ -10541,7 +12119,10 @@ class CNDBTC:
         return "CNDBTC"
 
 
-@dataclass(slots=True)
+CNDBTC = CNDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CNDETH:
     name: str = "CNDETH"
     precision: int = 8
@@ -10561,7 +12142,10 @@ class CNDETH:
         return "CNDETH"
 
 
-@dataclass(slots=True)
+CNDETH = CNDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class COCOSBNB:
     name: str = "COCOSBNB"
     precision: int = 8
@@ -10581,7 +12165,10 @@ class COCOSBNB:
         return "COCOSBNB"
 
 
-@dataclass(slots=True)
+COCOSBNB = COCOSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class COCOSBTC:
     name: str = "COCOSBTC"
     precision: int = 8
@@ -10601,7 +12188,10 @@ class COCOSBTC:
         return "COCOSBTC"
 
 
-@dataclass(slots=True)
+COCOSBTC = COCOSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class COCOSBUSD:
     name: str = "COCOSBUSD"
     precision: int = 8
@@ -10621,7 +12211,10 @@ class COCOSBUSD:
         return "COCOSBUSD"
 
 
-@dataclass(slots=True)
+COCOSBUSD = COCOSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class COCOSTRY:
     name: str = "COCOSTRY"
     precision: int = 8
@@ -10641,7 +12234,10 @@ class COCOSTRY:
         return "COCOSTRY"
 
 
-@dataclass(slots=True)
+COCOSTRY = COCOSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class COCOSUSDT:
     name: str = "COCOSUSDT"
     precision: int = 8
@@ -10661,7 +12257,10 @@ class COCOSUSDT:
         return "COCOSUSDT"
 
 
-@dataclass(slots=True)
+COCOSUSDT = COCOSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class COMPBNB:
     name: str = "COMPBNB"
     precision: int = 8
@@ -10681,7 +12280,10 @@ class COMPBNB:
         return "COMPBNB"
 
 
-@dataclass(slots=True)
+COMPBNB = COMPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class COMPBTC:
     name: str = "COMPBTC"
     precision: int = 8
@@ -10701,7 +12303,10 @@ class COMPBTC:
         return "COMPBTC"
 
 
-@dataclass(slots=True)
+COMPBTC = COMPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class COMPBUSD:
     name: str = "COMPBUSD"
     precision: int = 8
@@ -10721,7 +12326,10 @@ class COMPBUSD:
         return "COMPBUSD"
 
 
-@dataclass(slots=True)
+COMPBUSD = COMPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class COMPUSDT:
     name: str = "COMPUSDT"
     precision: int = 8
@@ -10741,7 +12349,10 @@ class COMPUSDT:
         return "COMPUSDT"
 
 
-@dataclass(slots=True)
+COMPUSDT = COMPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class COSBNB:
     name: str = "COSBNB"
     precision: int = 8
@@ -10761,7 +12372,10 @@ class COSBNB:
         return "COSBNB"
 
 
-@dataclass(slots=True)
+COSBNB = COSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class COSBTC:
     name: str = "COSBTC"
     precision: int = 8
@@ -10781,7 +12395,10 @@ class COSBTC:
         return "COSBTC"
 
 
-@dataclass(slots=True)
+COSBTC = COSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class COSBUSD:
     name: str = "COSBUSD"
     precision: int = 8
@@ -10801,7 +12418,10 @@ class COSBUSD:
         return "COSBUSD"
 
 
-@dataclass(slots=True)
+COSBUSD = COSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class COSTRY:
     name: str = "COSTRY"
     precision: int = 8
@@ -10821,7 +12441,10 @@ class COSTRY:
         return "COSTRY"
 
 
-@dataclass(slots=True)
+COSTRY = COSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class COSUSDT:
     name: str = "COSUSDT"
     precision: int = 8
@@ -10841,7 +12464,10 @@ class COSUSDT:
         return "COSUSDT"
 
 
-@dataclass(slots=True)
+COSUSDT = COSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class COTIBNB:
     name: str = "COTIBNB"
     precision: int = 8
@@ -10861,7 +12487,10 @@ class COTIBNB:
         return "COTIBNB"
 
 
-@dataclass(slots=True)
+COTIBNB = COTIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class COTIBTC:
     name: str = "COTIBTC"
     precision: int = 8
@@ -10881,7 +12510,10 @@ class COTIBTC:
         return "COTIBTC"
 
 
-@dataclass(slots=True)
+COTIBTC = COTIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class COTIBUSD:
     name: str = "COTIBUSD"
     precision: int = 8
@@ -10901,7 +12533,10 @@ class COTIBUSD:
         return "COTIBUSD"
 
 
-@dataclass(slots=True)
+COTIBUSD = COTIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class COTIUSDT:
     name: str = "COTIUSDT"
     precision: int = 8
@@ -10921,7 +12556,10 @@ class COTIUSDT:
         return "COTIUSDT"
 
 
-@dataclass(slots=True)
+COTIUSDT = COTIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class COVERBUSD:
     name: str = "COVERBUSD"
     precision: int = 8
@@ -10941,7 +12579,10 @@ class COVERBUSD:
         return "COVERBUSD"
 
 
-@dataclass(slots=True)
+COVERBUSD = COVERBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class COVERETH:
     name: str = "COVERETH"
     precision: int = 8
@@ -10961,7 +12602,10 @@ class COVERETH:
         return "COVERETH"
 
 
-@dataclass(slots=True)
+COVERETH = COVERETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CREAMBNB:
     name: str = "CREAMBNB"
     precision: int = 8
@@ -10981,7 +12625,10 @@ class CREAMBNB:
         return "CREAMBNB"
 
 
-@dataclass(slots=True)
+CREAMBNB = CREAMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CREAMBUSD:
     name: str = "CREAMBUSD"
     precision: int = 8
@@ -11001,7 +12648,10 @@ class CREAMBUSD:
         return "CREAMBUSD"
 
 
-@dataclass(slots=True)
+CREAMBUSD = CREAMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CRVBNB:
     name: str = "CRVBNB"
     precision: int = 8
@@ -11021,7 +12671,10 @@ class CRVBNB:
         return "CRVBNB"
 
 
-@dataclass(slots=True)
+CRVBNB = CRVBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CRVBTC:
     name: str = "CRVBTC"
     precision: int = 8
@@ -11041,7 +12694,10 @@ class CRVBTC:
         return "CRVBTC"
 
 
-@dataclass(slots=True)
+CRVBTC = CRVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CRVBUSD:
     name: str = "CRVBUSD"
     precision: int = 8
@@ -11061,7 +12717,10 @@ class CRVBUSD:
         return "CRVBUSD"
 
 
-@dataclass(slots=True)
+CRVBUSD = CRVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CRVETH:
     name: str = "CRVETH"
     precision: int = 8
@@ -11081,7 +12740,10 @@ class CRVETH:
         return "CRVETH"
 
 
-@dataclass(slots=True)
+CRVETH = CRVETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CRVUSDT:
     name: str = "CRVUSDT"
     precision: int = 8
@@ -11101,7 +12763,10 @@ class CRVUSDT:
         return "CRVUSDT"
 
 
-@dataclass(slots=True)
+CRVUSDT = CRVUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CTKBNB:
     name: str = "CTKBNB"
     precision: int = 8
@@ -11121,7 +12786,10 @@ class CTKBNB:
         return "CTKBNB"
 
 
-@dataclass(slots=True)
+CTKBNB = CTKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CTKBTC:
     name: str = "CTKBTC"
     precision: int = 8
@@ -11141,7 +12809,10 @@ class CTKBTC:
         return "CTKBTC"
 
 
-@dataclass(slots=True)
+CTKBTC = CTKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CTKBUSD:
     name: str = "CTKBUSD"
     precision: int = 8
@@ -11161,7 +12832,10 @@ class CTKBUSD:
         return "CTKBUSD"
 
 
-@dataclass(slots=True)
+CTKBUSD = CTKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTKUSDT:
     name: str = "CTKUSDT"
     precision: int = 8
@@ -11181,7 +12855,10 @@ class CTKUSDT:
         return "CTKUSDT"
 
 
-@dataclass(slots=True)
+CTKUSDT = CTKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSIBNB:
     name: str = "CTSIBNB"
     precision: int = 8
@@ -11201,7 +12878,10 @@ class CTSIBNB:
         return "CTSIBNB"
 
 
-@dataclass(slots=True)
+CTSIBNB = CTSIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSIBTC:
     name: str = "CTSIBTC"
     precision: int = 8
@@ -11221,7 +12901,10 @@ class CTSIBTC:
         return "CTSIBTC"
 
 
-@dataclass(slots=True)
+CTSIBTC = CTSIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSIBUSD:
     name: str = "CTSIBUSD"
     precision: int = 8
@@ -11241,7 +12924,10 @@ class CTSIBUSD:
         return "CTSIBUSD"
 
 
-@dataclass(slots=True)
+CTSIBUSD = CTSIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSIUSDT:
     name: str = "CTSIUSDT"
     precision: int = 8
@@ -11261,7 +12947,10 @@ class CTSIUSDT:
         return "CTSIUSDT"
 
 
-@dataclass(slots=True)
+CTSIUSDT = CTSIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CTXCBNB:
     name: str = "CTXCBNB"
     precision: int = 8
@@ -11281,7 +12970,10 @@ class CTXCBNB:
         return "CTXCBNB"
 
 
-@dataclass(slots=True)
+CTXCBNB = CTXCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CTXCBTC:
     name: str = "CTXCBTC"
     precision: int = 8
@@ -11301,7 +12993,10 @@ class CTXCBTC:
         return "CTXCBTC"
 
 
-@dataclass(slots=True)
+CTXCBTC = CTXCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CTXCBUSD:
     name: str = "CTXCBUSD"
     precision: int = 8
@@ -11321,7 +13016,10 @@ class CTXCBUSD:
         return "CTXCBUSD"
 
 
-@dataclass(slots=True)
+CTXCBUSD = CTXCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTXCUSDT:
     name: str = "CTXCUSDT"
     precision: int = 8
@@ -11341,7 +13039,10 @@ class CTXCUSDT:
         return "CTXCUSDT"
 
 
-@dataclass(slots=True)
+CTXCUSDT = CTXCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CVCBNB:
     name: str = "CVCBNB"
     precision: int = 8
@@ -11361,7 +13062,10 @@ class CVCBNB:
         return "CVCBNB"
 
 
-@dataclass(slots=True)
+CVCBNB = CVCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class CVCBTC:
     name: str = "CVCBTC"
     precision: int = 8
@@ -11381,7 +13085,10 @@ class CVCBTC:
         return "CVCBTC"
 
 
-@dataclass(slots=True)
+CVCBTC = CVCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CVCBUSD:
     name: str = "CVCBUSD"
     precision: int = 8
@@ -11401,7 +13108,10 @@ class CVCBUSD:
         return "CVCBUSD"
 
 
-@dataclass(slots=True)
+CVCBUSD = CVCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CVCETH:
     name: str = "CVCETH"
     precision: int = 8
@@ -11421,7 +13131,10 @@ class CVCETH:
         return "CVCETH"
 
 
-@dataclass(slots=True)
+CVCETH = CVCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CVCUSDT:
     name: str = "CVCUSDT"
     precision: int = 8
@@ -11441,7 +13154,10 @@ class CVCUSDT:
         return "CVCUSDT"
 
 
-@dataclass(slots=True)
+CVCUSDT = CVCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CVPBUSD:
     name: str = "CVPBUSD"
     precision: int = 8
@@ -11461,7 +13177,10 @@ class CVPBUSD:
         return "CVPBUSD"
 
 
-@dataclass(slots=True)
+CVPBUSD = CVPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CVPETH:
     name: str = "CVPETH"
     precision: int = 8
@@ -11481,7 +13200,10 @@ class CVPETH:
         return "CVPETH"
 
 
-@dataclass(slots=True)
+CVPETH = CVPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CVPUSDT:
     name: str = "CVPUSDT"
     precision: int = 8
@@ -11501,7 +13223,10 @@ class CVPUSDT:
         return "CVPUSDT"
 
 
-@dataclass(slots=True)
+CVPUSDT = CVPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CVXBTC:
     name: str = "CVXBTC"
     precision: int = 8
@@ -11521,7 +13246,10 @@ class CVXBTC:
         return "CVXBTC"
 
 
-@dataclass(slots=True)
+CVXBTC = CVXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CVXBUSD:
     name: str = "CVXBUSD"
     precision: int = 8
@@ -11541,7 +13269,10 @@ class CVXBUSD:
         return "CVXBUSD"
 
 
-@dataclass(slots=True)
+CVXBUSD = CVXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class CVXUSDT:
     name: str = "CVXUSDT"
     precision: int = 8
@@ -11561,7 +13292,10 @@ class CVXUSDT:
         return "CVXUSDT"
 
 
-@dataclass(slots=True)
+CVXUSDT = CVXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DAIBNB:
     name: str = "DAIBNB"
     precision: int = 8
@@ -11581,7 +13315,10 @@ class DAIBNB:
         return "DAIBNB"
 
 
-@dataclass(slots=True)
+DAIBNB = DAIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DAIBTC:
     name: str = "DAIBTC"
     precision: int = 8
@@ -11601,7 +13338,10 @@ class DAIBTC:
         return "DAIBTC"
 
 
-@dataclass(slots=True)
+DAIBTC = DAIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DAIBUSD:
     name: str = "DAIBUSD"
     precision: int = 8
@@ -11621,7 +13361,10 @@ class DAIBUSD:
         return "DAIBUSD"
 
 
-@dataclass(slots=True)
+DAIBUSD = DAIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DAIUSDT:
     name: str = "DAIUSDT"
     precision: int = 8
@@ -11641,7 +13384,10 @@ class DAIUSDT:
         return "DAIUSDT"
 
 
-@dataclass(slots=True)
+DAIUSDT = DAIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DARBNB:
     name: str = "DARBNB"
     precision: int = 8
@@ -11661,7 +13407,10 @@ class DARBNB:
         return "DARBNB"
 
 
-@dataclass(slots=True)
+DARBNB = DARBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DARBTC:
     name: str = "DARBTC"
     precision: int = 8
@@ -11681,7 +13430,10 @@ class DARBTC:
         return "DARBTC"
 
 
-@dataclass(slots=True)
+DARBTC = DARBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DARBUSD:
     name: str = "DARBUSD"
     precision: int = 8
@@ -11701,7 +13453,10 @@ class DARBUSD:
         return "DARBUSD"
 
 
-@dataclass(slots=True)
+DARBUSD = DARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DARETH:
     name: str = "DARETH"
     precision: int = 8
@@ -11721,7 +13476,10 @@ class DARETH:
         return "DARETH"
 
 
-@dataclass(slots=True)
+DARETH = DARETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DAREUR:
     name: str = "DAREUR"
     precision: int = 8
@@ -11741,7 +13499,10 @@ class DAREUR:
         return "DAREUR"
 
 
-@dataclass(slots=True)
+DAREUR = DAREUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DARTRY:
     name: str = "DARTRY"
     precision: int = 8
@@ -11761,7 +13522,10 @@ class DARTRY:
         return "DARTRY"
 
 
-@dataclass(slots=True)
+DARTRY = DARTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class DARUSDT:
     name: str = "DARUSDT"
     precision: int = 8
@@ -11781,7 +13545,10 @@ class DARUSDT:
         return "DARUSDT"
 
 
-@dataclass(slots=True)
+DARUSDT = DARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DASHBNB:
     name: str = "DASHBNB"
     precision: int = 8
@@ -11801,7 +13568,10 @@ class DASHBNB:
         return "DASHBNB"
 
 
-@dataclass(slots=True)
+DASHBNB = DASHBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DASHBTC:
     name: str = "DASHBTC"
     precision: int = 8
@@ -11821,7 +13591,10 @@ class DASHBTC:
         return "DASHBTC"
 
 
-@dataclass(slots=True)
+DASHBTC = DASHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DASHBUSD:
     name: str = "DASHBUSD"
     precision: int = 8
@@ -11841,7 +13614,10 @@ class DASHBUSD:
         return "DASHBUSD"
 
 
-@dataclass(slots=True)
+DASHBUSD = DASHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DASHETH:
     name: str = "DASHETH"
     precision: int = 8
@@ -11861,7 +13637,10 @@ class DASHETH:
         return "DASHETH"
 
 
-@dataclass(slots=True)
+DASHETH = DASHETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DASHUSDT:
     name: str = "DASHUSDT"
     precision: int = 8
@@ -11881,7 +13660,10 @@ class DASHUSDT:
         return "DASHUSDT"
 
 
-@dataclass(slots=True)
+DASHUSDT = DASHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DATABTC:
     name: str = "DATABTC"
     precision: int = 8
@@ -11901,7 +13683,10 @@ class DATABTC:
         return "DATABTC"
 
 
-@dataclass(slots=True)
+DATABTC = DATABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DATABUSD:
     name: str = "DATABUSD"
     precision: int = 8
@@ -11921,7 +13706,10 @@ class DATABUSD:
         return "DATABUSD"
 
 
-@dataclass(slots=True)
+DATABUSD = DATABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DATAETH:
     name: str = "DATAETH"
     precision: int = 8
@@ -11941,7 +13729,10 @@ class DATAETH:
         return "DATAETH"
 
 
-@dataclass(slots=True)
+DATAETH = DATAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DATAUSDT:
     name: str = "DATAUSDT"
     precision: int = 8
@@ -11961,7 +13752,10 @@ class DATAUSDT:
         return "DATAUSDT"
 
 
-@dataclass(slots=True)
+DATAUSDT = DATAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DCRBNB:
     name: str = "DCRBNB"
     precision: int = 8
@@ -11981,7 +13775,10 @@ class DCRBNB:
         return "DCRBNB"
 
 
-@dataclass(slots=True)
+DCRBNB = DCRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DCRBTC:
     name: str = "DCRBTC"
     precision: int = 8
@@ -12001,7 +13798,10 @@ class DCRBTC:
         return "DCRBTC"
 
 
-@dataclass(slots=True)
+DCRBTC = DCRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DCRBUSD:
     name: str = "DCRBUSD"
     precision: int = 8
@@ -12021,7 +13821,10 @@ class DCRBUSD:
         return "DCRBUSD"
 
 
-@dataclass(slots=True)
+DCRBUSD = DCRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DCRUSDT:
     name: str = "DCRUSDT"
     precision: int = 8
@@ -12041,7 +13844,10 @@ class DCRUSDT:
         return "DCRUSDT"
 
 
-@dataclass(slots=True)
+DCRUSDT = DCRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DEGOBTC:
     name: str = "DEGOBTC"
     precision: int = 8
@@ -12061,7 +13867,10 @@ class DEGOBTC:
         return "DEGOBTC"
 
 
-@dataclass(slots=True)
+DEGOBTC = DEGOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DEGOBUSD:
     name: str = "DEGOBUSD"
     precision: int = 8
@@ -12081,7 +13890,10 @@ class DEGOBUSD:
         return "DEGOBUSD"
 
 
-@dataclass(slots=True)
+DEGOBUSD = DEGOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DEGOUSDT:
     name: str = "DEGOUSDT"
     precision: int = 8
@@ -12101,7 +13913,10 @@ class DEGOUSDT:
         return "DEGOUSDT"
 
 
-@dataclass(slots=True)
+DEGOUSDT = DEGOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DENTBTC:
     name: str = "DENTBTC"
     precision: int = 8
@@ -12121,7 +13936,10 @@ class DENTBTC:
         return "DENTBTC"
 
 
-@dataclass(slots=True)
+DENTBTC = DENTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DENTBUSD:
     name: str = "DENTBUSD"
     precision: int = 8
@@ -12141,7 +13959,10 @@ class DENTBUSD:
         return "DENTBUSD"
 
 
-@dataclass(slots=True)
+DENTBUSD = DENTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DENTETH:
     name: str = "DENTETH"
     precision: int = 8
@@ -12161,7 +13982,10 @@ class DENTETH:
         return "DENTETH"
 
 
-@dataclass(slots=True)
+DENTETH = DENTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DENTTRY:
     name: str = "DENTTRY"
     precision: int = 8
@@ -12181,7 +14005,10 @@ class DENTTRY:
         return "DENTTRY"
 
 
-@dataclass(slots=True)
+DENTTRY = DENTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class DENTUSDT:
     name: str = "DENTUSDT"
     precision: int = 8
@@ -12201,7 +14028,10 @@ class DENTUSDT:
         return "DENTUSDT"
 
 
-@dataclass(slots=True)
+DENTUSDT = DENTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DEXEBUSD:
     name: str = "DEXEBUSD"
     precision: int = 8
@@ -12221,7 +14051,10 @@ class DEXEBUSD:
         return "DEXEBUSD"
 
 
-@dataclass(slots=True)
+DEXEBUSD = DEXEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DEXEETH:
     name: str = "DEXEETH"
     precision: int = 8
@@ -12241,7 +14074,10 @@ class DEXEETH:
         return "DEXEETH"
 
 
-@dataclass(slots=True)
+DEXEETH = DEXEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DEXEUSDT:
     name: str = "DEXEUSDT"
     precision: int = 8
@@ -12261,7 +14097,10 @@ class DEXEUSDT:
         return "DEXEUSDT"
 
 
-@dataclass(slots=True)
+DEXEUSDT = DEXEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DFBUSD:
     name: str = "DFBUSD"
     precision: int = 8
@@ -12281,7 +14120,10 @@ class DFBUSD:
         return "DFBUSD"
 
 
-@dataclass(slots=True)
+DFBUSD = DFBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DFETH:
     name: str = "DFETH"
     precision: int = 8
@@ -12301,7 +14143,10 @@ class DFETH:
         return "DFETH"
 
 
-@dataclass(slots=True)
+DFETH = DFETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DFUSDT:
     name: str = "DFUSDT"
     precision: int = 8
@@ -12321,7 +14166,10 @@ class DFUSDT:
         return "DFUSDT"
 
 
-@dataclass(slots=True)
+DFUSDT = DFUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DGBBTC:
     name: str = "DGBBTC"
     precision: int = 8
@@ -12341,7 +14189,10 @@ class DGBBTC:
         return "DGBBTC"
 
 
-@dataclass(slots=True)
+DGBBTC = DGBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DGBBUSD:
     name: str = "DGBBUSD"
     precision: int = 8
@@ -12361,7 +14212,10 @@ class DGBBUSD:
         return "DGBBUSD"
 
 
-@dataclass(slots=True)
+DGBBUSD = DGBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DGBUSDT:
     name: str = "DGBUSDT"
     precision: int = 8
@@ -12381,7 +14235,10 @@ class DGBUSDT:
         return "DGBUSDT"
 
 
-@dataclass(slots=True)
+DGBUSDT = DGBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DGDBTC:
     name: str = "DGDBTC"
     precision: int = 8
@@ -12401,7 +14258,10 @@ class DGDBTC:
         return "DGDBTC"
 
 
-@dataclass(slots=True)
+DGDBTC = DGDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DGDETH:
     name: str = "DGDETH"
     precision: int = 8
@@ -12421,7 +14281,10 @@ class DGDETH:
         return "DGDETH"
 
 
-@dataclass(slots=True)
+DGDETH = DGDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DIABNB:
     name: str = "DIABNB"
     precision: int = 8
@@ -12441,7 +14304,10 @@ class DIABNB:
         return "DIABNB"
 
 
-@dataclass(slots=True)
+DIABNB = DIABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DIABTC:
     name: str = "DIABTC"
     precision: int = 8
@@ -12461,7 +14327,10 @@ class DIABTC:
         return "DIABTC"
 
 
-@dataclass(slots=True)
+DIABTC = DIABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DIABUSD:
     name: str = "DIABUSD"
     precision: int = 8
@@ -12481,7 +14350,10 @@ class DIABUSD:
         return "DIABUSD"
 
 
-@dataclass(slots=True)
+DIABUSD = DIABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DIAUSDT:
     name: str = "DIAUSDT"
     precision: int = 8
@@ -12501,7 +14373,10 @@ class DIAUSDT:
         return "DIAUSDT"
 
 
-@dataclass(slots=True)
+DIAUSDT = DIAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DLTBNB:
     name: str = "DLTBNB"
     precision: int = 8
@@ -12521,7 +14396,10 @@ class DLTBNB:
         return "DLTBNB"
 
 
-@dataclass(slots=True)
+DLTBNB = DLTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DLTBTC:
     name: str = "DLTBTC"
     precision: int = 8
@@ -12541,7 +14419,10 @@ class DLTBTC:
         return "DLTBTC"
 
 
-@dataclass(slots=True)
+DLTBTC = DLTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DLTETH:
     name: str = "DLTETH"
     precision: int = 8
@@ -12561,7 +14442,10 @@ class DLTETH:
         return "DLTETH"
 
 
-@dataclass(slots=True)
+DLTETH = DLTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DNTBTC:
     name: str = "DNTBTC"
     precision: int = 8
@@ -12581,7 +14465,10 @@ class DNTBTC:
         return "DNTBTC"
 
 
-@dataclass(slots=True)
+DNTBTC = DNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DNTBUSD:
     name: str = "DNTBUSD"
     precision: int = 8
@@ -12601,7 +14488,10 @@ class DNTBUSD:
         return "DNTBUSD"
 
 
-@dataclass(slots=True)
+DNTBUSD = DNTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DNTETH:
     name: str = "DNTETH"
     precision: int = 8
@@ -12621,7 +14511,10 @@ class DNTETH:
         return "DNTETH"
 
 
-@dataclass(slots=True)
+DNTETH = DNTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DNTUSDT:
     name: str = "DNTUSDT"
     precision: int = 8
@@ -12641,7 +14534,10 @@ class DNTUSDT:
         return "DNTUSDT"
 
 
-@dataclass(slots=True)
+DNTUSDT = DNTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOCKBTC:
     name: str = "DOCKBTC"
     precision: int = 8
@@ -12661,7 +14557,10 @@ class DOCKBTC:
         return "DOCKBTC"
 
 
-@dataclass(slots=True)
+DOCKBTC = DOCKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOCKBUSD:
     name: str = "DOCKBUSD"
     precision: int = 8
@@ -12681,7 +14580,10 @@ class DOCKBUSD:
         return "DOCKBUSD"
 
 
-@dataclass(slots=True)
+DOCKBUSD = DOCKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOCKETH:
     name: str = "DOCKETH"
     precision: int = 8
@@ -12701,7 +14603,10 @@ class DOCKETH:
         return "DOCKETH"
 
 
-@dataclass(slots=True)
+DOCKETH = DOCKETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DOCKUSDT:
     name: str = "DOCKUSDT"
     precision: int = 8
@@ -12721,7 +14626,10 @@ class DOCKUSDT:
         return "DOCKUSDT"
 
 
-@dataclass(slots=True)
+DOCKUSDT = DOCKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DODOBTC:
     name: str = "DODOBTC"
     precision: int = 8
@@ -12741,7 +14649,10 @@ class DODOBTC:
         return "DODOBTC"
 
 
-@dataclass(slots=True)
+DODOBTC = DODOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DODOBUSD:
     name: str = "DODOBUSD"
     precision: int = 8
@@ -12761,7 +14672,10 @@ class DODOBUSD:
         return "DODOBUSD"
 
 
-@dataclass(slots=True)
+DODOBUSD = DODOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DODOUSDT:
     name: str = "DODOUSDT"
     precision: int = 8
@@ -12781,7 +14695,10 @@ class DODOUSDT:
         return "DODOUSDT"
 
 
-@dataclass(slots=True)
+DODOUSDT = DODOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEAUD:
     name: str = "DOGEAUD"
     precision: int = 8
@@ -12801,7 +14718,10 @@ class DOGEAUD:
         return "DOGEAUD"
 
 
-@dataclass(slots=True)
+DOGEAUD = DOGEAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEBIDR:
     name: str = "DOGEBIDR"
     precision: int = 2
@@ -12821,7 +14741,10 @@ class DOGEBIDR:
         return "DOGEBIDR"
 
 
-@dataclass(slots=True)
+DOGEBIDR = DOGEBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEBNB:
     name: str = "DOGEBNB"
     precision: int = 8
@@ -12841,7 +14764,10 @@ class DOGEBNB:
         return "DOGEBNB"
 
 
-@dataclass(slots=True)
+DOGEBNB = DOGEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEBRL:
     name: str = "DOGEBRL"
     precision: int = 8
@@ -12861,7 +14787,10 @@ class DOGEBRL:
         return "DOGEBRL"
 
 
-@dataclass(slots=True)
+DOGEBRL = DOGEBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEBTC:
     name: str = "DOGEBTC"
     precision: int = 8
@@ -12881,7 +14810,10 @@ class DOGEBTC:
         return "DOGEBTC"
 
 
-@dataclass(slots=True)
+DOGEBTC = DOGEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEBUSD:
     name: str = "DOGEBUSD"
     precision: int = 8
@@ -12901,7 +14833,10 @@ class DOGEBUSD:
         return "DOGEBUSD"
 
 
-@dataclass(slots=True)
+DOGEBUSD = DOGEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEEUR:
     name: str = "DOGEEUR"
     precision: int = 8
@@ -12921,7 +14856,10 @@ class DOGEEUR:
         return "DOGEEUR"
 
 
-@dataclass(slots=True)
+DOGEEUR = DOGEEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEGBP:
     name: str = "DOGEGBP"
     precision: int = 8
@@ -12941,7 +14879,10 @@ class DOGEGBP:
         return "DOGEGBP"
 
 
-@dataclass(slots=True)
+DOGEGBP = DOGEGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEPAX:
     name: str = "DOGEPAX"
     precision: int = 8
@@ -12961,7 +14902,10 @@ class DOGEPAX:
         return "DOGEPAX"
 
 
-@dataclass(slots=True)
+DOGEPAX = DOGEPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGERUB:
     name: str = "DOGERUB"
     precision: int = 8
@@ -12981,7 +14925,10 @@ class DOGERUB:
         return "DOGERUB"
 
 
-@dataclass(slots=True)
+DOGERUB = DOGERUB()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGETRY:
     name: str = "DOGETRY"
     precision: int = 8
@@ -13001,7 +14948,10 @@ class DOGETRY:
         return "DOGETRY"
 
 
-@dataclass(slots=True)
+DOGETRY = DOGETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEUSDC:
     name: str = "DOGEUSDC"
     precision: int = 8
@@ -13021,7 +14971,10 @@ class DOGEUSDC:
         return "DOGEUSDC"
 
 
-@dataclass(slots=True)
+DOGEUSDC = DOGEUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGEUSDT:
     name: str = "DOGEUSDT"
     precision: int = 8
@@ -13041,7 +14994,10 @@ class DOGEUSDT:
         return "DOGEUSDT"
 
 
-@dataclass(slots=True)
+DOGEUSDT = DOGEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTAUD:
     name: str = "DOTAUD"
     precision: int = 8
@@ -13061,7 +15017,10 @@ class DOTAUD:
         return "DOTAUD"
 
 
-@dataclass(slots=True)
+DOTAUD = DOTAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBIDR:
     name: str = "DOTBIDR"
     precision: int = 2
@@ -13081,7 +15040,10 @@ class DOTBIDR:
         return "DOTBIDR"
 
 
-@dataclass(slots=True)
+DOTBIDR = DOTBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBKRW:
     name: str = "DOTBKRW"
     precision: int = 8
@@ -13101,7 +15063,10 @@ class DOTBKRW:
         return "DOTBKRW"
 
 
-@dataclass(slots=True)
+DOTBKRW = DOTBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBNB:
     name: str = "DOTBNB"
     precision: int = 8
@@ -13121,7 +15086,10 @@ class DOTBNB:
         return "DOTBNB"
 
 
-@dataclass(slots=True)
+DOTBNB = DOTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBRL:
     name: str = "DOTBRL"
     precision: int = 8
@@ -13141,7 +15109,10 @@ class DOTBRL:
         return "DOTBRL"
 
 
-@dataclass(slots=True)
+DOTBRL = DOTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBTC:
     name: str = "DOTBTC"
     precision: int = 8
@@ -13161,7 +15132,10 @@ class DOTBTC:
         return "DOTBTC"
 
 
-@dataclass(slots=True)
+DOTBTC = DOTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTBUSD:
     name: str = "DOTBUSD"
     precision: int = 8
@@ -13181,7 +15155,10 @@ class DOTBUSD:
         return "DOTBUSD"
 
 
-@dataclass(slots=True)
+DOTBUSD = DOTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTDOWNUSDT:
     name: str = "DOTDOWNUSDT"
     precision: int = 8
@@ -13201,7 +15178,10 @@ class DOTDOWNUSDT:
         return "DOTDOWNUSDT"
 
 
-@dataclass(slots=True)
+DOTDOWNUSDT = DOTDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTETH:
     name: str = "DOTETH"
     precision: int = 8
@@ -13221,7 +15201,10 @@ class DOTETH:
         return "DOTETH"
 
 
-@dataclass(slots=True)
+DOTETH = DOTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTEUR:
     name: str = "DOTEUR"
     precision: int = 8
@@ -13241,7 +15224,10 @@ class DOTEUR:
         return "DOTEUR"
 
 
-@dataclass(slots=True)
+DOTEUR = DOTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTGBP:
     name: str = "DOTGBP"
     precision: int = 8
@@ -13261,7 +15247,10 @@ class DOTGBP:
         return "DOTGBP"
 
 
-@dataclass(slots=True)
+DOTGBP = DOTGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTNGN:
     name: str = "DOTNGN"
     precision: int = 8
@@ -13281,7 +15270,10 @@ class DOTNGN:
         return "DOTNGN"
 
 
-@dataclass(slots=True)
+DOTNGN = DOTNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTRUB:
     name: str = "DOTRUB"
     precision: int = 8
@@ -13301,7 +15293,10 @@ class DOTRUB:
         return "DOTRUB"
 
 
-@dataclass(slots=True)
+DOTRUB = DOTRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTTRY:
     name: str = "DOTTRY"
     precision: int = 8
@@ -13321,7 +15316,10 @@ class DOTTRY:
         return "DOTTRY"
 
 
-@dataclass(slots=True)
+DOTTRY = DOTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTUPUSDT:
     name: str = "DOTUPUSDT"
     precision: int = 8
@@ -13341,7 +15339,10 @@ class DOTUPUSDT:
         return "DOTUPUSDT"
 
 
-@dataclass(slots=True)
+DOTUPUSDT = DOTUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOTUSDT:
     name: str = "DOTUSDT"
     precision: int = 8
@@ -13361,7 +15362,10 @@ class DOTUSDT:
         return "DOTUSDT"
 
 
-@dataclass(slots=True)
+DOTUSDT = DOTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DREPBNB:
     name: str = "DREPBNB"
     precision: int = 8
@@ -13381,7 +15385,10 @@ class DREPBNB:
         return "DREPBNB"
 
 
-@dataclass(slots=True)
+DREPBNB = DREPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DREPBTC:
     name: str = "DREPBTC"
     precision: int = 8
@@ -13401,7 +15408,10 @@ class DREPBTC:
         return "DREPBTC"
 
 
-@dataclass(slots=True)
+DREPBTC = DREPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DREPBUSD:
     name: str = "DREPBUSD"
     precision: int = 8
@@ -13421,7 +15431,10 @@ class DREPBUSD:
         return "DREPBUSD"
 
 
-@dataclass(slots=True)
+DREPBUSD = DREPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DREPUSDT:
     name: str = "DREPUSDT"
     precision: int = 8
@@ -13441,7 +15454,10 @@ class DREPUSDT:
         return "DREPUSDT"
 
 
-@dataclass(slots=True)
+DREPUSDT = DREPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKBNB:
     name: str = "DUSKBNB"
     precision: int = 8
@@ -13461,7 +15477,10 @@ class DUSKBNB:
         return "DUSKBNB"
 
 
-@dataclass(slots=True)
+DUSKBNB = DUSKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKBTC:
     name: str = "DUSKBTC"
     precision: int = 8
@@ -13481,7 +15500,10 @@ class DUSKBTC:
         return "DUSKBTC"
 
 
-@dataclass(slots=True)
+DUSKBTC = DUSKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKBUSD:
     name: str = "DUSKBUSD"
     precision: int = 8
@@ -13501,7 +15523,10 @@ class DUSKBUSD:
         return "DUSKBUSD"
 
 
-@dataclass(slots=True)
+DUSKBUSD = DUSKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKPAX:
     name: str = "DUSKPAX"
     precision: int = 8
@@ -13521,7 +15546,10 @@ class DUSKPAX:
         return "DUSKPAX"
 
 
-@dataclass(slots=True)
+DUSKPAX = DUSKPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKUSDC:
     name: str = "DUSKUSDC"
     precision: int = 8
@@ -13541,7 +15569,10 @@ class DUSKUSDC:
         return "DUSKUSDC"
 
 
-@dataclass(slots=True)
+DUSKUSDC = DUSKUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class DUSKUSDT:
     name: str = "DUSKUSDT"
     precision: int = 8
@@ -13561,7 +15592,10 @@ class DUSKUSDT:
         return "DUSKUSDT"
 
 
-@dataclass(slots=True)
+DUSKUSDT = DUSKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DYDXBNB:
     name: str = "DYDXBNB"
     precision: int = 8
@@ -13581,7 +15615,10 @@ class DYDXBNB:
         return "DYDXBNB"
 
 
-@dataclass(slots=True)
+DYDXBNB = DYDXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class DYDXBTC:
     name: str = "DYDXBTC"
     precision: int = 8
@@ -13601,7 +15638,10 @@ class DYDXBTC:
         return "DYDXBTC"
 
 
-@dataclass(slots=True)
+DYDXBTC = DYDXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DYDXBUSD:
     name: str = "DYDXBUSD"
     precision: int = 8
@@ -13621,7 +15661,10 @@ class DYDXBUSD:
         return "DYDXBUSD"
 
 
-@dataclass(slots=True)
+DYDXBUSD = DYDXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class DYDXETH:
     name: str = "DYDXETH"
     precision: int = 8
@@ -13641,7 +15684,10 @@ class DYDXETH:
         return "DYDXETH"
 
 
-@dataclass(slots=True)
+DYDXETH = DYDXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class DYDXUSDT:
     name: str = "DYDXUSDT"
     precision: int = 8
@@ -13661,7 +15707,10 @@ class DYDXUSDT:
         return "DYDXUSDT"
 
 
-@dataclass(slots=True)
+DYDXUSDT = DYDXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EASYBTC:
     name: str = "EASYBTC"
     precision: int = 8
@@ -13681,7 +15730,10 @@ class EASYBTC:
         return "EASYBTC"
 
 
-@dataclass(slots=True)
+EASYBTC = EASYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EASYETH:
     name: str = "EASYETH"
     precision: int = 8
@@ -13701,7 +15753,10 @@ class EASYETH:
         return "EASYETH"
 
 
-@dataclass(slots=True)
+EASYETH = EASYETH()
+
+
+@dataclass(slots=True, frozen=True)
 class EDOBTC:
     name: str = "EDOBTC"
     precision: int = 8
@@ -13721,7 +15776,10 @@ class EDOBTC:
         return "EDOBTC"
 
 
-@dataclass(slots=True)
+EDOBTC = EDOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EDOETH:
     name: str = "EDOETH"
     precision: int = 8
@@ -13741,7 +15799,10 @@ class EDOETH:
         return "EDOETH"
 
 
-@dataclass(slots=True)
+EDOETH = EDOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDBNB:
     name: str = "EGLDBNB"
     precision: int = 8
@@ -13761,7 +15822,10 @@ class EGLDBNB:
         return "EGLDBNB"
 
 
-@dataclass(slots=True)
+EGLDBNB = EGLDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDBTC:
     name: str = "EGLDBTC"
     precision: int = 8
@@ -13781,7 +15845,10 @@ class EGLDBTC:
         return "EGLDBTC"
 
 
-@dataclass(slots=True)
+EGLDBTC = EGLDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDBUSD:
     name: str = "EGLDBUSD"
     precision: int = 8
@@ -13801,7 +15868,10 @@ class EGLDBUSD:
         return "EGLDBUSD"
 
 
-@dataclass(slots=True)
+EGLDBUSD = EGLDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDETH:
     name: str = "EGLDETH"
     precision: int = 8
@@ -13821,7 +15891,10 @@ class EGLDETH:
         return "EGLDETH"
 
 
-@dataclass(slots=True)
+EGLDETH = EGLDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDEUR:
     name: str = "EGLDEUR"
     precision: int = 8
@@ -13841,7 +15914,10 @@ class EGLDEUR:
         return "EGLDEUR"
 
 
-@dataclass(slots=True)
+EGLDEUR = EGLDEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLDUSDT:
     name: str = "EGLDUSDT"
     precision: int = 8
@@ -13861,7 +15937,10 @@ class EGLDUSDT:
         return "EGLDUSDT"
 
 
-@dataclass(slots=True)
+EGLDUSDT = EGLDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ELFBTC:
     name: str = "ELFBTC"
     precision: int = 8
@@ -13881,7 +15960,10 @@ class ELFBTC:
         return "ELFBTC"
 
 
-@dataclass(slots=True)
+ELFBTC = ELFBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ELFBUSD:
     name: str = "ELFBUSD"
     precision: int = 8
@@ -13901,7 +15983,10 @@ class ELFBUSD:
         return "ELFBUSD"
 
 
-@dataclass(slots=True)
+ELFBUSD = ELFBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ELFETH:
     name: str = "ELFETH"
     precision: int = 8
@@ -13921,7 +16006,10 @@ class ELFETH:
         return "ELFETH"
 
 
-@dataclass(slots=True)
+ELFETH = ELFETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ELFUSDT:
     name: str = "ELFUSDT"
     precision: int = 8
@@ -13941,7 +16029,10 @@ class ELFUSDT:
         return "ELFUSDT"
 
 
-@dataclass(slots=True)
+ELFUSDT = ELFUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ENGBTC:
     name: str = "ENGBTC"
     precision: int = 8
@@ -13961,7 +16052,10 @@ class ENGBTC:
         return "ENGBTC"
 
 
-@dataclass(slots=True)
+ENGBTC = ENGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ENGETH:
     name: str = "ENGETH"
     precision: int = 8
@@ -13981,7 +16075,10 @@ class ENGETH:
         return "ENGETH"
 
 
-@dataclass(slots=True)
+ENGETH = ENGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJBNB:
     name: str = "ENJBNB"
     precision: int = 8
@@ -14001,7 +16098,10 @@ class ENJBNB:
         return "ENJBNB"
 
 
-@dataclass(slots=True)
+ENJBNB = ENJBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJBRL:
     name: str = "ENJBRL"
     precision: int = 8
@@ -14021,7 +16121,10 @@ class ENJBRL:
         return "ENJBRL"
 
 
-@dataclass(slots=True)
+ENJBRL = ENJBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJBTC:
     name: str = "ENJBTC"
     precision: int = 8
@@ -14041,7 +16144,10 @@ class ENJBTC:
         return "ENJBTC"
 
 
-@dataclass(slots=True)
+ENJBTC = ENJBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJBUSD:
     name: str = "ENJBUSD"
     precision: int = 8
@@ -14061,7 +16167,10 @@ class ENJBUSD:
         return "ENJBUSD"
 
 
-@dataclass(slots=True)
+ENJBUSD = ENJBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJETH:
     name: str = "ENJETH"
     precision: int = 8
@@ -14081,7 +16190,10 @@ class ENJETH:
         return "ENJETH"
 
 
-@dataclass(slots=True)
+ENJETH = ENJETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJEUR:
     name: str = "ENJEUR"
     precision: int = 8
@@ -14101,7 +16213,10 @@ class ENJEUR:
         return "ENJEUR"
 
 
-@dataclass(slots=True)
+ENJEUR = ENJEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJGBP:
     name: str = "ENJGBP"
     precision: int = 8
@@ -14121,7 +16236,10 @@ class ENJGBP:
         return "ENJGBP"
 
 
-@dataclass(slots=True)
+ENJGBP = ENJGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJTRY:
     name: str = "ENJTRY"
     precision: int = 8
@@ -14141,7 +16259,10 @@ class ENJTRY:
         return "ENJTRY"
 
 
-@dataclass(slots=True)
+ENJTRY = ENJTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJUSDT:
     name: str = "ENJUSDT"
     precision: int = 8
@@ -14161,7 +16282,10 @@ class ENJUSDT:
         return "ENJUSDT"
 
 
-@dataclass(slots=True)
+ENJUSDT = ENJUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ENSBNB:
     name: str = "ENSBNB"
     precision: int = 8
@@ -14181,7 +16305,10 @@ class ENSBNB:
         return "ENSBNB"
 
 
-@dataclass(slots=True)
+ENSBNB = ENSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ENSBTC:
     name: str = "ENSBTC"
     precision: int = 8
@@ -14201,7 +16328,10 @@ class ENSBTC:
         return "ENSBTC"
 
 
-@dataclass(slots=True)
+ENSBTC = ENSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ENSBUSD:
     name: str = "ENSBUSD"
     precision: int = 8
@@ -14221,7 +16351,10 @@ class ENSBUSD:
         return "ENSBUSD"
 
 
-@dataclass(slots=True)
+ENSBUSD = ENSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ENSTRY:
     name: str = "ENSTRY"
     precision: int = 8
@@ -14241,7 +16374,10 @@ class ENSTRY:
         return "ENSTRY"
 
 
-@dataclass(slots=True)
+ENSTRY = ENSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ENSUSDT:
     name: str = "ENSUSDT"
     precision: int = 8
@@ -14261,7 +16397,10 @@ class ENSUSDT:
         return "ENSUSDT"
 
 
-@dataclass(slots=True)
+ENSUSDT = ENSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSAUD:
     name: str = "EOSAUD"
     precision: int = 8
@@ -14281,7 +16420,10 @@ class EOSAUD:
         return "EOSAUD"
 
 
-@dataclass(slots=True)
+EOSAUD = EOSAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBEARBUSD:
     name: str = "EOSBEARBUSD"
     precision: int = 8
@@ -14301,7 +16443,10 @@ class EOSBEARBUSD:
         return "EOSBEARBUSD"
 
 
-@dataclass(slots=True)
+EOSBEARBUSD = EOSBEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBEARUSDT:
     name: str = "EOSBEARUSDT"
     precision: int = 8
@@ -14321,7 +16466,10 @@ class EOSBEARUSDT:
         return "EOSBEARUSDT"
 
 
-@dataclass(slots=True)
+EOSBEARUSDT = EOSBEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBNB:
     name: str = "EOSBNB"
     precision: int = 8
@@ -14341,7 +16489,10 @@ class EOSBNB:
         return "EOSBNB"
 
 
-@dataclass(slots=True)
+EOSBNB = EOSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBTC:
     name: str = "EOSBTC"
     precision: int = 8
@@ -14361,7 +16512,10 @@ class EOSBTC:
         return "EOSBTC"
 
 
-@dataclass(slots=True)
+EOSBTC = EOSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBULLBUSD:
     name: str = "EOSBULLBUSD"
     precision: int = 8
@@ -14381,7 +16535,10 @@ class EOSBULLBUSD:
         return "EOSBULLBUSD"
 
 
-@dataclass(slots=True)
+EOSBULLBUSD = EOSBULLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBULLUSDT:
     name: str = "EOSBULLUSDT"
     precision: int = 8
@@ -14401,7 +16558,10 @@ class EOSBULLUSDT:
         return "EOSBULLUSDT"
 
 
-@dataclass(slots=True)
+EOSBULLUSDT = EOSBULLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSBUSD:
     name: str = "EOSBUSD"
     precision: int = 8
@@ -14421,7 +16581,10 @@ class EOSBUSD:
         return "EOSBUSD"
 
 
-@dataclass(slots=True)
+EOSBUSD = EOSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSDOWNUSDT:
     name: str = "EOSDOWNUSDT"
     precision: int = 8
@@ -14441,7 +16604,10 @@ class EOSDOWNUSDT:
         return "EOSDOWNUSDT"
 
 
-@dataclass(slots=True)
+EOSDOWNUSDT = EOSDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSETH:
     name: str = "EOSETH"
     precision: int = 8
@@ -14461,7 +16627,10 @@ class EOSETH:
         return "EOSETH"
 
 
-@dataclass(slots=True)
+EOSETH = EOSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSEUR:
     name: str = "EOSEUR"
     precision: int = 8
@@ -14481,7 +16650,10 @@ class EOSEUR:
         return "EOSEUR"
 
 
-@dataclass(slots=True)
+EOSEUR = EOSEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSPAX:
     name: str = "EOSPAX"
     precision: int = 8
@@ -14501,7 +16673,10 @@ class EOSPAX:
         return "EOSPAX"
 
 
-@dataclass(slots=True)
+EOSPAX = EOSPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSTRY:
     name: str = "EOSTRY"
     precision: int = 8
@@ -14521,7 +16696,10 @@ class EOSTRY:
         return "EOSTRY"
 
 
-@dataclass(slots=True)
+EOSTRY = EOSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSTUSD:
     name: str = "EOSTUSD"
     precision: int = 8
@@ -14541,7 +16719,10 @@ class EOSTUSD:
         return "EOSTUSD"
 
 
-@dataclass(slots=True)
+EOSTUSD = EOSTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSUPUSDT:
     name: str = "EOSUPUSDT"
     precision: int = 8
@@ -14561,7 +16742,10 @@ class EOSUPUSDT:
         return "EOSUPUSDT"
 
 
-@dataclass(slots=True)
+EOSUPUSDT = EOSUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSUSDC:
     name: str = "EOSUSDC"
     precision: int = 8
@@ -14581,7 +16765,10 @@ class EOSUSDC:
         return "EOSUSDC"
 
 
-@dataclass(slots=True)
+EOSUSDC = EOSUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class EOSUSDT:
     name: str = "EOSUSDT"
     precision: int = 8
@@ -14601,7 +16788,10 @@ class EOSUSDT:
         return "EOSUSDT"
 
 
-@dataclass(slots=True)
+EOSUSDT = EOSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EPSBTC:
     name: str = "EPSBTC"
     precision: int = 8
@@ -14621,7 +16811,10 @@ class EPSBTC:
         return "EPSBTC"
 
 
-@dataclass(slots=True)
+EPSBTC = EPSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EPSBUSD:
     name: str = "EPSBUSD"
     precision: int = 8
@@ -14641,7 +16834,10 @@ class EPSBUSD:
         return "EPSBUSD"
 
 
-@dataclass(slots=True)
+EPSBUSD = EPSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EPSUSDT:
     name: str = "EPSUSDT"
     precision: int = 8
@@ -14661,7 +16857,10 @@ class EPSUSDT:
         return "EPSUSDT"
 
 
-@dataclass(slots=True)
+EPSUSDT = EPSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EPXBUSD:
     name: str = "EPXBUSD"
     precision: int = 8
@@ -14681,7 +16880,10 @@ class EPXBUSD:
         return "EPXBUSD"
 
 
-@dataclass(slots=True)
+EPXBUSD = EPXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EPXUSDT:
     name: str = "EPXUSDT"
     precision: int = 8
@@ -14701,7 +16903,10 @@ class EPXUSDT:
         return "EPXUSDT"
 
 
-@dataclass(slots=True)
+EPXUSDT = EPXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDBNB:
     name: str = "ERDBNB"
     precision: int = 8
@@ -14721,7 +16926,10 @@ class ERDBNB:
         return "ERDBNB"
 
 
-@dataclass(slots=True)
+ERDBNB = ERDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDBTC:
     name: str = "ERDBTC"
     precision: int = 8
@@ -14741,7 +16949,10 @@ class ERDBTC:
         return "ERDBTC"
 
 
-@dataclass(slots=True)
+ERDBTC = ERDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDBUSD:
     name: str = "ERDBUSD"
     precision: int = 8
@@ -14761,7 +16972,10 @@ class ERDBUSD:
         return "ERDBUSD"
 
 
-@dataclass(slots=True)
+ERDBUSD = ERDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDPAX:
     name: str = "ERDPAX"
     precision: int = 8
@@ -14781,7 +16995,10 @@ class ERDPAX:
         return "ERDPAX"
 
 
-@dataclass(slots=True)
+ERDPAX = ERDPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDUSDC:
     name: str = "ERDUSDC"
     precision: int = 8
@@ -14801,7 +17018,10 @@ class ERDUSDC:
         return "ERDUSDC"
 
 
-@dataclass(slots=True)
+ERDUSDC = ERDUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ERDUSDT:
     name: str = "ERDUSDT"
     precision: int = 8
@@ -14821,7 +17041,10 @@ class ERDUSDT:
         return "ERDUSDT"
 
 
-@dataclass(slots=True)
+ERDUSDT = ERDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ERNBNB:
     name: str = "ERNBNB"
     precision: int = 8
@@ -14841,7 +17064,10 @@ class ERNBNB:
         return "ERNBNB"
 
 
-@dataclass(slots=True)
+ERNBNB = ERNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ERNBUSD:
     name: str = "ERNBUSD"
     precision: int = 8
@@ -14861,7 +17087,10 @@ class ERNBUSD:
         return "ERNBUSD"
 
 
-@dataclass(slots=True)
+ERNBUSD = ERNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ERNUSDT:
     name: str = "ERNUSDT"
     precision: int = 8
@@ -14881,7 +17110,10 @@ class ERNUSDT:
         return "ERNUSDT"
 
 
-@dataclass(slots=True)
+ERNUSDT = ERNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCBNB:
     name: str = "ETCBNB"
     precision: int = 8
@@ -14901,7 +17133,10 @@ class ETCBNB:
         return "ETCBNB"
 
 
-@dataclass(slots=True)
+ETCBNB = ETCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCBRL:
     name: str = "ETCBRL"
     precision: int = 8
@@ -14921,7 +17156,10 @@ class ETCBRL:
         return "ETCBRL"
 
 
-@dataclass(slots=True)
+ETCBRL = ETCBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCBTC:
     name: str = "ETCBTC"
     precision: int = 8
@@ -14941,7 +17179,10 @@ class ETCBTC:
         return "ETCBTC"
 
 
-@dataclass(slots=True)
+ETCBTC = ETCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCBUSD:
     name: str = "ETCBUSD"
     precision: int = 8
@@ -14961,7 +17202,10 @@ class ETCBUSD:
         return "ETCBUSD"
 
 
-@dataclass(slots=True)
+ETCBUSD = ETCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCETH:
     name: str = "ETCETH"
     precision: int = 8
@@ -14981,7 +17225,10 @@ class ETCETH:
         return "ETCETH"
 
 
-@dataclass(slots=True)
+ETCETH = ETCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCEUR:
     name: str = "ETCEUR"
     precision: int = 8
@@ -15001,7 +17248,10 @@ class ETCEUR:
         return "ETCEUR"
 
 
-@dataclass(slots=True)
+ETCEUR = ETCEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCGBP:
     name: str = "ETCGBP"
     precision: int = 8
@@ -15021,7 +17271,10 @@ class ETCGBP:
         return "ETCGBP"
 
 
-@dataclass(slots=True)
+ETCGBP = ETCGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCPAX:
     name: str = "ETCPAX"
     precision: int = 8
@@ -15041,7 +17294,10 @@ class ETCPAX:
         return "ETCPAX"
 
 
-@dataclass(slots=True)
+ETCPAX = ETCPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCTRY:
     name: str = "ETCTRY"
     precision: int = 8
@@ -15061,7 +17317,10 @@ class ETCTRY:
         return "ETCTRY"
 
 
-@dataclass(slots=True)
+ETCTRY = ETCTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCTUSD:
     name: str = "ETCTUSD"
     precision: int = 8
@@ -15081,7 +17340,10 @@ class ETCTUSD:
         return "ETCTUSD"
 
 
-@dataclass(slots=True)
+ETCTUSD = ETCTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCUSDC:
     name: str = "ETCUSDC"
     precision: int = 8
@@ -15101,7 +17363,10 @@ class ETCUSDC:
         return "ETCUSDC"
 
 
-@dataclass(slots=True)
+ETCUSDC = ETCUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETCUSDT:
     name: str = "ETCUSDT"
     precision: int = 8
@@ -15121,7 +17386,10 @@ class ETCUSDT:
         return "ETCUSDT"
 
 
-@dataclass(slots=True)
+ETCUSDT = ETCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHAUD:
     name: str = "ETHAUD"
     precision: int = 8
@@ -15141,7 +17409,10 @@ class ETHAUD:
         return "ETHAUD"
 
 
-@dataclass(slots=True)
+ETHAUD = ETHAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBEARBUSD:
     name: str = "ETHBEARBUSD"
     precision: int = 8
@@ -15161,7 +17432,10 @@ class ETHBEARBUSD:
         return "ETHBEARBUSD"
 
 
-@dataclass(slots=True)
+ETHBEARBUSD = ETHBEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBEARUSDT:
     name: str = "ETHBEARUSDT"
     precision: int = 8
@@ -15181,7 +17455,10 @@ class ETHBEARUSDT:
         return "ETHBEARUSDT"
 
 
-@dataclass(slots=True)
+ETHBEARUSDT = ETHBEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBIDR:
     name: str = "ETHBIDR"
     precision: int = 2
@@ -15201,7 +17478,10 @@ class ETHBIDR:
         return "ETHBIDR"
 
 
-@dataclass(slots=True)
+ETHBIDR = ETHBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBKRW:
     name: str = "ETHBKRW"
     precision: int = 8
@@ -15221,7 +17501,10 @@ class ETHBKRW:
         return "ETHBKRW"
 
 
-@dataclass(slots=True)
+ETHBKRW = ETHBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBRL:
     name: str = "ETHBRL"
     precision: int = 8
@@ -15241,7 +17524,10 @@ class ETHBRL:
         return "ETHBRL"
 
 
-@dataclass(slots=True)
+ETHBRL = ETHBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBTC:
     name: str = "ETHBTC"
     precision: int = 8
@@ -15261,7 +17547,10 @@ class ETHBTC:
         return "ETHBTC"
 
 
-@dataclass(slots=True)
+ETHBTC = ETHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBULLBUSD:
     name: str = "ETHBULLBUSD"
     precision: int = 8
@@ -15281,7 +17570,10 @@ class ETHBULLBUSD:
         return "ETHBULLBUSD"
 
 
-@dataclass(slots=True)
+ETHBULLBUSD = ETHBULLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBULLUSDT:
     name: str = "ETHBULLUSDT"
     precision: int = 8
@@ -15301,7 +17593,10 @@ class ETHBULLUSDT:
         return "ETHBULLUSDT"
 
 
-@dataclass(slots=True)
+ETHBULLUSDT = ETHBULLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHBUSD:
     name: str = "ETHBUSD"
     precision: int = 8
@@ -15321,7 +17616,10 @@ class ETHBUSD:
         return "ETHBUSD"
 
 
-@dataclass(slots=True)
+ETHBUSD = ETHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHDAI:
     name: str = "ETHDAI"
     precision: int = 8
@@ -15341,7 +17639,10 @@ class ETHDAI:
         return "ETHDAI"
 
 
-@dataclass(slots=True)
+ETHDAI = ETHDAI()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHDOWNUSDT:
     name: str = "ETHDOWNUSDT"
     precision: int = 8
@@ -15361,7 +17662,10 @@ class ETHDOWNUSDT:
         return "ETHDOWNUSDT"
 
 
-@dataclass(slots=True)
+ETHDOWNUSDT = ETHDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHEUR:
     name: str = "ETHEUR"
     precision: int = 8
@@ -15381,7 +17685,10 @@ class ETHEUR:
         return "ETHEUR"
 
 
-@dataclass(slots=True)
+ETHEUR = ETHEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHGBP:
     name: str = "ETHGBP"
     precision: int = 8
@@ -15401,7 +17708,10 @@ class ETHGBP:
         return "ETHGBP"
 
 
-@dataclass(slots=True)
+ETHGBP = ETHGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHNGN:
     name: str = "ETHNGN"
     precision: int = 8
@@ -15421,7 +17731,10 @@ class ETHNGN:
         return "ETHNGN"
 
 
-@dataclass(slots=True)
+ETHNGN = ETHNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHPAX:
     name: str = "ETHPAX"
     precision: int = 8
@@ -15441,7 +17754,10 @@ class ETHPAX:
         return "ETHPAX"
 
 
-@dataclass(slots=True)
+ETHPAX = ETHPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHPLN:
     name: str = "ETHPLN"
     precision: int = 8
@@ -15461,7 +17777,10 @@ class ETHPLN:
         return "ETHPLN"
 
 
-@dataclass(slots=True)
+ETHPLN = ETHPLN()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHRUB:
     name: str = "ETHRUB"
     precision: int = 8
@@ -15481,7 +17800,10 @@ class ETHRUB:
         return "ETHRUB"
 
 
-@dataclass(slots=True)
+ETHRUB = ETHRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHTRY:
     name: str = "ETHTRY"
     precision: int = 8
@@ -15501,7 +17823,10 @@ class ETHTRY:
         return "ETHTRY"
 
 
-@dataclass(slots=True)
+ETHTRY = ETHTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHTUSD:
     name: str = "ETHTUSD"
     precision: int = 8
@@ -15521,7 +17846,10 @@ class ETHTUSD:
         return "ETHTUSD"
 
 
-@dataclass(slots=True)
+ETHTUSD = ETHTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUAH:
     name: str = "ETHUAH"
     precision: int = 8
@@ -15541,7 +17869,10 @@ class ETHUAH:
         return "ETHUAH"
 
 
-@dataclass(slots=True)
+ETHUAH = ETHUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUPUSDT:
     name: str = "ETHUPUSDT"
     precision: int = 8
@@ -15561,7 +17892,10 @@ class ETHUPUSDT:
         return "ETHUPUSDT"
 
 
-@dataclass(slots=True)
+ETHUPUSDT = ETHUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUSDC:
     name: str = "ETHUSDC"
     precision: int = 8
@@ -15581,7 +17915,10 @@ class ETHUSDC:
         return "ETHUSDC"
 
 
-@dataclass(slots=True)
+ETHUSDC = ETHUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUSDP:
     name: str = "ETHUSDP"
     precision: int = 8
@@ -15601,7 +17938,10 @@ class ETHUSDP:
         return "ETHUSDP"
 
 
-@dataclass(slots=True)
+ETHUSDP = ETHUSDP()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUSDT:
     name: str = "ETHUSDT"
     precision: int = 8
@@ -15621,7 +17961,10 @@ class ETHUSDT:
         return "ETHUSDT"
 
 
-@dataclass(slots=True)
+ETHUSDT = ETHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHUST:
     name: str = "ETHUST"
     precision: int = 8
@@ -15641,7 +17984,10 @@ class ETHUST:
         return "ETHUST"
 
 
-@dataclass(slots=True)
+ETHUST = ETHUST()
+
+
+@dataclass(slots=True, frozen=True)
 class ETHZAR:
     name: str = "ETHZAR"
     precision: int = 8
@@ -15661,7 +18007,10 @@ class ETHZAR:
         return "ETHZAR"
 
 
-@dataclass(slots=True)
+ETHZAR = ETHZAR()
+
+
+@dataclass(slots=True, frozen=True)
 class EURBUSD:
     name: str = "EURBUSD"
     precision: int = 8
@@ -15681,7 +18030,10 @@ class EURBUSD:
         return "EURBUSD"
 
 
-@dataclass(slots=True)
+EURBUSD = EURBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class EURUSDT:
     name: str = "EURUSDT"
     precision: int = 8
@@ -15701,7 +18053,10 @@ class EURUSDT:
         return "EURUSDT"
 
 
-@dataclass(slots=True)
+EURUSDT = EURUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EVXBTC:
     name: str = "EVXBTC"
     precision: int = 8
@@ -15721,7 +18076,10 @@ class EVXBTC:
         return "EVXBTC"
 
 
-@dataclass(slots=True)
+EVXBTC = EVXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EVXETH:
     name: str = "EVXETH"
     precision: int = 8
@@ -15741,7 +18099,10 @@ class EVXETH:
         return "EVXETH"
 
 
-@dataclass(slots=True)
+EVXETH = EVXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class EZBTC:
     name: str = "EZBTC"
     precision: int = 8
@@ -15761,7 +18122,10 @@ class EZBTC:
         return "EZBTC"
 
 
-@dataclass(slots=True)
+EZBTC = EZBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EZETH:
     name: str = "EZETH"
     precision: int = 8
@@ -15781,7 +18145,10 @@ class EZETH:
         return "EZETH"
 
 
-@dataclass(slots=True)
+EZETH = EZETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FARMBNB:
     name: str = "FARMBNB"
     precision: int = 8
@@ -15801,7 +18168,10 @@ class FARMBNB:
         return "FARMBNB"
 
 
-@dataclass(slots=True)
+FARMBNB = FARMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FARMBTC:
     name: str = "FARMBTC"
     precision: int = 8
@@ -15821,7 +18191,10 @@ class FARMBTC:
         return "FARMBTC"
 
 
-@dataclass(slots=True)
+FARMBTC = FARMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FARMBUSD:
     name: str = "FARMBUSD"
     precision: int = 8
@@ -15841,7 +18214,10 @@ class FARMBUSD:
         return "FARMBUSD"
 
 
-@dataclass(slots=True)
+FARMBUSD = FARMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FARMETH:
     name: str = "FARMETH"
     precision: int = 8
@@ -15861,7 +18237,10 @@ class FARMETH:
         return "FARMETH"
 
 
-@dataclass(slots=True)
+FARMETH = FARMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FARMUSDT:
     name: str = "FARMUSDT"
     precision: int = 8
@@ -15881,7 +18260,10 @@ class FARMUSDT:
         return "FARMUSDT"
 
 
-@dataclass(slots=True)
+FARMUSDT = FARMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FETBNB:
     name: str = "FETBNB"
     precision: int = 8
@@ -15901,7 +18283,10 @@ class FETBNB:
         return "FETBNB"
 
 
-@dataclass(slots=True)
+FETBNB = FETBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FETBTC:
     name: str = "FETBTC"
     precision: int = 8
@@ -15921,7 +18306,10 @@ class FETBTC:
         return "FETBTC"
 
 
-@dataclass(slots=True)
+FETBTC = FETBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FETBUSD:
     name: str = "FETBUSD"
     precision: int = 8
@@ -15941,7 +18329,10 @@ class FETBUSD:
         return "FETBUSD"
 
 
-@dataclass(slots=True)
+FETBUSD = FETBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FETUSDT:
     name: str = "FETUSDT"
     precision: int = 8
@@ -15961,7 +18352,10 @@ class FETUSDT:
         return "FETUSDT"
 
 
-@dataclass(slots=True)
+FETUSDT = FETUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDABNB:
     name: str = "FIDABNB"
     precision: int = 8
@@ -15981,7 +18375,10 @@ class FIDABNB:
         return "FIDABNB"
 
 
-@dataclass(slots=True)
+FIDABNB = FIDABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDABTC:
     name: str = "FIDABTC"
     precision: int = 8
@@ -16001,7 +18398,10 @@ class FIDABTC:
         return "FIDABTC"
 
 
-@dataclass(slots=True)
+FIDABTC = FIDABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDABUSD:
     name: str = "FIDABUSD"
     precision: int = 8
@@ -16021,7 +18421,10 @@ class FIDABUSD:
         return "FIDABUSD"
 
 
-@dataclass(slots=True)
+FIDABUSD = FIDABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDAUSDT:
     name: str = "FIDAUSDT"
     precision: int = 8
@@ -16041,7 +18444,10 @@ class FIDAUSDT:
         return "FIDAUSDT"
 
 
-@dataclass(slots=True)
+FIDAUSDT = FIDAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FILBNB:
     name: str = "FILBNB"
     precision: int = 8
@@ -16061,7 +18467,10 @@ class FILBNB:
         return "FILBNB"
 
 
-@dataclass(slots=True)
+FILBNB = FILBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FILBTC:
     name: str = "FILBTC"
     precision: int = 8
@@ -16081,7 +18490,10 @@ class FILBTC:
         return "FILBTC"
 
 
-@dataclass(slots=True)
+FILBTC = FILBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FILBUSD:
     name: str = "FILBUSD"
     precision: int = 8
@@ -16101,7 +18513,10 @@ class FILBUSD:
         return "FILBUSD"
 
 
-@dataclass(slots=True)
+FILBUSD = FILBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FILDOWNUSDT:
     name: str = "FILDOWNUSDT"
     precision: int = 8
@@ -16121,7 +18536,10 @@ class FILDOWNUSDT:
         return "FILDOWNUSDT"
 
 
-@dataclass(slots=True)
+FILDOWNUSDT = FILDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FILETH:
     name: str = "FILETH"
     precision: int = 8
@@ -16141,7 +18559,10 @@ class FILETH:
         return "FILETH"
 
 
-@dataclass(slots=True)
+FILETH = FILETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FILTRY:
     name: str = "FILTRY"
     precision: int = 8
@@ -16161,7 +18582,10 @@ class FILTRY:
         return "FILTRY"
 
 
-@dataclass(slots=True)
+FILTRY = FILTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class FILUPUSDT:
     name: str = "FILUPUSDT"
     precision: int = 8
@@ -16181,7 +18605,10 @@ class FILUPUSDT:
         return "FILUPUSDT"
 
 
-@dataclass(slots=True)
+FILUPUSDT = FILUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FILUSDT:
     name: str = "FILUSDT"
     precision: int = 8
@@ -16201,7 +18628,10 @@ class FILUSDT:
         return "FILUSDT"
 
 
-@dataclass(slots=True)
+FILUSDT = FILUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FIOBNB:
     name: str = "FIOBNB"
     precision: int = 8
@@ -16221,7 +18651,10 @@ class FIOBNB:
         return "FIOBNB"
 
 
-@dataclass(slots=True)
+FIOBNB = FIOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FIOBTC:
     name: str = "FIOBTC"
     precision: int = 8
@@ -16241,7 +18674,10 @@ class FIOBTC:
         return "FIOBTC"
 
 
-@dataclass(slots=True)
+FIOBTC = FIOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FIOBUSD:
     name: str = "FIOBUSD"
     precision: int = 8
@@ -16261,7 +18697,10 @@ class FIOBUSD:
         return "FIOBUSD"
 
 
-@dataclass(slots=True)
+FIOBUSD = FIOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIOUSDT:
     name: str = "FIOUSDT"
     precision: int = 8
@@ -16281,7 +18720,10 @@ class FIOUSDT:
         return "FIOUSDT"
 
 
-@dataclass(slots=True)
+FIOUSDT = FIOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FIROBTC:
     name: str = "FIROBTC"
     precision: int = 8
@@ -16301,7 +18743,10 @@ class FIROBTC:
         return "FIROBTC"
 
 
-@dataclass(slots=True)
+FIROBTC = FIROBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FIROBUSD:
     name: str = "FIROBUSD"
     precision: int = 8
@@ -16321,7 +18766,10 @@ class FIROBUSD:
         return "FIROBUSD"
 
 
-@dataclass(slots=True)
+FIROBUSD = FIROBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIROETH:
     name: str = "FIROETH"
     precision: int = 8
@@ -16341,7 +18789,10 @@ class FIROETH:
         return "FIROETH"
 
 
-@dataclass(slots=True)
+FIROETH = FIROETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FIROUSDT:
     name: str = "FIROUSDT"
     precision: int = 8
@@ -16361,7 +18812,10 @@ class FIROUSDT:
         return "FIROUSDT"
 
 
-@dataclass(slots=True)
+FIROUSDT = FIROUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FISBIDR:
     name: str = "FISBIDR"
     precision: int = 2
@@ -16381,7 +18835,10 @@ class FISBIDR:
         return "FISBIDR"
 
 
-@dataclass(slots=True)
+FISBIDR = FISBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class FISBRL:
     name: str = "FISBRL"
     precision: int = 8
@@ -16401,7 +18858,10 @@ class FISBRL:
         return "FISBRL"
 
 
-@dataclass(slots=True)
+FISBRL = FISBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class FISBTC:
     name: str = "FISBTC"
     precision: int = 8
@@ -16421,7 +18881,10 @@ class FISBTC:
         return "FISBTC"
 
 
-@dataclass(slots=True)
+FISBTC = FISBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FISBUSD:
     name: str = "FISBUSD"
     precision: int = 8
@@ -16441,7 +18904,10 @@ class FISBUSD:
         return "FISBUSD"
 
 
-@dataclass(slots=True)
+FISBUSD = FISBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FISTRY:
     name: str = "FISTRY"
     precision: int = 8
@@ -16461,7 +18927,10 @@ class FISTRY:
         return "FISTRY"
 
 
-@dataclass(slots=True)
+FISTRY = FISTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class FISUSDT:
     name: str = "FISUSDT"
     precision: int = 8
@@ -16481,7 +18950,10 @@ class FISUSDT:
         return "FISUSDT"
 
 
-@dataclass(slots=True)
+FISUSDT = FISUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FLMBNB:
     name: str = "FLMBNB"
     precision: int = 8
@@ -16501,7 +18973,10 @@ class FLMBNB:
         return "FLMBNB"
 
 
-@dataclass(slots=True)
+FLMBNB = FLMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FLMBTC:
     name: str = "FLMBTC"
     precision: int = 8
@@ -16521,7 +18996,10 @@ class FLMBTC:
         return "FLMBTC"
 
 
-@dataclass(slots=True)
+FLMBTC = FLMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FLMBUSD:
     name: str = "FLMBUSD"
     precision: int = 8
@@ -16541,7 +19019,10 @@ class FLMBUSD:
         return "FLMBUSD"
 
 
-@dataclass(slots=True)
+FLMBUSD = FLMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FLMUSDT:
     name: str = "FLMUSDT"
     precision: int = 8
@@ -16561,7 +19042,10 @@ class FLMUSDT:
         return "FLMUSDT"
 
 
-@dataclass(slots=True)
+FLMUSDT = FLMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOWBNB:
     name: str = "FLOWBNB"
     precision: int = 8
@@ -16581,7 +19065,10 @@ class FLOWBNB:
         return "FLOWBNB"
 
 
-@dataclass(slots=True)
+FLOWBNB = FLOWBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOWBTC:
     name: str = "FLOWBTC"
     precision: int = 8
@@ -16601,7 +19088,10 @@ class FLOWBTC:
         return "FLOWBTC"
 
 
-@dataclass(slots=True)
+FLOWBTC = FLOWBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOWBUSD:
     name: str = "FLOWBUSD"
     precision: int = 8
@@ -16621,7 +19111,10 @@ class FLOWBUSD:
         return "FLOWBUSD"
 
 
-@dataclass(slots=True)
+FLOWBUSD = FLOWBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOWUSDT:
     name: str = "FLOWUSDT"
     precision: int = 8
@@ -16641,7 +19134,10 @@ class FLOWUSDT:
         return "FLOWUSDT"
 
 
-@dataclass(slots=True)
+FLOWUSDT = FLOWUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FLUXBTC:
     name: str = "FLUXBTC"
     precision: int = 8
@@ -16661,7 +19157,10 @@ class FLUXBTC:
         return "FLUXBTC"
 
 
-@dataclass(slots=True)
+FLUXBTC = FLUXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FLUXBUSD:
     name: str = "FLUXBUSD"
     precision: int = 8
@@ -16681,7 +19180,10 @@ class FLUXBUSD:
         return "FLUXBUSD"
 
 
-@dataclass(slots=True)
+FLUXBUSD = FLUXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FLUXUSDT:
     name: str = "FLUXUSDT"
     precision: int = 8
@@ -16701,7 +19203,10 @@ class FLUXUSDT:
         return "FLUXUSDT"
 
 
-@dataclass(slots=True)
+FLUXUSDT = FLUXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FORBNB:
     name: str = "FORBNB"
     precision: int = 8
@@ -16721,7 +19226,10 @@ class FORBNB:
         return "FORBNB"
 
 
-@dataclass(slots=True)
+FORBNB = FORBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FORBTC:
     name: str = "FORBTC"
     precision: int = 8
@@ -16741,7 +19249,10 @@ class FORBTC:
         return "FORBTC"
 
 
-@dataclass(slots=True)
+FORBTC = FORBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FORBUSD:
     name: str = "FORBUSD"
     precision: int = 8
@@ -16761,7 +19272,10 @@ class FORBUSD:
         return "FORBUSD"
 
 
-@dataclass(slots=True)
+FORBUSD = FORBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTHBTC:
     name: str = "FORTHBTC"
     precision: int = 8
@@ -16781,7 +19295,10 @@ class FORTHBTC:
         return "FORTHBTC"
 
 
-@dataclass(slots=True)
+FORTHBTC = FORTHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTHBUSD:
     name: str = "FORTHBUSD"
     precision: int = 8
@@ -16801,7 +19318,10 @@ class FORTHBUSD:
         return "FORTHBUSD"
 
 
-@dataclass(slots=True)
+FORTHBUSD = FORTHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTHUSDT:
     name: str = "FORTHUSDT"
     precision: int = 8
@@ -16821,7 +19341,10 @@ class FORTHUSDT:
         return "FORTHUSDT"
 
 
-@dataclass(slots=True)
+FORTHUSDT = FORTHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FORUSDT:
     name: str = "FORUSDT"
     precision: int = 8
@@ -16841,7 +19364,10 @@ class FORUSDT:
         return "FORUSDT"
 
 
-@dataclass(slots=True)
+FORUSDT = FORUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FRONTBTC:
     name: str = "FRONTBTC"
     precision: int = 8
@@ -16861,7 +19387,10 @@ class FRONTBTC:
         return "FRONTBTC"
 
 
-@dataclass(slots=True)
+FRONTBTC = FRONTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FRONTBUSD:
     name: str = "FRONTBUSD"
     precision: int = 8
@@ -16881,7 +19410,10 @@ class FRONTBUSD:
         return "FRONTBUSD"
 
 
-@dataclass(slots=True)
+FRONTBUSD = FRONTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FRONTETH:
     name: str = "FRONTETH"
     precision: int = 8
@@ -16901,7 +19433,10 @@ class FRONTETH:
         return "FRONTETH"
 
 
-@dataclass(slots=True)
+FRONTETH = FRONTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FRONTUSDT:
     name: str = "FRONTUSDT"
     precision: int = 8
@@ -16921,7 +19456,10 @@ class FRONTUSDT:
         return "FRONTUSDT"
 
 
-@dataclass(slots=True)
+FRONTUSDT = FRONTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMAUD:
     name: str = "FTMAUD"
     precision: int = 8
@@ -16941,7 +19479,10 @@ class FTMAUD:
         return "FTMAUD"
 
 
-@dataclass(slots=True)
+FTMAUD = FTMAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMBIDR:
     name: str = "FTMBIDR"
     precision: int = 2
@@ -16961,7 +19502,10 @@ class FTMBIDR:
         return "FTMBIDR"
 
 
-@dataclass(slots=True)
+FTMBIDR = FTMBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMBNB:
     name: str = "FTMBNB"
     precision: int = 8
@@ -16981,7 +19525,10 @@ class FTMBNB:
         return "FTMBNB"
 
 
-@dataclass(slots=True)
+FTMBNB = FTMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMBRL:
     name: str = "FTMBRL"
     precision: int = 8
@@ -17001,7 +19548,10 @@ class FTMBRL:
         return "FTMBRL"
 
 
-@dataclass(slots=True)
+FTMBRL = FTMBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMBTC:
     name: str = "FTMBTC"
     precision: int = 8
@@ -17021,7 +19571,10 @@ class FTMBTC:
         return "FTMBTC"
 
 
-@dataclass(slots=True)
+FTMBTC = FTMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMBUSD:
     name: str = "FTMBUSD"
     precision: int = 8
@@ -17041,7 +19594,10 @@ class FTMBUSD:
         return "FTMBUSD"
 
 
-@dataclass(slots=True)
+FTMBUSD = FTMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMETH:
     name: str = "FTMETH"
     precision: int = 8
@@ -17061,7 +19617,10 @@ class FTMETH:
         return "FTMETH"
 
 
-@dataclass(slots=True)
+FTMETH = FTMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMEUR:
     name: str = "FTMEUR"
     precision: int = 8
@@ -17081,7 +19640,10 @@ class FTMEUR:
         return "FTMEUR"
 
 
-@dataclass(slots=True)
+FTMEUR = FTMEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMPAX:
     name: str = "FTMPAX"
     precision: int = 8
@@ -17101,7 +19663,10 @@ class FTMPAX:
         return "FTMPAX"
 
 
-@dataclass(slots=True)
+FTMPAX = FTMPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMRUB:
     name: str = "FTMRUB"
     precision: int = 8
@@ -17121,7 +19686,10 @@ class FTMRUB:
         return "FTMRUB"
 
 
-@dataclass(slots=True)
+FTMRUB = FTMRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMTRY:
     name: str = "FTMTRY"
     precision: int = 8
@@ -17141,7 +19709,10 @@ class FTMTRY:
         return "FTMTRY"
 
 
-@dataclass(slots=True)
+FTMTRY = FTMTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMTUSD:
     name: str = "FTMTUSD"
     precision: int = 8
@@ -17161,7 +19732,10 @@ class FTMTUSD:
         return "FTMTUSD"
 
 
-@dataclass(slots=True)
+FTMTUSD = FTMTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMUSDC:
     name: str = "FTMUSDC"
     precision: int = 8
@@ -17181,7 +19755,10 @@ class FTMUSDC:
         return "FTMUSDC"
 
 
-@dataclass(slots=True)
+FTMUSDC = FTMUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class FTMUSDT:
     name: str = "FTMUSDT"
     precision: int = 8
@@ -17201,7 +19778,10 @@ class FTMUSDT:
         return "FTMUSDT"
 
 
-@dataclass(slots=True)
+FTMUSDT = FTMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FTTBNB:
     name: str = "FTTBNB"
     precision: int = 8
@@ -17221,7 +19801,10 @@ class FTTBNB:
         return "FTTBNB"
 
 
-@dataclass(slots=True)
+FTTBNB = FTTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FTTBTC:
     name: str = "FTTBTC"
     precision: int = 8
@@ -17241,7 +19824,10 @@ class FTTBTC:
         return "FTTBTC"
 
 
-@dataclass(slots=True)
+FTTBTC = FTTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FTTBUSD:
     name: str = "FTTBUSD"
     precision: int = 8
@@ -17261,7 +19847,10 @@ class FTTBUSD:
         return "FTTBUSD"
 
 
-@dataclass(slots=True)
+FTTBUSD = FTTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FTTETH:
     name: str = "FTTETH"
     precision: int = 8
@@ -17281,7 +19870,10 @@ class FTTETH:
         return "FTTETH"
 
 
-@dataclass(slots=True)
+FTTETH = FTTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FTTUSDT:
     name: str = "FTTUSDT"
     precision: int = 8
@@ -17301,7 +19893,10 @@ class FTTUSDT:
         return "FTTUSDT"
 
 
-@dataclass(slots=True)
+FTTUSDT = FTTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FUELBTC:
     name: str = "FUELBTC"
     precision: int = 8
@@ -17321,7 +19916,10 @@ class FUELBTC:
         return "FUELBTC"
 
 
-@dataclass(slots=True)
+FUELBTC = FUELBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FUELETH:
     name: str = "FUELETH"
     precision: int = 8
@@ -17341,7 +19939,10 @@ class FUELETH:
         return "FUELETH"
 
 
-@dataclass(slots=True)
+FUELETH = FUELETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FUNBNB:
     name: str = "FUNBNB"
     precision: int = 8
@@ -17361,7 +19962,10 @@ class FUNBNB:
         return "FUNBNB"
 
 
-@dataclass(slots=True)
+FUNBNB = FUNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class FUNBTC:
     name: str = "FUNBTC"
     precision: int = 8
@@ -17381,7 +19985,10 @@ class FUNBTC:
         return "FUNBTC"
 
 
-@dataclass(slots=True)
+FUNBTC = FUNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FUNETH:
     name: str = "FUNETH"
     precision: int = 8
@@ -17401,7 +20008,10 @@ class FUNETH:
         return "FUNETH"
 
 
-@dataclass(slots=True)
+FUNETH = FUNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class FUNUSDT:
     name: str = "FUNUSDT"
     precision: int = 8
@@ -17421,7 +20031,10 @@ class FUNUSDT:
         return "FUNUSDT"
 
 
-@dataclass(slots=True)
+FUNUSDT = FUNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FXSBTC:
     name: str = "FXSBTC"
     precision: int = 8
@@ -17441,7 +20054,10 @@ class FXSBTC:
         return "FXSBTC"
 
 
-@dataclass(slots=True)
+FXSBTC = FXSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FXSBUSD:
     name: str = "FXSBUSD"
     precision: int = 8
@@ -17461,7 +20077,10 @@ class FXSBUSD:
         return "FXSBUSD"
 
 
-@dataclass(slots=True)
+FXSBUSD = FXSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class FXSUSDT:
     name: str = "FXSUSDT"
     precision: int = 8
@@ -17481,7 +20100,10 @@ class FXSUSDT:
         return "FXSUSDT"
 
 
-@dataclass(slots=True)
+FXSUSDT = FXSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GALAAUD:
     name: str = "GALAAUD"
     precision: int = 8
@@ -17501,7 +20123,10 @@ class GALAAUD:
         return "GALAAUD"
 
 
-@dataclass(slots=True)
+GALAAUD = GALAAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class GALABNB:
     name: str = "GALABNB"
     precision: int = 8
@@ -17521,7 +20146,10 @@ class GALABNB:
         return "GALABNB"
 
 
-@dataclass(slots=True)
+GALABNB = GALABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GALABRL:
     name: str = "GALABRL"
     precision: int = 8
@@ -17541,7 +20169,10 @@ class GALABRL:
         return "GALABRL"
 
 
-@dataclass(slots=True)
+GALABRL = GALABRL()
+
+
+@dataclass(slots=True, frozen=True)
 class GALABTC:
     name: str = "GALABTC"
     precision: int = 8
@@ -17561,7 +20192,10 @@ class GALABTC:
         return "GALABTC"
 
 
-@dataclass(slots=True)
+GALABTC = GALABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GALABUSD:
     name: str = "GALABUSD"
     precision: int = 8
@@ -17581,7 +20215,10 @@ class GALABUSD:
         return "GALABUSD"
 
 
-@dataclass(slots=True)
+GALABUSD = GALABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GALAETH:
     name: str = "GALAETH"
     precision: int = 8
@@ -17601,7 +20238,10 @@ class GALAETH:
         return "GALAETH"
 
 
-@dataclass(slots=True)
+GALAETH = GALAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GALAEUR:
     name: str = "GALAEUR"
     precision: int = 8
@@ -17621,7 +20261,10 @@ class GALAEUR:
         return "GALAEUR"
 
 
-@dataclass(slots=True)
+GALAEUR = GALAEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GALATRY:
     name: str = "GALATRY"
     precision: int = 8
@@ -17641,7 +20284,10 @@ class GALATRY:
         return "GALATRY"
 
 
-@dataclass(slots=True)
+GALATRY = GALATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class GALAUSDT:
     name: str = "GALAUSDT"
     precision: int = 8
@@ -17661,7 +20307,10 @@ class GALAUSDT:
         return "GALAUSDT"
 
 
-@dataclass(slots=True)
+GALAUSDT = GALAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GALBNB:
     name: str = "GALBNB"
     precision: int = 8
@@ -17681,7 +20330,10 @@ class GALBNB:
         return "GALBNB"
 
 
-@dataclass(slots=True)
+GALBNB = GALBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GALBRL:
     name: str = "GALBRL"
     precision: int = 8
@@ -17701,7 +20353,10 @@ class GALBRL:
         return "GALBRL"
 
 
-@dataclass(slots=True)
+GALBRL = GALBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class GALBTC:
     name: str = "GALBTC"
     precision: int = 8
@@ -17721,7 +20376,10 @@ class GALBTC:
         return "GALBTC"
 
 
-@dataclass(slots=True)
+GALBTC = GALBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GALBUSD:
     name: str = "GALBUSD"
     precision: int = 8
@@ -17741,7 +20399,10 @@ class GALBUSD:
         return "GALBUSD"
 
 
-@dataclass(slots=True)
+GALBUSD = GALBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GALETH:
     name: str = "GALETH"
     precision: int = 8
@@ -17761,7 +20422,10 @@ class GALETH:
         return "GALETH"
 
 
-@dataclass(slots=True)
+GALETH = GALETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GALEUR:
     name: str = "GALEUR"
     precision: int = 8
@@ -17781,7 +20445,10 @@ class GALEUR:
         return "GALEUR"
 
 
-@dataclass(slots=True)
+GALEUR = GALEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GALTRY:
     name: str = "GALTRY"
     precision: int = 8
@@ -17801,7 +20468,10 @@ class GALTRY:
         return "GALTRY"
 
 
-@dataclass(slots=True)
+GALTRY = GALTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class GALUSDT:
     name: str = "GALUSDT"
     precision: int = 8
@@ -17821,7 +20491,10 @@ class GALUSDT:
         return "GALUSDT"
 
 
-@dataclass(slots=True)
+GALUSDT = GALUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GASBTC:
     name: str = "GASBTC"
     precision: int = 8
@@ -17841,7 +20514,10 @@ class GASBTC:
         return "GASBTC"
 
 
-@dataclass(slots=True)
+GASBTC = GASBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GASBUSD:
     name: str = "GASBUSD"
     precision: int = 8
@@ -17861,7 +20537,10 @@ class GASBUSD:
         return "GASBUSD"
 
 
-@dataclass(slots=True)
+GASBUSD = GASBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GBPBUSD:
     name: str = "GBPBUSD"
     precision: int = 8
@@ -17881,7 +20560,10 @@ class GBPBUSD:
         return "GBPBUSD"
 
 
-@dataclass(slots=True)
+GBPBUSD = GBPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GBPUSDT:
     name: str = "GBPUSDT"
     precision: int = 8
@@ -17901,7 +20583,10 @@ class GBPUSDT:
         return "GBPUSDT"
 
 
-@dataclass(slots=True)
+GBPUSDT = GBPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GHSTBUSD:
     name: str = "GHSTBUSD"
     precision: int = 8
@@ -17921,7 +20606,10 @@ class GHSTBUSD:
         return "GHSTBUSD"
 
 
-@dataclass(slots=True)
+GHSTBUSD = GHSTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GHSTETH:
     name: str = "GHSTETH"
     precision: int = 8
@@ -17941,7 +20629,10 @@ class GHSTETH:
         return "GHSTETH"
 
 
-@dataclass(slots=True)
+GHSTETH = GHSTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GHSTUSDT:
     name: str = "GHSTUSDT"
     precision: int = 8
@@ -17961,7 +20652,10 @@ class GHSTUSDT:
         return "GHSTUSDT"
 
 
-@dataclass(slots=True)
+GHSTUSDT = GHSTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMBTC:
     name: str = "GLMBTC"
     precision: int = 8
@@ -17981,7 +20675,10 @@ class GLMBTC:
         return "GLMBTC"
 
 
-@dataclass(slots=True)
+GLMBTC = GLMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMBUSD:
     name: str = "GLMBUSD"
     precision: int = 8
@@ -18001,7 +20698,10 @@ class GLMBUSD:
         return "GLMBUSD"
 
 
-@dataclass(slots=True)
+GLMBUSD = GLMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMETH:
     name: str = "GLMETH"
     precision: int = 8
@@ -18021,7 +20721,10 @@ class GLMETH:
         return "GLMETH"
 
 
-@dataclass(slots=True)
+GLMETH = GLMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMRBNB:
     name: str = "GLMRBNB"
     precision: int = 8
@@ -18041,7 +20744,10 @@ class GLMRBNB:
         return "GLMRBNB"
 
 
-@dataclass(slots=True)
+GLMRBNB = GLMRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMRBTC:
     name: str = "GLMRBTC"
     precision: int = 8
@@ -18061,7 +20767,10 @@ class GLMRBTC:
         return "GLMRBTC"
 
 
-@dataclass(slots=True)
+GLMRBTC = GLMRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMRBUSD:
     name: str = "GLMRBUSD"
     precision: int = 8
@@ -18081,7 +20790,10 @@ class GLMRBUSD:
         return "GLMRBUSD"
 
 
-@dataclass(slots=True)
+GLMRBUSD = GLMRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GLMRUSDT:
     name: str = "GLMRUSDT"
     precision: int = 8
@@ -18101,7 +20813,10 @@ class GLMRUSDT:
         return "GLMRUSDT"
 
 
-@dataclass(slots=True)
+GLMRUSDT = GLMRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTAUD:
     name: str = "GMTAUD"
     precision: int = 8
@@ -18121,7 +20836,10 @@ class GMTAUD:
         return "GMTAUD"
 
 
-@dataclass(slots=True)
+GMTAUD = GMTAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTBNB:
     name: str = "GMTBNB"
     precision: int = 8
@@ -18141,7 +20859,10 @@ class GMTBNB:
         return "GMTBNB"
 
 
-@dataclass(slots=True)
+GMTBNB = GMTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTBRL:
     name: str = "GMTBRL"
     precision: int = 8
@@ -18161,7 +20882,10 @@ class GMTBRL:
         return "GMTBRL"
 
 
-@dataclass(slots=True)
+GMTBRL = GMTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTBTC:
     name: str = "GMTBTC"
     precision: int = 8
@@ -18181,7 +20905,10 @@ class GMTBTC:
         return "GMTBTC"
 
 
-@dataclass(slots=True)
+GMTBTC = GMTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTBUSD:
     name: str = "GMTBUSD"
     precision: int = 8
@@ -18201,7 +20928,10 @@ class GMTBUSD:
         return "GMTBUSD"
 
 
-@dataclass(slots=True)
+GMTBUSD = GMTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTETH:
     name: str = "GMTETH"
     precision: int = 8
@@ -18221,7 +20951,10 @@ class GMTETH:
         return "GMTETH"
 
 
-@dataclass(slots=True)
+GMTETH = GMTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTEUR:
     name: str = "GMTEUR"
     precision: int = 8
@@ -18241,7 +20974,10 @@ class GMTEUR:
         return "GMTEUR"
 
 
-@dataclass(slots=True)
+GMTEUR = GMTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTGBP:
     name: str = "GMTGBP"
     precision: int = 8
@@ -18261,7 +20997,10 @@ class GMTGBP:
         return "GMTGBP"
 
 
-@dataclass(slots=True)
+GMTGBP = GMTGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTTRY:
     name: str = "GMTTRY"
     precision: int = 8
@@ -18281,7 +21020,10 @@ class GMTTRY:
         return "GMTTRY"
 
 
-@dataclass(slots=True)
+GMTTRY = GMTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class GMTUSDT:
     name: str = "GMTUSDT"
     precision: int = 8
@@ -18301,7 +21043,10 @@ class GMTUSDT:
         return "GMTUSDT"
 
 
-@dataclass(slots=True)
+GMTUSDT = GMTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GMXBTC:
     name: str = "GMXBTC"
     precision: int = 8
@@ -18321,7 +21066,10 @@ class GMXBTC:
         return "GMXBTC"
 
 
-@dataclass(slots=True)
+GMXBTC = GMXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GMXBUSD:
     name: str = "GMXBUSD"
     precision: int = 8
@@ -18341,7 +21089,10 @@ class GMXBUSD:
         return "GMXBUSD"
 
 
-@dataclass(slots=True)
+GMXBUSD = GMXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GMXUSDT:
     name: str = "GMXUSDT"
     precision: int = 8
@@ -18361,7 +21112,10 @@ class GMXUSDT:
         return "GMXUSDT"
 
 
-@dataclass(slots=True)
+GMXUSDT = GMXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GNOBNB:
     name: str = "GNOBNB"
     precision: int = 8
@@ -18381,7 +21135,10 @@ class GNOBNB:
         return "GNOBNB"
 
 
-@dataclass(slots=True)
+GNOBNB = GNOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GNOBTC:
     name: str = "GNOBTC"
     precision: int = 8
@@ -18401,7 +21158,10 @@ class GNOBTC:
         return "GNOBTC"
 
 
-@dataclass(slots=True)
+GNOBTC = GNOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GNOBUSD:
     name: str = "GNOBUSD"
     precision: int = 8
@@ -18421,7 +21181,10 @@ class GNOBUSD:
         return "GNOBUSD"
 
 
-@dataclass(slots=True)
+GNOBUSD = GNOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GNOUSDT:
     name: str = "GNOUSDT"
     precision: int = 8
@@ -18441,7 +21204,10 @@ class GNOUSDT:
         return "GNOUSDT"
 
 
-@dataclass(slots=True)
+GNOUSDT = GNOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GNTBNB:
     name: str = "GNTBNB"
     precision: int = 8
@@ -18461,7 +21227,10 @@ class GNTBNB:
         return "GNTBNB"
 
 
-@dataclass(slots=True)
+GNTBNB = GNTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GNTBTC:
     name: str = "GNTBTC"
     precision: int = 8
@@ -18481,7 +21250,10 @@ class GNTBTC:
         return "GNTBTC"
 
 
-@dataclass(slots=True)
+GNTBTC = GNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GNTETH:
     name: str = "GNTETH"
     precision: int = 8
@@ -18501,7 +21273,10 @@ class GNTETH:
         return "GNTETH"
 
 
-@dataclass(slots=True)
+GNTETH = GNTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GOBNB:
     name: str = "GOBNB"
     precision: int = 8
@@ -18521,7 +21296,10 @@ class GOBNB:
         return "GOBNB"
 
 
-@dataclass(slots=True)
+GOBNB = GOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GOBTC:
     name: str = "GOBTC"
     precision: int = 8
@@ -18541,7 +21319,10 @@ class GOBTC:
         return "GOBTC"
 
 
-@dataclass(slots=True)
+GOBTC = GOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GRSBTC:
     name: str = "GRSBTC"
     precision: int = 8
@@ -18561,7 +21342,10 @@ class GRSBTC:
         return "GRSBTC"
 
 
-@dataclass(slots=True)
+GRSBTC = GRSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GRSETH:
     name: str = "GRSETH"
     precision: int = 8
@@ -18581,7 +21365,10 @@ class GRSETH:
         return "GRSETH"
 
 
-@dataclass(slots=True)
+GRSETH = GRSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTBTC:
     name: str = "GRTBTC"
     precision: int = 8
@@ -18601,7 +21388,10 @@ class GRTBTC:
         return "GRTBTC"
 
 
-@dataclass(slots=True)
+GRTBTC = GRTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTBUSD:
     name: str = "GRTBUSD"
     precision: int = 8
@@ -18621,7 +21411,10 @@ class GRTBUSD:
         return "GRTBUSD"
 
 
-@dataclass(slots=True)
+GRTBUSD = GRTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTETH:
     name: str = "GRTETH"
     precision: int = 8
@@ -18641,7 +21434,10 @@ class GRTETH:
         return "GRTETH"
 
 
-@dataclass(slots=True)
+GRTETH = GRTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTEUR:
     name: str = "GRTEUR"
     precision: int = 8
@@ -18661,7 +21457,10 @@ class GRTEUR:
         return "GRTEUR"
 
 
-@dataclass(slots=True)
+GRTEUR = GRTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTTRY:
     name: str = "GRTTRY"
     precision: int = 8
@@ -18681,7 +21480,10 @@ class GRTTRY:
         return "GRTTRY"
 
 
-@dataclass(slots=True)
+GRTTRY = GRTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class GRTUSDT:
     name: str = "GRTUSDT"
     precision: int = 8
@@ -18701,7 +21503,10 @@ class GRTUSDT:
         return "GRTUSDT"
 
 
-@dataclass(slots=True)
+GRTUSDT = GRTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GTCBNB:
     name: str = "GTCBNB"
     precision: int = 8
@@ -18721,7 +21526,10 @@ class GTCBNB:
         return "GTCBNB"
 
 
-@dataclass(slots=True)
+GTCBNB = GTCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GTCBTC:
     name: str = "GTCBTC"
     precision: int = 8
@@ -18741,7 +21549,10 @@ class GTCBTC:
         return "GTCBTC"
 
 
-@dataclass(slots=True)
+GTCBTC = GTCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GTCBUSD:
     name: str = "GTCBUSD"
     precision: int = 8
@@ -18761,7 +21572,10 @@ class GTCBUSD:
         return "GTCBUSD"
 
 
-@dataclass(slots=True)
+GTCBUSD = GTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GTCUSDT:
     name: str = "GTCUSDT"
     precision: int = 8
@@ -18781,7 +21595,10 @@ class GTCUSDT:
         return "GTCUSDT"
 
 
-@dataclass(slots=True)
+GTCUSDT = GTCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOBNB:
     name: str = "GTOBNB"
     precision: int = 8
@@ -18801,7 +21618,10 @@ class GTOBNB:
         return "GTOBNB"
 
 
-@dataclass(slots=True)
+GTOBNB = GTOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOBTC:
     name: str = "GTOBTC"
     precision: int = 8
@@ -18821,7 +21641,10 @@ class GTOBTC:
         return "GTOBTC"
 
 
-@dataclass(slots=True)
+GTOBTC = GTOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOBUSD:
     name: str = "GTOBUSD"
     precision: int = 8
@@ -18841,7 +21664,10 @@ class GTOBUSD:
         return "GTOBUSD"
 
 
-@dataclass(slots=True)
+GTOBUSD = GTOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOETH:
     name: str = "GTOETH"
     precision: int = 8
@@ -18861,7 +21687,10 @@ class GTOETH:
         return "GTOETH"
 
 
-@dataclass(slots=True)
+GTOETH = GTOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOPAX:
     name: str = "GTOPAX"
     precision: int = 8
@@ -18881,7 +21710,10 @@ class GTOPAX:
         return "GTOPAX"
 
 
-@dataclass(slots=True)
+GTOPAX = GTOPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOTUSD:
     name: str = "GTOTUSD"
     precision: int = 8
@@ -18901,7 +21733,10 @@ class GTOTUSD:
         return "GTOTUSD"
 
 
-@dataclass(slots=True)
+GTOTUSD = GTOTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOUSDC:
     name: str = "GTOUSDC"
     precision: int = 8
@@ -18921,7 +21756,10 @@ class GTOUSDC:
         return "GTOUSDC"
 
 
-@dataclass(slots=True)
+GTOUSDC = GTOUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class GTOUSDT:
     name: str = "GTOUSDT"
     precision: int = 8
@@ -18941,7 +21779,10 @@ class GTOUSDT:
         return "GTOUSDT"
 
 
-@dataclass(slots=True)
+GTOUSDT = GTOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GVTBTC:
     name: str = "GVTBTC"
     precision: int = 8
@@ -18961,7 +21802,10 @@ class GVTBTC:
         return "GVTBTC"
 
 
-@dataclass(slots=True)
+GVTBTC = GVTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GVTETH:
     name: str = "GVTETH"
     precision: int = 8
@@ -18981,7 +21825,10 @@ class GVTETH:
         return "GVTETH"
 
 
-@dataclass(slots=True)
+GVTETH = GVTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GXSBNB:
     name: str = "GXSBNB"
     precision: int = 8
@@ -19001,7 +21848,10 @@ class GXSBNB:
         return "GXSBNB"
 
 
-@dataclass(slots=True)
+GXSBNB = GXSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class GXSBTC:
     name: str = "GXSBTC"
     precision: int = 8
@@ -19021,7 +21871,10 @@ class GXSBTC:
         return "GXSBTC"
 
 
-@dataclass(slots=True)
+GXSBTC = GXSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GXSETH:
     name: str = "GXSETH"
     precision: int = 8
@@ -19041,7 +21894,10 @@ class GXSETH:
         return "GXSETH"
 
 
-@dataclass(slots=True)
+GXSETH = GXSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class GXSUSDT:
     name: str = "GXSUSDT"
     precision: int = 8
@@ -19061,7 +21917,10 @@ class GXSUSDT:
         return "GXSUSDT"
 
 
-@dataclass(slots=True)
+GXSUSDT = GXSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HARDBNB:
     name: str = "HARDBNB"
     precision: int = 8
@@ -19081,7 +21940,10 @@ class HARDBNB:
         return "HARDBNB"
 
 
-@dataclass(slots=True)
+HARDBNB = HARDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HARDBTC:
     name: str = "HARDBTC"
     precision: int = 8
@@ -19101,7 +21963,10 @@ class HARDBTC:
         return "HARDBTC"
 
 
-@dataclass(slots=True)
+HARDBTC = HARDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HARDBUSD:
     name: str = "HARDBUSD"
     precision: int = 8
@@ -19121,7 +21986,10 @@ class HARDBUSD:
         return "HARDBUSD"
 
 
-@dataclass(slots=True)
+HARDBUSD = HARDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HARDUSDT:
     name: str = "HARDUSDT"
     precision: int = 8
@@ -19141,7 +22009,10 @@ class HARDUSDT:
         return "HARDUSDT"
 
 
-@dataclass(slots=True)
+HARDUSDT = HARDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HBARBNB:
     name: str = "HBARBNB"
     precision: int = 8
@@ -19161,7 +22032,10 @@ class HBARBNB:
         return "HBARBNB"
 
 
-@dataclass(slots=True)
+HBARBNB = HBARBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HBARBTC:
     name: str = "HBARBTC"
     precision: int = 8
@@ -19181,7 +22055,10 @@ class HBARBTC:
         return "HBARBTC"
 
 
-@dataclass(slots=True)
+HBARBTC = HBARBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HBARBUSD:
     name: str = "HBARBUSD"
     precision: int = 8
@@ -19201,7 +22078,10 @@ class HBARBUSD:
         return "HBARBUSD"
 
 
-@dataclass(slots=True)
+HBARBUSD = HBARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HBARUSDT:
     name: str = "HBARUSDT"
     precision: int = 8
@@ -19221,7 +22101,10 @@ class HBARUSDT:
         return "HBARUSDT"
 
 
-@dataclass(slots=True)
+HBARUSDT = HBARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HCBTC:
     name: str = "HCBTC"
     precision: int = 8
@@ -19241,7 +22124,10 @@ class HCBTC:
         return "HCBTC"
 
 
-@dataclass(slots=True)
+HCBTC = HCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HCETH:
     name: str = "HCETH"
     precision: int = 8
@@ -19261,7 +22147,10 @@ class HCETH:
         return "HCETH"
 
 
-@dataclass(slots=True)
+HCETH = HCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class HCUSDT:
     name: str = "HCUSDT"
     precision: int = 8
@@ -19281,7 +22170,10 @@ class HCUSDT:
         return "HCUSDT"
 
 
-@dataclass(slots=True)
+HCUSDT = HCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HEGICBUSD:
     name: str = "HEGICBUSD"
     precision: int = 8
@@ -19301,7 +22193,10 @@ class HEGICBUSD:
         return "HEGICBUSD"
 
 
-@dataclass(slots=True)
+HEGICBUSD = HEGICBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HEGICETH:
     name: str = "HEGICETH"
     precision: int = 8
@@ -19321,7 +22216,10 @@ class HEGICETH:
         return "HEGICETH"
 
 
-@dataclass(slots=True)
+HEGICETH = HEGICETH()
+
+
+@dataclass(slots=True, frozen=True)
 class HFTBTC:
     name: str = "HFTBTC"
     precision: int = 8
@@ -19341,7 +22239,10 @@ class HFTBTC:
         return "HFTBTC"
 
 
-@dataclass(slots=True)
+HFTBTC = HFTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HFTBUSD:
     name: str = "HFTBUSD"
     precision: int = 8
@@ -19361,7 +22262,10 @@ class HFTBUSD:
         return "HFTBUSD"
 
 
-@dataclass(slots=True)
+HFTBUSD = HFTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HFTUSDT:
     name: str = "HFTUSDT"
     precision: int = 8
@@ -19381,7 +22285,10 @@ class HFTUSDT:
         return "HFTUSDT"
 
 
-@dataclass(slots=True)
+HFTUSDT = HFTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HIFIETH:
     name: str = "HIFIETH"
     precision: int = 8
@@ -19401,7 +22308,10 @@ class HIFIETH:
         return "HIFIETH"
 
 
-@dataclass(slots=True)
+HIFIETH = HIFIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class HIFIUSDT:
     name: str = "HIFIUSDT"
     precision: int = 8
@@ -19421,7 +22331,10 @@ class HIFIUSDT:
         return "HIFIUSDT"
 
 
-@dataclass(slots=True)
+HIFIUSDT = HIFIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HIGHBNB:
     name: str = "HIGHBNB"
     precision: int = 8
@@ -19441,7 +22354,10 @@ class HIGHBNB:
         return "HIGHBNB"
 
 
-@dataclass(slots=True)
+HIGHBNB = HIGHBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HIGHBTC:
     name: str = "HIGHBTC"
     precision: int = 8
@@ -19461,7 +22377,10 @@ class HIGHBTC:
         return "HIGHBTC"
 
 
-@dataclass(slots=True)
+HIGHBTC = HIGHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HIGHBUSD:
     name: str = "HIGHBUSD"
     precision: int = 8
@@ -19481,7 +22400,10 @@ class HIGHBUSD:
         return "HIGHBUSD"
 
 
-@dataclass(slots=True)
+HIGHBUSD = HIGHBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HIGHUSDT:
     name: str = "HIGHUSDT"
     precision: int = 8
@@ -19501,7 +22423,10 @@ class HIGHUSDT:
         return "HIGHUSDT"
 
 
-@dataclass(slots=True)
+HIGHUSDT = HIGHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HIVEBNB:
     name: str = "HIVEBNB"
     precision: int = 8
@@ -19521,7 +22446,10 @@ class HIVEBNB:
         return "HIVEBNB"
 
 
-@dataclass(slots=True)
+HIVEBNB = HIVEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HIVEBTC:
     name: str = "HIVEBTC"
     precision: int = 8
@@ -19541,7 +22469,10 @@ class HIVEBTC:
         return "HIVEBTC"
 
 
-@dataclass(slots=True)
+HIVEBTC = HIVEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HIVEBUSD:
     name: str = "HIVEBUSD"
     precision: int = 8
@@ -19561,7 +22492,10 @@ class HIVEBUSD:
         return "HIVEBUSD"
 
 
-@dataclass(slots=True)
+HIVEBUSD = HIVEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HIVEUSDT:
     name: str = "HIVEUSDT"
     precision: int = 8
@@ -19581,7 +22515,10 @@ class HIVEUSDT:
         return "HIVEUSDT"
 
 
-@dataclass(slots=True)
+HIVEUSDT = HIVEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HNTBTC:
     name: str = "HNTBTC"
     precision: int = 8
@@ -19601,7 +22538,10 @@ class HNTBTC:
         return "HNTBTC"
 
 
-@dataclass(slots=True)
+HNTBTC = HNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HNTBUSD:
     name: str = "HNTBUSD"
     precision: int = 8
@@ -19621,7 +22561,10 @@ class HNTBUSD:
         return "HNTBUSD"
 
 
-@dataclass(slots=True)
+HNTBUSD = HNTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HNTUSDT:
     name: str = "HNTUSDT"
     precision: int = 8
@@ -19641,7 +22584,10 @@ class HNTUSDT:
         return "HNTUSDT"
 
 
-@dataclass(slots=True)
+HNTUSDT = HNTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HOOKBNB:
     name: str = "HOOKBNB"
     precision: int = 8
@@ -19661,7 +22607,10 @@ class HOOKBNB:
         return "HOOKBNB"
 
 
-@dataclass(slots=True)
+HOOKBNB = HOOKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HOOKBTC:
     name: str = "HOOKBTC"
     precision: int = 8
@@ -19681,7 +22630,10 @@ class HOOKBTC:
         return "HOOKBTC"
 
 
-@dataclass(slots=True)
+HOOKBTC = HOOKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HOOKBUSD:
     name: str = "HOOKBUSD"
     precision: int = 8
@@ -19701,7 +22653,10 @@ class HOOKBUSD:
         return "HOOKBUSD"
 
 
-@dataclass(slots=True)
+HOOKBUSD = HOOKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HOOKUSDT:
     name: str = "HOOKUSDT"
     precision: int = 8
@@ -19721,7 +22676,10 @@ class HOOKUSDT:
         return "HOOKUSDT"
 
 
-@dataclass(slots=True)
+HOOKUSDT = HOOKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTBNB:
     name: str = "HOTBNB"
     precision: int = 8
@@ -19741,7 +22699,10 @@ class HOTBNB:
         return "HOTBNB"
 
 
-@dataclass(slots=True)
+HOTBNB = HOTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTBRL:
     name: str = "HOTBRL"
     precision: int = 8
@@ -19761,7 +22722,10 @@ class HOTBRL:
         return "HOTBRL"
 
 
-@dataclass(slots=True)
+HOTBRL = HOTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTBTC:
     name: str = "HOTBTC"
     precision: int = 8
@@ -19781,7 +22745,10 @@ class HOTBTC:
         return "HOTBTC"
 
 
-@dataclass(slots=True)
+HOTBTC = HOTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTBUSD:
     name: str = "HOTBUSD"
     precision: int = 8
@@ -19801,7 +22768,10 @@ class HOTBUSD:
         return "HOTBUSD"
 
 
-@dataclass(slots=True)
+HOTBUSD = HOTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTETH:
     name: str = "HOTETH"
     precision: int = 8
@@ -19821,7 +22791,10 @@ class HOTETH:
         return "HOTETH"
 
 
-@dataclass(slots=True)
+HOTETH = HOTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTEUR:
     name: str = "HOTEUR"
     precision: int = 8
@@ -19841,7 +22814,10 @@ class HOTEUR:
         return "HOTEUR"
 
 
-@dataclass(slots=True)
+HOTEUR = HOTEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTTRY:
     name: str = "HOTTRY"
     precision: int = 8
@@ -19861,7 +22837,10 @@ class HOTTRY:
         return "HOTTRY"
 
 
-@dataclass(slots=True)
+HOTTRY = HOTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class HOTUSDT:
     name: str = "HOTUSDT"
     precision: int = 8
@@ -19881,7 +22860,10 @@ class HOTUSDT:
         return "HOTUSDT"
 
 
-@dataclass(slots=True)
+HOTUSDT = HOTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HSRBTC:
     name: str = "HSRBTC"
     precision: int = 8
@@ -19901,7 +22883,10 @@ class HSRBTC:
         return "HSRBTC"
 
 
-@dataclass(slots=True)
+HSRBTC = HSRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class HSRETH:
     name: str = "HSRETH"
     precision: int = 8
@@ -19921,7 +22906,10 @@ class HSRETH:
         return "HSRETH"
 
 
-@dataclass(slots=True)
+HSRETH = HSRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ICNBTC:
     name: str = "ICNBTC"
     precision: int = 8
@@ -19941,7 +22929,10 @@ class ICNBTC:
         return "ICNBTC"
 
 
-@dataclass(slots=True)
+ICNBTC = ICNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ICNETH:
     name: str = "ICNETH"
     precision: int = 8
@@ -19961,7 +22952,10 @@ class ICNETH:
         return "ICNETH"
 
 
-@dataclass(slots=True)
+ICNETH = ICNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPBNB:
     name: str = "ICPBNB"
     precision: int = 8
@@ -19981,7 +22975,10 @@ class ICPBNB:
         return "ICPBNB"
 
 
-@dataclass(slots=True)
+ICPBNB = ICPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPBTC:
     name: str = "ICPBTC"
     precision: int = 8
@@ -20001,7 +22998,10 @@ class ICPBTC:
         return "ICPBTC"
 
 
-@dataclass(slots=True)
+ICPBTC = ICPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPBUSD:
     name: str = "ICPBUSD"
     precision: int = 8
@@ -20021,7 +23021,10 @@ class ICPBUSD:
         return "ICPBUSD"
 
 
-@dataclass(slots=True)
+ICPBUSD = ICPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPETH:
     name: str = "ICPETH"
     precision: int = 8
@@ -20041,7 +23044,10 @@ class ICPETH:
         return "ICPETH"
 
 
-@dataclass(slots=True)
+ICPETH = ICPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPEUR:
     name: str = "ICPEUR"
     precision: int = 8
@@ -20061,7 +23067,10 @@ class ICPEUR:
         return "ICPEUR"
 
 
-@dataclass(slots=True)
+ICPEUR = ICPEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPRUB:
     name: str = "ICPRUB"
     precision: int = 8
@@ -20081,7 +23090,10 @@ class ICPRUB:
         return "ICPRUB"
 
 
-@dataclass(slots=True)
+ICPRUB = ICPRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPTRY:
     name: str = "ICPTRY"
     precision: int = 8
@@ -20101,7 +23113,10 @@ class ICPTRY:
         return "ICPTRY"
 
 
-@dataclass(slots=True)
+ICPTRY = ICPTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ICPUSDT:
     name: str = "ICPUSDT"
     precision: int = 8
@@ -20121,7 +23136,10 @@ class ICPUSDT:
         return "ICPUSDT"
 
 
-@dataclass(slots=True)
+ICPUSDT = ICPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ICXBNB:
     name: str = "ICXBNB"
     precision: int = 8
@@ -20141,7 +23159,10 @@ class ICXBNB:
         return "ICXBNB"
 
 
-@dataclass(slots=True)
+ICXBNB = ICXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ICXBTC:
     name: str = "ICXBTC"
     precision: int = 8
@@ -20161,7 +23182,10 @@ class ICXBTC:
         return "ICXBTC"
 
 
-@dataclass(slots=True)
+ICXBTC = ICXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ICXBUSD:
     name: str = "ICXBUSD"
     precision: int = 8
@@ -20181,7 +23205,10 @@ class ICXBUSD:
         return "ICXBUSD"
 
 
-@dataclass(slots=True)
+ICXBUSD = ICXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ICXETH:
     name: str = "ICXETH"
     precision: int = 8
@@ -20201,7 +23228,10 @@ class ICXETH:
         return "ICXETH"
 
 
-@dataclass(slots=True)
+ICXETH = ICXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ICXUSDT:
     name: str = "ICXUSDT"
     precision: int = 8
@@ -20221,7 +23251,10 @@ class ICXUSDT:
         return "ICXUSDT"
 
 
-@dataclass(slots=True)
+ICXUSDT = ICXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEXBNB:
     name: str = "IDEXBNB"
     precision: int = 8
@@ -20241,7 +23274,10 @@ class IDEXBNB:
         return "IDEXBNB"
 
 
-@dataclass(slots=True)
+IDEXBNB = IDEXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEXBTC:
     name: str = "IDEXBTC"
     precision: int = 8
@@ -20261,7 +23297,10 @@ class IDEXBTC:
         return "IDEXBTC"
 
 
-@dataclass(slots=True)
+IDEXBTC = IDEXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEXBUSD:
     name: str = "IDEXBUSD"
     precision: int = 8
@@ -20281,7 +23320,10 @@ class IDEXBUSD:
         return "IDEXBUSD"
 
 
-@dataclass(slots=True)
+IDEXBUSD = IDEXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEXUSDT:
     name: str = "IDEXUSDT"
     precision: int = 8
@@ -20301,7 +23343,10 @@ class IDEXUSDT:
         return "IDEXUSDT"
 
 
-@dataclass(slots=True)
+IDEXUSDT = IDEXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ILVBNB:
     name: str = "ILVBNB"
     precision: int = 8
@@ -20321,7 +23366,10 @@ class ILVBNB:
         return "ILVBNB"
 
 
-@dataclass(slots=True)
+ILVBNB = ILVBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ILVBTC:
     name: str = "ILVBTC"
     precision: int = 8
@@ -20341,7 +23389,10 @@ class ILVBTC:
         return "ILVBTC"
 
 
-@dataclass(slots=True)
+ILVBTC = ILVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ILVBUSD:
     name: str = "ILVBUSD"
     precision: int = 8
@@ -20361,7 +23412,10 @@ class ILVBUSD:
         return "ILVBUSD"
 
 
-@dataclass(slots=True)
+ILVBUSD = ILVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ILVUSDT:
     name: str = "ILVUSDT"
     precision: int = 8
@@ -20381,7 +23435,10 @@ class ILVUSDT:
         return "ILVUSDT"
 
 
-@dataclass(slots=True)
+ILVUSDT = ILVUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IMXBNB:
     name: str = "IMXBNB"
     precision: int = 8
@@ -20401,7 +23458,10 @@ class IMXBNB:
         return "IMXBNB"
 
 
-@dataclass(slots=True)
+IMXBNB = IMXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class IMXBTC:
     name: str = "IMXBTC"
     precision: int = 8
@@ -20421,7 +23481,10 @@ class IMXBTC:
         return "IMXBTC"
 
 
-@dataclass(slots=True)
+IMXBTC = IMXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IMXBUSD:
     name: str = "IMXBUSD"
     precision: int = 8
@@ -20441,7 +23504,10 @@ class IMXBUSD:
         return "IMXBUSD"
 
 
-@dataclass(slots=True)
+IMXBUSD = IMXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IMXUSDT:
     name: str = "IMXUSDT"
     precision: int = 8
@@ -20461,7 +23527,10 @@ class IMXUSDT:
         return "IMXUSDT"
 
 
-@dataclass(slots=True)
+IMXUSDT = IMXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class INJBNB:
     name: str = "INJBNB"
     precision: int = 8
@@ -20481,7 +23550,10 @@ class INJBNB:
         return "INJBNB"
 
 
-@dataclass(slots=True)
+INJBNB = INJBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class INJBTC:
     name: str = "INJBTC"
     precision: int = 8
@@ -20501,7 +23573,10 @@ class INJBTC:
         return "INJBTC"
 
 
-@dataclass(slots=True)
+INJBTC = INJBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class INJBUSD:
     name: str = "INJBUSD"
     precision: int = 8
@@ -20521,7 +23596,10 @@ class INJBUSD:
         return "INJBUSD"
 
 
-@dataclass(slots=True)
+INJBUSD = INJBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class INJTRY:
     name: str = "INJTRY"
     precision: int = 8
@@ -20541,7 +23619,10 @@ class INJTRY:
         return "INJTRY"
 
 
-@dataclass(slots=True)
+INJTRY = INJTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class INJUSDT:
     name: str = "INJUSDT"
     precision: int = 8
@@ -20561,7 +23642,10 @@ class INJUSDT:
         return "INJUSDT"
 
 
-@dataclass(slots=True)
+INJUSDT = INJUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class INSBTC:
     name: str = "INSBTC"
     precision: int = 8
@@ -20581,7 +23665,10 @@ class INSBTC:
         return "INSBTC"
 
 
-@dataclass(slots=True)
+INSBTC = INSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class INSETH:
     name: str = "INSETH"
     precision: int = 8
@@ -20601,7 +23688,10 @@ class INSETH:
         return "INSETH"
 
 
-@dataclass(slots=True)
+INSETH = INSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class IOSTBTC:
     name: str = "IOSTBTC"
     precision: int = 8
@@ -20621,7 +23711,10 @@ class IOSTBTC:
         return "IOSTBTC"
 
 
-@dataclass(slots=True)
+IOSTBTC = IOSTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IOSTBUSD:
     name: str = "IOSTBUSD"
     precision: int = 8
@@ -20641,7 +23734,10 @@ class IOSTBUSD:
         return "IOSTBUSD"
 
 
-@dataclass(slots=True)
+IOSTBUSD = IOSTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IOSTETH:
     name: str = "IOSTETH"
     precision: int = 8
@@ -20661,7 +23757,10 @@ class IOSTETH:
         return "IOSTETH"
 
 
-@dataclass(slots=True)
+IOSTETH = IOSTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class IOSTUSDT:
     name: str = "IOSTUSDT"
     precision: int = 8
@@ -20681,7 +23780,10 @@ class IOSTUSDT:
         return "IOSTUSDT"
 
 
-@dataclass(slots=True)
+IOSTUSDT = IOSTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTABNB:
     name: str = "IOTABNB"
     precision: int = 8
@@ -20701,7 +23803,10 @@ class IOTABNB:
         return "IOTABNB"
 
 
-@dataclass(slots=True)
+IOTABNB = IOTABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTABTC:
     name: str = "IOTABTC"
     precision: int = 8
@@ -20721,7 +23826,10 @@ class IOTABTC:
         return "IOTABTC"
 
 
-@dataclass(slots=True)
+IOTABTC = IOTABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTABUSD:
     name: str = "IOTABUSD"
     precision: int = 8
@@ -20741,7 +23849,10 @@ class IOTABUSD:
         return "IOTABUSD"
 
 
-@dataclass(slots=True)
+IOTABUSD = IOTABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTAETH:
     name: str = "IOTAETH"
     precision: int = 8
@@ -20761,7 +23872,10 @@ class IOTAETH:
         return "IOTAETH"
 
 
-@dataclass(slots=True)
+IOTAETH = IOTAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTAUSDT:
     name: str = "IOTAUSDT"
     precision: int = 8
@@ -20781,7 +23895,10 @@ class IOTAUSDT:
         return "IOTAUSDT"
 
 
-@dataclass(slots=True)
+IOTAUSDT = IOTAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTXBTC:
     name: str = "IOTXBTC"
     precision: int = 8
@@ -20801,7 +23918,10 @@ class IOTXBTC:
         return "IOTXBTC"
 
 
-@dataclass(slots=True)
+IOTXBTC = IOTXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTXBUSD:
     name: str = "IOTXBUSD"
     precision: int = 8
@@ -20821,7 +23941,10 @@ class IOTXBUSD:
         return "IOTXBUSD"
 
 
-@dataclass(slots=True)
+IOTXBUSD = IOTXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTXETH:
     name: str = "IOTXETH"
     precision: int = 8
@@ -20841,7 +23964,10 @@ class IOTXETH:
         return "IOTXETH"
 
 
-@dataclass(slots=True)
+IOTXETH = IOTXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTXUSDT:
     name: str = "IOTXUSDT"
     precision: int = 8
@@ -20861,7 +23987,10 @@ class IOTXUSDT:
         return "IOTXUSDT"
 
 
-@dataclass(slots=True)
+IOTXUSDT = IOTXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IQBNB:
     name: str = "IQBNB"
     precision: int = 8
@@ -20881,7 +24010,10 @@ class IQBNB:
         return "IQBNB"
 
 
-@dataclass(slots=True)
+IQBNB = IQBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class IQBUSD:
     name: str = "IQBUSD"
     precision: int = 8
@@ -20901,7 +24033,10 @@ class IQBUSD:
         return "IQBUSD"
 
 
-@dataclass(slots=True)
+IQBUSD = IQBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IRISBNB:
     name: str = "IRISBNB"
     precision: int = 8
@@ -20921,7 +24056,10 @@ class IRISBNB:
         return "IRISBNB"
 
 
-@dataclass(slots=True)
+IRISBNB = IRISBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class IRISBTC:
     name: str = "IRISBTC"
     precision: int = 8
@@ -20941,7 +24079,10 @@ class IRISBTC:
         return "IRISBTC"
 
 
-@dataclass(slots=True)
+IRISBTC = IRISBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class IRISBUSD:
     name: str = "IRISBUSD"
     precision: int = 8
@@ -20961,7 +24102,10 @@ class IRISBUSD:
         return "IRISBUSD"
 
 
-@dataclass(slots=True)
+IRISBUSD = IRISBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class IRISUSDT:
     name: str = "IRISUSDT"
     precision: int = 8
@@ -20981,7 +24125,10 @@ class IRISUSDT:
         return "IRISUSDT"
 
 
-@dataclass(slots=True)
+IRISUSDT = IRISUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYBNB:
     name: str = "JASMYBNB"
     precision: int = 8
@@ -21001,7 +24148,10 @@ class JASMYBNB:
         return "JASMYBNB"
 
 
-@dataclass(slots=True)
+JASMYBNB = JASMYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYBTC:
     name: str = "JASMYBTC"
     precision: int = 8
@@ -21021,7 +24171,10 @@ class JASMYBTC:
         return "JASMYBTC"
 
 
-@dataclass(slots=True)
+JASMYBTC = JASMYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYBUSD:
     name: str = "JASMYBUSD"
     precision: int = 8
@@ -21041,7 +24194,10 @@ class JASMYBUSD:
         return "JASMYBUSD"
 
 
-@dataclass(slots=True)
+JASMYBUSD = JASMYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYETH:
     name: str = "JASMYETH"
     precision: int = 8
@@ -21061,7 +24217,10 @@ class JASMYETH:
         return "JASMYETH"
 
 
-@dataclass(slots=True)
+JASMYETH = JASMYETH()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYEUR:
     name: str = "JASMYEUR"
     precision: int = 8
@@ -21081,7 +24240,10 @@ class JASMYEUR:
         return "JASMYEUR"
 
 
-@dataclass(slots=True)
+JASMYEUR = JASMYEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYTRY:
     name: str = "JASMYTRY"
     precision: int = 8
@@ -21101,7 +24263,10 @@ class JASMYTRY:
         return "JASMYTRY"
 
 
-@dataclass(slots=True)
+JASMYTRY = JASMYTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMYUSDT:
     name: str = "JASMYUSDT"
     precision: int = 8
@@ -21121,7 +24286,10 @@ class JASMYUSDT:
         return "JASMYUSDT"
 
 
-@dataclass(slots=True)
+JASMYUSDT = JASMYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class JOEBTC:
     name: str = "JOEBTC"
     precision: int = 8
@@ -21141,7 +24309,10 @@ class JOEBTC:
         return "JOEBTC"
 
 
-@dataclass(slots=True)
+JOEBTC = JOEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class JOEBUSD:
     name: str = "JOEBUSD"
     precision: int = 8
@@ -21161,7 +24332,10 @@ class JOEBUSD:
         return "JOEBUSD"
 
 
-@dataclass(slots=True)
+JOEBUSD = JOEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class JOEUSDT:
     name: str = "JOEUSDT"
     precision: int = 8
@@ -21181,7 +24355,10 @@ class JOEUSDT:
         return "JOEUSDT"
 
 
-@dataclass(slots=True)
+JOEUSDT = JOEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class JSTBNB:
     name: str = "JSTBNB"
     precision: int = 8
@@ -21201,7 +24378,10 @@ class JSTBNB:
         return "JSTBNB"
 
 
-@dataclass(slots=True)
+JSTBNB = JSTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class JSTBTC:
     name: str = "JSTBTC"
     precision: int = 8
@@ -21221,7 +24401,10 @@ class JSTBTC:
         return "JSTBTC"
 
 
-@dataclass(slots=True)
+JSTBTC = JSTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class JSTBUSD:
     name: str = "JSTBUSD"
     precision: int = 8
@@ -21241,7 +24424,10 @@ class JSTBUSD:
         return "JSTBUSD"
 
 
-@dataclass(slots=True)
+JSTBUSD = JSTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class JSTUSDT:
     name: str = "JSTUSDT"
     precision: int = 8
@@ -21261,7 +24447,10 @@ class JSTUSDT:
         return "JSTUSDT"
 
 
-@dataclass(slots=True)
+JSTUSDT = JSTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class JUVBTC:
     name: str = "JUVBTC"
     precision: int = 8
@@ -21281,7 +24470,10 @@ class JUVBTC:
         return "JUVBTC"
 
 
-@dataclass(slots=True)
+JUVBTC = JUVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class JUVBUSD:
     name: str = "JUVBUSD"
     precision: int = 8
@@ -21301,7 +24493,10 @@ class JUVBUSD:
         return "JUVBUSD"
 
 
-@dataclass(slots=True)
+JUVBUSD = JUVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class JUVUSDT:
     name: str = "JUVUSDT"
     precision: int = 8
@@ -21321,7 +24516,10 @@ class JUVUSDT:
         return "JUVUSDT"
 
 
-@dataclass(slots=True)
+JUVUSDT = JUVUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KAVABNB:
     name: str = "KAVABNB"
     precision: int = 8
@@ -21341,7 +24539,10 @@ class KAVABNB:
         return "KAVABNB"
 
 
-@dataclass(slots=True)
+KAVABNB = KAVABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KAVABTC:
     name: str = "KAVABTC"
     precision: int = 8
@@ -21361,7 +24562,10 @@ class KAVABTC:
         return "KAVABTC"
 
 
-@dataclass(slots=True)
+KAVABTC = KAVABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KAVABUSD:
     name: str = "KAVABUSD"
     precision: int = 8
@@ -21381,7 +24585,10 @@ class KAVABUSD:
         return "KAVABUSD"
 
 
-@dataclass(slots=True)
+KAVABUSD = KAVABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KAVAETH:
     name: str = "KAVAETH"
     precision: int = 8
@@ -21401,7 +24608,10 @@ class KAVAETH:
         return "KAVAETH"
 
 
-@dataclass(slots=True)
+KAVAETH = KAVAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class KAVAUSDT:
     name: str = "KAVAUSDT"
     precision: int = 8
@@ -21421,7 +24631,10 @@ class KAVAUSDT:
         return "KAVAUSDT"
 
 
-@dataclass(slots=True)
+KAVAUSDT = KAVAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KDABTC:
     name: str = "KDABTC"
     precision: int = 8
@@ -21441,7 +24654,10 @@ class KDABTC:
         return "KDABTC"
 
 
-@dataclass(slots=True)
+KDABTC = KDABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KDABUSD:
     name: str = "KDABUSD"
     precision: int = 8
@@ -21461,7 +24677,10 @@ class KDABUSD:
         return "KDABUSD"
 
 
-@dataclass(slots=True)
+KDABUSD = KDABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KDAUSDT:
     name: str = "KDAUSDT"
     precision: int = 8
@@ -21481,7 +24700,10 @@ class KDAUSDT:
         return "KDAUSDT"
 
 
-@dataclass(slots=True)
+KDAUSDT = KDAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KEEPBNB:
     name: str = "KEEPBNB"
     precision: int = 8
@@ -21501,7 +24723,10 @@ class KEEPBNB:
         return "KEEPBNB"
 
 
-@dataclass(slots=True)
+KEEPBNB = KEEPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KEEPBTC:
     name: str = "KEEPBTC"
     precision: int = 8
@@ -21521,7 +24746,10 @@ class KEEPBTC:
         return "KEEPBTC"
 
 
-@dataclass(slots=True)
+KEEPBTC = KEEPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KEEPBUSD:
     name: str = "KEEPBUSD"
     precision: int = 8
@@ -21541,7 +24769,10 @@ class KEEPBUSD:
         return "KEEPBUSD"
 
 
-@dataclass(slots=True)
+KEEPBUSD = KEEPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KEEPUSDT:
     name: str = "KEEPUSDT"
     precision: int = 8
@@ -21561,7 +24792,10 @@ class KEEPUSDT:
         return "KEEPUSDT"
 
 
-@dataclass(slots=True)
+KEEPUSDT = KEEPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KEYBTC:
     name: str = "KEYBTC"
     precision: int = 8
@@ -21581,7 +24815,10 @@ class KEYBTC:
         return "KEYBTC"
 
 
-@dataclass(slots=True)
+KEYBTC = KEYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KEYBUSD:
     name: str = "KEYBUSD"
     precision: int = 8
@@ -21601,7 +24838,10 @@ class KEYBUSD:
         return "KEYBUSD"
 
 
-@dataclass(slots=True)
+KEYBUSD = KEYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KEYETH:
     name: str = "KEYETH"
     precision: int = 8
@@ -21621,7 +24861,10 @@ class KEYETH:
         return "KEYETH"
 
 
-@dataclass(slots=True)
+KEYETH = KEYETH()
+
+
+@dataclass(slots=True, frozen=True)
 class KEYUSDT:
     name: str = "KEYUSDT"
     precision: int = 8
@@ -21641,7 +24884,10 @@ class KEYUSDT:
         return "KEYUSDT"
 
 
-@dataclass(slots=True)
+KEYUSDT = KEYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KLAYBNB:
     name: str = "KLAYBNB"
     precision: int = 8
@@ -21661,7 +24907,10 @@ class KLAYBNB:
         return "KLAYBNB"
 
 
-@dataclass(slots=True)
+KLAYBNB = KLAYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KLAYBTC:
     name: str = "KLAYBTC"
     precision: int = 8
@@ -21681,7 +24930,10 @@ class KLAYBTC:
         return "KLAYBTC"
 
 
-@dataclass(slots=True)
+KLAYBTC = KLAYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KLAYBUSD:
     name: str = "KLAYBUSD"
     precision: int = 8
@@ -21701,7 +24953,10 @@ class KLAYBUSD:
         return "KLAYBUSD"
 
 
-@dataclass(slots=True)
+KLAYBUSD = KLAYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KLAYUSDT:
     name: str = "KLAYUSDT"
     precision: int = 8
@@ -21721,7 +24976,10 @@ class KLAYUSDT:
         return "KLAYUSDT"
 
 
-@dataclass(slots=True)
+KLAYUSDT = KLAYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KMDBTC:
     name: str = "KMDBTC"
     precision: int = 8
@@ -21741,7 +24999,10 @@ class KMDBTC:
         return "KMDBTC"
 
 
-@dataclass(slots=True)
+KMDBTC = KMDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KMDBUSD:
     name: str = "KMDBUSD"
     precision: int = 8
@@ -21761,7 +25022,10 @@ class KMDBUSD:
         return "KMDBUSD"
 
 
-@dataclass(slots=True)
+KMDBUSD = KMDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KMDETH:
     name: str = "KMDETH"
     precision: int = 8
@@ -21781,7 +25045,10 @@ class KMDETH:
         return "KMDETH"
 
 
-@dataclass(slots=True)
+KMDETH = KMDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class KMDUSDT:
     name: str = "KMDUSDT"
     precision: int = 8
@@ -21801,7 +25068,10 @@ class KMDUSDT:
         return "KMDUSDT"
 
 
-@dataclass(slots=True)
+KMDUSDT = KMDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KNCBNB:
     name: str = "KNCBNB"
     precision: int = 8
@@ -21821,7 +25091,10 @@ class KNCBNB:
         return "KNCBNB"
 
 
-@dataclass(slots=True)
+KNCBNB = KNCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KNCBTC:
     name: str = "KNCBTC"
     precision: int = 8
@@ -21841,7 +25114,10 @@ class KNCBTC:
         return "KNCBTC"
 
 
-@dataclass(slots=True)
+KNCBTC = KNCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KNCBUSD:
     name: str = "KNCBUSD"
     precision: int = 8
@@ -21861,7 +25137,10 @@ class KNCBUSD:
         return "KNCBUSD"
 
 
-@dataclass(slots=True)
+KNCBUSD = KNCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KNCETH:
     name: str = "KNCETH"
     precision: int = 8
@@ -21881,7 +25160,10 @@ class KNCETH:
         return "KNCETH"
 
 
-@dataclass(slots=True)
+KNCETH = KNCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class KNCUSDT:
     name: str = "KNCUSDT"
     precision: int = 8
@@ -21901,7 +25183,10 @@ class KNCUSDT:
         return "KNCUSDT"
 
 
-@dataclass(slots=True)
+KNCUSDT = KNCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KP3RBNB:
     name: str = "KP3RBNB"
     precision: int = 8
@@ -21921,7 +25206,10 @@ class KP3RBNB:
         return "KP3RBNB"
 
 
-@dataclass(slots=True)
+KP3RBNB = KP3RBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KP3RBUSD:
     name: str = "KP3RBUSD"
     precision: int = 8
@@ -21941,7 +25229,10 @@ class KP3RBUSD:
         return "KP3RBUSD"
 
 
-@dataclass(slots=True)
+KP3RBUSD = KP3RBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KP3RUSDT:
     name: str = "KP3RUSDT"
     precision: int = 8
@@ -21961,7 +25252,10 @@ class KP3RUSDT:
         return "KP3RUSDT"
 
 
-@dataclass(slots=True)
+KP3RUSDT = KP3RUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMAUD:
     name: str = "KSMAUD"
     precision: int = 8
@@ -21981,7 +25275,10 @@ class KSMAUD:
         return "KSMAUD"
 
 
-@dataclass(slots=True)
+KSMAUD = KSMAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMBNB:
     name: str = "KSMBNB"
     precision: int = 8
@@ -22001,7 +25298,10 @@ class KSMBNB:
         return "KSMBNB"
 
 
-@dataclass(slots=True)
+KSMBNB = KSMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMBTC:
     name: str = "KSMBTC"
     precision: int = 8
@@ -22021,7 +25321,10 @@ class KSMBTC:
         return "KSMBTC"
 
 
-@dataclass(slots=True)
+KSMBTC = KSMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMBUSD:
     name: str = "KSMBUSD"
     precision: int = 8
@@ -22041,7 +25344,10 @@ class KSMBUSD:
         return "KSMBUSD"
 
 
-@dataclass(slots=True)
+KSMBUSD = KSMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMETH:
     name: str = "KSMETH"
     precision: int = 8
@@ -22061,7 +25367,10 @@ class KSMETH:
         return "KSMETH"
 
 
-@dataclass(slots=True)
+KSMETH = KSMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class KSMUSDT:
     name: str = "KSMUSDT"
     precision: int = 8
@@ -22081,7 +25390,10 @@ class KSMUSDT:
         return "KSMUSDT"
 
 
-@dataclass(slots=True)
+KSMUSDT = KSMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LAZIOBTC:
     name: str = "LAZIOBTC"
     precision: int = 8
@@ -22101,7 +25413,10 @@ class LAZIOBTC:
         return "LAZIOBTC"
 
 
-@dataclass(slots=True)
+LAZIOBTC = LAZIOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LAZIOBUSD:
     name: str = "LAZIOBUSD"
     precision: int = 8
@@ -22121,7 +25436,10 @@ class LAZIOBUSD:
         return "LAZIOBUSD"
 
 
-@dataclass(slots=True)
+LAZIOBUSD = LAZIOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LAZIOEUR:
     name: str = "LAZIOEUR"
     precision: int = 8
@@ -22141,7 +25459,10 @@ class LAZIOEUR:
         return "LAZIOEUR"
 
 
-@dataclass(slots=True)
+LAZIOEUR = LAZIOEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LAZIOTRY:
     name: str = "LAZIOTRY"
     precision: int = 8
@@ -22161,7 +25482,10 @@ class LAZIOTRY:
         return "LAZIOTRY"
 
 
-@dataclass(slots=True)
+LAZIOTRY = LAZIOTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class LAZIOUSDT:
     name: str = "LAZIOUSDT"
     precision: int = 8
@@ -22181,7 +25505,10 @@ class LAZIOUSDT:
         return "LAZIOUSDT"
 
 
-@dataclass(slots=True)
+LAZIOUSDT = LAZIOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LDOBTC:
     name: str = "LDOBTC"
     precision: int = 8
@@ -22201,7 +25528,10 @@ class LDOBTC:
         return "LDOBTC"
 
 
-@dataclass(slots=True)
+LDOBTC = LDOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LDOBUSD:
     name: str = "LDOBUSD"
     precision: int = 8
@@ -22221,7 +25551,10 @@ class LDOBUSD:
         return "LDOBUSD"
 
 
-@dataclass(slots=True)
+LDOBUSD = LDOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LDOUSDT:
     name: str = "LDOUSDT"
     precision: int = 8
@@ -22241,7 +25574,10 @@ class LDOUSDT:
         return "LDOUSDT"
 
 
-@dataclass(slots=True)
+LDOUSDT = LDOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LENDBKRW:
     name: str = "LENDBKRW"
     precision: int = 8
@@ -22261,7 +25597,10 @@ class LENDBKRW:
         return "LENDBKRW"
 
 
-@dataclass(slots=True)
+LENDBKRW = LENDBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class LENDBTC:
     name: str = "LENDBTC"
     precision: int = 8
@@ -22281,7 +25620,10 @@ class LENDBTC:
         return "LENDBTC"
 
 
-@dataclass(slots=True)
+LENDBTC = LENDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LENDBUSD:
     name: str = "LENDBUSD"
     precision: int = 8
@@ -22301,7 +25643,10 @@ class LENDBUSD:
         return "LENDBUSD"
 
 
-@dataclass(slots=True)
+LENDBUSD = LENDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LENDETH:
     name: str = "LENDETH"
     precision: int = 8
@@ -22321,7 +25666,10 @@ class LENDETH:
         return "LENDETH"
 
 
-@dataclass(slots=True)
+LENDETH = LENDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LENDUSDT:
     name: str = "LENDUSDT"
     precision: int = 8
@@ -22341,7 +25689,10 @@ class LENDUSDT:
         return "LENDUSDT"
 
 
-@dataclass(slots=True)
+LENDUSDT = LENDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LEVERBUSD:
     name: str = "LEVERBUSD"
     precision: int = 8
@@ -22361,7 +25712,10 @@ class LEVERBUSD:
         return "LEVERBUSD"
 
 
-@dataclass(slots=True)
+LEVERBUSD = LEVERBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LEVERUSDT:
     name: str = "LEVERUSDT"
     precision: int = 8
@@ -22381,7 +25735,10 @@ class LEVERUSDT:
         return "LEVERUSDT"
 
 
-@dataclass(slots=True)
+LEVERUSDT = LEVERUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LINABNB:
     name: str = "LINABNB"
     precision: int = 8
@@ -22401,7 +25758,10 @@ class LINABNB:
         return "LINABNB"
 
 
-@dataclass(slots=True)
+LINABNB = LINABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LINABTC:
     name: str = "LINABTC"
     precision: int = 8
@@ -22421,7 +25781,10 @@ class LINABTC:
         return "LINABTC"
 
 
-@dataclass(slots=True)
+LINABTC = LINABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LINABUSD:
     name: str = "LINABUSD"
     precision: int = 8
@@ -22441,7 +25804,10 @@ class LINABUSD:
         return "LINABUSD"
 
 
-@dataclass(slots=True)
+LINABUSD = LINABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINAUSDT:
     name: str = "LINAUSDT"
     precision: int = 8
@@ -22461,7 +25827,10 @@ class LINAUSDT:
         return "LINAUSDT"
 
 
-@dataclass(slots=True)
+LINAUSDT = LINAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKAUD:
     name: str = "LINKAUD"
     precision: int = 8
@@ -22481,7 +25850,10 @@ class LINKAUD:
         return "LINKAUD"
 
 
-@dataclass(slots=True)
+LINKAUD = LINKAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKBKRW:
     name: str = "LINKBKRW"
     precision: int = 8
@@ -22501,7 +25873,10 @@ class LINKBKRW:
         return "LINKBKRW"
 
 
-@dataclass(slots=True)
+LINKBKRW = LINKBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKBNB:
     name: str = "LINKBNB"
     precision: int = 8
@@ -22521,7 +25896,10 @@ class LINKBNB:
         return "LINKBNB"
 
 
-@dataclass(slots=True)
+LINKBNB = LINKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKBRL:
     name: str = "LINKBRL"
     precision: int = 8
@@ -22541,7 +25919,10 @@ class LINKBRL:
         return "LINKBRL"
 
 
-@dataclass(slots=True)
+LINKBRL = LINKBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKBTC:
     name: str = "LINKBTC"
     precision: int = 8
@@ -22561,7 +25942,10 @@ class LINKBTC:
         return "LINKBTC"
 
 
-@dataclass(slots=True)
+LINKBTC = LINKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKBUSD:
     name: str = "LINKBUSD"
     precision: int = 8
@@ -22581,7 +25965,10 @@ class LINKBUSD:
         return "LINKBUSD"
 
 
-@dataclass(slots=True)
+LINKBUSD = LINKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKDOWNUSDT:
     name: str = "LINKDOWNUSDT"
     precision: int = 8
@@ -22601,7 +25988,10 @@ class LINKDOWNUSDT:
         return "LINKDOWNUSDT"
 
 
-@dataclass(slots=True)
+LINKDOWNUSDT = LINKDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKETH:
     name: str = "LINKETH"
     precision: int = 8
@@ -22621,7 +26011,10 @@ class LINKETH:
         return "LINKETH"
 
 
-@dataclass(slots=True)
+LINKETH = LINKETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKEUR:
     name: str = "LINKEUR"
     precision: int = 8
@@ -22641,7 +26034,10 @@ class LINKEUR:
         return "LINKEUR"
 
 
-@dataclass(slots=True)
+LINKEUR = LINKEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKGBP:
     name: str = "LINKGBP"
     precision: int = 8
@@ -22661,7 +26057,10 @@ class LINKGBP:
         return "LINKGBP"
 
 
-@dataclass(slots=True)
+LINKGBP = LINKGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKNGN:
     name: str = "LINKNGN"
     precision: int = 8
@@ -22681,7 +26080,10 @@ class LINKNGN:
         return "LINKNGN"
 
 
-@dataclass(slots=True)
+LINKNGN = LINKNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKPAX:
     name: str = "LINKPAX"
     precision: int = 8
@@ -22701,7 +26103,10 @@ class LINKPAX:
         return "LINKPAX"
 
 
-@dataclass(slots=True)
+LINKPAX = LINKPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKTRY:
     name: str = "LINKTRY"
     precision: int = 8
@@ -22721,7 +26126,10 @@ class LINKTRY:
         return "LINKTRY"
 
 
-@dataclass(slots=True)
+LINKTRY = LINKTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKTUSD:
     name: str = "LINKTUSD"
     precision: int = 8
@@ -22741,7 +26149,10 @@ class LINKTUSD:
         return "LINKTUSD"
 
 
-@dataclass(slots=True)
+LINKTUSD = LINKTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKUPUSDT:
     name: str = "LINKUPUSDT"
     precision: int = 8
@@ -22761,7 +26172,10 @@ class LINKUPUSDT:
         return "LINKUPUSDT"
 
 
-@dataclass(slots=True)
+LINKUPUSDT = LINKUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKUSDC:
     name: str = "LINKUSDC"
     precision: int = 8
@@ -22781,7 +26195,10 @@ class LINKUSDC:
         return "LINKUSDC"
 
 
-@dataclass(slots=True)
+LINKUSDC = LINKUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class LINKUSDT:
     name: str = "LINKUSDT"
     precision: int = 8
@@ -22801,7 +26218,10 @@ class LINKUSDT:
         return "LINKUSDT"
 
 
-@dataclass(slots=True)
+LINKUSDT = LINKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LITBTC:
     name: str = "LITBTC"
     precision: int = 8
@@ -22821,7 +26241,10 @@ class LITBTC:
         return "LITBTC"
 
 
-@dataclass(slots=True)
+LITBTC = LITBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LITBUSD:
     name: str = "LITBUSD"
     precision: int = 8
@@ -22841,7 +26264,10 @@ class LITBUSD:
         return "LITBUSD"
 
 
-@dataclass(slots=True)
+LITBUSD = LITBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LITETH:
     name: str = "LITETH"
     precision: int = 8
@@ -22861,7 +26287,10 @@ class LITETH:
         return "LITETH"
 
 
-@dataclass(slots=True)
+LITETH = LITETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LITUSDT:
     name: str = "LITUSDT"
     precision: int = 8
@@ -22881,7 +26310,10 @@ class LITUSDT:
         return "LITUSDT"
 
 
-@dataclass(slots=True)
+LITUSDT = LITUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LOKABNB:
     name: str = "LOKABNB"
     precision: int = 8
@@ -22901,7 +26333,10 @@ class LOKABNB:
         return "LOKABNB"
 
 
-@dataclass(slots=True)
+LOKABNB = LOKABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LOKABTC:
     name: str = "LOKABTC"
     precision: int = 8
@@ -22921,7 +26356,10 @@ class LOKABTC:
         return "LOKABTC"
 
 
-@dataclass(slots=True)
+LOKABTC = LOKABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LOKABUSD:
     name: str = "LOKABUSD"
     precision: int = 8
@@ -22941,7 +26379,10 @@ class LOKABUSD:
         return "LOKABUSD"
 
 
-@dataclass(slots=True)
+LOKABUSD = LOKABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LOKAUSDT:
     name: str = "LOKAUSDT"
     precision: int = 8
@@ -22961,7 +26402,10 @@ class LOKAUSDT:
         return "LOKAUSDT"
 
 
-@dataclass(slots=True)
+LOKAUSDT = LOKAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOMBNB:
     name: str = "LOOMBNB"
     precision: int = 8
@@ -22981,7 +26425,10 @@ class LOOMBNB:
         return "LOOMBNB"
 
 
-@dataclass(slots=True)
+LOOMBNB = LOOMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOMBTC:
     name: str = "LOOMBTC"
     precision: int = 8
@@ -23001,7 +26448,10 @@ class LOOMBTC:
         return "LOOMBTC"
 
 
-@dataclass(slots=True)
+LOOMBTC = LOOMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOMBUSD:
     name: str = "LOOMBUSD"
     precision: int = 8
@@ -23021,7 +26471,10 @@ class LOOMBUSD:
         return "LOOMBUSD"
 
 
-@dataclass(slots=True)
+LOOMBUSD = LOOMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOMETH:
     name: str = "LOOMETH"
     precision: int = 8
@@ -23041,7 +26494,10 @@ class LOOMETH:
         return "LOOMETH"
 
 
-@dataclass(slots=True)
+LOOMETH = LOOMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LPTBNB:
     name: str = "LPTBNB"
     precision: int = 8
@@ -23061,7 +26517,10 @@ class LPTBNB:
         return "LPTBNB"
 
 
-@dataclass(slots=True)
+LPTBNB = LPTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LPTBTC:
     name: str = "LPTBTC"
     precision: int = 8
@@ -23081,7 +26540,10 @@ class LPTBTC:
         return "LPTBTC"
 
 
-@dataclass(slots=True)
+LPTBTC = LPTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LPTBUSD:
     name: str = "LPTBUSD"
     precision: int = 8
@@ -23101,7 +26563,10 @@ class LPTBUSD:
         return "LPTBUSD"
 
 
-@dataclass(slots=True)
+LPTBUSD = LPTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LPTUSDT:
     name: str = "LPTUSDT"
     precision: int = 8
@@ -23121,7 +26586,10 @@ class LPTUSDT:
         return "LPTUSDT"
 
 
-@dataclass(slots=True)
+LPTUSDT = LPTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCBNB:
     name: str = "LRCBNB"
     precision: int = 8
@@ -23141,7 +26609,10 @@ class LRCBNB:
         return "LRCBNB"
 
 
-@dataclass(slots=True)
+LRCBNB = LRCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCBTC:
     name: str = "LRCBTC"
     precision: int = 8
@@ -23161,7 +26632,10 @@ class LRCBTC:
         return "LRCBTC"
 
 
-@dataclass(slots=True)
+LRCBTC = LRCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCBUSD:
     name: str = "LRCBUSD"
     precision: int = 8
@@ -23181,7 +26655,10 @@ class LRCBUSD:
         return "LRCBUSD"
 
 
-@dataclass(slots=True)
+LRCBUSD = LRCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCETH:
     name: str = "LRCETH"
     precision: int = 8
@@ -23201,7 +26678,10 @@ class LRCETH:
         return "LRCETH"
 
 
-@dataclass(slots=True)
+LRCETH = LRCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCTRY:
     name: str = "LRCTRY"
     precision: int = 8
@@ -23221,7 +26701,10 @@ class LRCTRY:
         return "LRCTRY"
 
 
-@dataclass(slots=True)
+LRCTRY = LRCTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class LRCUSDT:
     name: str = "LRCUSDT"
     precision: int = 8
@@ -23241,7 +26724,10 @@ class LRCUSDT:
         return "LRCUSDT"
 
 
-@dataclass(slots=True)
+LRCUSDT = LRCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LSKBNB:
     name: str = "LSKBNB"
     precision: int = 8
@@ -23261,7 +26747,10 @@ class LSKBNB:
         return "LSKBNB"
 
 
-@dataclass(slots=True)
+LSKBNB = LSKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LSKBTC:
     name: str = "LSKBTC"
     precision: int = 8
@@ -23281,7 +26770,10 @@ class LSKBTC:
         return "LSKBTC"
 
 
-@dataclass(slots=True)
+LSKBTC = LSKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LSKBUSD:
     name: str = "LSKBUSD"
     precision: int = 8
@@ -23301,7 +26793,10 @@ class LSKBUSD:
         return "LSKBUSD"
 
 
-@dataclass(slots=True)
+LSKBUSD = LSKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LSKETH:
     name: str = "LSKETH"
     precision: int = 8
@@ -23321,7 +26816,10 @@ class LSKETH:
         return "LSKETH"
 
 
-@dataclass(slots=True)
+LSKETH = LSKETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LSKUSDT:
     name: str = "LSKUSDT"
     precision: int = 8
@@ -23341,7 +26839,10 @@ class LSKUSDT:
         return "LSKUSDT"
 
 
-@dataclass(slots=True)
+LSKUSDT = LSKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCBNB:
     name: str = "LTCBNB"
     precision: int = 8
@@ -23361,7 +26862,10 @@ class LTCBNB:
         return "LTCBNB"
 
 
-@dataclass(slots=True)
+LTCBNB = LTCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCBRL:
     name: str = "LTCBRL"
     precision: int = 8
@@ -23381,7 +26885,10 @@ class LTCBRL:
         return "LTCBRL"
 
 
-@dataclass(slots=True)
+LTCBRL = LTCBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCBTC:
     name: str = "LTCBTC"
     precision: int = 8
@@ -23401,7 +26908,10 @@ class LTCBTC:
         return "LTCBTC"
 
 
-@dataclass(slots=True)
+LTCBTC = LTCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCBUSD:
     name: str = "LTCBUSD"
     precision: int = 8
@@ -23421,7 +26931,10 @@ class LTCBUSD:
         return "LTCBUSD"
 
 
-@dataclass(slots=True)
+LTCBUSD = LTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCDOWNUSDT:
     name: str = "LTCDOWNUSDT"
     precision: int = 8
@@ -23441,7 +26954,10 @@ class LTCDOWNUSDT:
         return "LTCDOWNUSDT"
 
 
-@dataclass(slots=True)
+LTCDOWNUSDT = LTCDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCETH:
     name: str = "LTCETH"
     precision: int = 8
@@ -23461,7 +26977,10 @@ class LTCETH:
         return "LTCETH"
 
 
-@dataclass(slots=True)
+LTCETH = LTCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCEUR:
     name: str = "LTCEUR"
     precision: int = 8
@@ -23481,7 +27000,10 @@ class LTCEUR:
         return "LTCEUR"
 
 
-@dataclass(slots=True)
+LTCEUR = LTCEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCGBP:
     name: str = "LTCGBP"
     precision: int = 8
@@ -23501,7 +27023,10 @@ class LTCGBP:
         return "LTCGBP"
 
 
-@dataclass(slots=True)
+LTCGBP = LTCGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCNGN:
     name: str = "LTCNGN"
     precision: int = 8
@@ -23521,7 +27046,10 @@ class LTCNGN:
         return "LTCNGN"
 
 
-@dataclass(slots=True)
+LTCNGN = LTCNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCPAX:
     name: str = "LTCPAX"
     precision: int = 8
@@ -23541,7 +27069,10 @@ class LTCPAX:
         return "LTCPAX"
 
 
-@dataclass(slots=True)
+LTCPAX = LTCPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCRUB:
     name: str = "LTCRUB"
     precision: int = 8
@@ -23561,7 +27092,10 @@ class LTCRUB:
         return "LTCRUB"
 
 
-@dataclass(slots=True)
+LTCRUB = LTCRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCTUSD:
     name: str = "LTCTUSD"
     precision: int = 8
@@ -23581,7 +27115,10 @@ class LTCTUSD:
         return "LTCTUSD"
 
 
-@dataclass(slots=True)
+LTCTUSD = LTCTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCUAH:
     name: str = "LTCUAH"
     precision: int = 8
@@ -23601,7 +27138,10 @@ class LTCUAH:
         return "LTCUAH"
 
 
-@dataclass(slots=True)
+LTCUAH = LTCUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCUPUSDT:
     name: str = "LTCUPUSDT"
     precision: int = 8
@@ -23621,7 +27161,10 @@ class LTCUPUSDT:
         return "LTCUPUSDT"
 
 
-@dataclass(slots=True)
+LTCUPUSDT = LTCUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCUSDC:
     name: str = "LTCUSDC"
     precision: int = 8
@@ -23641,7 +27184,10 @@ class LTCUSDC:
         return "LTCUSDC"
 
 
-@dataclass(slots=True)
+LTCUSDC = LTCUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class LTCUSDT:
     name: str = "LTCUSDT"
     precision: int = 8
@@ -23661,7 +27207,10 @@ class LTCUSDT:
         return "LTCUSDT"
 
 
-@dataclass(slots=True)
+LTCUSDT = LTCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LTOBNB:
     name: str = "LTOBNB"
     precision: int = 8
@@ -23681,7 +27230,10 @@ class LTOBNB:
         return "LTOBNB"
 
 
-@dataclass(slots=True)
+LTOBNB = LTOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LTOBTC:
     name: str = "LTOBTC"
     precision: int = 8
@@ -23701,7 +27253,10 @@ class LTOBTC:
         return "LTOBTC"
 
 
-@dataclass(slots=True)
+LTOBTC = LTOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LTOBUSD:
     name: str = "LTOBUSD"
     precision: int = 8
@@ -23721,7 +27276,10 @@ class LTOBUSD:
         return "LTOBUSD"
 
 
-@dataclass(slots=True)
+LTOBUSD = LTOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LTOUSDT:
     name: str = "LTOUSDT"
     precision: int = 8
@@ -23741,7 +27299,10 @@ class LTOUSDT:
         return "LTOUSDT"
 
 
-@dataclass(slots=True)
+LTOUSDT = LTOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAAUD:
     name: str = "LUNAAUD"
     precision: int = 8
@@ -23761,7 +27322,10 @@ class LUNAAUD:
         return "LUNAAUD"
 
 
-@dataclass(slots=True)
+LUNAAUD = LUNAAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNABIDR:
     name: str = "LUNABIDR"
     precision: int = 2
@@ -23781,7 +27345,10 @@ class LUNABIDR:
         return "LUNABIDR"
 
 
-@dataclass(slots=True)
+LUNABIDR = LUNABIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNABNB:
     name: str = "LUNABNB"
     precision: int = 8
@@ -23801,7 +27368,10 @@ class LUNABNB:
         return "LUNABNB"
 
 
-@dataclass(slots=True)
+LUNABNB = LUNABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNABRL:
     name: str = "LUNABRL"
     precision: int = 8
@@ -23821,7 +27391,10 @@ class LUNABRL:
         return "LUNABRL"
 
 
-@dataclass(slots=True)
+LUNABRL = LUNABRL()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNABTC:
     name: str = "LUNABTC"
     precision: int = 8
@@ -23841,7 +27414,10 @@ class LUNABTC:
         return "LUNABTC"
 
 
-@dataclass(slots=True)
+LUNABTC = LUNABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNABUSD:
     name: str = "LUNABUSD"
     precision: int = 8
@@ -23861,7 +27437,10 @@ class LUNABUSD:
         return "LUNABUSD"
 
 
-@dataclass(slots=True)
+LUNABUSD = LUNABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAETH:
     name: str = "LUNAETH"
     precision: int = 8
@@ -23881,7 +27460,10 @@ class LUNAETH:
         return "LUNAETH"
 
 
-@dataclass(slots=True)
+LUNAETH = LUNAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAEUR:
     name: str = "LUNAEUR"
     precision: int = 8
@@ -23901,7 +27483,10 @@ class LUNAEUR:
         return "LUNAEUR"
 
 
-@dataclass(slots=True)
+LUNAEUR = LUNAEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAGBP:
     name: str = "LUNAGBP"
     precision: int = 8
@@ -23921,7 +27506,10 @@ class LUNAGBP:
         return "LUNAGBP"
 
 
-@dataclass(slots=True)
+LUNAGBP = LUNAGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNATRY:
     name: str = "LUNATRY"
     precision: int = 8
@@ -23941,7 +27529,10 @@ class LUNATRY:
         return "LUNATRY"
 
 
-@dataclass(slots=True)
+LUNATRY = LUNATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAUSDT:
     name: str = "LUNAUSDT"
     precision: int = 8
@@ -23961,7 +27552,10 @@ class LUNAUSDT:
         return "LUNAUSDT"
 
 
-@dataclass(slots=True)
+LUNAUSDT = LUNAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNAUST:
     name: str = "LUNAUST"
     precision: int = 8
@@ -23981,7 +27575,10 @@ class LUNAUST:
         return "LUNAUST"
 
 
-@dataclass(slots=True)
+LUNAUST = LUNAUST()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNBTC:
     name: str = "LUNBTC"
     precision: int = 8
@@ -24001,7 +27598,10 @@ class LUNBTC:
         return "LUNBTC"
 
 
-@dataclass(slots=True)
+LUNBTC = LUNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNCBUSD:
     name: str = "LUNCBUSD"
     precision: int = 8
@@ -24021,7 +27621,10 @@ class LUNCBUSD:
         return "LUNCBUSD"
 
 
-@dataclass(slots=True)
+LUNCBUSD = LUNCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNCUSDT:
     name: str = "LUNCUSDT"
     precision: int = 8
@@ -24041,7 +27644,10 @@ class LUNCUSDT:
         return "LUNCUSDT"
 
 
-@dataclass(slots=True)
+LUNCUSDT = LUNCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LUNETH:
     name: str = "LUNETH"
     precision: int = 8
@@ -24061,7 +27667,10 @@ class LUNETH:
         return "LUNETH"
 
 
-@dataclass(slots=True)
+LUNETH = LUNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MAGICBTC:
     name: str = "MAGICBTC"
     precision: int = 8
@@ -24081,7 +27690,10 @@ class MAGICBTC:
         return "MAGICBTC"
 
 
-@dataclass(slots=True)
+MAGICBTC = MAGICBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MAGICBUSD:
     name: str = "MAGICBUSD"
     precision: int = 8
@@ -24101,7 +27713,10 @@ class MAGICBUSD:
         return "MAGICBUSD"
 
 
-@dataclass(slots=True)
+MAGICBUSD = MAGICBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MAGICUSDT:
     name: str = "MAGICUSDT"
     precision: int = 8
@@ -24121,7 +27736,10 @@ class MAGICUSDT:
         return "MAGICUSDT"
 
 
-@dataclass(slots=True)
+MAGICUSDT = MAGICUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MANABIDR:
     name: str = "MANABIDR"
     precision: int = 2
@@ -24141,7 +27759,10 @@ class MANABIDR:
         return "MANABIDR"
 
 
-@dataclass(slots=True)
+MANABIDR = MANABIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class MANABNB:
     name: str = "MANABNB"
     precision: int = 8
@@ -24161,7 +27782,10 @@ class MANABNB:
         return "MANABNB"
 
 
-@dataclass(slots=True)
+MANABNB = MANABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MANABRL:
     name: str = "MANABRL"
     precision: int = 8
@@ -24181,7 +27805,10 @@ class MANABRL:
         return "MANABRL"
 
 
-@dataclass(slots=True)
+MANABRL = MANABRL()
+
+
+@dataclass(slots=True, frozen=True)
 class MANABTC:
     name: str = "MANABTC"
     precision: int = 8
@@ -24201,7 +27828,10 @@ class MANABTC:
         return "MANABTC"
 
 
-@dataclass(slots=True)
+MANABTC = MANABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MANABUSD:
     name: str = "MANABUSD"
     precision: int = 8
@@ -24221,7 +27851,10 @@ class MANABUSD:
         return "MANABUSD"
 
 
-@dataclass(slots=True)
+MANABUSD = MANABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MANAETH:
     name: str = "MANAETH"
     precision: int = 8
@@ -24241,7 +27874,10 @@ class MANAETH:
         return "MANAETH"
 
 
-@dataclass(slots=True)
+MANAETH = MANAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MANATRY:
     name: str = "MANATRY"
     precision: int = 8
@@ -24261,7 +27897,10 @@ class MANATRY:
         return "MANATRY"
 
 
-@dataclass(slots=True)
+MANATRY = MANATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class MANAUSDT:
     name: str = "MANAUSDT"
     precision: int = 8
@@ -24281,7 +27920,10 @@ class MANAUSDT:
         return "MANAUSDT"
 
 
-@dataclass(slots=True)
+MANAUSDT = MANAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MASKBNB:
     name: str = "MASKBNB"
     precision: int = 8
@@ -24301,7 +27943,10 @@ class MASKBNB:
         return "MASKBNB"
 
 
-@dataclass(slots=True)
+MASKBNB = MASKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MASKBUSD:
     name: str = "MASKBUSD"
     precision: int = 8
@@ -24321,7 +27966,10 @@ class MASKBUSD:
         return "MASKBUSD"
 
 
-@dataclass(slots=True)
+MASKBUSD = MASKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MASKUSDT:
     name: str = "MASKUSDT"
     precision: int = 8
@@ -24341,7 +27989,10 @@ class MASKUSDT:
         return "MASKUSDT"
 
 
-@dataclass(slots=True)
+MASKUSDT = MASKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICAUD:
     name: str = "MATICAUD"
     precision: int = 8
@@ -24361,7 +28012,10 @@ class MATICAUD:
         return "MATICAUD"
 
 
-@dataclass(slots=True)
+MATICAUD = MATICAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICBIDR:
     name: str = "MATICBIDR"
     precision: int = 2
@@ -24381,7 +28035,10 @@ class MATICBIDR:
         return "MATICBIDR"
 
 
-@dataclass(slots=True)
+MATICBIDR = MATICBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICBNB:
     name: str = "MATICBNB"
     precision: int = 8
@@ -24401,7 +28058,10 @@ class MATICBNB:
         return "MATICBNB"
 
 
-@dataclass(slots=True)
+MATICBNB = MATICBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICBRL:
     name: str = "MATICBRL"
     precision: int = 8
@@ -24421,7 +28081,10 @@ class MATICBRL:
         return "MATICBRL"
 
 
-@dataclass(slots=True)
+MATICBRL = MATICBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICBTC:
     name: str = "MATICBTC"
     precision: int = 8
@@ -24441,7 +28104,10 @@ class MATICBTC:
         return "MATICBTC"
 
 
-@dataclass(slots=True)
+MATICBTC = MATICBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICBUSD:
     name: str = "MATICBUSD"
     precision: int = 8
@@ -24461,7 +28127,10 @@ class MATICBUSD:
         return "MATICBUSD"
 
 
-@dataclass(slots=True)
+MATICBUSD = MATICBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICETH:
     name: str = "MATICETH"
     precision: int = 8
@@ -24481,7 +28150,10 @@ class MATICETH:
         return "MATICETH"
 
 
-@dataclass(slots=True)
+MATICETH = MATICETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICEUR:
     name: str = "MATICEUR"
     precision: int = 8
@@ -24501,7 +28173,10 @@ class MATICEUR:
         return "MATICEUR"
 
 
-@dataclass(slots=True)
+MATICEUR = MATICEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICGBP:
     name: str = "MATICGBP"
     precision: int = 8
@@ -24521,7 +28196,10 @@ class MATICGBP:
         return "MATICGBP"
 
 
-@dataclass(slots=True)
+MATICGBP = MATICGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICRUB:
     name: str = "MATICRUB"
     precision: int = 8
@@ -24541,7 +28219,10 @@ class MATICRUB:
         return "MATICRUB"
 
 
-@dataclass(slots=True)
+MATICRUB = MATICRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICTRY:
     name: str = "MATICTRY"
     precision: int = 8
@@ -24561,7 +28242,10 @@ class MATICTRY:
         return "MATICTRY"
 
 
-@dataclass(slots=True)
+MATICTRY = MATICTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class MATICUSDT:
     name: str = "MATICUSDT"
     precision: int = 8
@@ -24581,7 +28265,10 @@ class MATICUSDT:
         return "MATICUSDT"
 
 
-@dataclass(slots=True)
+MATICUSDT = MATICUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MBLBNB:
     name: str = "MBLBNB"
     precision: int = 8
@@ -24601,7 +28288,10 @@ class MBLBNB:
         return "MBLBNB"
 
 
-@dataclass(slots=True)
+MBLBNB = MBLBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MBLBTC:
     name: str = "MBLBTC"
     precision: int = 8
@@ -24621,7 +28311,10 @@ class MBLBTC:
         return "MBLBTC"
 
 
-@dataclass(slots=True)
+MBLBTC = MBLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MBLBUSD:
     name: str = "MBLBUSD"
     precision: int = 8
@@ -24641,7 +28334,10 @@ class MBLBUSD:
         return "MBLBUSD"
 
 
-@dataclass(slots=True)
+MBLBUSD = MBLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MBLUSDT:
     name: str = "MBLUSDT"
     precision: int = 8
@@ -24661,7 +28357,10 @@ class MBLUSDT:
         return "MBLUSDT"
 
 
-@dataclass(slots=True)
+MBLUSDT = MBLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MBOXBNB:
     name: str = "MBOXBNB"
     precision: int = 8
@@ -24681,7 +28380,10 @@ class MBOXBNB:
         return "MBOXBNB"
 
 
-@dataclass(slots=True)
+MBOXBNB = MBOXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MBOXBTC:
     name: str = "MBOXBTC"
     precision: int = 8
@@ -24701,7 +28403,10 @@ class MBOXBTC:
         return "MBOXBTC"
 
 
-@dataclass(slots=True)
+MBOXBTC = MBOXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MBOXBUSD:
     name: str = "MBOXBUSD"
     precision: int = 8
@@ -24721,7 +28426,10 @@ class MBOXBUSD:
         return "MBOXBUSD"
 
 
-@dataclass(slots=True)
+MBOXBUSD = MBOXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MBOXTRY:
     name: str = "MBOXTRY"
     precision: int = 8
@@ -24741,7 +28449,10 @@ class MBOXTRY:
         return "MBOXTRY"
 
 
-@dataclass(slots=True)
+MBOXTRY = MBOXTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class MBOXUSDT:
     name: str = "MBOXUSDT"
     precision: int = 8
@@ -24761,7 +28472,10 @@ class MBOXUSDT:
         return "MBOXUSDT"
 
 
-@dataclass(slots=True)
+MBOXUSDT = MBOXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MCBNB:
     name: str = "MCBNB"
     precision: int = 8
@@ -24781,7 +28495,10 @@ class MCBNB:
         return "MCBNB"
 
 
-@dataclass(slots=True)
+MCBNB = MCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MCBTC:
     name: str = "MCBTC"
     precision: int = 8
@@ -24801,7 +28518,10 @@ class MCBTC:
         return "MCBTC"
 
 
-@dataclass(slots=True)
+MCBTC = MCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MCBUSD:
     name: str = "MCBUSD"
     precision: int = 8
@@ -24821,7 +28541,10 @@ class MCBUSD:
         return "MCBUSD"
 
 
-@dataclass(slots=True)
+MCBUSD = MCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MCOBNB:
     name: str = "MCOBNB"
     precision: int = 8
@@ -24841,7 +28564,10 @@ class MCOBNB:
         return "MCOBNB"
 
 
-@dataclass(slots=True)
+MCOBNB = MCOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MCOBTC:
     name: str = "MCOBTC"
     precision: int = 8
@@ -24861,7 +28587,10 @@ class MCOBTC:
         return "MCOBTC"
 
 
-@dataclass(slots=True)
+MCOBTC = MCOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MCOETH:
     name: str = "MCOETH"
     precision: int = 8
@@ -24881,7 +28610,10 @@ class MCOETH:
         return "MCOETH"
 
 
-@dataclass(slots=True)
+MCOETH = MCOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MCOUSDT:
     name: str = "MCOUSDT"
     precision: int = 8
@@ -24901,7 +28633,10 @@ class MCOUSDT:
         return "MCOUSDT"
 
 
-@dataclass(slots=True)
+MCOUSDT = MCOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MCUSDT:
     name: str = "MCUSDT"
     precision: int = 8
@@ -24921,7 +28656,10 @@ class MCUSDT:
         return "MCUSDT"
 
 
-@dataclass(slots=True)
+MCUSDT = MCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MDABTC:
     name: str = "MDABTC"
     precision: int = 8
@@ -24941,7 +28679,10 @@ class MDABTC:
         return "MDABTC"
 
 
-@dataclass(slots=True)
+MDABTC = MDABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MDAETH:
     name: str = "MDAETH"
     precision: int = 8
@@ -24961,7 +28702,10 @@ class MDAETH:
         return "MDAETH"
 
 
-@dataclass(slots=True)
+MDAETH = MDAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MDTBNB:
     name: str = "MDTBNB"
     precision: int = 8
@@ -24981,7 +28725,10 @@ class MDTBNB:
         return "MDTBNB"
 
 
-@dataclass(slots=True)
+MDTBNB = MDTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MDTBTC:
     name: str = "MDTBTC"
     precision: int = 8
@@ -25001,7 +28748,10 @@ class MDTBTC:
         return "MDTBTC"
 
 
-@dataclass(slots=True)
+MDTBTC = MDTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MDTBUSD:
     name: str = "MDTBUSD"
     precision: int = 8
@@ -25021,7 +28771,10 @@ class MDTBUSD:
         return "MDTBUSD"
 
 
-@dataclass(slots=True)
+MDTBUSD = MDTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MDTUSDT:
     name: str = "MDTUSDT"
     precision: int = 8
@@ -25041,7 +28794,10 @@ class MDTUSDT:
         return "MDTUSDT"
 
 
-@dataclass(slots=True)
+MDTUSDT = MDTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MDXBNB:
     name: str = "MDXBNB"
     precision: int = 8
@@ -25061,7 +28817,10 @@ class MDXBNB:
         return "MDXBNB"
 
 
-@dataclass(slots=True)
+MDXBNB = MDXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MDXBTC:
     name: str = "MDXBTC"
     precision: int = 8
@@ -25081,7 +28840,10 @@ class MDXBTC:
         return "MDXBTC"
 
 
-@dataclass(slots=True)
+MDXBTC = MDXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MDXBUSD:
     name: str = "MDXBUSD"
     precision: int = 8
@@ -25101,7 +28863,10 @@ class MDXBUSD:
         return "MDXBUSD"
 
 
-@dataclass(slots=True)
+MDXBUSD = MDXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MDXUSDT:
     name: str = "MDXUSDT"
     precision: int = 8
@@ -25121,7 +28886,10 @@ class MDXUSDT:
         return "MDXUSDT"
 
 
-@dataclass(slots=True)
+MDXUSDT = MDXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MFTBNB:
     name: str = "MFTBNB"
     precision: int = 8
@@ -25141,7 +28909,10 @@ class MFTBNB:
         return "MFTBNB"
 
 
-@dataclass(slots=True)
+MFTBNB = MFTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MFTBTC:
     name: str = "MFTBTC"
     precision: int = 8
@@ -25161,7 +28932,10 @@ class MFTBTC:
         return "MFTBTC"
 
 
-@dataclass(slots=True)
+MFTBTC = MFTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MFTETH:
     name: str = "MFTETH"
     precision: int = 8
@@ -25181,7 +28955,10 @@ class MFTETH:
         return "MFTETH"
 
 
-@dataclass(slots=True)
+MFTETH = MFTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MFTUSDT:
     name: str = "MFTUSDT"
     precision: int = 8
@@ -25201,7 +28978,10 @@ class MFTUSDT:
         return "MFTUSDT"
 
 
-@dataclass(slots=True)
+MFTUSDT = MFTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MINABNB:
     name: str = "MINABNB"
     precision: int = 8
@@ -25221,7 +29001,10 @@ class MINABNB:
         return "MINABNB"
 
 
-@dataclass(slots=True)
+MINABNB = MINABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MINABTC:
     name: str = "MINABTC"
     precision: int = 8
@@ -25241,7 +29024,10 @@ class MINABTC:
         return "MINABTC"
 
 
-@dataclass(slots=True)
+MINABTC = MINABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MINABUSD:
     name: str = "MINABUSD"
     precision: int = 8
@@ -25261,7 +29047,10 @@ class MINABUSD:
         return "MINABUSD"
 
 
-@dataclass(slots=True)
+MINABUSD = MINABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MINATRY:
     name: str = "MINATRY"
     precision: int = 8
@@ -25281,7 +29070,10 @@ class MINATRY:
         return "MINATRY"
 
 
-@dataclass(slots=True)
+MINATRY = MINATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class MINAUSDT:
     name: str = "MINAUSDT"
     precision: int = 8
@@ -25301,7 +29093,10 @@ class MINAUSDT:
         return "MINAUSDT"
 
 
-@dataclass(slots=True)
+MINAUSDT = MINAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MIRBTC:
     name: str = "MIRBTC"
     precision: int = 8
@@ -25321,7 +29116,10 @@ class MIRBTC:
         return "MIRBTC"
 
 
-@dataclass(slots=True)
+MIRBTC = MIRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MIRBUSD:
     name: str = "MIRBUSD"
     precision: int = 8
@@ -25341,7 +29139,10 @@ class MIRBUSD:
         return "MIRBUSD"
 
 
-@dataclass(slots=True)
+MIRBUSD = MIRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MIRUSDT:
     name: str = "MIRUSDT"
     precision: int = 8
@@ -25361,7 +29162,10 @@ class MIRUSDT:
         return "MIRUSDT"
 
 
-@dataclass(slots=True)
+MIRUSDT = MIRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MITHBNB:
     name: str = "MITHBNB"
     precision: int = 8
@@ -25381,7 +29185,10 @@ class MITHBNB:
         return "MITHBNB"
 
 
-@dataclass(slots=True)
+MITHBNB = MITHBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MITHBTC:
     name: str = "MITHBTC"
     precision: int = 8
@@ -25401,7 +29208,10 @@ class MITHBTC:
         return "MITHBTC"
 
 
-@dataclass(slots=True)
+MITHBTC = MITHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MITHUSDT:
     name: str = "MITHUSDT"
     precision: int = 8
@@ -25421,7 +29231,10 @@ class MITHUSDT:
         return "MITHUSDT"
 
 
-@dataclass(slots=True)
+MITHUSDT = MITHUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MKRBNB:
     name: str = "MKRBNB"
     precision: int = 8
@@ -25441,7 +29254,10 @@ class MKRBNB:
         return "MKRBNB"
 
 
-@dataclass(slots=True)
+MKRBNB = MKRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MKRBTC:
     name: str = "MKRBTC"
     precision: int = 8
@@ -25461,7 +29277,10 @@ class MKRBTC:
         return "MKRBTC"
 
 
-@dataclass(slots=True)
+MKRBTC = MKRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MKRBUSD:
     name: str = "MKRBUSD"
     precision: int = 8
@@ -25481,7 +29300,10 @@ class MKRBUSD:
         return "MKRBUSD"
 
 
-@dataclass(slots=True)
+MKRBUSD = MKRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MKRUSDT:
     name: str = "MKRUSDT"
     precision: int = 8
@@ -25501,7 +29323,10 @@ class MKRUSDT:
         return "MKRUSDT"
 
 
-@dataclass(slots=True)
+MKRUSDT = MKRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MLNBNB:
     name: str = "MLNBNB"
     precision: int = 8
@@ -25521,7 +29346,10 @@ class MLNBNB:
         return "MLNBNB"
 
 
-@dataclass(slots=True)
+MLNBNB = MLNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MLNBTC:
     name: str = "MLNBTC"
     precision: int = 8
@@ -25541,7 +29369,10 @@ class MLNBTC:
         return "MLNBTC"
 
 
-@dataclass(slots=True)
+MLNBTC = MLNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MLNBUSD:
     name: str = "MLNBUSD"
     precision: int = 8
@@ -25561,7 +29392,10 @@ class MLNBUSD:
         return "MLNBUSD"
 
 
-@dataclass(slots=True)
+MLNBUSD = MLNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MLNUSDT:
     name: str = "MLNUSDT"
     precision: int = 8
@@ -25581,7 +29415,10 @@ class MLNUSDT:
         return "MLNUSDT"
 
 
-@dataclass(slots=True)
+MLNUSDT = MLNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MOBBTC:
     name: str = "MOBBTC"
     precision: int = 8
@@ -25601,7 +29438,10 @@ class MOBBTC:
         return "MOBBTC"
 
 
-@dataclass(slots=True)
+MOBBTC = MOBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MOBBUSD:
     name: str = "MOBBUSD"
     precision: int = 8
@@ -25621,7 +29461,10 @@ class MOBBUSD:
         return "MOBBUSD"
 
 
-@dataclass(slots=True)
+MOBBUSD = MOBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MOBUSDT:
     name: str = "MOBUSDT"
     precision: int = 8
@@ -25641,7 +29484,10 @@ class MOBUSDT:
         return "MOBUSDT"
 
 
-@dataclass(slots=True)
+MOBUSDT = MOBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MODBTC:
     name: str = "MODBTC"
     precision: int = 8
@@ -25661,7 +29507,10 @@ class MODBTC:
         return "MODBTC"
 
 
-@dataclass(slots=True)
+MODBTC = MODBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MODETH:
     name: str = "MODETH"
     precision: int = 8
@@ -25681,7 +29530,10 @@ class MODETH:
         return "MODETH"
 
 
-@dataclass(slots=True)
+MODETH = MODETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MOVRBNB:
     name: str = "MOVRBNB"
     precision: int = 8
@@ -25701,7 +29553,10 @@ class MOVRBNB:
         return "MOVRBNB"
 
 
-@dataclass(slots=True)
+MOVRBNB = MOVRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class MOVRBTC:
     name: str = "MOVRBTC"
     precision: int = 8
@@ -25721,7 +29576,10 @@ class MOVRBTC:
         return "MOVRBTC"
 
 
-@dataclass(slots=True)
+MOVRBTC = MOVRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MOVRBUSD:
     name: str = "MOVRBUSD"
     precision: int = 8
@@ -25741,7 +29599,10 @@ class MOVRBUSD:
         return "MOVRBUSD"
 
 
-@dataclass(slots=True)
+MOVRBUSD = MOVRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MOVRUSDT:
     name: str = "MOVRUSDT"
     precision: int = 8
@@ -25761,7 +29622,10 @@ class MOVRUSDT:
         return "MOVRUSDT"
 
 
-@dataclass(slots=True)
+MOVRUSDT = MOVRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MTHBTC:
     name: str = "MTHBTC"
     precision: int = 8
@@ -25781,7 +29645,10 @@ class MTHBTC:
         return "MTHBTC"
 
 
-@dataclass(slots=True)
+MTHBTC = MTHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MTHETH:
     name: str = "MTHETH"
     precision: int = 8
@@ -25801,7 +29668,10 @@ class MTHETH:
         return "MTHETH"
 
 
-@dataclass(slots=True)
+MTHETH = MTHETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MTLBTC:
     name: str = "MTLBTC"
     precision: int = 8
@@ -25821,7 +29691,10 @@ class MTLBTC:
         return "MTLBTC"
 
 
-@dataclass(slots=True)
+MTLBTC = MTLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MTLBUSD:
     name: str = "MTLBUSD"
     precision: int = 8
@@ -25841,7 +29714,10 @@ class MTLBUSD:
         return "MTLBUSD"
 
 
-@dataclass(slots=True)
+MTLBUSD = MTLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MTLETH:
     name: str = "MTLETH"
     precision: int = 8
@@ -25861,7 +29737,10 @@ class MTLETH:
         return "MTLETH"
 
 
-@dataclass(slots=True)
+MTLETH = MTLETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MTLUSDT:
     name: str = "MTLUSDT"
     precision: int = 8
@@ -25881,7 +29760,10 @@ class MTLUSDT:
         return "MTLUSDT"
 
 
-@dataclass(slots=True)
+MTLUSDT = MTLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MULTIBTC:
     name: str = "MULTIBTC"
     precision: int = 8
@@ -25901,7 +29783,10 @@ class MULTIBTC:
         return "MULTIBTC"
 
 
-@dataclass(slots=True)
+MULTIBTC = MULTIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MULTIBUSD:
     name: str = "MULTIBUSD"
     precision: int = 8
@@ -25921,7 +29806,10 @@ class MULTIBUSD:
         return "MULTIBUSD"
 
 
-@dataclass(slots=True)
+MULTIBUSD = MULTIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class MULTIUSDT:
     name: str = "MULTIUSDT"
     precision: int = 8
@@ -25941,7 +29829,10 @@ class MULTIUSDT:
         return "MULTIUSDT"
 
 
-@dataclass(slots=True)
+MULTIUSDT = MULTIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NANOBNB:
     name: str = "NANOBNB"
     precision: int = 8
@@ -25961,7 +29852,10 @@ class NANOBNB:
         return "NANOBNB"
 
 
-@dataclass(slots=True)
+NANOBNB = NANOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NANOBTC:
     name: str = "NANOBTC"
     precision: int = 8
@@ -25981,7 +29875,10 @@ class NANOBTC:
         return "NANOBTC"
 
 
-@dataclass(slots=True)
+NANOBTC = NANOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NANOBUSD:
     name: str = "NANOBUSD"
     precision: int = 8
@@ -26001,7 +29898,10 @@ class NANOBUSD:
         return "NANOBUSD"
 
 
-@dataclass(slots=True)
+NANOBUSD = NANOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NANOETH:
     name: str = "NANOETH"
     precision: int = 8
@@ -26021,7 +29921,10 @@ class NANOETH:
         return "NANOETH"
 
 
-@dataclass(slots=True)
+NANOETH = NANOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NANOUSDT:
     name: str = "NANOUSDT"
     precision: int = 8
@@ -26041,7 +29944,10 @@ class NANOUSDT:
         return "NANOUSDT"
 
 
-@dataclass(slots=True)
+NANOUSDT = NANOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NASBNB:
     name: str = "NASBNB"
     precision: int = 8
@@ -26061,7 +29967,10 @@ class NASBNB:
         return "NASBNB"
 
 
-@dataclass(slots=True)
+NASBNB = NASBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NASBTC:
     name: str = "NASBTC"
     precision: int = 8
@@ -26081,7 +29990,10 @@ class NASBTC:
         return "NASBTC"
 
 
-@dataclass(slots=True)
+NASBTC = NASBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NASETH:
     name: str = "NASETH"
     precision: int = 8
@@ -26101,7 +30013,10 @@ class NASETH:
         return "NASETH"
 
 
-@dataclass(slots=True)
+NASETH = NASETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NAVBNB:
     name: str = "NAVBNB"
     precision: int = 8
@@ -26121,7 +30036,10 @@ class NAVBNB:
         return "NAVBNB"
 
 
-@dataclass(slots=True)
+NAVBNB = NAVBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NAVBTC:
     name: str = "NAVBTC"
     precision: int = 8
@@ -26141,7 +30059,10 @@ class NAVBTC:
         return "NAVBTC"
 
 
-@dataclass(slots=True)
+NAVBTC = NAVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NAVETH:
     name: str = "NAVETH"
     precision: int = 8
@@ -26161,7 +30082,10 @@ class NAVETH:
         return "NAVETH"
 
 
-@dataclass(slots=True)
+NAVETH = NAVETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NBSBTC:
     name: str = "NBSBTC"
     precision: int = 8
@@ -26181,7 +30105,10 @@ class NBSBTC:
         return "NBSBTC"
 
 
-@dataclass(slots=True)
+NBSBTC = NBSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NBSUSDT:
     name: str = "NBSUSDT"
     precision: int = 8
@@ -26201,7 +30128,10 @@ class NBSUSDT:
         return "NBSUSDT"
 
 
-@dataclass(slots=True)
+NBSUSDT = NBSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NBTBIDR:
     name: str = "NBTBIDR"
     precision: int = 2
@@ -26221,7 +30151,10 @@ class NBTBIDR:
         return "NBTBIDR"
 
 
-@dataclass(slots=True)
+NBTBIDR = NBTBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class NBTUSDT:
     name: str = "NBTUSDT"
     precision: int = 8
@@ -26241,7 +30174,10 @@ class NBTUSDT:
         return "NBTUSDT"
 
 
-@dataclass(slots=True)
+NBTUSDT = NBTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NCASHBNB:
     name: str = "NCASHBNB"
     precision: int = 8
@@ -26261,7 +30197,10 @@ class NCASHBNB:
         return "NCASHBNB"
 
 
-@dataclass(slots=True)
+NCASHBNB = NCASHBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NCASHBTC:
     name: str = "NCASHBTC"
     precision: int = 8
@@ -26281,7 +30220,10 @@ class NCASHBTC:
         return "NCASHBTC"
 
 
-@dataclass(slots=True)
+NCASHBTC = NCASHBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NCASHETH:
     name: str = "NCASHETH"
     precision: int = 8
@@ -26301,7 +30243,10 @@ class NCASHETH:
         return "NCASHETH"
 
 
-@dataclass(slots=True)
+NCASHETH = NCASHETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARBNB:
     name: str = "NEARBNB"
     precision: int = 8
@@ -26321,7 +30266,10 @@ class NEARBNB:
         return "NEARBNB"
 
 
-@dataclass(slots=True)
+NEARBNB = NEARBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARBTC:
     name: str = "NEARBTC"
     precision: int = 8
@@ -26341,7 +30289,10 @@ class NEARBTC:
         return "NEARBTC"
 
 
-@dataclass(slots=True)
+NEARBTC = NEARBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARBUSD:
     name: str = "NEARBUSD"
     precision: int = 8
@@ -26361,7 +30312,10 @@ class NEARBUSD:
         return "NEARBUSD"
 
 
-@dataclass(slots=True)
+NEARBUSD = NEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARETH:
     name: str = "NEARETH"
     precision: int = 8
@@ -26381,7 +30335,10 @@ class NEARETH:
         return "NEARETH"
 
 
-@dataclass(slots=True)
+NEARETH = NEARETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NEAREUR:
     name: str = "NEAREUR"
     precision: int = 8
@@ -26401,7 +30358,10 @@ class NEAREUR:
         return "NEAREUR"
 
 
-@dataclass(slots=True)
+NEAREUR = NEAREUR()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARRUB:
     name: str = "NEARRUB"
     precision: int = 8
@@ -26421,7 +30381,10 @@ class NEARRUB:
         return "NEARRUB"
 
 
-@dataclass(slots=True)
+NEARRUB = NEARRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARTRY:
     name: str = "NEARTRY"
     precision: int = 8
@@ -26441,7 +30404,10 @@ class NEARTRY:
         return "NEARTRY"
 
 
-@dataclass(slots=True)
+NEARTRY = NEARTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class NEARUSDT:
     name: str = "NEARUSDT"
     precision: int = 8
@@ -26461,7 +30427,10 @@ class NEARUSDT:
         return "NEARUSDT"
 
 
-@dataclass(slots=True)
+NEARUSDT = NEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NEBLBNB:
     name: str = "NEBLBNB"
     precision: int = 8
@@ -26481,7 +30450,10 @@ class NEBLBNB:
         return "NEBLBNB"
 
 
-@dataclass(slots=True)
+NEBLBNB = NEBLBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NEBLBTC:
     name: str = "NEBLBTC"
     precision: int = 8
@@ -26501,7 +30473,10 @@ class NEBLBTC:
         return "NEBLBTC"
 
 
-@dataclass(slots=True)
+NEBLBTC = NEBLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NEBLBUSD:
     name: str = "NEBLBUSD"
     precision: int = 8
@@ -26521,7 +30496,10 @@ class NEBLBUSD:
         return "NEBLBUSD"
 
 
-@dataclass(slots=True)
+NEBLBUSD = NEBLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEBLUSDT:
     name: str = "NEBLUSDT"
     precision: int = 8
@@ -26541,7 +30519,10 @@ class NEBLUSDT:
         return "NEBLUSDT"
 
 
-@dataclass(slots=True)
+NEBLUSDT = NEBLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOBNB:
     name: str = "NEOBNB"
     precision: int = 8
@@ -26561,7 +30542,10 @@ class NEOBNB:
         return "NEOBNB"
 
 
-@dataclass(slots=True)
+NEOBNB = NEOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOBTC:
     name: str = "NEOBTC"
     precision: int = 8
@@ -26581,7 +30565,10 @@ class NEOBTC:
         return "NEOBTC"
 
 
-@dataclass(slots=True)
+NEOBTC = NEOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOBUSD:
     name: str = "NEOBUSD"
     precision: int = 8
@@ -26601,7 +30588,10 @@ class NEOBUSD:
         return "NEOBUSD"
 
 
-@dataclass(slots=True)
+NEOBUSD = NEOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOETH:
     name: str = "NEOETH"
     precision: int = 8
@@ -26621,7 +30611,10 @@ class NEOETH:
         return "NEOETH"
 
 
-@dataclass(slots=True)
+NEOETH = NEOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOPAX:
     name: str = "NEOPAX"
     precision: int = 8
@@ -26641,7 +30634,10 @@ class NEOPAX:
         return "NEOPAX"
 
 
-@dataclass(slots=True)
+NEOPAX = NEOPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class NEORUB:
     name: str = "NEORUB"
     precision: int = 8
@@ -26661,7 +30657,10 @@ class NEORUB:
         return "NEORUB"
 
 
-@dataclass(slots=True)
+NEORUB = NEORUB()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOTRY:
     name: str = "NEOTRY"
     precision: int = 8
@@ -26681,7 +30680,10 @@ class NEOTRY:
         return "NEOTRY"
 
 
-@dataclass(slots=True)
+NEOTRY = NEOTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOTUSD:
     name: str = "NEOTUSD"
     precision: int = 8
@@ -26701,7 +30703,10 @@ class NEOTUSD:
         return "NEOTUSD"
 
 
-@dataclass(slots=True)
+NEOTUSD = NEOTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOUSDC:
     name: str = "NEOUSDC"
     precision: int = 8
@@ -26721,7 +30726,10 @@ class NEOUSDC:
         return "NEOUSDC"
 
 
-@dataclass(slots=True)
+NEOUSDC = NEOUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class NEOUSDT:
     name: str = "NEOUSDT"
     precision: int = 8
@@ -26741,7 +30749,10 @@ class NEOUSDT:
         return "NEOUSDT"
 
 
-@dataclass(slots=True)
+NEOUSDT = NEOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NEXOBTC:
     name: str = "NEXOBTC"
     precision: int = 8
@@ -26761,7 +30772,10 @@ class NEXOBTC:
         return "NEXOBTC"
 
 
-@dataclass(slots=True)
+NEXOBTC = NEXOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NEXOBUSD:
     name: str = "NEXOBUSD"
     precision: int = 8
@@ -26781,7 +30795,10 @@ class NEXOBUSD:
         return "NEXOBUSD"
 
 
-@dataclass(slots=True)
+NEXOBUSD = NEXOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEXOUSDT:
     name: str = "NEXOUSDT"
     precision: int = 8
@@ -26801,7 +30818,10 @@ class NEXOUSDT:
         return "NEXOUSDT"
 
 
-@dataclass(slots=True)
+NEXOUSDT = NEXOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NKNBNB:
     name: str = "NKNBNB"
     precision: int = 8
@@ -26821,7 +30841,10 @@ class NKNBNB:
         return "NKNBNB"
 
 
-@dataclass(slots=True)
+NKNBNB = NKNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NKNBTC:
     name: str = "NKNBTC"
     precision: int = 8
@@ -26841,7 +30864,10 @@ class NKNBTC:
         return "NKNBTC"
 
 
-@dataclass(slots=True)
+NKNBTC = NKNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NKNBUSD:
     name: str = "NKNBUSD"
     precision: int = 8
@@ -26861,7 +30887,10 @@ class NKNBUSD:
         return "NKNBUSD"
 
 
-@dataclass(slots=True)
+NKNBUSD = NKNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NKNUSDT:
     name: str = "NKNUSDT"
     precision: int = 8
@@ -26881,7 +30910,10 @@ class NKNUSDT:
         return "NKNUSDT"
 
 
-@dataclass(slots=True)
+NKNUSDT = NKNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NMRBTC:
     name: str = "NMRBTC"
     precision: int = 8
@@ -26901,7 +30933,10 @@ class NMRBTC:
         return "NMRBTC"
 
 
-@dataclass(slots=True)
+NMRBTC = NMRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NMRBUSD:
     name: str = "NMRBUSD"
     precision: int = 8
@@ -26921,7 +30956,10 @@ class NMRBUSD:
         return "NMRBUSD"
 
 
-@dataclass(slots=True)
+NMRBUSD = NMRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NMRUSDT:
     name: str = "NMRUSDT"
     precision: int = 8
@@ -26941,7 +30979,10 @@ class NMRUSDT:
         return "NMRUSDT"
 
 
-@dataclass(slots=True)
+NMRUSDT = NMRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NPXSBTC:
     name: str = "NPXSBTC"
     precision: int = 8
@@ -26961,7 +31002,10 @@ class NPXSBTC:
         return "NPXSBTC"
 
 
-@dataclass(slots=True)
+NPXSBTC = NPXSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NPXSETH:
     name: str = "NPXSETH"
     precision: int = 8
@@ -26981,7 +31025,10 @@ class NPXSETH:
         return "NPXSETH"
 
 
-@dataclass(slots=True)
+NPXSETH = NPXSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NPXSUSDC:
     name: str = "NPXSUSDC"
     precision: int = 8
@@ -27001,7 +31048,10 @@ class NPXSUSDC:
         return "NPXSUSDC"
 
 
-@dataclass(slots=True)
+NPXSUSDC = NPXSUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class NPXSUSDT:
     name: str = "NPXSUSDT"
     precision: int = 8
@@ -27021,7 +31071,10 @@ class NPXSUSDT:
         return "NPXSUSDT"
 
 
-@dataclass(slots=True)
+NPXSUSDT = NPXSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NUAUD:
     name: str = "NUAUD"
     precision: int = 8
@@ -27041,7 +31094,10 @@ class NUAUD:
         return "NUAUD"
 
 
-@dataclass(slots=True)
+NUAUD = NUAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class NUBNB:
     name: str = "NUBNB"
     precision: int = 8
@@ -27061,7 +31117,10 @@ class NUBNB:
         return "NUBNB"
 
 
-@dataclass(slots=True)
+NUBNB = NUBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NUBTC:
     name: str = "NUBTC"
     precision: int = 8
@@ -27081,7 +31140,10 @@ class NUBTC:
         return "NUBTC"
 
 
-@dataclass(slots=True)
+NUBTC = NUBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NUBUSD:
     name: str = "NUBUSD"
     precision: int = 8
@@ -27101,7 +31163,10 @@ class NUBUSD:
         return "NUBUSD"
 
 
-@dataclass(slots=True)
+NUBUSD = NUBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NULSBNB:
     name: str = "NULSBNB"
     precision: int = 8
@@ -27121,7 +31186,10 @@ class NULSBNB:
         return "NULSBNB"
 
 
-@dataclass(slots=True)
+NULSBNB = NULSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NULSBTC:
     name: str = "NULSBTC"
     precision: int = 8
@@ -27141,7 +31209,10 @@ class NULSBTC:
         return "NULSBTC"
 
 
-@dataclass(slots=True)
+NULSBTC = NULSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NULSBUSD:
     name: str = "NULSBUSD"
     precision: int = 8
@@ -27161,7 +31232,10 @@ class NULSBUSD:
         return "NULSBUSD"
 
 
-@dataclass(slots=True)
+NULSBUSD = NULSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class NULSETH:
     name: str = "NULSETH"
     precision: int = 8
@@ -27181,7 +31255,10 @@ class NULSETH:
         return "NULSETH"
 
 
-@dataclass(slots=True)
+NULSETH = NULSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class NULSUSDT:
     name: str = "NULSUSDT"
     precision: int = 8
@@ -27201,7 +31278,10 @@ class NULSUSDT:
         return "NULSUSDT"
 
 
-@dataclass(slots=True)
+NULSUSDT = NULSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NURUB:
     name: str = "NURUB"
     precision: int = 8
@@ -27221,7 +31301,10 @@ class NURUB:
         return "NURUB"
 
 
-@dataclass(slots=True)
+NURUB = NURUB()
+
+
+@dataclass(slots=True, frozen=True)
 class NUUSDT:
     name: str = "NUUSDT"
     precision: int = 8
@@ -27241,7 +31324,10 @@ class NUUSDT:
         return "NUUSDT"
 
 
-@dataclass(slots=True)
+NUUSDT = NUUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NXSBNB:
     name: str = "NXSBNB"
     precision: int = 8
@@ -27261,7 +31347,10 @@ class NXSBNB:
         return "NXSBNB"
 
 
-@dataclass(slots=True)
+NXSBNB = NXSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class NXSBTC:
     name: str = "NXSBTC"
     precision: int = 8
@@ -27281,7 +31370,10 @@ class NXSBTC:
         return "NXSBTC"
 
 
-@dataclass(slots=True)
+NXSBTC = NXSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NXSETH:
     name: str = "NXSETH"
     precision: int = 8
@@ -27301,7 +31393,10 @@ class NXSETH:
         return "NXSETH"
 
 
-@dataclass(slots=True)
+NXSETH = NXSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OAXBTC:
     name: str = "OAXBTC"
     precision: int = 8
@@ -27321,7 +31416,10 @@ class OAXBTC:
         return "OAXBTC"
 
 
-@dataclass(slots=True)
+OAXBTC = OAXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OAXETH:
     name: str = "OAXETH"
     precision: int = 8
@@ -27341,7 +31439,10 @@ class OAXETH:
         return "OAXETH"
 
 
-@dataclass(slots=True)
+OAXETH = OAXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OCEANBNB:
     name: str = "OCEANBNB"
     precision: int = 8
@@ -27361,7 +31462,10 @@ class OCEANBNB:
         return "OCEANBNB"
 
 
-@dataclass(slots=True)
+OCEANBNB = OCEANBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OCEANBTC:
     name: str = "OCEANBTC"
     precision: int = 8
@@ -27381,7 +31485,10 @@ class OCEANBTC:
         return "OCEANBTC"
 
 
-@dataclass(slots=True)
+OCEANBTC = OCEANBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OCEANBUSD:
     name: str = "OCEANBUSD"
     precision: int = 8
@@ -27401,7 +31508,10 @@ class OCEANBUSD:
         return "OCEANBUSD"
 
 
-@dataclass(slots=True)
+OCEANBUSD = OCEANBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OCEANUSDT:
     name: str = "OCEANUSDT"
     precision: int = 8
@@ -27421,7 +31531,10 @@ class OCEANUSDT:
         return "OCEANUSDT"
 
 
-@dataclass(slots=True)
+OCEANUSDT = OCEANUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OGBTC:
     name: str = "OGBTC"
     precision: int = 8
@@ -27441,7 +31554,10 @@ class OGBTC:
         return "OGBTC"
 
 
-@dataclass(slots=True)
+OGBTC = OGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OGBUSD:
     name: str = "OGBUSD"
     precision: int = 8
@@ -27461,7 +31577,10 @@ class OGBUSD:
         return "OGBUSD"
 
 
-@dataclass(slots=True)
+OGBUSD = OGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OGNBNB:
     name: str = "OGNBNB"
     precision: int = 8
@@ -27481,7 +31600,10 @@ class OGNBNB:
         return "OGNBNB"
 
 
-@dataclass(slots=True)
+OGNBNB = OGNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OGNBTC:
     name: str = "OGNBTC"
     precision: int = 8
@@ -27501,7 +31623,10 @@ class OGNBTC:
         return "OGNBTC"
 
 
-@dataclass(slots=True)
+OGNBTC = OGNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OGNBUSD:
     name: str = "OGNBUSD"
     precision: int = 8
@@ -27521,7 +31646,10 @@ class OGNBUSD:
         return "OGNBUSD"
 
 
-@dataclass(slots=True)
+OGNBUSD = OGNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OGNUSDT:
     name: str = "OGNUSDT"
     precision: int = 8
@@ -27541,7 +31669,10 @@ class OGNUSDT:
         return "OGNUSDT"
 
 
-@dataclass(slots=True)
+OGNUSDT = OGNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OGUSDT:
     name: str = "OGUSDT"
     precision: int = 8
@@ -27561,7 +31692,10 @@ class OGUSDT:
         return "OGUSDT"
 
 
-@dataclass(slots=True)
+OGUSDT = OGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OMBTC:
     name: str = "OMBTC"
     precision: int = 8
@@ -27581,7 +31715,10 @@ class OMBTC:
         return "OMBTC"
 
 
-@dataclass(slots=True)
+OMBTC = OMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OMBUSD:
     name: str = "OMBUSD"
     precision: int = 8
@@ -27601,7 +31738,10 @@ class OMBUSD:
         return "OMBUSD"
 
 
-@dataclass(slots=True)
+OMBUSD = OMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OMGBNB:
     name: str = "OMGBNB"
     precision: int = 8
@@ -27621,7 +31761,10 @@ class OMGBNB:
         return "OMGBNB"
 
 
-@dataclass(slots=True)
+OMGBNB = OMGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OMGBTC:
     name: str = "OMGBTC"
     precision: int = 8
@@ -27641,7 +31784,10 @@ class OMGBTC:
         return "OMGBTC"
 
 
-@dataclass(slots=True)
+OMGBTC = OMGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OMGBUSD:
     name: str = "OMGBUSD"
     precision: int = 8
@@ -27661,7 +31807,10 @@ class OMGBUSD:
         return "OMGBUSD"
 
 
-@dataclass(slots=True)
+OMGBUSD = OMGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OMGETH:
     name: str = "OMGETH"
     precision: int = 8
@@ -27681,7 +31830,10 @@ class OMGETH:
         return "OMGETH"
 
 
-@dataclass(slots=True)
+OMGETH = OMGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OMGUSDT:
     name: str = "OMGUSDT"
     precision: int = 8
@@ -27701,7 +31853,10 @@ class OMGUSDT:
         return "OMGUSDT"
 
 
-@dataclass(slots=True)
+OMGUSDT = OMGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OMUSDT:
     name: str = "OMUSDT"
     precision: int = 8
@@ -27721,7 +31876,10 @@ class OMUSDT:
         return "OMUSDT"
 
 
-@dataclass(slots=True)
+OMUSDT = OMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEBIDR:
     name: str = "ONEBIDR"
     precision: int = 2
@@ -27741,7 +31899,10 @@ class ONEBIDR:
         return "ONEBIDR"
 
 
-@dataclass(slots=True)
+ONEBIDR = ONEBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEBNB:
     name: str = "ONEBNB"
     precision: int = 8
@@ -27761,7 +31922,10 @@ class ONEBNB:
         return "ONEBNB"
 
 
-@dataclass(slots=True)
+ONEBNB = ONEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEBTC:
     name: str = "ONEBTC"
     precision: int = 8
@@ -27781,7 +31945,10 @@ class ONEBTC:
         return "ONEBTC"
 
 
-@dataclass(slots=True)
+ONEBTC = ONEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEBUSD:
     name: str = "ONEBUSD"
     precision: int = 8
@@ -27801,7 +31968,10 @@ class ONEBUSD:
         return "ONEBUSD"
 
 
-@dataclass(slots=True)
+ONEBUSD = ONEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEETH:
     name: str = "ONEETH"
     precision: int = 8
@@ -27821,7 +31991,10 @@ class ONEETH:
         return "ONEETH"
 
 
-@dataclass(slots=True)
+ONEETH = ONEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEPAX:
     name: str = "ONEPAX"
     precision: int = 8
@@ -27841,7 +32014,10 @@ class ONEPAX:
         return "ONEPAX"
 
 
-@dataclass(slots=True)
+ONEPAX = ONEPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ONETRY:
     name: str = "ONETRY"
     precision: int = 8
@@ -27861,7 +32037,10 @@ class ONETRY:
         return "ONETRY"
 
 
-@dataclass(slots=True)
+ONETRY = ONETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ONETUSD:
     name: str = "ONETUSD"
     precision: int = 8
@@ -27881,7 +32060,10 @@ class ONETUSD:
         return "ONETUSD"
 
 
-@dataclass(slots=True)
+ONETUSD = ONETUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEUSDC:
     name: str = "ONEUSDC"
     precision: int = 8
@@ -27901,7 +32083,10 @@ class ONEUSDC:
         return "ONEUSDC"
 
 
-@dataclass(slots=True)
+ONEUSDC = ONEUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEUSDT:
     name: str = "ONEUSDT"
     precision: int = 8
@@ -27921,7 +32106,10 @@ class ONEUSDT:
         return "ONEUSDT"
 
 
-@dataclass(slots=True)
+ONEUSDT = ONEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ONGBNB:
     name: str = "ONGBNB"
     precision: int = 8
@@ -27941,7 +32129,10 @@ class ONGBNB:
         return "ONGBNB"
 
 
-@dataclass(slots=True)
+ONGBNB = ONGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ONGBTC:
     name: str = "ONGBTC"
     precision: int = 8
@@ -27961,7 +32152,10 @@ class ONGBTC:
         return "ONGBTC"
 
 
-@dataclass(slots=True)
+ONGBTC = ONGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONGUSDT:
     name: str = "ONGUSDT"
     precision: int = 8
@@ -27981,7 +32175,10 @@ class ONGUSDT:
         return "ONGUSDT"
 
 
-@dataclass(slots=True)
+ONGUSDT = ONGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTBNB:
     name: str = "ONTBNB"
     precision: int = 8
@@ -28001,7 +32198,10 @@ class ONTBNB:
         return "ONTBNB"
 
 
-@dataclass(slots=True)
+ONTBNB = ONTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTBTC:
     name: str = "ONTBTC"
     precision: int = 8
@@ -28021,7 +32221,10 @@ class ONTBTC:
         return "ONTBTC"
 
 
-@dataclass(slots=True)
+ONTBTC = ONTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTBUSD:
     name: str = "ONTBUSD"
     precision: int = 8
@@ -28041,7 +32244,10 @@ class ONTBUSD:
         return "ONTBUSD"
 
 
-@dataclass(slots=True)
+ONTBUSD = ONTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTETH:
     name: str = "ONTETH"
     precision: int = 8
@@ -28061,7 +32267,10 @@ class ONTETH:
         return "ONTETH"
 
 
-@dataclass(slots=True)
+ONTETH = ONTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTPAX:
     name: str = "ONTPAX"
     precision: int = 8
@@ -28081,7 +32290,10 @@ class ONTPAX:
         return "ONTPAX"
 
 
-@dataclass(slots=True)
+ONTPAX = ONTPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTTRY:
     name: str = "ONTTRY"
     precision: int = 8
@@ -28101,7 +32313,10 @@ class ONTTRY:
         return "ONTTRY"
 
 
-@dataclass(slots=True)
+ONTTRY = ONTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTUSDC:
     name: str = "ONTUSDC"
     precision: int = 8
@@ -28121,7 +32336,10 @@ class ONTUSDC:
         return "ONTUSDC"
 
 
-@dataclass(slots=True)
+ONTUSDC = ONTUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONTUSDT:
     name: str = "ONTUSDT"
     precision: int = 8
@@ -28141,7 +32359,10 @@ class ONTUSDT:
         return "ONTUSDT"
 
 
-@dataclass(slots=True)
+ONTUSDT = ONTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OOKIBNB:
     name: str = "OOKIBNB"
     precision: int = 8
@@ -28161,7 +32382,10 @@ class OOKIBNB:
         return "OOKIBNB"
 
 
-@dataclass(slots=True)
+OOKIBNB = OOKIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OOKIBUSD:
     name: str = "OOKIBUSD"
     precision: int = 8
@@ -28181,7 +32405,10 @@ class OOKIBUSD:
         return "OOKIBUSD"
 
 
-@dataclass(slots=True)
+OOKIBUSD = OOKIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OOKIETH:
     name: str = "OOKIETH"
     precision: int = 8
@@ -28201,7 +32428,10 @@ class OOKIETH:
         return "OOKIETH"
 
 
-@dataclass(slots=True)
+OOKIETH = OOKIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OOKIUSDT:
     name: str = "OOKIUSDT"
     precision: int = 8
@@ -28221,7 +32451,10 @@ class OOKIUSDT:
         return "OOKIUSDT"
 
 
-@dataclass(slots=True)
+OOKIUSDT = OOKIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OPBNB:
     name: str = "OPBNB"
     precision: int = 8
@@ -28241,7 +32474,10 @@ class OPBNB:
         return "OPBNB"
 
 
-@dataclass(slots=True)
+OPBNB = OPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OPBTC:
     name: str = "OPBTC"
     precision: int = 8
@@ -28261,7 +32497,10 @@ class OPBTC:
         return "OPBTC"
 
 
-@dataclass(slots=True)
+OPBTC = OPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OPBUSD:
     name: str = "OPBUSD"
     precision: int = 8
@@ -28281,7 +32520,10 @@ class OPBUSD:
         return "OPBUSD"
 
 
-@dataclass(slots=True)
+OPBUSD = OPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OPETH:
     name: str = "OPETH"
     precision: int = 8
@@ -28301,7 +32543,10 @@ class OPETH:
         return "OPETH"
 
 
-@dataclass(slots=True)
+OPETH = OPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OPEUR:
     name: str = "OPEUR"
     precision: int = 8
@@ -28321,7 +32566,10 @@ class OPEUR:
         return "OPEUR"
 
 
-@dataclass(slots=True)
+OPEUR = OPEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class OPUSDT:
     name: str = "OPUSDT"
     precision: int = 8
@@ -28341,7 +32589,10 @@ class OPUSDT:
         return "OPUSDT"
 
 
-@dataclass(slots=True)
+OPUSDT = OPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ORNBTC:
     name: str = "ORNBTC"
     precision: int = 8
@@ -28361,7 +32612,10 @@ class ORNBTC:
         return "ORNBTC"
 
 
-@dataclass(slots=True)
+ORNBTC = ORNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ORNBUSD:
     name: str = "ORNBUSD"
     precision: int = 8
@@ -28381,7 +32635,10 @@ class ORNBUSD:
         return "ORNBUSD"
 
 
-@dataclass(slots=True)
+ORNBUSD = ORNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ORNUSDT:
     name: str = "ORNUSDT"
     precision: int = 8
@@ -28401,7 +32658,10 @@ class ORNUSDT:
         return "ORNUSDT"
 
 
-@dataclass(slots=True)
+ORNUSDT = ORNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OSMOBTC:
     name: str = "OSMOBTC"
     precision: int = 8
@@ -28421,7 +32681,10 @@ class OSMOBTC:
         return "OSMOBTC"
 
 
-@dataclass(slots=True)
+OSMOBTC = OSMOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OSMOBUSD:
     name: str = "OSMOBUSD"
     precision: int = 8
@@ -28441,7 +32704,10 @@ class OSMOBUSD:
         return "OSMOBUSD"
 
 
-@dataclass(slots=True)
+OSMOBUSD = OSMOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OSMOUSDT:
     name: str = "OSMOUSDT"
     precision: int = 8
@@ -28461,7 +32727,10 @@ class OSMOUSDT:
         return "OSMOUSDT"
 
 
-@dataclass(slots=True)
+OSMOUSDT = OSMOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OSTBNB:
     name: str = "OSTBNB"
     precision: int = 8
@@ -28481,7 +32750,10 @@ class OSTBNB:
         return "OSTBNB"
 
 
-@dataclass(slots=True)
+OSTBNB = OSTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class OSTBTC:
     name: str = "OSTBTC"
     precision: int = 8
@@ -28501,7 +32773,10 @@ class OSTBTC:
         return "OSTBTC"
 
 
-@dataclass(slots=True)
+OSTBTC = OSTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OSTETH:
     name: str = "OSTETH"
     precision: int = 8
@@ -28521,7 +32796,10 @@ class OSTETH:
         return "OSTETH"
 
 
-@dataclass(slots=True)
+OSTETH = OSTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class OXTBTC:
     name: str = "OXTBTC"
     precision: int = 8
@@ -28541,7 +32819,10 @@ class OXTBTC:
         return "OXTBTC"
 
 
-@dataclass(slots=True)
+OXTBTC = OXTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OXTBUSD:
     name: str = "OXTBUSD"
     precision: int = 8
@@ -28561,7 +32842,10 @@ class OXTBUSD:
         return "OXTBUSD"
 
 
-@dataclass(slots=True)
+OXTBUSD = OXTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class OXTUSDT:
     name: str = "OXTUSDT"
     precision: int = 8
@@ -28581,7 +32865,10 @@ class OXTUSDT:
         return "OXTUSDT"
 
 
-@dataclass(slots=True)
+OXTUSDT = OXTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXBNB:
     name: str = "PAXBNB"
     precision: int = 8
@@ -28601,7 +32888,10 @@ class PAXBNB:
         return "PAXBNB"
 
 
-@dataclass(slots=True)
+PAXBNB = PAXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXBTC:
     name: str = "PAXBTC"
     precision: int = 8
@@ -28621,7 +32911,10 @@ class PAXBTC:
         return "PAXBTC"
 
 
-@dataclass(slots=True)
+PAXBTC = PAXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXBUSD:
     name: str = "PAXBUSD"
     precision: int = 8
@@ -28641,7 +32934,10 @@ class PAXBUSD:
         return "PAXBUSD"
 
 
-@dataclass(slots=True)
+PAXBUSD = PAXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXETH:
     name: str = "PAXETH"
     precision: int = 8
@@ -28661,7 +32957,10 @@ class PAXETH:
         return "PAXETH"
 
 
-@dataclass(slots=True)
+PAXETH = PAXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXGBNB:
     name: str = "PAXGBNB"
     precision: int = 8
@@ -28681,7 +32980,10 @@ class PAXGBNB:
         return "PAXGBNB"
 
 
-@dataclass(slots=True)
+PAXGBNB = PAXGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXGBTC:
     name: str = "PAXGBTC"
     precision: int = 8
@@ -28701,7 +33003,10 @@ class PAXGBTC:
         return "PAXGBTC"
 
 
-@dataclass(slots=True)
+PAXGBTC = PAXGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXGBUSD:
     name: str = "PAXGBUSD"
     precision: int = 8
@@ -28721,7 +33026,10 @@ class PAXGBUSD:
         return "PAXGBUSD"
 
 
-@dataclass(slots=True)
+PAXGBUSD = PAXGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXGUSDT:
     name: str = "PAXGUSDT"
     precision: int = 8
@@ -28741,7 +33049,10 @@ class PAXGUSDT:
         return "PAXGUSDT"
 
 
-@dataclass(slots=True)
+PAXGUSDT = PAXGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXTUSD:
     name: str = "PAXTUSD"
     precision: int = 8
@@ -28761,7 +33072,10 @@ class PAXTUSD:
         return "PAXTUSD"
 
 
-@dataclass(slots=True)
+PAXTUSD = PAXTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PAXUSDT:
     name: str = "PAXUSDT"
     precision: int = 8
@@ -28781,7 +33095,10 @@ class PAXUSDT:
         return "PAXUSDT"
 
 
-@dataclass(slots=True)
+PAXUSDT = PAXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PEOPLEBNB:
     name: str = "PEOPLEBNB"
     precision: int = 8
@@ -28801,7 +33118,10 @@ class PEOPLEBNB:
         return "PEOPLEBNB"
 
 
-@dataclass(slots=True)
+PEOPLEBNB = PEOPLEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PEOPLEBTC:
     name: str = "PEOPLEBTC"
     precision: int = 8
@@ -28821,7 +33141,10 @@ class PEOPLEBTC:
         return "PEOPLEBTC"
 
 
-@dataclass(slots=True)
+PEOPLEBTC = PEOPLEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PEOPLEBUSD:
     name: str = "PEOPLEBUSD"
     precision: int = 8
@@ -28841,7 +33164,10 @@ class PEOPLEBUSD:
         return "PEOPLEBUSD"
 
 
-@dataclass(slots=True)
+PEOPLEBUSD = PEOPLEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PEOPLEETH:
     name: str = "PEOPLEETH"
     precision: int = 8
@@ -28861,7 +33187,10 @@ class PEOPLEETH:
         return "PEOPLEETH"
 
 
-@dataclass(slots=True)
+PEOPLEETH = PEOPLEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PEOPLEUSDT:
     name: str = "PEOPLEUSDT"
     precision: int = 8
@@ -28881,7 +33210,10 @@ class PEOPLEUSDT:
         return "PEOPLEUSDT"
 
 
-@dataclass(slots=True)
+PEOPLEUSDT = PEOPLEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PERLBNB:
     name: str = "PERLBNB"
     precision: int = 8
@@ -28901,7 +33233,10 @@ class PERLBNB:
         return "PERLBNB"
 
 
-@dataclass(slots=True)
+PERLBNB = PERLBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PERLBTC:
     name: str = "PERLBTC"
     precision: int = 8
@@ -28921,7 +33256,10 @@ class PERLBTC:
         return "PERLBTC"
 
 
-@dataclass(slots=True)
+PERLBTC = PERLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PERLUSDC:
     name: str = "PERLUSDC"
     precision: int = 8
@@ -28941,7 +33279,10 @@ class PERLUSDC:
         return "PERLUSDC"
 
 
-@dataclass(slots=True)
+PERLUSDC = PERLUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class PERLUSDT:
     name: str = "PERLUSDT"
     precision: int = 8
@@ -28961,7 +33302,10 @@ class PERLUSDT:
         return "PERLUSDT"
 
 
-@dataclass(slots=True)
+PERLUSDT = PERLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PERPBTC:
     name: str = "PERPBTC"
     precision: int = 8
@@ -28981,7 +33325,10 @@ class PERPBTC:
         return "PERPBTC"
 
 
-@dataclass(slots=True)
+PERPBTC = PERPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PERPBUSD:
     name: str = "PERPBUSD"
     precision: int = 8
@@ -29001,7 +33348,10 @@ class PERPBUSD:
         return "PERPBUSD"
 
 
-@dataclass(slots=True)
+PERPBUSD = PERPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PERPUSDT:
     name: str = "PERPUSDT"
     precision: int = 8
@@ -29021,7 +33371,10 @@ class PERPUSDT:
         return "PERPUSDT"
 
 
-@dataclass(slots=True)
+PERPUSDT = PERPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PHABTC:
     name: str = "PHABTC"
     precision: int = 8
@@ -29041,7 +33394,10 @@ class PHABTC:
         return "PHABTC"
 
 
-@dataclass(slots=True)
+PHABTC = PHABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PHABUSD:
     name: str = "PHABUSD"
     precision: int = 8
@@ -29061,7 +33417,10 @@ class PHABUSD:
         return "PHABUSD"
 
 
-@dataclass(slots=True)
+PHABUSD = PHABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PHAUSDT:
     name: str = "PHAUSDT"
     precision: int = 8
@@ -29081,7 +33440,10 @@ class PHAUSDT:
         return "PHAUSDT"
 
 
-@dataclass(slots=True)
+PHAUSDT = PHAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBBNB:
     name: str = "PHBBNB"
     precision: int = 8
@@ -29101,7 +33463,10 @@ class PHBBNB:
         return "PHBBNB"
 
 
-@dataclass(slots=True)
+PHBBNB = PHBBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBBTC:
     name: str = "PHBBTC"
     precision: int = 8
@@ -29121,7 +33486,10 @@ class PHBBTC:
         return "PHBBTC"
 
 
-@dataclass(slots=True)
+PHBBTC = PHBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBBUSD:
     name: str = "PHBBUSD"
     precision: int = 8
@@ -29141,7 +33509,10 @@ class PHBBUSD:
         return "PHBBUSD"
 
 
-@dataclass(slots=True)
+PHBBUSD = PHBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBPAX:
     name: str = "PHBPAX"
     precision: int = 8
@@ -29161,7 +33532,10 @@ class PHBPAX:
         return "PHBPAX"
 
 
-@dataclass(slots=True)
+PHBPAX = PHBPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBTUSD:
     name: str = "PHBTUSD"
     precision: int = 8
@@ -29181,7 +33555,10 @@ class PHBTUSD:
         return "PHBTUSD"
 
 
-@dataclass(slots=True)
+PHBTUSD = PHBTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBUSDC:
     name: str = "PHBUSDC"
     precision: int = 8
@@ -29201,7 +33578,10 @@ class PHBUSDC:
         return "PHBUSDC"
 
 
-@dataclass(slots=True)
+PHBUSDC = PHBUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class PHBUSDT:
     name: str = "PHBUSDT"
     precision: int = 8
@@ -29221,7 +33601,10 @@ class PHBUSDT:
         return "PHBUSDT"
 
 
-@dataclass(slots=True)
+PHBUSDT = PHBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PHXBNB:
     name: str = "PHXBNB"
     precision: int = 8
@@ -29241,7 +33624,10 @@ class PHXBNB:
         return "PHXBNB"
 
 
-@dataclass(slots=True)
+PHXBNB = PHXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PHXBTC:
     name: str = "PHXBTC"
     precision: int = 8
@@ -29261,7 +33647,10 @@ class PHXBTC:
         return "PHXBTC"
 
 
-@dataclass(slots=True)
+PHXBTC = PHXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PHXETH:
     name: str = "PHXETH"
     precision: int = 8
@@ -29281,7 +33670,10 @@ class PHXETH:
         return "PHXETH"
 
 
-@dataclass(slots=True)
+PHXETH = PHXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PIVXBNB:
     name: str = "PIVXBNB"
     precision: int = 8
@@ -29301,7 +33693,10 @@ class PIVXBNB:
         return "PIVXBNB"
 
 
-@dataclass(slots=True)
+PIVXBNB = PIVXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PIVXBTC:
     name: str = "PIVXBTC"
     precision: int = 8
@@ -29321,7 +33716,10 @@ class PIVXBTC:
         return "PIVXBTC"
 
 
-@dataclass(slots=True)
+PIVXBTC = PIVXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PLABNB:
     name: str = "PLABNB"
     precision: int = 8
@@ -29341,7 +33739,10 @@ class PLABNB:
         return "PLABNB"
 
 
-@dataclass(slots=True)
+PLABNB = PLABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PLABTC:
     name: str = "PLABTC"
     precision: int = 8
@@ -29361,7 +33762,10 @@ class PLABTC:
         return "PLABTC"
 
 
-@dataclass(slots=True)
+PLABTC = PLABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PLABUSD:
     name: str = "PLABUSD"
     precision: int = 8
@@ -29381,7 +33785,10 @@ class PLABUSD:
         return "PLABUSD"
 
 
-@dataclass(slots=True)
+PLABUSD = PLABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PLAUSDT:
     name: str = "PLAUSDT"
     precision: int = 8
@@ -29401,7 +33808,10 @@ class PLAUSDT:
         return "PLAUSDT"
 
 
-@dataclass(slots=True)
+PLAUSDT = PLAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PNTBTC:
     name: str = "PNTBTC"
     precision: int = 8
@@ -29421,7 +33831,10 @@ class PNTBTC:
         return "PNTBTC"
 
 
-@dataclass(slots=True)
+PNTBTC = PNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PNTUSDT:
     name: str = "PNTUSDT"
     precision: int = 8
@@ -29441,7 +33854,10 @@ class PNTUSDT:
         return "PNTUSDT"
 
 
-@dataclass(slots=True)
+PNTUSDT = PNTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POABNB:
     name: str = "POABNB"
     precision: int = 8
@@ -29461,7 +33877,10 @@ class POABNB:
         return "POABNB"
 
 
-@dataclass(slots=True)
+POABNB = POABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class POABTC:
     name: str = "POABTC"
     precision: int = 8
@@ -29481,7 +33900,10 @@ class POABTC:
         return "POABTC"
 
 
-@dataclass(slots=True)
+POABTC = POABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POAETH:
     name: str = "POAETH"
     precision: int = 8
@@ -29501,7 +33923,10 @@ class POAETH:
         return "POAETH"
 
 
-@dataclass(slots=True)
+POAETH = POAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class POEBTC:
     name: str = "POEBTC"
     precision: int = 8
@@ -29521,7 +33946,10 @@ class POEBTC:
         return "POEBTC"
 
 
-@dataclass(slots=True)
+POEBTC = POEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POEETH:
     name: str = "POEETH"
     precision: int = 8
@@ -29541,7 +33969,10 @@ class POEETH:
         return "POEETH"
 
 
-@dataclass(slots=True)
+POEETH = POEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class POLSBNB:
     name: str = "POLSBNB"
     precision: int = 8
@@ -29561,7 +33992,10 @@ class POLSBNB:
         return "POLSBNB"
 
 
-@dataclass(slots=True)
+POLSBNB = POLSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class POLSBTC:
     name: str = "POLSBTC"
     precision: int = 8
@@ -29581,7 +34015,10 @@ class POLSBTC:
         return "POLSBTC"
 
 
-@dataclass(slots=True)
+POLSBTC = POLSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POLSBUSD:
     name: str = "POLSBUSD"
     precision: int = 8
@@ -29601,7 +34038,10 @@ class POLSBUSD:
         return "POLSBUSD"
 
 
-@dataclass(slots=True)
+POLSBUSD = POLSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLSUSDT:
     name: str = "POLSUSDT"
     precision: int = 8
@@ -29621,7 +34061,10 @@ class POLSUSDT:
         return "POLSUSDT"
 
 
-@dataclass(slots=True)
+POLSUSDT = POLSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYBNB:
     name: str = "POLYBNB"
     precision: int = 8
@@ -29641,7 +34084,10 @@ class POLYBNB:
         return "POLYBNB"
 
 
-@dataclass(slots=True)
+POLYBNB = POLYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYBTC:
     name: str = "POLYBTC"
     precision: int = 8
@@ -29661,7 +34107,10 @@ class POLYBTC:
         return "POLYBTC"
 
 
-@dataclass(slots=True)
+POLYBTC = POLYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYBUSD:
     name: str = "POLYBUSD"
     precision: int = 8
@@ -29681,7 +34130,10 @@ class POLYBUSD:
         return "POLYBUSD"
 
 
-@dataclass(slots=True)
+POLYBUSD = POLYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYUSDT:
     name: str = "POLYUSDT"
     precision: int = 8
@@ -29701,7 +34153,10 @@ class POLYUSDT:
         return "POLYUSDT"
 
 
-@dataclass(slots=True)
+POLYUSDT = POLYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYXBTC:
     name: str = "POLYXBTC"
     precision: int = 8
@@ -29721,7 +34176,10 @@ class POLYXBTC:
         return "POLYXBTC"
 
 
-@dataclass(slots=True)
+POLYXBTC = POLYXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYXBUSD:
     name: str = "POLYXBUSD"
     precision: int = 8
@@ -29741,7 +34199,10 @@ class POLYXBUSD:
         return "POLYXBUSD"
 
 
-@dataclass(slots=True)
+POLYXBUSD = POLYXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLYXUSDT:
     name: str = "POLYXUSDT"
     precision: int = 8
@@ -29761,7 +34222,10 @@ class POLYXUSDT:
         return "POLYXUSDT"
 
 
-@dataclass(slots=True)
+POLYXUSDT = POLYXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PONDBTC:
     name: str = "PONDBTC"
     precision: int = 8
@@ -29781,7 +34245,10 @@ class PONDBTC:
         return "PONDBTC"
 
 
-@dataclass(slots=True)
+PONDBTC = PONDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PONDBUSD:
     name: str = "PONDBUSD"
     precision: int = 8
@@ -29801,7 +34268,10 @@ class PONDBUSD:
         return "PONDBUSD"
 
 
-@dataclass(slots=True)
+PONDBUSD = PONDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PONDUSDT:
     name: str = "PONDUSDT"
     precision: int = 8
@@ -29821,7 +34291,10 @@ class PONDUSDT:
         return "PONDUSDT"
 
 
-@dataclass(slots=True)
+PONDUSDT = PONDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PORTOBTC:
     name: str = "PORTOBTC"
     precision: int = 8
@@ -29841,7 +34314,10 @@ class PORTOBTC:
         return "PORTOBTC"
 
 
-@dataclass(slots=True)
+PORTOBTC = PORTOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PORTOBUSD:
     name: str = "PORTOBUSD"
     precision: int = 8
@@ -29861,7 +34337,10 @@ class PORTOBUSD:
         return "PORTOBUSD"
 
 
-@dataclass(slots=True)
+PORTOBUSD = PORTOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PORTOEUR:
     name: str = "PORTOEUR"
     precision: int = 8
@@ -29881,7 +34360,10 @@ class PORTOEUR:
         return "PORTOEUR"
 
 
-@dataclass(slots=True)
+PORTOEUR = PORTOEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class PORTOTRY:
     name: str = "PORTOTRY"
     precision: int = 8
@@ -29901,7 +34383,10 @@ class PORTOTRY:
         return "PORTOTRY"
 
 
-@dataclass(slots=True)
+PORTOTRY = PORTOTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class PORTOUSDT:
     name: str = "PORTOUSDT"
     precision: int = 8
@@ -29921,7 +34406,10 @@ class PORTOUSDT:
         return "PORTOUSDT"
 
 
-@dataclass(slots=True)
+PORTOUSDT = PORTOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POWRBNB:
     name: str = "POWRBNB"
     precision: int = 8
@@ -29941,7 +34429,10 @@ class POWRBNB:
         return "POWRBNB"
 
 
-@dataclass(slots=True)
+POWRBNB = POWRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class POWRBTC:
     name: str = "POWRBTC"
     precision: int = 8
@@ -29961,7 +34452,10 @@ class POWRBTC:
         return "POWRBTC"
 
 
-@dataclass(slots=True)
+POWRBTC = POWRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class POWRBUSD:
     name: str = "POWRBUSD"
     precision: int = 8
@@ -29981,7 +34475,10 @@ class POWRBUSD:
         return "POWRBUSD"
 
 
-@dataclass(slots=True)
+POWRBUSD = POWRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class POWRETH:
     name: str = "POWRETH"
     precision: int = 8
@@ -30001,7 +34498,10 @@ class POWRETH:
         return "POWRETH"
 
 
-@dataclass(slots=True)
+POWRETH = POWRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class POWRUSDT:
     name: str = "POWRUSDT"
     precision: int = 8
@@ -30021,7 +34521,10 @@ class POWRUSDT:
         return "POWRUSDT"
 
 
-@dataclass(slots=True)
+POWRUSDT = POWRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PPTBTC:
     name: str = "PPTBTC"
     precision: int = 8
@@ -30041,7 +34544,10 @@ class PPTBTC:
         return "PPTBTC"
 
 
-@dataclass(slots=True)
+PPTBTC = PPTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PPTETH:
     name: str = "PPTETH"
     precision: int = 8
@@ -30061,7 +34567,10 @@ class PPTETH:
         return "PPTETH"
 
 
-@dataclass(slots=True)
+PPTETH = PPTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PROMBNB:
     name: str = "PROMBNB"
     precision: int = 8
@@ -30081,7 +34590,10 @@ class PROMBNB:
         return "PROMBNB"
 
 
-@dataclass(slots=True)
+PROMBNB = PROMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class PROMBTC:
     name: str = "PROMBTC"
     precision: int = 8
@@ -30101,7 +34613,10 @@ class PROMBTC:
         return "PROMBTC"
 
 
-@dataclass(slots=True)
+PROMBTC = PROMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PROMBUSD:
     name: str = "PROMBUSD"
     precision: int = 8
@@ -30121,7 +34636,10 @@ class PROMBUSD:
         return "PROMBUSD"
 
 
-@dataclass(slots=True)
+PROMBUSD = PROMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PROSBUSD:
     name: str = "PROSBUSD"
     precision: int = 8
@@ -30141,7 +34659,10 @@ class PROSBUSD:
         return "PROSBUSD"
 
 
-@dataclass(slots=True)
+PROSBUSD = PROSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PROSETH:
     name: str = "PROSETH"
     precision: int = 8
@@ -30161,7 +34682,10 @@ class PROSETH:
         return "PROSETH"
 
 
-@dataclass(slots=True)
+PROSETH = PROSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PSGBTC:
     name: str = "PSGBTC"
     precision: int = 8
@@ -30181,7 +34705,10 @@ class PSGBTC:
         return "PSGBTC"
 
 
-@dataclass(slots=True)
+PSGBTC = PSGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PSGBUSD:
     name: str = "PSGBUSD"
     precision: int = 8
@@ -30201,7 +34728,10 @@ class PSGBUSD:
         return "PSGBUSD"
 
 
-@dataclass(slots=True)
+PSGBUSD = PSGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PSGUSDT:
     name: str = "PSGUSDT"
     precision: int = 8
@@ -30221,7 +34751,10 @@ class PSGUSDT:
         return "PSGUSDT"
 
 
-@dataclass(slots=True)
+PSGUSDT = PSGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PUNDIXBUSD:
     name: str = "PUNDIXBUSD"
     precision: int = 8
@@ -30241,7 +34774,10 @@ class PUNDIXBUSD:
         return "PUNDIXBUSD"
 
 
-@dataclass(slots=True)
+PUNDIXBUSD = PUNDIXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PUNDIXETH:
     name: str = "PUNDIXETH"
     precision: int = 8
@@ -30261,7 +34797,10 @@ class PUNDIXETH:
         return "PUNDIXETH"
 
 
-@dataclass(slots=True)
+PUNDIXETH = PUNDIXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class PUNDIXUSDT:
     name: str = "PUNDIXUSDT"
     precision: int = 8
@@ -30281,7 +34820,10 @@ class PUNDIXUSDT:
         return "PUNDIXUSDT"
 
 
-@dataclass(slots=True)
+PUNDIXUSDT = PUNDIXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PYRBTC:
     name: str = "PYRBTC"
     precision: int = 8
@@ -30301,7 +34843,10 @@ class PYRBTC:
         return "PYRBTC"
 
 
-@dataclass(slots=True)
+PYRBTC = PYRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class PYRBUSD:
     name: str = "PYRBUSD"
     precision: int = 8
@@ -30321,7 +34866,10 @@ class PYRBUSD:
         return "PYRBUSD"
 
 
-@dataclass(slots=True)
+PYRBUSD = PYRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class PYRUSDT:
     name: str = "PYRUSDT"
     precision: int = 8
@@ -30341,7 +34889,10 @@ class PYRUSDT:
         return "PYRUSDT"
 
 
-@dataclass(slots=True)
+PYRUSDT = PYRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QIBNB:
     name: str = "QIBNB"
     precision: int = 8
@@ -30361,7 +34912,10 @@ class QIBNB:
         return "QIBNB"
 
 
-@dataclass(slots=True)
+QIBNB = QIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QIBTC:
     name: str = "QIBTC"
     precision: int = 8
@@ -30381,7 +34935,10 @@ class QIBTC:
         return "QIBTC"
 
 
-@dataclass(slots=True)
+QIBTC = QIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QIBUSD:
     name: str = "QIBUSD"
     precision: int = 8
@@ -30401,7 +34958,10 @@ class QIBUSD:
         return "QIBUSD"
 
 
-@dataclass(slots=True)
+QIBUSD = QIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class QIUSDT:
     name: str = "QIUSDT"
     precision: int = 8
@@ -30421,7 +34981,10 @@ class QIUSDT:
         return "QIUSDT"
 
 
-@dataclass(slots=True)
+QIUSDT = QIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QKCBTC:
     name: str = "QKCBTC"
     precision: int = 8
@@ -30441,7 +35004,10 @@ class QKCBTC:
         return "QKCBTC"
 
 
-@dataclass(slots=True)
+QKCBTC = QKCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QKCBUSD:
     name: str = "QKCBUSD"
     precision: int = 8
@@ -30461,7 +35027,10 @@ class QKCBUSD:
         return "QKCBUSD"
 
 
-@dataclass(slots=True)
+QKCBUSD = QKCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class QKCETH:
     name: str = "QKCETH"
     precision: int = 8
@@ -30481,7 +35050,10 @@ class QKCETH:
         return "QKCETH"
 
 
-@dataclass(slots=True)
+QKCETH = QKCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class QLCBNB:
     name: str = "QLCBNB"
     precision: int = 8
@@ -30501,7 +35073,10 @@ class QLCBNB:
         return "QLCBNB"
 
 
-@dataclass(slots=True)
+QLCBNB = QLCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QLCBTC:
     name: str = "QLCBTC"
     precision: int = 8
@@ -30521,7 +35096,10 @@ class QLCBTC:
         return "QLCBTC"
 
 
-@dataclass(slots=True)
+QLCBTC = QLCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QLCETH:
     name: str = "QLCETH"
     precision: int = 8
@@ -30541,7 +35119,10 @@ class QLCETH:
         return "QLCETH"
 
 
-@dataclass(slots=True)
+QLCETH = QLCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class QNTBNB:
     name: str = "QNTBNB"
     precision: int = 8
@@ -30561,7 +35142,10 @@ class QNTBNB:
         return "QNTBNB"
 
 
-@dataclass(slots=True)
+QNTBNB = QNTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QNTBTC:
     name: str = "QNTBTC"
     precision: int = 8
@@ -30581,7 +35165,10 @@ class QNTBTC:
         return "QNTBTC"
 
 
-@dataclass(slots=True)
+QNTBTC = QNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QNTBUSD:
     name: str = "QNTBUSD"
     precision: int = 8
@@ -30601,7 +35188,10 @@ class QNTBUSD:
         return "QNTBUSD"
 
 
-@dataclass(slots=True)
+QNTBUSD = QNTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class QNTUSDT:
     name: str = "QNTUSDT"
     precision: int = 8
@@ -30621,7 +35211,10 @@ class QNTUSDT:
         return "QNTUSDT"
 
 
-@dataclass(slots=True)
+QNTUSDT = QNTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QSPBNB:
     name: str = "QSPBNB"
     precision: int = 8
@@ -30641,7 +35234,10 @@ class QSPBNB:
         return "QSPBNB"
 
 
-@dataclass(slots=True)
+QSPBNB = QSPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QSPBTC:
     name: str = "QSPBTC"
     precision: int = 8
@@ -30661,7 +35257,10 @@ class QSPBTC:
         return "QSPBTC"
 
 
-@dataclass(slots=True)
+QSPBTC = QSPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QSPETH:
     name: str = "QSPETH"
     precision: int = 8
@@ -30681,7 +35280,10 @@ class QSPETH:
         return "QSPETH"
 
 
-@dataclass(slots=True)
+QSPETH = QSPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class QTUMBNB:
     name: str = "QTUMBNB"
     precision: int = 8
@@ -30701,7 +35303,10 @@ class QTUMBNB:
         return "QTUMBNB"
 
 
-@dataclass(slots=True)
+QTUMBNB = QTUMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QTUMBTC:
     name: str = "QTUMBTC"
     precision: int = 8
@@ -30721,7 +35326,10 @@ class QTUMBTC:
         return "QTUMBTC"
 
 
-@dataclass(slots=True)
+QTUMBTC = QTUMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QTUMBUSD:
     name: str = "QTUMBUSD"
     precision: int = 8
@@ -30741,7 +35349,10 @@ class QTUMBUSD:
         return "QTUMBUSD"
 
 
-@dataclass(slots=True)
+QTUMBUSD = QTUMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class QTUMETH:
     name: str = "QTUMETH"
     precision: int = 8
@@ -30761,7 +35372,10 @@ class QTUMETH:
         return "QTUMETH"
 
 
-@dataclass(slots=True)
+QTUMETH = QTUMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class QTUMUSDT:
     name: str = "QTUMUSDT"
     precision: int = 8
@@ -30781,7 +35395,10 @@ class QTUMUSDT:
         return "QTUMUSDT"
 
 
-@dataclass(slots=True)
+QTUMUSDT = QTUMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QUICKBNB:
     name: str = "QUICKBNB"
     precision: int = 8
@@ -30801,7 +35418,10 @@ class QUICKBNB:
         return "QUICKBNB"
 
 
-@dataclass(slots=True)
+QUICKBNB = QUICKBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class QUICKBTC:
     name: str = "QUICKBTC"
     precision: int = 8
@@ -30821,7 +35441,10 @@ class QUICKBTC:
         return "QUICKBTC"
 
 
-@dataclass(slots=True)
+QUICKBTC = QUICKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class QUICKBUSD:
     name: str = "QUICKBUSD"
     precision: int = 8
@@ -30841,7 +35464,10 @@ class QUICKBUSD:
         return "QUICKBUSD"
 
 
-@dataclass(slots=True)
+QUICKBUSD = QUICKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class QUICKUSDT:
     name: str = "QUICKUSDT"
     precision: int = 8
@@ -30861,7 +35487,10 @@ class QUICKUSDT:
         return "QUICKUSDT"
 
 
-@dataclass(slots=True)
+QUICKUSDT = QUICKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RADBNB:
     name: str = "RADBNB"
     precision: int = 8
@@ -30881,7 +35510,10 @@ class RADBNB:
         return "RADBNB"
 
 
-@dataclass(slots=True)
+RADBNB = RADBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RADBTC:
     name: str = "RADBTC"
     precision: int = 8
@@ -30901,7 +35533,10 @@ class RADBTC:
         return "RADBTC"
 
 
-@dataclass(slots=True)
+RADBTC = RADBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RADBUSD:
     name: str = "RADBUSD"
     precision: int = 8
@@ -30921,7 +35556,10 @@ class RADBUSD:
         return "RADBUSD"
 
 
-@dataclass(slots=True)
+RADBUSD = RADBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RADUSDT:
     name: str = "RADUSDT"
     precision: int = 8
@@ -30941,7 +35579,10 @@ class RADUSDT:
         return "RADUSDT"
 
 
-@dataclass(slots=True)
+RADUSDT = RADUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RAMPBTC:
     name: str = "RAMPBTC"
     precision: int = 8
@@ -30961,7 +35602,10 @@ class RAMPBTC:
         return "RAMPBTC"
 
 
-@dataclass(slots=True)
+RAMPBTC = RAMPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RAMPBUSD:
     name: str = "RAMPBUSD"
     precision: int = 8
@@ -30981,7 +35625,10 @@ class RAMPBUSD:
         return "RAMPBUSD"
 
 
-@dataclass(slots=True)
+RAMPBUSD = RAMPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RAMPUSDT:
     name: str = "RAMPUSDT"
     precision: int = 8
@@ -31001,7 +35648,10 @@ class RAMPUSDT:
         return "RAMPUSDT"
 
 
-@dataclass(slots=True)
+RAMPUSDT = RAMPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RAREBNB:
     name: str = "RAREBNB"
     precision: int = 8
@@ -31021,7 +35671,10 @@ class RAREBNB:
         return "RAREBNB"
 
 
-@dataclass(slots=True)
+RAREBNB = RAREBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RAREBTC:
     name: str = "RAREBTC"
     precision: int = 8
@@ -31041,7 +35694,10 @@ class RAREBTC:
         return "RAREBTC"
 
 
-@dataclass(slots=True)
+RAREBTC = RAREBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RAREBUSD:
     name: str = "RAREBUSD"
     precision: int = 8
@@ -31061,7 +35717,10 @@ class RAREBUSD:
         return "RAREBUSD"
 
 
-@dataclass(slots=True)
+RAREBUSD = RAREBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RAREUSDT:
     name: str = "RAREUSDT"
     precision: int = 8
@@ -31081,7 +35740,10 @@ class RAREUSDT:
         return "RAREUSDT"
 
 
-@dataclass(slots=True)
+RAREUSDT = RAREUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RAYBNB:
     name: str = "RAYBNB"
     precision: int = 8
@@ -31101,7 +35763,10 @@ class RAYBNB:
         return "RAYBNB"
 
 
-@dataclass(slots=True)
+RAYBNB = RAYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RAYBUSD:
     name: str = "RAYBUSD"
     precision: int = 8
@@ -31121,7 +35786,10 @@ class RAYBUSD:
         return "RAYBUSD"
 
 
-@dataclass(slots=True)
+RAYBUSD = RAYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RAYUSDT:
     name: str = "RAYUSDT"
     precision: int = 8
@@ -31141,7 +35809,10 @@ class RAYUSDT:
         return "RAYUSDT"
 
 
-@dataclass(slots=True)
+RAYUSDT = RAYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RCNBNB:
     name: str = "RCNBNB"
     precision: int = 8
@@ -31161,7 +35832,10 @@ class RCNBNB:
         return "RCNBNB"
 
 
-@dataclass(slots=True)
+RCNBNB = RCNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RCNBTC:
     name: str = "RCNBTC"
     precision: int = 8
@@ -31181,7 +35855,10 @@ class RCNBTC:
         return "RCNBTC"
 
 
-@dataclass(slots=True)
+RCNBTC = RCNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RCNETH:
     name: str = "RCNETH"
     precision: int = 8
@@ -31201,7 +35878,10 @@ class RCNETH:
         return "RCNETH"
 
 
-@dataclass(slots=True)
+RCNETH = RCNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class RDNBNB:
     name: str = "RDNBNB"
     precision: int = 8
@@ -31221,7 +35901,10 @@ class RDNBNB:
         return "RDNBNB"
 
 
-@dataclass(slots=True)
+RDNBNB = RDNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RDNBTC:
     name: str = "RDNBTC"
     precision: int = 8
@@ -31241,7 +35924,10 @@ class RDNBTC:
         return "RDNBTC"
 
 
-@dataclass(slots=True)
+RDNBTC = RDNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RDNETH:
     name: str = "RDNETH"
     precision: int = 8
@@ -31261,7 +35947,10 @@ class RDNETH:
         return "RDNETH"
 
 
-@dataclass(slots=True)
+RDNETH = RDNETH()
+
+
+@dataclass(slots=True, frozen=True)
 class REEFBIDR:
     name: str = "REEFBIDR"
     precision: int = 2
@@ -31281,7 +35970,10 @@ class REEFBIDR:
         return "REEFBIDR"
 
 
-@dataclass(slots=True)
+REEFBIDR = REEFBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class REEFBTC:
     name: str = "REEFBTC"
     precision: int = 8
@@ -31301,7 +35993,10 @@ class REEFBTC:
         return "REEFBTC"
 
 
-@dataclass(slots=True)
+REEFBTC = REEFBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REEFBUSD:
     name: str = "REEFBUSD"
     precision: int = 8
@@ -31321,7 +36016,10 @@ class REEFBUSD:
         return "REEFBUSD"
 
 
-@dataclass(slots=True)
+REEFBUSD = REEFBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class REEFTRY:
     name: str = "REEFTRY"
     precision: int = 8
@@ -31341,7 +36039,10 @@ class REEFTRY:
         return "REEFTRY"
 
 
-@dataclass(slots=True)
+REEFTRY = REEFTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class REEFUSDT:
     name: str = "REEFUSDT"
     precision: int = 8
@@ -31361,7 +36062,10 @@ class REEFUSDT:
         return "REEFUSDT"
 
 
-@dataclass(slots=True)
+REEFUSDT = REEFUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class REIBNB:
     name: str = "REIBNB"
     precision: int = 8
@@ -31381,7 +36085,10 @@ class REIBNB:
         return "REIBNB"
 
 
-@dataclass(slots=True)
+REIBNB = REIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class REIBUSD:
     name: str = "REIBUSD"
     precision: int = 8
@@ -31401,7 +36108,10 @@ class REIBUSD:
         return "REIBUSD"
 
 
-@dataclass(slots=True)
+REIBUSD = REIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class REIETH:
     name: str = "REIETH"
     precision: int = 8
@@ -31421,7 +36131,10 @@ class REIETH:
         return "REIETH"
 
 
-@dataclass(slots=True)
+REIETH = REIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class REIUSDT:
     name: str = "REIUSDT"
     precision: int = 8
@@ -31441,7 +36154,10 @@ class REIUSDT:
         return "REIUSDT"
 
 
-@dataclass(slots=True)
+REIUSDT = REIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RENBNB:
     name: str = "RENBNB"
     precision: int = 8
@@ -31461,7 +36177,10 @@ class RENBNB:
         return "RENBNB"
 
 
-@dataclass(slots=True)
+RENBNB = RENBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RENBTC:
     name: str = "RENBTC"
     precision: int = 8
@@ -31481,7 +36200,10 @@ class RENBTC:
         return "RENBTC"
 
 
-@dataclass(slots=True)
+RENBTC = RENBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RENBTCBTC:
     name: str = "RENBTCBTC"
     precision: int = 8
@@ -31501,7 +36223,10 @@ class RENBTCBTC:
         return "RENBTCBTC"
 
 
-@dataclass(slots=True)
+RENBTCBTC = RENBTCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RENBTCETH:
     name: str = "RENBTCETH"
     precision: int = 8
@@ -31521,7 +36246,10 @@ class RENBTCETH:
         return "RENBTCETH"
 
 
-@dataclass(slots=True)
+RENBTCETH = RENBTCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class RENBUSD:
     name: str = "RENBUSD"
     precision: int = 8
@@ -31541,7 +36269,10 @@ class RENBUSD:
         return "RENBUSD"
 
 
-@dataclass(slots=True)
+RENBUSD = RENBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RENUSDT:
     name: str = "RENUSDT"
     precision: int = 8
@@ -31561,7 +36292,10 @@ class RENUSDT:
         return "RENUSDT"
 
 
-@dataclass(slots=True)
+RENUSDT = RENUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class REPBNB:
     name: str = "REPBNB"
     precision: int = 8
@@ -31581,7 +36315,10 @@ class REPBNB:
         return "REPBNB"
 
 
-@dataclass(slots=True)
+REPBNB = REPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class REPBTC:
     name: str = "REPBTC"
     precision: int = 8
@@ -31601,7 +36338,10 @@ class REPBTC:
         return "REPBTC"
 
 
-@dataclass(slots=True)
+REPBTC = REPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REPBUSD:
     name: str = "REPBUSD"
     precision: int = 8
@@ -31621,7 +36361,10 @@ class REPBUSD:
         return "REPBUSD"
 
 
-@dataclass(slots=True)
+REPBUSD = REPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class REPUSDT:
     name: str = "REPUSDT"
     precision: int = 8
@@ -31641,7 +36384,10 @@ class REPUSDT:
         return "REPUSDT"
 
 
-@dataclass(slots=True)
+REPUSDT = REPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class REQBTC:
     name: str = "REQBTC"
     precision: int = 8
@@ -31661,7 +36407,10 @@ class REQBTC:
         return "REQBTC"
 
 
-@dataclass(slots=True)
+REQBTC = REQBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REQBUSD:
     name: str = "REQBUSD"
     precision: int = 8
@@ -31681,7 +36430,10 @@ class REQBUSD:
         return "REQBUSD"
 
 
-@dataclass(slots=True)
+REQBUSD = REQBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class REQETH:
     name: str = "REQETH"
     precision: int = 8
@@ -31701,7 +36453,10 @@ class REQETH:
         return "REQETH"
 
 
-@dataclass(slots=True)
+REQETH = REQETH()
+
+
+@dataclass(slots=True, frozen=True)
 class REQUSDT:
     name: str = "REQUSDT"
     precision: int = 8
@@ -31721,7 +36476,10 @@ class REQUSDT:
         return "REQUSDT"
 
 
-@dataclass(slots=True)
+REQUSDT = REQUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RGTBNB:
     name: str = "RGTBNB"
     precision: int = 8
@@ -31741,7 +36499,10 @@ class RGTBNB:
         return "RGTBNB"
 
 
-@dataclass(slots=True)
+RGTBNB = RGTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RGTBTC:
     name: str = "RGTBTC"
     precision: int = 8
@@ -31761,7 +36522,10 @@ class RGTBTC:
         return "RGTBTC"
 
 
-@dataclass(slots=True)
+RGTBTC = RGTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RGTBUSD:
     name: str = "RGTBUSD"
     precision: int = 8
@@ -31781,7 +36545,10 @@ class RGTBUSD:
         return "RGTBUSD"
 
 
-@dataclass(slots=True)
+RGTBUSD = RGTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RGTUSDT:
     name: str = "RGTUSDT"
     precision: int = 8
@@ -31801,7 +36568,10 @@ class RGTUSDT:
         return "RGTUSDT"
 
 
-@dataclass(slots=True)
+RGTUSDT = RGTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RIFBTC:
     name: str = "RIFBTC"
     precision: int = 8
@@ -31821,7 +36591,10 @@ class RIFBTC:
         return "RIFBTC"
 
 
-@dataclass(slots=True)
+RIFBTC = RIFBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RIFUSDT:
     name: str = "RIFUSDT"
     precision: int = 8
@@ -31841,7 +36614,10 @@ class RIFUSDT:
         return "RIFUSDT"
 
 
-@dataclass(slots=True)
+RIFUSDT = RIFUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RLCBNB:
     name: str = "RLCBNB"
     precision: int = 8
@@ -31861,7 +36637,10 @@ class RLCBNB:
         return "RLCBNB"
 
 
-@dataclass(slots=True)
+RLCBNB = RLCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RLCBTC:
     name: str = "RLCBTC"
     precision: int = 8
@@ -31881,7 +36660,10 @@ class RLCBTC:
         return "RLCBTC"
 
 
-@dataclass(slots=True)
+RLCBTC = RLCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RLCBUSD:
     name: str = "RLCBUSD"
     precision: int = 8
@@ -31901,7 +36683,10 @@ class RLCBUSD:
         return "RLCBUSD"
 
 
-@dataclass(slots=True)
+RLCBUSD = RLCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RLCETH:
     name: str = "RLCETH"
     precision: int = 8
@@ -31921,7 +36706,10 @@ class RLCETH:
         return "RLCETH"
 
 
-@dataclass(slots=True)
+RLCETH = RLCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class RLCUSDT:
     name: str = "RLCUSDT"
     precision: int = 8
@@ -31941,7 +36729,10 @@ class RLCUSDT:
         return "RLCUSDT"
 
 
-@dataclass(slots=True)
+RLCUSDT = RLCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDRBTC:
     name: str = "RNDRBTC"
     precision: int = 8
@@ -31961,7 +36752,10 @@ class RNDRBTC:
         return "RNDRBTC"
 
 
-@dataclass(slots=True)
+RNDRBTC = RNDRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDRBUSD:
     name: str = "RNDRBUSD"
     precision: int = 8
@@ -31981,7 +36775,10 @@ class RNDRBUSD:
         return "RNDRBUSD"
 
 
-@dataclass(slots=True)
+RNDRBUSD = RNDRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDRUSDT:
     name: str = "RNDRUSDT"
     precision: int = 8
@@ -32001,7 +36798,10 @@ class RNDRUSDT:
         return "RNDRUSDT"
 
 
-@dataclass(slots=True)
+RNDRUSDT = RNDRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSEBNB:
     name: str = "ROSEBNB"
     precision: int = 8
@@ -32021,7 +36821,10 @@ class ROSEBNB:
         return "ROSEBNB"
 
 
-@dataclass(slots=True)
+ROSEBNB = ROSEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSEBTC:
     name: str = "ROSEBTC"
     precision: int = 8
@@ -32041,7 +36844,10 @@ class ROSEBTC:
         return "ROSEBTC"
 
 
-@dataclass(slots=True)
+ROSEBTC = ROSEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSEBUSD:
     name: str = "ROSEBUSD"
     precision: int = 8
@@ -32061,7 +36867,10 @@ class ROSEBUSD:
         return "ROSEBUSD"
 
 
-@dataclass(slots=True)
+ROSEBUSD = ROSEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSEETH:
     name: str = "ROSEETH"
     precision: int = 8
@@ -32081,7 +36890,10 @@ class ROSEETH:
         return "ROSEETH"
 
 
-@dataclass(slots=True)
+ROSEETH = ROSEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSETRY:
     name: str = "ROSETRY"
     precision: int = 8
@@ -32101,7 +36913,10 @@ class ROSETRY:
         return "ROSETRY"
 
 
-@dataclass(slots=True)
+ROSETRY = ROSETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSEUSDT:
     name: str = "ROSEUSDT"
     precision: int = 8
@@ -32121,7 +36936,10 @@ class ROSEUSDT:
         return "ROSEUSDT"
 
 
-@dataclass(slots=True)
+ROSEUSDT = ROSEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RPXBNB:
     name: str = "RPXBNB"
     precision: int = 8
@@ -32141,7 +36959,10 @@ class RPXBNB:
         return "RPXBNB"
 
 
-@dataclass(slots=True)
+RPXBNB = RPXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RPXBTC:
     name: str = "RPXBTC"
     precision: int = 8
@@ -32161,7 +36982,10 @@ class RPXBTC:
         return "RPXBTC"
 
 
-@dataclass(slots=True)
+RPXBTC = RPXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RPXETH:
     name: str = "RPXETH"
     precision: int = 8
@@ -32181,7 +37005,10 @@ class RPXETH:
         return "RPXETH"
 
 
-@dataclass(slots=True)
+RPXETH = RPXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class RSRBNB:
     name: str = "RSRBNB"
     precision: int = 8
@@ -32201,7 +37028,10 @@ class RSRBNB:
         return "RSRBNB"
 
 
-@dataclass(slots=True)
+RSRBNB = RSRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RSRBTC:
     name: str = "RSRBTC"
     precision: int = 8
@@ -32221,7 +37051,10 @@ class RSRBTC:
         return "RSRBTC"
 
 
-@dataclass(slots=True)
+RSRBTC = RSRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RSRBUSD:
     name: str = "RSRBUSD"
     precision: int = 8
@@ -32241,7 +37074,10 @@ class RSRBUSD:
         return "RSRBUSD"
 
 
-@dataclass(slots=True)
+RSRBUSD = RSRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RSRUSDT:
     name: str = "RSRUSDT"
     precision: int = 8
@@ -32261,7 +37097,10 @@ class RSRUSDT:
         return "RSRUSDT"
 
 
-@dataclass(slots=True)
+RSRUSDT = RSRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEAUD:
     name: str = "RUNEAUD"
     precision: int = 8
@@ -32281,7 +37120,10 @@ class RUNEAUD:
         return "RUNEAUD"
 
 
-@dataclass(slots=True)
+RUNEAUD = RUNEAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEBNB:
     name: str = "RUNEBNB"
     precision: int = 8
@@ -32301,7 +37143,10 @@ class RUNEBNB:
         return "RUNEBNB"
 
 
-@dataclass(slots=True)
+RUNEBNB = RUNEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEBTC:
     name: str = "RUNEBTC"
     precision: int = 8
@@ -32321,7 +37166,10 @@ class RUNEBTC:
         return "RUNEBTC"
 
 
-@dataclass(slots=True)
+RUNEBTC = RUNEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEBUSD:
     name: str = "RUNEBUSD"
     precision: int = 8
@@ -32341,7 +37189,10 @@ class RUNEBUSD:
         return "RUNEBUSD"
 
 
-@dataclass(slots=True)
+RUNEBUSD = RUNEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEETH:
     name: str = "RUNEETH"
     precision: int = 8
@@ -32361,7 +37212,10 @@ class RUNEETH:
         return "RUNEETH"
 
 
-@dataclass(slots=True)
+RUNEETH = RUNEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEEUR:
     name: str = "RUNEEUR"
     precision: int = 8
@@ -32381,7 +37235,10 @@ class RUNEEUR:
         return "RUNEEUR"
 
 
-@dataclass(slots=True)
+RUNEEUR = RUNEEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEGBP:
     name: str = "RUNEGBP"
     precision: int = 8
@@ -32401,7 +37258,10 @@ class RUNEGBP:
         return "RUNEGBP"
 
 
-@dataclass(slots=True)
+RUNEGBP = RUNEGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNETRY:
     name: str = "RUNETRY"
     precision: int = 8
@@ -32421,7 +37281,10 @@ class RUNETRY:
         return "RUNETRY"
 
 
-@dataclass(slots=True)
+RUNETRY = RUNETRY()
+
+
+@dataclass(slots=True, frozen=True)
 class RUNEUSDT:
     name: str = "RUNEUSDT"
     precision: int = 8
@@ -32441,7 +37304,10 @@ class RUNEUSDT:
         return "RUNEUSDT"
 
 
-@dataclass(slots=True)
+RUNEUSDT = RUNEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RVNBTC:
     name: str = "RVNBTC"
     precision: int = 8
@@ -32461,7 +37327,10 @@ class RVNBTC:
         return "RVNBTC"
 
 
-@dataclass(slots=True)
+RVNBTC = RVNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RVNBUSD:
     name: str = "RVNBUSD"
     precision: int = 8
@@ -32481,7 +37350,10 @@ class RVNBUSD:
         return "RVNBUSD"
 
 
-@dataclass(slots=True)
+RVNBUSD = RVNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class RVNTRY:
     name: str = "RVNTRY"
     precision: int = 8
@@ -32501,7 +37373,10 @@ class RVNTRY:
         return "RVNTRY"
 
 
-@dataclass(slots=True)
+RVNTRY = RVNTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class RVNUSDT:
     name: str = "RVNUSDT"
     precision: int = 8
@@ -32521,7 +37396,10 @@ class RVNUSDT:
         return "RVNUSDT"
 
 
-@dataclass(slots=True)
+RVNUSDT = RVNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SALTBTC:
     name: str = "SALTBTC"
     precision: int = 8
@@ -32541,7 +37419,10 @@ class SALTBTC:
         return "SALTBTC"
 
 
-@dataclass(slots=True)
+SALTBTC = SALTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SALTETH:
     name: str = "SALTETH"
     precision: int = 8
@@ -32561,7 +37442,10 @@ class SALTETH:
         return "SALTETH"
 
 
-@dataclass(slots=True)
+SALTETH = SALTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDAUD:
     name: str = "SANDAUD"
     precision: int = 8
@@ -32581,7 +37465,10 @@ class SANDAUD:
         return "SANDAUD"
 
 
-@dataclass(slots=True)
+SANDAUD = SANDAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDBIDR:
     name: str = "SANDBIDR"
     precision: int = 2
@@ -32601,7 +37488,10 @@ class SANDBIDR:
         return "SANDBIDR"
 
 
-@dataclass(slots=True)
+SANDBIDR = SANDBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDBNB:
     name: str = "SANDBNB"
     precision: int = 8
@@ -32621,7 +37511,10 @@ class SANDBNB:
         return "SANDBNB"
 
 
-@dataclass(slots=True)
+SANDBNB = SANDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDBRL:
     name: str = "SANDBRL"
     precision: int = 8
@@ -32641,7 +37534,10 @@ class SANDBRL:
         return "SANDBRL"
 
 
-@dataclass(slots=True)
+SANDBRL = SANDBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDBTC:
     name: str = "SANDBTC"
     precision: int = 8
@@ -32661,7 +37557,10 @@ class SANDBTC:
         return "SANDBTC"
 
 
-@dataclass(slots=True)
+SANDBTC = SANDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDBUSD:
     name: str = "SANDBUSD"
     precision: int = 8
@@ -32681,7 +37580,10 @@ class SANDBUSD:
         return "SANDBUSD"
 
 
-@dataclass(slots=True)
+SANDBUSD = SANDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDETH:
     name: str = "SANDETH"
     precision: int = 8
@@ -32701,7 +37603,10 @@ class SANDETH:
         return "SANDETH"
 
 
-@dataclass(slots=True)
+SANDETH = SANDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDTRY:
     name: str = "SANDTRY"
     precision: int = 8
@@ -32721,7 +37626,10 @@ class SANDTRY:
         return "SANDTRY"
 
 
-@dataclass(slots=True)
+SANDTRY = SANDTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SANDUSDT:
     name: str = "SANDUSDT"
     precision: int = 8
@@ -32741,7 +37649,10 @@ class SANDUSDT:
         return "SANDUSDT"
 
 
-@dataclass(slots=True)
+SANDUSDT = SANDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SANTOSBRL:
     name: str = "SANTOSBRL"
     precision: int = 8
@@ -32761,7 +37672,10 @@ class SANTOSBRL:
         return "SANTOSBRL"
 
 
-@dataclass(slots=True)
+SANTOSBRL = SANTOSBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class SANTOSBTC:
     name: str = "SANTOSBTC"
     precision: int = 8
@@ -32781,7 +37695,10 @@ class SANTOSBTC:
         return "SANTOSBTC"
 
 
-@dataclass(slots=True)
+SANTOSBTC = SANTOSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SANTOSBUSD:
     name: str = "SANTOSBUSD"
     precision: int = 8
@@ -32801,7 +37718,10 @@ class SANTOSBUSD:
         return "SANTOSBUSD"
 
 
-@dataclass(slots=True)
+SANTOSBUSD = SANTOSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SANTOSTRY:
     name: str = "SANTOSTRY"
     precision: int = 8
@@ -32821,7 +37741,10 @@ class SANTOSTRY:
         return "SANTOSTRY"
 
 
-@dataclass(slots=True)
+SANTOSTRY = SANTOSTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SANTOSUSDT:
     name: str = "SANTOSUSDT"
     precision: int = 8
@@ -32841,7 +37764,10 @@ class SANTOSUSDT:
         return "SANTOSUSDT"
 
 
-@dataclass(slots=True)
+SANTOSUSDT = SANTOSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SCBTC:
     name: str = "SCBTC"
     precision: int = 8
@@ -32861,7 +37787,10 @@ class SCBTC:
         return "SCBTC"
 
 
-@dataclass(slots=True)
+SCBTC = SCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SCBUSD:
     name: str = "SCBUSD"
     precision: int = 8
@@ -32881,7 +37810,10 @@ class SCBUSD:
         return "SCBUSD"
 
 
-@dataclass(slots=True)
+SCBUSD = SCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SCETH:
     name: str = "SCETH"
     precision: int = 8
@@ -32901,7 +37833,10 @@ class SCETH:
         return "SCETH"
 
 
-@dataclass(slots=True)
+SCETH = SCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SCRTBTC:
     name: str = "SCRTBTC"
     precision: int = 8
@@ -32921,7 +37856,10 @@ class SCRTBTC:
         return "SCRTBTC"
 
 
-@dataclass(slots=True)
+SCRTBTC = SCRTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SCRTBUSD:
     name: str = "SCRTBUSD"
     precision: int = 8
@@ -32941,7 +37879,10 @@ class SCRTBUSD:
         return "SCRTBUSD"
 
 
-@dataclass(slots=True)
+SCRTBUSD = SCRTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SCRTETH:
     name: str = "SCRTETH"
     precision: int = 8
@@ -32961,7 +37902,10 @@ class SCRTETH:
         return "SCRTETH"
 
 
-@dataclass(slots=True)
+SCRTETH = SCRTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SCRTUSDT:
     name: str = "SCRTUSDT"
     precision: int = 8
@@ -32981,7 +37925,10 @@ class SCRTUSDT:
         return "SCRTUSDT"
 
 
-@dataclass(slots=True)
+SCRTUSDT = SCRTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SCUSDT:
     name: str = "SCUSDT"
     precision: int = 8
@@ -33001,7 +37948,10 @@ class SCUSDT:
         return "SCUSDT"
 
 
-@dataclass(slots=True)
+SCUSDT = SCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SFPBTC:
     name: str = "SFPBTC"
     precision: int = 8
@@ -33021,7 +37971,10 @@ class SFPBTC:
         return "SFPBTC"
 
 
-@dataclass(slots=True)
+SFPBTC = SFPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SFPBUSD:
     name: str = "SFPBUSD"
     precision: int = 8
@@ -33041,7 +37994,10 @@ class SFPBUSD:
         return "SFPBUSD"
 
 
-@dataclass(slots=True)
+SFPBUSD = SFPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SFPUSDT:
     name: str = "SFPUSDT"
     precision: int = 8
@@ -33061,7 +38017,10 @@ class SFPUSDT:
         return "SFPUSDT"
 
 
-@dataclass(slots=True)
+SFPUSDT = SFPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBAUD:
     name: str = "SHIBAUD"
     precision: int = 8
@@ -33081,7 +38040,10 @@ class SHIBAUD:
         return "SHIBAUD"
 
 
-@dataclass(slots=True)
+SHIBAUD = SHIBAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBBRL:
     name: str = "SHIBBRL"
     precision: int = 8
@@ -33101,7 +38063,10 @@ class SHIBBRL:
         return "SHIBBRL"
 
 
-@dataclass(slots=True)
+SHIBBRL = SHIBBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBBUSD:
     name: str = "SHIBBUSD"
     precision: int = 8
@@ -33121,7 +38086,10 @@ class SHIBBUSD:
         return "SHIBBUSD"
 
 
-@dataclass(slots=True)
+SHIBBUSD = SHIBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBDOGE:
     name: str = "SHIBDOGE"
     precision: int = 8
@@ -33141,7 +38109,10 @@ class SHIBDOGE:
         return "SHIBDOGE"
 
 
-@dataclass(slots=True)
+SHIBDOGE = SHIBDOGE()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBEUR:
     name: str = "SHIBEUR"
     precision: int = 8
@@ -33161,7 +38132,10 @@ class SHIBEUR:
         return "SHIBEUR"
 
 
-@dataclass(slots=True)
+SHIBEUR = SHIBEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBGBP:
     name: str = "SHIBGBP"
     precision: int = 8
@@ -33181,7 +38155,10 @@ class SHIBGBP:
         return "SHIBGBP"
 
 
-@dataclass(slots=True)
+SHIBGBP = SHIBGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBRUB:
     name: str = "SHIBRUB"
     precision: int = 8
@@ -33201,7 +38178,10 @@ class SHIBRUB:
         return "SHIBRUB"
 
 
-@dataclass(slots=True)
+SHIBRUB = SHIBRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBTRY:
     name: str = "SHIBTRY"
     precision: int = 8
@@ -33221,7 +38201,10 @@ class SHIBTRY:
         return "SHIBTRY"
 
 
-@dataclass(slots=True)
+SHIBTRY = SHIBTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBUAH:
     name: str = "SHIBUAH"
     precision: int = 8
@@ -33241,7 +38224,10 @@ class SHIBUAH:
         return "SHIBUAH"
 
 
-@dataclass(slots=True)
+SHIBUAH = SHIBUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIBUSDT:
     name: str = "SHIBUSDT"
     precision: int = 8
@@ -33261,7 +38247,10 @@ class SHIBUSDT:
         return "SHIBUSDT"
 
 
-@dataclass(slots=True)
+SHIBUSDT = SHIBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SKLBTC:
     name: str = "SKLBTC"
     precision: int = 8
@@ -33281,7 +38270,10 @@ class SKLBTC:
         return "SKLBTC"
 
 
-@dataclass(slots=True)
+SKLBTC = SKLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SKLBUSD:
     name: str = "SKLBUSD"
     precision: int = 8
@@ -33301,7 +38293,10 @@ class SKLBUSD:
         return "SKLBUSD"
 
 
-@dataclass(slots=True)
+SKLBUSD = SKLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SKLUSDT:
     name: str = "SKLUSDT"
     precision: int = 8
@@ -33321,7 +38316,10 @@ class SKLUSDT:
         return "SKLUSDT"
 
 
-@dataclass(slots=True)
+SKLUSDT = SKLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SKYBNB:
     name: str = "SKYBNB"
     precision: int = 8
@@ -33341,7 +38339,10 @@ class SKYBNB:
         return "SKYBNB"
 
 
-@dataclass(slots=True)
+SKYBNB = SKYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SKYBTC:
     name: str = "SKYBTC"
     precision: int = 8
@@ -33361,7 +38362,10 @@ class SKYBTC:
         return "SKYBTC"
 
 
-@dataclass(slots=True)
+SKYBTC = SKYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SKYETH:
     name: str = "SKYETH"
     precision: int = 8
@@ -33381,7 +38385,10 @@ class SKYETH:
         return "SKYETH"
 
 
-@dataclass(slots=True)
+SKYETH = SKYETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPBIDR:
     name: str = "SLPBIDR"
     precision: int = 2
@@ -33401,7 +38408,10 @@ class SLPBIDR:
         return "SLPBIDR"
 
 
-@dataclass(slots=True)
+SLPBIDR = SLPBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPBNB:
     name: str = "SLPBNB"
     precision: int = 8
@@ -33421,7 +38431,10 @@ class SLPBNB:
         return "SLPBNB"
 
 
-@dataclass(slots=True)
+SLPBNB = SLPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPBUSD:
     name: str = "SLPBUSD"
     precision: int = 8
@@ -33441,7 +38454,10 @@ class SLPBUSD:
         return "SLPBUSD"
 
 
-@dataclass(slots=True)
+SLPBUSD = SLPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPETH:
     name: str = "SLPETH"
     precision: int = 8
@@ -33461,7 +38477,10 @@ class SLPETH:
         return "SLPETH"
 
 
-@dataclass(slots=True)
+SLPETH = SLPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPTRY:
     name: str = "SLPTRY"
     precision: int = 8
@@ -33481,7 +38500,10 @@ class SLPTRY:
         return "SLPTRY"
 
 
-@dataclass(slots=True)
+SLPTRY = SLPTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SLPUSDT:
     name: str = "SLPUSDT"
     precision: int = 8
@@ -33501,7 +38523,10 @@ class SLPUSDT:
         return "SLPUSDT"
 
 
-@dataclass(slots=True)
+SLPUSDT = SLPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SNGLSBTC:
     name: str = "SNGLSBTC"
     precision: int = 8
@@ -33521,7 +38546,10 @@ class SNGLSBTC:
         return "SNGLSBTC"
 
 
-@dataclass(slots=True)
+SNGLSBTC = SNGLSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SNGLSETH:
     name: str = "SNGLSETH"
     precision: int = 8
@@ -33541,7 +38569,10 @@ class SNGLSETH:
         return "SNGLSETH"
 
 
-@dataclass(slots=True)
+SNGLSETH = SNGLSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SNMBTC:
     name: str = "SNMBTC"
     precision: int = 8
@@ -33561,7 +38592,10 @@ class SNMBTC:
         return "SNMBTC"
 
 
-@dataclass(slots=True)
+SNMBTC = SNMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SNMBUSD:
     name: str = "SNMBUSD"
     precision: int = 8
@@ -33581,7 +38615,10 @@ class SNMBUSD:
         return "SNMBUSD"
 
 
-@dataclass(slots=True)
+SNMBUSD = SNMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SNMETH:
     name: str = "SNMETH"
     precision: int = 8
@@ -33601,7 +38638,10 @@ class SNMETH:
         return "SNMETH"
 
 
-@dataclass(slots=True)
+SNMETH = SNMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SNTBTC:
     name: str = "SNTBTC"
     precision: int = 8
@@ -33621,7 +38661,10 @@ class SNTBTC:
         return "SNTBTC"
 
 
-@dataclass(slots=True)
+SNTBTC = SNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SNTBUSD:
     name: str = "SNTBUSD"
     precision: int = 8
@@ -33641,7 +38684,10 @@ class SNTBUSD:
         return "SNTBUSD"
 
 
-@dataclass(slots=True)
+SNTBUSD = SNTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SNTETH:
     name: str = "SNTETH"
     precision: int = 8
@@ -33661,7 +38707,10 @@ class SNTETH:
         return "SNTETH"
 
 
-@dataclass(slots=True)
+SNTETH = SNTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SNXBNB:
     name: str = "SNXBNB"
     precision: int = 8
@@ -33681,7 +38730,10 @@ class SNXBNB:
         return "SNXBNB"
 
 
-@dataclass(slots=True)
+SNXBNB = SNXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SNXBTC:
     name: str = "SNXBTC"
     precision: int = 8
@@ -33701,7 +38753,10 @@ class SNXBTC:
         return "SNXBTC"
 
 
-@dataclass(slots=True)
+SNXBTC = SNXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SNXBUSD:
     name: str = "SNXBUSD"
     precision: int = 8
@@ -33721,7 +38776,10 @@ class SNXBUSD:
         return "SNXBUSD"
 
 
-@dataclass(slots=True)
+SNXBUSD = SNXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SNXETH:
     name: str = "SNXETH"
     precision: int = 8
@@ -33741,7 +38799,10 @@ class SNXETH:
         return "SNXETH"
 
 
-@dataclass(slots=True)
+SNXETH = SNXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SNXUSDT:
     name: str = "SNXUSDT"
     precision: int = 8
@@ -33761,7 +38822,10 @@ class SNXUSDT:
         return "SNXUSDT"
 
 
-@dataclass(slots=True)
+SNXUSDT = SNXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLAUD:
     name: str = "SOLAUD"
     precision: int = 8
@@ -33781,7 +38845,10 @@ class SOLAUD:
         return "SOLAUD"
 
 
-@dataclass(slots=True)
+SOLAUD = SOLAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLBIDR:
     name: str = "SOLBIDR"
     precision: int = 2
@@ -33801,7 +38868,10 @@ class SOLBIDR:
         return "SOLBIDR"
 
 
-@dataclass(slots=True)
+SOLBIDR = SOLBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLBNB:
     name: str = "SOLBNB"
     precision: int = 8
@@ -33821,7 +38891,10 @@ class SOLBNB:
         return "SOLBNB"
 
 
-@dataclass(slots=True)
+SOLBNB = SOLBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLBRL:
     name: str = "SOLBRL"
     precision: int = 8
@@ -33841,7 +38914,10 @@ class SOLBRL:
         return "SOLBRL"
 
 
-@dataclass(slots=True)
+SOLBRL = SOLBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLBTC:
     name: str = "SOLBTC"
     precision: int = 8
@@ -33861,7 +38937,10 @@ class SOLBTC:
         return "SOLBTC"
 
 
-@dataclass(slots=True)
+SOLBTC = SOLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLBUSD:
     name: str = "SOLBUSD"
     precision: int = 8
@@ -33881,7 +38960,10 @@ class SOLBUSD:
         return "SOLBUSD"
 
 
-@dataclass(slots=True)
+SOLBUSD = SOLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLETH:
     name: str = "SOLETH"
     precision: int = 8
@@ -33901,7 +38983,10 @@ class SOLETH:
         return "SOLETH"
 
 
-@dataclass(slots=True)
+SOLETH = SOLETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLEUR:
     name: str = "SOLEUR"
     precision: int = 8
@@ -33921,7 +39006,10 @@ class SOLEUR:
         return "SOLEUR"
 
 
-@dataclass(slots=True)
+SOLEUR = SOLEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLGBP:
     name: str = "SOLGBP"
     precision: int = 8
@@ -33941,7 +39029,10 @@ class SOLGBP:
         return "SOLGBP"
 
 
-@dataclass(slots=True)
+SOLGBP = SOLGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLRUB:
     name: str = "SOLRUB"
     precision: int = 8
@@ -33961,7 +39052,10 @@ class SOLRUB:
         return "SOLRUB"
 
 
-@dataclass(slots=True)
+SOLRUB = SOLRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLTRY:
     name: str = "SOLTRY"
     precision: int = 8
@@ -33981,7 +39075,10 @@ class SOLTRY:
         return "SOLTRY"
 
 
-@dataclass(slots=True)
+SOLTRY = SOLTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLUSDC:
     name: str = "SOLUSDC"
     precision: int = 8
@@ -34001,7 +39098,10 @@ class SOLUSDC:
         return "SOLUSDC"
 
 
-@dataclass(slots=True)
+SOLUSDC = SOLUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class SOLUSDT:
     name: str = "SOLUSDT"
     precision: int = 8
@@ -34021,7 +39121,10 @@ class SOLUSDT:
         return "SOLUSDT"
 
 
-@dataclass(slots=True)
+SOLUSDT = SOLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SPARTABNB:
     name: str = "SPARTABNB"
     precision: int = 8
@@ -34041,7 +39144,10 @@ class SPARTABNB:
         return "SPARTABNB"
 
 
-@dataclass(slots=True)
+SPARTABNB = SPARTABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELLBNB:
     name: str = "SPELLBNB"
     precision: int = 8
@@ -34061,7 +39167,10 @@ class SPELLBNB:
         return "SPELLBNB"
 
 
-@dataclass(slots=True)
+SPELLBNB = SPELLBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELLBTC:
     name: str = "SPELLBTC"
     precision: int = 8
@@ -34081,7 +39190,10 @@ class SPELLBTC:
         return "SPELLBTC"
 
 
-@dataclass(slots=True)
+SPELLBTC = SPELLBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELLBUSD:
     name: str = "SPELLBUSD"
     precision: int = 8
@@ -34101,7 +39213,10 @@ class SPELLBUSD:
         return "SPELLBUSD"
 
 
-@dataclass(slots=True)
+SPELLBUSD = SPELLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELLTRY:
     name: str = "SPELLTRY"
     precision: int = 8
@@ -34121,7 +39236,10 @@ class SPELLTRY:
         return "SPELLTRY"
 
 
-@dataclass(slots=True)
+SPELLTRY = SPELLTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELLUSDT:
     name: str = "SPELLUSDT"
     precision: int = 8
@@ -34141,7 +39259,10 @@ class SPELLUSDT:
         return "SPELLUSDT"
 
 
-@dataclass(slots=True)
+SPELLUSDT = SPELLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SRMBIDR:
     name: str = "SRMBIDR"
     precision: int = 2
@@ -34161,7 +39282,10 @@ class SRMBIDR:
         return "SRMBIDR"
 
 
-@dataclass(slots=True)
+SRMBIDR = SRMBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class SRMBNB:
     name: str = "SRMBNB"
     precision: int = 8
@@ -34181,7 +39305,10 @@ class SRMBNB:
         return "SRMBNB"
 
 
-@dataclass(slots=True)
+SRMBNB = SRMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SRMBTC:
     name: str = "SRMBTC"
     precision: int = 8
@@ -34201,7 +39328,10 @@ class SRMBTC:
         return "SRMBTC"
 
 
-@dataclass(slots=True)
+SRMBTC = SRMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SRMBUSD:
     name: str = "SRMBUSD"
     precision: int = 8
@@ -34221,7 +39351,10 @@ class SRMBUSD:
         return "SRMBUSD"
 
 
-@dataclass(slots=True)
+SRMBUSD = SRMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SRMUSDT:
     name: str = "SRMUSDT"
     precision: int = 8
@@ -34241,7 +39374,10 @@ class SRMUSDT:
         return "SRMUSDT"
 
 
-@dataclass(slots=True)
+SRMUSDT = SRMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SSVBTC:
     name: str = "SSVBTC"
     precision: int = 8
@@ -34261,7 +39397,10 @@ class SSVBTC:
         return "SSVBTC"
 
 
-@dataclass(slots=True)
+SSVBTC = SSVBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SSVBUSD:
     name: str = "SSVBUSD"
     precision: int = 8
@@ -34281,7 +39420,10 @@ class SSVBUSD:
         return "SSVBUSD"
 
 
-@dataclass(slots=True)
+SSVBUSD = SSVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SSVETH:
     name: str = "SSVETH"
     precision: int = 8
@@ -34301,7 +39443,10 @@ class SSVETH:
         return "SSVETH"
 
 
-@dataclass(slots=True)
+SSVETH = SSVETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STEEMBNB:
     name: str = "STEEMBNB"
     precision: int = 8
@@ -34321,7 +39466,10 @@ class STEEMBNB:
         return "STEEMBNB"
 
 
-@dataclass(slots=True)
+STEEMBNB = STEEMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class STEEMBTC:
     name: str = "STEEMBTC"
     precision: int = 8
@@ -34341,7 +39489,10 @@ class STEEMBTC:
         return "STEEMBTC"
 
 
-@dataclass(slots=True)
+STEEMBTC = STEEMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STEEMBUSD:
     name: str = "STEEMBUSD"
     precision: int = 8
@@ -34361,7 +39512,10 @@ class STEEMBUSD:
         return "STEEMBUSD"
 
 
-@dataclass(slots=True)
+STEEMBUSD = STEEMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STEEMETH:
     name: str = "STEEMETH"
     precision: int = 8
@@ -34381,7 +39535,10 @@ class STEEMETH:
         return "STEEMETH"
 
 
-@dataclass(slots=True)
+STEEMETH = STEEMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STEEMUSDT:
     name: str = "STEEMUSDT"
     precision: int = 8
@@ -34401,7 +39558,10 @@ class STEEMUSDT:
         return "STEEMUSDT"
 
 
-@dataclass(slots=True)
+STEEMUSDT = STEEMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STGBTC:
     name: str = "STGBTC"
     precision: int = 8
@@ -34421,7 +39581,10 @@ class STGBTC:
         return "STGBTC"
 
 
-@dataclass(slots=True)
+STGBTC = STGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STGBUSD:
     name: str = "STGBUSD"
     precision: int = 8
@@ -34441,7 +39604,10 @@ class STGBUSD:
         return "STGBUSD"
 
 
-@dataclass(slots=True)
+STGBUSD = STGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STGUSDT:
     name: str = "STGUSDT"
     precision: int = 8
@@ -34461,7 +39627,10 @@ class STGUSDT:
         return "STGUSDT"
 
 
-@dataclass(slots=True)
+STGUSDT = STGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STMXBTC:
     name: str = "STMXBTC"
     precision: int = 8
@@ -34481,7 +39650,10 @@ class STMXBTC:
         return "STMXBTC"
 
 
-@dataclass(slots=True)
+STMXBTC = STMXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STMXBUSD:
     name: str = "STMXBUSD"
     precision: int = 8
@@ -34501,7 +39673,10 @@ class STMXBUSD:
         return "STMXBUSD"
 
 
-@dataclass(slots=True)
+STMXBUSD = STMXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STMXETH:
     name: str = "STMXETH"
     precision: int = 8
@@ -34521,7 +39696,10 @@ class STMXETH:
         return "STMXETH"
 
 
-@dataclass(slots=True)
+STMXETH = STMXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STMXUSDT:
     name: str = "STMXUSDT"
     precision: int = 8
@@ -34541,7 +39719,10 @@ class STMXUSDT:
         return "STMXUSDT"
 
 
-@dataclass(slots=True)
+STMXUSDT = STMXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJBTC:
     name: str = "STORJBTC"
     precision: int = 8
@@ -34561,7 +39742,10 @@ class STORJBTC:
         return "STORJBTC"
 
 
-@dataclass(slots=True)
+STORJBTC = STORJBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJBUSD:
     name: str = "STORJBUSD"
     precision: int = 8
@@ -34581,7 +39765,10 @@ class STORJBUSD:
         return "STORJBUSD"
 
 
-@dataclass(slots=True)
+STORJBUSD = STORJBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJETH:
     name: str = "STORJETH"
     precision: int = 8
@@ -34601,7 +39788,10 @@ class STORJETH:
         return "STORJETH"
 
 
-@dataclass(slots=True)
+STORJETH = STORJETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJTRY:
     name: str = "STORJTRY"
     precision: int = 8
@@ -34621,7 +39811,10 @@ class STORJTRY:
         return "STORJTRY"
 
 
-@dataclass(slots=True)
+STORJTRY = STORJTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJUSDT:
     name: str = "STORJUSDT"
     precision: int = 8
@@ -34641,7 +39834,10 @@ class STORJUSDT:
         return "STORJUSDT"
 
 
-@dataclass(slots=True)
+STORJUSDT = STORJUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STORMBNB:
     name: str = "STORMBNB"
     precision: int = 8
@@ -34661,7 +39857,10 @@ class STORMBNB:
         return "STORMBNB"
 
 
-@dataclass(slots=True)
+STORMBNB = STORMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class STORMBTC:
     name: str = "STORMBTC"
     precision: int = 8
@@ -34681,7 +39880,10 @@ class STORMBTC:
         return "STORMBTC"
 
 
-@dataclass(slots=True)
+STORMBTC = STORMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STORMETH:
     name: str = "STORMETH"
     precision: int = 8
@@ -34701,7 +39903,10 @@ class STORMETH:
         return "STORMETH"
 
 
-@dataclass(slots=True)
+STORMETH = STORMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STORMUSDT:
     name: str = "STORMUSDT"
     precision: int = 8
@@ -34721,7 +39926,10 @@ class STORMUSDT:
         return "STORMUSDT"
 
 
-@dataclass(slots=True)
+STORMUSDT = STORMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STPTBNB:
     name: str = "STPTBNB"
     precision: int = 8
@@ -34741,7 +39949,10 @@ class STPTBNB:
         return "STPTBNB"
 
 
-@dataclass(slots=True)
+STPTBNB = STPTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class STPTBTC:
     name: str = "STPTBTC"
     precision: int = 8
@@ -34761,7 +39972,10 @@ class STPTBTC:
         return "STPTBTC"
 
 
-@dataclass(slots=True)
+STPTBTC = STPTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STPTBUSD:
     name: str = "STPTBUSD"
     precision: int = 8
@@ -34781,7 +39995,10 @@ class STPTBUSD:
         return "STPTBUSD"
 
 
-@dataclass(slots=True)
+STPTBUSD = STPTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STPTUSDT:
     name: str = "STPTUSDT"
     precision: int = 8
@@ -34801,7 +40018,10 @@ class STPTUSDT:
         return "STPTUSDT"
 
 
-@dataclass(slots=True)
+STPTUSDT = STPTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STRATBNB:
     name: str = "STRATBNB"
     precision: int = 8
@@ -34821,7 +40041,10 @@ class STRATBNB:
         return "STRATBNB"
 
 
-@dataclass(slots=True)
+STRATBNB = STRATBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class STRATBTC:
     name: str = "STRATBTC"
     precision: int = 8
@@ -34841,7 +40064,10 @@ class STRATBTC:
         return "STRATBTC"
 
 
-@dataclass(slots=True)
+STRATBTC = STRATBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STRATBUSD:
     name: str = "STRATBUSD"
     precision: int = 8
@@ -34861,7 +40087,10 @@ class STRATBUSD:
         return "STRATBUSD"
 
 
-@dataclass(slots=True)
+STRATBUSD = STRATBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STRATETH:
     name: str = "STRATETH"
     precision: int = 8
@@ -34881,7 +40110,10 @@ class STRATETH:
         return "STRATETH"
 
 
-@dataclass(slots=True)
+STRATETH = STRATETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STRATUSDT:
     name: str = "STRATUSDT"
     precision: int = 8
@@ -34901,7 +40133,10 @@ class STRATUSDT:
         return "STRATUSDT"
 
 
-@dataclass(slots=True)
+STRATUSDT = STRATUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STRAXBTC:
     name: str = "STRAXBTC"
     precision: int = 8
@@ -34921,7 +40156,10 @@ class STRAXBTC:
         return "STRAXBTC"
 
 
-@dataclass(slots=True)
+STRAXBTC = STRAXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STRAXBUSD:
     name: str = "STRAXBUSD"
     precision: int = 8
@@ -34941,7 +40179,10 @@ class STRAXBUSD:
         return "STRAXBUSD"
 
 
-@dataclass(slots=True)
+STRAXBUSD = STRAXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STRAXETH:
     name: str = "STRAXETH"
     precision: int = 8
@@ -34961,7 +40202,10 @@ class STRAXETH:
         return "STRAXETH"
 
 
-@dataclass(slots=True)
+STRAXETH = STRAXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class STRAXUSDT:
     name: str = "STRAXUSDT"
     precision: int = 8
@@ -34981,7 +40225,10 @@ class STRAXUSDT:
         return "STRAXUSDT"
 
 
-@dataclass(slots=True)
+STRAXUSDT = STRAXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STXBNB:
     name: str = "STXBNB"
     precision: int = 8
@@ -35001,7 +40248,10 @@ class STXBNB:
         return "STXBNB"
 
 
-@dataclass(slots=True)
+STXBNB = STXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class STXBTC:
     name: str = "STXBTC"
     precision: int = 8
@@ -35021,7 +40271,10 @@ class STXBTC:
         return "STXBTC"
 
 
-@dataclass(slots=True)
+STXBTC = STXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STXBUSD:
     name: str = "STXBUSD"
     precision: int = 8
@@ -35041,7 +40294,10 @@ class STXBUSD:
         return "STXBUSD"
 
 
-@dataclass(slots=True)
+STXBUSD = STXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class STXUSDT:
     name: str = "STXUSDT"
     precision: int = 8
@@ -35061,7 +40317,10 @@ class STXUSDT:
         return "STXUSDT"
 
 
-@dataclass(slots=True)
+STXUSDT = STXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUBBTC:
     name: str = "SUBBTC"
     precision: int = 8
@@ -35081,7 +40340,10 @@ class SUBBTC:
         return "SUBBTC"
 
 
-@dataclass(slots=True)
+SUBBTC = SUBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUBETH:
     name: str = "SUBETH"
     precision: int = 8
@@ -35101,7 +40363,10 @@ class SUBETH:
         return "SUBETH"
 
 
-@dataclass(slots=True)
+SUBETH = SUBETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SUNBTC:
     name: str = "SUNBTC"
     precision: int = 8
@@ -35121,7 +40386,10 @@ class SUNBTC:
         return "SUNBTC"
 
 
-@dataclass(slots=True)
+SUNBTC = SUNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUNBUSD:
     name: str = "SUNBUSD"
     precision: int = 8
@@ -35141,7 +40409,10 @@ class SUNBUSD:
         return "SUNBUSD"
 
 
-@dataclass(slots=True)
+SUNBUSD = SUNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SUNUSDT:
     name: str = "SUNUSDT"
     precision: int = 8
@@ -35161,7 +40432,10 @@ class SUNUSDT:
         return "SUNUSDT"
 
 
-@dataclass(slots=True)
+SUNUSDT = SUNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUPERBTC:
     name: str = "SUPERBTC"
     precision: int = 8
@@ -35181,7 +40455,10 @@ class SUPERBTC:
         return "SUPERBTC"
 
 
-@dataclass(slots=True)
+SUPERBTC = SUPERBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUPERBUSD:
     name: str = "SUPERBUSD"
     precision: int = 8
@@ -35201,7 +40478,10 @@ class SUPERBUSD:
         return "SUPERBUSD"
 
 
-@dataclass(slots=True)
+SUPERBUSD = SUPERBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SUPERUSDT:
     name: str = "SUPERUSDT"
     precision: int = 8
@@ -35221,7 +40501,10 @@ class SUPERUSDT:
         return "SUPERUSDT"
 
 
-@dataclass(slots=True)
+SUPERUSDT = SUPERUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSDBTC:
     name: str = "SUSDBTC"
     precision: int = 8
@@ -35241,7 +40524,10 @@ class SUSDBTC:
         return "SUSDBTC"
 
 
-@dataclass(slots=True)
+SUSDBTC = SUSDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSDETH:
     name: str = "SUSDETH"
     precision: int = 8
@@ -35261,7 +40547,10 @@ class SUSDETH:
         return "SUSDETH"
 
 
-@dataclass(slots=True)
+SUSDETH = SUSDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSDUSDT:
     name: str = "SUSDUSDT"
     precision: int = 8
@@ -35281,7 +40570,10 @@ class SUSDUSDT:
         return "SUSDUSDT"
 
 
-@dataclass(slots=True)
+SUSDUSDT = SUSDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIBNB:
     name: str = "SUSHIBNB"
     precision: int = 8
@@ -35301,7 +40593,10 @@ class SUSHIBNB:
         return "SUSHIBNB"
 
 
-@dataclass(slots=True)
+SUSHIBNB = SUSHIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIBTC:
     name: str = "SUSHIBTC"
     precision: int = 8
@@ -35321,7 +40616,10 @@ class SUSHIBTC:
         return "SUSHIBTC"
 
 
-@dataclass(slots=True)
+SUSHIBTC = SUSHIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIBUSD:
     name: str = "SUSHIBUSD"
     precision: int = 8
@@ -35341,7 +40639,10 @@ class SUSHIBUSD:
         return "SUSHIBUSD"
 
 
-@dataclass(slots=True)
+SUSHIBUSD = SUSHIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIDOWNUSDT:
     name: str = "SUSHIDOWNUSDT"
     precision: int = 8
@@ -35361,7 +40662,10 @@ class SUSHIDOWNUSDT:
         return "SUSHIDOWNUSDT"
 
 
-@dataclass(slots=True)
+SUSHIDOWNUSDT = SUSHIDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIUPUSDT:
     name: str = "SUSHIUPUSDT"
     precision: int = 8
@@ -35381,7 +40685,10 @@ class SUSHIUPUSDT:
         return "SUSHIUPUSDT"
 
 
-@dataclass(slots=True)
+SUSHIUPUSDT = SUSHIUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHIUSDT:
     name: str = "SUSHIUSDT"
     precision: int = 8
@@ -35401,7 +40708,10 @@ class SUSHIUSDT:
         return "SUSHIUSDT"
 
 
-@dataclass(slots=True)
+SUSHIUSDT = SUSHIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SWRVBNB:
     name: str = "SWRVBNB"
     precision: int = 8
@@ -35421,7 +40731,10 @@ class SWRVBNB:
         return "SWRVBNB"
 
 
-@dataclass(slots=True)
+SWRVBNB = SWRVBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SWRVBUSD:
     name: str = "SWRVBUSD"
     precision: int = 8
@@ -35441,7 +40754,10 @@ class SWRVBUSD:
         return "SWRVBUSD"
 
 
-@dataclass(slots=True)
+SWRVBUSD = SWRVBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPAUD:
     name: str = "SXPAUD"
     precision: int = 8
@@ -35461,7 +40777,10 @@ class SXPAUD:
         return "SXPAUD"
 
 
-@dataclass(slots=True)
+SXPAUD = SXPAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPBIDR:
     name: str = "SXPBIDR"
     precision: int = 2
@@ -35481,7 +40800,10 @@ class SXPBIDR:
         return "SXPBIDR"
 
 
-@dataclass(slots=True)
+SXPBIDR = SXPBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPBNB:
     name: str = "SXPBNB"
     precision: int = 8
@@ -35501,7 +40823,10 @@ class SXPBNB:
         return "SXPBNB"
 
 
-@dataclass(slots=True)
+SXPBNB = SXPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPBTC:
     name: str = "SXPBTC"
     precision: int = 8
@@ -35521,7 +40846,10 @@ class SXPBTC:
         return "SXPBTC"
 
 
-@dataclass(slots=True)
+SXPBTC = SXPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPBUSD:
     name: str = "SXPBUSD"
     precision: int = 8
@@ -35541,7 +40869,10 @@ class SXPBUSD:
         return "SXPBUSD"
 
 
-@dataclass(slots=True)
+SXPBUSD = SXPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPDOWNUSDT:
     name: str = "SXPDOWNUSDT"
     precision: int = 8
@@ -35561,7 +40892,10 @@ class SXPDOWNUSDT:
         return "SXPDOWNUSDT"
 
 
-@dataclass(slots=True)
+SXPDOWNUSDT = SXPDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPEUR:
     name: str = "SXPEUR"
     precision: int = 8
@@ -35581,7 +40915,10 @@ class SXPEUR:
         return "SXPEUR"
 
 
-@dataclass(slots=True)
+SXPEUR = SXPEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPGBP:
     name: str = "SXPGBP"
     precision: int = 8
@@ -35601,7 +40938,10 @@ class SXPGBP:
         return "SXPGBP"
 
 
-@dataclass(slots=True)
+SXPGBP = SXPGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPTRY:
     name: str = "SXPTRY"
     precision: int = 8
@@ -35621,7 +40961,10 @@ class SXPTRY:
         return "SXPTRY"
 
 
-@dataclass(slots=True)
+SXPTRY = SXPTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPUPUSDT:
     name: str = "SXPUPUSDT"
     precision: int = 8
@@ -35641,7 +40984,10 @@ class SXPUPUSDT:
         return "SXPUPUSDT"
 
 
-@dataclass(slots=True)
+SXPUPUSDT = SXPUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SXPUSDT:
     name: str = "SXPUSDT"
     precision: int = 8
@@ -35661,7 +41007,10 @@ class SXPUSDT:
         return "SXPUSDT"
 
 
-@dataclass(slots=True)
+SXPUSDT = SXPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SYSBNB:
     name: str = "SYSBNB"
     precision: int = 8
@@ -35681,7 +41030,10 @@ class SYSBNB:
         return "SYSBNB"
 
 
-@dataclass(slots=True)
+SYSBNB = SYSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class SYSBTC:
     name: str = "SYSBTC"
     precision: int = 8
@@ -35701,7 +41053,10 @@ class SYSBTC:
         return "SYSBTC"
 
 
-@dataclass(slots=True)
+SYSBTC = SYSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SYSBUSD:
     name: str = "SYSBUSD"
     precision: int = 8
@@ -35721,7 +41076,10 @@ class SYSBUSD:
         return "SYSBUSD"
 
 
-@dataclass(slots=True)
+SYSBUSD = SYSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class SYSETH:
     name: str = "SYSETH"
     precision: int = 8
@@ -35741,7 +41099,10 @@ class SYSETH:
         return "SYSETH"
 
 
-@dataclass(slots=True)
+SYSETH = SYSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SYSUSDT:
     name: str = "SYSUSDT"
     precision: int = 8
@@ -35761,7 +41122,10 @@ class SYSUSDT:
         return "SYSUSDT"
 
 
-@dataclass(slots=True)
+SYSUSDT = SYSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TBUSD:
     name: str = "TBUSD"
     precision: int = 8
@@ -35781,7 +41145,10 @@ class TBUSD:
         return "TBUSD"
 
 
-@dataclass(slots=True)
+TBUSD = TBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TCTBNB:
     name: str = "TCTBNB"
     precision: int = 8
@@ -35801,7 +41168,10 @@ class TCTBNB:
         return "TCTBNB"
 
 
-@dataclass(slots=True)
+TCTBNB = TCTBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TCTBTC:
     name: str = "TCTBTC"
     precision: int = 8
@@ -35821,7 +41191,10 @@ class TCTBTC:
         return "TCTBTC"
 
 
-@dataclass(slots=True)
+TCTBTC = TCTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TCTUSDT:
     name: str = "TCTUSDT"
     precision: int = 8
@@ -35841,7 +41214,10 @@ class TCTUSDT:
         return "TCTUSDT"
 
 
-@dataclass(slots=True)
+TCTUSDT = TCTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELBNB:
     name: str = "TFUELBNB"
     precision: int = 8
@@ -35861,7 +41237,10 @@ class TFUELBNB:
         return "TFUELBNB"
 
 
-@dataclass(slots=True)
+TFUELBNB = TFUELBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELBTC:
     name: str = "TFUELBTC"
     precision: int = 8
@@ -35881,7 +41260,10 @@ class TFUELBTC:
         return "TFUELBTC"
 
 
-@dataclass(slots=True)
+TFUELBTC = TFUELBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELBUSD:
     name: str = "TFUELBUSD"
     precision: int = 8
@@ -35901,7 +41283,10 @@ class TFUELBUSD:
         return "TFUELBUSD"
 
 
-@dataclass(slots=True)
+TFUELBUSD = TFUELBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELPAX:
     name: str = "TFUELPAX"
     precision: int = 8
@@ -35921,7 +41306,10 @@ class TFUELPAX:
         return "TFUELPAX"
 
 
-@dataclass(slots=True)
+TFUELPAX = TFUELPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELTUSD:
     name: str = "TFUELTUSD"
     precision: int = 8
@@ -35941,7 +41329,10 @@ class TFUELTUSD:
         return "TFUELTUSD"
 
 
-@dataclass(slots=True)
+TFUELTUSD = TFUELTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELUSDC:
     name: str = "TFUELUSDC"
     precision: int = 8
@@ -35961,7 +41352,10 @@ class TFUELUSDC:
         return "TFUELUSDC"
 
 
-@dataclass(slots=True)
+TFUELUSDC = TFUELUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class TFUELUSDT:
     name: str = "TFUELUSDT"
     precision: int = 8
@@ -35981,7 +41375,10 @@ class TFUELUSDT:
         return "TFUELUSDT"
 
 
-@dataclass(slots=True)
+TFUELUSDT = TFUELUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class THETABNB:
     name: str = "THETABNB"
     precision: int = 8
@@ -36001,7 +41398,10 @@ class THETABNB:
         return "THETABNB"
 
 
-@dataclass(slots=True)
+THETABNB = THETABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class THETABTC:
     name: str = "THETABTC"
     precision: int = 8
@@ -36021,7 +41421,10 @@ class THETABTC:
         return "THETABTC"
 
 
-@dataclass(slots=True)
+THETABTC = THETABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class THETABUSD:
     name: str = "THETABUSD"
     precision: int = 8
@@ -36041,7 +41444,10 @@ class THETABUSD:
         return "THETABUSD"
 
 
-@dataclass(slots=True)
+THETABUSD = THETABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class THETAETH:
     name: str = "THETAETH"
     precision: int = 8
@@ -36061,7 +41467,10 @@ class THETAETH:
         return "THETAETH"
 
 
-@dataclass(slots=True)
+THETAETH = THETAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class THETAEUR:
     name: str = "THETAEUR"
     precision: int = 8
@@ -36081,7 +41490,10 @@ class THETAEUR:
         return "THETAEUR"
 
 
-@dataclass(slots=True)
+THETAEUR = THETAEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class THETAUSDT:
     name: str = "THETAUSDT"
     precision: int = 8
@@ -36101,7 +41513,10 @@ class THETAUSDT:
         return "THETAUSDT"
 
 
-@dataclass(slots=True)
+THETAUSDT = THETAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TKOBIDR:
     name: str = "TKOBIDR"
     precision: int = 2
@@ -36121,7 +41536,10 @@ class TKOBIDR:
         return "TKOBIDR"
 
 
-@dataclass(slots=True)
+TKOBIDR = TKOBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class TKOBTC:
     name: str = "TKOBTC"
     precision: int = 8
@@ -36141,7 +41559,10 @@ class TKOBTC:
         return "TKOBTC"
 
 
-@dataclass(slots=True)
+TKOBTC = TKOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TKOBUSD:
     name: str = "TKOBUSD"
     precision: int = 8
@@ -36161,7 +41582,10 @@ class TKOBUSD:
         return "TKOBUSD"
 
 
-@dataclass(slots=True)
+TKOBUSD = TKOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TKOUSDT:
     name: str = "TKOUSDT"
     precision: int = 8
@@ -36181,7 +41605,10 @@ class TKOUSDT:
         return "TKOUSDT"
 
 
-@dataclass(slots=True)
+TKOUSDT = TKOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TLMBNB:
     name: str = "TLMBNB"
     precision: int = 8
@@ -36201,7 +41628,10 @@ class TLMBNB:
         return "TLMBNB"
 
 
-@dataclass(slots=True)
+TLMBNB = TLMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TLMBTC:
     name: str = "TLMBTC"
     precision: int = 8
@@ -36221,7 +41651,10 @@ class TLMBTC:
         return "TLMBTC"
 
 
-@dataclass(slots=True)
+TLMBTC = TLMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TLMBUSD:
     name: str = "TLMBUSD"
     precision: int = 8
@@ -36241,7 +41674,10 @@ class TLMBUSD:
         return "TLMBUSD"
 
 
-@dataclass(slots=True)
+TLMBUSD = TLMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TLMTRY:
     name: str = "TLMTRY"
     precision: int = 8
@@ -36261,7 +41697,10 @@ class TLMTRY:
         return "TLMTRY"
 
 
-@dataclass(slots=True)
+TLMTRY = TLMTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class TLMUSDT:
     name: str = "TLMUSDT"
     precision: int = 8
@@ -36281,7 +41720,10 @@ class TLMUSDT:
         return "TLMUSDT"
 
 
-@dataclass(slots=True)
+TLMUSDT = TLMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TNBBTC:
     name: str = "TNBBTC"
     precision: int = 8
@@ -36301,7 +41743,10 @@ class TNBBTC:
         return "TNBBTC"
 
 
-@dataclass(slots=True)
+TNBBTC = TNBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TNBETH:
     name: str = "TNBETH"
     precision: int = 8
@@ -36321,7 +41766,10 @@ class TNBETH:
         return "TNBETH"
 
 
-@dataclass(slots=True)
+TNBETH = TNBETH()
+
+
+@dataclass(slots=True, frozen=True)
 class TNTBTC:
     name: str = "TNTBTC"
     precision: int = 8
@@ -36341,7 +41789,10 @@ class TNTBTC:
         return "TNTBTC"
 
 
-@dataclass(slots=True)
+TNTBTC = TNTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TNTETH:
     name: str = "TNTETH"
     precision: int = 8
@@ -36361,7 +41812,10 @@ class TNTETH:
         return "TNTETH"
 
 
-@dataclass(slots=True)
+TNTETH = TNTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class TOMOBNB:
     name: str = "TOMOBNB"
     precision: int = 8
@@ -36381,7 +41835,10 @@ class TOMOBNB:
         return "TOMOBNB"
 
 
-@dataclass(slots=True)
+TOMOBNB = TOMOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TOMOBTC:
     name: str = "TOMOBTC"
     precision: int = 8
@@ -36401,7 +41858,10 @@ class TOMOBTC:
         return "TOMOBTC"
 
 
-@dataclass(slots=True)
+TOMOBTC = TOMOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TOMOBUSD:
     name: str = "TOMOBUSD"
     precision: int = 8
@@ -36421,7 +41881,10 @@ class TOMOBUSD:
         return "TOMOBUSD"
 
 
-@dataclass(slots=True)
+TOMOBUSD = TOMOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TOMOUSDC:
     name: str = "TOMOUSDC"
     precision: int = 8
@@ -36441,7 +41904,10 @@ class TOMOUSDC:
         return "TOMOUSDC"
 
 
-@dataclass(slots=True)
+TOMOUSDC = TOMOUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class TOMOUSDT:
     name: str = "TOMOUSDT"
     precision: int = 8
@@ -36461,7 +41927,10 @@ class TOMOUSDT:
         return "TOMOUSDT"
 
 
-@dataclass(slots=True)
+TOMOUSDT = TOMOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TORNBNB:
     name: str = "TORNBNB"
     precision: int = 8
@@ -36481,7 +41950,10 @@ class TORNBNB:
         return "TORNBNB"
 
 
-@dataclass(slots=True)
+TORNBNB = TORNBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TORNBTC:
     name: str = "TORNBTC"
     precision: int = 8
@@ -36501,7 +41973,10 @@ class TORNBTC:
         return "TORNBTC"
 
 
-@dataclass(slots=True)
+TORNBTC = TORNBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TORNBUSD:
     name: str = "TORNBUSD"
     precision: int = 8
@@ -36521,7 +41996,10 @@ class TORNBUSD:
         return "TORNBUSD"
 
 
-@dataclass(slots=True)
+TORNBUSD = TORNBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TORNUSDT:
     name: str = "TORNUSDT"
     precision: int = 8
@@ -36541,7 +42019,10 @@ class TORNUSDT:
         return "TORNUSDT"
 
 
-@dataclass(slots=True)
+TORNUSDT = TORNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRBBNB:
     name: str = "TRBBNB"
     precision: int = 8
@@ -36561,7 +42042,10 @@ class TRBBNB:
         return "TRBBNB"
 
 
-@dataclass(slots=True)
+TRBBNB = TRBBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TRBBTC:
     name: str = "TRBBTC"
     precision: int = 8
@@ -36581,7 +42065,10 @@ class TRBBTC:
         return "TRBBTC"
 
 
-@dataclass(slots=True)
+TRBBTC = TRBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRBBUSD:
     name: str = "TRBBUSD"
     precision: int = 8
@@ -36601,7 +42088,10 @@ class TRBBUSD:
         return "TRBBUSD"
 
 
-@dataclass(slots=True)
+TRBBUSD = TRBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRBUSDT:
     name: str = "TRBUSDT"
     precision: int = 8
@@ -36621,7 +42111,10 @@ class TRBUSDT:
         return "TRBUSDT"
 
 
-@dataclass(slots=True)
+TRBUSDT = TRBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIBEBNB:
     name: str = "TRIBEBNB"
     precision: int = 8
@@ -36641,7 +42134,10 @@ class TRIBEBNB:
         return "TRIBEBNB"
 
 
-@dataclass(slots=True)
+TRIBEBNB = TRIBEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIBEBTC:
     name: str = "TRIBEBTC"
     precision: int = 8
@@ -36661,7 +42157,10 @@ class TRIBEBTC:
         return "TRIBEBTC"
 
 
-@dataclass(slots=True)
+TRIBEBTC = TRIBEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIBEBUSD:
     name: str = "TRIBEBUSD"
     precision: int = 8
@@ -36681,7 +42180,10 @@ class TRIBEBUSD:
         return "TRIBEBUSD"
 
 
-@dataclass(slots=True)
+TRIBEBUSD = TRIBEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIBEUSDT:
     name: str = "TRIBEUSDT"
     precision: int = 8
@@ -36701,7 +42203,10 @@ class TRIBEUSDT:
         return "TRIBEUSDT"
 
 
-@dataclass(slots=True)
+TRIBEUSDT = TRIBEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIGBNB:
     name: str = "TRIGBNB"
     precision: int = 8
@@ -36721,7 +42226,10 @@ class TRIGBNB:
         return "TRIGBNB"
 
 
-@dataclass(slots=True)
+TRIGBNB = TRIGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIGBTC:
     name: str = "TRIGBTC"
     precision: int = 8
@@ -36741,7 +42249,10 @@ class TRIGBTC:
         return "TRIGBTC"
 
 
-@dataclass(slots=True)
+TRIGBTC = TRIGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIGETH:
     name: str = "TRIGETH"
     precision: int = 8
@@ -36761,7 +42272,10 @@ class TRIGETH:
         return "TRIGETH"
 
 
-@dataclass(slots=True)
+TRIGETH = TRIGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class TROYBNB:
     name: str = "TROYBNB"
     precision: int = 8
@@ -36781,7 +42295,10 @@ class TROYBNB:
         return "TROYBNB"
 
 
-@dataclass(slots=True)
+TROYBNB = TROYBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TROYBTC:
     name: str = "TROYBTC"
     precision: int = 8
@@ -36801,7 +42318,10 @@ class TROYBTC:
         return "TROYBTC"
 
 
-@dataclass(slots=True)
+TROYBTC = TROYBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TROYBUSD:
     name: str = "TROYBUSD"
     precision: int = 8
@@ -36821,7 +42341,10 @@ class TROYBUSD:
         return "TROYBUSD"
 
 
-@dataclass(slots=True)
+TROYBUSD = TROYBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TROYUSDT:
     name: str = "TROYUSDT"
     precision: int = 8
@@ -36841,7 +42364,10 @@ class TROYUSDT:
         return "TROYUSDT"
 
 
-@dataclass(slots=True)
+TROYUSDT = TROYUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRUBTC:
     name: str = "TRUBTC"
     precision: int = 8
@@ -36861,7 +42387,10 @@ class TRUBTC:
         return "TRUBTC"
 
 
-@dataclass(slots=True)
+TRUBTC = TRUBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRUBUSD:
     name: str = "TRUBUSD"
     precision: int = 8
@@ -36881,7 +42410,10 @@ class TRUBUSD:
         return "TRUBUSD"
 
 
-@dataclass(slots=True)
+TRUBUSD = TRUBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRURUB:
     name: str = "TRURUB"
     precision: int = 8
@@ -36901,7 +42433,10 @@ class TRURUB:
         return "TRURUB"
 
 
-@dataclass(slots=True)
+TRURUB = TRURUB()
+
+
+@dataclass(slots=True, frozen=True)
 class TRUUSDT:
     name: str = "TRUUSDT"
     precision: int = 8
@@ -36921,7 +42456,10 @@ class TRUUSDT:
         return "TRUUSDT"
 
 
-@dataclass(slots=True)
+TRUUSDT = TRUUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXAUD:
     name: str = "TRXAUD"
     precision: int = 8
@@ -36941,7 +42479,10 @@ class TRXAUD:
         return "TRXAUD"
 
 
-@dataclass(slots=True)
+TRXAUD = TRXAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXBNB:
     name: str = "TRXBNB"
     precision: int = 8
@@ -36961,7 +42502,10 @@ class TRXBNB:
         return "TRXBNB"
 
 
-@dataclass(slots=True)
+TRXBNB = TRXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXBTC:
     name: str = "TRXBTC"
     precision: int = 8
@@ -36981,7 +42525,10 @@ class TRXBTC:
         return "TRXBTC"
 
 
-@dataclass(slots=True)
+TRXBTC = TRXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXBUSD:
     name: str = "TRXBUSD"
     precision: int = 8
@@ -37001,7 +42548,10 @@ class TRXBUSD:
         return "TRXBUSD"
 
 
-@dataclass(slots=True)
+TRXBUSD = TRXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXDOWNUSDT:
     name: str = "TRXDOWNUSDT"
     precision: int = 8
@@ -37021,7 +42571,10 @@ class TRXDOWNUSDT:
         return "TRXDOWNUSDT"
 
 
-@dataclass(slots=True)
+TRXDOWNUSDT = TRXDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXETH:
     name: str = "TRXETH"
     precision: int = 8
@@ -37041,7 +42594,10 @@ class TRXETH:
         return "TRXETH"
 
 
-@dataclass(slots=True)
+TRXETH = TRXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXEUR:
     name: str = "TRXEUR"
     precision: int = 8
@@ -37061,7 +42617,10 @@ class TRXEUR:
         return "TRXEUR"
 
 
-@dataclass(slots=True)
+TRXEUR = TRXEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXNGN:
     name: str = "TRXNGN"
     precision: int = 8
@@ -37081,7 +42640,10 @@ class TRXNGN:
         return "TRXNGN"
 
 
-@dataclass(slots=True)
+TRXNGN = TRXNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXPAX:
     name: str = "TRXPAX"
     precision: int = 8
@@ -37101,7 +42663,10 @@ class TRXPAX:
         return "TRXPAX"
 
 
-@dataclass(slots=True)
+TRXPAX = TRXPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXTRY:
     name: str = "TRXTRY"
     precision: int = 8
@@ -37121,7 +42686,10 @@ class TRXTRY:
         return "TRXTRY"
 
 
-@dataclass(slots=True)
+TRXTRY = TRXTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXTUSD:
     name: str = "TRXTUSD"
     precision: int = 8
@@ -37141,7 +42709,10 @@ class TRXTUSD:
         return "TRXTUSD"
 
 
-@dataclass(slots=True)
+TRXTUSD = TRXTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXUPUSDT:
     name: str = "TRXUPUSDT"
     precision: int = 8
@@ -37161,7 +42732,10 @@ class TRXUPUSDT:
         return "TRXUPUSDT"
 
 
-@dataclass(slots=True)
+TRXUPUSDT = TRXUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXUSDC:
     name: str = "TRXUSDC"
     precision: int = 8
@@ -37181,7 +42755,10 @@ class TRXUSDC:
         return "TRXUSDC"
 
 
-@dataclass(slots=True)
+TRXUSDC = TRXUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXUSDT:
     name: str = "TRXUSDT"
     precision: int = 8
@@ -37201,7 +42778,10 @@ class TRXUSDT:
         return "TRXUSDT"
 
 
-@dataclass(slots=True)
+TRXUSDT = TRXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRXXRP:
     name: str = "TRXXRP"
     precision: int = 8
@@ -37221,7 +42801,10 @@ class TRXXRP:
         return "TRXXRP"
 
 
-@dataclass(slots=True)
+TRXXRP = TRXXRP()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDBNB:
     name: str = "TUSDBNB"
     precision: int = 8
@@ -37241,7 +42824,10 @@ class TUSDBNB:
         return "TUSDBNB"
 
 
-@dataclass(slots=True)
+TUSDBNB = TUSDBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDBTC:
     name: str = "TUSDBTC"
     precision: int = 8
@@ -37261,7 +42847,10 @@ class TUSDBTC:
         return "TUSDBTC"
 
 
-@dataclass(slots=True)
+TUSDBTC = TUSDBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDBTUSD:
     name: str = "TUSDBTUSD"
     precision: int = 8
@@ -37281,7 +42870,10 @@ class TUSDBTUSD:
         return "TUSDBTUSD"
 
 
-@dataclass(slots=True)
+TUSDBTUSD = TUSDBTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDBUSD:
     name: str = "TUSDBUSD"
     precision: int = 8
@@ -37301,7 +42893,10 @@ class TUSDBUSD:
         return "TUSDBUSD"
 
 
-@dataclass(slots=True)
+TUSDBUSD = TUSDBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDETH:
     name: str = "TUSDETH"
     precision: int = 8
@@ -37321,7 +42916,10 @@ class TUSDETH:
         return "TUSDETH"
 
 
-@dataclass(slots=True)
+TUSDETH = TUSDETH()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDT:
     name: str = "TUSDT"
     precision: int = 8
@@ -37341,7 +42939,10 @@ class TUSDT:
         return "TUSDT"
 
 
-@dataclass(slots=True)
+TUSDT = TUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TUSDUSDT:
     name: str = "TUSDUSDT"
     precision: int = 8
@@ -37361,7 +42962,10 @@ class TUSDUSDT:
         return "TUSDUSDT"
 
 
-@dataclass(slots=True)
+TUSDUSDT = TUSDUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TVKBTC:
     name: str = "TVKBTC"
     precision: int = 8
@@ -37381,7 +42985,10 @@ class TVKBTC:
         return "TVKBTC"
 
 
-@dataclass(slots=True)
+TVKBTC = TVKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TVKBUSD:
     name: str = "TVKBUSD"
     precision: int = 8
@@ -37401,7 +43008,10 @@ class TVKBUSD:
         return "TVKBUSD"
 
 
-@dataclass(slots=True)
+TVKBUSD = TVKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TVKUSDT:
     name: str = "TVKUSDT"
     precision: int = 8
@@ -37421,7 +43031,10 @@ class TVKUSDT:
         return "TVKUSDT"
 
 
-@dataclass(slots=True)
+TVKUSDT = TVKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TWTBTC:
     name: str = "TWTBTC"
     precision: int = 8
@@ -37441,7 +43054,10 @@ class TWTBTC:
         return "TWTBTC"
 
 
-@dataclass(slots=True)
+TWTBTC = TWTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TWTBUSD:
     name: str = "TWTBUSD"
     precision: int = 8
@@ -37461,7 +43077,10 @@ class TWTBUSD:
         return "TWTBUSD"
 
 
-@dataclass(slots=True)
+TWTBUSD = TWTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class TWTTRY:
     name: str = "TWTTRY"
     precision: int = 8
@@ -37481,7 +43100,10 @@ class TWTTRY:
         return "TWTTRY"
 
 
-@dataclass(slots=True)
+TWTTRY = TWTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class TWTUSDT:
     name: str = "TWTUSDT"
     precision: int = 8
@@ -37501,7 +43123,10 @@ class TWTUSDT:
         return "TWTUSDT"
 
 
-@dataclass(slots=True)
+TWTUSDT = TWTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UFTBUSD:
     name: str = "UFTBUSD"
     precision: int = 8
@@ -37521,7 +43146,10 @@ class UFTBUSD:
         return "UFTBUSD"
 
 
-@dataclass(slots=True)
+UFTBUSD = UFTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class UFTETH:
     name: str = "UFTETH"
     precision: int = 8
@@ -37541,7 +43169,10 @@ class UFTETH:
         return "UFTETH"
 
 
-@dataclass(slots=True)
+UFTETH = UFTETH()
+
+
+@dataclass(slots=True, frozen=True)
 class UMABTC:
     name: str = "UMABTC"
     precision: int = 8
@@ -37561,7 +43192,10 @@ class UMABTC:
         return "UMABTC"
 
 
-@dataclass(slots=True)
+UMABTC = UMABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UMABUSD:
     name: str = "UMABUSD"
     precision: int = 8
@@ -37581,7 +43215,10 @@ class UMABUSD:
         return "UMABUSD"
 
 
-@dataclass(slots=True)
+UMABUSD = UMABUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class UMATRY:
     name: str = "UMATRY"
     precision: int = 8
@@ -37601,7 +43238,10 @@ class UMATRY:
         return "UMATRY"
 
 
-@dataclass(slots=True)
+UMATRY = UMATRY()
+
+
+@dataclass(slots=True, frozen=True)
 class UMAUSDT:
     name: str = "UMAUSDT"
     precision: int = 8
@@ -37621,7 +43261,10 @@ class UMAUSDT:
         return "UMAUSDT"
 
 
-@dataclass(slots=True)
+UMAUSDT = UMAUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFIBNB:
     name: str = "UNFIBNB"
     precision: int = 8
@@ -37641,7 +43284,10 @@ class UNFIBNB:
         return "UNFIBNB"
 
 
-@dataclass(slots=True)
+UNFIBNB = UNFIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFIBTC:
     name: str = "UNFIBTC"
     precision: int = 8
@@ -37661,7 +43307,10 @@ class UNFIBTC:
         return "UNFIBTC"
 
 
-@dataclass(slots=True)
+UNFIBTC = UNFIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFIBUSD:
     name: str = "UNFIBUSD"
     precision: int = 8
@@ -37681,7 +43330,10 @@ class UNFIBUSD:
         return "UNFIBUSD"
 
 
-@dataclass(slots=True)
+UNFIBUSD = UNFIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFIETH:
     name: str = "UNFIETH"
     precision: int = 8
@@ -37701,7 +43353,10 @@ class UNFIETH:
         return "UNFIETH"
 
 
-@dataclass(slots=True)
+UNFIETH = UNFIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFIUSDT:
     name: str = "UNFIUSDT"
     precision: int = 8
@@ -37721,7 +43376,10 @@ class UNFIUSDT:
         return "UNFIUSDT"
 
 
-@dataclass(slots=True)
+UNFIUSDT = UNFIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIAUD:
     name: str = "UNIAUD"
     precision: int = 8
@@ -37741,7 +43399,10 @@ class UNIAUD:
         return "UNIAUD"
 
 
-@dataclass(slots=True)
+UNIAUD = UNIAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIBNB:
     name: str = "UNIBNB"
     precision: int = 8
@@ -37761,7 +43422,10 @@ class UNIBNB:
         return "UNIBNB"
 
 
-@dataclass(slots=True)
+UNIBNB = UNIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIBTC:
     name: str = "UNIBTC"
     precision: int = 8
@@ -37781,7 +43445,10 @@ class UNIBTC:
         return "UNIBTC"
 
 
-@dataclass(slots=True)
+UNIBTC = UNIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIBUSD:
     name: str = "UNIBUSD"
     precision: int = 8
@@ -37801,7 +43468,10 @@ class UNIBUSD:
         return "UNIBUSD"
 
 
-@dataclass(slots=True)
+UNIBUSD = UNIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIDOWNUSDT:
     name: str = "UNIDOWNUSDT"
     precision: int = 8
@@ -37821,7 +43491,10 @@ class UNIDOWNUSDT:
         return "UNIDOWNUSDT"
 
 
-@dataclass(slots=True)
+UNIDOWNUSDT = UNIDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIETH:
     name: str = "UNIETH"
     precision: int = 8
@@ -37841,7 +43514,10 @@ class UNIETH:
         return "UNIETH"
 
 
-@dataclass(slots=True)
+UNIETH = UNIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIEUR:
     name: str = "UNIEUR"
     precision: int = 8
@@ -37861,7 +43537,10 @@ class UNIEUR:
         return "UNIEUR"
 
 
-@dataclass(slots=True)
+UNIEUR = UNIEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIUPUSDT:
     name: str = "UNIUPUSDT"
     precision: int = 8
@@ -37881,7 +43560,10 @@ class UNIUPUSDT:
         return "UNIUPUSDT"
 
 
-@dataclass(slots=True)
+UNIUPUSDT = UNIUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UNIUSDT:
     name: str = "UNIUSDT"
     precision: int = 8
@@ -37901,7 +43583,10 @@ class UNIUSDT:
         return "UNIUSDT"
 
 
-@dataclass(slots=True)
+UNIUSDT = UNIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDCBNB:
     name: str = "USDCBNB"
     precision: int = 8
@@ -37921,7 +43606,10 @@ class USDCBNB:
         return "USDCBNB"
 
 
-@dataclass(slots=True)
+USDCBNB = USDCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class USDCBUSD:
     name: str = "USDCBUSD"
     precision: int = 8
@@ -37941,7 +43629,10 @@ class USDCBUSD:
         return "USDCBUSD"
 
 
-@dataclass(slots=True)
+USDCBUSD = USDCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USDCPAX:
     name: str = "USDCPAX"
     precision: int = 8
@@ -37961,7 +43652,10 @@ class USDCPAX:
         return "USDCPAX"
 
 
-@dataclass(slots=True)
+USDCPAX = USDCPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class USDCTUSD:
     name: str = "USDCTUSD"
     precision: int = 8
@@ -37981,7 +43675,10 @@ class USDCTUSD:
         return "USDCTUSD"
 
 
-@dataclass(slots=True)
+USDCTUSD = USDCTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USDCUSDT:
     name: str = "USDCUSDT"
     precision: int = 8
@@ -38001,7 +43698,10 @@ class USDCUSDT:
         return "USDCUSDT"
 
 
-@dataclass(slots=True)
+USDCUSDT = USDCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDPBUSD:
     name: str = "USDPBUSD"
     precision: int = 8
@@ -38021,7 +43721,10 @@ class USDPBUSD:
         return "USDPBUSD"
 
 
-@dataclass(slots=True)
+USDPBUSD = USDPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USDPUSDT:
     name: str = "USDPUSDT"
     precision: int = 8
@@ -38041,7 +43744,10 @@ class USDPUSDT:
         return "USDPUSDT"
 
 
-@dataclass(slots=True)
+USDPUSDT = USDPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSBUSDS:
     name: str = "USDSBUSDS"
     precision: int = 8
@@ -38061,7 +43767,10 @@ class USDSBUSDS:
         return "USDSBUSDS"
 
 
-@dataclass(slots=True)
+USDSBUSDS = USDSBUSDS()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSBUSDT:
     name: str = "USDSBUSDT"
     precision: int = 8
@@ -38081,7 +43790,10 @@ class USDSBUSDT:
         return "USDSBUSDT"
 
 
-@dataclass(slots=True)
+USDSBUSDT = USDSBUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSPAX:
     name: str = "USDSPAX"
     precision: int = 8
@@ -38101,7 +43813,10 @@ class USDSPAX:
         return "USDSPAX"
 
 
-@dataclass(slots=True)
+USDSPAX = USDSPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSTUSD:
     name: str = "USDSTUSD"
     precision: int = 8
@@ -38121,7 +43836,10 @@ class USDSTUSD:
         return "USDSTUSD"
 
 
-@dataclass(slots=True)
+USDSTUSD = USDSTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSUSDC:
     name: str = "USDSUSDC"
     precision: int = 8
@@ -38141,7 +43859,10 @@ class USDSUSDC:
         return "USDSUSDC"
 
 
-@dataclass(slots=True)
+USDSUSDC = USDSUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class USDSUSDT:
     name: str = "USDSUSDT"
     precision: int = 8
@@ -38161,7 +43882,10 @@ class USDSUSDT:
         return "USDSUSDT"
 
 
-@dataclass(slots=True)
+USDSUSDT = USDSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTBIDR:
     name: str = "USDTBIDR"
     precision: int = 2
@@ -38181,7 +43905,10 @@ class USDTBIDR:
         return "USDTBIDR"
 
 
-@dataclass(slots=True)
+USDTBIDR = USDTBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTBKRW:
     name: str = "USDTBKRW"
     precision: int = 8
@@ -38201,7 +43928,10 @@ class USDTBKRW:
         return "USDTBKRW"
 
 
-@dataclass(slots=True)
+USDTBKRW = USDTBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTBRL:
     name: str = "USDTBRL"
     precision: int = 8
@@ -38221,7 +43951,10 @@ class USDTBRL:
         return "USDTBRL"
 
 
-@dataclass(slots=True)
+USDTBRL = USDTBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTBVND:
     name: str = "USDTBVND"
     precision: int = 2
@@ -38241,7 +43974,10 @@ class USDTBVND:
         return "USDTBVND"
 
 
-@dataclass(slots=True)
+USDTBVND = USDTBVND()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTDAI:
     name: str = "USDTDAI"
     precision: int = 8
@@ -38261,7 +43997,10 @@ class USDTDAI:
         return "USDTDAI"
 
 
-@dataclass(slots=True)
+USDTDAI = USDTDAI()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTIDRT:
     name: str = "USDTIDRT"
     precision: int = 2
@@ -38281,7 +44020,10 @@ class USDTIDRT:
         return "USDTIDRT"
 
 
-@dataclass(slots=True)
+USDTIDRT = USDTIDRT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTNGN:
     name: str = "USDTNGN"
     precision: int = 8
@@ -38301,7 +44043,10 @@ class USDTNGN:
         return "USDTNGN"
 
 
-@dataclass(slots=True)
+USDTNGN = USDTNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTRUB:
     name: str = "USDTRUB"
     precision: int = 8
@@ -38321,7 +44066,10 @@ class USDTRUB:
         return "USDTRUB"
 
 
-@dataclass(slots=True)
+USDTRUB = USDTRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTTRY:
     name: str = "USDTTRY"
     precision: int = 8
@@ -38341,7 +44089,10 @@ class USDTTRY:
         return "USDTTRY"
 
 
-@dataclass(slots=True)
+USDTTRY = USDTTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTUAH:
     name: str = "USDTUAH"
     precision: int = 8
@@ -38361,7 +44112,10 @@ class USDTUAH:
         return "USDTUAH"
 
 
-@dataclass(slots=True)
+USDTUAH = USDTUAH()
+
+
+@dataclass(slots=True, frozen=True)
 class USDTZAR:
     name: str = "USDTZAR"
     precision: int = 8
@@ -38381,7 +44135,10 @@ class USDTZAR:
         return "USDTZAR"
 
 
-@dataclass(slots=True)
+USDTZAR = USDTZAR()
+
+
+@dataclass(slots=True, frozen=True)
 class USTBTC:
     name: str = "USTBTC"
     precision: int = 8
@@ -38401,7 +44158,10 @@ class USTBTC:
         return "USTBTC"
 
 
-@dataclass(slots=True)
+USTBTC = USTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class USTBUSD:
     name: str = "USTBUSD"
     precision: int = 8
@@ -38421,7 +44181,10 @@ class USTBUSD:
         return "USTBUSD"
 
 
-@dataclass(slots=True)
+USTBUSD = USTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USTCBUSD:
     name: str = "USTCBUSD"
     precision: int = 8
@@ -38441,7 +44204,10 @@ class USTCBUSD:
         return "USTCBUSD"
 
 
-@dataclass(slots=True)
+USTCBUSD = USTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class USTUSDT:
     name: str = "USTUSDT"
     precision: int = 8
@@ -38461,7 +44227,10 @@ class USTUSDT:
         return "USTUSDT"
 
 
-@dataclass(slots=True)
+USTUSDT = USTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UTKBTC:
     name: str = "UTKBTC"
     precision: int = 8
@@ -38481,7 +44250,10 @@ class UTKBTC:
         return "UTKBTC"
 
 
-@dataclass(slots=True)
+UTKBTC = UTKBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UTKBUSD:
     name: str = "UTKBUSD"
     precision: int = 8
@@ -38501,7 +44273,10 @@ class UTKBUSD:
         return "UTKBUSD"
 
 
-@dataclass(slots=True)
+UTKBUSD = UTKBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class UTKUSDT:
     name: str = "UTKUSDT"
     precision: int = 8
@@ -38521,7 +44296,10 @@ class UTKUSDT:
         return "UTKUSDT"
 
 
-@dataclass(slots=True)
+UTKUSDT = UTKUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VENBNB:
     name: str = "VENBNB"
     precision: int = 8
@@ -38541,7 +44319,10 @@ class VENBNB:
         return "VENBNB"
 
 
-@dataclass(slots=True)
+VENBNB = VENBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VENBTC:
     name: str = "VENBTC"
     precision: int = 8
@@ -38561,7 +44342,10 @@ class VENBTC:
         return "VENBTC"
 
 
-@dataclass(slots=True)
+VENBTC = VENBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VENETH:
     name: str = "VENETH"
     precision: int = 8
@@ -38581,7 +44365,10 @@ class VENETH:
         return "VENETH"
 
 
-@dataclass(slots=True)
+VENETH = VENETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VENUSDT:
     name: str = "VENUSDT"
     precision: int = 8
@@ -38601,7 +44388,10 @@ class VENUSDT:
         return "VENUSDT"
 
 
-@dataclass(slots=True)
+VENUSDT = VENUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VETBNB:
     name: str = "VETBNB"
     precision: int = 8
@@ -38621,7 +44411,10 @@ class VETBNB:
         return "VETBNB"
 
 
-@dataclass(slots=True)
+VETBNB = VETBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VETBTC:
     name: str = "VETBTC"
     precision: int = 8
@@ -38641,7 +44434,10 @@ class VETBTC:
         return "VETBTC"
 
 
-@dataclass(slots=True)
+VETBTC = VETBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VETBUSD:
     name: str = "VETBUSD"
     precision: int = 8
@@ -38661,7 +44457,10 @@ class VETBUSD:
         return "VETBUSD"
 
 
-@dataclass(slots=True)
+VETBUSD = VETBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VETETH:
     name: str = "VETETH"
     precision: int = 8
@@ -38681,7 +44480,10 @@ class VETETH:
         return "VETETH"
 
 
-@dataclass(slots=True)
+VETETH = VETETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VETEUR:
     name: str = "VETEUR"
     precision: int = 8
@@ -38701,7 +44503,10 @@ class VETEUR:
         return "VETEUR"
 
 
-@dataclass(slots=True)
+VETEUR = VETEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class VETGBP:
     name: str = "VETGBP"
     precision: int = 8
@@ -38721,7 +44526,10 @@ class VETGBP:
         return "VETGBP"
 
 
-@dataclass(slots=True)
+VETGBP = VETGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class VETTRY:
     name: str = "VETTRY"
     precision: int = 8
@@ -38741,7 +44549,10 @@ class VETTRY:
         return "VETTRY"
 
 
-@dataclass(slots=True)
+VETTRY = VETTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class VETUSDT:
     name: str = "VETUSDT"
     precision: int = 8
@@ -38761,7 +44572,10 @@ class VETUSDT:
         return "VETUSDT"
 
 
-@dataclass(slots=True)
+VETUSDT = VETUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VGXBTC:
     name: str = "VGXBTC"
     precision: int = 8
@@ -38781,7 +44595,10 @@ class VGXBTC:
         return "VGXBTC"
 
 
-@dataclass(slots=True)
+VGXBTC = VGXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VGXETH:
     name: str = "VGXETH"
     precision: int = 8
@@ -38801,7 +44618,10 @@ class VGXETH:
         return "VGXETH"
 
 
-@dataclass(slots=True)
+VGXETH = VGXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VGXUSDT:
     name: str = "VGXUSDT"
     precision: int = 8
@@ -38821,7 +44641,10 @@ class VGXUSDT:
         return "VGXUSDT"
 
 
-@dataclass(slots=True)
+VGXUSDT = VGXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VIABNB:
     name: str = "VIABNB"
     precision: int = 8
@@ -38841,7 +44664,10 @@ class VIABNB:
         return "VIABNB"
 
 
-@dataclass(slots=True)
+VIABNB = VIABNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VIABTC:
     name: str = "VIABTC"
     precision: int = 8
@@ -38861,7 +44687,10 @@ class VIABTC:
         return "VIABTC"
 
 
-@dataclass(slots=True)
+VIABTC = VIABTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VIAETH:
     name: str = "VIAETH"
     precision: int = 8
@@ -38881,7 +44710,10 @@ class VIAETH:
         return "VIAETH"
 
 
-@dataclass(slots=True)
+VIAETH = VIAETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VIBBTC:
     name: str = "VIBBTC"
     precision: int = 8
@@ -38901,7 +44733,10 @@ class VIBBTC:
         return "VIBBTC"
 
 
-@dataclass(slots=True)
+VIBBTC = VIBBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VIBBUSD:
     name: str = "VIBBUSD"
     precision: int = 8
@@ -38921,7 +44756,10 @@ class VIBBUSD:
         return "VIBBUSD"
 
 
-@dataclass(slots=True)
+VIBBUSD = VIBBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VIBEBTC:
     name: str = "VIBEBTC"
     precision: int = 8
@@ -38941,7 +44779,10 @@ class VIBEBTC:
         return "VIBEBTC"
 
 
-@dataclass(slots=True)
+VIBEBTC = VIBEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VIBEETH:
     name: str = "VIBEETH"
     precision: int = 8
@@ -38961,7 +44802,10 @@ class VIBEETH:
         return "VIBEETH"
 
 
-@dataclass(slots=True)
+VIBEETH = VIBEETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VIBETH:
     name: str = "VIBETH"
     precision: int = 8
@@ -38981,7 +44825,10 @@ class VIBETH:
         return "VIBETH"
 
 
-@dataclass(slots=True)
+VIBETH = VIBETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VIDTBTC:
     name: str = "VIDTBTC"
     precision: int = 8
@@ -39001,7 +44848,10 @@ class VIDTBTC:
         return "VIDTBTC"
 
 
-@dataclass(slots=True)
+VIDTBTC = VIDTBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VIDTBUSD:
     name: str = "VIDTBUSD"
     precision: int = 8
@@ -39021,7 +44871,10 @@ class VIDTBUSD:
         return "VIDTBUSD"
 
 
-@dataclass(slots=True)
+VIDTBUSD = VIDTBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VIDTUSDT:
     name: str = "VIDTUSDT"
     precision: int = 8
@@ -39041,7 +44894,10 @@ class VIDTUSDT:
         return "VIDTUSDT"
 
 
-@dataclass(slots=True)
+VIDTUSDT = VIDTUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VITEBNB:
     name: str = "VITEBNB"
     precision: int = 8
@@ -39061,7 +44917,10 @@ class VITEBNB:
         return "VITEBNB"
 
 
-@dataclass(slots=True)
+VITEBNB = VITEBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VITEBTC:
     name: str = "VITEBTC"
     precision: int = 8
@@ -39081,7 +44940,10 @@ class VITEBTC:
         return "VITEBTC"
 
 
-@dataclass(slots=True)
+VITEBTC = VITEBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VITEBUSD:
     name: str = "VITEBUSD"
     precision: int = 8
@@ -39101,7 +44963,10 @@ class VITEBUSD:
         return "VITEBUSD"
 
 
-@dataclass(slots=True)
+VITEBUSD = VITEBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VITEUSDT:
     name: str = "VITEUSDT"
     precision: int = 8
@@ -39121,7 +44986,10 @@ class VITEUSDT:
         return "VITEUSDT"
 
 
-@dataclass(slots=True)
+VITEUSDT = VITEUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VOXELBNB:
     name: str = "VOXELBNB"
     precision: int = 8
@@ -39141,7 +45009,10 @@ class VOXELBNB:
         return "VOXELBNB"
 
 
-@dataclass(slots=True)
+VOXELBNB = VOXELBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VOXELBTC:
     name: str = "VOXELBTC"
     precision: int = 8
@@ -39161,7 +45032,10 @@ class VOXELBTC:
         return "VOXELBTC"
 
 
-@dataclass(slots=True)
+VOXELBTC = VOXELBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class VOXELBUSD:
     name: str = "VOXELBUSD"
     precision: int = 8
@@ -39181,7 +45055,10 @@ class VOXELBUSD:
         return "VOXELBUSD"
 
 
-@dataclass(slots=True)
+VOXELBUSD = VOXELBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VOXELETH:
     name: str = "VOXELETH"
     precision: int = 8
@@ -39201,7 +45078,10 @@ class VOXELETH:
         return "VOXELETH"
 
 
-@dataclass(slots=True)
+VOXELETH = VOXELETH()
+
+
+@dataclass(slots=True, frozen=True)
 class VOXELUSDT:
     name: str = "VOXELUSDT"
     precision: int = 8
@@ -39221,7 +45101,10 @@ class VOXELUSDT:
         return "VOXELUSDT"
 
 
-@dataclass(slots=True)
+VOXELUSDT = VOXELUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VTHOBNB:
     name: str = "VTHOBNB"
     precision: int = 8
@@ -39241,7 +45124,10 @@ class VTHOBNB:
         return "VTHOBNB"
 
 
-@dataclass(slots=True)
+VTHOBNB = VTHOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class VTHOBUSD:
     name: str = "VTHOBUSD"
     precision: int = 8
@@ -39261,7 +45147,10 @@ class VTHOBUSD:
         return "VTHOBUSD"
 
 
-@dataclass(slots=True)
+VTHOBUSD = VTHOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class VTHOUSDT:
     name: str = "VTHOUSDT"
     precision: int = 8
@@ -39281,7 +45170,10 @@ class VTHOUSDT:
         return "VTHOUSDT"
 
 
-@dataclass(slots=True)
+VTHOUSDT = VTHOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WABIBNB:
     name: str = "WABIBNB"
     precision: int = 8
@@ -39301,7 +45193,10 @@ class WABIBNB:
         return "WABIBNB"
 
 
-@dataclass(slots=True)
+WABIBNB = WABIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WABIBTC:
     name: str = "WABIBTC"
     precision: int = 8
@@ -39321,7 +45216,10 @@ class WABIBTC:
         return "WABIBTC"
 
 
-@dataclass(slots=True)
+WABIBTC = WABIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WABIETH:
     name: str = "WABIETH"
     precision: int = 8
@@ -39341,7 +45239,10 @@ class WABIETH:
         return "WABIETH"
 
 
-@dataclass(slots=True)
+WABIETH = WABIETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WANBNB:
     name: str = "WANBNB"
     precision: int = 8
@@ -39361,7 +45262,10 @@ class WANBNB:
         return "WANBNB"
 
 
-@dataclass(slots=True)
+WANBNB = WANBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WANBTC:
     name: str = "WANBTC"
     precision: int = 8
@@ -39381,7 +45285,10 @@ class WANBTC:
         return "WANBTC"
 
 
-@dataclass(slots=True)
+WANBTC = WANBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WANETH:
     name: str = "WANETH"
     precision: int = 8
@@ -39401,7 +45308,10 @@ class WANETH:
         return "WANETH"
 
 
-@dataclass(slots=True)
+WANETH = WANETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WANUSDT:
     name: str = "WANUSDT"
     precision: int = 8
@@ -39421,7 +45331,10 @@ class WANUSDT:
         return "WANUSDT"
 
 
-@dataclass(slots=True)
+WANUSDT = WANUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESBNB:
     name: str = "WAVESBNB"
     precision: int = 8
@@ -39441,7 +45354,10 @@ class WAVESBNB:
         return "WAVESBNB"
 
 
-@dataclass(slots=True)
+WAVESBNB = WAVESBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESBTC:
     name: str = "WAVESBTC"
     precision: int = 8
@@ -39461,7 +45377,10 @@ class WAVESBTC:
         return "WAVESBTC"
 
 
-@dataclass(slots=True)
+WAVESBTC = WAVESBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESBUSD:
     name: str = "WAVESBUSD"
     precision: int = 8
@@ -39481,7 +45400,10 @@ class WAVESBUSD:
         return "WAVESBUSD"
 
 
-@dataclass(slots=True)
+WAVESBUSD = WAVESBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESETH:
     name: str = "WAVESETH"
     precision: int = 8
@@ -39501,7 +45423,10 @@ class WAVESETH:
         return "WAVESETH"
 
 
-@dataclass(slots=True)
+WAVESETH = WAVESETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESEUR:
     name: str = "WAVESEUR"
     precision: int = 8
@@ -39521,7 +45446,10 @@ class WAVESEUR:
         return "WAVESEUR"
 
 
-@dataclass(slots=True)
+WAVESEUR = WAVESEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESPAX:
     name: str = "WAVESPAX"
     precision: int = 8
@@ -39541,7 +45469,10 @@ class WAVESPAX:
         return "WAVESPAX"
 
 
-@dataclass(slots=True)
+WAVESPAX = WAVESPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESRUB:
     name: str = "WAVESRUB"
     precision: int = 8
@@ -39561,7 +45492,10 @@ class WAVESRUB:
         return "WAVESRUB"
 
 
-@dataclass(slots=True)
+WAVESRUB = WAVESRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESTRY:
     name: str = "WAVESTRY"
     precision: int = 8
@@ -39581,7 +45515,10 @@ class WAVESTRY:
         return "WAVESTRY"
 
 
-@dataclass(slots=True)
+WAVESTRY = WAVESTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESTUSD:
     name: str = "WAVESTUSD"
     precision: int = 8
@@ -39601,7 +45538,10 @@ class WAVESTUSD:
         return "WAVESTUSD"
 
 
-@dataclass(slots=True)
+WAVESTUSD = WAVESTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESUSDC:
     name: str = "WAVESUSDC"
     precision: int = 8
@@ -39621,7 +45561,10 @@ class WAVESUSDC:
         return "WAVESUSDC"
 
 
-@dataclass(slots=True)
+WAVESUSDC = WAVESUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class WAVESUSDT:
     name: str = "WAVESUSDT"
     precision: int = 8
@@ -39641,7 +45584,10 @@ class WAVESUSDT:
         return "WAVESUSDT"
 
 
-@dataclass(slots=True)
+WAVESUSDT = WAVESUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WAXPBNB:
     name: str = "WAXPBNB"
     precision: int = 8
@@ -39661,7 +45607,10 @@ class WAXPBNB:
         return "WAXPBNB"
 
 
-@dataclass(slots=True)
+WAXPBNB = WAXPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WAXPBTC:
     name: str = "WAXPBTC"
     precision: int = 8
@@ -39681,7 +45630,10 @@ class WAXPBTC:
         return "WAXPBTC"
 
 
-@dataclass(slots=True)
+WAXPBTC = WAXPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WAXPBUSD:
     name: str = "WAXPBUSD"
     precision: int = 8
@@ -39701,7 +45653,10 @@ class WAXPBUSD:
         return "WAXPBUSD"
 
 
-@dataclass(slots=True)
+WAXPBUSD = WAXPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WAXPUSDT:
     name: str = "WAXPUSDT"
     precision: int = 8
@@ -39721,7 +45676,10 @@ class WAXPUSDT:
         return "WAXPUSDT"
 
 
-@dataclass(slots=True)
+WAXPUSDT = WAXPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WBTCBTC:
     name: str = "WBTCBTC"
     precision: int = 8
@@ -39741,7 +45699,10 @@ class WBTCBTC:
         return "WBTCBTC"
 
 
-@dataclass(slots=True)
+WBTCBTC = WBTCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WBTCBUSD:
     name: str = "WBTCBUSD"
     precision: int = 8
@@ -39761,7 +45722,10 @@ class WBTCBUSD:
         return "WBTCBUSD"
 
 
-@dataclass(slots=True)
+WBTCBUSD = WBTCBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WBTCETH:
     name: str = "WBTCETH"
     precision: int = 8
@@ -39781,7 +45745,10 @@ class WBTCETH:
         return "WBTCETH"
 
 
-@dataclass(slots=True)
+WBTCETH = WBTCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WINBNB:
     name: str = "WINBNB"
     precision: int = 8
@@ -39801,7 +45768,10 @@ class WINBNB:
         return "WINBNB"
 
 
-@dataclass(slots=True)
+WINBNB = WINBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WINBRL:
     name: str = "WINBRL"
     precision: int = 8
@@ -39821,7 +45791,10 @@ class WINBRL:
         return "WINBRL"
 
 
-@dataclass(slots=True)
+WINBRL = WINBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class WINBTC:
     name: str = "WINBTC"
     precision: int = 8
@@ -39841,7 +45814,10 @@ class WINBTC:
         return "WINBTC"
 
 
-@dataclass(slots=True)
+WINBTC = WINBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WINBUSD:
     name: str = "WINBUSD"
     precision: int = 8
@@ -39861,7 +45837,10 @@ class WINBUSD:
         return "WINBUSD"
 
 
-@dataclass(slots=True)
+WINBUSD = WINBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WINEUR:
     name: str = "WINEUR"
     precision: int = 8
@@ -39881,7 +45860,10 @@ class WINEUR:
         return "WINEUR"
 
 
-@dataclass(slots=True)
+WINEUR = WINEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGBNB:
     name: str = "WINGBNB"
     precision: int = 8
@@ -39901,7 +45883,10 @@ class WINGBNB:
         return "WINGBNB"
 
 
-@dataclass(slots=True)
+WINGBNB = WINGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGBTC:
     name: str = "WINGBTC"
     precision: int = 8
@@ -39921,7 +45906,10 @@ class WINGBTC:
         return "WINGBTC"
 
 
-@dataclass(slots=True)
+WINGBTC = WINGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGBUSD:
     name: str = "WINGBUSD"
     precision: int = 8
@@ -39941,7 +45929,10 @@ class WINGBUSD:
         return "WINGBUSD"
 
 
-@dataclass(slots=True)
+WINGBUSD = WINGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGETH:
     name: str = "WINGETH"
     precision: int = 8
@@ -39961,7 +45952,10 @@ class WINGETH:
         return "WINGETH"
 
 
-@dataclass(slots=True)
+WINGETH = WINGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGSBTC:
     name: str = "WINGSBTC"
     precision: int = 8
@@ -39981,7 +45975,10 @@ class WINGSBTC:
         return "WINGSBTC"
 
 
-@dataclass(slots=True)
+WINGSBTC = WINGSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGSETH:
     name: str = "WINGSETH"
     precision: int = 8
@@ -40001,7 +45998,10 @@ class WINGSETH:
         return "WINGSETH"
 
 
-@dataclass(slots=True)
+WINGSETH = WINGSETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WINGUSDT:
     name: str = "WINGUSDT"
     precision: int = 8
@@ -40021,7 +46021,10 @@ class WINGUSDT:
         return "WINGUSDT"
 
 
-@dataclass(slots=True)
+WINGUSDT = WINGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WINTRX:
     name: str = "WINTRX"
     precision: int = 8
@@ -40041,7 +46044,10 @@ class WINTRX:
         return "WINTRX"
 
 
-@dataclass(slots=True)
+WINTRX = WINTRX()
+
+
+@dataclass(slots=True, frozen=True)
 class WINUSDC:
     name: str = "WINUSDC"
     precision: int = 8
@@ -40061,7 +46067,10 @@ class WINUSDC:
         return "WINUSDC"
 
 
-@dataclass(slots=True)
+WINUSDC = WINUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class WINUSDT:
     name: str = "WINUSDT"
     precision: int = 8
@@ -40081,7 +46090,10 @@ class WINUSDT:
         return "WINUSDT"
 
 
-@dataclass(slots=True)
+WINUSDT = WINUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WNXMBNB:
     name: str = "WNXMBNB"
     precision: int = 8
@@ -40101,7 +46113,10 @@ class WNXMBNB:
         return "WNXMBNB"
 
 
-@dataclass(slots=True)
+WNXMBNB = WNXMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WNXMBTC:
     name: str = "WNXMBTC"
     precision: int = 8
@@ -40121,7 +46136,10 @@ class WNXMBTC:
         return "WNXMBTC"
 
 
-@dataclass(slots=True)
+WNXMBTC = WNXMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WNXMBUSD:
     name: str = "WNXMBUSD"
     precision: int = 8
@@ -40141,7 +46159,10 @@ class WNXMBUSD:
         return "WNXMBUSD"
 
 
-@dataclass(slots=True)
+WNXMBUSD = WNXMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WNXMUSDT:
     name: str = "WNXMUSDT"
     precision: int = 8
@@ -40161,7 +46182,10 @@ class WNXMUSDT:
         return "WNXMUSDT"
 
 
-@dataclass(slots=True)
+WNXMUSDT = WNXMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WOOBNB:
     name: str = "WOOBNB"
     precision: int = 8
@@ -40181,7 +46205,10 @@ class WOOBNB:
         return "WOOBNB"
 
 
-@dataclass(slots=True)
+WOOBNB = WOOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WOOBTC:
     name: str = "WOOBTC"
     precision: int = 8
@@ -40201,7 +46228,10 @@ class WOOBTC:
         return "WOOBTC"
 
 
-@dataclass(slots=True)
+WOOBTC = WOOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WOOBUSD:
     name: str = "WOOBUSD"
     precision: int = 8
@@ -40221,7 +46251,10 @@ class WOOBUSD:
         return "WOOBUSD"
 
 
-@dataclass(slots=True)
+WOOBUSD = WOOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WOOUSDT:
     name: str = "WOOUSDT"
     precision: int = 8
@@ -40241,7 +46274,10 @@ class WOOUSDT:
         return "WOOUSDT"
 
 
-@dataclass(slots=True)
+WOOUSDT = WOOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WPRBTC:
     name: str = "WPRBTC"
     precision: int = 8
@@ -40261,7 +46297,10 @@ class WPRBTC:
         return "WPRBTC"
 
 
-@dataclass(slots=True)
+WPRBTC = WPRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WPRETH:
     name: str = "WPRETH"
     precision: int = 8
@@ -40281,7 +46320,10 @@ class WPRETH:
         return "WPRETH"
 
 
-@dataclass(slots=True)
+WPRETH = WPRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WRXBNB:
     name: str = "WRXBNB"
     precision: int = 8
@@ -40301,7 +46343,10 @@ class WRXBNB:
         return "WRXBNB"
 
 
-@dataclass(slots=True)
+WRXBNB = WRXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WRXBTC:
     name: str = "WRXBTC"
     precision: int = 8
@@ -40321,7 +46366,10 @@ class WRXBTC:
         return "WRXBTC"
 
 
-@dataclass(slots=True)
+WRXBTC = WRXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WRXBUSD:
     name: str = "WRXBUSD"
     precision: int = 8
@@ -40341,7 +46389,10 @@ class WRXBUSD:
         return "WRXBUSD"
 
 
-@dataclass(slots=True)
+WRXBUSD = WRXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class WRXEUR:
     name: str = "WRXEUR"
     precision: int = 8
@@ -40361,7 +46412,10 @@ class WRXEUR:
         return "WRXEUR"
 
 
-@dataclass(slots=True)
+WRXEUR = WRXEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class WRXUSDT:
     name: str = "WRXUSDT"
     precision: int = 8
@@ -40381,7 +46435,10 @@ class WRXUSDT:
         return "WRXUSDT"
 
 
-@dataclass(slots=True)
+WRXUSDT = WRXUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WTCBNB:
     name: str = "WTCBNB"
     precision: int = 8
@@ -40401,7 +46458,10 @@ class WTCBNB:
         return "WTCBNB"
 
 
-@dataclass(slots=True)
+WTCBNB = WTCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class WTCBTC:
     name: str = "WTCBTC"
     precision: int = 8
@@ -40421,7 +46481,10 @@ class WTCBTC:
         return "WTCBTC"
 
 
-@dataclass(slots=True)
+WTCBTC = WTCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WTCETH:
     name: str = "WTCETH"
     precision: int = 8
@@ -40441,7 +46504,10 @@ class WTCETH:
         return "WTCETH"
 
 
-@dataclass(slots=True)
+WTCETH = WTCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class WTCUSDT:
     name: str = "WTCUSDT"
     precision: int = 8
@@ -40461,7 +46527,10 @@ class WTCUSDT:
         return "WTCUSDT"
 
 
-@dataclass(slots=True)
+WTCUSDT = WTCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XECBUSD:
     name: str = "XECBUSD"
     precision: int = 8
@@ -40481,7 +46550,10 @@ class XECBUSD:
         return "XECBUSD"
 
 
-@dataclass(slots=True)
+XECBUSD = XECBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XECUSDT:
     name: str = "XECUSDT"
     precision: int = 8
@@ -40501,7 +46573,10 @@ class XECUSDT:
         return "XECUSDT"
 
 
-@dataclass(slots=True)
+XECUSDT = XECUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XEMBNB:
     name: str = "XEMBNB"
     precision: int = 8
@@ -40521,7 +46596,10 @@ class XEMBNB:
         return "XEMBNB"
 
 
-@dataclass(slots=True)
+XEMBNB = XEMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XEMBTC:
     name: str = "XEMBTC"
     precision: int = 8
@@ -40541,7 +46619,10 @@ class XEMBTC:
         return "XEMBTC"
 
 
-@dataclass(slots=True)
+XEMBTC = XEMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XEMBUSD:
     name: str = "XEMBUSD"
     precision: int = 8
@@ -40561,7 +46642,10 @@ class XEMBUSD:
         return "XEMBUSD"
 
 
-@dataclass(slots=True)
+XEMBUSD = XEMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XEMETH:
     name: str = "XEMETH"
     precision: int = 8
@@ -40581,7 +46665,10 @@ class XEMETH:
         return "XEMETH"
 
 
-@dataclass(slots=True)
+XEMETH = XEMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XEMUSDT:
     name: str = "XEMUSDT"
     precision: int = 8
@@ -40601,7 +46688,10 @@ class XEMUSDT:
         return "XEMUSDT"
 
 
-@dataclass(slots=True)
+XEMUSDT = XEMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMBNB:
     name: str = "XLMBNB"
     precision: int = 8
@@ -40621,7 +46711,10 @@ class XLMBNB:
         return "XLMBNB"
 
 
-@dataclass(slots=True)
+XLMBNB = XLMBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMBTC:
     name: str = "XLMBTC"
     precision: int = 8
@@ -40641,7 +46734,10 @@ class XLMBTC:
         return "XLMBTC"
 
 
-@dataclass(slots=True)
+XLMBTC = XLMBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMBUSD:
     name: str = "XLMBUSD"
     precision: int = 8
@@ -40661,7 +46757,10 @@ class XLMBUSD:
         return "XLMBUSD"
 
 
-@dataclass(slots=True)
+XLMBUSD = XLMBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMDOWNUSDT:
     name: str = "XLMDOWNUSDT"
     precision: int = 8
@@ -40681,7 +46780,10 @@ class XLMDOWNUSDT:
         return "XLMDOWNUSDT"
 
 
-@dataclass(slots=True)
+XLMDOWNUSDT = XLMDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMETH:
     name: str = "XLMETH"
     precision: int = 8
@@ -40701,7 +46803,10 @@ class XLMETH:
         return "XLMETH"
 
 
-@dataclass(slots=True)
+XLMETH = XLMETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMEUR:
     name: str = "XLMEUR"
     precision: int = 8
@@ -40721,7 +46826,10 @@ class XLMEUR:
         return "XLMEUR"
 
 
-@dataclass(slots=True)
+XLMEUR = XLMEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMPAX:
     name: str = "XLMPAX"
     precision: int = 8
@@ -40741,7 +46849,10 @@ class XLMPAX:
         return "XLMPAX"
 
 
-@dataclass(slots=True)
+XLMPAX = XLMPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMTRY:
     name: str = "XLMTRY"
     precision: int = 8
@@ -40761,7 +46872,10 @@ class XLMTRY:
         return "XLMTRY"
 
 
-@dataclass(slots=True)
+XLMTRY = XLMTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMTUSD:
     name: str = "XLMTUSD"
     precision: int = 8
@@ -40781,7 +46895,10 @@ class XLMTUSD:
         return "XLMTUSD"
 
 
-@dataclass(slots=True)
+XLMTUSD = XLMTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMUPUSDT:
     name: str = "XLMUPUSDT"
     precision: int = 8
@@ -40801,7 +46918,10 @@ class XLMUPUSDT:
         return "XLMUPUSDT"
 
 
-@dataclass(slots=True)
+XLMUPUSDT = XLMUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMUSDC:
     name: str = "XLMUSDC"
     precision: int = 8
@@ -40821,7 +46941,10 @@ class XLMUSDC:
         return "XLMUSDC"
 
 
-@dataclass(slots=True)
+XLMUSDC = XLMUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class XLMUSDT:
     name: str = "XLMUSDT"
     precision: int = 8
@@ -40841,7 +46964,10 @@ class XLMUSDT:
         return "XLMUSDT"
 
 
-@dataclass(slots=True)
+XLMUSDT = XLMUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XMRBNB:
     name: str = "XMRBNB"
     precision: int = 8
@@ -40861,7 +46987,10 @@ class XMRBNB:
         return "XMRBNB"
 
 
-@dataclass(slots=True)
+XMRBNB = XMRBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XMRBTC:
     name: str = "XMRBTC"
     precision: int = 8
@@ -40881,7 +47010,10 @@ class XMRBTC:
         return "XMRBTC"
 
 
-@dataclass(slots=True)
+XMRBTC = XMRBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XMRBUSD:
     name: str = "XMRBUSD"
     precision: int = 8
@@ -40901,7 +47033,10 @@ class XMRBUSD:
         return "XMRBUSD"
 
 
-@dataclass(slots=True)
+XMRBUSD = XMRBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XMRETH:
     name: str = "XMRETH"
     precision: int = 8
@@ -40921,7 +47056,10 @@ class XMRETH:
         return "XMRETH"
 
 
-@dataclass(slots=True)
+XMRETH = XMRETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XMRUSDT:
     name: str = "XMRUSDT"
     precision: int = 8
@@ -40941,7 +47079,10 @@ class XMRUSDT:
         return "XMRUSDT"
 
 
-@dataclass(slots=True)
+XMRUSDT = XMRUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XNOBTC:
     name: str = "XNOBTC"
     precision: int = 8
@@ -40961,7 +47102,10 @@ class XNOBTC:
         return "XNOBTC"
 
 
-@dataclass(slots=True)
+XNOBTC = XNOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XNOBUSD:
     name: str = "XNOBUSD"
     precision: int = 8
@@ -40981,7 +47125,10 @@ class XNOBUSD:
         return "XNOBUSD"
 
 
-@dataclass(slots=True)
+XNOBUSD = XNOBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XNOETH:
     name: str = "XNOETH"
     precision: int = 8
@@ -41001,7 +47148,10 @@ class XNOETH:
         return "XNOETH"
 
 
-@dataclass(slots=True)
+XNOETH = XNOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XNOUSDT:
     name: str = "XNOUSDT"
     precision: int = 8
@@ -41021,7 +47171,10 @@ class XNOUSDT:
         return "XNOUSDT"
 
 
-@dataclass(slots=True)
+XNOUSDT = XNOUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPAUD:
     name: str = "XRPAUD"
     precision: int = 8
@@ -41041,7 +47194,10 @@ class XRPAUD:
         return "XRPAUD"
 
 
-@dataclass(slots=True)
+XRPAUD = XRPAUD()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBEARBUSD:
     name: str = "XRPBEARBUSD"
     precision: int = 8
@@ -41061,7 +47217,10 @@ class XRPBEARBUSD:
         return "XRPBEARBUSD"
 
 
-@dataclass(slots=True)
+XRPBEARBUSD = XRPBEARBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBEARUSDT:
     name: str = "XRPBEARUSDT"
     precision: int = 8
@@ -41081,7 +47240,10 @@ class XRPBEARUSDT:
         return "XRPBEARUSDT"
 
 
-@dataclass(slots=True)
+XRPBEARUSDT = XRPBEARUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBIDR:
     name: str = "XRPBIDR"
     precision: int = 2
@@ -41101,7 +47263,10 @@ class XRPBIDR:
         return "XRPBIDR"
 
 
-@dataclass(slots=True)
+XRPBIDR = XRPBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBKRW:
     name: str = "XRPBKRW"
     precision: int = 8
@@ -41121,7 +47286,10 @@ class XRPBKRW:
         return "XRPBKRW"
 
 
-@dataclass(slots=True)
+XRPBKRW = XRPBKRW()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBNB:
     name: str = "XRPBNB"
     precision: int = 8
@@ -41141,7 +47309,10 @@ class XRPBNB:
         return "XRPBNB"
 
 
-@dataclass(slots=True)
+XRPBNB = XRPBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBRL:
     name: str = "XRPBRL"
     precision: int = 8
@@ -41161,7 +47332,10 @@ class XRPBRL:
         return "XRPBRL"
 
 
-@dataclass(slots=True)
+XRPBRL = XRPBRL()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBTC:
     name: str = "XRPBTC"
     precision: int = 8
@@ -41181,7 +47355,10 @@ class XRPBTC:
         return "XRPBTC"
 
 
-@dataclass(slots=True)
+XRPBTC = XRPBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBULLBUSD:
     name: str = "XRPBULLBUSD"
     precision: int = 8
@@ -41201,7 +47378,10 @@ class XRPBULLBUSD:
         return "XRPBULLBUSD"
 
 
-@dataclass(slots=True)
+XRPBULLBUSD = XRPBULLBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBULLUSDT:
     name: str = "XRPBULLUSDT"
     precision: int = 8
@@ -41221,7 +47401,10 @@ class XRPBULLUSDT:
         return "XRPBULLUSDT"
 
 
-@dataclass(slots=True)
+XRPBULLUSDT = XRPBULLUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPBUSD:
     name: str = "XRPBUSD"
     precision: int = 8
@@ -41241,7 +47424,10 @@ class XRPBUSD:
         return "XRPBUSD"
 
 
-@dataclass(slots=True)
+XRPBUSD = XRPBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPDOWNUSDT:
     name: str = "XRPDOWNUSDT"
     precision: int = 8
@@ -41261,7 +47447,10 @@ class XRPDOWNUSDT:
         return "XRPDOWNUSDT"
 
 
-@dataclass(slots=True)
+XRPDOWNUSDT = XRPDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPETH:
     name: str = "XRPETH"
     precision: int = 8
@@ -41281,7 +47470,10 @@ class XRPETH:
         return "XRPETH"
 
 
-@dataclass(slots=True)
+XRPETH = XRPETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPEUR:
     name: str = "XRPEUR"
     precision: int = 8
@@ -41301,7 +47493,10 @@ class XRPEUR:
         return "XRPEUR"
 
 
-@dataclass(slots=True)
+XRPEUR = XRPEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPGBP:
     name: str = "XRPGBP"
     precision: int = 8
@@ -41321,7 +47516,10 @@ class XRPGBP:
         return "XRPGBP"
 
 
-@dataclass(slots=True)
+XRPGBP = XRPGBP()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPNGN:
     name: str = "XRPNGN"
     precision: int = 8
@@ -41341,7 +47539,10 @@ class XRPNGN:
         return "XRPNGN"
 
 
-@dataclass(slots=True)
+XRPNGN = XRPNGN()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPPAX:
     name: str = "XRPPAX"
     precision: int = 8
@@ -41361,7 +47562,10 @@ class XRPPAX:
         return "XRPPAX"
 
 
-@dataclass(slots=True)
+XRPPAX = XRPPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPRUB:
     name: str = "XRPRUB"
     precision: int = 8
@@ -41381,7 +47585,10 @@ class XRPRUB:
         return "XRPRUB"
 
 
-@dataclass(slots=True)
+XRPRUB = XRPRUB()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPTRY:
     name: str = "XRPTRY"
     precision: int = 8
@@ -41401,7 +47608,10 @@ class XRPTRY:
         return "XRPTRY"
 
 
-@dataclass(slots=True)
+XRPTRY = XRPTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPTUSD:
     name: str = "XRPTUSD"
     precision: int = 8
@@ -41421,7 +47631,10 @@ class XRPTUSD:
         return "XRPTUSD"
 
 
-@dataclass(slots=True)
+XRPTUSD = XRPTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPUPUSDT:
     name: str = "XRPUPUSDT"
     precision: int = 8
@@ -41441,7 +47654,10 @@ class XRPUPUSDT:
         return "XRPUPUSDT"
 
 
-@dataclass(slots=True)
+XRPUPUSDT = XRPUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPUSDC:
     name: str = "XRPUSDC"
     precision: int = 8
@@ -41461,7 +47677,10 @@ class XRPUSDC:
         return "XRPUSDC"
 
 
-@dataclass(slots=True)
+XRPUSDC = XRPUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class XRPUSDT:
     name: str = "XRPUSDT"
     precision: int = 8
@@ -41481,7 +47700,10 @@ class XRPUSDT:
         return "XRPUSDT"
 
 
-@dataclass(slots=True)
+XRPUSDT = XRPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZBNB:
     name: str = "XTZBNB"
     precision: int = 8
@@ -41501,7 +47723,10 @@ class XTZBNB:
         return "XTZBNB"
 
 
-@dataclass(slots=True)
+XTZBNB = XTZBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZBTC:
     name: str = "XTZBTC"
     precision: int = 8
@@ -41521,7 +47746,10 @@ class XTZBTC:
         return "XTZBTC"
 
 
-@dataclass(slots=True)
+XTZBTC = XTZBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZBUSD:
     name: str = "XTZBUSD"
     precision: int = 8
@@ -41541,7 +47769,10 @@ class XTZBUSD:
         return "XTZBUSD"
 
 
-@dataclass(slots=True)
+XTZBUSD = XTZBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZDOWNUSDT:
     name: str = "XTZDOWNUSDT"
     precision: int = 8
@@ -41561,7 +47792,10 @@ class XTZDOWNUSDT:
         return "XTZDOWNUSDT"
 
 
-@dataclass(slots=True)
+XTZDOWNUSDT = XTZDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZETH:
     name: str = "XTZETH"
     precision: int = 8
@@ -41581,7 +47815,10 @@ class XTZETH:
         return "XTZETH"
 
 
-@dataclass(slots=True)
+XTZETH = XTZETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZTRY:
     name: str = "XTZTRY"
     precision: int = 8
@@ -41601,7 +47838,10 @@ class XTZTRY:
         return "XTZTRY"
 
 
-@dataclass(slots=True)
+XTZTRY = XTZTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZUPUSDT:
     name: str = "XTZUPUSDT"
     precision: int = 8
@@ -41621,7 +47861,10 @@ class XTZUPUSDT:
         return "XTZUPUSDT"
 
 
-@dataclass(slots=True)
+XTZUPUSDT = XTZUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZUSDT:
     name: str = "XTZUSDT"
     precision: int = 8
@@ -41641,7 +47884,10 @@ class XTZUSDT:
         return "XTZUSDT"
 
 
-@dataclass(slots=True)
+XTZUSDT = XTZUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XVGBTC:
     name: str = "XVGBTC"
     precision: int = 8
@@ -41661,7 +47907,10 @@ class XVGBTC:
         return "XVGBTC"
 
 
-@dataclass(slots=True)
+XVGBTC = XVGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XVGBUSD:
     name: str = "XVGBUSD"
     precision: int = 8
@@ -41681,7 +47930,10 @@ class XVGBUSD:
         return "XVGBUSD"
 
 
-@dataclass(slots=True)
+XVGBUSD = XVGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XVGETH:
     name: str = "XVGETH"
     precision: int = 8
@@ -41701,7 +47953,10 @@ class XVGETH:
         return "XVGETH"
 
 
-@dataclass(slots=True)
+XVGETH = XVGETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XVGUSDT:
     name: str = "XVGUSDT"
     precision: int = 8
@@ -41721,7 +47976,10 @@ class XVGUSDT:
         return "XVGUSDT"
 
 
-@dataclass(slots=True)
+XVGUSDT = XVGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XVSBNB:
     name: str = "XVSBNB"
     precision: int = 8
@@ -41741,7 +47999,10 @@ class XVSBNB:
         return "XVSBNB"
 
 
-@dataclass(slots=True)
+XVSBNB = XVSBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XVSBTC:
     name: str = "XVSBTC"
     precision: int = 8
@@ -41761,7 +48022,10 @@ class XVSBTC:
         return "XVSBTC"
 
 
-@dataclass(slots=True)
+XVSBTC = XVSBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XVSBUSD:
     name: str = "XVSBUSD"
     precision: int = 8
@@ -41781,7 +48045,10 @@ class XVSBUSD:
         return "XVSBUSD"
 
 
-@dataclass(slots=True)
+XVSBUSD = XVSBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class XVSUSDT:
     name: str = "XVSUSDT"
     precision: int = 8
@@ -41801,7 +48068,10 @@ class XVSUSDT:
         return "XVSUSDT"
 
 
-@dataclass(slots=True)
+XVSUSDT = XVSUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XZCBNB:
     name: str = "XZCBNB"
     precision: int = 8
@@ -41821,7 +48091,10 @@ class XZCBNB:
         return "XZCBNB"
 
 
-@dataclass(slots=True)
+XZCBNB = XZCBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class XZCBTC:
     name: str = "XZCBTC"
     precision: int = 8
@@ -41841,7 +48114,10 @@ class XZCBTC:
         return "XZCBTC"
 
 
-@dataclass(slots=True)
+XZCBTC = XZCBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XZCETH:
     name: str = "XZCETH"
     precision: int = 8
@@ -41861,7 +48137,10 @@ class XZCETH:
         return "XZCETH"
 
 
-@dataclass(slots=True)
+XZCETH = XZCETH()
+
+
+@dataclass(slots=True, frozen=True)
 class XZCUSDT:
     name: str = "XZCUSDT"
     precision: int = 8
@@ -41881,7 +48160,10 @@ class XZCUSDT:
         return "XZCUSDT"
 
 
-@dataclass(slots=True)
+XZCUSDT = XZCUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XZCXRP:
     name: str = "XZCXRP"
     precision: int = 8
@@ -41901,7 +48183,10 @@ class XZCXRP:
         return "XZCXRP"
 
 
-@dataclass(slots=True)
+XZCXRP = XZCXRP()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIBNB:
     name: str = "YFIBNB"
     precision: int = 8
@@ -41921,7 +48206,10 @@ class YFIBNB:
         return "YFIBNB"
 
 
-@dataclass(slots=True)
+YFIBNB = YFIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIBTC:
     name: str = "YFIBTC"
     precision: int = 8
@@ -41941,7 +48229,10 @@ class YFIBTC:
         return "YFIBTC"
 
 
-@dataclass(slots=True)
+YFIBTC = YFIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIBUSD:
     name: str = "YFIBUSD"
     precision: int = 8
@@ -41961,7 +48252,10 @@ class YFIBUSD:
         return "YFIBUSD"
 
 
-@dataclass(slots=True)
+YFIBUSD = YFIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIDOWNUSDT:
     name: str = "YFIDOWNUSDT"
     precision: int = 8
@@ -41981,7 +48275,10 @@ class YFIDOWNUSDT:
         return "YFIDOWNUSDT"
 
 
-@dataclass(slots=True)
+YFIDOWNUSDT = YFIDOWNUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIEUR:
     name: str = "YFIEUR"
     precision: int = 8
@@ -42001,7 +48298,10 @@ class YFIEUR:
         return "YFIEUR"
 
 
-@dataclass(slots=True)
+YFIEUR = YFIEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIIBNB:
     name: str = "YFIIBNB"
     precision: int = 8
@@ -42021,7 +48321,10 @@ class YFIIBNB:
         return "YFIIBNB"
 
 
-@dataclass(slots=True)
+YFIIBNB = YFIIBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIIBTC:
     name: str = "YFIIBTC"
     precision: int = 8
@@ -42041,7 +48344,10 @@ class YFIIBTC:
         return "YFIIBTC"
 
 
-@dataclass(slots=True)
+YFIIBTC = YFIIBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIIBUSD:
     name: str = "YFIIBUSD"
     precision: int = 8
@@ -42061,7 +48367,10 @@ class YFIIBUSD:
         return "YFIIBUSD"
 
 
-@dataclass(slots=True)
+YFIIBUSD = YFIIBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIIUSDT:
     name: str = "YFIIUSDT"
     precision: int = 8
@@ -42081,7 +48390,10 @@ class YFIIUSDT:
         return "YFIIUSDT"
 
 
-@dataclass(slots=True)
+YFIIUSDT = YFIIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIUPUSDT:
     name: str = "YFIUPUSDT"
     precision: int = 8
@@ -42101,7 +48413,10 @@ class YFIUPUSDT:
         return "YFIUPUSDT"
 
 
-@dataclass(slots=True)
+YFIUPUSDT = YFIUPUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YFIUSDT:
     name: str = "YFIUSDT"
     precision: int = 8
@@ -42121,7 +48436,10 @@ class YFIUSDT:
         return "YFIUSDT"
 
 
-@dataclass(slots=True)
+YFIUSDT = YFIUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YGGBNB:
     name: str = "YGGBNB"
     precision: int = 8
@@ -42141,7 +48459,10 @@ class YGGBNB:
         return "YGGBNB"
 
 
-@dataclass(slots=True)
+YGGBNB = YGGBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class YGGBTC:
     name: str = "YGGBTC"
     precision: int = 8
@@ -42161,7 +48482,10 @@ class YGGBTC:
         return "YGGBTC"
 
 
-@dataclass(slots=True)
+YGGBTC = YGGBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class YGGBUSD:
     name: str = "YGGBUSD"
     precision: int = 8
@@ -42181,7 +48505,10 @@ class YGGBUSD:
         return "YGGBUSD"
 
 
-@dataclass(slots=True)
+YGGBUSD = YGGBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class YGGUSDT:
     name: str = "YGGUSDT"
     precision: int = 8
@@ -42201,7 +48528,10 @@ class YGGUSDT:
         return "YGGUSDT"
 
 
-@dataclass(slots=True)
+YGGUSDT = YGGUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YOYOBNB:
     name: str = "YOYOBNB"
     precision: int = 8
@@ -42221,7 +48551,10 @@ class YOYOBNB:
         return "YOYOBNB"
 
 
-@dataclass(slots=True)
+YOYOBNB = YOYOBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class YOYOBTC:
     name: str = "YOYOBTC"
     precision: int = 8
@@ -42241,7 +48574,10 @@ class YOYOBTC:
         return "YOYOBTC"
 
 
-@dataclass(slots=True)
+YOYOBTC = YOYOBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class YOYOETH:
     name: str = "YOYOETH"
     precision: int = 8
@@ -42261,7 +48597,10 @@ class YOYOETH:
         return "YOYOETH"
 
 
-@dataclass(slots=True)
+YOYOETH = YOYOETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECBNB:
     name: str = "ZECBNB"
     precision: int = 8
@@ -42281,7 +48620,10 @@ class ZECBNB:
         return "ZECBNB"
 
 
-@dataclass(slots=True)
+ZECBNB = ZECBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECBTC:
     name: str = "ZECBTC"
     precision: int = 8
@@ -42301,7 +48643,10 @@ class ZECBTC:
         return "ZECBTC"
 
 
-@dataclass(slots=True)
+ZECBTC = ZECBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECBUSD:
     name: str = "ZECBUSD"
     precision: int = 8
@@ -42321,7 +48666,10 @@ class ZECBUSD:
         return "ZECBUSD"
 
 
-@dataclass(slots=True)
+ZECBUSD = ZECBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECETH:
     name: str = "ZECETH"
     precision: int = 8
@@ -42341,7 +48689,10 @@ class ZECETH:
         return "ZECETH"
 
 
-@dataclass(slots=True)
+ZECETH = ZECETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECPAX:
     name: str = "ZECPAX"
     precision: int = 8
@@ -42361,7 +48712,10 @@ class ZECPAX:
         return "ZECPAX"
 
 
-@dataclass(slots=True)
+ZECPAX = ZECPAX()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECTUSD:
     name: str = "ZECTUSD"
     precision: int = 8
@@ -42381,7 +48735,10 @@ class ZECTUSD:
         return "ZECTUSD"
 
 
-@dataclass(slots=True)
+ZECTUSD = ZECTUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECUSDC:
     name: str = "ZECUSDC"
     precision: int = 8
@@ -42401,7 +48758,10 @@ class ZECUSDC:
         return "ZECUSDC"
 
 
-@dataclass(slots=True)
+ZECUSDC = ZECUSDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZECUSDT:
     name: str = "ZECUSDT"
     precision: int = 8
@@ -42421,7 +48781,10 @@ class ZECUSDT:
         return "ZECUSDT"
 
 
-@dataclass(slots=True)
+ZECUSDT = ZECUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ZENBNB:
     name: str = "ZENBNB"
     precision: int = 8
@@ -42441,7 +48804,10 @@ class ZENBNB:
         return "ZENBNB"
 
 
-@dataclass(slots=True)
+ZENBNB = ZENBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ZENBTC:
     name: str = "ZENBTC"
     precision: int = 8
@@ -42461,7 +48827,10 @@ class ZENBTC:
         return "ZENBTC"
 
 
-@dataclass(slots=True)
+ZENBTC = ZENBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZENBUSD:
     name: str = "ZENBUSD"
     precision: int = 8
@@ -42481,7 +48850,10 @@ class ZENBUSD:
         return "ZENBUSD"
 
 
-@dataclass(slots=True)
+ZENBUSD = ZENBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZENETH:
     name: str = "ZENETH"
     precision: int = 8
@@ -42501,7 +48873,10 @@ class ZENETH:
         return "ZENETH"
 
 
-@dataclass(slots=True)
+ZENETH = ZENETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ZENUSDT:
     name: str = "ZENUSDT"
     precision: int = 8
@@ -42521,7 +48896,10 @@ class ZENUSDT:
         return "ZENUSDT"
 
 
-@dataclass(slots=True)
+ZENUSDT = ZENUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILBIDR:
     name: str = "ZILBIDR"
     precision: int = 2
@@ -42541,7 +48919,10 @@ class ZILBIDR:
         return "ZILBIDR"
 
 
-@dataclass(slots=True)
+ZILBIDR = ZILBIDR()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILBNB:
     name: str = "ZILBNB"
     precision: int = 8
@@ -42561,7 +48942,10 @@ class ZILBNB:
         return "ZILBNB"
 
 
-@dataclass(slots=True)
+ZILBNB = ZILBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILBTC:
     name: str = "ZILBTC"
     precision: int = 8
@@ -42581,7 +48965,10 @@ class ZILBTC:
         return "ZILBTC"
 
 
-@dataclass(slots=True)
+ZILBTC = ZILBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILBUSD:
     name: str = "ZILBUSD"
     precision: int = 8
@@ -42601,7 +48988,10 @@ class ZILBUSD:
         return "ZILBUSD"
 
 
-@dataclass(slots=True)
+ZILBUSD = ZILBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILETH:
     name: str = "ZILETH"
     precision: int = 8
@@ -42621,7 +49011,10 @@ class ZILETH:
         return "ZILETH"
 
 
-@dataclass(slots=True)
+ZILETH = ZILETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILEUR:
     name: str = "ZILEUR"
     precision: int = 8
@@ -42641,7 +49034,10 @@ class ZILEUR:
         return "ZILEUR"
 
 
-@dataclass(slots=True)
+ZILEUR = ZILEUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILTRY:
     name: str = "ZILTRY"
     precision: int = 8
@@ -42661,7 +49057,10 @@ class ZILTRY:
         return "ZILTRY"
 
 
-@dataclass(slots=True)
+ZILTRY = ZILTRY()
+
+
+@dataclass(slots=True, frozen=True)
 class ZILUSDT:
     name: str = "ZILUSDT"
     precision: int = 8
@@ -42681,7 +49080,10 @@ class ZILUSDT:
         return "ZILUSDT"
 
 
-@dataclass(slots=True)
+ZILUSDT = ZILUSDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRXBNB:
     name: str = "ZRXBNB"
     precision: int = 8
@@ -42701,7 +49103,10 @@ class ZRXBNB:
         return "ZRXBNB"
 
 
-@dataclass(slots=True)
+ZRXBNB = ZRXBNB()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRXBTC:
     name: str = "ZRXBTC"
     precision: int = 8
@@ -42721,7 +49126,10 @@ class ZRXBTC:
         return "ZRXBTC"
 
 
-@dataclass(slots=True)
+ZRXBTC = ZRXBTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRXBUSD:
     name: str = "ZRXBUSD"
     precision: int = 8
@@ -42741,7 +49149,10 @@ class ZRXBUSD:
         return "ZRXBUSD"
 
 
-@dataclass(slots=True)
+ZRXBUSD = ZRXBUSD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRXETH:
     name: str = "ZRXETH"
     precision: int = 8
@@ -42761,7 +49172,10 @@ class ZRXETH:
         return "ZRXETH"
 
 
-@dataclass(slots=True)
+ZRXETH = ZRXETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRXUSDT:
     name: str = "ZRXUSDT"
     precision: int = 8
@@ -42779,5 +49193,8 @@ class ZRXUSDT:
 
     def __call__(self):
         return "ZRXUSDT"
+
+
+ZRXUSDT = ZRXUSDT()
 
 

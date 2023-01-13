@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass(slots=True)
+@dataclass(slots=True, frozen=True)
 class ZERO0_USD:
     name: str = "00-USD"
     precision: int = 0.0001
@@ -21,7 +21,10 @@ class ZERO0_USD:
         return "00-USD"
 
 
-@dataclass(slots=True)
+ZERO0_USD = ZERO0_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCH_BTC:
     name: str = "1INCH-BTC"
     precision: int = 0.0000001
@@ -41,7 +44,10 @@ class ONEINCH_BTC:
         return "1INCH-BTC"
 
 
-@dataclass(slots=True)
+ONEINCH_BTC = ONEINCH_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCH_EUR:
     name: str = "1INCH-EUR"
     precision: int = 0.001
@@ -61,7 +67,10 @@ class ONEINCH_EUR:
         return "1INCH-EUR"
 
 
-@dataclass(slots=True)
+ONEINCH_EUR = ONEINCH_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCH_GBP:
     name: str = "1INCH-GBP"
     precision: int = 0.001
@@ -81,7 +90,10 @@ class ONEINCH_GBP:
         return "1INCH-GBP"
 
 
-@dataclass(slots=True)
+ONEINCH_GBP = ONEINCH_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ONEINCH_USD:
     name: str = "1INCH-USD"
     precision: int = 0.001
@@ -101,7 +113,10 @@ class ONEINCH_USD:
         return "1INCH-USD"
 
 
-@dataclass(slots=True)
+ONEINCH_USD = ONEINCH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVE_BTC:
     name: str = "AAVE-BTC"
     precision: int = 0.000001
@@ -121,7 +136,10 @@ class AAVE_BTC:
         return "AAVE-BTC"
 
 
-@dataclass(slots=True)
+AAVE_BTC = AAVE_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVE_EUR:
     name: str = "AAVE-EUR"
     precision: int = 0.01
@@ -141,7 +159,10 @@ class AAVE_EUR:
         return "AAVE-EUR"
 
 
-@dataclass(slots=True)
+AAVE_EUR = AAVE_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVE_GBP:
     name: str = "AAVE-GBP"
     precision: int = 0.01
@@ -161,7 +182,10 @@ class AAVE_GBP:
         return "AAVE-GBP"
 
 
-@dataclass(slots=True)
+AAVE_GBP = AAVE_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class AAVE_USD:
     name: str = "AAVE-USD"
     precision: int = 0.01
@@ -181,7 +205,10 @@ class AAVE_USD:
         return "AAVE-USD"
 
 
-@dataclass(slots=True)
+AAVE_USD = AAVE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ABT_USD:
     name: str = "ABT-USD"
     precision: int = 0.0001
@@ -201,7 +228,10 @@ class ABT_USD:
         return "ABT-USD"
 
 
-@dataclass(slots=True)
+ABT_USD = ABT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ACH_USD:
     name: str = "ACH-USD"
     precision: int = 0.000001
@@ -221,7 +251,10 @@ class ACH_USD:
         return "ACH-USD"
 
 
-@dataclass(slots=True)
+ACH_USD = ACH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ACH_USDT:
     name: str = "ACH-USDT"
     precision: int = 0.000001
@@ -241,7 +274,10 @@ class ACH_USDT:
         return "ACH-USDT"
 
 
-@dataclass(slots=True)
+ACH_USDT = ACH_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_BTC:
     name: str = "ADA-BTC"
     precision: int = 0.00000001
@@ -261,7 +297,10 @@ class ADA_BTC:
         return "ADA-BTC"
 
 
-@dataclass(slots=True)
+ADA_BTC = ADA_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_ETH:
     name: str = "ADA-ETH"
     precision: int = 0.000001
@@ -281,7 +320,10 @@ class ADA_ETH:
         return "ADA-ETH"
 
 
-@dataclass(slots=True)
+ADA_ETH = ADA_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_EUR:
     name: str = "ADA-EUR"
     precision: int = 0.0001
@@ -301,7 +343,10 @@ class ADA_EUR:
         return "ADA-EUR"
 
 
-@dataclass(slots=True)
+ADA_EUR = ADA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_GBP:
     name: str = "ADA-GBP"
     precision: int = 0.0001
@@ -321,7 +366,10 @@ class ADA_GBP:
         return "ADA-GBP"
 
 
-@dataclass(slots=True)
+ADA_GBP = ADA_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_USD:
     name: str = "ADA-USD"
     precision: int = 0.0001
@@ -341,7 +389,10 @@ class ADA_USD:
         return "ADA-USD"
 
 
-@dataclass(slots=True)
+ADA_USD = ADA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_USDC:
     name: str = "ADA-USDC"
     precision: int = 0.001
@@ -361,7 +412,10 @@ class ADA_USDC:
         return "ADA-USDC"
 
 
-@dataclass(slots=True)
+ADA_USDC = ADA_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ADA_USDT:
     name: str = "ADA-USDT"
     precision: int = 0.001
@@ -381,7 +435,10 @@ class ADA_USDT:
         return "ADA-USDT"
 
 
-@dataclass(slots=True)
+ADA_USDT = ADA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AERGO_USD:
     name: str = "AERGO-USD"
     precision: int = 0.0001
@@ -401,7 +458,10 @@ class AERGO_USD:
         return "AERGO-USD"
 
 
-@dataclass(slots=True)
+AERGO_USD = AERGO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLD_USD:
     name: str = "AGLD-USD"
     precision: int = 0.0001
@@ -421,7 +481,10 @@ class AGLD_USD:
         return "AGLD-USD"
 
 
-@dataclass(slots=True)
+AGLD_USD = AGLD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AGLD_USDT:
     name: str = "AGLD-USDT"
     precision: int = 0.0001
@@ -441,7 +504,10 @@ class AGLD_USDT:
         return "AGLD-USDT"
 
 
-@dataclass(slots=True)
+AGLD_USDT = AGLD_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AIOZ_USD:
     name: str = "AIOZ-USD"
     precision: int = 0.0001
@@ -461,7 +527,10 @@ class AIOZ_USD:
         return "AIOZ-USD"
 
 
-@dataclass(slots=True)
+AIOZ_USD = AIOZ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AIOZ_USDT:
     name: str = "AIOZ-USDT"
     precision: int = 0.0001
@@ -481,7 +550,10 @@ class AIOZ_USDT:
         return "AIOZ-USDT"
 
 
-@dataclass(slots=True)
+AIOZ_USDT = AIOZ_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCX_EUR:
     name: str = "ALCX-EUR"
     precision: int = 0.01
@@ -501,7 +573,10 @@ class ALCX_EUR:
         return "ALCX-EUR"
 
 
-@dataclass(slots=True)
+ALCX_EUR = ALCX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCX_USD:
     name: str = "ALCX-USD"
     precision: int = 0.01
@@ -521,7 +596,10 @@ class ALCX_USD:
         return "ALCX-USD"
 
 
-@dataclass(slots=True)
+ALCX_USD = ALCX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALCX_USDT:
     name: str = "ALCX-USDT"
     precision: int = 0.01
@@ -541,7 +619,10 @@ class ALCX_USDT:
         return "ALCX-USDT"
 
 
-@dataclass(slots=True)
+ALCX_USDT = ALCX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ALEPH_USD:
     name: str = "ALEPH-USD"
     precision: int = 0.0001
@@ -561,7 +642,10 @@ class ALEPH_USD:
         return "ALEPH-USD"
 
 
-@dataclass(slots=True)
+ALEPH_USD = ALEPH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGO_BTC:
     name: str = "ALGO-BTC"
     precision: int = 0.00000001
@@ -581,7 +665,10 @@ class ALGO_BTC:
         return "ALGO-BTC"
 
 
-@dataclass(slots=True)
+ALGO_BTC = ALGO_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGO_EUR:
     name: str = "ALGO-EUR"
     precision: int = 0.0001
@@ -601,7 +688,10 @@ class ALGO_EUR:
         return "ALGO-EUR"
 
 
-@dataclass(slots=True)
+ALGO_EUR = ALGO_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGO_GBP:
     name: str = "ALGO-GBP"
     precision: int = 0.0001
@@ -621,7 +711,10 @@ class ALGO_GBP:
         return "ALGO-GBP"
 
 
-@dataclass(slots=True)
+ALGO_GBP = ALGO_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ALGO_USD:
     name: str = "ALGO-USD"
     precision: int = 0.0001
@@ -641,7 +734,10 @@ class ALGO_USD:
         return "ALGO-USD"
 
 
-@dataclass(slots=True)
+ALGO_USD = ALGO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ALICE_USD:
     name: str = "ALICE-USD"
     precision: int = 0.001
@@ -661,7 +757,10 @@ class ALICE_USD:
         return "ALICE-USD"
 
 
-@dataclass(slots=True)
+ALICE_USD = ALICE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AMP_USD:
     name: str = "AMP-USD"
     precision: int = 0.00001
@@ -681,7 +780,10 @@ class AMP_USD:
         return "AMP-USD"
 
 
-@dataclass(slots=True)
+AMP_USD = AMP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKR_BTC:
     name: str = "ANKR-BTC"
     precision: int = 0.00000001
@@ -701,7 +803,10 @@ class ANKR_BTC:
         return "ANKR-BTC"
 
 
-@dataclass(slots=True)
+ANKR_BTC = ANKR_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKR_EUR:
     name: str = "ANKR-EUR"
     precision: int = 0.00001
@@ -721,7 +826,10 @@ class ANKR_EUR:
         return "ANKR-EUR"
 
 
-@dataclass(slots=True)
+ANKR_EUR = ANKR_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKR_GBP:
     name: str = "ANKR-GBP"
     precision: int = 0.00001
@@ -741,7 +849,10 @@ class ANKR_GBP:
         return "ANKR-GBP"
 
 
-@dataclass(slots=True)
+ANKR_GBP = ANKR_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ANKR_USD:
     name: str = "ANKR-USD"
     precision: int = 0.00001
@@ -761,7 +872,10 @@ class ANKR_USD:
         return "ANKR-USD"
 
 
-@dataclass(slots=True)
+ANKR_USD = ANKR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ANT_USD:
     name: str = "ANT-USD"
     precision: int = 0.01
@@ -781,7 +895,10 @@ class ANT_USD:
         return "ANT-USD"
 
 
-@dataclass(slots=True)
+ANT_USD = ANT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class APE_EUR:
     name: str = "APE-EUR"
     precision: int = 0.001
@@ -801,7 +918,10 @@ class APE_EUR:
         return "APE-EUR"
 
 
-@dataclass(slots=True)
+APE_EUR = APE_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class APE_USD:
     name: str = "APE-USD"
     precision: int = 0.001
@@ -821,7 +941,10 @@ class APE_USD:
         return "APE-USD"
 
 
-@dataclass(slots=True)
+APE_USD = APE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class APE_USDT:
     name: str = "APE-USDT"
     precision: int = 0.001
@@ -841,7 +964,10 @@ class APE_USDT:
         return "APE-USDT"
 
 
-@dataclass(slots=True)
+APE_USDT = APE_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class API3_USD:
     name: str = "API3-USD"
     precision: int = 0.001
@@ -861,7 +987,10 @@ class API3_USD:
         return "API3-USD"
 
 
-@dataclass(slots=True)
+API3_USD = API3_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class API3_USDT:
     name: str = "API3-USDT"
     precision: int = 0.001
@@ -881,7 +1010,10 @@ class API3_USDT:
         return "API3-USDT"
 
 
-@dataclass(slots=True)
+API3_USDT = API3_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class APT_USD:
     name: str = "APT-USD"
     precision: int = 0.01
@@ -901,7 +1033,10 @@ class APT_USD:
         return "APT-USD"
 
 
-@dataclass(slots=True)
+APT_USD = APT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class APT_USDT:
     name: str = "APT-USDT"
     precision: int = 0.01
@@ -921,7 +1056,10 @@ class APT_USDT:
         return "APT-USDT"
 
 
-@dataclass(slots=True)
+APT_USDT = APT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPA_EUR:
     name: str = "ARPA-EUR"
     precision: int = 0.00001
@@ -941,7 +1079,10 @@ class ARPA_EUR:
         return "ARPA-EUR"
 
 
-@dataclass(slots=True)
+ARPA_EUR = ARPA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPA_USD:
     name: str = "ARPA-USD"
     precision: int = 0.0001
@@ -961,7 +1102,10 @@ class ARPA_USD:
         return "ARPA-USD"
 
 
-@dataclass(slots=True)
+ARPA_USD = ARPA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ARPA_USDT:
     name: str = "ARPA-USDT"
     precision: int = 0.0001
@@ -981,7 +1125,10 @@ class ARPA_USDT:
         return "ARPA-USDT"
 
 
-@dataclass(slots=True)
+ARPA_USDT = ARPA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ASM_USD:
     name: str = "ASM-USD"
     precision: int = 0.00001
@@ -1001,7 +1148,10 @@ class ASM_USD:
         return "ASM-USD"
 
 
-@dataclass(slots=True)
+ASM_USD = ASM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ASM_USDT:
     name: str = "ASM-USDT"
     precision: int = 0.00001
@@ -1021,7 +1171,10 @@ class ASM_USDT:
         return "ASM-USDT"
 
 
-@dataclass(slots=True)
+ASM_USDT = ASM_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AST_USD:
     name: str = "AST-USD"
     precision: int = 0.0001
@@ -1041,7 +1194,10 @@ class AST_USD:
         return "AST-USD"
 
 
-@dataclass(slots=True)
+AST_USD = AST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATA_USD:
     name: str = "ATA-USD"
     precision: int = 0.0001
@@ -1061,7 +1217,10 @@ class ATA_USD:
         return "ATA-USD"
 
 
-@dataclass(slots=True)
+ATA_USD = ATA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATA_USDT:
     name: str = "ATA-USDT"
     precision: int = 0.0001
@@ -1081,7 +1240,10 @@ class ATA_USDT:
         return "ATA-USDT"
 
 
-@dataclass(slots=True)
+ATA_USDT = ATA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOM_BTC:
     name: str = "ATOM-BTC"
     precision: int = 0.0000001
@@ -1101,7 +1263,10 @@ class ATOM_BTC:
         return "ATOM-BTC"
 
 
-@dataclass(slots=True)
+ATOM_BTC = ATOM_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOM_EUR:
     name: str = "ATOM-EUR"
     precision: int = 0.01
@@ -1121,7 +1286,10 @@ class ATOM_EUR:
         return "ATOM-EUR"
 
 
-@dataclass(slots=True)
+ATOM_EUR = ATOM_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOM_GBP:
     name: str = "ATOM-GBP"
     precision: int = 0.01
@@ -1141,7 +1309,10 @@ class ATOM_GBP:
         return "ATOM-GBP"
 
 
-@dataclass(slots=True)
+ATOM_GBP = ATOM_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOM_USD:
     name: str = "ATOM-USD"
     precision: int = 0.001
@@ -1161,7 +1332,10 @@ class ATOM_USD:
         return "ATOM-USD"
 
 
-@dataclass(slots=True)
+ATOM_USD = ATOM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ATOM_USDT:
     name: str = "ATOM-USDT"
     precision: int = 0.01
@@ -1181,7 +1355,10 @@ class ATOM_USDT:
         return "ATOM-USDT"
 
 
-@dataclass(slots=True)
+ATOM_USDT = ATOM_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTION_EUR:
     name: str = "AUCTION-EUR"
     precision: int = 0.01
@@ -1201,7 +1378,10 @@ class AUCTION_EUR:
         return "AUCTION-EUR"
 
 
-@dataclass(slots=True)
+AUCTION_EUR = AUCTION_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTION_USD:
     name: str = "AUCTION-USD"
     precision: int = 0.01
@@ -1221,7 +1401,10 @@ class AUCTION_USD:
         return "AUCTION-USD"
 
 
-@dataclass(slots=True)
+AUCTION_USD = AUCTION_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AUCTION_USDT:
     name: str = "AUCTION-USDT"
     precision: int = 0.01
@@ -1241,7 +1424,10 @@ class AUCTION_USDT:
         return "AUCTION-USDT"
 
 
-@dataclass(slots=True)
+AUCTION_USDT = AUCTION_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AURORA_USD:
     name: str = "AURORA-USD"
     precision: int = 0.001
@@ -1261,7 +1447,10 @@ class AURORA_USD:
         return "AURORA-USD"
 
 
-@dataclass(slots=True)
+AURORA_USD = AURORA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAX_BTC:
     name: str = "AVAX-BTC"
     precision: int = 0.00000001
@@ -1281,7 +1470,10 @@ class AVAX_BTC:
         return "AVAX-BTC"
 
 
-@dataclass(slots=True)
+AVAX_BTC = AVAX_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAX_EUR:
     name: str = "AVAX-EUR"
     precision: int = 0.01
@@ -1301,7 +1493,10 @@ class AVAX_EUR:
         return "AVAX-EUR"
 
 
-@dataclass(slots=True)
+AVAX_EUR = AVAX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAX_USD:
     name: str = "AVAX-USD"
     precision: int = 0.01
@@ -1321,7 +1516,10 @@ class AVAX_USD:
         return "AVAX-USD"
 
 
-@dataclass(slots=True)
+AVAX_USD = AVAX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AVAX_USDT:
     name: str = "AVAX-USDT"
     precision: int = 0.01
@@ -1341,7 +1539,10 @@ class AVAX_USDT:
         return "AVAX-USDT"
 
 
-@dataclass(slots=True)
+AVAX_USDT = AVAX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class AVT_USD:
     name: str = "AVT-USD"
     precision: int = 0.01
@@ -1361,7 +1562,10 @@ class AVT_USD:
         return "AVT-USD"
 
 
-@dataclass(slots=True)
+AVT_USD = AVT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AXS_BTC:
     name: str = "AXS-BTC"
     precision: int = 0.0000001
@@ -1381,7 +1585,10 @@ class AXS_BTC:
         return "AXS-BTC"
 
 
-@dataclass(slots=True)
+AXS_BTC = AXS_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class AXS_EUR:
     name: str = "AXS-EUR"
     precision: int = 0.01
@@ -1401,7 +1608,10 @@ class AXS_EUR:
         return "AXS-EUR"
 
 
-@dataclass(slots=True)
+AXS_EUR = AXS_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class AXS_USD:
     name: str = "AXS-USD"
     precision: int = 0.01
@@ -1421,7 +1631,10 @@ class AXS_USD:
         return "AXS-USD"
 
 
-@dataclass(slots=True)
+AXS_USD = AXS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class AXS_USDT:
     name: str = "AXS-USDT"
     precision: int = 0.01
@@ -1441,7 +1654,10 @@ class AXS_USDT:
         return "AXS-USDT"
 
 
-@dataclass(slots=True)
+AXS_USDT = AXS_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGER_EUR:
     name: str = "BADGER-EUR"
     precision: int = 0.01
@@ -1461,7 +1677,10 @@ class BADGER_EUR:
         return "BADGER-EUR"
 
 
-@dataclass(slots=True)
+BADGER_EUR = BADGER_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGER_USD:
     name: str = "BADGER-USD"
     precision: int = 0.01
@@ -1481,7 +1700,10 @@ class BADGER_USD:
         return "BADGER-USD"
 
 
-@dataclass(slots=True)
+BADGER_USD = BADGER_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BADGER_USDT:
     name: str = "BADGER-USDT"
     precision: int = 0.01
@@ -1501,7 +1723,10 @@ class BADGER_USDT:
         return "BADGER-USDT"
 
 
-@dataclass(slots=True)
+BADGER_USDT = BADGER_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BAL_BTC:
     name: str = "BAL-BTC"
     precision: int = 0.00000001
@@ -1521,7 +1746,10 @@ class BAL_BTC:
         return "BAL-BTC"
 
 
-@dataclass(slots=True)
+BAL_BTC = BAL_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BAL_USD:
     name: str = "BAL-USD"
     precision: int = 0.01
@@ -1541,7 +1769,10 @@ class BAL_USD:
         return "BAL-USD"
 
 
-@dataclass(slots=True)
+BAL_USD = BAL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BAND_BTC:
     name: str = "BAND-BTC"
     precision: int = 0.00000001
@@ -1561,7 +1792,10 @@ class BAND_BTC:
         return "BAND-BTC"
 
 
-@dataclass(slots=True)
+BAND_BTC = BAND_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BAND_EUR:
     name: str = "BAND-EUR"
     precision: int = 0.01
@@ -1581,7 +1815,10 @@ class BAND_EUR:
         return "BAND-EUR"
 
 
-@dataclass(slots=True)
+BAND_EUR = BAND_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BAND_GBP:
     name: str = "BAND-GBP"
     precision: int = 0.001
@@ -1601,7 +1838,10 @@ class BAND_GBP:
         return "BAND-GBP"
 
 
-@dataclass(slots=True)
+BAND_GBP = BAND_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BAND_USD:
     name: str = "BAND-USD"
     precision: int = 0.001
@@ -1621,7 +1861,10 @@ class BAND_USD:
         return "BAND-USD"
 
 
-@dataclass(slots=True)
+BAND_USD = BAND_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BAT_BTC:
     name: str = "BAT-BTC"
     precision: int = 0.00000001
@@ -1641,7 +1884,10 @@ class BAT_BTC:
         return "BAT-BTC"
 
 
-@dataclass(slots=True)
+BAT_BTC = BAT_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BAT_ETH:
     name: str = "BAT-ETH"
     precision: int = 0.00000001
@@ -1661,7 +1907,10 @@ class BAT_ETH:
         return "BAT-ETH"
 
 
-@dataclass(slots=True)
+BAT_ETH = BAT_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class BAT_EUR:
     name: str = "BAT-EUR"
     precision: int = 0.00001
@@ -1681,7 +1930,10 @@ class BAT_EUR:
         return "BAT-EUR"
 
 
-@dataclass(slots=True)
+BAT_EUR = BAT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BAT_USD:
     name: str = "BAT-USD"
     precision: int = 0.00001
@@ -1701,7 +1953,10 @@ class BAT_USD:
         return "BAT-USD"
 
 
-@dataclass(slots=True)
+BAT_USD = BAT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BAT_USDC:
     name: str = "BAT-USDC"
     precision: int = 0.000001
@@ -1721,7 +1976,10 @@ class BAT_USDC:
         return "BAT-USDC"
 
 
-@dataclass(slots=True)
+BAT_USDC = BAT_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCH_BTC:
     name: str = "BCH-BTC"
     precision: int = 0.000001
@@ -1741,7 +1999,10 @@ class BCH_BTC:
         return "BCH-BTC"
 
 
-@dataclass(slots=True)
+BCH_BTC = BCH_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BCH_EUR:
     name: str = "BCH-EUR"
     precision: int = 0.01
@@ -1761,7 +2022,10 @@ class BCH_EUR:
         return "BCH-EUR"
 
 
-@dataclass(slots=True)
+BCH_EUR = BCH_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BCH_GBP:
     name: str = "BCH-GBP"
     precision: int = 0.01
@@ -1781,7 +2045,10 @@ class BCH_GBP:
         return "BCH-GBP"
 
 
-@dataclass(slots=True)
+BCH_GBP = BCH_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BCH_USD:
     name: str = "BCH-USD"
     precision: int = 0.01
@@ -1801,7 +2068,10 @@ class BCH_USD:
         return "BCH-USD"
 
 
-@dataclass(slots=True)
+BCH_USD = BCH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BICO_EUR:
     name: str = "BICO-EUR"
     precision: int = 0.0001
@@ -1821,7 +2091,10 @@ class BICO_EUR:
         return "BICO-EUR"
 
 
-@dataclass(slots=True)
+BICO_EUR = BICO_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BICO_USD:
     name: str = "BICO-USD"
     precision: int = 0.0001
@@ -1841,7 +2114,10 @@ class BICO_USD:
         return "BICO-USD"
 
 
-@dataclass(slots=True)
+BICO_USD = BICO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BICO_USDT:
     name: str = "BICO-USDT"
     precision: int = 0.0001
@@ -1861,7 +2137,10 @@ class BICO_USDT:
         return "BICO-USDT"
 
 
-@dataclass(slots=True)
+BICO_USDT = BICO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BIT_USD:
     name: str = "BIT-USD"
     precision: int = 0.0001
@@ -1881,7 +2160,10 @@ class BIT_USD:
         return "BIT-USD"
 
 
-@dataclass(slots=True)
+BIT_USD = BIT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BIT_USDT:
     name: str = "BIT-USDT"
     precision: int = 0.0001
@@ -1901,7 +2183,10 @@ class BIT_USDT:
         return "BIT-USDT"
 
 
-@dataclass(slots=True)
+BIT_USDT = BIT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BLZ_USD:
     name: str = "BLZ-USD"
     precision: int = 0.0001
@@ -1921,7 +2206,10 @@ class BLZ_USD:
         return "BLZ-USD"
 
 
-@dataclass(slots=True)
+BLZ_USD = BLZ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BNT_BTC:
     name: str = "BNT-BTC"
     precision: int = 0.00000001
@@ -1941,7 +2229,10 @@ class BNT_BTC:
         return "BNT-BTC"
 
 
-@dataclass(slots=True)
+BNT_BTC = BNT_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BNT_EUR:
     name: str = "BNT-EUR"
     precision: int = 0.001
@@ -1961,7 +2252,10 @@ class BNT_EUR:
         return "BNT-EUR"
 
 
-@dataclass(slots=True)
+BNT_EUR = BNT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BNT_GBP:
     name: str = "BNT-GBP"
     precision: int = 0.0001
@@ -1981,7 +2275,10 @@ class BNT_GBP:
         return "BNT-GBP"
 
 
-@dataclass(slots=True)
+BNT_GBP = BNT_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BNT_USD:
     name: str = "BNT-USD"
     precision: int = 0.0001
@@ -2001,7 +2298,10 @@ class BNT_USD:
         return "BNT-USD"
 
 
-@dataclass(slots=True)
+BNT_USD = BNT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BOBA_USD:
     name: str = "BOBA-USD"
     precision: int = 0.0001
@@ -2021,7 +2321,10 @@ class BOBA_USD:
         return "BOBA-USD"
 
 
-@dataclass(slots=True)
+BOBA_USD = BOBA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BOBA_USDT:
     name: str = "BOBA-USDT"
     precision: int = 0.0001
@@ -2041,7 +2344,10 @@ class BOBA_USDT:
         return "BOBA-USDT"
 
 
-@dataclass(slots=True)
+BOBA_USDT = BOBA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BOND_USD:
     name: str = "BOND-USD"
     precision: int = 0.01
@@ -2061,7 +2367,10 @@ class BOND_USD:
         return "BOND-USD"
 
 
-@dataclass(slots=True)
+BOND_USD = BOND_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BOND_USDT:
     name: str = "BOND-USDT"
     precision: int = 0.001
@@ -2081,7 +2390,10 @@ class BOND_USDT:
         return "BOND-USDT"
 
 
-@dataclass(slots=True)
+BOND_USDT = BOND_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTC_EUR:
     name: str = "BTC-EUR"
     precision: int = 0.01
@@ -2101,7 +2413,10 @@ class BTC_EUR:
         return "BTC-EUR"
 
 
-@dataclass(slots=True)
+BTC_EUR = BTC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTC_GBP:
     name: str = "BTC-GBP"
     precision: int = 0.01
@@ -2121,7 +2436,10 @@ class BTC_GBP:
         return "BTC-GBP"
 
 
-@dataclass(slots=True)
+BTC_GBP = BTC_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BTC_USD:
     name: str = "BTC-USD"
     precision: int = 0.01
@@ -2141,7 +2459,10 @@ class BTC_USD:
         return "BTC-USD"
 
 
-@dataclass(slots=True)
+BTC_USD = BTC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTC_USDC:
     name: str = "BTC-USDC"
     precision: int = 1
@@ -2161,7 +2482,10 @@ class BTC_USDC:
         return "BTC-USDC"
 
 
-@dataclass(slots=True)
+BTC_USDC = BTC_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTC_USDT:
     name: str = "BTC-USDT"
     precision: int = 0.01
@@ -2181,7 +2505,10 @@ class BTC_USDT:
         return "BTC-USDT"
 
 
-@dataclass(slots=True)
+BTC_USDT = BTC_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BTRST_BTC:
     name: str = "BTRST-BTC"
     precision: int = 0.00000001
@@ -2201,7 +2528,10 @@ class BTRST_BTC:
         return "BTRST-BTC"
 
 
-@dataclass(slots=True)
+BTRST_BTC = BTRST_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class BTRST_EUR:
     name: str = "BTRST-EUR"
     precision: int = 0.01
@@ -2221,7 +2551,10 @@ class BTRST_EUR:
         return "BTRST-EUR"
 
 
-@dataclass(slots=True)
+BTRST_EUR = BTRST_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class BTRST_GBP:
     name: str = "BTRST-GBP"
     precision: int = 0.001
@@ -2241,7 +2574,10 @@ class BTRST_GBP:
         return "BTRST-GBP"
 
 
-@dataclass(slots=True)
+BTRST_GBP = BTRST_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class BTRST_USD:
     name: str = "BTRST-USD"
     precision: int = 0.001
@@ -2261,7 +2597,10 @@ class BTRST_USD:
         return "BTRST-USD"
 
 
-@dataclass(slots=True)
+BTRST_USD = BTRST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class BTRST_USDT:
     name: str = "BTRST-USDT"
     precision: int = 0.001
@@ -2281,7 +2620,10 @@ class BTRST_USDT:
         return "BTRST-USDT"
 
 
-@dataclass(slots=True)
+BTRST_USDT = BTRST_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class BUSD_USD:
     name: str = "BUSD-USD"
     precision: int = 0.001
@@ -2301,7 +2643,10 @@ class BUSD_USD:
         return "BUSD-USD"
 
 
-@dataclass(slots=True)
+BUSD_USD = BUSD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class C98_USD:
     name: str = "C98-USD"
     precision: int = 0.0001
@@ -2321,7 +2666,10 @@ class C98_USD:
         return "C98-USD"
 
 
-@dataclass(slots=True)
+C98_USD = C98_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class C98_USDT:
     name: str = "C98-USDT"
     precision: int = 0.0001
@@ -2341,7 +2689,10 @@ class C98_USDT:
         return "C98-USDT"
 
 
-@dataclass(slots=True)
+C98_USDT = C98_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CBETH_ETH:
     name: str = "CBETH-ETH"
     precision: int = 0.00001
@@ -2361,7 +2712,10 @@ class CBETH_ETH:
         return "CBETH-ETH"
 
 
-@dataclass(slots=True)
+CBETH_ETH = CBETH_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class CBETH_USD:
     name: str = "CBETH-USD"
     precision: int = 0.01
@@ -2381,7 +2735,10 @@ class CBETH_USD:
         return "CBETH-USD"
 
 
-@dataclass(slots=True)
+CBETH_USD = CBETH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CELR_USD:
     name: str = "CELR-USD"
     precision: int = 0.00001
@@ -2401,7 +2758,10 @@ class CELR_USD:
         return "CELR-USD"
 
 
-@dataclass(slots=True)
+CELR_USD = CELR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CGLD_BTC:
     name: str = "CGLD-BTC"
     precision: int = 0.00000001
@@ -2421,7 +2781,10 @@ class CGLD_BTC:
         return "CGLD-BTC"
 
 
-@dataclass(slots=True)
+CGLD_BTC = CGLD_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CGLD_EUR:
     name: str = "CGLD-EUR"
     precision: int = 0.01
@@ -2441,7 +2804,10 @@ class CGLD_EUR:
         return "CGLD-EUR"
 
 
-@dataclass(slots=True)
+CGLD_EUR = CGLD_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CGLD_GBP:
     name: str = "CGLD-GBP"
     precision: int = 0.001
@@ -2461,7 +2827,10 @@ class CGLD_GBP:
         return "CGLD-GBP"
 
 
-@dataclass(slots=True)
+CGLD_GBP = CGLD_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CGLD_USD:
     name: str = "CGLD-USD"
     precision: int = 0.001
@@ -2481,7 +2850,10 @@ class CGLD_USD:
         return "CGLD-USD"
 
 
-@dataclass(slots=True)
+CGLD_USD = CGLD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZ_EUR:
     name: str = "CHZ-EUR"
     precision: int = 0.0001
@@ -2501,7 +2873,10 @@ class CHZ_EUR:
         return "CHZ-EUR"
 
 
-@dataclass(slots=True)
+CHZ_EUR = CHZ_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZ_GBP:
     name: str = "CHZ-GBP"
     precision: int = 0.0001
@@ -2521,7 +2896,10 @@ class CHZ_GBP:
         return "CHZ-GBP"
 
 
-@dataclass(slots=True)
+CHZ_GBP = CHZ_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZ_USD:
     name: str = "CHZ-USD"
     precision: int = 0.0001
@@ -2541,7 +2919,10 @@ class CHZ_USD:
         return "CHZ-USD"
 
 
-@dataclass(slots=True)
+CHZ_USD = CHZ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CHZ_USDT:
     name: str = "CHZ-USDT"
     precision: int = 0.0001
@@ -2561,7 +2942,10 @@ class CHZ_USDT:
         return "CHZ-USDT"
 
 
-@dataclass(slots=True)
+CHZ_USDT = CHZ_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CLV_EUR:
     name: str = "CLV-EUR"
     precision: int = 0.00001
@@ -2581,7 +2965,10 @@ class CLV_EUR:
         return "CLV-EUR"
 
 
-@dataclass(slots=True)
+CLV_EUR = CLV_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CLV_GBP:
     name: str = "CLV-GBP"
     precision: int = 0.0001
@@ -2601,7 +2988,10 @@ class CLV_GBP:
         return "CLV-GBP"
 
 
-@dataclass(slots=True)
+CLV_GBP = CLV_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CLV_USD:
     name: str = "CLV-USD"
     precision: int = 0.0001
@@ -2621,7 +3011,10 @@ class CLV_USD:
         return "CLV-USD"
 
 
-@dataclass(slots=True)
+CLV_USD = CLV_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CLV_USDT:
     name: str = "CLV-USDT"
     precision: int = 0.0001
@@ -2641,7 +3034,10 @@ class CLV_USDT:
         return "CLV-USDT"
 
 
-@dataclass(slots=True)
+CLV_USDT = CLV_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class COMP_BTC:
     name: str = "COMP-BTC"
     precision: int = 0.000001
@@ -2661,7 +3057,10 @@ class COMP_BTC:
         return "COMP-BTC"
 
 
-@dataclass(slots=True)
+COMP_BTC = COMP_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class COMP_USD:
     name: str = "COMP-USD"
     precision: int = 0.01
@@ -2681,7 +3080,10 @@ class COMP_USD:
         return "COMP-USD"
 
 
-@dataclass(slots=True)
+COMP_USD = COMP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class COTI_USD:
     name: str = "COTI-USD"
     precision: int = 0.0001
@@ -2701,7 +3103,10 @@ class COTI_USD:
         return "COTI-USD"
 
 
-@dataclass(slots=True)
+COTI_USD = COTI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class COVAL_USD:
     name: str = "COVAL-USD"
     precision: int = 0.00001
@@ -2721,7 +3126,10 @@ class COVAL_USD:
         return "COVAL-USD"
 
 
-@dataclass(slots=True)
+COVAL_USD = COVAL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class COVAL_USDT:
     name: str = "COVAL-USDT"
     precision: int = 0.00001
@@ -2741,7 +3149,10 @@ class COVAL_USDT:
         return "COVAL-USDT"
 
 
-@dataclass(slots=True)
+COVAL_USDT = COVAL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CRO_EUR:
     name: str = "CRO-EUR"
     precision: int = 0.0001
@@ -2761,7 +3172,10 @@ class CRO_EUR:
         return "CRO-EUR"
 
 
-@dataclass(slots=True)
+CRO_EUR = CRO_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CRO_USD:
     name: str = "CRO-USD"
     precision: int = 0.0001
@@ -2781,7 +3195,10 @@ class CRO_USD:
         return "CRO-USD"
 
 
-@dataclass(slots=True)
+CRO_USD = CRO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CRO_USDT:
     name: str = "CRO-USDT"
     precision: int = 0.0001
@@ -2801,7 +3218,10 @@ class CRO_USDT:
         return "CRO-USDT"
 
 
-@dataclass(slots=True)
+CRO_USDT = CRO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CRPT_USD:
     name: str = "CRPT-USD"
     precision: int = 0.0001
@@ -2821,7 +3241,10 @@ class CRPT_USD:
         return "CRPT-USD"
 
 
-@dataclass(slots=True)
+CRPT_USD = CRPT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CRV_BTC:
     name: str = "CRV-BTC"
     precision: int = 0.0000001
@@ -2841,7 +3264,10 @@ class CRV_BTC:
         return "CRV-BTC"
 
 
-@dataclass(slots=True)
+CRV_BTC = CRV_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CRV_EUR:
     name: str = "CRV-EUR"
     precision: int = 0.0001
@@ -2861,7 +3287,10 @@ class CRV_EUR:
         return "CRV-EUR"
 
 
-@dataclass(slots=True)
+CRV_EUR = CRV_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CRV_GBP:
     name: str = "CRV-GBP"
     precision: int = 0.0001
@@ -2881,7 +3310,10 @@ class CRV_GBP:
         return "CRV-GBP"
 
 
-@dataclass(slots=True)
+CRV_GBP = CRV_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class CRV_USD:
     name: str = "CRV-USD"
     precision: int = 0.0001
@@ -2901,7 +3333,10 @@ class CRV_USD:
         return "CRV-USD"
 
 
-@dataclass(slots=True)
+CRV_USD = CRV_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSI_BTC:
     name: str = "CTSI-BTC"
     precision: int = 0.0000001
@@ -2921,7 +3356,10 @@ class CTSI_BTC:
         return "CTSI-BTC"
 
 
-@dataclass(slots=True)
+CTSI_BTC = CTSI_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class CTSI_USD:
     name: str = "CTSI-USD"
     precision: int = 0.0001
@@ -2941,7 +3379,10 @@ class CTSI_USD:
         return "CTSI-USD"
 
 
-@dataclass(slots=True)
+CTSI_USD = CTSI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTX_EUR:
     name: str = "CTX-EUR"
     precision: int = 0.01
@@ -2961,7 +3402,10 @@ class CTX_EUR:
         return "CTX-EUR"
 
 
-@dataclass(slots=True)
+CTX_EUR = CTX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class CTX_USD:
     name: str = "CTX-USD"
     precision: int = 0.01
@@ -2981,7 +3425,10 @@ class CTX_USD:
         return "CTX-USD"
 
 
-@dataclass(slots=True)
+CTX_USD = CTX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CTX_USDT:
     name: str = "CTX-USDT"
     precision: int = 0.01
@@ -3001,7 +3448,10 @@ class CTX_USDT:
         return "CTX-USDT"
 
 
-@dataclass(slots=True)
+CTX_USDT = CTX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class CVC_USD:
     name: str = "CVC-USD"
     precision: int = 0.0001
@@ -3021,7 +3471,10 @@ class CVC_USD:
         return "CVC-USD"
 
 
-@dataclass(slots=True)
+CVC_USD = CVC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class CVC_USDC:
     name: str = "CVC-USDC"
     precision: int = 0.000001
@@ -3041,7 +3494,10 @@ class CVC_USDC:
         return "CVC-USDC"
 
 
-@dataclass(slots=True)
+CVC_USDC = CVC_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class CVX_USD:
     name: str = "CVX-USD"
     precision: int = 0.001
@@ -3061,7 +3517,10 @@ class CVX_USD:
         return "CVX-USD"
 
 
-@dataclass(slots=True)
+CVX_USD = CVX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DAI_USD:
     name: str = "DAI-USD"
     precision: int = 0.0001
@@ -3081,7 +3540,10 @@ class DAI_USD:
         return "DAI-USD"
 
 
-@dataclass(slots=True)
+DAI_USD = DAI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DAI_USDC:
     name: str = "DAI-USDC"
     precision: int = 0.0001
@@ -3101,7 +3563,10 @@ class DAI_USDC:
         return "DAI-USDC"
 
 
-@dataclass(slots=True)
+DAI_USDC = DAI_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class DAR_USD:
     name: str = "DAR-USD"
     precision: int = 0.001
@@ -3121,7 +3586,10 @@ class DAR_USD:
         return "DAR-USD"
 
 
-@dataclass(slots=True)
+DAR_USD = DAR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DASH_BTC:
     name: str = "DASH-BTC"
     precision: int = 0.000001
@@ -3141,7 +3609,10 @@ class DASH_BTC:
         return "DASH-BTC"
 
 
-@dataclass(slots=True)
+DASH_BTC = DASH_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DASH_USD:
     name: str = "DASH-USD"
     precision: int = 0.01
@@ -3161,7 +3632,10 @@ class DASH_USD:
         return "DASH-USD"
 
 
-@dataclass(slots=True)
+DASH_USD = DASH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DDX_EUR:
     name: str = "DDX-EUR"
     precision: int = 0.0001
@@ -3181,7 +3655,10 @@ class DDX_EUR:
         return "DDX-EUR"
 
 
-@dataclass(slots=True)
+DDX_EUR = DDX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DDX_USD:
     name: str = "DDX-USD"
     precision: int = 0.0001
@@ -3201,7 +3678,10 @@ class DDX_USD:
         return "DDX-USD"
 
 
-@dataclass(slots=True)
+DDX_USD = DDX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DDX_USDT:
     name: str = "DDX-USDT"
     precision: int = 0.0001
@@ -3221,7 +3701,10 @@ class DDX_USDT:
         return "DDX-USDT"
 
 
-@dataclass(slots=True)
+DDX_USDT = DDX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DESO_EUR:
     name: str = "DESO-EUR"
     precision: int = 0.01
@@ -3241,7 +3724,10 @@ class DESO_EUR:
         return "DESO-EUR"
 
 
-@dataclass(slots=True)
+DESO_EUR = DESO_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DESO_USD:
     name: str = "DESO-USD"
     precision: int = 0.01
@@ -3261,7 +3747,10 @@ class DESO_USD:
         return "DESO-USD"
 
 
-@dataclass(slots=True)
+DESO_USD = DESO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DESO_USDT:
     name: str = "DESO-USDT"
     precision: int = 0.01
@@ -3281,7 +3770,10 @@ class DESO_USDT:
         return "DESO-USDT"
 
 
-@dataclass(slots=True)
+DESO_USDT = DESO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DEXT_USD:
     name: str = "DEXT-USD"
     precision: int = 0.0001
@@ -3301,7 +3793,10 @@ class DEXT_USD:
         return "DEXT-USD"
 
 
-@dataclass(slots=True)
+DEXT_USD = DEXT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DIA_EUR:
     name: str = "DIA-EUR"
     precision: int = 0.00001
@@ -3321,7 +3816,10 @@ class DIA_EUR:
         return "DIA-EUR"
 
 
-@dataclass(slots=True)
+DIA_EUR = DIA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DIA_USD:
     name: str = "DIA-USD"
     precision: int = 0.00001
@@ -3341,7 +3839,10 @@ class DIA_USD:
         return "DIA-USD"
 
 
-@dataclass(slots=True)
+DIA_USD = DIA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DIA_USDT:
     name: str = "DIA-USDT"
     precision: int = 0.00001
@@ -3361,7 +3862,10 @@ class DIA_USDT:
         return "DIA-USDT"
 
 
-@dataclass(slots=True)
+DIA_USDT = DIA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DNT_USD:
     name: str = "DNT-USD"
     precision: int = 0.0001
@@ -3381,7 +3885,10 @@ class DNT_USD:
         return "DNT-USD"
 
 
-@dataclass(slots=True)
+DNT_USD = DNT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DNT_USDC:
     name: str = "DNT-USDC"
     precision: int = 0.000001
@@ -3401,7 +3908,10 @@ class DNT_USDC:
         return "DNT-USDC"
 
 
-@dataclass(slots=True)
+DNT_USDC = DNT_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGE_BTC:
     name: str = "DOGE-BTC"
     precision: int = 0.00000001
@@ -3421,7 +3931,10 @@ class DOGE_BTC:
         return "DOGE-BTC"
 
 
-@dataclass(slots=True)
+DOGE_BTC = DOGE_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGE_EUR:
     name: str = "DOGE-EUR"
     precision: int = 0.0001
@@ -3441,7 +3954,10 @@ class DOGE_EUR:
         return "DOGE-EUR"
 
 
-@dataclass(slots=True)
+DOGE_EUR = DOGE_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGE_GBP:
     name: str = "DOGE-GBP"
     precision: int = 0.0001
@@ -3461,7 +3977,10 @@ class DOGE_GBP:
         return "DOGE-GBP"
 
 
-@dataclass(slots=True)
+DOGE_GBP = DOGE_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGE_USD:
     name: str = "DOGE-USD"
     precision: int = 0.00001
@@ -3481,7 +4000,10 @@ class DOGE_USD:
         return "DOGE-USD"
 
 
-@dataclass(slots=True)
+DOGE_USD = DOGE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOGE_USDT:
     name: str = "DOGE-USDT"
     precision: int = 0.0001
@@ -3501,7 +4023,10 @@ class DOGE_USDT:
         return "DOGE-USDT"
 
 
-@dataclass(slots=True)
+DOGE_USDT = DOGE_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DOT_BTC:
     name: str = "DOT-BTC"
     precision: int = 0.0000001
@@ -3521,7 +4046,10 @@ class DOT_BTC:
         return "DOT-BTC"
 
 
-@dataclass(slots=True)
+DOT_BTC = DOT_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class DOT_EUR:
     name: str = "DOT-EUR"
     precision: int = 0.01
@@ -3541,7 +4069,10 @@ class DOT_EUR:
         return "DOT-EUR"
 
 
-@dataclass(slots=True)
+DOT_EUR = DOT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class DOT_GBP:
     name: str = "DOT-GBP"
     precision: int = 0.01
@@ -3561,7 +4092,10 @@ class DOT_GBP:
         return "DOT-GBP"
 
 
-@dataclass(slots=True)
+DOT_GBP = DOT_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class DOT_USD:
     name: str = "DOT-USD"
     precision: int = 0.001
@@ -3581,7 +4115,10 @@ class DOT_USD:
         return "DOT-USD"
 
 
-@dataclass(slots=True)
+DOT_USD = DOT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DOT_USDT:
     name: str = "DOT-USDT"
     precision: int = 0.01
@@ -3601,7 +4138,10 @@ class DOT_USDT:
         return "DOT-USDT"
 
 
-@dataclass(slots=True)
+DOT_USDT = DOT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DREP_USD:
     name: str = "DREP-USD"
     precision: int = 0.0001
@@ -3621,7 +4161,10 @@ class DREP_USD:
         return "DREP-USD"
 
 
-@dataclass(slots=True)
+DREP_USD = DREP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DREP_USDT:
     name: str = "DREP-USDT"
     precision: int = 0.0001
@@ -3641,7 +4184,10 @@ class DREP_USDT:
         return "DREP-USDT"
 
 
-@dataclass(slots=True)
+DREP_USDT = DREP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class DYP_USD:
     name: str = "DYP-USD"
     precision: int = 0.00001
@@ -3661,7 +4207,10 @@ class DYP_USD:
         return "DYP-USD"
 
 
-@dataclass(slots=True)
+DYP_USD = DYP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class DYP_USDT:
     name: str = "DYP-USDT"
     precision: int = 0.00001
@@ -3681,7 +4230,10 @@ class DYP_USDT:
         return "DYP-USDT"
 
 
-@dataclass(slots=True)
+DYP_USDT = DYP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EGLD_USD:
     name: str = "EGLD-USD"
     precision: int = 0.01
@@ -3701,7 +4253,10 @@ class EGLD_USD:
         return "EGLD-USD"
 
 
-@dataclass(slots=True)
+EGLD_USD = EGLD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ELA_USD:
     name: str = "ELA-USD"
     precision: int = 0.001
@@ -3721,7 +4276,10 @@ class ELA_USD:
         return "ELA-USD"
 
 
-@dataclass(slots=True)
+ELA_USD = ELA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ELA_USDT:
     name: str = "ELA-USDT"
     precision: int = 0.001
@@ -3741,7 +4299,10 @@ class ELA_USDT:
         return "ELA-USDT"
 
 
-@dataclass(slots=True)
+ELA_USDT = ELA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJ_BTC:
     name: str = "ENJ-BTC"
     precision: int = 0.00000001
@@ -3761,7 +4322,10 @@ class ENJ_BTC:
         return "ENJ-BTC"
 
 
-@dataclass(slots=True)
+ENJ_BTC = ENJ_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJ_USD:
     name: str = "ENJ-USD"
     precision: int = 0.001
@@ -3781,7 +4345,10 @@ class ENJ_USD:
         return "ENJ-USD"
 
 
-@dataclass(slots=True)
+ENJ_USD = ENJ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ENJ_USDT:
     name: str = "ENJ-USDT"
     precision: int = 0.001
@@ -3801,7 +4368,10 @@ class ENJ_USDT:
         return "ENJ-USDT"
 
 
-@dataclass(slots=True)
+ENJ_USDT = ENJ_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ENS_EUR:
     name: str = "ENS-EUR"
     precision: int = 0.01
@@ -3821,7 +4391,10 @@ class ENS_EUR:
         return "ENS-EUR"
 
 
-@dataclass(slots=True)
+ENS_EUR = ENS_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ENS_USD:
     name: str = "ENS-USD"
     precision: int = 0.01
@@ -3841,7 +4414,10 @@ class ENS_USD:
         return "ENS-USD"
 
 
-@dataclass(slots=True)
+ENS_USD = ENS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ENS_USDT:
     name: str = "ENS-USDT"
     precision: int = 0.01
@@ -3861,7 +4437,10 @@ class ENS_USDT:
         return "ENS-USDT"
 
 
-@dataclass(slots=True)
+ENS_USDT = ENS_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class EOS_BTC:
     name: str = "EOS-BTC"
     precision: int = 0.00000001
@@ -3881,7 +4460,10 @@ class EOS_BTC:
         return "EOS-BTC"
 
 
-@dataclass(slots=True)
+EOS_BTC = EOS_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class EOS_EUR:
     name: str = "EOS-EUR"
     precision: int = 0.0001
@@ -3901,7 +4483,10 @@ class EOS_EUR:
         return "EOS-EUR"
 
 
-@dataclass(slots=True)
+EOS_EUR = EOS_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class EOS_USD:
     name: str = "EOS-USD"
     precision: int = 0.0001
@@ -3921,7 +4506,10 @@ class EOS_USD:
         return "EOS-USD"
 
 
-@dataclass(slots=True)
+EOS_USD = EOS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ERN_EUR:
     name: str = "ERN-EUR"
     precision: int = 0.01
@@ -3941,7 +4529,10 @@ class ERN_EUR:
         return "ERN-EUR"
 
 
-@dataclass(slots=True)
+ERN_EUR = ERN_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ERN_USD:
     name: str = "ERN-USD"
     precision: int = 0.01
@@ -3961,7 +4552,10 @@ class ERN_USD:
         return "ERN-USD"
 
 
-@dataclass(slots=True)
+ERN_USD = ERN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ERN_USDT:
     name: str = "ERN-USDT"
     precision: int = 0.01
@@ -3981,7 +4575,10 @@ class ERN_USDT:
         return "ERN-USDT"
 
 
-@dataclass(slots=True)
+ERN_USDT = ERN_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ETC_BTC:
     name: str = "ETC-BTC"
     precision: int = 0.000001
@@ -4001,7 +4598,10 @@ class ETC_BTC:
         return "ETC-BTC"
 
 
-@dataclass(slots=True)
+ETC_BTC = ETC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETC_EUR:
     name: str = "ETC-EUR"
     precision: int = 0.01
@@ -4021,7 +4621,10 @@ class ETC_EUR:
         return "ETC-EUR"
 
 
-@dataclass(slots=True)
+ETC_EUR = ETC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ETC_GBP:
     name: str = "ETC-GBP"
     precision: int = 0.01
@@ -4041,7 +4644,10 @@ class ETC_GBP:
         return "ETC-GBP"
 
 
-@dataclass(slots=True)
+ETC_GBP = ETC_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ETC_USD:
     name: str = "ETC-USD"
     precision: int = 0.01
@@ -4061,7 +4667,10 @@ class ETC_USD:
         return "ETC-USD"
 
 
-@dataclass(slots=True)
+ETC_USD = ETC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_BTC:
     name: str = "ETH-BTC"
     precision: int = 0.00001
@@ -4081,7 +4690,10 @@ class ETH_BTC:
         return "ETH-BTC"
 
 
-@dataclass(slots=True)
+ETH_BTC = ETH_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_DAI:
     name: str = "ETH-DAI"
     precision: int = 0.01
@@ -4101,7 +4713,10 @@ class ETH_DAI:
         return "ETH-DAI"
 
 
-@dataclass(slots=True)
+ETH_DAI = ETH_DAI()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_EUR:
     name: str = "ETH-EUR"
     precision: int = 0.01
@@ -4121,7 +4736,10 @@ class ETH_EUR:
         return "ETH-EUR"
 
 
-@dataclass(slots=True)
+ETH_EUR = ETH_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_GBP:
     name: str = "ETH-GBP"
     precision: int = 0.01
@@ -4141,7 +4759,10 @@ class ETH_GBP:
         return "ETH-GBP"
 
 
-@dataclass(slots=True)
+ETH_GBP = ETH_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_USD:
     name: str = "ETH-USD"
     precision: int = 0.01
@@ -4161,7 +4782,10 @@ class ETH_USD:
         return "ETH-USD"
 
 
-@dataclass(slots=True)
+ETH_USD = ETH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_USDC:
     name: str = "ETH-USDC"
     precision: int = 1
@@ -4181,7 +4805,10 @@ class ETH_USDC:
         return "ETH-USDC"
 
 
-@dataclass(slots=True)
+ETH_USDC = ETH_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ETH_USDT:
     name: str = "ETH-USDT"
     precision: int = 0.01
@@ -4201,7 +4828,10 @@ class ETH_USDT:
         return "ETH-USDT"
 
 
-@dataclass(slots=True)
+ETH_USDT = ETH_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FARM_USD:
     name: str = "FARM-USD"
     precision: int = 0.01
@@ -4221,7 +4851,10 @@ class FARM_USD:
         return "FARM-USD"
 
 
-@dataclass(slots=True)
+FARM_USD = FARM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FARM_USDT:
     name: str = "FARM-USDT"
     precision: int = 0.01
@@ -4241,7 +4874,10 @@ class FARM_USDT:
         return "FARM-USDT"
 
 
-@dataclass(slots=True)
+FARM_USDT = FARM_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FET_USD:
     name: str = "FET-USD"
     precision: int = 0.0001
@@ -4261,7 +4897,10 @@ class FET_USD:
         return "FET-USD"
 
 
-@dataclass(slots=True)
+FET_USD = FET_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FET_USDT:
     name: str = "FET-USDT"
     precision: int = 0.0001
@@ -4281,7 +4920,10 @@ class FET_USDT:
         return "FET-USDT"
 
 
-@dataclass(slots=True)
+FET_USDT = FET_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDA_EUR:
     name: str = "FIDA-EUR"
     precision: int = 0.0001
@@ -4301,7 +4943,10 @@ class FIDA_EUR:
         return "FIDA-EUR"
 
 
-@dataclass(slots=True)
+FIDA_EUR = FIDA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDA_USD:
     name: str = "FIDA-USD"
     precision: int = 0.0001
@@ -4321,7 +4966,10 @@ class FIDA_USD:
         return "FIDA-USD"
 
 
-@dataclass(slots=True)
+FIDA_USD = FIDA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIDA_USDT:
     name: str = "FIDA-USDT"
     precision: int = 0.0001
@@ -4341,7 +4989,10 @@ class FIDA_USDT:
         return "FIDA-USDT"
 
 
-@dataclass(slots=True)
+FIDA_USDT = FIDA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FIL_BTC:
     name: str = "FIL-BTC"
     precision: int = 0.00000001
@@ -4361,7 +5012,10 @@ class FIL_BTC:
         return "FIL-BTC"
 
 
-@dataclass(slots=True)
+FIL_BTC = FIL_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FIL_EUR:
     name: str = "FIL-EUR"
     precision: int = 0.01
@@ -4381,7 +5035,10 @@ class FIL_EUR:
         return "FIL-EUR"
 
 
-@dataclass(slots=True)
+FIL_EUR = FIL_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class FIL_GBP:
     name: str = "FIL-GBP"
     precision: int = 0.01
@@ -4401,7 +5058,10 @@ class FIL_GBP:
         return "FIL-GBP"
 
 
-@dataclass(slots=True)
+FIL_GBP = FIL_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class FIL_USD:
     name: str = "FIL-USD"
     precision: int = 0.001
@@ -4421,7 +5081,10 @@ class FIL_USD:
         return "FIL-USD"
 
 
-@dataclass(slots=True)
+FIL_USD = FIL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIS_USD:
     name: str = "FIS-USD"
     precision: int = 0.0001
@@ -4441,7 +5104,10 @@ class FIS_USD:
         return "FIS-USD"
 
 
-@dataclass(slots=True)
+FIS_USD = FIS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FIS_USDT:
     name: str = "FIS-USDT"
     precision: int = 0.0001
@@ -4461,7 +5127,10 @@ class FIS_USDT:
         return "FIS-USDT"
 
 
-@dataclass(slots=True)
+FIS_USDT = FIS_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOW_USD:
     name: str = "FLOW-USD"
     precision: int = 0.001
@@ -4481,7 +5150,10 @@ class FLOW_USD:
         return "FLOW-USD"
 
 
-@dataclass(slots=True)
+FLOW_USD = FLOW_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FLOW_USDT:
     name: str = "FLOW-USDT"
     precision: int = 0.001
@@ -4501,7 +5173,10 @@ class FLOW_USDT:
         return "FLOW-USDT"
 
 
-@dataclass(slots=True)
+FLOW_USDT = FLOW_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FORT_USD:
     name: str = "FORT-USD"
     precision: int = 0.0001
@@ -4521,7 +5196,10 @@ class FORT_USD:
         return "FORT-USD"
 
 
-@dataclass(slots=True)
+FORT_USD = FORT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FORT_USDT:
     name: str = "FORT-USDT"
     precision: int = 0.0001
@@ -4541,7 +5219,10 @@ class FORT_USDT:
         return "FORT-USDT"
 
 
-@dataclass(slots=True)
+FORT_USDT = FORT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTH_BTC:
     name: str = "FORTH-BTC"
     precision: int = 0.0000001
@@ -4561,7 +5242,10 @@ class FORTH_BTC:
         return "FORTH-BTC"
 
 
-@dataclass(slots=True)
+FORTH_BTC = FORTH_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTH_EUR:
     name: str = "FORTH-EUR"
     precision: int = 0.01
@@ -4581,7 +5265,10 @@ class FORTH_EUR:
         return "FORTH-EUR"
 
 
-@dataclass(slots=True)
+FORTH_EUR = FORTH_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTH_GBP:
     name: str = "FORTH-GBP"
     precision: int = 0.001
@@ -4601,7 +5288,10 @@ class FORTH_GBP:
         return "FORTH-GBP"
 
 
-@dataclass(slots=True)
+FORTH_GBP = FORTH_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class FORTH_USD:
     name: str = "FORTH-USD"
     precision: int = 0.01
@@ -4621,7 +5311,10 @@ class FORTH_USD:
         return "FORTH-USD"
 
 
-@dataclass(slots=True)
+FORTH_USD = FORTH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FOX_USD:
     name: str = "FOX-USD"
     precision: int = 0.0001
@@ -4641,7 +5334,10 @@ class FOX_USD:
         return "FOX-USD"
 
 
-@dataclass(slots=True)
+FOX_USD = FOX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class FOX_USDT:
     name: str = "FOX-USDT"
     precision: int = 0.0001
@@ -4661,7 +5357,10 @@ class FOX_USDT:
         return "FOX-USDT"
 
 
-@dataclass(slots=True)
+FOX_USDT = FOX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class FX_USD:
     name: str = "FX-USD"
     precision: int = 0.0001
@@ -4681,7 +5380,10 @@ class FX_USD:
         return "FX-USD"
 
 
-@dataclass(slots=True)
+FX_USD = FX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GAL_USD:
     name: str = "GAL-USD"
     precision: int = 0.001
@@ -4701,7 +5403,10 @@ class GAL_USD:
         return "GAL-USD"
 
 
-@dataclass(slots=True)
+GAL_USD = GAL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GAL_USDT:
     name: str = "GAL-USDT"
     precision: int = 0.001
@@ -4721,7 +5426,10 @@ class GAL_USDT:
         return "GAL-USDT"
 
 
-@dataclass(slots=True)
+GAL_USDT = GAL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GALA_EUR:
     name: str = "GALA-EUR"
     precision: int = 0.0001
@@ -4741,7 +5449,10 @@ class GALA_EUR:
         return "GALA-EUR"
 
 
-@dataclass(slots=True)
+GALA_EUR = GALA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GALA_USD:
     name: str = "GALA-USD"
     precision: int = 0.00001
@@ -4761,7 +5472,10 @@ class GALA_USD:
         return "GALA-USD"
 
 
-@dataclass(slots=True)
+GALA_USD = GALA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GALA_USDT:
     name: str = "GALA-USDT"
     precision: int = 0.00001
@@ -4781,7 +5495,10 @@ class GALA_USDT:
         return "GALA-USDT"
 
 
-@dataclass(slots=True)
+GALA_USDT = GALA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GFI_USD:
     name: str = "GFI-USD"
     precision: int = 0.0001
@@ -4801,7 +5518,10 @@ class GFI_USD:
         return "GFI-USD"
 
 
-@dataclass(slots=True)
+GFI_USD = GFI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GHST_USD:
     name: str = "GHST-USD"
     precision: int = 0.001
@@ -4821,7 +5541,10 @@ class GHST_USD:
         return "GHST-USD"
 
 
-@dataclass(slots=True)
+GHST_USD = GHST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GLM_USD:
     name: str = "GLM-USD"
     precision: int = 0.0001
@@ -4841,7 +5564,10 @@ class GLM_USD:
         return "GLM-USD"
 
 
-@dataclass(slots=True)
+GLM_USD = GLM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GMT_USD:
     name: str = "GMT-USD"
     precision: int = 0.0001
@@ -4861,7 +5587,10 @@ class GMT_USD:
         return "GMT-USD"
 
 
-@dataclass(slots=True)
+GMT_USD = GMT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GMT_USDT:
     name: str = "GMT-USDT"
     precision: int = 0.0001
@@ -4881,7 +5610,10 @@ class GMT_USDT:
         return "GMT-USDT"
 
 
-@dataclass(slots=True)
+GMT_USDT = GMT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GNO_USD:
     name: str = "GNO-USD"
     precision: int = 0.01
@@ -4901,7 +5633,10 @@ class GNO_USD:
         return "GNO-USD"
 
 
-@dataclass(slots=True)
+GNO_USD = GNO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GNO_USDT:
     name: str = "GNO-USDT"
     precision: int = 0.01
@@ -4921,7 +5656,10 @@ class GNO_USDT:
         return "GNO-USDT"
 
 
-@dataclass(slots=True)
+GNO_USDT = GNO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class GNT_USDC:
     name: str = "GNT-USDC"
     precision: int = 0.000001
@@ -4941,7 +5679,10 @@ class GNT_USDC:
         return "GNT-USDC"
 
 
-@dataclass(slots=True)
+GNT_USDC = GNT_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class GODS_USD:
     name: str = "GODS-USD"
     precision: int = 0.00001
@@ -4961,7 +5702,10 @@ class GODS_USD:
         return "GODS-USD"
 
 
-@dataclass(slots=True)
+GODS_USD = GODS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GRT_BTC:
     name: str = "GRT-BTC"
     precision: int = 0.00000001
@@ -4981,7 +5725,10 @@ class GRT_BTC:
         return "GRT-BTC"
 
 
-@dataclass(slots=True)
+GRT_BTC = GRT_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class GRT_EUR:
     name: str = "GRT-EUR"
     precision: int = 0.0001
@@ -5001,7 +5748,10 @@ class GRT_EUR:
         return "GRT-EUR"
 
 
-@dataclass(slots=True)
+GRT_EUR = GRT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class GRT_GBP:
     name: str = "GRT-GBP"
     precision: int = 0.0001
@@ -5021,7 +5771,10 @@ class GRT_GBP:
         return "GRT-GBP"
 
 
-@dataclass(slots=True)
+GRT_GBP = GRT_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class GRT_USD:
     name: str = "GRT-USD"
     precision: int = 0.0001
@@ -5041,7 +5794,10 @@ class GRT_USD:
         return "GRT-USD"
 
 
-@dataclass(slots=True)
+GRT_USD = GRT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GST_USD:
     name: str = "GST-USD"
     precision: int = 0.000001
@@ -5061,7 +5817,10 @@ class GST_USD:
         return "GST-USD"
 
 
-@dataclass(slots=True)
+GST_USD = GST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GTC_USD:
     name: str = "GTC-USD"
     precision: int = 0.01
@@ -5081,7 +5840,10 @@ class GTC_USD:
         return "GTC-USD"
 
 
-@dataclass(slots=True)
+GTC_USD = GTC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GUSD_USD:
     name: str = "GUSD-USD"
     precision: int = 0.001
@@ -5101,7 +5863,10 @@ class GUSD_USD:
         return "GUSD-USD"
 
 
-@dataclass(slots=True)
+GUSD_USD = GUSD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class GYEN_USD:
     name: str = "GYEN-USD"
     precision: int = 0.000001
@@ -5121,7 +5886,10 @@ class GYEN_USD:
         return "GYEN-USD"
 
 
-@dataclass(slots=True)
+GYEN_USD = GYEN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class HBAR_USD:
     name: str = "HBAR-USD"
     precision: int = 0.00001
@@ -5141,7 +5909,10 @@ class HBAR_USD:
         return "HBAR-USD"
 
 
-@dataclass(slots=True)
+HBAR_USD = HBAR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class HBAR_USDT:
     name: str = "HBAR-USDT"
     precision: int = 0.00001
@@ -5161,7 +5932,10 @@ class HBAR_USDT:
         return "HBAR-USDT"
 
 
-@dataclass(slots=True)
+HBAR_USDT = HBAR_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HFT_USD:
     name: str = "HFT-USD"
     precision: int = 0.0001
@@ -5181,7 +5955,10 @@ class HFT_USD:
         return "HFT-USD"
 
 
-@dataclass(slots=True)
+HFT_USD = HFT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class HFT_USDT:
     name: str = "HFT-USDT"
     precision: int = 0.0001
@@ -5201,7 +5978,10 @@ class HFT_USDT:
         return "HFT-USDT"
 
 
-@dataclass(slots=True)
+HFT_USDT = HFT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class HIGH_USD:
     name: str = "HIGH-USD"
     precision: int = 0.001
@@ -5221,7 +6001,10 @@ class HIGH_USD:
         return "HIGH-USD"
 
 
-@dataclass(slots=True)
+HIGH_USD = HIGH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class HOPR_USD:
     name: str = "HOPR-USD"
     precision: int = 0.0001
@@ -5241,7 +6024,10 @@ class HOPR_USD:
         return "HOPR-USD"
 
 
-@dataclass(slots=True)
+HOPR_USD = HOPR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class HOPR_USDT:
     name: str = "HOPR-USDT"
     precision: int = 0.0001
@@ -5261,7 +6047,10 @@ class HOPR_USDT:
         return "HOPR-USDT"
 
 
-@dataclass(slots=True)
+HOPR_USDT = HOPR_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ICP_BTC:
     name: str = "ICP-BTC"
     precision: int = 0.0000001
@@ -5281,7 +6070,10 @@ class ICP_BTC:
         return "ICP-BTC"
 
 
-@dataclass(slots=True)
+ICP_BTC = ICP_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ICP_EUR:
     name: str = "ICP-EUR"
     precision: int = 0.01
@@ -5301,7 +6093,10 @@ class ICP_EUR:
         return "ICP-EUR"
 
 
-@dataclass(slots=True)
+ICP_EUR = ICP_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ICP_GBP:
     name: str = "ICP-GBP"
     precision: int = 0.01
@@ -5321,7 +6116,10 @@ class ICP_GBP:
         return "ICP-GBP"
 
 
-@dataclass(slots=True)
+ICP_GBP = ICP_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class ICP_USD:
     name: str = "ICP-USD"
     precision: int = 0.001
@@ -5341,7 +6139,10 @@ class ICP_USD:
         return "ICP-USD"
 
 
-@dataclass(slots=True)
+ICP_USD = ICP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ICP_USDT:
     name: str = "ICP-USDT"
     precision: int = 0.01
@@ -5361,7 +6162,10 @@ class ICP_USDT:
         return "ICP-USDT"
 
 
-@dataclass(slots=True)
+ICP_USDT = ICP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEX_USD:
     name: str = "IDEX-USD"
     precision: int = 0.0001
@@ -5381,7 +6185,10 @@ class IDEX_USD:
         return "IDEX-USD"
 
 
-@dataclass(slots=True)
+IDEX_USD = IDEX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class IDEX_USDT:
     name: str = "IDEX-USDT"
     precision: int = 0.0001
@@ -5401,7 +6208,10 @@ class IDEX_USDT:
         return "IDEX-USDT"
 
 
-@dataclass(slots=True)
+IDEX_USDT = IDEX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ILV_USD:
     name: str = "ILV-USD"
     precision: int = 0.01
@@ -5421,7 +6231,10 @@ class ILV_USD:
         return "ILV-USD"
 
 
-@dataclass(slots=True)
+ILV_USD = ILV_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class IMX_USD:
     name: str = "IMX-USD"
     precision: int = 0.0001
@@ -5441,7 +6254,10 @@ class IMX_USD:
         return "IMX-USD"
 
 
-@dataclass(slots=True)
+IMX_USD = IMX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class IMX_USDT:
     name: str = "IMX-USDT"
     precision: int = 0.0001
@@ -5461,7 +6277,10 @@ class IMX_USDT:
         return "IMX-USDT"
 
 
-@dataclass(slots=True)
+IMX_USDT = IMX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class INDEX_USD:
     name: str = "INDEX-USD"
     precision: int = 0.01
@@ -5481,7 +6300,10 @@ class INDEX_USD:
         return "INDEX-USD"
 
 
-@dataclass(slots=True)
+INDEX_USD = INDEX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class INDEX_USDT:
     name: str = "INDEX-USDT"
     precision: int = 0.01
@@ -5501,7 +6323,10 @@ class INDEX_USDT:
         return "INDEX-USDT"
 
 
-@dataclass(slots=True)
+INDEX_USDT = INDEX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class INJ_USD:
     name: str = "INJ-USD"
     precision: int = 0.001
@@ -5521,7 +6346,10 @@ class INJ_USD:
         return "INJ-USD"
 
 
-@dataclass(slots=True)
+INJ_USD = INJ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class INV_USD:
     name: str = "INV-USD"
     precision: int = 0.01
@@ -5541,7 +6369,10 @@ class INV_USD:
         return "INV-USD"
 
 
-@dataclass(slots=True)
+INV_USD = INV_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTX_EUR:
     name: str = "IOTX-EUR"
     precision: int = 0.00001
@@ -5561,7 +6392,10 @@ class IOTX_EUR:
         return "IOTX-EUR"
 
 
-@dataclass(slots=True)
+IOTX_EUR = IOTX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class IOTX_USD:
     name: str = "IOTX-USD"
     precision: int = 0.00001
@@ -5581,7 +6415,10 @@ class IOTX_USD:
         return "IOTX-USD"
 
 
-@dataclass(slots=True)
+IOTX_USD = IOTX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMY_USD:
     name: str = "JASMY-USD"
     precision: int = 0.00001
@@ -5601,7 +6438,10 @@ class JASMY_USD:
         return "JASMY-USD"
 
 
-@dataclass(slots=True)
+JASMY_USD = JASMY_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class JASMY_USDT:
     name: str = "JASMY-USDT"
     precision: int = 0.00001
@@ -5621,7 +6461,10 @@ class JASMY_USDT:
         return "JASMY-USDT"
 
 
-@dataclass(slots=True)
+JASMY_USDT = JASMY_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class JUP_USD:
     name: str = "JUP-USD"
     precision: int = 0.000001
@@ -5641,7 +6484,10 @@ class JUP_USD:
         return "JUP-USD"
 
 
-@dataclass(slots=True)
+JUP_USD = JUP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class KEEP_USD:
     name: str = "KEEP-USD"
     precision: int = 0.0001
@@ -5661,7 +6507,10 @@ class KEEP_USD:
         return "KEEP-USD"
 
 
-@dataclass(slots=True)
+KEEP_USD = KEEP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class KNC_BTC:
     name: str = "KNC-BTC"
     precision: int = 0.00000001
@@ -5681,7 +6530,10 @@ class KNC_BTC:
         return "KNC-BTC"
 
 
-@dataclass(slots=True)
+KNC_BTC = KNC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class KNC_USD:
     name: str = "KNC-USD"
     precision: int = 0.0001
@@ -5701,7 +6553,10 @@ class KNC_USD:
         return "KNC-USD"
 
 
-@dataclass(slots=True)
+KNC_USD = KNC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class KRL_EUR:
     name: str = "KRL-EUR"
     precision: int = 0.0001
@@ -5721,7 +6576,10 @@ class KRL_EUR:
         return "KRL-EUR"
 
 
-@dataclass(slots=True)
+KRL_EUR = KRL_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class KRL_USD:
     name: str = "KRL-USD"
     precision: int = 0.0001
@@ -5741,7 +6599,10 @@ class KRL_USD:
         return "KRL-USD"
 
 
-@dataclass(slots=True)
+KRL_USD = KRL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class KRL_USDT:
     name: str = "KRL-USDT"
     precision: int = 0.0001
@@ -5761,7 +6622,10 @@ class KRL_USDT:
         return "KRL-USDT"
 
 
-@dataclass(slots=True)
+KRL_USDT = KRL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class KSM_USD:
     name: str = "KSM-USD"
     precision: int = 0.01
@@ -5781,7 +6645,10 @@ class KSM_USD:
         return "KSM-USD"
 
 
-@dataclass(slots=True)
+KSM_USD = KSM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class KSM_USDT:
     name: str = "KSM-USDT"
     precision: int = 0.01
@@ -5801,7 +6668,10 @@ class KSM_USDT:
         return "KSM-USDT"
 
 
-@dataclass(slots=True)
+KSM_USDT = KSM_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LCX_EUR:
     name: str = "LCX-EUR"
     precision: int = 0.0001
@@ -5821,7 +6691,10 @@ class LCX_EUR:
         return "LCX-EUR"
 
 
-@dataclass(slots=True)
+LCX_EUR = LCX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LCX_USD:
     name: str = "LCX-USD"
     precision: int = 0.0001
@@ -5841,7 +6714,10 @@ class LCX_USD:
         return "LCX-USD"
 
 
-@dataclass(slots=True)
+LCX_USD = LCX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LCX_USDT:
     name: str = "LCX-USDT"
     precision: int = 0.0001
@@ -5861,7 +6737,10 @@ class LCX_USDT:
         return "LCX-USDT"
 
 
-@dataclass(slots=True)
+LCX_USDT = LCX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LDO_USD:
     name: str = "LDO-USD"
     precision: int = 0.001
@@ -5881,7 +6760,10 @@ class LDO_USD:
         return "LDO-USD"
 
 
-@dataclass(slots=True)
+LDO_USD = LDO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_BTC:
     name: str = "LINK-BTC"
     precision: int = 0.00000001
@@ -5901,7 +6783,10 @@ class LINK_BTC:
         return "LINK-BTC"
 
 
-@dataclass(slots=True)
+LINK_BTC = LINK_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_ETH:
     name: str = "LINK-ETH"
     precision: int = 0.00000001
@@ -5921,7 +6806,10 @@ class LINK_ETH:
         return "LINK-ETH"
 
 
-@dataclass(slots=True)
+LINK_ETH = LINK_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_EUR:
     name: str = "LINK-EUR"
     precision: int = 0.01
@@ -5941,7 +6829,10 @@ class LINK_EUR:
         return "LINK-EUR"
 
 
-@dataclass(slots=True)
+LINK_EUR = LINK_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_GBP:
     name: str = "LINK-GBP"
     precision: int = 0.01
@@ -5961,7 +6852,10 @@ class LINK_GBP:
         return "LINK-GBP"
 
 
-@dataclass(slots=True)
+LINK_GBP = LINK_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_USD:
     name: str = "LINK-USD"
     precision: int = 0.001
@@ -5981,7 +6875,10 @@ class LINK_USD:
         return "LINK-USD"
 
 
-@dataclass(slots=True)
+LINK_USD = LINK_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LINK_USDT:
     name: str = "LINK-USDT"
     precision: int = 0.01
@@ -6001,7 +6898,10 @@ class LINK_USDT:
         return "LINK-USDT"
 
 
-@dataclass(slots=True)
+LINK_USDT = LINK_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LIT_USD:
     name: str = "LIT-USD"
     precision: int = 0.0001
@@ -6021,7 +6921,10 @@ class LIT_USD:
         return "LIT-USD"
 
 
-@dataclass(slots=True)
+LIT_USD = LIT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LOKA_USD:
     name: str = "LOKA-USD"
     precision: int = 0.0001
@@ -6041,7 +6944,10 @@ class LOKA_USD:
         return "LOKA-USD"
 
 
-@dataclass(slots=True)
+LOKA_USD = LOKA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOM_USD:
     name: str = "LOOM-USD"
     precision: int = 0.0001
@@ -6061,7 +6967,10 @@ class LOOM_USD:
         return "LOOM-USD"
 
 
-@dataclass(slots=True)
+LOOM_USD = LOOM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LOOM_USDC:
     name: str = "LOOM-USDC"
     precision: int = 0.000001
@@ -6081,7 +6990,10 @@ class LOOM_USDC:
         return "LOOM-USDC"
 
 
-@dataclass(slots=True)
+LOOM_USDC = LOOM_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class LPT_USD:
     name: str = "LPT-USD"
     precision: int = 0.01
@@ -6101,7 +7013,10 @@ class LPT_USD:
         return "LPT-USD"
 
 
-@dataclass(slots=True)
+LPT_USD = LPT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LQTY_EUR:
     name: str = "LQTY-EUR"
     precision: int = 0.0001
@@ -6121,7 +7036,10 @@ class LQTY_EUR:
         return "LQTY-EUR"
 
 
-@dataclass(slots=True)
+LQTY_EUR = LQTY_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LQTY_USD:
     name: str = "LQTY-USD"
     precision: int = 0.0001
@@ -6141,7 +7059,10 @@ class LQTY_USD:
         return "LQTY-USD"
 
 
-@dataclass(slots=True)
+LQTY_USD = LQTY_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LQTY_USDT:
     name: str = "LQTY-USDT"
     precision: int = 0.0001
@@ -6161,7 +7082,10 @@ class LQTY_USDT:
         return "LQTY-USDT"
 
 
-@dataclass(slots=True)
+LQTY_USDT = LQTY_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LRC_BTC:
     name: str = "LRC-BTC"
     precision: int = 0.00000001
@@ -6181,7 +7105,10 @@ class LRC_BTC:
         return "LRC-BTC"
 
 
-@dataclass(slots=True)
+LRC_BTC = LRC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LRC_USD:
     name: str = "LRC-USD"
     precision: int = 0.0001
@@ -6201,7 +7128,10 @@ class LRC_USD:
         return "LRC-USD"
 
 
-@dataclass(slots=True)
+LRC_USD = LRC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class LRC_USDT:
     name: str = "LRC-USDT"
     precision: int = 0.0001
@@ -6221,7 +7151,10 @@ class LRC_USDT:
         return "LRC-USDT"
 
 
-@dataclass(slots=True)
+LRC_USDT = LRC_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class LTC_BTC:
     name: str = "LTC-BTC"
     precision: int = 0.000001
@@ -6241,7 +7174,10 @@ class LTC_BTC:
         return "LTC-BTC"
 
 
-@dataclass(slots=True)
+LTC_BTC = LTC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class LTC_EUR:
     name: str = "LTC-EUR"
     precision: int = 0.01
@@ -6261,7 +7197,10 @@ class LTC_EUR:
         return "LTC-EUR"
 
 
-@dataclass(slots=True)
+LTC_EUR = LTC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class LTC_GBP:
     name: str = "LTC-GBP"
     precision: int = 0.01
@@ -6281,7 +7220,10 @@ class LTC_GBP:
         return "LTC-GBP"
 
 
-@dataclass(slots=True)
+LTC_GBP = LTC_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class LTC_USD:
     name: str = "LTC-USD"
     precision: int = 0.01
@@ -6301,7 +7243,10 @@ class LTC_USD:
         return "LTC-USD"
 
 
-@dataclass(slots=True)
+LTC_USD = LTC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MAGIC_USD:
     name: str = "MAGIC-USD"
     precision: int = 0.0001
@@ -6321,7 +7266,10 @@ class MAGIC_USD:
         return "MAGIC-USD"
 
 
-@dataclass(slots=True)
+MAGIC_USD = MAGIC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MANA_BTC:
     name: str = "MANA-BTC"
     precision: int = 0.0000001
@@ -6341,7 +7289,10 @@ class MANA_BTC:
         return "MANA-BTC"
 
 
-@dataclass(slots=True)
+MANA_BTC = MANA_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MANA_ETH:
     name: str = "MANA-ETH"
     precision: int = 0.0000001
@@ -6361,7 +7312,10 @@ class MANA_ETH:
         return "MANA-ETH"
 
 
-@dataclass(slots=True)
+MANA_ETH = MANA_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class MANA_EUR:
     name: str = "MANA-EUR"
     precision: int = 0.001
@@ -6381,7 +7335,10 @@ class MANA_EUR:
         return "MANA-EUR"
 
 
-@dataclass(slots=True)
+MANA_EUR = MANA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MANA_USD:
     name: str = "MANA-USD"
     precision: int = 0.0001
@@ -6401,7 +7358,10 @@ class MANA_USD:
         return "MANA-USD"
 
 
-@dataclass(slots=True)
+MANA_USD = MANA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MANA_USDC:
     name: str = "MANA-USDC"
     precision: int = 0.000001
@@ -6421,7 +7381,10 @@ class MANA_USDC:
         return "MANA-USDC"
 
 
-@dataclass(slots=True)
+MANA_USDC = MANA_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class MASK_EUR:
     name: str = "MASK-EUR"
     precision: int = 0.01
@@ -6441,7 +7404,10 @@ class MASK_EUR:
         return "MASK-EUR"
 
 
-@dataclass(slots=True)
+MASK_EUR = MASK_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MASK_GBP:
     name: str = "MASK-GBP"
     precision: int = 0.001
@@ -6461,7 +7427,10 @@ class MASK_GBP:
         return "MASK-GBP"
 
 
-@dataclass(slots=True)
+MASK_GBP = MASK_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class MASK_USD:
     name: str = "MASK-USD"
     precision: int = 0.01
@@ -6481,7 +7450,10 @@ class MASK_USD:
         return "MASK-USD"
 
 
-@dataclass(slots=True)
+MASK_USD = MASK_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MASK_USDT:
     name: str = "MASK-USDT"
     precision: int = 0.01
@@ -6501,7 +7473,10 @@ class MASK_USDT:
         return "MASK-USDT"
 
 
-@dataclass(slots=True)
+MASK_USDT = MASK_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MATH_USD:
     name: str = "MATH-USD"
     precision: int = 0.0001
@@ -6521,7 +7496,10 @@ class MATH_USD:
         return "MATH-USD"
 
 
-@dataclass(slots=True)
+MATH_USD = MATH_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MATH_USDT:
     name: str = "MATH-USDT"
     precision: int = 0.0001
@@ -6541,7 +7519,10 @@ class MATH_USDT:
         return "MATH-USDT"
 
 
-@dataclass(slots=True)
+MATH_USDT = MATH_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MATIC_BTC:
     name: str = "MATIC-BTC"
     precision: int = 0.00000001
@@ -6561,7 +7542,10 @@ class MATIC_BTC:
         return "MATIC-BTC"
 
 
-@dataclass(slots=True)
+MATIC_BTC = MATIC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MATIC_EUR:
     name: str = "MATIC-EUR"
     precision: int = 0.0001
@@ -6581,7 +7565,10 @@ class MATIC_EUR:
         return "MATIC-EUR"
 
 
-@dataclass(slots=True)
+MATIC_EUR = MATIC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MATIC_GBP:
     name: str = "MATIC-GBP"
     precision: int = 0.0001
@@ -6601,7 +7588,10 @@ class MATIC_GBP:
         return "MATIC-GBP"
 
 
-@dataclass(slots=True)
+MATIC_GBP = MATIC_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class MATIC_USD:
     name: str = "MATIC-USD"
     precision: int = 0.0001
@@ -6621,7 +7611,10 @@ class MATIC_USD:
         return "MATIC-USD"
 
 
-@dataclass(slots=True)
+MATIC_USD = MATIC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MATIC_USDT:
     name: str = "MATIC-USDT"
     precision: int = 0.001
@@ -6641,7 +7634,10 @@ class MATIC_USDT:
         return "MATIC-USDT"
 
 
-@dataclass(slots=True)
+MATIC_USDT = MATIC_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MCO2_USD:
     name: str = "MCO2-USD"
     precision: int = 0.01
@@ -6661,7 +7657,10 @@ class MCO2_USD:
         return "MCO2-USD"
 
 
-@dataclass(slots=True)
+MCO2_USD = MCO2_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MCO2_USDT:
     name: str = "MCO2-USDT"
     precision: int = 0.01
@@ -6681,7 +7680,10 @@ class MCO2_USDT:
         return "MCO2-USDT"
 
 
-@dataclass(slots=True)
+MCO2_USDT = MCO2_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MDT_USD:
     name: str = "MDT-USD"
     precision: int = 0.00001
@@ -6701,7 +7703,10 @@ class MDT_USD:
         return "MDT-USD"
 
 
-@dataclass(slots=True)
+MDT_USD = MDT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MDT_USDT:
     name: str = "MDT-USDT"
     precision: int = 0.00001
@@ -6721,7 +7726,10 @@ class MDT_USDT:
         return "MDT-USDT"
 
 
-@dataclass(slots=True)
+MDT_USDT = MDT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MEDIA_USD:
     name: str = "MEDIA-USD"
     precision: int = 0.01
@@ -6741,7 +7749,10 @@ class MEDIA_USD:
         return "MEDIA-USD"
 
 
-@dataclass(slots=True)
+MEDIA_USD = MEDIA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MEDIA_USDT:
     name: str = "MEDIA-USDT"
     precision: int = 0.01
@@ -6761,7 +7772,10 @@ class MEDIA_USDT:
         return "MEDIA-USDT"
 
 
-@dataclass(slots=True)
+MEDIA_USDT = MEDIA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class METIS_USD:
     name: str = "METIS-USD"
     precision: int = 0.01
@@ -6781,7 +7795,10 @@ class METIS_USD:
         return "METIS-USD"
 
 
-@dataclass(slots=True)
+METIS_USD = METIS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class METIS_USDT:
     name: str = "METIS-USDT"
     precision: int = 0.01
@@ -6801,7 +7818,10 @@ class METIS_USDT:
         return "METIS-USDT"
 
 
-@dataclass(slots=True)
+METIS_USDT = METIS_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MINA_EUR:
     name: str = "MINA-EUR"
     precision: int = 0.001
@@ -6821,7 +7841,10 @@ class MINA_EUR:
         return "MINA-EUR"
 
 
-@dataclass(slots=True)
+MINA_EUR = MINA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MINA_USD:
     name: str = "MINA-USD"
     precision: int = 0.001
@@ -6841,7 +7864,10 @@ class MINA_USD:
         return "MINA-USD"
 
 
-@dataclass(slots=True)
+MINA_USD = MINA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MINA_USDT:
     name: str = "MINA-USDT"
     precision: int = 0.001
@@ -6861,7 +7887,10 @@ class MINA_USDT:
         return "MINA-USDT"
 
 
-@dataclass(slots=True)
+MINA_USDT = MINA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class MIR_BTC:
     name: str = "MIR-BTC"
     precision: int = 0.00000001
@@ -6881,7 +7910,10 @@ class MIR_BTC:
         return "MIR-BTC"
 
 
-@dataclass(slots=True)
+MIR_BTC = MIR_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MIR_EUR:
     name: str = "MIR-EUR"
     precision: int = 0.001
@@ -6901,7 +7933,10 @@ class MIR_EUR:
         return "MIR-EUR"
 
 
-@dataclass(slots=True)
+MIR_EUR = MIR_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class MIR_GBP:
     name: str = "MIR-GBP"
     precision: int = 0.001
@@ -6921,7 +7956,10 @@ class MIR_GBP:
         return "MIR-GBP"
 
 
-@dataclass(slots=True)
+MIR_GBP = MIR_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class MIR_USD:
     name: str = "MIR-USD"
     precision: int = 0.0001
@@ -6941,7 +7979,10 @@ class MIR_USD:
         return "MIR-USD"
 
 
-@dataclass(slots=True)
+MIR_USD = MIR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MKR_BTC:
     name: str = "MKR-BTC"
     precision: int = 0.00001
@@ -6961,7 +8002,10 @@ class MKR_BTC:
         return "MKR-BTC"
 
 
-@dataclass(slots=True)
+MKR_BTC = MKR_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class MKR_USD:
     name: str = "MKR-USD"
     precision: int = 0.01
@@ -6981,7 +8025,10 @@ class MKR_USD:
         return "MKR-USD"
 
 
-@dataclass(slots=True)
+MKR_USD = MKR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MLN_USD:
     name: str = "MLN-USD"
     precision: int = 0.01
@@ -7001,7 +8048,10 @@ class MLN_USD:
         return "MLN-USD"
 
 
-@dataclass(slots=True)
+MLN_USD = MLN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MNDE_USD:
     name: str = "MNDE-USD"
     precision: int = 0.00001
@@ -7021,7 +8071,10 @@ class MNDE_USD:
         return "MNDE-USD"
 
 
-@dataclass(slots=True)
+MNDE_USD = MNDE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MONA_USD:
     name: str = "MONA-USD"
     precision: int = 0.01
@@ -7041,7 +8094,10 @@ class MONA_USD:
         return "MONA-USD"
 
 
-@dataclass(slots=True)
+MONA_USD = MONA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MPL_USD:
     name: str = "MPL-USD"
     precision: int = 0.01
@@ -7061,7 +8117,10 @@ class MPL_USD:
         return "MPL-USD"
 
 
-@dataclass(slots=True)
+MPL_USD = MPL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MSOL_USD:
     name: str = "MSOL-USD"
     precision: int = 0.01
@@ -7081,7 +8140,10 @@ class MSOL_USD:
         return "MSOL-USD"
 
 
-@dataclass(slots=True)
+MSOL_USD = MSOL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MTL_USD:
     name: str = "MTL-USD"
     precision: int = 0.001
@@ -7101,7 +8163,10 @@ class MTL_USD:
         return "MTL-USD"
 
 
-@dataclass(slots=True)
+MTL_USD = MTL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MUSD_USD:
     name: str = "MUSD-USD"
     precision: int = 0.0001
@@ -7121,7 +8186,10 @@ class MUSD_USD:
         return "MUSD-USD"
 
 
-@dataclass(slots=True)
+MUSD_USD = MUSD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MUSE_USD:
     name: str = "MUSE-USD"
     precision: int = 0.001
@@ -7141,7 +8209,10 @@ class MUSE_USD:
         return "MUSE-USD"
 
 
-@dataclass(slots=True)
+MUSE_USD = MUSE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class MXC_USD:
     name: str = "MXC-USD"
     precision: int = 0.00001
@@ -7161,7 +8232,10 @@ class MXC_USD:
         return "MXC-USD"
 
 
-@dataclass(slots=True)
+MXC_USD = MXC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NCT_EUR:
     name: str = "NCT-EUR"
     precision: int = 0.00001
@@ -7181,7 +8255,10 @@ class NCT_EUR:
         return "NCT-EUR"
 
 
-@dataclass(slots=True)
+NCT_EUR = NCT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class NCT_USD:
     name: str = "NCT-USD"
     precision: int = 0.00001
@@ -7201,7 +8278,10 @@ class NCT_USD:
         return "NCT-USD"
 
 
-@dataclass(slots=True)
+NCT_USD = NCT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NCT_USDT:
     name: str = "NCT-USDT"
     precision: int = 0.00001
@@ -7221,7 +8301,10 @@ class NCT_USDT:
         return "NCT-USDT"
 
 
-@dataclass(slots=True)
+NCT_USDT = NCT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NEAR_USD:
     name: str = "NEAR-USD"
     precision: int = 0.001
@@ -7241,7 +8324,10 @@ class NEAR_USD:
         return "NEAR-USD"
 
 
-@dataclass(slots=True)
+NEAR_USD = NEAR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEAR_USDT:
     name: str = "NEAR-USDT"
     precision: int = 0.001
@@ -7261,7 +8347,10 @@ class NEAR_USDT:
         return "NEAR-USDT"
 
 
-@dataclass(slots=True)
+NEAR_USDT = NEAR_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NEST_USD:
     name: str = "NEST-USD"
     precision: int = 0.00001
@@ -7281,7 +8370,10 @@ class NEST_USD:
         return "NEST-USD"
 
 
-@dataclass(slots=True)
+NEST_USD = NEST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NEST_USDT:
     name: str = "NEST-USDT"
     precision: int = 0.00001
@@ -7301,7 +8393,10 @@ class NEST_USDT:
         return "NEST-USDT"
 
 
-@dataclass(slots=True)
+NEST_USDT = NEST_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class NKN_BTC:
     name: str = "NKN-BTC"
     precision: int = 0.00000001
@@ -7321,7 +8416,10 @@ class NKN_BTC:
         return "NKN-BTC"
 
 
-@dataclass(slots=True)
+NKN_BTC = NKN_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NKN_EUR:
     name: str = "NKN-EUR"
     precision: int = 0.0001
@@ -7341,7 +8439,10 @@ class NKN_EUR:
         return "NKN-EUR"
 
 
-@dataclass(slots=True)
+NKN_EUR = NKN_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class NKN_GBP:
     name: str = "NKN-GBP"
     precision: int = 0.0001
@@ -7361,7 +8462,10 @@ class NKN_GBP:
         return "NKN-GBP"
 
 
-@dataclass(slots=True)
+NKN_GBP = NKN_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class NKN_USD:
     name: str = "NKN-USD"
     precision: int = 0.0001
@@ -7381,7 +8485,10 @@ class NKN_USD:
         return "NKN-USD"
 
 
-@dataclass(slots=True)
+NKN_USD = NKN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NMR_BTC:
     name: str = "NMR-BTC"
     precision: int = 0.0000001
@@ -7401,7 +8508,10 @@ class NMR_BTC:
         return "NMR-BTC"
 
 
-@dataclass(slots=True)
+NMR_BTC = NMR_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NMR_EUR:
     name: str = "NMR-EUR"
     precision: int = 0.01
@@ -7421,7 +8531,10 @@ class NMR_EUR:
         return "NMR-EUR"
 
 
-@dataclass(slots=True)
+NMR_EUR = NMR_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class NMR_GBP:
     name: str = "NMR-GBP"
     precision: int = 0.01
@@ -7441,7 +8554,10 @@ class NMR_GBP:
         return "NMR-GBP"
 
 
-@dataclass(slots=True)
+NMR_GBP = NMR_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class NMR_USD:
     name: str = "NMR-USD"
     precision: int = 0.01
@@ -7461,7 +8577,10 @@ class NMR_USD:
         return "NMR-USD"
 
 
-@dataclass(slots=True)
+NMR_USD = NMR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class NU_BTC:
     name: str = "NU-BTC"
     precision: int = 0.00000001
@@ -7481,7 +8600,10 @@ class NU_BTC:
         return "NU-BTC"
 
 
-@dataclass(slots=True)
+NU_BTC = NU_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class NU_EUR:
     name: str = "NU-EUR"
     precision: int = 0.0001
@@ -7501,7 +8623,10 @@ class NU_EUR:
         return "NU-EUR"
 
 
-@dataclass(slots=True)
+NU_EUR = NU_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class NU_GBP:
     name: str = "NU-GBP"
     precision: int = 0.0001
@@ -7521,7 +8646,10 @@ class NU_GBP:
         return "NU-GBP"
 
 
-@dataclass(slots=True)
+NU_GBP = NU_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class NU_USD:
     name: str = "NU-USD"
     precision: int = 0.0001
@@ -7541,7 +8669,10 @@ class NU_USD:
         return "NU-USD"
 
 
-@dataclass(slots=True)
+NU_USD = NU_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OCEAN_USD:
     name: str = "OCEAN-USD"
     precision: int = 0.0001
@@ -7561,7 +8692,10 @@ class OCEAN_USD:
         return "OCEAN-USD"
 
 
-@dataclass(slots=True)
+OCEAN_USD = OCEAN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OGN_BTC:
     name: str = "OGN-BTC"
     precision: int = 0.00000001
@@ -7581,7 +8715,10 @@ class OGN_BTC:
         return "OGN-BTC"
 
 
-@dataclass(slots=True)
+OGN_BTC = OGN_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OGN_USD:
     name: str = "OGN-USD"
     precision: int = 0.00001
@@ -7601,7 +8738,10 @@ class OGN_USD:
         return "OGN-USD"
 
 
-@dataclass(slots=True)
+OGN_USD = OGN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OMG_BTC:
     name: str = "OMG-BTC"
     precision: int = 0.00000001
@@ -7621,7 +8761,10 @@ class OMG_BTC:
         return "OMG-BTC"
 
 
-@dataclass(slots=True)
+OMG_BTC = OMG_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class OMG_EUR:
     name: str = "OMG-EUR"
     precision: int = 0.0001
@@ -7641,7 +8784,10 @@ class OMG_EUR:
         return "OMG-EUR"
 
 
-@dataclass(slots=True)
+OMG_EUR = OMG_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class OMG_GBP:
     name: str = "OMG-GBP"
     precision: int = 0.0001
@@ -7661,7 +8807,10 @@ class OMG_GBP:
         return "OMG-GBP"
 
 
-@dataclass(slots=True)
+OMG_GBP = OMG_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class OMG_USD:
     name: str = "OMG-USD"
     precision: int = 0.0001
@@ -7681,7 +8830,10 @@ class OMG_USD:
         return "OMG-USD"
 
 
-@dataclass(slots=True)
+OMG_USD = OMG_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OOKI_USD:
     name: str = "OOKI-USD"
     precision: int = 0.000001
@@ -7701,7 +8853,10 @@ class OOKI_USD:
         return "OOKI-USD"
 
 
-@dataclass(slots=True)
+OOKI_USD = OOKI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OP_USD:
     name: str = "OP-USD"
     precision: int = 0.001
@@ -7721,7 +8876,10 @@ class OP_USD:
         return "OP-USD"
 
 
-@dataclass(slots=True)
+OP_USD = OP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class OP_USDT:
     name: str = "OP-USDT"
     precision: int = 0.001
@@ -7741,7 +8899,10 @@ class OP_USDT:
         return "OP-USDT"
 
 
-@dataclass(slots=True)
+OP_USDT = OP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ORCA_USD:
     name: str = "ORCA-USD"
     precision: int = 0.0001
@@ -7761,7 +8922,10 @@ class ORCA_USD:
         return "ORCA-USD"
 
 
-@dataclass(slots=True)
+ORCA_USD = ORCA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ORN_BTC:
     name: str = "ORN-BTC"
     precision: int = 0.0000001
@@ -7781,7 +8945,10 @@ class ORN_BTC:
         return "ORN-BTC"
 
 
-@dataclass(slots=True)
+ORN_BTC = ORN_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ORN_USD:
     name: str = "ORN-USD"
     precision: int = 0.001
@@ -7801,7 +8968,10 @@ class ORN_USD:
         return "ORN-USD"
 
 
-@dataclass(slots=True)
+ORN_USD = ORN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ORN_USDT:
     name: str = "ORN-USDT"
     precision: int = 0.001
@@ -7821,7 +8991,10 @@ class ORN_USDT:
         return "ORN-USDT"
 
 
-@dataclass(slots=True)
+ORN_USDT = ORN_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class OXT_USD:
     name: str = "OXT-USD"
     precision: int = 0.0001
@@ -7841,7 +9014,10 @@ class OXT_USD:
         return "OXT-USD"
 
 
-@dataclass(slots=True)
+OXT_USD = OXT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PAX_USD:
     name: str = "PAX-USD"
     precision: int = 0.0001
@@ -7861,7 +9037,10 @@ class PAX_USD:
         return "PAX-USD"
 
 
-@dataclass(slots=True)
+PAX_USD = PAX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PAX_USDT:
     name: str = "PAX-USDT"
     precision: int = 0.0001
@@ -7881,7 +9060,10 @@ class PAX_USDT:
         return "PAX-USDT"
 
 
-@dataclass(slots=True)
+PAX_USDT = PAX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PERP_EUR:
     name: str = "PERP-EUR"
     precision: int = 0.0001
@@ -7901,7 +9083,10 @@ class PERP_EUR:
         return "PERP-EUR"
 
 
-@dataclass(slots=True)
+PERP_EUR = PERP_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class PERP_USD:
     name: str = "PERP-USD"
     precision: int = 0.0001
@@ -7921,7 +9106,10 @@ class PERP_USD:
         return "PERP-USD"
 
 
-@dataclass(slots=True)
+PERP_USD = PERP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PERP_USDT:
     name: str = "PERP-USDT"
     precision: int = 0.0001
@@ -7941,7 +9129,10 @@ class PERP_USDT:
         return "PERP-USDT"
 
 
-@dataclass(slots=True)
+PERP_USDT = PERP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PLA_USD:
     name: str = "PLA-USD"
     precision: int = 0.0001
@@ -7961,7 +9152,10 @@ class PLA_USD:
         return "PLA-USD"
 
 
-@dataclass(slots=True)
+PLA_USD = PLA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PLU_USD:
     name: str = "PLU-USD"
     precision: int = 0.01
@@ -7981,7 +9175,10 @@ class PLU_USD:
         return "PLU-USD"
 
 
-@dataclass(slots=True)
+PLU_USD = PLU_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PNG_USD:
     name: str = "PNG-USD"
     precision: int = 0.00001
@@ -8001,7 +9198,10 @@ class PNG_USD:
         return "PNG-USD"
 
 
-@dataclass(slots=True)
+PNG_USD = PNG_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLS_USD:
     name: str = "POLS-USD"
     precision: int = 0.0001
@@ -8021,7 +9221,10 @@ class POLS_USD:
         return "POLS-USD"
 
 
-@dataclass(slots=True)
+POLS_USD = POLS_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLS_USDT:
     name: str = "POLS-USDT"
     precision: int = 0.0001
@@ -8041,7 +9244,10 @@ class POLS_USDT:
         return "POLS-USDT"
 
 
-@dataclass(slots=True)
+POLS_USDT = POLS_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POLY_USD:
     name: str = "POLY-USD"
     precision: int = 0.0001
@@ -8061,7 +9267,10 @@ class POLY_USD:
         return "POLY-USD"
 
 
-@dataclass(slots=True)
+POLY_USD = POLY_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class POLY_USDT:
     name: str = "POLY-USDT"
     precision: int = 0.0001
@@ -8081,7 +9290,10 @@ class POLY_USDT:
         return "POLY-USDT"
 
 
-@dataclass(slots=True)
+POLY_USDT = POLY_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POND_USD:
     name: str = "POND-USD"
     precision: int = 0.00001
@@ -8101,7 +9313,10 @@ class POND_USD:
         return "POND-USD"
 
 
-@dataclass(slots=True)
+POND_USD = POND_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class POND_USDT:
     name: str = "POND-USDT"
     precision: int = 0.00001
@@ -8121,7 +9336,10 @@ class POND_USDT:
         return "POND-USDT"
 
 
-@dataclass(slots=True)
+POND_USDT = POND_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class POWR_EUR:
     name: str = "POWR-EUR"
     precision: int = 0.0001
@@ -8141,7 +9359,10 @@ class POWR_EUR:
         return "POWR-EUR"
 
 
-@dataclass(slots=True)
+POWR_EUR = POWR_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class POWR_USD:
     name: str = "POWR-USD"
     precision: int = 0.0001
@@ -8161,7 +9382,10 @@ class POWR_USD:
         return "POWR-USD"
 
 
-@dataclass(slots=True)
+POWR_USD = POWR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class POWR_USDT:
     name: str = "POWR-USDT"
     precision: int = 0.0001
@@ -8181,7 +9405,10 @@ class POWR_USDT:
         return "POWR-USDT"
 
 
-@dataclass(slots=True)
+POWR_USDT = POWR_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PRO_USD:
     name: str = "PRO-USD"
     precision: int = 0.0001
@@ -8201,7 +9428,10 @@ class PRO_USD:
         return "PRO-USD"
 
 
-@dataclass(slots=True)
+PRO_USD = PRO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PRQ_USD:
     name: str = "PRQ-USD"
     precision: int = 0.0001
@@ -8221,7 +9451,10 @@ class PRQ_USD:
         return "PRQ-USD"
 
 
-@dataclass(slots=True)
+PRQ_USD = PRQ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PRQ_USDT:
     name: str = "PRQ-USDT"
     precision: int = 0.0001
@@ -8241,7 +9474,10 @@ class PRQ_USDT:
         return "PRQ-USDT"
 
 
-@dataclass(slots=True)
+PRQ_USDT = PRQ_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class PUNDIX_USD:
     name: str = "PUNDIX-USD"
     precision: int = 0.0001
@@ -8261,7 +9497,10 @@ class PUNDIX_USD:
         return "PUNDIX-USD"
 
 
-@dataclass(slots=True)
+PUNDIX_USD = PUNDIX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class PYR_USD:
     name: str = "PYR-USD"
     precision: int = 0.001
@@ -8281,7 +9520,10 @@ class PYR_USD:
         return "PYR-USD"
 
 
-@dataclass(slots=True)
+PYR_USD = PYR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class QI_USD:
     name: str = "QI-USD"
     precision: int = 0.000001
@@ -8301,7 +9543,10 @@ class QI_USD:
         return "QI-USD"
 
 
-@dataclass(slots=True)
+QI_USD = QI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class QNT_USD:
     name: str = "QNT-USD"
     precision: int = 0.01
@@ -8321,7 +9566,10 @@ class QNT_USD:
         return "QNT-USD"
 
 
-@dataclass(slots=True)
+QNT_USD = QNT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class QNT_USDT:
     name: str = "QNT-USDT"
     precision: int = 0.01
@@ -8341,7 +9589,10 @@ class QNT_USDT:
         return "QNT-USDT"
 
 
-@dataclass(slots=True)
+QNT_USDT = QNT_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QSP_USD:
     name: str = "QSP-USD"
     precision: int = 0.00001
@@ -8361,7 +9612,10 @@ class QSP_USD:
         return "QSP-USD"
 
 
-@dataclass(slots=True)
+QSP_USD = QSP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class QSP_USDT:
     name: str = "QSP-USDT"
     precision: int = 0.00001
@@ -8381,7 +9635,10 @@ class QSP_USDT:
         return "QSP-USDT"
 
 
-@dataclass(slots=True)
+QSP_USDT = QSP_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class QUICK_USD:
     name: str = "QUICK-USD"
     precision: int = 0.01
@@ -8401,7 +9658,10 @@ class QUICK_USD:
         return "QUICK-USD"
 
 
-@dataclass(slots=True)
+QUICK_USD = QUICK_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RAD_BTC:
     name: str = "RAD-BTC"
     precision: int = 0.0000001
@@ -8421,7 +9681,10 @@ class RAD_BTC:
         return "RAD-BTC"
 
 
-@dataclass(slots=True)
+RAD_BTC = RAD_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RAD_EUR:
     name: str = "RAD-EUR"
     precision: int = 0.001
@@ -8441,7 +9704,10 @@ class RAD_EUR:
         return "RAD-EUR"
 
 
-@dataclass(slots=True)
+RAD_EUR = RAD_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class RAD_GBP:
     name: str = "RAD-GBP"
     precision: int = 0.001
@@ -8461,7 +9727,10 @@ class RAD_GBP:
         return "RAD-GBP"
 
 
-@dataclass(slots=True)
+RAD_GBP = RAD_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class RAD_USD:
     name: str = "RAD-USD"
     precision: int = 0.01
@@ -8481,7 +9750,10 @@ class RAD_USD:
         return "RAD-USD"
 
 
-@dataclass(slots=True)
+RAD_USD = RAD_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RAD_USDT:
     name: str = "RAD-USDT"
     precision: int = 0.01
@@ -8501,7 +9773,10 @@ class RAD_USDT:
         return "RAD-USDT"
 
 
-@dataclass(slots=True)
+RAD_USDT = RAD_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RAI_USD:
     name: str = "RAI-USD"
     precision: int = 0.01
@@ -8521,7 +9796,10 @@ class RAI_USD:
         return "RAI-USD"
 
 
-@dataclass(slots=True)
+RAI_USD = RAI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RARE_USD:
     name: str = "RARE-USD"
     precision: int = 0.0001
@@ -8541,7 +9819,10 @@ class RARE_USD:
         return "RARE-USD"
 
 
-@dataclass(slots=True)
+RARE_USD = RARE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RARI_USD:
     name: str = "RARI-USD"
     precision: int = 0.01
@@ -8561,7 +9842,10 @@ class RARI_USD:
         return "RARI-USD"
 
 
-@dataclass(slots=True)
+RARI_USD = RARI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RBN_USD:
     name: str = "RBN-USD"
     precision: int = 0.00001
@@ -8581,7 +9865,10 @@ class RBN_USD:
         return "RBN-USD"
 
 
-@dataclass(slots=True)
+RBN_USD = RBN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class REN_BTC:
     name: str = "REN-BTC"
     precision: int = 0.00000001
@@ -8601,7 +9888,10 @@ class REN_BTC:
         return "REN-BTC"
 
 
-@dataclass(slots=True)
+REN_BTC = REN_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REN_USD:
     name: str = "REN-USD"
     precision: int = 0.0001
@@ -8621,7 +9911,10 @@ class REN_USD:
         return "REN-USD"
 
 
-@dataclass(slots=True)
+REN_USD = REN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class REP_BTC:
     name: str = "REP-BTC"
     precision: int = 0.0000001
@@ -8641,7 +9934,10 @@ class REP_BTC:
         return "REP-BTC"
 
 
-@dataclass(slots=True)
+REP_BTC = REP_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REP_USD:
     name: str = "REP-USD"
     precision: int = 0.01
@@ -8661,7 +9957,10 @@ class REP_USD:
         return "REP-USD"
 
 
-@dataclass(slots=True)
+REP_USD = REP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class REQ_BTC:
     name: str = "REQ-BTC"
     precision: int = 0.00000001
@@ -8681,7 +9980,10 @@ class REQ_BTC:
         return "REQ-BTC"
 
 
-@dataclass(slots=True)
+REQ_BTC = REQ_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class REQ_EUR:
     name: str = "REQ-EUR"
     precision: int = 0.00001
@@ -8701,7 +10003,10 @@ class REQ_EUR:
         return "REQ-EUR"
 
 
-@dataclass(slots=True)
+REQ_EUR = REQ_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class REQ_GBP:
     name: str = "REQ-GBP"
     precision: int = 0.0001
@@ -8721,7 +10026,10 @@ class REQ_GBP:
         return "REQ-GBP"
 
 
-@dataclass(slots=True)
+REQ_GBP = REQ_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class REQ_USD:
     name: str = "REQ-USD"
     precision: int = 0.0001
@@ -8741,7 +10049,10 @@ class REQ_USD:
         return "REQ-USD"
 
 
-@dataclass(slots=True)
+REQ_USD = REQ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class REQ_USDT:
     name: str = "REQ-USDT"
     precision: int = 0.0001
@@ -8761,7 +10072,10 @@ class REQ_USDT:
         return "REQ-USDT"
 
 
-@dataclass(slots=True)
+REQ_USDT = REQ_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RGT_USD:
     name: str = "RGT-USD"
     precision: int = 0.01
@@ -8781,7 +10095,10 @@ class RGT_USD:
         return "RGT-USD"
 
 
-@dataclass(slots=True)
+RGT_USD = RGT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RLC_BTC:
     name: str = "RLC-BTC"
     precision: int = 0.0000001
@@ -8801,7 +10118,10 @@ class RLC_BTC:
         return "RLC-BTC"
 
 
-@dataclass(slots=True)
+RLC_BTC = RLC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class RLC_USD:
     name: str = "RLC-USD"
     precision: int = 0.0001
@@ -8821,7 +10141,10 @@ class RLC_USD:
         return "RLC-USD"
 
 
-@dataclass(slots=True)
+RLC_USD = RLC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RLY_EUR:
     name: str = "RLY-EUR"
     precision: int = 0.0001
@@ -8841,7 +10164,10 @@ class RLY_EUR:
         return "RLY-EUR"
 
 
-@dataclass(slots=True)
+RLY_EUR = RLY_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class RLY_GBP:
     name: str = "RLY-GBP"
     precision: int = 0.0001
@@ -8861,7 +10187,10 @@ class RLY_GBP:
         return "RLY-GBP"
 
 
-@dataclass(slots=True)
+RLY_GBP = RLY_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class RLY_USD:
     name: str = "RLY-USD"
     precision: int = 0.0001
@@ -8881,7 +10210,10 @@ class RLY_USD:
         return "RLY-USD"
 
 
-@dataclass(slots=True)
+RLY_USD = RLY_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RLY_USDT:
     name: str = "RLY-USDT"
     precision: int = 0.0001
@@ -8901,7 +10233,10 @@ class RLY_USDT:
         return "RLY-USDT"
 
 
-@dataclass(slots=True)
+RLY_USDT = RLY_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDR_EUR:
     name: str = "RNDR-EUR"
     precision: int = 0.0001
@@ -8921,7 +10256,10 @@ class RNDR_EUR:
         return "RNDR-EUR"
 
 
-@dataclass(slots=True)
+RNDR_EUR = RNDR_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDR_USD:
     name: str = "RNDR-USD"
     precision: int = 0.0001
@@ -8941,7 +10279,10 @@ class RNDR_USD:
         return "RNDR-USD"
 
 
-@dataclass(slots=True)
+RNDR_USD = RNDR_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class RNDR_USDT:
     name: str = "RNDR-USDT"
     precision: int = 0.0001
@@ -8961,7 +10302,10 @@ class RNDR_USDT:
         return "RNDR-USDT"
 
 
-@dataclass(slots=True)
+RNDR_USDT = RNDR_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSE_USD:
     name: str = "ROSE-USD"
     precision: int = 0.00001
@@ -8981,7 +10325,10 @@ class ROSE_USD:
         return "ROSE-USD"
 
 
-@dataclass(slots=True)
+ROSE_USD = ROSE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ROSE_USDT:
     name: str = "ROSE-USDT"
     precision: int = 0.0001
@@ -9001,7 +10348,10 @@ class ROSE_USDT:
         return "ROSE-USDT"
 
 
-@dataclass(slots=True)
+ROSE_USDT = ROSE_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class RPL_USD:
     name: str = "RPL-USD"
     precision: int = 0.01
@@ -9021,7 +10371,10 @@ class RPL_USD:
         return "RPL-USD"
 
 
-@dataclass(slots=True)
+RPL_USD = RPL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SAND_USD:
     name: str = "SAND-USD"
     precision: int = 0.0001
@@ -9041,7 +10394,10 @@ class SAND_USD:
         return "SAND-USD"
 
 
-@dataclass(slots=True)
+SAND_USD = SAND_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SAND_USDT:
     name: str = "SAND-USDT"
     precision: int = 0.001
@@ -9061,7 +10417,10 @@ class SAND_USDT:
         return "SAND-USDT"
 
 
-@dataclass(slots=True)
+SAND_USDT = SAND_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIB_EUR:
     name: str = "SHIB-EUR"
     precision: int = 0.00000001
@@ -9081,7 +10440,10 @@ class SHIB_EUR:
         return "SHIB-EUR"
 
 
-@dataclass(slots=True)
+SHIB_EUR = SHIB_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIB_GBP:
     name: str = "SHIB-GBP"
     precision: int = 0.00000001
@@ -9101,7 +10463,10 @@ class SHIB_GBP:
         return "SHIB-GBP"
 
 
-@dataclass(slots=True)
+SHIB_GBP = SHIB_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIB_USD:
     name: str = "SHIB-USD"
     precision: int = 0.00000001
@@ -9121,7 +10486,10 @@ class SHIB_USD:
         return "SHIB-USD"
 
 
-@dataclass(slots=True)
+SHIB_USD = SHIB_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SHIB_USDT:
     name: str = "SHIB-USDT"
     precision: int = 0.0000001
@@ -9141,7 +10509,10 @@ class SHIB_USDT:
         return "SHIB-USDT"
 
 
-@dataclass(slots=True)
+SHIB_USDT = SHIB_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SHPING_EUR:
     name: str = "SHPING-EUR"
     precision: int = 0.000001
@@ -9161,7 +10532,10 @@ class SHPING_EUR:
         return "SHPING-EUR"
 
 
-@dataclass(slots=True)
+SHPING_EUR = SHPING_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SHPING_USD:
     name: str = "SHPING-USD"
     precision: int = 0.000001
@@ -9181,7 +10555,10 @@ class SHPING_USD:
         return "SHPING-USD"
 
 
-@dataclass(slots=True)
+SHPING_USD = SHPING_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SHPING_USDT:
     name: str = "SHPING-USDT"
     precision: int = 0.000001
@@ -9201,7 +10578,10 @@ class SHPING_USDT:
         return "SHPING-USDT"
 
 
-@dataclass(slots=True)
+SHPING_USDT = SHPING_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SKL_BTC:
     name: str = "SKL-BTC"
     precision: int = 0.00000001
@@ -9221,7 +10601,10 @@ class SKL_BTC:
         return "SKL-BTC"
 
 
-@dataclass(slots=True)
+SKL_BTC = SKL_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SKL_EUR:
     name: str = "SKL-EUR"
     precision: int = 0.0001
@@ -9241,7 +10624,10 @@ class SKL_EUR:
         return "SKL-EUR"
 
 
-@dataclass(slots=True)
+SKL_EUR = SKL_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SKL_GBP:
     name: str = "SKL-GBP"
     precision: int = 0.0001
@@ -9261,7 +10647,10 @@ class SKL_GBP:
         return "SKL-GBP"
 
 
-@dataclass(slots=True)
+SKL_GBP = SKL_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SKL_USD:
     name: str = "SKL-USD"
     precision: int = 0.0001
@@ -9281,7 +10670,10 @@ class SKL_USD:
         return "SKL-USD"
 
 
-@dataclass(slots=True)
+SKL_USD = SKL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SNT_USD:
     name: str = "SNT-USD"
     precision: int = 0.00001
@@ -9301,7 +10693,10 @@ class SNT_USD:
         return "SNT-USD"
 
 
-@dataclass(slots=True)
+SNT_USD = SNT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SNX_BTC:
     name: str = "SNX-BTC"
     precision: int = 0.0000001
@@ -9321,7 +10716,10 @@ class SNX_BTC:
         return "SNX-BTC"
 
 
-@dataclass(slots=True)
+SNX_BTC = SNX_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SNX_EUR:
     name: str = "SNX-EUR"
     precision: int = 0.001
@@ -9341,7 +10739,10 @@ class SNX_EUR:
         return "SNX-EUR"
 
 
-@dataclass(slots=True)
+SNX_EUR = SNX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SNX_GBP:
     name: str = "SNX-GBP"
     precision: int = 0.001
@@ -9361,7 +10762,10 @@ class SNX_GBP:
         return "SNX-GBP"
 
 
-@dataclass(slots=True)
+SNX_GBP = SNX_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SNX_USD:
     name: str = "SNX-USD"
     precision: int = 0.001
@@ -9381,7 +10785,10 @@ class SNX_USD:
         return "SNX-USD"
 
 
-@dataclass(slots=True)
+SNX_USD = SNX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_BTC:
     name: str = "SOL-BTC"
     precision: int = 0.0000001
@@ -9401,7 +10808,10 @@ class SOL_BTC:
         return "SOL-BTC"
 
 
-@dataclass(slots=True)
+SOL_BTC = SOL_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_ETH:
     name: str = "SOL-ETH"
     precision: int = 0.00001
@@ -9421,7 +10831,10 @@ class SOL_ETH:
         return "SOL-ETH"
 
 
-@dataclass(slots=True)
+SOL_ETH = SOL_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_EUR:
     name: str = "SOL-EUR"
     precision: int = 0.01
@@ -9441,7 +10854,10 @@ class SOL_EUR:
         return "SOL-EUR"
 
 
-@dataclass(slots=True)
+SOL_EUR = SOL_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_GBP:
     name: str = "SOL-GBP"
     precision: int = 0.01
@@ -9461,7 +10877,10 @@ class SOL_GBP:
         return "SOL-GBP"
 
 
-@dataclass(slots=True)
+SOL_GBP = SOL_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_USD:
     name: str = "SOL-USD"
     precision: int = 0.01
@@ -9481,7 +10900,10 @@ class SOL_USD:
         return "SOL-USD"
 
 
-@dataclass(slots=True)
+SOL_USD = SOL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SOL_USDT:
     name: str = "SOL-USDT"
     precision: int = 0.01
@@ -9501,7 +10923,10 @@ class SOL_USDT:
         return "SOL-USDT"
 
 
-@dataclass(slots=True)
+SOL_USDT = SOL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELL_USD:
     name: str = "SPELL-USD"
     precision: int = 0.0000001
@@ -9521,7 +10946,10 @@ class SPELL_USD:
         return "SPELL-USD"
 
 
-@dataclass(slots=True)
+SPELL_USD = SPELL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SPELL_USDT:
     name: str = "SPELL-USDT"
     precision: int = 0.0000001
@@ -9541,7 +10969,10 @@ class SPELL_USDT:
         return "SPELL-USDT"
 
 
-@dataclass(slots=True)
+SPELL_USDT = SPELL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STG_USD:
     name: str = "STG-USD"
     precision: int = 0.0001
@@ -9561,7 +10992,10 @@ class STG_USD:
         return "STG-USD"
 
 
-@dataclass(slots=True)
+STG_USD = STG_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class STG_USDT:
     name: str = "STG-USDT"
     precision: int = 0.0001
@@ -9581,7 +11015,10 @@ class STG_USDT:
         return "STG-USDT"
 
 
-@dataclass(slots=True)
+STG_USDT = STG_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJ_BTC:
     name: str = "STORJ-BTC"
     precision: int = 0.00000001
@@ -9601,7 +11038,10 @@ class STORJ_BTC:
         return "STORJ-BTC"
 
 
-@dataclass(slots=True)
+STORJ_BTC = STORJ_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class STORJ_USD:
     name: str = "STORJ-USD"
     precision: int = 0.0001
@@ -9621,7 +11061,10 @@ class STORJ_USD:
         return "STORJ-USD"
 
 
-@dataclass(slots=True)
+STORJ_USD = STORJ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class STX_USD:
     name: str = "STX-USD"
     precision: int = 0.0001
@@ -9641,7 +11084,10 @@ class STX_USD:
         return "STX-USD"
 
 
-@dataclass(slots=True)
+STX_USD = STX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class STX_USDT:
     name: str = "STX-USDT"
     precision: int = 0.0001
@@ -9661,7 +11107,10 @@ class STX_USDT:
         return "STX-USDT"
 
 
-@dataclass(slots=True)
+STX_USDT = STX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUKU_EUR:
     name: str = "SUKU-EUR"
     precision: int = 0.0001
@@ -9681,7 +11130,10 @@ class SUKU_EUR:
         return "SUKU-EUR"
 
 
-@dataclass(slots=True)
+SUKU_EUR = SUKU_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SUKU_USD:
     name: str = "SUKU-USD"
     precision: int = 0.0001
@@ -9701,7 +11153,10 @@ class SUKU_USD:
         return "SUKU-USD"
 
 
-@dataclass(slots=True)
+SUKU_USD = SUKU_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SUKU_USDT:
     name: str = "SUKU-USDT"
     precision: int = 0.0001
@@ -9721,7 +11176,10 @@ class SUKU_USDT:
         return "SUKU-USDT"
 
 
-@dataclass(slots=True)
+SUKU_USDT = SUKU_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUPER_USD:
     name: str = "SUPER-USD"
     precision: int = 0.00001
@@ -9741,7 +11199,10 @@ class SUPER_USD:
         return "SUPER-USD"
 
 
-@dataclass(slots=True)
+SUPER_USD = SUPER_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SUPER_USDT:
     name: str = "SUPER-USDT"
     precision: int = 0.00001
@@ -9761,7 +11222,10 @@ class SUPER_USDT:
         return "SUPER-USDT"
 
 
-@dataclass(slots=True)
+SUPER_USDT = SUPER_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHI_BTC:
     name: str = "SUSHI-BTC"
     precision: int = 0.00000001
@@ -9781,7 +11245,10 @@ class SUSHI_BTC:
         return "SUSHI-BTC"
 
 
-@dataclass(slots=True)
+SUSHI_BTC = SUSHI_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHI_ETH:
     name: str = "SUSHI-ETH"
     precision: int = 0.0000001
@@ -9801,7 +11268,10 @@ class SUSHI_ETH:
         return "SUSHI-ETH"
 
 
-@dataclass(slots=True)
+SUSHI_ETH = SUSHI_ETH()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHI_EUR:
     name: str = "SUSHI-EUR"
     precision: int = 0.0001
@@ -9821,7 +11291,10 @@ class SUSHI_EUR:
         return "SUSHI-EUR"
 
 
-@dataclass(slots=True)
+SUSHI_EUR = SUSHI_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHI_GBP:
     name: str = "SUSHI-GBP"
     precision: int = 0.0001
@@ -9841,7 +11314,10 @@ class SUSHI_GBP:
         return "SUSHI-GBP"
 
 
-@dataclass(slots=True)
+SUSHI_GBP = SUSHI_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class SUSHI_USD:
     name: str = "SUSHI-USD"
     precision: int = 0.0001
@@ -9861,7 +11337,10 @@ class SUSHI_USD:
         return "SUSHI-USD"
 
 
-@dataclass(slots=True)
+SUSHI_USD = SUSHI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SWFTC_USD:
     name: str = "SWFTC-USD"
     precision: int = 0.000001
@@ -9881,7 +11360,10 @@ class SWFTC_USD:
         return "SWFTC-USD"
 
 
-@dataclass(slots=True)
+SWFTC_USD = SWFTC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SYLO_USD:
     name: str = "SYLO-USD"
     precision: int = 0.000001
@@ -9901,7 +11383,10 @@ class SYLO_USD:
         return "SYLO-USD"
 
 
-@dataclass(slots=True)
+SYLO_USD = SYLO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class SYLO_USDT:
     name: str = "SYLO-USDT"
     precision: int = 0.000001
@@ -9921,7 +11406,10 @@ class SYLO_USDT:
         return "SYLO-USDT"
 
 
-@dataclass(slots=True)
+SYLO_USDT = SYLO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class SYN_USD:
     name: str = "SYN-USD"
     precision: int = 0.001
@@ -9941,7 +11429,10 @@ class SYN_USD:
         return "SYN-USD"
 
 
-@dataclass(slots=True)
+SYN_USD = SYN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TIME_USD:
     name: str = "TIME-USD"
     precision: int = 0.01
@@ -9961,7 +11452,10 @@ class TIME_USD:
         return "TIME-USD"
 
 
-@dataclass(slots=True)
+TIME_USD = TIME_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TIME_USDT:
     name: str = "TIME-USDT"
     precision: int = 0.01
@@ -9981,7 +11475,10 @@ class TIME_USDT:
         return "TIME-USDT"
 
 
-@dataclass(slots=True)
+TIME_USDT = TIME_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TONE_USD:
     name: str = "TONE-USD"
     precision: int = 0.00001
@@ -10001,7 +11498,10 @@ class TONE_USD:
         return "TONE-USD"
 
 
-@dataclass(slots=True)
+TONE_USD = TONE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRAC_EUR:
     name: str = "TRAC-EUR"
     precision: int = 0.0001
@@ -10021,7 +11521,10 @@ class TRAC_EUR:
         return "TRAC-EUR"
 
 
-@dataclass(slots=True)
+TRAC_EUR = TRAC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class TRAC_USD:
     name: str = "TRAC-USD"
     precision: int = 0.0001
@@ -10041,7 +11544,10 @@ class TRAC_USD:
         return "TRAC-USD"
 
 
-@dataclass(slots=True)
+TRAC_USD = TRAC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRAC_USDT:
     name: str = "TRAC-USDT"
     precision: int = 0.0001
@@ -10061,7 +11567,10 @@ class TRAC_USDT:
         return "TRAC-USDT"
 
 
-@dataclass(slots=True)
+TRAC_USDT = TRAC_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class TRB_BTC:
     name: str = "TRB-BTC"
     precision: int = 0.0000001
@@ -10081,7 +11590,10 @@ class TRB_BTC:
         return "TRB-BTC"
 
 
-@dataclass(slots=True)
+TRB_BTC = TRB_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRB_USD:
     name: str = "TRB-USD"
     precision: int = 0.01
@@ -10101,7 +11613,10 @@ class TRB_USD:
         return "TRB-USD"
 
 
-@dataclass(slots=True)
+TRB_USD = TRB_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRIBE_USD:
     name: str = "TRIBE-USD"
     precision: int = 0.0001
@@ -10121,7 +11636,10 @@ class TRIBE_USD:
         return "TRIBE-USD"
 
 
-@dataclass(slots=True)
+TRIBE_USD = TRIBE_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRU_BTC:
     name: str = "TRU-BTC"
     precision: int = 0.00000001
@@ -10141,7 +11659,10 @@ class TRU_BTC:
         return "TRU-BTC"
 
 
-@dataclass(slots=True)
+TRU_BTC = TRU_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class TRU_EUR:
     name: str = "TRU-EUR"
     precision: int = 0.0001
@@ -10161,7 +11682,10 @@ class TRU_EUR:
         return "TRU-EUR"
 
 
-@dataclass(slots=True)
+TRU_EUR = TRU_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class TRU_USD:
     name: str = "TRU-USD"
     precision: int = 0.0001
@@ -10181,7 +11705,10 @@ class TRU_USD:
         return "TRU-USD"
 
 
-@dataclass(slots=True)
+TRU_USD = TRU_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class TRU_USDT:
     name: str = "TRU-USDT"
     precision: int = 0.0001
@@ -10201,7 +11728,10 @@ class TRU_USDT:
         return "TRU-USDT"
 
 
-@dataclass(slots=True)
+TRU_USDT = TRU_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class UMA_BTC:
     name: str = "UMA-BTC"
     precision: int = 0.00000001
@@ -10221,7 +11751,10 @@ class UMA_BTC:
         return "UMA-BTC"
 
 
-@dataclass(slots=True)
+UMA_BTC = UMA_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UMA_EUR:
     name: str = "UMA-EUR"
     precision: int = 0.001
@@ -10241,7 +11774,10 @@ class UMA_EUR:
         return "UMA-EUR"
 
 
-@dataclass(slots=True)
+UMA_EUR = UMA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class UMA_GBP:
     name: str = "UMA-GBP"
     precision: int = 0.01
@@ -10261,7 +11797,10 @@ class UMA_GBP:
         return "UMA-GBP"
 
 
-@dataclass(slots=True)
+UMA_GBP = UMA_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class UMA_USD:
     name: str = "UMA-USD"
     precision: int = 0.001
@@ -10281,7 +11820,10 @@ class UMA_USD:
         return "UMA-USD"
 
 
-@dataclass(slots=True)
+UMA_USD = UMA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class UNFI_USD:
     name: str = "UNFI-USD"
     precision: int = 0.01
@@ -10301,7 +11843,10 @@ class UNFI_USD:
         return "UNFI-USD"
 
 
-@dataclass(slots=True)
+UNFI_USD = UNFI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class UNI_BTC:
     name: str = "UNI-BTC"
     precision: int = 0.0000001
@@ -10321,7 +11866,10 @@ class UNI_BTC:
         return "UNI-BTC"
 
 
-@dataclass(slots=True)
+UNI_BTC = UNI_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class UNI_EUR:
     name: str = "UNI-EUR"
     precision: int = 0.01
@@ -10341,7 +11889,10 @@ class UNI_EUR:
         return "UNI-EUR"
 
 
-@dataclass(slots=True)
+UNI_EUR = UNI_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class UNI_GBP:
     name: str = "UNI-GBP"
     precision: int = 0.01
@@ -10361,7 +11912,10 @@ class UNI_GBP:
         return "UNI-GBP"
 
 
-@dataclass(slots=True)
+UNI_GBP = UNI_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class UNI_USD:
     name: str = "UNI-USD"
     precision: int = 0.001
@@ -10381,7 +11935,10 @@ class UNI_USD:
         return "UNI-USD"
 
 
-@dataclass(slots=True)
+UNI_USD = UNI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class UPI_USD:
     name: str = "UPI-USD"
     precision: int = 0.00001
@@ -10401,7 +11958,10 @@ class UPI_USD:
         return "UPI-USD"
 
 
-@dataclass(slots=True)
+UPI_USD = UPI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class UPI_USDT:
     name: str = "UPI-USDT"
     precision: int = 0.00001
@@ -10421,7 +11981,10 @@ class UPI_USDT:
         return "UPI-USDT"
 
 
-@dataclass(slots=True)
+UPI_USDT = UPI_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class USDC_EUR:
     name: str = "USDC-EUR"
     precision: int = 0.0001
@@ -10441,7 +12004,10 @@ class USDC_EUR:
         return "USDC-EUR"
 
 
-@dataclass(slots=True)
+USDC_EUR = USDC_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class USDC_GBP:
     name: str = "USDC-GBP"
     precision: int = 0.0001
@@ -10461,7 +12027,10 @@ class USDC_GBP:
         return "USDC-GBP"
 
 
-@dataclass(slots=True)
+USDC_GBP = USDC_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class USDT_EUR:
     name: str = "USDT-EUR"
     precision: int = 0.00001
@@ -10481,7 +12050,10 @@ class USDT_EUR:
         return "USDT-EUR"
 
 
-@dataclass(slots=True)
+USDT_EUR = USDT_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class USDT_GBP:
     name: str = "USDT-GBP"
     precision: int = 0.0001
@@ -10501,7 +12073,10 @@ class USDT_GBP:
         return "USDT-GBP"
 
 
-@dataclass(slots=True)
+USDT_GBP = USDT_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class USDT_USD:
     name: str = "USDT-USD"
     precision: int = 0.00001
@@ -10521,7 +12096,10 @@ class USDT_USD:
         return "USDT-USD"
 
 
-@dataclass(slots=True)
+USDT_USD = USDT_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class USDT_USDC:
     name: str = "USDT-USDC"
     precision: int = 0.0001
@@ -10541,7 +12119,10 @@ class USDT_USDC:
         return "USDT-USDC"
 
 
-@dataclass(slots=True)
+USDT_USDC = USDT_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class UST_EUR:
     name: str = "UST-EUR"
     precision: int = 0.00001
@@ -10561,7 +12142,10 @@ class UST_EUR:
         return "UST-EUR"
 
 
-@dataclass(slots=True)
+UST_EUR = UST_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class UST_USD:
     name: str = "UST-USD"
     precision: int = 0.00001
@@ -10581,7 +12165,10 @@ class UST_USD:
         return "UST-USD"
 
 
-@dataclass(slots=True)
+UST_USD = UST_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class UST_USDT:
     name: str = "UST-USDT"
     precision: int = 0.00001
@@ -10601,7 +12188,10 @@ class UST_USDT:
         return "UST-USDT"
 
 
-@dataclass(slots=True)
+UST_USDT = UST_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class VGX_EUR:
     name: str = "VGX-EUR"
     precision: int = 0.0001
@@ -10621,7 +12211,10 @@ class VGX_EUR:
         return "VGX-EUR"
 
 
-@dataclass(slots=True)
+VGX_EUR = VGX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class VGX_USD:
     name: str = "VGX-USD"
     precision: int = 0.0001
@@ -10641,7 +12234,10 @@ class VGX_USD:
         return "VGX-USD"
 
 
-@dataclass(slots=True)
+VGX_USD = VGX_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class VGX_USDT:
     name: str = "VGX-USDT"
     precision: int = 0.0001
@@ -10661,7 +12257,10 @@ class VGX_USDT:
         return "VGX-USDT"
 
 
-@dataclass(slots=True)
+VGX_USDT = VGX_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WAMPL_USD:
     name: str = "WAMPL-USD"
     precision: int = 0.01
@@ -10681,7 +12280,10 @@ class WAMPL_USD:
         return "WAMPL-USD"
 
 
-@dataclass(slots=True)
+WAMPL_USD = WAMPL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class WAMPL_USDT:
     name: str = "WAMPL-USDT"
     precision: int = 0.01
@@ -10701,7 +12303,10 @@ class WAMPL_USDT:
         return "WAMPL-USDT"
 
 
-@dataclass(slots=True)
+WAMPL_USDT = WAMPL_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WAXL_USD:
     name: str = "WAXL-USD"
     precision: int = 0.0001
@@ -10721,7 +12326,10 @@ class WAXL_USD:
         return "WAXL-USD"
 
 
-@dataclass(slots=True)
+WAXL_USD = WAXL_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class WBTC_BTC:
     name: str = "WBTC-BTC"
     precision: int = 0.0001
@@ -10741,7 +12349,10 @@ class WBTC_BTC:
         return "WBTC-BTC"
 
 
-@dataclass(slots=True)
+WBTC_BTC = WBTC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WBTC_USD:
     name: str = "WBTC-USD"
     precision: int = 0.01
@@ -10761,7 +12372,10 @@ class WBTC_USD:
         return "WBTC-USD"
 
 
-@dataclass(slots=True)
+WBTC_USD = WBTC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class WCFG_BTC:
     name: str = "WCFG-BTC"
     precision: int = 0.00000001
@@ -10781,7 +12395,10 @@ class WCFG_BTC:
         return "WCFG-BTC"
 
 
-@dataclass(slots=True)
+WCFG_BTC = WCFG_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class WCFG_EUR:
     name: str = "WCFG-EUR"
     precision: int = 0.0001
@@ -10801,7 +12418,10 @@ class WCFG_EUR:
         return "WCFG-EUR"
 
 
-@dataclass(slots=True)
+WCFG_EUR = WCFG_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class WCFG_USD:
     name: str = "WCFG-USD"
     precision: int = 0.001
@@ -10821,7 +12441,10 @@ class WCFG_USD:
         return "WCFG-USD"
 
 
-@dataclass(slots=True)
+WCFG_USD = WCFG_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class WCFG_USDT:
     name: str = "WCFG-USDT"
     precision: int = 0.00001
@@ -10841,7 +12464,10 @@ class WCFG_USDT:
         return "WCFG-USDT"
 
 
-@dataclass(slots=True)
+WCFG_USDT = WCFG_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class WLUNA_EUR:
     name: str = "WLUNA-EUR"
     precision: int = 0.00000001
@@ -10861,7 +12487,10 @@ class WLUNA_EUR:
         return "WLUNA-EUR"
 
 
-@dataclass(slots=True)
+WLUNA_EUR = WLUNA_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class WLUNA_GBP:
     name: str = "WLUNA-GBP"
     precision: int = 0.00000001
@@ -10881,7 +12510,10 @@ class WLUNA_GBP:
         return "WLUNA-GBP"
 
 
-@dataclass(slots=True)
+WLUNA_GBP = WLUNA_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class WLUNA_USD:
     name: str = "WLUNA-USD"
     precision: int = 0.00000001
@@ -10901,7 +12533,10 @@ class WLUNA_USD:
         return "WLUNA-USD"
 
 
-@dataclass(slots=True)
+WLUNA_USD = WLUNA_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class WLUNA_USDT:
     name: str = "WLUNA-USDT"
     precision: int = 0.00000001
@@ -10921,7 +12556,10 @@ class WLUNA_USDT:
         return "WLUNA-USDT"
 
 
-@dataclass(slots=True)
+WLUNA_USDT = WLUNA_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XCN_USD:
     name: str = "XCN-USD"
     precision: int = 0.00001
@@ -10941,7 +12579,10 @@ class XCN_USD:
         return "XCN-USD"
 
 
-@dataclass(slots=True)
+XCN_USD = XCN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class XCN_USDT:
     name: str = "XCN-USDT"
     precision: int = 0.00001
@@ -10961,7 +12602,10 @@ class XCN_USDT:
         return "XCN-USDT"
 
 
-@dataclass(slots=True)
+XCN_USDT = XCN_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XLM_BTC:
     name: str = "XLM-BTC"
     precision: int = 0.00000001
@@ -10981,7 +12625,10 @@ class XLM_BTC:
         return "XLM-BTC"
 
 
-@dataclass(slots=True)
+XLM_BTC = XLM_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XLM_EUR:
     name: str = "XLM-EUR"
     precision: int = 0.000001
@@ -11001,7 +12648,10 @@ class XLM_EUR:
         return "XLM-EUR"
 
 
-@dataclass(slots=True)
+XLM_EUR = XLM_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XLM_USD:
     name: str = "XLM-USD"
     precision: int = 0.000001
@@ -11021,7 +12671,10 @@ class XLM_USD:
         return "XLM-USD"
 
 
-@dataclass(slots=True)
+XLM_USD = XLM_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class XLM_USDT:
     name: str = "XLM-USDT"
     precision: int = 0.0001
@@ -11041,7 +12694,10 @@ class XLM_USDT:
         return "XLM-USDT"
 
 
-@dataclass(slots=True)
+XLM_USDT = XLM_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class XRP_BTC:
     name: str = "XRP-BTC"
     precision: int = 0.00000001
@@ -11061,7 +12717,10 @@ class XRP_BTC:
         return "XRP-BTC"
 
 
-@dataclass(slots=True)
+XRP_BTC = XRP_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XRP_EUR:
     name: str = "XRP-EUR"
     precision: int = 0.0001
@@ -11081,7 +12740,10 @@ class XRP_EUR:
         return "XRP-EUR"
 
 
-@dataclass(slots=True)
+XRP_EUR = XRP_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XRP_GBP:
     name: str = "XRP-GBP"
     precision: int = 0.0001
@@ -11101,7 +12763,10 @@ class XRP_GBP:
         return "XRP-GBP"
 
 
-@dataclass(slots=True)
+XRP_GBP = XRP_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class XRP_USD:
     name: str = "XRP-USD"
     precision: int = 0.0001
@@ -11121,7 +12786,10 @@ class XRP_USD:
         return "XRP-USD"
 
 
-@dataclass(slots=True)
+XRP_USD = XRP_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZ_BTC:
     name: str = "XTZ-BTC"
     precision: int = 0.00000001
@@ -11141,7 +12809,10 @@ class XTZ_BTC:
         return "XTZ-BTC"
 
 
-@dataclass(slots=True)
+XTZ_BTC = XTZ_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZ_EUR:
     name: str = "XTZ-EUR"
     precision: int = 0.01
@@ -11161,7 +12832,10 @@ class XTZ_EUR:
         return "XTZ-EUR"
 
 
-@dataclass(slots=True)
+XTZ_EUR = XTZ_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZ_GBP:
     name: str = "XTZ-GBP"
     precision: int = 0.001
@@ -11181,7 +12855,10 @@ class XTZ_GBP:
         return "XTZ-GBP"
 
 
-@dataclass(slots=True)
+XTZ_GBP = XTZ_GBP()
+
+
+@dataclass(slots=True, frozen=True)
 class XTZ_USD:
     name: str = "XTZ-USD"
     precision: int = 0.001
@@ -11201,7 +12878,10 @@ class XTZ_USD:
         return "XTZ-USD"
 
 
-@dataclass(slots=True)
+XTZ_USD = XTZ_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class XYO_BTC:
     name: str = "XYO-BTC"
     precision: int = 0.00000001
@@ -11221,7 +12901,10 @@ class XYO_BTC:
         return "XYO-BTC"
 
 
-@dataclass(slots=True)
+XYO_BTC = XYO_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class XYO_EUR:
     name: str = "XYO-EUR"
     precision: int = 0.000001
@@ -11241,7 +12924,10 @@ class XYO_EUR:
         return "XYO-EUR"
 
 
-@dataclass(slots=True)
+XYO_EUR = XYO_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class XYO_USD:
     name: str = "XYO-USD"
     precision: int = 0.00001
@@ -11261,7 +12947,10 @@ class XYO_USD:
         return "XYO-USD"
 
 
-@dataclass(slots=True)
+XYO_USD = XYO_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class XYO_USDT:
     name: str = "XYO-USDT"
     precision: int = 0.00001
@@ -11281,7 +12970,10 @@ class XYO_USDT:
         return "XYO-USDT"
 
 
-@dataclass(slots=True)
+XYO_USDT = XYO_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class YFI_BTC:
     name: str = "YFI-BTC"
     precision: int = 0.0001
@@ -11301,7 +12993,10 @@ class YFI_BTC:
         return "YFI-BTC"
 
 
-@dataclass(slots=True)
+YFI_BTC = YFI_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class YFI_USD:
     name: str = "YFI-USD"
     precision: int = 0.01
@@ -11321,7 +13016,10 @@ class YFI_USD:
         return "YFI-USD"
 
 
-@dataclass(slots=True)
+YFI_USD = YFI_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class YFII_USD:
     name: str = "YFII-USD"
     precision: int = 0.01
@@ -11341,7 +13039,10 @@ class YFII_USD:
         return "YFII-USD"
 
 
-@dataclass(slots=True)
+YFII_USD = YFII_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEC_BTC:
     name: str = "ZEC-BTC"
     precision: int = 0.000001
@@ -11361,7 +13062,10 @@ class ZEC_BTC:
         return "ZEC-BTC"
 
 
-@dataclass(slots=True)
+ZEC_BTC = ZEC_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEC_USD:
     name: str = "ZEC-USD"
     precision: int = 0.01
@@ -11381,7 +13085,10 @@ class ZEC_USD:
         return "ZEC-USD"
 
 
-@dataclass(slots=True)
+ZEC_USD = ZEC_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEC_USDC:
     name: str = "ZEC-USDC"
     precision: int = 0.01
@@ -11401,7 +13108,10 @@ class ZEC_USDC:
         return "ZEC-USDC"
 
 
-@dataclass(slots=True)
+ZEC_USDC = ZEC_USDC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEN_BTC:
     name: str = "ZEN-BTC"
     precision: int = 0.0000001
@@ -11421,7 +13131,10 @@ class ZEN_BTC:
         return "ZEN-BTC"
 
 
-@dataclass(slots=True)
+ZEN_BTC = ZEN_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEN_USD:
     name: str = "ZEN-USD"
     precision: int = 0.01
@@ -11441,7 +13154,10 @@ class ZEN_USD:
         return "ZEN-USD"
 
 
-@dataclass(slots=True)
+ZEN_USD = ZEN_USD()
+
+
+@dataclass(slots=True, frozen=True)
 class ZEN_USDT:
     name: str = "ZEN-USDT"
     precision: int = 0.01
@@ -11461,7 +13177,10 @@ class ZEN_USDT:
         return "ZEN-USDT"
 
 
-@dataclass(slots=True)
+ZEN_USDT = ZEN_USDT()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRX_BTC:
     name: str = "ZRX-BTC"
     precision: int = 0.00000001
@@ -11481,7 +13200,10 @@ class ZRX_BTC:
         return "ZRX-BTC"
 
 
-@dataclass(slots=True)
+ZRX_BTC = ZRX_BTC()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRX_EUR:
     name: str = "ZRX-EUR"
     precision: int = 0.0001
@@ -11501,7 +13223,10 @@ class ZRX_EUR:
         return "ZRX-EUR"
 
 
-@dataclass(slots=True)
+ZRX_EUR = ZRX_EUR()
+
+
+@dataclass(slots=True, frozen=True)
 class ZRX_USD:
     name: str = "ZRX-USD"
     precision: int = 0.000001
@@ -11519,5 +13244,8 @@ class ZRX_USD:
 
     def __call__(self):
         return "ZRX-USD"
+
+
+ZRX_USD = ZRX_USD()
 
 
