@@ -8,6 +8,10 @@ Cyptocurrency symbols catalog library
 Get the advantage of IDE hints for every symbol, don't worry about repeatedly consulting exchange/symbol-specific information.
 You can have all information in itself as an accessible object.
 
+Disclaimer: The symbols data is updated automatically and periodically, the data in this library can be subject 
+of skewed/lagged information, all the data come from official apis from its respective exchange. 
+Use it at your own risk.
+
 ## Quickstart
 
 ### Install
