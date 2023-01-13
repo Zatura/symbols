@@ -1,12 +1,21 @@
-# symbols
-Cyptocurrency symbols catalog library
+# Symbols  
+Cyptocurrency symbols catalog library  
+  
+[![Python](https://img.shields.io/badge/Python-3.10|3.11-green.svg)](https://github.com/zautra/symbols)  
+  
 
-## Why it's useful?  
-You get the advantage of IDE hints, also, you don't need to worry about consulting exchange/symbol-specific information for every symbol.
-By having all information in itself as an accessible object, you can integrate it on your project.
 
-## Usage  
+Get the advantage of IDE hints for every symbol, don't worry about repeatedly consulting exchange/symbol-specific information.
+You can have all information in itself as an accessible object.
 
+## Quickstart
+
+### Install
+```bash
+pip install git+https://github.com/zatura/symbols.git
+```
+  
+### Usage
 ```python
 from symbols import bitfinex
 
