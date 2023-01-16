@@ -1,7 +1,9 @@
 # Symbols  
 Cyptocurrency symbols catalog library  
-  
-[![Python](https://img.shields.io/badge/Python-3.10|3.11-green.svg)](https://github.com/zautra/symbols)  
+
+[![Release](https://img.shields.io/badge/release-v0.0.3--pre--alpha-orange.svg)](https://github.com/zautra/symbols)
+[![Python](https://img.shields.io/badge/Python-3.10|3.11-blue.svg)](https://github.com/zautra/symbols)
+
   
 
 
@@ -47,6 +49,9 @@ print(symbol.maximum_order_size)
 > 2000.0
 
 print(symbol.margin)
+> True
+
+bitfinex.BTCUSD == 'tBTCUSD'
 > True
 
 str(symbol)

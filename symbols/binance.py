@@ -25,6 +25,12 @@ class ONEINCHBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "1INCHBTC"
 
@@ -56,6 +62,12 @@ class ONEINCHBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "1INCHBUSD"
@@ -89,6 +101,12 @@ class ONEINCHDOWNUSDT:
     maximum_order_size: float = 2999958.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "1INCHDOWNUSDT"
 
@@ -120,6 +138,12 @@ class ONEINCHUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 300000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "1INCHUPUSDT"
@@ -153,6 +177,12 @@ class ONEINCHUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "1INCHUSDT"
 
@@ -184,6 +214,12 @@ class AAVEBKRW:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AAVEBKRW"
@@ -217,6 +253,12 @@ class AAVEBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AAVEBNB"
 
@@ -248,6 +290,12 @@ class AAVEBRL:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AAVEBRL"
@@ -281,6 +329,12 @@ class AAVEBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AAVEBTC"
 
@@ -312,6 +366,12 @@ class AAVEBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AAVEBUSD"
@@ -345,6 +405,12 @@ class AAVEDOWNUSDT:
     maximum_order_size: float = 100000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AAVEDOWNUSDT"
 
@@ -376,6 +442,12 @@ class AAVEETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AAVEETH"
@@ -409,6 +481,12 @@ class AAVEUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AAVEUPUSDT"
 
@@ -440,6 +518,12 @@ class AAVEUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AAVEUSDT"
@@ -473,6 +557,12 @@ class ACABTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ACABTC"
 
@@ -504,6 +594,12 @@ class ACABUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ACABUSD"
@@ -537,6 +633,12 @@ class ACAUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ACAUSDT"
 
@@ -568,6 +670,12 @@ class ACHBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ACHBTC"
@@ -601,6 +709,12 @@ class ACHBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ACHBUSD"
 
@@ -632,6 +746,12 @@ class ACHUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ACHUSDT"
@@ -665,6 +785,12 @@ class ACMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ACMBTC"
 
@@ -696,6 +822,12 @@ class ACMBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ACMBUSD"
@@ -729,6 +861,12 @@ class ACMUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ACMUSDT"
 
@@ -760,6 +898,12 @@ class ADAAUD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADAAUD"
@@ -793,6 +937,12 @@ class ADABIDR:
     maximum_order_size: float = 184467.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADABIDR"
 
@@ -824,6 +974,12 @@ class ADABKRW:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADABKRW"
@@ -857,6 +1013,12 @@ class ADABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADABNB"
 
@@ -888,6 +1050,12 @@ class ADABRL:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADABRL"
@@ -921,6 +1089,12 @@ class ADABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADABTC"
 
@@ -952,6 +1126,12 @@ class ADABUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADABUSD"
@@ -985,6 +1165,12 @@ class ADADOWNUSDT:
     maximum_order_size: float = 100000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADADOWNUSDT"
 
@@ -1016,6 +1202,12 @@ class ADAETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADAETH"
@@ -1049,6 +1241,12 @@ class ADAEUR:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADAEUR"
 
@@ -1080,6 +1278,12 @@ class ADAGBP:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADAGBP"
@@ -1113,6 +1317,12 @@ class ADAPAX:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADAPAX"
 
@@ -1144,6 +1354,12 @@ class ADARUB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADARUB"
@@ -1177,6 +1393,12 @@ class ADATRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADATRY"
 
@@ -1208,6 +1430,12 @@ class ADATUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADATUSD"
@@ -1241,6 +1469,12 @@ class ADAUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADAUPUSDT"
 
@@ -1272,6 +1506,12 @@ class ADAUSDC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADAUSDC"
@@ -1305,6 +1545,12 @@ class ADAUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADAUSDT"
 
@@ -1336,6 +1582,12 @@ class ADXBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADXBNB"
@@ -1369,6 +1621,12 @@ class ADXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADXBTC"
 
@@ -1400,6 +1658,12 @@ class ADXBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADXBUSD"
@@ -1433,6 +1697,12 @@ class ADXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ADXETH"
 
@@ -1464,6 +1734,12 @@ class ADXUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ADXUSDT"
@@ -1497,6 +1773,12 @@ class AEBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AEBNB"
 
@@ -1528,6 +1810,12 @@ class AEBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AEBTC"
@@ -1561,6 +1849,12 @@ class AEETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AEETH"
 
@@ -1592,6 +1886,12 @@ class AERGOBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AERGOBTC"
@@ -1625,6 +1925,12 @@ class AERGOBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AERGOBUSD"
 
@@ -1656,6 +1962,12 @@ class AGIBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AGIBNB"
@@ -1689,6 +2001,12 @@ class AGIBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AGIBTC"
 
@@ -1720,6 +2038,12 @@ class AGIETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AGIETH"
@@ -1753,6 +2077,12 @@ class AGIXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AGIXBTC"
 
@@ -1784,6 +2114,12 @@ class AGIXBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AGIXBUSD"
@@ -1817,6 +2153,12 @@ class AGLDBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AGLDBNB"
 
@@ -1848,6 +2190,12 @@ class AGLDBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AGLDBTC"
@@ -1881,6 +2229,12 @@ class AGLDBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AGLDBUSD"
 
@@ -1912,6 +2266,12 @@ class AGLDUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AGLDUSDT"
@@ -1945,6 +2305,12 @@ class AIONBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AIONBNB"
 
@@ -1976,6 +2342,12 @@ class AIONBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AIONBTC"
@@ -2009,6 +2381,12 @@ class AIONBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AIONBUSD"
 
@@ -2040,6 +2418,12 @@ class AIONETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AIONETH"
@@ -2073,6 +2457,12 @@ class AIONUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AIONUSDT"
 
@@ -2104,6 +2494,12 @@ class AKROBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AKROBTC"
@@ -2137,6 +2533,12 @@ class AKROBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AKROBUSD"
 
@@ -2168,6 +2570,12 @@ class AKROUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AKROUSDT"
@@ -2201,6 +2609,12 @@ class ALCXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALCXBTC"
 
@@ -2232,6 +2646,12 @@ class ALCXBUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALCXBUSD"
@@ -2265,6 +2685,12 @@ class ALCXUSDT:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALCXUSDT"
 
@@ -2296,6 +2722,12 @@ class ALGOBIDR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9223371114.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGOBIDR"
@@ -2329,6 +2761,12 @@ class ALGOBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALGOBNB"
 
@@ -2360,6 +2798,12 @@ class ALGOBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGOBTC"
@@ -2393,6 +2837,12 @@ class ALGOBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALGOBUSD"
 
@@ -2424,6 +2874,12 @@ class ALGOETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGOETH"
@@ -2457,6 +2913,12 @@ class ALGOPAX:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALGOPAX"
 
@@ -2488,6 +2950,12 @@ class ALGORUB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGORUB"
@@ -2521,6 +2989,12 @@ class ALGOTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALGOTRY"
 
@@ -2552,6 +3026,12 @@ class ALGOTUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGOTUSD"
@@ -2585,6 +3065,12 @@ class ALGOUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALGOUSDC"
 
@@ -2616,6 +3102,12 @@ class ALGOUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALGOUSDT"
@@ -2649,6 +3141,12 @@ class ALICEBIDR:
     maximum_order_size: float = 922337194.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALICEBIDR"
 
@@ -2680,6 +3178,12 @@ class ALICEBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALICEBNB"
@@ -2713,6 +3217,12 @@ class ALICEBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALICEBTC"
 
@@ -2744,6 +3254,12 @@ class ALICEBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALICEBUSD"
@@ -2777,6 +3293,12 @@ class ALICETRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALICETRY"
 
@@ -2808,6 +3330,12 @@ class ALICEUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALICEUSDT"
@@ -2841,6 +3369,12 @@ class ALPACABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPACABNB"
 
@@ -2872,6 +3406,12 @@ class ALPACABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPACABTC"
@@ -2905,6 +3445,12 @@ class ALPACABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPACABUSD"
 
@@ -2936,6 +3482,12 @@ class ALPACAUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPACAUSDT"
@@ -2969,6 +3521,12 @@ class ALPHABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPHABNB"
 
@@ -3000,6 +3558,12 @@ class ALPHABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPHABTC"
@@ -3033,6 +3597,12 @@ class ALPHABUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPHABUSD"
 
@@ -3064,6 +3634,12 @@ class ALPHAUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPHAUSDT"
@@ -3097,6 +3673,12 @@ class ALPINEBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPINEBTC"
 
@@ -3128,6 +3710,12 @@ class ALPINEBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPINEBUSD"
@@ -3161,6 +3749,12 @@ class ALPINEEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPINEEUR"
 
@@ -3192,6 +3786,12 @@ class ALPINETRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ALPINETRY"
@@ -3225,6 +3825,12 @@ class ALPINEUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ALPINEUSDT"
 
@@ -3256,6 +3862,12 @@ class AMBBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AMBBNB"
@@ -3289,6 +3901,12 @@ class AMBBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AMBBTC"
 
@@ -3320,6 +3938,12 @@ class AMBBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AMBBUSD"
@@ -3353,6 +3977,12 @@ class AMBETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AMBETH"
 
@@ -3384,6 +4014,12 @@ class AMPBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AMPBNB"
@@ -3417,6 +4053,12 @@ class AMPBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AMPBTC"
 
@@ -3448,6 +4090,12 @@ class AMPBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AMPBUSD"
@@ -3481,6 +4129,12 @@ class AMPUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AMPUSDT"
 
@@ -3512,6 +4166,12 @@ class ANCBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANCBNB"
@@ -3545,6 +4205,12 @@ class ANCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANCBTC"
 
@@ -3576,6 +4242,12 @@ class ANCBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANCBUSD"
@@ -3609,6 +4281,12 @@ class ANCUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANCUSDT"
 
@@ -3640,6 +4318,12 @@ class ANKRBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANKRBNB"
@@ -3673,6 +4357,12 @@ class ANKRBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANKRBTC"
 
@@ -3704,6 +4394,12 @@ class ANKRBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANKRBUSD"
@@ -3737,6 +4433,12 @@ class ANKRPAX:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANKRPAX"
 
@@ -3768,6 +4470,12 @@ class ANKRTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANKRTRY"
@@ -3801,6 +4509,12 @@ class ANKRTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANKRTUSD"
 
@@ -3832,6 +4546,12 @@ class ANKRUSDC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANKRUSDC"
@@ -3865,6 +4585,12 @@ class ANKRUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANKRUSDT"
 
@@ -3896,6 +4622,12 @@ class ANTBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANTBNB"
@@ -3929,6 +4661,12 @@ class ANTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANTBTC"
 
@@ -3960,6 +4698,12 @@ class ANTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANTBUSD"
@@ -3993,6 +4737,12 @@ class ANTUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANTUSDT"
 
@@ -4024,6 +4774,12 @@ class ANYBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANYBTC"
@@ -4057,6 +4813,12 @@ class ANYBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ANYBUSD"
 
@@ -4088,6 +4850,12 @@ class ANYUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ANYUSDT"
@@ -4121,6 +4889,12 @@ class APEAUD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APEAUD"
 
@@ -4152,6 +4926,12 @@ class APEBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APEBNB"
@@ -4185,6 +4965,12 @@ class APEBRL:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APEBRL"
 
@@ -4216,6 +5002,12 @@ class APEBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APEBTC"
@@ -4249,6 +5041,12 @@ class APEBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APEBUSD"
 
@@ -4280,6 +5078,12 @@ class APEETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APEETH"
@@ -4313,6 +5117,12 @@ class APEEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APEEUR"
 
@@ -4344,6 +5154,12 @@ class APEGBP:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APEGBP"
@@ -4377,6 +5193,12 @@ class APETRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APETRY"
 
@@ -4408,6 +5230,12 @@ class APEUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APEUSDT"
@@ -4441,6 +5269,12 @@ class API3BNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "API3BNB"
 
@@ -4472,6 +5306,12 @@ class API3BTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "API3BTC"
@@ -4505,6 +5345,12 @@ class API3BUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "API3BUSD"
 
@@ -4536,6 +5382,12 @@ class API3TRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "API3TRY"
@@ -4569,6 +5421,12 @@ class API3USDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "API3USDT"
 
@@ -4600,6 +5458,12 @@ class APPCBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APPCBNB"
@@ -4633,6 +5497,12 @@ class APPCBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APPCBTC"
 
@@ -4664,6 +5534,12 @@ class APPCETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APPCETH"
@@ -4697,6 +5573,12 @@ class APTBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APTBRL"
 
@@ -4728,6 +5610,12 @@ class APTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 8384883677.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APTBTC"
@@ -4761,6 +5649,12 @@ class APTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APTBUSD"
 
@@ -4792,6 +5686,12 @@ class APTEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APTEUR"
@@ -4825,6 +5725,12 @@ class APTTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "APTTRY"
 
@@ -4856,6 +5762,12 @@ class APTUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "APTUSDT"
@@ -4889,6 +5801,12 @@ class ARBNB:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARBNB"
 
@@ -4920,6 +5838,12 @@ class ARBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARBTC"
@@ -4953,6 +5877,12 @@ class ARBUSD:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARBUSD"
 
@@ -4984,6 +5914,12 @@ class ARDRBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARDRBNB"
@@ -5017,6 +5953,12 @@ class ARDRBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARDRBTC"
 
@@ -5048,6 +5990,12 @@ class ARDRETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARDRETH"
@@ -5081,6 +6029,12 @@ class ARDRUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARDRUSDT"
 
@@ -5112,6 +6066,12 @@ class ARKBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARKBTC"
@@ -5145,6 +6105,12 @@ class ARKBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARKBUSD"
 
@@ -5176,6 +6142,12 @@ class ARKETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARKETH"
@@ -5209,6 +6181,12 @@ class ARNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARNBTC"
 
@@ -5240,6 +6218,12 @@ class ARNETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARNETH"
@@ -5273,6 +6257,12 @@ class ARPABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARPABNB"
 
@@ -5304,6 +6294,12 @@ class ARPABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARPABTC"
@@ -5337,6 +6333,12 @@ class ARPABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARPABUSD"
 
@@ -5368,6 +6370,12 @@ class ARPAETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARPAETH"
@@ -5401,6 +6409,12 @@ class ARPARUB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARPARUB"
 
@@ -5432,6 +6446,12 @@ class ARPATRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARPATRY"
@@ -5465,6 +6485,12 @@ class ARPAUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ARPAUSDT"
 
@@ -5496,6 +6522,12 @@ class ARUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ARUSDT"
@@ -5529,6 +6561,12 @@ class ASRBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ASRBTC"
 
@@ -5560,6 +6598,12 @@ class ASRBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ASRBUSD"
@@ -5593,6 +6637,12 @@ class ASRUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ASRUSDT"
 
@@ -5624,6 +6674,12 @@ class ASTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ASTBTC"
@@ -5657,6 +6713,12 @@ class ASTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ASTETH"
 
@@ -5688,6 +6750,12 @@ class ASTRBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ASTRBTC"
@@ -5721,6 +6789,12 @@ class ASTRBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ASTRBUSD"
 
@@ -5752,6 +6826,12 @@ class ASTRETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ASTRETH"
@@ -5785,6 +6865,12 @@ class ASTRUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ASTRUSDT"
 
@@ -5816,6 +6902,12 @@ class ATABNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATABNB"
@@ -5849,6 +6941,12 @@ class ATABTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATABTC"
 
@@ -5880,6 +6978,12 @@ class ATABUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATABUSD"
@@ -5913,6 +7017,12 @@ class ATAUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATAUSDT"
 
@@ -5944,6 +7054,12 @@ class ATMBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATMBTC"
@@ -5977,6 +7093,12 @@ class ATMBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATMBUSD"
 
@@ -6008,6 +7130,12 @@ class ATMUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATMUSDT"
@@ -6041,6 +7169,12 @@ class ATOMBIDR:
     maximum_order_size: float = 922337194.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMBIDR"
 
@@ -6072,6 +7206,12 @@ class ATOMBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMBNB"
@@ -6105,6 +7245,12 @@ class ATOMBRL:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMBRL"
 
@@ -6136,6 +7282,12 @@ class ATOMBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMBTC"
@@ -6169,6 +7321,12 @@ class ATOMBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMBUSD"
 
@@ -6200,6 +7358,12 @@ class ATOMETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMETH"
@@ -6233,6 +7397,12 @@ class ATOMEUR:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMEUR"
 
@@ -6264,6 +7434,12 @@ class ATOMPAX:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMPAX"
@@ -6297,6 +7473,12 @@ class ATOMTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMTRY"
 
@@ -6328,6 +7510,12 @@ class ATOMTUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMTUSD"
@@ -6361,6 +7549,12 @@ class ATOMUSDC:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ATOMUSDC"
 
@@ -6392,6 +7586,12 @@ class ATOMUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ATOMUSDT"
@@ -6425,6 +7625,12 @@ class AUCTIONBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUCTIONBTC"
 
@@ -6456,6 +7662,12 @@ class AUCTIONBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUCTIONBUSD"
@@ -6489,6 +7701,12 @@ class AUCTIONUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUCTIONUSDT"
 
@@ -6520,6 +7738,12 @@ class AUDBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUDBUSD"
@@ -6553,6 +7777,12 @@ class AUDIOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUDIOBTC"
 
@@ -6584,6 +7814,12 @@ class AUDIOBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUDIOBUSD"
@@ -6617,6 +7853,12 @@ class AUDIOTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUDIOTRY"
 
@@ -6648,6 +7890,12 @@ class AUDIOUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUDIOUSDT"
@@ -6681,6 +7929,12 @@ class AUDUSDC:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUDUSDC"
 
@@ -6712,6 +7966,12 @@ class AUDUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUDUSDT"
@@ -6745,6 +8005,12 @@ class AUTOBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUTOBTC"
 
@@ -6776,6 +8042,12 @@ class AUTOBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AUTOBUSD"
@@ -6809,6 +8081,12 @@ class AUTOUSDT:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AUTOUSDT"
 
@@ -6840,6 +8118,12 @@ class AVABNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVABNB"
@@ -6873,6 +8157,12 @@ class AVABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVABTC"
 
@@ -6904,6 +8194,12 @@ class AVABUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVABUSD"
@@ -6937,6 +8233,12 @@ class AVAUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAUSDT"
 
@@ -6968,6 +8270,12 @@ class AVAXAUD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXAUD"
@@ -7001,6 +8309,12 @@ class AVAXBIDR:
     maximum_order_size: float = 922337194.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAXBIDR"
 
@@ -7032,6 +8346,12 @@ class AVAXBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXBNB"
@@ -7065,6 +8385,12 @@ class AVAXBRL:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAXBRL"
 
@@ -7096,6 +8422,12 @@ class AVAXBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXBTC"
@@ -7129,6 +8461,12 @@ class AVAXBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAXBUSD"
 
@@ -7160,6 +8498,12 @@ class AVAXETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXETH"
@@ -7193,6 +8537,12 @@ class AVAXEUR:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAXEUR"
 
@@ -7224,6 +8574,12 @@ class AVAXGBP:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXGBP"
@@ -7257,6 +8613,12 @@ class AVAXTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AVAXTRY"
 
@@ -7288,6 +8650,12 @@ class AVAXUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AVAXUSDT"
@@ -7321,6 +8689,12 @@ class AXSAUD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AXSAUD"
 
@@ -7352,6 +8726,12 @@ class AXSBIDR:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9223372.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AXSBIDR"
@@ -7385,6 +8765,12 @@ class AXSBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AXSBNB"
 
@@ -7416,6 +8802,12 @@ class AXSBRL:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AXSBRL"
@@ -7449,6 +8841,12 @@ class AXSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AXSBTC"
 
@@ -7480,6 +8878,12 @@ class AXSBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AXSBUSD"
@@ -7513,6 +8917,12 @@ class AXSETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AXSETH"
 
@@ -7544,6 +8954,12 @@ class AXSTRY:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "AXSTRY"
@@ -7577,6 +8993,12 @@ class AXSUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "AXSUSDT"
 
@@ -7608,6 +9030,12 @@ class BADGERBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BADGERBTC"
@@ -7641,6 +9069,12 @@ class BADGERBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BADGERBUSD"
 
@@ -7672,6 +9106,12 @@ class BADGERUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BADGERUSDT"
@@ -7705,6 +9145,12 @@ class BAKEBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BAKEBNB"
 
@@ -7736,6 +9182,12 @@ class BAKEBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BAKEBTC"
@@ -7769,6 +9221,12 @@ class BAKEBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BAKEBUSD"
 
@@ -7800,6 +9258,12 @@ class BAKEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BAKEUSDT"
@@ -7833,6 +9297,12 @@ class BALBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BALBNB"
 
@@ -7864,6 +9334,12 @@ class BALBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BALBTC"
@@ -7897,6 +9373,12 @@ class BALBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BALBUSD"
 
@@ -7928,6 +9410,12 @@ class BALUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BALUSDT"
@@ -7961,6 +9449,12 @@ class BANDBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BANDBNB"
 
@@ -7992,6 +9486,12 @@ class BANDBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BANDBTC"
@@ -8025,6 +9525,12 @@ class BANDBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BANDBUSD"
 
@@ -8056,6 +9562,12 @@ class BANDUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BANDUSDT"
@@ -8089,6 +9601,12 @@ class BARBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BARBTC"
 
@@ -8120,6 +9638,12 @@ class BARBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BARBUSD"
@@ -8153,6 +9677,12 @@ class BARUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BARUSDT"
 
@@ -8184,6 +9714,12 @@ class BATBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BATBNB"
@@ -8217,6 +9753,12 @@ class BATBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BATBTC"
 
@@ -8248,6 +9790,12 @@ class BATBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BATBUSD"
@@ -8281,6 +9829,12 @@ class BATETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BATETH"
 
@@ -8312,6 +9866,12 @@ class BATPAX:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BATPAX"
@@ -8345,6 +9905,12 @@ class BATTUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BATTUSD"
 
@@ -8376,6 +9942,12 @@ class BATUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BATUSDC"
@@ -8409,6 +9981,12 @@ class BATUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BATUSDT"
 
@@ -8440,6 +10018,12 @@ class BCCBNB:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCCBNB"
@@ -8473,6 +10057,12 @@ class BCCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCCBTC"
 
@@ -8504,6 +10094,12 @@ class BCCETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCCETH"
@@ -8537,6 +10133,12 @@ class BCCUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCCUSDT"
 
@@ -8568,6 +10170,12 @@ class BCDBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCDBTC"
@@ -8601,6 +10209,12 @@ class BCDETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCDETH"
 
@@ -8632,6 +10246,12 @@ class BCHABCBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHABCBTC"
@@ -8665,6 +10285,12 @@ class BCHABCBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHABCBUSD"
 
@@ -8696,6 +10322,12 @@ class BCHABCPAX:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHABCPAX"
@@ -8729,6 +10361,12 @@ class BCHABCTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHABCTUSD"
 
@@ -8760,6 +10398,12 @@ class BCHABCUSDC:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHABCUSDC"
@@ -8793,6 +10437,12 @@ class BCHABCUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHABCUSDT"
 
@@ -8824,6 +10474,12 @@ class BCHABUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHABUSD"
@@ -8857,6 +10513,12 @@ class BCHBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHBNB"
 
@@ -8888,6 +10550,12 @@ class BCHBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHBTC"
@@ -8921,6 +10589,12 @@ class BCHBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHBUSD"
 
@@ -8952,6 +10626,12 @@ class BCHDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHDOWNUSDT"
@@ -8985,6 +10665,12 @@ class BCHEUR:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHEUR"
 
@@ -9016,6 +10702,12 @@ class BCHPAX:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHPAX"
@@ -9049,6 +10741,12 @@ class BCHSVBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHSVBTC"
 
@@ -9080,6 +10778,12 @@ class BCHSVPAX:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHSVPAX"
@@ -9113,6 +10817,12 @@ class BCHSVTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHSVTUSD"
 
@@ -9144,6 +10854,12 @@ class BCHSVUSDC:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHSVUSDC"
@@ -9177,6 +10893,12 @@ class BCHSVUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHSVUSDT"
 
@@ -9208,6 +10930,12 @@ class BCHTUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHTUSD"
@@ -9241,6 +10969,12 @@ class BCHUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHUPUSDT"
 
@@ -9272,6 +11006,12 @@ class BCHUSDC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCHUSDC"
@@ -9305,6 +11045,12 @@ class BCHUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCHUSDT"
 
@@ -9336,6 +11082,12 @@ class BCNBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCNBNB"
@@ -9369,6 +11121,12 @@ class BCNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCNBTC"
 
@@ -9400,6 +11158,12 @@ class BCNETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCNETH"
@@ -9433,6 +11197,12 @@ class BCPTBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCPTBNB"
 
@@ -9464,6 +11234,12 @@ class BCPTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCPTBTC"
@@ -9497,6 +11273,12 @@ class BCPTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCPTETH"
 
@@ -9528,6 +11310,12 @@ class BCPTPAX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCPTPAX"
@@ -9561,6 +11349,12 @@ class BCPTTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BCPTTUSD"
 
@@ -9592,6 +11386,12 @@ class BCPTUSDC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BCPTUSDC"
@@ -9625,6 +11425,12 @@ class BDOTDOT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BDOTDOT"
 
@@ -9656,6 +11462,12 @@ class BEAMBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BEAMBNB"
@@ -9689,6 +11501,12 @@ class BEAMBTC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BEAMBTC"
 
@@ -9720,6 +11538,12 @@ class BEAMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BEAMUSDT"
@@ -9753,6 +11577,12 @@ class BEARBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BEARBUSD"
 
@@ -9784,6 +11614,12 @@ class BEARUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BEARUSDT"
@@ -9817,6 +11653,12 @@ class BELBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BELBNB"
 
@@ -9848,6 +11690,12 @@ class BELBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BELBTC"
@@ -9881,6 +11729,12 @@ class BELBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BELBUSD"
 
@@ -9912,6 +11766,12 @@ class BELETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BELETH"
@@ -9945,6 +11805,12 @@ class BELTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BELTRY"
 
@@ -9976,6 +11842,12 @@ class BELUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BELUSDT"
@@ -10009,6 +11881,12 @@ class BETABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BETABNB"
 
@@ -10040,6 +11918,12 @@ class BETABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BETABTC"
@@ -10073,6 +11957,12 @@ class BETABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BETABUSD"
 
@@ -10104,6 +11994,12 @@ class BETAETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BETAETH"
@@ -10137,6 +12033,12 @@ class BETAUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BETAUSDT"
 
@@ -10168,6 +12070,12 @@ class BETHBUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BETHBUSD"
@@ -10201,6 +12109,12 @@ class BETHETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BETHETH"
 
@@ -10232,6 +12146,12 @@ class BGBPUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BGBPUSDC"
@@ -10265,6 +12185,12 @@ class BICOBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BICOBTC"
 
@@ -10296,6 +12222,12 @@ class BICOBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BICOBUSD"
@@ -10329,6 +12261,12 @@ class BICOUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BICOUSDT"
 
@@ -10360,6 +12298,12 @@ class BIFIBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BIFIBNB"
@@ -10393,6 +12337,12 @@ class BIFIBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BIFIBUSD"
 
@@ -10424,6 +12374,12 @@ class BIFIUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BIFIUSDT"
@@ -10457,6 +12413,12 @@ class BKRWBUSD:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BKRWBUSD"
 
@@ -10488,6 +12450,12 @@ class BKRWUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BKRWUSDT"
@@ -10521,6 +12489,12 @@ class BLZBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BLZBNB"
 
@@ -10552,6 +12526,12 @@ class BLZBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BLZBTC"
@@ -10585,6 +12565,12 @@ class BLZBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BLZBUSD"
 
@@ -10616,6 +12602,12 @@ class BLZETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BLZETH"
@@ -10649,6 +12641,12 @@ class BLZUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BLZUSDT"
 
@@ -10680,6 +12678,12 @@ class BNBAUD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBAUD"
@@ -10713,6 +12717,12 @@ class BNBBEARBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBBEARBUSD"
 
@@ -10744,6 +12754,12 @@ class BNBBEARUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBBEARUSDT"
@@ -10777,6 +12793,12 @@ class BNBBIDR:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBBIDR"
 
@@ -10808,6 +12830,12 @@ class BNBBKRW:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBBKRW"
@@ -10841,6 +12869,12 @@ class BNBBRL:
     maximum_order_size: float = 45000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBBRL"
 
@@ -10872,6 +12906,12 @@ class BNBBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 100000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBBTC"
@@ -10905,6 +12945,12 @@ class BNBBULLBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBBULLBUSD"
 
@@ -10936,6 +12982,12 @@ class BNBBULLUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBBULLUSDT"
@@ -10969,6 +13021,12 @@ class BNBBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBBUSD"
 
@@ -11000,6 +13058,12 @@ class BNBDAI:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBDAI"
@@ -11033,6 +13097,12 @@ class BNBDOWNUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBDOWNUSDT"
 
@@ -11064,6 +13134,12 @@ class BNBETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBETH"
@@ -11097,6 +13173,12 @@ class BNBEUR:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBEUR"
 
@@ -11128,6 +13210,12 @@ class BNBGBP:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBGBP"
@@ -11161,6 +13249,12 @@ class BNBIDRT:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBIDRT"
 
@@ -11192,6 +13286,12 @@ class BNBNGN:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBNGN"
@@ -11225,6 +13325,12 @@ class BNBPAX:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBPAX"
 
@@ -11256,6 +13362,12 @@ class BNBRUB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 184466.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBRUB"
@@ -11289,6 +13401,12 @@ class BNBTRY:
     maximum_order_size: float = 92232.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBTRY"
 
@@ -11320,6 +13438,12 @@ class BNBTUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBTUSD"
@@ -11353,6 +13477,12 @@ class BNBUAH:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBUAH"
 
@@ -11384,6 +13514,12 @@ class BNBUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 500.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBUPUSDT"
@@ -11417,6 +13553,12 @@ class BNBUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBUSDC"
 
@@ -11448,6 +13590,12 @@ class BNBUSDP:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBUSDP"
@@ -11481,6 +13629,12 @@ class BNBUSDS:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBUSDS"
 
@@ -11512,6 +13666,12 @@ class BNBUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBUSDT"
@@ -11545,6 +13705,12 @@ class BNBUST:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNBUST"
 
@@ -11576,6 +13742,12 @@ class BNBZAR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNBZAR"
@@ -11609,6 +13781,12 @@ class BNTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNTBTC"
 
@@ -11640,6 +13818,12 @@ class BNTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNTBUSD"
@@ -11673,6 +13857,12 @@ class BNTETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNTETH"
 
@@ -11704,6 +13894,12 @@ class BNTUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNTUSDT"
@@ -11737,6 +13933,12 @@ class BNXBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNXBNB"
 
@@ -11768,6 +13970,12 @@ class BNXBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNXBTC"
@@ -11801,6 +14009,12 @@ class BNXBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BNXBUSD"
 
@@ -11832,6 +14046,12 @@ class BNXUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BNXUSDT"
@@ -11865,6 +14085,12 @@ class BONDBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BONDBNB"
 
@@ -11896,6 +14122,12 @@ class BONDBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BONDBTC"
@@ -11929,6 +14161,12 @@ class BONDBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BONDBUSD"
 
@@ -11960,6 +14198,12 @@ class BONDETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BONDETH"
@@ -11993,6 +14237,12 @@ class BONDUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BONDUSDT"
 
@@ -12024,6 +14274,12 @@ class BOTBTC:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BOTBTC"
@@ -12057,6 +14313,12 @@ class BOTBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BOTBUSD"
 
@@ -12088,6 +14350,12 @@ class BQXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BQXBTC"
@@ -12121,6 +14389,12 @@ class BQXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BQXETH"
 
@@ -12152,6 +14426,12 @@ class BRDBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BRDBNB"
@@ -12185,6 +14465,12 @@ class BRDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BRDBTC"
 
@@ -12216,6 +14502,12 @@ class BRDETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BRDETH"
@@ -12249,6 +14541,12 @@ class BSWBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BSWBNB"
 
@@ -12280,6 +14578,12 @@ class BSWBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BSWBUSD"
@@ -12313,6 +14617,12 @@ class BSWETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BSWETH"
 
@@ -12344,6 +14654,12 @@ class BSWTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BSWTRY"
@@ -12377,6 +14693,12 @@ class BSWUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BSWUSDT"
 
@@ -12408,6 +14730,12 @@ class BTCAUD:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCAUD"
@@ -12441,6 +14769,12 @@ class BTCBBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCBBTC"
 
@@ -12472,6 +14806,12 @@ class BTCBIDR:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCBIDR"
@@ -12505,6 +14845,12 @@ class BTCBKRW:
     maximum_order_size: float = 100.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCBKRW"
 
@@ -12536,6 +14882,12 @@ class BTCBRL:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCBRL"
@@ -12569,6 +14921,12 @@ class BTCBUSD:
     maximum_order_size: float = 9000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCBUSD"
 
@@ -12600,6 +14958,12 @@ class BTCDAI:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCDAI"
@@ -12633,6 +14997,12 @@ class BTCDOWNUSDT:
     maximum_order_size: float = 921415.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCDOWNUSDT"
 
@@ -12664,6 +15034,12 @@ class BTCEUR:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCEUR"
@@ -12697,6 +15073,12 @@ class BTCGBP:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCGBP"
 
@@ -12728,6 +15110,12 @@ class BTCIDRT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCIDRT"
@@ -12761,6 +15149,12 @@ class BTCNGN:
     maximum_order_size: float = 305.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCNGN"
 
@@ -12792,6 +15186,12 @@ class BTCPAX:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCPAX"
@@ -12825,6 +15225,12 @@ class BTCPLN:
     maximum_order_size: float = 9223.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCPLN"
 
@@ -12856,6 +15262,12 @@ class BTCRUB:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 900.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCRUB"
@@ -12889,6 +15301,12 @@ class BTCSTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCSTBTC"
 
@@ -12920,6 +15338,12 @@ class BTCSTBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCSTBUSD"
@@ -12953,6 +15377,12 @@ class BTCSTUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCSTUSDT"
 
@@ -12984,6 +15414,12 @@ class BTCTRY:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCTRY"
@@ -13017,6 +15453,12 @@ class BTCTUSD:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCTUSD"
 
@@ -13048,6 +15490,12 @@ class BTCUAH:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 1800.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCUAH"
@@ -13081,6 +15529,12 @@ class BTCUPUSDT:
     maximum_order_size: float = 3000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCUPUSDT"
 
@@ -13112,6 +15566,12 @@ class BTCUSDC:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCUSDC"
@@ -13145,6 +15605,12 @@ class BTCUSDP:
     maximum_order_size: float = 9223.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCUSDP"
 
@@ -13176,6 +15642,12 @@ class BTCUSDS:
     minimum_order_size: float = 0.00000100
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCUSDS"
@@ -13209,6 +15681,12 @@ class BTCUSDT:
     maximum_order_size: float = 9000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCUSDT"
 
@@ -13240,6 +15718,12 @@ class BTCUST:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCUST"
@@ -13273,6 +15757,12 @@ class BTCVAI:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTCVAI"
 
@@ -13304,6 +15794,12 @@ class BTCZAR:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 922.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTCZAR"
@@ -13337,6 +15833,12 @@ class BTGBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTGBTC"
 
@@ -13368,6 +15870,12 @@ class BTGBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTGBUSD"
@@ -13401,6 +15909,12 @@ class BTGETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTGETH"
 
@@ -13432,6 +15946,12 @@ class BTGUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTGUSDT"
@@ -13465,6 +15985,12 @@ class BTSBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTSBNB"
 
@@ -13496,6 +16022,12 @@ class BTSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTSBTC"
@@ -13529,6 +16061,12 @@ class BTSBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTSBUSD"
 
@@ -13560,6 +16098,12 @@ class BTSETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTSETH"
@@ -13593,6 +16137,12 @@ class BTSUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTSUSDT"
 
@@ -13624,6 +16174,12 @@ class BTTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTBNB"
@@ -13657,6 +16213,12 @@ class BTTBRL:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTBRL"
 
@@ -13688,6 +16250,12 @@ class BTTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTBTC"
@@ -13721,6 +16289,12 @@ class BTTBUSD:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTBUSD"
 
@@ -13752,6 +16326,12 @@ class BTTCBUSD:
     minimum_order_size: float = 1.0
     maximum_order_size: float = 92233720368.0
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTCBUSD"
@@ -13785,6 +16365,12 @@ class BTTCTRY:
     maximum_order_size: float = 92233720368.0
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTCTRY"
 
@@ -13816,6 +16402,12 @@ class BTTCUSDC:
     minimum_order_size: float = 1.0
     maximum_order_size: float = 92233720368.0
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTCUSDC"
@@ -13849,6 +16441,12 @@ class BTTCUSDT:
     maximum_order_size: float = 92233720368.0
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTCUSDT"
 
@@ -13880,6 +16478,12 @@ class BTTEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTEUR"
@@ -13913,6 +16517,12 @@ class BTTPAX:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTPAX"
 
@@ -13944,6 +16554,12 @@ class BTTTRX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTTRX"
@@ -13977,6 +16593,12 @@ class BTTTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTTRY"
 
@@ -14008,6 +16630,12 @@ class BTTTUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTTUSD"
@@ -14041,6 +16669,12 @@ class BTTUSDC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BTTUSDC"
 
@@ -14072,6 +16706,12 @@ class BTTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BTTUSDT"
@@ -14105,6 +16745,12 @@ class BULLBUSD:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BULLBUSD"
 
@@ -14136,6 +16782,12 @@ class BULLUSDT:
     minimum_order_size: float = 0.00000100
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BULLUSDT"
@@ -14169,6 +16821,12 @@ class BURGERBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BURGERBNB"
 
@@ -14200,6 +16858,12 @@ class BURGERBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BURGERBUSD"
@@ -14233,6 +16897,12 @@ class BURGERETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BURGERETH"
 
@@ -14264,6 +16934,12 @@ class BURGERUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BURGERUSDT"
@@ -14297,6 +16973,12 @@ class BUSDBIDR:
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDBIDR"
 
@@ -14328,6 +17010,12 @@ class BUSDBKRW:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDBKRW"
@@ -14361,6 +17049,12 @@ class BUSDBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDBRL"
 
@@ -14392,6 +17086,12 @@ class BUSDBVND:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDBVND"
@@ -14425,6 +17125,12 @@ class BUSDDAI:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDDAI"
 
@@ -14456,6 +17162,12 @@ class BUSDIDRT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDIDRT"
@@ -14489,6 +17201,12 @@ class BUSDNGN:
     maximum_order_size: float = 922320.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDNGN"
 
@@ -14520,6 +17238,12 @@ class BUSDPLN:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDPLN"
@@ -14553,6 +17277,12 @@ class BUSDRON:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDRON"
 
@@ -14584,6 +17314,12 @@ class BUSDRUB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDRUB"
@@ -14617,6 +17353,12 @@ class BUSDTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDTRY"
 
@@ -14648,6 +17390,12 @@ class BUSDUAH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDUAH"
@@ -14681,6 +17429,12 @@ class BUSDUSDT:
     maximum_order_size: float = 15000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDUSDT"
 
@@ -14712,6 +17466,12 @@ class BUSDVAI:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BUSDVAI"
@@ -14745,6 +17505,12 @@ class BUSDZAR:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BUSDZAR"
 
@@ -14776,6 +17542,12 @@ class BZRXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BZRXBNB"
@@ -14809,6 +17581,12 @@ class BZRXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BZRXBTC"
 
@@ -14840,6 +17618,12 @@ class BZRXBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "BZRXBUSD"
@@ -14873,6 +17657,12 @@ class BZRXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "BZRXUSDT"
 
@@ -14904,6 +17694,12 @@ class C98BNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "C98BNB"
@@ -14937,6 +17733,12 @@ class C98BRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "C98BRL"
 
@@ -14968,6 +17770,12 @@ class C98BTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "C98BTC"
@@ -15001,6 +17809,12 @@ class C98BUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "C98BUSD"
 
@@ -15032,6 +17846,12 @@ class C98USDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "C98USDT"
@@ -15065,6 +17885,12 @@ class CAKEAUD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CAKEAUD"
 
@@ -15096,6 +17922,12 @@ class CAKEBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CAKEBNB"
@@ -15129,6 +17961,12 @@ class CAKEBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CAKEBRL"
 
@@ -15160,6 +17998,12 @@ class CAKEBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CAKEBTC"
@@ -15193,6 +18037,12 @@ class CAKEBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CAKEBUSD"
 
@@ -15224,6 +18074,12 @@ class CAKEGBP:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CAKEGBP"
@@ -15257,6 +18113,12 @@ class CAKEUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CAKEUSDT"
 
@@ -15288,6 +18150,12 @@ class CDTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CDTBTC"
@@ -15321,6 +18189,12 @@ class CDTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CDTETH"
 
@@ -15352,6 +18226,12 @@ class CELOBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CELOBTC"
@@ -15385,6 +18265,12 @@ class CELOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CELOBUSD"
 
@@ -15416,6 +18302,12 @@ class CELOUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CELOUSDT"
@@ -15449,6 +18341,12 @@ class CELRBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CELRBNB"
 
@@ -15480,6 +18378,12 @@ class CELRBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CELRBTC"
@@ -15513,6 +18417,12 @@ class CELRBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CELRBUSD"
 
@@ -15544,6 +18454,12 @@ class CELRETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CELRETH"
@@ -15577,6 +18493,12 @@ class CELRUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CELRUSDT"
 
@@ -15608,6 +18530,12 @@ class CFXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CFXBTC"
@@ -15641,6 +18569,12 @@ class CFXBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CFXBUSD"
 
@@ -15672,6 +18606,12 @@ class CFXUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CFXUSDT"
@@ -15705,6 +18645,12 @@ class CHATBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHATBTC"
 
@@ -15736,6 +18682,12 @@ class CHATETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHATETH"
@@ -15769,6 +18721,12 @@ class CHESSBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHESSBNB"
 
@@ -15800,6 +18758,12 @@ class CHESSBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHESSBTC"
@@ -15833,6 +18797,12 @@ class CHESSBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHESSBUSD"
 
@@ -15864,6 +18834,12 @@ class CHESSUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHESSUSDT"
@@ -15897,6 +18873,12 @@ class CHRBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHRBNB"
 
@@ -15928,6 +18910,12 @@ class CHRBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHRBTC"
@@ -15961,6 +18949,12 @@ class CHRBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHRBUSD"
 
@@ -15992,6 +18986,12 @@ class CHRETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHRETH"
@@ -16025,6 +19025,12 @@ class CHRUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHRUSDT"
 
@@ -16056,6 +19062,12 @@ class CHZBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHZBNB"
@@ -16089,6 +19101,12 @@ class CHZBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHZBRL"
 
@@ -16120,6 +19138,12 @@ class CHZBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHZBTC"
@@ -16153,6 +19177,12 @@ class CHZBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHZBUSD"
 
@@ -16184,6 +19214,12 @@ class CHZEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHZEUR"
@@ -16217,6 +19253,12 @@ class CHZGBP:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHZGBP"
 
@@ -16248,6 +19290,12 @@ class CHZTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CHZTRY"
@@ -16281,6 +19329,12 @@ class CHZUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CHZUSDT"
 
@@ -16312,6 +19366,12 @@ class CITYBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CITYBNB"
@@ -16345,6 +19405,12 @@ class CITYBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CITYBTC"
 
@@ -16376,6 +19442,12 @@ class CITYBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CITYBUSD"
@@ -16409,6 +19481,12 @@ class CITYUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CITYUSDT"
 
@@ -16440,6 +19518,12 @@ class CKBBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CKBBTC"
@@ -16473,6 +19557,12 @@ class CKBBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CKBBUSD"
 
@@ -16504,6 +19594,12 @@ class CKBUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CKBUSDT"
@@ -16537,6 +19633,12 @@ class CLOAKBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CLOAKBTC"
 
@@ -16568,6 +19670,12 @@ class CLOAKETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CLOAKETH"
@@ -16601,6 +19709,12 @@ class CLVBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CLVBNB"
 
@@ -16632,6 +19746,12 @@ class CLVBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CLVBTC"
@@ -16665,6 +19785,12 @@ class CLVBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CLVBUSD"
 
@@ -16696,6 +19822,12 @@ class CLVUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CLVUSDT"
@@ -16729,6 +19861,12 @@ class CMTBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CMTBNB"
 
@@ -16760,6 +19898,12 @@ class CMTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CMTBTC"
@@ -16793,6 +19937,12 @@ class CMTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CMTETH"
 
@@ -16824,6 +19974,12 @@ class CNDBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CNDBNB"
@@ -16857,6 +20013,12 @@ class CNDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CNDBTC"
 
@@ -16888,6 +20050,12 @@ class CNDETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CNDETH"
@@ -16921,6 +20089,12 @@ class COCOSBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COCOSBNB"
 
@@ -16952,6 +20126,12 @@ class COCOSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COCOSBTC"
@@ -16985,6 +20165,12 @@ class COCOSBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COCOSBUSD"
 
@@ -17016,6 +20202,12 @@ class COCOSTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COCOSTRY"
@@ -17049,6 +20241,12 @@ class COCOSUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COCOSUSDT"
 
@@ -17080,6 +20278,12 @@ class COMPBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COMPBNB"
@@ -17113,6 +20317,12 @@ class COMPBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COMPBTC"
 
@@ -17144,6 +20354,12 @@ class COMPBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COMPBUSD"
@@ -17177,6 +20393,12 @@ class COMPUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COMPUSDT"
 
@@ -17208,6 +20430,12 @@ class COSBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COSBNB"
@@ -17241,6 +20469,12 @@ class COSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COSBTC"
 
@@ -17272,6 +20506,12 @@ class COSBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COSBUSD"
@@ -17305,6 +20545,12 @@ class COSTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COSTRY"
 
@@ -17336,6 +20582,12 @@ class COSUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 18443055.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COSUSDT"
@@ -17369,6 +20621,12 @@ class COTIBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COTIBNB"
 
@@ -17400,6 +20658,12 @@ class COTIBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COTIBTC"
@@ -17433,6 +20697,12 @@ class COTIBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COTIBUSD"
 
@@ -17464,6 +20734,12 @@ class COTIUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COTIUSDT"
@@ -17497,6 +20773,12 @@ class COVERBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "COVERBUSD"
 
@@ -17528,6 +20810,12 @@ class COVERETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "COVERETH"
@@ -17561,6 +20849,12 @@ class CREAMBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CREAMBNB"
 
@@ -17592,6 +20886,12 @@ class CREAMBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CREAMBUSD"
@@ -17625,6 +20925,12 @@ class CRVBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CRVBNB"
 
@@ -17656,6 +20962,12 @@ class CRVBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CRVBTC"
@@ -17689,6 +21001,12 @@ class CRVBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CRVBUSD"
 
@@ -17720,6 +21038,12 @@ class CRVETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CRVETH"
@@ -17753,6 +21077,12 @@ class CRVUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CRVUSDT"
 
@@ -17784,6 +21114,12 @@ class CTKBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTKBNB"
@@ -17817,6 +21153,12 @@ class CTKBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTKBTC"
 
@@ -17848,6 +21190,12 @@ class CTKBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTKBUSD"
@@ -17881,6 +21229,12 @@ class CTKUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTKUSDT"
 
@@ -17912,6 +21266,12 @@ class CTSIBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTSIBNB"
@@ -17945,6 +21305,12 @@ class CTSIBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTSIBTC"
 
@@ -17976,6 +21342,12 @@ class CTSIBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTSIBUSD"
@@ -18009,6 +21381,12 @@ class CTSIUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTSIUSDT"
 
@@ -18040,6 +21418,12 @@ class CTXCBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTXCBNB"
@@ -18073,6 +21457,12 @@ class CTXCBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTXCBTC"
 
@@ -18104,6 +21494,12 @@ class CTXCBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CTXCBUSD"
@@ -18137,6 +21533,12 @@ class CTXCUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CTXCUSDT"
 
@@ -18168,6 +21570,12 @@ class CVCBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVCBNB"
@@ -18201,6 +21609,12 @@ class CVCBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CVCBTC"
 
@@ -18232,6 +21646,12 @@ class CVCBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVCBUSD"
@@ -18265,6 +21685,12 @@ class CVCETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CVCETH"
 
@@ -18296,6 +21722,12 @@ class CVCUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVCUSDT"
@@ -18329,6 +21761,12 @@ class CVPBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CVPBUSD"
 
@@ -18360,6 +21798,12 @@ class CVPETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVPETH"
@@ -18393,6 +21837,12 @@ class CVPUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CVPUSDT"
 
@@ -18424,6 +21874,12 @@ class CVXBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVXBTC"
@@ -18457,6 +21913,12 @@ class CVXBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "CVXBUSD"
 
@@ -18488,6 +21950,12 @@ class CVXUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "CVXUSDT"
@@ -18521,6 +21989,12 @@ class DAIBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DAIBNB"
 
@@ -18552,6 +22026,12 @@ class DAIBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DAIBTC"
@@ -18585,6 +22065,12 @@ class DAIBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DAIBUSD"
 
@@ -18616,6 +22102,12 @@ class DAIUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DAIUSDT"
@@ -18649,6 +22141,12 @@ class DARBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DARBNB"
 
@@ -18680,6 +22178,12 @@ class DARBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DARBTC"
@@ -18713,6 +22217,12 @@ class DARBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DARBUSD"
 
@@ -18744,6 +22254,12 @@ class DARETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DARETH"
@@ -18777,6 +22293,12 @@ class DAREUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DAREUR"
 
@@ -18808,6 +22330,12 @@ class DARTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DARTRY"
@@ -18841,6 +22369,12 @@ class DARUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DARUSDT"
 
@@ -18872,6 +22406,12 @@ class DASHBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DASHBNB"
@@ -18905,6 +22445,12 @@ class DASHBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DASHBTC"
 
@@ -18936,6 +22482,12 @@ class DASHBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DASHBUSD"
@@ -18969,6 +22521,12 @@ class DASHETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DASHETH"
 
@@ -19000,6 +22558,12 @@ class DASHUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DASHUSDT"
@@ -19033,6 +22597,12 @@ class DATABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DATABTC"
 
@@ -19064,6 +22634,12 @@ class DATABUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DATABUSD"
@@ -19097,6 +22673,12 @@ class DATAETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DATAETH"
 
@@ -19128,6 +22710,12 @@ class DATAUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DATAUSDT"
@@ -19161,6 +22749,12 @@ class DCRBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DCRBNB"
 
@@ -19192,6 +22786,12 @@ class DCRBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DCRBTC"
@@ -19225,6 +22825,12 @@ class DCRBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DCRBUSD"
 
@@ -19256,6 +22862,12 @@ class DCRUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DCRUSDT"
@@ -19289,6 +22901,12 @@ class DEGOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DEGOBTC"
 
@@ -19320,6 +22938,12 @@ class DEGOBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DEGOBUSD"
@@ -19353,6 +22977,12 @@ class DEGOUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DEGOUSDT"
 
@@ -19384,6 +23014,12 @@ class DENTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DENTBTC"
@@ -19417,6 +23053,12 @@ class DENTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DENTBUSD"
 
@@ -19448,6 +23090,12 @@ class DENTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DENTETH"
@@ -19481,6 +23129,12 @@ class DENTTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DENTTRY"
 
@@ -19512,6 +23166,12 @@ class DENTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DENTUSDT"
@@ -19545,6 +23205,12 @@ class DEXEBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DEXEBUSD"
 
@@ -19576,6 +23242,12 @@ class DEXEETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DEXEETH"
@@ -19609,6 +23281,12 @@ class DEXEUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DEXEUSDT"
 
@@ -19640,6 +23318,12 @@ class DFBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DFBUSD"
@@ -19673,6 +23357,12 @@ class DFETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DFETH"
 
@@ -19704,6 +23394,12 @@ class DFUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DFUSDT"
@@ -19737,6 +23433,12 @@ class DGBBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DGBBTC"
 
@@ -19768,6 +23470,12 @@ class DGBBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DGBBUSD"
@@ -19801,6 +23509,12 @@ class DGBUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DGBUSDT"
 
@@ -19832,6 +23546,12 @@ class DGDBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DGDBTC"
@@ -19865,6 +23585,12 @@ class DGDETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DGDETH"
 
@@ -19896,6 +23622,12 @@ class DIABNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DIABNB"
@@ -19929,6 +23661,12 @@ class DIABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DIABTC"
 
@@ -19960,6 +23698,12 @@ class DIABUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DIABUSD"
@@ -19993,6 +23737,12 @@ class DIAUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DIAUSDT"
 
@@ -20024,6 +23774,12 @@ class DLTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DLTBNB"
@@ -20057,6 +23813,12 @@ class DLTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DLTBTC"
 
@@ -20088,6 +23850,12 @@ class DLTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DLTETH"
@@ -20121,6 +23889,12 @@ class DNTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DNTBTC"
 
@@ -20152,6 +23926,12 @@ class DNTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DNTBUSD"
@@ -20185,6 +23965,12 @@ class DNTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DNTETH"
 
@@ -20216,6 +24002,12 @@ class DNTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DNTUSDT"
@@ -20249,6 +24041,12 @@ class DOCKBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOCKBTC"
 
@@ -20280,6 +24078,12 @@ class DOCKBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOCKBUSD"
@@ -20313,6 +24117,12 @@ class DOCKETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOCKETH"
 
@@ -20344,6 +24154,12 @@ class DOCKUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOCKUSDT"
@@ -20377,6 +24193,12 @@ class DODOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DODOBTC"
 
@@ -20408,6 +24230,12 @@ class DODOBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DODOBUSD"
@@ -20441,6 +24269,12 @@ class DODOUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DODOUSDT"
 
@@ -20472,6 +24306,12 @@ class DOGEAUD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEAUD"
@@ -20505,6 +24345,12 @@ class DOGEBIDR:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGEBIDR"
 
@@ -20536,6 +24382,12 @@ class DOGEBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEBNB"
@@ -20569,6 +24421,12 @@ class DOGEBRL:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGEBRL"
 
@@ -20600,6 +24458,12 @@ class DOGEBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEBTC"
@@ -20633,6 +24497,12 @@ class DOGEBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGEBUSD"
 
@@ -20664,6 +24534,12 @@ class DOGEEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEEUR"
@@ -20697,6 +24573,12 @@ class DOGEGBP:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGEGBP"
 
@@ -20728,6 +24610,12 @@ class DOGEPAX:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEPAX"
@@ -20761,6 +24649,12 @@ class DOGERUB:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGERUB"
 
@@ -20792,6 +24686,12 @@ class DOGETRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGETRY"
@@ -20825,6 +24725,12 @@ class DOGEUSDC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOGEUSDC"
 
@@ -20856,6 +24762,12 @@ class DOGEUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOGEUSDT"
@@ -20889,6 +24801,12 @@ class DOTAUD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTAUD"
 
@@ -20920,6 +24838,12 @@ class DOTBIDR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTBIDR"
@@ -20953,6 +24877,12 @@ class DOTBKRW:
     maximum_order_size: float = 9200.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTBKRW"
 
@@ -20984,6 +24914,12 @@ class DOTBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTBNB"
@@ -21017,6 +24953,12 @@ class DOTBRL:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTBRL"
 
@@ -21048,6 +24990,12 @@ class DOTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTBTC"
@@ -21081,6 +25029,12 @@ class DOTBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTBUSD"
 
@@ -21112,6 +25066,12 @@ class DOTDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTDOWNUSDT"
@@ -21145,6 +25105,12 @@ class DOTETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTETH"
 
@@ -21176,6 +25142,12 @@ class DOTEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTEUR"
@@ -21209,6 +25181,12 @@ class DOTGBP:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTGBP"
 
@@ -21240,6 +25218,12 @@ class DOTNGN:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 92232.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTNGN"
@@ -21273,6 +25257,12 @@ class DOTRUB:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTRUB"
 
@@ -21304,6 +25294,12 @@ class DOTTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTTRY"
@@ -21337,6 +25333,12 @@ class DOTUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DOTUPUSDT"
 
@@ -21368,6 +25370,12 @@ class DOTUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DOTUSDT"
@@ -21401,6 +25409,12 @@ class DREPBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DREPBNB"
 
@@ -21432,6 +25446,12 @@ class DREPBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DREPBTC"
@@ -21465,6 +25485,12 @@ class DREPBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DREPBUSD"
 
@@ -21496,6 +25522,12 @@ class DREPUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DREPUSDT"
@@ -21529,6 +25561,12 @@ class DUSKBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DUSKBNB"
 
@@ -21560,6 +25598,12 @@ class DUSKBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DUSKBTC"
@@ -21593,6 +25637,12 @@ class DUSKBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DUSKBUSD"
 
@@ -21624,6 +25674,12 @@ class DUSKPAX:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DUSKPAX"
@@ -21657,6 +25713,12 @@ class DUSKUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DUSKUSDC"
 
@@ -21688,6 +25750,12 @@ class DUSKUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DUSKUSDT"
@@ -21721,6 +25789,12 @@ class DYDXBNB:
     maximum_order_size: float = 8384883677.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DYDXBNB"
 
@@ -21752,6 +25826,12 @@ class DYDXBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 46116860414.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DYDXBTC"
@@ -21785,6 +25865,12 @@ class DYDXBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DYDXBUSD"
 
@@ -21816,6 +25902,12 @@ class DYDXETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "DYDXETH"
@@ -21849,6 +25941,12 @@ class DYDXUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "DYDXUSDT"
 
@@ -21880,6 +25978,12 @@ class EASYBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EASYBTC"
@@ -21913,6 +26017,12 @@ class EASYETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EASYETH"
 
@@ -21944,6 +26054,12 @@ class EDOBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EDOBTC"
@@ -21977,6 +26093,12 @@ class EDOETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EDOETH"
 
@@ -22008,6 +26130,12 @@ class EGLDBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EGLDBNB"
@@ -22041,6 +26169,12 @@ class EGLDBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EGLDBTC"
 
@@ -22072,6 +26206,12 @@ class EGLDBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EGLDBUSD"
@@ -22105,6 +26245,12 @@ class EGLDETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EGLDETH"
 
@@ -22136,6 +26282,12 @@ class EGLDEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EGLDEUR"
@@ -22169,6 +26321,12 @@ class EGLDUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EGLDUSDT"
 
@@ -22200,6 +26358,12 @@ class ELFBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ELFBTC"
@@ -22233,6 +26397,12 @@ class ELFBUSD:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ELFBUSD"
 
@@ -22264,6 +26434,12 @@ class ELFETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ELFETH"
@@ -22297,6 +26473,12 @@ class ELFUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ELFUSDT"
 
@@ -22328,6 +26510,12 @@ class ENGBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENGBTC"
@@ -22361,6 +26549,12 @@ class ENGETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENGETH"
 
@@ -22392,6 +26586,12 @@ class ENJBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENJBNB"
@@ -22425,6 +26625,12 @@ class ENJBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENJBRL"
 
@@ -22456,6 +26662,12 @@ class ENJBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENJBTC"
@@ -22489,6 +26701,12 @@ class ENJBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENJBUSD"
 
@@ -22520,6 +26738,12 @@ class ENJETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENJETH"
@@ -22553,6 +26777,12 @@ class ENJEUR:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENJEUR"
 
@@ -22584,6 +26814,12 @@ class ENJGBP:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENJGBP"
@@ -22617,6 +26853,12 @@ class ENJTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENJTRY"
 
@@ -22648,6 +26890,12 @@ class ENJUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENJUSDT"
@@ -22681,6 +26929,12 @@ class ENSBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENSBNB"
 
@@ -22712,6 +26966,12 @@ class ENSBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENSBTC"
@@ -22745,6 +27005,12 @@ class ENSBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENSBUSD"
 
@@ -22776,6 +27042,12 @@ class ENSTRY:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ENSTRY"
@@ -22809,6 +27081,12 @@ class ENSUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ENSUSDT"
 
@@ -22840,6 +27118,12 @@ class EOSAUD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSAUD"
@@ -22873,6 +27157,12 @@ class EOSBEARBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSBEARBUSD"
 
@@ -22904,6 +27194,12 @@ class EOSBEARUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSBEARUSDT"
@@ -22937,6 +27233,12 @@ class EOSBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSBNB"
 
@@ -22968,6 +27270,12 @@ class EOSBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSBTC"
@@ -23001,6 +27309,12 @@ class EOSBULLBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSBULLBUSD"
 
@@ -23032,6 +27346,12 @@ class EOSBULLUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 92232.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSBULLUSDT"
@@ -23065,6 +27385,12 @@ class EOSBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSBUSD"
 
@@ -23096,6 +27422,12 @@ class EOSDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 69980060.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSDOWNUSDT"
@@ -23129,6 +27461,12 @@ class EOSETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSETH"
 
@@ -23160,6 +27498,12 @@ class EOSEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSEUR"
@@ -23193,6 +27537,12 @@ class EOSPAX:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSPAX"
 
@@ -23224,6 +27574,12 @@ class EOSTRY:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSTRY"
@@ -23257,6 +27613,12 @@ class EOSTUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSTUSD"
 
@@ -23288,6 +27650,12 @@ class EOSUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSUPUSDT"
@@ -23321,6 +27689,12 @@ class EOSUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EOSUSDC"
 
@@ -23352,6 +27726,12 @@ class EOSUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EOSUSDT"
@@ -23385,6 +27765,12 @@ class EPSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EPSBTC"
 
@@ -23416,6 +27802,12 @@ class EPSBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EPSBUSD"
@@ -23449,6 +27841,12 @@ class EPSUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EPSUSDT"
 
@@ -23480,6 +27878,12 @@ class EPXBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EPXBUSD"
@@ -23513,6 +27917,12 @@ class EPXUSDT:
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EPXUSDT"
 
@@ -23544,6 +27954,12 @@ class ERDBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ERDBNB"
@@ -23577,6 +27993,12 @@ class ERDBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ERDBTC"
 
@@ -23608,6 +28030,12 @@ class ERDBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ERDBUSD"
@@ -23641,6 +28069,12 @@ class ERDPAX:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ERDPAX"
 
@@ -23672,6 +28106,12 @@ class ERDUSDC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ERDUSDC"
@@ -23705,6 +28145,12 @@ class ERDUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ERDUSDT"
 
@@ -23736,6 +28182,12 @@ class ERNBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ERNBNB"
@@ -23769,6 +28221,12 @@ class ERNBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ERNBUSD"
 
@@ -23800,6 +28258,12 @@ class ERNUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ERNUSDT"
@@ -23833,6 +28297,12 @@ class ETCBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCBNB"
 
@@ -23864,6 +28334,12 @@ class ETCBRL:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCBRL"
@@ -23897,6 +28373,12 @@ class ETCBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCBTC"
 
@@ -23928,6 +28410,12 @@ class ETCBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCBUSD"
@@ -23961,6 +28449,12 @@ class ETCETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCETH"
 
@@ -23992,6 +28486,12 @@ class ETCEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCEUR"
@@ -24025,6 +28525,12 @@ class ETCGBP:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCGBP"
 
@@ -24056,6 +28562,12 @@ class ETCPAX:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCPAX"
@@ -24089,6 +28601,12 @@ class ETCTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCTRY"
 
@@ -24120,6 +28638,12 @@ class ETCTUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCTUSD"
@@ -24153,6 +28677,12 @@ class ETCUSDC:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETCUSDC"
 
@@ -24184,6 +28714,12 @@ class ETCUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETCUSDT"
@@ -24217,6 +28753,12 @@ class ETHAUD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHAUD"
 
@@ -24248,6 +28790,12 @@ class ETHBEARBUSD:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHBEARBUSD"
@@ -24281,6 +28829,12 @@ class ETHBEARUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHBEARUSDT"
 
@@ -24312,6 +28866,12 @@ class ETHBIDR:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHBIDR"
@@ -24345,6 +28905,12 @@ class ETHBKRW:
     maximum_order_size: float = 8000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHBKRW"
 
@@ -24376,6 +28942,12 @@ class ETHBRL:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 45000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHBRL"
@@ -24409,6 +28981,12 @@ class ETHBTC:
     maximum_order_size: float = 100000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHBTC"
 
@@ -24440,6 +29018,12 @@ class ETHBULLBUSD:
     minimum_order_size: float = 0.00000100
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHBULLBUSD"
@@ -24473,6 +29057,12 @@ class ETHBULLUSDT:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHBULLUSDT"
 
@@ -24504,6 +29094,12 @@ class ETHBUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHBUSD"
@@ -24537,6 +29133,12 @@ class ETHDAI:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHDAI"
 
@@ -24568,6 +29170,12 @@ class ETHDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHDOWNUSDT"
@@ -24601,6 +29209,12 @@ class ETHEUR:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHEUR"
 
@@ -24632,6 +29246,12 @@ class ETHGBP:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHGBP"
@@ -24665,6 +29285,12 @@ class ETHNGN:
     maximum_order_size: float = 900.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHNGN"
 
@@ -24696,6 +29322,12 @@ class ETHPAX:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHPAX"
@@ -24729,6 +29361,12 @@ class ETHPLN:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHPLN"
 
@@ -24760,6 +29398,12 @@ class ETHRUB:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 23055.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHRUB"
@@ -24793,6 +29437,12 @@ class ETHTRY:
     maximum_order_size: float = 153719.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHTRY"
 
@@ -24824,6 +29474,12 @@ class ETHTUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHTUSD"
@@ -24857,6 +29513,12 @@ class ETHUAH:
     maximum_order_size: float = 9220.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHUAH"
 
@@ -24888,6 +29550,12 @@ class ETHUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 3000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHUPUSDT"
@@ -24921,6 +29589,12 @@ class ETHUSDC:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHUSDC"
 
@@ -24952,6 +29626,12 @@ class ETHUSDP:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHUSDP"
@@ -24985,6 +29665,12 @@ class ETHUSDT:
     maximum_order_size: float = 9000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHUSDT"
 
@@ -25016,6 +29702,12 @@ class ETHUST:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ETHUST"
@@ -25049,6 +29741,12 @@ class ETHZAR:
     maximum_order_size: float = 9223.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ETHZAR"
 
@@ -25080,6 +29778,12 @@ class EURBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EURBUSD"
@@ -25113,6 +29817,12 @@ class EURUSDT:
     maximum_order_size: float = 6000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EURUSDT"
 
@@ -25144,6 +29854,12 @@ class EVXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EVXBTC"
@@ -25177,6 +29893,12 @@ class EVXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EVXETH"
 
@@ -25208,6 +29930,12 @@ class EZBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "EZBTC"
@@ -25241,6 +29969,12 @@ class EZETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "EZETH"
 
@@ -25272,6 +30006,12 @@ class FARMBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FARMBNB"
@@ -25305,6 +30045,12 @@ class FARMBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FARMBTC"
 
@@ -25336,6 +30082,12 @@ class FARMBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FARMBUSD"
@@ -25369,6 +30121,12 @@ class FARMETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FARMETH"
 
@@ -25400,6 +30158,12 @@ class FARMUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FARMUSDT"
@@ -25433,6 +30197,12 @@ class FETBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FETBNB"
 
@@ -25464,6 +30234,12 @@ class FETBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FETBTC"
@@ -25497,6 +30273,12 @@ class FETBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FETBUSD"
 
@@ -25528,6 +30310,12 @@ class FETUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FETUSDT"
@@ -25561,6 +30349,12 @@ class FIDABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIDABNB"
 
@@ -25592,6 +30386,12 @@ class FIDABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIDABTC"
@@ -25625,6 +30425,12 @@ class FIDABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIDABUSD"
 
@@ -25656,6 +30462,12 @@ class FIDAUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIDAUSDT"
@@ -25689,6 +30501,12 @@ class FILBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FILBNB"
 
@@ -25720,6 +30538,12 @@ class FILBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FILBTC"
@@ -25753,6 +30577,12 @@ class FILBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FILBUSD"
 
@@ -25784,6 +30614,12 @@ class FILDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 19998638.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FILDOWNUSDT"
@@ -25817,6 +30653,12 @@ class FILETH:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FILETH"
 
@@ -25848,6 +30690,12 @@ class FILTRY:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FILTRY"
@@ -25881,6 +30729,12 @@ class FILUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FILUPUSDT"
 
@@ -25912,6 +30766,12 @@ class FILUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FILUSDT"
@@ -25945,6 +30805,12 @@ class FIOBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIOBNB"
 
@@ -25976,6 +30842,12 @@ class FIOBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIOBTC"
@@ -26009,6 +30881,12 @@ class FIOBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIOBUSD"
 
@@ -26040,6 +30918,12 @@ class FIOUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIOUSDT"
@@ -26073,6 +30957,12 @@ class FIROBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIROBTC"
 
@@ -26104,6 +30994,12 @@ class FIROBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIROBUSD"
@@ -26137,6 +31033,12 @@ class FIROETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FIROETH"
 
@@ -26168,6 +31070,12 @@ class FIROUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FIROUSDT"
@@ -26201,6 +31109,12 @@ class FISBIDR:
     maximum_order_size: float = 9223371114.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FISBIDR"
 
@@ -26232,6 +31146,12 @@ class FISBRL:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FISBRL"
@@ -26265,6 +31185,12 @@ class FISBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FISBTC"
 
@@ -26296,6 +31222,12 @@ class FISBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FISBUSD"
@@ -26329,6 +31261,12 @@ class FISTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FISTRY"
 
@@ -26360,6 +31298,12 @@ class FISUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FISUSDT"
@@ -26393,6 +31337,12 @@ class FLMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLMBNB"
 
@@ -26424,6 +31374,12 @@ class FLMBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FLMBTC"
@@ -26457,6 +31413,12 @@ class FLMBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLMBUSD"
 
@@ -26488,6 +31450,12 @@ class FLMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FLMUSDT"
@@ -26521,6 +31489,12 @@ class FLOWBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLOWBNB"
 
@@ -26552,6 +31526,12 @@ class FLOWBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FLOWBTC"
@@ -26585,6 +31565,12 @@ class FLOWBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLOWBUSD"
 
@@ -26616,6 +31602,12 @@ class FLOWUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FLOWUSDT"
@@ -26649,6 +31641,12 @@ class FLUXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLUXBTC"
 
@@ -26680,6 +31678,12 @@ class FLUXBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FLUXBUSD"
@@ -26713,6 +31717,12 @@ class FLUXUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FLUXUSDT"
 
@@ -26744,6 +31754,12 @@ class FORBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FORBNB"
@@ -26777,6 +31793,12 @@ class FORBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FORBTC"
 
@@ -26808,6 +31830,12 @@ class FORBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FORBUSD"
@@ -26841,6 +31869,12 @@ class FORTHBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FORTHBTC"
 
@@ -26872,6 +31906,12 @@ class FORTHBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FORTHBUSD"
@@ -26905,6 +31945,12 @@ class FORTHUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FORTHUSDT"
 
@@ -26936,6 +31982,12 @@ class FORUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FORUSDT"
@@ -26969,6 +32021,12 @@ class FRONTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FRONTBTC"
 
@@ -27000,6 +32058,12 @@ class FRONTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FRONTBUSD"
@@ -27033,6 +32097,12 @@ class FRONTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FRONTETH"
 
@@ -27064,6 +32134,12 @@ class FRONTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FRONTUSDT"
@@ -27097,6 +32173,12 @@ class FTMAUD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMAUD"
 
@@ -27128,6 +32210,12 @@ class FTMBIDR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9223371114.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMBIDR"
@@ -27161,6 +32249,12 @@ class FTMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMBNB"
 
@@ -27192,6 +32286,12 @@ class FTMBRL:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMBRL"
@@ -27225,6 +32325,12 @@ class FTMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMBTC"
 
@@ -27256,6 +32362,12 @@ class FTMBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMBUSD"
@@ -27289,6 +32401,12 @@ class FTMETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMETH"
 
@@ -27320,6 +32438,12 @@ class FTMEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMEUR"
@@ -27353,6 +32477,12 @@ class FTMPAX:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMPAX"
 
@@ -27384,6 +32514,12 @@ class FTMRUB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMRUB"
@@ -27417,6 +32553,12 @@ class FTMTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMTRY"
 
@@ -27448,6 +32590,12 @@ class FTMTUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMTUSD"
@@ -27481,6 +32629,12 @@ class FTMUSDC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTMUSDC"
 
@@ -27512,6 +32666,12 @@ class FTMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTMUSDT"
@@ -27545,6 +32705,12 @@ class FTTBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTTBNB"
 
@@ -27576,6 +32742,12 @@ class FTTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTTBTC"
@@ -27609,6 +32781,12 @@ class FTTBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTTBUSD"
 
@@ -27640,6 +32818,12 @@ class FTTETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FTTETH"
@@ -27673,6 +32857,12 @@ class FTTUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FTTUSDT"
 
@@ -27704,6 +32894,12 @@ class FUELBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FUELBTC"
@@ -27737,6 +32933,12 @@ class FUELETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FUELETH"
 
@@ -27768,6 +32970,12 @@ class FUNBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FUNBNB"
@@ -27801,6 +33009,12 @@ class FUNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FUNBTC"
 
@@ -27832,6 +33046,12 @@ class FUNETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FUNETH"
@@ -27865,6 +33085,12 @@ class FUNUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FUNUSDT"
 
@@ -27896,6 +33122,12 @@ class FXSBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FXSBTC"
@@ -27929,6 +33161,12 @@ class FXSBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "FXSBUSD"
 
@@ -27960,6 +33198,12 @@ class FXSUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "FXSUSDT"
@@ -27993,6 +33237,12 @@ class GALAAUD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALAAUD"
 
@@ -28024,6 +33274,12 @@ class GALABNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALABNB"
@@ -28057,6 +33313,12 @@ class GALABRL:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALABRL"
 
@@ -28088,6 +33350,12 @@ class GALABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALABTC"
@@ -28121,6 +33389,12 @@ class GALABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALABUSD"
 
@@ -28152,6 +33426,12 @@ class GALAETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALAETH"
@@ -28185,6 +33465,12 @@ class GALAEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALAEUR"
 
@@ -28216,6 +33502,12 @@ class GALATRY:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALATRY"
@@ -28249,6 +33541,12 @@ class GALAUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALAUSDT"
 
@@ -28280,6 +33578,12 @@ class GALBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALBNB"
@@ -28313,6 +33617,12 @@ class GALBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALBRL"
 
@@ -28344,6 +33654,12 @@ class GALBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALBTC"
@@ -28377,6 +33693,12 @@ class GALBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALBUSD"
 
@@ -28408,6 +33730,12 @@ class GALETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALETH"
@@ -28441,6 +33769,12 @@ class GALEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALEUR"
 
@@ -28472,6 +33806,12 @@ class GALTRY:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GALTRY"
@@ -28505,6 +33845,12 @@ class GALUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GALUSDT"
 
@@ -28536,6 +33882,12 @@ class GASBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GASBTC"
@@ -28569,6 +33921,12 @@ class GASBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GASBUSD"
 
@@ -28600,6 +33958,12 @@ class GBPBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GBPBUSD"
@@ -28633,6 +33997,12 @@ class GBPUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GBPUSDT"
 
@@ -28664,6 +34034,12 @@ class GHSTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GHSTBUSD"
@@ -28697,6 +34073,12 @@ class GHSTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GHSTETH"
 
@@ -28728,6 +34110,12 @@ class GHSTUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GHSTUSDT"
@@ -28761,6 +34149,12 @@ class GLMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GLMBTC"
 
@@ -28792,6 +34186,12 @@ class GLMBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GLMBUSD"
@@ -28825,6 +34225,12 @@ class GLMETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GLMETH"
 
@@ -28856,6 +34262,12 @@ class GLMRBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GLMRBNB"
@@ -28889,6 +34301,12 @@ class GLMRBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GLMRBTC"
 
@@ -28920,6 +34338,12 @@ class GLMRBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GLMRBUSD"
@@ -28953,6 +34377,12 @@ class GLMRUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GLMRUSDT"
 
@@ -28984,6 +34414,12 @@ class GMTAUD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMTAUD"
@@ -29017,6 +34453,12 @@ class GMTBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMTBNB"
 
@@ -29048,6 +34490,12 @@ class GMTBRL:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMTBRL"
@@ -29081,6 +34529,12 @@ class GMTBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMTBTC"
 
@@ -29112,6 +34566,12 @@ class GMTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMTBUSD"
@@ -29145,6 +34605,12 @@ class GMTETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMTETH"
 
@@ -29176,6 +34642,12 @@ class GMTEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMTEUR"
@@ -29209,6 +34681,12 @@ class GMTGBP:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMTGBP"
 
@@ -29240,6 +34718,12 @@ class GMTTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMTTRY"
@@ -29273,6 +34757,12 @@ class GMTUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMTUSDT"
 
@@ -29304,6 +34794,12 @@ class GMXBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMXBTC"
@@ -29337,6 +34833,12 @@ class GMXBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GMXBUSD"
 
@@ -29368,6 +34870,12 @@ class GMXUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GMXUSDT"
@@ -29401,6 +34909,12 @@ class GNOBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GNOBNB"
 
@@ -29432,6 +34946,12 @@ class GNOBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GNOBTC"
@@ -29465,6 +34985,12 @@ class GNOBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GNOBUSD"
 
@@ -29496,6 +35022,12 @@ class GNOUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GNOUSDT"
@@ -29529,6 +35061,12 @@ class GNTBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GNTBNB"
 
@@ -29560,6 +35098,12 @@ class GNTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GNTBTC"
@@ -29593,6 +35137,12 @@ class GNTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GNTETH"
 
@@ -29624,6 +35174,12 @@ class GOBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GOBNB"
@@ -29657,6 +35213,12 @@ class GOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GOBTC"
 
@@ -29688,6 +35250,12 @@ class GRSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GRSBTC"
@@ -29721,6 +35289,12 @@ class GRSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GRSETH"
 
@@ -29752,6 +35326,12 @@ class GRTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GRTBTC"
@@ -29785,6 +35365,12 @@ class GRTBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GRTBUSD"
 
@@ -29816,6 +35402,12 @@ class GRTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GRTETH"
@@ -29849,6 +35441,12 @@ class GRTEUR:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GRTEUR"
 
@@ -29880,6 +35478,12 @@ class GRTTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GRTTRY"
@@ -29913,6 +35517,12 @@ class GRTUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GRTUSDT"
 
@@ -29944,6 +35554,12 @@ class GTCBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTCBNB"
@@ -29977,6 +35593,12 @@ class GTCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTCBTC"
 
@@ -30008,6 +35630,12 @@ class GTCBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTCBUSD"
@@ -30041,6 +35669,12 @@ class GTCUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTCUSDT"
 
@@ -30072,6 +35706,12 @@ class GTOBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTOBNB"
@@ -30105,6 +35745,12 @@ class GTOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTOBTC"
 
@@ -30136,6 +35782,12 @@ class GTOBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTOBUSD"
@@ -30169,6 +35821,12 @@ class GTOETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTOETH"
 
@@ -30200,6 +35858,12 @@ class GTOPAX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTOPAX"
@@ -30233,6 +35897,12 @@ class GTOTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTOTUSD"
 
@@ -30264,6 +35934,12 @@ class GTOUSDC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GTOUSDC"
@@ -30297,6 +35973,12 @@ class GTOUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GTOUSDT"
 
@@ -30328,6 +36010,12 @@ class GVTBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GVTBTC"
@@ -30361,6 +36049,12 @@ class GVTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GVTETH"
 
@@ -30392,6 +36086,12 @@ class GXSBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GXSBNB"
@@ -30425,6 +36125,12 @@ class GXSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GXSBTC"
 
@@ -30456,6 +36162,12 @@ class GXSETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "GXSETH"
@@ -30489,6 +36201,12 @@ class GXSUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "GXSUSDT"
 
@@ -30520,6 +36238,12 @@ class HARDBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HARDBNB"
@@ -30553,6 +36277,12 @@ class HARDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HARDBTC"
 
@@ -30584,6 +36314,12 @@ class HARDBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HARDBUSD"
@@ -30617,6 +36353,12 @@ class HARDUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HARDUSDT"
 
@@ -30648,6 +36390,12 @@ class HBARBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HBARBNB"
@@ -30681,6 +36429,12 @@ class HBARBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HBARBTC"
 
@@ -30712,6 +36466,12 @@ class HBARBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HBARBUSD"
@@ -30745,6 +36505,12 @@ class HBARUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HBARUSDT"
 
@@ -30776,6 +36542,12 @@ class HCBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HCBTC"
@@ -30809,6 +36581,12 @@ class HCETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HCETH"
 
@@ -30840,6 +36618,12 @@ class HCUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HCUSDT"
@@ -30873,6 +36657,12 @@ class HEGICBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HEGICBUSD"
 
@@ -30904,6 +36694,12 @@ class HEGICETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HEGICETH"
@@ -30937,6 +36733,12 @@ class HFTBTC:
     maximum_order_size: float = 46116860414.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HFTBTC"
 
@@ -30968,6 +36770,12 @@ class HFTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HFTBUSD"
@@ -31001,6 +36809,12 @@ class HFTUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HFTUSDT"
 
@@ -31032,6 +36846,12 @@ class HIFIETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HIFIETH"
@@ -31065,6 +36885,12 @@ class HIFIUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HIFIUSDT"
 
@@ -31096,6 +36922,12 @@ class HIGHBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HIGHBNB"
@@ -31129,6 +36961,12 @@ class HIGHBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HIGHBTC"
 
@@ -31160,6 +36998,12 @@ class HIGHBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HIGHBUSD"
@@ -31193,6 +37037,12 @@ class HIGHUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HIGHUSDT"
 
@@ -31224,6 +37074,12 @@ class HIVEBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HIVEBNB"
@@ -31257,6 +37113,12 @@ class HIVEBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HIVEBTC"
 
@@ -31288,6 +37150,12 @@ class HIVEBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HIVEBUSD"
@@ -31321,6 +37189,12 @@ class HIVEUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HIVEUSDT"
 
@@ -31352,6 +37226,12 @@ class HNTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HNTBTC"
@@ -31385,6 +37265,12 @@ class HNTBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HNTBUSD"
 
@@ -31416,6 +37302,12 @@ class HNTUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HNTUSDT"
@@ -31449,6 +37341,12 @@ class HOOKBNB:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOOKBNB"
 
@@ -31480,6 +37378,12 @@ class HOOKBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 46116860414.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOOKBTC"
@@ -31513,6 +37417,12 @@ class HOOKBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOOKBUSD"
 
@@ -31544,6 +37454,12 @@ class HOOKUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOOKUSDT"
@@ -31577,6 +37493,12 @@ class HOTBNB:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOTBNB"
 
@@ -31608,6 +37530,12 @@ class HOTBRL:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOTBRL"
@@ -31641,6 +37569,12 @@ class HOTBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOTBTC"
 
@@ -31672,6 +37606,12 @@ class HOTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOTBUSD"
@@ -31705,6 +37645,12 @@ class HOTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOTETH"
 
@@ -31736,6 +37682,12 @@ class HOTEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOTEUR"
@@ -31769,6 +37721,12 @@ class HOTTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HOTTRY"
 
@@ -31800,6 +37758,12 @@ class HOTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HOTUSDT"
@@ -31833,6 +37797,12 @@ class HSRBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "HSRBTC"
 
@@ -31864,6 +37834,12 @@ class HSRETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "HSRETH"
@@ -31897,6 +37873,12 @@ class ICNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICNBTC"
 
@@ -31928,6 +37910,12 @@ class ICNETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICNETH"
@@ -31961,6 +37949,12 @@ class ICPBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICPBNB"
 
@@ -31992,6 +37986,12 @@ class ICPBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICPBTC"
@@ -32025,6 +38025,12 @@ class ICPBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICPBUSD"
 
@@ -32056,6 +38062,12 @@ class ICPETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICPETH"
@@ -32089,6 +38101,12 @@ class ICPEUR:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICPEUR"
 
@@ -32120,6 +38138,12 @@ class ICPRUB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICPRUB"
@@ -32153,6 +38177,12 @@ class ICPTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICPTRY"
 
@@ -32184,6 +38214,12 @@ class ICPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICPUSDT"
@@ -32217,6 +38253,12 @@ class ICXBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICXBNB"
 
@@ -32248,6 +38290,12 @@ class ICXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICXBTC"
@@ -32281,6 +38329,12 @@ class ICXBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICXBUSD"
 
@@ -32312,6 +38366,12 @@ class ICXETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ICXETH"
@@ -32345,6 +38405,12 @@ class ICXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ICXUSDT"
 
@@ -32376,6 +38442,12 @@ class IDEXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IDEXBNB"
@@ -32409,6 +38481,12 @@ class IDEXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IDEXBTC"
 
@@ -32440,6 +38518,12 @@ class IDEXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IDEXBUSD"
@@ -32473,6 +38557,12 @@ class IDEXUSDT:
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IDEXUSDT"
 
@@ -32504,6 +38594,12 @@ class ILVBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ILVBNB"
@@ -32537,6 +38633,12 @@ class ILVBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ILVBTC"
 
@@ -32568,6 +38670,12 @@ class ILVBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ILVBUSD"
@@ -32601,6 +38709,12 @@ class ILVUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ILVUSDT"
 
@@ -32632,6 +38746,12 @@ class IMXBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IMXBNB"
@@ -32665,6 +38785,12 @@ class IMXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IMXBTC"
 
@@ -32696,6 +38822,12 @@ class IMXBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IMXBUSD"
@@ -32729,6 +38861,12 @@ class IMXUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IMXUSDT"
 
@@ -32760,6 +38898,12 @@ class INJBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "INJBNB"
@@ -32793,6 +38937,12 @@ class INJBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "INJBTC"
 
@@ -32824,6 +38974,12 @@ class INJBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "INJBUSD"
@@ -32857,6 +39013,12 @@ class INJTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "INJTRY"
 
@@ -32888,6 +39050,12 @@ class INJUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "INJUSDT"
@@ -32921,6 +39089,12 @@ class INSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "INSBTC"
 
@@ -32952,6 +39126,12 @@ class INSETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "INSETH"
@@ -32985,6 +39165,12 @@ class IOSTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOSTBTC"
 
@@ -33016,6 +39202,12 @@ class IOSTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOSTBUSD"
@@ -33049,6 +39241,12 @@ class IOSTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOSTETH"
 
@@ -33080,6 +39278,12 @@ class IOSTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOSTUSDT"
@@ -33113,6 +39317,12 @@ class IOTABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOTABNB"
 
@@ -33144,6 +39354,12 @@ class IOTABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOTABTC"
@@ -33177,6 +39393,12 @@ class IOTABUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOTABUSD"
 
@@ -33208,6 +39430,12 @@ class IOTAETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOTAETH"
@@ -33241,6 +39469,12 @@ class IOTAUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOTAUSDT"
 
@@ -33272,6 +39506,12 @@ class IOTXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOTXBTC"
@@ -33305,6 +39545,12 @@ class IOTXBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOTXBUSD"
 
@@ -33336,6 +39582,12 @@ class IOTXETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IOTXETH"
@@ -33369,6 +39621,12 @@ class IOTXUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IOTXUSDT"
 
@@ -33400,6 +39658,12 @@ class IQBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IQBNB"
@@ -33433,6 +39697,12 @@ class IQBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IQBUSD"
 
@@ -33464,6 +39734,12 @@ class IRISBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IRISBNB"
@@ -33497,6 +39773,12 @@ class IRISBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IRISBTC"
 
@@ -33528,6 +39810,12 @@ class IRISBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "IRISBUSD"
@@ -33561,6 +39849,12 @@ class IRISUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "IRISUSDT"
 
@@ -33592,6 +39886,12 @@ class JASMYBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JASMYBNB"
@@ -33625,6 +39925,12 @@ class JASMYBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JASMYBTC"
 
@@ -33656,6 +39962,12 @@ class JASMYBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JASMYBUSD"
@@ -33689,6 +40001,12 @@ class JASMYETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JASMYETH"
 
@@ -33720,6 +40038,12 @@ class JASMYEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JASMYEUR"
@@ -33753,6 +40077,12 @@ class JASMYTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JASMYTRY"
 
@@ -33784,6 +40114,12 @@ class JASMYUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JASMYUSDT"
@@ -33817,6 +40153,12 @@ class JOEBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JOEBTC"
 
@@ -33848,6 +40190,12 @@ class JOEBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JOEBUSD"
@@ -33881,6 +40229,12 @@ class JOEUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JOEUSDT"
 
@@ -33912,6 +40266,12 @@ class JSTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JSTBNB"
@@ -33945,6 +40305,12 @@ class JSTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JSTBTC"
 
@@ -33976,6 +40342,12 @@ class JSTBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JSTBUSD"
@@ -34009,6 +40381,12 @@ class JSTUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JSTUSDT"
 
@@ -34040,6 +40418,12 @@ class JUVBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JUVBTC"
@@ -34073,6 +40457,12 @@ class JUVBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "JUVBUSD"
 
@@ -34104,6 +40494,12 @@ class JUVUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "JUVUSDT"
@@ -34137,6 +40533,12 @@ class KAVABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KAVABNB"
 
@@ -34168,6 +40570,12 @@ class KAVABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KAVABTC"
@@ -34201,6 +40609,12 @@ class KAVABUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KAVABUSD"
 
@@ -34232,6 +40646,12 @@ class KAVAETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KAVAETH"
@@ -34265,6 +40685,12 @@ class KAVAUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KAVAUSDT"
 
@@ -34296,6 +40722,12 @@ class KDABTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KDABTC"
@@ -34329,6 +40761,12 @@ class KDABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KDABUSD"
 
@@ -34360,6 +40798,12 @@ class KDAUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KDAUSDT"
@@ -34393,6 +40837,12 @@ class KEEPBNB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KEEPBNB"
 
@@ -34424,6 +40874,12 @@ class KEEPBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KEEPBTC"
@@ -34457,6 +40913,12 @@ class KEEPBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KEEPBUSD"
 
@@ -34488,6 +40950,12 @@ class KEEPUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KEEPUSDT"
@@ -34521,6 +40989,12 @@ class KEYBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KEYBTC"
 
@@ -34552,6 +41026,12 @@ class KEYBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KEYBUSD"
@@ -34585,6 +41065,12 @@ class KEYETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KEYETH"
 
@@ -34616,6 +41102,12 @@ class KEYUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KEYUSDT"
@@ -34649,6 +41141,12 @@ class KLAYBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KLAYBNB"
 
@@ -34680,6 +41178,12 @@ class KLAYBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KLAYBTC"
@@ -34713,6 +41217,12 @@ class KLAYBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KLAYBUSD"
 
@@ -34744,6 +41254,12 @@ class KLAYUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KLAYUSDT"
@@ -34777,6 +41293,12 @@ class KMDBTC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KMDBTC"
 
@@ -34808,6 +41330,12 @@ class KMDBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KMDBUSD"
@@ -34841,6 +41369,12 @@ class KMDETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KMDETH"
 
@@ -34872,6 +41406,12 @@ class KMDUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KMDUSDT"
@@ -34905,6 +41445,12 @@ class KNCBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KNCBNB"
 
@@ -34936,6 +41482,12 @@ class KNCBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KNCBTC"
@@ -34969,6 +41521,12 @@ class KNCBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KNCBUSD"
 
@@ -35000,6 +41558,12 @@ class KNCETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KNCETH"
@@ -35033,6 +41597,12 @@ class KNCUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KNCUSDT"
 
@@ -35064,6 +41634,12 @@ class KP3RBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KP3RBNB"
@@ -35097,6 +41673,12 @@ class KP3RBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KP3RBUSD"
 
@@ -35128,6 +41710,12 @@ class KP3RUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92230.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KP3RUSDT"
@@ -35161,6 +41749,12 @@ class KSMAUD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KSMAUD"
 
@@ -35192,6 +41786,12 @@ class KSMBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KSMBNB"
@@ -35225,6 +41825,12 @@ class KSMBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KSMBTC"
 
@@ -35256,6 +41862,12 @@ class KSMBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KSMBUSD"
@@ -35289,6 +41901,12 @@ class KSMETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "KSMETH"
 
@@ -35320,6 +41938,12 @@ class KSMUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "KSMUSDT"
@@ -35353,6 +41977,12 @@ class LAZIOBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LAZIOBTC"
 
@@ -35384,6 +42014,12 @@ class LAZIOBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LAZIOBUSD"
@@ -35417,6 +42053,12 @@ class LAZIOEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LAZIOEUR"
 
@@ -35448,6 +42090,12 @@ class LAZIOTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LAZIOTRY"
@@ -35481,6 +42129,12 @@ class LAZIOUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LAZIOUSDT"
 
@@ -35512,6 +42166,12 @@ class LDOBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LDOBTC"
@@ -35545,6 +42205,12 @@ class LDOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LDOBUSD"
 
@@ -35576,6 +42242,12 @@ class LDOUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LDOUSDT"
@@ -35609,6 +42281,12 @@ class LENDBKRW:
     maximum_order_size: float = 92232.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LENDBKRW"
 
@@ -35640,6 +42318,12 @@ class LENDBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LENDBTC"
@@ -35673,6 +42357,12 @@ class LENDBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LENDBUSD"
 
@@ -35704,6 +42394,12 @@ class LENDETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LENDETH"
@@ -35737,6 +42433,12 @@ class LENDUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LENDUSDT"
 
@@ -35768,6 +42470,12 @@ class LEVERBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LEVERBUSD"
@@ -35801,6 +42509,12 @@ class LEVERUSDT:
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LEVERUSDT"
 
@@ -35832,6 +42546,12 @@ class LINABNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINABNB"
@@ -35865,6 +42585,12 @@ class LINABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINABTC"
 
@@ -35896,6 +42622,12 @@ class LINABUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINABUSD"
@@ -35929,6 +42661,12 @@ class LINAUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINAUSDT"
 
@@ -35960,6 +42698,12 @@ class LINKAUD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKAUD"
@@ -35993,6 +42737,12 @@ class LINKBKRW:
     maximum_order_size: float = 9200.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKBKRW"
 
@@ -36024,6 +42774,12 @@ class LINKBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKBNB"
@@ -36057,6 +42813,12 @@ class LINKBRL:
     maximum_order_size: float = 45000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKBRL"
 
@@ -36088,6 +42850,12 @@ class LINKBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKBTC"
@@ -36121,6 +42889,12 @@ class LINKBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKBUSD"
 
@@ -36152,6 +42926,12 @@ class LINKDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 300000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKDOWNUSDT"
@@ -36185,6 +42965,12 @@ class LINKETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKETH"
 
@@ -36216,6 +43002,12 @@ class LINKEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKEUR"
@@ -36249,6 +43041,12 @@ class LINKGBP:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKGBP"
 
@@ -36280,6 +43078,12 @@ class LINKNGN:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 92232.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKNGN"
@@ -36313,6 +43117,12 @@ class LINKPAX:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKPAX"
 
@@ -36344,6 +43154,12 @@ class LINKTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKTRY"
@@ -36377,6 +43193,12 @@ class LINKTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKTUSD"
 
@@ -36408,6 +43230,12 @@ class LINKUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKUPUSDT"
@@ -36441,6 +43269,12 @@ class LINKUSDC:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LINKUSDC"
 
@@ -36472,6 +43306,12 @@ class LINKUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LINKUSDT"
@@ -36505,6 +43345,12 @@ class LITBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LITBTC"
 
@@ -36536,6 +43382,12 @@ class LITBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LITBUSD"
@@ -36569,6 +43421,12 @@ class LITETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LITETH"
 
@@ -36600,6 +43458,12 @@ class LITUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LITUSDT"
@@ -36633,6 +43497,12 @@ class LOKABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LOKABNB"
 
@@ -36664,6 +43534,12 @@ class LOKABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LOKABTC"
@@ -36697,6 +43573,12 @@ class LOKABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LOKABUSD"
 
@@ -36728,6 +43610,12 @@ class LOKAUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LOKAUSDT"
@@ -36761,6 +43649,12 @@ class LOOMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LOOMBNB"
 
@@ -36792,6 +43686,12 @@ class LOOMBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LOOMBTC"
@@ -36825,6 +43725,12 @@ class LOOMBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LOOMBUSD"
 
@@ -36856,6 +43762,12 @@ class LOOMETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LOOMETH"
@@ -36889,6 +43801,12 @@ class LPTBNB:
     maximum_order_size: float = 92141570.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LPTBNB"
 
@@ -36920,6 +43838,12 @@ class LPTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141570.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LPTBTC"
@@ -36953,6 +43877,12 @@ class LPTBUSD:
     maximum_order_size: float = 9222440.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LPTBUSD"
 
@@ -36984,6 +43914,12 @@ class LPTUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222440.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LPTUSDT"
@@ -37017,6 +43953,12 @@ class LRCBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LRCBNB"
 
@@ -37048,6 +43990,12 @@ class LRCBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LRCBTC"
@@ -37081,6 +44029,12 @@ class LRCBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LRCBUSD"
 
@@ -37112,6 +44066,12 @@ class LRCETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LRCETH"
@@ -37145,6 +44105,12 @@ class LRCTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LRCTRY"
 
@@ -37176,6 +44142,12 @@ class LRCUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LRCUSDT"
@@ -37209,6 +44181,12 @@ class LSKBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LSKBNB"
 
@@ -37240,6 +44218,12 @@ class LSKBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LSKBTC"
@@ -37273,6 +44257,12 @@ class LSKBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LSKBUSD"
 
@@ -37304,6 +44294,12 @@ class LSKETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LSKETH"
@@ -37337,6 +44333,12 @@ class LSKUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LSKUSDT"
 
@@ -37368,6 +44370,12 @@ class LTCBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCBNB"
@@ -37401,6 +44409,12 @@ class LTCBRL:
     maximum_order_size: float = 45000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCBRL"
 
@@ -37432,6 +44446,12 @@ class LTCBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 100000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCBTC"
@@ -37465,6 +44485,12 @@ class LTCBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCBUSD"
 
@@ -37496,6 +44522,12 @@ class LTCDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 610819340.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCDOWNUSDT"
@@ -37529,6 +44561,12 @@ class LTCETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCETH"
 
@@ -37560,6 +44598,12 @@ class LTCEUR:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCEUR"
@@ -37593,6 +44637,12 @@ class LTCGBP:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCGBP"
 
@@ -37624,6 +44674,12 @@ class LTCNGN:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9221.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCNGN"
@@ -37657,6 +44713,12 @@ class LTCPAX:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCPAX"
 
@@ -37688,6 +44750,12 @@ class LTCRUB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCRUB"
@@ -37721,6 +44789,12 @@ class LTCTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCTUSD"
 
@@ -37752,6 +44826,12 @@ class LTCUAH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCUAH"
@@ -37785,6 +44865,12 @@ class LTCUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCUPUSDT"
 
@@ -37816,6 +44902,12 @@ class LTCUSDC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTCUSDC"
@@ -37849,6 +44941,12 @@ class LTCUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTCUSDT"
 
@@ -37880,6 +44978,12 @@ class LTOBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTOBNB"
@@ -37913,6 +45017,12 @@ class LTOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTOBTC"
 
@@ -37944,6 +45054,12 @@ class LTOBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LTOBUSD"
@@ -37977,6 +45093,12 @@ class LTOUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LTOUSDT"
 
@@ -38008,6 +45130,12 @@ class LUNAAUD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNAAUD"
@@ -38041,6 +45169,12 @@ class LUNABIDR:
     maximum_order_size: float = 922337194.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNABIDR"
 
@@ -38072,6 +45206,12 @@ class LUNABNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNABNB"
@@ -38105,6 +45245,12 @@ class LUNABRL:
     maximum_order_size: float = 9221525.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNABRL"
 
@@ -38136,6 +45282,12 @@ class LUNABTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNABTC"
@@ -38169,6 +45321,12 @@ class LUNABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNABUSD"
 
@@ -38200,6 +45358,12 @@ class LUNAETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNAETH"
@@ -38233,6 +45397,12 @@ class LUNAEUR:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNAEUR"
 
@@ -38264,6 +45434,12 @@ class LUNAGBP:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNAGBP"
@@ -38297,6 +45473,12 @@ class LUNATRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNATRY"
 
@@ -38328,6 +45510,12 @@ class LUNAUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNAUSDT"
@@ -38361,6 +45549,12 @@ class LUNAUST:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNAUST"
 
@@ -38392,6 +45586,12 @@ class LUNBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNBTC"
@@ -38425,6 +45625,12 @@ class LUNCBUSD:
     maximum_order_size: float = 8384883677.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNCBUSD"
 
@@ -38456,6 +45662,12 @@ class LUNCUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 8384883677.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "LUNCUSDT"
@@ -38489,6 +45701,12 @@ class LUNETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "LUNETH"
 
@@ -38520,6 +45738,12 @@ class MAGICBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MAGICBTC"
@@ -38553,6 +45777,12 @@ class MAGICBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MAGICBUSD"
 
@@ -38584,6 +45814,12 @@ class MAGICUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MAGICUSDT"
@@ -38617,6 +45853,12 @@ class MANABIDR:
     maximum_order_size: float = 9223371110.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MANABIDR"
 
@@ -38648,6 +45890,12 @@ class MANABNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MANABNB"
@@ -38681,6 +45929,12 @@ class MANABRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MANABRL"
 
@@ -38712,6 +45966,12 @@ class MANABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MANABTC"
@@ -38745,6 +46005,12 @@ class MANABUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MANABUSD"
 
@@ -38776,6 +46042,12 @@ class MANAETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MANAETH"
@@ -38809,6 +46081,12 @@ class MANATRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MANATRY"
 
@@ -38840,6 +46118,12 @@ class MANAUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MANAUSDT"
@@ -38873,6 +46157,12 @@ class MASKBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MASKBNB"
 
@@ -38904,6 +46194,12 @@ class MASKBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MASKBUSD"
@@ -38937,6 +46233,12 @@ class MASKUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MASKUSDT"
 
@@ -38968,6 +46270,12 @@ class MATICAUD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICAUD"
@@ -39001,6 +46309,12 @@ class MATICBIDR:
     maximum_order_size: float = 184467.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICBIDR"
 
@@ -39032,6 +46346,12 @@ class MATICBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICBNB"
@@ -39065,6 +46385,12 @@ class MATICBRL:
     maximum_order_size: float = 9222440.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICBRL"
 
@@ -39096,6 +46422,12 @@ class MATICBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICBTC"
@@ -39129,6 +46461,12 @@ class MATICBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICBUSD"
 
@@ -39160,6 +46498,12 @@ class MATICETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICETH"
@@ -39193,6 +46537,12 @@ class MATICEUR:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICEUR"
 
@@ -39224,6 +46574,12 @@ class MATICGBP:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICGBP"
@@ -39257,6 +46613,12 @@ class MATICRUB:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICRUB"
 
@@ -39288,6 +46650,12 @@ class MATICTRY:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MATICTRY"
@@ -39321,6 +46689,12 @@ class MATICUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MATICUSDT"
 
@@ -39352,6 +46726,12 @@ class MBLBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MBLBNB"
@@ -39385,6 +46765,12 @@ class MBLBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MBLBTC"
 
@@ -39416,6 +46802,12 @@ class MBLBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MBLBUSD"
@@ -39449,6 +46841,12 @@ class MBLUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MBLUSDT"
 
@@ -39480,6 +46878,12 @@ class MBOXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MBOXBNB"
@@ -39513,6 +46917,12 @@ class MBOXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MBOXBTC"
 
@@ -39544,6 +46954,12 @@ class MBOXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MBOXBUSD"
@@ -39577,6 +46993,12 @@ class MBOXTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MBOXTRY"
 
@@ -39608,6 +47030,12 @@ class MBOXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MBOXUSDT"
@@ -39641,6 +47069,12 @@ class MCBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MCBNB"
 
@@ -39672,6 +47106,12 @@ class MCBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MCBTC"
@@ -39705,6 +47145,12 @@ class MCBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MCBUSD"
 
@@ -39736,6 +47182,12 @@ class MCOBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MCOBNB"
@@ -39769,6 +47221,12 @@ class MCOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MCOBTC"
 
@@ -39800,6 +47258,12 @@ class MCOETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MCOETH"
@@ -39833,6 +47297,12 @@ class MCOUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MCOUSDT"
 
@@ -39864,6 +47334,12 @@ class MCUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MCUSDT"
@@ -39897,6 +47373,12 @@ class MDABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MDABTC"
 
@@ -39928,6 +47410,12 @@ class MDAETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MDAETH"
@@ -39961,6 +47449,12 @@ class MDTBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MDTBNB"
 
@@ -39992,6 +47486,12 @@ class MDTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MDTBTC"
@@ -40025,6 +47525,12 @@ class MDTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MDTBUSD"
 
@@ -40056,6 +47562,12 @@ class MDTUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MDTUSDT"
@@ -40089,6 +47601,12 @@ class MDXBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MDXBNB"
 
@@ -40120,6 +47638,12 @@ class MDXBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MDXBTC"
@@ -40153,6 +47677,12 @@ class MDXBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MDXBUSD"
 
@@ -40184,6 +47714,12 @@ class MDXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MDXUSDT"
@@ -40217,6 +47753,12 @@ class MFTBNB:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MFTBNB"
 
@@ -40248,6 +47790,12 @@ class MFTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MFTBTC"
@@ -40281,6 +47829,12 @@ class MFTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MFTETH"
 
@@ -40312,6 +47866,12 @@ class MFTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MFTUSDT"
@@ -40345,6 +47905,12 @@ class MINABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MINABNB"
 
@@ -40376,6 +47942,12 @@ class MINABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MINABTC"
@@ -40409,6 +47981,12 @@ class MINABUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MINABUSD"
 
@@ -40440,6 +48018,12 @@ class MINATRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MINATRY"
@@ -40473,6 +48057,12 @@ class MINAUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MINAUSDT"
 
@@ -40504,6 +48094,12 @@ class MIRBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MIRBTC"
@@ -40537,6 +48133,12 @@ class MIRBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MIRBUSD"
 
@@ -40568,6 +48170,12 @@ class MIRUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MIRUSDT"
@@ -40601,6 +48209,12 @@ class MITHBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MITHBNB"
 
@@ -40632,6 +48246,12 @@ class MITHBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MITHBTC"
@@ -40665,6 +48285,12 @@ class MITHUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MITHUSDT"
 
@@ -40696,6 +48322,12 @@ class MKRBNB:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MKRBNB"
@@ -40729,6 +48361,12 @@ class MKRBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MKRBTC"
 
@@ -40760,6 +48398,12 @@ class MKRBUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MKRBUSD"
@@ -40793,6 +48437,12 @@ class MKRUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MKRUSDT"
 
@@ -40824,6 +48474,12 @@ class MLNBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MLNBNB"
@@ -40857,6 +48513,12 @@ class MLNBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MLNBTC"
 
@@ -40888,6 +48550,12 @@ class MLNBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MLNBUSD"
@@ -40921,6 +48589,12 @@ class MLNUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MLNUSDT"
 
@@ -40952,6 +48626,12 @@ class MOBBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MOBBTC"
@@ -40985,6 +48665,12 @@ class MOBBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MOBBUSD"
 
@@ -41016,6 +48702,12 @@ class MOBUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MOBUSDT"
@@ -41049,6 +48741,12 @@ class MODBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MODBTC"
 
@@ -41080,6 +48778,12 @@ class MODETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MODETH"
@@ -41113,6 +48817,12 @@ class MOVRBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MOVRBNB"
 
@@ -41144,6 +48854,12 @@ class MOVRBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MOVRBTC"
@@ -41177,6 +48893,12 @@ class MOVRBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MOVRBUSD"
 
@@ -41208,6 +48930,12 @@ class MOVRUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MOVRUSDT"
@@ -41241,6 +48969,12 @@ class MTHBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MTHBTC"
 
@@ -41272,6 +49006,12 @@ class MTHETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MTHETH"
@@ -41305,6 +49045,12 @@ class MTLBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MTLBTC"
 
@@ -41336,6 +49082,12 @@ class MTLBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MTLBUSD"
@@ -41369,6 +49121,12 @@ class MTLETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MTLETH"
 
@@ -41400,6 +49158,12 @@ class MTLUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MTLUSDT"
@@ -41433,6 +49197,12 @@ class MULTIBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MULTIBTC"
 
@@ -41464,6 +49234,12 @@ class MULTIBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "MULTIBUSD"
@@ -41497,6 +49273,12 @@ class MULTIUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "MULTIUSDT"
 
@@ -41528,6 +49310,12 @@ class NANOBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NANOBNB"
@@ -41561,6 +49349,12 @@ class NANOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NANOBTC"
 
@@ -41592,6 +49386,12 @@ class NANOBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NANOBUSD"
@@ -41625,6 +49425,12 @@ class NANOETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NANOETH"
 
@@ -41656,6 +49462,12 @@ class NANOUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NANOUSDT"
@@ -41689,6 +49501,12 @@ class NASBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NASBNB"
 
@@ -41720,6 +49538,12 @@ class NASBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NASBTC"
@@ -41753,6 +49577,12 @@ class NASETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NASETH"
 
@@ -41784,6 +49614,12 @@ class NAVBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NAVBNB"
@@ -41817,6 +49653,12 @@ class NAVBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NAVBTC"
 
@@ -41848,6 +49690,12 @@ class NAVETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NAVETH"
@@ -41881,6 +49729,12 @@ class NBSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NBSBTC"
 
@@ -41912,6 +49766,12 @@ class NBSUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NBSUSDT"
@@ -41945,6 +49805,12 @@ class NBTBIDR:
     maximum_order_size: float = 92232700.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NBTBIDR"
 
@@ -41976,6 +49842,12 @@ class NBTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NBTUSDT"
@@ -42009,6 +49881,12 @@ class NCASHBNB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NCASHBNB"
 
@@ -42040,6 +49918,12 @@ class NCASHBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NCASHBTC"
@@ -42073,6 +49957,12 @@ class NCASHETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NCASHETH"
 
@@ -42104,6 +49994,12 @@ class NEARBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEARBNB"
@@ -42137,6 +50033,12 @@ class NEARBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEARBTC"
 
@@ -42168,6 +50070,12 @@ class NEARBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEARBUSD"
@@ -42201,6 +50109,12 @@ class NEARETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEARETH"
 
@@ -42232,6 +50146,12 @@ class NEAREUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEAREUR"
@@ -42265,6 +50185,12 @@ class NEARRUB:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEARRUB"
 
@@ -42296,6 +50222,12 @@ class NEARTRY:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEARTRY"
@@ -42329,6 +50261,12 @@ class NEARUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEARUSDT"
 
@@ -42360,6 +50298,12 @@ class NEBLBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEBLBNB"
@@ -42393,6 +50337,12 @@ class NEBLBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEBLBTC"
 
@@ -42424,6 +50374,12 @@ class NEBLBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEBLBUSD"
@@ -42457,6 +50413,12 @@ class NEBLUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEBLUSDT"
 
@@ -42488,6 +50450,12 @@ class NEOBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEOBNB"
@@ -42521,6 +50489,12 @@ class NEOBTC:
     maximum_order_size: float = 100000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEOBTC"
 
@@ -42552,6 +50526,12 @@ class NEOBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEOBUSD"
@@ -42585,6 +50565,12 @@ class NEOETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEOETH"
 
@@ -42616,6 +50602,12 @@ class NEOPAX:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEOPAX"
@@ -42649,6 +50641,12 @@ class NEORUB:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEORUB"
 
@@ -42680,6 +50678,12 @@ class NEOTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEOTRY"
@@ -42713,6 +50717,12 @@ class NEOTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEOTUSD"
 
@@ -42744,6 +50754,12 @@ class NEOUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEOUSDC"
@@ -42777,6 +50793,12 @@ class NEOUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEOUSDT"
 
@@ -42808,6 +50830,12 @@ class NEXOBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEXOBTC"
@@ -42841,6 +50869,12 @@ class NEXOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NEXOBUSD"
 
@@ -42872,6 +50906,12 @@ class NEXOUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NEXOUSDT"
@@ -42905,6 +50945,12 @@ class NKNBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NKNBNB"
 
@@ -42936,6 +50982,12 @@ class NKNBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NKNBTC"
@@ -42969,6 +51021,12 @@ class NKNBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NKNBUSD"
 
@@ -43000,6 +51058,12 @@ class NKNUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NKNUSDT"
@@ -43033,6 +51097,12 @@ class NMRBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NMRBTC"
 
@@ -43064,6 +51134,12 @@ class NMRBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NMRBUSD"
@@ -43097,6 +51173,12 @@ class NMRUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NMRUSDT"
 
@@ -43128,6 +51210,12 @@ class NPXSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NPXSBTC"
@@ -43161,6 +51249,12 @@ class NPXSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NPXSETH"
 
@@ -43192,6 +51286,12 @@ class NPXSUSDC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NPXSUSDC"
@@ -43225,6 +51325,12 @@ class NPXSUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NPXSUSDT"
 
@@ -43256,6 +51362,12 @@ class NUAUD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NUAUD"
@@ -43289,6 +51401,12 @@ class NUBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NUBNB"
 
@@ -43320,6 +51438,12 @@ class NUBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NUBTC"
@@ -43353,6 +51477,12 @@ class NUBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NUBUSD"
 
@@ -43384,6 +51514,12 @@ class NULSBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NULSBNB"
@@ -43417,6 +51553,12 @@ class NULSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NULSBTC"
 
@@ -43448,6 +51590,12 @@ class NULSBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NULSBUSD"
@@ -43481,6 +51629,12 @@ class NULSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NULSETH"
 
@@ -43512,6 +51666,12 @@ class NULSUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NULSUSDT"
@@ -43545,6 +51705,12 @@ class NURUB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NURUB"
 
@@ -43576,6 +51742,12 @@ class NUUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NUUSDT"
@@ -43609,6 +51781,12 @@ class NXSBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NXSBNB"
 
@@ -43640,6 +51818,12 @@ class NXSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "NXSBTC"
@@ -43673,6 +51857,12 @@ class NXSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "NXSETH"
 
@@ -43704,6 +51894,12 @@ class OAXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OAXBTC"
@@ -43737,6 +51933,12 @@ class OAXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OAXETH"
 
@@ -43768,6 +51970,12 @@ class OCEANBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OCEANBNB"
@@ -43801,6 +52009,12 @@ class OCEANBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OCEANBTC"
 
@@ -43832,6 +52046,12 @@ class OCEANBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OCEANBUSD"
@@ -43865,6 +52085,12 @@ class OCEANUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OCEANUSDT"
 
@@ -43896,6 +52122,12 @@ class OGBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OGBTC"
@@ -43929,6 +52161,12 @@ class OGBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OGBUSD"
 
@@ -43960,6 +52198,12 @@ class OGNBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OGNBNB"
@@ -43993,6 +52237,12 @@ class OGNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OGNBTC"
 
@@ -44024,6 +52274,12 @@ class OGNBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OGNBUSD"
@@ -44057,6 +52313,12 @@ class OGNUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OGNUSDT"
 
@@ -44088,6 +52350,12 @@ class OGUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OGUSDT"
@@ -44121,6 +52389,12 @@ class OMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OMBTC"
 
@@ -44152,6 +52426,12 @@ class OMBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OMBUSD"
@@ -44185,6 +52465,12 @@ class OMGBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OMGBNB"
 
@@ -44216,6 +52502,12 @@ class OMGBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OMGBTC"
@@ -44249,6 +52541,12 @@ class OMGBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OMGBUSD"
 
@@ -44280,6 +52578,12 @@ class OMGETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OMGETH"
@@ -44313,6 +52617,12 @@ class OMGUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OMGUSDT"
 
@@ -44344,6 +52654,12 @@ class OMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OMUSDT"
@@ -44377,6 +52693,12 @@ class ONEBIDR:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONEBIDR"
 
@@ -44408,6 +52730,12 @@ class ONEBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONEBNB"
@@ -44441,6 +52769,12 @@ class ONEBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONEBTC"
 
@@ -44472,6 +52806,12 @@ class ONEBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONEBUSD"
@@ -44505,6 +52845,12 @@ class ONEETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONEETH"
 
@@ -44536,6 +52882,12 @@ class ONEPAX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONEPAX"
@@ -44569,6 +52921,12 @@ class ONETRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONETRY"
 
@@ -44600,6 +52958,12 @@ class ONETUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONETUSD"
@@ -44633,6 +52997,12 @@ class ONEUSDC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONEUSDC"
 
@@ -44664,6 +53034,12 @@ class ONEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONEUSDT"
@@ -44697,6 +53073,12 @@ class ONGBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONGBNB"
 
@@ -44728,6 +53110,12 @@ class ONGBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONGBTC"
@@ -44761,6 +53149,12 @@ class ONGUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONGUSDT"
 
@@ -44792,6 +53186,12 @@ class ONTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONTBNB"
@@ -44825,6 +53225,12 @@ class ONTBTC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONTBTC"
 
@@ -44856,6 +53262,12 @@ class ONTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONTBUSD"
@@ -44889,6 +53301,12 @@ class ONTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONTETH"
 
@@ -44920,6 +53338,12 @@ class ONTPAX:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONTPAX"
@@ -44953,6 +53377,12 @@ class ONTTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONTTRY"
 
@@ -44984,6 +53414,12 @@ class ONTUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ONTUSDC"
@@ -45017,6 +53453,12 @@ class ONTUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ONTUSDT"
 
@@ -45048,6 +53490,12 @@ class OOKIBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OOKIBNB"
@@ -45081,6 +53529,12 @@ class OOKIBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OOKIBUSD"
 
@@ -45112,6 +53566,12 @@ class OOKIETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OOKIETH"
@@ -45145,6 +53605,12 @@ class OOKIUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OOKIUSDT"
 
@@ -45176,6 +53642,12 @@ class OPBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OPBNB"
@@ -45209,6 +53681,12 @@ class OPBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OPBTC"
 
@@ -45240,6 +53718,12 @@ class OPBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OPBUSD"
@@ -45273,6 +53757,12 @@ class OPETH:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OPETH"
 
@@ -45304,6 +53794,12 @@ class OPEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OPEUR"
@@ -45337,6 +53833,12 @@ class OPUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OPUSDT"
 
@@ -45368,6 +53870,12 @@ class ORNBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ORNBTC"
@@ -45401,6 +53909,12 @@ class ORNBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ORNBUSD"
 
@@ -45432,6 +53946,12 @@ class ORNUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ORNUSDT"
@@ -45465,6 +53985,12 @@ class OSMOBTC:
     maximum_order_size: float = 8384883677.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OSMOBTC"
 
@@ -45496,6 +54022,12 @@ class OSMOBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OSMOBUSD"
@@ -45529,6 +54061,12 @@ class OSMOUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OSMOUSDT"
 
@@ -45560,6 +54098,12 @@ class OSTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OSTBNB"
@@ -45593,6 +54137,12 @@ class OSTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OSTBTC"
 
@@ -45624,6 +54174,12 @@ class OSTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OSTETH"
@@ -45657,6 +54213,12 @@ class OXTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OXTBTC"
 
@@ -45688,6 +54250,12 @@ class OXTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "OXTBUSD"
@@ -45721,6 +54289,12 @@ class OXTUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "OXTUSDT"
 
@@ -45752,6 +54326,12 @@ class PAXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PAXBNB"
@@ -45785,6 +54365,12 @@ class PAXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PAXBTC"
 
@@ -45816,6 +54402,12 @@ class PAXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PAXBUSD"
@@ -45849,6 +54441,12 @@ class PAXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PAXETH"
 
@@ -45880,6 +54478,12 @@ class PAXGBNB:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PAXGBNB"
@@ -45913,6 +54517,12 @@ class PAXGBTC:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PAXGBTC"
 
@@ -45944,6 +54554,12 @@ class PAXGBUSD:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 9000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PAXGBUSD"
@@ -45977,6 +54593,12 @@ class PAXGUSDT:
     maximum_order_size: float = 9000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PAXGUSDT"
 
@@ -46008,6 +54630,12 @@ class PAXTUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PAXTUSD"
@@ -46041,6 +54669,12 @@ class PAXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PAXUSDT"
 
@@ -46072,6 +54706,12 @@ class PEOPLEBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PEOPLEBNB"
@@ -46105,6 +54745,12 @@ class PEOPLEBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PEOPLEBTC"
 
@@ -46136,6 +54782,12 @@ class PEOPLEBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PEOPLEBUSD"
@@ -46169,6 +54821,12 @@ class PEOPLEETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PEOPLEETH"
 
@@ -46200,6 +54858,12 @@ class PEOPLEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PEOPLEUSDT"
@@ -46233,6 +54897,12 @@ class PERLBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PERLBNB"
 
@@ -46264,6 +54934,12 @@ class PERLBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PERLBTC"
@@ -46297,6 +54973,12 @@ class PERLUSDC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PERLUSDC"
 
@@ -46328,6 +55010,12 @@ class PERLUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PERLUSDT"
@@ -46361,6 +55049,12 @@ class PERPBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PERPBTC"
 
@@ -46392,6 +55086,12 @@ class PERPBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PERPBUSD"
@@ -46425,6 +55125,12 @@ class PERPUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PERPUSDT"
 
@@ -46456,6 +55162,12 @@ class PHABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHABTC"
@@ -46489,6 +55201,12 @@ class PHABUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHABUSD"
 
@@ -46520,6 +55238,12 @@ class PHAUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHAUSDT"
@@ -46553,6 +55277,12 @@ class PHBBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHBBNB"
 
@@ -46584,6 +55314,12 @@ class PHBBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHBBTC"
@@ -46617,6 +55353,12 @@ class PHBBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHBBUSD"
 
@@ -46648,6 +55390,12 @@ class PHBPAX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHBPAX"
@@ -46681,6 +55429,12 @@ class PHBTUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHBTUSD"
 
@@ -46712,6 +55466,12 @@ class PHBUSDC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHBUSDC"
@@ -46745,6 +55505,12 @@ class PHBUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHBUSDT"
 
@@ -46776,6 +55542,12 @@ class PHXBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHXBNB"
@@ -46809,6 +55581,12 @@ class PHXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PHXBTC"
 
@@ -46840,6 +55618,12 @@ class PHXETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PHXETH"
@@ -46873,6 +55657,12 @@ class PIVXBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PIVXBNB"
 
@@ -46904,6 +55694,12 @@ class PIVXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PIVXBTC"
@@ -46937,6 +55733,12 @@ class PLABNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PLABNB"
 
@@ -46968,6 +55770,12 @@ class PLABTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PLABTC"
@@ -47001,6 +55809,12 @@ class PLABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PLABUSD"
 
@@ -47032,6 +55846,12 @@ class PLAUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PLAUSDT"
@@ -47065,6 +55885,12 @@ class PNTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PNTBTC"
 
@@ -47096,6 +55922,12 @@ class PNTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PNTUSDT"
@@ -47129,6 +55961,12 @@ class POABNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POABNB"
 
@@ -47160,6 +55998,12 @@ class POABTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POABTC"
@@ -47193,6 +56037,12 @@ class POAETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POAETH"
 
@@ -47224,6 +56074,12 @@ class POEBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POEBTC"
@@ -47257,6 +56113,12 @@ class POEETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POEETH"
 
@@ -47288,6 +56150,12 @@ class POLSBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLSBNB"
@@ -47321,6 +56189,12 @@ class POLSBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POLSBTC"
 
@@ -47352,6 +56226,12 @@ class POLSBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLSBUSD"
@@ -47385,6 +56265,12 @@ class POLSUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POLSUSDT"
 
@@ -47416,6 +56302,12 @@ class POLYBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLYBNB"
@@ -47449,6 +56341,12 @@ class POLYBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POLYBTC"
 
@@ -47480,6 +56378,12 @@ class POLYBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLYBUSD"
@@ -47513,6 +56417,12 @@ class POLYUSDT:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POLYUSDT"
 
@@ -47544,6 +56454,12 @@ class POLYXBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLYXBTC"
@@ -47577,6 +56493,12 @@ class POLYXBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POLYXBUSD"
 
@@ -47608,6 +56530,12 @@ class POLYXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POLYXUSDT"
@@ -47641,6 +56569,12 @@ class PONDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PONDBTC"
 
@@ -47672,6 +56606,12 @@ class PONDBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PONDBUSD"
@@ -47705,6 +56645,12 @@ class PONDUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PONDUSDT"
 
@@ -47736,6 +56682,12 @@ class PORTOBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PORTOBTC"
@@ -47769,6 +56721,12 @@ class PORTOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PORTOBUSD"
 
@@ -47800,6 +56758,12 @@ class PORTOEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PORTOEUR"
@@ -47833,6 +56797,12 @@ class PORTOTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PORTOTRY"
 
@@ -47864,6 +56834,12 @@ class PORTOUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PORTOUSDT"
@@ -47897,6 +56873,12 @@ class POWRBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POWRBNB"
 
@@ -47928,6 +56910,12 @@ class POWRBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POWRBTC"
@@ -47961,6 +56949,12 @@ class POWRBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POWRBUSD"
 
@@ -47992,6 +56986,12 @@ class POWRETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "POWRETH"
@@ -48025,6 +57025,12 @@ class POWRUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "POWRUSDT"
 
@@ -48056,6 +57062,12 @@ class PPTBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PPTBTC"
@@ -48089,6 +57101,12 @@ class PPTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PPTETH"
 
@@ -48120,6 +57138,12 @@ class PROMBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PROMBNB"
@@ -48153,6 +57177,12 @@ class PROMBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PROMBTC"
 
@@ -48184,6 +57214,12 @@ class PROMBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PROMBUSD"
@@ -48217,6 +57253,12 @@ class PROSBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PROSBUSD"
 
@@ -48248,6 +57290,12 @@ class PROSETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PROSETH"
@@ -48281,6 +57329,12 @@ class PSGBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PSGBTC"
 
@@ -48312,6 +57366,12 @@ class PSGBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PSGBUSD"
@@ -48345,6 +57405,12 @@ class PSGUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PSGUSDT"
 
@@ -48376,6 +57442,12 @@ class PUNDIXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PUNDIXBUSD"
@@ -48409,6 +57481,12 @@ class PUNDIXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PUNDIXETH"
 
@@ -48440,6 +57518,12 @@ class PUNDIXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PUNDIXUSDT"
@@ -48473,6 +57557,12 @@ class PYRBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PYRBTC"
 
@@ -48504,6 +57594,12 @@ class PYRBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "PYRBUSD"
@@ -48537,6 +57633,12 @@ class PYRUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "PYRUSDT"
 
@@ -48568,6 +57670,12 @@ class QIBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QIBNB"
@@ -48601,6 +57709,12 @@ class QIBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QIBTC"
 
@@ -48632,6 +57746,12 @@ class QIBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QIBUSD"
@@ -48665,6 +57785,12 @@ class QIUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QIUSDT"
 
@@ -48696,6 +57822,12 @@ class QKCBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QKCBTC"
@@ -48729,6 +57861,12 @@ class QKCBUSD:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QKCBUSD"
 
@@ -48760,6 +57898,12 @@ class QKCETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QKCETH"
@@ -48793,6 +57937,12 @@ class QLCBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QLCBNB"
 
@@ -48824,6 +57974,12 @@ class QLCBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QLCBTC"
@@ -48857,6 +58013,12 @@ class QLCETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QLCETH"
 
@@ -48888,6 +58050,12 @@ class QNTBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QNTBNB"
@@ -48921,6 +58089,12 @@ class QNTBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QNTBTC"
 
@@ -48952,6 +58126,12 @@ class QNTBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QNTBUSD"
@@ -48985,6 +58165,12 @@ class QNTUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QNTUSDT"
 
@@ -49016,6 +58202,12 @@ class QSPBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QSPBNB"
@@ -49049,6 +58241,12 @@ class QSPBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QSPBTC"
 
@@ -49080,6 +58278,12 @@ class QSPETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QSPETH"
@@ -49113,6 +58317,12 @@ class QTUMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QTUMBNB"
 
@@ -49144,6 +58354,12 @@ class QTUMBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QTUMBTC"
@@ -49177,6 +58393,12 @@ class QTUMBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QTUMBUSD"
 
@@ -49208,6 +58430,12 @@ class QTUMETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QTUMETH"
@@ -49241,6 +58469,12 @@ class QTUMUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QTUMUSDT"
 
@@ -49272,6 +58506,12 @@ class QUICKBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QUICKBNB"
@@ -49305,6 +58545,12 @@ class QUICKBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QUICKBTC"
 
@@ -49336,6 +58582,12 @@ class QUICKBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 922327.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "QUICKBUSD"
@@ -49369,6 +58621,12 @@ class QUICKUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "QUICKUSDT"
 
@@ -49400,6 +58658,12 @@ class RADBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RADBNB"
@@ -49433,6 +58697,12 @@ class RADBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RADBTC"
 
@@ -49464,6 +58734,12 @@ class RADBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RADBUSD"
@@ -49497,6 +58773,12 @@ class RADUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RADUSDT"
 
@@ -49528,6 +58810,12 @@ class RAMPBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RAMPBTC"
@@ -49561,6 +58849,12 @@ class RAMPBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RAMPBUSD"
 
@@ -49592,6 +58886,12 @@ class RAMPUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RAMPUSDT"
@@ -49625,6 +58925,12 @@ class RAREBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RAREBNB"
 
@@ -49656,6 +58962,12 @@ class RAREBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RAREBTC"
@@ -49689,6 +59001,12 @@ class RAREBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RAREBUSD"
 
@@ -49720,6 +59038,12 @@ class RAREUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RAREUSDT"
@@ -49753,6 +59077,12 @@ class RAYBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RAYBNB"
 
@@ -49784,6 +59114,12 @@ class RAYBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RAYBUSD"
@@ -49817,6 +59153,12 @@ class RAYUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RAYUSDT"
 
@@ -49848,6 +59190,12 @@ class RCNBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RCNBNB"
@@ -49881,6 +59229,12 @@ class RCNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RCNBTC"
 
@@ -49912,6 +59266,12 @@ class RCNETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RCNETH"
@@ -49945,6 +59305,12 @@ class RDNBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RDNBNB"
 
@@ -49976,6 +59342,12 @@ class RDNBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RDNBTC"
@@ -50009,6 +59381,12 @@ class RDNETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RDNETH"
 
@@ -50040,6 +59418,12 @@ class REEFBIDR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REEFBIDR"
@@ -50073,6 +59457,12 @@ class REEFBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REEFBTC"
 
@@ -50104,6 +59494,12 @@ class REEFBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REEFBUSD"
@@ -50137,6 +59533,12 @@ class REEFTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REEFTRY"
 
@@ -50168,6 +59570,12 @@ class REEFUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REEFUSDT"
@@ -50201,6 +59609,12 @@ class REIBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REIBNB"
 
@@ -50232,6 +59646,12 @@ class REIBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REIBUSD"
@@ -50265,6 +59685,12 @@ class REIETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REIETH"
 
@@ -50296,6 +59722,12 @@ class REIUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REIUSDT"
@@ -50329,6 +59761,12 @@ class RENBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RENBNB"
 
@@ -50360,6 +59798,12 @@ class RENBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RENBTC"
@@ -50393,6 +59837,12 @@ class RENBTCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RENBTCBTC"
 
@@ -50424,6 +59874,12 @@ class RENBTCETH:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RENBTCETH"
@@ -50457,6 +59913,12 @@ class RENBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RENBUSD"
 
@@ -50488,6 +59950,12 @@ class RENUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RENUSDT"
@@ -50521,6 +59989,12 @@ class REPBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REPBNB"
 
@@ -50552,6 +60026,12 @@ class REPBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REPBTC"
@@ -50585,6 +60065,12 @@ class REPBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REPBUSD"
 
@@ -50616,6 +60102,12 @@ class REPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REPUSDT"
@@ -50649,6 +60141,12 @@ class REQBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REQBTC"
 
@@ -50680,6 +60178,12 @@ class REQBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REQBUSD"
@@ -50713,6 +60217,12 @@ class REQETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "REQETH"
 
@@ -50744,6 +60254,12 @@ class REQUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "REQUSDT"
@@ -50777,6 +60293,12 @@ class RGTBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RGTBNB"
 
@@ -50808,6 +60330,12 @@ class RGTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RGTBTC"
@@ -50841,6 +60369,12 @@ class RGTBUSD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RGTBUSD"
 
@@ -50872,6 +60406,12 @@ class RGTUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RGTUSDT"
@@ -50905,6 +60445,12 @@ class RIFBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RIFBTC"
 
@@ -50936,6 +60482,12 @@ class RIFUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RIFUSDT"
@@ -50969,6 +60521,12 @@ class RLCBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RLCBNB"
 
@@ -51000,6 +60558,12 @@ class RLCBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RLCBTC"
@@ -51033,6 +60597,12 @@ class RLCBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RLCBUSD"
 
@@ -51064,6 +60634,12 @@ class RLCETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RLCETH"
@@ -51097,6 +60673,12 @@ class RLCUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RLCUSDT"
 
@@ -51128,6 +60710,12 @@ class RNDRBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RNDRBTC"
@@ -51161,6 +60749,12 @@ class RNDRBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RNDRBUSD"
 
@@ -51192,6 +60786,12 @@ class RNDRUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RNDRUSDT"
@@ -51225,6 +60825,12 @@ class ROSEBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ROSEBNB"
 
@@ -51256,6 +60862,12 @@ class ROSEBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ROSEBTC"
@@ -51289,6 +60901,12 @@ class ROSEBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ROSEBUSD"
 
@@ -51320,6 +60938,12 @@ class ROSEETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ROSEETH"
@@ -51353,6 +60977,12 @@ class ROSETRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ROSETRY"
 
@@ -51384,6 +61014,12 @@ class ROSEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ROSEUSDT"
@@ -51417,6 +61053,12 @@ class RPXBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RPXBNB"
 
@@ -51448,6 +61090,12 @@ class RPXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RPXBTC"
@@ -51481,6 +61129,12 @@ class RPXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RPXETH"
 
@@ -51512,6 +61166,12 @@ class RSRBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RSRBNB"
@@ -51545,6 +61205,12 @@ class RSRBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RSRBTC"
 
@@ -51576,6 +61242,12 @@ class RSRBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RSRBUSD"
@@ -51609,6 +61281,12 @@ class RSRUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RSRUSDT"
 
@@ -51640,6 +61318,12 @@ class RUNEAUD:
     minimum_order_size: float = 0.00000100
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RUNEAUD"
@@ -51673,6 +61357,12 @@ class RUNEBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RUNEBNB"
 
@@ -51704,6 +61394,12 @@ class RUNEBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RUNEBTC"
@@ -51737,6 +61433,12 @@ class RUNEBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RUNEBUSD"
 
@@ -51768,6 +61470,12 @@ class RUNEETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RUNEETH"
@@ -51801,6 +61509,12 @@ class RUNEEUR:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RUNEEUR"
 
@@ -51832,6 +61546,12 @@ class RUNEGBP:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RUNEGBP"
@@ -51865,6 +61585,12 @@ class RUNETRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RUNETRY"
 
@@ -51896,6 +61622,12 @@ class RUNEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RUNEUSDT"
@@ -51929,6 +61661,12 @@ class RVNBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RVNBTC"
 
@@ -51960,6 +61698,12 @@ class RVNBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RVNBUSD"
@@ -51993,6 +61737,12 @@ class RVNTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "RVNTRY"
 
@@ -52024,6 +61774,12 @@ class RVNUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "RVNUSDT"
@@ -52057,6 +61813,12 @@ class SALTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SALTBTC"
 
@@ -52088,6 +61850,12 @@ class SALTETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SALTETH"
@@ -52121,6 +61889,12 @@ class SANDAUD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANDAUD"
 
@@ -52152,6 +61926,12 @@ class SANDBIDR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9223371110.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANDBIDR"
@@ -52185,6 +61965,12 @@ class SANDBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANDBNB"
 
@@ -52216,6 +62002,12 @@ class SANDBRL:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANDBRL"
@@ -52249,6 +62041,12 @@ class SANDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANDBTC"
 
@@ -52280,6 +62078,12 @@ class SANDBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANDBUSD"
@@ -52313,6 +62117,12 @@ class SANDETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANDETH"
 
@@ -52344,6 +62154,12 @@ class SANDTRY:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANDTRY"
@@ -52377,6 +62193,12 @@ class SANDUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANDUSDT"
 
@@ -52408,6 +62230,12 @@ class SANTOSBRL:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANTOSBRL"
@@ -52441,6 +62269,12 @@ class SANTOSBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANTOSBTC"
 
@@ -52472,6 +62306,12 @@ class SANTOSBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANTOSBUSD"
@@ -52505,6 +62345,12 @@ class SANTOSTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SANTOSTRY"
 
@@ -52536,6 +62382,12 @@ class SANTOSUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SANTOSUSDT"
@@ -52569,6 +62421,12 @@ class SCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SCBTC"
 
@@ -52600,6 +62458,12 @@ class SCBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SCBUSD"
@@ -52633,6 +62497,12 @@ class SCETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SCETH"
 
@@ -52664,6 +62534,12 @@ class SCRTBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SCRTBTC"
@@ -52697,6 +62573,12 @@ class SCRTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SCRTBUSD"
 
@@ -52728,6 +62610,12 @@ class SCRTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SCRTETH"
@@ -52761,6 +62649,12 @@ class SCRTUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SCRTUSDT"
 
@@ -52792,6 +62686,12 @@ class SCUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SCUSDT"
@@ -52825,6 +62725,12 @@ class SFPBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SFPBTC"
 
@@ -52856,6 +62762,12 @@ class SFPBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SFPBUSD"
@@ -52889,6 +62801,12 @@ class SFPUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SFPUSDT"
 
@@ -52920,6 +62838,12 @@ class SHIBAUD:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 46116860414.00
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SHIBAUD"
@@ -52953,6 +62877,12 @@ class SHIBBRL:
     maximum_order_size: float = 46116860414.00
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SHIBBRL"
 
@@ -52984,6 +62914,12 @@ class SHIBBUSD:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 46116860414.00
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SHIBBUSD"
@@ -53017,6 +62953,12 @@ class SHIBDOGE:
     maximum_order_size: float = 46116860414.00
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SHIBDOGE"
 
@@ -53048,6 +62990,12 @@ class SHIBEUR:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 46116860414.00
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SHIBEUR"
@@ -53081,6 +63029,12 @@ class SHIBGBP:
     maximum_order_size: float = 46116860414.00
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SHIBGBP"
 
@@ -53112,6 +63066,12 @@ class SHIBRUB:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 46116860414.00
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SHIBRUB"
@@ -53145,6 +63105,12 @@ class SHIBTRY:
     maximum_order_size: float = 46116860414.00
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SHIBTRY"
 
@@ -53176,6 +63142,12 @@ class SHIBUAH:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 92141578.00
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SHIBUAH"
@@ -53209,6 +63181,12 @@ class SHIBUSDT:
     maximum_order_size: float = 46116860414.00
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SHIBUSDT"
 
@@ -53240,6 +63218,12 @@ class SKLBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SKLBTC"
@@ -53273,6 +63257,12 @@ class SKLBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SKLBUSD"
 
@@ -53304,6 +63294,12 @@ class SKLUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SKLUSDT"
@@ -53337,6 +63333,12 @@ class SKYBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SKYBNB"
 
@@ -53368,6 +63370,12 @@ class SKYBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SKYBTC"
@@ -53401,6 +63409,12 @@ class SKYETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SKYETH"
 
@@ -53432,6 +63446,12 @@ class SLPBIDR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9223362229.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SLPBIDR"
@@ -53465,6 +63485,12 @@ class SLPBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SLPBNB"
 
@@ -53496,6 +63522,12 @@ class SLPBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SLPBUSD"
@@ -53529,6 +63561,12 @@ class SLPETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SLPETH"
 
@@ -53560,6 +63598,12 @@ class SLPTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SLPTRY"
@@ -53593,6 +63637,12 @@ class SLPUSDT:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SLPUSDT"
 
@@ -53624,6 +63674,12 @@ class SNGLSBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNGLSBTC"
@@ -53657,6 +63713,12 @@ class SNGLSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNGLSETH"
 
@@ -53688,6 +63750,12 @@ class SNMBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNMBTC"
@@ -53721,6 +63789,12 @@ class SNMBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNMBUSD"
 
@@ -53752,6 +63826,12 @@ class SNMETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNMETH"
@@ -53785,6 +63865,12 @@ class SNTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNTBTC"
 
@@ -53816,6 +63902,12 @@ class SNTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNTBUSD"
@@ -53849,6 +63941,12 @@ class SNTETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNTETH"
 
@@ -53880,6 +63978,12 @@ class SNXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNXBNB"
@@ -53913,6 +64017,12 @@ class SNXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNXBTC"
 
@@ -53944,6 +64054,12 @@ class SNXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNXBUSD"
@@ -53977,6 +64093,12 @@ class SNXETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SNXETH"
 
@@ -54008,6 +64130,12 @@ class SNXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SNXUSDT"
@@ -54041,6 +64169,12 @@ class SOLAUD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLAUD"
 
@@ -54072,6 +64206,12 @@ class SOLBIDR:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 9223372.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLBIDR"
@@ -54105,6 +64245,12 @@ class SOLBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLBNB"
 
@@ -54136,6 +64282,12 @@ class SOLBRL:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLBRL"
@@ -54169,6 +64321,12 @@ class SOLBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLBTC"
 
@@ -54200,6 +64358,12 @@ class SOLBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLBUSD"
@@ -54233,6 +64397,12 @@ class SOLETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLETH"
 
@@ -54264,6 +64434,12 @@ class SOLEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222440.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLEUR"
@@ -54297,6 +64473,12 @@ class SOLGBP:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLGBP"
 
@@ -54328,6 +64510,12 @@ class SOLRUB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLRUB"
@@ -54361,6 +64549,12 @@ class SOLTRY:
     maximum_order_size: float = 3074353.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLTRY"
 
@@ -54392,6 +64586,12 @@ class SOLUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SOLUSDC"
@@ -54425,6 +64625,12 @@ class SOLUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SOLUSDT"
 
@@ -54456,6 +64662,12 @@ class SPARTABNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SPARTABNB"
@@ -54489,6 +64701,12 @@ class SPELLBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SPELLBNB"
 
@@ -54520,6 +64738,12 @@ class SPELLBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SPELLBTC"
@@ -54553,6 +64777,12 @@ class SPELLBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SPELLBUSD"
 
@@ -54584,6 +64814,12 @@ class SPELLTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SPELLTRY"
@@ -54617,6 +64853,12 @@ class SPELLUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SPELLUSDT"
 
@@ -54648,6 +64890,12 @@ class SRMBIDR:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 100000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SRMBIDR"
@@ -54681,6 +64929,12 @@ class SRMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SRMBNB"
 
@@ -54712,6 +64966,12 @@ class SRMBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SRMBTC"
@@ -54745,6 +65005,12 @@ class SRMBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SRMBUSD"
 
@@ -54776,6 +65042,12 @@ class SRMUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SRMUSDT"
@@ -54809,6 +65081,12 @@ class SSVBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SSVBTC"
 
@@ -54840,6 +65118,12 @@ class SSVBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SSVBUSD"
@@ -54873,6 +65157,12 @@ class SSVETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SSVETH"
 
@@ -54904,6 +65194,12 @@ class STEEMBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STEEMBNB"
@@ -54937,6 +65233,12 @@ class STEEMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STEEMBTC"
 
@@ -54968,6 +65270,12 @@ class STEEMBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STEEMBUSD"
@@ -55001,6 +65309,12 @@ class STEEMETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STEEMETH"
 
@@ -55032,6 +65346,12 @@ class STEEMUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STEEMUSDT"
@@ -55065,6 +65385,12 @@ class STGBTC:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STGBTC"
 
@@ -55096,6 +65422,12 @@ class STGBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STGBUSD"
@@ -55129,6 +65461,12 @@ class STGUSDT:
     maximum_order_size: float = 913205152.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STGUSDT"
 
@@ -55160,6 +65498,12 @@ class STMXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STMXBTC"
@@ -55193,6 +65537,12 @@ class STMXBUSD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STMXBUSD"
 
@@ -55224,6 +65574,12 @@ class STMXETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STMXETH"
@@ -55257,6 +65613,12 @@ class STMXUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STMXUSDT"
 
@@ -55288,6 +65650,12 @@ class STORJBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STORJBTC"
@@ -55321,6 +65689,12 @@ class STORJBUSD:
     maximum_order_size: float = 9222448.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STORJBUSD"
 
@@ -55352,6 +65726,12 @@ class STORJETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STORJETH"
@@ -55385,6 +65765,12 @@ class STORJTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STORJTRY"
 
@@ -55416,6 +65802,12 @@ class STORJUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STORJUSDT"
@@ -55449,6 +65841,12 @@ class STORMBNB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STORMBNB"
 
@@ -55480,6 +65878,12 @@ class STORMBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STORMBTC"
@@ -55513,6 +65917,12 @@ class STORMETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STORMETH"
 
@@ -55544,6 +65954,12 @@ class STORMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STORMUSDT"
@@ -55577,6 +65993,12 @@ class STPTBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STPTBNB"
 
@@ -55608,6 +66030,12 @@ class STPTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STPTBTC"
@@ -55641,6 +66069,12 @@ class STPTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STPTBUSD"
 
@@ -55672,6 +66106,12 @@ class STPTUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STPTUSDT"
@@ -55705,6 +66145,12 @@ class STRATBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STRATBNB"
 
@@ -55736,6 +66182,12 @@ class STRATBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STRATBTC"
@@ -55769,6 +66221,12 @@ class STRATBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STRATBUSD"
 
@@ -55800,6 +66258,12 @@ class STRATETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STRATETH"
@@ -55833,6 +66297,12 @@ class STRATUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STRATUSDT"
 
@@ -55864,6 +66334,12 @@ class STRAXBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STRAXBTC"
@@ -55897,6 +66373,12 @@ class STRAXBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STRAXBUSD"
 
@@ -55928,6 +66410,12 @@ class STRAXETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STRAXETH"
@@ -55961,6 +66449,12 @@ class STRAXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STRAXUSDT"
 
@@ -55992,6 +66486,12 @@ class STXBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STXBNB"
@@ -56025,6 +66525,12 @@ class STXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STXBTC"
 
@@ -56056,6 +66562,12 @@ class STXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "STXBUSD"
@@ -56089,6 +66601,12 @@ class STXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "STXUSDT"
 
@@ -56120,6 +66638,12 @@ class SUBBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUBBTC"
@@ -56153,6 +66677,12 @@ class SUBETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUBETH"
 
@@ -56184,6 +66714,12 @@ class SUNBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUNBTC"
@@ -56217,6 +66753,12 @@ class SUNBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUNBUSD"
 
@@ -56248,6 +66790,12 @@ class SUNUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUNUSDT"
@@ -56281,6 +66829,12 @@ class SUPERBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUPERBTC"
 
@@ -56312,6 +66866,12 @@ class SUPERBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUPERBUSD"
@@ -56345,6 +66905,12 @@ class SUPERUSDT:
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUPERUSDT"
 
@@ -56376,6 +66942,12 @@ class SUSDBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUSDBTC"
@@ -56409,6 +66981,12 @@ class SUSDETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUSDETH"
 
@@ -56440,6 +67018,12 @@ class SUSDUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUSDUSDT"
@@ -56473,6 +67057,12 @@ class SUSHIBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUSHIBNB"
 
@@ -56504,6 +67094,12 @@ class SUSHIBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUSHIBTC"
@@ -56537,6 +67133,12 @@ class SUSHIBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUSHIBUSD"
 
@@ -56568,6 +67170,12 @@ class SUSHIDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 19998638.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUSHIDOWNUSDT"
@@ -56601,6 +67209,12 @@ class SUSHIUPUSDT:
     maximum_order_size: float = 150000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SUSHIUPUSDT"
 
@@ -56632,6 +67246,12 @@ class SUSHIUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SUSHIUSDT"
@@ -56665,6 +67285,12 @@ class SWRVBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SWRVBNB"
 
@@ -56696,6 +67322,12 @@ class SWRVBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SWRVBUSD"
@@ -56729,6 +67361,12 @@ class SXPAUD:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPAUD"
 
@@ -56760,6 +67398,12 @@ class SXPBIDR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SXPBIDR"
@@ -56793,6 +67437,12 @@ class SXPBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPBNB"
 
@@ -56824,6 +67474,12 @@ class SXPBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SXPBTC"
@@ -56857,6 +67513,12 @@ class SXPBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPBUSD"
 
@@ -56888,6 +67550,12 @@ class SXPDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 100000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SXPDOWNUSDT"
@@ -56921,6 +67589,12 @@ class SXPEUR:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPEUR"
 
@@ -56952,6 +67626,12 @@ class SXPGBP:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SXPGBP"
@@ -56985,6 +67665,12 @@ class SXPTRY:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPTRY"
 
@@ -57016,6 +67702,12 @@ class SXPUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SXPUPUSDT"
@@ -57049,6 +67741,12 @@ class SXPUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SXPUSDT"
 
@@ -57080,6 +67778,12 @@ class SYSBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SYSBNB"
@@ -57113,6 +67817,12 @@ class SYSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SYSBTC"
 
@@ -57144,6 +67854,12 @@ class SYSBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SYSBUSD"
@@ -57177,6 +67893,12 @@ class SYSETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "SYSETH"
 
@@ -57208,6 +67930,12 @@ class SYSUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "SYSUSDT"
@@ -57241,6 +67969,12 @@ class TBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TBUSD"
 
@@ -57272,6 +68006,12 @@ class TCTBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TCTBNB"
@@ -57305,6 +68045,12 @@ class TCTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TCTBTC"
 
@@ -57336,6 +68082,12 @@ class TCTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TCTUSDT"
@@ -57369,6 +68121,12 @@ class TFUELBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TFUELBNB"
 
@@ -57400,6 +68158,12 @@ class TFUELBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TFUELBTC"
@@ -57433,6 +68197,12 @@ class TFUELBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TFUELBUSD"
 
@@ -57464,6 +68234,12 @@ class TFUELPAX:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TFUELPAX"
@@ -57497,6 +68273,12 @@ class TFUELTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TFUELTUSD"
 
@@ -57528,6 +68310,12 @@ class TFUELUSDC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TFUELUSDC"
@@ -57561,6 +68349,12 @@ class TFUELUSDT:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TFUELUSDT"
 
@@ -57592,6 +68386,12 @@ class THETABNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "THETABNB"
@@ -57625,6 +68425,12 @@ class THETABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "THETABTC"
 
@@ -57656,6 +68462,12 @@ class THETABUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "THETABUSD"
@@ -57689,6 +68501,12 @@ class THETAETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "THETAETH"
 
@@ -57720,6 +68538,12 @@ class THETAEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "THETAEUR"
@@ -57753,6 +68577,12 @@ class THETAUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "THETAUSDT"
 
@@ -57784,6 +68614,12 @@ class TKOBIDR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TKOBIDR"
@@ -57817,6 +68653,12 @@ class TKOBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TKOBTC"
 
@@ -57848,6 +68690,12 @@ class TKOBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TKOBUSD"
@@ -57881,6 +68729,12 @@ class TKOUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TKOUSDT"
 
@@ -57912,6 +68766,12 @@ class TLMBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TLMBNB"
@@ -57945,6 +68805,12 @@ class TLMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TLMBTC"
 
@@ -57976,6 +68842,12 @@ class TLMBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TLMBUSD"
@@ -58009,6 +68881,12 @@ class TLMTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TLMTRY"
 
@@ -58040,6 +68918,12 @@ class TLMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TLMUSDT"
@@ -58073,6 +68957,12 @@ class TNBBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TNBBTC"
 
@@ -58104,6 +68994,12 @@ class TNBETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TNBETH"
@@ -58137,6 +69033,12 @@ class TNTBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TNTBTC"
 
@@ -58168,6 +69070,12 @@ class TNTETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TNTETH"
@@ -58201,6 +69109,12 @@ class TOMOBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TOMOBNB"
 
@@ -58232,6 +69146,12 @@ class TOMOBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TOMOBTC"
@@ -58265,6 +69185,12 @@ class TOMOBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TOMOBUSD"
 
@@ -58296,6 +69222,12 @@ class TOMOUSDC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TOMOUSDC"
@@ -58329,6 +69261,12 @@ class TOMOUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TOMOUSDT"
 
@@ -58360,6 +69298,12 @@ class TORNBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TORNBNB"
@@ -58393,6 +69337,12 @@ class TORNBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TORNBTC"
 
@@ -58424,6 +69374,12 @@ class TORNBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TORNBUSD"
@@ -58457,6 +69413,12 @@ class TORNUSDT:
     maximum_order_size: float = 922327.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TORNUSDT"
 
@@ -58488,6 +69450,12 @@ class TRBBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRBBNB"
@@ -58521,6 +69489,12 @@ class TRBBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRBBTC"
 
@@ -58552,6 +69526,12 @@ class TRBBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRBBUSD"
@@ -58585,6 +69565,12 @@ class TRBUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRBUSDT"
 
@@ -58616,6 +69602,12 @@ class TRIBEBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRIBEBNB"
@@ -58649,6 +69641,12 @@ class TRIBEBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRIBEBTC"
 
@@ -58680,6 +69678,12 @@ class TRIBEBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRIBEBUSD"
@@ -58713,6 +69717,12 @@ class TRIBEUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRIBEUSDT"
 
@@ -58744,6 +69754,12 @@ class TRIGBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRIGBNB"
@@ -58777,6 +69793,12 @@ class TRIGBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRIGBTC"
 
@@ -58808,6 +69830,12 @@ class TRIGETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRIGETH"
@@ -58841,6 +69869,12 @@ class TROYBNB:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TROYBNB"
 
@@ -58872,6 +69906,12 @@ class TROYBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TROYBTC"
@@ -58905,6 +69945,12 @@ class TROYBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TROYBUSD"
 
@@ -58936,6 +69982,12 @@ class TROYUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TROYUSDT"
@@ -58969,6 +70021,12 @@ class TRUBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRUBTC"
 
@@ -59000,6 +70058,12 @@ class TRUBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRUBUSD"
@@ -59033,6 +70097,12 @@ class TRURUB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRURUB"
 
@@ -59064,6 +70134,12 @@ class TRUUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRUUSDT"
@@ -59097,6 +70173,12 @@ class TRXAUD:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXAUD"
 
@@ -59128,6 +70210,12 @@ class TRXBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXBNB"
@@ -59161,6 +70249,12 @@ class TRXBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXBTC"
 
@@ -59192,6 +70286,12 @@ class TRXBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXBUSD"
@@ -59225,6 +70325,12 @@ class TRXDOWNUSDT:
     maximum_order_size: float = 89984117.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXDOWNUSDT"
 
@@ -59256,6 +70362,12 @@ class TRXETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXETH"
@@ -59289,6 +70401,12 @@ class TRXEUR:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXEUR"
 
@@ -59320,6 +70438,12 @@ class TRXNGN:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922320.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXNGN"
@@ -59353,6 +70477,12 @@ class TRXPAX:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXPAX"
 
@@ -59384,6 +70514,12 @@ class TRXTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXTRY"
@@ -59417,6 +70553,12 @@ class TRXTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXTUSD"
 
@@ -59448,6 +70590,12 @@ class TRXUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXUPUSDT"
@@ -59481,6 +70629,12 @@ class TRXUSDC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXUSDC"
 
@@ -59512,6 +70666,12 @@ class TRXUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TRXUSDT"
@@ -59545,6 +70705,12 @@ class TRXXRP:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TRXXRP"
 
@@ -59576,6 +70742,12 @@ class TUSDBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TUSDBNB"
@@ -59609,6 +70781,12 @@ class TUSDBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TUSDBTC"
 
@@ -59640,6 +70818,12 @@ class TUSDBTUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TUSDBTUSD"
@@ -59673,6 +70857,12 @@ class TUSDBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TUSDBUSD"
 
@@ -59704,6 +70894,12 @@ class TUSDETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TUSDETH"
@@ -59737,6 +70933,12 @@ class TUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TUSDT"
 
@@ -59768,6 +70970,12 @@ class TUSDUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TUSDUSDT"
@@ -59801,6 +71009,12 @@ class TVKBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TVKBTC"
 
@@ -59832,6 +71046,12 @@ class TVKBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TVKBUSD"
@@ -59865,6 +71085,12 @@ class TVKUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TVKUSDT"
 
@@ -59896,6 +71122,12 @@ class TWTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TWTBTC"
@@ -59929,6 +71161,12 @@ class TWTBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TWTBUSD"
 
@@ -59960,6 +71198,12 @@ class TWTTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "TWTTRY"
@@ -59993,6 +71237,12 @@ class TWTUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "TWTUSDT"
 
@@ -60024,6 +71274,12 @@ class UFTBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UFTBUSD"
@@ -60057,6 +71313,12 @@ class UFTETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UFTETH"
 
@@ -60088,6 +71350,12 @@ class UMABTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UMABTC"
@@ -60121,6 +71389,12 @@ class UMABUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UMABUSD"
 
@@ -60152,6 +71426,12 @@ class UMATRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UMATRY"
@@ -60185,6 +71465,12 @@ class UMAUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UMAUSDT"
 
@@ -60216,6 +71502,12 @@ class UNFIBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNFIBNB"
@@ -60249,6 +71541,12 @@ class UNFIBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNFIBTC"
 
@@ -60280,6 +71578,12 @@ class UNFIBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNFIBUSD"
@@ -60313,6 +71617,12 @@ class UNFIETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNFIETH"
 
@@ -60344,6 +71654,12 @@ class UNFIUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNFIUSDT"
@@ -60377,6 +71693,12 @@ class UNIAUD:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNIAUD"
 
@@ -60408,6 +71730,12 @@ class UNIBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNIBNB"
@@ -60441,6 +71769,12 @@ class UNIBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNIBTC"
 
@@ -60472,6 +71806,12 @@ class UNIBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNIBUSD"
@@ -60505,6 +71845,12 @@ class UNIDOWNUSDT:
     maximum_order_size: float = 99999999.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNIDOWNUSDT"
 
@@ -60536,6 +71882,12 @@ class UNIETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNIETH"
@@ -60569,6 +71921,12 @@ class UNIEUR:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNIEUR"
 
@@ -60600,6 +71958,12 @@ class UNIUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UNIUPUSDT"
@@ -60633,6 +71997,12 @@ class UNIUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UNIUSDT"
 
@@ -60664,6 +72034,12 @@ class USDCBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDCBNB"
@@ -60697,6 +72073,12 @@ class USDCBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDCBUSD"
 
@@ -60728,6 +72110,12 @@ class USDCPAX:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDCPAX"
@@ -60761,6 +72149,12 @@ class USDCTUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDCTUSD"
 
@@ -60792,6 +72186,12 @@ class USDCUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDCUSDT"
@@ -60825,6 +72225,12 @@ class USDPBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDPBUSD"
 
@@ -60856,6 +72262,12 @@ class USDPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDPUSDT"
@@ -60889,6 +72301,12 @@ class USDSBUSDS:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDSBUSDS"
 
@@ -60920,6 +72338,12 @@ class USDSBUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDSBUSDT"
@@ -60953,6 +72377,12 @@ class USDSPAX:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDSPAX"
 
@@ -60984,6 +72414,12 @@ class USDSTUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDSTUSD"
@@ -61017,6 +72453,12 @@ class USDSUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDSUSDC"
 
@@ -61048,6 +72490,12 @@ class USDSUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDSUSDT"
@@ -61081,6 +72529,12 @@ class USDTBIDR:
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTBIDR"
 
@@ -61112,6 +72566,12 @@ class USDTBKRW:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDTBKRW"
@@ -61145,6 +72605,12 @@ class USDTBRL:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTBRL"
 
@@ -61176,6 +72642,12 @@ class USDTBVND:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDTBVND"
@@ -61209,6 +72681,12 @@ class USDTDAI:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTDAI"
 
@@ -61240,6 +72718,12 @@ class USDTIDRT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 1000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDTIDRT"
@@ -61273,6 +72757,12 @@ class USDTNGN:
     maximum_order_size: float = 922320.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTNGN"
 
@@ -61304,6 +72794,12 @@ class USDTRUB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDTRUB"
@@ -61337,6 +72833,12 @@ class USDTTRY:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTTRY"
 
@@ -61368,6 +72870,12 @@ class USDTUAH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USDTUAH"
@@ -61401,6 +72909,12 @@ class USDTZAR:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USDTZAR"
 
@@ -61432,6 +72946,12 @@ class USTBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USTBTC"
@@ -61465,6 +72985,12 @@ class USTBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USTBUSD"
 
@@ -61496,6 +73022,12 @@ class USTCBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "USTCBUSD"
@@ -61529,6 +73061,12 @@ class USTUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "USTUSDT"
 
@@ -61560,6 +73098,12 @@ class UTKBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UTKBTC"
@@ -61593,6 +73137,12 @@ class UTKBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "UTKBUSD"
 
@@ -61624,6 +73174,12 @@ class UTKUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "UTKUSDT"
@@ -61657,6 +73213,12 @@ class VENBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VENBNB"
 
@@ -61688,6 +73250,12 @@ class VENBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VENBTC"
@@ -61721,6 +73289,12 @@ class VENETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VENETH"
 
@@ -61752,6 +73326,12 @@ class VENUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VENUSDT"
@@ -61785,6 +73365,12 @@ class VETBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VETBNB"
 
@@ -61816,6 +73402,12 @@ class VETBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VETBTC"
@@ -61849,6 +73441,12 @@ class VETBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VETBUSD"
 
@@ -61880,6 +73478,12 @@ class VETETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VETETH"
@@ -61913,6 +73517,12 @@ class VETEUR:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VETEUR"
 
@@ -61944,6 +73554,12 @@ class VETGBP:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VETGBP"
@@ -61977,6 +73593,12 @@ class VETTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VETTRY"
 
@@ -62008,6 +73630,12 @@ class VETUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VETUSDT"
@@ -62041,6 +73669,12 @@ class VGXBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VGXBTC"
 
@@ -62072,6 +73706,12 @@ class VGXETH:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VGXETH"
@@ -62105,6 +73745,12 @@ class VGXUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VGXUSDT"
 
@@ -62136,6 +73782,12 @@ class VIABNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIABNB"
@@ -62169,6 +73821,12 @@ class VIABTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VIABTC"
 
@@ -62200,6 +73858,12 @@ class VIAETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIAETH"
@@ -62233,6 +73897,12 @@ class VIBBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VIBBTC"
 
@@ -62264,6 +73934,12 @@ class VIBBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIBBUSD"
@@ -62297,6 +73973,12 @@ class VIBEBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VIBEBTC"
 
@@ -62328,6 +74010,12 @@ class VIBEETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIBEETH"
@@ -62361,6 +74049,12 @@ class VIBETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VIBETH"
 
@@ -62392,6 +74086,12 @@ class VIDTBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 46116860414.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIDTBTC"
@@ -62425,6 +74125,12 @@ class VIDTBUSD:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VIDTBUSD"
 
@@ -62456,6 +74162,12 @@ class VIDTUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VIDTUSDT"
@@ -62489,6 +74201,12 @@ class VITEBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VITEBNB"
 
@@ -62520,6 +74238,12 @@ class VITEBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VITEBTC"
@@ -62553,6 +74277,12 @@ class VITEBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VITEBUSD"
 
@@ -62584,6 +74314,12 @@ class VITEUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VITEUSDT"
@@ -62617,6 +74353,12 @@ class VOXELBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VOXELBNB"
 
@@ -62648,6 +74390,12 @@ class VOXELBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VOXELBTC"
@@ -62681,6 +74429,12 @@ class VOXELBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VOXELBUSD"
 
@@ -62712,6 +74466,12 @@ class VOXELETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VOXELETH"
@@ -62745,6 +74505,12 @@ class VOXELUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VOXELUSDT"
 
@@ -62776,6 +74542,12 @@ class VTHOBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VTHOBNB"
@@ -62809,6 +74581,12 @@ class VTHOBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "VTHOBUSD"
 
@@ -62840,6 +74618,12 @@ class VTHOUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "VTHOUSDT"
@@ -62873,6 +74657,12 @@ class WABIBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WABIBNB"
 
@@ -62904,6 +74694,12 @@ class WABIBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WABIBTC"
@@ -62937,6 +74733,12 @@ class WABIETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WABIETH"
 
@@ -62968,6 +74770,12 @@ class WANBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WANBNB"
@@ -63001,6 +74809,12 @@ class WANBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WANBTC"
 
@@ -63032,6 +74846,12 @@ class WANETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WANETH"
@@ -63065,6 +74885,12 @@ class WANUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WANUSDT"
 
@@ -63096,6 +74922,12 @@ class WAVESBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESBNB"
@@ -63129,6 +74961,12 @@ class WAVESBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAVESBTC"
 
@@ -63160,6 +74998,12 @@ class WAVESBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESBUSD"
@@ -63193,6 +75037,12 @@ class WAVESETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAVESETH"
 
@@ -63224,6 +75074,12 @@ class WAVESEUR:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESEUR"
@@ -63257,6 +75113,12 @@ class WAVESPAX:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAVESPAX"
 
@@ -63288,6 +75150,12 @@ class WAVESRUB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92233.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESRUB"
@@ -63321,6 +75189,12 @@ class WAVESTRY:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAVESTRY"
 
@@ -63352,6 +75226,12 @@ class WAVESTUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESTUSD"
@@ -63385,6 +75265,12 @@ class WAVESUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAVESUSDC"
 
@@ -63416,6 +75302,12 @@ class WAVESUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAVESUSDT"
@@ -63449,6 +75341,12 @@ class WAXPBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAXPBNB"
 
@@ -63480,6 +75378,12 @@ class WAXPBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAXPBTC"
@@ -63513,6 +75417,12 @@ class WAXPBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WAXPBUSD"
 
@@ -63544,6 +75454,12 @@ class WAXPUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WAXPUSDT"
@@ -63577,6 +75493,12 @@ class WBTCBTC:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WBTCBTC"
 
@@ -63608,6 +75530,12 @@ class WBTCBUSD:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WBTCBUSD"
@@ -63641,6 +75569,12 @@ class WBTCETH:
     maximum_order_size: float = 100000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WBTCETH"
 
@@ -63672,6 +75606,12 @@ class WINBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINBNB"
@@ -63705,6 +75645,12 @@ class WINBRL:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINBRL"
 
@@ -63736,6 +75682,12 @@ class WINBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINBTC"
@@ -63769,6 +75721,12 @@ class WINBUSD:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINBUSD"
 
@@ -63800,6 +75758,12 @@ class WINEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINEUR"
@@ -63833,6 +75797,12 @@ class WINGBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINGBNB"
 
@@ -63864,6 +75834,12 @@ class WINGBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINGBTC"
@@ -63897,6 +75873,12 @@ class WINGBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINGBUSD"
 
@@ -63928,6 +75910,12 @@ class WINGETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINGETH"
@@ -63961,6 +75949,12 @@ class WINGSBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINGSBTC"
 
@@ -63992,6 +75986,12 @@ class WINGSETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINGSETH"
@@ -64025,6 +76025,12 @@ class WINGUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINGUSDT"
 
@@ -64056,6 +76062,12 @@ class WINTRX:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINTRX"
@@ -64089,6 +76101,12 @@ class WINUSDC:
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WINUSDC"
 
@@ -64120,6 +76138,12 @@ class WINUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 913205152.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WINUSDT"
@@ -64153,6 +76177,12 @@ class WNXMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WNXMBNB"
 
@@ -64184,6 +76214,12 @@ class WNXMBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 10000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WNXMBTC"
@@ -64217,6 +76253,12 @@ class WNXMBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WNXMBUSD"
 
@@ -64248,6 +76290,12 @@ class WNXMUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WNXMUSDT"
@@ -64281,6 +76329,12 @@ class WOOBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WOOBNB"
 
@@ -64312,6 +76366,12 @@ class WOOBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WOOBTC"
@@ -64345,6 +76405,12 @@ class WOOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WOOBUSD"
 
@@ -64376,6 +76442,12 @@ class WOOUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WOOUSDT"
@@ -64409,6 +76481,12 @@ class WPRBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WPRBTC"
 
@@ -64440,6 +76518,12 @@ class WPRETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WPRETH"
@@ -64473,6 +76557,12 @@ class WRXBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WRXBNB"
 
@@ -64504,6 +76594,12 @@ class WRXBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WRXBTC"
@@ -64537,6 +76633,12 @@ class WRXBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WRXBUSD"
 
@@ -64568,6 +76670,12 @@ class WRXEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WRXEUR"
@@ -64601,6 +76709,12 @@ class WRXUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WRXUSDT"
 
@@ -64632,6 +76746,12 @@ class WTCBNB:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WTCBNB"
@@ -64665,6 +76785,12 @@ class WTCBTC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WTCBTC"
 
@@ -64696,6 +76822,12 @@ class WTCETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "WTCETH"
@@ -64729,6 +76861,12 @@ class WTCUSDT:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "WTCUSDT"
 
@@ -64760,6 +76898,12 @@ class XECBUSD:
     minimum_order_size: float = 1.00
     maximum_order_size: float = 46116860414.00
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XECBUSD"
@@ -64793,6 +76937,12 @@ class XECUSDT:
     maximum_order_size: float = 46116860414.00
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XECUSDT"
 
@@ -64824,6 +76974,12 @@ class XEMBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XEMBNB"
@@ -64857,6 +77013,12 @@ class XEMBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XEMBTC"
 
@@ -64888,6 +77050,12 @@ class XEMBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XEMBUSD"
@@ -64921,6 +77089,12 @@ class XEMETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XEMETH"
 
@@ -64952,6 +77126,12 @@ class XEMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XEMUSDT"
@@ -64985,6 +77165,12 @@ class XLMBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMBNB"
 
@@ -65016,6 +77202,12 @@ class XLMBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMBTC"
@@ -65049,6 +77241,12 @@ class XLMBUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMBUSD"
 
@@ -65080,6 +77278,12 @@ class XLMDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 399280174.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMDOWNUSDT"
@@ -65113,6 +77317,12 @@ class XLMETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMETH"
 
@@ -65144,6 +77354,12 @@ class XLMEUR:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMEUR"
@@ -65177,6 +77393,12 @@ class XLMPAX:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMPAX"
 
@@ -65208,6 +77430,12 @@ class XLMTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMTRY"
@@ -65241,6 +77469,12 @@ class XLMTUSD:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMTUSD"
 
@@ -65272,6 +77506,12 @@ class XLMUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMUPUSDT"
@@ -65305,6 +77545,12 @@ class XLMUSDC:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XLMUSDC"
 
@@ -65336,6 +77582,12 @@ class XLMUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XLMUSDT"
@@ -65369,6 +77621,12 @@ class XMRBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XMRBNB"
 
@@ -65400,6 +77658,12 @@ class XMRBTC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XMRBTC"
@@ -65433,6 +77697,12 @@ class XMRBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XMRBUSD"
 
@@ -65464,6 +77734,12 @@ class XMRETH:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XMRETH"
@@ -65497,6 +77773,12 @@ class XMRUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XMRUSDT"
 
@@ -65528,6 +77810,12 @@ class XNOBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XNOBTC"
@@ -65561,6 +77849,12 @@ class XNOBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XNOBUSD"
 
@@ -65592,6 +77886,12 @@ class XNOETH:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XNOETH"
@@ -65625,6 +77925,12 @@ class XNOUSDT:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XNOUSDT"
 
@@ -65656,6 +77962,12 @@ class XRPAUD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPAUD"
@@ -65689,6 +78001,12 @@ class XRPBEARBUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPBEARBUSD"
 
@@ -65720,6 +78038,12 @@ class XRPBEARUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPBEARUSDT"
@@ -65753,6 +78077,12 @@ class XRPBIDR:
     maximum_order_size: float = 92233.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPBIDR"
 
@@ -65784,6 +78114,12 @@ class XRPBKRW:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPBKRW"
@@ -65817,6 +78153,12 @@ class XRPBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPBNB"
 
@@ -65848,6 +78190,12 @@ class XRPBRL:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 922327.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPBRL"
@@ -65881,6 +78229,12 @@ class XRPBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPBTC"
 
@@ -65912,6 +78266,12 @@ class XRPBULLBUSD:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPBULLBUSD"
@@ -65945,6 +78305,12 @@ class XRPBULLUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPBULLUSDT"
 
@@ -65976,6 +78342,12 @@ class XRPBUSD:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPBUSD"
@@ -66009,6 +78381,12 @@ class XRPDOWNUSDT:
     maximum_order_size: float = 99999999.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPDOWNUSDT"
 
@@ -66040,6 +78418,12 @@ class XRPETH:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPETH"
@@ -66073,6 +78457,12 @@ class XRPEUR:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPEUR"
 
@@ -66104,6 +78494,12 @@ class XRPGBP:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPGBP"
@@ -66137,6 +78533,12 @@ class XRPNGN:
     maximum_order_size: float = 922320.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPNGN"
 
@@ -66168,6 +78570,12 @@ class XRPPAX:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPPAX"
@@ -66201,6 +78609,12 @@ class XRPRUB:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPRUB"
 
@@ -66232,6 +78646,12 @@ class XRPTRY:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPTRY"
@@ -66265,6 +78685,12 @@ class XRPTUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPTUSD"
 
@@ -66296,6 +78722,12 @@ class XRPUPUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 920000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPUPUSDT"
@@ -66329,6 +78761,12 @@ class XRPUSDC:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XRPUSDC"
 
@@ -66360,6 +78798,12 @@ class XRPUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XRPUSDT"
@@ -66393,6 +78837,12 @@ class XTZBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XTZBNB"
 
@@ -66424,6 +78874,12 @@ class XTZBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XTZBTC"
@@ -66457,6 +78913,12 @@ class XTZBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XTZBUSD"
 
@@ -66488,6 +78950,12 @@ class XTZDOWNUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 49991176.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XTZDOWNUSDT"
@@ -66521,6 +78989,12 @@ class XTZETH:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XTZETH"
 
@@ -66552,6 +79026,12 @@ class XTZTRY:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XTZTRY"
@@ -66585,6 +79065,12 @@ class XTZUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XTZUPUSDT"
 
@@ -66616,6 +79102,12 @@ class XTZUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XTZUSDT"
@@ -66649,6 +79141,12 @@ class XVGBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XVGBTC"
 
@@ -66680,6 +79178,12 @@ class XVGBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XVGBUSD"
@@ -66713,6 +79217,12 @@ class XVGETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XVGETH"
 
@@ -66744,6 +79254,12 @@ class XVGUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XVGUSDT"
@@ -66777,6 +79293,12 @@ class XVSBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XVSBNB"
 
@@ -66808,6 +79330,12 @@ class XVSBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XVSBTC"
@@ -66841,6 +79369,12 @@ class XVSBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XVSBUSD"
 
@@ -66872,6 +79406,12 @@ class XVSUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XVSUSDT"
@@ -66905,6 +79445,12 @@ class XZCBNB:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XZCBNB"
 
@@ -66936,6 +79482,12 @@ class XZCBTC:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XZCBTC"
@@ -66969,6 +79521,12 @@ class XZCETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XZCETH"
 
@@ -67000,6 +79558,12 @@ class XZCUSDT:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "XZCUSDT"
@@ -67033,6 +79597,12 @@ class XZCXRP:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "XZCXRP"
 
@@ -67064,6 +79634,12 @@ class YFIBNB:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 10000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIBNB"
@@ -67097,6 +79673,12 @@ class YFIBTC:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YFIBTC"
 
@@ -67128,6 +79710,12 @@ class YFIBUSD:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIBUSD"
@@ -67161,6 +79749,12 @@ class YFIDOWNUSDT:
     maximum_order_size: float = 30000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YFIDOWNUSDT"
 
@@ -67192,6 +79786,12 @@ class YFIEUR:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIEUR"
@@ -67225,6 +79825,12 @@ class YFIIBNB:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YFIIBNB"
 
@@ -67256,6 +79862,12 @@ class YFIIBTC:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIIBTC"
@@ -67289,6 +79901,12 @@ class YFIIBUSD:
     maximum_order_size: float = 9000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YFIIBUSD"
 
@@ -67320,6 +79938,12 @@ class YFIIUSDT:
     minimum_order_size: float = 0.00010000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIIUSDT"
@@ -67353,6 +79977,12 @@ class YFIUPUSDT:
     maximum_order_size: float = 920000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YFIUPUSDT"
 
@@ -67384,6 +80014,12 @@ class YFIUSDT:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 9000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YFIUSDT"
@@ -67417,6 +80053,12 @@ class YGGBNB:
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YGGBNB"
 
@@ -67448,6 +80090,12 @@ class YGGBTC:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YGGBTC"
@@ -67481,6 +80129,12 @@ class YGGBUSD:
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YGGBUSD"
 
@@ -67512,6 +80166,12 @@ class YGGUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 92141578.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YGGUSDT"
@@ -67545,6 +80205,12 @@ class YOYOBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YOYOBNB"
 
@@ -67576,6 +80242,12 @@ class YOYOBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "YOYOBTC"
@@ -67609,6 +80281,12 @@ class YOYOETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "YOYOETH"
 
@@ -67640,6 +80318,12 @@ class ZECBNB:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZECBNB"
@@ -67673,6 +80357,12 @@ class ZECBTC:
     maximum_order_size: float = 10000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZECBTC"
 
@@ -67704,6 +80394,12 @@ class ZECBUSD:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZECBUSD"
@@ -67737,6 +80433,12 @@ class ZECETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZECETH"
 
@@ -67768,6 +80470,12 @@ class ZECPAX:
     minimum_order_size: float = 0.00001000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZECPAX"
@@ -67801,6 +80509,12 @@ class ZECTUSD:
     maximum_order_size: float = 90000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZECTUSD"
 
@@ -67832,6 +80546,12 @@ class ZECUSDC:
     minimum_order_size: float = 0.00100000
     maximum_order_size: float = 90000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZECUSDC"
@@ -67865,6 +80585,12 @@ class ZECUSDT:
     maximum_order_size: float = 90000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZECUSDT"
 
@@ -67896,6 +80622,12 @@ class ZENBNB:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZENBNB"
@@ -67929,6 +80661,12 @@ class ZENBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZENBTC"
 
@@ -67960,6 +80698,12 @@ class ZENBUSD:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZENBUSD"
@@ -67993,6 +80737,12 @@ class ZENETH:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZENETH"
 
@@ -68024,6 +80774,12 @@ class ZENUSDT:
     minimum_order_size: float = 0.01000000
     maximum_order_size: float = 900000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZENUSDT"
@@ -68057,6 +80813,12 @@ class ZILBIDR:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZILBIDR"
 
@@ -68088,6 +80850,12 @@ class ZILBNB:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZILBNB"
@@ -68121,6 +80889,12 @@ class ZILBTC:
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZILBTC"
 
@@ -68152,6 +80926,12 @@ class ZILBUSD:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZILBUSD"
@@ -68185,6 +80965,12 @@ class ZILETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZILETH"
 
@@ -68216,6 +81002,12 @@ class ZILEUR:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZILEUR"
@@ -68249,6 +81041,12 @@ class ZILTRY:
     maximum_order_size: float = 9222449.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZILTRY"
 
@@ -68280,6 +81078,12 @@ class ZILUSDT:
     minimum_order_size: float = 0.10000000
     maximum_order_size: float = 9000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZILUSDT"
@@ -68313,6 +81117,12 @@ class ZRXBNB:
     maximum_order_size: float = 9000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZRXBNB"
 
@@ -68344,6 +81154,12 @@ class ZRXBTC:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 90000000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZRXBTC"
@@ -68377,6 +81193,12 @@ class ZRXBUSD:
     maximum_order_size: float = 900000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZRXBUSD"
 
@@ -68409,6 +81231,12 @@ class ZRXETH:
     maximum_order_size: float = 90000000.00000000
     margin: bool = False
 
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
     def __repr__(self):
         return "ZRXETH"
 
@@ -68440,6 +81268,12 @@ class ZRXUSDT:
     minimum_order_size: float = 1.00000000
     maximum_order_size: float = 900000.00000000
     margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
 
     def __repr__(self):
         return "ZRXUSDT"

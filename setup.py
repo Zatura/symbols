@@ -5,7 +5,7 @@ long_description = open('README.md').read()
 
 setup(
     name='symbols',
-    version='0.0.2',
+    version='0.0.3',
     author='Matheus Tura',
     author_website='zatura.me',
     packages=find_packages(),
@@ -14,7 +14,7 @@ setup(
     install_requires=[],
     url='https://github.com/zatura/symbols',
     description='A library for cryptocurrency ticker symbols manipulation',
-    license="GPL",
+    license="GPL 3.0",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
