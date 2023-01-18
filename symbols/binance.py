@@ -75484,6 +75484,147 @@ ROSEUSDT = ROSEUSDT()
 
 
 @dataclass(slots=True, frozen=True)
+class RPLBTC:
+    """
+        name: RPLBTC
+        precision: 8
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.01000000
+        maximum_order_size: 8384883677.00000000
+        margin: False
+    """
+    name: str = "RPLBTC"
+    precision: int = 8
+    minimum_margin: float = None
+    initial_margin: float = None
+    minimum_order_size: float = 0.01000000
+    maximum_order_size: float = 8384883677.00000000
+    margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RPLBTC"
+
+    def __str__(self):
+        return "RPLBTC"
+
+    def __call__(self):
+        return "RPLBTC"
+
+
+RPLBTC = RPLBTC()
+"""
+    name: RPLBTC
+    precision: 8
+    minimum_margin: None
+    initial_margin: None
+    minimum_order_size: 0.01000000
+    maximum_order_size: 8384883677.00000000
+    margin: False
+"""
+
+
+@dataclass(slots=True, frozen=True)
+class RPLBUSD:
+    """
+        name: RPLBUSD
+        precision: 8
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.01000000
+        maximum_order_size: 9222449.00000000
+        margin: False
+    """
+    name: str = "RPLBUSD"
+    precision: int = 8
+    minimum_margin: float = None
+    initial_margin: float = None
+    minimum_order_size: float = 0.01000000
+    maximum_order_size: float = 9222449.00000000
+    margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RPLBUSD"
+
+    def __str__(self):
+        return "RPLBUSD"
+
+    def __call__(self):
+        return "RPLBUSD"
+
+
+RPLBUSD = RPLBUSD()
+"""
+    name: RPLBUSD
+    precision: 8
+    minimum_margin: None
+    initial_margin: None
+    minimum_order_size: 0.01000000
+    maximum_order_size: 9222449.00000000
+    margin: False
+"""
+
+
+@dataclass(slots=True, frozen=True)
+class RPLUSDT:
+    """
+        name: RPLUSDT
+        precision: 8
+        minimum_margin: None
+        initial_margin: None
+        minimum_order_size: 0.01000000
+        maximum_order_size: 9222449.00000000
+        margin: False
+    """
+    name: str = "RPLUSDT"
+    precision: int = 8
+    minimum_margin: float = None
+    initial_margin: float = None
+    minimum_order_size: float = 0.01000000
+    maximum_order_size: float = 9222449.00000000
+    margin: bool = False
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RPLUSDT"
+
+    def __str__(self):
+        return "RPLUSDT"
+
+    def __call__(self):
+        return "RPLUSDT"
+
+
+RPLUSDT = RPLUSDT()
+"""
+    name: RPLUSDT
+    precision: 8
+    minimum_margin: None
+    initial_margin: None
+    minimum_order_size: 0.01000000
+    maximum_order_size: 9222449.00000000
+    margin: False
+"""
+
+
+@dataclass(slots=True, frozen=True)
 class RPXBNB:
     """
         name: RPXBNB
@@ -100532,5 +100673,3 @@ ZRXUSDT = ZRXUSDT()
     maximum_order_size: 900000.00000000
     margin: True
 """
-
-
