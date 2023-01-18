@@ -14,13 +14,13 @@ Disclaimer: The symbols data is updated automatically and periodically, the data
 of skewed/lagged information, all the data come from official apis from its respective exchange. 
 Use it at your own risk.
 ## Supported exchanges
-- [Binance](binance.com)
-- [Bitfinex](bitfinex.com)
-- [Bitmex](bitmex.com)
-- [Coinbase](coinbase.com)
-- [Mercado Bitcoin](mercadobitcoin.com.br)
-- [Kraken](kraken.com)
-- [Kucoin](kucoin.com)
+- [Binance](https://binance.com)
+- [Bitfinex](https://bitfinex.com)
+- [Bitmex](https://bitmex.com)
+- [Coinbase](https://coinbase.com)
+- [Mercado Bitcoin](https://mercadobitcoin.com.br)
+- [Kraken](https://kraken.com)
+- [Kucoin](https://kucoin.com)
 
 ## Quickstart
 
