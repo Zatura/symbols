@@ -1,5 +1,5 @@
 # Symbols  
-Cyptocurrency symbols catalog library  
+Cryptocurrency symbols catalog library  
 
  [![Release](https://img.shields.io/badge/release-v0.1.0--pre--alpha-orange.svg)](https://github.com/zautra/symbols)
 [![Python](https://img.shields.io/badge/Python-3.10|3.11-blue.svg)](https://github.com/zautra/symbols)
