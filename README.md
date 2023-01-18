@@ -13,6 +13,14 @@ You can have all information in itself as an accessible object.
 Disclaimer: The symbols data is updated automatically and periodically, the data in this library can be subject 
 of skewed/lagged information, all the data come from official apis from its respective exchange. 
 Use it at your own risk.
+## Supported exchanges
+- [Binance](binance.com)
+- [Bitfinex](bitfinex.com)
+- [Bitmex](bitmex.com)
+- [Coinbase](coinbase.com)
+- [Mercado Bitcoin](mercadobitcoin.com.br)
+- [Kraken](kraken.com)
+- [Kucoin](kucoin.com)
 
 ## Quickstart
 
