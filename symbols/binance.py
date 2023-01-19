@@ -1,8 +1,7 @@
-from dataclasses import dataclass
+from typing import NamedTuple
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCHBTC:
+class ONEINCHBTC(NamedTuple):
     """
         name: 1INCHBTC
         precision: 8
@@ -48,8 +47,7 @@ ONEINCHBTC = ONEINCHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCHBUSD:
+class ONEINCHBUSD(NamedTuple):
     """
         name: 1INCHBUSD
         precision: 8
@@ -95,8 +93,7 @@ ONEINCHBUSD = ONEINCHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCHDOWNUSDT:
+class ONEINCHDOWNUSDT(NamedTuple):
     """
         name: 1INCHDOWNUSDT
         precision: 8
@@ -142,8 +139,7 @@ ONEINCHDOWNUSDT = ONEINCHDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCHUPUSDT:
+class ONEINCHUPUSDT(NamedTuple):
     """
         name: 1INCHUPUSDT
         precision: 8
@@ -189,8 +185,7 @@ ONEINCHUPUSDT = ONEINCHUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCHUSDT:
+class ONEINCHUSDT(NamedTuple):
     """
         name: 1INCHUSDT
         precision: 8
@@ -236,8 +231,7 @@ ONEINCHUSDT = ONEINCHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEBKRW:
+class AAVEBKRW(NamedTuple):
     """
         name: AAVEBKRW
         precision: 8
@@ -283,8 +277,7 @@ AAVEBKRW = AAVEBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEBNB:
+class AAVEBNB(NamedTuple):
     """
         name: AAVEBNB
         precision: 8
@@ -330,8 +323,7 @@ AAVEBNB = AAVEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEBRL:
+class AAVEBRL(NamedTuple):
     """
         name: AAVEBRL
         precision: 8
@@ -377,8 +369,7 @@ AAVEBRL = AAVEBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEBTC:
+class AAVEBTC(NamedTuple):
     """
         name: AAVEBTC
         precision: 8
@@ -424,8 +415,7 @@ AAVEBTC = AAVEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEBUSD:
+class AAVEBUSD(NamedTuple):
     """
         name: AAVEBUSD
         precision: 8
@@ -471,8 +461,7 @@ AAVEBUSD = AAVEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEDOWNUSDT:
+class AAVEDOWNUSDT(NamedTuple):
     """
         name: AAVEDOWNUSDT
         precision: 8
@@ -518,8 +507,7 @@ AAVEDOWNUSDT = AAVEDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEETH:
+class AAVEETH(NamedTuple):
     """
         name: AAVEETH
         precision: 8
@@ -565,8 +553,7 @@ AAVEETH = AAVEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEUPUSDT:
+class AAVEUPUSDT(NamedTuple):
     """
         name: AAVEUPUSDT
         precision: 8
@@ -612,8 +599,7 @@ AAVEUPUSDT = AAVEUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVEUSDT:
+class AAVEUSDT(NamedTuple):
     """
         name: AAVEUSDT
         precision: 8
@@ -659,8 +645,7 @@ AAVEUSDT = AAVEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACABTC:
+class ACABTC(NamedTuple):
     """
         name: ACABTC
         precision: 8
@@ -706,8 +691,7 @@ ACABTC = ACABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACABUSD:
+class ACABUSD(NamedTuple):
     """
         name: ACABUSD
         precision: 8
@@ -753,8 +737,7 @@ ACABUSD = ACABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACAUSDT:
+class ACAUSDT(NamedTuple):
     """
         name: ACAUSDT
         precision: 8
@@ -800,8 +783,7 @@ ACAUSDT = ACAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACHBTC:
+class ACHBTC(NamedTuple):
     """
         name: ACHBTC
         precision: 8
@@ -847,8 +829,7 @@ ACHBTC = ACHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACHBUSD:
+class ACHBUSD(NamedTuple):
     """
         name: ACHBUSD
         precision: 8
@@ -894,8 +875,7 @@ ACHBUSD = ACHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACHUSDT:
+class ACHUSDT(NamedTuple):
     """
         name: ACHUSDT
         precision: 8
@@ -941,8 +921,7 @@ ACHUSDT = ACHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACMBTC:
+class ACMBTC(NamedTuple):
     """
         name: ACMBTC
         precision: 8
@@ -988,8 +967,7 @@ ACMBTC = ACMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACMBUSD:
+class ACMBUSD(NamedTuple):
     """
         name: ACMBUSD
         precision: 8
@@ -1035,8 +1013,7 @@ ACMBUSD = ACMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACMUSDT:
+class ACMUSDT(NamedTuple):
     """
         name: ACMUSDT
         precision: 8
@@ -1082,8 +1059,7 @@ ACMUSDT = ACMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAAUD:
+class ADAAUD(NamedTuple):
     """
         name: ADAAUD
         precision: 8
@@ -1129,8 +1105,7 @@ ADAAUD = ADAAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABIDR:
+class ADABIDR(NamedTuple):
     """
         name: ADABIDR
         precision: 2
@@ -1176,8 +1151,7 @@ ADABIDR = ADABIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABKRW:
+class ADABKRW(NamedTuple):
     """
         name: ADABKRW
         precision: 8
@@ -1223,8 +1197,7 @@ ADABKRW = ADABKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABNB:
+class ADABNB(NamedTuple):
     """
         name: ADABNB
         precision: 8
@@ -1270,8 +1243,7 @@ ADABNB = ADABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABRL:
+class ADABRL(NamedTuple):
     """
         name: ADABRL
         precision: 8
@@ -1317,8 +1289,7 @@ ADABRL = ADABRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABTC:
+class ADABTC(NamedTuple):
     """
         name: ADABTC
         precision: 8
@@ -1364,8 +1335,7 @@ ADABTC = ADABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADABUSD:
+class ADABUSD(NamedTuple):
     """
         name: ADABUSD
         precision: 8
@@ -1411,8 +1381,7 @@ ADABUSD = ADABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADADOWNUSDT:
+class ADADOWNUSDT(NamedTuple):
     """
         name: ADADOWNUSDT
         precision: 8
@@ -1458,8 +1427,7 @@ ADADOWNUSDT = ADADOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAETH:
+class ADAETH(NamedTuple):
     """
         name: ADAETH
         precision: 8
@@ -1505,8 +1473,7 @@ ADAETH = ADAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAEUR:
+class ADAEUR(NamedTuple):
     """
         name: ADAEUR
         precision: 8
@@ -1552,8 +1519,7 @@ ADAEUR = ADAEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAGBP:
+class ADAGBP(NamedTuple):
     """
         name: ADAGBP
         precision: 8
@@ -1599,8 +1565,7 @@ ADAGBP = ADAGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAPAX:
+class ADAPAX(NamedTuple):
     """
         name: ADAPAX
         precision: 8
@@ -1646,8 +1611,7 @@ ADAPAX = ADAPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADARUB:
+class ADARUB(NamedTuple):
     """
         name: ADARUB
         precision: 8
@@ -1693,8 +1657,7 @@ ADARUB = ADARUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADATRY:
+class ADATRY(NamedTuple):
     """
         name: ADATRY
         precision: 8
@@ -1740,8 +1703,7 @@ ADATRY = ADATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADATUSD:
+class ADATUSD(NamedTuple):
     """
         name: ADATUSD
         precision: 8
@@ -1787,8 +1749,7 @@ ADATUSD = ADATUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAUPUSDT:
+class ADAUPUSDT(NamedTuple):
     """
         name: ADAUPUSDT
         precision: 8
@@ -1834,8 +1795,7 @@ ADAUPUSDT = ADAUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAUSDC:
+class ADAUSDC(NamedTuple):
     """
         name: ADAUSDC
         precision: 8
@@ -1881,8 +1841,7 @@ ADAUSDC = ADAUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAUSDT:
+class ADAUSDT(NamedTuple):
     """
         name: ADAUSDT
         precision: 8
@@ -1928,8 +1887,7 @@ ADAUSDT = ADAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADXBNB:
+class ADXBNB(NamedTuple):
     """
         name: ADXBNB
         precision: 8
@@ -1975,8 +1933,7 @@ ADXBNB = ADXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADXBTC:
+class ADXBTC(NamedTuple):
     """
         name: ADXBTC
         precision: 8
@@ -2022,8 +1979,7 @@ ADXBTC = ADXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADXBUSD:
+class ADXBUSD(NamedTuple):
     """
         name: ADXBUSD
         precision: 8
@@ -2069,8 +2025,7 @@ ADXBUSD = ADXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADXETH:
+class ADXETH(NamedTuple):
     """
         name: ADXETH
         precision: 8
@@ -2116,8 +2071,7 @@ ADXETH = ADXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADXUSDT:
+class ADXUSDT(NamedTuple):
     """
         name: ADXUSDT
         precision: 8
@@ -2163,8 +2117,7 @@ ADXUSDT = ADXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AEBNB:
+class AEBNB(NamedTuple):
     """
         name: AEBNB
         precision: 8
@@ -2210,8 +2163,7 @@ AEBNB = AEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AEBTC:
+class AEBTC(NamedTuple):
     """
         name: AEBTC
         precision: 8
@@ -2257,8 +2209,7 @@ AEBTC = AEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AEETH:
+class AEETH(NamedTuple):
     """
         name: AEETH
         precision: 8
@@ -2304,8 +2255,7 @@ AEETH = AEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AERGOBTC:
+class AERGOBTC(NamedTuple):
     """
         name: AERGOBTC
         precision: 8
@@ -2351,8 +2301,7 @@ AERGOBTC = AERGOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AERGOBUSD:
+class AERGOBUSD(NamedTuple):
     """
         name: AERGOBUSD
         precision: 8
@@ -2398,8 +2347,7 @@ AERGOBUSD = AERGOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGIBNB:
+class AGIBNB(NamedTuple):
     """
         name: AGIBNB
         precision: 8
@@ -2445,8 +2393,7 @@ AGIBNB = AGIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGIBTC:
+class AGIBTC(NamedTuple):
     """
         name: AGIBTC
         precision: 8
@@ -2492,8 +2439,7 @@ AGIBTC = AGIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGIETH:
+class AGIETH(NamedTuple):
     """
         name: AGIETH
         precision: 8
@@ -2539,8 +2485,7 @@ AGIETH = AGIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGIXBTC:
+class AGIXBTC(NamedTuple):
     """
         name: AGIXBTC
         precision: 8
@@ -2586,8 +2531,7 @@ AGIXBTC = AGIXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGIXBUSD:
+class AGIXBUSD(NamedTuple):
     """
         name: AGIXBUSD
         precision: 8
@@ -2633,8 +2577,7 @@ AGIXBUSD = AGIXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLDBNB:
+class AGLDBNB(NamedTuple):
     """
         name: AGLDBNB
         precision: 8
@@ -2680,8 +2623,7 @@ AGLDBNB = AGLDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLDBTC:
+class AGLDBTC(NamedTuple):
     """
         name: AGLDBTC
         precision: 8
@@ -2727,8 +2669,7 @@ AGLDBTC = AGLDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLDBUSD:
+class AGLDBUSD(NamedTuple):
     """
         name: AGLDBUSD
         precision: 8
@@ -2774,8 +2715,7 @@ AGLDBUSD = AGLDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLDUSDT:
+class AGLDUSDT(NamedTuple):
     """
         name: AGLDUSDT
         precision: 8
@@ -2821,8 +2761,7 @@ AGLDUSDT = AGLDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIONBNB:
+class AIONBNB(NamedTuple):
     """
         name: AIONBNB
         precision: 8
@@ -2868,8 +2807,7 @@ AIONBNB = AIONBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIONBTC:
+class AIONBTC(NamedTuple):
     """
         name: AIONBTC
         precision: 8
@@ -2915,8 +2853,7 @@ AIONBTC = AIONBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIONBUSD:
+class AIONBUSD(NamedTuple):
     """
         name: AIONBUSD
         precision: 8
@@ -2962,8 +2899,7 @@ AIONBUSD = AIONBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIONETH:
+class AIONETH(NamedTuple):
     """
         name: AIONETH
         precision: 8
@@ -3009,8 +2945,7 @@ AIONETH = AIONETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIONUSDT:
+class AIONUSDT(NamedTuple):
     """
         name: AIONUSDT
         precision: 8
@@ -3056,8 +2991,7 @@ AIONUSDT = AIONUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AKROBTC:
+class AKROBTC(NamedTuple):
     """
         name: AKROBTC
         precision: 8
@@ -3103,8 +3037,7 @@ AKROBTC = AKROBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AKROBUSD:
+class AKROBUSD(NamedTuple):
     """
         name: AKROBUSD
         precision: 8
@@ -3150,8 +3083,7 @@ AKROBUSD = AKROBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AKROUSDT:
+class AKROUSDT(NamedTuple):
     """
         name: AKROUSDT
         precision: 8
@@ -3197,8 +3129,7 @@ AKROUSDT = AKROUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCXBTC:
+class ALCXBTC(NamedTuple):
     """
         name: ALCXBTC
         precision: 8
@@ -3244,8 +3175,7 @@ ALCXBTC = ALCXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCXBUSD:
+class ALCXBUSD(NamedTuple):
     """
         name: ALCXBUSD
         precision: 8
@@ -3291,8 +3221,7 @@ ALCXBUSD = ALCXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCXUSDT:
+class ALCXUSDT(NamedTuple):
     """
         name: ALCXUSDT
         precision: 8
@@ -3338,8 +3267,7 @@ ALCXUSDT = ALCXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOBIDR:
+class ALGOBIDR(NamedTuple):
     """
         name: ALGOBIDR
         precision: 2
@@ -3385,8 +3313,7 @@ ALGOBIDR = ALGOBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOBNB:
+class ALGOBNB(NamedTuple):
     """
         name: ALGOBNB
         precision: 8
@@ -3432,8 +3359,7 @@ ALGOBNB = ALGOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOBTC:
+class ALGOBTC(NamedTuple):
     """
         name: ALGOBTC
         precision: 8
@@ -3479,8 +3405,7 @@ ALGOBTC = ALGOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOBUSD:
+class ALGOBUSD(NamedTuple):
     """
         name: ALGOBUSD
         precision: 8
@@ -3526,8 +3451,7 @@ ALGOBUSD = ALGOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOETH:
+class ALGOETH(NamedTuple):
     """
         name: ALGOETH
         precision: 8
@@ -3573,8 +3497,7 @@ ALGOETH = ALGOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOPAX:
+class ALGOPAX(NamedTuple):
     """
         name: ALGOPAX
         precision: 8
@@ -3620,8 +3543,7 @@ ALGOPAX = ALGOPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGORUB:
+class ALGORUB(NamedTuple):
     """
         name: ALGORUB
         precision: 8
@@ -3667,8 +3589,7 @@ ALGORUB = ALGORUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOTRY:
+class ALGOTRY(NamedTuple):
     """
         name: ALGOTRY
         precision: 8
@@ -3714,8 +3635,7 @@ ALGOTRY = ALGOTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOTUSD:
+class ALGOTUSD(NamedTuple):
     """
         name: ALGOTUSD
         precision: 8
@@ -3761,8 +3681,7 @@ ALGOTUSD = ALGOTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOUSDC:
+class ALGOUSDC(NamedTuple):
     """
         name: ALGOUSDC
         precision: 8
@@ -3808,8 +3727,7 @@ ALGOUSDC = ALGOUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGOUSDT:
+class ALGOUSDT(NamedTuple):
     """
         name: ALGOUSDT
         precision: 8
@@ -3855,8 +3773,7 @@ ALGOUSDT = ALGOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICEBIDR:
+class ALICEBIDR(NamedTuple):
     """
         name: ALICEBIDR
         precision: 2
@@ -3902,8 +3819,7 @@ ALICEBIDR = ALICEBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICEBNB:
+class ALICEBNB(NamedTuple):
     """
         name: ALICEBNB
         precision: 8
@@ -3949,8 +3865,7 @@ ALICEBNB = ALICEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICEBTC:
+class ALICEBTC(NamedTuple):
     """
         name: ALICEBTC
         precision: 8
@@ -3996,8 +3911,7 @@ ALICEBTC = ALICEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICEBUSD:
+class ALICEBUSD(NamedTuple):
     """
         name: ALICEBUSD
         precision: 8
@@ -4043,8 +3957,7 @@ ALICEBUSD = ALICEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICETRY:
+class ALICETRY(NamedTuple):
     """
         name: ALICETRY
         precision: 8
@@ -4090,8 +4003,7 @@ ALICETRY = ALICETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICEUSDT:
+class ALICEUSDT(NamedTuple):
     """
         name: ALICEUSDT
         precision: 8
@@ -4137,8 +4049,7 @@ ALICEUSDT = ALICEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPACABNB:
+class ALPACABNB(NamedTuple):
     """
         name: ALPACABNB
         precision: 8
@@ -4184,8 +4095,7 @@ ALPACABNB = ALPACABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPACABTC:
+class ALPACABTC(NamedTuple):
     """
         name: ALPACABTC
         precision: 8
@@ -4231,8 +4141,7 @@ ALPACABTC = ALPACABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPACABUSD:
+class ALPACABUSD(NamedTuple):
     """
         name: ALPACABUSD
         precision: 8
@@ -4278,8 +4187,7 @@ ALPACABUSD = ALPACABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPACAUSDT:
+class ALPACAUSDT(NamedTuple):
     """
         name: ALPACAUSDT
         precision: 8
@@ -4325,8 +4233,7 @@ ALPACAUSDT = ALPACAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPHABNB:
+class ALPHABNB(NamedTuple):
     """
         name: ALPHABNB
         precision: 8
@@ -4372,8 +4279,7 @@ ALPHABNB = ALPHABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPHABTC:
+class ALPHABTC(NamedTuple):
     """
         name: ALPHABTC
         precision: 8
@@ -4419,8 +4325,7 @@ ALPHABTC = ALPHABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPHABUSD:
+class ALPHABUSD(NamedTuple):
     """
         name: ALPHABUSD
         precision: 8
@@ -4466,8 +4371,7 @@ ALPHABUSD = ALPHABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPHAUSDT:
+class ALPHAUSDT(NamedTuple):
     """
         name: ALPHAUSDT
         precision: 8
@@ -4513,8 +4417,7 @@ ALPHAUSDT = ALPHAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPINEBTC:
+class ALPINEBTC(NamedTuple):
     """
         name: ALPINEBTC
         precision: 8
@@ -4560,8 +4463,7 @@ ALPINEBTC = ALPINEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPINEBUSD:
+class ALPINEBUSD(NamedTuple):
     """
         name: ALPINEBUSD
         precision: 8
@@ -4607,8 +4509,7 @@ ALPINEBUSD = ALPINEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPINEEUR:
+class ALPINEEUR(NamedTuple):
     """
         name: ALPINEEUR
         precision: 8
@@ -4654,8 +4555,7 @@ ALPINEEUR = ALPINEEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPINETRY:
+class ALPINETRY(NamedTuple):
     """
         name: ALPINETRY
         precision: 8
@@ -4701,8 +4601,7 @@ ALPINETRY = ALPINETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALPINEUSDT:
+class ALPINEUSDT(NamedTuple):
     """
         name: ALPINEUSDT
         precision: 8
@@ -4748,8 +4647,7 @@ ALPINEUSDT = ALPINEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMBBNB:
+class AMBBNB(NamedTuple):
     """
         name: AMBBNB
         precision: 8
@@ -4795,8 +4693,7 @@ AMBBNB = AMBBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMBBTC:
+class AMBBTC(NamedTuple):
     """
         name: AMBBTC
         precision: 8
@@ -4842,8 +4739,7 @@ AMBBTC = AMBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMBBUSD:
+class AMBBUSD(NamedTuple):
     """
         name: AMBBUSD
         precision: 8
@@ -4889,8 +4785,7 @@ AMBBUSD = AMBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMBETH:
+class AMBETH(NamedTuple):
     """
         name: AMBETH
         precision: 8
@@ -4936,8 +4831,7 @@ AMBETH = AMBETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMPBNB:
+class AMPBNB(NamedTuple):
     """
         name: AMPBNB
         precision: 8
@@ -4983,8 +4877,7 @@ AMPBNB = AMPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMPBTC:
+class AMPBTC(NamedTuple):
     """
         name: AMPBTC
         precision: 8
@@ -5030,8 +4923,7 @@ AMPBTC = AMPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMPBUSD:
+class AMPBUSD(NamedTuple):
     """
         name: AMPBUSD
         precision: 8
@@ -5077,8 +4969,7 @@ AMPBUSD = AMPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMPUSDT:
+class AMPUSDT(NamedTuple):
     """
         name: AMPUSDT
         precision: 8
@@ -5124,8 +5015,7 @@ AMPUSDT = AMPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANCBNB:
+class ANCBNB(NamedTuple):
     """
         name: ANCBNB
         precision: 8
@@ -5171,8 +5061,7 @@ ANCBNB = ANCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANCBTC:
+class ANCBTC(NamedTuple):
     """
         name: ANCBTC
         precision: 8
@@ -5218,8 +5107,7 @@ ANCBTC = ANCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANCBUSD:
+class ANCBUSD(NamedTuple):
     """
         name: ANCBUSD
         precision: 8
@@ -5265,8 +5153,7 @@ ANCBUSD = ANCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANCUSDT:
+class ANCUSDT(NamedTuple):
     """
         name: ANCUSDT
         precision: 8
@@ -5312,8 +5199,7 @@ ANCUSDT = ANCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRBNB:
+class ANKRBNB(NamedTuple):
     """
         name: ANKRBNB
         precision: 8
@@ -5359,8 +5245,7 @@ ANKRBNB = ANKRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRBTC:
+class ANKRBTC(NamedTuple):
     """
         name: ANKRBTC
         precision: 8
@@ -5406,8 +5291,7 @@ ANKRBTC = ANKRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRBUSD:
+class ANKRBUSD(NamedTuple):
     """
         name: ANKRBUSD
         precision: 8
@@ -5453,8 +5337,7 @@ ANKRBUSD = ANKRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRPAX:
+class ANKRPAX(NamedTuple):
     """
         name: ANKRPAX
         precision: 8
@@ -5500,8 +5383,7 @@ ANKRPAX = ANKRPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRTRY:
+class ANKRTRY(NamedTuple):
     """
         name: ANKRTRY
         precision: 8
@@ -5547,8 +5429,7 @@ ANKRTRY = ANKRTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRTUSD:
+class ANKRTUSD(NamedTuple):
     """
         name: ANKRTUSD
         precision: 8
@@ -5594,8 +5475,7 @@ ANKRTUSD = ANKRTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRUSDC:
+class ANKRUSDC(NamedTuple):
     """
         name: ANKRUSDC
         precision: 8
@@ -5641,8 +5521,7 @@ ANKRUSDC = ANKRUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKRUSDT:
+class ANKRUSDT(NamedTuple):
     """
         name: ANKRUSDT
         precision: 8
@@ -5688,8 +5567,7 @@ ANKRUSDT = ANKRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANTBNB:
+class ANTBNB(NamedTuple):
     """
         name: ANTBNB
         precision: 8
@@ -5735,8 +5613,7 @@ ANTBNB = ANTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANTBTC:
+class ANTBTC(NamedTuple):
     """
         name: ANTBTC
         precision: 8
@@ -5782,8 +5659,7 @@ ANTBTC = ANTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANTBUSD:
+class ANTBUSD(NamedTuple):
     """
         name: ANTBUSD
         precision: 8
@@ -5829,8 +5705,7 @@ ANTBUSD = ANTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANTUSDT:
+class ANTUSDT(NamedTuple):
     """
         name: ANTUSDT
         precision: 8
@@ -5876,8 +5751,7 @@ ANTUSDT = ANTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANYBTC:
+class ANYBTC(NamedTuple):
     """
         name: ANYBTC
         precision: 8
@@ -5923,8 +5797,7 @@ ANYBTC = ANYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANYBUSD:
+class ANYBUSD(NamedTuple):
     """
         name: ANYBUSD
         precision: 8
@@ -5970,8 +5843,7 @@ ANYBUSD = ANYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANYUSDT:
+class ANYUSDT(NamedTuple):
     """
         name: ANYUSDT
         precision: 8
@@ -6017,8 +5889,7 @@ ANYUSDT = ANYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEAUD:
+class APEAUD(NamedTuple):
     """
         name: APEAUD
         precision: 8
@@ -6064,8 +5935,7 @@ APEAUD = APEAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEBNB:
+class APEBNB(NamedTuple):
     """
         name: APEBNB
         precision: 8
@@ -6111,8 +5981,7 @@ APEBNB = APEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEBRL:
+class APEBRL(NamedTuple):
     """
         name: APEBRL
         precision: 8
@@ -6158,8 +6027,7 @@ APEBRL = APEBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEBTC:
+class APEBTC(NamedTuple):
     """
         name: APEBTC
         precision: 8
@@ -6205,8 +6073,7 @@ APEBTC = APEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEBUSD:
+class APEBUSD(NamedTuple):
     """
         name: APEBUSD
         precision: 8
@@ -6252,8 +6119,7 @@ APEBUSD = APEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEETH:
+class APEETH(NamedTuple):
     """
         name: APEETH
         precision: 8
@@ -6299,8 +6165,7 @@ APEETH = APEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEEUR:
+class APEEUR(NamedTuple):
     """
         name: APEEUR
         precision: 8
@@ -6346,8 +6211,7 @@ APEEUR = APEEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEGBP:
+class APEGBP(NamedTuple):
     """
         name: APEGBP
         precision: 8
@@ -6393,8 +6257,7 @@ APEGBP = APEGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APETRY:
+class APETRY(NamedTuple):
     """
         name: APETRY
         precision: 8
@@ -6440,8 +6303,7 @@ APETRY = APETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEUSDT:
+class APEUSDT(NamedTuple):
     """
         name: APEUSDT
         precision: 8
@@ -6487,8 +6349,7 @@ APEUSDT = APEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3BNB:
+class API3BNB(NamedTuple):
     """
         name: API3BNB
         precision: 8
@@ -6534,8 +6395,7 @@ API3BNB = API3BNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3BTC:
+class API3BTC(NamedTuple):
     """
         name: API3BTC
         precision: 8
@@ -6581,8 +6441,7 @@ API3BTC = API3BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3BUSD:
+class API3BUSD(NamedTuple):
     """
         name: API3BUSD
         precision: 8
@@ -6628,8 +6487,7 @@ API3BUSD = API3BUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3TRY:
+class API3TRY(NamedTuple):
     """
         name: API3TRY
         precision: 8
@@ -6675,8 +6533,7 @@ API3TRY = API3TRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3USDT:
+class API3USDT(NamedTuple):
     """
         name: API3USDT
         precision: 8
@@ -6722,8 +6579,7 @@ API3USDT = API3USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APPCBNB:
+class APPCBNB(NamedTuple):
     """
         name: APPCBNB
         precision: 8
@@ -6769,8 +6625,7 @@ APPCBNB = APPCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APPCBTC:
+class APPCBTC(NamedTuple):
     """
         name: APPCBTC
         precision: 8
@@ -6816,8 +6671,7 @@ APPCBTC = APPCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APPCETH:
+class APPCETH(NamedTuple):
     """
         name: APPCETH
         precision: 8
@@ -6863,8 +6717,7 @@ APPCETH = APPCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTBRL:
+class APTBRL(NamedTuple):
     """
         name: APTBRL
         precision: 8
@@ -6910,8 +6763,7 @@ APTBRL = APTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTBTC:
+class APTBTC(NamedTuple):
     """
         name: APTBTC
         precision: 8
@@ -6957,8 +6809,7 @@ APTBTC = APTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTBUSD:
+class APTBUSD(NamedTuple):
     """
         name: APTBUSD
         precision: 8
@@ -7004,8 +6855,7 @@ APTBUSD = APTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTEUR:
+class APTEUR(NamedTuple):
     """
         name: APTEUR
         precision: 8
@@ -7051,8 +6901,7 @@ APTEUR = APTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTTRY:
+class APTTRY(NamedTuple):
     """
         name: APTTRY
         precision: 8
@@ -7098,8 +6947,7 @@ APTTRY = APTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTUSDT:
+class APTUSDT(NamedTuple):
     """
         name: APTUSDT
         precision: 8
@@ -7145,8 +6993,7 @@ APTUSDT = APTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARBNB:
+class ARBNB(NamedTuple):
     """
         name: ARBNB
         precision: 8
@@ -7192,8 +7039,7 @@ ARBNB = ARBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARBTC:
+class ARBTC(NamedTuple):
     """
         name: ARBTC
         precision: 8
@@ -7239,8 +7085,7 @@ ARBTC = ARBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARBUSD:
+class ARBUSD(NamedTuple):
     """
         name: ARBUSD
         precision: 8
@@ -7286,8 +7131,7 @@ ARBUSD = ARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARDRBNB:
+class ARDRBNB(NamedTuple):
     """
         name: ARDRBNB
         precision: 8
@@ -7333,8 +7177,7 @@ ARDRBNB = ARDRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARDRBTC:
+class ARDRBTC(NamedTuple):
     """
         name: ARDRBTC
         precision: 8
@@ -7380,8 +7223,7 @@ ARDRBTC = ARDRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARDRETH:
+class ARDRETH(NamedTuple):
     """
         name: ARDRETH
         precision: 8
@@ -7427,8 +7269,7 @@ ARDRETH = ARDRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARDRUSDT:
+class ARDRUSDT(NamedTuple):
     """
         name: ARDRUSDT
         precision: 8
@@ -7474,8 +7315,7 @@ ARDRUSDT = ARDRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARKBTC:
+class ARKBTC(NamedTuple):
     """
         name: ARKBTC
         precision: 8
@@ -7521,8 +7361,7 @@ ARKBTC = ARKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARKBUSD:
+class ARKBUSD(NamedTuple):
     """
         name: ARKBUSD
         precision: 8
@@ -7568,8 +7407,7 @@ ARKBUSD = ARKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARKETH:
+class ARKETH(NamedTuple):
     """
         name: ARKETH
         precision: 8
@@ -7615,8 +7453,7 @@ ARKETH = ARKETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARNBTC:
+class ARNBTC(NamedTuple):
     """
         name: ARNBTC
         precision: 8
@@ -7662,8 +7499,7 @@ ARNBTC = ARNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARNETH:
+class ARNETH(NamedTuple):
     """
         name: ARNETH
         precision: 8
@@ -7709,8 +7545,7 @@ ARNETH = ARNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPABNB:
+class ARPABNB(NamedTuple):
     """
         name: ARPABNB
         precision: 8
@@ -7756,8 +7591,7 @@ ARPABNB = ARPABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPABTC:
+class ARPABTC(NamedTuple):
     """
         name: ARPABTC
         precision: 8
@@ -7803,8 +7637,7 @@ ARPABTC = ARPABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPABUSD:
+class ARPABUSD(NamedTuple):
     """
         name: ARPABUSD
         precision: 8
@@ -7850,8 +7683,7 @@ ARPABUSD = ARPABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPAETH:
+class ARPAETH(NamedTuple):
     """
         name: ARPAETH
         precision: 8
@@ -7897,8 +7729,7 @@ ARPAETH = ARPAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPARUB:
+class ARPARUB(NamedTuple):
     """
         name: ARPARUB
         precision: 8
@@ -7944,8 +7775,7 @@ ARPARUB = ARPARUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPATRY:
+class ARPATRY(NamedTuple):
     """
         name: ARPATRY
         precision: 8
@@ -7991,8 +7821,7 @@ ARPATRY = ARPATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPAUSDT:
+class ARPAUSDT(NamedTuple):
     """
         name: ARPAUSDT
         precision: 8
@@ -8038,8 +7867,7 @@ ARPAUSDT = ARPAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARUSDT:
+class ARUSDT(NamedTuple):
     """
         name: ARUSDT
         precision: 8
@@ -8085,8 +7913,7 @@ ARUSDT = ARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASRBTC:
+class ASRBTC(NamedTuple):
     """
         name: ASRBTC
         precision: 8
@@ -8132,8 +7959,7 @@ ASRBTC = ASRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASRBUSD:
+class ASRBUSD(NamedTuple):
     """
         name: ASRBUSD
         precision: 8
@@ -8179,8 +8005,7 @@ ASRBUSD = ASRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASRUSDT:
+class ASRUSDT(NamedTuple):
     """
         name: ASRUSDT
         precision: 8
@@ -8226,8 +8051,7 @@ ASRUSDT = ASRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTBTC:
+class ASTBTC(NamedTuple):
     """
         name: ASTBTC
         precision: 8
@@ -8273,8 +8097,7 @@ ASTBTC = ASTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTETH:
+class ASTETH(NamedTuple):
     """
         name: ASTETH
         precision: 8
@@ -8320,8 +8143,7 @@ ASTETH = ASTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTRBTC:
+class ASTRBTC(NamedTuple):
     """
         name: ASTRBTC
         precision: 8
@@ -8367,8 +8189,7 @@ ASTRBTC = ASTRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTRBUSD:
+class ASTRBUSD(NamedTuple):
     """
         name: ASTRBUSD
         precision: 8
@@ -8414,8 +8235,7 @@ ASTRBUSD = ASTRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTRETH:
+class ASTRETH(NamedTuple):
     """
         name: ASTRETH
         precision: 8
@@ -8461,8 +8281,7 @@ ASTRETH = ASTRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASTRUSDT:
+class ASTRUSDT(NamedTuple):
     """
         name: ASTRUSDT
         precision: 8
@@ -8508,8 +8327,7 @@ ASTRUSDT = ASTRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATABNB:
+class ATABNB(NamedTuple):
     """
         name: ATABNB
         precision: 8
@@ -8555,8 +8373,7 @@ ATABNB = ATABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATABTC:
+class ATABTC(NamedTuple):
     """
         name: ATABTC
         precision: 8
@@ -8602,8 +8419,7 @@ ATABTC = ATABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATABUSD:
+class ATABUSD(NamedTuple):
     """
         name: ATABUSD
         precision: 8
@@ -8649,8 +8465,7 @@ ATABUSD = ATABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATAUSDT:
+class ATAUSDT(NamedTuple):
     """
         name: ATAUSDT
         precision: 8
@@ -8696,8 +8511,7 @@ ATAUSDT = ATAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATMBTC:
+class ATMBTC(NamedTuple):
     """
         name: ATMBTC
         precision: 8
@@ -8743,8 +8557,7 @@ ATMBTC = ATMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATMBUSD:
+class ATMBUSD(NamedTuple):
     """
         name: ATMBUSD
         precision: 8
@@ -8790,8 +8603,7 @@ ATMBUSD = ATMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATMUSDT:
+class ATMUSDT(NamedTuple):
     """
         name: ATMUSDT
         precision: 8
@@ -8837,8 +8649,7 @@ ATMUSDT = ATMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMBIDR:
+class ATOMBIDR(NamedTuple):
     """
         name: ATOMBIDR
         precision: 2
@@ -8884,8 +8695,7 @@ ATOMBIDR = ATOMBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMBNB:
+class ATOMBNB(NamedTuple):
     """
         name: ATOMBNB
         precision: 8
@@ -8931,8 +8741,7 @@ ATOMBNB = ATOMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMBRL:
+class ATOMBRL(NamedTuple):
     """
         name: ATOMBRL
         precision: 8
@@ -8978,8 +8787,7 @@ ATOMBRL = ATOMBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMBTC:
+class ATOMBTC(NamedTuple):
     """
         name: ATOMBTC
         precision: 8
@@ -9025,8 +8833,7 @@ ATOMBTC = ATOMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMBUSD:
+class ATOMBUSD(NamedTuple):
     """
         name: ATOMBUSD
         precision: 8
@@ -9072,8 +8879,7 @@ ATOMBUSD = ATOMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMETH:
+class ATOMETH(NamedTuple):
     """
         name: ATOMETH
         precision: 8
@@ -9119,8 +8925,7 @@ ATOMETH = ATOMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMEUR:
+class ATOMEUR(NamedTuple):
     """
         name: ATOMEUR
         precision: 8
@@ -9166,8 +8971,7 @@ ATOMEUR = ATOMEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMPAX:
+class ATOMPAX(NamedTuple):
     """
         name: ATOMPAX
         precision: 8
@@ -9213,8 +9017,7 @@ ATOMPAX = ATOMPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMTRY:
+class ATOMTRY(NamedTuple):
     """
         name: ATOMTRY
         precision: 8
@@ -9260,8 +9063,7 @@ ATOMTRY = ATOMTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMTUSD:
+class ATOMTUSD(NamedTuple):
     """
         name: ATOMTUSD
         precision: 8
@@ -9307,8 +9109,7 @@ ATOMTUSD = ATOMTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMUSDC:
+class ATOMUSDC(NamedTuple):
     """
         name: ATOMUSDC
         precision: 8
@@ -9354,8 +9155,7 @@ ATOMUSDC = ATOMUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOMUSDT:
+class ATOMUSDT(NamedTuple):
     """
         name: ATOMUSDT
         precision: 8
@@ -9401,8 +9201,7 @@ ATOMUSDT = ATOMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTIONBTC:
+class AUCTIONBTC(NamedTuple):
     """
         name: AUCTIONBTC
         precision: 8
@@ -9448,8 +9247,7 @@ AUCTIONBTC = AUCTIONBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTIONBUSD:
+class AUCTIONBUSD(NamedTuple):
     """
         name: AUCTIONBUSD
         precision: 8
@@ -9495,8 +9293,7 @@ AUCTIONBUSD = AUCTIONBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTIONUSDT:
+class AUCTIONUSDT(NamedTuple):
     """
         name: AUCTIONUSDT
         precision: 8
@@ -9542,8 +9339,7 @@ AUCTIONUSDT = AUCTIONUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDBUSD:
+class AUDBUSD(NamedTuple):
     """
         name: AUDBUSD
         precision: 8
@@ -9589,8 +9385,7 @@ AUDBUSD = AUDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDIOBTC:
+class AUDIOBTC(NamedTuple):
     """
         name: AUDIOBTC
         precision: 8
@@ -9636,8 +9431,7 @@ AUDIOBTC = AUDIOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDIOBUSD:
+class AUDIOBUSD(NamedTuple):
     """
         name: AUDIOBUSD
         precision: 8
@@ -9683,8 +9477,7 @@ AUDIOBUSD = AUDIOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDIOTRY:
+class AUDIOTRY(NamedTuple):
     """
         name: AUDIOTRY
         precision: 8
@@ -9730,8 +9523,7 @@ AUDIOTRY = AUDIOTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDIOUSDT:
+class AUDIOUSDT(NamedTuple):
     """
         name: AUDIOUSDT
         precision: 8
@@ -9777,8 +9569,7 @@ AUDIOUSDT = AUDIOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDUSDC:
+class AUDUSDC(NamedTuple):
     """
         name: AUDUSDC
         precision: 8
@@ -9824,8 +9615,7 @@ AUDUSDC = AUDUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUDUSDT:
+class AUDUSDT(NamedTuple):
     """
         name: AUDUSDT
         precision: 8
@@ -9871,8 +9661,7 @@ AUDUSDT = AUDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUTOBTC:
+class AUTOBTC(NamedTuple):
     """
         name: AUTOBTC
         precision: 8
@@ -9918,8 +9707,7 @@ AUTOBTC = AUTOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUTOBUSD:
+class AUTOBUSD(NamedTuple):
     """
         name: AUTOBUSD
         precision: 8
@@ -9965,8 +9753,7 @@ AUTOBUSD = AUTOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUTOUSDT:
+class AUTOUSDT(NamedTuple):
     """
         name: AUTOUSDT
         precision: 8
@@ -10012,8 +9799,7 @@ AUTOUSDT = AUTOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVABNB:
+class AVABNB(NamedTuple):
     """
         name: AVABNB
         precision: 8
@@ -10059,8 +9845,7 @@ AVABNB = AVABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVABTC:
+class AVABTC(NamedTuple):
     """
         name: AVABTC
         precision: 8
@@ -10106,8 +9891,7 @@ AVABTC = AVABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVABUSD:
+class AVABUSD(NamedTuple):
     """
         name: AVABUSD
         precision: 8
@@ -10153,8 +9937,7 @@ AVABUSD = AVABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAUSDT:
+class AVAUSDT(NamedTuple):
     """
         name: AVAUSDT
         precision: 8
@@ -10200,8 +9983,7 @@ AVAUSDT = AVAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXAUD:
+class AVAXAUD(NamedTuple):
     """
         name: AVAXAUD
         precision: 8
@@ -10247,8 +10029,7 @@ AVAXAUD = AVAXAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXBIDR:
+class AVAXBIDR(NamedTuple):
     """
         name: AVAXBIDR
         precision: 2
@@ -10294,8 +10075,7 @@ AVAXBIDR = AVAXBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXBNB:
+class AVAXBNB(NamedTuple):
     """
         name: AVAXBNB
         precision: 8
@@ -10341,8 +10121,7 @@ AVAXBNB = AVAXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXBRL:
+class AVAXBRL(NamedTuple):
     """
         name: AVAXBRL
         precision: 8
@@ -10388,8 +10167,7 @@ AVAXBRL = AVAXBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXBTC:
+class AVAXBTC(NamedTuple):
     """
         name: AVAXBTC
         precision: 8
@@ -10435,8 +10213,7 @@ AVAXBTC = AVAXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXBUSD:
+class AVAXBUSD(NamedTuple):
     """
         name: AVAXBUSD
         precision: 8
@@ -10482,8 +10259,7 @@ AVAXBUSD = AVAXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXETH:
+class AVAXETH(NamedTuple):
     """
         name: AVAXETH
         precision: 8
@@ -10529,8 +10305,7 @@ AVAXETH = AVAXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXEUR:
+class AVAXEUR(NamedTuple):
     """
         name: AVAXEUR
         precision: 8
@@ -10576,8 +10351,7 @@ AVAXEUR = AVAXEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXGBP:
+class AVAXGBP(NamedTuple):
     """
         name: AVAXGBP
         precision: 8
@@ -10623,8 +10397,7 @@ AVAXGBP = AVAXGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXTRY:
+class AVAXTRY(NamedTuple):
     """
         name: AVAXTRY
         precision: 8
@@ -10670,8 +10443,7 @@ AVAXTRY = AVAXTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXUSDT:
+class AVAXUSDT(NamedTuple):
     """
         name: AVAXUSDT
         precision: 8
@@ -10717,8 +10489,7 @@ AVAXUSDT = AVAXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSAUD:
+class AXSAUD(NamedTuple):
     """
         name: AXSAUD
         precision: 8
@@ -10764,8 +10535,7 @@ AXSAUD = AXSAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSBIDR:
+class AXSBIDR(NamedTuple):
     """
         name: AXSBIDR
         precision: 2
@@ -10811,8 +10581,7 @@ AXSBIDR = AXSBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSBNB:
+class AXSBNB(NamedTuple):
     """
         name: AXSBNB
         precision: 8
@@ -10858,8 +10627,7 @@ AXSBNB = AXSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSBRL:
+class AXSBRL(NamedTuple):
     """
         name: AXSBRL
         precision: 8
@@ -10905,8 +10673,7 @@ AXSBRL = AXSBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSBTC:
+class AXSBTC(NamedTuple):
     """
         name: AXSBTC
         precision: 8
@@ -10952,8 +10719,7 @@ AXSBTC = AXSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSBUSD:
+class AXSBUSD(NamedTuple):
     """
         name: AXSBUSD
         precision: 8
@@ -10999,8 +10765,7 @@ AXSBUSD = AXSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSETH:
+class AXSETH(NamedTuple):
     """
         name: AXSETH
         precision: 8
@@ -11046,8 +10811,7 @@ AXSETH = AXSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSTRY:
+class AXSTRY(NamedTuple):
     """
         name: AXSTRY
         precision: 8
@@ -11093,8 +10857,7 @@ AXSTRY = AXSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSUSDT:
+class AXSUSDT(NamedTuple):
     """
         name: AXSUSDT
         precision: 8
@@ -11140,8 +10903,7 @@ AXSUSDT = AXSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGERBTC:
+class BADGERBTC(NamedTuple):
     """
         name: BADGERBTC
         precision: 8
@@ -11187,8 +10949,7 @@ BADGERBTC = BADGERBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGERBUSD:
+class BADGERBUSD(NamedTuple):
     """
         name: BADGERBUSD
         precision: 8
@@ -11234,8 +10995,7 @@ BADGERBUSD = BADGERBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGERUSDT:
+class BADGERUSDT(NamedTuple):
     """
         name: BADGERUSDT
         precision: 8
@@ -11281,8 +11041,7 @@ BADGERUSDT = BADGERUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAKEBNB:
+class BAKEBNB(NamedTuple):
     """
         name: BAKEBNB
         precision: 8
@@ -11328,8 +11087,7 @@ BAKEBNB = BAKEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAKEBTC:
+class BAKEBTC(NamedTuple):
     """
         name: BAKEBTC
         precision: 8
@@ -11375,8 +11133,7 @@ BAKEBTC = BAKEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAKEBUSD:
+class BAKEBUSD(NamedTuple):
     """
         name: BAKEBUSD
         precision: 8
@@ -11422,8 +11179,7 @@ BAKEBUSD = BAKEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAKEUSDT:
+class BAKEUSDT(NamedTuple):
     """
         name: BAKEUSDT
         precision: 8
@@ -11469,8 +11225,7 @@ BAKEUSDT = BAKEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BALBNB:
+class BALBNB(NamedTuple):
     """
         name: BALBNB
         precision: 8
@@ -11516,8 +11271,7 @@ BALBNB = BALBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BALBTC:
+class BALBTC(NamedTuple):
     """
         name: BALBTC
         precision: 8
@@ -11563,8 +11317,7 @@ BALBTC = BALBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BALBUSD:
+class BALBUSD(NamedTuple):
     """
         name: BALBUSD
         precision: 8
@@ -11610,8 +11363,7 @@ BALBUSD = BALBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BALUSDT:
+class BALUSDT(NamedTuple):
     """
         name: BALUSDT
         precision: 8
@@ -11657,8 +11409,7 @@ BALUSDT = BALUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BANDBNB:
+class BANDBNB(NamedTuple):
     """
         name: BANDBNB
         precision: 8
@@ -11704,8 +11455,7 @@ BANDBNB = BANDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BANDBTC:
+class BANDBTC(NamedTuple):
     """
         name: BANDBTC
         precision: 8
@@ -11751,8 +11501,7 @@ BANDBTC = BANDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BANDBUSD:
+class BANDBUSD(NamedTuple):
     """
         name: BANDBUSD
         precision: 8
@@ -11798,8 +11547,7 @@ BANDBUSD = BANDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BANDUSDT:
+class BANDUSDT(NamedTuple):
     """
         name: BANDUSDT
         precision: 8
@@ -11845,8 +11593,7 @@ BANDUSDT = BANDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BARBTC:
+class BARBTC(NamedTuple):
     """
         name: BARBTC
         precision: 8
@@ -11892,8 +11639,7 @@ BARBTC = BARBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BARBUSD:
+class BARBUSD(NamedTuple):
     """
         name: BARBUSD
         precision: 8
@@ -11939,8 +11685,7 @@ BARBUSD = BARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BARUSDT:
+class BARUSDT(NamedTuple):
     """
         name: BARUSDT
         precision: 8
@@ -11986,8 +11731,7 @@ BARUSDT = BARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATBNB:
+class BATBNB(NamedTuple):
     """
         name: BATBNB
         precision: 8
@@ -12033,8 +11777,7 @@ BATBNB = BATBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATBTC:
+class BATBTC(NamedTuple):
     """
         name: BATBTC
         precision: 8
@@ -12080,8 +11823,7 @@ BATBTC = BATBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATBUSD:
+class BATBUSD(NamedTuple):
     """
         name: BATBUSD
         precision: 8
@@ -12127,8 +11869,7 @@ BATBUSD = BATBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATETH:
+class BATETH(NamedTuple):
     """
         name: BATETH
         precision: 8
@@ -12174,8 +11915,7 @@ BATETH = BATETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATPAX:
+class BATPAX(NamedTuple):
     """
         name: BATPAX
         precision: 8
@@ -12221,8 +11961,7 @@ BATPAX = BATPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATTUSD:
+class BATTUSD(NamedTuple):
     """
         name: BATTUSD
         precision: 8
@@ -12268,8 +12007,7 @@ BATTUSD = BATTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATUSDC:
+class BATUSDC(NamedTuple):
     """
         name: BATUSDC
         precision: 8
@@ -12315,8 +12053,7 @@ BATUSDC = BATUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BATUSDT:
+class BATUSDT(NamedTuple):
     """
         name: BATUSDT
         precision: 8
@@ -12362,8 +12099,7 @@ BATUSDT = BATUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCCBNB:
+class BCCBNB(NamedTuple):
     """
         name: BCCBNB
         precision: 8
@@ -12409,8 +12145,7 @@ BCCBNB = BCCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCCBTC:
+class BCCBTC(NamedTuple):
     """
         name: BCCBTC
         precision: 8
@@ -12456,8 +12191,7 @@ BCCBTC = BCCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCCETH:
+class BCCETH(NamedTuple):
     """
         name: BCCETH
         precision: 8
@@ -12503,8 +12237,7 @@ BCCETH = BCCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCCUSDT:
+class BCCUSDT(NamedTuple):
     """
         name: BCCUSDT
         precision: 8
@@ -12550,8 +12283,7 @@ BCCUSDT = BCCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCDBTC:
+class BCDBTC(NamedTuple):
     """
         name: BCDBTC
         precision: 8
@@ -12597,8 +12329,7 @@ BCDBTC = BCDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCDETH:
+class BCDETH(NamedTuple):
     """
         name: BCDETH
         precision: 8
@@ -12644,8 +12375,7 @@ BCDETH = BCDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCBTC:
+class BCHABCBTC(NamedTuple):
     """
         name: BCHABCBTC
         precision: 8
@@ -12691,8 +12421,7 @@ BCHABCBTC = BCHABCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCBUSD:
+class BCHABCBUSD(NamedTuple):
     """
         name: BCHABCBUSD
         precision: 8
@@ -12738,8 +12467,7 @@ BCHABCBUSD = BCHABCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCPAX:
+class BCHABCPAX(NamedTuple):
     """
         name: BCHABCPAX
         precision: 8
@@ -12785,8 +12513,7 @@ BCHABCPAX = BCHABCPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCTUSD:
+class BCHABCTUSD(NamedTuple):
     """
         name: BCHABCTUSD
         precision: 8
@@ -12832,8 +12559,7 @@ BCHABCTUSD = BCHABCTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCUSDC:
+class BCHABCUSDC(NamedTuple):
     """
         name: BCHABCUSDC
         precision: 8
@@ -12879,8 +12605,7 @@ BCHABCUSDC = BCHABCUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABCUSDT:
+class BCHABCUSDT(NamedTuple):
     """
         name: BCHABCUSDT
         precision: 8
@@ -12926,8 +12651,7 @@ BCHABCUSDT = BCHABCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHABUSD:
+class BCHABUSD(NamedTuple):
     """
         name: BCHABUSD
         precision: 8
@@ -12973,8 +12697,7 @@ BCHABUSD = BCHABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHBNB:
+class BCHBNB(NamedTuple):
     """
         name: BCHBNB
         precision: 8
@@ -13020,8 +12743,7 @@ BCHBNB = BCHBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHBTC:
+class BCHBTC(NamedTuple):
     """
         name: BCHBTC
         precision: 8
@@ -13067,8 +12789,7 @@ BCHBTC = BCHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHBUSD:
+class BCHBUSD(NamedTuple):
     """
         name: BCHBUSD
         precision: 8
@@ -13114,8 +12835,7 @@ BCHBUSD = BCHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHDOWNUSDT:
+class BCHDOWNUSDT(NamedTuple):
     """
         name: BCHDOWNUSDT
         precision: 8
@@ -13161,8 +12881,7 @@ BCHDOWNUSDT = BCHDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHEUR:
+class BCHEUR(NamedTuple):
     """
         name: BCHEUR
         precision: 8
@@ -13208,8 +12927,7 @@ BCHEUR = BCHEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHPAX:
+class BCHPAX(NamedTuple):
     """
         name: BCHPAX
         precision: 8
@@ -13255,8 +12973,7 @@ BCHPAX = BCHPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHSVBTC:
+class BCHSVBTC(NamedTuple):
     """
         name: BCHSVBTC
         precision: 8
@@ -13302,8 +13019,7 @@ BCHSVBTC = BCHSVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHSVPAX:
+class BCHSVPAX(NamedTuple):
     """
         name: BCHSVPAX
         precision: 8
@@ -13349,8 +13065,7 @@ BCHSVPAX = BCHSVPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHSVTUSD:
+class BCHSVTUSD(NamedTuple):
     """
         name: BCHSVTUSD
         precision: 8
@@ -13396,8 +13111,7 @@ BCHSVTUSD = BCHSVTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHSVUSDC:
+class BCHSVUSDC(NamedTuple):
     """
         name: BCHSVUSDC
         precision: 8
@@ -13443,8 +13157,7 @@ BCHSVUSDC = BCHSVUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHSVUSDT:
+class BCHSVUSDT(NamedTuple):
     """
         name: BCHSVUSDT
         precision: 8
@@ -13490,8 +13203,7 @@ BCHSVUSDT = BCHSVUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHTUSD:
+class BCHTUSD(NamedTuple):
     """
         name: BCHTUSD
         precision: 8
@@ -13537,8 +13249,7 @@ BCHTUSD = BCHTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHUPUSDT:
+class BCHUPUSDT(NamedTuple):
     """
         name: BCHUPUSDT
         precision: 8
@@ -13584,8 +13295,7 @@ BCHUPUSDT = BCHUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHUSDC:
+class BCHUSDC(NamedTuple):
     """
         name: BCHUSDC
         precision: 8
@@ -13631,8 +13341,7 @@ BCHUSDC = BCHUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHUSDT:
+class BCHUSDT(NamedTuple):
     """
         name: BCHUSDT
         precision: 8
@@ -13678,8 +13387,7 @@ BCHUSDT = BCHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCNBNB:
+class BCNBNB(NamedTuple):
     """
         name: BCNBNB
         precision: 8
@@ -13725,8 +13433,7 @@ BCNBNB = BCNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCNBTC:
+class BCNBTC(NamedTuple):
     """
         name: BCNBTC
         precision: 8
@@ -13772,8 +13479,7 @@ BCNBTC = BCNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCNETH:
+class BCNETH(NamedTuple):
     """
         name: BCNETH
         precision: 8
@@ -13819,8 +13525,7 @@ BCNETH = BCNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTBNB:
+class BCPTBNB(NamedTuple):
     """
         name: BCPTBNB
         precision: 8
@@ -13866,8 +13571,7 @@ BCPTBNB = BCPTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTBTC:
+class BCPTBTC(NamedTuple):
     """
         name: BCPTBTC
         precision: 8
@@ -13913,8 +13617,7 @@ BCPTBTC = BCPTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTETH:
+class BCPTETH(NamedTuple):
     """
         name: BCPTETH
         precision: 8
@@ -13960,8 +13663,7 @@ BCPTETH = BCPTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTPAX:
+class BCPTPAX(NamedTuple):
     """
         name: BCPTPAX
         precision: 8
@@ -14007,8 +13709,7 @@ BCPTPAX = BCPTPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTTUSD:
+class BCPTTUSD(NamedTuple):
     """
         name: BCPTTUSD
         precision: 8
@@ -14054,8 +13755,7 @@ BCPTTUSD = BCPTTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCPTUSDC:
+class BCPTUSDC(NamedTuple):
     """
         name: BCPTUSDC
         precision: 8
@@ -14101,8 +13801,7 @@ BCPTUSDC = BCPTUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BDOTDOT:
+class BDOTDOT(NamedTuple):
     """
         name: BDOTDOT
         precision: 8
@@ -14148,8 +13847,7 @@ BDOTDOT = BDOTDOT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BEAMBNB:
+class BEAMBNB(NamedTuple):
     """
         name: BEAMBNB
         precision: 8
@@ -14195,8 +13893,7 @@ BEAMBNB = BEAMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BEAMBTC:
+class BEAMBTC(NamedTuple):
     """
         name: BEAMBTC
         precision: 8
@@ -14242,8 +13939,7 @@ BEAMBTC = BEAMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BEAMUSDT:
+class BEAMUSDT(NamedTuple):
     """
         name: BEAMUSDT
         precision: 8
@@ -14289,8 +13985,7 @@ BEAMUSDT = BEAMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BEARBUSD:
+class BEARBUSD(NamedTuple):
     """
         name: BEARBUSD
         precision: 8
@@ -14336,8 +14031,7 @@ BEARBUSD = BEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BEARUSDT:
+class BEARUSDT(NamedTuple):
     """
         name: BEARUSDT
         precision: 8
@@ -14383,8 +14077,7 @@ BEARUSDT = BEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELBNB:
+class BELBNB(NamedTuple):
     """
         name: BELBNB
         precision: 8
@@ -14430,8 +14123,7 @@ BELBNB = BELBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELBTC:
+class BELBTC(NamedTuple):
     """
         name: BELBTC
         precision: 8
@@ -14477,8 +14169,7 @@ BELBTC = BELBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELBUSD:
+class BELBUSD(NamedTuple):
     """
         name: BELBUSD
         precision: 8
@@ -14524,8 +14215,7 @@ BELBUSD = BELBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELETH:
+class BELETH(NamedTuple):
     """
         name: BELETH
         precision: 8
@@ -14571,8 +14261,7 @@ BELETH = BELETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELTRY:
+class BELTRY(NamedTuple):
     """
         name: BELTRY
         precision: 8
@@ -14618,8 +14307,7 @@ BELTRY = BELTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BELUSDT:
+class BELUSDT(NamedTuple):
     """
         name: BELUSDT
         precision: 8
@@ -14665,8 +14353,7 @@ BELUSDT = BELUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETABNB:
+class BETABNB(NamedTuple):
     """
         name: BETABNB
         precision: 8
@@ -14712,8 +14399,7 @@ BETABNB = BETABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETABTC:
+class BETABTC(NamedTuple):
     """
         name: BETABTC
         precision: 8
@@ -14759,8 +14445,7 @@ BETABTC = BETABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETABUSD:
+class BETABUSD(NamedTuple):
     """
         name: BETABUSD
         precision: 8
@@ -14806,8 +14491,7 @@ BETABUSD = BETABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETAETH:
+class BETAETH(NamedTuple):
     """
         name: BETAETH
         precision: 8
@@ -14853,8 +14537,7 @@ BETAETH = BETAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETAUSDT:
+class BETAUSDT(NamedTuple):
     """
         name: BETAUSDT
         precision: 8
@@ -14900,8 +14583,7 @@ BETAUSDT = BETAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETHBUSD:
+class BETHBUSD(NamedTuple):
     """
         name: BETHBUSD
         precision: 8
@@ -14947,8 +14629,7 @@ BETHBUSD = BETHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BETHETH:
+class BETHETH(NamedTuple):
     """
         name: BETHETH
         precision: 8
@@ -14994,8 +14675,7 @@ BETHETH = BETHETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BGBPUSDC:
+class BGBPUSDC(NamedTuple):
     """
         name: BGBPUSDC
         precision: 8
@@ -15041,8 +14721,7 @@ BGBPUSDC = BGBPUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICOBTC:
+class BICOBTC(NamedTuple):
     """
         name: BICOBTC
         precision: 8
@@ -15088,8 +14767,7 @@ BICOBTC = BICOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICOBUSD:
+class BICOBUSD(NamedTuple):
     """
         name: BICOBUSD
         precision: 8
@@ -15135,8 +14813,7 @@ BICOBUSD = BICOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICOUSDT:
+class BICOUSDT(NamedTuple):
     """
         name: BICOUSDT
         precision: 8
@@ -15182,8 +14859,7 @@ BICOUSDT = BICOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BIFIBNB:
+class BIFIBNB(NamedTuple):
     """
         name: BIFIBNB
         precision: 8
@@ -15229,8 +14905,7 @@ BIFIBNB = BIFIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BIFIBUSD:
+class BIFIBUSD(NamedTuple):
     """
         name: BIFIBUSD
         precision: 8
@@ -15276,8 +14951,7 @@ BIFIBUSD = BIFIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BIFIUSDT:
+class BIFIUSDT(NamedTuple):
     """
         name: BIFIUSDT
         precision: 8
@@ -15323,8 +14997,7 @@ BIFIUSDT = BIFIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BKRWBUSD:
+class BKRWBUSD(NamedTuple):
     """
         name: BKRWBUSD
         precision: 8
@@ -15370,8 +15043,7 @@ BKRWBUSD = BKRWBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BKRWUSDT:
+class BKRWUSDT(NamedTuple):
     """
         name: BKRWUSDT
         precision: 8
@@ -15417,8 +15089,7 @@ BKRWUSDT = BKRWUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZBNB:
+class BLZBNB(NamedTuple):
     """
         name: BLZBNB
         precision: 8
@@ -15464,8 +15135,7 @@ BLZBNB = BLZBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZBTC:
+class BLZBTC(NamedTuple):
     """
         name: BLZBTC
         precision: 8
@@ -15511,8 +15181,7 @@ BLZBTC = BLZBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZBUSD:
+class BLZBUSD(NamedTuple):
     """
         name: BLZBUSD
         precision: 8
@@ -15558,8 +15227,7 @@ BLZBUSD = BLZBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZETH:
+class BLZETH(NamedTuple):
     """
         name: BLZETH
         precision: 8
@@ -15605,8 +15273,7 @@ BLZETH = BLZETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZUSDT:
+class BLZUSDT(NamedTuple):
     """
         name: BLZUSDT
         precision: 8
@@ -15652,8 +15319,7 @@ BLZUSDT = BLZUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBAUD:
+class BNBAUD(NamedTuple):
     """
         name: BNBAUD
         precision: 8
@@ -15699,8 +15365,7 @@ BNBAUD = BNBAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBEARBUSD:
+class BNBBEARBUSD(NamedTuple):
     """
         name: BNBBEARBUSD
         precision: 8
@@ -15746,8 +15411,7 @@ BNBBEARBUSD = BNBBEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBEARUSDT:
+class BNBBEARUSDT(NamedTuple):
     """
         name: BNBBEARUSDT
         precision: 8
@@ -15793,8 +15457,7 @@ BNBBEARUSDT = BNBBEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBIDR:
+class BNBBIDR(NamedTuple):
     """
         name: BNBBIDR
         precision: 2
@@ -15840,8 +15503,7 @@ BNBBIDR = BNBBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBKRW:
+class BNBBKRW(NamedTuple):
     """
         name: BNBBKRW
         precision: 8
@@ -15887,8 +15549,7 @@ BNBBKRW = BNBBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBRL:
+class BNBBRL(NamedTuple):
     """
         name: BNBBRL
         precision: 8
@@ -15934,8 +15595,7 @@ BNBBRL = BNBBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBTC:
+class BNBBTC(NamedTuple):
     """
         name: BNBBTC
         precision: 8
@@ -15981,8 +15641,7 @@ BNBBTC = BNBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBULLBUSD:
+class BNBBULLBUSD(NamedTuple):
     """
         name: BNBBULLBUSD
         precision: 8
@@ -16028,8 +15687,7 @@ BNBBULLBUSD = BNBBULLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBULLUSDT:
+class BNBBULLUSDT(NamedTuple):
     """
         name: BNBBULLUSDT
         precision: 8
@@ -16075,8 +15733,7 @@ BNBBULLUSDT = BNBBULLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBBUSD:
+class BNBBUSD(NamedTuple):
     """
         name: BNBBUSD
         precision: 8
@@ -16122,8 +15779,7 @@ BNBBUSD = BNBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBDAI:
+class BNBDAI(NamedTuple):
     """
         name: BNBDAI
         precision: 8
@@ -16169,8 +15825,7 @@ BNBDAI = BNBDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBDOWNUSDT:
+class BNBDOWNUSDT(NamedTuple):
     """
         name: BNBDOWNUSDT
         precision: 8
@@ -16216,8 +15871,7 @@ BNBDOWNUSDT = BNBDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBETH:
+class BNBETH(NamedTuple):
     """
         name: BNBETH
         precision: 8
@@ -16263,8 +15917,7 @@ BNBETH = BNBETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBEUR:
+class BNBEUR(NamedTuple):
     """
         name: BNBEUR
         precision: 8
@@ -16310,8 +15963,7 @@ BNBEUR = BNBEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBGBP:
+class BNBGBP(NamedTuple):
     """
         name: BNBGBP
         precision: 8
@@ -16357,8 +16009,7 @@ BNBGBP = BNBGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBIDRT:
+class BNBIDRT(NamedTuple):
     """
         name: BNBIDRT
         precision: 2
@@ -16404,8 +16055,7 @@ BNBIDRT = BNBIDRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBNGN:
+class BNBNGN(NamedTuple):
     """
         name: BNBNGN
         precision: 8
@@ -16451,8 +16101,7 @@ BNBNGN = BNBNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBPAX:
+class BNBPAX(NamedTuple):
     """
         name: BNBPAX
         precision: 8
@@ -16498,8 +16147,7 @@ BNBPAX = BNBPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBRUB:
+class BNBRUB(NamedTuple):
     """
         name: BNBRUB
         precision: 8
@@ -16545,8 +16193,7 @@ BNBRUB = BNBRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBTRY:
+class BNBTRY(NamedTuple):
     """
         name: BNBTRY
         precision: 8
@@ -16592,8 +16239,7 @@ BNBTRY = BNBTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBTUSD:
+class BNBTUSD(NamedTuple):
     """
         name: BNBTUSD
         precision: 8
@@ -16639,8 +16285,7 @@ BNBTUSD = BNBTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUAH:
+class BNBUAH(NamedTuple):
     """
         name: BNBUAH
         precision: 8
@@ -16686,8 +16331,7 @@ BNBUAH = BNBUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUPUSDT:
+class BNBUPUSDT(NamedTuple):
     """
         name: BNBUPUSDT
         precision: 8
@@ -16733,8 +16377,7 @@ BNBUPUSDT = BNBUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSDC:
+class BNBUSDC(NamedTuple):
     """
         name: BNBUSDC
         precision: 8
@@ -16780,8 +16423,7 @@ BNBUSDC = BNBUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSDP:
+class BNBUSDP(NamedTuple):
     """
         name: BNBUSDP
         precision: 8
@@ -16827,8 +16469,7 @@ BNBUSDP = BNBUSDP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSDS:
+class BNBUSDS(NamedTuple):
     """
         name: BNBUSDS
         precision: 8
@@ -16874,8 +16515,7 @@ BNBUSDS = BNBUSDS()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSDT:
+class BNBUSDT(NamedTuple):
     """
         name: BNBUSDT
         precision: 8
@@ -16921,8 +16561,7 @@ BNBUSDT = BNBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUST:
+class BNBUST(NamedTuple):
     """
         name: BNBUST
         precision: 8
@@ -16968,8 +16607,7 @@ BNBUST = BNBUST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBZAR:
+class BNBZAR(NamedTuple):
     """
         name: BNBZAR
         precision: 8
@@ -17015,8 +16653,7 @@ BNBZAR = BNBZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNTBTC:
+class BNTBTC(NamedTuple):
     """
         name: BNTBTC
         precision: 8
@@ -17062,8 +16699,7 @@ BNTBTC = BNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNTBUSD:
+class BNTBUSD(NamedTuple):
     """
         name: BNTBUSD
         precision: 8
@@ -17109,8 +16745,7 @@ BNTBUSD = BNTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNTETH:
+class BNTETH(NamedTuple):
     """
         name: BNTETH
         precision: 8
@@ -17156,8 +16791,7 @@ BNTETH = BNTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNTUSDT:
+class BNTUSDT(NamedTuple):
     """
         name: BNTUSDT
         precision: 8
@@ -17203,8 +16837,7 @@ BNTUSDT = BNTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNXBNB:
+class BNXBNB(NamedTuple):
     """
         name: BNXBNB
         precision: 8
@@ -17250,8 +16883,7 @@ BNXBNB = BNXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNXBTC:
+class BNXBTC(NamedTuple):
     """
         name: BNXBTC
         precision: 8
@@ -17297,8 +16929,7 @@ BNXBTC = BNXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNXBUSD:
+class BNXBUSD(NamedTuple):
     """
         name: BNXBUSD
         precision: 8
@@ -17344,8 +16975,7 @@ BNXBUSD = BNXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNXUSDT:
+class BNXUSDT(NamedTuple):
     """
         name: BNXUSDT
         precision: 8
@@ -17391,8 +17021,7 @@ BNXUSDT = BNXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BONDBNB:
+class BONDBNB(NamedTuple):
     """
         name: BONDBNB
         precision: 8
@@ -17438,8 +17067,7 @@ BONDBNB = BONDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BONDBTC:
+class BONDBTC(NamedTuple):
     """
         name: BONDBTC
         precision: 8
@@ -17485,8 +17113,7 @@ BONDBTC = BONDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BONDBUSD:
+class BONDBUSD(NamedTuple):
     """
         name: BONDBUSD
         precision: 8
@@ -17532,8 +17159,7 @@ BONDBUSD = BONDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BONDETH:
+class BONDETH(NamedTuple):
     """
         name: BONDETH
         precision: 8
@@ -17579,8 +17205,7 @@ BONDETH = BONDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BONDUSDT:
+class BONDUSDT(NamedTuple):
     """
         name: BONDUSDT
         precision: 8
@@ -17626,8 +17251,7 @@ BONDUSDT = BONDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOTBTC:
+class BOTBTC(NamedTuple):
     """
         name: BOTBTC
         precision: 8
@@ -17673,8 +17297,7 @@ BOTBTC = BOTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOTBUSD:
+class BOTBUSD(NamedTuple):
     """
         name: BOTBUSD
         precision: 8
@@ -17720,8 +17343,7 @@ BOTBUSD = BOTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BQXBTC:
+class BQXBTC(NamedTuple):
     """
         name: BQXBTC
         precision: 8
@@ -17767,8 +17389,7 @@ BQXBTC = BQXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BQXETH:
+class BQXETH(NamedTuple):
     """
         name: BQXETH
         precision: 8
@@ -17814,8 +17435,7 @@ BQXETH = BQXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BRDBNB:
+class BRDBNB(NamedTuple):
     """
         name: BRDBNB
         precision: 8
@@ -17861,8 +17481,7 @@ BRDBNB = BRDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BRDBTC:
+class BRDBTC(NamedTuple):
     """
         name: BRDBTC
         precision: 8
@@ -17908,8 +17527,7 @@ BRDBTC = BRDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BRDETH:
+class BRDETH(NamedTuple):
     """
         name: BRDETH
         precision: 8
@@ -17955,8 +17573,7 @@ BRDETH = BRDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BSWBNB:
+class BSWBNB(NamedTuple):
     """
         name: BSWBNB
         precision: 8
@@ -18002,8 +17619,7 @@ BSWBNB = BSWBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BSWBUSD:
+class BSWBUSD(NamedTuple):
     """
         name: BSWBUSD
         precision: 8
@@ -18049,8 +17665,7 @@ BSWBUSD = BSWBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BSWETH:
+class BSWETH(NamedTuple):
     """
         name: BSWETH
         precision: 8
@@ -18096,8 +17711,7 @@ BSWETH = BSWETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BSWTRY:
+class BSWTRY(NamedTuple):
     """
         name: BSWTRY
         precision: 8
@@ -18143,8 +17757,7 @@ BSWTRY = BSWTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BSWUSDT:
+class BSWUSDT(NamedTuple):
     """
         name: BSWUSDT
         precision: 8
@@ -18190,8 +17803,7 @@ BSWUSDT = BSWUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCAUD:
+class BTCAUD(NamedTuple):
     """
         name: BTCAUD
         precision: 8
@@ -18237,8 +17849,7 @@ BTCAUD = BTCAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCBBTC:
+class BTCBBTC(NamedTuple):
     """
         name: BTCBBTC
         precision: 8
@@ -18284,8 +17895,7 @@ BTCBBTC = BTCBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCBIDR:
+class BTCBIDR(NamedTuple):
     """
         name: BTCBIDR
         precision: 2
@@ -18331,8 +17941,7 @@ BTCBIDR = BTCBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCBKRW:
+class BTCBKRW(NamedTuple):
     """
         name: BTCBKRW
         precision: 8
@@ -18378,8 +17987,7 @@ BTCBKRW = BTCBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCBRL:
+class BTCBRL(NamedTuple):
     """
         name: BTCBRL
         precision: 8
@@ -18425,8 +18033,7 @@ BTCBRL = BTCBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCBUSD:
+class BTCBUSD(NamedTuple):
     """
         name: BTCBUSD
         precision: 8
@@ -18472,8 +18079,7 @@ BTCBUSD = BTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCDAI:
+class BTCDAI(NamedTuple):
     """
         name: BTCDAI
         precision: 8
@@ -18519,8 +18125,7 @@ BTCDAI = BTCDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCDOWNUSDT:
+class BTCDOWNUSDT(NamedTuple):
     """
         name: BTCDOWNUSDT
         precision: 8
@@ -18566,8 +18171,7 @@ BTCDOWNUSDT = BTCDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCEUR:
+class BTCEUR(NamedTuple):
     """
         name: BTCEUR
         precision: 8
@@ -18613,8 +18217,7 @@ BTCEUR = BTCEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCGBP:
+class BTCGBP(NamedTuple):
     """
         name: BTCGBP
         precision: 8
@@ -18660,8 +18263,7 @@ BTCGBP = BTCGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCIDRT:
+class BTCIDRT(NamedTuple):
     """
         name: BTCIDRT
         precision: 2
@@ -18707,8 +18309,7 @@ BTCIDRT = BTCIDRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCNGN:
+class BTCNGN(NamedTuple):
     """
         name: BTCNGN
         precision: 8
@@ -18754,8 +18355,7 @@ BTCNGN = BTCNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCPAX:
+class BTCPAX(NamedTuple):
     """
         name: BTCPAX
         precision: 8
@@ -18801,8 +18401,7 @@ BTCPAX = BTCPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCPLN:
+class BTCPLN(NamedTuple):
     """
         name: BTCPLN
         precision: 8
@@ -18848,8 +18447,7 @@ BTCPLN = BTCPLN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCRUB:
+class BTCRUB(NamedTuple):
     """
         name: BTCRUB
         precision: 8
@@ -18895,8 +18493,7 @@ BTCRUB = BTCRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCSTBTC:
+class BTCSTBTC(NamedTuple):
     """
         name: BTCSTBTC
         precision: 8
@@ -18942,8 +18539,7 @@ BTCSTBTC = BTCSTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCSTBUSD:
+class BTCSTBUSD(NamedTuple):
     """
         name: BTCSTBUSD
         precision: 8
@@ -18989,8 +18585,7 @@ BTCSTBUSD = BTCSTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCSTUSDT:
+class BTCSTUSDT(NamedTuple):
     """
         name: BTCSTUSDT
         precision: 8
@@ -19036,8 +18631,7 @@ BTCSTUSDT = BTCSTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCTRY:
+class BTCTRY(NamedTuple):
     """
         name: BTCTRY
         precision: 8
@@ -19083,8 +18677,7 @@ BTCTRY = BTCTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCTUSD:
+class BTCTUSD(NamedTuple):
     """
         name: BTCTUSD
         precision: 8
@@ -19130,8 +18723,7 @@ BTCTUSD = BTCTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUAH:
+class BTCUAH(NamedTuple):
     """
         name: BTCUAH
         precision: 8
@@ -19177,8 +18769,7 @@ BTCUAH = BTCUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUPUSDT:
+class BTCUPUSDT(NamedTuple):
     """
         name: BTCUPUSDT
         precision: 8
@@ -19224,8 +18815,7 @@ BTCUPUSDT = BTCUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUSDC:
+class BTCUSDC(NamedTuple):
     """
         name: BTCUSDC
         precision: 8
@@ -19271,8 +18861,7 @@ BTCUSDC = BTCUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUSDP:
+class BTCUSDP(NamedTuple):
     """
         name: BTCUSDP
         precision: 8
@@ -19318,8 +18907,7 @@ BTCUSDP = BTCUSDP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUSDS:
+class BTCUSDS(NamedTuple):
     """
         name: BTCUSDS
         precision: 8
@@ -19365,8 +18953,7 @@ BTCUSDS = BTCUSDS()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUSDT:
+class BTCUSDT(NamedTuple):
     """
         name: BTCUSDT
         precision: 8
@@ -19412,8 +18999,7 @@ BTCUSDT = BTCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCUST:
+class BTCUST(NamedTuple):
     """
         name: BTCUST
         precision: 8
@@ -19459,8 +19045,7 @@ BTCUST = BTCUST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCVAI:
+class BTCVAI(NamedTuple):
     """
         name: BTCVAI
         precision: 8
@@ -19506,8 +19091,7 @@ BTCVAI = BTCVAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTCZAR:
+class BTCZAR(NamedTuple):
     """
         name: BTCZAR
         precision: 8
@@ -19553,8 +19137,7 @@ BTCZAR = BTCZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTGBTC:
+class BTGBTC(NamedTuple):
     """
         name: BTGBTC
         precision: 8
@@ -19600,8 +19183,7 @@ BTGBTC = BTGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTGBUSD:
+class BTGBUSD(NamedTuple):
     """
         name: BTGBUSD
         precision: 8
@@ -19647,8 +19229,7 @@ BTGBUSD = BTGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTGETH:
+class BTGETH(NamedTuple):
     """
         name: BTGETH
         precision: 8
@@ -19694,8 +19275,7 @@ BTGETH = BTGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTGUSDT:
+class BTGUSDT(NamedTuple):
     """
         name: BTGUSDT
         precision: 8
@@ -19741,8 +19321,7 @@ BTGUSDT = BTGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTSBNB:
+class BTSBNB(NamedTuple):
     """
         name: BTSBNB
         precision: 8
@@ -19788,8 +19367,7 @@ BTSBNB = BTSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTSBTC:
+class BTSBTC(NamedTuple):
     """
         name: BTSBTC
         precision: 8
@@ -19835,8 +19413,7 @@ BTSBTC = BTSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTSBUSD:
+class BTSBUSD(NamedTuple):
     """
         name: BTSBUSD
         precision: 8
@@ -19882,8 +19459,7 @@ BTSBUSD = BTSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTSETH:
+class BTSETH(NamedTuple):
     """
         name: BTSETH
         precision: 8
@@ -19929,8 +19505,7 @@ BTSETH = BTSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTSUSDT:
+class BTSUSDT(NamedTuple):
     """
         name: BTSUSDT
         precision: 8
@@ -19976,8 +19551,7 @@ BTSUSDT = BTSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTBNB:
+class BTTBNB(NamedTuple):
     """
         name: BTTBNB
         precision: 8
@@ -20023,8 +19597,7 @@ BTTBNB = BTTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTBRL:
+class BTTBRL(NamedTuple):
     """
         name: BTTBRL
         precision: 8
@@ -20070,8 +19643,7 @@ BTTBRL = BTTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTBTC:
+class BTTBTC(NamedTuple):
     """
         name: BTTBTC
         precision: 8
@@ -20117,8 +19689,7 @@ BTTBTC = BTTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTBUSD:
+class BTTBUSD(NamedTuple):
     """
         name: BTTBUSD
         precision: 8
@@ -20164,8 +19735,7 @@ BTTBUSD = BTTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTCBUSD:
+class BTTCBUSD(NamedTuple):
     """
         name: BTTCBUSD
         precision: 8
@@ -20211,8 +19781,7 @@ BTTCBUSD = BTTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTCTRY:
+class BTTCTRY(NamedTuple):
     """
         name: BTTCTRY
         precision: 8
@@ -20258,8 +19827,7 @@ BTTCTRY = BTTCTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTCUSDC:
+class BTTCUSDC(NamedTuple):
     """
         name: BTTCUSDC
         precision: 8
@@ -20305,8 +19873,7 @@ BTTCUSDC = BTTCUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTCUSDT:
+class BTTCUSDT(NamedTuple):
     """
         name: BTTCUSDT
         precision: 8
@@ -20352,8 +19919,7 @@ BTTCUSDT = BTTCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTEUR:
+class BTTEUR(NamedTuple):
     """
         name: BTTEUR
         precision: 8
@@ -20399,8 +19965,7 @@ BTTEUR = BTTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTPAX:
+class BTTPAX(NamedTuple):
     """
         name: BTTPAX
         precision: 8
@@ -20446,8 +20011,7 @@ BTTPAX = BTTPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTTRX:
+class BTTTRX(NamedTuple):
     """
         name: BTTTRX
         precision: 8
@@ -20493,8 +20057,7 @@ BTTTRX = BTTTRX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTTRY:
+class BTTTRY(NamedTuple):
     """
         name: BTTTRY
         precision: 8
@@ -20540,8 +20103,7 @@ BTTTRY = BTTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTTUSD:
+class BTTTUSD(NamedTuple):
     """
         name: BTTTUSD
         precision: 8
@@ -20587,8 +20149,7 @@ BTTTUSD = BTTTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTUSDC:
+class BTTUSDC(NamedTuple):
     """
         name: BTTUSDC
         precision: 8
@@ -20634,8 +20195,7 @@ BTTUSDC = BTTUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTTUSDT:
+class BTTUSDT(NamedTuple):
     """
         name: BTTUSDT
         precision: 8
@@ -20681,8 +20241,7 @@ BTTUSDT = BTTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BULLBUSD:
+class BULLBUSD(NamedTuple):
     """
         name: BULLBUSD
         precision: 8
@@ -20728,8 +20287,7 @@ BULLBUSD = BULLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BULLUSDT:
+class BULLUSDT(NamedTuple):
     """
         name: BULLUSDT
         precision: 8
@@ -20775,8 +20333,7 @@ BULLUSDT = BULLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BURGERBNB:
+class BURGERBNB(NamedTuple):
     """
         name: BURGERBNB
         precision: 8
@@ -20822,8 +20379,7 @@ BURGERBNB = BURGERBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BURGERBUSD:
+class BURGERBUSD(NamedTuple):
     """
         name: BURGERBUSD
         precision: 8
@@ -20869,8 +20425,7 @@ BURGERBUSD = BURGERBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BURGERETH:
+class BURGERETH(NamedTuple):
     """
         name: BURGERETH
         precision: 8
@@ -20916,8 +20471,7 @@ BURGERETH = BURGERETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BURGERUSDT:
+class BURGERUSDT(NamedTuple):
     """
         name: BURGERUSDT
         precision: 8
@@ -20963,8 +20517,7 @@ BURGERUSDT = BURGERUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDBIDR:
+class BUSDBIDR(NamedTuple):
     """
         name: BUSDBIDR
         precision: 2
@@ -21010,8 +20563,7 @@ BUSDBIDR = BUSDBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDBKRW:
+class BUSDBKRW(NamedTuple):
     """
         name: BUSDBKRW
         precision: 8
@@ -21057,8 +20609,7 @@ BUSDBKRW = BUSDBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDBRL:
+class BUSDBRL(NamedTuple):
     """
         name: BUSDBRL
         precision: 8
@@ -21104,8 +20655,7 @@ BUSDBRL = BUSDBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDBVND:
+class BUSDBVND(NamedTuple):
     """
         name: BUSDBVND
         precision: 2
@@ -21151,8 +20701,7 @@ BUSDBVND = BUSDBVND()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDDAI:
+class BUSDDAI(NamedTuple):
     """
         name: BUSDDAI
         precision: 8
@@ -21198,8 +20747,7 @@ BUSDDAI = BUSDDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDIDRT:
+class BUSDIDRT(NamedTuple):
     """
         name: BUSDIDRT
         precision: 2
@@ -21245,8 +20793,7 @@ BUSDIDRT = BUSDIDRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDNGN:
+class BUSDNGN(NamedTuple):
     """
         name: BUSDNGN
         precision: 8
@@ -21292,8 +20839,7 @@ BUSDNGN = BUSDNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDPLN:
+class BUSDPLN(NamedTuple):
     """
         name: BUSDPLN
         precision: 8
@@ -21339,8 +20885,7 @@ BUSDPLN = BUSDPLN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDRON:
+class BUSDRON(NamedTuple):
     """
         name: BUSDRON
         precision: 8
@@ -21386,8 +20931,7 @@ BUSDRON = BUSDRON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDRUB:
+class BUSDRUB(NamedTuple):
     """
         name: BUSDRUB
         precision: 8
@@ -21433,8 +20977,7 @@ BUSDRUB = BUSDRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDTRY:
+class BUSDTRY(NamedTuple):
     """
         name: BUSDTRY
         precision: 8
@@ -21480,8 +21023,7 @@ BUSDTRY = BUSDTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDUAH:
+class BUSDUAH(NamedTuple):
     """
         name: BUSDUAH
         precision: 8
@@ -21527,8 +21069,7 @@ BUSDUAH = BUSDUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDUSDT:
+class BUSDUSDT(NamedTuple):
     """
         name: BUSDUSDT
         precision: 8
@@ -21574,8 +21115,7 @@ BUSDUSDT = BUSDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDVAI:
+class BUSDVAI(NamedTuple):
     """
         name: BUSDVAI
         precision: 8
@@ -21621,8 +21161,7 @@ BUSDVAI = BUSDVAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSDZAR:
+class BUSDZAR(NamedTuple):
     """
         name: BUSDZAR
         precision: 8
@@ -21668,8 +21207,7 @@ BUSDZAR = BUSDZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BZRXBNB:
+class BZRXBNB(NamedTuple):
     """
         name: BZRXBNB
         precision: 8
@@ -21715,8 +21253,7 @@ BZRXBNB = BZRXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BZRXBTC:
+class BZRXBTC(NamedTuple):
     """
         name: BZRXBTC
         precision: 8
@@ -21762,8 +21299,7 @@ BZRXBTC = BZRXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BZRXBUSD:
+class BZRXBUSD(NamedTuple):
     """
         name: BZRXBUSD
         precision: 8
@@ -21809,8 +21345,7 @@ BZRXBUSD = BZRXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BZRXUSDT:
+class BZRXUSDT(NamedTuple):
     """
         name: BZRXUSDT
         precision: 8
@@ -21856,8 +21391,7 @@ BZRXUSDT = BZRXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98BNB:
+class C98BNB(NamedTuple):
     """
         name: C98BNB
         precision: 8
@@ -21903,8 +21437,7 @@ C98BNB = C98BNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98BRL:
+class C98BRL(NamedTuple):
     """
         name: C98BRL
         precision: 8
@@ -21950,8 +21483,7 @@ C98BRL = C98BRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98BTC:
+class C98BTC(NamedTuple):
     """
         name: C98BTC
         precision: 8
@@ -21997,8 +21529,7 @@ C98BTC = C98BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98BUSD:
+class C98BUSD(NamedTuple):
     """
         name: C98BUSD
         precision: 8
@@ -22044,8 +21575,7 @@ C98BUSD = C98BUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98USDT:
+class C98USDT(NamedTuple):
     """
         name: C98USDT
         precision: 8
@@ -22091,8 +21621,7 @@ C98USDT = C98USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEAUD:
+class CAKEAUD(NamedTuple):
     """
         name: CAKEAUD
         precision: 8
@@ -22138,8 +21667,7 @@ CAKEAUD = CAKEAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEBNB:
+class CAKEBNB(NamedTuple):
     """
         name: CAKEBNB
         precision: 8
@@ -22185,8 +21713,7 @@ CAKEBNB = CAKEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEBRL:
+class CAKEBRL(NamedTuple):
     """
         name: CAKEBRL
         precision: 8
@@ -22232,8 +21759,7 @@ CAKEBRL = CAKEBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEBTC:
+class CAKEBTC(NamedTuple):
     """
         name: CAKEBTC
         precision: 8
@@ -22279,8 +21805,7 @@ CAKEBTC = CAKEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEBUSD:
+class CAKEBUSD(NamedTuple):
     """
         name: CAKEBUSD
         precision: 8
@@ -22326,8 +21851,7 @@ CAKEBUSD = CAKEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEGBP:
+class CAKEGBP(NamedTuple):
     """
         name: CAKEGBP
         precision: 8
@@ -22373,8 +21897,7 @@ CAKEGBP = CAKEGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CAKEUSDT:
+class CAKEUSDT(NamedTuple):
     """
         name: CAKEUSDT
         precision: 8
@@ -22420,8 +21943,7 @@ CAKEUSDT = CAKEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CDTBTC:
+class CDTBTC(NamedTuple):
     """
         name: CDTBTC
         precision: 8
@@ -22467,8 +21989,7 @@ CDTBTC = CDTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CDTETH:
+class CDTETH(NamedTuple):
     """
         name: CDTETH
         precision: 8
@@ -22514,8 +22035,7 @@ CDTETH = CDTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELOBTC:
+class CELOBTC(NamedTuple):
     """
         name: CELOBTC
         precision: 8
@@ -22561,8 +22081,7 @@ CELOBTC = CELOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELOBUSD:
+class CELOBUSD(NamedTuple):
     """
         name: CELOBUSD
         precision: 8
@@ -22608,8 +22127,7 @@ CELOBUSD = CELOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELOUSDT:
+class CELOUSDT(NamedTuple):
     """
         name: CELOUSDT
         precision: 8
@@ -22655,8 +22173,7 @@ CELOUSDT = CELOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELRBNB:
+class CELRBNB(NamedTuple):
     """
         name: CELRBNB
         precision: 8
@@ -22702,8 +22219,7 @@ CELRBNB = CELRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELRBTC:
+class CELRBTC(NamedTuple):
     """
         name: CELRBTC
         precision: 8
@@ -22749,8 +22265,7 @@ CELRBTC = CELRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELRBUSD:
+class CELRBUSD(NamedTuple):
     """
         name: CELRBUSD
         precision: 8
@@ -22796,8 +22311,7 @@ CELRBUSD = CELRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELRETH:
+class CELRETH(NamedTuple):
     """
         name: CELRETH
         precision: 8
@@ -22843,8 +22357,7 @@ CELRETH = CELRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELRUSDT:
+class CELRUSDT(NamedTuple):
     """
         name: CELRUSDT
         precision: 8
@@ -22890,8 +22403,7 @@ CELRUSDT = CELRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CFXBTC:
+class CFXBTC(NamedTuple):
     """
         name: CFXBTC
         precision: 8
@@ -22937,8 +22449,7 @@ CFXBTC = CFXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CFXBUSD:
+class CFXBUSD(NamedTuple):
     """
         name: CFXBUSD
         precision: 8
@@ -22984,8 +22495,7 @@ CFXBUSD = CFXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CFXUSDT:
+class CFXUSDT(NamedTuple):
     """
         name: CFXUSDT
         precision: 8
@@ -23031,8 +22541,7 @@ CFXUSDT = CFXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHATBTC:
+class CHATBTC(NamedTuple):
     """
         name: CHATBTC
         precision: 8
@@ -23078,8 +22587,7 @@ CHATBTC = CHATBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHATETH:
+class CHATETH(NamedTuple):
     """
         name: CHATETH
         precision: 8
@@ -23125,8 +22633,7 @@ CHATETH = CHATETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHESSBNB:
+class CHESSBNB(NamedTuple):
     """
         name: CHESSBNB
         precision: 8
@@ -23172,8 +22679,7 @@ CHESSBNB = CHESSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHESSBTC:
+class CHESSBTC(NamedTuple):
     """
         name: CHESSBTC
         precision: 8
@@ -23219,8 +22725,7 @@ CHESSBTC = CHESSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHESSBUSD:
+class CHESSBUSD(NamedTuple):
     """
         name: CHESSBUSD
         precision: 8
@@ -23266,8 +22771,7 @@ CHESSBUSD = CHESSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHESSUSDT:
+class CHESSUSDT(NamedTuple):
     """
         name: CHESSUSDT
         precision: 8
@@ -23313,8 +22817,7 @@ CHESSUSDT = CHESSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHRBNB:
+class CHRBNB(NamedTuple):
     """
         name: CHRBNB
         precision: 8
@@ -23360,8 +22863,7 @@ CHRBNB = CHRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHRBTC:
+class CHRBTC(NamedTuple):
     """
         name: CHRBTC
         precision: 8
@@ -23407,8 +22909,7 @@ CHRBTC = CHRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHRBUSD:
+class CHRBUSD(NamedTuple):
     """
         name: CHRBUSD
         precision: 8
@@ -23454,8 +22955,7 @@ CHRBUSD = CHRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHRETH:
+class CHRETH(NamedTuple):
     """
         name: CHRETH
         precision: 8
@@ -23501,8 +23001,7 @@ CHRETH = CHRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHRUSDT:
+class CHRUSDT(NamedTuple):
     """
         name: CHRUSDT
         precision: 8
@@ -23548,8 +23047,7 @@ CHRUSDT = CHRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZBNB:
+class CHZBNB(NamedTuple):
     """
         name: CHZBNB
         precision: 8
@@ -23595,8 +23093,7 @@ CHZBNB = CHZBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZBRL:
+class CHZBRL(NamedTuple):
     """
         name: CHZBRL
         precision: 8
@@ -23642,8 +23139,7 @@ CHZBRL = CHZBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZBTC:
+class CHZBTC(NamedTuple):
     """
         name: CHZBTC
         precision: 8
@@ -23689,8 +23185,7 @@ CHZBTC = CHZBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZBUSD:
+class CHZBUSD(NamedTuple):
     """
         name: CHZBUSD
         precision: 8
@@ -23736,8 +23231,7 @@ CHZBUSD = CHZBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZEUR:
+class CHZEUR(NamedTuple):
     """
         name: CHZEUR
         precision: 8
@@ -23783,8 +23277,7 @@ CHZEUR = CHZEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZGBP:
+class CHZGBP(NamedTuple):
     """
         name: CHZGBP
         precision: 8
@@ -23830,8 +23323,7 @@ CHZGBP = CHZGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZTRY:
+class CHZTRY(NamedTuple):
     """
         name: CHZTRY
         precision: 8
@@ -23877,8 +23369,7 @@ CHZTRY = CHZTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZUSDT:
+class CHZUSDT(NamedTuple):
     """
         name: CHZUSDT
         precision: 8
@@ -23924,8 +23415,7 @@ CHZUSDT = CHZUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CITYBNB:
+class CITYBNB(NamedTuple):
     """
         name: CITYBNB
         precision: 8
@@ -23971,8 +23461,7 @@ CITYBNB = CITYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CITYBTC:
+class CITYBTC(NamedTuple):
     """
         name: CITYBTC
         precision: 8
@@ -24018,8 +23507,7 @@ CITYBTC = CITYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CITYBUSD:
+class CITYBUSD(NamedTuple):
     """
         name: CITYBUSD
         precision: 8
@@ -24065,8 +23553,7 @@ CITYBUSD = CITYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CITYUSDT:
+class CITYUSDT(NamedTuple):
     """
         name: CITYUSDT
         precision: 8
@@ -24112,8 +23599,7 @@ CITYUSDT = CITYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CKBBTC:
+class CKBBTC(NamedTuple):
     """
         name: CKBBTC
         precision: 8
@@ -24159,8 +23645,7 @@ CKBBTC = CKBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CKBBUSD:
+class CKBBUSD(NamedTuple):
     """
         name: CKBBUSD
         precision: 8
@@ -24206,8 +23691,7 @@ CKBBUSD = CKBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CKBUSDT:
+class CKBUSDT(NamedTuple):
     """
         name: CKBUSDT
         precision: 8
@@ -24253,8 +23737,7 @@ CKBUSDT = CKBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLOAKBTC:
+class CLOAKBTC(NamedTuple):
     """
         name: CLOAKBTC
         precision: 8
@@ -24300,8 +23783,7 @@ CLOAKBTC = CLOAKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLOAKETH:
+class CLOAKETH(NamedTuple):
     """
         name: CLOAKETH
         precision: 8
@@ -24347,8 +23829,7 @@ CLOAKETH = CLOAKETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLVBNB:
+class CLVBNB(NamedTuple):
     """
         name: CLVBNB
         precision: 8
@@ -24394,8 +23875,7 @@ CLVBNB = CLVBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLVBTC:
+class CLVBTC(NamedTuple):
     """
         name: CLVBTC
         precision: 8
@@ -24441,8 +23921,7 @@ CLVBTC = CLVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLVBUSD:
+class CLVBUSD(NamedTuple):
     """
         name: CLVBUSD
         precision: 8
@@ -24488,8 +23967,7 @@ CLVBUSD = CLVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLVUSDT:
+class CLVUSDT(NamedTuple):
     """
         name: CLVUSDT
         precision: 8
@@ -24535,8 +24013,7 @@ CLVUSDT = CLVUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CMTBNB:
+class CMTBNB(NamedTuple):
     """
         name: CMTBNB
         precision: 8
@@ -24582,8 +24059,7 @@ CMTBNB = CMTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CMTBTC:
+class CMTBTC(NamedTuple):
     """
         name: CMTBTC
         precision: 8
@@ -24629,8 +24105,7 @@ CMTBTC = CMTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CMTETH:
+class CMTETH(NamedTuple):
     """
         name: CMTETH
         precision: 8
@@ -24676,8 +24151,7 @@ CMTETH = CMTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CNDBNB:
+class CNDBNB(NamedTuple):
     """
         name: CNDBNB
         precision: 8
@@ -24723,8 +24197,7 @@ CNDBNB = CNDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CNDBTC:
+class CNDBTC(NamedTuple):
     """
         name: CNDBTC
         precision: 8
@@ -24770,8 +24243,7 @@ CNDBTC = CNDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CNDETH:
+class CNDETH(NamedTuple):
     """
         name: CNDETH
         precision: 8
@@ -24817,8 +24289,7 @@ CNDETH = CNDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COCOSBNB:
+class COCOSBNB(NamedTuple):
     """
         name: COCOSBNB
         precision: 8
@@ -24864,8 +24335,7 @@ COCOSBNB = COCOSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COCOSBTC:
+class COCOSBTC(NamedTuple):
     """
         name: COCOSBTC
         precision: 8
@@ -24911,8 +24381,7 @@ COCOSBTC = COCOSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COCOSBUSD:
+class COCOSBUSD(NamedTuple):
     """
         name: COCOSBUSD
         precision: 8
@@ -24958,8 +24427,7 @@ COCOSBUSD = COCOSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COCOSTRY:
+class COCOSTRY(NamedTuple):
     """
         name: COCOSTRY
         precision: 8
@@ -25005,8 +24473,7 @@ COCOSTRY = COCOSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COCOSUSDT:
+class COCOSUSDT(NamedTuple):
     """
         name: COCOSUSDT
         precision: 8
@@ -25052,8 +24519,7 @@ COCOSUSDT = COCOSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMPBNB:
+class COMPBNB(NamedTuple):
     """
         name: COMPBNB
         precision: 8
@@ -25099,8 +24565,7 @@ COMPBNB = COMPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMPBTC:
+class COMPBTC(NamedTuple):
     """
         name: COMPBTC
         precision: 8
@@ -25146,8 +24611,7 @@ COMPBTC = COMPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMPBUSD:
+class COMPBUSD(NamedTuple):
     """
         name: COMPBUSD
         precision: 8
@@ -25193,8 +24657,7 @@ COMPBUSD = COMPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMPUSDT:
+class COMPUSDT(NamedTuple):
     """
         name: COMPUSDT
         precision: 8
@@ -25240,8 +24703,7 @@ COMPUSDT = COMPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COSBNB:
+class COSBNB(NamedTuple):
     """
         name: COSBNB
         precision: 8
@@ -25287,8 +24749,7 @@ COSBNB = COSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COSBTC:
+class COSBTC(NamedTuple):
     """
         name: COSBTC
         precision: 8
@@ -25334,8 +24795,7 @@ COSBTC = COSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COSBUSD:
+class COSBUSD(NamedTuple):
     """
         name: COSBUSD
         precision: 8
@@ -25381,8 +24841,7 @@ COSBUSD = COSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COSTRY:
+class COSTRY(NamedTuple):
     """
         name: COSTRY
         precision: 8
@@ -25428,8 +24887,7 @@ COSTRY = COSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COSUSDT:
+class COSUSDT(NamedTuple):
     """
         name: COSUSDT
         precision: 8
@@ -25475,8 +24933,7 @@ COSUSDT = COSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COTIBNB:
+class COTIBNB(NamedTuple):
     """
         name: COTIBNB
         precision: 8
@@ -25522,8 +24979,7 @@ COTIBNB = COTIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COTIBTC:
+class COTIBTC(NamedTuple):
     """
         name: COTIBTC
         precision: 8
@@ -25569,8 +25025,7 @@ COTIBTC = COTIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COTIBUSD:
+class COTIBUSD(NamedTuple):
     """
         name: COTIBUSD
         precision: 8
@@ -25616,8 +25071,7 @@ COTIBUSD = COTIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COTIUSDT:
+class COTIUSDT(NamedTuple):
     """
         name: COTIUSDT
         precision: 8
@@ -25663,8 +25117,7 @@ COTIUSDT = COTIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COVERBUSD:
+class COVERBUSD(NamedTuple):
     """
         name: COVERBUSD
         precision: 8
@@ -25710,8 +25163,7 @@ COVERBUSD = COVERBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COVERETH:
+class COVERETH(NamedTuple):
     """
         name: COVERETH
         precision: 8
@@ -25757,8 +25209,7 @@ COVERETH = COVERETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CREAMBNB:
+class CREAMBNB(NamedTuple):
     """
         name: CREAMBNB
         precision: 8
@@ -25804,8 +25255,7 @@ CREAMBNB = CREAMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CREAMBUSD:
+class CREAMBUSD(NamedTuple):
     """
         name: CREAMBUSD
         precision: 8
@@ -25851,8 +25301,7 @@ CREAMBUSD = CREAMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRVBNB:
+class CRVBNB(NamedTuple):
     """
         name: CRVBNB
         precision: 8
@@ -25898,8 +25347,7 @@ CRVBNB = CRVBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRVBTC:
+class CRVBTC(NamedTuple):
     """
         name: CRVBTC
         precision: 8
@@ -25945,8 +25393,7 @@ CRVBTC = CRVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRVBUSD:
+class CRVBUSD(NamedTuple):
     """
         name: CRVBUSD
         precision: 8
@@ -25992,8 +25439,7 @@ CRVBUSD = CRVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRVETH:
+class CRVETH(NamedTuple):
     """
         name: CRVETH
         precision: 8
@@ -26039,8 +25485,7 @@ CRVETH = CRVETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRVUSDT:
+class CRVUSDT(NamedTuple):
     """
         name: CRVUSDT
         precision: 8
@@ -26086,8 +25531,7 @@ CRVUSDT = CRVUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTKBNB:
+class CTKBNB(NamedTuple):
     """
         name: CTKBNB
         precision: 8
@@ -26133,8 +25577,7 @@ CTKBNB = CTKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTKBTC:
+class CTKBTC(NamedTuple):
     """
         name: CTKBTC
         precision: 8
@@ -26180,8 +25623,7 @@ CTKBTC = CTKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTKBUSD:
+class CTKBUSD(NamedTuple):
     """
         name: CTKBUSD
         precision: 8
@@ -26227,8 +25669,7 @@ CTKBUSD = CTKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTKUSDT:
+class CTKUSDT(NamedTuple):
     """
         name: CTKUSDT
         precision: 8
@@ -26274,8 +25715,7 @@ CTKUSDT = CTKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSIBNB:
+class CTSIBNB(NamedTuple):
     """
         name: CTSIBNB
         precision: 8
@@ -26321,8 +25761,7 @@ CTSIBNB = CTSIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSIBTC:
+class CTSIBTC(NamedTuple):
     """
         name: CTSIBTC
         precision: 8
@@ -26368,8 +25807,7 @@ CTSIBTC = CTSIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSIBUSD:
+class CTSIBUSD(NamedTuple):
     """
         name: CTSIBUSD
         precision: 8
@@ -26415,8 +25853,7 @@ CTSIBUSD = CTSIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSIUSDT:
+class CTSIUSDT(NamedTuple):
     """
         name: CTSIUSDT
         precision: 8
@@ -26462,8 +25899,7 @@ CTSIUSDT = CTSIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTXCBNB:
+class CTXCBNB(NamedTuple):
     """
         name: CTXCBNB
         precision: 8
@@ -26509,8 +25945,7 @@ CTXCBNB = CTXCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTXCBTC:
+class CTXCBTC(NamedTuple):
     """
         name: CTXCBTC
         precision: 8
@@ -26556,8 +25991,7 @@ CTXCBTC = CTXCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTXCBUSD:
+class CTXCBUSD(NamedTuple):
     """
         name: CTXCBUSD
         precision: 8
@@ -26603,8 +26037,7 @@ CTXCBUSD = CTXCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTXCUSDT:
+class CTXCUSDT(NamedTuple):
     """
         name: CTXCUSDT
         precision: 8
@@ -26650,8 +26083,7 @@ CTXCUSDT = CTXCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVCBNB:
+class CVCBNB(NamedTuple):
     """
         name: CVCBNB
         precision: 8
@@ -26697,8 +26129,7 @@ CVCBNB = CVCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVCBTC:
+class CVCBTC(NamedTuple):
     """
         name: CVCBTC
         precision: 8
@@ -26744,8 +26175,7 @@ CVCBTC = CVCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVCBUSD:
+class CVCBUSD(NamedTuple):
     """
         name: CVCBUSD
         precision: 8
@@ -26791,8 +26221,7 @@ CVCBUSD = CVCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVCETH:
+class CVCETH(NamedTuple):
     """
         name: CVCETH
         precision: 8
@@ -26838,8 +26267,7 @@ CVCETH = CVCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVCUSDT:
+class CVCUSDT(NamedTuple):
     """
         name: CVCUSDT
         precision: 8
@@ -26885,8 +26313,7 @@ CVCUSDT = CVCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVPBUSD:
+class CVPBUSD(NamedTuple):
     """
         name: CVPBUSD
         precision: 8
@@ -26932,8 +26359,7 @@ CVPBUSD = CVPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVPETH:
+class CVPETH(NamedTuple):
     """
         name: CVPETH
         precision: 8
@@ -26979,8 +26405,7 @@ CVPETH = CVPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVPUSDT:
+class CVPUSDT(NamedTuple):
     """
         name: CVPUSDT
         precision: 8
@@ -27026,8 +26451,7 @@ CVPUSDT = CVPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVXBTC:
+class CVXBTC(NamedTuple):
     """
         name: CVXBTC
         precision: 8
@@ -27073,8 +26497,7 @@ CVXBTC = CVXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVXBUSD:
+class CVXBUSD(NamedTuple):
     """
         name: CVXBUSD
         precision: 8
@@ -27120,8 +26543,7 @@ CVXBUSD = CVXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVXUSDT:
+class CVXUSDT(NamedTuple):
     """
         name: CVXUSDT
         precision: 8
@@ -27167,8 +26589,7 @@ CVXUSDT = CVXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAIBNB:
+class DAIBNB(NamedTuple):
     """
         name: DAIBNB
         precision: 8
@@ -27214,8 +26635,7 @@ DAIBNB = DAIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAIBTC:
+class DAIBTC(NamedTuple):
     """
         name: DAIBTC
         precision: 8
@@ -27261,8 +26681,7 @@ DAIBTC = DAIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAIBUSD:
+class DAIBUSD(NamedTuple):
     """
         name: DAIBUSD
         precision: 8
@@ -27308,8 +26727,7 @@ DAIBUSD = DAIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAIUSDT:
+class DAIUSDT(NamedTuple):
     """
         name: DAIUSDT
         precision: 8
@@ -27355,8 +26773,7 @@ DAIUSDT = DAIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARBNB:
+class DARBNB(NamedTuple):
     """
         name: DARBNB
         precision: 8
@@ -27402,8 +26819,7 @@ DARBNB = DARBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARBTC:
+class DARBTC(NamedTuple):
     """
         name: DARBTC
         precision: 8
@@ -27449,8 +26865,7 @@ DARBTC = DARBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARBUSD:
+class DARBUSD(NamedTuple):
     """
         name: DARBUSD
         precision: 8
@@ -27496,8 +26911,7 @@ DARBUSD = DARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARETH:
+class DARETH(NamedTuple):
     """
         name: DARETH
         precision: 8
@@ -27543,8 +26957,7 @@ DARETH = DARETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAREUR:
+class DAREUR(NamedTuple):
     """
         name: DAREUR
         precision: 8
@@ -27590,8 +27003,7 @@ DAREUR = DAREUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARTRY:
+class DARTRY(NamedTuple):
     """
         name: DARTRY
         precision: 8
@@ -27637,8 +27049,7 @@ DARTRY = DARTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DARUSDT:
+class DARUSDT(NamedTuple):
     """
         name: DARUSDT
         precision: 8
@@ -27684,8 +27095,7 @@ DARUSDT = DARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASHBNB:
+class DASHBNB(NamedTuple):
     """
         name: DASHBNB
         precision: 8
@@ -27731,8 +27141,7 @@ DASHBNB = DASHBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASHBTC:
+class DASHBTC(NamedTuple):
     """
         name: DASHBTC
         precision: 8
@@ -27778,8 +27187,7 @@ DASHBTC = DASHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASHBUSD:
+class DASHBUSD(NamedTuple):
     """
         name: DASHBUSD
         precision: 8
@@ -27825,8 +27233,7 @@ DASHBUSD = DASHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASHETH:
+class DASHETH(NamedTuple):
     """
         name: DASHETH
         precision: 8
@@ -27872,8 +27279,7 @@ DASHETH = DASHETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASHUSDT:
+class DASHUSDT(NamedTuple):
     """
         name: DASHUSDT
         precision: 8
@@ -27919,8 +27325,7 @@ DASHUSDT = DASHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DATABTC:
+class DATABTC(NamedTuple):
     """
         name: DATABTC
         precision: 8
@@ -27966,8 +27371,7 @@ DATABTC = DATABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DATABUSD:
+class DATABUSD(NamedTuple):
     """
         name: DATABUSD
         precision: 8
@@ -28013,8 +27417,7 @@ DATABUSD = DATABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DATAETH:
+class DATAETH(NamedTuple):
     """
         name: DATAETH
         precision: 8
@@ -28060,8 +27463,7 @@ DATAETH = DATAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DATAUSDT:
+class DATAUSDT(NamedTuple):
     """
         name: DATAUSDT
         precision: 8
@@ -28107,8 +27509,7 @@ DATAUSDT = DATAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DCRBNB:
+class DCRBNB(NamedTuple):
     """
         name: DCRBNB
         precision: 8
@@ -28154,8 +27555,7 @@ DCRBNB = DCRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DCRBTC:
+class DCRBTC(NamedTuple):
     """
         name: DCRBTC
         precision: 8
@@ -28201,8 +27601,7 @@ DCRBTC = DCRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DCRBUSD:
+class DCRBUSD(NamedTuple):
     """
         name: DCRBUSD
         precision: 8
@@ -28248,8 +27647,7 @@ DCRBUSD = DCRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DCRUSDT:
+class DCRUSDT(NamedTuple):
     """
         name: DCRUSDT
         precision: 8
@@ -28295,8 +27693,7 @@ DCRUSDT = DCRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEGOBTC:
+class DEGOBTC(NamedTuple):
     """
         name: DEGOBTC
         precision: 8
@@ -28342,8 +27739,7 @@ DEGOBTC = DEGOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEGOBUSD:
+class DEGOBUSD(NamedTuple):
     """
         name: DEGOBUSD
         precision: 8
@@ -28389,8 +27785,7 @@ DEGOBUSD = DEGOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEGOUSDT:
+class DEGOUSDT(NamedTuple):
     """
         name: DEGOUSDT
         precision: 8
@@ -28436,8 +27831,7 @@ DEGOUSDT = DEGOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DENTBTC:
+class DENTBTC(NamedTuple):
     """
         name: DENTBTC
         precision: 8
@@ -28483,8 +27877,7 @@ DENTBTC = DENTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DENTBUSD:
+class DENTBUSD(NamedTuple):
     """
         name: DENTBUSD
         precision: 8
@@ -28530,8 +27923,7 @@ DENTBUSD = DENTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DENTETH:
+class DENTETH(NamedTuple):
     """
         name: DENTETH
         precision: 8
@@ -28577,8 +27969,7 @@ DENTETH = DENTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DENTTRY:
+class DENTTRY(NamedTuple):
     """
         name: DENTTRY
         precision: 8
@@ -28624,8 +28015,7 @@ DENTTRY = DENTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DENTUSDT:
+class DENTUSDT(NamedTuple):
     """
         name: DENTUSDT
         precision: 8
@@ -28671,8 +28061,7 @@ DENTUSDT = DENTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEXEBUSD:
+class DEXEBUSD(NamedTuple):
     """
         name: DEXEBUSD
         precision: 8
@@ -28718,8 +28107,7 @@ DEXEBUSD = DEXEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEXEETH:
+class DEXEETH(NamedTuple):
     """
         name: DEXEETH
         precision: 8
@@ -28765,8 +28153,7 @@ DEXEETH = DEXEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEXEUSDT:
+class DEXEUSDT(NamedTuple):
     """
         name: DEXEUSDT
         precision: 8
@@ -28812,8 +28199,7 @@ DEXEUSDT = DEXEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DFBUSD:
+class DFBUSD(NamedTuple):
     """
         name: DFBUSD
         precision: 8
@@ -28859,8 +28245,7 @@ DFBUSD = DFBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DFETH:
+class DFETH(NamedTuple):
     """
         name: DFETH
         precision: 8
@@ -28906,8 +28291,7 @@ DFETH = DFETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DFUSDT:
+class DFUSDT(NamedTuple):
     """
         name: DFUSDT
         precision: 8
@@ -28953,8 +28337,7 @@ DFUSDT = DFUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DGBBTC:
+class DGBBTC(NamedTuple):
     """
         name: DGBBTC
         precision: 8
@@ -29000,8 +28383,7 @@ DGBBTC = DGBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DGBBUSD:
+class DGBBUSD(NamedTuple):
     """
         name: DGBBUSD
         precision: 8
@@ -29047,8 +28429,7 @@ DGBBUSD = DGBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DGBUSDT:
+class DGBUSDT(NamedTuple):
     """
         name: DGBUSDT
         precision: 8
@@ -29094,8 +28475,7 @@ DGBUSDT = DGBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DGDBTC:
+class DGDBTC(NamedTuple):
     """
         name: DGDBTC
         precision: 8
@@ -29141,8 +28521,7 @@ DGDBTC = DGDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DGDETH:
+class DGDETH(NamedTuple):
     """
         name: DGDETH
         precision: 8
@@ -29188,8 +28567,7 @@ DGDETH = DGDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIABNB:
+class DIABNB(NamedTuple):
     """
         name: DIABNB
         precision: 8
@@ -29235,8 +28613,7 @@ DIABNB = DIABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIABTC:
+class DIABTC(NamedTuple):
     """
         name: DIABTC
         precision: 8
@@ -29282,8 +28659,7 @@ DIABTC = DIABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIABUSD:
+class DIABUSD(NamedTuple):
     """
         name: DIABUSD
         precision: 8
@@ -29329,8 +28705,7 @@ DIABUSD = DIABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIAUSDT:
+class DIAUSDT(NamedTuple):
     """
         name: DIAUSDT
         precision: 8
@@ -29376,8 +28751,7 @@ DIAUSDT = DIAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DLTBNB:
+class DLTBNB(NamedTuple):
     """
         name: DLTBNB
         precision: 8
@@ -29423,8 +28797,7 @@ DLTBNB = DLTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DLTBTC:
+class DLTBTC(NamedTuple):
     """
         name: DLTBTC
         precision: 8
@@ -29470,8 +28843,7 @@ DLTBTC = DLTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DLTETH:
+class DLTETH(NamedTuple):
     """
         name: DLTETH
         precision: 8
@@ -29517,8 +28889,7 @@ DLTETH = DLTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNTBTC:
+class DNTBTC(NamedTuple):
     """
         name: DNTBTC
         precision: 8
@@ -29564,8 +28935,7 @@ DNTBTC = DNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNTBUSD:
+class DNTBUSD(NamedTuple):
     """
         name: DNTBUSD
         precision: 8
@@ -29611,8 +28981,7 @@ DNTBUSD = DNTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNTETH:
+class DNTETH(NamedTuple):
     """
         name: DNTETH
         precision: 8
@@ -29658,8 +29027,7 @@ DNTETH = DNTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNTUSDT:
+class DNTUSDT(NamedTuple):
     """
         name: DNTUSDT
         precision: 8
@@ -29705,8 +29073,7 @@ DNTUSDT = DNTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOCKBTC:
+class DOCKBTC(NamedTuple):
     """
         name: DOCKBTC
         precision: 8
@@ -29752,8 +29119,7 @@ DOCKBTC = DOCKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOCKBUSD:
+class DOCKBUSD(NamedTuple):
     """
         name: DOCKBUSD
         precision: 8
@@ -29799,8 +29165,7 @@ DOCKBUSD = DOCKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOCKETH:
+class DOCKETH(NamedTuple):
     """
         name: DOCKETH
         precision: 8
@@ -29846,8 +29211,7 @@ DOCKETH = DOCKETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOCKUSDT:
+class DOCKUSDT(NamedTuple):
     """
         name: DOCKUSDT
         precision: 8
@@ -29893,8 +29257,7 @@ DOCKUSDT = DOCKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DODOBTC:
+class DODOBTC(NamedTuple):
     """
         name: DODOBTC
         precision: 8
@@ -29940,8 +29303,7 @@ DODOBTC = DODOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DODOBUSD:
+class DODOBUSD(NamedTuple):
     """
         name: DODOBUSD
         precision: 8
@@ -29987,8 +29349,7 @@ DODOBUSD = DODOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DODOUSDT:
+class DODOUSDT(NamedTuple):
     """
         name: DODOUSDT
         precision: 8
@@ -30034,8 +29395,7 @@ DODOUSDT = DODOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEAUD:
+class DOGEAUD(NamedTuple):
     """
         name: DOGEAUD
         precision: 8
@@ -30081,8 +29441,7 @@ DOGEAUD = DOGEAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEBIDR:
+class DOGEBIDR(NamedTuple):
     """
         name: DOGEBIDR
         precision: 2
@@ -30128,8 +29487,7 @@ DOGEBIDR = DOGEBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEBNB:
+class DOGEBNB(NamedTuple):
     """
         name: DOGEBNB
         precision: 8
@@ -30175,8 +29533,7 @@ DOGEBNB = DOGEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEBRL:
+class DOGEBRL(NamedTuple):
     """
         name: DOGEBRL
         precision: 8
@@ -30222,8 +29579,7 @@ DOGEBRL = DOGEBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEBTC:
+class DOGEBTC(NamedTuple):
     """
         name: DOGEBTC
         precision: 8
@@ -30269,8 +29625,7 @@ DOGEBTC = DOGEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEBUSD:
+class DOGEBUSD(NamedTuple):
     """
         name: DOGEBUSD
         precision: 8
@@ -30316,8 +29671,7 @@ DOGEBUSD = DOGEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEEUR:
+class DOGEEUR(NamedTuple):
     """
         name: DOGEEUR
         precision: 8
@@ -30363,8 +29717,7 @@ DOGEEUR = DOGEEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEGBP:
+class DOGEGBP(NamedTuple):
     """
         name: DOGEGBP
         precision: 8
@@ -30410,8 +29763,7 @@ DOGEGBP = DOGEGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEPAX:
+class DOGEPAX(NamedTuple):
     """
         name: DOGEPAX
         precision: 8
@@ -30457,8 +29809,7 @@ DOGEPAX = DOGEPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGERUB:
+class DOGERUB(NamedTuple):
     """
         name: DOGERUB
         precision: 8
@@ -30504,8 +29855,7 @@ DOGERUB = DOGERUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGETRY:
+class DOGETRY(NamedTuple):
     """
         name: DOGETRY
         precision: 8
@@ -30551,8 +29901,7 @@ DOGETRY = DOGETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEUSDC:
+class DOGEUSDC(NamedTuple):
     """
         name: DOGEUSDC
         precision: 8
@@ -30598,8 +29947,7 @@ DOGEUSDC = DOGEUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEUSDT:
+class DOGEUSDT(NamedTuple):
     """
         name: DOGEUSDT
         precision: 8
@@ -30645,8 +29993,7 @@ DOGEUSDT = DOGEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTAUD:
+class DOTAUD(NamedTuple):
     """
         name: DOTAUD
         precision: 8
@@ -30692,8 +30039,7 @@ DOTAUD = DOTAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBIDR:
+class DOTBIDR(NamedTuple):
     """
         name: DOTBIDR
         precision: 2
@@ -30739,8 +30085,7 @@ DOTBIDR = DOTBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBKRW:
+class DOTBKRW(NamedTuple):
     """
         name: DOTBKRW
         precision: 8
@@ -30786,8 +30131,7 @@ DOTBKRW = DOTBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBNB:
+class DOTBNB(NamedTuple):
     """
         name: DOTBNB
         precision: 8
@@ -30833,8 +30177,7 @@ DOTBNB = DOTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBRL:
+class DOTBRL(NamedTuple):
     """
         name: DOTBRL
         precision: 8
@@ -30880,8 +30223,7 @@ DOTBRL = DOTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBTC:
+class DOTBTC(NamedTuple):
     """
         name: DOTBTC
         precision: 8
@@ -30927,8 +30269,7 @@ DOTBTC = DOTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTBUSD:
+class DOTBUSD(NamedTuple):
     """
         name: DOTBUSD
         precision: 8
@@ -30974,8 +30315,7 @@ DOTBUSD = DOTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTDOWNUSDT:
+class DOTDOWNUSDT(NamedTuple):
     """
         name: DOTDOWNUSDT
         precision: 8
@@ -31021,8 +30361,7 @@ DOTDOWNUSDT = DOTDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTETH:
+class DOTETH(NamedTuple):
     """
         name: DOTETH
         precision: 8
@@ -31068,8 +30407,7 @@ DOTETH = DOTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTEUR:
+class DOTEUR(NamedTuple):
     """
         name: DOTEUR
         precision: 8
@@ -31115,8 +30453,7 @@ DOTEUR = DOTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTGBP:
+class DOTGBP(NamedTuple):
     """
         name: DOTGBP
         precision: 8
@@ -31162,8 +30499,7 @@ DOTGBP = DOTGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTNGN:
+class DOTNGN(NamedTuple):
     """
         name: DOTNGN
         precision: 8
@@ -31209,8 +30545,7 @@ DOTNGN = DOTNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTRUB:
+class DOTRUB(NamedTuple):
     """
         name: DOTRUB
         precision: 8
@@ -31256,8 +30591,7 @@ DOTRUB = DOTRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTTRY:
+class DOTTRY(NamedTuple):
     """
         name: DOTTRY
         precision: 8
@@ -31303,8 +30637,7 @@ DOTTRY = DOTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTUPUSDT:
+class DOTUPUSDT(NamedTuple):
     """
         name: DOTUPUSDT
         precision: 8
@@ -31350,8 +30683,7 @@ DOTUPUSDT = DOTUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTUSDT:
+class DOTUSDT(NamedTuple):
     """
         name: DOTUSDT
         precision: 8
@@ -31397,8 +30729,7 @@ DOTUSDT = DOTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREPBNB:
+class DREPBNB(NamedTuple):
     """
         name: DREPBNB
         precision: 8
@@ -31444,8 +30775,7 @@ DREPBNB = DREPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREPBTC:
+class DREPBTC(NamedTuple):
     """
         name: DREPBTC
         precision: 8
@@ -31491,8 +30821,7 @@ DREPBTC = DREPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREPBUSD:
+class DREPBUSD(NamedTuple):
     """
         name: DREPBUSD
         precision: 8
@@ -31538,8 +30867,7 @@ DREPBUSD = DREPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREPUSDT:
+class DREPUSDT(NamedTuple):
     """
         name: DREPUSDT
         precision: 8
@@ -31585,8 +30913,7 @@ DREPUSDT = DREPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKBNB:
+class DUSKBNB(NamedTuple):
     """
         name: DUSKBNB
         precision: 8
@@ -31632,8 +30959,7 @@ DUSKBNB = DUSKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKBTC:
+class DUSKBTC(NamedTuple):
     """
         name: DUSKBTC
         precision: 8
@@ -31679,8 +31005,7 @@ DUSKBTC = DUSKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKBUSD:
+class DUSKBUSD(NamedTuple):
     """
         name: DUSKBUSD
         precision: 8
@@ -31726,8 +31051,7 @@ DUSKBUSD = DUSKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKPAX:
+class DUSKPAX(NamedTuple):
     """
         name: DUSKPAX
         precision: 8
@@ -31773,8 +31097,7 @@ DUSKPAX = DUSKPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKUSDC:
+class DUSKUSDC(NamedTuple):
     """
         name: DUSKUSDC
         precision: 8
@@ -31820,8 +31143,7 @@ DUSKUSDC = DUSKUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DUSKUSDT:
+class DUSKUSDT(NamedTuple):
     """
         name: DUSKUSDT
         precision: 8
@@ -31867,8 +31189,7 @@ DUSKUSDT = DUSKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYDXBNB:
+class DYDXBNB(NamedTuple):
     """
         name: DYDXBNB
         precision: 8
@@ -31914,8 +31235,7 @@ DYDXBNB = DYDXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYDXBTC:
+class DYDXBTC(NamedTuple):
     """
         name: DYDXBTC
         precision: 8
@@ -31961,8 +31281,7 @@ DYDXBTC = DYDXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYDXBUSD:
+class DYDXBUSD(NamedTuple):
     """
         name: DYDXBUSD
         precision: 8
@@ -32008,8 +31327,7 @@ DYDXBUSD = DYDXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYDXETH:
+class DYDXETH(NamedTuple):
     """
         name: DYDXETH
         precision: 8
@@ -32055,8 +31373,7 @@ DYDXETH = DYDXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYDXUSDT:
+class DYDXUSDT(NamedTuple):
     """
         name: DYDXUSDT
         precision: 8
@@ -32102,8 +31419,7 @@ DYDXUSDT = DYDXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EASYBTC:
+class EASYBTC(NamedTuple):
     """
         name: EASYBTC
         precision: 8
@@ -32149,8 +31465,7 @@ EASYBTC = EASYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EASYETH:
+class EASYETH(NamedTuple):
     """
         name: EASYETH
         precision: 8
@@ -32196,8 +31511,7 @@ EASYETH = EASYETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EDOBTC:
+class EDOBTC(NamedTuple):
     """
         name: EDOBTC
         precision: 8
@@ -32243,8 +31557,7 @@ EDOBTC = EDOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EDOETH:
+class EDOETH(NamedTuple):
     """
         name: EDOETH
         precision: 8
@@ -32290,8 +31603,7 @@ EDOETH = EDOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDBNB:
+class EGLDBNB(NamedTuple):
     """
         name: EGLDBNB
         precision: 8
@@ -32337,8 +31649,7 @@ EGLDBNB = EGLDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDBTC:
+class EGLDBTC(NamedTuple):
     """
         name: EGLDBTC
         precision: 8
@@ -32384,8 +31695,7 @@ EGLDBTC = EGLDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDBUSD:
+class EGLDBUSD(NamedTuple):
     """
         name: EGLDBUSD
         precision: 8
@@ -32431,8 +31741,7 @@ EGLDBUSD = EGLDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDETH:
+class EGLDETH(NamedTuple):
     """
         name: EGLDETH
         precision: 8
@@ -32478,8 +31787,7 @@ EGLDETH = EGLDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDEUR:
+class EGLDEUR(NamedTuple):
     """
         name: EGLDEUR
         precision: 8
@@ -32525,8 +31833,7 @@ EGLDEUR = EGLDEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLDUSDT:
+class EGLDUSDT(NamedTuple):
     """
         name: EGLDUSDT
         precision: 8
@@ -32572,8 +31879,7 @@ EGLDUSDT = EGLDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELFBTC:
+class ELFBTC(NamedTuple):
     """
         name: ELFBTC
         precision: 8
@@ -32619,8 +31925,7 @@ ELFBTC = ELFBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELFBUSD:
+class ELFBUSD(NamedTuple):
     """
         name: ELFBUSD
         precision: 8
@@ -32666,8 +31971,7 @@ ELFBUSD = ELFBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELFETH:
+class ELFETH(NamedTuple):
     """
         name: ELFETH
         precision: 8
@@ -32713,8 +32017,7 @@ ELFETH = ELFETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELFUSDT:
+class ELFUSDT(NamedTuple):
     """
         name: ELFUSDT
         precision: 8
@@ -32760,8 +32063,7 @@ ELFUSDT = ELFUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENGBTC:
+class ENGBTC(NamedTuple):
     """
         name: ENGBTC
         precision: 8
@@ -32807,8 +32109,7 @@ ENGBTC = ENGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENGETH:
+class ENGETH(NamedTuple):
     """
         name: ENGETH
         precision: 8
@@ -32854,8 +32155,7 @@ ENGETH = ENGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJBNB:
+class ENJBNB(NamedTuple):
     """
         name: ENJBNB
         precision: 8
@@ -32901,8 +32201,7 @@ ENJBNB = ENJBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJBRL:
+class ENJBRL(NamedTuple):
     """
         name: ENJBRL
         precision: 8
@@ -32948,8 +32247,7 @@ ENJBRL = ENJBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJBTC:
+class ENJBTC(NamedTuple):
     """
         name: ENJBTC
         precision: 8
@@ -32995,8 +32293,7 @@ ENJBTC = ENJBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJBUSD:
+class ENJBUSD(NamedTuple):
     """
         name: ENJBUSD
         precision: 8
@@ -33042,8 +32339,7 @@ ENJBUSD = ENJBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJETH:
+class ENJETH(NamedTuple):
     """
         name: ENJETH
         precision: 8
@@ -33089,8 +32385,7 @@ ENJETH = ENJETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJEUR:
+class ENJEUR(NamedTuple):
     """
         name: ENJEUR
         precision: 8
@@ -33136,8 +32431,7 @@ ENJEUR = ENJEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJGBP:
+class ENJGBP(NamedTuple):
     """
         name: ENJGBP
         precision: 8
@@ -33183,8 +32477,7 @@ ENJGBP = ENJGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJTRY:
+class ENJTRY(NamedTuple):
     """
         name: ENJTRY
         precision: 8
@@ -33230,8 +32523,7 @@ ENJTRY = ENJTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJUSDT:
+class ENJUSDT(NamedTuple):
     """
         name: ENJUSDT
         precision: 8
@@ -33277,8 +32569,7 @@ ENJUSDT = ENJUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENSBNB:
+class ENSBNB(NamedTuple):
     """
         name: ENSBNB
         precision: 8
@@ -33324,8 +32615,7 @@ ENSBNB = ENSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENSBTC:
+class ENSBTC(NamedTuple):
     """
         name: ENSBTC
         precision: 8
@@ -33371,8 +32661,7 @@ ENSBTC = ENSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENSBUSD:
+class ENSBUSD(NamedTuple):
     """
         name: ENSBUSD
         precision: 8
@@ -33418,8 +32707,7 @@ ENSBUSD = ENSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENSTRY:
+class ENSTRY(NamedTuple):
     """
         name: ENSTRY
         precision: 8
@@ -33465,8 +32753,7 @@ ENSTRY = ENSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENSUSDT:
+class ENSUSDT(NamedTuple):
     """
         name: ENSUSDT
         precision: 8
@@ -33512,8 +32799,7 @@ ENSUSDT = ENSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSAUD:
+class EOSAUD(NamedTuple):
     """
         name: EOSAUD
         precision: 8
@@ -33559,8 +32845,7 @@ EOSAUD = EOSAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBEARBUSD:
+class EOSBEARBUSD(NamedTuple):
     """
         name: EOSBEARBUSD
         precision: 8
@@ -33606,8 +32891,7 @@ EOSBEARBUSD = EOSBEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBEARUSDT:
+class EOSBEARUSDT(NamedTuple):
     """
         name: EOSBEARUSDT
         precision: 8
@@ -33653,8 +32937,7 @@ EOSBEARUSDT = EOSBEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBNB:
+class EOSBNB(NamedTuple):
     """
         name: EOSBNB
         precision: 8
@@ -33700,8 +32983,7 @@ EOSBNB = EOSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBTC:
+class EOSBTC(NamedTuple):
     """
         name: EOSBTC
         precision: 8
@@ -33747,8 +33029,7 @@ EOSBTC = EOSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBULLBUSD:
+class EOSBULLBUSD(NamedTuple):
     """
         name: EOSBULLBUSD
         precision: 8
@@ -33794,8 +33075,7 @@ EOSBULLBUSD = EOSBULLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBULLUSDT:
+class EOSBULLUSDT(NamedTuple):
     """
         name: EOSBULLUSDT
         precision: 8
@@ -33841,8 +33121,7 @@ EOSBULLUSDT = EOSBULLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSBUSD:
+class EOSBUSD(NamedTuple):
     """
         name: EOSBUSD
         precision: 8
@@ -33888,8 +33167,7 @@ EOSBUSD = EOSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSDOWNUSDT:
+class EOSDOWNUSDT(NamedTuple):
     """
         name: EOSDOWNUSDT
         precision: 8
@@ -33935,8 +33213,7 @@ EOSDOWNUSDT = EOSDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSETH:
+class EOSETH(NamedTuple):
     """
         name: EOSETH
         precision: 8
@@ -33982,8 +33259,7 @@ EOSETH = EOSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSEUR:
+class EOSEUR(NamedTuple):
     """
         name: EOSEUR
         precision: 8
@@ -34029,8 +33305,7 @@ EOSEUR = EOSEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSPAX:
+class EOSPAX(NamedTuple):
     """
         name: EOSPAX
         precision: 8
@@ -34076,8 +33351,7 @@ EOSPAX = EOSPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSTRY:
+class EOSTRY(NamedTuple):
     """
         name: EOSTRY
         precision: 8
@@ -34123,8 +33397,7 @@ EOSTRY = EOSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSTUSD:
+class EOSTUSD(NamedTuple):
     """
         name: EOSTUSD
         precision: 8
@@ -34170,8 +33443,7 @@ EOSTUSD = EOSTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSUPUSDT:
+class EOSUPUSDT(NamedTuple):
     """
         name: EOSUPUSDT
         precision: 8
@@ -34217,8 +33489,7 @@ EOSUPUSDT = EOSUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSUSDC:
+class EOSUSDC(NamedTuple):
     """
         name: EOSUSDC
         precision: 8
@@ -34264,8 +33535,7 @@ EOSUSDC = EOSUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSUSDT:
+class EOSUSDT(NamedTuple):
     """
         name: EOSUSDT
         precision: 8
@@ -34311,8 +33581,7 @@ EOSUSDT = EOSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EPSBTC:
+class EPSBTC(NamedTuple):
     """
         name: EPSBTC
         precision: 8
@@ -34358,8 +33627,7 @@ EPSBTC = EPSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EPSBUSD:
+class EPSBUSD(NamedTuple):
     """
         name: EPSBUSD
         precision: 8
@@ -34405,8 +33673,7 @@ EPSBUSD = EPSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EPSUSDT:
+class EPSUSDT(NamedTuple):
     """
         name: EPSUSDT
         precision: 8
@@ -34452,8 +33719,7 @@ EPSUSDT = EPSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EPXBUSD:
+class EPXBUSD(NamedTuple):
     """
         name: EPXBUSD
         precision: 8
@@ -34499,8 +33765,7 @@ EPXBUSD = EPXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EPXUSDT:
+class EPXUSDT(NamedTuple):
     """
         name: EPXUSDT
         precision: 8
@@ -34546,8 +33811,7 @@ EPXUSDT = EPXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDBNB:
+class ERDBNB(NamedTuple):
     """
         name: ERDBNB
         precision: 8
@@ -34593,8 +33857,7 @@ ERDBNB = ERDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDBTC:
+class ERDBTC(NamedTuple):
     """
         name: ERDBTC
         precision: 8
@@ -34640,8 +33903,7 @@ ERDBTC = ERDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDBUSD:
+class ERDBUSD(NamedTuple):
     """
         name: ERDBUSD
         precision: 8
@@ -34687,8 +33949,7 @@ ERDBUSD = ERDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDPAX:
+class ERDPAX(NamedTuple):
     """
         name: ERDPAX
         precision: 8
@@ -34734,8 +33995,7 @@ ERDPAX = ERDPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDUSDC:
+class ERDUSDC(NamedTuple):
     """
         name: ERDUSDC
         precision: 8
@@ -34781,8 +34041,7 @@ ERDUSDC = ERDUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERDUSDT:
+class ERDUSDT(NamedTuple):
     """
         name: ERDUSDT
         precision: 8
@@ -34828,8 +34087,7 @@ ERDUSDT = ERDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERNBNB:
+class ERNBNB(NamedTuple):
     """
         name: ERNBNB
         precision: 8
@@ -34875,8 +34133,7 @@ ERNBNB = ERNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERNBUSD:
+class ERNBUSD(NamedTuple):
     """
         name: ERNBUSD
         precision: 8
@@ -34922,8 +34179,7 @@ ERNBUSD = ERNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERNUSDT:
+class ERNUSDT(NamedTuple):
     """
         name: ERNUSDT
         precision: 8
@@ -34969,8 +34225,7 @@ ERNUSDT = ERNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCBNB:
+class ETCBNB(NamedTuple):
     """
         name: ETCBNB
         precision: 8
@@ -35016,8 +34271,7 @@ ETCBNB = ETCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCBRL:
+class ETCBRL(NamedTuple):
     """
         name: ETCBRL
         precision: 8
@@ -35063,8 +34317,7 @@ ETCBRL = ETCBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCBTC:
+class ETCBTC(NamedTuple):
     """
         name: ETCBTC
         precision: 8
@@ -35110,8 +34363,7 @@ ETCBTC = ETCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCBUSD:
+class ETCBUSD(NamedTuple):
     """
         name: ETCBUSD
         precision: 8
@@ -35157,8 +34409,7 @@ ETCBUSD = ETCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCETH:
+class ETCETH(NamedTuple):
     """
         name: ETCETH
         precision: 8
@@ -35204,8 +34455,7 @@ ETCETH = ETCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCEUR:
+class ETCEUR(NamedTuple):
     """
         name: ETCEUR
         precision: 8
@@ -35251,8 +34501,7 @@ ETCEUR = ETCEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCGBP:
+class ETCGBP(NamedTuple):
     """
         name: ETCGBP
         precision: 8
@@ -35298,8 +34547,7 @@ ETCGBP = ETCGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCPAX:
+class ETCPAX(NamedTuple):
     """
         name: ETCPAX
         precision: 8
@@ -35345,8 +34593,7 @@ ETCPAX = ETCPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCTRY:
+class ETCTRY(NamedTuple):
     """
         name: ETCTRY
         precision: 8
@@ -35392,8 +34639,7 @@ ETCTRY = ETCTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCTUSD:
+class ETCTUSD(NamedTuple):
     """
         name: ETCTUSD
         precision: 8
@@ -35439,8 +34685,7 @@ ETCTUSD = ETCTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCUSDC:
+class ETCUSDC(NamedTuple):
     """
         name: ETCUSDC
         precision: 8
@@ -35486,8 +34731,7 @@ ETCUSDC = ETCUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETCUSDT:
+class ETCUSDT(NamedTuple):
     """
         name: ETCUSDT
         precision: 8
@@ -35533,8 +34777,7 @@ ETCUSDT = ETCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHAUD:
+class ETHAUD(NamedTuple):
     """
         name: ETHAUD
         precision: 8
@@ -35580,8 +34823,7 @@ ETHAUD = ETHAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBEARBUSD:
+class ETHBEARBUSD(NamedTuple):
     """
         name: ETHBEARBUSD
         precision: 8
@@ -35627,8 +34869,7 @@ ETHBEARBUSD = ETHBEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBEARUSDT:
+class ETHBEARUSDT(NamedTuple):
     """
         name: ETHBEARUSDT
         precision: 8
@@ -35674,8 +34915,7 @@ ETHBEARUSDT = ETHBEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBIDR:
+class ETHBIDR(NamedTuple):
     """
         name: ETHBIDR
         precision: 2
@@ -35721,8 +34961,7 @@ ETHBIDR = ETHBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBKRW:
+class ETHBKRW(NamedTuple):
     """
         name: ETHBKRW
         precision: 8
@@ -35768,8 +35007,7 @@ ETHBKRW = ETHBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBRL:
+class ETHBRL(NamedTuple):
     """
         name: ETHBRL
         precision: 8
@@ -35815,8 +35053,7 @@ ETHBRL = ETHBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBTC:
+class ETHBTC(NamedTuple):
     """
         name: ETHBTC
         precision: 8
@@ -35862,8 +35099,7 @@ ETHBTC = ETHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBULLBUSD:
+class ETHBULLBUSD(NamedTuple):
     """
         name: ETHBULLBUSD
         precision: 8
@@ -35909,8 +35145,7 @@ ETHBULLBUSD = ETHBULLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBULLUSDT:
+class ETHBULLUSDT(NamedTuple):
     """
         name: ETHBULLUSDT
         precision: 8
@@ -35956,8 +35191,7 @@ ETHBULLUSDT = ETHBULLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHBUSD:
+class ETHBUSD(NamedTuple):
     """
         name: ETHBUSD
         precision: 8
@@ -36003,8 +35237,7 @@ ETHBUSD = ETHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHDAI:
+class ETHDAI(NamedTuple):
     """
         name: ETHDAI
         precision: 8
@@ -36050,8 +35283,7 @@ ETHDAI = ETHDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHDOWNUSDT:
+class ETHDOWNUSDT(NamedTuple):
     """
         name: ETHDOWNUSDT
         precision: 8
@@ -36097,8 +35329,7 @@ ETHDOWNUSDT = ETHDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHEUR:
+class ETHEUR(NamedTuple):
     """
         name: ETHEUR
         precision: 8
@@ -36144,8 +35375,7 @@ ETHEUR = ETHEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHGBP:
+class ETHGBP(NamedTuple):
     """
         name: ETHGBP
         precision: 8
@@ -36191,8 +35421,7 @@ ETHGBP = ETHGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHNGN:
+class ETHNGN(NamedTuple):
     """
         name: ETHNGN
         precision: 8
@@ -36238,8 +35467,7 @@ ETHNGN = ETHNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHPAX:
+class ETHPAX(NamedTuple):
     """
         name: ETHPAX
         precision: 8
@@ -36285,8 +35513,7 @@ ETHPAX = ETHPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHPLN:
+class ETHPLN(NamedTuple):
     """
         name: ETHPLN
         precision: 8
@@ -36332,8 +35559,7 @@ ETHPLN = ETHPLN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHRUB:
+class ETHRUB(NamedTuple):
     """
         name: ETHRUB
         precision: 8
@@ -36379,8 +35605,7 @@ ETHRUB = ETHRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHTRY:
+class ETHTRY(NamedTuple):
     """
         name: ETHTRY
         precision: 8
@@ -36426,8 +35651,7 @@ ETHTRY = ETHTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHTUSD:
+class ETHTUSD(NamedTuple):
     """
         name: ETHTUSD
         precision: 8
@@ -36473,8 +35697,7 @@ ETHTUSD = ETHTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUAH:
+class ETHUAH(NamedTuple):
     """
         name: ETHUAH
         precision: 8
@@ -36520,8 +35743,7 @@ ETHUAH = ETHUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUPUSDT:
+class ETHUPUSDT(NamedTuple):
     """
         name: ETHUPUSDT
         precision: 8
@@ -36567,8 +35789,7 @@ ETHUPUSDT = ETHUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDC:
+class ETHUSDC(NamedTuple):
     """
         name: ETHUSDC
         precision: 8
@@ -36614,8 +35835,7 @@ ETHUSDC = ETHUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDP:
+class ETHUSDP(NamedTuple):
     """
         name: ETHUSDP
         precision: 8
@@ -36661,8 +35881,7 @@ ETHUSDP = ETHUSDP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDT:
+class ETHUSDT(NamedTuple):
     """
         name: ETHUSDT
         precision: 8
@@ -36708,8 +35927,7 @@ ETHUSDT = ETHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUST:
+class ETHUST(NamedTuple):
     """
         name: ETHUST
         precision: 8
@@ -36755,8 +35973,7 @@ ETHUST = ETHUST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHZAR:
+class ETHZAR(NamedTuple):
     """
         name: ETHZAR
         precision: 8
@@ -36802,8 +36019,7 @@ ETHZAR = ETHZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EURBUSD:
+class EURBUSD(NamedTuple):
     """
         name: EURBUSD
         precision: 8
@@ -36849,8 +36065,7 @@ EURBUSD = EURBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EURUSDT:
+class EURUSDT(NamedTuple):
     """
         name: EURUSDT
         precision: 8
@@ -36896,8 +36111,7 @@ EURUSDT = EURUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EVXBTC:
+class EVXBTC(NamedTuple):
     """
         name: EVXBTC
         precision: 8
@@ -36943,8 +36157,7 @@ EVXBTC = EVXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EVXETH:
+class EVXETH(NamedTuple):
     """
         name: EVXETH
         precision: 8
@@ -36990,8 +36203,7 @@ EVXETH = EVXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EZBTC:
+class EZBTC(NamedTuple):
     """
         name: EZBTC
         precision: 8
@@ -37037,8 +36249,7 @@ EZBTC = EZBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EZETH:
+class EZETH(NamedTuple):
     """
         name: EZETH
         precision: 8
@@ -37084,8 +36295,7 @@ EZETH = EZETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARMBNB:
+class FARMBNB(NamedTuple):
     """
         name: FARMBNB
         precision: 8
@@ -37131,8 +36341,7 @@ FARMBNB = FARMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARMBTC:
+class FARMBTC(NamedTuple):
     """
         name: FARMBTC
         precision: 8
@@ -37178,8 +36387,7 @@ FARMBTC = FARMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARMBUSD:
+class FARMBUSD(NamedTuple):
     """
         name: FARMBUSD
         precision: 8
@@ -37225,8 +36433,7 @@ FARMBUSD = FARMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARMETH:
+class FARMETH(NamedTuple):
     """
         name: FARMETH
         precision: 8
@@ -37272,8 +36479,7 @@ FARMETH = FARMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARMUSDT:
+class FARMUSDT(NamedTuple):
     """
         name: FARMUSDT
         precision: 8
@@ -37319,8 +36525,7 @@ FARMUSDT = FARMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FETBNB:
+class FETBNB(NamedTuple):
     """
         name: FETBNB
         precision: 8
@@ -37366,8 +36571,7 @@ FETBNB = FETBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FETBTC:
+class FETBTC(NamedTuple):
     """
         name: FETBTC
         precision: 8
@@ -37413,8 +36617,7 @@ FETBTC = FETBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FETBUSD:
+class FETBUSD(NamedTuple):
     """
         name: FETBUSD
         precision: 8
@@ -37460,8 +36663,7 @@ FETBUSD = FETBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FETUSDT:
+class FETUSDT(NamedTuple):
     """
         name: FETUSDT
         precision: 8
@@ -37507,8 +36709,7 @@ FETUSDT = FETUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDABNB:
+class FIDABNB(NamedTuple):
     """
         name: FIDABNB
         precision: 8
@@ -37554,8 +36755,7 @@ FIDABNB = FIDABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDABTC:
+class FIDABTC(NamedTuple):
     """
         name: FIDABTC
         precision: 8
@@ -37601,8 +36801,7 @@ FIDABTC = FIDABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDABUSD:
+class FIDABUSD(NamedTuple):
     """
         name: FIDABUSD
         precision: 8
@@ -37648,8 +36847,7 @@ FIDABUSD = FIDABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDAUSDT:
+class FIDAUSDT(NamedTuple):
     """
         name: FIDAUSDT
         precision: 8
@@ -37695,8 +36893,7 @@ FIDAUSDT = FIDAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILBNB:
+class FILBNB(NamedTuple):
     """
         name: FILBNB
         precision: 8
@@ -37742,8 +36939,7 @@ FILBNB = FILBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILBTC:
+class FILBTC(NamedTuple):
     """
         name: FILBTC
         precision: 8
@@ -37789,8 +36985,7 @@ FILBTC = FILBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILBUSD:
+class FILBUSD(NamedTuple):
     """
         name: FILBUSD
         precision: 8
@@ -37836,8 +37031,7 @@ FILBUSD = FILBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILDOWNUSDT:
+class FILDOWNUSDT(NamedTuple):
     """
         name: FILDOWNUSDT
         precision: 8
@@ -37883,8 +37077,7 @@ FILDOWNUSDT = FILDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILETH:
+class FILETH(NamedTuple):
     """
         name: FILETH
         precision: 8
@@ -37930,8 +37123,7 @@ FILETH = FILETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILTRY:
+class FILTRY(NamedTuple):
     """
         name: FILTRY
         precision: 8
@@ -37977,8 +37169,7 @@ FILTRY = FILTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILUPUSDT:
+class FILUPUSDT(NamedTuple):
     """
         name: FILUPUSDT
         precision: 8
@@ -38024,8 +37215,7 @@ FILUPUSDT = FILUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FILUSDT:
+class FILUSDT(NamedTuple):
     """
         name: FILUSDT
         precision: 8
@@ -38071,8 +37261,7 @@ FILUSDT = FILUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIOBNB:
+class FIOBNB(NamedTuple):
     """
         name: FIOBNB
         precision: 8
@@ -38118,8 +37307,7 @@ FIOBNB = FIOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIOBTC:
+class FIOBTC(NamedTuple):
     """
         name: FIOBTC
         precision: 8
@@ -38165,8 +37353,7 @@ FIOBTC = FIOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIOBUSD:
+class FIOBUSD(NamedTuple):
     """
         name: FIOBUSD
         precision: 8
@@ -38212,8 +37399,7 @@ FIOBUSD = FIOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIOUSDT:
+class FIOUSDT(NamedTuple):
     """
         name: FIOUSDT
         precision: 8
@@ -38259,8 +37445,7 @@ FIOUSDT = FIOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIROBTC:
+class FIROBTC(NamedTuple):
     """
         name: FIROBTC
         precision: 8
@@ -38306,8 +37491,7 @@ FIROBTC = FIROBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIROBUSD:
+class FIROBUSD(NamedTuple):
     """
         name: FIROBUSD
         precision: 8
@@ -38353,8 +37537,7 @@ FIROBUSD = FIROBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIROETH:
+class FIROETH(NamedTuple):
     """
         name: FIROETH
         precision: 8
@@ -38400,8 +37583,7 @@ FIROETH = FIROETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIROUSDT:
+class FIROUSDT(NamedTuple):
     """
         name: FIROUSDT
         precision: 8
@@ -38447,8 +37629,7 @@ FIROUSDT = FIROUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISBIDR:
+class FISBIDR(NamedTuple):
     """
         name: FISBIDR
         precision: 2
@@ -38494,8 +37675,7 @@ FISBIDR = FISBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISBRL:
+class FISBRL(NamedTuple):
     """
         name: FISBRL
         precision: 8
@@ -38541,8 +37721,7 @@ FISBRL = FISBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISBTC:
+class FISBTC(NamedTuple):
     """
         name: FISBTC
         precision: 8
@@ -38588,8 +37767,7 @@ FISBTC = FISBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISBUSD:
+class FISBUSD(NamedTuple):
     """
         name: FISBUSD
         precision: 8
@@ -38635,8 +37813,7 @@ FISBUSD = FISBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISTRY:
+class FISTRY(NamedTuple):
     """
         name: FISTRY
         precision: 8
@@ -38682,8 +37859,7 @@ FISTRY = FISTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FISUSDT:
+class FISUSDT(NamedTuple):
     """
         name: FISUSDT
         precision: 8
@@ -38729,8 +37905,7 @@ FISUSDT = FISUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLMBNB:
+class FLMBNB(NamedTuple):
     """
         name: FLMBNB
         precision: 8
@@ -38776,8 +37951,7 @@ FLMBNB = FLMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLMBTC:
+class FLMBTC(NamedTuple):
     """
         name: FLMBTC
         precision: 8
@@ -38823,8 +37997,7 @@ FLMBTC = FLMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLMBUSD:
+class FLMBUSD(NamedTuple):
     """
         name: FLMBUSD
         precision: 8
@@ -38870,8 +38043,7 @@ FLMBUSD = FLMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLMUSDT:
+class FLMUSDT(NamedTuple):
     """
         name: FLMUSDT
         precision: 8
@@ -38917,8 +38089,7 @@ FLMUSDT = FLMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOWBNB:
+class FLOWBNB(NamedTuple):
     """
         name: FLOWBNB
         precision: 8
@@ -38964,8 +38135,7 @@ FLOWBNB = FLOWBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOWBTC:
+class FLOWBTC(NamedTuple):
     """
         name: FLOWBTC
         precision: 8
@@ -39011,8 +38181,7 @@ FLOWBTC = FLOWBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOWBUSD:
+class FLOWBUSD(NamedTuple):
     """
         name: FLOWBUSD
         precision: 8
@@ -39058,8 +38227,7 @@ FLOWBUSD = FLOWBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOWUSDT:
+class FLOWUSDT(NamedTuple):
     """
         name: FLOWUSDT
         precision: 8
@@ -39105,8 +38273,7 @@ FLOWUSDT = FLOWUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLUXBTC:
+class FLUXBTC(NamedTuple):
     """
         name: FLUXBTC
         precision: 8
@@ -39152,8 +38319,7 @@ FLUXBTC = FLUXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLUXBUSD:
+class FLUXBUSD(NamedTuple):
     """
         name: FLUXBUSD
         precision: 8
@@ -39199,8 +38365,7 @@ FLUXBUSD = FLUXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLUXUSDT:
+class FLUXUSDT(NamedTuple):
     """
         name: FLUXUSDT
         precision: 8
@@ -39246,8 +38411,7 @@ FLUXUSDT = FLUXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORBNB:
+class FORBNB(NamedTuple):
     """
         name: FORBNB
         precision: 8
@@ -39293,8 +38457,7 @@ FORBNB = FORBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORBTC:
+class FORBTC(NamedTuple):
     """
         name: FORBTC
         precision: 8
@@ -39340,8 +38503,7 @@ FORBTC = FORBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORBUSD:
+class FORBUSD(NamedTuple):
     """
         name: FORBUSD
         precision: 8
@@ -39387,8 +38549,7 @@ FORBUSD = FORBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTHBTC:
+class FORTHBTC(NamedTuple):
     """
         name: FORTHBTC
         precision: 8
@@ -39434,8 +38595,7 @@ FORTHBTC = FORTHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTHBUSD:
+class FORTHBUSD(NamedTuple):
     """
         name: FORTHBUSD
         precision: 8
@@ -39481,8 +38641,7 @@ FORTHBUSD = FORTHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTHUSDT:
+class FORTHUSDT(NamedTuple):
     """
         name: FORTHUSDT
         precision: 8
@@ -39528,8 +38687,7 @@ FORTHUSDT = FORTHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORUSDT:
+class FORUSDT(NamedTuple):
     """
         name: FORUSDT
         precision: 8
@@ -39575,8 +38733,7 @@ FORUSDT = FORUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FRONTBTC:
+class FRONTBTC(NamedTuple):
     """
         name: FRONTBTC
         precision: 8
@@ -39622,8 +38779,7 @@ FRONTBTC = FRONTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FRONTBUSD:
+class FRONTBUSD(NamedTuple):
     """
         name: FRONTBUSD
         precision: 8
@@ -39669,8 +38825,7 @@ FRONTBUSD = FRONTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FRONTETH:
+class FRONTETH(NamedTuple):
     """
         name: FRONTETH
         precision: 8
@@ -39716,8 +38871,7 @@ FRONTETH = FRONTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FRONTUSDT:
+class FRONTUSDT(NamedTuple):
     """
         name: FRONTUSDT
         precision: 8
@@ -39763,8 +38917,7 @@ FRONTUSDT = FRONTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMAUD:
+class FTMAUD(NamedTuple):
     """
         name: FTMAUD
         precision: 8
@@ -39810,8 +38963,7 @@ FTMAUD = FTMAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMBIDR:
+class FTMBIDR(NamedTuple):
     """
         name: FTMBIDR
         precision: 2
@@ -39857,8 +39009,7 @@ FTMBIDR = FTMBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMBNB:
+class FTMBNB(NamedTuple):
     """
         name: FTMBNB
         precision: 8
@@ -39904,8 +39055,7 @@ FTMBNB = FTMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMBRL:
+class FTMBRL(NamedTuple):
     """
         name: FTMBRL
         precision: 8
@@ -39951,8 +39101,7 @@ FTMBRL = FTMBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMBTC:
+class FTMBTC(NamedTuple):
     """
         name: FTMBTC
         precision: 8
@@ -39998,8 +39147,7 @@ FTMBTC = FTMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMBUSD:
+class FTMBUSD(NamedTuple):
     """
         name: FTMBUSD
         precision: 8
@@ -40045,8 +39193,7 @@ FTMBUSD = FTMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMETH:
+class FTMETH(NamedTuple):
     """
         name: FTMETH
         precision: 8
@@ -40092,8 +39239,7 @@ FTMETH = FTMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMEUR:
+class FTMEUR(NamedTuple):
     """
         name: FTMEUR
         precision: 8
@@ -40139,8 +39285,7 @@ FTMEUR = FTMEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMPAX:
+class FTMPAX(NamedTuple):
     """
         name: FTMPAX
         precision: 8
@@ -40186,8 +39331,7 @@ FTMPAX = FTMPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMRUB:
+class FTMRUB(NamedTuple):
     """
         name: FTMRUB
         precision: 8
@@ -40233,8 +39377,7 @@ FTMRUB = FTMRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMTRY:
+class FTMTRY(NamedTuple):
     """
         name: FTMTRY
         precision: 8
@@ -40280,8 +39423,7 @@ FTMTRY = FTMTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMTUSD:
+class FTMTUSD(NamedTuple):
     """
         name: FTMTUSD
         precision: 8
@@ -40327,8 +39469,7 @@ FTMTUSD = FTMTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMUSDC:
+class FTMUSDC(NamedTuple):
     """
         name: FTMUSDC
         precision: 8
@@ -40374,8 +39515,7 @@ FTMUSDC = FTMUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTMUSDT:
+class FTMUSDT(NamedTuple):
     """
         name: FTMUSDT
         precision: 8
@@ -40421,8 +39561,7 @@ FTMUSDT = FTMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTTBNB:
+class FTTBNB(NamedTuple):
     """
         name: FTTBNB
         precision: 8
@@ -40468,8 +39607,7 @@ FTTBNB = FTTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTTBTC:
+class FTTBTC(NamedTuple):
     """
         name: FTTBTC
         precision: 8
@@ -40515,8 +39653,7 @@ FTTBTC = FTTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTTBUSD:
+class FTTBUSD(NamedTuple):
     """
         name: FTTBUSD
         precision: 8
@@ -40562,8 +39699,7 @@ FTTBUSD = FTTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTTETH:
+class FTTETH(NamedTuple):
     """
         name: FTTETH
         precision: 8
@@ -40609,8 +39745,7 @@ FTTETH = FTTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FTTUSDT:
+class FTTUSDT(NamedTuple):
     """
         name: FTTUSDT
         precision: 8
@@ -40656,8 +39791,7 @@ FTTUSDT = FTTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUELBTC:
+class FUELBTC(NamedTuple):
     """
         name: FUELBTC
         precision: 8
@@ -40703,8 +39837,7 @@ FUELBTC = FUELBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUELETH:
+class FUELETH(NamedTuple):
     """
         name: FUELETH
         precision: 8
@@ -40750,8 +39883,7 @@ FUELETH = FUELETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUNBNB:
+class FUNBNB(NamedTuple):
     """
         name: FUNBNB
         precision: 8
@@ -40797,8 +39929,7 @@ FUNBNB = FUNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUNBTC:
+class FUNBTC(NamedTuple):
     """
         name: FUNBTC
         precision: 8
@@ -40844,8 +39975,7 @@ FUNBTC = FUNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUNETH:
+class FUNETH(NamedTuple):
     """
         name: FUNETH
         precision: 8
@@ -40891,8 +40021,7 @@ FUNETH = FUNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FUNUSDT:
+class FUNUSDT(NamedTuple):
     """
         name: FUNUSDT
         precision: 8
@@ -40938,8 +40067,7 @@ FUNUSDT = FUNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FXSBTC:
+class FXSBTC(NamedTuple):
     """
         name: FXSBTC
         precision: 8
@@ -40985,8 +40113,7 @@ FXSBTC = FXSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FXSBUSD:
+class FXSBUSD(NamedTuple):
     """
         name: FXSBUSD
         precision: 8
@@ -41032,8 +40159,7 @@ FXSBUSD = FXSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FXSUSDT:
+class FXSUSDT(NamedTuple):
     """
         name: FXSUSDT
         precision: 8
@@ -41079,8 +40205,7 @@ FXSUSDT = FXSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALAAUD:
+class GALAAUD(NamedTuple):
     """
         name: GALAAUD
         precision: 8
@@ -41126,8 +40251,7 @@ GALAAUD = GALAAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALABNB:
+class GALABNB(NamedTuple):
     """
         name: GALABNB
         precision: 8
@@ -41173,8 +40297,7 @@ GALABNB = GALABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALABRL:
+class GALABRL(NamedTuple):
     """
         name: GALABRL
         precision: 8
@@ -41220,8 +40343,7 @@ GALABRL = GALABRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALABTC:
+class GALABTC(NamedTuple):
     """
         name: GALABTC
         precision: 8
@@ -41267,8 +40389,7 @@ GALABTC = GALABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALABUSD:
+class GALABUSD(NamedTuple):
     """
         name: GALABUSD
         precision: 8
@@ -41314,8 +40435,7 @@ GALABUSD = GALABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALAETH:
+class GALAETH(NamedTuple):
     """
         name: GALAETH
         precision: 8
@@ -41361,8 +40481,7 @@ GALAETH = GALAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALAEUR:
+class GALAEUR(NamedTuple):
     """
         name: GALAEUR
         precision: 8
@@ -41408,8 +40527,7 @@ GALAEUR = GALAEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALATRY:
+class GALATRY(NamedTuple):
     """
         name: GALATRY
         precision: 8
@@ -41455,8 +40573,7 @@ GALATRY = GALATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALAUSDT:
+class GALAUSDT(NamedTuple):
     """
         name: GALAUSDT
         precision: 8
@@ -41502,8 +40619,7 @@ GALAUSDT = GALAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALBNB:
+class GALBNB(NamedTuple):
     """
         name: GALBNB
         precision: 8
@@ -41549,8 +40665,7 @@ GALBNB = GALBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALBRL:
+class GALBRL(NamedTuple):
     """
         name: GALBRL
         precision: 8
@@ -41596,8 +40711,7 @@ GALBRL = GALBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALBTC:
+class GALBTC(NamedTuple):
     """
         name: GALBTC
         precision: 8
@@ -41643,8 +40757,7 @@ GALBTC = GALBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALBUSD:
+class GALBUSD(NamedTuple):
     """
         name: GALBUSD
         precision: 8
@@ -41690,8 +40803,7 @@ GALBUSD = GALBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALETH:
+class GALETH(NamedTuple):
     """
         name: GALETH
         precision: 8
@@ -41737,8 +40849,7 @@ GALETH = GALETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALEUR:
+class GALEUR(NamedTuple):
     """
         name: GALEUR
         precision: 8
@@ -41784,8 +40895,7 @@ GALEUR = GALEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALTRY:
+class GALTRY(NamedTuple):
     """
         name: GALTRY
         precision: 8
@@ -41831,8 +40941,7 @@ GALTRY = GALTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALUSDT:
+class GALUSDT(NamedTuple):
     """
         name: GALUSDT
         precision: 8
@@ -41878,8 +40987,7 @@ GALUSDT = GALUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GASBTC:
+class GASBTC(NamedTuple):
     """
         name: GASBTC
         precision: 8
@@ -41925,8 +41033,7 @@ GASBTC = GASBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GASBUSD:
+class GASBUSD(NamedTuple):
     """
         name: GASBUSD
         precision: 8
@@ -41972,8 +41079,7 @@ GASBUSD = GASBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GBPBUSD:
+class GBPBUSD(NamedTuple):
     """
         name: GBPBUSD
         precision: 8
@@ -42019,8 +41125,7 @@ GBPBUSD = GBPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GBPUSDT:
+class GBPUSDT(NamedTuple):
     """
         name: GBPUSDT
         precision: 8
@@ -42066,8 +41171,7 @@ GBPUSDT = GBPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GHSTBUSD:
+class GHSTBUSD(NamedTuple):
     """
         name: GHSTBUSD
         precision: 8
@@ -42113,8 +41217,7 @@ GHSTBUSD = GHSTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GHSTETH:
+class GHSTETH(NamedTuple):
     """
         name: GHSTETH
         precision: 8
@@ -42160,8 +41263,7 @@ GHSTETH = GHSTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GHSTUSDT:
+class GHSTUSDT(NamedTuple):
     """
         name: GHSTUSDT
         precision: 8
@@ -42207,8 +41309,7 @@ GHSTUSDT = GHSTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMBTC:
+class GLMBTC(NamedTuple):
     """
         name: GLMBTC
         precision: 8
@@ -42254,8 +41355,7 @@ GLMBTC = GLMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMBUSD:
+class GLMBUSD(NamedTuple):
     """
         name: GLMBUSD
         precision: 8
@@ -42301,8 +41401,7 @@ GLMBUSD = GLMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMETH:
+class GLMETH(NamedTuple):
     """
         name: GLMETH
         precision: 8
@@ -42348,8 +41447,7 @@ GLMETH = GLMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMRBNB:
+class GLMRBNB(NamedTuple):
     """
         name: GLMRBNB
         precision: 8
@@ -42395,8 +41493,7 @@ GLMRBNB = GLMRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMRBTC:
+class GLMRBTC(NamedTuple):
     """
         name: GLMRBTC
         precision: 8
@@ -42442,8 +41539,7 @@ GLMRBTC = GLMRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMRBUSD:
+class GLMRBUSD(NamedTuple):
     """
         name: GLMRBUSD
         precision: 8
@@ -42489,8 +41585,7 @@ GLMRBUSD = GLMRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLMRUSDT:
+class GLMRUSDT(NamedTuple):
     """
         name: GLMRUSDT
         precision: 8
@@ -42536,8 +41631,7 @@ GLMRUSDT = GLMRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTAUD:
+class GMTAUD(NamedTuple):
     """
         name: GMTAUD
         precision: 8
@@ -42583,8 +41677,7 @@ GMTAUD = GMTAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTBNB:
+class GMTBNB(NamedTuple):
     """
         name: GMTBNB
         precision: 8
@@ -42630,8 +41723,7 @@ GMTBNB = GMTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTBRL:
+class GMTBRL(NamedTuple):
     """
         name: GMTBRL
         precision: 8
@@ -42677,8 +41769,7 @@ GMTBRL = GMTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTBTC:
+class GMTBTC(NamedTuple):
     """
         name: GMTBTC
         precision: 8
@@ -42724,8 +41815,7 @@ GMTBTC = GMTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTBUSD:
+class GMTBUSD(NamedTuple):
     """
         name: GMTBUSD
         precision: 8
@@ -42771,8 +41861,7 @@ GMTBUSD = GMTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTETH:
+class GMTETH(NamedTuple):
     """
         name: GMTETH
         precision: 8
@@ -42818,8 +41907,7 @@ GMTETH = GMTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTEUR:
+class GMTEUR(NamedTuple):
     """
         name: GMTEUR
         precision: 8
@@ -42865,8 +41953,7 @@ GMTEUR = GMTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTGBP:
+class GMTGBP(NamedTuple):
     """
         name: GMTGBP
         precision: 8
@@ -42912,8 +41999,7 @@ GMTGBP = GMTGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTTRY:
+class GMTTRY(NamedTuple):
     """
         name: GMTTRY
         precision: 8
@@ -42959,8 +42045,7 @@ GMTTRY = GMTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTUSDT:
+class GMTUSDT(NamedTuple):
     """
         name: GMTUSDT
         precision: 8
@@ -43006,8 +42091,7 @@ GMTUSDT = GMTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMXBTC:
+class GMXBTC(NamedTuple):
     """
         name: GMXBTC
         precision: 8
@@ -43053,8 +42137,7 @@ GMXBTC = GMXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMXBUSD:
+class GMXBUSD(NamedTuple):
     """
         name: GMXBUSD
         precision: 8
@@ -43100,8 +42183,7 @@ GMXBUSD = GMXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMXUSDT:
+class GMXUSDT(NamedTuple):
     """
         name: GMXUSDT
         precision: 8
@@ -43147,8 +42229,7 @@ GMXUSDT = GMXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNOBNB:
+class GNOBNB(NamedTuple):
     """
         name: GNOBNB
         precision: 8
@@ -43194,8 +42275,7 @@ GNOBNB = GNOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNOBTC:
+class GNOBTC(NamedTuple):
     """
         name: GNOBTC
         precision: 8
@@ -43241,8 +42321,7 @@ GNOBTC = GNOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNOBUSD:
+class GNOBUSD(NamedTuple):
     """
         name: GNOBUSD
         precision: 8
@@ -43288,8 +42367,7 @@ GNOBUSD = GNOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNOUSDT:
+class GNOUSDT(NamedTuple):
     """
         name: GNOUSDT
         precision: 8
@@ -43335,8 +42413,7 @@ GNOUSDT = GNOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNTBNB:
+class GNTBNB(NamedTuple):
     """
         name: GNTBNB
         precision: 8
@@ -43382,8 +42459,7 @@ GNTBNB = GNTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNTBTC:
+class GNTBTC(NamedTuple):
     """
         name: GNTBTC
         precision: 8
@@ -43429,8 +42505,7 @@ GNTBTC = GNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNTETH:
+class GNTETH(NamedTuple):
     """
         name: GNTETH
         precision: 8
@@ -43476,8 +42551,7 @@ GNTETH = GNTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GOBNB:
+class GOBNB(NamedTuple):
     """
         name: GOBNB
         precision: 8
@@ -43523,8 +42597,7 @@ GOBNB = GOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GOBTC:
+class GOBTC(NamedTuple):
     """
         name: GOBTC
         precision: 8
@@ -43570,8 +42643,7 @@ GOBTC = GOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRSBTC:
+class GRSBTC(NamedTuple):
     """
         name: GRSBTC
         precision: 8
@@ -43617,8 +42689,7 @@ GRSBTC = GRSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRSETH:
+class GRSETH(NamedTuple):
     """
         name: GRSETH
         precision: 8
@@ -43664,8 +42735,7 @@ GRSETH = GRSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTBTC:
+class GRTBTC(NamedTuple):
     """
         name: GRTBTC
         precision: 8
@@ -43711,8 +42781,7 @@ GRTBTC = GRTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTBUSD:
+class GRTBUSD(NamedTuple):
     """
         name: GRTBUSD
         precision: 8
@@ -43758,8 +42827,7 @@ GRTBUSD = GRTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTETH:
+class GRTETH(NamedTuple):
     """
         name: GRTETH
         precision: 8
@@ -43805,8 +42873,7 @@ GRTETH = GRTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTEUR:
+class GRTEUR(NamedTuple):
     """
         name: GRTEUR
         precision: 8
@@ -43852,8 +42919,7 @@ GRTEUR = GRTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTTRY:
+class GRTTRY(NamedTuple):
     """
         name: GRTTRY
         precision: 8
@@ -43899,8 +42965,7 @@ GRTTRY = GRTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRTUSDT:
+class GRTUSDT(NamedTuple):
     """
         name: GRTUSDT
         precision: 8
@@ -43946,8 +43011,7 @@ GRTUSDT = GRTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTCBNB:
+class GTCBNB(NamedTuple):
     """
         name: GTCBNB
         precision: 8
@@ -43993,8 +43057,7 @@ GTCBNB = GTCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTCBTC:
+class GTCBTC(NamedTuple):
     """
         name: GTCBTC
         precision: 8
@@ -44040,8 +43103,7 @@ GTCBTC = GTCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTCBUSD:
+class GTCBUSD(NamedTuple):
     """
         name: GTCBUSD
         precision: 8
@@ -44087,8 +43149,7 @@ GTCBUSD = GTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTCUSDT:
+class GTCUSDT(NamedTuple):
     """
         name: GTCUSDT
         precision: 8
@@ -44134,8 +43195,7 @@ GTCUSDT = GTCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOBNB:
+class GTOBNB(NamedTuple):
     """
         name: GTOBNB
         precision: 8
@@ -44181,8 +43241,7 @@ GTOBNB = GTOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOBTC:
+class GTOBTC(NamedTuple):
     """
         name: GTOBTC
         precision: 8
@@ -44228,8 +43287,7 @@ GTOBTC = GTOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOBUSD:
+class GTOBUSD(NamedTuple):
     """
         name: GTOBUSD
         precision: 8
@@ -44275,8 +43333,7 @@ GTOBUSD = GTOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOETH:
+class GTOETH(NamedTuple):
     """
         name: GTOETH
         precision: 8
@@ -44322,8 +43379,7 @@ GTOETH = GTOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOPAX:
+class GTOPAX(NamedTuple):
     """
         name: GTOPAX
         precision: 8
@@ -44369,8 +43425,7 @@ GTOPAX = GTOPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOTUSD:
+class GTOTUSD(NamedTuple):
     """
         name: GTOTUSD
         precision: 8
@@ -44416,8 +43471,7 @@ GTOTUSD = GTOTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOUSDC:
+class GTOUSDC(NamedTuple):
     """
         name: GTOUSDC
         precision: 8
@@ -44463,8 +43517,7 @@ GTOUSDC = GTOUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTOUSDT:
+class GTOUSDT(NamedTuple):
     """
         name: GTOUSDT
         precision: 8
@@ -44510,8 +43563,7 @@ GTOUSDT = GTOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GVTBTC:
+class GVTBTC(NamedTuple):
     """
         name: GVTBTC
         precision: 8
@@ -44557,8 +43609,7 @@ GVTBTC = GVTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GVTETH:
+class GVTETH(NamedTuple):
     """
         name: GVTETH
         precision: 8
@@ -44604,8 +43655,7 @@ GVTETH = GVTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GXSBNB:
+class GXSBNB(NamedTuple):
     """
         name: GXSBNB
         precision: 8
@@ -44651,8 +43701,7 @@ GXSBNB = GXSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GXSBTC:
+class GXSBTC(NamedTuple):
     """
         name: GXSBTC
         precision: 8
@@ -44698,8 +43747,7 @@ GXSBTC = GXSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GXSETH:
+class GXSETH(NamedTuple):
     """
         name: GXSETH
         precision: 8
@@ -44745,8 +43793,7 @@ GXSETH = GXSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GXSUSDT:
+class GXSUSDT(NamedTuple):
     """
         name: GXSUSDT
         precision: 8
@@ -44792,8 +43839,7 @@ GXSUSDT = GXSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HARDBNB:
+class HARDBNB(NamedTuple):
     """
         name: HARDBNB
         precision: 8
@@ -44839,8 +43885,7 @@ HARDBNB = HARDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HARDBTC:
+class HARDBTC(NamedTuple):
     """
         name: HARDBTC
         precision: 8
@@ -44886,8 +43931,7 @@ HARDBTC = HARDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HARDBUSD:
+class HARDBUSD(NamedTuple):
     """
         name: HARDBUSD
         precision: 8
@@ -44933,8 +43977,7 @@ HARDBUSD = HARDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HARDUSDT:
+class HARDUSDT(NamedTuple):
     """
         name: HARDUSDT
         precision: 8
@@ -44980,8 +44023,7 @@ HARDUSDT = HARDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBARBNB:
+class HBARBNB(NamedTuple):
     """
         name: HBARBNB
         precision: 8
@@ -45027,8 +44069,7 @@ HBARBNB = HBARBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBARBTC:
+class HBARBTC(NamedTuple):
     """
         name: HBARBTC
         precision: 8
@@ -45074,8 +44115,7 @@ HBARBTC = HBARBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBARBUSD:
+class HBARBUSD(NamedTuple):
     """
         name: HBARBUSD
         precision: 8
@@ -45121,8 +44161,7 @@ HBARBUSD = HBARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBARUSDT:
+class HBARUSDT(NamedTuple):
     """
         name: HBARUSDT
         precision: 8
@@ -45168,8 +44207,7 @@ HBARUSDT = HBARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HCBTC:
+class HCBTC(NamedTuple):
     """
         name: HCBTC
         precision: 8
@@ -45215,8 +44253,7 @@ HCBTC = HCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HCETH:
+class HCETH(NamedTuple):
     """
         name: HCETH
         precision: 8
@@ -45262,8 +44299,7 @@ HCETH = HCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HCUSDT:
+class HCUSDT(NamedTuple):
     """
         name: HCUSDT
         precision: 8
@@ -45309,8 +44345,7 @@ HCUSDT = HCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HEGICBUSD:
+class HEGICBUSD(NamedTuple):
     """
         name: HEGICBUSD
         precision: 8
@@ -45356,8 +44391,7 @@ HEGICBUSD = HEGICBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HEGICETH:
+class HEGICETH(NamedTuple):
     """
         name: HEGICETH
         precision: 8
@@ -45403,8 +44437,7 @@ HEGICETH = HEGICETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HFTBTC:
+class HFTBTC(NamedTuple):
     """
         name: HFTBTC
         precision: 8
@@ -45450,8 +44483,7 @@ HFTBTC = HFTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HFTBUSD:
+class HFTBUSD(NamedTuple):
     """
         name: HFTBUSD
         precision: 8
@@ -45497,8 +44529,7 @@ HFTBUSD = HFTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HFTUSDT:
+class HFTUSDT(NamedTuple):
     """
         name: HFTUSDT
         precision: 8
@@ -45544,8 +44575,7 @@ HFTUSDT = HFTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIFIETH:
+class HIFIETH(NamedTuple):
     """
         name: HIFIETH
         precision: 8
@@ -45591,8 +44621,7 @@ HIFIETH = HIFIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIFIUSDT:
+class HIFIUSDT(NamedTuple):
     """
         name: HIFIUSDT
         precision: 8
@@ -45638,8 +44667,7 @@ HIFIUSDT = HIFIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIGHBNB:
+class HIGHBNB(NamedTuple):
     """
         name: HIGHBNB
         precision: 8
@@ -45685,8 +44713,7 @@ HIGHBNB = HIGHBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIGHBTC:
+class HIGHBTC(NamedTuple):
     """
         name: HIGHBTC
         precision: 8
@@ -45732,8 +44759,7 @@ HIGHBTC = HIGHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIGHBUSD:
+class HIGHBUSD(NamedTuple):
     """
         name: HIGHBUSD
         precision: 8
@@ -45779,8 +44805,7 @@ HIGHBUSD = HIGHBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIGHUSDT:
+class HIGHUSDT(NamedTuple):
     """
         name: HIGHUSDT
         precision: 8
@@ -45826,8 +44851,7 @@ HIGHUSDT = HIGHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIVEBNB:
+class HIVEBNB(NamedTuple):
     """
         name: HIVEBNB
         precision: 8
@@ -45873,8 +44897,7 @@ HIVEBNB = HIVEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIVEBTC:
+class HIVEBTC(NamedTuple):
     """
         name: HIVEBTC
         precision: 8
@@ -45920,8 +44943,7 @@ HIVEBTC = HIVEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIVEBUSD:
+class HIVEBUSD(NamedTuple):
     """
         name: HIVEBUSD
         precision: 8
@@ -45967,8 +44989,7 @@ HIVEBUSD = HIVEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIVEUSDT:
+class HIVEUSDT(NamedTuple):
     """
         name: HIVEUSDT
         precision: 8
@@ -46014,8 +45035,7 @@ HIVEUSDT = HIVEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HNTBTC:
+class HNTBTC(NamedTuple):
     """
         name: HNTBTC
         precision: 8
@@ -46061,8 +45081,7 @@ HNTBTC = HNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HNTBUSD:
+class HNTBUSD(NamedTuple):
     """
         name: HNTBUSD
         precision: 8
@@ -46108,8 +45127,7 @@ HNTBUSD = HNTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HNTUSDT:
+class HNTUSDT(NamedTuple):
     """
         name: HNTUSDT
         precision: 8
@@ -46155,8 +45173,7 @@ HNTUSDT = HNTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOOKBNB:
+class HOOKBNB(NamedTuple):
     """
         name: HOOKBNB
         precision: 8
@@ -46202,8 +45219,7 @@ HOOKBNB = HOOKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOOKBTC:
+class HOOKBTC(NamedTuple):
     """
         name: HOOKBTC
         precision: 8
@@ -46249,8 +45265,7 @@ HOOKBTC = HOOKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOOKBUSD:
+class HOOKBUSD(NamedTuple):
     """
         name: HOOKBUSD
         precision: 8
@@ -46296,8 +45311,7 @@ HOOKBUSD = HOOKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOOKUSDT:
+class HOOKUSDT(NamedTuple):
     """
         name: HOOKUSDT
         precision: 8
@@ -46343,8 +45357,7 @@ HOOKUSDT = HOOKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTBNB:
+class HOTBNB(NamedTuple):
     """
         name: HOTBNB
         precision: 8
@@ -46390,8 +45403,7 @@ HOTBNB = HOTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTBRL:
+class HOTBRL(NamedTuple):
     """
         name: HOTBRL
         precision: 8
@@ -46437,8 +45449,7 @@ HOTBRL = HOTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTBTC:
+class HOTBTC(NamedTuple):
     """
         name: HOTBTC
         precision: 8
@@ -46484,8 +45495,7 @@ HOTBTC = HOTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTBUSD:
+class HOTBUSD(NamedTuple):
     """
         name: HOTBUSD
         precision: 8
@@ -46531,8 +45541,7 @@ HOTBUSD = HOTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTETH:
+class HOTETH(NamedTuple):
     """
         name: HOTETH
         precision: 8
@@ -46578,8 +45587,7 @@ HOTETH = HOTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTEUR:
+class HOTEUR(NamedTuple):
     """
         name: HOTEUR
         precision: 8
@@ -46625,8 +45633,7 @@ HOTEUR = HOTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTTRY:
+class HOTTRY(NamedTuple):
     """
         name: HOTTRY
         precision: 8
@@ -46672,8 +45679,7 @@ HOTTRY = HOTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOTUSDT:
+class HOTUSDT(NamedTuple):
     """
         name: HOTUSDT
         precision: 8
@@ -46719,8 +45725,7 @@ HOTUSDT = HOTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HSRBTC:
+class HSRBTC(NamedTuple):
     """
         name: HSRBTC
         precision: 8
@@ -46766,8 +45771,7 @@ HSRBTC = HSRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HSRETH:
+class HSRETH(NamedTuple):
     """
         name: HSRETH
         precision: 8
@@ -46813,8 +45817,7 @@ HSRETH = HSRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICNBTC:
+class ICNBTC(NamedTuple):
     """
         name: ICNBTC
         precision: 8
@@ -46860,8 +45863,7 @@ ICNBTC = ICNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICNETH:
+class ICNETH(NamedTuple):
     """
         name: ICNETH
         precision: 8
@@ -46907,8 +45909,7 @@ ICNETH = ICNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPBNB:
+class ICPBNB(NamedTuple):
     """
         name: ICPBNB
         precision: 8
@@ -46954,8 +45955,7 @@ ICPBNB = ICPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPBTC:
+class ICPBTC(NamedTuple):
     """
         name: ICPBTC
         precision: 8
@@ -47001,8 +46001,7 @@ ICPBTC = ICPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPBUSD:
+class ICPBUSD(NamedTuple):
     """
         name: ICPBUSD
         precision: 8
@@ -47048,8 +46047,7 @@ ICPBUSD = ICPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPETH:
+class ICPETH(NamedTuple):
     """
         name: ICPETH
         precision: 8
@@ -47095,8 +46093,7 @@ ICPETH = ICPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPEUR:
+class ICPEUR(NamedTuple):
     """
         name: ICPEUR
         precision: 8
@@ -47142,8 +46139,7 @@ ICPEUR = ICPEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPRUB:
+class ICPRUB(NamedTuple):
     """
         name: ICPRUB
         precision: 8
@@ -47189,8 +46185,7 @@ ICPRUB = ICPRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPTRY:
+class ICPTRY(NamedTuple):
     """
         name: ICPTRY
         precision: 8
@@ -47236,8 +46231,7 @@ ICPTRY = ICPTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICPUSDT:
+class ICPUSDT(NamedTuple):
     """
         name: ICPUSDT
         precision: 8
@@ -47283,8 +46277,7 @@ ICPUSDT = ICPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICXBNB:
+class ICXBNB(NamedTuple):
     """
         name: ICXBNB
         precision: 8
@@ -47330,8 +46323,7 @@ ICXBNB = ICXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICXBTC:
+class ICXBTC(NamedTuple):
     """
         name: ICXBTC
         precision: 8
@@ -47377,8 +46369,7 @@ ICXBTC = ICXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICXBUSD:
+class ICXBUSD(NamedTuple):
     """
         name: ICXBUSD
         precision: 8
@@ -47424,8 +46415,7 @@ ICXBUSD = ICXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICXETH:
+class ICXETH(NamedTuple):
     """
         name: ICXETH
         precision: 8
@@ -47471,8 +46461,7 @@ ICXETH = ICXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICXUSDT:
+class ICXUSDT(NamedTuple):
     """
         name: ICXUSDT
         precision: 8
@@ -47518,8 +46507,7 @@ ICXUSDT = ICXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEXBNB:
+class IDEXBNB(NamedTuple):
     """
         name: IDEXBNB
         precision: 8
@@ -47565,8 +46553,7 @@ IDEXBNB = IDEXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEXBTC:
+class IDEXBTC(NamedTuple):
     """
         name: IDEXBTC
         precision: 8
@@ -47612,8 +46599,7 @@ IDEXBTC = IDEXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEXBUSD:
+class IDEXBUSD(NamedTuple):
     """
         name: IDEXBUSD
         precision: 8
@@ -47659,8 +46645,7 @@ IDEXBUSD = IDEXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEXUSDT:
+class IDEXUSDT(NamedTuple):
     """
         name: IDEXUSDT
         precision: 8
@@ -47706,8 +46691,7 @@ IDEXUSDT = IDEXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ILVBNB:
+class ILVBNB(NamedTuple):
     """
         name: ILVBNB
         precision: 8
@@ -47753,8 +46737,7 @@ ILVBNB = ILVBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ILVBTC:
+class ILVBTC(NamedTuple):
     """
         name: ILVBTC
         precision: 8
@@ -47800,8 +46783,7 @@ ILVBTC = ILVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ILVBUSD:
+class ILVBUSD(NamedTuple):
     """
         name: ILVBUSD
         precision: 8
@@ -47847,8 +46829,7 @@ ILVBUSD = ILVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ILVUSDT:
+class ILVUSDT(NamedTuple):
     """
         name: ILVUSDT
         precision: 8
@@ -47894,8 +46875,7 @@ ILVUSDT = ILVUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMXBNB:
+class IMXBNB(NamedTuple):
     """
         name: IMXBNB
         precision: 8
@@ -47941,8 +46921,7 @@ IMXBNB = IMXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMXBTC:
+class IMXBTC(NamedTuple):
     """
         name: IMXBTC
         precision: 8
@@ -47988,8 +46967,7 @@ IMXBTC = IMXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMXBUSD:
+class IMXBUSD(NamedTuple):
     """
         name: IMXBUSD
         precision: 8
@@ -48035,8 +47013,7 @@ IMXBUSD = IMXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMXUSDT:
+class IMXUSDT(NamedTuple):
     """
         name: IMXUSDT
         precision: 8
@@ -48082,8 +47059,7 @@ IMXUSDT = IMXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJBNB:
+class INJBNB(NamedTuple):
     """
         name: INJBNB
         precision: 8
@@ -48129,8 +47105,7 @@ INJBNB = INJBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJBTC:
+class INJBTC(NamedTuple):
     """
         name: INJBTC
         precision: 8
@@ -48176,8 +47151,7 @@ INJBTC = INJBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJBUSD:
+class INJBUSD(NamedTuple):
     """
         name: INJBUSD
         precision: 8
@@ -48223,8 +47197,7 @@ INJBUSD = INJBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJTRY:
+class INJTRY(NamedTuple):
     """
         name: INJTRY
         precision: 8
@@ -48270,8 +47243,7 @@ INJTRY = INJTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJUSDT:
+class INJUSDT(NamedTuple):
     """
         name: INJUSDT
         precision: 8
@@ -48317,8 +47289,7 @@ INJUSDT = INJUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INSBTC:
+class INSBTC(NamedTuple):
     """
         name: INSBTC
         precision: 8
@@ -48364,8 +47335,7 @@ INSBTC = INSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INSETH:
+class INSETH(NamedTuple):
     """
         name: INSETH
         precision: 8
@@ -48411,8 +47381,7 @@ INSETH = INSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOSTBTC:
+class IOSTBTC(NamedTuple):
     """
         name: IOSTBTC
         precision: 8
@@ -48458,8 +47427,7 @@ IOSTBTC = IOSTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOSTBUSD:
+class IOSTBUSD(NamedTuple):
     """
         name: IOSTBUSD
         precision: 8
@@ -48505,8 +47473,7 @@ IOSTBUSD = IOSTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOSTETH:
+class IOSTETH(NamedTuple):
     """
         name: IOSTETH
         precision: 8
@@ -48552,8 +47519,7 @@ IOSTETH = IOSTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOSTUSDT:
+class IOSTUSDT(NamedTuple):
     """
         name: IOSTUSDT
         precision: 8
@@ -48599,8 +47565,7 @@ IOSTUSDT = IOSTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTABNB:
+class IOTABNB(NamedTuple):
     """
         name: IOTABNB
         precision: 8
@@ -48646,8 +47611,7 @@ IOTABNB = IOTABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTABTC:
+class IOTABTC(NamedTuple):
     """
         name: IOTABTC
         precision: 8
@@ -48693,8 +47657,7 @@ IOTABTC = IOTABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTABUSD:
+class IOTABUSD(NamedTuple):
     """
         name: IOTABUSD
         precision: 8
@@ -48740,8 +47703,7 @@ IOTABUSD = IOTABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTAETH:
+class IOTAETH(NamedTuple):
     """
         name: IOTAETH
         precision: 8
@@ -48787,8 +47749,7 @@ IOTAETH = IOTAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTAUSDT:
+class IOTAUSDT(NamedTuple):
     """
         name: IOTAUSDT
         precision: 8
@@ -48834,8 +47795,7 @@ IOTAUSDT = IOTAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTXBTC:
+class IOTXBTC(NamedTuple):
     """
         name: IOTXBTC
         precision: 8
@@ -48881,8 +47841,7 @@ IOTXBTC = IOTXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTXBUSD:
+class IOTXBUSD(NamedTuple):
     """
         name: IOTXBUSD
         precision: 8
@@ -48928,8 +47887,7 @@ IOTXBUSD = IOTXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTXETH:
+class IOTXETH(NamedTuple):
     """
         name: IOTXETH
         precision: 8
@@ -48975,8 +47933,7 @@ IOTXETH = IOTXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTXUSDT:
+class IOTXUSDT(NamedTuple):
     """
         name: IOTXUSDT
         precision: 8
@@ -49022,8 +47979,7 @@ IOTXUSDT = IOTXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IQBNB:
+class IQBNB(NamedTuple):
     """
         name: IQBNB
         precision: 8
@@ -49069,8 +48025,7 @@ IQBNB = IQBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IQBUSD:
+class IQBUSD(NamedTuple):
     """
         name: IQBUSD
         precision: 8
@@ -49116,8 +48071,7 @@ IQBUSD = IQBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IRISBNB:
+class IRISBNB(NamedTuple):
     """
         name: IRISBNB
         precision: 8
@@ -49163,8 +48117,7 @@ IRISBNB = IRISBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IRISBTC:
+class IRISBTC(NamedTuple):
     """
         name: IRISBTC
         precision: 8
@@ -49210,8 +48163,7 @@ IRISBTC = IRISBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IRISBUSD:
+class IRISBUSD(NamedTuple):
     """
         name: IRISBUSD
         precision: 8
@@ -49257,8 +48209,7 @@ IRISBUSD = IRISBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IRISUSDT:
+class IRISUSDT(NamedTuple):
     """
         name: IRISUSDT
         precision: 8
@@ -49304,8 +48255,7 @@ IRISUSDT = IRISUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYBNB:
+class JASMYBNB(NamedTuple):
     """
         name: JASMYBNB
         precision: 8
@@ -49351,8 +48301,7 @@ JASMYBNB = JASMYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYBTC:
+class JASMYBTC(NamedTuple):
     """
         name: JASMYBTC
         precision: 8
@@ -49398,8 +48347,7 @@ JASMYBTC = JASMYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYBUSD:
+class JASMYBUSD(NamedTuple):
     """
         name: JASMYBUSD
         precision: 8
@@ -49445,8 +48393,7 @@ JASMYBUSD = JASMYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYETH:
+class JASMYETH(NamedTuple):
     """
         name: JASMYETH
         precision: 8
@@ -49492,8 +48439,7 @@ JASMYETH = JASMYETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYEUR:
+class JASMYEUR(NamedTuple):
     """
         name: JASMYEUR
         precision: 8
@@ -49539,8 +48485,7 @@ JASMYEUR = JASMYEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYTRY:
+class JASMYTRY(NamedTuple):
     """
         name: JASMYTRY
         precision: 8
@@ -49586,8 +48531,7 @@ JASMYTRY = JASMYTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMYUSDT:
+class JASMYUSDT(NamedTuple):
     """
         name: JASMYUSDT
         precision: 8
@@ -49633,8 +48577,7 @@ JASMYUSDT = JASMYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JOEBTC:
+class JOEBTC(NamedTuple):
     """
         name: JOEBTC
         precision: 8
@@ -49680,8 +48623,7 @@ JOEBTC = JOEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JOEBUSD:
+class JOEBUSD(NamedTuple):
     """
         name: JOEBUSD
         precision: 8
@@ -49727,8 +48669,7 @@ JOEBUSD = JOEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JOEUSDT:
+class JOEUSDT(NamedTuple):
     """
         name: JOEUSDT
         precision: 8
@@ -49774,8 +48715,7 @@ JOEUSDT = JOEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JSTBNB:
+class JSTBNB(NamedTuple):
     """
         name: JSTBNB
         precision: 8
@@ -49821,8 +48761,7 @@ JSTBNB = JSTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JSTBTC:
+class JSTBTC(NamedTuple):
     """
         name: JSTBTC
         precision: 8
@@ -49868,8 +48807,7 @@ JSTBTC = JSTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JSTBUSD:
+class JSTBUSD(NamedTuple):
     """
         name: JSTBUSD
         precision: 8
@@ -49915,8 +48853,7 @@ JSTBUSD = JSTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JSTUSDT:
+class JSTUSDT(NamedTuple):
     """
         name: JSTUSDT
         precision: 8
@@ -49962,8 +48899,7 @@ JSTUSDT = JSTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JUVBTC:
+class JUVBTC(NamedTuple):
     """
         name: JUVBTC
         precision: 8
@@ -50009,8 +48945,7 @@ JUVBTC = JUVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JUVBUSD:
+class JUVBUSD(NamedTuple):
     """
         name: JUVBUSD
         precision: 8
@@ -50056,8 +48991,7 @@ JUVBUSD = JUVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JUVUSDT:
+class JUVUSDT(NamedTuple):
     """
         name: JUVUSDT
         precision: 8
@@ -50103,8 +49037,7 @@ JUVUSDT = JUVUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVABNB:
+class KAVABNB(NamedTuple):
     """
         name: KAVABNB
         precision: 8
@@ -50150,8 +49083,7 @@ KAVABNB = KAVABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVABTC:
+class KAVABTC(NamedTuple):
     """
         name: KAVABTC
         precision: 8
@@ -50197,8 +49129,7 @@ KAVABTC = KAVABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVABUSD:
+class KAVABUSD(NamedTuple):
     """
         name: KAVABUSD
         precision: 8
@@ -50244,8 +49175,7 @@ KAVABUSD = KAVABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVAETH:
+class KAVAETH(NamedTuple):
     """
         name: KAVAETH
         precision: 8
@@ -50291,8 +49221,7 @@ KAVAETH = KAVAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVAUSDT:
+class KAVAUSDT(NamedTuple):
     """
         name: KAVAUSDT
         precision: 8
@@ -50338,8 +49267,7 @@ KAVAUSDT = KAVAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KDABTC:
+class KDABTC(NamedTuple):
     """
         name: KDABTC
         precision: 8
@@ -50385,8 +49313,7 @@ KDABTC = KDABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KDABUSD:
+class KDABUSD(NamedTuple):
     """
         name: KDABUSD
         precision: 8
@@ -50432,8 +49359,7 @@ KDABUSD = KDABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KDAUSDT:
+class KDAUSDT(NamedTuple):
     """
         name: KDAUSDT
         precision: 8
@@ -50479,8 +49405,7 @@ KDAUSDT = KDAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEEPBNB:
+class KEEPBNB(NamedTuple):
     """
         name: KEEPBNB
         precision: 8
@@ -50526,8 +49451,7 @@ KEEPBNB = KEEPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEEPBTC:
+class KEEPBTC(NamedTuple):
     """
         name: KEEPBTC
         precision: 8
@@ -50573,8 +49497,7 @@ KEEPBTC = KEEPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEEPBUSD:
+class KEEPBUSD(NamedTuple):
     """
         name: KEEPBUSD
         precision: 8
@@ -50620,8 +49543,7 @@ KEEPBUSD = KEEPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEEPUSDT:
+class KEEPUSDT(NamedTuple):
     """
         name: KEEPUSDT
         precision: 8
@@ -50667,8 +49589,7 @@ KEEPUSDT = KEEPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEYBTC:
+class KEYBTC(NamedTuple):
     """
         name: KEYBTC
         precision: 8
@@ -50714,8 +49635,7 @@ KEYBTC = KEYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEYBUSD:
+class KEYBUSD(NamedTuple):
     """
         name: KEYBUSD
         precision: 8
@@ -50761,8 +49681,7 @@ KEYBUSD = KEYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEYETH:
+class KEYETH(NamedTuple):
     """
         name: KEYETH
         precision: 8
@@ -50808,8 +49727,7 @@ KEYETH = KEYETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEYUSDT:
+class KEYUSDT(NamedTuple):
     """
         name: KEYUSDT
         precision: 8
@@ -50855,8 +49773,7 @@ KEYUSDT = KEYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYBNB:
+class KLAYBNB(NamedTuple):
     """
         name: KLAYBNB
         precision: 8
@@ -50902,8 +49819,7 @@ KLAYBNB = KLAYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYBTC:
+class KLAYBTC(NamedTuple):
     """
         name: KLAYBTC
         precision: 8
@@ -50949,8 +49865,7 @@ KLAYBTC = KLAYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYBUSD:
+class KLAYBUSD(NamedTuple):
     """
         name: KLAYBUSD
         precision: 8
@@ -50996,8 +49911,7 @@ KLAYBUSD = KLAYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYUSDT:
+class KLAYUSDT(NamedTuple):
     """
         name: KLAYUSDT
         precision: 8
@@ -51043,8 +49957,7 @@ KLAYUSDT = KLAYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KMDBTC:
+class KMDBTC(NamedTuple):
     """
         name: KMDBTC
         precision: 8
@@ -51090,8 +50003,7 @@ KMDBTC = KMDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KMDBUSD:
+class KMDBUSD(NamedTuple):
     """
         name: KMDBUSD
         precision: 8
@@ -51137,8 +50049,7 @@ KMDBUSD = KMDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KMDETH:
+class KMDETH(NamedTuple):
     """
         name: KMDETH
         precision: 8
@@ -51184,8 +50095,7 @@ KMDETH = KMDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KMDUSDT:
+class KMDUSDT(NamedTuple):
     """
         name: KMDUSDT
         precision: 8
@@ -51231,8 +50141,7 @@ KMDUSDT = KMDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNCBNB:
+class KNCBNB(NamedTuple):
     """
         name: KNCBNB
         precision: 8
@@ -51278,8 +50187,7 @@ KNCBNB = KNCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNCBTC:
+class KNCBTC(NamedTuple):
     """
         name: KNCBTC
         precision: 8
@@ -51325,8 +50233,7 @@ KNCBTC = KNCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNCBUSD:
+class KNCBUSD(NamedTuple):
     """
         name: KNCBUSD
         precision: 8
@@ -51372,8 +50279,7 @@ KNCBUSD = KNCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNCETH:
+class KNCETH(NamedTuple):
     """
         name: KNCETH
         precision: 8
@@ -51419,8 +50325,7 @@ KNCETH = KNCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNCUSDT:
+class KNCUSDT(NamedTuple):
     """
         name: KNCUSDT
         precision: 8
@@ -51466,8 +50371,7 @@ KNCUSDT = KNCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KP3RBNB:
+class KP3RBNB(NamedTuple):
     """
         name: KP3RBNB
         precision: 8
@@ -51513,8 +50417,7 @@ KP3RBNB = KP3RBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KP3RBUSD:
+class KP3RBUSD(NamedTuple):
     """
         name: KP3RBUSD
         precision: 8
@@ -51560,8 +50463,7 @@ KP3RBUSD = KP3RBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KP3RUSDT:
+class KP3RUSDT(NamedTuple):
     """
         name: KP3RUSDT
         precision: 8
@@ -51607,8 +50509,7 @@ KP3RUSDT = KP3RUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMAUD:
+class KSMAUD(NamedTuple):
     """
         name: KSMAUD
         precision: 8
@@ -51654,8 +50555,7 @@ KSMAUD = KSMAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMBNB:
+class KSMBNB(NamedTuple):
     """
         name: KSMBNB
         precision: 8
@@ -51701,8 +50601,7 @@ KSMBNB = KSMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMBTC:
+class KSMBTC(NamedTuple):
     """
         name: KSMBTC
         precision: 8
@@ -51748,8 +50647,7 @@ KSMBTC = KSMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMBUSD:
+class KSMBUSD(NamedTuple):
     """
         name: KSMBUSD
         precision: 8
@@ -51795,8 +50693,7 @@ KSMBUSD = KSMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMETH:
+class KSMETH(NamedTuple):
     """
         name: KSMETH
         precision: 8
@@ -51842,8 +50739,7 @@ KSMETH = KSMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSMUSDT:
+class KSMUSDT(NamedTuple):
     """
         name: KSMUSDT
         precision: 8
@@ -51889,8 +50785,7 @@ KSMUSDT = KSMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LAZIOBTC:
+class LAZIOBTC(NamedTuple):
     """
         name: LAZIOBTC
         precision: 8
@@ -51936,8 +50831,7 @@ LAZIOBTC = LAZIOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LAZIOBUSD:
+class LAZIOBUSD(NamedTuple):
     """
         name: LAZIOBUSD
         precision: 8
@@ -51983,8 +50877,7 @@ LAZIOBUSD = LAZIOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LAZIOEUR:
+class LAZIOEUR(NamedTuple):
     """
         name: LAZIOEUR
         precision: 8
@@ -52030,8 +50923,7 @@ LAZIOEUR = LAZIOEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LAZIOTRY:
+class LAZIOTRY(NamedTuple):
     """
         name: LAZIOTRY
         precision: 8
@@ -52077,8 +50969,7 @@ LAZIOTRY = LAZIOTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LAZIOUSDT:
+class LAZIOUSDT(NamedTuple):
     """
         name: LAZIOUSDT
         precision: 8
@@ -52124,8 +51015,7 @@ LAZIOUSDT = LAZIOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LDOBTC:
+class LDOBTC(NamedTuple):
     """
         name: LDOBTC
         precision: 8
@@ -52171,8 +51061,7 @@ LDOBTC = LDOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LDOBUSD:
+class LDOBUSD(NamedTuple):
     """
         name: LDOBUSD
         precision: 8
@@ -52218,8 +51107,7 @@ LDOBUSD = LDOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LDOUSDT:
+class LDOUSDT(NamedTuple):
     """
         name: LDOUSDT
         precision: 8
@@ -52265,8 +51153,7 @@ LDOUSDT = LDOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LENDBKRW:
+class LENDBKRW(NamedTuple):
     """
         name: LENDBKRW
         precision: 8
@@ -52312,8 +51199,7 @@ LENDBKRW = LENDBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LENDBTC:
+class LENDBTC(NamedTuple):
     """
         name: LENDBTC
         precision: 8
@@ -52359,8 +51245,7 @@ LENDBTC = LENDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LENDBUSD:
+class LENDBUSD(NamedTuple):
     """
         name: LENDBUSD
         precision: 8
@@ -52406,8 +51291,7 @@ LENDBUSD = LENDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LENDETH:
+class LENDETH(NamedTuple):
     """
         name: LENDETH
         precision: 8
@@ -52453,8 +51337,7 @@ LENDETH = LENDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LENDUSDT:
+class LENDUSDT(NamedTuple):
     """
         name: LENDUSDT
         precision: 8
@@ -52500,8 +51383,7 @@ LENDUSDT = LENDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LEVERBUSD:
+class LEVERBUSD(NamedTuple):
     """
         name: LEVERBUSD
         precision: 8
@@ -52547,8 +51429,7 @@ LEVERBUSD = LEVERBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LEVERUSDT:
+class LEVERUSDT(NamedTuple):
     """
         name: LEVERUSDT
         precision: 8
@@ -52594,8 +51475,7 @@ LEVERUSDT = LEVERUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINABNB:
+class LINABNB(NamedTuple):
     """
         name: LINABNB
         precision: 8
@@ -52641,8 +51521,7 @@ LINABNB = LINABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINABTC:
+class LINABTC(NamedTuple):
     """
         name: LINABTC
         precision: 8
@@ -52688,8 +51567,7 @@ LINABTC = LINABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINABUSD:
+class LINABUSD(NamedTuple):
     """
         name: LINABUSD
         precision: 8
@@ -52735,8 +51613,7 @@ LINABUSD = LINABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINAUSDT:
+class LINAUSDT(NamedTuple):
     """
         name: LINAUSDT
         precision: 8
@@ -52782,8 +51659,7 @@ LINAUSDT = LINAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKAUD:
+class LINKAUD(NamedTuple):
     """
         name: LINKAUD
         precision: 8
@@ -52829,8 +51705,7 @@ LINKAUD = LINKAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKBKRW:
+class LINKBKRW(NamedTuple):
     """
         name: LINKBKRW
         precision: 8
@@ -52876,8 +51751,7 @@ LINKBKRW = LINKBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKBNB:
+class LINKBNB(NamedTuple):
     """
         name: LINKBNB
         precision: 8
@@ -52923,8 +51797,7 @@ LINKBNB = LINKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKBRL:
+class LINKBRL(NamedTuple):
     """
         name: LINKBRL
         precision: 8
@@ -52970,8 +51843,7 @@ LINKBRL = LINKBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKBTC:
+class LINKBTC(NamedTuple):
     """
         name: LINKBTC
         precision: 8
@@ -53017,8 +51889,7 @@ LINKBTC = LINKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKBUSD:
+class LINKBUSD(NamedTuple):
     """
         name: LINKBUSD
         precision: 8
@@ -53064,8 +51935,7 @@ LINKBUSD = LINKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKDOWNUSDT:
+class LINKDOWNUSDT(NamedTuple):
     """
         name: LINKDOWNUSDT
         precision: 8
@@ -53111,8 +51981,7 @@ LINKDOWNUSDT = LINKDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKETH:
+class LINKETH(NamedTuple):
     """
         name: LINKETH
         precision: 8
@@ -53158,8 +52027,7 @@ LINKETH = LINKETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKEUR:
+class LINKEUR(NamedTuple):
     """
         name: LINKEUR
         precision: 8
@@ -53205,8 +52073,7 @@ LINKEUR = LINKEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKGBP:
+class LINKGBP(NamedTuple):
     """
         name: LINKGBP
         precision: 8
@@ -53252,8 +52119,7 @@ LINKGBP = LINKGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKNGN:
+class LINKNGN(NamedTuple):
     """
         name: LINKNGN
         precision: 8
@@ -53299,8 +52165,7 @@ LINKNGN = LINKNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKPAX:
+class LINKPAX(NamedTuple):
     """
         name: LINKPAX
         precision: 8
@@ -53346,8 +52211,7 @@ LINKPAX = LINKPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKTRY:
+class LINKTRY(NamedTuple):
     """
         name: LINKTRY
         precision: 8
@@ -53393,8 +52257,7 @@ LINKTRY = LINKTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKTUSD:
+class LINKTUSD(NamedTuple):
     """
         name: LINKTUSD
         precision: 8
@@ -53440,8 +52303,7 @@ LINKTUSD = LINKTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKUPUSDT:
+class LINKUPUSDT(NamedTuple):
     """
         name: LINKUPUSDT
         precision: 8
@@ -53487,8 +52349,7 @@ LINKUPUSDT = LINKUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKUSDC:
+class LINKUSDC(NamedTuple):
     """
         name: LINKUSDC
         precision: 8
@@ -53534,8 +52395,7 @@ LINKUSDC = LINKUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKUSDT:
+class LINKUSDT(NamedTuple):
     """
         name: LINKUSDT
         precision: 8
@@ -53581,8 +52441,7 @@ LINKUSDT = LINKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LITBTC:
+class LITBTC(NamedTuple):
     """
         name: LITBTC
         precision: 8
@@ -53628,8 +52487,7 @@ LITBTC = LITBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LITBUSD:
+class LITBUSD(NamedTuple):
     """
         name: LITBUSD
         precision: 8
@@ -53675,8 +52533,7 @@ LITBUSD = LITBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LITETH:
+class LITETH(NamedTuple):
     """
         name: LITETH
         precision: 8
@@ -53722,8 +52579,7 @@ LITETH = LITETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LITUSDT:
+class LITUSDT(NamedTuple):
     """
         name: LITUSDT
         precision: 8
@@ -53769,8 +52625,7 @@ LITUSDT = LITUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOKABNB:
+class LOKABNB(NamedTuple):
     """
         name: LOKABNB
         precision: 8
@@ -53816,8 +52671,7 @@ LOKABNB = LOKABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOKABTC:
+class LOKABTC(NamedTuple):
     """
         name: LOKABTC
         precision: 8
@@ -53863,8 +52717,7 @@ LOKABTC = LOKABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOKABUSD:
+class LOKABUSD(NamedTuple):
     """
         name: LOKABUSD
         precision: 8
@@ -53910,8 +52763,7 @@ LOKABUSD = LOKABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOKAUSDT:
+class LOKAUSDT(NamedTuple):
     """
         name: LOKAUSDT
         precision: 8
@@ -53957,8 +52809,7 @@ LOKAUSDT = LOKAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOMBNB:
+class LOOMBNB(NamedTuple):
     """
         name: LOOMBNB
         precision: 8
@@ -54004,8 +52855,7 @@ LOOMBNB = LOOMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOMBTC:
+class LOOMBTC(NamedTuple):
     """
         name: LOOMBTC
         precision: 8
@@ -54051,8 +52901,7 @@ LOOMBTC = LOOMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOMBUSD:
+class LOOMBUSD(NamedTuple):
     """
         name: LOOMBUSD
         precision: 8
@@ -54098,8 +52947,7 @@ LOOMBUSD = LOOMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOMETH:
+class LOOMETH(NamedTuple):
     """
         name: LOOMETH
         precision: 8
@@ -54145,8 +52993,7 @@ LOOMETH = LOOMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LPTBNB:
+class LPTBNB(NamedTuple):
     """
         name: LPTBNB
         precision: 8
@@ -54192,8 +53039,7 @@ LPTBNB = LPTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LPTBTC:
+class LPTBTC(NamedTuple):
     """
         name: LPTBTC
         precision: 8
@@ -54239,8 +53085,7 @@ LPTBTC = LPTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LPTBUSD:
+class LPTBUSD(NamedTuple):
     """
         name: LPTBUSD
         precision: 8
@@ -54286,8 +53131,7 @@ LPTBUSD = LPTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LPTUSDT:
+class LPTUSDT(NamedTuple):
     """
         name: LPTUSDT
         precision: 8
@@ -54333,8 +53177,7 @@ LPTUSDT = LPTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCBNB:
+class LRCBNB(NamedTuple):
     """
         name: LRCBNB
         precision: 8
@@ -54380,8 +53223,7 @@ LRCBNB = LRCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCBTC:
+class LRCBTC(NamedTuple):
     """
         name: LRCBTC
         precision: 8
@@ -54427,8 +53269,7 @@ LRCBTC = LRCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCBUSD:
+class LRCBUSD(NamedTuple):
     """
         name: LRCBUSD
         precision: 8
@@ -54474,8 +53315,7 @@ LRCBUSD = LRCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCETH:
+class LRCETH(NamedTuple):
     """
         name: LRCETH
         precision: 8
@@ -54521,8 +53361,7 @@ LRCETH = LRCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCTRY:
+class LRCTRY(NamedTuple):
     """
         name: LRCTRY
         precision: 8
@@ -54568,8 +53407,7 @@ LRCTRY = LRCTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRCUSDT:
+class LRCUSDT(NamedTuple):
     """
         name: LRCUSDT
         precision: 8
@@ -54615,8 +53453,7 @@ LRCUSDT = LRCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LSKBNB:
+class LSKBNB(NamedTuple):
     """
         name: LSKBNB
         precision: 8
@@ -54662,8 +53499,7 @@ LSKBNB = LSKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LSKBTC:
+class LSKBTC(NamedTuple):
     """
         name: LSKBTC
         precision: 8
@@ -54709,8 +53545,7 @@ LSKBTC = LSKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LSKBUSD:
+class LSKBUSD(NamedTuple):
     """
         name: LSKBUSD
         precision: 8
@@ -54756,8 +53591,7 @@ LSKBUSD = LSKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LSKETH:
+class LSKETH(NamedTuple):
     """
         name: LSKETH
         precision: 8
@@ -54803,8 +53637,7 @@ LSKETH = LSKETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LSKUSDT:
+class LSKUSDT(NamedTuple):
     """
         name: LSKUSDT
         precision: 8
@@ -54850,8 +53683,7 @@ LSKUSDT = LSKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCBNB:
+class LTCBNB(NamedTuple):
     """
         name: LTCBNB
         precision: 8
@@ -54897,8 +53729,7 @@ LTCBNB = LTCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCBRL:
+class LTCBRL(NamedTuple):
     """
         name: LTCBRL
         precision: 8
@@ -54944,8 +53775,7 @@ LTCBRL = LTCBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCBTC:
+class LTCBTC(NamedTuple):
     """
         name: LTCBTC
         precision: 8
@@ -54991,8 +53821,7 @@ LTCBTC = LTCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCBUSD:
+class LTCBUSD(NamedTuple):
     """
         name: LTCBUSD
         precision: 8
@@ -55038,8 +53867,7 @@ LTCBUSD = LTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCDOWNUSDT:
+class LTCDOWNUSDT(NamedTuple):
     """
         name: LTCDOWNUSDT
         precision: 8
@@ -55085,8 +53913,7 @@ LTCDOWNUSDT = LTCDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCETH:
+class LTCETH(NamedTuple):
     """
         name: LTCETH
         precision: 8
@@ -55132,8 +53959,7 @@ LTCETH = LTCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCEUR:
+class LTCEUR(NamedTuple):
     """
         name: LTCEUR
         precision: 8
@@ -55179,8 +54005,7 @@ LTCEUR = LTCEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCGBP:
+class LTCGBP(NamedTuple):
     """
         name: LTCGBP
         precision: 8
@@ -55226,8 +54051,7 @@ LTCGBP = LTCGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCNGN:
+class LTCNGN(NamedTuple):
     """
         name: LTCNGN
         precision: 8
@@ -55273,8 +54097,7 @@ LTCNGN = LTCNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCPAX:
+class LTCPAX(NamedTuple):
     """
         name: LTCPAX
         precision: 8
@@ -55320,8 +54143,7 @@ LTCPAX = LTCPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCRUB:
+class LTCRUB(NamedTuple):
     """
         name: LTCRUB
         precision: 8
@@ -55367,8 +54189,7 @@ LTCRUB = LTCRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCTUSD:
+class LTCTUSD(NamedTuple):
     """
         name: LTCTUSD
         precision: 8
@@ -55414,8 +54235,7 @@ LTCTUSD = LTCTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUAH:
+class LTCUAH(NamedTuple):
     """
         name: LTCUAH
         precision: 8
@@ -55461,8 +54281,7 @@ LTCUAH = LTCUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUPUSDT:
+class LTCUPUSDT(NamedTuple):
     """
         name: LTCUPUSDT
         precision: 8
@@ -55508,8 +54327,7 @@ LTCUPUSDT = LTCUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUSDC:
+class LTCUSDC(NamedTuple):
     """
         name: LTCUSDC
         precision: 8
@@ -55555,8 +54373,7 @@ LTCUSDC = LTCUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUSDT:
+class LTCUSDT(NamedTuple):
     """
         name: LTCUSDT
         precision: 8
@@ -55602,8 +54419,7 @@ LTCUSDT = LTCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTOBNB:
+class LTOBNB(NamedTuple):
     """
         name: LTOBNB
         precision: 8
@@ -55649,8 +54465,7 @@ LTOBNB = LTOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTOBTC:
+class LTOBTC(NamedTuple):
     """
         name: LTOBTC
         precision: 8
@@ -55696,8 +54511,7 @@ LTOBTC = LTOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTOBUSD:
+class LTOBUSD(NamedTuple):
     """
         name: LTOBUSD
         precision: 8
@@ -55743,8 +54557,7 @@ LTOBUSD = LTOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTOUSDT:
+class LTOUSDT(NamedTuple):
     """
         name: LTOUSDT
         precision: 8
@@ -55790,8 +54603,7 @@ LTOUSDT = LTOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAAUD:
+class LUNAAUD(NamedTuple):
     """
         name: LUNAAUD
         precision: 8
@@ -55837,8 +54649,7 @@ LUNAAUD = LUNAAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNABIDR:
+class LUNABIDR(NamedTuple):
     """
         name: LUNABIDR
         precision: 2
@@ -55884,8 +54695,7 @@ LUNABIDR = LUNABIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNABNB:
+class LUNABNB(NamedTuple):
     """
         name: LUNABNB
         precision: 8
@@ -55931,8 +54741,7 @@ LUNABNB = LUNABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNABRL:
+class LUNABRL(NamedTuple):
     """
         name: LUNABRL
         precision: 8
@@ -55978,8 +54787,7 @@ LUNABRL = LUNABRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNABTC:
+class LUNABTC(NamedTuple):
     """
         name: LUNABTC
         precision: 8
@@ -56025,8 +54833,7 @@ LUNABTC = LUNABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNABUSD:
+class LUNABUSD(NamedTuple):
     """
         name: LUNABUSD
         precision: 8
@@ -56072,8 +54879,7 @@ LUNABUSD = LUNABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAETH:
+class LUNAETH(NamedTuple):
     """
         name: LUNAETH
         precision: 8
@@ -56119,8 +54925,7 @@ LUNAETH = LUNAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAEUR:
+class LUNAEUR(NamedTuple):
     """
         name: LUNAEUR
         precision: 8
@@ -56166,8 +54971,7 @@ LUNAEUR = LUNAEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAGBP:
+class LUNAGBP(NamedTuple):
     """
         name: LUNAGBP
         precision: 8
@@ -56213,8 +55017,7 @@ LUNAGBP = LUNAGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNATRY:
+class LUNATRY(NamedTuple):
     """
         name: LUNATRY
         precision: 8
@@ -56260,8 +55063,7 @@ LUNATRY = LUNATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAUSDT:
+class LUNAUSDT(NamedTuple):
     """
         name: LUNAUSDT
         precision: 8
@@ -56307,8 +55109,7 @@ LUNAUSDT = LUNAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAUST:
+class LUNAUST(NamedTuple):
     """
         name: LUNAUST
         precision: 8
@@ -56354,8 +55155,7 @@ LUNAUST = LUNAUST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNBTC:
+class LUNBTC(NamedTuple):
     """
         name: LUNBTC
         precision: 8
@@ -56401,8 +55201,7 @@ LUNBTC = LUNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNCBUSD:
+class LUNCBUSD(NamedTuple):
     """
         name: LUNCBUSD
         precision: 8
@@ -56448,8 +55247,7 @@ LUNCBUSD = LUNCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNCUSDT:
+class LUNCUSDT(NamedTuple):
     """
         name: LUNCUSDT
         precision: 8
@@ -56495,8 +55293,7 @@ LUNCUSDT = LUNCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNETH:
+class LUNETH(NamedTuple):
     """
         name: LUNETH
         precision: 8
@@ -56542,8 +55339,7 @@ LUNETH = LUNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MAGICBTC:
+class MAGICBTC(NamedTuple):
     """
         name: MAGICBTC
         precision: 8
@@ -56589,8 +55385,7 @@ MAGICBTC = MAGICBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MAGICBUSD:
+class MAGICBUSD(NamedTuple):
     """
         name: MAGICBUSD
         precision: 8
@@ -56636,8 +55431,7 @@ MAGICBUSD = MAGICBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MAGICUSDT:
+class MAGICUSDT(NamedTuple):
     """
         name: MAGICUSDT
         precision: 8
@@ -56683,8 +55477,7 @@ MAGICUSDT = MAGICUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANABIDR:
+class MANABIDR(NamedTuple):
     """
         name: MANABIDR
         precision: 2
@@ -56730,8 +55523,7 @@ MANABIDR = MANABIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANABNB:
+class MANABNB(NamedTuple):
     """
         name: MANABNB
         precision: 8
@@ -56777,8 +55569,7 @@ MANABNB = MANABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANABRL:
+class MANABRL(NamedTuple):
     """
         name: MANABRL
         precision: 8
@@ -56824,8 +55615,7 @@ MANABRL = MANABRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANABTC:
+class MANABTC(NamedTuple):
     """
         name: MANABTC
         precision: 8
@@ -56871,8 +55661,7 @@ MANABTC = MANABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANABUSD:
+class MANABUSD(NamedTuple):
     """
         name: MANABUSD
         precision: 8
@@ -56918,8 +55707,7 @@ MANABUSD = MANABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANAETH:
+class MANAETH(NamedTuple):
     """
         name: MANAETH
         precision: 8
@@ -56965,8 +55753,7 @@ MANAETH = MANAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANATRY:
+class MANATRY(NamedTuple):
     """
         name: MANATRY
         precision: 8
@@ -57012,8 +55799,7 @@ MANATRY = MANATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANAUSDT:
+class MANAUSDT(NamedTuple):
     """
         name: MANAUSDT
         precision: 8
@@ -57059,8 +55845,7 @@ MANAUSDT = MANAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASKBNB:
+class MASKBNB(NamedTuple):
     """
         name: MASKBNB
         precision: 8
@@ -57106,8 +55891,7 @@ MASKBNB = MASKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASKBUSD:
+class MASKBUSD(NamedTuple):
     """
         name: MASKBUSD
         precision: 8
@@ -57153,8 +55937,7 @@ MASKBUSD = MASKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASKUSDT:
+class MASKUSDT(NamedTuple):
     """
         name: MASKUSDT
         precision: 8
@@ -57200,8 +55983,7 @@ MASKUSDT = MASKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICAUD:
+class MATICAUD(NamedTuple):
     """
         name: MATICAUD
         precision: 8
@@ -57247,8 +56029,7 @@ MATICAUD = MATICAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICBIDR:
+class MATICBIDR(NamedTuple):
     """
         name: MATICBIDR
         precision: 2
@@ -57294,8 +56075,7 @@ MATICBIDR = MATICBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICBNB:
+class MATICBNB(NamedTuple):
     """
         name: MATICBNB
         precision: 8
@@ -57341,8 +56121,7 @@ MATICBNB = MATICBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICBRL:
+class MATICBRL(NamedTuple):
     """
         name: MATICBRL
         precision: 8
@@ -57388,8 +56167,7 @@ MATICBRL = MATICBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICBTC:
+class MATICBTC(NamedTuple):
     """
         name: MATICBTC
         precision: 8
@@ -57435,8 +56213,7 @@ MATICBTC = MATICBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICBUSD:
+class MATICBUSD(NamedTuple):
     """
         name: MATICBUSD
         precision: 8
@@ -57482,8 +56259,7 @@ MATICBUSD = MATICBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICETH:
+class MATICETH(NamedTuple):
     """
         name: MATICETH
         precision: 8
@@ -57529,8 +56305,7 @@ MATICETH = MATICETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICEUR:
+class MATICEUR(NamedTuple):
     """
         name: MATICEUR
         precision: 8
@@ -57576,8 +56351,7 @@ MATICEUR = MATICEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICGBP:
+class MATICGBP(NamedTuple):
     """
         name: MATICGBP
         precision: 8
@@ -57623,8 +56397,7 @@ MATICGBP = MATICGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICRUB:
+class MATICRUB(NamedTuple):
     """
         name: MATICRUB
         precision: 8
@@ -57670,8 +56443,7 @@ MATICRUB = MATICRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICTRY:
+class MATICTRY(NamedTuple):
     """
         name: MATICTRY
         precision: 8
@@ -57717,8 +56489,7 @@ MATICTRY = MATICTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICUSDT:
+class MATICUSDT(NamedTuple):
     """
         name: MATICUSDT
         precision: 8
@@ -57764,8 +56535,7 @@ MATICUSDT = MATICUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBLBNB:
+class MBLBNB(NamedTuple):
     """
         name: MBLBNB
         precision: 8
@@ -57811,8 +56581,7 @@ MBLBNB = MBLBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBLBTC:
+class MBLBTC(NamedTuple):
     """
         name: MBLBTC
         precision: 8
@@ -57858,8 +56627,7 @@ MBLBTC = MBLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBLBUSD:
+class MBLBUSD(NamedTuple):
     """
         name: MBLBUSD
         precision: 8
@@ -57905,8 +56673,7 @@ MBLBUSD = MBLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBLUSDT:
+class MBLUSDT(NamedTuple):
     """
         name: MBLUSDT
         precision: 8
@@ -57952,8 +56719,7 @@ MBLUSDT = MBLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBOXBNB:
+class MBOXBNB(NamedTuple):
     """
         name: MBOXBNB
         precision: 8
@@ -57999,8 +56765,7 @@ MBOXBNB = MBOXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBOXBTC:
+class MBOXBTC(NamedTuple):
     """
         name: MBOXBTC
         precision: 8
@@ -58046,8 +56811,7 @@ MBOXBTC = MBOXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBOXBUSD:
+class MBOXBUSD(NamedTuple):
     """
         name: MBOXBUSD
         precision: 8
@@ -58093,8 +56857,7 @@ MBOXBUSD = MBOXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBOXTRY:
+class MBOXTRY(NamedTuple):
     """
         name: MBOXTRY
         precision: 8
@@ -58140,8 +56903,7 @@ MBOXTRY = MBOXTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MBOXUSDT:
+class MBOXUSDT(NamedTuple):
     """
         name: MBOXUSDT
         precision: 8
@@ -58187,8 +56949,7 @@ MBOXUSDT = MBOXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCBNB:
+class MCBNB(NamedTuple):
     """
         name: MCBNB
         precision: 8
@@ -58234,8 +56995,7 @@ MCBNB = MCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCBTC:
+class MCBTC(NamedTuple):
     """
         name: MCBTC
         precision: 8
@@ -58281,8 +57041,7 @@ MCBTC = MCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCBUSD:
+class MCBUSD(NamedTuple):
     """
         name: MCBUSD
         precision: 8
@@ -58328,8 +57087,7 @@ MCBUSD = MCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCOBNB:
+class MCOBNB(NamedTuple):
     """
         name: MCOBNB
         precision: 8
@@ -58375,8 +57133,7 @@ MCOBNB = MCOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCOBTC:
+class MCOBTC(NamedTuple):
     """
         name: MCOBTC
         precision: 8
@@ -58422,8 +57179,7 @@ MCOBTC = MCOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCOETH:
+class MCOETH(NamedTuple):
     """
         name: MCOETH
         precision: 8
@@ -58469,8 +57225,7 @@ MCOETH = MCOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCOUSDT:
+class MCOUSDT(NamedTuple):
     """
         name: MCOUSDT
         precision: 8
@@ -58516,8 +57271,7 @@ MCOUSDT = MCOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCUSDT:
+class MCUSDT(NamedTuple):
     """
         name: MCUSDT
         precision: 8
@@ -58563,8 +57317,7 @@ MCUSDT = MCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDABTC:
+class MDABTC(NamedTuple):
     """
         name: MDABTC
         precision: 8
@@ -58610,8 +57363,7 @@ MDABTC = MDABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDAETH:
+class MDAETH(NamedTuple):
     """
         name: MDAETH
         precision: 8
@@ -58657,8 +57409,7 @@ MDAETH = MDAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDTBNB:
+class MDTBNB(NamedTuple):
     """
         name: MDTBNB
         precision: 8
@@ -58704,8 +57455,7 @@ MDTBNB = MDTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDTBTC:
+class MDTBTC(NamedTuple):
     """
         name: MDTBTC
         precision: 8
@@ -58751,8 +57501,7 @@ MDTBTC = MDTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDTBUSD:
+class MDTBUSD(NamedTuple):
     """
         name: MDTBUSD
         precision: 8
@@ -58798,8 +57547,7 @@ MDTBUSD = MDTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDTUSDT:
+class MDTUSDT(NamedTuple):
     """
         name: MDTUSDT
         precision: 8
@@ -58845,8 +57593,7 @@ MDTUSDT = MDTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDXBNB:
+class MDXBNB(NamedTuple):
     """
         name: MDXBNB
         precision: 8
@@ -58892,8 +57639,7 @@ MDXBNB = MDXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDXBTC:
+class MDXBTC(NamedTuple):
     """
         name: MDXBTC
         precision: 8
@@ -58939,8 +57685,7 @@ MDXBTC = MDXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDXBUSD:
+class MDXBUSD(NamedTuple):
     """
         name: MDXBUSD
         precision: 8
@@ -58986,8 +57731,7 @@ MDXBUSD = MDXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDXUSDT:
+class MDXUSDT(NamedTuple):
     """
         name: MDXUSDT
         precision: 8
@@ -59033,8 +57777,7 @@ MDXUSDT = MDXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MFTBNB:
+class MFTBNB(NamedTuple):
     """
         name: MFTBNB
         precision: 8
@@ -59080,8 +57823,7 @@ MFTBNB = MFTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MFTBTC:
+class MFTBTC(NamedTuple):
     """
         name: MFTBTC
         precision: 8
@@ -59127,8 +57869,7 @@ MFTBTC = MFTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MFTETH:
+class MFTETH(NamedTuple):
     """
         name: MFTETH
         precision: 8
@@ -59174,8 +57915,7 @@ MFTETH = MFTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MFTUSDT:
+class MFTUSDT(NamedTuple):
     """
         name: MFTUSDT
         precision: 8
@@ -59221,8 +57961,7 @@ MFTUSDT = MFTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINABNB:
+class MINABNB(NamedTuple):
     """
         name: MINABNB
         precision: 8
@@ -59268,8 +58007,7 @@ MINABNB = MINABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINABTC:
+class MINABTC(NamedTuple):
     """
         name: MINABTC
         precision: 8
@@ -59315,8 +58053,7 @@ MINABTC = MINABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINABUSD:
+class MINABUSD(NamedTuple):
     """
         name: MINABUSD
         precision: 8
@@ -59362,8 +58099,7 @@ MINABUSD = MINABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINATRY:
+class MINATRY(NamedTuple):
     """
         name: MINATRY
         precision: 8
@@ -59409,8 +58145,7 @@ MINATRY = MINATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINAUSDT:
+class MINAUSDT(NamedTuple):
     """
         name: MINAUSDT
         precision: 8
@@ -59456,8 +58191,7 @@ MINAUSDT = MINAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIRBTC:
+class MIRBTC(NamedTuple):
     """
         name: MIRBTC
         precision: 8
@@ -59503,8 +58237,7 @@ MIRBTC = MIRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIRBUSD:
+class MIRBUSD(NamedTuple):
     """
         name: MIRBUSD
         precision: 8
@@ -59550,8 +58283,7 @@ MIRBUSD = MIRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIRUSDT:
+class MIRUSDT(NamedTuple):
     """
         name: MIRUSDT
         precision: 8
@@ -59597,8 +58329,7 @@ MIRUSDT = MIRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MITHBNB:
+class MITHBNB(NamedTuple):
     """
         name: MITHBNB
         precision: 8
@@ -59644,8 +58375,7 @@ MITHBNB = MITHBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MITHBTC:
+class MITHBTC(NamedTuple):
     """
         name: MITHBTC
         precision: 8
@@ -59691,8 +58421,7 @@ MITHBTC = MITHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MITHUSDT:
+class MITHUSDT(NamedTuple):
     """
         name: MITHUSDT
         precision: 8
@@ -59738,8 +58467,7 @@ MITHUSDT = MITHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKRBNB:
+class MKRBNB(NamedTuple):
     """
         name: MKRBNB
         precision: 8
@@ -59785,8 +58513,7 @@ MKRBNB = MKRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKRBTC:
+class MKRBTC(NamedTuple):
     """
         name: MKRBTC
         precision: 8
@@ -59832,8 +58559,7 @@ MKRBTC = MKRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKRBUSD:
+class MKRBUSD(NamedTuple):
     """
         name: MKRBUSD
         precision: 8
@@ -59879,8 +58605,7 @@ MKRBUSD = MKRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKRUSDT:
+class MKRUSDT(NamedTuple):
     """
         name: MKRUSDT
         precision: 8
@@ -59926,8 +58651,7 @@ MKRUSDT = MKRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MLNBNB:
+class MLNBNB(NamedTuple):
     """
         name: MLNBNB
         precision: 8
@@ -59973,8 +58697,7 @@ MLNBNB = MLNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MLNBTC:
+class MLNBTC(NamedTuple):
     """
         name: MLNBTC
         precision: 8
@@ -60020,8 +58743,7 @@ MLNBTC = MLNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MLNBUSD:
+class MLNBUSD(NamedTuple):
     """
         name: MLNBUSD
         precision: 8
@@ -60067,8 +58789,7 @@ MLNBUSD = MLNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MLNUSDT:
+class MLNUSDT(NamedTuple):
     """
         name: MLNUSDT
         precision: 8
@@ -60114,8 +58835,7 @@ MLNUSDT = MLNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOBBTC:
+class MOBBTC(NamedTuple):
     """
         name: MOBBTC
         precision: 8
@@ -60161,8 +58881,7 @@ MOBBTC = MOBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOBBUSD:
+class MOBBUSD(NamedTuple):
     """
         name: MOBBUSD
         precision: 8
@@ -60208,8 +58927,7 @@ MOBBUSD = MOBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOBUSDT:
+class MOBUSDT(NamedTuple):
     """
         name: MOBUSDT
         precision: 8
@@ -60255,8 +58973,7 @@ MOBUSDT = MOBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MODBTC:
+class MODBTC(NamedTuple):
     """
         name: MODBTC
         precision: 8
@@ -60302,8 +59019,7 @@ MODBTC = MODBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MODETH:
+class MODETH(NamedTuple):
     """
         name: MODETH
         precision: 8
@@ -60349,8 +59065,7 @@ MODETH = MODETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOVRBNB:
+class MOVRBNB(NamedTuple):
     """
         name: MOVRBNB
         precision: 8
@@ -60396,8 +59111,7 @@ MOVRBNB = MOVRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOVRBTC:
+class MOVRBTC(NamedTuple):
     """
         name: MOVRBTC
         precision: 8
@@ -60443,8 +59157,7 @@ MOVRBTC = MOVRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOVRBUSD:
+class MOVRBUSD(NamedTuple):
     """
         name: MOVRBUSD
         precision: 8
@@ -60490,8 +59203,7 @@ MOVRBUSD = MOVRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MOVRUSDT:
+class MOVRUSDT(NamedTuple):
     """
         name: MOVRUSDT
         precision: 8
@@ -60537,8 +59249,7 @@ MOVRUSDT = MOVRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTHBTC:
+class MTHBTC(NamedTuple):
     """
         name: MTHBTC
         precision: 8
@@ -60584,8 +59295,7 @@ MTHBTC = MTHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTHETH:
+class MTHETH(NamedTuple):
     """
         name: MTHETH
         precision: 8
@@ -60631,8 +59341,7 @@ MTHETH = MTHETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTLBTC:
+class MTLBTC(NamedTuple):
     """
         name: MTLBTC
         precision: 8
@@ -60678,8 +59387,7 @@ MTLBTC = MTLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTLBUSD:
+class MTLBUSD(NamedTuple):
     """
         name: MTLBUSD
         precision: 8
@@ -60725,8 +59433,7 @@ MTLBUSD = MTLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTLETH:
+class MTLETH(NamedTuple):
     """
         name: MTLETH
         precision: 8
@@ -60772,8 +59479,7 @@ MTLETH = MTLETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTLUSDT:
+class MTLUSDT(NamedTuple):
     """
         name: MTLUSDT
         precision: 8
@@ -60819,8 +59525,7 @@ MTLUSDT = MTLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MULTIBTC:
+class MULTIBTC(NamedTuple):
     """
         name: MULTIBTC
         precision: 8
@@ -60866,8 +59571,7 @@ MULTIBTC = MULTIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MULTIBUSD:
+class MULTIBUSD(NamedTuple):
     """
         name: MULTIBUSD
         precision: 8
@@ -60913,8 +59617,7 @@ MULTIBUSD = MULTIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MULTIUSDT:
+class MULTIUSDT(NamedTuple):
     """
         name: MULTIUSDT
         precision: 8
@@ -60960,8 +59663,7 @@ MULTIUSDT = MULTIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NANOBNB:
+class NANOBNB(NamedTuple):
     """
         name: NANOBNB
         precision: 8
@@ -61007,8 +59709,7 @@ NANOBNB = NANOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NANOBTC:
+class NANOBTC(NamedTuple):
     """
         name: NANOBTC
         precision: 8
@@ -61054,8 +59755,7 @@ NANOBTC = NANOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NANOBUSD:
+class NANOBUSD(NamedTuple):
     """
         name: NANOBUSD
         precision: 8
@@ -61101,8 +59801,7 @@ NANOBUSD = NANOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NANOETH:
+class NANOETH(NamedTuple):
     """
         name: NANOETH
         precision: 8
@@ -61148,8 +59847,7 @@ NANOETH = NANOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NANOUSDT:
+class NANOUSDT(NamedTuple):
     """
         name: NANOUSDT
         precision: 8
@@ -61195,8 +59893,7 @@ NANOUSDT = NANOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NASBNB:
+class NASBNB(NamedTuple):
     """
         name: NASBNB
         precision: 8
@@ -61242,8 +59939,7 @@ NASBNB = NASBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NASBTC:
+class NASBTC(NamedTuple):
     """
         name: NASBTC
         precision: 8
@@ -61289,8 +59985,7 @@ NASBTC = NASBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NASETH:
+class NASETH(NamedTuple):
     """
         name: NASETH
         precision: 8
@@ -61336,8 +60031,7 @@ NASETH = NASETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NAVBNB:
+class NAVBNB(NamedTuple):
     """
         name: NAVBNB
         precision: 8
@@ -61383,8 +60077,7 @@ NAVBNB = NAVBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NAVBTC:
+class NAVBTC(NamedTuple):
     """
         name: NAVBTC
         precision: 8
@@ -61430,8 +60123,7 @@ NAVBTC = NAVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NAVETH:
+class NAVETH(NamedTuple):
     """
         name: NAVETH
         precision: 8
@@ -61477,8 +60169,7 @@ NAVETH = NAVETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NBSBTC:
+class NBSBTC(NamedTuple):
     """
         name: NBSBTC
         precision: 8
@@ -61524,8 +60215,7 @@ NBSBTC = NBSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NBSUSDT:
+class NBSUSDT(NamedTuple):
     """
         name: NBSUSDT
         precision: 8
@@ -61571,8 +60261,7 @@ NBSUSDT = NBSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NBTBIDR:
+class NBTBIDR(NamedTuple):
     """
         name: NBTBIDR
         precision: 2
@@ -61618,8 +60307,7 @@ NBTBIDR = NBTBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NBTUSDT:
+class NBTUSDT(NamedTuple):
     """
         name: NBTUSDT
         precision: 8
@@ -61665,8 +60353,7 @@ NBTUSDT = NBTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCASHBNB:
+class NCASHBNB(NamedTuple):
     """
         name: NCASHBNB
         precision: 8
@@ -61712,8 +60399,7 @@ NCASHBNB = NCASHBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCASHBTC:
+class NCASHBTC(NamedTuple):
     """
         name: NCASHBTC
         precision: 8
@@ -61759,8 +60445,7 @@ NCASHBTC = NCASHBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCASHETH:
+class NCASHETH(NamedTuple):
     """
         name: NCASHETH
         precision: 8
@@ -61806,8 +60491,7 @@ NCASHETH = NCASHETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARBNB:
+class NEARBNB(NamedTuple):
     """
         name: NEARBNB
         precision: 8
@@ -61853,8 +60537,7 @@ NEARBNB = NEARBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARBTC:
+class NEARBTC(NamedTuple):
     """
         name: NEARBTC
         precision: 8
@@ -61900,8 +60583,7 @@ NEARBTC = NEARBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARBUSD:
+class NEARBUSD(NamedTuple):
     """
         name: NEARBUSD
         precision: 8
@@ -61947,8 +60629,7 @@ NEARBUSD = NEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARETH:
+class NEARETH(NamedTuple):
     """
         name: NEARETH
         precision: 8
@@ -61994,8 +60675,7 @@ NEARETH = NEARETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEAREUR:
+class NEAREUR(NamedTuple):
     """
         name: NEAREUR
         precision: 8
@@ -62041,8 +60721,7 @@ NEAREUR = NEAREUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARRUB:
+class NEARRUB(NamedTuple):
     """
         name: NEARRUB
         precision: 8
@@ -62088,8 +60767,7 @@ NEARRUB = NEARRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARTRY:
+class NEARTRY(NamedTuple):
     """
         name: NEARTRY
         precision: 8
@@ -62135,8 +60813,7 @@ NEARTRY = NEARTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARUSDT:
+class NEARUSDT(NamedTuple):
     """
         name: NEARUSDT
         precision: 8
@@ -62182,8 +60859,7 @@ NEARUSDT = NEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEBLBNB:
+class NEBLBNB(NamedTuple):
     """
         name: NEBLBNB
         precision: 8
@@ -62229,8 +60905,7 @@ NEBLBNB = NEBLBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEBLBTC:
+class NEBLBTC(NamedTuple):
     """
         name: NEBLBTC
         precision: 8
@@ -62276,8 +60951,7 @@ NEBLBTC = NEBLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEBLBUSD:
+class NEBLBUSD(NamedTuple):
     """
         name: NEBLBUSD
         precision: 8
@@ -62323,8 +60997,7 @@ NEBLBUSD = NEBLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEBLUSDT:
+class NEBLUSDT(NamedTuple):
     """
         name: NEBLUSDT
         precision: 8
@@ -62370,8 +61043,7 @@ NEBLUSDT = NEBLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOBNB:
+class NEOBNB(NamedTuple):
     """
         name: NEOBNB
         precision: 8
@@ -62417,8 +61089,7 @@ NEOBNB = NEOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOBTC:
+class NEOBTC(NamedTuple):
     """
         name: NEOBTC
         precision: 8
@@ -62464,8 +61135,7 @@ NEOBTC = NEOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOBUSD:
+class NEOBUSD(NamedTuple):
     """
         name: NEOBUSD
         precision: 8
@@ -62511,8 +61181,7 @@ NEOBUSD = NEOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOETH:
+class NEOETH(NamedTuple):
     """
         name: NEOETH
         precision: 8
@@ -62558,8 +61227,7 @@ NEOETH = NEOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOPAX:
+class NEOPAX(NamedTuple):
     """
         name: NEOPAX
         precision: 8
@@ -62605,8 +61273,7 @@ NEOPAX = NEOPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEORUB:
+class NEORUB(NamedTuple):
     """
         name: NEORUB
         precision: 8
@@ -62652,8 +61319,7 @@ NEORUB = NEORUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOTRY:
+class NEOTRY(NamedTuple):
     """
         name: NEOTRY
         precision: 8
@@ -62699,8 +61365,7 @@ NEOTRY = NEOTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOTUSD:
+class NEOTUSD(NamedTuple):
     """
         name: NEOTUSD
         precision: 8
@@ -62746,8 +61411,7 @@ NEOTUSD = NEOTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOUSDC:
+class NEOUSDC(NamedTuple):
     """
         name: NEOUSDC
         precision: 8
@@ -62793,8 +61457,7 @@ NEOUSDC = NEOUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEOUSDT:
+class NEOUSDT(NamedTuple):
     """
         name: NEOUSDT
         precision: 8
@@ -62840,8 +61503,7 @@ NEOUSDT = NEOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEXOBTC:
+class NEXOBTC(NamedTuple):
     """
         name: NEXOBTC
         precision: 8
@@ -62887,8 +61549,7 @@ NEXOBTC = NEXOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEXOBUSD:
+class NEXOBUSD(NamedTuple):
     """
         name: NEXOBUSD
         precision: 8
@@ -62934,8 +61595,7 @@ NEXOBUSD = NEXOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEXOUSDT:
+class NEXOUSDT(NamedTuple):
     """
         name: NEXOUSDT
         precision: 8
@@ -62981,8 +61641,7 @@ NEXOUSDT = NEXOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKNBNB:
+class NKNBNB(NamedTuple):
     """
         name: NKNBNB
         precision: 8
@@ -63028,8 +61687,7 @@ NKNBNB = NKNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKNBTC:
+class NKNBTC(NamedTuple):
     """
         name: NKNBTC
         precision: 8
@@ -63075,8 +61733,7 @@ NKNBTC = NKNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKNBUSD:
+class NKNBUSD(NamedTuple):
     """
         name: NKNBUSD
         precision: 8
@@ -63122,8 +61779,7 @@ NKNBUSD = NKNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKNUSDT:
+class NKNUSDT(NamedTuple):
     """
         name: NKNUSDT
         precision: 8
@@ -63169,8 +61825,7 @@ NKNUSDT = NKNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMRBTC:
+class NMRBTC(NamedTuple):
     """
         name: NMRBTC
         precision: 8
@@ -63216,8 +61871,7 @@ NMRBTC = NMRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMRBUSD:
+class NMRBUSD(NamedTuple):
     """
         name: NMRBUSD
         precision: 8
@@ -63263,8 +61917,7 @@ NMRBUSD = NMRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMRUSDT:
+class NMRUSDT(NamedTuple):
     """
         name: NMRUSDT
         precision: 8
@@ -63310,8 +61963,7 @@ NMRUSDT = NMRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NPXSBTC:
+class NPXSBTC(NamedTuple):
     """
         name: NPXSBTC
         precision: 8
@@ -63357,8 +62009,7 @@ NPXSBTC = NPXSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NPXSETH:
+class NPXSETH(NamedTuple):
     """
         name: NPXSETH
         precision: 8
@@ -63404,8 +62055,7 @@ NPXSETH = NPXSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NPXSUSDC:
+class NPXSUSDC(NamedTuple):
     """
         name: NPXSUSDC
         precision: 8
@@ -63451,8 +62101,7 @@ NPXSUSDC = NPXSUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NPXSUSDT:
+class NPXSUSDT(NamedTuple):
     """
         name: NPXSUSDT
         precision: 8
@@ -63498,8 +62147,7 @@ NPXSUSDT = NPXSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NUAUD:
+class NUAUD(NamedTuple):
     """
         name: NUAUD
         precision: 8
@@ -63545,8 +62193,7 @@ NUAUD = NUAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NUBNB:
+class NUBNB(NamedTuple):
     """
         name: NUBNB
         precision: 8
@@ -63592,8 +62239,7 @@ NUBNB = NUBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NUBTC:
+class NUBTC(NamedTuple):
     """
         name: NUBTC
         precision: 8
@@ -63639,8 +62285,7 @@ NUBTC = NUBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NUBUSD:
+class NUBUSD(NamedTuple):
     """
         name: NUBUSD
         precision: 8
@@ -63686,8 +62331,7 @@ NUBUSD = NUBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NULSBNB:
+class NULSBNB(NamedTuple):
     """
         name: NULSBNB
         precision: 8
@@ -63733,8 +62377,7 @@ NULSBNB = NULSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NULSBTC:
+class NULSBTC(NamedTuple):
     """
         name: NULSBTC
         precision: 8
@@ -63780,8 +62423,7 @@ NULSBTC = NULSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NULSBUSD:
+class NULSBUSD(NamedTuple):
     """
         name: NULSBUSD
         precision: 8
@@ -63827,8 +62469,7 @@ NULSBUSD = NULSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NULSETH:
+class NULSETH(NamedTuple):
     """
         name: NULSETH
         precision: 8
@@ -63874,8 +62515,7 @@ NULSETH = NULSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NULSUSDT:
+class NULSUSDT(NamedTuple):
     """
         name: NULSUSDT
         precision: 8
@@ -63921,8 +62561,7 @@ NULSUSDT = NULSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NURUB:
+class NURUB(NamedTuple):
     """
         name: NURUB
         precision: 8
@@ -63968,8 +62607,7 @@ NURUB = NURUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NUUSDT:
+class NUUSDT(NamedTuple):
     """
         name: NUUSDT
         precision: 8
@@ -64015,8 +62653,7 @@ NUUSDT = NUUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NXSBNB:
+class NXSBNB(NamedTuple):
     """
         name: NXSBNB
         precision: 8
@@ -64062,8 +62699,7 @@ NXSBNB = NXSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NXSBTC:
+class NXSBTC(NamedTuple):
     """
         name: NXSBTC
         precision: 8
@@ -64109,8 +62745,7 @@ NXSBTC = NXSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NXSETH:
+class NXSETH(NamedTuple):
     """
         name: NXSETH
         precision: 8
@@ -64156,8 +62791,7 @@ NXSETH = NXSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OAXBTC:
+class OAXBTC(NamedTuple):
     """
         name: OAXBTC
         precision: 8
@@ -64203,8 +62837,7 @@ OAXBTC = OAXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OAXETH:
+class OAXETH(NamedTuple):
     """
         name: OAXETH
         precision: 8
@@ -64250,8 +62883,7 @@ OAXETH = OAXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OCEANBNB:
+class OCEANBNB(NamedTuple):
     """
         name: OCEANBNB
         precision: 8
@@ -64297,8 +62929,7 @@ OCEANBNB = OCEANBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OCEANBTC:
+class OCEANBTC(NamedTuple):
     """
         name: OCEANBTC
         precision: 8
@@ -64344,8 +62975,7 @@ OCEANBTC = OCEANBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OCEANBUSD:
+class OCEANBUSD(NamedTuple):
     """
         name: OCEANBUSD
         precision: 8
@@ -64391,8 +63021,7 @@ OCEANBUSD = OCEANBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OCEANUSDT:
+class OCEANUSDT(NamedTuple):
     """
         name: OCEANUSDT
         precision: 8
@@ -64438,8 +63067,7 @@ OCEANUSDT = OCEANUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGBTC:
+class OGBTC(NamedTuple):
     """
         name: OGBTC
         precision: 8
@@ -64485,8 +63113,7 @@ OGBTC = OGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGBUSD:
+class OGBUSD(NamedTuple):
     """
         name: OGBUSD
         precision: 8
@@ -64532,8 +63159,7 @@ OGBUSD = OGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGNBNB:
+class OGNBNB(NamedTuple):
     """
         name: OGNBNB
         precision: 8
@@ -64579,8 +63205,7 @@ OGNBNB = OGNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGNBTC:
+class OGNBTC(NamedTuple):
     """
         name: OGNBTC
         precision: 8
@@ -64626,8 +63251,7 @@ OGNBTC = OGNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGNBUSD:
+class OGNBUSD(NamedTuple):
     """
         name: OGNBUSD
         precision: 8
@@ -64673,8 +63297,7 @@ OGNBUSD = OGNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGNUSDT:
+class OGNUSDT(NamedTuple):
     """
         name: OGNUSDT
         precision: 8
@@ -64720,8 +63343,7 @@ OGNUSDT = OGNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGUSDT:
+class OGUSDT(NamedTuple):
     """
         name: OGUSDT
         precision: 8
@@ -64767,8 +63389,7 @@ OGUSDT = OGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMBTC:
+class OMBTC(NamedTuple):
     """
         name: OMBTC
         precision: 8
@@ -64814,8 +63435,7 @@ OMBTC = OMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMBUSD:
+class OMBUSD(NamedTuple):
     """
         name: OMBUSD
         precision: 8
@@ -64861,8 +63481,7 @@ OMBUSD = OMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMGBNB:
+class OMGBNB(NamedTuple):
     """
         name: OMGBNB
         precision: 8
@@ -64908,8 +63527,7 @@ OMGBNB = OMGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMGBTC:
+class OMGBTC(NamedTuple):
     """
         name: OMGBTC
         precision: 8
@@ -64955,8 +63573,7 @@ OMGBTC = OMGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMGBUSD:
+class OMGBUSD(NamedTuple):
     """
         name: OMGBUSD
         precision: 8
@@ -65002,8 +63619,7 @@ OMGBUSD = OMGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMGETH:
+class OMGETH(NamedTuple):
     """
         name: OMGETH
         precision: 8
@@ -65049,8 +63665,7 @@ OMGETH = OMGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMGUSDT:
+class OMGUSDT(NamedTuple):
     """
         name: OMGUSDT
         precision: 8
@@ -65096,8 +63711,7 @@ OMGUSDT = OMGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMUSDT:
+class OMUSDT(NamedTuple):
     """
         name: OMUSDT
         precision: 8
@@ -65143,8 +63757,7 @@ OMUSDT = OMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEBIDR:
+class ONEBIDR(NamedTuple):
     """
         name: ONEBIDR
         precision: 2
@@ -65190,8 +63803,7 @@ ONEBIDR = ONEBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEBNB:
+class ONEBNB(NamedTuple):
     """
         name: ONEBNB
         precision: 8
@@ -65237,8 +63849,7 @@ ONEBNB = ONEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEBTC:
+class ONEBTC(NamedTuple):
     """
         name: ONEBTC
         precision: 8
@@ -65284,8 +63895,7 @@ ONEBTC = ONEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEBUSD:
+class ONEBUSD(NamedTuple):
     """
         name: ONEBUSD
         precision: 8
@@ -65331,8 +63941,7 @@ ONEBUSD = ONEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEETH:
+class ONEETH(NamedTuple):
     """
         name: ONEETH
         precision: 8
@@ -65378,8 +63987,7 @@ ONEETH = ONEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEPAX:
+class ONEPAX(NamedTuple):
     """
         name: ONEPAX
         precision: 8
@@ -65425,8 +64033,7 @@ ONEPAX = ONEPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONETRY:
+class ONETRY(NamedTuple):
     """
         name: ONETRY
         precision: 8
@@ -65472,8 +64079,7 @@ ONETRY = ONETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONETUSD:
+class ONETUSD(NamedTuple):
     """
         name: ONETUSD
         precision: 8
@@ -65519,8 +64125,7 @@ ONETUSD = ONETUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEUSDC:
+class ONEUSDC(NamedTuple):
     """
         name: ONEUSDC
         precision: 8
@@ -65566,8 +64171,7 @@ ONEUSDC = ONEUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEUSDT:
+class ONEUSDT(NamedTuple):
     """
         name: ONEUSDT
         precision: 8
@@ -65613,8 +64217,7 @@ ONEUSDT = ONEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONGBNB:
+class ONGBNB(NamedTuple):
     """
         name: ONGBNB
         precision: 8
@@ -65660,8 +64263,7 @@ ONGBNB = ONGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONGBTC:
+class ONGBTC(NamedTuple):
     """
         name: ONGBTC
         precision: 8
@@ -65707,8 +64309,7 @@ ONGBTC = ONGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONGUSDT:
+class ONGUSDT(NamedTuple):
     """
         name: ONGUSDT
         precision: 8
@@ -65754,8 +64355,7 @@ ONGUSDT = ONGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTBNB:
+class ONTBNB(NamedTuple):
     """
         name: ONTBNB
         precision: 8
@@ -65801,8 +64401,7 @@ ONTBNB = ONTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTBTC:
+class ONTBTC(NamedTuple):
     """
         name: ONTBTC
         precision: 8
@@ -65848,8 +64447,7 @@ ONTBTC = ONTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTBUSD:
+class ONTBUSD(NamedTuple):
     """
         name: ONTBUSD
         precision: 8
@@ -65895,8 +64493,7 @@ ONTBUSD = ONTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTETH:
+class ONTETH(NamedTuple):
     """
         name: ONTETH
         precision: 8
@@ -65942,8 +64539,7 @@ ONTETH = ONTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTPAX:
+class ONTPAX(NamedTuple):
     """
         name: ONTPAX
         precision: 8
@@ -65989,8 +64585,7 @@ ONTPAX = ONTPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTTRY:
+class ONTTRY(NamedTuple):
     """
         name: ONTTRY
         precision: 8
@@ -66036,8 +64631,7 @@ ONTTRY = ONTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTUSDC:
+class ONTUSDC(NamedTuple):
     """
         name: ONTUSDC
         precision: 8
@@ -66083,8 +64677,7 @@ ONTUSDC = ONTUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONTUSDT:
+class ONTUSDT(NamedTuple):
     """
         name: ONTUSDT
         precision: 8
@@ -66130,8 +64723,7 @@ ONTUSDT = ONTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OOKIBNB:
+class OOKIBNB(NamedTuple):
     """
         name: OOKIBNB
         precision: 8
@@ -66177,8 +64769,7 @@ OOKIBNB = OOKIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OOKIBUSD:
+class OOKIBUSD(NamedTuple):
     """
         name: OOKIBUSD
         precision: 8
@@ -66224,8 +64815,7 @@ OOKIBUSD = OOKIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OOKIETH:
+class OOKIETH(NamedTuple):
     """
         name: OOKIETH
         precision: 8
@@ -66271,8 +64861,7 @@ OOKIETH = OOKIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OOKIUSDT:
+class OOKIUSDT(NamedTuple):
     """
         name: OOKIUSDT
         precision: 8
@@ -66318,8 +64907,7 @@ OOKIUSDT = OOKIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPBNB:
+class OPBNB(NamedTuple):
     """
         name: OPBNB
         precision: 8
@@ -66365,8 +64953,7 @@ OPBNB = OPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPBTC:
+class OPBTC(NamedTuple):
     """
         name: OPBTC
         precision: 8
@@ -66412,8 +64999,7 @@ OPBTC = OPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPBUSD:
+class OPBUSD(NamedTuple):
     """
         name: OPBUSD
         precision: 8
@@ -66459,8 +65045,7 @@ OPBUSD = OPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPETH:
+class OPETH(NamedTuple):
     """
         name: OPETH
         precision: 8
@@ -66506,8 +65091,7 @@ OPETH = OPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPEUR:
+class OPEUR(NamedTuple):
     """
         name: OPEUR
         precision: 8
@@ -66553,8 +65137,7 @@ OPEUR = OPEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OPUSDT:
+class OPUSDT(NamedTuple):
     """
         name: OPUSDT
         precision: 8
@@ -66600,8 +65183,7 @@ OPUSDT = OPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORNBTC:
+class ORNBTC(NamedTuple):
     """
         name: ORNBTC
         precision: 8
@@ -66647,8 +65229,7 @@ ORNBTC = ORNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORNBUSD:
+class ORNBUSD(NamedTuple):
     """
         name: ORNBUSD
         precision: 8
@@ -66694,8 +65275,7 @@ ORNBUSD = ORNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORNUSDT:
+class ORNUSDT(NamedTuple):
     """
         name: ORNUSDT
         precision: 8
@@ -66741,8 +65321,7 @@ ORNUSDT = ORNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSMOBTC:
+class OSMOBTC(NamedTuple):
     """
         name: OSMOBTC
         precision: 8
@@ -66788,8 +65367,7 @@ OSMOBTC = OSMOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSMOBUSD:
+class OSMOBUSD(NamedTuple):
     """
         name: OSMOBUSD
         precision: 8
@@ -66835,8 +65413,7 @@ OSMOBUSD = OSMOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSMOUSDT:
+class OSMOUSDT(NamedTuple):
     """
         name: OSMOUSDT
         precision: 8
@@ -66882,8 +65459,7 @@ OSMOUSDT = OSMOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSTBNB:
+class OSTBNB(NamedTuple):
     """
         name: OSTBNB
         precision: 8
@@ -66929,8 +65505,7 @@ OSTBNB = OSTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSTBTC:
+class OSTBTC(NamedTuple):
     """
         name: OSTBTC
         precision: 8
@@ -66976,8 +65551,7 @@ OSTBTC = OSTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OSTETH:
+class OSTETH(NamedTuple):
     """
         name: OSTETH
         precision: 8
@@ -67023,8 +65597,7 @@ OSTETH = OSTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OXTBTC:
+class OXTBTC(NamedTuple):
     """
         name: OXTBTC
         precision: 8
@@ -67070,8 +65643,7 @@ OXTBTC = OXTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OXTBUSD:
+class OXTBUSD(NamedTuple):
     """
         name: OXTBUSD
         precision: 8
@@ -67117,8 +65689,7 @@ OXTBUSD = OXTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OXTUSDT:
+class OXTUSDT(NamedTuple):
     """
         name: OXTUSDT
         precision: 8
@@ -67164,8 +65735,7 @@ OXTUSDT = OXTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXBNB:
+class PAXBNB(NamedTuple):
     """
         name: PAXBNB
         precision: 8
@@ -67211,8 +65781,7 @@ PAXBNB = PAXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXBTC:
+class PAXBTC(NamedTuple):
     """
         name: PAXBTC
         precision: 8
@@ -67258,8 +65827,7 @@ PAXBTC = PAXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXBUSD:
+class PAXBUSD(NamedTuple):
     """
         name: PAXBUSD
         precision: 8
@@ -67305,8 +65873,7 @@ PAXBUSD = PAXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXETH:
+class PAXETH(NamedTuple):
     """
         name: PAXETH
         precision: 8
@@ -67352,8 +65919,7 @@ PAXETH = PAXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXGBNB:
+class PAXGBNB(NamedTuple):
     """
         name: PAXGBNB
         precision: 8
@@ -67399,8 +65965,7 @@ PAXGBNB = PAXGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXGBTC:
+class PAXGBTC(NamedTuple):
     """
         name: PAXGBTC
         precision: 8
@@ -67446,8 +66011,7 @@ PAXGBTC = PAXGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXGBUSD:
+class PAXGBUSD(NamedTuple):
     """
         name: PAXGBUSD
         precision: 8
@@ -67493,8 +66057,7 @@ PAXGBUSD = PAXGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXGUSDT:
+class PAXGUSDT(NamedTuple):
     """
         name: PAXGUSDT
         precision: 8
@@ -67540,8 +66103,7 @@ PAXGUSDT = PAXGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXTUSD:
+class PAXTUSD(NamedTuple):
     """
         name: PAXTUSD
         precision: 8
@@ -67587,8 +66149,7 @@ PAXTUSD = PAXTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAXUSDT:
+class PAXUSDT(NamedTuple):
     """
         name: PAXUSDT
         precision: 8
@@ -67634,8 +66195,7 @@ PAXUSDT = PAXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PEOPLEBNB:
+class PEOPLEBNB(NamedTuple):
     """
         name: PEOPLEBNB
         precision: 8
@@ -67681,8 +66241,7 @@ PEOPLEBNB = PEOPLEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PEOPLEBTC:
+class PEOPLEBTC(NamedTuple):
     """
         name: PEOPLEBTC
         precision: 8
@@ -67728,8 +66287,7 @@ PEOPLEBTC = PEOPLEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PEOPLEBUSD:
+class PEOPLEBUSD(NamedTuple):
     """
         name: PEOPLEBUSD
         precision: 8
@@ -67775,8 +66333,7 @@ PEOPLEBUSD = PEOPLEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PEOPLEETH:
+class PEOPLEETH(NamedTuple):
     """
         name: PEOPLEETH
         precision: 8
@@ -67822,8 +66379,7 @@ PEOPLEETH = PEOPLEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PEOPLEUSDT:
+class PEOPLEUSDT(NamedTuple):
     """
         name: PEOPLEUSDT
         precision: 8
@@ -67869,8 +66425,7 @@ PEOPLEUSDT = PEOPLEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERLBNB:
+class PERLBNB(NamedTuple):
     """
         name: PERLBNB
         precision: 8
@@ -67916,8 +66471,7 @@ PERLBNB = PERLBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERLBTC:
+class PERLBTC(NamedTuple):
     """
         name: PERLBTC
         precision: 8
@@ -67963,8 +66517,7 @@ PERLBTC = PERLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERLUSDC:
+class PERLUSDC(NamedTuple):
     """
         name: PERLUSDC
         precision: 8
@@ -68010,8 +66563,7 @@ PERLUSDC = PERLUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERLUSDT:
+class PERLUSDT(NamedTuple):
     """
         name: PERLUSDT
         precision: 8
@@ -68057,8 +66609,7 @@ PERLUSDT = PERLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERPBTC:
+class PERPBTC(NamedTuple):
     """
         name: PERPBTC
         precision: 8
@@ -68104,8 +66655,7 @@ PERPBTC = PERPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERPBUSD:
+class PERPBUSD(NamedTuple):
     """
         name: PERPBUSD
         precision: 8
@@ -68151,8 +66701,7 @@ PERPBUSD = PERPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERPUSDT:
+class PERPUSDT(NamedTuple):
     """
         name: PERPUSDT
         precision: 8
@@ -68198,8 +66747,7 @@ PERPUSDT = PERPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHABTC:
+class PHABTC(NamedTuple):
     """
         name: PHABTC
         precision: 8
@@ -68245,8 +66793,7 @@ PHABTC = PHABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHABUSD:
+class PHABUSD(NamedTuple):
     """
         name: PHABUSD
         precision: 8
@@ -68292,8 +66839,7 @@ PHABUSD = PHABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHAUSDT:
+class PHAUSDT(NamedTuple):
     """
         name: PHAUSDT
         precision: 8
@@ -68339,8 +66885,7 @@ PHAUSDT = PHAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBBNB:
+class PHBBNB(NamedTuple):
     """
         name: PHBBNB
         precision: 8
@@ -68386,8 +66931,7 @@ PHBBNB = PHBBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBBTC:
+class PHBBTC(NamedTuple):
     """
         name: PHBBTC
         precision: 8
@@ -68433,8 +66977,7 @@ PHBBTC = PHBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBBUSD:
+class PHBBUSD(NamedTuple):
     """
         name: PHBBUSD
         precision: 8
@@ -68480,8 +67023,7 @@ PHBBUSD = PHBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBPAX:
+class PHBPAX(NamedTuple):
     """
         name: PHBPAX
         precision: 8
@@ -68527,8 +67069,7 @@ PHBPAX = PHBPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBTUSD:
+class PHBTUSD(NamedTuple):
     """
         name: PHBTUSD
         precision: 8
@@ -68574,8 +67115,7 @@ PHBTUSD = PHBTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBUSDC:
+class PHBUSDC(NamedTuple):
     """
         name: PHBUSDC
         precision: 8
@@ -68621,8 +67161,7 @@ PHBUSDC = PHBUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHBUSDT:
+class PHBUSDT(NamedTuple):
     """
         name: PHBUSDT
         precision: 8
@@ -68668,8 +67207,7 @@ PHBUSDT = PHBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHXBNB:
+class PHXBNB(NamedTuple):
     """
         name: PHXBNB
         precision: 8
@@ -68715,8 +67253,7 @@ PHXBNB = PHXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHXBTC:
+class PHXBTC(NamedTuple):
     """
         name: PHXBTC
         precision: 8
@@ -68762,8 +67299,7 @@ PHXBTC = PHXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PHXETH:
+class PHXETH(NamedTuple):
     """
         name: PHXETH
         precision: 8
@@ -68809,8 +67345,7 @@ PHXETH = PHXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PIVXBNB:
+class PIVXBNB(NamedTuple):
     """
         name: PIVXBNB
         precision: 8
@@ -68856,8 +67391,7 @@ PIVXBNB = PIVXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PIVXBTC:
+class PIVXBTC(NamedTuple):
     """
         name: PIVXBTC
         precision: 8
@@ -68903,8 +67437,7 @@ PIVXBTC = PIVXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLABNB:
+class PLABNB(NamedTuple):
     """
         name: PLABNB
         precision: 8
@@ -68950,8 +67483,7 @@ PLABNB = PLABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLABTC:
+class PLABTC(NamedTuple):
     """
         name: PLABTC
         precision: 8
@@ -68997,8 +67529,7 @@ PLABTC = PLABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLABUSD:
+class PLABUSD(NamedTuple):
     """
         name: PLABUSD
         precision: 8
@@ -69044,8 +67575,7 @@ PLABUSD = PLABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLAUSDT:
+class PLAUSDT(NamedTuple):
     """
         name: PLAUSDT
         precision: 8
@@ -69091,8 +67621,7 @@ PLAUSDT = PLAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PNTBTC:
+class PNTBTC(NamedTuple):
     """
         name: PNTBTC
         precision: 8
@@ -69138,8 +67667,7 @@ PNTBTC = PNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PNTUSDT:
+class PNTUSDT(NamedTuple):
     """
         name: PNTUSDT
         precision: 8
@@ -69185,8 +67713,7 @@ PNTUSDT = PNTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POABNB:
+class POABNB(NamedTuple):
     """
         name: POABNB
         precision: 8
@@ -69232,8 +67759,7 @@ POABNB = POABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POABTC:
+class POABTC(NamedTuple):
     """
         name: POABTC
         precision: 8
@@ -69279,8 +67805,7 @@ POABTC = POABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POAETH:
+class POAETH(NamedTuple):
     """
         name: POAETH
         precision: 8
@@ -69326,8 +67851,7 @@ POAETH = POAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POEBTC:
+class POEBTC(NamedTuple):
     """
         name: POEBTC
         precision: 8
@@ -69373,8 +67897,7 @@ POEBTC = POEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POEETH:
+class POEETH(NamedTuple):
     """
         name: POEETH
         precision: 8
@@ -69420,8 +67943,7 @@ POEETH = POEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLSBNB:
+class POLSBNB(NamedTuple):
     """
         name: POLSBNB
         precision: 8
@@ -69467,8 +67989,7 @@ POLSBNB = POLSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLSBTC:
+class POLSBTC(NamedTuple):
     """
         name: POLSBTC
         precision: 8
@@ -69514,8 +68035,7 @@ POLSBTC = POLSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLSBUSD:
+class POLSBUSD(NamedTuple):
     """
         name: POLSBUSD
         precision: 8
@@ -69561,8 +68081,7 @@ POLSBUSD = POLSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLSUSDT:
+class POLSUSDT(NamedTuple):
     """
         name: POLSUSDT
         precision: 8
@@ -69608,8 +68127,7 @@ POLSUSDT = POLSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYBNB:
+class POLYBNB(NamedTuple):
     """
         name: POLYBNB
         precision: 8
@@ -69655,8 +68173,7 @@ POLYBNB = POLYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYBTC:
+class POLYBTC(NamedTuple):
     """
         name: POLYBTC
         precision: 8
@@ -69702,8 +68219,7 @@ POLYBTC = POLYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYBUSD:
+class POLYBUSD(NamedTuple):
     """
         name: POLYBUSD
         precision: 8
@@ -69749,8 +68265,7 @@ POLYBUSD = POLYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYUSDT:
+class POLYUSDT(NamedTuple):
     """
         name: POLYUSDT
         precision: 8
@@ -69796,8 +68311,7 @@ POLYUSDT = POLYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYXBTC:
+class POLYXBTC(NamedTuple):
     """
         name: POLYXBTC
         precision: 8
@@ -69843,8 +68357,7 @@ POLYXBTC = POLYXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYXBUSD:
+class POLYXBUSD(NamedTuple):
     """
         name: POLYXBUSD
         precision: 8
@@ -69890,8 +68403,7 @@ POLYXBUSD = POLYXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLYXUSDT:
+class POLYXUSDT(NamedTuple):
     """
         name: POLYXUSDT
         precision: 8
@@ -69937,8 +68449,7 @@ POLYXUSDT = POLYXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PONDBTC:
+class PONDBTC(NamedTuple):
     """
         name: PONDBTC
         precision: 8
@@ -69984,8 +68495,7 @@ PONDBTC = PONDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PONDBUSD:
+class PONDBUSD(NamedTuple):
     """
         name: PONDBUSD
         precision: 8
@@ -70031,8 +68541,7 @@ PONDBUSD = PONDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PONDUSDT:
+class PONDUSDT(NamedTuple):
     """
         name: PONDUSDT
         precision: 8
@@ -70078,8 +68587,7 @@ PONDUSDT = PONDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PORTOBTC:
+class PORTOBTC(NamedTuple):
     """
         name: PORTOBTC
         precision: 8
@@ -70125,8 +68633,7 @@ PORTOBTC = PORTOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PORTOBUSD:
+class PORTOBUSD(NamedTuple):
     """
         name: PORTOBUSD
         precision: 8
@@ -70172,8 +68679,7 @@ PORTOBUSD = PORTOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PORTOEUR:
+class PORTOEUR(NamedTuple):
     """
         name: PORTOEUR
         precision: 8
@@ -70219,8 +68725,7 @@ PORTOEUR = PORTOEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PORTOTRY:
+class PORTOTRY(NamedTuple):
     """
         name: PORTOTRY
         precision: 8
@@ -70266,8 +68771,7 @@ PORTOTRY = PORTOTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PORTOUSDT:
+class PORTOUSDT(NamedTuple):
     """
         name: PORTOUSDT
         precision: 8
@@ -70313,8 +68817,7 @@ PORTOUSDT = PORTOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWRBNB:
+class POWRBNB(NamedTuple):
     """
         name: POWRBNB
         precision: 8
@@ -70360,8 +68863,7 @@ POWRBNB = POWRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWRBTC:
+class POWRBTC(NamedTuple):
     """
         name: POWRBTC
         precision: 8
@@ -70407,8 +68909,7 @@ POWRBTC = POWRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWRBUSD:
+class POWRBUSD(NamedTuple):
     """
         name: POWRBUSD
         precision: 8
@@ -70454,8 +68955,7 @@ POWRBUSD = POWRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWRETH:
+class POWRETH(NamedTuple):
     """
         name: POWRETH
         precision: 8
@@ -70501,8 +69001,7 @@ POWRETH = POWRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWRUSDT:
+class POWRUSDT(NamedTuple):
     """
         name: POWRUSDT
         precision: 8
@@ -70548,8 +69047,7 @@ POWRUSDT = POWRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PPTBTC:
+class PPTBTC(NamedTuple):
     """
         name: PPTBTC
         precision: 8
@@ -70595,8 +69093,7 @@ PPTBTC = PPTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PPTETH:
+class PPTETH(NamedTuple):
     """
         name: PPTETH
         precision: 8
@@ -70642,8 +69139,7 @@ PPTETH = PPTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PROMBNB:
+class PROMBNB(NamedTuple):
     """
         name: PROMBNB
         precision: 8
@@ -70689,8 +69185,7 @@ PROMBNB = PROMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PROMBTC:
+class PROMBTC(NamedTuple):
     """
         name: PROMBTC
         precision: 8
@@ -70736,8 +69231,7 @@ PROMBTC = PROMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PROMBUSD:
+class PROMBUSD(NamedTuple):
     """
         name: PROMBUSD
         precision: 8
@@ -70783,8 +69277,7 @@ PROMBUSD = PROMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PROSBUSD:
+class PROSBUSD(NamedTuple):
     """
         name: PROSBUSD
         precision: 8
@@ -70830,8 +69323,7 @@ PROSBUSD = PROSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PROSETH:
+class PROSETH(NamedTuple):
     """
         name: PROSETH
         precision: 8
@@ -70877,8 +69369,7 @@ PROSETH = PROSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PSGBTC:
+class PSGBTC(NamedTuple):
     """
         name: PSGBTC
         precision: 8
@@ -70924,8 +69415,7 @@ PSGBTC = PSGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PSGBUSD:
+class PSGBUSD(NamedTuple):
     """
         name: PSGBUSD
         precision: 8
@@ -70971,8 +69461,7 @@ PSGBUSD = PSGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PSGUSDT:
+class PSGUSDT(NamedTuple):
     """
         name: PSGUSDT
         precision: 8
@@ -71018,8 +69507,7 @@ PSGUSDT = PSGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PUNDIXBUSD:
+class PUNDIXBUSD(NamedTuple):
     """
         name: PUNDIXBUSD
         precision: 8
@@ -71065,8 +69553,7 @@ PUNDIXBUSD = PUNDIXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PUNDIXETH:
+class PUNDIXETH(NamedTuple):
     """
         name: PUNDIXETH
         precision: 8
@@ -71112,8 +69599,7 @@ PUNDIXETH = PUNDIXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PUNDIXUSDT:
+class PUNDIXUSDT(NamedTuple):
     """
         name: PUNDIXUSDT
         precision: 8
@@ -71159,8 +69645,7 @@ PUNDIXUSDT = PUNDIXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PYRBTC:
+class PYRBTC(NamedTuple):
     """
         name: PYRBTC
         precision: 8
@@ -71206,8 +69691,7 @@ PYRBTC = PYRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PYRBUSD:
+class PYRBUSD(NamedTuple):
     """
         name: PYRBUSD
         precision: 8
@@ -71253,8 +69737,7 @@ PYRBUSD = PYRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PYRUSDT:
+class PYRUSDT(NamedTuple):
     """
         name: PYRUSDT
         precision: 8
@@ -71300,8 +69783,7 @@ PYRUSDT = PYRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QIBNB:
+class QIBNB(NamedTuple):
     """
         name: QIBNB
         precision: 8
@@ -71347,8 +69829,7 @@ QIBNB = QIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QIBTC:
+class QIBTC(NamedTuple):
     """
         name: QIBTC
         precision: 8
@@ -71394,8 +69875,7 @@ QIBTC = QIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QIBUSD:
+class QIBUSD(NamedTuple):
     """
         name: QIBUSD
         precision: 8
@@ -71441,8 +69921,7 @@ QIBUSD = QIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QIUSDT:
+class QIUSDT(NamedTuple):
     """
         name: QIUSDT
         precision: 8
@@ -71488,8 +69967,7 @@ QIUSDT = QIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QKCBTC:
+class QKCBTC(NamedTuple):
     """
         name: QKCBTC
         precision: 8
@@ -71535,8 +70013,7 @@ QKCBTC = QKCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QKCBUSD:
+class QKCBUSD(NamedTuple):
     """
         name: QKCBUSD
         precision: 8
@@ -71582,8 +70059,7 @@ QKCBUSD = QKCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QKCETH:
+class QKCETH(NamedTuple):
     """
         name: QKCETH
         precision: 8
@@ -71629,8 +70105,7 @@ QKCETH = QKCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QLCBNB:
+class QLCBNB(NamedTuple):
     """
         name: QLCBNB
         precision: 8
@@ -71676,8 +70151,7 @@ QLCBNB = QLCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QLCBTC:
+class QLCBTC(NamedTuple):
     """
         name: QLCBTC
         precision: 8
@@ -71723,8 +70197,7 @@ QLCBTC = QLCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QLCETH:
+class QLCETH(NamedTuple):
     """
         name: QLCETH
         precision: 8
@@ -71770,8 +70243,7 @@ QLCETH = QLCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNTBNB:
+class QNTBNB(NamedTuple):
     """
         name: QNTBNB
         precision: 8
@@ -71817,8 +70289,7 @@ QNTBNB = QNTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNTBTC:
+class QNTBTC(NamedTuple):
     """
         name: QNTBTC
         precision: 8
@@ -71864,8 +70335,7 @@ QNTBTC = QNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNTBUSD:
+class QNTBUSD(NamedTuple):
     """
         name: QNTBUSD
         precision: 8
@@ -71911,8 +70381,7 @@ QNTBUSD = QNTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNTUSDT:
+class QNTUSDT(NamedTuple):
     """
         name: QNTUSDT
         precision: 8
@@ -71958,8 +70427,7 @@ QNTUSDT = QNTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QSPBNB:
+class QSPBNB(NamedTuple):
     """
         name: QSPBNB
         precision: 8
@@ -72005,8 +70473,7 @@ QSPBNB = QSPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QSPBTC:
+class QSPBTC(NamedTuple):
     """
         name: QSPBTC
         precision: 8
@@ -72052,8 +70519,7 @@ QSPBTC = QSPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QSPETH:
+class QSPETH(NamedTuple):
     """
         name: QSPETH
         precision: 8
@@ -72099,8 +70565,7 @@ QSPETH = QSPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QTUMBNB:
+class QTUMBNB(NamedTuple):
     """
         name: QTUMBNB
         precision: 8
@@ -72146,8 +70611,7 @@ QTUMBNB = QTUMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QTUMBTC:
+class QTUMBTC(NamedTuple):
     """
         name: QTUMBTC
         precision: 8
@@ -72193,8 +70657,7 @@ QTUMBTC = QTUMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QTUMBUSD:
+class QTUMBUSD(NamedTuple):
     """
         name: QTUMBUSD
         precision: 8
@@ -72240,8 +70703,7 @@ QTUMBUSD = QTUMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QTUMETH:
+class QTUMETH(NamedTuple):
     """
         name: QTUMETH
         precision: 8
@@ -72287,8 +70749,7 @@ QTUMETH = QTUMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QTUMUSDT:
+class QTUMUSDT(NamedTuple):
     """
         name: QTUMUSDT
         precision: 8
@@ -72334,8 +70795,7 @@ QTUMUSDT = QTUMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QUICKBNB:
+class QUICKBNB(NamedTuple):
     """
         name: QUICKBNB
         precision: 8
@@ -72381,8 +70841,7 @@ QUICKBNB = QUICKBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QUICKBTC:
+class QUICKBTC(NamedTuple):
     """
         name: QUICKBTC
         precision: 8
@@ -72428,8 +70887,7 @@ QUICKBTC = QUICKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QUICKBUSD:
+class QUICKBUSD(NamedTuple):
     """
         name: QUICKBUSD
         precision: 8
@@ -72475,8 +70933,7 @@ QUICKBUSD = QUICKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QUICKUSDT:
+class QUICKUSDT(NamedTuple):
     """
         name: QUICKUSDT
         precision: 8
@@ -72522,8 +70979,7 @@ QUICKUSDT = QUICKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RADBNB:
+class RADBNB(NamedTuple):
     """
         name: RADBNB
         precision: 8
@@ -72569,8 +71025,7 @@ RADBNB = RADBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RADBTC:
+class RADBTC(NamedTuple):
     """
         name: RADBTC
         precision: 8
@@ -72616,8 +71071,7 @@ RADBTC = RADBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RADBUSD:
+class RADBUSD(NamedTuple):
     """
         name: RADBUSD
         precision: 8
@@ -72663,8 +71117,7 @@ RADBUSD = RADBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RADUSDT:
+class RADUSDT(NamedTuple):
     """
         name: RADUSDT
         precision: 8
@@ -72710,8 +71163,7 @@ RADUSDT = RADUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAMPBTC:
+class RAMPBTC(NamedTuple):
     """
         name: RAMPBTC
         precision: 8
@@ -72757,8 +71209,7 @@ RAMPBTC = RAMPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAMPBUSD:
+class RAMPBUSD(NamedTuple):
     """
         name: RAMPBUSD
         precision: 8
@@ -72804,8 +71255,7 @@ RAMPBUSD = RAMPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAMPUSDT:
+class RAMPUSDT(NamedTuple):
     """
         name: RAMPUSDT
         precision: 8
@@ -72851,8 +71301,7 @@ RAMPUSDT = RAMPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAREBNB:
+class RAREBNB(NamedTuple):
     """
         name: RAREBNB
         precision: 8
@@ -72898,8 +71347,7 @@ RAREBNB = RAREBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAREBTC:
+class RAREBTC(NamedTuple):
     """
         name: RAREBTC
         precision: 8
@@ -72945,8 +71393,7 @@ RAREBTC = RAREBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAREBUSD:
+class RAREBUSD(NamedTuple):
     """
         name: RAREBUSD
         precision: 8
@@ -72992,8 +71439,7 @@ RAREBUSD = RAREBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAREUSDT:
+class RAREUSDT(NamedTuple):
     """
         name: RAREUSDT
         precision: 8
@@ -73039,8 +71485,7 @@ RAREUSDT = RAREUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAYBNB:
+class RAYBNB(NamedTuple):
     """
         name: RAYBNB
         precision: 8
@@ -73086,8 +71531,7 @@ RAYBNB = RAYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAYBUSD:
+class RAYBUSD(NamedTuple):
     """
         name: RAYBUSD
         precision: 8
@@ -73133,8 +71577,7 @@ RAYBUSD = RAYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAYUSDT:
+class RAYUSDT(NamedTuple):
     """
         name: RAYUSDT
         precision: 8
@@ -73180,8 +71623,7 @@ RAYUSDT = RAYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RCNBNB:
+class RCNBNB(NamedTuple):
     """
         name: RCNBNB
         precision: 8
@@ -73227,8 +71669,7 @@ RCNBNB = RCNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RCNBTC:
+class RCNBTC(NamedTuple):
     """
         name: RCNBTC
         precision: 8
@@ -73274,8 +71715,7 @@ RCNBTC = RCNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RCNETH:
+class RCNETH(NamedTuple):
     """
         name: RCNETH
         precision: 8
@@ -73321,8 +71761,7 @@ RCNETH = RCNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RDNBNB:
+class RDNBNB(NamedTuple):
     """
         name: RDNBNB
         precision: 8
@@ -73368,8 +71807,7 @@ RDNBNB = RDNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RDNBTC:
+class RDNBTC(NamedTuple):
     """
         name: RDNBTC
         precision: 8
@@ -73415,8 +71853,7 @@ RDNBTC = RDNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RDNETH:
+class RDNETH(NamedTuple):
     """
         name: RDNETH
         precision: 8
@@ -73462,8 +71899,7 @@ RDNETH = RDNETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REEFBIDR:
+class REEFBIDR(NamedTuple):
     """
         name: REEFBIDR
         precision: 2
@@ -73509,8 +71945,7 @@ REEFBIDR = REEFBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REEFBTC:
+class REEFBTC(NamedTuple):
     """
         name: REEFBTC
         precision: 8
@@ -73556,8 +71991,7 @@ REEFBTC = REEFBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REEFBUSD:
+class REEFBUSD(NamedTuple):
     """
         name: REEFBUSD
         precision: 8
@@ -73603,8 +72037,7 @@ REEFBUSD = REEFBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REEFTRY:
+class REEFTRY(NamedTuple):
     """
         name: REEFTRY
         precision: 8
@@ -73650,8 +72083,7 @@ REEFTRY = REEFTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REEFUSDT:
+class REEFUSDT(NamedTuple):
     """
         name: REEFUSDT
         precision: 8
@@ -73697,8 +72129,7 @@ REEFUSDT = REEFUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REIBNB:
+class REIBNB(NamedTuple):
     """
         name: REIBNB
         precision: 8
@@ -73744,8 +72175,7 @@ REIBNB = REIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REIBUSD:
+class REIBUSD(NamedTuple):
     """
         name: REIBUSD
         precision: 8
@@ -73791,8 +72221,7 @@ REIBUSD = REIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REIETH:
+class REIETH(NamedTuple):
     """
         name: REIETH
         precision: 8
@@ -73838,8 +72267,7 @@ REIETH = REIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REIUSDT:
+class REIUSDT(NamedTuple):
     """
         name: REIUSDT
         precision: 8
@@ -73885,8 +72313,7 @@ REIUSDT = REIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENBNB:
+class RENBNB(NamedTuple):
     """
         name: RENBNB
         precision: 8
@@ -73932,8 +72359,7 @@ RENBNB = RENBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENBTC:
+class RENBTC(NamedTuple):
     """
         name: RENBTC
         precision: 8
@@ -73979,8 +72405,7 @@ RENBTC = RENBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENBTCBTC:
+class RENBTCBTC(NamedTuple):
     """
         name: RENBTCBTC
         precision: 8
@@ -74026,8 +72451,7 @@ RENBTCBTC = RENBTCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENBTCETH:
+class RENBTCETH(NamedTuple):
     """
         name: RENBTCETH
         precision: 8
@@ -74073,8 +72497,7 @@ RENBTCETH = RENBTCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENBUSD:
+class RENBUSD(NamedTuple):
     """
         name: RENBUSD
         precision: 8
@@ -74120,8 +72543,7 @@ RENBUSD = RENBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RENUSDT:
+class RENUSDT(NamedTuple):
     """
         name: RENUSDT
         precision: 8
@@ -74167,8 +72589,7 @@ RENUSDT = RENUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REPBNB:
+class REPBNB(NamedTuple):
     """
         name: REPBNB
         precision: 8
@@ -74214,8 +72635,7 @@ REPBNB = REPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REPBTC:
+class REPBTC(NamedTuple):
     """
         name: REPBTC
         precision: 8
@@ -74261,8 +72681,7 @@ REPBTC = REPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REPBUSD:
+class REPBUSD(NamedTuple):
     """
         name: REPBUSD
         precision: 8
@@ -74308,8 +72727,7 @@ REPBUSD = REPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REPUSDT:
+class REPUSDT(NamedTuple):
     """
         name: REPUSDT
         precision: 8
@@ -74355,8 +72773,7 @@ REPUSDT = REPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQBTC:
+class REQBTC(NamedTuple):
     """
         name: REQBTC
         precision: 8
@@ -74402,8 +72819,7 @@ REQBTC = REQBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQBUSD:
+class REQBUSD(NamedTuple):
     """
         name: REQBUSD
         precision: 8
@@ -74449,8 +72865,7 @@ REQBUSD = REQBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQETH:
+class REQETH(NamedTuple):
     """
         name: REQETH
         precision: 8
@@ -74496,8 +72911,7 @@ REQETH = REQETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQUSDT:
+class REQUSDT(NamedTuple):
     """
         name: REQUSDT
         precision: 8
@@ -74543,8 +72957,7 @@ REQUSDT = REQUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RGTBNB:
+class RGTBNB(NamedTuple):
     """
         name: RGTBNB
         precision: 8
@@ -74590,8 +73003,7 @@ RGTBNB = RGTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RGTBTC:
+class RGTBTC(NamedTuple):
     """
         name: RGTBTC
         precision: 8
@@ -74637,8 +73049,7 @@ RGTBTC = RGTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RGTBUSD:
+class RGTBUSD(NamedTuple):
     """
         name: RGTBUSD
         precision: 8
@@ -74684,8 +73095,7 @@ RGTBUSD = RGTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RGTUSDT:
+class RGTUSDT(NamedTuple):
     """
         name: RGTUSDT
         precision: 8
@@ -74731,8 +73141,7 @@ RGTUSDT = RGTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RIFBTC:
+class RIFBTC(NamedTuple):
     """
         name: RIFBTC
         precision: 8
@@ -74778,8 +73187,7 @@ RIFBTC = RIFBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RIFUSDT:
+class RIFUSDT(NamedTuple):
     """
         name: RIFUSDT
         precision: 8
@@ -74825,8 +73233,7 @@ RIFUSDT = RIFUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLCBNB:
+class RLCBNB(NamedTuple):
     """
         name: RLCBNB
         precision: 8
@@ -74872,8 +73279,7 @@ RLCBNB = RLCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLCBTC:
+class RLCBTC(NamedTuple):
     """
         name: RLCBTC
         precision: 8
@@ -74919,8 +73325,7 @@ RLCBTC = RLCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLCBUSD:
+class RLCBUSD(NamedTuple):
     """
         name: RLCBUSD
         precision: 8
@@ -74966,8 +73371,7 @@ RLCBUSD = RLCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLCETH:
+class RLCETH(NamedTuple):
     """
         name: RLCETH
         precision: 8
@@ -75013,8 +73417,7 @@ RLCETH = RLCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLCUSDT:
+class RLCUSDT(NamedTuple):
     """
         name: RLCUSDT
         precision: 8
@@ -75060,8 +73463,7 @@ RLCUSDT = RLCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDRBTC:
+class RNDRBTC(NamedTuple):
     """
         name: RNDRBTC
         precision: 8
@@ -75107,8 +73509,7 @@ RNDRBTC = RNDRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDRBUSD:
+class RNDRBUSD(NamedTuple):
     """
         name: RNDRBUSD
         precision: 8
@@ -75154,8 +73555,7 @@ RNDRBUSD = RNDRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDRUSDT:
+class RNDRUSDT(NamedTuple):
     """
         name: RNDRUSDT
         precision: 8
@@ -75201,8 +73601,7 @@ RNDRUSDT = RNDRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSEBNB:
+class ROSEBNB(NamedTuple):
     """
         name: ROSEBNB
         precision: 8
@@ -75248,8 +73647,7 @@ ROSEBNB = ROSEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSEBTC:
+class ROSEBTC(NamedTuple):
     """
         name: ROSEBTC
         precision: 8
@@ -75295,8 +73693,7 @@ ROSEBTC = ROSEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSEBUSD:
+class ROSEBUSD(NamedTuple):
     """
         name: ROSEBUSD
         precision: 8
@@ -75342,8 +73739,7 @@ ROSEBUSD = ROSEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSEETH:
+class ROSEETH(NamedTuple):
     """
         name: ROSEETH
         precision: 8
@@ -75389,8 +73785,7 @@ ROSEETH = ROSEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSETRY:
+class ROSETRY(NamedTuple):
     """
         name: ROSETRY
         precision: 8
@@ -75436,8 +73831,7 @@ ROSETRY = ROSETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSEUSDT:
+class ROSEUSDT(NamedTuple):
     """
         name: ROSEUSDT
         precision: 8
@@ -75483,8 +73877,7 @@ ROSEUSDT = ROSEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPLBTC:
+class RPLBTC(NamedTuple):
     """
         name: RPLBTC
         precision: 8
@@ -75530,8 +73923,7 @@ RPLBTC = RPLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPLBUSD:
+class RPLBUSD(NamedTuple):
     """
         name: RPLBUSD
         precision: 8
@@ -75577,8 +73969,7 @@ RPLBUSD = RPLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPLUSDT:
+class RPLUSDT(NamedTuple):
     """
         name: RPLUSDT
         precision: 8
@@ -75624,8 +74015,7 @@ RPLUSDT = RPLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPXBNB:
+class RPXBNB(NamedTuple):
     """
         name: RPXBNB
         precision: 8
@@ -75671,8 +74061,7 @@ RPXBNB = RPXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPXBTC:
+class RPXBTC(NamedTuple):
     """
         name: RPXBTC
         precision: 8
@@ -75718,8 +74107,7 @@ RPXBTC = RPXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPXETH:
+class RPXETH(NamedTuple):
     """
         name: RPXETH
         precision: 8
@@ -75765,8 +74153,7 @@ RPXETH = RPXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RSRBNB:
+class RSRBNB(NamedTuple):
     """
         name: RSRBNB
         precision: 8
@@ -75812,8 +74199,7 @@ RSRBNB = RSRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RSRBTC:
+class RSRBTC(NamedTuple):
     """
         name: RSRBTC
         precision: 8
@@ -75859,8 +74245,7 @@ RSRBTC = RSRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RSRBUSD:
+class RSRBUSD(NamedTuple):
     """
         name: RSRBUSD
         precision: 8
@@ -75906,8 +74291,7 @@ RSRBUSD = RSRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RSRUSDT:
+class RSRUSDT(NamedTuple):
     """
         name: RSRUSDT
         precision: 8
@@ -75953,8 +74337,7 @@ RSRUSDT = RSRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEAUD:
+class RUNEAUD(NamedTuple):
     """
         name: RUNEAUD
         precision: 8
@@ -76000,8 +74383,7 @@ RUNEAUD = RUNEAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEBNB:
+class RUNEBNB(NamedTuple):
     """
         name: RUNEBNB
         precision: 8
@@ -76047,8 +74429,7 @@ RUNEBNB = RUNEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEBTC:
+class RUNEBTC(NamedTuple):
     """
         name: RUNEBTC
         precision: 8
@@ -76094,8 +74475,7 @@ RUNEBTC = RUNEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEBUSD:
+class RUNEBUSD(NamedTuple):
     """
         name: RUNEBUSD
         precision: 8
@@ -76141,8 +74521,7 @@ RUNEBUSD = RUNEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEETH:
+class RUNEETH(NamedTuple):
     """
         name: RUNEETH
         precision: 8
@@ -76188,8 +74567,7 @@ RUNEETH = RUNEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEEUR:
+class RUNEEUR(NamedTuple):
     """
         name: RUNEEUR
         precision: 8
@@ -76235,8 +74613,7 @@ RUNEEUR = RUNEEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEGBP:
+class RUNEGBP(NamedTuple):
     """
         name: RUNEGBP
         precision: 8
@@ -76282,8 +74659,7 @@ RUNEGBP = RUNEGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNETRY:
+class RUNETRY(NamedTuple):
     """
         name: RUNETRY
         precision: 8
@@ -76329,8 +74705,7 @@ RUNETRY = RUNETRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RUNEUSDT:
+class RUNEUSDT(NamedTuple):
     """
         name: RUNEUSDT
         precision: 8
@@ -76376,8 +74751,7 @@ RUNEUSDT = RUNEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RVNBTC:
+class RVNBTC(NamedTuple):
     """
         name: RVNBTC
         precision: 8
@@ -76423,8 +74797,7 @@ RVNBTC = RVNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RVNBUSD:
+class RVNBUSD(NamedTuple):
     """
         name: RVNBUSD
         precision: 8
@@ -76470,8 +74843,7 @@ RVNBUSD = RVNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RVNTRY:
+class RVNTRY(NamedTuple):
     """
         name: RVNTRY
         precision: 8
@@ -76517,8 +74889,7 @@ RVNTRY = RVNTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RVNUSDT:
+class RVNUSDT(NamedTuple):
     """
         name: RVNUSDT
         precision: 8
@@ -76564,8 +74935,7 @@ RVNUSDT = RVNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SALTBTC:
+class SALTBTC(NamedTuple):
     """
         name: SALTBTC
         precision: 8
@@ -76611,8 +74981,7 @@ SALTBTC = SALTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SALTETH:
+class SALTETH(NamedTuple):
     """
         name: SALTETH
         precision: 8
@@ -76658,8 +75027,7 @@ SALTETH = SALTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDAUD:
+class SANDAUD(NamedTuple):
     """
         name: SANDAUD
         precision: 8
@@ -76705,8 +75073,7 @@ SANDAUD = SANDAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDBIDR:
+class SANDBIDR(NamedTuple):
     """
         name: SANDBIDR
         precision: 2
@@ -76752,8 +75119,7 @@ SANDBIDR = SANDBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDBNB:
+class SANDBNB(NamedTuple):
     """
         name: SANDBNB
         precision: 8
@@ -76799,8 +75165,7 @@ SANDBNB = SANDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDBRL:
+class SANDBRL(NamedTuple):
     """
         name: SANDBRL
         precision: 8
@@ -76846,8 +75211,7 @@ SANDBRL = SANDBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDBTC:
+class SANDBTC(NamedTuple):
     """
         name: SANDBTC
         precision: 8
@@ -76893,8 +75257,7 @@ SANDBTC = SANDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDBUSD:
+class SANDBUSD(NamedTuple):
     """
         name: SANDBUSD
         precision: 8
@@ -76940,8 +75303,7 @@ SANDBUSD = SANDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDETH:
+class SANDETH(NamedTuple):
     """
         name: SANDETH
         precision: 8
@@ -76987,8 +75349,7 @@ SANDETH = SANDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDTRY:
+class SANDTRY(NamedTuple):
     """
         name: SANDTRY
         precision: 8
@@ -77034,8 +75395,7 @@ SANDTRY = SANDTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANDUSDT:
+class SANDUSDT(NamedTuple):
     """
         name: SANDUSDT
         precision: 8
@@ -77081,8 +75441,7 @@ SANDUSDT = SANDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANTOSBRL:
+class SANTOSBRL(NamedTuple):
     """
         name: SANTOSBRL
         precision: 8
@@ -77128,8 +75487,7 @@ SANTOSBRL = SANTOSBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANTOSBTC:
+class SANTOSBTC(NamedTuple):
     """
         name: SANTOSBTC
         precision: 8
@@ -77175,8 +75533,7 @@ SANTOSBTC = SANTOSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANTOSBUSD:
+class SANTOSBUSD(NamedTuple):
     """
         name: SANTOSBUSD
         precision: 8
@@ -77222,8 +75579,7 @@ SANTOSBUSD = SANTOSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANTOSTRY:
+class SANTOSTRY(NamedTuple):
     """
         name: SANTOSTRY
         precision: 8
@@ -77269,8 +75625,7 @@ SANTOSTRY = SANTOSTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SANTOSUSDT:
+class SANTOSUSDT(NamedTuple):
     """
         name: SANTOSUSDT
         precision: 8
@@ -77316,8 +75671,7 @@ SANTOSUSDT = SANTOSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCBTC:
+class SCBTC(NamedTuple):
     """
         name: SCBTC
         precision: 8
@@ -77363,8 +75717,7 @@ SCBTC = SCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCBUSD:
+class SCBUSD(NamedTuple):
     """
         name: SCBUSD
         precision: 8
@@ -77410,8 +75763,7 @@ SCBUSD = SCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCETH:
+class SCETH(NamedTuple):
     """
         name: SCETH
         precision: 8
@@ -77457,8 +75809,7 @@ SCETH = SCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCRTBTC:
+class SCRTBTC(NamedTuple):
     """
         name: SCRTBTC
         precision: 8
@@ -77504,8 +75855,7 @@ SCRTBTC = SCRTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCRTBUSD:
+class SCRTBUSD(NamedTuple):
     """
         name: SCRTBUSD
         precision: 8
@@ -77551,8 +75901,7 @@ SCRTBUSD = SCRTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCRTETH:
+class SCRTETH(NamedTuple):
     """
         name: SCRTETH
         precision: 8
@@ -77598,8 +75947,7 @@ SCRTETH = SCRTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCRTUSDT:
+class SCRTUSDT(NamedTuple):
     """
         name: SCRTUSDT
         precision: 8
@@ -77645,8 +75993,7 @@ SCRTUSDT = SCRTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SCUSDT:
+class SCUSDT(NamedTuple):
     """
         name: SCUSDT
         precision: 8
@@ -77692,8 +76039,7 @@ SCUSDT = SCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SFPBTC:
+class SFPBTC(NamedTuple):
     """
         name: SFPBTC
         precision: 8
@@ -77739,8 +76085,7 @@ SFPBTC = SFPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SFPBUSD:
+class SFPBUSD(NamedTuple):
     """
         name: SFPBUSD
         precision: 8
@@ -77786,8 +76131,7 @@ SFPBUSD = SFPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SFPUSDT:
+class SFPUSDT(NamedTuple):
     """
         name: SFPUSDT
         precision: 8
@@ -77833,8 +76177,7 @@ SFPUSDT = SFPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBAUD:
+class SHIBAUD(NamedTuple):
     """
         name: SHIBAUD
         precision: 8
@@ -77880,8 +76223,7 @@ SHIBAUD = SHIBAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBBRL:
+class SHIBBRL(NamedTuple):
     """
         name: SHIBBRL
         precision: 8
@@ -77927,8 +76269,7 @@ SHIBBRL = SHIBBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBBUSD:
+class SHIBBUSD(NamedTuple):
     """
         name: SHIBBUSD
         precision: 8
@@ -77974,8 +76315,7 @@ SHIBBUSD = SHIBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBDOGE:
+class SHIBDOGE(NamedTuple):
     """
         name: SHIBDOGE
         precision: 8
@@ -78021,8 +76361,7 @@ SHIBDOGE = SHIBDOGE()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBEUR:
+class SHIBEUR(NamedTuple):
     """
         name: SHIBEUR
         precision: 8
@@ -78068,8 +76407,7 @@ SHIBEUR = SHIBEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBGBP:
+class SHIBGBP(NamedTuple):
     """
         name: SHIBGBP
         precision: 8
@@ -78115,8 +76453,7 @@ SHIBGBP = SHIBGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBRUB:
+class SHIBRUB(NamedTuple):
     """
         name: SHIBRUB
         precision: 8
@@ -78162,8 +76499,7 @@ SHIBRUB = SHIBRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBTRY:
+class SHIBTRY(NamedTuple):
     """
         name: SHIBTRY
         precision: 8
@@ -78209,8 +76545,7 @@ SHIBTRY = SHIBTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBUAH:
+class SHIBUAH(NamedTuple):
     """
         name: SHIBUAH
         precision: 8
@@ -78256,8 +76591,7 @@ SHIBUAH = SHIBUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIBUSDT:
+class SHIBUSDT(NamedTuple):
     """
         name: SHIBUSDT
         precision: 8
@@ -78303,8 +76637,7 @@ SHIBUSDT = SHIBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKLBTC:
+class SKLBTC(NamedTuple):
     """
         name: SKLBTC
         precision: 8
@@ -78350,8 +76683,7 @@ SKLBTC = SKLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKLBUSD:
+class SKLBUSD(NamedTuple):
     """
         name: SKLBUSD
         precision: 8
@@ -78397,8 +76729,7 @@ SKLBUSD = SKLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKLUSDT:
+class SKLUSDT(NamedTuple):
     """
         name: SKLUSDT
         precision: 8
@@ -78444,8 +76775,7 @@ SKLUSDT = SKLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKYBNB:
+class SKYBNB(NamedTuple):
     """
         name: SKYBNB
         precision: 8
@@ -78491,8 +76821,7 @@ SKYBNB = SKYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKYBTC:
+class SKYBTC(NamedTuple):
     """
         name: SKYBTC
         precision: 8
@@ -78538,8 +76867,7 @@ SKYBTC = SKYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKYETH:
+class SKYETH(NamedTuple):
     """
         name: SKYETH
         precision: 8
@@ -78585,8 +76913,7 @@ SKYETH = SKYETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPBIDR:
+class SLPBIDR(NamedTuple):
     """
         name: SLPBIDR
         precision: 2
@@ -78632,8 +76959,7 @@ SLPBIDR = SLPBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPBNB:
+class SLPBNB(NamedTuple):
     """
         name: SLPBNB
         precision: 8
@@ -78679,8 +77005,7 @@ SLPBNB = SLPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPBUSD:
+class SLPBUSD(NamedTuple):
     """
         name: SLPBUSD
         precision: 8
@@ -78726,8 +77051,7 @@ SLPBUSD = SLPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPETH:
+class SLPETH(NamedTuple):
     """
         name: SLPETH
         precision: 8
@@ -78773,8 +77097,7 @@ SLPETH = SLPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPTRY:
+class SLPTRY(NamedTuple):
     """
         name: SLPTRY
         precision: 8
@@ -78820,8 +77143,7 @@ SLPTRY = SLPTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SLPUSDT:
+class SLPUSDT(NamedTuple):
     """
         name: SLPUSDT
         precision: 8
@@ -78867,8 +77189,7 @@ SLPUSDT = SLPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNGLSBTC:
+class SNGLSBTC(NamedTuple):
     """
         name: SNGLSBTC
         precision: 8
@@ -78914,8 +77235,7 @@ SNGLSBTC = SNGLSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNGLSETH:
+class SNGLSETH(NamedTuple):
     """
         name: SNGLSETH
         precision: 8
@@ -78961,8 +77281,7 @@ SNGLSETH = SNGLSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNMBTC:
+class SNMBTC(NamedTuple):
     """
         name: SNMBTC
         precision: 8
@@ -79008,8 +77327,7 @@ SNMBTC = SNMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNMBUSD:
+class SNMBUSD(NamedTuple):
     """
         name: SNMBUSD
         precision: 8
@@ -79055,8 +77373,7 @@ SNMBUSD = SNMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNMETH:
+class SNMETH(NamedTuple):
     """
         name: SNMETH
         precision: 8
@@ -79102,8 +77419,7 @@ SNMETH = SNMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNTBTC:
+class SNTBTC(NamedTuple):
     """
         name: SNTBTC
         precision: 8
@@ -79149,8 +77465,7 @@ SNTBTC = SNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNTBUSD:
+class SNTBUSD(NamedTuple):
     """
         name: SNTBUSD
         precision: 8
@@ -79196,8 +77511,7 @@ SNTBUSD = SNTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNTETH:
+class SNTETH(NamedTuple):
     """
         name: SNTETH
         precision: 8
@@ -79243,8 +77557,7 @@ SNTETH = SNTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNXBNB:
+class SNXBNB(NamedTuple):
     """
         name: SNXBNB
         precision: 8
@@ -79290,8 +77603,7 @@ SNXBNB = SNXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNXBTC:
+class SNXBTC(NamedTuple):
     """
         name: SNXBTC
         precision: 8
@@ -79337,8 +77649,7 @@ SNXBTC = SNXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNXBUSD:
+class SNXBUSD(NamedTuple):
     """
         name: SNXBUSD
         precision: 8
@@ -79384,8 +77695,7 @@ SNXBUSD = SNXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNXETH:
+class SNXETH(NamedTuple):
     """
         name: SNXETH
         precision: 8
@@ -79431,8 +77741,7 @@ SNXETH = SNXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNXUSDT:
+class SNXUSDT(NamedTuple):
     """
         name: SNXUSDT
         precision: 8
@@ -79478,8 +77787,7 @@ SNXUSDT = SNXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLAUD:
+class SOLAUD(NamedTuple):
     """
         name: SOLAUD
         precision: 8
@@ -79525,8 +77833,7 @@ SOLAUD = SOLAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLBIDR:
+class SOLBIDR(NamedTuple):
     """
         name: SOLBIDR
         precision: 2
@@ -79572,8 +77879,7 @@ SOLBIDR = SOLBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLBNB:
+class SOLBNB(NamedTuple):
     """
         name: SOLBNB
         precision: 8
@@ -79619,8 +77925,7 @@ SOLBNB = SOLBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLBRL:
+class SOLBRL(NamedTuple):
     """
         name: SOLBRL
         precision: 8
@@ -79666,8 +77971,7 @@ SOLBRL = SOLBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLBTC:
+class SOLBTC(NamedTuple):
     """
         name: SOLBTC
         precision: 8
@@ -79713,8 +78017,7 @@ SOLBTC = SOLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLBUSD:
+class SOLBUSD(NamedTuple):
     """
         name: SOLBUSD
         precision: 8
@@ -79760,8 +78063,7 @@ SOLBUSD = SOLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLETH:
+class SOLETH(NamedTuple):
     """
         name: SOLETH
         precision: 8
@@ -79807,8 +78109,7 @@ SOLETH = SOLETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLEUR:
+class SOLEUR(NamedTuple):
     """
         name: SOLEUR
         precision: 8
@@ -79854,8 +78155,7 @@ SOLEUR = SOLEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLGBP:
+class SOLGBP(NamedTuple):
     """
         name: SOLGBP
         precision: 8
@@ -79901,8 +78201,7 @@ SOLGBP = SOLGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLRUB:
+class SOLRUB(NamedTuple):
     """
         name: SOLRUB
         precision: 8
@@ -79948,8 +78247,7 @@ SOLRUB = SOLRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLTRY:
+class SOLTRY(NamedTuple):
     """
         name: SOLTRY
         precision: 8
@@ -79995,8 +78293,7 @@ SOLTRY = SOLTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLUSDC:
+class SOLUSDC(NamedTuple):
     """
         name: SOLUSDC
         precision: 8
@@ -80042,8 +78339,7 @@ SOLUSDC = SOLUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLUSDT:
+class SOLUSDT(NamedTuple):
     """
         name: SOLUSDT
         precision: 8
@@ -80089,8 +78385,7 @@ SOLUSDT = SOLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPARTABNB:
+class SPARTABNB(NamedTuple):
     """
         name: SPARTABNB
         precision: 8
@@ -80136,8 +78431,7 @@ SPARTABNB = SPARTABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELLBNB:
+class SPELLBNB(NamedTuple):
     """
         name: SPELLBNB
         precision: 8
@@ -80183,8 +78477,7 @@ SPELLBNB = SPELLBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELLBTC:
+class SPELLBTC(NamedTuple):
     """
         name: SPELLBTC
         precision: 8
@@ -80230,8 +78523,7 @@ SPELLBTC = SPELLBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELLBUSD:
+class SPELLBUSD(NamedTuple):
     """
         name: SPELLBUSD
         precision: 8
@@ -80277,8 +78569,7 @@ SPELLBUSD = SPELLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELLTRY:
+class SPELLTRY(NamedTuple):
     """
         name: SPELLTRY
         precision: 8
@@ -80324,8 +78615,7 @@ SPELLTRY = SPELLTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELLUSDT:
+class SPELLUSDT(NamedTuple):
     """
         name: SPELLUSDT
         precision: 8
@@ -80371,8 +78661,7 @@ SPELLUSDT = SPELLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SRMBIDR:
+class SRMBIDR(NamedTuple):
     """
         name: SRMBIDR
         precision: 2
@@ -80418,8 +78707,7 @@ SRMBIDR = SRMBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SRMBNB:
+class SRMBNB(NamedTuple):
     """
         name: SRMBNB
         precision: 8
@@ -80465,8 +78753,7 @@ SRMBNB = SRMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SRMBTC:
+class SRMBTC(NamedTuple):
     """
         name: SRMBTC
         precision: 8
@@ -80512,8 +78799,7 @@ SRMBTC = SRMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SRMBUSD:
+class SRMBUSD(NamedTuple):
     """
         name: SRMBUSD
         precision: 8
@@ -80559,8 +78845,7 @@ SRMBUSD = SRMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SRMUSDT:
+class SRMUSDT(NamedTuple):
     """
         name: SRMUSDT
         precision: 8
@@ -80606,8 +78891,7 @@ SRMUSDT = SRMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SSVBTC:
+class SSVBTC(NamedTuple):
     """
         name: SSVBTC
         precision: 8
@@ -80653,8 +78937,7 @@ SSVBTC = SSVBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SSVBUSD:
+class SSVBUSD(NamedTuple):
     """
         name: SSVBUSD
         precision: 8
@@ -80700,8 +78983,7 @@ SSVBUSD = SSVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SSVETH:
+class SSVETH(NamedTuple):
     """
         name: SSVETH
         precision: 8
@@ -80747,8 +79029,7 @@ SSVETH = SSVETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STEEMBNB:
+class STEEMBNB(NamedTuple):
     """
         name: STEEMBNB
         precision: 8
@@ -80794,8 +79075,7 @@ STEEMBNB = STEEMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STEEMBTC:
+class STEEMBTC(NamedTuple):
     """
         name: STEEMBTC
         precision: 8
@@ -80841,8 +79121,7 @@ STEEMBTC = STEEMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STEEMBUSD:
+class STEEMBUSD(NamedTuple):
     """
         name: STEEMBUSD
         precision: 8
@@ -80888,8 +79167,7 @@ STEEMBUSD = STEEMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STEEMETH:
+class STEEMETH(NamedTuple):
     """
         name: STEEMETH
         precision: 8
@@ -80935,8 +79213,7 @@ STEEMETH = STEEMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STEEMUSDT:
+class STEEMUSDT(NamedTuple):
     """
         name: STEEMUSDT
         precision: 8
@@ -80982,8 +79259,7 @@ STEEMUSDT = STEEMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STGBTC:
+class STGBTC(NamedTuple):
     """
         name: STGBTC
         precision: 8
@@ -81029,8 +79305,7 @@ STGBTC = STGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STGBUSD:
+class STGBUSD(NamedTuple):
     """
         name: STGBUSD
         precision: 8
@@ -81076,8 +79351,7 @@ STGBUSD = STGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STGUSDT:
+class STGUSDT(NamedTuple):
     """
         name: STGUSDT
         precision: 8
@@ -81123,8 +79397,7 @@ STGUSDT = STGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STMXBTC:
+class STMXBTC(NamedTuple):
     """
         name: STMXBTC
         precision: 8
@@ -81170,8 +79443,7 @@ STMXBTC = STMXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STMXBUSD:
+class STMXBUSD(NamedTuple):
     """
         name: STMXBUSD
         precision: 8
@@ -81217,8 +79489,7 @@ STMXBUSD = STMXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STMXETH:
+class STMXETH(NamedTuple):
     """
         name: STMXETH
         precision: 8
@@ -81264,8 +79535,7 @@ STMXETH = STMXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STMXUSDT:
+class STMXUSDT(NamedTuple):
     """
         name: STMXUSDT
         precision: 8
@@ -81311,8 +79581,7 @@ STMXUSDT = STMXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJBTC:
+class STORJBTC(NamedTuple):
     """
         name: STORJBTC
         precision: 8
@@ -81358,8 +79627,7 @@ STORJBTC = STORJBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJBUSD:
+class STORJBUSD(NamedTuple):
     """
         name: STORJBUSD
         precision: 8
@@ -81405,8 +79673,7 @@ STORJBUSD = STORJBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJETH:
+class STORJETH(NamedTuple):
     """
         name: STORJETH
         precision: 8
@@ -81452,8 +79719,7 @@ STORJETH = STORJETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJTRY:
+class STORJTRY(NamedTuple):
     """
         name: STORJTRY
         precision: 8
@@ -81499,8 +79765,7 @@ STORJTRY = STORJTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJUSDT:
+class STORJUSDT(NamedTuple):
     """
         name: STORJUSDT
         precision: 8
@@ -81546,8 +79811,7 @@ STORJUSDT = STORJUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORMBNB:
+class STORMBNB(NamedTuple):
     """
         name: STORMBNB
         precision: 8
@@ -81593,8 +79857,7 @@ STORMBNB = STORMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORMBTC:
+class STORMBTC(NamedTuple):
     """
         name: STORMBTC
         precision: 8
@@ -81640,8 +79903,7 @@ STORMBTC = STORMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORMETH:
+class STORMETH(NamedTuple):
     """
         name: STORMETH
         precision: 8
@@ -81687,8 +79949,7 @@ STORMETH = STORMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORMUSDT:
+class STORMUSDT(NamedTuple):
     """
         name: STORMUSDT
         precision: 8
@@ -81734,8 +79995,7 @@ STORMUSDT = STORMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STPTBNB:
+class STPTBNB(NamedTuple):
     """
         name: STPTBNB
         precision: 8
@@ -81781,8 +80041,7 @@ STPTBNB = STPTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STPTBTC:
+class STPTBTC(NamedTuple):
     """
         name: STPTBTC
         precision: 8
@@ -81828,8 +80087,7 @@ STPTBTC = STPTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STPTBUSD:
+class STPTBUSD(NamedTuple):
     """
         name: STPTBUSD
         precision: 8
@@ -81875,8 +80133,7 @@ STPTBUSD = STPTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STPTUSDT:
+class STPTUSDT(NamedTuple):
     """
         name: STPTUSDT
         precision: 8
@@ -81922,8 +80179,7 @@ STPTUSDT = STPTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRATBNB:
+class STRATBNB(NamedTuple):
     """
         name: STRATBNB
         precision: 8
@@ -81969,8 +80225,7 @@ STRATBNB = STRATBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRATBTC:
+class STRATBTC(NamedTuple):
     """
         name: STRATBTC
         precision: 8
@@ -82016,8 +80271,7 @@ STRATBTC = STRATBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRATBUSD:
+class STRATBUSD(NamedTuple):
     """
         name: STRATBUSD
         precision: 8
@@ -82063,8 +80317,7 @@ STRATBUSD = STRATBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRATETH:
+class STRATETH(NamedTuple):
     """
         name: STRATETH
         precision: 8
@@ -82110,8 +80363,7 @@ STRATETH = STRATETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRATUSDT:
+class STRATUSDT(NamedTuple):
     """
         name: STRATUSDT
         precision: 8
@@ -82157,8 +80409,7 @@ STRATUSDT = STRATUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRAXBTC:
+class STRAXBTC(NamedTuple):
     """
         name: STRAXBTC
         precision: 8
@@ -82204,8 +80455,7 @@ STRAXBTC = STRAXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRAXBUSD:
+class STRAXBUSD(NamedTuple):
     """
         name: STRAXBUSD
         precision: 8
@@ -82251,8 +80501,7 @@ STRAXBUSD = STRAXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRAXETH:
+class STRAXETH(NamedTuple):
     """
         name: STRAXETH
         precision: 8
@@ -82298,8 +80547,7 @@ STRAXETH = STRAXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STRAXUSDT:
+class STRAXUSDT(NamedTuple):
     """
         name: STRAXUSDT
         precision: 8
@@ -82345,8 +80593,7 @@ STRAXUSDT = STRAXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STXBNB:
+class STXBNB(NamedTuple):
     """
         name: STXBNB
         precision: 8
@@ -82392,8 +80639,7 @@ STXBNB = STXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STXBTC:
+class STXBTC(NamedTuple):
     """
         name: STXBTC
         precision: 8
@@ -82439,8 +80685,7 @@ STXBTC = STXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STXBUSD:
+class STXBUSD(NamedTuple):
     """
         name: STXBUSD
         precision: 8
@@ -82486,8 +80731,7 @@ STXBUSD = STXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STXUSDT:
+class STXUSDT(NamedTuple):
     """
         name: STXUSDT
         precision: 8
@@ -82533,8 +80777,7 @@ STXUSDT = STXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUBBTC:
+class SUBBTC(NamedTuple):
     """
         name: SUBBTC
         precision: 8
@@ -82580,8 +80823,7 @@ SUBBTC = SUBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUBETH:
+class SUBETH(NamedTuple):
     """
         name: SUBETH
         precision: 8
@@ -82627,8 +80869,7 @@ SUBETH = SUBETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUNBTC:
+class SUNBTC(NamedTuple):
     """
         name: SUNBTC
         precision: 8
@@ -82674,8 +80915,7 @@ SUNBTC = SUNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUNBUSD:
+class SUNBUSD(NamedTuple):
     """
         name: SUNBUSD
         precision: 8
@@ -82721,8 +80961,7 @@ SUNBUSD = SUNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUNUSDT:
+class SUNUSDT(NamedTuple):
     """
         name: SUNUSDT
         precision: 8
@@ -82768,8 +81007,7 @@ SUNUSDT = SUNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUPERBTC:
+class SUPERBTC(NamedTuple):
     """
         name: SUPERBTC
         precision: 8
@@ -82815,8 +81053,7 @@ SUPERBTC = SUPERBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUPERBUSD:
+class SUPERBUSD(NamedTuple):
     """
         name: SUPERBUSD
         precision: 8
@@ -82862,8 +81099,7 @@ SUPERBUSD = SUPERBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUPERUSDT:
+class SUPERUSDT(NamedTuple):
     """
         name: SUPERUSDT
         precision: 8
@@ -82909,8 +81145,7 @@ SUPERUSDT = SUPERUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSDBTC:
+class SUSDBTC(NamedTuple):
     """
         name: SUSDBTC
         precision: 8
@@ -82956,8 +81191,7 @@ SUSDBTC = SUSDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSDETH:
+class SUSDETH(NamedTuple):
     """
         name: SUSDETH
         precision: 8
@@ -83003,8 +81237,7 @@ SUSDETH = SUSDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSDUSDT:
+class SUSDUSDT(NamedTuple):
     """
         name: SUSDUSDT
         precision: 8
@@ -83050,8 +81283,7 @@ SUSDUSDT = SUSDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIBNB:
+class SUSHIBNB(NamedTuple):
     """
         name: SUSHIBNB
         precision: 8
@@ -83097,8 +81329,7 @@ SUSHIBNB = SUSHIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIBTC:
+class SUSHIBTC(NamedTuple):
     """
         name: SUSHIBTC
         precision: 8
@@ -83144,8 +81375,7 @@ SUSHIBTC = SUSHIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIBUSD:
+class SUSHIBUSD(NamedTuple):
     """
         name: SUSHIBUSD
         precision: 8
@@ -83191,8 +81421,7 @@ SUSHIBUSD = SUSHIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIDOWNUSDT:
+class SUSHIDOWNUSDT(NamedTuple):
     """
         name: SUSHIDOWNUSDT
         precision: 8
@@ -83238,8 +81467,7 @@ SUSHIDOWNUSDT = SUSHIDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIUPUSDT:
+class SUSHIUPUSDT(NamedTuple):
     """
         name: SUSHIUPUSDT
         precision: 8
@@ -83285,8 +81513,7 @@ SUSHIUPUSDT = SUSHIUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHIUSDT:
+class SUSHIUSDT(NamedTuple):
     """
         name: SUSHIUSDT
         precision: 8
@@ -83332,8 +81559,7 @@ SUSHIUSDT = SUSHIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SWRVBNB:
+class SWRVBNB(NamedTuple):
     """
         name: SWRVBNB
         precision: 8
@@ -83379,8 +81605,7 @@ SWRVBNB = SWRVBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SWRVBUSD:
+class SWRVBUSD(NamedTuple):
     """
         name: SWRVBUSD
         precision: 8
@@ -83426,8 +81651,7 @@ SWRVBUSD = SWRVBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPAUD:
+class SXPAUD(NamedTuple):
     """
         name: SXPAUD
         precision: 8
@@ -83473,8 +81697,7 @@ SXPAUD = SXPAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPBIDR:
+class SXPBIDR(NamedTuple):
     """
         name: SXPBIDR
         precision: 2
@@ -83520,8 +81743,7 @@ SXPBIDR = SXPBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPBNB:
+class SXPBNB(NamedTuple):
     """
         name: SXPBNB
         precision: 8
@@ -83567,8 +81789,7 @@ SXPBNB = SXPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPBTC:
+class SXPBTC(NamedTuple):
     """
         name: SXPBTC
         precision: 8
@@ -83614,8 +81835,7 @@ SXPBTC = SXPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPBUSD:
+class SXPBUSD(NamedTuple):
     """
         name: SXPBUSD
         precision: 8
@@ -83661,8 +81881,7 @@ SXPBUSD = SXPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPDOWNUSDT:
+class SXPDOWNUSDT(NamedTuple):
     """
         name: SXPDOWNUSDT
         precision: 8
@@ -83708,8 +81927,7 @@ SXPDOWNUSDT = SXPDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPEUR:
+class SXPEUR(NamedTuple):
     """
         name: SXPEUR
         precision: 8
@@ -83755,8 +81973,7 @@ SXPEUR = SXPEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPGBP:
+class SXPGBP(NamedTuple):
     """
         name: SXPGBP
         precision: 8
@@ -83802,8 +82019,7 @@ SXPGBP = SXPGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPTRY:
+class SXPTRY(NamedTuple):
     """
         name: SXPTRY
         precision: 8
@@ -83849,8 +82065,7 @@ SXPTRY = SXPTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPUPUSDT:
+class SXPUPUSDT(NamedTuple):
     """
         name: SXPUPUSDT
         precision: 8
@@ -83896,8 +82111,7 @@ SXPUPUSDT = SXPUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SXPUSDT:
+class SXPUSDT(NamedTuple):
     """
         name: SXPUSDT
         precision: 8
@@ -83943,8 +82157,7 @@ SXPUSDT = SXPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYSBNB:
+class SYSBNB(NamedTuple):
     """
         name: SYSBNB
         precision: 8
@@ -83990,8 +82203,7 @@ SYSBNB = SYSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYSBTC:
+class SYSBTC(NamedTuple):
     """
         name: SYSBTC
         precision: 8
@@ -84037,8 +82249,7 @@ SYSBTC = SYSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYSBUSD:
+class SYSBUSD(NamedTuple):
     """
         name: SYSBUSD
         precision: 8
@@ -84084,8 +82295,7 @@ SYSBUSD = SYSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYSETH:
+class SYSETH(NamedTuple):
     """
         name: SYSETH
         precision: 8
@@ -84131,8 +82341,7 @@ SYSETH = SYSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYSUSDT:
+class SYSUSDT(NamedTuple):
     """
         name: SYSUSDT
         precision: 8
@@ -84178,8 +82387,7 @@ SYSUSDT = SYSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TBUSD:
+class TBUSD(NamedTuple):
     """
         name: TBUSD
         precision: 8
@@ -84225,8 +82433,7 @@ TBUSD = TBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TCTBNB:
+class TCTBNB(NamedTuple):
     """
         name: TCTBNB
         precision: 8
@@ -84272,8 +82479,7 @@ TCTBNB = TCTBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TCTBTC:
+class TCTBTC(NamedTuple):
     """
         name: TCTBTC
         precision: 8
@@ -84319,8 +82525,7 @@ TCTBTC = TCTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TCTUSDT:
+class TCTUSDT(NamedTuple):
     """
         name: TCTUSDT
         precision: 8
@@ -84366,8 +82571,7 @@ TCTUSDT = TCTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELBNB:
+class TFUELBNB(NamedTuple):
     """
         name: TFUELBNB
         precision: 8
@@ -84413,8 +82617,7 @@ TFUELBNB = TFUELBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELBTC:
+class TFUELBTC(NamedTuple):
     """
         name: TFUELBTC
         precision: 8
@@ -84460,8 +82663,7 @@ TFUELBTC = TFUELBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELBUSD:
+class TFUELBUSD(NamedTuple):
     """
         name: TFUELBUSD
         precision: 8
@@ -84507,8 +82709,7 @@ TFUELBUSD = TFUELBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELPAX:
+class TFUELPAX(NamedTuple):
     """
         name: TFUELPAX
         precision: 8
@@ -84554,8 +82755,7 @@ TFUELPAX = TFUELPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELTUSD:
+class TFUELTUSD(NamedTuple):
     """
         name: TFUELTUSD
         precision: 8
@@ -84601,8 +82801,7 @@ TFUELTUSD = TFUELTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELUSDC:
+class TFUELUSDC(NamedTuple):
     """
         name: TFUELUSDC
         precision: 8
@@ -84648,8 +82847,7 @@ TFUELUSDC = TFUELUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TFUELUSDT:
+class TFUELUSDT(NamedTuple):
     """
         name: TFUELUSDT
         precision: 8
@@ -84695,8 +82893,7 @@ TFUELUSDT = TFUELUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETABNB:
+class THETABNB(NamedTuple):
     """
         name: THETABNB
         precision: 8
@@ -84742,8 +82939,7 @@ THETABNB = THETABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETABTC:
+class THETABTC(NamedTuple):
     """
         name: THETABTC
         precision: 8
@@ -84789,8 +82985,7 @@ THETABTC = THETABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETABUSD:
+class THETABUSD(NamedTuple):
     """
         name: THETABUSD
         precision: 8
@@ -84836,8 +83031,7 @@ THETABUSD = THETABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETAETH:
+class THETAETH(NamedTuple):
     """
         name: THETAETH
         precision: 8
@@ -84883,8 +83077,7 @@ THETAETH = THETAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETAEUR:
+class THETAEUR(NamedTuple):
     """
         name: THETAEUR
         precision: 8
@@ -84930,8 +83123,7 @@ THETAEUR = THETAEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class THETAUSDT:
+class THETAUSDT(NamedTuple):
     """
         name: THETAUSDT
         precision: 8
@@ -84977,8 +83169,7 @@ THETAUSDT = THETAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TKOBIDR:
+class TKOBIDR(NamedTuple):
     """
         name: TKOBIDR
         precision: 2
@@ -85024,8 +83215,7 @@ TKOBIDR = TKOBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TKOBTC:
+class TKOBTC(NamedTuple):
     """
         name: TKOBTC
         precision: 8
@@ -85071,8 +83261,7 @@ TKOBTC = TKOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TKOBUSD:
+class TKOBUSD(NamedTuple):
     """
         name: TKOBUSD
         precision: 8
@@ -85118,8 +83307,7 @@ TKOBUSD = TKOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TKOUSDT:
+class TKOUSDT(NamedTuple):
     """
         name: TKOUSDT
         precision: 8
@@ -85165,8 +83353,7 @@ TKOUSDT = TKOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TLMBNB:
+class TLMBNB(NamedTuple):
     """
         name: TLMBNB
         precision: 8
@@ -85212,8 +83399,7 @@ TLMBNB = TLMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TLMBTC:
+class TLMBTC(NamedTuple):
     """
         name: TLMBTC
         precision: 8
@@ -85259,8 +83445,7 @@ TLMBTC = TLMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TLMBUSD:
+class TLMBUSD(NamedTuple):
     """
         name: TLMBUSD
         precision: 8
@@ -85306,8 +83491,7 @@ TLMBUSD = TLMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TLMTRY:
+class TLMTRY(NamedTuple):
     """
         name: TLMTRY
         precision: 8
@@ -85353,8 +83537,7 @@ TLMTRY = TLMTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TLMUSDT:
+class TLMUSDT(NamedTuple):
     """
         name: TLMUSDT
         precision: 8
@@ -85400,8 +83583,7 @@ TLMUSDT = TLMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TNBBTC:
+class TNBBTC(NamedTuple):
     """
         name: TNBBTC
         precision: 8
@@ -85447,8 +83629,7 @@ TNBBTC = TNBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TNBETH:
+class TNBETH(NamedTuple):
     """
         name: TNBETH
         precision: 8
@@ -85494,8 +83675,7 @@ TNBETH = TNBETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TNTBTC:
+class TNTBTC(NamedTuple):
     """
         name: TNTBTC
         precision: 8
@@ -85541,8 +83721,7 @@ TNTBTC = TNTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TNTETH:
+class TNTETH(NamedTuple):
     """
         name: TNTETH
         precision: 8
@@ -85588,8 +83767,7 @@ TNTETH = TNTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TOMOBNB:
+class TOMOBNB(NamedTuple):
     """
         name: TOMOBNB
         precision: 8
@@ -85635,8 +83813,7 @@ TOMOBNB = TOMOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TOMOBTC:
+class TOMOBTC(NamedTuple):
     """
         name: TOMOBTC
         precision: 8
@@ -85682,8 +83859,7 @@ TOMOBTC = TOMOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TOMOBUSD:
+class TOMOBUSD(NamedTuple):
     """
         name: TOMOBUSD
         precision: 8
@@ -85729,8 +83905,7 @@ TOMOBUSD = TOMOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TOMOUSDC:
+class TOMOUSDC(NamedTuple):
     """
         name: TOMOUSDC
         precision: 8
@@ -85776,8 +83951,7 @@ TOMOUSDC = TOMOUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TOMOUSDT:
+class TOMOUSDT(NamedTuple):
     """
         name: TOMOUSDT
         precision: 8
@@ -85823,8 +83997,7 @@ TOMOUSDT = TOMOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TORNBNB:
+class TORNBNB(NamedTuple):
     """
         name: TORNBNB
         precision: 8
@@ -85870,8 +84043,7 @@ TORNBNB = TORNBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TORNBTC:
+class TORNBTC(NamedTuple):
     """
         name: TORNBTC
         precision: 8
@@ -85917,8 +84089,7 @@ TORNBTC = TORNBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TORNBUSD:
+class TORNBUSD(NamedTuple):
     """
         name: TORNBUSD
         precision: 8
@@ -85964,8 +84135,7 @@ TORNBUSD = TORNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TORNUSDT:
+class TORNUSDT(NamedTuple):
     """
         name: TORNUSDT
         precision: 8
@@ -86011,8 +84181,7 @@ TORNUSDT = TORNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRBBNB:
+class TRBBNB(NamedTuple):
     """
         name: TRBBNB
         precision: 8
@@ -86058,8 +84227,7 @@ TRBBNB = TRBBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRBBTC:
+class TRBBTC(NamedTuple):
     """
         name: TRBBTC
         precision: 8
@@ -86105,8 +84273,7 @@ TRBBTC = TRBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRBBUSD:
+class TRBBUSD(NamedTuple):
     """
         name: TRBBUSD
         precision: 8
@@ -86152,8 +84319,7 @@ TRBBUSD = TRBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRBUSDT:
+class TRBUSDT(NamedTuple):
     """
         name: TRBUSDT
         precision: 8
@@ -86199,8 +84365,7 @@ TRBUSDT = TRBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIBEBNB:
+class TRIBEBNB(NamedTuple):
     """
         name: TRIBEBNB
         precision: 8
@@ -86246,8 +84411,7 @@ TRIBEBNB = TRIBEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIBEBTC:
+class TRIBEBTC(NamedTuple):
     """
         name: TRIBEBTC
         precision: 8
@@ -86293,8 +84457,7 @@ TRIBEBTC = TRIBEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIBEBUSD:
+class TRIBEBUSD(NamedTuple):
     """
         name: TRIBEBUSD
         precision: 8
@@ -86340,8 +84503,7 @@ TRIBEBUSD = TRIBEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIBEUSDT:
+class TRIBEUSDT(NamedTuple):
     """
         name: TRIBEUSDT
         precision: 8
@@ -86387,8 +84549,7 @@ TRIBEUSDT = TRIBEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIGBNB:
+class TRIGBNB(NamedTuple):
     """
         name: TRIGBNB
         precision: 8
@@ -86434,8 +84595,7 @@ TRIGBNB = TRIGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIGBTC:
+class TRIGBTC(NamedTuple):
     """
         name: TRIGBTC
         precision: 8
@@ -86481,8 +84641,7 @@ TRIGBTC = TRIGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIGETH:
+class TRIGETH(NamedTuple):
     """
         name: TRIGETH
         precision: 8
@@ -86528,8 +84687,7 @@ TRIGETH = TRIGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TROYBNB:
+class TROYBNB(NamedTuple):
     """
         name: TROYBNB
         precision: 8
@@ -86575,8 +84733,7 @@ TROYBNB = TROYBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TROYBTC:
+class TROYBTC(NamedTuple):
     """
         name: TROYBTC
         precision: 8
@@ -86622,8 +84779,7 @@ TROYBTC = TROYBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TROYBUSD:
+class TROYBUSD(NamedTuple):
     """
         name: TROYBUSD
         precision: 8
@@ -86669,8 +84825,7 @@ TROYBUSD = TROYBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TROYUSDT:
+class TROYUSDT(NamedTuple):
     """
         name: TROYUSDT
         precision: 8
@@ -86716,8 +84871,7 @@ TROYUSDT = TROYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRUBTC:
+class TRUBTC(NamedTuple):
     """
         name: TRUBTC
         precision: 8
@@ -86763,8 +84917,7 @@ TRUBTC = TRUBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRUBUSD:
+class TRUBUSD(NamedTuple):
     """
         name: TRUBUSD
         precision: 8
@@ -86810,8 +84963,7 @@ TRUBUSD = TRUBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRURUB:
+class TRURUB(NamedTuple):
     """
         name: TRURUB
         precision: 8
@@ -86857,8 +85009,7 @@ TRURUB = TRURUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRUUSDT:
+class TRUUSDT(NamedTuple):
     """
         name: TRUUSDT
         precision: 8
@@ -86904,8 +85055,7 @@ TRUUSDT = TRUUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXAUD:
+class TRXAUD(NamedTuple):
     """
         name: TRXAUD
         precision: 8
@@ -86951,8 +85101,7 @@ TRXAUD = TRXAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXBNB:
+class TRXBNB(NamedTuple):
     """
         name: TRXBNB
         precision: 8
@@ -86998,8 +85147,7 @@ TRXBNB = TRXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXBTC:
+class TRXBTC(NamedTuple):
     """
         name: TRXBTC
         precision: 8
@@ -87045,8 +85193,7 @@ TRXBTC = TRXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXBUSD:
+class TRXBUSD(NamedTuple):
     """
         name: TRXBUSD
         precision: 8
@@ -87092,8 +85239,7 @@ TRXBUSD = TRXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXDOWNUSDT:
+class TRXDOWNUSDT(NamedTuple):
     """
         name: TRXDOWNUSDT
         precision: 8
@@ -87139,8 +85285,7 @@ TRXDOWNUSDT = TRXDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXETH:
+class TRXETH(NamedTuple):
     """
         name: TRXETH
         precision: 8
@@ -87186,8 +85331,7 @@ TRXETH = TRXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXEUR:
+class TRXEUR(NamedTuple):
     """
         name: TRXEUR
         precision: 8
@@ -87233,8 +85377,7 @@ TRXEUR = TRXEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXNGN:
+class TRXNGN(NamedTuple):
     """
         name: TRXNGN
         precision: 8
@@ -87280,8 +85423,7 @@ TRXNGN = TRXNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXPAX:
+class TRXPAX(NamedTuple):
     """
         name: TRXPAX
         precision: 8
@@ -87327,8 +85469,7 @@ TRXPAX = TRXPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXTRY:
+class TRXTRY(NamedTuple):
     """
         name: TRXTRY
         precision: 8
@@ -87374,8 +85515,7 @@ TRXTRY = TRXTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXTUSD:
+class TRXTUSD(NamedTuple):
     """
         name: TRXTUSD
         precision: 8
@@ -87421,8 +85561,7 @@ TRXTUSD = TRXTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXUPUSDT:
+class TRXUPUSDT(NamedTuple):
     """
         name: TRXUPUSDT
         precision: 8
@@ -87468,8 +85607,7 @@ TRXUPUSDT = TRXUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXUSDC:
+class TRXUSDC(NamedTuple):
     """
         name: TRXUSDC
         precision: 8
@@ -87515,8 +85653,7 @@ TRXUSDC = TRXUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXUSDT:
+class TRXUSDT(NamedTuple):
     """
         name: TRXUSDT
         precision: 8
@@ -87562,8 +85699,7 @@ TRXUSDT = TRXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRXXRP:
+class TRXXRP(NamedTuple):
     """
         name: TRXXRP
         precision: 8
@@ -87609,8 +85745,7 @@ TRXXRP = TRXXRP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDBNB:
+class TUSDBNB(NamedTuple):
     """
         name: TUSDBNB
         precision: 8
@@ -87656,8 +85791,7 @@ TUSDBNB = TUSDBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDBTC:
+class TUSDBTC(NamedTuple):
     """
         name: TUSDBTC
         precision: 8
@@ -87703,8 +85837,7 @@ TUSDBTC = TUSDBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDBTUSD:
+class TUSDBTUSD(NamedTuple):
     """
         name: TUSDBTUSD
         precision: 8
@@ -87750,8 +85883,7 @@ TUSDBTUSD = TUSDBTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDBUSD:
+class TUSDBUSD(NamedTuple):
     """
         name: TUSDBUSD
         precision: 8
@@ -87797,8 +85929,7 @@ TUSDBUSD = TUSDBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDETH:
+class TUSDETH(NamedTuple):
     """
         name: TUSDETH
         precision: 8
@@ -87844,8 +85975,7 @@ TUSDETH = TUSDETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDT:
+class TUSDT(NamedTuple):
     """
         name: TUSDT
         precision: 8
@@ -87891,8 +86021,7 @@ TUSDT = TUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TUSDUSDT:
+class TUSDUSDT(NamedTuple):
     """
         name: TUSDUSDT
         precision: 8
@@ -87938,8 +86067,7 @@ TUSDUSDT = TUSDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TVKBTC:
+class TVKBTC(NamedTuple):
     """
         name: TVKBTC
         precision: 8
@@ -87985,8 +86113,7 @@ TVKBTC = TVKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TVKBUSD:
+class TVKBUSD(NamedTuple):
     """
         name: TVKBUSD
         precision: 8
@@ -88032,8 +86159,7 @@ TVKBUSD = TVKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TVKUSDT:
+class TVKUSDT(NamedTuple):
     """
         name: TVKUSDT
         precision: 8
@@ -88079,8 +86205,7 @@ TVKUSDT = TVKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TWTBTC:
+class TWTBTC(NamedTuple):
     """
         name: TWTBTC
         precision: 8
@@ -88126,8 +86251,7 @@ TWTBTC = TWTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TWTBUSD:
+class TWTBUSD(NamedTuple):
     """
         name: TWTBUSD
         precision: 8
@@ -88173,8 +86297,7 @@ TWTBUSD = TWTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TWTTRY:
+class TWTTRY(NamedTuple):
     """
         name: TWTTRY
         precision: 8
@@ -88220,8 +86343,7 @@ TWTTRY = TWTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TWTUSDT:
+class TWTUSDT(NamedTuple):
     """
         name: TWTUSDT
         precision: 8
@@ -88267,8 +86389,7 @@ TWTUSDT = TWTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UFTBUSD:
+class UFTBUSD(NamedTuple):
     """
         name: UFTBUSD
         precision: 8
@@ -88314,8 +86435,7 @@ UFTBUSD = UFTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UFTETH:
+class UFTETH(NamedTuple):
     """
         name: UFTETH
         precision: 8
@@ -88361,8 +86481,7 @@ UFTETH = UFTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMABTC:
+class UMABTC(NamedTuple):
     """
         name: UMABTC
         precision: 8
@@ -88408,8 +86527,7 @@ UMABTC = UMABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMABUSD:
+class UMABUSD(NamedTuple):
     """
         name: UMABUSD
         precision: 8
@@ -88455,8 +86573,7 @@ UMABUSD = UMABUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMATRY:
+class UMATRY(NamedTuple):
     """
         name: UMATRY
         precision: 8
@@ -88502,8 +86619,7 @@ UMATRY = UMATRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMAUSDT:
+class UMAUSDT(NamedTuple):
     """
         name: UMAUSDT
         precision: 8
@@ -88549,8 +86665,7 @@ UMAUSDT = UMAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFIBNB:
+class UNFIBNB(NamedTuple):
     """
         name: UNFIBNB
         precision: 8
@@ -88596,8 +86711,7 @@ UNFIBNB = UNFIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFIBTC:
+class UNFIBTC(NamedTuple):
     """
         name: UNFIBTC
         precision: 8
@@ -88643,8 +86757,7 @@ UNFIBTC = UNFIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFIBUSD:
+class UNFIBUSD(NamedTuple):
     """
         name: UNFIBUSD
         precision: 8
@@ -88690,8 +86803,7 @@ UNFIBUSD = UNFIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFIETH:
+class UNFIETH(NamedTuple):
     """
         name: UNFIETH
         precision: 8
@@ -88737,8 +86849,7 @@ UNFIETH = UNFIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFIUSDT:
+class UNFIUSDT(NamedTuple):
     """
         name: UNFIUSDT
         precision: 8
@@ -88784,8 +86895,7 @@ UNFIUSDT = UNFIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIAUD:
+class UNIAUD(NamedTuple):
     """
         name: UNIAUD
         precision: 8
@@ -88831,8 +86941,7 @@ UNIAUD = UNIAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIBNB:
+class UNIBNB(NamedTuple):
     """
         name: UNIBNB
         precision: 8
@@ -88878,8 +86987,7 @@ UNIBNB = UNIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIBTC:
+class UNIBTC(NamedTuple):
     """
         name: UNIBTC
         precision: 8
@@ -88925,8 +87033,7 @@ UNIBTC = UNIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIBUSD:
+class UNIBUSD(NamedTuple):
     """
         name: UNIBUSD
         precision: 8
@@ -88972,8 +87079,7 @@ UNIBUSD = UNIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIDOWNUSDT:
+class UNIDOWNUSDT(NamedTuple):
     """
         name: UNIDOWNUSDT
         precision: 8
@@ -89019,8 +87125,7 @@ UNIDOWNUSDT = UNIDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIETH:
+class UNIETH(NamedTuple):
     """
         name: UNIETH
         precision: 8
@@ -89066,8 +87171,7 @@ UNIETH = UNIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIEUR:
+class UNIEUR(NamedTuple):
     """
         name: UNIEUR
         precision: 8
@@ -89113,8 +87217,7 @@ UNIEUR = UNIEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIUPUSDT:
+class UNIUPUSDT(NamedTuple):
     """
         name: UNIUPUSDT
         precision: 8
@@ -89160,8 +87263,7 @@ UNIUPUSDT = UNIUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNIUSDT:
+class UNIUSDT(NamedTuple):
     """
         name: UNIUSDT
         precision: 8
@@ -89207,8 +87309,7 @@ UNIUSDT = UNIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDCBNB:
+class USDCBNB(NamedTuple):
     """
         name: USDCBNB
         precision: 8
@@ -89254,8 +87355,7 @@ USDCBNB = USDCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDCBUSD:
+class USDCBUSD(NamedTuple):
     """
         name: USDCBUSD
         precision: 8
@@ -89301,8 +87401,7 @@ USDCBUSD = USDCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDCPAX:
+class USDCPAX(NamedTuple):
     """
         name: USDCPAX
         precision: 8
@@ -89348,8 +87447,7 @@ USDCPAX = USDCPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDCTUSD:
+class USDCTUSD(NamedTuple):
     """
         name: USDCTUSD
         precision: 8
@@ -89395,8 +87493,7 @@ USDCTUSD = USDCTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDCUSDT:
+class USDCUSDT(NamedTuple):
     """
         name: USDCUSDT
         precision: 8
@@ -89442,8 +87539,7 @@ USDCUSDT = USDCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDPBUSD:
+class USDPBUSD(NamedTuple):
     """
         name: USDPBUSD
         precision: 8
@@ -89489,8 +87585,7 @@ USDPBUSD = USDPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDPUSDT:
+class USDPUSDT(NamedTuple):
     """
         name: USDPUSDT
         precision: 8
@@ -89536,8 +87631,7 @@ USDPUSDT = USDPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSBUSDS:
+class USDSBUSDS(NamedTuple):
     """
         name: USDSBUSDS
         precision: 8
@@ -89583,8 +87677,7 @@ USDSBUSDS = USDSBUSDS()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSBUSDT:
+class USDSBUSDT(NamedTuple):
     """
         name: USDSBUSDT
         precision: 8
@@ -89630,8 +87723,7 @@ USDSBUSDT = USDSBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSPAX:
+class USDSPAX(NamedTuple):
     """
         name: USDSPAX
         precision: 8
@@ -89677,8 +87769,7 @@ USDSPAX = USDSPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSTUSD:
+class USDSTUSD(NamedTuple):
     """
         name: USDSTUSD
         precision: 8
@@ -89724,8 +87815,7 @@ USDSTUSD = USDSTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSUSDC:
+class USDSUSDC(NamedTuple):
     """
         name: USDSUSDC
         precision: 8
@@ -89771,8 +87861,7 @@ USDSUSDC = USDSUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDSUSDT:
+class USDSUSDT(NamedTuple):
     """
         name: USDSUSDT
         precision: 8
@@ -89818,8 +87907,7 @@ USDSUSDT = USDSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTBIDR:
+class USDTBIDR(NamedTuple):
     """
         name: USDTBIDR
         precision: 2
@@ -89865,8 +87953,7 @@ USDTBIDR = USDTBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTBKRW:
+class USDTBKRW(NamedTuple):
     """
         name: USDTBKRW
         precision: 8
@@ -89912,8 +87999,7 @@ USDTBKRW = USDTBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTBRL:
+class USDTBRL(NamedTuple):
     """
         name: USDTBRL
         precision: 8
@@ -89959,8 +88045,7 @@ USDTBRL = USDTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTBVND:
+class USDTBVND(NamedTuple):
     """
         name: USDTBVND
         precision: 2
@@ -90006,8 +88091,7 @@ USDTBVND = USDTBVND()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTDAI:
+class USDTDAI(NamedTuple):
     """
         name: USDTDAI
         precision: 8
@@ -90053,8 +88137,7 @@ USDTDAI = USDTDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTIDRT:
+class USDTIDRT(NamedTuple):
     """
         name: USDTIDRT
         precision: 2
@@ -90100,8 +88183,7 @@ USDTIDRT = USDTIDRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTNGN:
+class USDTNGN(NamedTuple):
     """
         name: USDTNGN
         precision: 8
@@ -90147,8 +88229,7 @@ USDTNGN = USDTNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTRUB:
+class USDTRUB(NamedTuple):
     """
         name: USDTRUB
         precision: 8
@@ -90194,8 +88275,7 @@ USDTRUB = USDTRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTTRY:
+class USDTTRY(NamedTuple):
     """
         name: USDTTRY
         precision: 8
@@ -90241,8 +88321,7 @@ USDTTRY = USDTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTUAH:
+class USDTUAH(NamedTuple):
     """
         name: USDTUAH
         precision: 8
@@ -90288,8 +88367,7 @@ USDTUAH = USDTUAH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDTZAR:
+class USDTZAR(NamedTuple):
     """
         name: USDTZAR
         precision: 8
@@ -90335,8 +88413,7 @@ USDTZAR = USDTZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USTBTC:
+class USTBTC(NamedTuple):
     """
         name: USTBTC
         precision: 8
@@ -90382,8 +88459,7 @@ USTBTC = USTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USTBUSD:
+class USTBUSD(NamedTuple):
     """
         name: USTBUSD
         precision: 8
@@ -90429,8 +88505,7 @@ USTBUSD = USTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USTCBUSD:
+class USTCBUSD(NamedTuple):
     """
         name: USTCBUSD
         precision: 8
@@ -90476,8 +88551,7 @@ USTCBUSD = USTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USTUSDT:
+class USTUSDT(NamedTuple):
     """
         name: USTUSDT
         precision: 8
@@ -90523,8 +88597,7 @@ USTUSDT = USTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UTKBTC:
+class UTKBTC(NamedTuple):
     """
         name: UTKBTC
         precision: 8
@@ -90570,8 +88643,7 @@ UTKBTC = UTKBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UTKBUSD:
+class UTKBUSD(NamedTuple):
     """
         name: UTKBUSD
         precision: 8
@@ -90617,8 +88689,7 @@ UTKBUSD = UTKBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UTKUSDT:
+class UTKUSDT(NamedTuple):
     """
         name: UTKUSDT
         precision: 8
@@ -90664,8 +88735,7 @@ UTKUSDT = UTKUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VENBNB:
+class VENBNB(NamedTuple):
     """
         name: VENBNB
         precision: 8
@@ -90711,8 +88781,7 @@ VENBNB = VENBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VENBTC:
+class VENBTC(NamedTuple):
     """
         name: VENBTC
         precision: 8
@@ -90758,8 +88827,7 @@ VENBTC = VENBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VENETH:
+class VENETH(NamedTuple):
     """
         name: VENETH
         precision: 8
@@ -90805,8 +88873,7 @@ VENETH = VENETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VENUSDT:
+class VENUSDT(NamedTuple):
     """
         name: VENUSDT
         precision: 8
@@ -90852,8 +88919,7 @@ VENUSDT = VENUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETBNB:
+class VETBNB(NamedTuple):
     """
         name: VETBNB
         precision: 8
@@ -90899,8 +88965,7 @@ VETBNB = VETBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETBTC:
+class VETBTC(NamedTuple):
     """
         name: VETBTC
         precision: 8
@@ -90946,8 +89011,7 @@ VETBTC = VETBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETBUSD:
+class VETBUSD(NamedTuple):
     """
         name: VETBUSD
         precision: 8
@@ -90993,8 +89057,7 @@ VETBUSD = VETBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETETH:
+class VETETH(NamedTuple):
     """
         name: VETETH
         precision: 8
@@ -91040,8 +89103,7 @@ VETETH = VETETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETEUR:
+class VETEUR(NamedTuple):
     """
         name: VETEUR
         precision: 8
@@ -91087,8 +89149,7 @@ VETEUR = VETEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETGBP:
+class VETGBP(NamedTuple):
     """
         name: VETGBP
         precision: 8
@@ -91134,8 +89195,7 @@ VETGBP = VETGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETTRY:
+class VETTRY(NamedTuple):
     """
         name: VETTRY
         precision: 8
@@ -91181,8 +89241,7 @@ VETTRY = VETTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VETUSDT:
+class VETUSDT(NamedTuple):
     """
         name: VETUSDT
         precision: 8
@@ -91228,8 +89287,7 @@ VETUSDT = VETUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGXBTC:
+class VGXBTC(NamedTuple):
     """
         name: VGXBTC
         precision: 8
@@ -91275,8 +89333,7 @@ VGXBTC = VGXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGXETH:
+class VGXETH(NamedTuple):
     """
         name: VGXETH
         precision: 8
@@ -91322,8 +89379,7 @@ VGXETH = VGXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGXUSDT:
+class VGXUSDT(NamedTuple):
     """
         name: VGXUSDT
         precision: 8
@@ -91369,8 +89425,7 @@ VGXUSDT = VGXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIABNB:
+class VIABNB(NamedTuple):
     """
         name: VIABNB
         precision: 8
@@ -91416,8 +89471,7 @@ VIABNB = VIABNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIABTC:
+class VIABTC(NamedTuple):
     """
         name: VIABTC
         precision: 8
@@ -91463,8 +89517,7 @@ VIABTC = VIABTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIAETH:
+class VIAETH(NamedTuple):
     """
         name: VIAETH
         precision: 8
@@ -91510,8 +89563,7 @@ VIAETH = VIAETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIBBTC:
+class VIBBTC(NamedTuple):
     """
         name: VIBBTC
         precision: 8
@@ -91557,8 +89609,7 @@ VIBBTC = VIBBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIBBUSD:
+class VIBBUSD(NamedTuple):
     """
         name: VIBBUSD
         precision: 8
@@ -91604,8 +89655,7 @@ VIBBUSD = VIBBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIBEBTC:
+class VIBEBTC(NamedTuple):
     """
         name: VIBEBTC
         precision: 8
@@ -91651,8 +89701,7 @@ VIBEBTC = VIBEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIBEETH:
+class VIBEETH(NamedTuple):
     """
         name: VIBEETH
         precision: 8
@@ -91698,8 +89747,7 @@ VIBEETH = VIBEETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIBETH:
+class VIBETH(NamedTuple):
     """
         name: VIBETH
         precision: 8
@@ -91745,8 +89793,7 @@ VIBETH = VIBETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIDTBTC:
+class VIDTBTC(NamedTuple):
     """
         name: VIDTBTC
         precision: 8
@@ -91792,8 +89839,7 @@ VIDTBTC = VIDTBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIDTBUSD:
+class VIDTBUSD(NamedTuple):
     """
         name: VIDTBUSD
         precision: 8
@@ -91839,8 +89885,7 @@ VIDTBUSD = VIDTBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VIDTUSDT:
+class VIDTUSDT(NamedTuple):
     """
         name: VIDTUSDT
         precision: 8
@@ -91886,8 +89931,7 @@ VIDTUSDT = VIDTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VITEBNB:
+class VITEBNB(NamedTuple):
     """
         name: VITEBNB
         precision: 8
@@ -91933,8 +89977,7 @@ VITEBNB = VITEBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VITEBTC:
+class VITEBTC(NamedTuple):
     """
         name: VITEBTC
         precision: 8
@@ -91980,8 +90023,7 @@ VITEBTC = VITEBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VITEBUSD:
+class VITEBUSD(NamedTuple):
     """
         name: VITEBUSD
         precision: 8
@@ -92027,8 +90069,7 @@ VITEBUSD = VITEBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VITEUSDT:
+class VITEUSDT(NamedTuple):
     """
         name: VITEUSDT
         precision: 8
@@ -92074,8 +90115,7 @@ VITEUSDT = VITEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VOXELBNB:
+class VOXELBNB(NamedTuple):
     """
         name: VOXELBNB
         precision: 8
@@ -92121,8 +90161,7 @@ VOXELBNB = VOXELBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VOXELBTC:
+class VOXELBTC(NamedTuple):
     """
         name: VOXELBTC
         precision: 8
@@ -92168,8 +90207,7 @@ VOXELBTC = VOXELBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VOXELBUSD:
+class VOXELBUSD(NamedTuple):
     """
         name: VOXELBUSD
         precision: 8
@@ -92215,8 +90253,7 @@ VOXELBUSD = VOXELBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VOXELETH:
+class VOXELETH(NamedTuple):
     """
         name: VOXELETH
         precision: 8
@@ -92262,8 +90299,7 @@ VOXELETH = VOXELETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VOXELUSDT:
+class VOXELUSDT(NamedTuple):
     """
         name: VOXELUSDT
         precision: 8
@@ -92309,8 +90345,7 @@ VOXELUSDT = VOXELUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VTHOBNB:
+class VTHOBNB(NamedTuple):
     """
         name: VTHOBNB
         precision: 8
@@ -92356,8 +90391,7 @@ VTHOBNB = VTHOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VTHOBUSD:
+class VTHOBUSD(NamedTuple):
     """
         name: VTHOBUSD
         precision: 8
@@ -92403,8 +90437,7 @@ VTHOBUSD = VTHOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VTHOUSDT:
+class VTHOUSDT(NamedTuple):
     """
         name: VTHOUSDT
         precision: 8
@@ -92450,8 +90483,7 @@ VTHOUSDT = VTHOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WABIBNB:
+class WABIBNB(NamedTuple):
     """
         name: WABIBNB
         precision: 8
@@ -92497,8 +90529,7 @@ WABIBNB = WABIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WABIBTC:
+class WABIBTC(NamedTuple):
     """
         name: WABIBTC
         precision: 8
@@ -92544,8 +90575,7 @@ WABIBTC = WABIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WABIETH:
+class WABIETH(NamedTuple):
     """
         name: WABIETH
         precision: 8
@@ -92591,8 +90621,7 @@ WABIETH = WABIETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WANBNB:
+class WANBNB(NamedTuple):
     """
         name: WANBNB
         precision: 8
@@ -92638,8 +90667,7 @@ WANBNB = WANBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WANBTC:
+class WANBTC(NamedTuple):
     """
         name: WANBTC
         precision: 8
@@ -92685,8 +90713,7 @@ WANBTC = WANBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WANETH:
+class WANETH(NamedTuple):
     """
         name: WANETH
         precision: 8
@@ -92732,8 +90759,7 @@ WANETH = WANETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WANUSDT:
+class WANUSDT(NamedTuple):
     """
         name: WANUSDT
         precision: 8
@@ -92779,8 +90805,7 @@ WANUSDT = WANUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESBNB:
+class WAVESBNB(NamedTuple):
     """
         name: WAVESBNB
         precision: 8
@@ -92826,8 +90851,7 @@ WAVESBNB = WAVESBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESBTC:
+class WAVESBTC(NamedTuple):
     """
         name: WAVESBTC
         precision: 8
@@ -92873,8 +90897,7 @@ WAVESBTC = WAVESBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESBUSD:
+class WAVESBUSD(NamedTuple):
     """
         name: WAVESBUSD
         precision: 8
@@ -92920,8 +90943,7 @@ WAVESBUSD = WAVESBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESETH:
+class WAVESETH(NamedTuple):
     """
         name: WAVESETH
         precision: 8
@@ -92967,8 +90989,7 @@ WAVESETH = WAVESETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESEUR:
+class WAVESEUR(NamedTuple):
     """
         name: WAVESEUR
         precision: 8
@@ -93014,8 +91035,7 @@ WAVESEUR = WAVESEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESPAX:
+class WAVESPAX(NamedTuple):
     """
         name: WAVESPAX
         precision: 8
@@ -93061,8 +91081,7 @@ WAVESPAX = WAVESPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESRUB:
+class WAVESRUB(NamedTuple):
     """
         name: WAVESRUB
         precision: 8
@@ -93108,8 +91127,7 @@ WAVESRUB = WAVESRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESTRY:
+class WAVESTRY(NamedTuple):
     """
         name: WAVESTRY
         precision: 8
@@ -93155,8 +91173,7 @@ WAVESTRY = WAVESTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESTUSD:
+class WAVESTUSD(NamedTuple):
     """
         name: WAVESTUSD
         precision: 8
@@ -93202,8 +91219,7 @@ WAVESTUSD = WAVESTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESUSDC:
+class WAVESUSDC(NamedTuple):
     """
         name: WAVESUSDC
         precision: 8
@@ -93249,8 +91265,7 @@ WAVESUSDC = WAVESUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAVESUSDT:
+class WAVESUSDT(NamedTuple):
     """
         name: WAVESUSDT
         precision: 8
@@ -93296,8 +91311,7 @@ WAVESUSDT = WAVESUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAXPBNB:
+class WAXPBNB(NamedTuple):
     """
         name: WAXPBNB
         precision: 8
@@ -93343,8 +91357,7 @@ WAXPBNB = WAXPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAXPBTC:
+class WAXPBTC(NamedTuple):
     """
         name: WAXPBTC
         precision: 8
@@ -93390,8 +91403,7 @@ WAXPBTC = WAXPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAXPBUSD:
+class WAXPBUSD(NamedTuple):
     """
         name: WAXPBUSD
         precision: 8
@@ -93437,8 +91449,7 @@ WAXPBUSD = WAXPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAXPUSDT:
+class WAXPUSDT(NamedTuple):
     """
         name: WAXPUSDT
         precision: 8
@@ -93484,8 +91495,7 @@ WAXPUSDT = WAXPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WBTCBTC:
+class WBTCBTC(NamedTuple):
     """
         name: WBTCBTC
         precision: 8
@@ -93531,8 +91541,7 @@ WBTCBTC = WBTCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WBTCBUSD:
+class WBTCBUSD(NamedTuple):
     """
         name: WBTCBUSD
         precision: 8
@@ -93578,8 +91587,7 @@ WBTCBUSD = WBTCBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WBTCETH:
+class WBTCETH(NamedTuple):
     """
         name: WBTCETH
         precision: 8
@@ -93625,8 +91633,7 @@ WBTCETH = WBTCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINBNB:
+class WINBNB(NamedTuple):
     """
         name: WINBNB
         precision: 8
@@ -93672,8 +91679,7 @@ WINBNB = WINBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINBRL:
+class WINBRL(NamedTuple):
     """
         name: WINBRL
         precision: 8
@@ -93719,8 +91725,7 @@ WINBRL = WINBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINBTC:
+class WINBTC(NamedTuple):
     """
         name: WINBTC
         precision: 8
@@ -93766,8 +91771,7 @@ WINBTC = WINBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINBUSD:
+class WINBUSD(NamedTuple):
     """
         name: WINBUSD
         precision: 8
@@ -93813,8 +91817,7 @@ WINBUSD = WINBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINEUR:
+class WINEUR(NamedTuple):
     """
         name: WINEUR
         precision: 8
@@ -93860,8 +91863,7 @@ WINEUR = WINEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGBNB:
+class WINGBNB(NamedTuple):
     """
         name: WINGBNB
         precision: 8
@@ -93907,8 +91909,7 @@ WINGBNB = WINGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGBTC:
+class WINGBTC(NamedTuple):
     """
         name: WINGBTC
         precision: 8
@@ -93954,8 +91955,7 @@ WINGBTC = WINGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGBUSD:
+class WINGBUSD(NamedTuple):
     """
         name: WINGBUSD
         precision: 8
@@ -94001,8 +92001,7 @@ WINGBUSD = WINGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGETH:
+class WINGETH(NamedTuple):
     """
         name: WINGETH
         precision: 8
@@ -94048,8 +92047,7 @@ WINGETH = WINGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGSBTC:
+class WINGSBTC(NamedTuple):
     """
         name: WINGSBTC
         precision: 8
@@ -94095,8 +92093,7 @@ WINGSBTC = WINGSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGSETH:
+class WINGSETH(NamedTuple):
     """
         name: WINGSETH
         precision: 8
@@ -94142,8 +92139,7 @@ WINGSETH = WINGSETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINGUSDT:
+class WINGUSDT(NamedTuple):
     """
         name: WINGUSDT
         precision: 8
@@ -94189,8 +92185,7 @@ WINGUSDT = WINGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINTRX:
+class WINTRX(NamedTuple):
     """
         name: WINTRX
         precision: 8
@@ -94236,8 +92231,7 @@ WINTRX = WINTRX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINUSDC:
+class WINUSDC(NamedTuple):
     """
         name: WINUSDC
         precision: 8
@@ -94283,8 +92277,7 @@ WINUSDC = WINUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WINUSDT:
+class WINUSDT(NamedTuple):
     """
         name: WINUSDT
         precision: 8
@@ -94330,8 +92323,7 @@ WINUSDT = WINUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WNXMBNB:
+class WNXMBNB(NamedTuple):
     """
         name: WNXMBNB
         precision: 8
@@ -94377,8 +92369,7 @@ WNXMBNB = WNXMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WNXMBTC:
+class WNXMBTC(NamedTuple):
     """
         name: WNXMBTC
         precision: 8
@@ -94424,8 +92415,7 @@ WNXMBTC = WNXMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WNXMBUSD:
+class WNXMBUSD(NamedTuple):
     """
         name: WNXMBUSD
         precision: 8
@@ -94471,8 +92461,7 @@ WNXMBUSD = WNXMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WNXMUSDT:
+class WNXMUSDT(NamedTuple):
     """
         name: WNXMUSDT
         precision: 8
@@ -94518,8 +92507,7 @@ WNXMUSDT = WNXMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WOOBNB:
+class WOOBNB(NamedTuple):
     """
         name: WOOBNB
         precision: 8
@@ -94565,8 +92553,7 @@ WOOBNB = WOOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WOOBTC:
+class WOOBTC(NamedTuple):
     """
         name: WOOBTC
         precision: 8
@@ -94612,8 +92599,7 @@ WOOBTC = WOOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WOOBUSD:
+class WOOBUSD(NamedTuple):
     """
         name: WOOBUSD
         precision: 8
@@ -94659,8 +92645,7 @@ WOOBUSD = WOOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WOOUSDT:
+class WOOUSDT(NamedTuple):
     """
         name: WOOUSDT
         precision: 8
@@ -94706,8 +92691,7 @@ WOOUSDT = WOOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WPRBTC:
+class WPRBTC(NamedTuple):
     """
         name: WPRBTC
         precision: 8
@@ -94753,8 +92737,7 @@ WPRBTC = WPRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WPRETH:
+class WPRETH(NamedTuple):
     """
         name: WPRETH
         precision: 8
@@ -94800,8 +92783,7 @@ WPRETH = WPRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WRXBNB:
+class WRXBNB(NamedTuple):
     """
         name: WRXBNB
         precision: 8
@@ -94847,8 +92829,7 @@ WRXBNB = WRXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WRXBTC:
+class WRXBTC(NamedTuple):
     """
         name: WRXBTC
         precision: 8
@@ -94894,8 +92875,7 @@ WRXBTC = WRXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WRXBUSD:
+class WRXBUSD(NamedTuple):
     """
         name: WRXBUSD
         precision: 8
@@ -94941,8 +92921,7 @@ WRXBUSD = WRXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WRXEUR:
+class WRXEUR(NamedTuple):
     """
         name: WRXEUR
         precision: 8
@@ -94988,8 +92967,7 @@ WRXEUR = WRXEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WRXUSDT:
+class WRXUSDT(NamedTuple):
     """
         name: WRXUSDT
         precision: 8
@@ -95035,8 +93013,7 @@ WRXUSDT = WRXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WTCBNB:
+class WTCBNB(NamedTuple):
     """
         name: WTCBNB
         precision: 8
@@ -95082,8 +93059,7 @@ WTCBNB = WTCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WTCBTC:
+class WTCBTC(NamedTuple):
     """
         name: WTCBTC
         precision: 8
@@ -95129,8 +93105,7 @@ WTCBTC = WTCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WTCETH:
+class WTCETH(NamedTuple):
     """
         name: WTCETH
         precision: 8
@@ -95176,8 +93151,7 @@ WTCETH = WTCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WTCUSDT:
+class WTCUSDT(NamedTuple):
     """
         name: WTCUSDT
         precision: 8
@@ -95223,8 +93197,7 @@ WTCUSDT = WTCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XECBUSD:
+class XECBUSD(NamedTuple):
     """
         name: XECBUSD
         precision: 8
@@ -95270,8 +93243,7 @@ XECBUSD = XECBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XECUSDT:
+class XECUSDT(NamedTuple):
     """
         name: XECUSDT
         precision: 8
@@ -95317,8 +93289,7 @@ XECUSDT = XECUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XEMBNB:
+class XEMBNB(NamedTuple):
     """
         name: XEMBNB
         precision: 8
@@ -95364,8 +93335,7 @@ XEMBNB = XEMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XEMBTC:
+class XEMBTC(NamedTuple):
     """
         name: XEMBTC
         precision: 8
@@ -95411,8 +93381,7 @@ XEMBTC = XEMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XEMBUSD:
+class XEMBUSD(NamedTuple):
     """
         name: XEMBUSD
         precision: 8
@@ -95458,8 +93427,7 @@ XEMBUSD = XEMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XEMETH:
+class XEMETH(NamedTuple):
     """
         name: XEMETH
         precision: 8
@@ -95505,8 +93473,7 @@ XEMETH = XEMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XEMUSDT:
+class XEMUSDT(NamedTuple):
     """
         name: XEMUSDT
         precision: 8
@@ -95552,8 +93519,7 @@ XEMUSDT = XEMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMBNB:
+class XLMBNB(NamedTuple):
     """
         name: XLMBNB
         precision: 8
@@ -95599,8 +93565,7 @@ XLMBNB = XLMBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMBTC:
+class XLMBTC(NamedTuple):
     """
         name: XLMBTC
         precision: 8
@@ -95646,8 +93611,7 @@ XLMBTC = XLMBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMBUSD:
+class XLMBUSD(NamedTuple):
     """
         name: XLMBUSD
         precision: 8
@@ -95693,8 +93657,7 @@ XLMBUSD = XLMBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMDOWNUSDT:
+class XLMDOWNUSDT(NamedTuple):
     """
         name: XLMDOWNUSDT
         precision: 8
@@ -95740,8 +93703,7 @@ XLMDOWNUSDT = XLMDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMETH:
+class XLMETH(NamedTuple):
     """
         name: XLMETH
         precision: 8
@@ -95787,8 +93749,7 @@ XLMETH = XLMETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMEUR:
+class XLMEUR(NamedTuple):
     """
         name: XLMEUR
         precision: 8
@@ -95834,8 +93795,7 @@ XLMEUR = XLMEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMPAX:
+class XLMPAX(NamedTuple):
     """
         name: XLMPAX
         precision: 8
@@ -95881,8 +93841,7 @@ XLMPAX = XLMPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMTRY:
+class XLMTRY(NamedTuple):
     """
         name: XLMTRY
         precision: 8
@@ -95928,8 +93887,7 @@ XLMTRY = XLMTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMTUSD:
+class XLMTUSD(NamedTuple):
     """
         name: XLMTUSD
         precision: 8
@@ -95975,8 +93933,7 @@ XLMTUSD = XLMTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMUPUSDT:
+class XLMUPUSDT(NamedTuple):
     """
         name: XLMUPUSDT
         precision: 8
@@ -96022,8 +93979,7 @@ XLMUPUSDT = XLMUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMUSDC:
+class XLMUSDC(NamedTuple):
     """
         name: XLMUSDC
         precision: 8
@@ -96069,8 +94025,7 @@ XLMUSDC = XLMUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLMUSDT:
+class XLMUSDT(NamedTuple):
     """
         name: XLMUSDT
         precision: 8
@@ -96116,8 +94071,7 @@ XLMUSDT = XLMUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XMRBNB:
+class XMRBNB(NamedTuple):
     """
         name: XMRBNB
         precision: 8
@@ -96163,8 +94117,7 @@ XMRBNB = XMRBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XMRBTC:
+class XMRBTC(NamedTuple):
     """
         name: XMRBTC
         precision: 8
@@ -96210,8 +94163,7 @@ XMRBTC = XMRBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XMRBUSD:
+class XMRBUSD(NamedTuple):
     """
         name: XMRBUSD
         precision: 8
@@ -96257,8 +94209,7 @@ XMRBUSD = XMRBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XMRETH:
+class XMRETH(NamedTuple):
     """
         name: XMRETH
         precision: 8
@@ -96304,8 +94255,7 @@ XMRETH = XMRETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XMRUSDT:
+class XMRUSDT(NamedTuple):
     """
         name: XMRUSDT
         precision: 8
@@ -96351,8 +94301,7 @@ XMRUSDT = XMRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XNOBTC:
+class XNOBTC(NamedTuple):
     """
         name: XNOBTC
         precision: 8
@@ -96398,8 +94347,7 @@ XNOBTC = XNOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XNOBUSD:
+class XNOBUSD(NamedTuple):
     """
         name: XNOBUSD
         precision: 8
@@ -96445,8 +94393,7 @@ XNOBUSD = XNOBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XNOETH:
+class XNOETH(NamedTuple):
     """
         name: XNOETH
         precision: 8
@@ -96492,8 +94439,7 @@ XNOETH = XNOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XNOUSDT:
+class XNOUSDT(NamedTuple):
     """
         name: XNOUSDT
         precision: 8
@@ -96539,8 +94485,7 @@ XNOUSDT = XNOUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPAUD:
+class XRPAUD(NamedTuple):
     """
         name: XRPAUD
         precision: 8
@@ -96586,8 +94531,7 @@ XRPAUD = XRPAUD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBEARBUSD:
+class XRPBEARBUSD(NamedTuple):
     """
         name: XRPBEARBUSD
         precision: 8
@@ -96633,8 +94577,7 @@ XRPBEARBUSD = XRPBEARBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBEARUSDT:
+class XRPBEARUSDT(NamedTuple):
     """
         name: XRPBEARUSDT
         precision: 8
@@ -96680,8 +94623,7 @@ XRPBEARUSDT = XRPBEARUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBIDR:
+class XRPBIDR(NamedTuple):
     """
         name: XRPBIDR
         precision: 2
@@ -96727,8 +94669,7 @@ XRPBIDR = XRPBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBKRW:
+class XRPBKRW(NamedTuple):
     """
         name: XRPBKRW
         precision: 8
@@ -96774,8 +94715,7 @@ XRPBKRW = XRPBKRW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBNB:
+class XRPBNB(NamedTuple):
     """
         name: XRPBNB
         precision: 8
@@ -96821,8 +94761,7 @@ XRPBNB = XRPBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBRL:
+class XRPBRL(NamedTuple):
     """
         name: XRPBRL
         precision: 8
@@ -96868,8 +94807,7 @@ XRPBRL = XRPBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBTC:
+class XRPBTC(NamedTuple):
     """
         name: XRPBTC
         precision: 8
@@ -96915,8 +94853,7 @@ XRPBTC = XRPBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBULLBUSD:
+class XRPBULLBUSD(NamedTuple):
     """
         name: XRPBULLBUSD
         precision: 8
@@ -96962,8 +94899,7 @@ XRPBULLBUSD = XRPBULLBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBULLUSDT:
+class XRPBULLUSDT(NamedTuple):
     """
         name: XRPBULLUSDT
         precision: 8
@@ -97009,8 +94945,7 @@ XRPBULLUSDT = XRPBULLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPBUSD:
+class XRPBUSD(NamedTuple):
     """
         name: XRPBUSD
         precision: 8
@@ -97056,8 +94991,7 @@ XRPBUSD = XRPBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPDOWNUSDT:
+class XRPDOWNUSDT(NamedTuple):
     """
         name: XRPDOWNUSDT
         precision: 8
@@ -97103,8 +95037,7 @@ XRPDOWNUSDT = XRPDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPETH:
+class XRPETH(NamedTuple):
     """
         name: XRPETH
         precision: 8
@@ -97150,8 +95083,7 @@ XRPETH = XRPETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPEUR:
+class XRPEUR(NamedTuple):
     """
         name: XRPEUR
         precision: 8
@@ -97197,8 +95129,7 @@ XRPEUR = XRPEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPGBP:
+class XRPGBP(NamedTuple):
     """
         name: XRPGBP
         precision: 8
@@ -97244,8 +95175,7 @@ XRPGBP = XRPGBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPNGN:
+class XRPNGN(NamedTuple):
     """
         name: XRPNGN
         precision: 8
@@ -97291,8 +95221,7 @@ XRPNGN = XRPNGN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPPAX:
+class XRPPAX(NamedTuple):
     """
         name: XRPPAX
         precision: 8
@@ -97338,8 +95267,7 @@ XRPPAX = XRPPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPRUB:
+class XRPRUB(NamedTuple):
     """
         name: XRPRUB
         precision: 8
@@ -97385,8 +95313,7 @@ XRPRUB = XRPRUB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPTRY:
+class XRPTRY(NamedTuple):
     """
         name: XRPTRY
         precision: 8
@@ -97432,8 +95359,7 @@ XRPTRY = XRPTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPTUSD:
+class XRPTUSD(NamedTuple):
     """
         name: XRPTUSD
         precision: 8
@@ -97479,8 +95405,7 @@ XRPTUSD = XRPTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPUPUSDT:
+class XRPUPUSDT(NamedTuple):
     """
         name: XRPUPUSDT
         precision: 8
@@ -97526,8 +95451,7 @@ XRPUPUSDT = XRPUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPUSDC:
+class XRPUSDC(NamedTuple):
     """
         name: XRPUSDC
         precision: 8
@@ -97573,8 +95497,7 @@ XRPUSDC = XRPUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPUSDT:
+class XRPUSDT(NamedTuple):
     """
         name: XRPUSDT
         precision: 8
@@ -97620,8 +95543,7 @@ XRPUSDT = XRPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZBNB:
+class XTZBNB(NamedTuple):
     """
         name: XTZBNB
         precision: 8
@@ -97667,8 +95589,7 @@ XTZBNB = XTZBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZBTC:
+class XTZBTC(NamedTuple):
     """
         name: XTZBTC
         precision: 8
@@ -97714,8 +95635,7 @@ XTZBTC = XTZBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZBUSD:
+class XTZBUSD(NamedTuple):
     """
         name: XTZBUSD
         precision: 8
@@ -97761,8 +95681,7 @@ XTZBUSD = XTZBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZDOWNUSDT:
+class XTZDOWNUSDT(NamedTuple):
     """
         name: XTZDOWNUSDT
         precision: 8
@@ -97808,8 +95727,7 @@ XTZDOWNUSDT = XTZDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZETH:
+class XTZETH(NamedTuple):
     """
         name: XTZETH
         precision: 8
@@ -97855,8 +95773,7 @@ XTZETH = XTZETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZTRY:
+class XTZTRY(NamedTuple):
     """
         name: XTZTRY
         precision: 8
@@ -97902,8 +95819,7 @@ XTZTRY = XTZTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZUPUSDT:
+class XTZUPUSDT(NamedTuple):
     """
         name: XTZUPUSDT
         precision: 8
@@ -97949,8 +95865,7 @@ XTZUPUSDT = XTZUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZUSDT:
+class XTZUSDT(NamedTuple):
     """
         name: XTZUSDT
         precision: 8
@@ -97996,8 +95911,7 @@ XTZUSDT = XTZUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVGBTC:
+class XVGBTC(NamedTuple):
     """
         name: XVGBTC
         precision: 8
@@ -98043,8 +95957,7 @@ XVGBTC = XVGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVGBUSD:
+class XVGBUSD(NamedTuple):
     """
         name: XVGBUSD
         precision: 8
@@ -98090,8 +96003,7 @@ XVGBUSD = XVGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVGETH:
+class XVGETH(NamedTuple):
     """
         name: XVGETH
         precision: 8
@@ -98137,8 +96049,7 @@ XVGETH = XVGETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVGUSDT:
+class XVGUSDT(NamedTuple):
     """
         name: XVGUSDT
         precision: 8
@@ -98184,8 +96095,7 @@ XVGUSDT = XVGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVSBNB:
+class XVSBNB(NamedTuple):
     """
         name: XVSBNB
         precision: 8
@@ -98231,8 +96141,7 @@ XVSBNB = XVSBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVSBTC:
+class XVSBTC(NamedTuple):
     """
         name: XVSBTC
         precision: 8
@@ -98278,8 +96187,7 @@ XVSBTC = XVSBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVSBUSD:
+class XVSBUSD(NamedTuple):
     """
         name: XVSBUSD
         precision: 8
@@ -98325,8 +96233,7 @@ XVSBUSD = XVSBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XVSUSDT:
+class XVSUSDT(NamedTuple):
     """
         name: XVSUSDT
         precision: 8
@@ -98372,8 +96279,7 @@ XVSUSDT = XVSUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XZCBNB:
+class XZCBNB(NamedTuple):
     """
         name: XZCBNB
         precision: 8
@@ -98419,8 +96325,7 @@ XZCBNB = XZCBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XZCBTC:
+class XZCBTC(NamedTuple):
     """
         name: XZCBTC
         precision: 8
@@ -98466,8 +96371,7 @@ XZCBTC = XZCBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XZCETH:
+class XZCETH(NamedTuple):
     """
         name: XZCETH
         precision: 8
@@ -98513,8 +96417,7 @@ XZCETH = XZCETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XZCUSDT:
+class XZCUSDT(NamedTuple):
     """
         name: XZCUSDT
         precision: 8
@@ -98560,8 +96463,7 @@ XZCUSDT = XZCUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XZCXRP:
+class XZCXRP(NamedTuple):
     """
         name: XZCXRP
         precision: 8
@@ -98607,8 +96509,7 @@ XZCXRP = XZCXRP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIBNB:
+class YFIBNB(NamedTuple):
     """
         name: YFIBNB
         precision: 8
@@ -98654,8 +96555,7 @@ YFIBNB = YFIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIBTC:
+class YFIBTC(NamedTuple):
     """
         name: YFIBTC
         precision: 8
@@ -98701,8 +96601,7 @@ YFIBTC = YFIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIBUSD:
+class YFIBUSD(NamedTuple):
     """
         name: YFIBUSD
         precision: 8
@@ -98748,8 +96647,7 @@ YFIBUSD = YFIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIDOWNUSDT:
+class YFIDOWNUSDT(NamedTuple):
     """
         name: YFIDOWNUSDT
         precision: 8
@@ -98795,8 +96693,7 @@ YFIDOWNUSDT = YFIDOWNUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIEUR:
+class YFIEUR(NamedTuple):
     """
         name: YFIEUR
         precision: 8
@@ -98842,8 +96739,7 @@ YFIEUR = YFIEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIIBNB:
+class YFIIBNB(NamedTuple):
     """
         name: YFIIBNB
         precision: 8
@@ -98889,8 +96785,7 @@ YFIIBNB = YFIIBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIIBTC:
+class YFIIBTC(NamedTuple):
     """
         name: YFIIBTC
         precision: 8
@@ -98936,8 +96831,7 @@ YFIIBTC = YFIIBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIIBUSD:
+class YFIIBUSD(NamedTuple):
     """
         name: YFIIBUSD
         precision: 8
@@ -98983,8 +96877,7 @@ YFIIBUSD = YFIIBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIIUSDT:
+class YFIIUSDT(NamedTuple):
     """
         name: YFIIUSDT
         precision: 8
@@ -99030,8 +96923,7 @@ YFIIUSDT = YFIIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIUPUSDT:
+class YFIUPUSDT(NamedTuple):
     """
         name: YFIUPUSDT
         precision: 8
@@ -99077,8 +96969,7 @@ YFIUPUSDT = YFIUPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFIUSDT:
+class YFIUSDT(NamedTuple):
     """
         name: YFIUSDT
         precision: 8
@@ -99124,8 +97015,7 @@ YFIUSDT = YFIUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YGGBNB:
+class YGGBNB(NamedTuple):
     """
         name: YGGBNB
         precision: 8
@@ -99171,8 +97061,7 @@ YGGBNB = YGGBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YGGBTC:
+class YGGBTC(NamedTuple):
     """
         name: YGGBTC
         precision: 8
@@ -99218,8 +97107,7 @@ YGGBTC = YGGBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YGGBUSD:
+class YGGBUSD(NamedTuple):
     """
         name: YGGBUSD
         precision: 8
@@ -99265,8 +97153,7 @@ YGGBUSD = YGGBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YGGUSDT:
+class YGGUSDT(NamedTuple):
     """
         name: YGGUSDT
         precision: 8
@@ -99312,8 +97199,7 @@ YGGUSDT = YGGUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YOYOBNB:
+class YOYOBNB(NamedTuple):
     """
         name: YOYOBNB
         precision: 8
@@ -99359,8 +97245,7 @@ YOYOBNB = YOYOBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YOYOBTC:
+class YOYOBTC(NamedTuple):
     """
         name: YOYOBTC
         precision: 8
@@ -99406,8 +97291,7 @@ YOYOBTC = YOYOBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YOYOETH:
+class YOYOETH(NamedTuple):
     """
         name: YOYOETH
         precision: 8
@@ -99453,8 +97337,7 @@ YOYOETH = YOYOETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECBNB:
+class ZECBNB(NamedTuple):
     """
         name: ZECBNB
         precision: 8
@@ -99500,8 +97383,7 @@ ZECBNB = ZECBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECBTC:
+class ZECBTC(NamedTuple):
     """
         name: ZECBTC
         precision: 8
@@ -99547,8 +97429,7 @@ ZECBTC = ZECBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECBUSD:
+class ZECBUSD(NamedTuple):
     """
         name: ZECBUSD
         precision: 8
@@ -99594,8 +97475,7 @@ ZECBUSD = ZECBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECETH:
+class ZECETH(NamedTuple):
     """
         name: ZECETH
         precision: 8
@@ -99641,8 +97521,7 @@ ZECETH = ZECETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECPAX:
+class ZECPAX(NamedTuple):
     """
         name: ZECPAX
         precision: 8
@@ -99688,8 +97567,7 @@ ZECPAX = ZECPAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECTUSD:
+class ZECTUSD(NamedTuple):
     """
         name: ZECTUSD
         precision: 8
@@ -99735,8 +97613,7 @@ ZECTUSD = ZECTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECUSDC:
+class ZECUSDC(NamedTuple):
     """
         name: ZECUSDC
         precision: 8
@@ -99782,8 +97659,7 @@ ZECUSDC = ZECUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZECUSDT:
+class ZECUSDT(NamedTuple):
     """
         name: ZECUSDT
         precision: 8
@@ -99829,8 +97705,7 @@ ZECUSDT = ZECUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZENBNB:
+class ZENBNB(NamedTuple):
     """
         name: ZENBNB
         precision: 8
@@ -99876,8 +97751,7 @@ ZENBNB = ZENBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZENBTC:
+class ZENBTC(NamedTuple):
     """
         name: ZENBTC
         precision: 8
@@ -99923,8 +97797,7 @@ ZENBTC = ZENBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZENBUSD:
+class ZENBUSD(NamedTuple):
     """
         name: ZENBUSD
         precision: 8
@@ -99970,8 +97843,7 @@ ZENBUSD = ZENBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZENETH:
+class ZENETH(NamedTuple):
     """
         name: ZENETH
         precision: 8
@@ -100017,8 +97889,7 @@ ZENETH = ZENETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZENUSDT:
+class ZENUSDT(NamedTuple):
     """
         name: ZENUSDT
         precision: 8
@@ -100064,8 +97935,7 @@ ZENUSDT = ZENUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILBIDR:
+class ZILBIDR(NamedTuple):
     """
         name: ZILBIDR
         precision: 2
@@ -100111,8 +97981,7 @@ ZILBIDR = ZILBIDR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILBNB:
+class ZILBNB(NamedTuple):
     """
         name: ZILBNB
         precision: 8
@@ -100158,8 +98027,7 @@ ZILBNB = ZILBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILBTC:
+class ZILBTC(NamedTuple):
     """
         name: ZILBTC
         precision: 8
@@ -100205,8 +98073,7 @@ ZILBTC = ZILBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILBUSD:
+class ZILBUSD(NamedTuple):
     """
         name: ZILBUSD
         precision: 8
@@ -100252,8 +98119,7 @@ ZILBUSD = ZILBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILETH:
+class ZILETH(NamedTuple):
     """
         name: ZILETH
         precision: 8
@@ -100299,8 +98165,7 @@ ZILETH = ZILETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILEUR:
+class ZILEUR(NamedTuple):
     """
         name: ZILEUR
         precision: 8
@@ -100346,8 +98211,7 @@ ZILEUR = ZILEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILTRY:
+class ZILTRY(NamedTuple):
     """
         name: ZILTRY
         precision: 8
@@ -100393,8 +98257,7 @@ ZILTRY = ZILTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZILUSDT:
+class ZILUSDT(NamedTuple):
     """
         name: ZILUSDT
         precision: 8
@@ -100440,8 +98303,7 @@ ZILUSDT = ZILUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRXBNB:
+class ZRXBNB(NamedTuple):
     """
         name: ZRXBNB
         precision: 8
@@ -100487,8 +98349,7 @@ ZRXBNB = ZRXBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRXBTC:
+class ZRXBTC(NamedTuple):
     """
         name: ZRXBTC
         precision: 8
@@ -100534,8 +98395,7 @@ ZRXBTC = ZRXBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRXBUSD:
+class ZRXBUSD(NamedTuple):
     """
         name: ZRXBUSD
         precision: 8
@@ -100581,8 +98441,7 @@ ZRXBUSD = ZRXBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRXETH:
+class ZRXETH(NamedTuple):
     """
         name: ZRXETH
         precision: 8
@@ -100628,8 +98487,7 @@ ZRXETH = ZRXETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRXUSDT:
+class ZRXUSDT(NamedTuple):
     """
         name: ZRXUSDT
         precision: 8

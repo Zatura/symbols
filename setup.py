@@ -6,7 +6,7 @@ long_description = open('README.md').read()
 
 setup(
     name='symbols',
-    version='0.1.0',
+    version='0.2.0',
     author='Matheus Tura',
     author_website='zatura.me',
     packages=find_packages(),
@@ -19,6 +19,10 @@ setup(
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: Implementation :: CPython",
@@ -27,5 +31,5 @@ setup(
         "Operating System :: Microsoft :: Windows",
         "Topic :: Software Development :: Libraries"
     ],
-    python_requires='>=3.10',
+    python_requires='>=3.6',
 )

@@ -1,8 +1,7 @@
-from dataclasses import dataclass
+from typing import NamedTuple
 
 
-@dataclass(slots=True, frozen=True)
-class ZERO0_USD:
+class ZERO0_USD(NamedTuple):
     """
         name: 00-USD
         precision: 0.0001
@@ -48,8 +47,7 @@ ZERO0_USD = ZERO0_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCH_BTC:
+class ONEINCH_BTC(NamedTuple):
     """
         name: 1INCH-BTC
         precision: 0.0000001
@@ -95,8 +93,7 @@ ONEINCH_BTC = ONEINCH_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCH_EUR:
+class ONEINCH_EUR(NamedTuple):
     """
         name: 1INCH-EUR
         precision: 0.001
@@ -142,8 +139,7 @@ ONEINCH_EUR = ONEINCH_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCH_GBP:
+class ONEINCH_GBP(NamedTuple):
     """
         name: 1INCH-GBP
         precision: 0.001
@@ -189,8 +185,7 @@ ONEINCH_GBP = ONEINCH_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ONEINCH_USD:
+class ONEINCH_USD(NamedTuple):
     """
         name: 1INCH-USD
         precision: 0.001
@@ -236,8 +231,7 @@ ONEINCH_USD = ONEINCH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVE_BTC:
+class AAVE_BTC(NamedTuple):
     """
         name: AAVE-BTC
         precision: 0.000001
@@ -283,8 +277,7 @@ AAVE_BTC = AAVE_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVE_EUR:
+class AAVE_EUR(NamedTuple):
     """
         name: AAVE-EUR
         precision: 0.01
@@ -330,8 +323,7 @@ AAVE_EUR = AAVE_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVE_GBP:
+class AAVE_GBP(NamedTuple):
     """
         name: AAVE-GBP
         precision: 0.01
@@ -377,8 +369,7 @@ AAVE_GBP = AAVE_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AAVE_USD:
+class AAVE_USD(NamedTuple):
     """
         name: AAVE-USD
         precision: 0.01
@@ -424,8 +415,7 @@ AAVE_USD = AAVE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ABT_USD:
+class ABT_USD(NamedTuple):
     """
         name: ABT-USD
         precision: 0.0001
@@ -471,8 +461,7 @@ ABT_USD = ABT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACH_USD:
+class ACH_USD(NamedTuple):
     """
         name: ACH-USD
         precision: 0.000001
@@ -518,8 +507,7 @@ ACH_USD = ACH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ACH_USDT:
+class ACH_USDT(NamedTuple):
     """
         name: ACH-USDT
         precision: 0.000001
@@ -565,8 +553,7 @@ ACH_USDT = ACH_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_BTC:
+class ADA_BTC(NamedTuple):
     """
         name: ADA-BTC
         precision: 0.00000001
@@ -612,8 +599,7 @@ ADA_BTC = ADA_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_ETH:
+class ADA_ETH(NamedTuple):
     """
         name: ADA-ETH
         precision: 0.000001
@@ -659,8 +645,7 @@ ADA_ETH = ADA_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_EUR:
+class ADA_EUR(NamedTuple):
     """
         name: ADA-EUR
         precision: 0.0001
@@ -706,8 +691,7 @@ ADA_EUR = ADA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_GBP:
+class ADA_GBP(NamedTuple):
     """
         name: ADA-GBP
         precision: 0.0001
@@ -753,8 +737,7 @@ ADA_GBP = ADA_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_USD:
+class ADA_USD(NamedTuple):
     """
         name: ADA-USD
         precision: 0.0001
@@ -800,8 +783,7 @@ ADA_USD = ADA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_USDC:
+class ADA_USDC(NamedTuple):
     """
         name: ADA-USDC
         precision: 0.001
@@ -847,8 +829,7 @@ ADA_USDC = ADA_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADA_USDT:
+class ADA_USDT(NamedTuple):
     """
         name: ADA-USDT
         precision: 0.001
@@ -894,8 +875,7 @@ ADA_USDT = ADA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AERGO_USD:
+class AERGO_USD(NamedTuple):
     """
         name: AERGO-USD
         precision: 0.0001
@@ -941,8 +921,7 @@ AERGO_USD = AERGO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLD_USD:
+class AGLD_USD(NamedTuple):
     """
         name: AGLD-USD
         precision: 0.0001
@@ -988,8 +967,7 @@ AGLD_USD = AGLD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AGLD_USDT:
+class AGLD_USDT(NamedTuple):
     """
         name: AGLD-USDT
         precision: 0.0001
@@ -1035,8 +1013,7 @@ AGLD_USDT = AGLD_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIOZ_USD:
+class AIOZ_USD(NamedTuple):
     """
         name: AIOZ-USD
         precision: 0.0001
@@ -1082,8 +1059,7 @@ AIOZ_USD = AIOZ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AIOZ_USDT:
+class AIOZ_USDT(NamedTuple):
     """
         name: AIOZ-USDT
         precision: 0.0001
@@ -1129,8 +1105,7 @@ AIOZ_USDT = AIOZ_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCX_EUR:
+class ALCX_EUR(NamedTuple):
     """
         name: ALCX-EUR
         precision: 0.01
@@ -1176,8 +1151,7 @@ ALCX_EUR = ALCX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCX_USD:
+class ALCX_USD(NamedTuple):
     """
         name: ALCX-USD
         precision: 0.01
@@ -1223,8 +1197,7 @@ ALCX_USD = ALCX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALCX_USDT:
+class ALCX_USDT(NamedTuple):
     """
         name: ALCX-USDT
         precision: 0.01
@@ -1270,8 +1243,7 @@ ALCX_USDT = ALCX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALEPH_USD:
+class ALEPH_USD(NamedTuple):
     """
         name: ALEPH-USD
         precision: 0.0001
@@ -1317,8 +1289,7 @@ ALEPH_USD = ALEPH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGO_BTC:
+class ALGO_BTC(NamedTuple):
     """
         name: ALGO-BTC
         precision: 0.00000001
@@ -1364,8 +1335,7 @@ ALGO_BTC = ALGO_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGO_EUR:
+class ALGO_EUR(NamedTuple):
     """
         name: ALGO-EUR
         precision: 0.0001
@@ -1411,8 +1381,7 @@ ALGO_EUR = ALGO_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGO_GBP:
+class ALGO_GBP(NamedTuple):
     """
         name: ALGO-GBP
         precision: 0.0001
@@ -1458,8 +1427,7 @@ ALGO_GBP = ALGO_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALGO_USD:
+class ALGO_USD(NamedTuple):
     """
         name: ALGO-USD
         precision: 0.0001
@@ -1505,8 +1473,7 @@ ALGO_USD = ALGO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ALICE_USD:
+class ALICE_USD(NamedTuple):
     """
         name: ALICE-USD
         precision: 0.001
@@ -1552,8 +1519,7 @@ ALICE_USD = ALICE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AMP_USD:
+class AMP_USD(NamedTuple):
     """
         name: AMP-USD
         precision: 0.00001
@@ -1599,8 +1565,7 @@ AMP_USD = AMP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKR_BTC:
+class ANKR_BTC(NamedTuple):
     """
         name: ANKR-BTC
         precision: 0.00000001
@@ -1646,8 +1611,7 @@ ANKR_BTC = ANKR_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKR_EUR:
+class ANKR_EUR(NamedTuple):
     """
         name: ANKR-EUR
         precision: 0.00001
@@ -1693,8 +1657,7 @@ ANKR_EUR = ANKR_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKR_GBP:
+class ANKR_GBP(NamedTuple):
     """
         name: ANKR-GBP
         precision: 0.00001
@@ -1740,8 +1703,7 @@ ANKR_GBP = ANKR_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANKR_USD:
+class ANKR_USD(NamedTuple):
     """
         name: ANKR-USD
         precision: 0.00001
@@ -1787,8 +1749,7 @@ ANKR_USD = ANKR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ANT_USD:
+class ANT_USD(NamedTuple):
     """
         name: ANT-USD
         precision: 0.01
@@ -1834,8 +1795,7 @@ ANT_USD = ANT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APE_EUR:
+class APE_EUR(NamedTuple):
     """
         name: APE-EUR
         precision: 0.001
@@ -1881,8 +1841,7 @@ APE_EUR = APE_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APE_USD:
+class APE_USD(NamedTuple):
     """
         name: APE-USD
         precision: 0.001
@@ -1928,8 +1887,7 @@ APE_USD = APE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APE_USDT:
+class APE_USDT(NamedTuple):
     """
         name: APE-USDT
         precision: 0.001
@@ -1975,8 +1933,7 @@ APE_USDT = APE_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3_USD:
+class API3_USD(NamedTuple):
     """
         name: API3-USD
         precision: 0.001
@@ -2022,8 +1979,7 @@ API3_USD = API3_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class API3_USDT:
+class API3_USDT(NamedTuple):
     """
         name: API3-USDT
         precision: 0.001
@@ -2069,8 +2025,7 @@ API3_USDT = API3_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APT_USD:
+class APT_USD(NamedTuple):
     """
         name: APT-USD
         precision: 0.01
@@ -2116,8 +2071,7 @@ APT_USD = APT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APT_USDT:
+class APT_USDT(NamedTuple):
     """
         name: APT-USDT
         precision: 0.01
@@ -2163,8 +2117,7 @@ APT_USDT = APT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPA_EUR:
+class ARPA_EUR(NamedTuple):
     """
         name: ARPA-EUR
         precision: 0.00001
@@ -2210,8 +2163,7 @@ ARPA_EUR = ARPA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPA_USD:
+class ARPA_USD(NamedTuple):
     """
         name: ARPA-USD
         precision: 0.0001
@@ -2257,8 +2209,7 @@ ARPA_USD = ARPA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ARPA_USDT:
+class ARPA_USDT(NamedTuple):
     """
         name: ARPA-USDT
         precision: 0.0001
@@ -2304,8 +2255,7 @@ ARPA_USDT = ARPA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASM_USD:
+class ASM_USD(NamedTuple):
     """
         name: ASM-USD
         precision: 0.00001
@@ -2351,8 +2301,7 @@ ASM_USD = ASM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ASM_USDT:
+class ASM_USDT(NamedTuple):
     """
         name: ASM-USDT
         precision: 0.00001
@@ -2398,8 +2347,7 @@ ASM_USDT = ASM_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AST_USD:
+class AST_USD(NamedTuple):
     """
         name: AST-USD
         precision: 0.0001
@@ -2445,8 +2393,7 @@ AST_USD = AST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATA_USD:
+class ATA_USD(NamedTuple):
     """
         name: ATA-USD
         precision: 0.0001
@@ -2492,8 +2439,7 @@ ATA_USD = ATA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATA_USDT:
+class ATA_USDT(NamedTuple):
     """
         name: ATA-USDT
         precision: 0.0001
@@ -2539,8 +2485,7 @@ ATA_USDT = ATA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOM_BTC:
+class ATOM_BTC(NamedTuple):
     """
         name: ATOM-BTC
         precision: 0.0000001
@@ -2586,8 +2531,7 @@ ATOM_BTC = ATOM_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOM_EUR:
+class ATOM_EUR(NamedTuple):
     """
         name: ATOM-EUR
         precision: 0.01
@@ -2633,8 +2577,7 @@ ATOM_EUR = ATOM_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOM_GBP:
+class ATOM_GBP(NamedTuple):
     """
         name: ATOM-GBP
         precision: 0.01
@@ -2680,8 +2623,7 @@ ATOM_GBP = ATOM_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOM_USD:
+class ATOM_USD(NamedTuple):
     """
         name: ATOM-USD
         precision: 0.001
@@ -2727,8 +2669,7 @@ ATOM_USD = ATOM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ATOM_USDT:
+class ATOM_USDT(NamedTuple):
     """
         name: ATOM-USDT
         precision: 0.01
@@ -2774,8 +2715,7 @@ ATOM_USDT = ATOM_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTION_EUR:
+class AUCTION_EUR(NamedTuple):
     """
         name: AUCTION-EUR
         precision: 0.01
@@ -2821,8 +2761,7 @@ AUCTION_EUR = AUCTION_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTION_USD:
+class AUCTION_USD(NamedTuple):
     """
         name: AUCTION-USD
         precision: 0.01
@@ -2868,8 +2807,7 @@ AUCTION_USD = AUCTION_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AUCTION_USDT:
+class AUCTION_USDT(NamedTuple):
     """
         name: AUCTION-USDT
         precision: 0.01
@@ -2915,8 +2853,7 @@ AUCTION_USDT = AUCTION_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AURORA_USD:
+class AURORA_USD(NamedTuple):
     """
         name: AURORA-USD
         precision: 0.001
@@ -2962,8 +2899,7 @@ AURORA_USD = AURORA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAX_BTC:
+class AVAX_BTC(NamedTuple):
     """
         name: AVAX-BTC
         precision: 0.00000001
@@ -3009,8 +2945,7 @@ AVAX_BTC = AVAX_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAX_EUR:
+class AVAX_EUR(NamedTuple):
     """
         name: AVAX-EUR
         precision: 0.01
@@ -3056,8 +2991,7 @@ AVAX_EUR = AVAX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAX_USD:
+class AVAX_USD(NamedTuple):
     """
         name: AVAX-USD
         precision: 0.01
@@ -3103,8 +3037,7 @@ AVAX_USD = AVAX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAX_USDT:
+class AVAX_USDT(NamedTuple):
     """
         name: AVAX-USDT
         precision: 0.01
@@ -3150,8 +3083,7 @@ AVAX_USDT = AVAX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVT_USD:
+class AVT_USD(NamedTuple):
     """
         name: AVT-USD
         precision: 0.01
@@ -3197,8 +3129,7 @@ AVT_USD = AVT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXS_BTC:
+class AXS_BTC(NamedTuple):
     """
         name: AXS-BTC
         precision: 0.0000001
@@ -3244,8 +3175,7 @@ AXS_BTC = AXS_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXS_EUR:
+class AXS_EUR(NamedTuple):
     """
         name: AXS-EUR
         precision: 0.01
@@ -3291,8 +3221,7 @@ AXS_EUR = AXS_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXS_USD:
+class AXS_USD(NamedTuple):
     """
         name: AXS-USD
         precision: 0.01
@@ -3338,8 +3267,7 @@ AXS_USD = AXS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXS_USDT:
+class AXS_USDT(NamedTuple):
     """
         name: AXS-USDT
         precision: 0.01
@@ -3385,8 +3313,7 @@ AXS_USDT = AXS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGER_EUR:
+class BADGER_EUR(NamedTuple):
     """
         name: BADGER-EUR
         precision: 0.01
@@ -3432,8 +3359,7 @@ BADGER_EUR = BADGER_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGER_USD:
+class BADGER_USD(NamedTuple):
     """
         name: BADGER-USD
         precision: 0.01
@@ -3479,8 +3405,7 @@ BADGER_USD = BADGER_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BADGER_USDT:
+class BADGER_USDT(NamedTuple):
     """
         name: BADGER-USDT
         precision: 0.01
@@ -3526,8 +3451,7 @@ BADGER_USDT = BADGER_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAL_BTC:
+class BAL_BTC(NamedTuple):
     """
         name: BAL-BTC
         precision: 0.00000001
@@ -3573,8 +3497,7 @@ BAL_BTC = BAL_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAL_USD:
+class BAL_USD(NamedTuple):
     """
         name: BAL-USD
         precision: 0.01
@@ -3620,8 +3543,7 @@ BAL_USD = BAL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAND_BTC:
+class BAND_BTC(NamedTuple):
     """
         name: BAND-BTC
         precision: 0.00000001
@@ -3667,8 +3589,7 @@ BAND_BTC = BAND_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAND_EUR:
+class BAND_EUR(NamedTuple):
     """
         name: BAND-EUR
         precision: 0.01
@@ -3714,8 +3635,7 @@ BAND_EUR = BAND_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAND_GBP:
+class BAND_GBP(NamedTuple):
     """
         name: BAND-GBP
         precision: 0.001
@@ -3761,8 +3681,7 @@ BAND_GBP = BAND_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAND_USD:
+class BAND_USD(NamedTuple):
     """
         name: BAND-USD
         precision: 0.001
@@ -3808,8 +3727,7 @@ BAND_USD = BAND_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAT_BTC:
+class BAT_BTC(NamedTuple):
     """
         name: BAT-BTC
         precision: 0.00000001
@@ -3855,8 +3773,7 @@ BAT_BTC = BAT_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAT_ETH:
+class BAT_ETH(NamedTuple):
     """
         name: BAT-ETH
         precision: 0.00000001
@@ -3902,8 +3819,7 @@ BAT_ETH = BAT_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAT_EUR:
+class BAT_EUR(NamedTuple):
     """
         name: BAT-EUR
         precision: 0.00001
@@ -3949,8 +3865,7 @@ BAT_EUR = BAT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAT_USD:
+class BAT_USD(NamedTuple):
     """
         name: BAT-USD
         precision: 0.00001
@@ -3996,8 +3911,7 @@ BAT_USD = BAT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BAT_USDC:
+class BAT_USDC(NamedTuple):
     """
         name: BAT-USDC
         precision: 0.000001
@@ -4043,8 +3957,7 @@ BAT_USDC = BAT_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCH_BTC:
+class BCH_BTC(NamedTuple):
     """
         name: BCH-BTC
         precision: 0.000001
@@ -4090,8 +4003,7 @@ BCH_BTC = BCH_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCH_EUR:
+class BCH_EUR(NamedTuple):
     """
         name: BCH-EUR
         precision: 0.01
@@ -4137,8 +4049,7 @@ BCH_EUR = BCH_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCH_GBP:
+class BCH_GBP(NamedTuple):
     """
         name: BCH-GBP
         precision: 0.01
@@ -4184,8 +4095,7 @@ BCH_GBP = BCH_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCH_USD:
+class BCH_USD(NamedTuple):
     """
         name: BCH-USD
         precision: 0.01
@@ -4231,8 +4141,7 @@ BCH_USD = BCH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICO_EUR:
+class BICO_EUR(NamedTuple):
     """
         name: BICO-EUR
         precision: 0.0001
@@ -4278,8 +4187,7 @@ BICO_EUR = BICO_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICO_USD:
+class BICO_USD(NamedTuple):
     """
         name: BICO-USD
         precision: 0.0001
@@ -4325,8 +4233,7 @@ BICO_USD = BICO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BICO_USDT:
+class BICO_USDT(NamedTuple):
     """
         name: BICO-USDT
         precision: 0.0001
@@ -4372,8 +4279,7 @@ BICO_USDT = BICO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BIT_USD:
+class BIT_USD(NamedTuple):
     """
         name: BIT-USD
         precision: 0.0001
@@ -4419,8 +4325,7 @@ BIT_USD = BIT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BIT_USDT:
+class BIT_USDT(NamedTuple):
     """
         name: BIT-USDT
         precision: 0.0001
@@ -4466,8 +4371,7 @@ BIT_USDT = BIT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BLZ_USD:
+class BLZ_USD(NamedTuple):
     """
         name: BLZ-USD
         precision: 0.0001
@@ -4513,8 +4417,7 @@ BLZ_USD = BLZ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNT_BTC:
+class BNT_BTC(NamedTuple):
     """
         name: BNT-BTC
         precision: 0.00000001
@@ -4560,8 +4463,7 @@ BNT_BTC = BNT_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNT_EUR:
+class BNT_EUR(NamedTuple):
     """
         name: BNT-EUR
         precision: 0.001
@@ -4607,8 +4509,7 @@ BNT_EUR = BNT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNT_GBP:
+class BNT_GBP(NamedTuple):
     """
         name: BNT-GBP
         precision: 0.0001
@@ -4654,8 +4555,7 @@ BNT_GBP = BNT_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNT_USD:
+class BNT_USD(NamedTuple):
     """
         name: BNT-USD
         precision: 0.0001
@@ -4701,8 +4601,7 @@ BNT_USD = BNT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOBA_USD:
+class BOBA_USD(NamedTuple):
     """
         name: BOBA-USD
         precision: 0.0001
@@ -4748,8 +4647,7 @@ BOBA_USD = BOBA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOBA_USDT:
+class BOBA_USDT(NamedTuple):
     """
         name: BOBA-USDT
         precision: 0.0001
@@ -4795,8 +4693,7 @@ BOBA_USDT = BOBA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOND_USD:
+class BOND_USD(NamedTuple):
     """
         name: BOND-USD
         precision: 0.01
@@ -4842,8 +4739,7 @@ BOND_USD = BOND_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BOND_USDT:
+class BOND_USDT(NamedTuple):
     """
         name: BOND-USDT
         precision: 0.001
@@ -4889,8 +4785,7 @@ BOND_USDT = BOND_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTC_EUR:
+class BTC_EUR(NamedTuple):
     """
         name: BTC-EUR
         precision: 0.01
@@ -4936,8 +4831,7 @@ BTC_EUR = BTC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTC_GBP:
+class BTC_GBP(NamedTuple):
     """
         name: BTC-GBP
         precision: 0.01
@@ -4983,8 +4877,7 @@ BTC_GBP = BTC_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTC_USD:
+class BTC_USD(NamedTuple):
     """
         name: BTC-USD
         precision: 0.01
@@ -5030,8 +4923,7 @@ BTC_USD = BTC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTC_USDC:
+class BTC_USDC(NamedTuple):
     """
         name: BTC-USDC
         precision: 1
@@ -5077,8 +4969,7 @@ BTC_USDC = BTC_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTC_USDT:
+class BTC_USDT(NamedTuple):
     """
         name: BTC-USDT
         precision: 0.01
@@ -5124,8 +5015,7 @@ BTC_USDT = BTC_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTRST_BTC:
+class BTRST_BTC(NamedTuple):
     """
         name: BTRST-BTC
         precision: 0.00000001
@@ -5171,8 +5061,7 @@ BTRST_BTC = BTRST_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTRST_EUR:
+class BTRST_EUR(NamedTuple):
     """
         name: BTRST-EUR
         precision: 0.01
@@ -5218,8 +5107,7 @@ BTRST_EUR = BTRST_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTRST_GBP:
+class BTRST_GBP(NamedTuple):
     """
         name: BTRST-GBP
         precision: 0.001
@@ -5265,8 +5153,7 @@ BTRST_GBP = BTRST_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTRST_USD:
+class BTRST_USD(NamedTuple):
     """
         name: BTRST-USD
         precision: 0.001
@@ -5312,8 +5199,7 @@ BTRST_USD = BTRST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BTRST_USDT:
+class BTRST_USDT(NamedTuple):
     """
         name: BTRST-USDT
         precision: 0.001
@@ -5359,8 +5245,7 @@ BTRST_USDT = BTRST_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BUSD_USD:
+class BUSD_USD(NamedTuple):
     """
         name: BUSD-USD
         precision: 0.001
@@ -5406,8 +5291,7 @@ BUSD_USD = BUSD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98_USD:
+class C98_USD(NamedTuple):
     """
         name: C98-USD
         precision: 0.0001
@@ -5453,8 +5337,7 @@ C98_USD = C98_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class C98_USDT:
+class C98_USDT(NamedTuple):
     """
         name: C98-USDT
         precision: 0.0001
@@ -5500,8 +5383,7 @@ C98_USDT = C98_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CBETH_ETH:
+class CBETH_ETH(NamedTuple):
     """
         name: CBETH-ETH
         precision: 0.00001
@@ -5547,8 +5429,7 @@ CBETH_ETH = CBETH_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CBETH_USD:
+class CBETH_USD(NamedTuple):
     """
         name: CBETH-USD
         precision: 0.01
@@ -5594,8 +5475,7 @@ CBETH_USD = CBETH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CELR_USD:
+class CELR_USD(NamedTuple):
     """
         name: CELR-USD
         precision: 0.00001
@@ -5641,8 +5521,7 @@ CELR_USD = CELR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CGLD_BTC:
+class CGLD_BTC(NamedTuple):
     """
         name: CGLD-BTC
         precision: 0.00000001
@@ -5688,8 +5567,7 @@ CGLD_BTC = CGLD_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CGLD_EUR:
+class CGLD_EUR(NamedTuple):
     """
         name: CGLD-EUR
         precision: 0.01
@@ -5735,8 +5613,7 @@ CGLD_EUR = CGLD_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CGLD_GBP:
+class CGLD_GBP(NamedTuple):
     """
         name: CGLD-GBP
         precision: 0.001
@@ -5782,8 +5659,7 @@ CGLD_GBP = CGLD_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CGLD_USD:
+class CGLD_USD(NamedTuple):
     """
         name: CGLD-USD
         precision: 0.001
@@ -5829,8 +5705,7 @@ CGLD_USD = CGLD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZ_EUR:
+class CHZ_EUR(NamedTuple):
     """
         name: CHZ-EUR
         precision: 0.0001
@@ -5876,8 +5751,7 @@ CHZ_EUR = CHZ_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZ_GBP:
+class CHZ_GBP(NamedTuple):
     """
         name: CHZ-GBP
         precision: 0.0001
@@ -5923,8 +5797,7 @@ CHZ_GBP = CHZ_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZ_USD:
+class CHZ_USD(NamedTuple):
     """
         name: CHZ-USD
         precision: 0.0001
@@ -5970,8 +5843,7 @@ CHZ_USD = CHZ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CHZ_USDT:
+class CHZ_USDT(NamedTuple):
     """
         name: CHZ-USDT
         precision: 0.0001
@@ -6017,8 +5889,7 @@ CHZ_USDT = CHZ_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLV_EUR:
+class CLV_EUR(NamedTuple):
     """
         name: CLV-EUR
         precision: 0.00001
@@ -6064,8 +5935,7 @@ CLV_EUR = CLV_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLV_GBP:
+class CLV_GBP(NamedTuple):
     """
         name: CLV-GBP
         precision: 0.0001
@@ -6111,8 +5981,7 @@ CLV_GBP = CLV_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLV_USD:
+class CLV_USD(NamedTuple):
     """
         name: CLV-USD
         precision: 0.0001
@@ -6158,8 +6027,7 @@ CLV_USD = CLV_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CLV_USDT:
+class CLV_USDT(NamedTuple):
     """
         name: CLV-USDT
         precision: 0.0001
@@ -6205,8 +6073,7 @@ CLV_USDT = CLV_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMP_BTC:
+class COMP_BTC(NamedTuple):
     """
         name: COMP-BTC
         precision: 0.000001
@@ -6252,8 +6119,7 @@ COMP_BTC = COMP_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COMP_USD:
+class COMP_USD(NamedTuple):
     """
         name: COMP-USD
         precision: 0.01
@@ -6299,8 +6165,7 @@ COMP_USD = COMP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COTI_USD:
+class COTI_USD(NamedTuple):
     """
         name: COTI-USD
         precision: 0.0001
@@ -6346,8 +6211,7 @@ COTI_USD = COTI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COVAL_USD:
+class COVAL_USD(NamedTuple):
     """
         name: COVAL-USD
         precision: 0.00001
@@ -6393,8 +6257,7 @@ COVAL_USD = COVAL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class COVAL_USDT:
+class COVAL_USDT(NamedTuple):
     """
         name: COVAL-USDT
         precision: 0.00001
@@ -6440,8 +6303,7 @@ COVAL_USDT = COVAL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRO_EUR:
+class CRO_EUR(NamedTuple):
     """
         name: CRO-EUR
         precision: 0.0001
@@ -6487,8 +6349,7 @@ CRO_EUR = CRO_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRO_USD:
+class CRO_USD(NamedTuple):
     """
         name: CRO-USD
         precision: 0.0001
@@ -6534,8 +6395,7 @@ CRO_USD = CRO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRO_USDT:
+class CRO_USDT(NamedTuple):
     """
         name: CRO-USDT
         precision: 0.0001
@@ -6581,8 +6441,7 @@ CRO_USDT = CRO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRPT_USD:
+class CRPT_USD(NamedTuple):
     """
         name: CRPT-USD
         precision: 0.0001
@@ -6628,8 +6487,7 @@ CRPT_USD = CRPT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRV_BTC:
+class CRV_BTC(NamedTuple):
     """
         name: CRV-BTC
         precision: 0.0000001
@@ -6675,8 +6533,7 @@ CRV_BTC = CRV_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRV_EUR:
+class CRV_EUR(NamedTuple):
     """
         name: CRV-EUR
         precision: 0.0001
@@ -6722,8 +6579,7 @@ CRV_EUR = CRV_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRV_GBP:
+class CRV_GBP(NamedTuple):
     """
         name: CRV-GBP
         precision: 0.0001
@@ -6769,8 +6625,7 @@ CRV_GBP = CRV_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CRV_USD:
+class CRV_USD(NamedTuple):
     """
         name: CRV-USD
         precision: 0.0001
@@ -6816,8 +6671,7 @@ CRV_USD = CRV_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSI_BTC:
+class CTSI_BTC(NamedTuple):
     """
         name: CTSI-BTC
         precision: 0.0000001
@@ -6863,8 +6717,7 @@ CTSI_BTC = CTSI_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTSI_USD:
+class CTSI_USD(NamedTuple):
     """
         name: CTSI-USD
         precision: 0.0001
@@ -6910,8 +6763,7 @@ CTSI_USD = CTSI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTX_EUR:
+class CTX_EUR(NamedTuple):
     """
         name: CTX-EUR
         precision: 0.01
@@ -6957,8 +6809,7 @@ CTX_EUR = CTX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTX_USD:
+class CTX_USD(NamedTuple):
     """
         name: CTX-USD
         precision: 0.01
@@ -7004,8 +6855,7 @@ CTX_USD = CTX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CTX_USDT:
+class CTX_USDT(NamedTuple):
     """
         name: CTX-USDT
         precision: 0.01
@@ -7051,8 +6901,7 @@ CTX_USDT = CTX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVC_USD:
+class CVC_USD(NamedTuple):
     """
         name: CVC-USD
         precision: 0.0001
@@ -7098,8 +6947,7 @@ CVC_USD = CVC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVC_USDC:
+class CVC_USDC(NamedTuple):
     """
         name: CVC-USDC
         precision: 0.000001
@@ -7145,8 +6993,7 @@ CVC_USDC = CVC_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CVX_USD:
+class CVX_USD(NamedTuple):
     """
         name: CVX-USD
         precision: 0.001
@@ -7192,8 +7039,7 @@ CVX_USD = CVX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAI_USD:
+class DAI_USD(NamedTuple):
     """
         name: DAI-USD
         precision: 0.0001
@@ -7239,8 +7085,7 @@ DAI_USD = DAI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAI_USDC:
+class DAI_USDC(NamedTuple):
     """
         name: DAI-USDC
         precision: 0.0001
@@ -7286,8 +7131,7 @@ DAI_USDC = DAI_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DAR_USD:
+class DAR_USD(NamedTuple):
     """
         name: DAR-USD
         precision: 0.001
@@ -7333,8 +7177,7 @@ DAR_USD = DAR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASH_BTC:
+class DASH_BTC(NamedTuple):
     """
         name: DASH-BTC
         precision: 0.000001
@@ -7380,8 +7223,7 @@ DASH_BTC = DASH_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DASH_USD:
+class DASH_USD(NamedTuple):
     """
         name: DASH-USD
         precision: 0.01
@@ -7427,8 +7269,7 @@ DASH_USD = DASH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DDX_EUR:
+class DDX_EUR(NamedTuple):
     """
         name: DDX-EUR
         precision: 0.0001
@@ -7474,8 +7315,7 @@ DDX_EUR = DDX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DDX_USD:
+class DDX_USD(NamedTuple):
     """
         name: DDX-USD
         precision: 0.0001
@@ -7521,8 +7361,7 @@ DDX_USD = DDX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DDX_USDT:
+class DDX_USDT(NamedTuple):
     """
         name: DDX-USDT
         precision: 0.0001
@@ -7568,8 +7407,7 @@ DDX_USDT = DDX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DESO_EUR:
+class DESO_EUR(NamedTuple):
     """
         name: DESO-EUR
         precision: 0.01
@@ -7615,8 +7453,7 @@ DESO_EUR = DESO_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DESO_USD:
+class DESO_USD(NamedTuple):
     """
         name: DESO-USD
         precision: 0.01
@@ -7662,8 +7499,7 @@ DESO_USD = DESO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DESO_USDT:
+class DESO_USDT(NamedTuple):
     """
         name: DESO-USDT
         precision: 0.01
@@ -7709,8 +7545,7 @@ DESO_USDT = DESO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DEXT_USD:
+class DEXT_USD(NamedTuple):
     """
         name: DEXT-USD
         precision: 0.0001
@@ -7756,8 +7591,7 @@ DEXT_USD = DEXT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIA_EUR:
+class DIA_EUR(NamedTuple):
     """
         name: DIA-EUR
         precision: 0.00001
@@ -7803,8 +7637,7 @@ DIA_EUR = DIA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIA_USD:
+class DIA_USD(NamedTuple):
     """
         name: DIA-USD
         precision: 0.00001
@@ -7850,8 +7683,7 @@ DIA_USD = DIA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DIA_USDT:
+class DIA_USDT(NamedTuple):
     """
         name: DIA-USDT
         precision: 0.00001
@@ -7897,8 +7729,7 @@ DIA_USDT = DIA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNT_USD:
+class DNT_USD(NamedTuple):
     """
         name: DNT-USD
         precision: 0.0001
@@ -7944,8 +7775,7 @@ DNT_USD = DNT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DNT_USDC:
+class DNT_USDC(NamedTuple):
     """
         name: DNT-USDC
         precision: 0.000001
@@ -7991,8 +7821,7 @@ DNT_USDC = DNT_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGE_BTC:
+class DOGE_BTC(NamedTuple):
     """
         name: DOGE-BTC
         precision: 0.00000001
@@ -8038,8 +7867,7 @@ DOGE_BTC = DOGE_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGE_EUR:
+class DOGE_EUR(NamedTuple):
     """
         name: DOGE-EUR
         precision: 0.0001
@@ -8085,8 +7913,7 @@ DOGE_EUR = DOGE_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGE_GBP:
+class DOGE_GBP(NamedTuple):
     """
         name: DOGE-GBP
         precision: 0.0001
@@ -8132,8 +7959,7 @@ DOGE_GBP = DOGE_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGE_USD:
+class DOGE_USD(NamedTuple):
     """
         name: DOGE-USD
         precision: 0.00001
@@ -8179,8 +8005,7 @@ DOGE_USD = DOGE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGE_USDT:
+class DOGE_USDT(NamedTuple):
     """
         name: DOGE-USDT
         precision: 0.0001
@@ -8226,8 +8051,7 @@ DOGE_USDT = DOGE_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOT_BTC:
+class DOT_BTC(NamedTuple):
     """
         name: DOT-BTC
         precision: 0.0000001
@@ -8273,8 +8097,7 @@ DOT_BTC = DOT_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOT_EUR:
+class DOT_EUR(NamedTuple):
     """
         name: DOT-EUR
         precision: 0.01
@@ -8320,8 +8143,7 @@ DOT_EUR = DOT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOT_GBP:
+class DOT_GBP(NamedTuple):
     """
         name: DOT-GBP
         precision: 0.01
@@ -8367,8 +8189,7 @@ DOT_GBP = DOT_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOT_USD:
+class DOT_USD(NamedTuple):
     """
         name: DOT-USD
         precision: 0.001
@@ -8414,8 +8235,7 @@ DOT_USD = DOT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOT_USDT:
+class DOT_USDT(NamedTuple):
     """
         name: DOT-USDT
         precision: 0.01
@@ -8461,8 +8281,7 @@ DOT_USDT = DOT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREP_USD:
+class DREP_USD(NamedTuple):
     """
         name: DREP-USD
         precision: 0.0001
@@ -8508,8 +8327,7 @@ DREP_USD = DREP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DREP_USDT:
+class DREP_USDT(NamedTuple):
     """
         name: DREP-USDT
         precision: 0.0001
@@ -8555,8 +8373,7 @@ DREP_USDT = DREP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYP_USD:
+class DYP_USD(NamedTuple):
     """
         name: DYP-USD
         precision: 0.00001
@@ -8602,8 +8419,7 @@ DYP_USD = DYP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DYP_USDT:
+class DYP_USDT(NamedTuple):
     """
         name: DYP-USDT
         precision: 0.00001
@@ -8649,8 +8465,7 @@ DYP_USDT = DYP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EGLD_USD:
+class EGLD_USD(NamedTuple):
     """
         name: EGLD-USD
         precision: 0.01
@@ -8696,8 +8511,7 @@ EGLD_USD = EGLD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELA_USD:
+class ELA_USD(NamedTuple):
     """
         name: ELA-USD
         precision: 0.001
@@ -8743,8 +8557,7 @@ ELA_USD = ELA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ELA_USDT:
+class ELA_USDT(NamedTuple):
     """
         name: ELA-USDT
         precision: 0.001
@@ -8790,8 +8603,7 @@ ELA_USDT = ELA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJ_BTC:
+class ENJ_BTC(NamedTuple):
     """
         name: ENJ-BTC
         precision: 0.00000001
@@ -8837,8 +8649,7 @@ ENJ_BTC = ENJ_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJ_USD:
+class ENJ_USD(NamedTuple):
     """
         name: ENJ-USD
         precision: 0.001
@@ -8884,8 +8695,7 @@ ENJ_USD = ENJ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENJ_USDT:
+class ENJ_USDT(NamedTuple):
     """
         name: ENJ-USDT
         precision: 0.001
@@ -8931,8 +8741,7 @@ ENJ_USDT = ENJ_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENS_EUR:
+class ENS_EUR(NamedTuple):
     """
         name: ENS-EUR
         precision: 0.01
@@ -8978,8 +8787,7 @@ ENS_EUR = ENS_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENS_USD:
+class ENS_USD(NamedTuple):
     """
         name: ENS-USD
         precision: 0.01
@@ -9025,8 +8833,7 @@ ENS_USD = ENS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ENS_USDT:
+class ENS_USDT(NamedTuple):
     """
         name: ENS-USDT
         precision: 0.01
@@ -9072,8 +8879,7 @@ ENS_USDT = ENS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOS_BTC:
+class EOS_BTC(NamedTuple):
     """
         name: EOS-BTC
         precision: 0.00000001
@@ -9119,8 +8925,7 @@ EOS_BTC = EOS_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOS_EUR:
+class EOS_EUR(NamedTuple):
     """
         name: EOS-EUR
         precision: 0.0001
@@ -9166,8 +8971,7 @@ EOS_EUR = EOS_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOS_USD:
+class EOS_USD(NamedTuple):
     """
         name: EOS-USD
         precision: 0.0001
@@ -9213,8 +9017,7 @@ EOS_USD = EOS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERN_EUR:
+class ERN_EUR(NamedTuple):
     """
         name: ERN-EUR
         precision: 0.01
@@ -9260,8 +9063,7 @@ ERN_EUR = ERN_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERN_USD:
+class ERN_USD(NamedTuple):
     """
         name: ERN-USD
         precision: 0.01
@@ -9307,8 +9109,7 @@ ERN_USD = ERN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ERN_USDT:
+class ERN_USDT(NamedTuple):
     """
         name: ERN-USDT
         precision: 0.01
@@ -9354,8 +9155,7 @@ ERN_USDT = ERN_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETC_BTC:
+class ETC_BTC(NamedTuple):
     """
         name: ETC-BTC
         precision: 0.000001
@@ -9401,8 +9201,7 @@ ETC_BTC = ETC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETC_EUR:
+class ETC_EUR(NamedTuple):
     """
         name: ETC-EUR
         precision: 0.01
@@ -9448,8 +9247,7 @@ ETC_EUR = ETC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETC_GBP:
+class ETC_GBP(NamedTuple):
     """
         name: ETC-GBP
         precision: 0.01
@@ -9495,8 +9293,7 @@ ETC_GBP = ETC_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETC_USD:
+class ETC_USD(NamedTuple):
     """
         name: ETC-USD
         precision: 0.01
@@ -9542,8 +9339,7 @@ ETC_USD = ETC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_BTC:
+class ETH_BTC(NamedTuple):
     """
         name: ETH-BTC
         precision: 0.00001
@@ -9589,8 +9385,7 @@ ETH_BTC = ETH_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_DAI:
+class ETH_DAI(NamedTuple):
     """
         name: ETH-DAI
         precision: 0.01
@@ -9636,8 +9431,7 @@ ETH_DAI = ETH_DAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_EUR:
+class ETH_EUR(NamedTuple):
     """
         name: ETH-EUR
         precision: 0.01
@@ -9683,8 +9477,7 @@ ETH_EUR = ETH_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_GBP:
+class ETH_GBP(NamedTuple):
     """
         name: ETH-GBP
         precision: 0.01
@@ -9730,8 +9523,7 @@ ETH_GBP = ETH_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_USD:
+class ETH_USD(NamedTuple):
     """
         name: ETH-USD
         precision: 0.01
@@ -9777,8 +9569,7 @@ ETH_USD = ETH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_USDC:
+class ETH_USDC(NamedTuple):
     """
         name: ETH-USDC
         precision: 1
@@ -9824,8 +9615,7 @@ ETH_USDC = ETH_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_USDT:
+class ETH_USDT(NamedTuple):
     """
         name: ETH-USDT
         precision: 0.01
@@ -9871,8 +9661,7 @@ ETH_USDT = ETH_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARM_USD:
+class FARM_USD(NamedTuple):
     """
         name: FARM-USD
         precision: 0.01
@@ -9918,8 +9707,7 @@ FARM_USD = FARM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FARM_USDT:
+class FARM_USDT(NamedTuple):
     """
         name: FARM-USDT
         precision: 0.01
@@ -9965,8 +9753,7 @@ FARM_USDT = FARM_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FET_USD:
+class FET_USD(NamedTuple):
     """
         name: FET-USD
         precision: 0.0001
@@ -10012,8 +9799,7 @@ FET_USD = FET_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FET_USDT:
+class FET_USDT(NamedTuple):
     """
         name: FET-USDT
         precision: 0.0001
@@ -10059,8 +9845,7 @@ FET_USDT = FET_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDA_EUR:
+class FIDA_EUR(NamedTuple):
     """
         name: FIDA-EUR
         precision: 0.0001
@@ -10106,8 +9891,7 @@ FIDA_EUR = FIDA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDA_USD:
+class FIDA_USD(NamedTuple):
     """
         name: FIDA-USD
         precision: 0.0001
@@ -10153,8 +9937,7 @@ FIDA_USD = FIDA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIDA_USDT:
+class FIDA_USDT(NamedTuple):
     """
         name: FIDA-USDT
         precision: 0.0001
@@ -10200,8 +9983,7 @@ FIDA_USDT = FIDA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIL_BTC:
+class FIL_BTC(NamedTuple):
     """
         name: FIL-BTC
         precision: 0.00000001
@@ -10247,8 +10029,7 @@ FIL_BTC = FIL_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIL_EUR:
+class FIL_EUR(NamedTuple):
     """
         name: FIL-EUR
         precision: 0.01
@@ -10294,8 +10075,7 @@ FIL_EUR = FIL_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIL_GBP:
+class FIL_GBP(NamedTuple):
     """
         name: FIL-GBP
         precision: 0.01
@@ -10341,8 +10121,7 @@ FIL_GBP = FIL_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIL_USD:
+class FIL_USD(NamedTuple):
     """
         name: FIL-USD
         precision: 0.001
@@ -10388,8 +10167,7 @@ FIL_USD = FIL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIS_USD:
+class FIS_USD(NamedTuple):
     """
         name: FIS-USD
         precision: 0.0001
@@ -10435,8 +10213,7 @@ FIS_USD = FIS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FIS_USDT:
+class FIS_USDT(NamedTuple):
     """
         name: FIS-USDT
         precision: 0.0001
@@ -10482,8 +10259,7 @@ FIS_USDT = FIS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOW_USD:
+class FLOW_USD(NamedTuple):
     """
         name: FLOW-USD
         precision: 0.001
@@ -10529,8 +10305,7 @@ FLOW_USD = FLOW_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLOW_USDT:
+class FLOW_USDT(NamedTuple):
     """
         name: FLOW-USDT
         precision: 0.001
@@ -10576,8 +10351,7 @@ FLOW_USDT = FLOW_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORT_USD:
+class FORT_USD(NamedTuple):
     """
         name: FORT-USD
         precision: 0.0001
@@ -10623,8 +10397,7 @@ FORT_USD = FORT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORT_USDT:
+class FORT_USDT(NamedTuple):
     """
         name: FORT-USDT
         precision: 0.0001
@@ -10670,8 +10443,7 @@ FORT_USDT = FORT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTH_BTC:
+class FORTH_BTC(NamedTuple):
     """
         name: FORTH-BTC
         precision: 0.0000001
@@ -10717,8 +10489,7 @@ FORTH_BTC = FORTH_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTH_EUR:
+class FORTH_EUR(NamedTuple):
     """
         name: FORTH-EUR
         precision: 0.01
@@ -10764,8 +10535,7 @@ FORTH_EUR = FORTH_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTH_GBP:
+class FORTH_GBP(NamedTuple):
     """
         name: FORTH-GBP
         precision: 0.001
@@ -10811,8 +10581,7 @@ FORTH_GBP = FORTH_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FORTH_USD:
+class FORTH_USD(NamedTuple):
     """
         name: FORTH-USD
         precision: 0.01
@@ -10858,8 +10627,7 @@ FORTH_USD = FORTH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FOX_USD:
+class FOX_USD(NamedTuple):
     """
         name: FOX-USD
         precision: 0.0001
@@ -10905,8 +10673,7 @@ FOX_USD = FOX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FOX_USDT:
+class FOX_USDT(NamedTuple):
     """
         name: FOX-USDT
         precision: 0.0001
@@ -10952,8 +10719,7 @@ FOX_USDT = FOX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FX_USD:
+class FX_USD(NamedTuple):
     """
         name: FX-USD
         precision: 0.0001
@@ -10999,8 +10765,7 @@ FX_USD = FX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GAL_USD:
+class GAL_USD(NamedTuple):
     """
         name: GAL-USD
         precision: 0.001
@@ -11046,8 +10811,7 @@ GAL_USD = GAL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GAL_USDT:
+class GAL_USDT(NamedTuple):
     """
         name: GAL-USDT
         precision: 0.001
@@ -11093,8 +10857,7 @@ GAL_USDT = GAL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALA_EUR:
+class GALA_EUR(NamedTuple):
     """
         name: GALA-EUR
         precision: 0.0001
@@ -11140,8 +10903,7 @@ GALA_EUR = GALA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALA_USD:
+class GALA_USD(NamedTuple):
     """
         name: GALA-USD
         precision: 0.00001
@@ -11187,8 +10949,7 @@ GALA_USD = GALA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GALA_USDT:
+class GALA_USDT(NamedTuple):
     """
         name: GALA-USDT
         precision: 0.00001
@@ -11234,8 +10995,7 @@ GALA_USDT = GALA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GFI_USD:
+class GFI_USD(NamedTuple):
     """
         name: GFI-USD
         precision: 0.0001
@@ -11281,8 +11041,7 @@ GFI_USD = GFI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GHST_USD:
+class GHST_USD(NamedTuple):
     """
         name: GHST-USD
         precision: 0.001
@@ -11328,8 +11087,7 @@ GHST_USD = GHST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GLM_USD:
+class GLM_USD(NamedTuple):
     """
         name: GLM-USD
         precision: 0.0001
@@ -11375,8 +11133,7 @@ GLM_USD = GLM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMT_USD:
+class GMT_USD(NamedTuple):
     """
         name: GMT-USD
         precision: 0.0001
@@ -11422,8 +11179,7 @@ GMT_USD = GMT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMT_USDT:
+class GMT_USDT(NamedTuple):
     """
         name: GMT-USDT
         precision: 0.0001
@@ -11469,8 +11225,7 @@ GMT_USDT = GMT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNO_USD:
+class GNO_USD(NamedTuple):
     """
         name: GNO-USD
         precision: 0.01
@@ -11516,8 +11271,7 @@ GNO_USD = GNO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNO_USDT:
+class GNO_USDT(NamedTuple):
     """
         name: GNO-USDT
         precision: 0.01
@@ -11563,8 +11317,7 @@ GNO_USDT = GNO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GNT_USDC:
+class GNT_USDC(NamedTuple):
     """
         name: GNT-USDC
         precision: 0.000001
@@ -11610,8 +11363,7 @@ GNT_USDC = GNT_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GODS_USD:
+class GODS_USD(NamedTuple):
     """
         name: GODS-USD
         precision: 0.00001
@@ -11657,8 +11409,7 @@ GODS_USD = GODS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRT_BTC:
+class GRT_BTC(NamedTuple):
     """
         name: GRT-BTC
         precision: 0.00000001
@@ -11704,8 +11455,7 @@ GRT_BTC = GRT_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRT_EUR:
+class GRT_EUR(NamedTuple):
     """
         name: GRT-EUR
         precision: 0.0001
@@ -11751,8 +11501,7 @@ GRT_EUR = GRT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRT_GBP:
+class GRT_GBP(NamedTuple):
     """
         name: GRT-GBP
         precision: 0.0001
@@ -11798,8 +11547,7 @@ GRT_GBP = GRT_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GRT_USD:
+class GRT_USD(NamedTuple):
     """
         name: GRT-USD
         precision: 0.0001
@@ -11845,8 +11593,7 @@ GRT_USD = GRT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GST_USD:
+class GST_USD(NamedTuple):
     """
         name: GST-USD
         precision: 0.000001
@@ -11892,8 +11639,7 @@ GST_USD = GST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GTC_USD:
+class GTC_USD(NamedTuple):
     """
         name: GTC-USD
         precision: 0.01
@@ -11939,8 +11685,7 @@ GTC_USD = GTC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GUSD_USD:
+class GUSD_USD(NamedTuple):
     """
         name: GUSD-USD
         precision: 0.001
@@ -11986,8 +11731,7 @@ GUSD_USD = GUSD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GYEN_USD:
+class GYEN_USD(NamedTuple):
     """
         name: GYEN-USD
         precision: 0.000001
@@ -12033,8 +11777,7 @@ GYEN_USD = GYEN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBAR_USD:
+class HBAR_USD(NamedTuple):
     """
         name: HBAR-USD
         precision: 0.00001
@@ -12080,8 +11823,7 @@ HBAR_USD = HBAR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HBAR_USDT:
+class HBAR_USDT(NamedTuple):
     """
         name: HBAR-USDT
         precision: 0.00001
@@ -12127,8 +11869,7 @@ HBAR_USDT = HBAR_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HFT_USD:
+class HFT_USD(NamedTuple):
     """
         name: HFT-USD
         precision: 0.0001
@@ -12174,8 +11915,7 @@ HFT_USD = HFT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HFT_USDT:
+class HFT_USDT(NamedTuple):
     """
         name: HFT-USDT
         precision: 0.0001
@@ -12221,8 +11961,7 @@ HFT_USDT = HFT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HIGH_USD:
+class HIGH_USD(NamedTuple):
     """
         name: HIGH-USD
         precision: 0.001
@@ -12268,8 +12007,7 @@ HIGH_USD = HIGH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOPR_USD:
+class HOPR_USD(NamedTuple):
     """
         name: HOPR-USD
         precision: 0.0001
@@ -12315,8 +12053,7 @@ HOPR_USD = HOPR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class HOPR_USDT:
+class HOPR_USDT(NamedTuple):
     """
         name: HOPR-USDT
         precision: 0.0001
@@ -12362,8 +12099,7 @@ HOPR_USDT = HOPR_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICP_BTC:
+class ICP_BTC(NamedTuple):
     """
         name: ICP-BTC
         precision: 0.0000001
@@ -12409,8 +12145,7 @@ ICP_BTC = ICP_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICP_EUR:
+class ICP_EUR(NamedTuple):
     """
         name: ICP-EUR
         precision: 0.01
@@ -12456,8 +12191,7 @@ ICP_EUR = ICP_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICP_GBP:
+class ICP_GBP(NamedTuple):
     """
         name: ICP-GBP
         precision: 0.01
@@ -12503,8 +12237,7 @@ ICP_GBP = ICP_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICP_USD:
+class ICP_USD(NamedTuple):
     """
         name: ICP-USD
         precision: 0.001
@@ -12550,8 +12283,7 @@ ICP_USD = ICP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ICP_USDT:
+class ICP_USDT(NamedTuple):
     """
         name: ICP-USDT
         precision: 0.01
@@ -12597,8 +12329,7 @@ ICP_USDT = ICP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEX_USD:
+class IDEX_USD(NamedTuple):
     """
         name: IDEX-USD
         precision: 0.0001
@@ -12644,8 +12375,7 @@ IDEX_USD = IDEX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IDEX_USDT:
+class IDEX_USDT(NamedTuple):
     """
         name: IDEX-USDT
         precision: 0.0001
@@ -12691,8 +12421,7 @@ IDEX_USDT = IDEX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ILV_USD:
+class ILV_USD(NamedTuple):
     """
         name: ILV-USD
         precision: 0.01
@@ -12738,8 +12467,7 @@ ILV_USD = ILV_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMX_USD:
+class IMX_USD(NamedTuple):
     """
         name: IMX-USD
         precision: 0.0001
@@ -12785,8 +12513,7 @@ IMX_USD = IMX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IMX_USDT:
+class IMX_USDT(NamedTuple):
     """
         name: IMX-USDT
         precision: 0.0001
@@ -12832,8 +12559,7 @@ IMX_USDT = IMX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INDEX_USD:
+class INDEX_USD(NamedTuple):
     """
         name: INDEX-USD
         precision: 0.01
@@ -12879,8 +12605,7 @@ INDEX_USD = INDEX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INDEX_USDT:
+class INDEX_USDT(NamedTuple):
     """
         name: INDEX-USDT
         precision: 0.01
@@ -12926,8 +12651,7 @@ INDEX_USDT = INDEX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INJ_USD:
+class INJ_USD(NamedTuple):
     """
         name: INJ-USD
         precision: 0.001
@@ -12973,8 +12697,7 @@ INJ_USD = INJ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class INV_USD:
+class INV_USD(NamedTuple):
     """
         name: INV-USD
         precision: 0.01
@@ -13020,8 +12743,7 @@ INV_USD = INV_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTX_EUR:
+class IOTX_EUR(NamedTuple):
     """
         name: IOTX-EUR
         precision: 0.00001
@@ -13067,8 +12789,7 @@ IOTX_EUR = IOTX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class IOTX_USD:
+class IOTX_USD(NamedTuple):
     """
         name: IOTX-USD
         precision: 0.00001
@@ -13114,8 +12835,7 @@ IOTX_USD = IOTX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMY_USD:
+class JASMY_USD(NamedTuple):
     """
         name: JASMY-USD
         precision: 0.00001
@@ -13161,8 +12881,7 @@ JASMY_USD = JASMY_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JASMY_USDT:
+class JASMY_USDT(NamedTuple):
     """
         name: JASMY-USDT
         precision: 0.00001
@@ -13208,8 +12927,7 @@ JASMY_USDT = JASMY_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class JUP_USD:
+class JUP_USD(NamedTuple):
     """
         name: JUP-USD
         precision: 0.000001
@@ -13255,8 +12973,7 @@ JUP_USD = JUP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KAVA_USD:
+class KAVA_USD(NamedTuple):
     """
         name: KAVA-USD
         precision: 0.0001
@@ -13302,8 +13019,7 @@ KAVA_USD = KAVA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KEEP_USD:
+class KEEP_USD(NamedTuple):
     """
         name: KEEP-USD
         precision: 0.0001
@@ -13349,8 +13065,7 @@ KEEP_USD = KEEP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNC_BTC:
+class KNC_BTC(NamedTuple):
     """
         name: KNC-BTC
         precision: 0.00000001
@@ -13396,8 +13111,7 @@ KNC_BTC = KNC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KNC_USD:
+class KNC_USD(NamedTuple):
     """
         name: KNC-USD
         precision: 0.0001
@@ -13443,8 +13157,7 @@ KNC_USD = KNC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KRL_EUR:
+class KRL_EUR(NamedTuple):
     """
         name: KRL-EUR
         precision: 0.0001
@@ -13490,8 +13203,7 @@ KRL_EUR = KRL_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KRL_USD:
+class KRL_USD(NamedTuple):
     """
         name: KRL-USD
         precision: 0.0001
@@ -13537,8 +13249,7 @@ KRL_USD = KRL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KRL_USDT:
+class KRL_USDT(NamedTuple):
     """
         name: KRL-USDT
         precision: 0.0001
@@ -13584,8 +13295,7 @@ KRL_USDT = KRL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSM_USD:
+class KSM_USD(NamedTuple):
     """
         name: KSM-USD
         precision: 0.01
@@ -13631,8 +13341,7 @@ KSM_USD = KSM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KSM_USDT:
+class KSM_USDT(NamedTuple):
     """
         name: KSM-USDT
         precision: 0.01
@@ -13678,8 +13387,7 @@ KSM_USDT = KSM_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LCX_EUR:
+class LCX_EUR(NamedTuple):
     """
         name: LCX-EUR
         precision: 0.0001
@@ -13725,8 +13433,7 @@ LCX_EUR = LCX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LCX_USD:
+class LCX_USD(NamedTuple):
     """
         name: LCX-USD
         precision: 0.0001
@@ -13772,8 +13479,7 @@ LCX_USD = LCX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LCX_USDT:
+class LCX_USDT(NamedTuple):
     """
         name: LCX-USDT
         precision: 0.0001
@@ -13819,8 +13525,7 @@ LCX_USDT = LCX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LDO_USD:
+class LDO_USD(NamedTuple):
     """
         name: LDO-USD
         precision: 0.001
@@ -13866,8 +13571,7 @@ LDO_USD = LDO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_BTC:
+class LINK_BTC(NamedTuple):
     """
         name: LINK-BTC
         precision: 0.00000001
@@ -13913,8 +13617,7 @@ LINK_BTC = LINK_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_ETH:
+class LINK_ETH(NamedTuple):
     """
         name: LINK-ETH
         precision: 0.00000001
@@ -13960,8 +13663,7 @@ LINK_ETH = LINK_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_EUR:
+class LINK_EUR(NamedTuple):
     """
         name: LINK-EUR
         precision: 0.01
@@ -14007,8 +13709,7 @@ LINK_EUR = LINK_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_GBP:
+class LINK_GBP(NamedTuple):
     """
         name: LINK-GBP
         precision: 0.01
@@ -14054,8 +13755,7 @@ LINK_GBP = LINK_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_USD:
+class LINK_USD(NamedTuple):
     """
         name: LINK-USD
         precision: 0.001
@@ -14101,8 +13801,7 @@ LINK_USD = LINK_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_USDT:
+class LINK_USDT(NamedTuple):
     """
         name: LINK-USDT
         precision: 0.01
@@ -14148,8 +13847,7 @@ LINK_USDT = LINK_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LIT_USD:
+class LIT_USD(NamedTuple):
     """
         name: LIT-USD
         precision: 0.0001
@@ -14195,8 +13893,7 @@ LIT_USD = LIT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOKA_USD:
+class LOKA_USD(NamedTuple):
     """
         name: LOKA-USD
         precision: 0.0001
@@ -14242,8 +13939,7 @@ LOKA_USD = LOKA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOM_USD:
+class LOOM_USD(NamedTuple):
     """
         name: LOOM-USD
         precision: 0.0001
@@ -14289,8 +13985,7 @@ LOOM_USD = LOOM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LOOM_USDC:
+class LOOM_USDC(NamedTuple):
     """
         name: LOOM-USDC
         precision: 0.000001
@@ -14336,8 +14031,7 @@ LOOM_USDC = LOOM_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LPT_USD:
+class LPT_USD(NamedTuple):
     """
         name: LPT-USD
         precision: 0.01
@@ -14383,8 +14077,7 @@ LPT_USD = LPT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LQTY_EUR:
+class LQTY_EUR(NamedTuple):
     """
         name: LQTY-EUR
         precision: 0.0001
@@ -14430,8 +14123,7 @@ LQTY_EUR = LQTY_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LQTY_USD:
+class LQTY_USD(NamedTuple):
     """
         name: LQTY-USD
         precision: 0.0001
@@ -14477,8 +14169,7 @@ LQTY_USD = LQTY_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LQTY_USDT:
+class LQTY_USDT(NamedTuple):
     """
         name: LQTY-USDT
         precision: 0.0001
@@ -14524,8 +14215,7 @@ LQTY_USDT = LQTY_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRC_BTC:
+class LRC_BTC(NamedTuple):
     """
         name: LRC-BTC
         precision: 0.00000001
@@ -14571,8 +14261,7 @@ LRC_BTC = LRC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRC_USD:
+class LRC_USD(NamedTuple):
     """
         name: LRC-USD
         precision: 0.0001
@@ -14618,8 +14307,7 @@ LRC_USD = LRC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LRC_USDT:
+class LRC_USDT(NamedTuple):
     """
         name: LRC-USDT
         precision: 0.0001
@@ -14665,8 +14353,7 @@ LRC_USDT = LRC_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTC_BTC:
+class LTC_BTC(NamedTuple):
     """
         name: LTC-BTC
         precision: 0.000001
@@ -14712,8 +14399,7 @@ LTC_BTC = LTC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTC_EUR:
+class LTC_EUR(NamedTuple):
     """
         name: LTC-EUR
         precision: 0.01
@@ -14759,8 +14445,7 @@ LTC_EUR = LTC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTC_GBP:
+class LTC_GBP(NamedTuple):
     """
         name: LTC-GBP
         precision: 0.01
@@ -14806,8 +14491,7 @@ LTC_GBP = LTC_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTC_USD:
+class LTC_USD(NamedTuple):
     """
         name: LTC-USD
         precision: 0.01
@@ -14853,8 +14537,7 @@ LTC_USD = LTC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MAGIC_USD:
+class MAGIC_USD(NamedTuple):
     """
         name: MAGIC-USD
         precision: 0.0001
@@ -14900,8 +14583,7 @@ MAGIC_USD = MAGIC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANA_BTC:
+class MANA_BTC(NamedTuple):
     """
         name: MANA-BTC
         precision: 0.0000001
@@ -14947,8 +14629,7 @@ MANA_BTC = MANA_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANA_ETH:
+class MANA_ETH(NamedTuple):
     """
         name: MANA-ETH
         precision: 0.0000001
@@ -14994,8 +14675,7 @@ MANA_ETH = MANA_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANA_EUR:
+class MANA_EUR(NamedTuple):
     """
         name: MANA-EUR
         precision: 0.001
@@ -15041,8 +14721,7 @@ MANA_EUR = MANA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANA_USD:
+class MANA_USD(NamedTuple):
     """
         name: MANA-USD
         precision: 0.0001
@@ -15088,8 +14767,7 @@ MANA_USD = MANA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MANA_USDC:
+class MANA_USDC(NamedTuple):
     """
         name: MANA-USDC
         precision: 0.000001
@@ -15135,8 +14813,7 @@ MANA_USDC = MANA_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASK_EUR:
+class MASK_EUR(NamedTuple):
     """
         name: MASK-EUR
         precision: 0.01
@@ -15182,8 +14859,7 @@ MASK_EUR = MASK_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASK_GBP:
+class MASK_GBP(NamedTuple):
     """
         name: MASK-GBP
         precision: 0.001
@@ -15229,8 +14905,7 @@ MASK_GBP = MASK_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASK_USD:
+class MASK_USD(NamedTuple):
     """
         name: MASK-USD
         precision: 0.01
@@ -15276,8 +14951,7 @@ MASK_USD = MASK_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MASK_USDT:
+class MASK_USDT(NamedTuple):
     """
         name: MASK-USDT
         precision: 0.01
@@ -15323,8 +14997,7 @@ MASK_USDT = MASK_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATH_USD:
+class MATH_USD(NamedTuple):
     """
         name: MATH-USD
         precision: 0.0001
@@ -15370,8 +15043,7 @@ MATH_USD = MATH_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATH_USDT:
+class MATH_USDT(NamedTuple):
     """
         name: MATH-USDT
         precision: 0.0001
@@ -15417,8 +15089,7 @@ MATH_USDT = MATH_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_BTC:
+class MATIC_BTC(NamedTuple):
     """
         name: MATIC-BTC
         precision: 0.00000001
@@ -15464,8 +15135,7 @@ MATIC_BTC = MATIC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_EUR:
+class MATIC_EUR(NamedTuple):
     """
         name: MATIC-EUR
         precision: 0.0001
@@ -15511,8 +15181,7 @@ MATIC_EUR = MATIC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_GBP:
+class MATIC_GBP(NamedTuple):
     """
         name: MATIC-GBP
         precision: 0.0001
@@ -15558,8 +15227,7 @@ MATIC_GBP = MATIC_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_USD:
+class MATIC_USD(NamedTuple):
     """
         name: MATIC-USD
         precision: 0.0001
@@ -15605,8 +15273,7 @@ MATIC_USD = MATIC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_USDT:
+class MATIC_USDT(NamedTuple):
     """
         name: MATIC-USDT
         precision: 0.001
@@ -15652,8 +15319,7 @@ MATIC_USDT = MATIC_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCO2_USD:
+class MCO2_USD(NamedTuple):
     """
         name: MCO2-USD
         precision: 0.01
@@ -15699,8 +15365,7 @@ MCO2_USD = MCO2_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MCO2_USDT:
+class MCO2_USDT(NamedTuple):
     """
         name: MCO2-USDT
         precision: 0.01
@@ -15746,8 +15411,7 @@ MCO2_USDT = MCO2_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDT_USD:
+class MDT_USD(NamedTuple):
     """
         name: MDT-USD
         precision: 0.00001
@@ -15793,8 +15457,7 @@ MDT_USD = MDT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MDT_USDT:
+class MDT_USDT(NamedTuple):
     """
         name: MDT-USDT
         precision: 0.00001
@@ -15840,8 +15503,7 @@ MDT_USDT = MDT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MEDIA_USD:
+class MEDIA_USD(NamedTuple):
     """
         name: MEDIA-USD
         precision: 0.01
@@ -15887,8 +15549,7 @@ MEDIA_USD = MEDIA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MEDIA_USDT:
+class MEDIA_USDT(NamedTuple):
     """
         name: MEDIA-USDT
         precision: 0.01
@@ -15934,8 +15595,7 @@ MEDIA_USDT = MEDIA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class METIS_USD:
+class METIS_USD(NamedTuple):
     """
         name: METIS-USD
         precision: 0.01
@@ -15981,8 +15641,7 @@ METIS_USD = METIS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class METIS_USDT:
+class METIS_USDT(NamedTuple):
     """
         name: METIS-USDT
         precision: 0.01
@@ -16028,8 +15687,7 @@ METIS_USDT = METIS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINA_EUR:
+class MINA_EUR(NamedTuple):
     """
         name: MINA-EUR
         precision: 0.001
@@ -16075,8 +15733,7 @@ MINA_EUR = MINA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINA_USD:
+class MINA_USD(NamedTuple):
     """
         name: MINA-USD
         precision: 0.001
@@ -16122,8 +15779,7 @@ MINA_USD = MINA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MINA_USDT:
+class MINA_USDT(NamedTuple):
     """
         name: MINA-USDT
         precision: 0.001
@@ -16169,8 +15825,7 @@ MINA_USDT = MINA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIR_BTC:
+class MIR_BTC(NamedTuple):
     """
         name: MIR-BTC
         precision: 0.00000001
@@ -16216,8 +15871,7 @@ MIR_BTC = MIR_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIR_EUR:
+class MIR_EUR(NamedTuple):
     """
         name: MIR-EUR
         precision: 0.001
@@ -16263,8 +15917,7 @@ MIR_EUR = MIR_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIR_GBP:
+class MIR_GBP(NamedTuple):
     """
         name: MIR-GBP
         precision: 0.001
@@ -16310,8 +15963,7 @@ MIR_GBP = MIR_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MIR_USD:
+class MIR_USD(NamedTuple):
     """
         name: MIR-USD
         precision: 0.0001
@@ -16357,8 +16009,7 @@ MIR_USD = MIR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKR_BTC:
+class MKR_BTC(NamedTuple):
     """
         name: MKR-BTC
         precision: 0.00001
@@ -16404,8 +16055,7 @@ MKR_BTC = MKR_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MKR_USD:
+class MKR_USD(NamedTuple):
     """
         name: MKR-USD
         precision: 0.01
@@ -16451,8 +16101,7 @@ MKR_USD = MKR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MLN_USD:
+class MLN_USD(NamedTuple):
     """
         name: MLN-USD
         precision: 0.01
@@ -16498,8 +16147,7 @@ MLN_USD = MLN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MNDE_USD:
+class MNDE_USD(NamedTuple):
     """
         name: MNDE-USD
         precision: 0.00001
@@ -16545,8 +16193,7 @@ MNDE_USD = MNDE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MONA_USD:
+class MONA_USD(NamedTuple):
     """
         name: MONA-USD
         precision: 0.01
@@ -16592,8 +16239,7 @@ MONA_USD = MONA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MPL_USD:
+class MPL_USD(NamedTuple):
     """
         name: MPL-USD
         precision: 0.01
@@ -16639,8 +16285,7 @@ MPL_USD = MPL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MSOL_USD:
+class MSOL_USD(NamedTuple):
     """
         name: MSOL-USD
         precision: 0.01
@@ -16686,8 +16331,7 @@ MSOL_USD = MSOL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MTL_USD:
+class MTL_USD(NamedTuple):
     """
         name: MTL-USD
         precision: 0.001
@@ -16733,8 +16377,7 @@ MTL_USD = MTL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MUSD_USD:
+class MUSD_USD(NamedTuple):
     """
         name: MUSD-USD
         precision: 0.0001
@@ -16780,8 +16423,7 @@ MUSD_USD = MUSD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MUSE_USD:
+class MUSE_USD(NamedTuple):
     """
         name: MUSE-USD
         precision: 0.001
@@ -16827,8 +16469,7 @@ MUSE_USD = MUSE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MXC_USD:
+class MXC_USD(NamedTuple):
     """
         name: MXC-USD
         precision: 0.00001
@@ -16874,8 +16515,7 @@ MXC_USD = MXC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCT_EUR:
+class NCT_EUR(NamedTuple):
     """
         name: NCT-EUR
         precision: 0.00001
@@ -16921,8 +16561,7 @@ NCT_EUR = NCT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCT_USD:
+class NCT_USD(NamedTuple):
     """
         name: NCT-USD
         precision: 0.00001
@@ -16968,8 +16607,7 @@ NCT_USD = NCT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NCT_USDT:
+class NCT_USDT(NamedTuple):
     """
         name: NCT-USDT
         precision: 0.00001
@@ -17015,8 +16653,7 @@ NCT_USDT = NCT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEAR_USD:
+class NEAR_USD(NamedTuple):
     """
         name: NEAR-USD
         precision: 0.001
@@ -17062,8 +16699,7 @@ NEAR_USD = NEAR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEAR_USDT:
+class NEAR_USDT(NamedTuple):
     """
         name: NEAR-USDT
         precision: 0.001
@@ -17109,8 +16745,7 @@ NEAR_USDT = NEAR_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEST_USD:
+class NEST_USD(NamedTuple):
     """
         name: NEST-USD
         precision: 0.00001
@@ -17156,8 +16791,7 @@ NEST_USD = NEST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEST_USDT:
+class NEST_USDT(NamedTuple):
     """
         name: NEST-USDT
         precision: 0.00001
@@ -17203,8 +16837,7 @@ NEST_USDT = NEST_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKN_BTC:
+class NKN_BTC(NamedTuple):
     """
         name: NKN-BTC
         precision: 0.00000001
@@ -17250,8 +16883,7 @@ NKN_BTC = NKN_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKN_EUR:
+class NKN_EUR(NamedTuple):
     """
         name: NKN-EUR
         precision: 0.0001
@@ -17297,8 +16929,7 @@ NKN_EUR = NKN_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKN_GBP:
+class NKN_GBP(NamedTuple):
     """
         name: NKN-GBP
         precision: 0.0001
@@ -17344,8 +16975,7 @@ NKN_GBP = NKN_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NKN_USD:
+class NKN_USD(NamedTuple):
     """
         name: NKN-USD
         precision: 0.0001
@@ -17391,8 +17021,7 @@ NKN_USD = NKN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMR_BTC:
+class NMR_BTC(NamedTuple):
     """
         name: NMR-BTC
         precision: 0.0000001
@@ -17438,8 +17067,7 @@ NMR_BTC = NMR_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMR_EUR:
+class NMR_EUR(NamedTuple):
     """
         name: NMR-EUR
         precision: 0.01
@@ -17485,8 +17113,7 @@ NMR_EUR = NMR_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMR_GBP:
+class NMR_GBP(NamedTuple):
     """
         name: NMR-GBP
         precision: 0.01
@@ -17532,8 +17159,7 @@ NMR_GBP = NMR_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NMR_USD:
+class NMR_USD(NamedTuple):
     """
         name: NMR-USD
         precision: 0.01
@@ -17579,8 +17205,7 @@ NMR_USD = NMR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NU_BTC:
+class NU_BTC(NamedTuple):
     """
         name: NU-BTC
         precision: 0.00000001
@@ -17626,8 +17251,7 @@ NU_BTC = NU_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NU_EUR:
+class NU_EUR(NamedTuple):
     """
         name: NU-EUR
         precision: 0.0001
@@ -17673,8 +17297,7 @@ NU_EUR = NU_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NU_GBP:
+class NU_GBP(NamedTuple):
     """
         name: NU-GBP
         precision: 0.0001
@@ -17720,8 +17343,7 @@ NU_GBP = NU_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NU_USD:
+class NU_USD(NamedTuple):
     """
         name: NU-USD
         precision: 0.0001
@@ -17767,8 +17389,7 @@ NU_USD = NU_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OCEAN_USD:
+class OCEAN_USD(NamedTuple):
     """
         name: OCEAN-USD
         precision: 0.0001
@@ -17814,8 +17435,7 @@ OCEAN_USD = OCEAN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGN_BTC:
+class OGN_BTC(NamedTuple):
     """
         name: OGN-BTC
         precision: 0.00000001
@@ -17861,8 +17481,7 @@ OGN_BTC = OGN_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OGN_USD:
+class OGN_USD(NamedTuple):
     """
         name: OGN-USD
         precision: 0.00001
@@ -17908,8 +17527,7 @@ OGN_USD = OGN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMG_BTC:
+class OMG_BTC(NamedTuple):
     """
         name: OMG-BTC
         precision: 0.00000001
@@ -17955,8 +17573,7 @@ OMG_BTC = OMG_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMG_EUR:
+class OMG_EUR(NamedTuple):
     """
         name: OMG-EUR
         precision: 0.0001
@@ -18002,8 +17619,7 @@ OMG_EUR = OMG_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMG_GBP:
+class OMG_GBP(NamedTuple):
     """
         name: OMG-GBP
         precision: 0.0001
@@ -18049,8 +17665,7 @@ OMG_GBP = OMG_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OMG_USD:
+class OMG_USD(NamedTuple):
     """
         name: OMG-USD
         precision: 0.0001
@@ -18096,8 +17711,7 @@ OMG_USD = OMG_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OOKI_USD:
+class OOKI_USD(NamedTuple):
     """
         name: OOKI-USD
         precision: 0.000001
@@ -18143,8 +17757,7 @@ OOKI_USD = OOKI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OP_USD:
+class OP_USD(NamedTuple):
     """
         name: OP-USD
         precision: 0.001
@@ -18190,8 +17803,7 @@ OP_USD = OP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OP_USDT:
+class OP_USDT(NamedTuple):
     """
         name: OP-USDT
         precision: 0.001
@@ -18237,8 +17849,7 @@ OP_USDT = OP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORCA_USD:
+class ORCA_USD(NamedTuple):
     """
         name: ORCA-USD
         precision: 0.0001
@@ -18284,8 +17895,7 @@ ORCA_USD = ORCA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORN_BTC:
+class ORN_BTC(NamedTuple):
     """
         name: ORN-BTC
         precision: 0.0000001
@@ -18331,8 +17941,7 @@ ORN_BTC = ORN_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORN_USD:
+class ORN_USD(NamedTuple):
     """
         name: ORN-USD
         precision: 0.001
@@ -18378,8 +17987,7 @@ ORN_USD = ORN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ORN_USDT:
+class ORN_USDT(NamedTuple):
     """
         name: ORN-USDT
         precision: 0.001
@@ -18425,8 +18033,7 @@ ORN_USDT = ORN_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class OXT_USD:
+class OXT_USD(NamedTuple):
     """
         name: OXT-USD
         precision: 0.0001
@@ -18472,8 +18079,7 @@ OXT_USD = OXT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAX_USD:
+class PAX_USD(NamedTuple):
     """
         name: PAX-USD
         precision: 0.0001
@@ -18519,8 +18125,7 @@ PAX_USD = PAX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PAX_USDT:
+class PAX_USDT(NamedTuple):
     """
         name: PAX-USDT
         precision: 0.0001
@@ -18566,8 +18171,7 @@ PAX_USDT = PAX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERP_EUR:
+class PERP_EUR(NamedTuple):
     """
         name: PERP-EUR
         precision: 0.0001
@@ -18613,8 +18217,7 @@ PERP_EUR = PERP_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERP_USD:
+class PERP_USD(NamedTuple):
     """
         name: PERP-USD
         precision: 0.0001
@@ -18660,8 +18263,7 @@ PERP_USD = PERP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PERP_USDT:
+class PERP_USDT(NamedTuple):
     """
         name: PERP-USDT
         precision: 0.0001
@@ -18707,8 +18309,7 @@ PERP_USDT = PERP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLA_USD:
+class PLA_USD(NamedTuple):
     """
         name: PLA-USD
         precision: 0.0001
@@ -18754,8 +18355,7 @@ PLA_USD = PLA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PLU_USD:
+class PLU_USD(NamedTuple):
     """
         name: PLU-USD
         precision: 0.01
@@ -18801,8 +18401,7 @@ PLU_USD = PLU_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PNG_USD:
+class PNG_USD(NamedTuple):
     """
         name: PNG-USD
         precision: 0.00001
@@ -18848,8 +18447,7 @@ PNG_USD = PNG_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLS_USD:
+class POLS_USD(NamedTuple):
     """
         name: POLS-USD
         precision: 0.0001
@@ -18895,8 +18493,7 @@ POLS_USD = POLS_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLS_USDT:
+class POLS_USDT(NamedTuple):
     """
         name: POLS-USDT
         precision: 0.0001
@@ -18942,8 +18539,7 @@ POLS_USDT = POLS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLY_USD:
+class POLY_USD(NamedTuple):
     """
         name: POLY-USD
         precision: 0.0001
@@ -18989,8 +18585,7 @@ POLY_USD = POLY_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POLY_USDT:
+class POLY_USDT(NamedTuple):
     """
         name: POLY-USDT
         precision: 0.0001
@@ -19036,8 +18631,7 @@ POLY_USDT = POLY_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POND_USD:
+class POND_USD(NamedTuple):
     """
         name: POND-USD
         precision: 0.00001
@@ -19083,8 +18677,7 @@ POND_USD = POND_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POND_USDT:
+class POND_USDT(NamedTuple):
     """
         name: POND-USDT
         precision: 0.00001
@@ -19130,8 +18723,7 @@ POND_USDT = POND_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWR_EUR:
+class POWR_EUR(NamedTuple):
     """
         name: POWR-EUR
         precision: 0.0001
@@ -19177,8 +18769,7 @@ POWR_EUR = POWR_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWR_USD:
+class POWR_USD(NamedTuple):
     """
         name: POWR-USD
         precision: 0.0001
@@ -19224,8 +18815,7 @@ POWR_USD = POWR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class POWR_USDT:
+class POWR_USDT(NamedTuple):
     """
         name: POWR-USDT
         precision: 0.0001
@@ -19271,8 +18861,7 @@ POWR_USDT = POWR_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PRO_USD:
+class PRO_USD(NamedTuple):
     """
         name: PRO-USD
         precision: 0.0001
@@ -19318,8 +18907,7 @@ PRO_USD = PRO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PRQ_USD:
+class PRQ_USD(NamedTuple):
     """
         name: PRQ-USD
         precision: 0.0001
@@ -19365,8 +18953,7 @@ PRQ_USD = PRQ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PRQ_USDT:
+class PRQ_USDT(NamedTuple):
     """
         name: PRQ-USDT
         precision: 0.0001
@@ -19412,8 +18999,7 @@ PRQ_USDT = PRQ_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PUNDIX_USD:
+class PUNDIX_USD(NamedTuple):
     """
         name: PUNDIX-USD
         precision: 0.0001
@@ -19459,8 +19045,7 @@ PUNDIX_USD = PUNDIX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class PYR_USD:
+class PYR_USD(NamedTuple):
     """
         name: PYR-USD
         precision: 0.001
@@ -19506,8 +19091,7 @@ PYR_USD = PYR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QI_USD:
+class QI_USD(NamedTuple):
     """
         name: QI-USD
         precision: 0.000001
@@ -19553,8 +19137,7 @@ QI_USD = QI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNT_USD:
+class QNT_USD(NamedTuple):
     """
         name: QNT-USD
         precision: 0.01
@@ -19600,8 +19183,7 @@ QNT_USD = QNT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QNT_USDT:
+class QNT_USDT(NamedTuple):
     """
         name: QNT-USDT
         precision: 0.01
@@ -19647,8 +19229,7 @@ QNT_USDT = QNT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QSP_USD:
+class QSP_USD(NamedTuple):
     """
         name: QSP-USD
         precision: 0.00001
@@ -19694,8 +19275,7 @@ QSP_USD = QSP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QSP_USDT:
+class QSP_USDT(NamedTuple):
     """
         name: QSP-USDT
         precision: 0.00001
@@ -19741,8 +19321,7 @@ QSP_USDT = QSP_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class QUICK_USD:
+class QUICK_USD(NamedTuple):
     """
         name: QUICK-USD
         precision: 0.01
@@ -19788,8 +19367,7 @@ QUICK_USD = QUICK_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAD_BTC:
+class RAD_BTC(NamedTuple):
     """
         name: RAD-BTC
         precision: 0.0000001
@@ -19835,8 +19413,7 @@ RAD_BTC = RAD_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAD_EUR:
+class RAD_EUR(NamedTuple):
     """
         name: RAD-EUR
         precision: 0.001
@@ -19882,8 +19459,7 @@ RAD_EUR = RAD_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAD_GBP:
+class RAD_GBP(NamedTuple):
     """
         name: RAD-GBP
         precision: 0.001
@@ -19929,8 +19505,7 @@ RAD_GBP = RAD_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAD_USD:
+class RAD_USD(NamedTuple):
     """
         name: RAD-USD
         precision: 0.01
@@ -19976,8 +19551,7 @@ RAD_USD = RAD_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAD_USDT:
+class RAD_USDT(NamedTuple):
     """
         name: RAD-USDT
         precision: 0.01
@@ -20023,8 +19597,7 @@ RAD_USDT = RAD_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RAI_USD:
+class RAI_USD(NamedTuple):
     """
         name: RAI-USD
         precision: 0.01
@@ -20070,8 +19643,7 @@ RAI_USD = RAI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RARE_USD:
+class RARE_USD(NamedTuple):
     """
         name: RARE-USD
         precision: 0.0001
@@ -20117,8 +19689,7 @@ RARE_USD = RARE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RARI_USD:
+class RARI_USD(NamedTuple):
     """
         name: RARI-USD
         precision: 0.01
@@ -20164,8 +19735,7 @@ RARI_USD = RARI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RBN_USD:
+class RBN_USD(NamedTuple):
     """
         name: RBN-USD
         precision: 0.00001
@@ -20211,8 +19781,7 @@ RBN_USD = RBN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REN_BTC:
+class REN_BTC(NamedTuple):
     """
         name: REN-BTC
         precision: 0.00000001
@@ -20258,8 +19827,7 @@ REN_BTC = REN_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REN_USD:
+class REN_USD(NamedTuple):
     """
         name: REN-USD
         precision: 0.0001
@@ -20305,8 +19873,7 @@ REN_USD = REN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REP_BTC:
+class REP_BTC(NamedTuple):
     """
         name: REP-BTC
         precision: 0.0000001
@@ -20352,8 +19919,7 @@ REP_BTC = REP_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REP_USD:
+class REP_USD(NamedTuple):
     """
         name: REP-USD
         precision: 0.01
@@ -20399,8 +19965,7 @@ REP_USD = REP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQ_BTC:
+class REQ_BTC(NamedTuple):
     """
         name: REQ-BTC
         precision: 0.00000001
@@ -20446,8 +20011,7 @@ REQ_BTC = REQ_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQ_EUR:
+class REQ_EUR(NamedTuple):
     """
         name: REQ-EUR
         precision: 0.00001
@@ -20493,8 +20057,7 @@ REQ_EUR = REQ_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQ_GBP:
+class REQ_GBP(NamedTuple):
     """
         name: REQ-GBP
         precision: 0.0001
@@ -20540,8 +20103,7 @@ REQ_GBP = REQ_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQ_USD:
+class REQ_USD(NamedTuple):
     """
         name: REQ-USD
         precision: 0.0001
@@ -20587,8 +20149,7 @@ REQ_USD = REQ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class REQ_USDT:
+class REQ_USDT(NamedTuple):
     """
         name: REQ-USDT
         precision: 0.0001
@@ -20634,8 +20195,7 @@ REQ_USDT = REQ_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RGT_USD:
+class RGT_USD(NamedTuple):
     """
         name: RGT-USD
         precision: 0.01
@@ -20681,8 +20241,7 @@ RGT_USD = RGT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLC_BTC:
+class RLC_BTC(NamedTuple):
     """
         name: RLC-BTC
         precision: 0.0000001
@@ -20728,8 +20287,7 @@ RLC_BTC = RLC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLC_USD:
+class RLC_USD(NamedTuple):
     """
         name: RLC-USD
         precision: 0.0001
@@ -20775,8 +20333,7 @@ RLC_USD = RLC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLY_EUR:
+class RLY_EUR(NamedTuple):
     """
         name: RLY-EUR
         precision: 0.0001
@@ -20822,8 +20379,7 @@ RLY_EUR = RLY_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLY_GBP:
+class RLY_GBP(NamedTuple):
     """
         name: RLY-GBP
         precision: 0.0001
@@ -20869,8 +20425,7 @@ RLY_GBP = RLY_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLY_USD:
+class RLY_USD(NamedTuple):
     """
         name: RLY-USD
         precision: 0.0001
@@ -20916,8 +20471,7 @@ RLY_USD = RLY_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RLY_USDT:
+class RLY_USDT(NamedTuple):
     """
         name: RLY-USDT
         precision: 0.0001
@@ -20963,8 +20517,7 @@ RLY_USDT = RLY_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDR_EUR:
+class RNDR_EUR(NamedTuple):
     """
         name: RNDR-EUR
         precision: 0.0001
@@ -21010,8 +20563,7 @@ RNDR_EUR = RNDR_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDR_USD:
+class RNDR_USD(NamedTuple):
     """
         name: RNDR-USD
         precision: 0.0001
@@ -21057,8 +20609,7 @@ RNDR_USD = RNDR_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RNDR_USDT:
+class RNDR_USDT(NamedTuple):
     """
         name: RNDR-USDT
         precision: 0.0001
@@ -21104,8 +20655,7 @@ RNDR_USDT = RNDR_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSE_USD:
+class ROSE_USD(NamedTuple):
     """
         name: ROSE-USD
         precision: 0.00001
@@ -21151,8 +20701,7 @@ ROSE_USD = ROSE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ROSE_USDT:
+class ROSE_USDT(NamedTuple):
     """
         name: ROSE-USDT
         precision: 0.0001
@@ -21198,8 +20747,7 @@ ROSE_USDT = ROSE_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class RPL_USD:
+class RPL_USD(NamedTuple):
     """
         name: RPL-USD
         precision: 0.01
@@ -21245,8 +20793,7 @@ RPL_USD = RPL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SAND_USD:
+class SAND_USD(NamedTuple):
     """
         name: SAND-USD
         precision: 0.0001
@@ -21292,8 +20839,7 @@ SAND_USD = SAND_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SAND_USDT:
+class SAND_USDT(NamedTuple):
     """
         name: SAND-USDT
         precision: 0.001
@@ -21339,8 +20885,7 @@ SAND_USDT = SAND_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIB_EUR:
+class SHIB_EUR(NamedTuple):
     """
         name: SHIB-EUR
         precision: 0.00000001
@@ -21386,8 +20931,7 @@ SHIB_EUR = SHIB_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIB_GBP:
+class SHIB_GBP(NamedTuple):
     """
         name: SHIB-GBP
         precision: 0.00000001
@@ -21433,8 +20977,7 @@ SHIB_GBP = SHIB_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIB_USD:
+class SHIB_USD(NamedTuple):
     """
         name: SHIB-USD
         precision: 0.00000001
@@ -21480,8 +21023,7 @@ SHIB_USD = SHIB_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHIB_USDT:
+class SHIB_USDT(NamedTuple):
     """
         name: SHIB-USDT
         precision: 0.0000001
@@ -21527,8 +21069,7 @@ SHIB_USDT = SHIB_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHPING_EUR:
+class SHPING_EUR(NamedTuple):
     """
         name: SHPING-EUR
         precision: 0.000001
@@ -21574,8 +21115,7 @@ SHPING_EUR = SHPING_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHPING_USD:
+class SHPING_USD(NamedTuple):
     """
         name: SHPING-USD
         precision: 0.000001
@@ -21621,8 +21161,7 @@ SHPING_USD = SHPING_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SHPING_USDT:
+class SHPING_USDT(NamedTuple):
     """
         name: SHPING-USDT
         precision: 0.000001
@@ -21668,8 +21207,7 @@ SHPING_USDT = SHPING_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKL_BTC:
+class SKL_BTC(NamedTuple):
     """
         name: SKL-BTC
         precision: 0.00000001
@@ -21715,8 +21253,7 @@ SKL_BTC = SKL_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKL_EUR:
+class SKL_EUR(NamedTuple):
     """
         name: SKL-EUR
         precision: 0.0001
@@ -21762,8 +21299,7 @@ SKL_EUR = SKL_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKL_GBP:
+class SKL_GBP(NamedTuple):
     """
         name: SKL-GBP
         precision: 0.0001
@@ -21809,8 +21345,7 @@ SKL_GBP = SKL_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SKL_USD:
+class SKL_USD(NamedTuple):
     """
         name: SKL-USD
         precision: 0.0001
@@ -21856,8 +21391,7 @@ SKL_USD = SKL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNT_USD:
+class SNT_USD(NamedTuple):
     """
         name: SNT-USD
         precision: 0.00001
@@ -21903,8 +21437,7 @@ SNT_USD = SNT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNX_BTC:
+class SNX_BTC(NamedTuple):
     """
         name: SNX-BTC
         precision: 0.0000001
@@ -21950,8 +21483,7 @@ SNX_BTC = SNX_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNX_EUR:
+class SNX_EUR(NamedTuple):
     """
         name: SNX-EUR
         precision: 0.001
@@ -21997,8 +21529,7 @@ SNX_EUR = SNX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNX_GBP:
+class SNX_GBP(NamedTuple):
     """
         name: SNX-GBP
         precision: 0.001
@@ -22044,8 +21575,7 @@ SNX_GBP = SNX_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SNX_USD:
+class SNX_USD(NamedTuple):
     """
         name: SNX-USD
         precision: 0.001
@@ -22091,8 +21621,7 @@ SNX_USD = SNX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_BTC:
+class SOL_BTC(NamedTuple):
     """
         name: SOL-BTC
         precision: 0.0000001
@@ -22138,8 +21667,7 @@ SOL_BTC = SOL_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_ETH:
+class SOL_ETH(NamedTuple):
     """
         name: SOL-ETH
         precision: 0.00001
@@ -22185,8 +21713,7 @@ SOL_ETH = SOL_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_EUR:
+class SOL_EUR(NamedTuple):
     """
         name: SOL-EUR
         precision: 0.01
@@ -22232,8 +21759,7 @@ SOL_EUR = SOL_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_GBP:
+class SOL_GBP(NamedTuple):
     """
         name: SOL-GBP
         precision: 0.01
@@ -22279,8 +21805,7 @@ SOL_GBP = SOL_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_USD:
+class SOL_USD(NamedTuple):
     """
         name: SOL-USD
         precision: 0.01
@@ -22326,8 +21851,7 @@ SOL_USD = SOL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_USDT:
+class SOL_USDT(NamedTuple):
     """
         name: SOL-USDT
         precision: 0.01
@@ -22373,8 +21897,7 @@ SOL_USDT = SOL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELL_USD:
+class SPELL_USD(NamedTuple):
     """
         name: SPELL-USD
         precision: 0.0000001
@@ -22420,8 +21943,7 @@ SPELL_USD = SPELL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SPELL_USDT:
+class SPELL_USDT(NamedTuple):
     """
         name: SPELL-USDT
         precision: 0.0000001
@@ -22467,8 +21989,7 @@ SPELL_USDT = SPELL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STG_USD:
+class STG_USD(NamedTuple):
     """
         name: STG-USD
         precision: 0.0001
@@ -22514,8 +22035,7 @@ STG_USD = STG_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STG_USDT:
+class STG_USDT(NamedTuple):
     """
         name: STG-USDT
         precision: 0.0001
@@ -22561,8 +22081,7 @@ STG_USDT = STG_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJ_BTC:
+class STORJ_BTC(NamedTuple):
     """
         name: STORJ-BTC
         precision: 0.00000001
@@ -22608,8 +22127,7 @@ STORJ_BTC = STORJ_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STORJ_USD:
+class STORJ_USD(NamedTuple):
     """
         name: STORJ-USD
         precision: 0.0001
@@ -22655,8 +22173,7 @@ STORJ_USD = STORJ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STX_USD:
+class STX_USD(NamedTuple):
     """
         name: STX-USD
         precision: 0.0001
@@ -22702,8 +22219,7 @@ STX_USD = STX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class STX_USDT:
+class STX_USDT(NamedTuple):
     """
         name: STX-USDT
         precision: 0.0001
@@ -22749,8 +22265,7 @@ STX_USDT = STX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUKU_EUR:
+class SUKU_EUR(NamedTuple):
     """
         name: SUKU-EUR
         precision: 0.0001
@@ -22796,8 +22311,7 @@ SUKU_EUR = SUKU_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUKU_USD:
+class SUKU_USD(NamedTuple):
     """
         name: SUKU-USD
         precision: 0.0001
@@ -22843,8 +22357,7 @@ SUKU_USD = SUKU_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUKU_USDT:
+class SUKU_USDT(NamedTuple):
     """
         name: SUKU-USDT
         precision: 0.0001
@@ -22890,8 +22403,7 @@ SUKU_USDT = SUKU_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUPER_USD:
+class SUPER_USD(NamedTuple):
     """
         name: SUPER-USD
         precision: 0.00001
@@ -22937,8 +22449,7 @@ SUPER_USD = SUPER_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUPER_USDT:
+class SUPER_USDT(NamedTuple):
     """
         name: SUPER-USDT
         precision: 0.00001
@@ -22984,8 +22495,7 @@ SUPER_USDT = SUPER_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHI_BTC:
+class SUSHI_BTC(NamedTuple):
     """
         name: SUSHI-BTC
         precision: 0.00000001
@@ -23031,8 +22541,7 @@ SUSHI_BTC = SUSHI_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHI_ETH:
+class SUSHI_ETH(NamedTuple):
     """
         name: SUSHI-ETH
         precision: 0.0000001
@@ -23078,8 +22587,7 @@ SUSHI_ETH = SUSHI_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHI_EUR:
+class SUSHI_EUR(NamedTuple):
     """
         name: SUSHI-EUR
         precision: 0.0001
@@ -23125,8 +22633,7 @@ SUSHI_EUR = SUSHI_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHI_GBP:
+class SUSHI_GBP(NamedTuple):
     """
         name: SUSHI-GBP
         precision: 0.0001
@@ -23172,8 +22679,7 @@ SUSHI_GBP = SUSHI_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SUSHI_USD:
+class SUSHI_USD(NamedTuple):
     """
         name: SUSHI-USD
         precision: 0.0001
@@ -23219,8 +22725,7 @@ SUSHI_USD = SUSHI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SWFTC_USD:
+class SWFTC_USD(NamedTuple):
     """
         name: SWFTC-USD
         precision: 0.000001
@@ -23266,8 +22771,7 @@ SWFTC_USD = SWFTC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYLO_USD:
+class SYLO_USD(NamedTuple):
     """
         name: SYLO-USD
         precision: 0.000001
@@ -23313,8 +22817,7 @@ SYLO_USD = SYLO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYLO_USDT:
+class SYLO_USDT(NamedTuple):
     """
         name: SYLO-USDT
         precision: 0.000001
@@ -23360,8 +22863,7 @@ SYLO_USDT = SYLO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SYN_USD:
+class SYN_USD(NamedTuple):
     """
         name: SYN-USD
         precision: 0.001
@@ -23407,8 +22909,7 @@ SYN_USD = SYN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TIME_USD:
+class TIME_USD(NamedTuple):
     """
         name: TIME-USD
         precision: 0.01
@@ -23454,8 +22955,7 @@ TIME_USD = TIME_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TIME_USDT:
+class TIME_USDT(NamedTuple):
     """
         name: TIME-USDT
         precision: 0.01
@@ -23501,8 +23001,7 @@ TIME_USDT = TIME_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TONE_USD:
+class TONE_USD(NamedTuple):
     """
         name: TONE-USD
         precision: 0.00001
@@ -23548,8 +23047,7 @@ TONE_USD = TONE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRAC_EUR:
+class TRAC_EUR(NamedTuple):
     """
         name: TRAC-EUR
         precision: 0.0001
@@ -23595,8 +23093,7 @@ TRAC_EUR = TRAC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRAC_USD:
+class TRAC_USD(NamedTuple):
     """
         name: TRAC-USD
         precision: 0.0001
@@ -23642,8 +23139,7 @@ TRAC_USD = TRAC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRAC_USDT:
+class TRAC_USDT(NamedTuple):
     """
         name: TRAC-USDT
         precision: 0.0001
@@ -23689,8 +23185,7 @@ TRAC_USDT = TRAC_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRB_BTC:
+class TRB_BTC(NamedTuple):
     """
         name: TRB-BTC
         precision: 0.0000001
@@ -23736,8 +23231,7 @@ TRB_BTC = TRB_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRB_USD:
+class TRB_USD(NamedTuple):
     """
         name: TRB-USD
         precision: 0.01
@@ -23783,8 +23277,7 @@ TRB_USD = TRB_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRIBE_USD:
+class TRIBE_USD(NamedTuple):
     """
         name: TRIBE-USD
         precision: 0.0001
@@ -23830,8 +23323,7 @@ TRIBE_USD = TRIBE_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRU_BTC:
+class TRU_BTC(NamedTuple):
     """
         name: TRU-BTC
         precision: 0.00000001
@@ -23877,8 +23369,7 @@ TRU_BTC = TRU_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRU_EUR:
+class TRU_EUR(NamedTuple):
     """
         name: TRU-EUR
         precision: 0.0001
@@ -23924,8 +23415,7 @@ TRU_EUR = TRU_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRU_USD:
+class TRU_USD(NamedTuple):
     """
         name: TRU-USD
         precision: 0.0001
@@ -23971,8 +23461,7 @@ TRU_USD = TRU_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRU_USDT:
+class TRU_USDT(NamedTuple):
     """
         name: TRU-USDT
         precision: 0.0001
@@ -24018,8 +23507,7 @@ TRU_USDT = TRU_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMA_BTC:
+class UMA_BTC(NamedTuple):
     """
         name: UMA-BTC
         precision: 0.00000001
@@ -24065,8 +23553,7 @@ UMA_BTC = UMA_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMA_EUR:
+class UMA_EUR(NamedTuple):
     """
         name: UMA-EUR
         precision: 0.001
@@ -24112,8 +23599,7 @@ UMA_EUR = UMA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMA_GBP:
+class UMA_GBP(NamedTuple):
     """
         name: UMA-GBP
         precision: 0.01
@@ -24159,8 +23645,7 @@ UMA_GBP = UMA_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UMA_USD:
+class UMA_USD(NamedTuple):
     """
         name: UMA-USD
         precision: 0.001
@@ -24206,8 +23691,7 @@ UMA_USD = UMA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNFI_USD:
+class UNFI_USD(NamedTuple):
     """
         name: UNFI-USD
         precision: 0.01
@@ -24253,8 +23737,7 @@ UNFI_USD = UNFI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNI_BTC:
+class UNI_BTC(NamedTuple):
     """
         name: UNI-BTC
         precision: 0.0000001
@@ -24300,8 +23783,7 @@ UNI_BTC = UNI_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNI_EUR:
+class UNI_EUR(NamedTuple):
     """
         name: UNI-EUR
         precision: 0.01
@@ -24347,8 +23829,7 @@ UNI_EUR = UNI_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNI_GBP:
+class UNI_GBP(NamedTuple):
     """
         name: UNI-GBP
         precision: 0.01
@@ -24394,8 +23875,7 @@ UNI_GBP = UNI_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNI_USD:
+class UNI_USD(NamedTuple):
     """
         name: UNI-USD
         precision: 0.001
@@ -24441,8 +23921,7 @@ UNI_USD = UNI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UPI_USD:
+class UPI_USD(NamedTuple):
     """
         name: UPI-USD
         precision: 0.00001
@@ -24488,8 +23967,7 @@ UPI_USD = UPI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UPI_USDT:
+class UPI_USDT(NamedTuple):
     """
         name: UPI-USDT
         precision: 0.00001
@@ -24535,8 +24013,7 @@ UPI_USDT = UPI_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDC_EUR:
+class USDC_EUR(NamedTuple):
     """
         name: USDC-EUR
         precision: 0.0001
@@ -24582,8 +24059,7 @@ USDC_EUR = USDC_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDC_GBP:
+class USDC_GBP(NamedTuple):
     """
         name: USDC-GBP
         precision: 0.0001
@@ -24629,8 +24105,7 @@ USDC_GBP = USDC_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDT_EUR:
+class USDT_EUR(NamedTuple):
     """
         name: USDT-EUR
         precision: 0.00001
@@ -24676,8 +24151,7 @@ USDT_EUR = USDT_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDT_GBP:
+class USDT_GBP(NamedTuple):
     """
         name: USDT-GBP
         precision: 0.0001
@@ -24723,8 +24197,7 @@ USDT_GBP = USDT_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDT_USD:
+class USDT_USD(NamedTuple):
     """
         name: USDT-USD
         precision: 0.00001
@@ -24770,8 +24243,7 @@ USDT_USD = USDT_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class USDT_USDC:
+class USDT_USDC(NamedTuple):
     """
         name: USDT-USDC
         precision: 0.0001
@@ -24817,8 +24289,7 @@ USDT_USDC = USDT_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UST_EUR:
+class UST_EUR(NamedTuple):
     """
         name: UST-EUR
         precision: 0.00001
@@ -24864,8 +24335,7 @@ UST_EUR = UST_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UST_USD:
+class UST_USD(NamedTuple):
     """
         name: UST-USD
         precision: 0.00001
@@ -24911,8 +24381,7 @@ UST_USD = UST_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UST_USDT:
+class UST_USDT(NamedTuple):
     """
         name: UST-USDT
         precision: 0.00001
@@ -24958,8 +24427,7 @@ UST_USDT = UST_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGX_EUR:
+class VGX_EUR(NamedTuple):
     """
         name: VGX-EUR
         precision: 0.0001
@@ -25005,8 +24473,7 @@ VGX_EUR = VGX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGX_USD:
+class VGX_USD(NamedTuple):
     """
         name: VGX-USD
         precision: 0.0001
@@ -25052,8 +24519,7 @@ VGX_USD = VGX_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class VGX_USDT:
+class VGX_USDT(NamedTuple):
     """
         name: VGX-USDT
         precision: 0.0001
@@ -25099,8 +24565,7 @@ VGX_USDT = VGX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAMPL_USD:
+class WAMPL_USD(NamedTuple):
     """
         name: WAMPL-USD
         precision: 0.01
@@ -25146,8 +24611,7 @@ WAMPL_USD = WAMPL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAMPL_USDT:
+class WAMPL_USDT(NamedTuple):
     """
         name: WAMPL-USDT
         precision: 0.01
@@ -25193,8 +24657,7 @@ WAMPL_USDT = WAMPL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WAXL_USD:
+class WAXL_USD(NamedTuple):
     """
         name: WAXL-USD
         precision: 0.0001
@@ -25240,8 +24703,7 @@ WAXL_USD = WAXL_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WBTC_BTC:
+class WBTC_BTC(NamedTuple):
     """
         name: WBTC-BTC
         precision: 0.0001
@@ -25287,8 +24749,7 @@ WBTC_BTC = WBTC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WBTC_USD:
+class WBTC_USD(NamedTuple):
     """
         name: WBTC-USD
         precision: 0.01
@@ -25334,8 +24795,7 @@ WBTC_USD = WBTC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WCFG_BTC:
+class WCFG_BTC(NamedTuple):
     """
         name: WCFG-BTC
         precision: 0.00000001
@@ -25381,8 +24841,7 @@ WCFG_BTC = WCFG_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WCFG_EUR:
+class WCFG_EUR(NamedTuple):
     """
         name: WCFG-EUR
         precision: 0.0001
@@ -25428,8 +24887,7 @@ WCFG_EUR = WCFG_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WCFG_USD:
+class WCFG_USD(NamedTuple):
     """
         name: WCFG-USD
         precision: 0.001
@@ -25475,8 +24933,7 @@ WCFG_USD = WCFG_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WCFG_USDT:
+class WCFG_USDT(NamedTuple):
     """
         name: WCFG-USDT
         precision: 0.00001
@@ -25522,8 +24979,7 @@ WCFG_USDT = WCFG_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WLUNA_EUR:
+class WLUNA_EUR(NamedTuple):
     """
         name: WLUNA-EUR
         precision: 0.00000001
@@ -25569,8 +25025,7 @@ WLUNA_EUR = WLUNA_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WLUNA_GBP:
+class WLUNA_GBP(NamedTuple):
     """
         name: WLUNA-GBP
         precision: 0.00000001
@@ -25616,8 +25071,7 @@ WLUNA_GBP = WLUNA_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WLUNA_USD:
+class WLUNA_USD(NamedTuple):
     """
         name: WLUNA-USD
         precision: 0.00000001
@@ -25663,8 +25117,7 @@ WLUNA_USD = WLUNA_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class WLUNA_USDT:
+class WLUNA_USDT(NamedTuple):
     """
         name: WLUNA-USDT
         precision: 0.00000001
@@ -25710,8 +25163,7 @@ WLUNA_USDT = WLUNA_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XCN_USD:
+class XCN_USD(NamedTuple):
     """
         name: XCN-USD
         precision: 0.00001
@@ -25757,8 +25209,7 @@ XCN_USD = XCN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XCN_USDT:
+class XCN_USDT(NamedTuple):
     """
         name: XCN-USDT
         precision: 0.00001
@@ -25804,8 +25255,7 @@ XCN_USDT = XCN_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLM_BTC:
+class XLM_BTC(NamedTuple):
     """
         name: XLM-BTC
         precision: 0.00000001
@@ -25851,8 +25301,7 @@ XLM_BTC = XLM_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLM_EUR:
+class XLM_EUR(NamedTuple):
     """
         name: XLM-EUR
         precision: 0.000001
@@ -25898,8 +25347,7 @@ XLM_EUR = XLM_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLM_USD:
+class XLM_USD(NamedTuple):
     """
         name: XLM-USD
         precision: 0.000001
@@ -25945,8 +25393,7 @@ XLM_USD = XLM_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XLM_USDT:
+class XLM_USDT(NamedTuple):
     """
         name: XLM-USDT
         precision: 0.0001
@@ -25992,8 +25439,7 @@ XLM_USDT = XLM_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRP_BTC:
+class XRP_BTC(NamedTuple):
     """
         name: XRP-BTC
         precision: 0.00000001
@@ -26039,8 +25485,7 @@ XRP_BTC = XRP_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRP_EUR:
+class XRP_EUR(NamedTuple):
     """
         name: XRP-EUR
         precision: 0.0001
@@ -26086,8 +25531,7 @@ XRP_EUR = XRP_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRP_GBP:
+class XRP_GBP(NamedTuple):
     """
         name: XRP-GBP
         precision: 0.0001
@@ -26133,8 +25577,7 @@ XRP_GBP = XRP_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRP_USD:
+class XRP_USD(NamedTuple):
     """
         name: XRP-USD
         precision: 0.0001
@@ -26180,8 +25623,7 @@ XRP_USD = XRP_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZ_BTC:
+class XTZ_BTC(NamedTuple):
     """
         name: XTZ-BTC
         precision: 0.00000001
@@ -26227,8 +25669,7 @@ XTZ_BTC = XTZ_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZ_EUR:
+class XTZ_EUR(NamedTuple):
     """
         name: XTZ-EUR
         precision: 0.01
@@ -26274,8 +25715,7 @@ XTZ_EUR = XTZ_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZ_GBP:
+class XTZ_GBP(NamedTuple):
     """
         name: XTZ-GBP
         precision: 0.001
@@ -26321,8 +25761,7 @@ XTZ_GBP = XTZ_GBP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XTZ_USD:
+class XTZ_USD(NamedTuple):
     """
         name: XTZ-USD
         precision: 0.001
@@ -26368,8 +25807,7 @@ XTZ_USD = XTZ_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XYO_BTC:
+class XYO_BTC(NamedTuple):
     """
         name: XYO-BTC
         precision: 0.00000001
@@ -26415,8 +25853,7 @@ XYO_BTC = XYO_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XYO_EUR:
+class XYO_EUR(NamedTuple):
     """
         name: XYO-EUR
         precision: 0.000001
@@ -26462,8 +25899,7 @@ XYO_EUR = XYO_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XYO_USD:
+class XYO_USD(NamedTuple):
     """
         name: XYO-USD
         precision: 0.00001
@@ -26509,8 +25945,7 @@ XYO_USD = XYO_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XYO_USDT:
+class XYO_USDT(NamedTuple):
     """
         name: XYO-USDT
         precision: 0.00001
@@ -26556,8 +25991,7 @@ XYO_USDT = XYO_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFI_BTC:
+class YFI_BTC(NamedTuple):
     """
         name: YFI-BTC
         precision: 0.0001
@@ -26603,8 +26037,7 @@ YFI_BTC = YFI_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFI_USD:
+class YFI_USD(NamedTuple):
     """
         name: YFI-USD
         precision: 0.01
@@ -26650,8 +26083,7 @@ YFI_USD = YFI_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class YFII_USD:
+class YFII_USD(NamedTuple):
     """
         name: YFII-USD
         precision: 0.01
@@ -26697,8 +26129,7 @@ YFII_USD = YFII_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEC_BTC:
+class ZEC_BTC(NamedTuple):
     """
         name: ZEC-BTC
         precision: 0.000001
@@ -26744,8 +26175,7 @@ ZEC_BTC = ZEC_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEC_USD:
+class ZEC_USD(NamedTuple):
     """
         name: ZEC-USD
         precision: 0.01
@@ -26791,8 +26221,7 @@ ZEC_USD = ZEC_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEC_USDC:
+class ZEC_USDC(NamedTuple):
     """
         name: ZEC-USDC
         precision: 0.01
@@ -26838,8 +26267,7 @@ ZEC_USDC = ZEC_USDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEN_BTC:
+class ZEN_BTC(NamedTuple):
     """
         name: ZEN-BTC
         precision: 0.0000001
@@ -26885,8 +26313,7 @@ ZEN_BTC = ZEN_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEN_USD:
+class ZEN_USD(NamedTuple):
     """
         name: ZEN-USD
         precision: 0.01
@@ -26932,8 +26359,7 @@ ZEN_USD = ZEN_USD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZEN_USDT:
+class ZEN_USDT(NamedTuple):
     """
         name: ZEN-USDT
         precision: 0.01
@@ -26979,8 +26405,7 @@ ZEN_USDT = ZEN_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRX_BTC:
+class ZRX_BTC(NamedTuple):
     """
         name: ZRX-BTC
         precision: 0.00000001
@@ -27026,8 +26451,7 @@ ZRX_BTC = ZRX_BTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRX_EUR:
+class ZRX_EUR(NamedTuple):
     """
         name: ZRX-EUR
         precision: 0.0001
@@ -27073,8 +26497,7 @@ ZRX_EUR = ZRX_EUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ZRX_USD:
+class ZRX_USD(NamedTuple):
     """
         name: ZRX-USD
         precision: 0.000001

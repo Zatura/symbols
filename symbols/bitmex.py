@@ -1,8 +1,7 @@
-from dataclasses import dataclass
+from typing import NamedTuple
 
 
-@dataclass(slots=True, frozen=True)
-class _EVOL7D:
+class _EVOL7D(NamedTuple):
     """
         name: .EVOL7D
         precision: 0.01
@@ -48,8 +47,7 @@ _EVOL7D = _EVOL7D()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAXBT:
+class _BADAXBT(NamedTuple):
     """
         name: .BADAXBT
         precision: 1e-08
@@ -95,8 +93,7 @@ _BADAXBT = _BADAXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAXBT30M:
+class _BADAXBT30M(NamedTuple):
     """
         name: .BADAXBT30M
         precision: 1e-08
@@ -142,8 +139,7 @@ _BADAXBT30M = _BADAXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCHXBT:
+class _BBCHXBT(NamedTuple):
     """
         name: .BBCHXBT
         precision: 1e-06
@@ -189,8 +185,7 @@ _BBCHXBT = _BBCHXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCHXBT30M:
+class _BBCHXBT30M(NamedTuple):
     """
         name: .BBCHXBT30M
         precision: 1e-06
@@ -236,8 +231,7 @@ _BBCHXBT30M = _BBCHXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOSXBT:
+class _BEOSXBT(NamedTuple):
     """
         name: .BEOSXBT
         precision: 1e-08
@@ -283,8 +277,7 @@ _BEOSXBT = _BEOSXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOSXBT30M:
+class _BEOSXBT30M(NamedTuple):
     """
         name: .BEOSXBT30M
         precision: 1e-08
@@ -330,8 +323,7 @@ _BEOSXBT30M = _BEOSXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRPXBT:
+class _BXRPXBT(NamedTuple):
     """
         name: .BXRPXBT
         precision: 1e-08
@@ -377,8 +369,7 @@ _BXRPXBT = _BXRPXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRPXBT30M:
+class _BXRPXBT30M(NamedTuple):
     """
         name: .BXRPXBT30M
         precision: 1e-08
@@ -424,8 +415,7 @@ _BXRPXBT30M = _BXRPXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXXBT:
+class _BTRXXBT(NamedTuple):
     """
         name: .BTRXXBT
         precision: 1e-10
@@ -471,8 +461,7 @@ _BTRXXBT = _BTRXXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXXBT30M:
+class _BTRXXBT30M(NamedTuple):
     """
         name: .BTRXXBT30M
         precision: 1e-10
@@ -518,8 +507,7 @@ _BTRXXBT30M = _BTRXXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAXBT_NEXT:
+class _BADAXBT_NEXT(NamedTuple):
     """
         name: .BADAXBT_NEXT
         precision: 1e-08
@@ -565,8 +553,7 @@ _BADAXBT_NEXT = _BADAXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCHXBT_NEXT:
+class _BBCHXBT_NEXT(NamedTuple):
     """
         name: .BBCHXBT_NEXT
         precision: 1e-06
@@ -612,8 +599,7 @@ _BBCHXBT_NEXT = _BBCHXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOSXBT_NEXT:
+class _BEOSXBT_NEXT(NamedTuple):
     """
         name: .BEOSXBT_NEXT
         precision: 1e-08
@@ -659,8 +645,7 @@ _BEOSXBT_NEXT = _BEOSXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXXBT_NEXT:
+class _BTRXXBT_NEXT(NamedTuple):
     """
         name: .BTRXXBT_NEXT
         precision: 1e-10
@@ -706,8 +691,7 @@ _BTRXXBT_NEXT = _BTRXXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRPXBT_NEXT:
+class _BXRPXBT_NEXT(NamedTuple):
     """
         name: .BXRPXBT_NEXT
         precision: 1e-08
@@ -753,8 +737,7 @@ _BXRPXBT_NEXT = _BXRPXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRP_NEXT:
+class _BXRP_NEXT(NamedTuple):
     """
         name: .BXRP_NEXT
         precision: 1e-05
@@ -800,8 +783,7 @@ _BXRP_NEXT = _BXRP_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRP:
+class _BXRP(NamedTuple):
     """
         name: .BXRP
         precision: 1e-05
@@ -847,8 +829,7 @@ _BXRP = _BXRP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPBON:
+class _XRPBON(NamedTuple):
     """
         name: .XRPBON
         precision: 1e-06
@@ -894,8 +875,7 @@ _XRPBON = _XRPBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPBON8H:
+class _XRPBON8H(NamedTuple):
     """
         name: .XRPBON8H
         precision: 1e-06
@@ -941,8 +921,7 @@ _XRPBON8H = _XRPBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPUSDPI:
+class _XRPUSDPI(NamedTuple):
     """
         name: .XRPUSDPI
         precision: 1e-06
@@ -988,8 +967,7 @@ _XRPUSDPI = _XRPUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPUSDPI8H:
+class _XRPUSDPI8H(NamedTuple):
     """
         name: .XRPUSDPI8H
         precision: 1e-06
@@ -1035,8 +1013,7 @@ _XRPUSDPI8H = _XRPUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCH:
+class _BBCH(NamedTuple):
     """
         name: .BBCH
         precision: 0.001
@@ -1082,8 +1059,7 @@ _BBCH = _BBCH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHBON:
+class _BCHBON(NamedTuple):
     """
         name: .BCHBON
         precision: 1e-06
@@ -1129,8 +1105,7 @@ _BCHBON = _BCHBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHBON8H:
+class _BCHBON8H(NamedTuple):
     """
         name: .BCHBON8H
         precision: 1e-06
@@ -1176,8 +1151,7 @@ _BCHBON8H = _BCHBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHUSDPI:
+class _BCHUSDPI(NamedTuple):
     """
         name: .BCHUSDPI
         precision: 1e-06
@@ -1223,8 +1197,7 @@ _BCHUSDPI = _BCHUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHUSDPI8H:
+class _BCHUSDPI8H(NamedTuple):
     """
         name: .BCHUSDPI8H
         precision: 1e-06
@@ -1270,8 +1243,7 @@ _BCHUSDPI8H = _BCHUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCH_NEXT:
+class _BBCH_NEXT(NamedTuple):
     """
         name: .BBCH_NEXT
         precision: 0.001
@@ -1317,8 +1289,7 @@ _BBCH_NEXT = _BBCH_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDT:
+class _BUSDT(NamedTuple):
     """
         name: .BUSDT
         precision: 1e-05
@@ -1364,8 +1335,7 @@ _BUSDT = _BUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDT_NEXT:
+class _BUSDT_NEXT(NamedTuple):
     """
         name: .BUSDT_NEXT
         precision: 1e-05
@@ -1411,8 +1381,7 @@ _BUSDT_NEXT = _BUSDT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOST:
+class _BEOST(NamedTuple):
     """
         name: .BEOST
         precision: 1e-05
@@ -1458,8 +1427,7 @@ _BEOST = _BEOST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOST_NEXT:
+class _BEOST_NEXT(NamedTuple):
     """
         name: .BEOST_NEXT
         precision: 1e-05
@@ -1505,8 +1473,7 @@ _BEOST_NEXT = _BEOST_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOST30M:
+class _BEOST30M(NamedTuple):
     """
         name: .BEOST30M
         precision: 1e-05
@@ -1552,8 +1519,7 @@ _BEOST30M = _BEOST30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLINKT:
+class _BLINKT(NamedTuple):
     """
         name: .BLINKT
         precision: 0.0001
@@ -1599,8 +1565,7 @@ _BLINKT = _BLINKT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLINKT_NEXT:
+class _BLINKT_NEXT(NamedTuple):
     """
         name: .BLINKT_NEXT
         precision: 0.0001
@@ -1646,8 +1611,7 @@ _BLINKT_NEXT = _BLINKT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLINKT30M:
+class _BLINKT30M(NamedTuple):
     """
         name: .BLINKT30M
         precision: 0.0001
@@ -1693,8 +1657,7 @@ _BLINKT30M = _BLINKT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAT:
+class _BADAT(NamedTuple):
     """
         name: .BADAT
         precision: 1e-05
@@ -1740,8 +1703,7 @@ _BADAT = _BADAT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAT_NEXT:
+class _BADAT_NEXT(NamedTuple):
     """
         name: .BADAT_NEXT
         precision: 1e-05
@@ -1787,8 +1749,7 @@ _BADAT_NEXT = _BADAT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADAT30M:
+class _BADAT30M(NamedTuple):
     """
         name: .BADAT30M
         precision: 1e-05
@@ -1834,8 +1795,7 @@ _BADAT30M = _BADAT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXTZT:
+class _BXTZT(NamedTuple):
     """
         name: .BXTZT
         precision: 1e-05
@@ -1881,8 +1841,7 @@ _BXTZT = _BXTZT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXTZT_NEXT:
+class _BXTZT_NEXT(NamedTuple):
     """
         name: .BXTZT_NEXT
         precision: 1e-05
@@ -1928,8 +1887,7 @@ _BXTZT_NEXT = _BXTZT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXTZT30M:
+class _BXTZT30M(NamedTuple):
     """
         name: .BXTZT30M
         precision: 1e-05
@@ -1975,8 +1933,7 @@ _BXTZT30M = _BXTZT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKBON:
+class _LINKBON(NamedTuple):
     """
         name: .LINKBON
         precision: 1e-05
@@ -2022,8 +1979,7 @@ _LINKBON = _LINKBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKBON8H:
+class _LINKBON8H(NamedTuple):
     """
         name: .LINKBON8H
         precision: 1e-05
@@ -2069,8 +2025,7 @@ _LINKBON8H = _LINKBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKUSDTPI:
+class _LINKUSDTPI(NamedTuple):
     """
         name: .LINKUSDTPI
         precision: 1e-05
@@ -2116,8 +2071,7 @@ _LINKUSDTPI = _LINKUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKUSDTPI8H:
+class _LINKUSDTPI8H(NamedTuple):
     """
         name: .LINKUSDTPI8H
         precision: 1e-05
@@ -2163,8 +2117,7 @@ _LINKUSDTPI8H = _LINKUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTBON:
+class _USDTBON(NamedTuple):
     """
         name: .USDTBON
         precision: 1e-05
@@ -2210,8 +2163,7 @@ _USDTBON = _USDTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTBON8H:
+class _USDTBON8H(NamedTuple):
     """
         name: .USDTBON8H
         precision: 1e-05
@@ -2257,8 +2209,7 @@ _USDTBON8H = _USDTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBNBT:
+class _BBNBT(NamedTuple):
     """
         name: .BBNBT
         precision: 0.001
@@ -2304,8 +2255,7 @@ _BBNBT = _BBNBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBNBT_NEXT:
+class _BBNBT_NEXT(NamedTuple):
     """
         name: .BBNBT_NEXT
         precision: 0.001
@@ -2351,8 +2301,7 @@ _BBNBT_NEXT = _BBNBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBNBT30M:
+class _BBNBT30M(NamedTuple):
     """
         name: .BBNBT30M
         precision: 0.001
@@ -2398,8 +2347,7 @@ _BBNBT30M = _BBNBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOTT:
+class _BDOTT(NamedTuple):
     """
         name: .BDOTT
         precision: 0.0001
@@ -2445,8 +2393,7 @@ _BDOTT = _BDOTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOTT_NEXT:
+class _BDOTT_NEXT(NamedTuple):
     """
         name: .BDOTT_NEXT
         precision: 0.0001
@@ -2492,8 +2439,7 @@ _BDOTT_NEXT = _BDOTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOTT30M:
+class _BDOTT30M(NamedTuple):
     """
         name: .BDOTT30M
         precision: 0.0001
@@ -2539,8 +2485,7 @@ _BDOTT30M = _BDOTT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BYFIT:
+class _BYFIT(NamedTuple):
     """
         name: .BYFIT
         precision: 0.01
@@ -2586,8 +2531,7 @@ _BYFIT = _BYFIT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BYFIT_NEXT:
+class _BYFIT_NEXT(NamedTuple):
     """
         name: .BYFIT_NEXT
         precision: 0.01
@@ -2633,8 +2577,7 @@ _BYFIT_NEXT = _BYFIT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BYFIT30M:
+class _BYFIT30M(NamedTuple):
     """
         name: .BYFIT30M
         precision: 0.01
@@ -2680,8 +2623,7 @@ _BYFIT30M = _BYFIT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOGET:
+class _BDOGET(NamedTuple):
     """
         name: .BDOGET
         precision: 1e-06
@@ -2727,8 +2669,7 @@ _BDOGET = _BDOGET()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOGET_NEXT:
+class _BDOGET_NEXT(NamedTuple):
     """
         name: .BDOGET_NEXT
         precision: 1e-06
@@ -2774,8 +2715,7 @@ _BDOGET_NEXT = _BDOGET_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEBON:
+class _DOGEBON(NamedTuple):
     """
         name: .DOGEBON
         precision: 1e-06
@@ -2821,8 +2761,7 @@ _DOGEBON = _DOGEBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEBON8H:
+class _DOGEBON8H(NamedTuple):
     """
         name: .DOGEBON8H
         precision: 1e-06
@@ -2868,8 +2807,7 @@ _DOGEBON8H = _DOGEBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEUSDTPI:
+class _DOGEUSDTPI(NamedTuple):
     """
         name: .DOGEUSDTPI
         precision: 1e-06
@@ -2915,8 +2853,7 @@ _DOGEUSDTPI = _DOGEUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEUSDTPI8H:
+class _DOGEUSDTPI8H(NamedTuple):
     """
         name: .DOGEUSDTPI8H
         precision: 1e-06
@@ -2962,8 +2899,7 @@ _DOGEUSDTPI8H = _DOGEUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBBON:
+class _BNBBON(NamedTuple):
     """
         name: .BNBBON
         precision: 1e-05
@@ -3009,8 +2945,7 @@ _BNBBON = _BNBBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBBON8H:
+class _BNBBON8H(NamedTuple):
     """
         name: .BNBBON8H
         precision: 1e-05
@@ -3056,8 +2991,7 @@ _BNBBON8H = _BNBBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBUSDTPI:
+class _BNBUSDTPI(NamedTuple):
     """
         name: .BNBUSDTPI
         precision: 1e-05
@@ -3103,8 +3037,7 @@ _BNBUSDTPI = _BNBUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBUSDTPI8H:
+class _BNBUSDTPI8H(NamedTuple):
     """
         name: .BNBUSDTPI8H
         precision: 1e-05
@@ -3150,8 +3083,7 @@ _BNBUSDTPI8H = _BNBUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADABON:
+class _ADABON(NamedTuple):
     """
         name: .ADABON
         precision: 1e-06
@@ -3197,8 +3129,7 @@ _ADABON = _ADABON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADABON8H:
+class _ADABON8H(NamedTuple):
     """
         name: .ADABON8H
         precision: 1e-06
@@ -3244,8 +3175,7 @@ _ADABON8H = _ADABON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADAUSDTPI:
+class _ADAUSDTPI(NamedTuple):
     """
         name: .ADAUSDTPI
         precision: 1e-06
@@ -3291,8 +3221,7 @@ _ADAUSDTPI = _ADAUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADAUSDTPI8H:
+class _ADAUSDTPI8H(NamedTuple):
     """
         name: .ADAUSDTPI8H
         precision: 1e-06
@@ -3338,8 +3267,7 @@ _ADAUSDTPI8H = _ADAUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTBON:
+class _DOTBON(NamedTuple):
     """
         name: .DOTBON
         precision: 1e-06
@@ -3385,8 +3313,7 @@ _DOTBON = _DOTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTBON8H:
+class _DOTBON8H(NamedTuple):
     """
         name: .DOTBON8H
         precision: 1e-06
@@ -3432,8 +3359,7 @@ _DOTBON8H = _DOTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTUSDTPI:
+class _DOTUSDTPI(NamedTuple):
     """
         name: .DOTUSDTPI
         precision: 1e-06
@@ -3479,8 +3405,7 @@ _DOTUSDTPI = _DOTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTUSDTPI8H:
+class _DOTUSDTPI8H(NamedTuple):
     """
         name: .DOTUSDTPI8H
         precision: 1e-06
@@ -3526,8 +3451,7 @@ _DOTUSDTPI8H = _DOTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSBON:
+class _EOSBON(NamedTuple):
     """
         name: .EOSBON
         precision: 1e-06
@@ -3573,8 +3497,7 @@ _EOSBON = _EOSBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSBON8H:
+class _EOSBON8H(NamedTuple):
     """
         name: .EOSBON8H
         precision: 1e-06
@@ -3620,8 +3543,7 @@ _EOSBON8H = _EOSBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSUSDTPI:
+class _EOSUSDTPI(NamedTuple):
     """
         name: .EOSUSDTPI
         precision: 1e-06
@@ -3667,8 +3589,7 @@ _EOSUSDTPI = _EOSUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSUSDTPI8H:
+class _EOSUSDTPI8H(NamedTuple):
     """
         name: .EOSUSDTPI8H
         precision: 1e-06
@@ -3714,8 +3635,7 @@ _EOSUSDTPI8H = _EOSUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XTZBON:
+class _XTZBON(NamedTuple):
     """
         name: .XTZBON
         precision: 1e-06
@@ -3761,8 +3681,7 @@ _XTZBON = _XTZBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XTZBON8H:
+class _XTZBON8H(NamedTuple):
     """
         name: .XTZBON8H
         precision: 1e-06
@@ -3808,8 +3727,7 @@ _XTZBON8H = _XTZBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XTZUSDTPI:
+class _XTZUSDTPI(NamedTuple):
     """
         name: .XTZUSDTPI
         precision: 1e-06
@@ -3855,8 +3773,7 @@ _XTZUSDTPI = _XTZUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _YFIBON:
+class _YFIBON(NamedTuple):
     """
         name: .YFIBON
         precision: 1e-06
@@ -3902,8 +3819,7 @@ _YFIBON = _YFIBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _YFIBON8H:
+class _YFIBON8H(NamedTuple):
     """
         name: .YFIBON8H
         precision: 1e-06
@@ -3949,8 +3865,7 @@ _YFIBON8H = _YFIBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _YFIUSDTPI:
+class _YFIUSDTPI(NamedTuple):
     """
         name: .YFIUSDTPI
         precision: 1e-06
@@ -3996,8 +3911,7 @@ _YFIUSDTPI = _YFIUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAAVET:
+class _BAAVET(NamedTuple):
     """
         name: .BAAVET
         precision: 0.001
@@ -4043,8 +3957,7 @@ _BAAVET = _BAAVET()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAAVET_NEXT:
+class _BAAVET_NEXT(NamedTuple):
     """
         name: .BAAVET_NEXT
         precision: 0.001
@@ -4090,8 +4003,7 @@ _BAAVET_NEXT = _BAAVET_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AAVEBON:
+class _AAVEBON(NamedTuple):
     """
         name: .AAVEBON
         precision: 1e-06
@@ -4137,8 +4049,7 @@ _AAVEBON = _AAVEBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AAVEBON8H:
+class _AAVEBON8H(NamedTuple):
     """
         name: .AAVEBON8H
         precision: 1e-06
@@ -4184,8 +4095,7 @@ _AAVEBON8H = _AAVEBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AAVEUSDTPI:
+class _AAVEUSDTPI(NamedTuple):
     """
         name: .AAVEUSDTPI
         precision: 1e-06
@@ -4231,8 +4141,7 @@ _AAVEUSDTPI = _AAVEUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AAVEUSDTPI8H:
+class _AAVEUSDTPI8H(NamedTuple):
     """
         name: .AAVEUSDTPI8H
         precision: 1e-06
@@ -4278,8 +4187,7 @@ _AAVEUSDTPI8H = _AAVEUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUNIT:
+class _BUNIT(NamedTuple):
     """
         name: .BUNIT
         precision: 0.0001
@@ -4325,8 +4233,7 @@ _BUNIT = _BUNIT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUNIT_NEXT:
+class _BUNIT_NEXT(NamedTuple):
     """
         name: .BUNIT_NEXT
         precision: 0.0001
@@ -4372,8 +4279,7 @@ _BUNIT_NEXT = _BUNIT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _UNIBON:
+class _UNIBON(NamedTuple):
     """
         name: .UNIBON
         precision: 1e-06
@@ -4419,8 +4325,7 @@ _UNIBON = _UNIBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _UNIBON8H:
+class _UNIBON8H(NamedTuple):
     """
         name: .UNIBON8H
         precision: 1e-06
@@ -4466,8 +4371,7 @@ _UNIBON8H = _UNIBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _UNIUSDTPI:
+class _UNIUSDTPI(NamedTuple):
     """
         name: .UNIUSDTPI
         precision: 1e-06
@@ -4513,8 +4417,7 @@ _UNIUSDTPI = _UNIUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _UNIUSDTPI8H:
+class _UNIUSDTPI8H(NamedTuple):
     """
         name: .UNIUSDTPI8H
         precision: 1e-06
@@ -4560,8 +4463,7 @@ _UNIUSDTPI8H = _UNIUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXLMT:
+class _BXLMT(NamedTuple):
     """
         name: .BXLMT
         precision: 1e-06
@@ -4607,8 +4509,7 @@ _BXLMT = _BXLMT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXLMT_NEXT:
+class _BXLMT_NEXT(NamedTuple):
     """
         name: .BXLMT_NEXT
         precision: 1e-06
@@ -4654,8 +4555,7 @@ _BXLMT_NEXT = _BXLMT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XLMBON:
+class _XLMBON(NamedTuple):
     """
         name: .XLMBON
         precision: 1e-06
@@ -4701,8 +4601,7 @@ _XLMBON = _XLMBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XLMBON8H:
+class _XLMBON8H(NamedTuple):
     """
         name: .XLMBON8H
         precision: 1e-06
@@ -4748,8 +4647,7 @@ _XLMBON8H = _XLMBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XLMUSDTPI:
+class _XLMUSDTPI(NamedTuple):
     """
         name: .XLMUSDTPI
         precision: 1e-06
@@ -4795,8 +4693,7 @@ _XLMUSDTPI = _XLMUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XLMUSDTPI8H:
+class _XLMUSDTPI8H(NamedTuple):
     """
         name: .XLMUSDTPI8H
         precision: 1e-06
@@ -4842,8 +4739,7 @@ _XLMUSDTPI8H = _XLMUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXT:
+class _BTRXT(NamedTuple):
     """
         name: .BTRXT
         precision: 1e-06
@@ -4889,8 +4785,7 @@ _BTRXT = _BTRXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXT_NEXT:
+class _BTRXT_NEXT(NamedTuple):
     """
         name: .BTRXT_NEXT
         precision: 1e-06
@@ -4936,8 +4831,7 @@ _BTRXT_NEXT = _BTRXT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXBON:
+class _TRXBON(NamedTuple):
     """
         name: .TRXBON
         precision: 1e-06
@@ -4983,8 +4877,7 @@ _TRXBON = _TRXBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXBON8H:
+class _TRXBON8H(NamedTuple):
     """
         name: .TRXBON8H
         precision: 1e-06
@@ -5030,8 +4923,7 @@ _TRXBON8H = _TRXBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXUSDTPI:
+class _TRXUSDTPI(NamedTuple):
     """
         name: .TRXUSDTPI
         precision: 1e-06
@@ -5077,8 +4969,7 @@ _TRXUSDTPI = _TRXUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXUSDTPI8H:
+class _TRXUSDTPI8H(NamedTuple):
     """
         name: .TRXUSDTPI8H
         precision: 1e-06
@@ -5124,8 +5015,7 @@ _TRXUSDTPI8H = _TRXUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRXT30M:
+class _BTRXT30M(NamedTuple):
     """
         name: .BTRXT30M
         precision: 1e-06
@@ -5171,8 +5061,7 @@ _BTRXT30M = _BTRXT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSOLT:
+class _BSOLT(NamedTuple):
     """
         name: .BSOLT
         precision: 0.001
@@ -5218,8 +5107,7 @@ _BSOLT = _BSOLT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSOLT_NEXT:
+class _BSOLT_NEXT(NamedTuple):
     """
         name: .BSOLT_NEXT
         precision: 0.001
@@ -5265,8 +5153,7 @@ _BSOLT_NEXT = _BSOLT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLBON:
+class _SOLBON(NamedTuple):
     """
         name: .SOLBON
         precision: 1e-06
@@ -5312,8 +5199,7 @@ _SOLBON = _SOLBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLBON8H:
+class _SOLBON8H(NamedTuple):
     """
         name: .SOLBON8H
         precision: 1e-06
@@ -5359,8 +5245,7 @@ _SOLBON8H = _SOLBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLUSDTPI:
+class _SOLUSDTPI(NamedTuple):
     """
         name: .SOLUSDTPI
         precision: 1e-06
@@ -5406,8 +5291,7 @@ _SOLUSDTPI = _SOLUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLUSDTPI8H:
+class _SOLUSDTPI8H(NamedTuple):
     """
         name: .SOLUSDTPI8H
         precision: 1e-06
@@ -5453,8 +5337,7 @@ _SOLUSDTPI8H = _SOLUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFILT:
+class _BFILT(NamedTuple):
     """
         name: .BFILT
         precision: 0.001
@@ -5500,8 +5383,7 @@ _BFILT = _BFILT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFILT_NEXT:
+class _BFILT_NEXT(NamedTuple):
     """
         name: .BFILT_NEXT
         precision: 0.001
@@ -5547,8 +5429,7 @@ _BFILT_NEXT = _BFILT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FILBON:
+class _FILBON(NamedTuple):
     """
         name: .FILBON
         precision: 1e-06
@@ -5594,8 +5475,7 @@ _FILBON = _FILBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FILBON8H:
+class _FILBON8H(NamedTuple):
     """
         name: .FILBON8H
         precision: 1e-06
@@ -5641,8 +5521,7 @@ _FILBON8H = _FILBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FILUSDTPI:
+class _FILUSDTPI(NamedTuple):
     """
         name: .FILUSDTPI
         precision: 1e-06
@@ -5688,8 +5567,7 @@ _FILUSDTPI = _FILUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FILUSDTPI8H:
+class _FILUSDTPI8H(NamedTuple):
     """
         name: .FILUSDTPI8H
         precision: 1e-06
@@ -5735,8 +5613,7 @@ _FILUSDTPI8H = _FILUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURBON:
+class _EURBON(NamedTuple):
     """
         name: .EURBON
         precision: 1e-06
@@ -5782,8 +5659,7 @@ _EURBON = _EURBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURBON8H:
+class _EURBON8H(NamedTuple):
     """
         name: .EURBON8H
         precision: 1e-06
@@ -5829,8 +5705,7 @@ _EURBON8H = _EURBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVETT:
+class _BVETT(NamedTuple):
     """
         name: .BVETT
         precision: 1e-06
@@ -5876,8 +5751,7 @@ _BVETT = _BVETT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVETT_NEXT:
+class _BVETT_NEXT(NamedTuple):
     """
         name: .BVETT_NEXT
         precision: 1e-06
@@ -5923,8 +5797,7 @@ _BVETT_NEXT = _BVETT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _VETBON:
+class _VETBON(NamedTuple):
     """
         name: .VETBON
         precision: 1e-06
@@ -5970,8 +5843,7 @@ _VETBON = _VETBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _VETBON8H:
+class _VETBON8H(NamedTuple):
     """
         name: .VETBON8H
         precision: 1e-06
@@ -6017,8 +5889,7 @@ _VETBON8H = _VETBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _VETUSDTPI:
+class _VETUSDTPI(NamedTuple):
     """
         name: .VETUSDTPI
         precision: 1e-06
@@ -6064,8 +5935,7 @@ _VETUSDTPI = _VETUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _VETUSDTPI8H:
+class _VETUSDTPI8H(NamedTuple):
     """
         name: .VETUSDTPI8H
         precision: 1e-06
@@ -6111,8 +5981,7 @@ _VETUSDTPI8H = _VETUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMATICT:
+class _BMATICT(NamedTuple):
     """
         name: .BMATICT
         precision: 1e-05
@@ -6158,8 +6027,7 @@ _BMATICT = _BMATICT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMATICT_NEXT:
+class _BMATICT_NEXT(NamedTuple):
     """
         name: .BMATICT_NEXT
         precision: 1e-05
@@ -6205,8 +6073,7 @@ _BMATICT_NEXT = _BMATICT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MATICBON:
+class _MATICBON(NamedTuple):
     """
         name: .MATICBON
         precision: 1e-06
@@ -6252,8 +6119,7 @@ _MATICBON = _MATICBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MATICBON8H:
+class _MATICBON8H(NamedTuple):
     """
         name: .MATICBON8H
         precision: 1e-06
@@ -6299,8 +6165,7 @@ _MATICBON8H = _MATICBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MATICUSDTPI:
+class _MATICUSDTPI(NamedTuple):
     """
         name: .MATICUSDTPI
         precision: 1e-06
@@ -6346,8 +6211,7 @@ _MATICUSDTPI = _MATICUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MATICUSDTPI8H:
+class _MATICUSDTPI8H(NamedTuple):
     """
         name: .MATICUSDTPI8H
         precision: 1e-06
@@ -6393,8 +6257,7 @@ _MATICUSDTPI8H = _MATICUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMKRT:
+class _BMKRT(NamedTuple):
     """
         name: .BMKRT
         precision: 0.01
@@ -6440,8 +6303,7 @@ _BMKRT = _BMKRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMKRT_NEXT:
+class _BMKRT_NEXT(NamedTuple):
     """
         name: .BMKRT_NEXT
         precision: 0.01
@@ -6487,8 +6349,7 @@ _BMKRT_NEXT = _BMKRT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAVAXT:
+class _BAVAXT(NamedTuple):
     """
         name: .BAVAXT
         precision: 0.0001
@@ -6534,8 +6395,7 @@ _BAVAXT = _BAVAXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAVAXT_NEXT:
+class _BAVAXT_NEXT(NamedTuple):
     """
         name: .BAVAXT_NEXT
         precision: 0.0001
@@ -6581,8 +6441,7 @@ _BAVAXT_NEXT = _BAVAXT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNAT:
+class _BLUNAT(NamedTuple):
     """
         name: .BLUNAT
         precision: 0.0001
@@ -6628,8 +6487,7 @@ _BLUNAT = _BLUNAT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNAT_NEXT:
+class _BLUNAT_NEXT(NamedTuple):
     """
         name: .BLUNAT_NEXT
         precision: 0.0001
@@ -6675,8 +6533,7 @@ _BLUNAT_NEXT = _BLUNAT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCOMPT:
+class _BCOMPT(NamedTuple):
     """
         name: .BCOMPT
         precision: 0.001
@@ -6722,8 +6579,7 @@ _BCOMPT = _BCOMPT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCOMPT_NEXT:
+class _BCOMPT_NEXT(NamedTuple):
     """
         name: .BCOMPT_NEXT
         precision: 0.001
@@ -6769,8 +6625,7 @@ _BCOMPT_NEXT = _BCOMPT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSUSHIT:
+class _BSUSHIT(NamedTuple):
     """
         name: .BSUSHIT
         precision: 0.0001
@@ -6816,8 +6671,7 @@ _BSUSHIT = _BSUSHIT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSUSHIT_NEXT:
+class _BSUSHIT_NEXT(NamedTuple):
     """
         name: .BSUSHIT_NEXT
         precision: 0.0001
@@ -6863,8 +6717,7 @@ _BSUSHIT_NEXT = _BSUSHIT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGRTT:
+class _BGRTT(NamedTuple):
     """
         name: .BGRTT
         precision: 1e-05
@@ -6910,8 +6763,7 @@ _BGRTT = _BGRTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGRTT_NEXT:
+class _BGRTT_NEXT(NamedTuple):
     """
         name: .BGRTT_NEXT
         precision: 1e-05
@@ -6957,8 +6809,7 @@ _BGRTT_NEXT = _BGRTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BALTMEX:
+class _BALTMEX(NamedTuple):
     """
         name: .BALTMEX
         precision: 1e-06
@@ -7004,8 +6855,7 @@ _BALTMEX = _BALTMEX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDEFIMEX:
+class _BDEFIMEX(NamedTuple):
     """
         name: .BDEFIMEX
         precision: 1e-06
@@ -7051,8 +6901,7 @@ _BDEFIMEX = _BDEFIMEX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXBON:
+class _ALTMEXBON(NamedTuple):
     """
         name: .ALTMEXBON
         precision: 1e-06
@@ -7098,8 +6947,7 @@ _ALTMEXBON = _ALTMEXBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXBON8H:
+class _ALTMEXBON8H(NamedTuple):
     """
         name: .ALTMEXBON8H
         precision: 1e-06
@@ -7145,8 +6993,7 @@ _ALTMEXBON8H = _ALTMEXBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXUSDPI:
+class _ALTMEXUSDPI(NamedTuple):
     """
         name: .ALTMEXUSDPI
         precision: 1e-06
@@ -7192,8 +7039,7 @@ _ALTMEXUSDPI = _ALTMEXUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXUSDPI8H:
+class _ALTMEXUSDPI8H(NamedTuple):
     """
         name: .ALTMEXUSDPI8H
         precision: 1e-06
@@ -7239,8 +7085,7 @@ _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXBON:
+class _DEFIMEXBON(NamedTuple):
     """
         name: .DEFIMEXBON
         precision: 1e-06
@@ -7286,8 +7131,7 @@ _DEFIMEXBON = _DEFIMEXBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXBON8H:
+class _DEFIMEXBON8H(NamedTuple):
     """
         name: .DEFIMEXBON8H
         precision: 1e-06
@@ -7333,8 +7177,7 @@ _DEFIMEXBON8H = _DEFIMEXBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXUSDPI:
+class _DEFIMEXUSDPI(NamedTuple):
     """
         name: .DEFIMEXUSDPI
         precision: 1e-06
@@ -7380,8 +7223,7 @@ _DEFIMEXUSDPI = _DEFIMEXUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXUSDPI8H:
+class _DEFIMEXUSDPI8H(NamedTuple):
     """
         name: .DEFIMEXUSDPI8H
         precision: 1e-06
@@ -7427,8 +7269,7 @@ _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SUSHIBON:
+class _SUSHIBON(NamedTuple):
     """
         name: .SUSHIBON
         precision: 1e-06
@@ -7474,8 +7315,7 @@ _SUSHIBON = _SUSHIBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SUSHIBON8H:
+class _SUSHIBON8H(NamedTuple):
     """
         name: .SUSHIBON8H
         precision: 1e-06
@@ -7521,8 +7361,7 @@ _SUSHIBON8H = _SUSHIBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SUSHIUSDTPI:
+class _SUSHIUSDTPI(NamedTuple):
     """
         name: .SUSHIUSDTPI
         precision: 1e-06
@@ -7568,8 +7407,7 @@ _SUSHIUSDTPI = _SUSHIUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SUSHIUSDTPI8H:
+class _SUSHIUSDTPI8H(NamedTuple):
     """
         name: .SUSHIUSDTPI8H
         precision: 1e-06
@@ -7615,8 +7453,7 @@ _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAXST:
+class _BAXST(NamedTuple):
     """
         name: .BAXST
         precision: 0.001
@@ -7662,8 +7499,7 @@ _BAXST = _BAXST()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAXST_NEXT:
+class _BAXST_NEXT(NamedTuple):
     """
         name: .BAXST_NEXT
         precision: 0.001
@@ -7709,8 +7545,7 @@ _BAXST_NEXT = _BAXST_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSBON:
+class _AXSBON(NamedTuple):
     """
         name: .AXSBON
         precision: 1e-06
@@ -7756,8 +7591,7 @@ _AXSBON = _AXSBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSBON8H:
+class _AXSBON8H(NamedTuple):
     """
         name: .AXSBON8H
         precision: 1e-06
@@ -7803,8 +7637,7 @@ _AXSBON8H = _AXSBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSUSDTPI:
+class _AXSUSDTPI(NamedTuple):
     """
         name: .AXSUSDTPI
         precision: 1e-06
@@ -7850,8 +7683,7 @@ _AXSUSDTPI = _AXSUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSUSDTPI8H:
+class _AXSUSDTPI8H(NamedTuple):
     """
         name: .AXSUSDTPI8H
         precision: 1e-06
@@ -7897,8 +7729,7 @@ _AXSUSDTPI8H = _AXSUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSRMT:
+class _BSRMT(NamedTuple):
     """
         name: .BSRMT
         precision: 0.0001
@@ -7944,8 +7775,7 @@ _BSRMT = _BSRMT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSRMT_NEXT:
+class _BSRMT_NEXT(NamedTuple):
     """
         name: .BSRMT_NEXT
         precision: 0.0001
@@ -7991,8 +7821,7 @@ _BSRMT_NEXT = _BSRMT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SRMBON:
+class _SRMBON(NamedTuple):
     """
         name: .SRMBON
         precision: 1e-06
@@ -8038,8 +7867,7 @@ _SRMBON = _SRMBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SRMBON8H:
+class _SRMBON8H(NamedTuple):
     """
         name: .SRMBON8H
         precision: 1e-06
@@ -8085,8 +7913,7 @@ _SRMBON8H = _SRMBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SRMUSDTPI:
+class _SRMUSDTPI(NamedTuple):
     """
         name: .SRMUSDTPI
         precision: 1e-06
@@ -8132,8 +7959,7 @@ _SRMUSDTPI = _SRMUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SRMUSDTPI8H:
+class _SRMUSDTPI8H(NamedTuple):
     """
         name: .SRMUSDTPI8H
         precision: 1e-06
@@ -8179,8 +8005,7 @@ _SRMUSDTPI8H = _SRMUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNA:
+class _BLUNA(NamedTuple):
     """
         name: .BLUNA
         precision: 0.0001
@@ -8226,8 +8051,7 @@ _BLUNA = _BLUNA()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNA_NEXT:
+class _BLUNA_NEXT(NamedTuple):
     """
         name: .BLUNA_NEXT
         precision: 0.0001
@@ -8273,8 +8097,7 @@ _BLUNA_NEXT = _BLUNA_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNABON:
+class _LUNABON(NamedTuple):
     """
         name: .LUNABON
         precision: 1e-06
@@ -8320,8 +8143,7 @@ _LUNABON = _LUNABON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNABON8H:
+class _LUNABON8H(NamedTuple):
     """
         name: .LUNABON8H
         precision: 1e-06
@@ -8367,8 +8189,7 @@ _LUNABON8H = _LUNABON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNAUSDPI:
+class _LUNAUSDPI(NamedTuple):
     """
         name: .LUNAUSDPI
         precision: 1e-06
@@ -8414,8 +8235,7 @@ _LUNAUSDPI = _LUNAUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNAUSDPI8H:
+class _LUNAUSDPI8H(NamedTuple):
     """
         name: .LUNAUSDPI8H
         precision: 1e-06
@@ -8461,8 +8281,7 @@ _LUNAUSDPI8H = _LUNAUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXBON:
+class _AVAXBON(NamedTuple):
     """
         name: .AVAXBON
         precision: 1e-06
@@ -8508,8 +8327,7 @@ _AVAXBON = _AVAXBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXBON8H:
+class _AVAXBON8H(NamedTuple):
     """
         name: .AVAXBON8H
         precision: 1e-06
@@ -8555,8 +8373,7 @@ _AVAXBON8H = _AVAXBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAVAX:
+class _BAVAX(NamedTuple):
     """
         name: .BAVAX
         precision: 0.0001
@@ -8602,8 +8419,7 @@ _BAVAX = _BAVAX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAVAX_NEXT:
+class _BAVAX_NEXT(NamedTuple):
     """
         name: .BAVAX_NEXT
         precision: 0.0001
@@ -8649,8 +8465,7 @@ _BAVAX_NEXT = _BAVAX_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXUSDPI:
+class _AVAXUSDPI(NamedTuple):
     """
         name: .AVAXUSDPI
         precision: 1e-06
@@ -8696,8 +8511,7 @@ _AVAXUSDPI = _AVAXUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXUSDPI8H:
+class _AVAXUSDPI8H(NamedTuple):
     """
         name: .AVAXUSDPI8H
         precision: 1e-06
@@ -8743,8 +8557,7 @@ _AVAXUSDPI8H = _AVAXUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADA:
+class _BADA(NamedTuple):
     """
         name: .BADA
         precision: 1e-05
@@ -8790,8 +8603,7 @@ _BADA = _BADA()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BADA_NEXT:
+class _BADA_NEXT(NamedTuple):
     """
         name: .BADA_NEXT
         precision: 1e-05
@@ -8837,8 +8649,7 @@ _BADA_NEXT = _BADA_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADAUSDPI:
+class _ADAUSDPI(NamedTuple):
     """
         name: .ADAUSDPI
         precision: 1e-06
@@ -8884,8 +8695,7 @@ _ADAUSDPI = _ADAUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ADAUSDPI8H:
+class _ADAUSDPI8H(NamedTuple):
     """
         name: .ADAUSDPI8H
         precision: 1e-06
@@ -8931,8 +8741,7 @@ _ADAUSDPI8H = _ADAUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOGE:
+class _BDOGE(NamedTuple):
     """
         name: .BDOGE
         precision: 1e-06
@@ -8978,8 +8787,7 @@ _BDOGE = _BDOGE()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOGE_NEXT:
+class _BDOGE_NEXT(NamedTuple):
     """
         name: .BDOGE_NEXT
         precision: 1e-06
@@ -9025,8 +8833,7 @@ _BDOGE_NEXT = _BDOGE_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEUSDPI:
+class _DOGEUSDPI(NamedTuple):
     """
         name: .DOGEUSDPI
         precision: 1e-06
@@ -9072,8 +8879,7 @@ _DOGEUSDPI = _DOGEUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOGEUSDPI8H:
+class _DOGEUSDPI8H(NamedTuple):
     """
         name: .DOGEUSDPI8H
         precision: 1e-06
@@ -9119,8 +8925,7 @@ _DOGEUSDPI8H = _DOGEUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBNB:
+class _BBNB(NamedTuple):
     """
         name: .BBNB
         precision: 0.001
@@ -9166,8 +8971,7 @@ _BBNB = _BBNB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBNB_NEXT:
+class _BBNB_NEXT(NamedTuple):
     """
         name: .BBNB_NEXT
         precision: 0.001
@@ -9213,8 +9017,7 @@ _BBNB_NEXT = _BBNB_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBUSDPI:
+class _BNBUSDPI(NamedTuple):
     """
         name: .BNBUSDPI
         precision: 1e-06
@@ -9260,8 +9063,7 @@ _BNBUSDPI = _BNBUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNBUSDPI8H:
+class _BNBUSDPI8H(NamedTuple):
     """
         name: .BNBUSDPI8H
         precision: 1e-06
@@ -9307,8 +9109,7 @@ _BNBUSDPI8H = _BNBUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOT:
+class _BDOT(NamedTuple):
     """
         name: .BDOT
         precision: 0.0001
@@ -9354,8 +9155,7 @@ _BDOT = _BDOT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOT_NEXT:
+class _BDOT_NEXT(NamedTuple):
     """
         name: .BDOT_NEXT
         precision: 0.0001
@@ -9401,8 +9201,7 @@ _BDOT_NEXT = _BDOT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTUSDPI:
+class _DOTUSDPI(NamedTuple):
     """
         name: .DOTUSDPI
         precision: 1e-06
@@ -9448,8 +9247,7 @@ _DOTUSDPI = _DOTUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DOTUSDPI8H:
+class _DOTUSDPI8H(NamedTuple):
     """
         name: .DOTUSDPI8H
         precision: 1e-06
@@ -9495,8 +9293,7 @@ _DOTUSDPI8H = _DOTUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDOGET30M:
+class _BDOGET30M(NamedTuple):
     """
         name: .BDOGET30M
         precision: 1e-06
@@ -9542,8 +9339,7 @@ _BDOGET30M = _BDOGET30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFILT30M:
+class _BFILT30M(NamedTuple):
     """
         name: .BFILT30M
         precision: 1e-06
@@ -9589,8 +9385,7 @@ _BFILT30M = _BFILT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUNIT30M:
+class _BUNIT30M(NamedTuple):
     """
         name: .BUNIT30M
         precision: 0.0001
@@ -9636,8 +9431,7 @@ _BUNIT30M = _BUNIT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXLMT30M:
+class _BXLMT30M(NamedTuple):
     """
         name: .BXLMT30M
         precision: 1e-06
@@ -9683,8 +9477,7 @@ _BXLMT30M = _BXLMT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAXS:
+class _BAXS(NamedTuple):
     """
         name: .BAXS
         precision: 0.001
@@ -9730,8 +9523,7 @@ _BAXS = _BAXS()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAXS_NEXT:
+class _BAXS_NEXT(NamedTuple):
     """
         name: .BAXS_NEXT
         precision: 0.001
@@ -9777,8 +9569,7 @@ _BAXS_NEXT = _BAXS_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSUSDPI:
+class _AXSUSDPI(NamedTuple):
     """
         name: .AXSUSDPI
         precision: 1e-06
@@ -9824,8 +9615,7 @@ _AXSUSDPI = _AXSUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AXSUSDPI8H:
+class _AXSUSDPI8H(NamedTuple):
     """
         name: .AXSUSDPI8H
         precision: 1e-06
@@ -9871,8 +9661,7 @@ _AXSUSDPI8H = _AXSUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOS:
+class _BEOS(NamedTuple):
     """
         name: .BEOS
         precision: 1e-05
@@ -9918,8 +9707,7 @@ _BEOS = _BEOS()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEOS_NEXT:
+class _BEOS_NEXT(NamedTuple):
     """
         name: .BEOS_NEXT
         precision: 1e-05
@@ -9965,8 +9753,7 @@ _BEOS_NEXT = _BEOS_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSUSDPI:
+class _EOSUSDPI(NamedTuple):
     """
         name: .EOSUSDPI
         precision: 1e-06
@@ -10012,8 +9799,7 @@ _EOSUSDPI = _EOSUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EOSUSDPI8H:
+class _EOSUSDPI8H(NamedTuple):
     """
         name: .EOSUSDPI8H
         precision: 1e-06
@@ -10059,8 +9845,7 @@ _EOSUSDPI8H = _EOSUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLINK:
+class _BLINK(NamedTuple):
     """
         name: .BLINK
         precision: 0.0001
@@ -10106,8 +9891,7 @@ _BLINK = _BLINK()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLINK_NEXT:
+class _BLINK_NEXT(NamedTuple):
     """
         name: .BLINK_NEXT
         precision: 0.0001
@@ -10153,8 +9937,7 @@ _BLINK_NEXT = _BLINK_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKUSDPI:
+class _LINKUSDPI(NamedTuple):
     """
         name: .LINKUSDPI
         precision: 1e-06
@@ -10200,8 +9983,7 @@ _LINKUSDPI = _LINKUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LINKUSDPI8H:
+class _LINKUSDPI8H(NamedTuple):
     """
         name: .LINKUSDPI8H
         precision: 1e-06
@@ -10247,8 +10029,7 @@ _LINKUSDPI8H = _LINKUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSOL:
+class _BSOL(NamedTuple):
     """
         name: .BSOL
         precision: 0.001
@@ -10294,8 +10075,7 @@ _BSOL = _BSOL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSOL_NEXT:
+class _BSOL_NEXT(NamedTuple):
     """
         name: .BSOL_NEXT
         precision: 0.001
@@ -10341,8 +10121,7 @@ _BSOL_NEXT = _BSOL_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLUSDPI:
+class _SOLUSDPI(NamedTuple):
     """
         name: .SOLUSDPI
         precision: 1e-06
@@ -10388,8 +10167,7 @@ _SOLUSDPI = _SOLUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SOLUSDPI8H:
+class _SOLUSDPI8H(NamedTuple):
     """
         name: .SOLUSDPI8H
         precision: 1e-06
@@ -10435,8 +10213,7 @@ _SOLUSDPI8H = _SOLUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAXST30M:
+class _BAXST30M(NamedTuple):
     """
         name: .BAXST30M
         precision: 0.001
@@ -10482,8 +10259,7 @@ _BAXST30M = _BAXST30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSOLT30M:
+class _BSOLT30M(NamedTuple):
     """
         name: .BSOLT30M
         precision: 0.001
@@ -10529,8 +10305,7 @@ _BSOLT30M = _BSOLT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVETT30M:
+class _BVETT30M(NamedTuple):
     """
         name: .BVETT30M
         precision: 1e-06
@@ -10576,8 +10351,7 @@ _BVETT30M = _BVETT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMATICT30M:
+class _BMATICT30M(NamedTuple):
     """
         name: .BMATICT30M
         precision: 1e-05
@@ -10623,8 +10397,7 @@ _BMATICT30M = _BMATICT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAAVET30M:
+class _BAAVET30M(NamedTuple):
     """
         name: .BAAVET30M
         precision: 0.001
@@ -10670,8 +10443,7 @@ _BAAVET30M = _BAAVET30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSUSHIT30M:
+class _BSUSHIT30M(NamedTuple):
     """
         name: .BSUSHIT30M
         precision: 0.0001
@@ -10717,8 +10489,7 @@ _BSUSHIT30M = _BSUSHIT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSRMT30M:
+class _BSRMT30M(NamedTuple):
     """
         name: .BSRMT30M
         precision: 0.0001
@@ -10764,8 +10535,7 @@ _BSRMT30M = _BSRMT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRPT:
+class _BXRPT(NamedTuple):
     """
         name: .BXRPT
         precision: 1e-05
@@ -10811,8 +10581,7 @@ _BXRPT = _BXRPT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXRPT_NEXT:
+class _BXRPT_NEXT(NamedTuple):
     """
         name: .BXRPT_NEXT
         precision: 1e-05
@@ -10858,8 +10627,7 @@ _BXRPT_NEXT = _BXRPT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCHT:
+class _BBCHT(NamedTuple):
     """
         name: .BBCHT
         precision: 0.001
@@ -10905,8 +10673,7 @@ _BBCHT = _BBCHT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBCHT_NEXT:
+class _BBCHT_NEXT(NamedTuple):
     """
         name: .BBCHT_NEXT
         precision: 0.001
@@ -10952,8 +10719,7 @@ _BBCHT_NEXT = _BBCHT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPUSDTPI:
+class _XRPUSDTPI(NamedTuple):
     """
         name: .XRPUSDTPI
         precision: 1e-06
@@ -10999,8 +10765,7 @@ _XRPUSDTPI = _XRPUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XRPUSDTPI8H:
+class _XRPUSDTPI8H(NamedTuple):
     """
         name: .XRPUSDTPI8H
         precision: 1e-06
@@ -11046,8 +10811,7 @@ _XRPUSDTPI8H = _XRPUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHUSDTPI:
+class _BCHUSDTPI(NamedTuple):
     """
         name: .BCHUSDTPI
         precision: 1e-06
@@ -11093,8 +10857,7 @@ _BCHUSDTPI = _BCHUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCHUSDTPI8H:
+class _BCHUSDTPI8H(NamedTuple):
     """
         name: .BCHUSDTPI8H
         precision: 1e-06
@@ -11140,8 +10903,7 @@ _BCHUSDTPI8H = _BCHUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDEFIMEX30M:
+class _BDEFIMEX30M(NamedTuple):
     """
         name: .BDEFIMEX30M
         precision: 1e-06
@@ -11187,8 +10949,7 @@ _BDEFIMEX30M = _BDEFIMEX30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BALTMEX30M:
+class _BALTMEX30M(NamedTuple):
     """
         name: .BALTMEX30M
         precision: 1e-06
@@ -11234,8 +10995,7 @@ _BALTMEX30M = _BALTMEX30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTMT:
+class _BFTMT(NamedTuple):
     """
         name: .BFTMT
         precision: 1e-05
@@ -11281,8 +11041,7 @@ _BFTMT = _BFTMT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTMT_NEXT:
+class _BFTMT_NEXT(NamedTuple):
     """
         name: .BFTMT_NEXT
         precision: 1e-05
@@ -11328,8 +11087,7 @@ _BFTMT_NEXT = _BFTMT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTMBON:
+class _FTMBON(NamedTuple):
     """
         name: .FTMBON
         precision: 1e-06
@@ -11375,8 +11133,7 @@ _FTMBON = _FTMBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTMBON8H:
+class _FTMBON8H(NamedTuple):
     """
         name: .FTMBON8H
         precision: 1e-06
@@ -11422,8 +11179,7 @@ _FTMBON8H = _FTMBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTMUSDTPI:
+class _FTMUSDTPI(NamedTuple):
     """
         name: .FTMUSDTPI
         precision: 1e-06
@@ -11469,8 +11225,7 @@ _FTMUSDTPI = _FTMUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTMUSDTPI8H:
+class _FTMUSDTPI8H(NamedTuple):
     """
         name: .FTMUSDTPI8H
         precision: 1e-06
@@ -11516,8 +11271,7 @@ _FTMUSDTPI8H = _FTMUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSHIBT:
+class _BSHIBT(NamedTuple):
     """
         name: .BSHIBT
         precision: 1e-09
@@ -11563,8 +11317,7 @@ _BSHIBT = _BSHIBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSHIBT_NEXT:
+class _BSHIBT_NEXT(NamedTuple):
     """
         name: .BSHIBT_NEXT
         precision: 1e-09
@@ -11610,8 +11363,7 @@ _BSHIBT_NEXT = _BSHIBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SHIBBON:
+class _SHIBBON(NamedTuple):
     """
         name: .SHIBBON
         precision: 1e-06
@@ -11657,8 +11409,7 @@ _SHIBBON = _SHIBBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SHIBBON8H:
+class _SHIBBON8H(NamedTuple):
     """
         name: .SHIBBON8H
         precision: 1e-06
@@ -11704,8 +11455,7 @@ _SHIBBON8H = _SHIBBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SHIBUSDTPI:
+class _SHIBUSDTPI(NamedTuple):
     """
         name: .SHIBUSDTPI
         precision: 1e-06
@@ -11751,8 +11501,7 @@ _SHIBUSDTPI = _SHIBUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SHIBUSDTPI8H:
+class _SHIBUSDTPI8H(NamedTuple):
     """
         name: .SHIBUSDTPI8H
         precision: 1e-06
@@ -11798,8 +11547,7 @@ _SHIBUSDTPI8H = _SHIBUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLRCT:
+class _BLRCT(NamedTuple):
     """
         name: .BLRCT
         precision: 1e-05
@@ -11845,8 +11593,7 @@ _BLRCT = _BLRCT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLRCT_NEXT:
+class _BLRCT_NEXT(NamedTuple):
     """
         name: .BLRCT_NEXT
         precision: 1e-05
@@ -11892,8 +11639,7 @@ _BLRCT_NEXT = _BLRCT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMANAT:
+class _BMANAT(NamedTuple):
     """
         name: .BMANAT
         precision: 1e-05
@@ -11939,8 +11685,7 @@ _BMANAT = _BMANAT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMANAT_NEXT:
+class _BMANAT_NEXT(NamedTuple):
     """
         name: .BMANAT_NEXT
         precision: 1e-05
@@ -11986,8 +11731,7 @@ _BMANAT_NEXT = _BMANAT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MANABON:
+class _MANABON(NamedTuple):
     """
         name: .MANABON
         precision: 1e-06
@@ -12033,8 +11777,7 @@ _MANABON = _MANABON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MANABON8H:
+class _MANABON8H(NamedTuple):
     """
         name: .MANABON8H
         precision: 1e-06
@@ -12080,8 +11823,7 @@ _MANABON8H = _MANABON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MANAUSDTPI:
+class _MANAUSDTPI(NamedTuple):
     """
         name: .MANAUSDTPI
         precision: 1e-06
@@ -12127,8 +11869,7 @@ _MANAUSDTPI = _MANAUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MANAUSDTPI8H:
+class _MANAUSDTPI8H(NamedTuple):
     """
         name: .MANAUSDTPI8H
         precision: 1e-06
@@ -12174,8 +11915,7 @@ _MANAUSDTPI8H = _MANAUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSANDT:
+class _BSANDT(NamedTuple):
     """
         name: .BSANDT
         precision: 1e-05
@@ -12221,8 +11961,7 @@ _BSANDT = _BSANDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSANDT_NEXT:
+class _BSANDT_NEXT(NamedTuple):
     """
         name: .BSANDT_NEXT
         precision: 1e-05
@@ -12268,8 +12007,7 @@ _BSANDT_NEXT = _BSANDT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SANDBON:
+class _SANDBON(NamedTuple):
     """
         name: .SANDBON
         precision: 1e-06
@@ -12315,8 +12053,7 @@ _SANDBON = _SANDBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SANDBON8H:
+class _SANDBON8H(NamedTuple):
     """
         name: .SANDBON8H
         precision: 1e-06
@@ -12362,8 +12099,7 @@ _SANDBON8H = _SANDBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SANDUSDTPI:
+class _SANDUSDTPI(NamedTuple):
     """
         name: .SANDUSDTPI
         precision: 1e-06
@@ -12409,8 +12145,7 @@ _SANDUSDTPI = _SANDUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SANDUSDTPI8H:
+class _SANDUSDTPI8H(NamedTuple):
     """
         name: .SANDUSDTPI8H
         precision: 1e-06
@@ -12456,8 +12191,7 @@ _SANDUSDTPI8H = _SANDUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTHETAT:
+class _BTHETAT(NamedTuple):
     """
         name: .BTHETAT
         precision: 0.0001
@@ -12503,8 +12237,7 @@ _BTHETAT = _BTHETAT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTHETAT_NEXT:
+class _BTHETAT_NEXT(NamedTuple):
     """
         name: .BTHETAT_NEXT
         precision: 0.0001
@@ -12550,8 +12283,7 @@ _BTHETAT_NEXT = _BTHETAT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BENJT:
+class _BENJT(NamedTuple):
     """
         name: .BENJT
         precision: 1e-05
@@ -12597,8 +12329,7 @@ _BENJT = _BENJT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BENJT_NEXT:
+class _BENJT_NEXT(NamedTuple):
     """
         name: .BENJT_NEXT
         precision: 1e-05
@@ -12644,8 +12375,7 @@ _BENJT_NEXT = _BENJT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDEFIMEXT:
+class _BDEFIMEXT(NamedTuple):
     """
         name: .BDEFIMEXT
         precision: 1e-06
@@ -12691,8 +12421,7 @@ _BDEFIMEXT = _BDEFIMEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXTBON:
+class _DEFIMEXTBON(NamedTuple):
     """
         name: .DEFIMEXTBON
         precision: 1e-06
@@ -12738,8 +12467,7 @@ _DEFIMEXTBON = _DEFIMEXTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXTBON8H:
+class _DEFIMEXTBON8H(NamedTuple):
     """
         name: .DEFIMEXTBON8H
         precision: 1e-06
@@ -12785,8 +12513,7 @@ _DEFIMEXTBON8H = _DEFIMEXTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXTUSDTPI:
+class _DEFIMEXTUSDTPI(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI
         precision: 1e-06
@@ -12832,8 +12559,7 @@ _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _DEFIMEXTUSDTPI8H:
+class _DEFIMEXTUSDTPI8H(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI8H
         precision: 1e-06
@@ -12879,8 +12605,7 @@ _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BALTMEXT:
+class _BALTMEXT(NamedTuple):
     """
         name: .BALTMEXT
         precision: 1e-06
@@ -12926,8 +12651,7 @@ _BALTMEXT = _BALTMEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXTBON:
+class _ALTMEXTBON(NamedTuple):
     """
         name: .ALTMEXTBON
         precision: 1e-06
@@ -12973,8 +12697,7 @@ _ALTMEXTBON = _ALTMEXTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXTBON8H:
+class _ALTMEXTBON8H(NamedTuple):
     """
         name: .ALTMEXTBON8H
         precision: 1e-06
@@ -13020,8 +12743,7 @@ _ALTMEXTBON8H = _ALTMEXTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXTUSDTPI:
+class _ALTMEXTUSDTPI(NamedTuple):
     """
         name: .ALTMEXTUSDTPI
         precision: 1e-06
@@ -13067,8 +12789,7 @@ _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ALTMEXTUSDTPI8H:
+class _ALTMEXTUSDTPI8H(NamedTuple):
     """
         name: .ALTMEXTUSDTPI8H
         precision: 1e-06
@@ -13114,8 +12835,7 @@ _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMETAMEXT:
+class _BMETAMEXT(NamedTuple):
     """
         name: .BMETAMEXT
         precision: 1e-06
@@ -13161,8 +12881,7 @@ _BMETAMEXT = _BMETAMEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _METAMEXTBON:
+class _METAMEXTBON(NamedTuple):
     """
         name: .METAMEXTBON
         precision: 1e-06
@@ -13208,8 +12927,7 @@ _METAMEXTBON = _METAMEXTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _METAMEXTBON8H:
+class _METAMEXTBON8H(NamedTuple):
     """
         name: .METAMEXTBON8H
         precision: 1e-06
@@ -13255,8 +12973,7 @@ _METAMEXTBON8H = _METAMEXTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _METAMEXTUSDTPI:
+class _METAMEXTUSDTPI(NamedTuple):
     """
         name: .METAMEXTUSDTPI
         precision: 1e-06
@@ -13302,8 +13019,7 @@ _METAMEXTUSDTPI = _METAMEXTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _METAMEXTUSDTPI8H:
+class _METAMEXTUSDTPI8H(NamedTuple):
     """
         name: .METAMEXTUSDTPI8H
         precision: 1e-06
@@ -13349,8 +13065,7 @@ _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXUSDTPI:
+class _AVAXUSDTPI(NamedTuple):
     """
         name: .AVAXUSDTPI
         precision: 1e-06
@@ -13396,8 +13111,7 @@ _AVAXUSDTPI = _AVAXUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _AVAXUSDTPI8H:
+class _AVAXUSDTPI8H(NamedTuple):
     """
         name: .AVAXUSDTPI8H
         precision: 1e-06
@@ -13443,8 +13157,7 @@ _AVAXUSDTPI8H = _AVAXUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNAUSDTPI:
+class _LUNAUSDTPI(NamedTuple):
     """
         name: .LUNAUSDTPI
         precision: 1e-06
@@ -13490,8 +13203,7 @@ _LUNAUSDTPI = _LUNAUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LUNAUSDTPI8H:
+class _LUNAUSDTPI8H(NamedTuple):
     """
         name: .LUNAUSDTPI8H
         precision: 1e-06
@@ -13537,8 +13249,7 @@ _LUNAUSDTPI8H = _LUNAUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPET:
+class _BAPET(NamedTuple):
     """
         name: .BAPET
         precision: 0.0001
@@ -13584,8 +13295,7 @@ _BAPET = _BAPET()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPET_NEXT:
+class _BAPET_NEXT(NamedTuple):
     """
         name: .BAPET_NEXT
         precision: 0.0001
@@ -13631,8 +13341,7 @@ _BAPET_NEXT = _BAPET_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEBON:
+class _APEBON(NamedTuple):
     """
         name: .APEBON
         precision: 1e-06
@@ -13678,8 +13387,7 @@ _APEBON = _APEBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEBON8H:
+class _APEBON8H(NamedTuple):
     """
         name: .APEBON8H
         precision: 1e-06
@@ -13725,8 +13433,7 @@ _APEBON8H = _APEBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEUSDTPI:
+class _APEUSDTPI(NamedTuple):
     """
         name: .APEUSDTPI
         precision: 1e-06
@@ -13772,8 +13479,7 @@ _APEUSDTPI = _APEUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEUSDTPI8H:
+class _APEUSDTPI8H(NamedTuple):
     """
         name: .APEUSDTPI8H
         precision: 1e-06
@@ -13819,8 +13525,7 @@ _APEUSDTPI8H = _APEUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTBON:
+class _GMTBON(NamedTuple):
     """
         name: .GMTBON
         precision: 1e-06
@@ -13866,8 +13571,7 @@ _GMTBON = _GMTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTBON8H:
+class _GMTBON8H(NamedTuple):
     """
         name: .GMTBON8H
         precision: 1e-06
@@ -13913,8 +13617,7 @@ _GMTBON8H = _GMTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTUSDTPI:
+class _GMTUSDTPI(NamedTuple):
     """
         name: .GMTUSDTPI
         precision: 1e-06
@@ -13960,8 +13663,7 @@ _GMTUSDTPI = _GMTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTUSDTPI8H:
+class _GMTUSDTPI8H(NamedTuple):
     """
         name: .GMTUSDTPI8H
         precision: 1e-06
@@ -14007,8 +13709,7 @@ _GMTUSDTPI8H = _GMTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTUSDPI:
+class _GMTUSDPI(NamedTuple):
     """
         name: .GMTUSDPI
         precision: 1e-06
@@ -14054,8 +13755,7 @@ _GMTUSDPI = _GMTUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GMTUSDPI8H:
+class _GMTUSDPI8H(NamedTuple):
     """
         name: .GMTUSDPI8H
         precision: 1e-06
@@ -14101,8 +13801,7 @@ _GMTUSDPI8H = _GMTUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGMT:
+class _BGMT(NamedTuple):
     """
         name: .BGMT
         precision: 0.0001
@@ -14148,8 +13847,7 @@ _BGMT = _BGMT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGMT_NEXT:
+class _BGMT_NEXT(NamedTuple):
     """
         name: .BGMT_NEXT
         precision: 0.0001
@@ -14195,8 +13893,7 @@ _BGMT_NEXT = _BGMT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGMTT:
+class _BGMTT(NamedTuple):
     """
         name: .BGMTT
         precision: 0.0001
@@ -14242,8 +13939,7 @@ _BGMTT = _BGMTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGMTT_NEXT:
+class _BGMTT_NEXT(NamedTuple):
     """
         name: .BGMTT_NEXT
         precision: 0.0001
@@ -14289,8 +13985,7 @@ _BGMTT_NEXT = _BGMTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARBON:
+class _NEARBON(NamedTuple):
     """
         name: .NEARBON
         precision: 1e-06
@@ -14336,8 +14031,7 @@ _NEARBON = _NEARBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARBON8H:
+class _NEARBON8H(NamedTuple):
     """
         name: .NEARBON8H
         precision: 1e-06
@@ -14383,8 +14077,7 @@ _NEARBON8H = _NEARBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARUSDTPI:
+class _NEARUSDTPI(NamedTuple):
     """
         name: .NEARUSDTPI
         precision: 1e-06
@@ -14430,8 +14123,7 @@ _NEARUSDTPI = _NEARUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARUSDTPI8H:
+class _NEARUSDTPI8H(NamedTuple):
     """
         name: .NEARUSDTPI8H
         precision: 1e-06
@@ -14477,8 +14169,7 @@ _NEARUSDTPI8H = _NEARUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARUSDPI:
+class _NEARUSDPI(NamedTuple):
     """
         name: .NEARUSDPI
         precision: 1e-06
@@ -14524,8 +14215,7 @@ _NEARUSDPI = _NEARUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NEARUSDPI8H:
+class _NEARUSDPI8H(NamedTuple):
     """
         name: .NEARUSDPI8H
         precision: 1e-06
@@ -14571,8 +14261,7 @@ _NEARUSDPI8H = _NEARUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNEAR:
+class _BNEAR(NamedTuple):
     """
         name: .BNEAR
         precision: 0.001
@@ -14618,8 +14307,7 @@ _BNEAR = _BNEAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNEAR_NEXT:
+class _BNEAR_NEXT(NamedTuple):
     """
         name: .BNEAR_NEXT
         precision: 0.001
@@ -14665,8 +14353,7 @@ _BNEAR_NEXT = _BNEAR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNEART:
+class _BNEART(NamedTuple):
     """
         name: .BNEART
         precision: 0.001
@@ -14712,8 +14399,7 @@ _BNEART = _BNEART()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNEART_NEXT:
+class _BNEART_NEXT(NamedTuple):
     """
         name: .BNEART_NEXT
         precision: 0.001
@@ -14759,8 +14445,7 @@ _BNEART_NEXT = _BNEART_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNA30M:
+class _BLUNA30M(NamedTuple):
     """
         name: .BLUNA30M
         precision: 0.0001
@@ -14806,8 +14491,7 @@ _BLUNA30M = _BLUNA30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNAT30M:
+class _BLUNAT30M(NamedTuple):
     """
         name: .BLUNAT30M
         precision: 0.0001
@@ -14853,8 +14537,7 @@ _BLUNAT30M = _BLUNAT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPE:
+class _BAPE(NamedTuple):
     """
         name: .BAPE
         precision: 0.0001
@@ -14900,8 +14583,7 @@ _BAPE = _BAPE()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPE_NEXT:
+class _BAPE_NEXT(NamedTuple):
     """
         name: .BAPE_NEXT
         precision: 0.0001
@@ -14947,8 +14629,7 @@ _BAPE_NEXT = _BAPE_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRX:
+class _BTRX(NamedTuple):
     """
         name: .BTRX
         precision: 1e-06
@@ -14994,8 +14675,7 @@ _BTRX = _BTRX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRX_NEXT:
+class _BTRX_NEXT(NamedTuple):
     """
         name: .BTRX_NEXT
         precision: 1e-06
@@ -15041,8 +14721,7 @@ _BTRX_NEXT = _BTRX_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGAL:
+class _BGAL(NamedTuple):
     """
         name: .BGAL
         precision: 1e-05
@@ -15088,8 +14767,7 @@ _BGAL = _BGAL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGAL_NEXT:
+class _BGAL_NEXT(NamedTuple):
     """
         name: .BGAL_NEXT
         precision: 1e-05
@@ -15135,8 +14813,7 @@ _BGAL_NEXT = _BGAL_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGALT:
+class _BGALT(NamedTuple):
     """
         name: .BGALT
         precision: 1e-05
@@ -15182,8 +14859,7 @@ _BGALT = _BGALT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGALT_NEXT:
+class _BGALT_NEXT(NamedTuple):
     """
         name: .BGALT_NEXT
         precision: 1e-05
@@ -15229,8 +14905,7 @@ _BGALT_NEXT = _BGALT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALBON:
+class _GALBON(NamedTuple):
     """
         name: .GALBON
         precision: 1e-06
@@ -15276,8 +14951,7 @@ _GALBON = _GALBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALBON8H:
+class _GALBON8H(NamedTuple):
     """
         name: .GALBON8H
         precision: 1e-06
@@ -15323,8 +14997,7 @@ _GALBON8H = _GALBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEUSDPI:
+class _APEUSDPI(NamedTuple):
     """
         name: .APEUSDPI
         precision: 1e-06
@@ -15370,8 +15043,7 @@ _APEUSDPI = _APEUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APEUSDPI8H:
+class _APEUSDPI8H(NamedTuple):
     """
         name: .APEUSDPI8H
         precision: 1e-06
@@ -15417,8 +15089,7 @@ _APEUSDPI8H = _APEUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXUSDPI:
+class _TRXUSDPI(NamedTuple):
     """
         name: .TRXUSDPI
         precision: 1e-06
@@ -15464,8 +15135,7 @@ _TRXUSDPI = _TRXUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRXUSDPI8H:
+class _TRXUSDPI8H(NamedTuple):
     """
         name: .TRXUSDPI8H
         precision: 1e-06
@@ -15511,8 +15181,7 @@ _TRXUSDPI8H = _TRXUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALUSDTPI:
+class _GALUSDTPI(NamedTuple):
     """
         name: .GALUSDTPI
         precision: 1e-06
@@ -15558,8 +15227,7 @@ _GALUSDTPI = _GALUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALUSDTPI8H:
+class _GALUSDTPI8H(NamedTuple):
     """
         name: .GALUSDTPI8H
         precision: 1e-06
@@ -15605,8 +15273,7 @@ _GALUSDTPI8H = _GALUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALUSDPI:
+class _GALUSDPI(NamedTuple):
     """
         name: .GALUSDPI
         precision: 1e-06
@@ -15652,8 +15319,7 @@ _GALUSDPI = _GALUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _GALUSDPI8H:
+class _GALUSDPI8H(NamedTuple):
     """
         name: .GALUSDPI8H
         precision: 1e-06
@@ -15699,8 +15365,7 @@ _GALUSDPI8H = _GALUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNC:
+class _BLUNC(NamedTuple):
     """
         name: .BLUNC
         precision: 1e-09
@@ -15746,8 +15411,7 @@ _BLUNC = _BLUNC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNC_NEXT:
+class _BLUNC_NEXT(NamedTuple):
     """
         name: .BLUNC_NEXT
         precision: 1e-09
@@ -15793,8 +15457,7 @@ _BLUNC_NEXT = _BLUNC_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNCT:
+class _BLUNCT(NamedTuple):
     """
         name: .BLUNCT
         precision: 1e-09
@@ -15840,8 +15503,7 @@ _BLUNCT = _BLUNCT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLUNCT_NEXT:
+class _BLUNCT_NEXT(NamedTuple):
     """
         name: .BLUNCT_NEXT
         precision: 1e-09
@@ -15887,8 +15549,7 @@ _BLUNCT_NEXT = _BLUNCT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDFI:
+class _BDFI(NamedTuple):
     """
         name: .BDFI
         precision: 0.0001
@@ -15934,8 +15595,7 @@ _BDFI = _BDFI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDFIT:
+class _BDFIT(NamedTuple):
     """
         name: .BDFIT
         precision: 0.0001
@@ -15981,8 +15641,7 @@ _BDFIT = _BDFIT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGRT:
+class _BGRT(NamedTuple):
     """
         name: .BGRT
         precision: 0.0001
@@ -16028,8 +15687,7 @@ _BGRT = _BGRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURUSDPI:
+class _EURUSDPI(NamedTuple):
     """
         name: .EURUSDPI
         precision: 1e-06
@@ -16075,8 +15733,7 @@ _EURUSDPI = _EURUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDCHFPI:
+class _USDCHFPI(NamedTuple):
     """
         name: .USDCHFPI
         precision: 1e-06
@@ -16122,8 +15779,7 @@ _USDCHFPI = _USDCHFPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURCHFPI:
+class _EURCHFPI(NamedTuple):
     """
         name: .EURCHFPI
         precision: 1e-06
@@ -16169,8 +15825,7 @@ _EURCHFPI = _EURCHFPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURTRYPI:
+class _EURTRYPI(NamedTuple):
     """
         name: .EURTRYPI
         precision: 1e-06
@@ -16216,8 +15871,7 @@ _EURTRYPI = _EURTRYPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTRYPI:
+class _USDTRYPI(NamedTuple):
     """
         name: .USDTRYPI
         precision: 1e-06
@@ -16263,8 +15917,7 @@ _USDTRYPI = _USDTRYPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDINRPI:
+class _USDINRPI(NamedTuple):
     """
         name: .USDINRPI
         precision: 1e-06
@@ -16310,8 +15963,7 @@ _USDINRPI = _USDINRPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDZARPI:
+class _USDZARPI(NamedTuple):
     """
         name: .USDZARPI
         precision: 1e-06
@@ -16357,8 +16009,7 @@ _USDZARPI = _USDZARPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDBRLPI:
+class _USDBRLPI(NamedTuple):
     """
         name: .USDBRLPI
         precision: 1e-06
@@ -16404,8 +16055,7 @@ _USDBRLPI = _USDBRLPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDMXNPI:
+class _USDMXNPI(NamedTuple):
     """
         name: .USDMXNPI
         precision: 1e-06
@@ -16451,8 +16101,7 @@ _USDMXNPI = _USDMXNPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDUSDPI:
+class _NZDUSDPI(NamedTuple):
     """
         name: .NZDUSDPI
         precision: 1e-06
@@ -16498,8 +16147,7 @@ _NZDUSDPI = _NZDUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDCNHPI:
+class _USDCNHPI(NamedTuple):
     """
         name: .USDCNHPI
         precision: 1e-06
@@ -16545,8 +16193,7 @@ _USDCNHPI = _USDCNHPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDSEKPI:
+class _USDSEKPI(NamedTuple):
     """
         name: .USDSEKPI
         precision: 1e-06
@@ -16592,8 +16239,7 @@ _USDSEKPI = _USDSEKPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURUSDPI8H:
+class _EURUSDPI8H(NamedTuple):
     """
         name: .EURUSDPI8H
         precision: 1e-06
@@ -16639,8 +16285,7 @@ _EURUSDPI8H = _EURUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDCHFPI8H:
+class _USDCHFPI8H(NamedTuple):
     """
         name: .USDCHFPI8H
         precision: 1e-06
@@ -16686,8 +16331,7 @@ _USDCHFPI8H = _USDCHFPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURCHFPI8H:
+class _EURCHFPI8H(NamedTuple):
     """
         name: .EURCHFPI8H
         precision: 1e-06
@@ -16733,8 +16377,7 @@ _EURCHFPI8H = _EURCHFPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURTRYPI8H:
+class _EURTRYPI8H(NamedTuple):
     """
         name: .EURTRYPI8H
         precision: 1e-06
@@ -16780,8 +16423,7 @@ _EURTRYPI8H = _EURTRYPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTRYPI8H:
+class _USDTRYPI8H(NamedTuple):
     """
         name: .USDTRYPI8H
         precision: 1e-06
@@ -16827,8 +16469,7 @@ _USDTRYPI8H = _USDTRYPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDINRPI8H:
+class _USDINRPI8H(NamedTuple):
     """
         name: .USDINRPI8H
         precision: 1e-06
@@ -16874,8 +16515,7 @@ _USDINRPI8H = _USDINRPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDZARPI8H:
+class _USDZARPI8H(NamedTuple):
     """
         name: .USDZARPI8H
         precision: 1e-06
@@ -16921,8 +16561,7 @@ _USDZARPI8H = _USDZARPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDBRLPI8H:
+class _USDBRLPI8H(NamedTuple):
     """
         name: .USDBRLPI8H
         precision: 1e-06
@@ -16968,8 +16607,7 @@ _USDBRLPI8H = _USDBRLPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDMXNPI8H:
+class _USDMXNPI8H(NamedTuple):
     """
         name: .USDMXNPI8H
         precision: 1e-06
@@ -17015,8 +16653,7 @@ _USDMXNPI8H = _USDMXNPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDUSDPI8H:
+class _NZDUSDPI8H(NamedTuple):
     """
         name: .NZDUSDPI8H
         precision: 1e-06
@@ -17062,8 +16699,7 @@ _NZDUSDPI8H = _NZDUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDCNHPI8H:
+class _USDCNHPI8H(NamedTuple):
     """
         name: .USDCNHPI8H
         precision: 1e-06
@@ -17109,8 +16745,7 @@ _USDCNHPI8H = _USDCNHPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDSEKPI8H:
+class _USDSEKPI8H(NamedTuple):
     """
         name: .USDSEKPI8H
         precision: 1e-06
@@ -17156,8 +16791,7 @@ _USDSEKPI8H = _USDSEKPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURUSDTPI:
+class _EURUSDTPI(NamedTuple):
     """
         name: .EURUSDTPI
         precision: 1e-06
@@ -17203,8 +16837,7 @@ _EURUSDTPI = _EURUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTCHFPI:
+class _USDTCHFPI(NamedTuple):
     """
         name: .USDTCHFPI
         precision: 1e-06
@@ -17250,8 +16883,7 @@ _USDTCHFPI = _USDTCHFPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTTRYPI:
+class _USDTTRYPI(NamedTuple):
     """
         name: .USDTTRYPI
         precision: 1e-06
@@ -17297,8 +16929,7 @@ _USDTTRYPI = _USDTTRYPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTINRPI:
+class _USDTINRPI(NamedTuple):
     """
         name: .USDTINRPI
         precision: 1e-06
@@ -17344,8 +16975,7 @@ _USDTINRPI = _USDTINRPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTZARPI:
+class _USDTZARPI(NamedTuple):
     """
         name: .USDTZARPI
         precision: 1e-06
@@ -17391,8 +17021,7 @@ _USDTZARPI = _USDTZARPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTBRLPI:
+class _USDTBRLPI(NamedTuple):
     """
         name: .USDTBRLPI
         precision: 1e-06
@@ -17438,8 +17067,7 @@ _USDTBRLPI = _USDTBRLPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTMXNPI:
+class _USDTMXNPI(NamedTuple):
     """
         name: .USDTMXNPI
         precision: 1e-06
@@ -17485,8 +17113,7 @@ _USDTMXNPI = _USDTMXNPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDUSDTPI:
+class _NZDUSDTPI(NamedTuple):
     """
         name: .NZDUSDTPI
         precision: 1e-06
@@ -17532,8 +17159,7 @@ _NZDUSDTPI = _NZDUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTCNHPI:
+class _USDTCNHPI(NamedTuple):
     """
         name: .USDTCNHPI
         precision: 1e-06
@@ -17579,8 +17205,7 @@ _USDTCNHPI = _USDTCNHPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTSEKPI:
+class _USDTSEKPI(NamedTuple):
     """
         name: .USDTSEKPI
         precision: 1e-06
@@ -17626,8 +17251,7 @@ _USDTSEKPI = _USDTSEKPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _EURUSDTPI8H:
+class _EURUSDTPI8H(NamedTuple):
     """
         name: .EURUSDTPI8H
         precision: 1e-06
@@ -17673,8 +17297,7 @@ _EURUSDTPI8H = _EURUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTCHFPI8H:
+class _USDTCHFPI8H(NamedTuple):
     """
         name: .USDTCHFPI8H
         precision: 1e-06
@@ -17720,8 +17343,7 @@ _USDTCHFPI8H = _USDTCHFPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTTRYPI8H:
+class _USDTTRYPI8H(NamedTuple):
     """
         name: .USDTTRYPI8H
         precision: 1e-06
@@ -17767,8 +17389,7 @@ _USDTTRYPI8H = _USDTTRYPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTINRPI8H:
+class _USDTINRPI8H(NamedTuple):
     """
         name: .USDTINRPI8H
         precision: 1e-06
@@ -17814,8 +17435,7 @@ _USDTINRPI8H = _USDTINRPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTZARPI8H:
+class _USDTZARPI8H(NamedTuple):
     """
         name: .USDTZARPI8H
         precision: 1e-06
@@ -17861,8 +17481,7 @@ _USDTZARPI8H = _USDTZARPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTBRLPI8H:
+class _USDTBRLPI8H(NamedTuple):
     """
         name: .USDTBRLPI8H
         precision: 1e-06
@@ -17908,8 +17527,7 @@ _USDTBRLPI8H = _USDTBRLPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTMXNPI8H:
+class _USDTMXNPI8H(NamedTuple):
     """
         name: .USDTMXNPI8H
         precision: 1e-06
@@ -17955,8 +17573,7 @@ _USDTMXNPI8H = _USDTMXNPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDUSDTPI8H:
+class _NZDUSDTPI8H(NamedTuple):
     """
         name: .NZDUSDTPI8H
         precision: 1e-06
@@ -18002,8 +17619,7 @@ _NZDUSDTPI8H = _NZDUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTCNHPI8H:
+class _USDTCNHPI8H(NamedTuple):
     """
         name: .USDTCNHPI8H
         precision: 1e-06
@@ -18049,8 +17665,7 @@ _USDTCNHPI8H = _USDTCNHPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDTSEKPI8H:
+class _USDTSEKPI8H(NamedTuple):
     """
         name: .USDTSEKPI8H
         precision: 1e-06
@@ -18096,8 +17711,7 @@ _USDTSEKPI8H = _USDTSEKPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CHFBON:
+class _CHFBON(NamedTuple):
     """
         name: .CHFBON
         precision: 1e-06
@@ -18143,8 +17757,7 @@ _CHFBON = _CHFBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRYBON:
+class _TRYBON(NamedTuple):
     """
         name: .TRYBON
         precision: 1e-06
@@ -18190,8 +17803,7 @@ _TRYBON = _TRYBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _INRBON:
+class _INRBON(NamedTuple):
     """
         name: .INRBON
         precision: 1e-06
@@ -18237,8 +17849,7 @@ _INRBON = _INRBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ZARBON:
+class _ZARBON(NamedTuple):
     """
         name: .ZARBON
         precision: 1e-06
@@ -18284,8 +17895,7 @@ _ZARBON = _ZARBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BRLBON:
+class _BRLBON(NamedTuple):
     """
         name: .BRLBON
         precision: 1e-06
@@ -18331,8 +17941,7 @@ _BRLBON = _BRLBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MXNBON:
+class _MXNBON(NamedTuple):
     """
         name: .MXNBON
         precision: 1e-06
@@ -18378,8 +17987,7 @@ _MXNBON = _MXNBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDBON:
+class _NZDBON(NamedTuple):
     """
         name: .NZDBON
         precision: 1e-06
@@ -18425,8 +18033,7 @@ _NZDBON = _NZDBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CNHBON:
+class _CNHBON(NamedTuple):
     """
         name: .CNHBON
         precision: 1e-06
@@ -18472,8 +18079,7 @@ _CNHBON = _CNHBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SEKBON:
+class _SEKBON(NamedTuple):
     """
         name: .SEKBON
         precision: 1e-06
@@ -18519,8 +18125,7 @@ _SEKBON = _SEKBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CHFBON8H:
+class _CHFBON8H(NamedTuple):
     """
         name: .CHFBON8H
         precision: 1e-06
@@ -18566,8 +18171,7 @@ _CHFBON8H = _CHFBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _TRYBON8H:
+class _TRYBON8H(NamedTuple):
     """
         name: .TRYBON8H
         precision: 1e-06
@@ -18613,8 +18217,7 @@ _TRYBON8H = _TRYBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _INRBON8H:
+class _INRBON8H(NamedTuple):
     """
         name: .INRBON8H
         precision: 1e-06
@@ -18660,8 +18263,7 @@ _INRBON8H = _INRBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ZARBON8H:
+class _ZARBON8H(NamedTuple):
     """
         name: .ZARBON8H
         precision: 1e-06
@@ -18707,8 +18309,7 @@ _ZARBON8H = _ZARBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BRLBON8H:
+class _BRLBON8H(NamedTuple):
     """
         name: .BRLBON8H
         precision: 1e-06
@@ -18754,8 +18355,7 @@ _BRLBON8H = _BRLBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _MXNBON8H:
+class _MXNBON8H(NamedTuple):
     """
         name: .MXNBON8H
         precision: 1e-06
@@ -18801,8 +18401,7 @@ _MXNBON8H = _MXNBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _NZDBON8H:
+class _NZDBON8H(NamedTuple):
     """
         name: .NZDBON8H
         precision: 1e-06
@@ -18848,8 +18447,7 @@ _NZDBON8H = _NZDBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CNHBON8H:
+class _CNHBON8H(NamedTuple):
     """
         name: .CNHBON8H
         precision: 1e-06
@@ -18895,8 +18493,7 @@ _CNHBON8H = _CNHBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _SEKBON8H:
+class _SEKBON8H(NamedTuple):
     """
         name: .SEKBON8H
         precision: 1e-06
@@ -18942,8 +18539,7 @@ _SEKBON8H = _SEKBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSD:
+class _BEURUSD(NamedTuple):
     """
         name: .BEURUSD
         precision: 1e-05
@@ -18989,8 +18585,7 @@ _BEURUSD = _BEURUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCHF:
+class _BUSDCHF(NamedTuple):
     """
         name: .BUSDCHF
         precision: 1e-05
@@ -19036,8 +18631,7 @@ _BUSDCHF = _BUSDCHF()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURCHF:
+class _BEURCHF(NamedTuple):
     """
         name: .BEURCHF
         precision: 1e-05
@@ -19083,8 +18677,7 @@ _BEURCHF = _BEURCHF()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURTRY:
+class _BEURTRY(NamedTuple):
     """
         name: .BEURTRY
         precision: 0.0001
@@ -19130,8 +18723,7 @@ _BEURTRY = _BEURTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTRY:
+class _BUSDTRY(NamedTuple):
     """
         name: .BUSDTRY
         precision: 0.0001
@@ -19177,8 +18769,7 @@ _BUSDTRY = _BUSDTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDINR:
+class _BUSDINR(NamedTuple):
     """
         name: .BUSDINR
         precision: 0.0001
@@ -19224,8 +18815,7 @@ _BUSDINR = _BUSDINR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDZAR:
+class _BUSDZAR(NamedTuple):
     """
         name: .BUSDZAR
         precision: 0.0001
@@ -19271,8 +18861,7 @@ _BUSDZAR = _BUSDZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDBRL:
+class _BUSDBRL(NamedTuple):
     """
         name: .BUSDBRL
         precision: 0.0001
@@ -19318,8 +18907,7 @@ _BUSDBRL = _BUSDBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDMXN:
+class _BUSDMXN(NamedTuple):
     """
         name: .BUSDMXN
         precision: 0.0001
@@ -19365,8 +18953,7 @@ _BUSDMXN = _BUSDMXN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSD:
+class _BNZDUSD(NamedTuple):
     """
         name: .BNZDUSD
         precision: 1e-05
@@ -19412,8 +18999,7 @@ _BNZDUSD = _BNZDUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCNH:
+class _BUSDCNH(NamedTuple):
     """
         name: .BUSDCNH
         precision: 0.0001
@@ -19459,8 +19045,7 @@ _BUSDCNH = _BUSDCNH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDSEK:
+class _BUSDSEK(NamedTuple):
     """
         name: .BUSDSEK
         precision: 0.0001
@@ -19506,8 +19091,7 @@ _BUSDSEK = _BUSDSEK()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSD_NEXT:
+class _BEURUSD_NEXT(NamedTuple):
     """
         name: .BEURUSD_NEXT
         precision: 1e-05
@@ -19553,8 +19137,7 @@ _BEURUSD_NEXT = _BEURUSD_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCHF_NEXT:
+class _BUSDCHF_NEXT(NamedTuple):
     """
         name: .BUSDCHF_NEXT
         precision: 1e-05
@@ -19600,8 +19183,7 @@ _BUSDCHF_NEXT = _BUSDCHF_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURCHF_NEXT:
+class _BEURCHF_NEXT(NamedTuple):
     """
         name: .BEURCHF_NEXT
         precision: 1e-05
@@ -19647,8 +19229,7 @@ _BEURCHF_NEXT = _BEURCHF_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURTRY_NEXT:
+class _BEURTRY_NEXT(NamedTuple):
     """
         name: .BEURTRY_NEXT
         precision: 0.0001
@@ -19694,8 +19275,7 @@ _BEURTRY_NEXT = _BEURTRY_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTRY_NEXT:
+class _BUSDTRY_NEXT(NamedTuple):
     """
         name: .BUSDTRY_NEXT
         precision: 0.0001
@@ -19741,8 +19321,7 @@ _BUSDTRY_NEXT = _BUSDTRY_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDINR_NEXT:
+class _BUSDINR_NEXT(NamedTuple):
     """
         name: .BUSDINR_NEXT
         precision: 0.0001
@@ -19788,8 +19367,7 @@ _BUSDINR_NEXT = _BUSDINR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDZAR_NEXT:
+class _BUSDZAR_NEXT(NamedTuple):
     """
         name: .BUSDZAR_NEXT
         precision: 0.0001
@@ -19835,8 +19413,7 @@ _BUSDZAR_NEXT = _BUSDZAR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDBRL_NEXT:
+class _BUSDBRL_NEXT(NamedTuple):
     """
         name: .BUSDBRL_NEXT
         precision: 0.0001
@@ -19882,8 +19459,7 @@ _BUSDBRL_NEXT = _BUSDBRL_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDMXN_NEXT:
+class _BUSDMXN_NEXT(NamedTuple):
     """
         name: .BUSDMXN_NEXT
         precision: 0.0001
@@ -19929,8 +19505,7 @@ _BUSDMXN_NEXT = _BUSDMXN_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSD_NEXT:
+class _BNZDUSD_NEXT(NamedTuple):
     """
         name: .BNZDUSD_NEXT
         precision: 1e-05
@@ -19976,8 +19551,7 @@ _BNZDUSD_NEXT = _BNZDUSD_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCNH_NEXT:
+class _BUSDCNH_NEXT(NamedTuple):
     """
         name: .BUSDCNH_NEXT
         precision: 0.0001
@@ -20023,8 +19597,7 @@ _BUSDCNH_NEXT = _BUSDCNH_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDSEK_NEXT:
+class _BUSDSEK_NEXT(NamedTuple):
     """
         name: .BUSDSEK_NEXT
         precision: 0.0001
@@ -20070,8 +19643,7 @@ _BUSDSEK_NEXT = _BUSDSEK_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSDT:
+class _BEURUSDT(NamedTuple):
     """
         name: .BEURUSDT
         precision: 1e-05
@@ -20117,8 +19689,7 @@ _BEURUSDT = _BEURUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCHF:
+class _BUSDTCHF(NamedTuple):
     """
         name: .BUSDTCHF
         precision: 1e-05
@@ -20164,8 +19735,7 @@ _BUSDTCHF = _BUSDTCHF()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTTRY:
+class _BUSDTTRY(NamedTuple):
     """
         name: .BUSDTTRY
         precision: 0.0001
@@ -20211,8 +19781,7 @@ _BUSDTTRY = _BUSDTTRY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTINR:
+class _BUSDTINR(NamedTuple):
     """
         name: .BUSDTINR
         precision: 0.0001
@@ -20258,8 +19827,7 @@ _BUSDTINR = _BUSDTINR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTZAR:
+class _BUSDTZAR(NamedTuple):
     """
         name: .BUSDTZAR
         precision: 0.0001
@@ -20305,8 +19873,7 @@ _BUSDTZAR = _BUSDTZAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTBRL:
+class _BUSDTBRL(NamedTuple):
     """
         name: .BUSDTBRL
         precision: 0.0001
@@ -20352,8 +19919,7 @@ _BUSDTBRL = _BUSDTBRL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTMXN:
+class _BUSDTMXN(NamedTuple):
     """
         name: .BUSDTMXN
         precision: 0.0001
@@ -20399,8 +19965,7 @@ _BUSDTMXN = _BUSDTMXN()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSDT:
+class _BNZDUSDT(NamedTuple):
     """
         name: .BNZDUSDT
         precision: 1e-05
@@ -20446,8 +20011,7 @@ _BNZDUSDT = _BNZDUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCNH:
+class _BUSDTCNH(NamedTuple):
     """
         name: .BUSDTCNH
         precision: 0.0001
@@ -20493,8 +20057,7 @@ _BUSDTCNH = _BUSDTCNH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTSEK:
+class _BUSDTSEK(NamedTuple):
     """
         name: .BUSDTSEK
         precision: 0.0001
@@ -20540,8 +20103,7 @@ _BUSDTSEK = _BUSDTSEK()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSDT_NEXT:
+class _BEURUSDT_NEXT(NamedTuple):
     """
         name: .BEURUSDT_NEXT
         precision: 1e-05
@@ -20587,8 +20149,7 @@ _BEURUSDT_NEXT = _BEURUSDT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCHF_NEXT:
+class _BUSDTCHF_NEXT(NamedTuple):
     """
         name: .BUSDTCHF_NEXT
         precision: 1e-05
@@ -20634,8 +20195,7 @@ _BUSDTCHF_NEXT = _BUSDTCHF_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTTRY_NEXT:
+class _BUSDTTRY_NEXT(NamedTuple):
     """
         name: .BUSDTTRY_NEXT
         precision: 0.0001
@@ -20681,8 +20241,7 @@ _BUSDTTRY_NEXT = _BUSDTTRY_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTINR_NEXT:
+class _BUSDTINR_NEXT(NamedTuple):
     """
         name: .BUSDTINR_NEXT
         precision: 0.0001
@@ -20728,8 +20287,7 @@ _BUSDTINR_NEXT = _BUSDTINR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTZAR_NEXT:
+class _BUSDTZAR_NEXT(NamedTuple):
     """
         name: .BUSDTZAR_NEXT
         precision: 0.0001
@@ -20775,8 +20333,7 @@ _BUSDTZAR_NEXT = _BUSDTZAR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTBRL_NEXT:
+class _BUSDTBRL_NEXT(NamedTuple):
     """
         name: .BUSDTBRL_NEXT
         precision: 0.0001
@@ -20822,8 +20379,7 @@ _BUSDTBRL_NEXT = _BUSDTBRL_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTMXN_NEXT:
+class _BUSDTMXN_NEXT(NamedTuple):
     """
         name: .BUSDTMXN_NEXT
         precision: 0.0001
@@ -20869,8 +20425,7 @@ _BUSDTMXN_NEXT = _BUSDTMXN_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSDT_NEXT:
+class _BNZDUSDT_NEXT(NamedTuple):
     """
         name: .BNZDUSDT_NEXT
         precision: 1e-05
@@ -20916,8 +20471,7 @@ _BNZDUSDT_NEXT = _BNZDUSDT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCNH_NEXT:
+class _BUSDTCNH_NEXT(NamedTuple):
     """
         name: .BUSDTCNH_NEXT
         precision: 0.0001
@@ -20963,8 +20517,7 @@ _BUSDTCNH_NEXT = _BUSDTCNH_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTSEK_NEXT:
+class _BUSDTSEK_NEXT(NamedTuple):
     """
         name: .BUSDTSEK_NEXT
         precision: 0.0001
@@ -21010,8 +20563,7 @@ _BUSDTSEK_NEXT = _BUSDTSEK_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOP:
+class _BOP(NamedTuple):
     """
         name: .BOP
         precision: 0.0001
@@ -21057,8 +20609,7 @@ _BOP = _BOP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOP_NEXT:
+class _BOP_NEXT(NamedTuple):
     """
         name: .BOP_NEXT
         precision: 0.0001
@@ -21104,8 +20655,7 @@ _BOP_NEXT = _BOP_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOPT:
+class _BOPT(NamedTuple):
     """
         name: .BOPT
         precision: 0.0001
@@ -21151,8 +20701,7 @@ _BOPT = _BOPT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOPT_NEXT:
+class _BOPT_NEXT(NamedTuple):
     """
         name: .BOPT_NEXT
         precision: 0.0001
@@ -21198,8 +20747,7 @@ _BOPT_NEXT = _BOPT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPBON:
+class _OPBON(NamedTuple):
     """
         name: .OPBON
         precision: 1e-06
@@ -21245,8 +20793,7 @@ _OPBON = _OPBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPBON8H:
+class _OPBON8H(NamedTuple):
     """
         name: .OPBON8H
         precision: 1e-06
@@ -21292,8 +20839,7 @@ _OPBON8H = _OPBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPUSDTPI:
+class _OPUSDTPI(NamedTuple):
     """
         name: .OPUSDTPI
         precision: 1e-06
@@ -21339,8 +20885,7 @@ _OPUSDTPI = _OPUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPUSDTPI8H:
+class _OPUSDTPI8H(NamedTuple):
     """
         name: .OPUSDTPI8H
         precision: 1e-06
@@ -21386,8 +20931,7 @@ _OPUSDTPI8H = _OPUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPUSDPI:
+class _OPUSDPI(NamedTuple):
     """
         name: .OPUSDPI
         precision: 1e-06
@@ -21433,8 +20977,7 @@ _OPUSDPI = _OPUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _OPUSDPI8H:
+class _OPUSDPI8H(NamedTuple):
     """
         name: .OPUSDPI8H
         precision: 1e-06
@@ -21480,8 +21023,7 @@ _OPUSDPI8H = _OPUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDC:
+class _BUSDC(NamedTuple):
     """
         name: .BUSDC
         precision: 1e-05
@@ -21527,8 +21069,7 @@ _BUSDC = _BUSDC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCT:
+class _BUSDCT(NamedTuple):
     """
         name: .BUSDCT
         precision: 1e-05
@@ -21574,8 +21115,7 @@ _BUSDCT = _BUSDCT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHPOWT:
+class _BETHPOWT(NamedTuple):
     """
         name: .BETHPOWT
         precision: 0.0001
@@ -21621,8 +21161,7 @@ _BETHPOWT = _BETHPOWT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHPOWT_NEXT:
+class _BETHPOWT_NEXT(NamedTuple):
     """
         name: .BETHPOWT_NEXT
         precision: 0.0001
@@ -21668,8 +21207,7 @@ _BETHPOWT_NEXT = _BETHPOWT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHPOWT30M:
+class _BETHPOWT30M(NamedTuple):
     """
         name: .BETHPOWT30M
         precision: 0.0001
@@ -21715,8 +21253,7 @@ _BETHPOWT30M = _BETHPOWT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BALTMEXT30M:
+class _BALTMEXT30M(NamedTuple):
     """
         name: .BALTMEXT30M
         precision: 1e-06
@@ -21762,8 +21299,7 @@ _BALTMEXT30M = _BALTMEXT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDEFIMEXT30M:
+class _BDEFIMEXT30M(NamedTuple):
     """
         name: .BDEFIMEXT30M
         precision: 1e-06
@@ -21809,8 +21345,7 @@ _BDEFIMEXT30M = _BDEFIMEXT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMETAMEXT30M:
+class _BMETAMEXT30M(NamedTuple):
     """
         name: .BMETAMEXT30M
         precision: 1e-06
@@ -21856,8 +21391,7 @@ _BMETAMEXT30M = _BMETAMEXT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDC_NEXT:
+class _BUSDC_NEXT(NamedTuple):
     """
         name: .BUSDC_NEXT
         precision: 1e-05
@@ -21903,8 +21437,7 @@ _BUSDC_NEXT = _BUSDC_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCT_NEXT:
+class _BUSDCT_NEXT(NamedTuple):
     """
         name: .BUSDCT_NEXT
         precision: 1e-05
@@ -21950,8 +21483,7 @@ _BUSDCT_NEXT = _BUSDCT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BKLAY:
+class _BKLAY(NamedTuple):
     """
         name: .BKLAY
         precision: 1e-06
@@ -21997,8 +21529,7 @@ _BKLAY = _BKLAY()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BKLAY_NEXT:
+class _BKLAY_NEXT(NamedTuple):
     """
         name: .BKLAY_NEXT
         precision: 1e-06
@@ -22044,8 +21575,7 @@ _BKLAY_NEXT = _BKLAY_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BKLAYT:
+class _BKLAYT(NamedTuple):
     """
         name: .BKLAYT
         precision: 1e-06
@@ -22091,8 +21621,7 @@ _BKLAYT = _BKLAYT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BKLAYT_NEXT:
+class _BKLAYT_NEXT(NamedTuple):
     """
         name: .BKLAYT_NEXT
         precision: 1e-06
@@ -22138,8 +21667,7 @@ _BKLAYT_NEXT = _BKLAYT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYUSDTPI:
+class _KLAYUSDTPI(NamedTuple):
     """
         name: .KLAYUSDTPI
         precision: 1e-06
@@ -22185,8 +21713,7 @@ _KLAYUSDTPI = _KLAYUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYUSDTPI8H:
+class _KLAYUSDTPI8H(NamedTuple):
     """
         name: .KLAYUSDTPI8H
         precision: 1e-06
@@ -22232,8 +21759,7 @@ _KLAYUSDTPI8H = _KLAYUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYUSDPI:
+class _KLAYUSDPI(NamedTuple):
     """
         name: .KLAYUSDPI
         precision: 1e-06
@@ -22279,8 +21805,7 @@ _KLAYUSDPI = _KLAYUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYUSDPI8H:
+class _KLAYUSDPI8H(NamedTuple):
     """
         name: .KLAYUSDPI8H
         precision: 1e-06
@@ -22326,8 +21851,7 @@ _KLAYUSDPI8H = _KLAYUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYBON:
+class _KLAYBON(NamedTuple):
     """
         name: .KLAYBON
         precision: 1e-06
@@ -22373,8 +21897,7 @@ _KLAYBON = _KLAYBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _KLAYBON8H:
+class _KLAYBON8H(NamedTuple):
     """
         name: .KLAYBON8H
         precision: 1e-06
@@ -22420,8 +21943,7 @@ _KLAYBON8H = _KLAYBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSTETH:
+class _BSTETH(NamedTuple):
     """
         name: .BSTETH
         precision: 0.001
@@ -22467,8 +21989,7 @@ _BSTETH = _BSTETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSTETHT:
+class _BSTETHT(NamedTuple):
     """
         name: .BSTETHT
         precision: 0.001
@@ -22514,8 +22035,7 @@ _BSTETHT = _BSTETHT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDAI:
+class _BDAI(NamedTuple):
     """
         name: .BDAI
         precision: 1e-05
@@ -22561,8 +22081,7 @@ _BDAI = _BDAI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BDAIT:
+class _BDAIT(NamedTuple):
     """
         name: .BDAIT
         precision: 1e-05
@@ -22608,8 +22127,7 @@ _BDAIT = _BDAIT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBUSD:
+class _BBUSD(NamedTuple):
     """
         name: .BBUSD
         precision: 1e-05
@@ -22655,8 +22173,7 @@ _BBUSD = _BBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBUSDT:
+class _BBUSDT(NamedTuple):
     """
         name: .BBUSDT
         precision: 1e-05
@@ -22702,8 +22219,7 @@ _BBUSDT = _BBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BWBTC:
+class _BWBTC(NamedTuple):
     """
         name: .BWBTC
         precision: 0.01
@@ -22749,8 +22265,7 @@ _BWBTC = _BWBTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BWBTCT:
+class _BWBTCT(NamedTuple):
     """
         name: .BWBTCT
         precision: 0.01
@@ -22796,8 +22311,7 @@ _BWBTCT = _BWBTCT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCRO:
+class _BCRO(NamedTuple):
     """
         name: .BCRO
         precision: 0.0001
@@ -22843,8 +22357,7 @@ _BCRO = _BCRO()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BCROT:
+class _BCROT(NamedTuple):
     """
         name: .BCROT
         precision: 0.0001
@@ -22890,8 +22403,7 @@ _BCROT = _BCROT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BQNT:
+class _BQNT(NamedTuple):
     """
         name: .BQNT
         precision: 0.0001
@@ -22937,8 +22449,7 @@ _BQNT = _BQNT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BQNTT:
+class _BQNTT(NamedTuple):
     """
         name: .BQNTT
         precision: 0.0001
@@ -22984,8 +22495,7 @@ _BQNTT = _BQNTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOKB:
+class _BOKB(NamedTuple):
     """
         name: .BOKB
         precision: 0.0001
@@ -23031,8 +22541,7 @@ _BOKB = _BOKB()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOKBT:
+class _BOKBT(NamedTuple):
     """
         name: .BOKBT
         precision: 0.0001
@@ -23078,8 +22587,7 @@ _BOKBT = _BOKBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLEO:
+class _BLEO(NamedTuple):
     """
         name: .BLEO
         precision: 0.0001
@@ -23125,8 +22633,7 @@ _BLEO = _BLEO()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLEOT:
+class _BLEOT(NamedTuple):
     """
         name: .BLEOT
         precision: 0.0001
@@ -23172,8 +22679,7 @@ _BLEOT = _BLEOT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAAVE:
+class _BAAVE(NamedTuple):
     """
         name: .BAAVE
         precision: 0.001
@@ -23219,8 +22725,7 @@ _BAAVE = _BAAVE()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMANA:
+class _BMANA(NamedTuple):
     """
         name: .BMANA
         precision: 1e-05
@@ -23266,8 +22771,7 @@ _BMANA = _BMANA()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXLM:
+class _BXLM(NamedTuple):
     """
         name: .BXLM
         precision: 1e-06
@@ -23313,8 +22817,7 @@ _BXLM = _BXLM()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVET:
+class _BVET(NamedTuple):
     """
         name: .BVET
         precision: 1e-06
@@ -23360,8 +22863,7 @@ _BVET = _BVET()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFIL:
+class _BFIL(NamedTuple):
     """
         name: .BFIL
         precision: 0.001
@@ -23407,8 +22909,7 @@ _BFIL = _BFIL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXTZ:
+class _BXTZ(NamedTuple):
     """
         name: .BXTZ
         precision: 1e-05
@@ -23454,8 +22955,7 @@ _BXTZ = _BXTZ()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMKR:
+class _BMKR(NamedTuple):
     """
         name: .BMKR
         precision: 0.01
@@ -23501,8 +23001,7 @@ _BMKR = _BMKR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLOW:
+class _BFLOW(NamedTuple):
     """
         name: .BFLOW
         precision: 0.0001
@@ -23548,8 +23047,7 @@ _BFLOW = _BFLOW()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLOWT:
+class _BFLOWT(NamedTuple):
     """
         name: .BFLOWT
         precision: 0.0001
@@ -23595,8 +23093,7 @@ _BFLOWT = _BFLOWT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BHBAR:
+class _BHBAR(NamedTuple):
     """
         name: .BHBAR
         precision: 1e-05
@@ -23642,8 +23139,7 @@ _BHBAR = _BHBAR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BHBART:
+class _BHBART(NamedTuple):
     """
         name: .BHBART
         precision: 1e-05
@@ -23689,8 +23185,7 @@ _BHBART = _BHBART()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEGLD:
+class _BEGLD(NamedTuple):
     """
         name: .BEGLD
         precision: 0.0001
@@ -23736,8 +23231,7 @@ _BEGLD = _BEGLD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEGLDT:
+class _BEGLDT(NamedTuple):
     """
         name: .BEGLDT
         precision: 0.0001
@@ -23783,8 +23277,7 @@ _BEGLDT = _BEGLDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTUSD:
+class _BTUSD(NamedTuple):
     """
         name: .BTUSD
         precision: 1e-05
@@ -23830,8 +23323,7 @@ _BTUSD = _BTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTUSDT:
+class _BTUSDT(NamedTuple):
     """
         name: .BTUSDT
         precision: 1e-05
@@ -23877,8 +23369,7 @@ _BTUSDT = _BTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDP:
+class _BUSDP(NamedTuple):
     """
         name: .BUSDP
         precision: 1e-05
@@ -23924,8 +23415,7 @@ _BUSDP = _BUSDP()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BHNT:
+class _BHNT(NamedTuple):
     """
         name: .BHNT
         precision: 0.0001
@@ -23971,8 +23461,7 @@ _BHNT = _BHNT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BHNTT:
+class _BHNTT(NamedTuple):
     """
         name: .BHNTT
         precision: 0.0001
@@ -24018,8 +23507,7 @@ _BHNTT = _BHNTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BIOTA:
+class _BIOTA(NamedTuple):
     """
         name: .BIOTA
         precision: 1e-05
@@ -24065,8 +23553,7 @@ _BIOTA = _BIOTA()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BIOTAT:
+class _BIOTAT(NamedTuple):
     """
         name: .BIOTAT
         precision: 1e-05
@@ -24112,8 +23599,7 @@ _BIOTAT = _BIOTAT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXEC:
+class _BXEC(NamedTuple):
     """
         name: .BXEC
         precision: 1e-08
@@ -24159,8 +23645,7 @@ _BXEC = _BXEC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXECT:
+class _BXECT(NamedTuple):
     """
         name: .BXECT
         precision: 1e-08
@@ -24206,8 +23691,7 @@ _BXECT = _BXECT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTTT:
+class _BFTTT(NamedTuple):
     """
         name: .BFTTT
         precision: 0.0001
@@ -24253,8 +23737,7 @@ _BFTTT = _BFTTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCHF30M:
+class _BUSDCHF30M(NamedTuple):
     """
         name: .BUSDCHF30M
         precision: 1e-05
@@ -24300,8 +23783,7 @@ _BUSDCHF30M = _BUSDCHF30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURCHF30M:
+class _BEURCHF30M(NamedTuple):
     """
         name: .BEURCHF30M
         precision: 1e-05
@@ -24347,8 +23829,7 @@ _BEURCHF30M = _BEURCHF30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURTRY30M:
+class _BEURTRY30M(NamedTuple):
     """
         name: .BEURTRY30M
         precision: 0.0001
@@ -24394,8 +23875,7 @@ _BEURTRY30M = _BEURTRY30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTRY30M:
+class _BUSDTRY30M(NamedTuple):
     """
         name: .BUSDTRY30M
         precision: 0.0001
@@ -24441,8 +23921,7 @@ _BUSDTRY30M = _BUSDTRY30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDINR30M:
+class _BUSDINR30M(NamedTuple):
     """
         name: .BUSDINR30M
         precision: 0.0001
@@ -24488,8 +23967,7 @@ _BUSDINR30M = _BUSDINR30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDZAR30M:
+class _BUSDZAR30M(NamedTuple):
     """
         name: .BUSDZAR30M
         precision: 0.0001
@@ -24535,8 +24013,7 @@ _BUSDZAR30M = _BUSDZAR30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDBRL30M:
+class _BUSDBRL30M(NamedTuple):
     """
         name: .BUSDBRL30M
         precision: 0.0001
@@ -24582,8 +24059,7 @@ _BUSDBRL30M = _BUSDBRL30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDMXN30M:
+class _BUSDMXN30M(NamedTuple):
     """
         name: .BUSDMXN30M
         precision: 0.0001
@@ -24629,8 +24105,7 @@ _BUSDMXN30M = _BUSDMXN30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSD30M:
+class _BNZDUSD30M(NamedTuple):
     """
         name: .BNZDUSD30M
         precision: 1e-05
@@ -24676,8 +24151,7 @@ _BNZDUSD30M = _BNZDUSD30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDCNH30M:
+class _BUSDCNH30M(NamedTuple):
     """
         name: .BUSDCNH30M
         precision: 0.0001
@@ -24723,8 +24197,7 @@ _BUSDCNH30M = _BUSDCNH30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDSEK30M:
+class _BUSDSEK30M(NamedTuple):
     """
         name: .BUSDSEK30M
         precision: 0.0001
@@ -24770,8 +24243,7 @@ _BUSDSEK30M = _BUSDSEK30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCHF30M:
+class _BUSDTCHF30M(NamedTuple):
     """
         name: .BUSDTCHF30M
         precision: 1e-05
@@ -24817,8 +24289,7 @@ _BUSDTCHF30M = _BUSDTCHF30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNZDUSDT30M:
+class _BNZDUSDT30M(NamedTuple):
     """
         name: .BNZDUSDT30M
         precision: 1e-05
@@ -24864,8 +24335,7 @@ _BNZDUSDT30M = _BNZDUSDT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTCNH30M:
+class _BUSDTCNH30M(NamedTuple):
     """
         name: .BUSDTCNH30M
         precision: 0.0001
@@ -24911,8 +24381,7 @@ _BUSDTCNH30M = _BUSDTCNH30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSANDT30M:
+class _BSANDT30M(NamedTuple):
     """
         name: .BSANDT30M
         precision: 1e-05
@@ -24958,8 +24427,7 @@ _BSANDT30M = _BSANDT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BNEART30M:
+class _BNEART30M(NamedTuple):
     """
         name: .BNEART30M
         precision: 0.001
@@ -25005,8 +24473,7 @@ _BNEART30M = _BNEART30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMANAT30M:
+class _BMANAT30M(NamedTuple):
     """
         name: .BMANAT30M
         precision: 1e-05
@@ -25052,8 +24519,7 @@ _BMANAT30M = _BMANAT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BSHIBT30M:
+class _BSHIBT30M(NamedTuple):
     """
         name: .BSHIBT30M
         precision: 1e-09
@@ -25099,8 +24565,7 @@ _BSHIBT30M = _BSHIBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOPT30M:
+class _BOPT30M(NamedTuple):
     """
         name: .BOPT30M
         precision: 0.0001
@@ -25146,8 +24611,7 @@ _BOPT30M = _BOPT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGALT30M:
+class _BGALT30M(NamedTuple):
     """
         name: .BGALT30M
         precision: 1e-05
@@ -25193,8 +24657,7 @@ _BGALT30M = _BGALT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BGAL30M:
+class _BGAL30M(NamedTuple):
     """
         name: .BGAL30M
         precision: 1e-05
@@ -25240,8 +24703,7 @@ _BGAL30M = _BGAL30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BTRX30M:
+class _BTRX30M(NamedTuple):
     """
         name: .BTRX30M
         precision: 1e-06
@@ -25287,8 +24749,7 @@ _BTRX30M = _BTRX30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BOP30M:
+class _BOP30M(NamedTuple):
     """
         name: .BOP30M
         precision: 0.0001
@@ -25334,8 +24795,7 @@ _BOP30M = _BOP30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPE30M:
+class _BAPE30M(NamedTuple):
     """
         name: .BAPE30M
         precision: 0.0001
@@ -25381,8 +24841,7 @@ _BAPE30M = _BAPE30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTMT30M:
+class _BFTMT30M(NamedTuple):
     """
         name: .BFTMT30M
         precision: 1e-05
@@ -25428,8 +24887,7 @@ _BFTMT30M = _BFTMT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPT:
+class _BAPT(NamedTuple):
     """
         name: .BAPT
         precision: 0.0001
@@ -25475,8 +24933,7 @@ _BAPT = _BAPT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPT_NEXT:
+class _BAPT_NEXT(NamedTuple):
     """
         name: .BAPT_NEXT
         precision: 0.0001
@@ -25522,8 +24979,7 @@ _BAPT_NEXT = _BAPT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPT30M:
+class _BAPT30M(NamedTuple):
     """
         name: .BAPT30M
         precision: 0.0001
@@ -25569,8 +25025,7 @@ _BAPT30M = _BAPT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPTT:
+class _BAPTT(NamedTuple):
     """
         name: .BAPTT
         precision: 0.0001
@@ -25616,8 +25071,7 @@ _BAPTT = _BAPTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPTT_NEXT:
+class _BAPTT_NEXT(NamedTuple):
     """
         name: .BAPTT_NEXT
         precision: 0.0001
@@ -25663,8 +25117,7 @@ _BAPTT_NEXT = _BAPTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BAPTT30M:
+class _BAPTT30M(NamedTuple):
     """
         name: .BAPTT30M
         precision: 0.0001
@@ -25710,8 +25163,7 @@ _BAPTT30M = _BAPTT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTBON:
+class _APTBON(NamedTuple):
     """
         name: .APTBON
         precision: 1e-06
@@ -25757,8 +25209,7 @@ _APTBON = _APTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTBON8H:
+class _APTBON8H(NamedTuple):
     """
         name: .APTBON8H
         precision: 1e-06
@@ -25804,8 +25255,7 @@ _APTBON8H = _APTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTUSDTPI:
+class _APTUSDTPI(NamedTuple):
     """
         name: .APTUSDTPI
         precision: 1e-06
@@ -25851,8 +25301,7 @@ _APTUSDTPI = _APTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTUSDTPI8H:
+class _APTUSDTPI8H(NamedTuple):
     """
         name: .APTUSDTPI8H
         precision: 1e-06
@@ -25898,8 +25347,7 @@ _APTUSDTPI8H = _APTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTUSDPI:
+class _APTUSDPI(NamedTuple):
     """
         name: .APTUSDPI
         precision: 1e-06
@@ -25945,8 +25393,7 @@ _APTUSDPI = _APTUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _APTUSDPI8H:
+class _APTUSDPI8H(NamedTuple):
     """
         name: .APTUSDPI8H
         precision: 1e-06
@@ -25992,8 +25439,7 @@ _APTUSDPI8H = _APTUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTT:
+class _BFTT(NamedTuple):
     """
         name: .BFTT
         precision: 0.0001
@@ -26039,8 +25485,7 @@ _BFTT = _BFTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTT_NEXT:
+class _BFTT_NEXT(NamedTuple):
     """
         name: .BFTT_NEXT
         precision: 0.0001
@@ -26086,8 +25531,7 @@ _BFTT_NEXT = _BFTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTTT_NEXT:
+class _BFTTT_NEXT(NamedTuple):
     """
         name: .BFTTT_NEXT
         precision: 0.0001
@@ -26133,8 +25577,7 @@ _BFTTT_NEXT = _BFTTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTBON:
+class _FTTBON(NamedTuple):
     """
         name: .FTTBON
         precision: 1e-06
@@ -26180,8 +25623,7 @@ _FTTBON = _FTTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTBON8H:
+class _FTTBON8H(NamedTuple):
     """
         name: .FTTBON8H
         precision: 1e-06
@@ -26227,8 +25669,7 @@ _FTTBON8H = _FTTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTUSDTPI:
+class _FTTUSDTPI(NamedTuple):
     """
         name: .FTTUSDTPI
         precision: 1e-06
@@ -26274,8 +25715,7 @@ _FTTUSDTPI = _FTTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTUSDTPI8H:
+class _FTTUSDTPI8H(NamedTuple):
     """
         name: .FTTUSDTPI8H
         precision: 1e-06
@@ -26321,8 +25761,7 @@ _FTTUSDTPI8H = _FTTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTUSDPI:
+class _FTTUSDPI(NamedTuple):
     """
         name: .FTTUSDPI
         precision: 1e-06
@@ -26368,8 +25807,7 @@ _FTTUSDPI = _FTTUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FTTUSDPI8H:
+class _FTTUSDPI8H(NamedTuple):
     """
         name: .FTTUSDPI8H
         precision: 1e-06
@@ -26415,8 +25853,7 @@ _FTTUSDPI8H = _FTTUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXBON:
+class _BMEXBON(NamedTuple):
     """
         name: .BMEXBON
         precision: 1e-06
@@ -26462,8 +25899,7 @@ _BMEXBON = _BMEXBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXBON8H:
+class _BMEXBON8H(NamedTuple):
     """
         name: .BMEXBON8H
         precision: 1e-06
@@ -26509,8 +25945,7 @@ _BMEXBON8H = _BMEXBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXUSDTPI:
+class _BMEXUSDTPI(NamedTuple):
     """
         name: .BMEXUSDTPI
         precision: 1e-06
@@ -26556,8 +25991,7 @@ _BMEXUSDTPI = _BMEXUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXUSDTPI8H:
+class _BMEXUSDTPI8H(NamedTuple):
     """
         name: .BMEXUSDTPI8H
         precision: 1e-06
@@ -26603,8 +26037,7 @@ _BMEXUSDTPI8H = _BMEXUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXUSDPI:
+class _BMEXUSDPI(NamedTuple):
     """
         name: .BMEXUSDPI
         precision: 1e-06
@@ -26650,8 +26083,7 @@ _BMEXUSDPI = _BMEXUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BMEXUSDPI8H:
+class _BMEXUSDPI8H(NamedTuple):
     """
         name: .BMEXUSDPI8H
         precision: 1e-06
@@ -26697,8 +26129,7 @@ _BMEXUSDPI8H = _BMEXUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBMEXT:
+class _BBMEXT(NamedTuple):
     """
         name: .BBMEXT
         precision: 0.0001
@@ -26744,8 +26175,7 @@ _BBMEXT = _BBMEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBMEXT_NEXT:
+class _BBMEXT_NEXT(NamedTuple):
     """
         name: .BBMEXT_NEXT
         precision: 0.0001
@@ -26791,8 +26221,7 @@ _BBMEXT_NEXT = _BBMEXT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBMEX:
+class _BBMEX(NamedTuple):
     """
         name: .BBMEX
         precision: 0.0001
@@ -26838,8 +26267,7 @@ _BBMEX = _BBMEX()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BBMEX_NEXT:
+class _BBMEX_NEXT(NamedTuple):
     """
         name: .BBMEX_NEXT
         precision: 0.0001
@@ -26885,8 +26313,7 @@ _BBMEX_NEXT = _BBMEX_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROBON:
+class _CROBON(NamedTuple):
     """
         name: .CROBON
         precision: 1e-05
@@ -26932,8 +26359,7 @@ _CROBON = _CROBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROBON8H:
+class _CROBON8H(NamedTuple):
     """
         name: .CROBON8H
         precision: 1e-05
@@ -26979,8 +26405,7 @@ _CROBON8H = _CROBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROUSDTPI:
+class _CROUSDTPI(NamedTuple):
     """
         name: .CROUSDTPI
         precision: 1e-06
@@ -27026,8 +26451,7 @@ _CROUSDTPI = _CROUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROUSDTPI8H:
+class _CROUSDTPI8H(NamedTuple):
     """
         name: .CROUSDTPI8H
         precision: 1e-06
@@ -27073,8 +26497,7 @@ _CROUSDTPI8H = _CROUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROUSDPI:
+class _CROUSDPI(NamedTuple):
     """
         name: .CROUSDPI
         precision: 1e-06
@@ -27120,8 +26543,7 @@ _CROUSDPI = _CROUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _CROUSDPI8H:
+class _CROUSDPI8H(NamedTuple):
     """
         name: .CROUSDPI8H
         precision: 1e-06
@@ -27167,8 +26589,7 @@ _CROUSDPI8H = _CROUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTT30M:
+class _BFTT30M(NamedTuple):
     """
         name: .BFTT30M
         precision: 0.0001
@@ -27214,8 +26635,7 @@ _BFTT30M = _BFTT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFTTT30M:
+class _BFTTT30M(NamedTuple):
     """
         name: .BFTTT30M
         precision: 0.0001
@@ -27261,8 +26681,7 @@ _BFTTT30M = _BFTTT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHYLD:
+class _BETHYLD(NamedTuple):
     """
         name: .BETHYLD
         precision: 1e-05
@@ -27308,8 +26727,7 @@ _BETHYLD = _BETHYLD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSD30M:
+class _BEURUSD30M(NamedTuple):
     """
         name: .BEURUSD30M
         precision: 1e-05
@@ -27355,8 +26773,7 @@ _BEURUSD30M = _BEURUSD30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BEURUSDT30M:
+class _BEURUSDT30M(NamedTuple):
     """
         name: .BEURUSDT30M
         precision: 1e-05
@@ -27402,8 +26819,7 @@ _BEURUSDT30M = _BEURUSDT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTBRL30M:
+class _BUSDTBRL30M(NamedTuple):
     """
         name: .BUSDTBRL30M
         precision: 0.0001
@@ -27449,8 +26865,7 @@ _BUSDTBRL30M = _BUSDTBRL30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTINR30M:
+class _BUSDTINR30M(NamedTuple):
     """
         name: .BUSDTINR30M
         precision: 0.0001
@@ -27496,8 +26911,7 @@ _BUSDTINR30M = _BUSDTINR30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTMXN30M:
+class _BUSDTMXN30M(NamedTuple):
     """
         name: .BUSDTMXN30M
         precision: 0.0001
@@ -27543,8 +26957,7 @@ _BUSDTMXN30M = _BUSDTMXN30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTSEK30M:
+class _BUSDTSEK30M(NamedTuple):
     """
         name: .BUSDTSEK30M
         precision: 0.0001
@@ -27590,8 +27003,7 @@ _BUSDTSEK30M = _BUSDTSEK30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTTRY30M:
+class _BUSDTTRY30M(NamedTuple):
     """
         name: .BUSDTTRY30M
         precision: 0.0001
@@ -27637,8 +27049,7 @@ _BUSDTTRY30M = _BUSDTTRY30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BUSDTZAR30M:
+class _BUSDTZAR30M(NamedTuple):
     """
         name: .BUSDTZAR30M
         precision: 0.0001
@@ -27684,8 +27095,7 @@ _BUSDTZAR30M = _BUSDTZAR30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLRT:
+class _BFLRT(NamedTuple):
     """
         name: .BFLRT
         precision: 0.0001
@@ -27731,8 +27141,7 @@ _BFLRT = _BFLRT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLRT_NEXT:
+class _BFLRT_NEXT(NamedTuple):
     """
         name: .BFLRT_NEXT
         precision: 0.0001
@@ -27778,8 +27187,7 @@ _BFLRT_NEXT = _BFLRT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLRT30M:
+class _BFLRT30M(NamedTuple):
     """
         name: .BFLRT30M
         precision: 0.0001
@@ -27825,8 +27233,7 @@ _BFLRT30M = _BFLRT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRBON:
+class _FLRBON(NamedTuple):
     """
         name: .FLRBON
         precision: 1e-06
@@ -27872,8 +27279,7 @@ _FLRBON = _FLRBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRBON8H:
+class _FLRBON8H(NamedTuple):
     """
         name: .FLRBON8H
         precision: 1e-06
@@ -27919,8 +27325,7 @@ _FLRBON8H = _FLRBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRUSDTPI:
+class _FLRUSDTPI(NamedTuple):
     """
         name: .FLRUSDTPI
         precision: 1e-06
@@ -27966,8 +27371,7 @@ _FLRUSDTPI = _FLRUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRUSDTPI8H:
+class _FLRUSDTPI8H(NamedTuple):
     """
         name: .FLRUSDTPI8H
         precision: 1e-06
@@ -28013,8 +27417,7 @@ _FLRUSDTPI8H = _FLRUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRUSDPI:
+class _FLRUSDPI(NamedTuple):
     """
         name: .FLRUSDPI
         precision: 1e-06
@@ -28060,8 +27463,7 @@ _FLRUSDPI = _FLRUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _FLRUSDPI8H:
+class _FLRUSDPI8H(NamedTuple):
     """
         name: .FLRUSDPI8H
         precision: 1e-06
@@ -28107,8 +27509,7 @@ _FLRUSDPI8H = _FLRUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLR:
+class _BFLR(NamedTuple):
     """
         name: .BFLR
         precision: 0.0001
@@ -28154,8 +27555,7 @@ _BFLR = _BFLR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BFLR_NEXT:
+class _BFLR_NEXT(NamedTuple):
     """
         name: .BFLR_NEXT
         precision: 0.0001
@@ -28201,8 +27601,7 @@ _BFLR_NEXT = _BFLR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAH23:
+class ADAH23(NamedTuple):
     """
         name: ADAH23
         precision: 1e-08
@@ -28248,8 +27647,7 @@ ADAH23 = ADAH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPH23:
+class XRPH23(NamedTuple):
     """
         name: XRPH23
         precision: 1e-08
@@ -28295,8 +27693,7 @@ XRPH23 = XRPH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLRUSDTH23:
+class FLRUSDTH23(NamedTuple):
     """
         name: FLRUSDTH23
         precision: 0.0001
@@ -28342,8 +27739,7 @@ FLRUSDTH23 = FLRUSDTH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYUSD:
+class KLAYUSD(NamedTuple):
     """
         name: KLAYUSD
         precision: 1e-05
@@ -28389,8 +27785,7 @@ KLAYUSD = KLAYUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class KLAYUSDT:
+class KLAYUSDT(NamedTuple):
     """
         name: KLAYUSDT
         precision: 1e-05
@@ -28436,8 +27831,7 @@ KLAYUSDT = KLAYUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPUSD:
+class XRPUSD(NamedTuple):
     """
         name: XRPUSD
         precision: 0.0001
@@ -28483,8 +27877,7 @@ XRPUSD = XRPUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHUSD:
+class BCHUSD(NamedTuple):
     """
         name: BCHUSD
         precision: 0.05
@@ -28530,8 +27923,7 @@ BCHUSD = BCHUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEUSD:
+class DOGEUSD(NamedTuple):
     """
         name: DOGEUSD
         precision: 1e-05
@@ -28577,8 +27969,7 @@ DOGEUSD = DOGEUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSD:
+class BNBUSD(NamedTuple):
     """
         name: BNBUSD
         precision: 0.01
@@ -28624,8 +28015,7 @@ BNBUSD = BNBUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINKUSD:
+class LINKUSD(NamedTuple):
     """
         name: LINKUSD
         precision: 0.001
@@ -28671,8 +28061,7 @@ LINKUSD = LINKUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLUSD:
+class SOLUSD(NamedTuple):
     """
         name: SOLUSD
         precision: 0.01
@@ -28718,8 +28107,7 @@ SOLUSD = SOLUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTUSD:
+class APTUSD(NamedTuple):
     """
         name: APTUSD
         precision: 0.001
@@ -28765,8 +28153,7 @@ APTUSD = APTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BMEXUSD:
+class BMEXUSD(NamedTuple):
     """
         name: BMEXUSD
         precision: 0.001
@@ -28812,8 +28199,7 @@ BMEXUSD = BMEXUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CROUSD:
+class CROUSD(NamedTuple):
     """
         name: CROUSD
         precision: 1e-05
@@ -28859,8 +28245,7 @@ CROUSD = CROUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLRUSD:
+class FLRUSD(NamedTuple):
     """
         name: FLRUSD
         precision: 0.0001
@@ -28906,8 +28291,7 @@ FLRUSD = FLRUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOGEUSDT:
+class DOGEUSDT(NamedTuple):
     """
         name: DOGEUSDT
         precision: 1e-05
@@ -28953,8 +28337,7 @@ DOGEUSDT = DOGEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTUSDT:
+class DOTUSDT(NamedTuple):
     """
         name: DOTUSDT
         precision: 0.001
@@ -29000,8 +28383,7 @@ DOTUSDT = DOTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAUSDT:
+class ADAUSDT(NamedTuple):
     """
         name: ADAUSDT
         precision: 0.0001
@@ -29047,8 +28429,7 @@ ADAUSDT = ADAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BNBUSDT:
+class BNBUSDT(NamedTuple):
     """
         name: BNBUSDT
         precision: 0.01
@@ -29094,8 +28475,7 @@ BNBUSDT = BNBUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOLUSDT:
+class SOLUSDT(NamedTuple):
     """
         name: SOLUSDT
         precision: 0.01
@@ -29141,8 +28521,7 @@ SOLUSDT = SOLUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ADAUSD:
+class ADAUSD(NamedTuple):
     """
         name: ADAUSD
         precision: 0.0001
@@ -29188,8 +28567,7 @@ ADAUSD = ADAUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class EOSUSD:
+class EOSUSD(NamedTuple):
     """
         name: EOSUSD
         precision: 0.0001
@@ -29235,8 +28613,7 @@ EOSUSD = EOSUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XRPUSDT:
+class XRPUSDT(NamedTuple):
     """
         name: XRPUSDT
         precision: 0.0001
@@ -29282,8 +28659,7 @@ XRPUSDT = XRPUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BCHUSDT:
+class BCHUSDT(NamedTuple):
     """
         name: BCHUSDT
         precision: 0.05
@@ -29329,8 +28705,7 @@ BCHUSDT = BCHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APEUSDT:
+class APEUSDT(NamedTuple):
     """
         name: APEUSDT
         precision: 0.001
@@ -29376,8 +28751,7 @@ APEUSDT = APEUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTUSDT:
+class GMTUSDT(NamedTuple):
     """
         name: GMTUSDT
         precision: 0.0001
@@ -29423,8 +28797,7 @@ GMTUSDT = GMTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class GMTUSD:
+class GMTUSD(NamedTuple):
     """
         name: GMTUSD
         precision: 0.0001
@@ -29470,8 +28843,7 @@ GMTUSD = GMTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class NEARUSD:
+class NEARUSD(NamedTuple):
     """
         name: NEARUSD
         precision: 0.001
@@ -29517,8 +28889,7 @@ NEARUSD = NEARUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APTUSDT:
+class APTUSDT(NamedTuple):
     """
         name: APTUSDT
         precision: 0.001
@@ -29564,8 +28935,7 @@ APTUSDT = APTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BMEXUSDT:
+class BMEXUSDT(NamedTuple):
     """
         name: BMEXUSDT
         precision: 0.001
@@ -29611,8 +28981,7 @@ BMEXUSDT = BMEXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class CROUSDT:
+class CROUSDT(NamedTuple):
     """
         name: CROUSDT
         precision: 1e-05
@@ -29658,8 +29027,7 @@ CROUSDT = CROUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class FLRUSDT:
+class FLRUSDT(NamedTuple):
     """
         name: FLRUSDT
         precision: 0.0001
@@ -29705,8 +29073,7 @@ FLRUSDT = FLRUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAUSD:
+class LUNAUSD(NamedTuple):
     """
         name: LUNAUSD
         precision: 0.0001
@@ -29752,8 +29119,7 @@ LUNAUSD = LUNAUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class DOTUSD:
+class DOTUSD(NamedTuple):
     """
         name: DOTUSD
         precision: 0.001
@@ -29799,8 +29165,7 @@ DOTUSD = DOTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATICUSDT:
+class MATICUSDT(NamedTuple):
     """
         name: MATICUSDT
         precision: 0.0001
@@ -29846,8 +29211,7 @@ MATICUSDT = MATICUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXUSD:
+class AVAXUSD(NamedTuple):
     """
         name: AVAXUSD
         precision: 0.001
@@ -29893,8 +29257,7 @@ AVAXUSD = AVAXUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXSUSD:
+class AXSUSD(NamedTuple):
     """
         name: AXSUSD
         precision: 0.01
@@ -29940,8 +29303,7 @@ AXSUSD = AXSUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AVAXUSDT:
+class AVAXUSDT(NamedTuple):
     """
         name: AVAXUSDT
         precision: 0.001
@@ -29987,8 +29349,7 @@ AVAXUSDT = AVAXUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LUNAUSDT:
+class LUNAUSDT(NamedTuple):
     """
         name: LUNAUSDT
         precision: 0.0001
@@ -30034,8 +29395,7 @@ LUNAUSDT = LUNAUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class UNI_USDT:
+class UNI_USDT(NamedTuple):
     """
         name: UNI_USDT
         precision: 0.001
@@ -30081,8 +29441,7 @@ UNI_USDT = UNI_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LINK_USDT:
+class LINK_USDT(NamedTuple):
     """
         name: LINK_USDT
         precision: 0.001
@@ -30128,8 +29487,7 @@ LINK_USDT = LINK_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class MATIC_USDT:
+class MATIC_USDT(NamedTuple):
     """
         name: MATIC_USDT
         precision: 0.0001
@@ -30175,8 +29533,7 @@ MATIC_USDT = MATIC_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class AXS_USDT:
+class AXS_USDT(NamedTuple):
     """
         name: AXS_USDT
         precision: 0.01
@@ -30222,8 +29579,7 @@ AXS_USDT = AXS_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class APE_USDT:
+class APE_USDT(NamedTuple):
     """
         name: APE_USDT
         precision: 0.001
@@ -30269,8 +29625,7 @@ APE_USDT = APE_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class TRX_USDT:
+class TRX_USDT(NamedTuple):
     """
         name: TRX_USDT
         precision: 0.0001
@@ -30316,8 +29671,7 @@ TRX_USDT = TRX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class SOL_USDT:
+class SOL_USDT(NamedTuple):
     """
         name: SOL_USDT
         precision: 0.01
@@ -30363,8 +29717,7 @@ SOL_USDT = SOL_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class BMEX_USDT:
+class BMEX_USDT(NamedTuple):
     """
         name: BMEX_USDT
         precision: 0.001
@@ -30410,8 +29763,7 @@ BMEX_USDT = BMEX_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBT:
+class _XBT(NamedTuple):
     """
         name: .XBT
         precision: 0.01
@@ -30457,8 +29809,7 @@ _XBT = _XBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBT30M:
+class _XBT30M(NamedTuple):
     """
         name: .XBT30M
         precision: 0.01
@@ -30504,8 +29855,7 @@ _XBT30M = _XBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTBON:
+class _XBTBON(NamedTuple):
     """
         name: .XBTBON
         precision: 1e-06
@@ -30551,8 +29901,7 @@ _XBTBON = _XBTBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTBON8H:
+class _XBTBON8H(NamedTuple):
     """
         name: .XBTBON8H
         precision: 1e-06
@@ -30598,8 +29947,7 @@ _XBTBON8H = _XBTBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTUSDPI:
+class _XBTUSDPI(NamedTuple):
     """
         name: .XBTUSDPI
         precision: 1e-06
@@ -30645,8 +29993,7 @@ _XBTUSDPI = _XBTUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTUSDPI8H:
+class _XBTUSDPI8H(NamedTuple):
     """
         name: .XBTUSDPI8H
         precision: 1e-06
@@ -30692,8 +30039,7 @@ _XBTUSDPI8H = _XBTUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBT:
+class _BXBT(NamedTuple):
     """
         name: .BXBT
         precision: 0.01
@@ -30739,8 +30085,7 @@ _BXBT = _BXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBT30M:
+class _BXBT30M(NamedTuple):
     """
         name: .BXBT30M
         precision: 0.01
@@ -30786,8 +30131,7 @@ _BXBT30M = _BXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBT_NEXT:
+class _BXBT_NEXT(NamedTuple):
     """
         name: .BXBT_NEXT
         precision: 0.01
@@ -30833,8 +30177,7 @@ _BXBT_NEXT = _BXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTEUR:
+class _BXBTEUR(NamedTuple):
     """
         name: .BXBTEUR
         precision: 0.01
@@ -30880,8 +30223,7 @@ _BXBTEUR = _BXBTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTEUR_NEXT:
+class _BXBTEUR_NEXT(NamedTuple):
     """
         name: .BXBTEUR_NEXT
         precision: 0.01
@@ -30927,8 +30269,7 @@ _BXBTEUR_NEXT = _BXBTEUR_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTEURPI:
+class _XBTEURPI(NamedTuple):
     """
         name: .XBTEURPI
         precision: 1e-06
@@ -30974,8 +30315,7 @@ _XBTEURPI = _XBTEURPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTEURPI8H:
+class _XBTEURPI8H(NamedTuple):
     """
         name: .XBTEURPI8H
         precision: 1e-06
@@ -31021,8 +30361,7 @@ _XBTEURPI8H = _XBTEURPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTEUR30M:
+class _BXBTEUR30M(NamedTuple):
     """
         name: .BXBTEUR30M
         precision: 0.01
@@ -31068,8 +30407,7 @@ _BXBTEUR30M = _BXBTEUR30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTT:
+class _BXBTT(NamedTuple):
     """
         name: .BXBTT
         precision: 0.01
@@ -31115,8 +30453,7 @@ _BXBTT = _BXBTT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTT_NEXT:
+class _BXBTT_NEXT(NamedTuple):
     """
         name: .BXBTT_NEXT
         precision: 0.01
@@ -31162,8 +30499,7 @@ _BXBTT_NEXT = _BXBTT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BXBTT30M:
+class _BXBTT30M(NamedTuple):
     """
         name: .BXBTT30M
         precision: 0.01
@@ -31209,8 +30545,7 @@ _BXBTT30M = _BXBTT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTUSDTPI:
+class _XBTUSDTPI(NamedTuple):
     """
         name: .XBTUSDTPI
         precision: 1e-06
@@ -31256,8 +30591,7 @@ _XBTUSDTPI = _XBTUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _XBTUSDTPI8H:
+class _XBTUSDTPI8H(NamedTuple):
     """
         name: .XBTUSDTPI8H
         precision: 1e-06
@@ -31303,8 +30637,7 @@ _XBTUSDTPI8H = _XBTUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVOL:
+class _BVOL(NamedTuple):
     """
         name: .BVOL
         precision: 0.01
@@ -31350,8 +30683,7 @@ _BVOL = _BVOL()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVOL24H:
+class _BVOL24H(NamedTuple):
     """
         name: .BVOL24H
         precision: 0.01
@@ -31397,8 +30729,7 @@ _BVOL24H = _BVOL24H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BVOL7D:
+class _BVOL7D(NamedTuple):
     """
         name: .BVOL7D
         precision: 0.01
@@ -31444,8 +30775,7 @@ _BVOL7D = _BVOL7D()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHBON:
+class _ETHBON(NamedTuple):
     """
         name: .ETHBON
         precision: 1e-06
@@ -31491,8 +30821,7 @@ _ETHBON = _ETHBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHBON8H:
+class _ETHBON8H(NamedTuple):
     """
         name: .ETHBON8H
         precision: 1e-06
@@ -31538,8 +30867,7 @@ _ETHBON8H = _ETHBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSDPI:
+class _ETHUSDPI(NamedTuple):
     """
         name: .ETHUSDPI
         precision: 1e-06
@@ -31585,8 +30913,7 @@ _ETHUSDPI = _ETHUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSDPI8H:
+class _ETHUSDPI8H(NamedTuple):
     """
         name: .ETHUSDPI8H
         precision: 1e-06
@@ -31632,8 +30959,7 @@ _ETHUSDPI8H = _ETHUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETH:
+class _BETH(NamedTuple):
     """
         name: .BETH
         precision: 0.01
@@ -31679,8 +31005,7 @@ _BETH = _BETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETH30M:
+class _BETH30M(NamedTuple):
     """
         name: .BETH30M
         precision: 0.01
@@ -31726,8 +31051,7 @@ _BETH30M = _BETH30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHXBT:
+class _BETHXBT(NamedTuple):
     """
         name: .BETHXBT
         precision: 1e-05
@@ -31773,8 +31097,7 @@ _BETHXBT = _BETHXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHXBT30M:
+class _BETHXBT30M(NamedTuple):
     """
         name: .BETHXBT30M
         precision: 1e-05
@@ -31820,8 +31143,7 @@ _BETHXBT30M = _BETHXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETH_NEXT:
+class _BETH_NEXT(NamedTuple):
     """
         name: .BETH_NEXT
         precision: 0.01
@@ -31867,8 +31189,7 @@ _BETH_NEXT = _BETH_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHXBT_NEXT:
+class _BETHXBT_NEXT(NamedTuple):
     """
         name: .BETHXBT_NEXT
         precision: 1e-05
@@ -31914,8 +31235,7 @@ _BETHXBT_NEXT = _BETHXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHT:
+class _BETHT(NamedTuple):
     """
         name: .BETHT
         precision: 0.001
@@ -31961,8 +31281,7 @@ _BETHT = _BETHT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHT_NEXT:
+class _BETHT_NEXT(NamedTuple):
     """
         name: .BETHT_NEXT
         precision: 0.001
@@ -32008,8 +31327,7 @@ _BETHT_NEXT = _BETHT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETHT30M:
+class _BETHT30M(NamedTuple):
     """
         name: .BETHT30M
         precision: 0.001
@@ -32055,8 +31373,7 @@ _BETHT30M = _BETHT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSDTPI:
+class _ETHUSDTPI(NamedTuple):
     """
         name: .ETHUSDTPI
         precision: 1e-06
@@ -32102,8 +31419,7 @@ _ETHUSDTPI = _ETHUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSDTPI8H:
+class _ETHUSDTPI8H(NamedTuple):
     """
         name: .ETHUSDTPI8H
         precision: 1e-06
@@ -32149,8 +31465,7 @@ _ETHUSDTPI8H = _ETHUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSD_ETHPI:
+class _ETHUSD_ETHPI(NamedTuple):
     """
         name: .ETHUSD_ETHPI
         precision: 1e-06
@@ -32196,8 +31511,7 @@ _ETHUSD_ETHPI = _ETHUSD_ETHPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _ETHUSD_ETHPI8H:
+class _ETHUSD_ETHPI8H(NamedTuple):
     """
         name: .ETHUSD_ETHPI8H
         precision: 1e-06
@@ -32243,8 +31557,7 @@ _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BETC:
+class _BETC(NamedTuple):
     """
         name: .BETC
         precision: 1e-05
@@ -32290,8 +31603,7 @@ _BETC = _BETC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCBON:
+class _LTCBON(NamedTuple):
     """
         name: .LTCBON
         precision: 1e-06
@@ -32337,8 +31649,7 @@ _LTCBON = _LTCBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCBON8H:
+class _LTCBON8H(NamedTuple):
     """
         name: .LTCBON8H
         precision: 1e-06
@@ -32384,8 +31695,7 @@ _LTCBON8H = _LTCBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTCXBT:
+class _BLTCXBT(NamedTuple):
     """
         name: .BLTCXBT
         precision: 1e-06
@@ -32431,8 +31741,7 @@ _BLTCXBT = _BLTCXBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTCXBT30M:
+class _BLTCXBT30M(NamedTuple):
     """
         name: .BLTCXBT30M
         precision: 1e-06
@@ -32478,8 +31787,7 @@ _BLTCXBT30M = _BLTCXBT30M()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTCXBT_NEXT:
+class _BLTCXBT_NEXT(NamedTuple):
     """
         name: .BLTCXBT_NEXT
         precision: 1e-06
@@ -32525,8 +31833,7 @@ _BLTCXBT_NEXT = _BLTCXBT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTC:
+class _BLTC(NamedTuple):
     """
         name: .BLTC
         precision: 0.001
@@ -32572,8 +31879,7 @@ _BLTC = _BLTC()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCUSDPI:
+class _LTCUSDPI(NamedTuple):
     """
         name: .LTCUSDPI
         precision: 1e-06
@@ -32619,8 +31925,7 @@ _LTCUSDPI = _LTCUSDPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCUSDPI8H:
+class _LTCUSDPI8H(NamedTuple):
     """
         name: .LTCUSDPI8H
         precision: 1e-06
@@ -32666,8 +31971,7 @@ _LTCUSDPI8H = _LTCUSDPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTC_NEXT:
+class _BLTC_NEXT(NamedTuple):
     """
         name: .BLTC_NEXT
         precision: 0.001
@@ -32713,8 +32017,7 @@ _BLTC_NEXT = _BLTC_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTCT:
+class _BLTCT(NamedTuple):
     """
         name: .BLTCT
         precision: 0.001
@@ -32760,8 +32063,7 @@ _BLTCT = _BLTCT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _BLTCT_NEXT:
+class _BLTCT_NEXT(NamedTuple):
     """
         name: .BLTCT_NEXT
         precision: 0.001
@@ -32807,8 +32109,7 @@ _BLTCT_NEXT = _BLTCT_NEXT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCUSDTPI:
+class _LTCUSDTPI(NamedTuple):
     """
         name: .LTCUSDTPI
         precision: 1e-06
@@ -32854,8 +32155,7 @@ _LTCUSDTPI = _LTCUSDTPI()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _LTCUSDTPI8H:
+class _LTCUSDTPI8H(NamedTuple):
     """
         name: .LTCUSDTPI8H
         precision: 1e-06
@@ -32901,8 +32201,7 @@ _LTCUSDTPI8H = _LTCUSDTPI8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDBON:
+class _USDBON(NamedTuple):
     """
         name: .USDBON
         precision: 1e-06
@@ -32948,8 +32247,7 @@ _USDBON = _USDBON()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class _USDBON8H:
+class _USDBON8H(NamedTuple):
     """
         name: .USDBON8H
         precision: 1e-06
@@ -32995,8 +32293,7 @@ _USDBON8H = _USDBON8H()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTUSD:
+class XBTUSD(NamedTuple):
     """
         name: XBTUSD
         precision: 0.5
@@ -33042,8 +32339,7 @@ XBTUSD = XBTUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTUSDT:
+class XBTUSDT(NamedTuple):
     """
         name: XBTUSDT
         precision: 0.5
@@ -33089,8 +32385,7 @@ XBTUSDT = XBTUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTEUR:
+class XBTEUR(NamedTuple):
     """
         name: XBTEUR
         precision: 0.5
@@ -33136,8 +32431,7 @@ XBTEUR = XBTEUR()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTF23:
+class XBTF23(NamedTuple):
     """
         name: XBTF23
         precision: 0.5
@@ -33183,8 +32477,7 @@ XBTF23 = XBTF23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTG23:
+class XBTG23(NamedTuple):
     """
         name: XBTG23
         precision: 0.5
@@ -33230,8 +32523,7 @@ XBTG23 = XBTG23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTH23:
+class XBTH23(NamedTuple):
     """
         name: XBTH23
         precision: 0.5
@@ -33277,8 +32569,7 @@ XBTH23 = XBTH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTUSDTH23:
+class XBTUSDTH23(NamedTuple):
     """
         name: XBTUSDTH23
         precision: 0.5
@@ -33324,8 +32615,7 @@ XBTUSDTH23 = XBTUSDTH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTM23:
+class XBTM23(NamedTuple):
     """
         name: XBTM23
         precision: 0.5
@@ -33371,8 +32661,7 @@ XBTM23 = XBTM23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTUSDTM23:
+class XBTUSDTM23(NamedTuple):
     """
         name: XBTUSDTM23
         precision: 0.5
@@ -33418,8 +32707,7 @@ XBTUSDTM23 = XBTUSDTM23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTU23:
+class XBTU23(NamedTuple):
     """
         name: XBTU23
         precision: 0.5
@@ -33465,8 +32753,7 @@ XBTU23 = XBTU23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBTUSDTU23:
+class XBTUSDTU23(NamedTuple):
     """
         name: XBTUSDTU23
         precision: 0.5
@@ -33512,8 +32799,7 @@ XBTUSDTU23 = XBTUSDTU23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class XBT_USDT:
+class XBT_USDT(NamedTuple):
     """
         name: XBT_USDT
         precision: 0.5
@@ -33559,8 +32845,7 @@ XBT_USDT = XBT_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSD:
+class ETHUSD(NamedTuple):
     """
         name: ETHUSD
         precision: 0.05
@@ -33606,8 +32891,7 @@ ETHUSD = ETHUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDT:
+class ETHUSDT(NamedTuple):
     """
         name: ETHUSDT
         precision: 0.05
@@ -33653,8 +32937,7 @@ ETHUSDT = ETHUSDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSD_ETH:
+class ETHUSD_ETH(NamedTuple):
     """
         name: ETHUSD_ETH
         precision: 0.05
@@ -33700,8 +32983,7 @@ ETHUSD_ETH = ETHUSD_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHH23:
+class ETHH23(NamedTuple):
     """
         name: ETHH23
         precision: 1e-05
@@ -33747,8 +33029,7 @@ ETHH23 = ETHH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDH23:
+class ETHUSDH23(NamedTuple):
     """
         name: ETHUSDH23
         precision: 0.05
@@ -33794,8 +33075,7 @@ ETHUSDH23 = ETHUSDH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDTH23:
+class ETHUSDTH23(NamedTuple):
     """
         name: ETHUSDTH23
         precision: 0.05
@@ -33841,8 +33121,7 @@ ETHUSDTH23 = ETHUSDTH23()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETHUSDH23_ETH:
+class ETHUSDH23_ETH(NamedTuple):
     """
         name: ETHUSDH23_ETH
         precision: 0.05
@@ -33888,8 +33167,7 @@ ETHUSDH23_ETH = ETHUSDH23_ETH()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_USDT:
+class ETH_USDT(NamedTuple):
     """
         name: ETH_USDT
         precision: 0.05
@@ -33935,8 +33213,7 @@ ETH_USDT = ETH_USDT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class ETH_XBT:
+class ETH_XBT(NamedTuple):
     """
         name: ETH_XBT
         precision: 1e-07
@@ -33982,8 +33259,7 @@ ETH_XBT = ETH_XBT()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUSD:
+class LTCUSD(NamedTuple):
     """
         name: LTCUSD
         precision: 0.01
@@ -34029,8 +33305,7 @@ LTCUSD = LTCUSD()
 """
 
 
-@dataclass(slots=True, frozen=True)
-class LTCUSDT:
+class LTCUSDT(NamedTuple):
     """
         name: LTCUSDT
         precision: 0.01
