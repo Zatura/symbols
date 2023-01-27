@@ -44,19 +44,19 @@ print(symbol.name)
 print(symbol.precision)
 > 5
 
-print(symbol.minimum_margin)
+print(symbol.min_margin)
 > 5.0
 
 print(symbol.initial_margin)
 > 10.0
 
-print(symbol.minimum_order_size)
+print(symbol.min_order_size)
 > 0.00006
 
-print(symbol.maximum_order_size)
+print(symbol.max_order_size)
 > 2000.0
 
-print(symbol.margin)
+print(symbol.has_margin)
 > True
 
 bitfinex.BTCUSD == 'tBTCUSD'
