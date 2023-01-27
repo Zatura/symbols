@@ -5,19 +5,19 @@ class _EVOL7D(NamedTuple):
     """
         name: .EVOL7D
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EVOL7D"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -39,11 +39,11 @@ _EVOL7D = _EVOL7D()
 """
     name: .EVOL7D
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -51,19 +51,19 @@ class _BADAXBT(NamedTuple):
     """
         name: .BADAXBT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAXBT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -85,11 +85,11 @@ _BADAXBT = _BADAXBT()
 """
     name: .BADAXBT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -97,19 +97,19 @@ class _BADAXBT30M(NamedTuple):
     """
         name: .BADAXBT30M
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAXBT30M"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -131,11 +131,11 @@ _BADAXBT30M = _BADAXBT30M()
 """
     name: .BADAXBT30M
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -143,19 +143,19 @@ class _BBCHXBT(NamedTuple):
     """
         name: .BBCHXBT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCHXBT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -177,11 +177,11 @@ _BBCHXBT = _BBCHXBT()
 """
     name: .BBCHXBT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -189,19 +189,19 @@ class _BBCHXBT30M(NamedTuple):
     """
         name: .BBCHXBT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCHXBT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -223,11 +223,11 @@ _BBCHXBT30M = _BBCHXBT30M()
 """
     name: .BBCHXBT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -235,19 +235,19 @@ class _BEOSXBT(NamedTuple):
     """
         name: .BEOSXBT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOSXBT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -269,11 +269,11 @@ _BEOSXBT = _BEOSXBT()
 """
     name: .BEOSXBT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -281,19 +281,19 @@ class _BEOSXBT30M(NamedTuple):
     """
         name: .BEOSXBT30M
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOSXBT30M"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -315,11 +315,11 @@ _BEOSXBT30M = _BEOSXBT30M()
 """
     name: .BEOSXBT30M
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -327,19 +327,19 @@ class _BXRPXBT(NamedTuple):
     """
         name: .BXRPXBT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRPXBT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -361,11 +361,11 @@ _BXRPXBT = _BXRPXBT()
 """
     name: .BXRPXBT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -373,19 +373,19 @@ class _BXRPXBT30M(NamedTuple):
     """
         name: .BXRPXBT30M
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRPXBT30M"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -407,11 +407,11 @@ _BXRPXBT30M = _BXRPXBT30M()
 """
     name: .BXRPXBT30M
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -419,19 +419,19 @@ class _BTRXXBT(NamedTuple):
     """
         name: .BTRXXBT
         precision: 1e-10
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXXBT"
     precision: int = 1e-10
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -453,11 +453,11 @@ _BTRXXBT = _BTRXXBT()
 """
     name: .BTRXXBT
     precision: 1e-10
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -465,19 +465,19 @@ class _BTRXXBT30M(NamedTuple):
     """
         name: .BTRXXBT30M
         precision: 1e-10
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXXBT30M"
     precision: int = 1e-10
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -499,11 +499,11 @@ _BTRXXBT30M = _BTRXXBT30M()
 """
     name: .BTRXXBT30M
     precision: 1e-10
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -511,19 +511,19 @@ class _BADAXBT_NEXT(NamedTuple):
     """
         name: .BADAXBT_NEXT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAXBT_NEXT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -545,11 +545,11 @@ _BADAXBT_NEXT = _BADAXBT_NEXT()
 """
     name: .BADAXBT_NEXT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -557,19 +557,19 @@ class _BBCHXBT_NEXT(NamedTuple):
     """
         name: .BBCHXBT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCHXBT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -591,11 +591,11 @@ _BBCHXBT_NEXT = _BBCHXBT_NEXT()
 """
     name: .BBCHXBT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -603,19 +603,19 @@ class _BEOSXBT_NEXT(NamedTuple):
     """
         name: .BEOSXBT_NEXT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOSXBT_NEXT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -637,11 +637,11 @@ _BEOSXBT_NEXT = _BEOSXBT_NEXT()
 """
     name: .BEOSXBT_NEXT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -649,19 +649,19 @@ class _BTRXXBT_NEXT(NamedTuple):
     """
         name: .BTRXXBT_NEXT
         precision: 1e-10
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXXBT_NEXT"
     precision: int = 1e-10
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -683,11 +683,11 @@ _BTRXXBT_NEXT = _BTRXXBT_NEXT()
 """
     name: .BTRXXBT_NEXT
     precision: 1e-10
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -695,19 +695,19 @@ class _BXRPXBT_NEXT(NamedTuple):
     """
         name: .BXRPXBT_NEXT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRPXBT_NEXT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -729,11 +729,11 @@ _BXRPXBT_NEXT = _BXRPXBT_NEXT()
 """
     name: .BXRPXBT_NEXT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -741,19 +741,19 @@ class _BXRP_NEXT(NamedTuple):
     """
         name: .BXRP_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRP_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -775,11 +775,11 @@ _BXRP_NEXT = _BXRP_NEXT()
 """
     name: .BXRP_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -787,19 +787,19 @@ class _BXRP(NamedTuple):
     """
         name: .BXRP
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRP"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -821,11 +821,11 @@ _BXRP = _BXRP()
 """
     name: .BXRP
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -833,19 +833,19 @@ class _XRPBON(NamedTuple):
     """
         name: .XRPBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -867,11 +867,11 @@ _XRPBON = _XRPBON()
 """
     name: .XRPBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -879,19 +879,19 @@ class _XRPBON8H(NamedTuple):
     """
         name: .XRPBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -913,11 +913,11 @@ _XRPBON8H = _XRPBON8H()
 """
     name: .XRPBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -925,19 +925,19 @@ class _XRPUSDPI(NamedTuple):
     """
         name: .XRPUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -959,11 +959,11 @@ _XRPUSDPI = _XRPUSDPI()
 """
     name: .XRPUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -971,19 +971,19 @@ class _XRPUSDPI8H(NamedTuple):
     """
         name: .XRPUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1005,11 +1005,11 @@ _XRPUSDPI8H = _XRPUSDPI8H()
 """
     name: .XRPUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1017,19 +1017,19 @@ class _BBCH(NamedTuple):
     """
         name: .BBCH
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCH"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1051,11 +1051,11 @@ _BBCH = _BBCH()
 """
     name: .BBCH
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1063,19 +1063,19 @@ class _BCHBON(NamedTuple):
     """
         name: .BCHBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1097,11 +1097,11 @@ _BCHBON = _BCHBON()
 """
     name: .BCHBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1109,19 +1109,19 @@ class _BCHBON8H(NamedTuple):
     """
         name: .BCHBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1143,11 +1143,11 @@ _BCHBON8H = _BCHBON8H()
 """
     name: .BCHBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1155,19 +1155,19 @@ class _BCHUSDPI(NamedTuple):
     """
         name: .BCHUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1189,11 +1189,11 @@ _BCHUSDPI = _BCHUSDPI()
 """
     name: .BCHUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1201,19 +1201,19 @@ class _BCHUSDPI8H(NamedTuple):
     """
         name: .BCHUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1235,11 +1235,11 @@ _BCHUSDPI8H = _BCHUSDPI8H()
 """
     name: .BCHUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1247,19 +1247,19 @@ class _BBCH_NEXT(NamedTuple):
     """
         name: .BBCH_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCH_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1281,11 +1281,11 @@ _BBCH_NEXT = _BBCH_NEXT()
 """
     name: .BBCH_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1293,19 +1293,19 @@ class _BUSDT(NamedTuple):
     """
         name: .BUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1327,11 +1327,11 @@ _BUSDT = _BUSDT()
 """
     name: .BUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1339,19 +1339,19 @@ class _BUSDT_NEXT(NamedTuple):
     """
         name: .BUSDT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1373,11 +1373,11 @@ _BUSDT_NEXT = _BUSDT_NEXT()
 """
     name: .BUSDT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1385,19 +1385,19 @@ class _BEOST(NamedTuple):
     """
         name: .BEOST
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOST"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1419,11 +1419,11 @@ _BEOST = _BEOST()
 """
     name: .BEOST
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1431,19 +1431,19 @@ class _BEOST_NEXT(NamedTuple):
     """
         name: .BEOST_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOST_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1465,11 +1465,11 @@ _BEOST_NEXT = _BEOST_NEXT()
 """
     name: .BEOST_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1477,19 +1477,19 @@ class _BEOST30M(NamedTuple):
     """
         name: .BEOST30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOST30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1511,11 +1511,11 @@ _BEOST30M = _BEOST30M()
 """
     name: .BEOST30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1523,19 +1523,19 @@ class _BLINKT(NamedTuple):
     """
         name: .BLINKT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLINKT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1557,11 +1557,11 @@ _BLINKT = _BLINKT()
 """
     name: .BLINKT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1569,19 +1569,19 @@ class _BLINKT_NEXT(NamedTuple):
     """
         name: .BLINKT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLINKT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1603,11 +1603,11 @@ _BLINKT_NEXT = _BLINKT_NEXT()
 """
     name: .BLINKT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1615,19 +1615,19 @@ class _BLINKT30M(NamedTuple):
     """
         name: .BLINKT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLINKT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1649,11 +1649,11 @@ _BLINKT30M = _BLINKT30M()
 """
     name: .BLINKT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1661,19 +1661,19 @@ class _BADAT(NamedTuple):
     """
         name: .BADAT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1695,11 +1695,11 @@ _BADAT = _BADAT()
 """
     name: .BADAT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1707,19 +1707,19 @@ class _BADAT_NEXT(NamedTuple):
     """
         name: .BADAT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1741,11 +1741,11 @@ _BADAT_NEXT = _BADAT_NEXT()
 """
     name: .BADAT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1753,19 +1753,19 @@ class _BADAT30M(NamedTuple):
     """
         name: .BADAT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADAT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1787,11 +1787,11 @@ _BADAT30M = _BADAT30M()
 """
     name: .BADAT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1799,19 +1799,19 @@ class _BXTZT(NamedTuple):
     """
         name: .BXTZT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXTZT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1833,11 +1833,11 @@ _BXTZT = _BXTZT()
 """
     name: .BXTZT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1845,19 +1845,19 @@ class _BXTZT_NEXT(NamedTuple):
     """
         name: .BXTZT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXTZT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1879,11 +1879,11 @@ _BXTZT_NEXT = _BXTZT_NEXT()
 """
     name: .BXTZT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1891,19 +1891,19 @@ class _BXTZT30M(NamedTuple):
     """
         name: .BXTZT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXTZT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1925,11 +1925,11 @@ _BXTZT30M = _BXTZT30M()
 """
     name: .BXTZT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1937,19 +1937,19 @@ class _LINKBON(NamedTuple):
     """
         name: .LINKBON
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKBON"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1971,11 +1971,11 @@ _LINKBON = _LINKBON()
 """
     name: .LINKBON
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -1983,19 +1983,19 @@ class _LINKBON8H(NamedTuple):
     """
         name: .LINKBON8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKBON8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2017,11 +2017,11 @@ _LINKBON8H = _LINKBON8H()
 """
     name: .LINKBON8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2029,19 +2029,19 @@ class _LINKUSDTPI(NamedTuple):
     """
         name: .LINKUSDTPI
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKUSDTPI"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2063,11 +2063,11 @@ _LINKUSDTPI = _LINKUSDTPI()
 """
     name: .LINKUSDTPI
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2075,19 +2075,19 @@ class _LINKUSDTPI8H(NamedTuple):
     """
         name: .LINKUSDTPI8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKUSDTPI8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2109,11 +2109,11 @@ _LINKUSDTPI8H = _LINKUSDTPI8H()
 """
     name: .LINKUSDTPI8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2121,19 +2121,19 @@ class _USDTBON(NamedTuple):
     """
         name: .USDTBON
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTBON"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2155,11 +2155,11 @@ _USDTBON = _USDTBON()
 """
     name: .USDTBON
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2167,19 +2167,19 @@ class _USDTBON8H(NamedTuple):
     """
         name: .USDTBON8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTBON8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2201,11 +2201,11 @@ _USDTBON8H = _USDTBON8H()
 """
     name: .USDTBON8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2213,19 +2213,19 @@ class _BBNBT(NamedTuple):
     """
         name: .BBNBT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBNBT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2247,11 +2247,11 @@ _BBNBT = _BBNBT()
 """
     name: .BBNBT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2259,19 +2259,19 @@ class _BBNBT_NEXT(NamedTuple):
     """
         name: .BBNBT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBNBT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2293,11 +2293,11 @@ _BBNBT_NEXT = _BBNBT_NEXT()
 """
     name: .BBNBT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2305,19 +2305,19 @@ class _BBNBT30M(NamedTuple):
     """
         name: .BBNBT30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBNBT30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2339,11 +2339,11 @@ _BBNBT30M = _BBNBT30M()
 """
     name: .BBNBT30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2351,19 +2351,19 @@ class _BDOTT(NamedTuple):
     """
         name: .BDOTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2385,11 +2385,11 @@ _BDOTT = _BDOTT()
 """
     name: .BDOTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2397,19 +2397,19 @@ class _BDOTT_NEXT(NamedTuple):
     """
         name: .BDOTT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOTT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2431,11 +2431,11 @@ _BDOTT_NEXT = _BDOTT_NEXT()
 """
     name: .BDOTT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2443,19 +2443,19 @@ class _BDOTT30M(NamedTuple):
     """
         name: .BDOTT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOTT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2477,11 +2477,11 @@ _BDOTT30M = _BDOTT30M()
 """
     name: .BDOTT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2489,19 +2489,19 @@ class _BYFIT(NamedTuple):
     """
         name: .BYFIT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BYFIT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2523,11 +2523,11 @@ _BYFIT = _BYFIT()
 """
     name: .BYFIT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2535,19 +2535,19 @@ class _BYFIT_NEXT(NamedTuple):
     """
         name: .BYFIT_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BYFIT_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2569,11 +2569,11 @@ _BYFIT_NEXT = _BYFIT_NEXT()
 """
     name: .BYFIT_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2581,19 +2581,19 @@ class _BYFIT30M(NamedTuple):
     """
         name: .BYFIT30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BYFIT30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2615,11 +2615,11 @@ _BYFIT30M = _BYFIT30M()
 """
     name: .BYFIT30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2627,19 +2627,19 @@ class _BDOGET(NamedTuple):
     """
         name: .BDOGET
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOGET"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2661,11 +2661,11 @@ _BDOGET = _BDOGET()
 """
     name: .BDOGET
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2673,19 +2673,19 @@ class _BDOGET_NEXT(NamedTuple):
     """
         name: .BDOGET_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOGET_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2707,11 +2707,11 @@ _BDOGET_NEXT = _BDOGET_NEXT()
 """
     name: .BDOGET_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2719,19 +2719,19 @@ class _DOGEBON(NamedTuple):
     """
         name: .DOGEBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2753,11 +2753,11 @@ _DOGEBON = _DOGEBON()
 """
     name: .DOGEBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2765,19 +2765,19 @@ class _DOGEBON8H(NamedTuple):
     """
         name: .DOGEBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2799,11 +2799,11 @@ _DOGEBON8H = _DOGEBON8H()
 """
     name: .DOGEBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2811,19 +2811,19 @@ class _DOGEUSDTPI(NamedTuple):
     """
         name: .DOGEUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2845,11 +2845,11 @@ _DOGEUSDTPI = _DOGEUSDTPI()
 """
     name: .DOGEUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2857,19 +2857,19 @@ class _DOGEUSDTPI8H(NamedTuple):
     """
         name: .DOGEUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2891,11 +2891,11 @@ _DOGEUSDTPI8H = _DOGEUSDTPI8H()
 """
     name: .DOGEUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2903,19 +2903,19 @@ class _BNBBON(NamedTuple):
     """
         name: .BNBBON
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBBON"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2937,11 +2937,11 @@ _BNBBON = _BNBBON()
 """
     name: .BNBBON
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2949,19 +2949,19 @@ class _BNBBON8H(NamedTuple):
     """
         name: .BNBBON8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBBON8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2983,11 +2983,11 @@ _BNBBON8H = _BNBBON8H()
 """
     name: .BNBBON8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -2995,19 +2995,19 @@ class _BNBUSDTPI(NamedTuple):
     """
         name: .BNBUSDTPI
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBUSDTPI"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3029,11 +3029,11 @@ _BNBUSDTPI = _BNBUSDTPI()
 """
     name: .BNBUSDTPI
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3041,19 +3041,19 @@ class _BNBUSDTPI8H(NamedTuple):
     """
         name: .BNBUSDTPI8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBUSDTPI8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3075,11 +3075,11 @@ _BNBUSDTPI8H = _BNBUSDTPI8H()
 """
     name: .BNBUSDTPI8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3087,19 +3087,19 @@ class _ADABON(NamedTuple):
     """
         name: .ADABON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADABON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3121,11 +3121,11 @@ _ADABON = _ADABON()
 """
     name: .ADABON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3133,19 +3133,19 @@ class _ADABON8H(NamedTuple):
     """
         name: .ADABON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADABON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3167,11 +3167,11 @@ _ADABON8H = _ADABON8H()
 """
     name: .ADABON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3179,19 +3179,19 @@ class _ADAUSDTPI(NamedTuple):
     """
         name: .ADAUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADAUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3213,11 +3213,11 @@ _ADAUSDTPI = _ADAUSDTPI()
 """
     name: .ADAUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3225,19 +3225,19 @@ class _ADAUSDTPI8H(NamedTuple):
     """
         name: .ADAUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADAUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3259,11 +3259,11 @@ _ADAUSDTPI8H = _ADAUSDTPI8H()
 """
     name: .ADAUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3271,19 +3271,19 @@ class _DOTBON(NamedTuple):
     """
         name: .DOTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3305,11 +3305,11 @@ _DOTBON = _DOTBON()
 """
     name: .DOTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3317,19 +3317,19 @@ class _DOTBON8H(NamedTuple):
     """
         name: .DOTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3351,11 +3351,11 @@ _DOTBON8H = _DOTBON8H()
 """
     name: .DOTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3363,19 +3363,19 @@ class _DOTUSDTPI(NamedTuple):
     """
         name: .DOTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3397,11 +3397,11 @@ _DOTUSDTPI = _DOTUSDTPI()
 """
     name: .DOTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3409,19 +3409,19 @@ class _DOTUSDTPI8H(NamedTuple):
     """
         name: .DOTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3443,11 +3443,11 @@ _DOTUSDTPI8H = _DOTUSDTPI8H()
 """
     name: .DOTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3455,19 +3455,19 @@ class _EOSBON(NamedTuple):
     """
         name: .EOSBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3489,11 +3489,11 @@ _EOSBON = _EOSBON()
 """
     name: .EOSBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3501,19 +3501,19 @@ class _EOSBON8H(NamedTuple):
     """
         name: .EOSBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3535,11 +3535,11 @@ _EOSBON8H = _EOSBON8H()
 """
     name: .EOSBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3547,19 +3547,19 @@ class _EOSUSDTPI(NamedTuple):
     """
         name: .EOSUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3581,11 +3581,11 @@ _EOSUSDTPI = _EOSUSDTPI()
 """
     name: .EOSUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3593,19 +3593,19 @@ class _EOSUSDTPI8H(NamedTuple):
     """
         name: .EOSUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3627,11 +3627,11 @@ _EOSUSDTPI8H = _EOSUSDTPI8H()
 """
     name: .EOSUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3639,19 +3639,19 @@ class _XTZBON(NamedTuple):
     """
         name: .XTZBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XTZBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3673,11 +3673,11 @@ _XTZBON = _XTZBON()
 """
     name: .XTZBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3685,19 +3685,19 @@ class _XTZBON8H(NamedTuple):
     """
         name: .XTZBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XTZBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3719,11 +3719,11 @@ _XTZBON8H = _XTZBON8H()
 """
     name: .XTZBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3731,19 +3731,19 @@ class _XTZUSDTPI(NamedTuple):
     """
         name: .XTZUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XTZUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3765,11 +3765,11 @@ _XTZUSDTPI = _XTZUSDTPI()
 """
     name: .XTZUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3777,19 +3777,19 @@ class _YFIBON(NamedTuple):
     """
         name: .YFIBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".YFIBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3811,11 +3811,11 @@ _YFIBON = _YFIBON()
 """
     name: .YFIBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3823,19 +3823,19 @@ class _YFIBON8H(NamedTuple):
     """
         name: .YFIBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".YFIBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3857,11 +3857,11 @@ _YFIBON8H = _YFIBON8H()
 """
     name: .YFIBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3869,19 +3869,19 @@ class _YFIUSDTPI(NamedTuple):
     """
         name: .YFIUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".YFIUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3903,11 +3903,11 @@ _YFIUSDTPI = _YFIUSDTPI()
 """
     name: .YFIUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3915,19 +3915,19 @@ class _BAAVET(NamedTuple):
     """
         name: .BAAVET
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAAVET"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3949,11 +3949,11 @@ _BAAVET = _BAAVET()
 """
     name: .BAAVET
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -3961,19 +3961,19 @@ class _BAAVET_NEXT(NamedTuple):
     """
         name: .BAAVET_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAAVET_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3995,11 +3995,11 @@ _BAAVET_NEXT = _BAAVET_NEXT()
 """
     name: .BAAVET_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4007,19 +4007,19 @@ class _AAVEBON(NamedTuple):
     """
         name: .AAVEBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AAVEBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4041,11 +4041,11 @@ _AAVEBON = _AAVEBON()
 """
     name: .AAVEBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4053,19 +4053,19 @@ class _AAVEBON8H(NamedTuple):
     """
         name: .AAVEBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AAVEBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4087,11 +4087,11 @@ _AAVEBON8H = _AAVEBON8H()
 """
     name: .AAVEBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4099,19 +4099,19 @@ class _AAVEUSDTPI(NamedTuple):
     """
         name: .AAVEUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AAVEUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4133,11 +4133,11 @@ _AAVEUSDTPI = _AAVEUSDTPI()
 """
     name: .AAVEUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4145,19 +4145,19 @@ class _AAVEUSDTPI8H(NamedTuple):
     """
         name: .AAVEUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AAVEUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4179,11 +4179,11 @@ _AAVEUSDTPI8H = _AAVEUSDTPI8H()
 """
     name: .AAVEUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4191,19 +4191,19 @@ class _BUNIT(NamedTuple):
     """
         name: .BUNIT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUNIT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4225,11 +4225,11 @@ _BUNIT = _BUNIT()
 """
     name: .BUNIT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4237,19 +4237,19 @@ class _BUNIT_NEXT(NamedTuple):
     """
         name: .BUNIT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUNIT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4271,11 +4271,11 @@ _BUNIT_NEXT = _BUNIT_NEXT()
 """
     name: .BUNIT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4283,19 +4283,19 @@ class _UNIBON(NamedTuple):
     """
         name: .UNIBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".UNIBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4317,11 +4317,11 @@ _UNIBON = _UNIBON()
 """
     name: .UNIBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4329,19 +4329,19 @@ class _UNIBON8H(NamedTuple):
     """
         name: .UNIBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".UNIBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4363,11 +4363,11 @@ _UNIBON8H = _UNIBON8H()
 """
     name: .UNIBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4375,19 +4375,19 @@ class _UNIUSDTPI(NamedTuple):
     """
         name: .UNIUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".UNIUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4409,11 +4409,11 @@ _UNIUSDTPI = _UNIUSDTPI()
 """
     name: .UNIUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4421,19 +4421,19 @@ class _UNIUSDTPI8H(NamedTuple):
     """
         name: .UNIUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".UNIUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4455,11 +4455,11 @@ _UNIUSDTPI8H = _UNIUSDTPI8H()
 """
     name: .UNIUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4467,19 +4467,19 @@ class _BXLMT(NamedTuple):
     """
         name: .BXLMT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXLMT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4501,11 +4501,11 @@ _BXLMT = _BXLMT()
 """
     name: .BXLMT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4513,19 +4513,19 @@ class _BXLMT_NEXT(NamedTuple):
     """
         name: .BXLMT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXLMT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4547,11 +4547,11 @@ _BXLMT_NEXT = _BXLMT_NEXT()
 """
     name: .BXLMT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4559,19 +4559,19 @@ class _XLMBON(NamedTuple):
     """
         name: .XLMBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XLMBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4593,11 +4593,11 @@ _XLMBON = _XLMBON()
 """
     name: .XLMBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4605,19 +4605,19 @@ class _XLMBON8H(NamedTuple):
     """
         name: .XLMBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XLMBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4639,11 +4639,11 @@ _XLMBON8H = _XLMBON8H()
 """
     name: .XLMBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4651,19 +4651,19 @@ class _XLMUSDTPI(NamedTuple):
     """
         name: .XLMUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XLMUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4685,11 +4685,11 @@ _XLMUSDTPI = _XLMUSDTPI()
 """
     name: .XLMUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4697,19 +4697,19 @@ class _XLMUSDTPI8H(NamedTuple):
     """
         name: .XLMUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XLMUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4731,11 +4731,11 @@ _XLMUSDTPI8H = _XLMUSDTPI8H()
 """
     name: .XLMUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4743,19 +4743,19 @@ class _BTRXT(NamedTuple):
     """
         name: .BTRXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4777,11 +4777,11 @@ _BTRXT = _BTRXT()
 """
     name: .BTRXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4789,19 +4789,19 @@ class _BTRXT_NEXT(NamedTuple):
     """
         name: .BTRXT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4823,11 +4823,11 @@ _BTRXT_NEXT = _BTRXT_NEXT()
 """
     name: .BTRXT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4835,19 +4835,19 @@ class _TRXBON(NamedTuple):
     """
         name: .TRXBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4869,11 +4869,11 @@ _TRXBON = _TRXBON()
 """
     name: .TRXBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4881,19 +4881,19 @@ class _TRXBON8H(NamedTuple):
     """
         name: .TRXBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4915,11 +4915,11 @@ _TRXBON8H = _TRXBON8H()
 """
     name: .TRXBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4927,19 +4927,19 @@ class _TRXUSDTPI(NamedTuple):
     """
         name: .TRXUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4961,11 +4961,11 @@ _TRXUSDTPI = _TRXUSDTPI()
 """
     name: .TRXUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -4973,19 +4973,19 @@ class _TRXUSDTPI8H(NamedTuple):
     """
         name: .TRXUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5007,11 +5007,11 @@ _TRXUSDTPI8H = _TRXUSDTPI8H()
 """
     name: .TRXUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5019,19 +5019,19 @@ class _BTRXT30M(NamedTuple):
     """
         name: .BTRXT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRXT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5053,11 +5053,11 @@ _BTRXT30M = _BTRXT30M()
 """
     name: .BTRXT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5065,19 +5065,19 @@ class _BSOLT(NamedTuple):
     """
         name: .BSOLT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSOLT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5099,11 +5099,11 @@ _BSOLT = _BSOLT()
 """
     name: .BSOLT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5111,19 +5111,19 @@ class _BSOLT_NEXT(NamedTuple):
     """
         name: .BSOLT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSOLT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5145,11 +5145,11 @@ _BSOLT_NEXT = _BSOLT_NEXT()
 """
     name: .BSOLT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5157,19 +5157,19 @@ class _SOLBON(NamedTuple):
     """
         name: .SOLBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5191,11 +5191,11 @@ _SOLBON = _SOLBON()
 """
     name: .SOLBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5203,19 +5203,19 @@ class _SOLBON8H(NamedTuple):
     """
         name: .SOLBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5237,11 +5237,11 @@ _SOLBON8H = _SOLBON8H()
 """
     name: .SOLBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5249,19 +5249,19 @@ class _SOLUSDTPI(NamedTuple):
     """
         name: .SOLUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5283,11 +5283,11 @@ _SOLUSDTPI = _SOLUSDTPI()
 """
     name: .SOLUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5295,19 +5295,19 @@ class _SOLUSDTPI8H(NamedTuple):
     """
         name: .SOLUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5329,11 +5329,11 @@ _SOLUSDTPI8H = _SOLUSDTPI8H()
 """
     name: .SOLUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5341,19 +5341,19 @@ class _BFILT(NamedTuple):
     """
         name: .BFILT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFILT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5375,11 +5375,11 @@ _BFILT = _BFILT()
 """
     name: .BFILT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5387,19 +5387,19 @@ class _BFILT_NEXT(NamedTuple):
     """
         name: .BFILT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFILT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5421,11 +5421,11 @@ _BFILT_NEXT = _BFILT_NEXT()
 """
     name: .BFILT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5433,19 +5433,19 @@ class _FILBON(NamedTuple):
     """
         name: .FILBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FILBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5467,11 +5467,11 @@ _FILBON = _FILBON()
 """
     name: .FILBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5479,19 +5479,19 @@ class _FILBON8H(NamedTuple):
     """
         name: .FILBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FILBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5513,11 +5513,11 @@ _FILBON8H = _FILBON8H()
 """
     name: .FILBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5525,19 +5525,19 @@ class _FILUSDTPI(NamedTuple):
     """
         name: .FILUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FILUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5559,11 +5559,11 @@ _FILUSDTPI = _FILUSDTPI()
 """
     name: .FILUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5571,19 +5571,19 @@ class _FILUSDTPI8H(NamedTuple):
     """
         name: .FILUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FILUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5605,11 +5605,11 @@ _FILUSDTPI8H = _FILUSDTPI8H()
 """
     name: .FILUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5617,19 +5617,19 @@ class _EURBON(NamedTuple):
     """
         name: .EURBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5651,11 +5651,11 @@ _EURBON = _EURBON()
 """
     name: .EURBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5663,19 +5663,19 @@ class _EURBON8H(NamedTuple):
     """
         name: .EURBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5697,11 +5697,11 @@ _EURBON8H = _EURBON8H()
 """
     name: .EURBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5709,19 +5709,19 @@ class _BVETT(NamedTuple):
     """
         name: .BVETT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVETT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5743,11 +5743,11 @@ _BVETT = _BVETT()
 """
     name: .BVETT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5755,19 +5755,19 @@ class _BVETT_NEXT(NamedTuple):
     """
         name: .BVETT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVETT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5789,11 +5789,11 @@ _BVETT_NEXT = _BVETT_NEXT()
 """
     name: .BVETT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5801,19 +5801,19 @@ class _VETBON(NamedTuple):
     """
         name: .VETBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".VETBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5835,11 +5835,11 @@ _VETBON = _VETBON()
 """
     name: .VETBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5847,19 +5847,19 @@ class _VETBON8H(NamedTuple):
     """
         name: .VETBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".VETBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5881,11 +5881,11 @@ _VETBON8H = _VETBON8H()
 """
     name: .VETBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5893,19 +5893,19 @@ class _VETUSDTPI(NamedTuple):
     """
         name: .VETUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".VETUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5927,11 +5927,11 @@ _VETUSDTPI = _VETUSDTPI()
 """
     name: .VETUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5939,19 +5939,19 @@ class _VETUSDTPI8H(NamedTuple):
     """
         name: .VETUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".VETUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5973,11 +5973,11 @@ _VETUSDTPI8H = _VETUSDTPI8H()
 """
     name: .VETUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -5985,19 +5985,19 @@ class _BMATICT(NamedTuple):
     """
         name: .BMATICT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMATICT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6019,11 +6019,11 @@ _BMATICT = _BMATICT()
 """
     name: .BMATICT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6031,19 +6031,19 @@ class _BMATICT_NEXT(NamedTuple):
     """
         name: .BMATICT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMATICT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6065,11 +6065,11 @@ _BMATICT_NEXT = _BMATICT_NEXT()
 """
     name: .BMATICT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6077,19 +6077,19 @@ class _MATICBON(NamedTuple):
     """
         name: .MATICBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MATICBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6111,11 +6111,11 @@ _MATICBON = _MATICBON()
 """
     name: .MATICBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6123,19 +6123,19 @@ class _MATICBON8H(NamedTuple):
     """
         name: .MATICBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MATICBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6157,11 +6157,11 @@ _MATICBON8H = _MATICBON8H()
 """
     name: .MATICBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6169,19 +6169,19 @@ class _MATICUSDTPI(NamedTuple):
     """
         name: .MATICUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MATICUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6203,11 +6203,11 @@ _MATICUSDTPI = _MATICUSDTPI()
 """
     name: .MATICUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6215,19 +6215,19 @@ class _MATICUSDTPI8H(NamedTuple):
     """
         name: .MATICUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MATICUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6249,11 +6249,11 @@ _MATICUSDTPI8H = _MATICUSDTPI8H()
 """
     name: .MATICUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6261,19 +6261,19 @@ class _BMKRT(NamedTuple):
     """
         name: .BMKRT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMKRT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6295,11 +6295,11 @@ _BMKRT = _BMKRT()
 """
     name: .BMKRT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6307,19 +6307,19 @@ class _BMKRT_NEXT(NamedTuple):
     """
         name: .BMKRT_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMKRT_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6341,11 +6341,11 @@ _BMKRT_NEXT = _BMKRT_NEXT()
 """
     name: .BMKRT_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6353,19 +6353,19 @@ class _BAVAXT(NamedTuple):
     """
         name: .BAVAXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAVAXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6387,11 +6387,11 @@ _BAVAXT = _BAVAXT()
 """
     name: .BAVAXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6399,19 +6399,19 @@ class _BAVAXT_NEXT(NamedTuple):
     """
         name: .BAVAXT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAVAXT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6433,11 +6433,11 @@ _BAVAXT_NEXT = _BAVAXT_NEXT()
 """
     name: .BAVAXT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6445,19 +6445,19 @@ class _BLUNAT(NamedTuple):
     """
         name: .BLUNAT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNAT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6479,11 +6479,11 @@ _BLUNAT = _BLUNAT()
 """
     name: .BLUNAT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6491,19 +6491,19 @@ class _BLUNAT_NEXT(NamedTuple):
     """
         name: .BLUNAT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNAT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6525,11 +6525,11 @@ _BLUNAT_NEXT = _BLUNAT_NEXT()
 """
     name: .BLUNAT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6537,19 +6537,19 @@ class _BCOMPT(NamedTuple):
     """
         name: .BCOMPT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCOMPT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6571,11 +6571,11 @@ _BCOMPT = _BCOMPT()
 """
     name: .BCOMPT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6583,19 +6583,19 @@ class _BCOMPT_NEXT(NamedTuple):
     """
         name: .BCOMPT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCOMPT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6617,11 +6617,11 @@ _BCOMPT_NEXT = _BCOMPT_NEXT()
 """
     name: .BCOMPT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6629,19 +6629,19 @@ class _BSUSHIT(NamedTuple):
     """
         name: .BSUSHIT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSUSHIT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6663,11 +6663,11 @@ _BSUSHIT = _BSUSHIT()
 """
     name: .BSUSHIT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6675,19 +6675,19 @@ class _BSUSHIT_NEXT(NamedTuple):
     """
         name: .BSUSHIT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSUSHIT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6709,11 +6709,11 @@ _BSUSHIT_NEXT = _BSUSHIT_NEXT()
 """
     name: .BSUSHIT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6721,19 +6721,19 @@ class _BGRTT(NamedTuple):
     """
         name: .BGRTT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGRTT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6755,11 +6755,11 @@ _BGRTT = _BGRTT()
 """
     name: .BGRTT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6767,19 +6767,19 @@ class _BGRTT_NEXT(NamedTuple):
     """
         name: .BGRTT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGRTT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6801,11 +6801,11 @@ _BGRTT_NEXT = _BGRTT_NEXT()
 """
     name: .BGRTT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6813,19 +6813,19 @@ class _BALTMEX(NamedTuple):
     """
         name: .BALTMEX
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BALTMEX"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6847,11 +6847,11 @@ _BALTMEX = _BALTMEX()
 """
     name: .BALTMEX
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6859,19 +6859,19 @@ class _BDEFIMEX(NamedTuple):
     """
         name: .BDEFIMEX
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDEFIMEX"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6893,11 +6893,11 @@ _BDEFIMEX = _BDEFIMEX()
 """
     name: .BDEFIMEX
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6905,19 +6905,19 @@ class _ALTMEXBON(NamedTuple):
     """
         name: .ALTMEXBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6939,11 +6939,11 @@ _ALTMEXBON = _ALTMEXBON()
 """
     name: .ALTMEXBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6951,19 +6951,19 @@ class _ALTMEXBON8H(NamedTuple):
     """
         name: .ALTMEXBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6985,11 +6985,11 @@ _ALTMEXBON8H = _ALTMEXBON8H()
 """
     name: .ALTMEXBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -6997,19 +6997,19 @@ class _ALTMEXUSDPI(NamedTuple):
     """
         name: .ALTMEXUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7031,11 +7031,11 @@ _ALTMEXUSDPI = _ALTMEXUSDPI()
 """
     name: .ALTMEXUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7043,19 +7043,19 @@ class _ALTMEXUSDPI8H(NamedTuple):
     """
         name: .ALTMEXUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7077,11 +7077,11 @@ _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
 """
     name: .ALTMEXUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7089,19 +7089,19 @@ class _DEFIMEXBON(NamedTuple):
     """
         name: .DEFIMEXBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7123,11 +7123,11 @@ _DEFIMEXBON = _DEFIMEXBON()
 """
     name: .DEFIMEXBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7135,19 +7135,19 @@ class _DEFIMEXBON8H(NamedTuple):
     """
         name: .DEFIMEXBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7169,11 +7169,11 @@ _DEFIMEXBON8H = _DEFIMEXBON8H()
 """
     name: .DEFIMEXBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7181,19 +7181,19 @@ class _DEFIMEXUSDPI(NamedTuple):
     """
         name: .DEFIMEXUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7215,11 +7215,11 @@ _DEFIMEXUSDPI = _DEFIMEXUSDPI()
 """
     name: .DEFIMEXUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7227,19 +7227,19 @@ class _DEFIMEXUSDPI8H(NamedTuple):
     """
         name: .DEFIMEXUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7261,11 +7261,11 @@ _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
 """
     name: .DEFIMEXUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7273,19 +7273,19 @@ class _SUSHIBON(NamedTuple):
     """
         name: .SUSHIBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SUSHIBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7307,11 +7307,11 @@ _SUSHIBON = _SUSHIBON()
 """
     name: .SUSHIBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7319,19 +7319,19 @@ class _SUSHIBON8H(NamedTuple):
     """
         name: .SUSHIBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SUSHIBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7353,11 +7353,11 @@ _SUSHIBON8H = _SUSHIBON8H()
 """
     name: .SUSHIBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7365,19 +7365,19 @@ class _SUSHIUSDTPI(NamedTuple):
     """
         name: .SUSHIUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SUSHIUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7399,11 +7399,11 @@ _SUSHIUSDTPI = _SUSHIUSDTPI()
 """
     name: .SUSHIUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7411,19 +7411,19 @@ class _SUSHIUSDTPI8H(NamedTuple):
     """
         name: .SUSHIUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SUSHIUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7445,11 +7445,11 @@ _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
 """
     name: .SUSHIUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7457,19 +7457,19 @@ class _BAXST(NamedTuple):
     """
         name: .BAXST
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAXST"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7491,11 +7491,11 @@ _BAXST = _BAXST()
 """
     name: .BAXST
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7503,19 +7503,19 @@ class _BAXST_NEXT(NamedTuple):
     """
         name: .BAXST_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAXST_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7537,11 +7537,11 @@ _BAXST_NEXT = _BAXST_NEXT()
 """
     name: .BAXST_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7549,19 +7549,19 @@ class _AXSBON(NamedTuple):
     """
         name: .AXSBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7583,11 +7583,11 @@ _AXSBON = _AXSBON()
 """
     name: .AXSBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7595,19 +7595,19 @@ class _AXSBON8H(NamedTuple):
     """
         name: .AXSBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7629,11 +7629,11 @@ _AXSBON8H = _AXSBON8H()
 """
     name: .AXSBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7641,19 +7641,19 @@ class _AXSUSDTPI(NamedTuple):
     """
         name: .AXSUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7675,11 +7675,11 @@ _AXSUSDTPI = _AXSUSDTPI()
 """
     name: .AXSUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7687,19 +7687,19 @@ class _AXSUSDTPI8H(NamedTuple):
     """
         name: .AXSUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7721,11 +7721,11 @@ _AXSUSDTPI8H = _AXSUSDTPI8H()
 """
     name: .AXSUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7733,19 +7733,19 @@ class _BSRMT(NamedTuple):
     """
         name: .BSRMT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSRMT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7767,11 +7767,11 @@ _BSRMT = _BSRMT()
 """
     name: .BSRMT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7779,19 +7779,19 @@ class _BSRMT_NEXT(NamedTuple):
     """
         name: .BSRMT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSRMT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7813,11 +7813,11 @@ _BSRMT_NEXT = _BSRMT_NEXT()
 """
     name: .BSRMT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7825,19 +7825,19 @@ class _SRMBON(NamedTuple):
     """
         name: .SRMBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SRMBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7859,11 +7859,11 @@ _SRMBON = _SRMBON()
 """
     name: .SRMBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7871,19 +7871,19 @@ class _SRMBON8H(NamedTuple):
     """
         name: .SRMBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SRMBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7905,11 +7905,11 @@ _SRMBON8H = _SRMBON8H()
 """
     name: .SRMBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7917,19 +7917,19 @@ class _SRMUSDTPI(NamedTuple):
     """
         name: .SRMUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SRMUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7951,11 +7951,11 @@ _SRMUSDTPI = _SRMUSDTPI()
 """
     name: .SRMUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -7963,19 +7963,19 @@ class _SRMUSDTPI8H(NamedTuple):
     """
         name: .SRMUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SRMUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7997,11 +7997,11 @@ _SRMUSDTPI8H = _SRMUSDTPI8H()
 """
     name: .SRMUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8009,19 +8009,19 @@ class _BLUNA(NamedTuple):
     """
         name: .BLUNA
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNA"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8043,11 +8043,11 @@ _BLUNA = _BLUNA()
 """
     name: .BLUNA
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8055,19 +8055,19 @@ class _BLUNA_NEXT(NamedTuple):
     """
         name: .BLUNA_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNA_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8089,11 +8089,11 @@ _BLUNA_NEXT = _BLUNA_NEXT()
 """
     name: .BLUNA_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8101,19 +8101,19 @@ class _LUNABON(NamedTuple):
     """
         name: .LUNABON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNABON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8135,11 +8135,11 @@ _LUNABON = _LUNABON()
 """
     name: .LUNABON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8147,19 +8147,19 @@ class _LUNABON8H(NamedTuple):
     """
         name: .LUNABON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNABON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8181,11 +8181,11 @@ _LUNABON8H = _LUNABON8H()
 """
     name: .LUNABON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8193,19 +8193,19 @@ class _LUNAUSDPI(NamedTuple):
     """
         name: .LUNAUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNAUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8227,11 +8227,11 @@ _LUNAUSDPI = _LUNAUSDPI()
 """
     name: .LUNAUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8239,19 +8239,19 @@ class _LUNAUSDPI8H(NamedTuple):
     """
         name: .LUNAUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNAUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8273,11 +8273,11 @@ _LUNAUSDPI8H = _LUNAUSDPI8H()
 """
     name: .LUNAUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8285,19 +8285,19 @@ class _AVAXBON(NamedTuple):
     """
         name: .AVAXBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8319,11 +8319,11 @@ _AVAXBON = _AVAXBON()
 """
     name: .AVAXBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8331,19 +8331,19 @@ class _AVAXBON8H(NamedTuple):
     """
         name: .AVAXBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8365,11 +8365,11 @@ _AVAXBON8H = _AVAXBON8H()
 """
     name: .AVAXBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8377,19 +8377,19 @@ class _BAVAX(NamedTuple):
     """
         name: .BAVAX
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAVAX"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8411,11 +8411,11 @@ _BAVAX = _BAVAX()
 """
     name: .BAVAX
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8423,19 +8423,19 @@ class _BAVAX_NEXT(NamedTuple):
     """
         name: .BAVAX_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAVAX_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8457,11 +8457,11 @@ _BAVAX_NEXT = _BAVAX_NEXT()
 """
     name: .BAVAX_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8469,19 +8469,19 @@ class _AVAXUSDPI(NamedTuple):
     """
         name: .AVAXUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8503,11 +8503,11 @@ _AVAXUSDPI = _AVAXUSDPI()
 """
     name: .AVAXUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8515,19 +8515,19 @@ class _AVAXUSDPI8H(NamedTuple):
     """
         name: .AVAXUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8549,11 +8549,11 @@ _AVAXUSDPI8H = _AVAXUSDPI8H()
 """
     name: .AVAXUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8561,19 +8561,19 @@ class _BADA(NamedTuple):
     """
         name: .BADA
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADA"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8595,11 +8595,11 @@ _BADA = _BADA()
 """
     name: .BADA
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8607,19 +8607,19 @@ class _BADA_NEXT(NamedTuple):
     """
         name: .BADA_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BADA_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8641,11 +8641,11 @@ _BADA_NEXT = _BADA_NEXT()
 """
     name: .BADA_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8653,19 +8653,19 @@ class _ADAUSDPI(NamedTuple):
     """
         name: .ADAUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADAUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8687,11 +8687,11 @@ _ADAUSDPI = _ADAUSDPI()
 """
     name: .ADAUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8699,19 +8699,19 @@ class _ADAUSDPI8H(NamedTuple):
     """
         name: .ADAUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ADAUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8733,11 +8733,11 @@ _ADAUSDPI8H = _ADAUSDPI8H()
 """
     name: .ADAUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8745,19 +8745,19 @@ class _BDOGE(NamedTuple):
     """
         name: .BDOGE
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOGE"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8779,11 +8779,11 @@ _BDOGE = _BDOGE()
 """
     name: .BDOGE
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8791,19 +8791,19 @@ class _BDOGE_NEXT(NamedTuple):
     """
         name: .BDOGE_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOGE_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8825,11 +8825,11 @@ _BDOGE_NEXT = _BDOGE_NEXT()
 """
     name: .BDOGE_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8837,19 +8837,19 @@ class _DOGEUSDPI(NamedTuple):
     """
         name: .DOGEUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8871,11 +8871,11 @@ _DOGEUSDPI = _DOGEUSDPI()
 """
     name: .DOGEUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8883,19 +8883,19 @@ class _DOGEUSDPI8H(NamedTuple):
     """
         name: .DOGEUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOGEUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8917,11 +8917,11 @@ _DOGEUSDPI8H = _DOGEUSDPI8H()
 """
     name: .DOGEUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8929,19 +8929,19 @@ class _BBNB(NamedTuple):
     """
         name: .BBNB
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBNB"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8963,11 +8963,11 @@ _BBNB = _BBNB()
 """
     name: .BBNB
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -8975,19 +8975,19 @@ class _BBNB_NEXT(NamedTuple):
     """
         name: .BBNB_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBNB_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9009,11 +9009,11 @@ _BBNB_NEXT = _BBNB_NEXT()
 """
     name: .BBNB_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9021,19 +9021,19 @@ class _BNBUSDPI(NamedTuple):
     """
         name: .BNBUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9055,11 +9055,11 @@ _BNBUSDPI = _BNBUSDPI()
 """
     name: .BNBUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9067,19 +9067,19 @@ class _BNBUSDPI8H(NamedTuple):
     """
         name: .BNBUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNBUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9101,11 +9101,11 @@ _BNBUSDPI8H = _BNBUSDPI8H()
 """
     name: .BNBUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9113,19 +9113,19 @@ class _BDOT(NamedTuple):
     """
         name: .BDOT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9147,11 +9147,11 @@ _BDOT = _BDOT()
 """
     name: .BDOT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9159,19 +9159,19 @@ class _BDOT_NEXT(NamedTuple):
     """
         name: .BDOT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9193,11 +9193,11 @@ _BDOT_NEXT = _BDOT_NEXT()
 """
     name: .BDOT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9205,19 +9205,19 @@ class _DOTUSDPI(NamedTuple):
     """
         name: .DOTUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9239,11 +9239,11 @@ _DOTUSDPI = _DOTUSDPI()
 """
     name: .DOTUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9251,19 +9251,19 @@ class _DOTUSDPI8H(NamedTuple):
     """
         name: .DOTUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DOTUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9285,11 +9285,11 @@ _DOTUSDPI8H = _DOTUSDPI8H()
 """
     name: .DOTUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9297,19 +9297,19 @@ class _BDOGET30M(NamedTuple):
     """
         name: .BDOGET30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDOGET30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9331,11 +9331,11 @@ _BDOGET30M = _BDOGET30M()
 """
     name: .BDOGET30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9343,19 +9343,19 @@ class _BFILT30M(NamedTuple):
     """
         name: .BFILT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFILT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9377,11 +9377,11 @@ _BFILT30M = _BFILT30M()
 """
     name: .BFILT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9389,19 +9389,19 @@ class _BUNIT30M(NamedTuple):
     """
         name: .BUNIT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUNIT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9423,11 +9423,11 @@ _BUNIT30M = _BUNIT30M()
 """
     name: .BUNIT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9435,19 +9435,19 @@ class _BXLMT30M(NamedTuple):
     """
         name: .BXLMT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXLMT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9469,11 +9469,11 @@ _BXLMT30M = _BXLMT30M()
 """
     name: .BXLMT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9481,19 +9481,19 @@ class _BAXS(NamedTuple):
     """
         name: .BAXS
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAXS"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9515,11 +9515,11 @@ _BAXS = _BAXS()
 """
     name: .BAXS
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9527,19 +9527,19 @@ class _BAXS_NEXT(NamedTuple):
     """
         name: .BAXS_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAXS_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9561,11 +9561,11 @@ _BAXS_NEXT = _BAXS_NEXT()
 """
     name: .BAXS_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9573,19 +9573,19 @@ class _AXSUSDPI(NamedTuple):
     """
         name: .AXSUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9607,11 +9607,11 @@ _AXSUSDPI = _AXSUSDPI()
 """
     name: .AXSUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9619,19 +9619,19 @@ class _AXSUSDPI8H(NamedTuple):
     """
         name: .AXSUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AXSUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9653,11 +9653,11 @@ _AXSUSDPI8H = _AXSUSDPI8H()
 """
     name: .AXSUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9665,19 +9665,19 @@ class _BEOS(NamedTuple):
     """
         name: .BEOS
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOS"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9699,11 +9699,11 @@ _BEOS = _BEOS()
 """
     name: .BEOS
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9711,19 +9711,19 @@ class _BEOS_NEXT(NamedTuple):
     """
         name: .BEOS_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEOS_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9745,11 +9745,11 @@ _BEOS_NEXT = _BEOS_NEXT()
 """
     name: .BEOS_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9757,19 +9757,19 @@ class _EOSUSDPI(NamedTuple):
     """
         name: .EOSUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9791,11 +9791,11 @@ _EOSUSDPI = _EOSUSDPI()
 """
     name: .EOSUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9803,19 +9803,19 @@ class _EOSUSDPI8H(NamedTuple):
     """
         name: .EOSUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EOSUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9837,11 +9837,11 @@ _EOSUSDPI8H = _EOSUSDPI8H()
 """
     name: .EOSUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9849,19 +9849,19 @@ class _BLINK(NamedTuple):
     """
         name: .BLINK
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLINK"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9883,11 +9883,11 @@ _BLINK = _BLINK()
 """
     name: .BLINK
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9895,19 +9895,19 @@ class _BLINK_NEXT(NamedTuple):
     """
         name: .BLINK_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLINK_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9929,11 +9929,11 @@ _BLINK_NEXT = _BLINK_NEXT()
 """
     name: .BLINK_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9941,19 +9941,19 @@ class _LINKUSDPI(NamedTuple):
     """
         name: .LINKUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9975,11 +9975,11 @@ _LINKUSDPI = _LINKUSDPI()
 """
     name: .LINKUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -9987,19 +9987,19 @@ class _LINKUSDPI8H(NamedTuple):
     """
         name: .LINKUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LINKUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10021,11 +10021,11 @@ _LINKUSDPI8H = _LINKUSDPI8H()
 """
     name: .LINKUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10033,19 +10033,19 @@ class _BSOL(NamedTuple):
     """
         name: .BSOL
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSOL"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10067,11 +10067,11 @@ _BSOL = _BSOL()
 """
     name: .BSOL
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10079,19 +10079,19 @@ class _BSOL_NEXT(NamedTuple):
     """
         name: .BSOL_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSOL_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10113,11 +10113,11 @@ _BSOL_NEXT = _BSOL_NEXT()
 """
     name: .BSOL_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10125,19 +10125,19 @@ class _SOLUSDPI(NamedTuple):
     """
         name: .SOLUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10159,11 +10159,11 @@ _SOLUSDPI = _SOLUSDPI()
 """
     name: .SOLUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10171,19 +10171,19 @@ class _SOLUSDPI8H(NamedTuple):
     """
         name: .SOLUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SOLUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10205,11 +10205,11 @@ _SOLUSDPI8H = _SOLUSDPI8H()
 """
     name: .SOLUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10217,19 +10217,19 @@ class _BAXST30M(NamedTuple):
     """
         name: .BAXST30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAXST30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10251,11 +10251,11 @@ _BAXST30M = _BAXST30M()
 """
     name: .BAXST30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10263,19 +10263,19 @@ class _BSOLT30M(NamedTuple):
     """
         name: .BSOLT30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSOLT30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10297,11 +10297,11 @@ _BSOLT30M = _BSOLT30M()
 """
     name: .BSOLT30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10309,19 +10309,19 @@ class _BVETT30M(NamedTuple):
     """
         name: .BVETT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVETT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10343,11 +10343,11 @@ _BVETT30M = _BVETT30M()
 """
     name: .BVETT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10355,19 +10355,19 @@ class _BMATICT30M(NamedTuple):
     """
         name: .BMATICT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMATICT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10389,11 +10389,11 @@ _BMATICT30M = _BMATICT30M()
 """
     name: .BMATICT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10401,19 +10401,19 @@ class _BAAVET30M(NamedTuple):
     """
         name: .BAAVET30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAAVET30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10435,11 +10435,11 @@ _BAAVET30M = _BAAVET30M()
 """
     name: .BAAVET30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10447,19 +10447,19 @@ class _BSUSHIT30M(NamedTuple):
     """
         name: .BSUSHIT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSUSHIT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10481,11 +10481,11 @@ _BSUSHIT30M = _BSUSHIT30M()
 """
     name: .BSUSHIT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10493,19 +10493,19 @@ class _BSRMT30M(NamedTuple):
     """
         name: .BSRMT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSRMT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10527,11 +10527,11 @@ _BSRMT30M = _BSRMT30M()
 """
     name: .BSRMT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10539,19 +10539,19 @@ class _BXRPT(NamedTuple):
     """
         name: .BXRPT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRPT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10573,11 +10573,11 @@ _BXRPT = _BXRPT()
 """
     name: .BXRPT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10585,19 +10585,19 @@ class _BXRPT_NEXT(NamedTuple):
     """
         name: .BXRPT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXRPT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10619,11 +10619,11 @@ _BXRPT_NEXT = _BXRPT_NEXT()
 """
     name: .BXRPT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10631,19 +10631,19 @@ class _BBCHT(NamedTuple):
     """
         name: .BBCHT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCHT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10665,11 +10665,11 @@ _BBCHT = _BBCHT()
 """
     name: .BBCHT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10677,19 +10677,19 @@ class _BBCHT_NEXT(NamedTuple):
     """
         name: .BBCHT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBCHT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10711,11 +10711,11 @@ _BBCHT_NEXT = _BBCHT_NEXT()
 """
     name: .BBCHT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10723,19 +10723,19 @@ class _XRPUSDTPI(NamedTuple):
     """
         name: .XRPUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10757,11 +10757,11 @@ _XRPUSDTPI = _XRPUSDTPI()
 """
     name: .XRPUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10769,19 +10769,19 @@ class _XRPUSDTPI8H(NamedTuple):
     """
         name: .XRPUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XRPUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10803,11 +10803,11 @@ _XRPUSDTPI8H = _XRPUSDTPI8H()
 """
     name: .XRPUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10815,19 +10815,19 @@ class _BCHUSDTPI(NamedTuple):
     """
         name: .BCHUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10849,11 +10849,11 @@ _BCHUSDTPI = _BCHUSDTPI()
 """
     name: .BCHUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10861,19 +10861,19 @@ class _BCHUSDTPI8H(NamedTuple):
     """
         name: .BCHUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCHUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10895,11 +10895,11 @@ _BCHUSDTPI8H = _BCHUSDTPI8H()
 """
     name: .BCHUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10907,19 +10907,19 @@ class _BDEFIMEX30M(NamedTuple):
     """
         name: .BDEFIMEX30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDEFIMEX30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10941,11 +10941,11 @@ _BDEFIMEX30M = _BDEFIMEX30M()
 """
     name: .BDEFIMEX30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10953,19 +10953,19 @@ class _BALTMEX30M(NamedTuple):
     """
         name: .BALTMEX30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BALTMEX30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10987,11 +10987,11 @@ _BALTMEX30M = _BALTMEX30M()
 """
     name: .BALTMEX30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -10999,19 +10999,19 @@ class _BFTMT(NamedTuple):
     """
         name: .BFTMT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTMT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11033,11 +11033,11 @@ _BFTMT = _BFTMT()
 """
     name: .BFTMT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11045,19 +11045,19 @@ class _BFTMT_NEXT(NamedTuple):
     """
         name: .BFTMT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTMT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11079,11 +11079,11 @@ _BFTMT_NEXT = _BFTMT_NEXT()
 """
     name: .BFTMT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11091,19 +11091,19 @@ class _FTMBON(NamedTuple):
     """
         name: .FTMBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTMBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11125,11 +11125,11 @@ _FTMBON = _FTMBON()
 """
     name: .FTMBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11137,19 +11137,19 @@ class _FTMBON8H(NamedTuple):
     """
         name: .FTMBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTMBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11171,11 +11171,11 @@ _FTMBON8H = _FTMBON8H()
 """
     name: .FTMBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11183,19 +11183,19 @@ class _FTMUSDTPI(NamedTuple):
     """
         name: .FTMUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTMUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11217,11 +11217,11 @@ _FTMUSDTPI = _FTMUSDTPI()
 """
     name: .FTMUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11229,19 +11229,19 @@ class _FTMUSDTPI8H(NamedTuple):
     """
         name: .FTMUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTMUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11263,11 +11263,11 @@ _FTMUSDTPI8H = _FTMUSDTPI8H()
 """
     name: .FTMUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11275,19 +11275,19 @@ class _BSHIBT(NamedTuple):
     """
         name: .BSHIBT
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSHIBT"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11309,11 +11309,11 @@ _BSHIBT = _BSHIBT()
 """
     name: .BSHIBT
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11321,19 +11321,19 @@ class _BSHIBT_NEXT(NamedTuple):
     """
         name: .BSHIBT_NEXT
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSHIBT_NEXT"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11355,11 +11355,11 @@ _BSHIBT_NEXT = _BSHIBT_NEXT()
 """
     name: .BSHIBT_NEXT
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11367,19 +11367,19 @@ class _SHIBBON(NamedTuple):
     """
         name: .SHIBBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SHIBBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11401,11 +11401,11 @@ _SHIBBON = _SHIBBON()
 """
     name: .SHIBBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11413,19 +11413,19 @@ class _SHIBBON8H(NamedTuple):
     """
         name: .SHIBBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SHIBBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11447,11 +11447,11 @@ _SHIBBON8H = _SHIBBON8H()
 """
     name: .SHIBBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11459,19 +11459,19 @@ class _SHIBUSDTPI(NamedTuple):
     """
         name: .SHIBUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SHIBUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11493,11 +11493,11 @@ _SHIBUSDTPI = _SHIBUSDTPI()
 """
     name: .SHIBUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11505,19 +11505,19 @@ class _SHIBUSDTPI8H(NamedTuple):
     """
         name: .SHIBUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SHIBUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11539,11 +11539,11 @@ _SHIBUSDTPI8H = _SHIBUSDTPI8H()
 """
     name: .SHIBUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11551,19 +11551,19 @@ class _BLRCT(NamedTuple):
     """
         name: .BLRCT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLRCT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11585,11 +11585,11 @@ _BLRCT = _BLRCT()
 """
     name: .BLRCT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11597,19 +11597,19 @@ class _BLRCT_NEXT(NamedTuple):
     """
         name: .BLRCT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLRCT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11631,11 +11631,11 @@ _BLRCT_NEXT = _BLRCT_NEXT()
 """
     name: .BLRCT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11643,19 +11643,19 @@ class _BMANAT(NamedTuple):
     """
         name: .BMANAT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMANAT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11677,11 +11677,11 @@ _BMANAT = _BMANAT()
 """
     name: .BMANAT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11689,19 +11689,19 @@ class _BMANAT_NEXT(NamedTuple):
     """
         name: .BMANAT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMANAT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11723,11 +11723,11 @@ _BMANAT_NEXT = _BMANAT_NEXT()
 """
     name: .BMANAT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11735,19 +11735,19 @@ class _MANABON(NamedTuple):
     """
         name: .MANABON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MANABON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11769,11 +11769,11 @@ _MANABON = _MANABON()
 """
     name: .MANABON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11781,19 +11781,19 @@ class _MANABON8H(NamedTuple):
     """
         name: .MANABON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MANABON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11815,11 +11815,11 @@ _MANABON8H = _MANABON8H()
 """
     name: .MANABON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11827,19 +11827,19 @@ class _MANAUSDTPI(NamedTuple):
     """
         name: .MANAUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MANAUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11861,11 +11861,11 @@ _MANAUSDTPI = _MANAUSDTPI()
 """
     name: .MANAUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11873,19 +11873,19 @@ class _MANAUSDTPI8H(NamedTuple):
     """
         name: .MANAUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MANAUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11907,11 +11907,11 @@ _MANAUSDTPI8H = _MANAUSDTPI8H()
 """
     name: .MANAUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11919,19 +11919,19 @@ class _BSANDT(NamedTuple):
     """
         name: .BSANDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSANDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11953,11 +11953,11 @@ _BSANDT = _BSANDT()
 """
     name: .BSANDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -11965,19 +11965,19 @@ class _BSANDT_NEXT(NamedTuple):
     """
         name: .BSANDT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSANDT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11999,11 +11999,11 @@ _BSANDT_NEXT = _BSANDT_NEXT()
 """
     name: .BSANDT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12011,19 +12011,19 @@ class _SANDBON(NamedTuple):
     """
         name: .SANDBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SANDBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12045,11 +12045,11 @@ _SANDBON = _SANDBON()
 """
     name: .SANDBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12057,19 +12057,19 @@ class _SANDBON8H(NamedTuple):
     """
         name: .SANDBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SANDBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12091,11 +12091,11 @@ _SANDBON8H = _SANDBON8H()
 """
     name: .SANDBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12103,19 +12103,19 @@ class _SANDUSDTPI(NamedTuple):
     """
         name: .SANDUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SANDUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12137,11 +12137,11 @@ _SANDUSDTPI = _SANDUSDTPI()
 """
     name: .SANDUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12149,19 +12149,19 @@ class _SANDUSDTPI8H(NamedTuple):
     """
         name: .SANDUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SANDUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12183,11 +12183,11 @@ _SANDUSDTPI8H = _SANDUSDTPI8H()
 """
     name: .SANDUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12195,19 +12195,19 @@ class _BTHETAT(NamedTuple):
     """
         name: .BTHETAT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTHETAT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12229,11 +12229,11 @@ _BTHETAT = _BTHETAT()
 """
     name: .BTHETAT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12241,19 +12241,19 @@ class _BTHETAT_NEXT(NamedTuple):
     """
         name: .BTHETAT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTHETAT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12275,11 +12275,11 @@ _BTHETAT_NEXT = _BTHETAT_NEXT()
 """
     name: .BTHETAT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12287,19 +12287,19 @@ class _BENJT(NamedTuple):
     """
         name: .BENJT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BENJT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12321,11 +12321,11 @@ _BENJT = _BENJT()
 """
     name: .BENJT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12333,19 +12333,19 @@ class _BENJT_NEXT(NamedTuple):
     """
         name: .BENJT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BENJT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12367,11 +12367,11 @@ _BENJT_NEXT = _BENJT_NEXT()
 """
     name: .BENJT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12379,19 +12379,19 @@ class _BDEFIMEXT(NamedTuple):
     """
         name: .BDEFIMEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDEFIMEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12413,11 +12413,11 @@ _BDEFIMEXT = _BDEFIMEXT()
 """
     name: .BDEFIMEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12425,19 +12425,19 @@ class _DEFIMEXTBON(NamedTuple):
     """
         name: .DEFIMEXTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12459,11 +12459,11 @@ _DEFIMEXTBON = _DEFIMEXTBON()
 """
     name: .DEFIMEXTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12471,19 +12471,19 @@ class _DEFIMEXTBON8H(NamedTuple):
     """
         name: .DEFIMEXTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12505,11 +12505,11 @@ _DEFIMEXTBON8H = _DEFIMEXTBON8H()
 """
     name: .DEFIMEXTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12517,19 +12517,19 @@ class _DEFIMEXTUSDTPI(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12551,11 +12551,11 @@ _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
 """
     name: .DEFIMEXTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12563,19 +12563,19 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".DEFIMEXTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12597,11 +12597,11 @@ _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
 """
     name: .DEFIMEXTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12609,19 +12609,19 @@ class _BALTMEXT(NamedTuple):
     """
         name: .BALTMEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BALTMEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12643,11 +12643,11 @@ _BALTMEXT = _BALTMEXT()
 """
     name: .BALTMEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12655,19 +12655,19 @@ class _ALTMEXTBON(NamedTuple):
     """
         name: .ALTMEXTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12689,11 +12689,11 @@ _ALTMEXTBON = _ALTMEXTBON()
 """
     name: .ALTMEXTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12701,19 +12701,19 @@ class _ALTMEXTBON8H(NamedTuple):
     """
         name: .ALTMEXTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12735,11 +12735,11 @@ _ALTMEXTBON8H = _ALTMEXTBON8H()
 """
     name: .ALTMEXTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12747,19 +12747,19 @@ class _ALTMEXTUSDTPI(NamedTuple):
     """
         name: .ALTMEXTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12781,11 +12781,11 @@ _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
 """
     name: .ALTMEXTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12793,19 +12793,19 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
     """
         name: .ALTMEXTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ALTMEXTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12827,11 +12827,11 @@ _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
 """
     name: .ALTMEXTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12839,19 +12839,19 @@ class _BMETAMEXT(NamedTuple):
     """
         name: .BMETAMEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMETAMEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12873,11 +12873,11 @@ _BMETAMEXT = _BMETAMEXT()
 """
     name: .BMETAMEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12885,19 +12885,19 @@ class _METAMEXTBON(NamedTuple):
     """
         name: .METAMEXTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".METAMEXTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12919,11 +12919,11 @@ _METAMEXTBON = _METAMEXTBON()
 """
     name: .METAMEXTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12931,19 +12931,19 @@ class _METAMEXTBON8H(NamedTuple):
     """
         name: .METAMEXTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".METAMEXTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12965,11 +12965,11 @@ _METAMEXTBON8H = _METAMEXTBON8H()
 """
     name: .METAMEXTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -12977,19 +12977,19 @@ class _METAMEXTUSDTPI(NamedTuple):
     """
         name: .METAMEXTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".METAMEXTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13011,11 +13011,11 @@ _METAMEXTUSDTPI = _METAMEXTUSDTPI()
 """
     name: .METAMEXTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13023,19 +13023,19 @@ class _METAMEXTUSDTPI8H(NamedTuple):
     """
         name: .METAMEXTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".METAMEXTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13057,11 +13057,11 @@ _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
 """
     name: .METAMEXTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13069,19 +13069,19 @@ class _AVAXUSDTPI(NamedTuple):
     """
         name: .AVAXUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13103,11 +13103,11 @@ _AVAXUSDTPI = _AVAXUSDTPI()
 """
     name: .AVAXUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13115,19 +13115,19 @@ class _AVAXUSDTPI8H(NamedTuple):
     """
         name: .AVAXUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".AVAXUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13149,11 +13149,11 @@ _AVAXUSDTPI8H = _AVAXUSDTPI8H()
 """
     name: .AVAXUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13161,19 +13161,19 @@ class _LUNAUSDTPI(NamedTuple):
     """
         name: .LUNAUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNAUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13195,11 +13195,11 @@ _LUNAUSDTPI = _LUNAUSDTPI()
 """
     name: .LUNAUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13207,19 +13207,19 @@ class _LUNAUSDTPI8H(NamedTuple):
     """
         name: .LUNAUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LUNAUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13241,11 +13241,11 @@ _LUNAUSDTPI8H = _LUNAUSDTPI8H()
 """
     name: .LUNAUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13253,19 +13253,19 @@ class _BAPET(NamedTuple):
     """
         name: .BAPET
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPET"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13287,11 +13287,11 @@ _BAPET = _BAPET()
 """
     name: .BAPET
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13299,19 +13299,19 @@ class _BAPET_NEXT(NamedTuple):
     """
         name: .BAPET_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPET_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13333,11 +13333,11 @@ _BAPET_NEXT = _BAPET_NEXT()
 """
     name: .BAPET_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13345,19 +13345,19 @@ class _APEBON(NamedTuple):
     """
         name: .APEBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13379,11 +13379,11 @@ _APEBON = _APEBON()
 """
     name: .APEBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13391,19 +13391,19 @@ class _APEBON8H(NamedTuple):
     """
         name: .APEBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13425,11 +13425,11 @@ _APEBON8H = _APEBON8H()
 """
     name: .APEBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13437,19 +13437,19 @@ class _APEUSDTPI(NamedTuple):
     """
         name: .APEUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13471,11 +13471,11 @@ _APEUSDTPI = _APEUSDTPI()
 """
     name: .APEUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13483,19 +13483,19 @@ class _APEUSDTPI8H(NamedTuple):
     """
         name: .APEUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13517,11 +13517,11 @@ _APEUSDTPI8H = _APEUSDTPI8H()
 """
     name: .APEUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13529,19 +13529,19 @@ class _GMTBON(NamedTuple):
     """
         name: .GMTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13563,11 +13563,11 @@ _GMTBON = _GMTBON()
 """
     name: .GMTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13575,19 +13575,19 @@ class _GMTBON8H(NamedTuple):
     """
         name: .GMTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13609,11 +13609,11 @@ _GMTBON8H = _GMTBON8H()
 """
     name: .GMTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13621,19 +13621,19 @@ class _GMTUSDTPI(NamedTuple):
     """
         name: .GMTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13655,11 +13655,11 @@ _GMTUSDTPI = _GMTUSDTPI()
 """
     name: .GMTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13667,19 +13667,19 @@ class _GMTUSDTPI8H(NamedTuple):
     """
         name: .GMTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13701,11 +13701,11 @@ _GMTUSDTPI8H = _GMTUSDTPI8H()
 """
     name: .GMTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13713,19 +13713,19 @@ class _GMTUSDPI(NamedTuple):
     """
         name: .GMTUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13747,11 +13747,11 @@ _GMTUSDPI = _GMTUSDPI()
 """
     name: .GMTUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13759,19 +13759,19 @@ class _GMTUSDPI8H(NamedTuple):
     """
         name: .GMTUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GMTUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13793,11 +13793,11 @@ _GMTUSDPI8H = _GMTUSDPI8H()
 """
     name: .GMTUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13805,19 +13805,19 @@ class _BGMT(NamedTuple):
     """
         name: .BGMT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGMT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13839,11 +13839,11 @@ _BGMT = _BGMT()
 """
     name: .BGMT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13851,19 +13851,19 @@ class _BGMT_NEXT(NamedTuple):
     """
         name: .BGMT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGMT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13885,11 +13885,11 @@ _BGMT_NEXT = _BGMT_NEXT()
 """
     name: .BGMT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13897,19 +13897,19 @@ class _BGMTT(NamedTuple):
     """
         name: .BGMTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGMTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13931,11 +13931,11 @@ _BGMTT = _BGMTT()
 """
     name: .BGMTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13943,19 +13943,19 @@ class _BGMTT_NEXT(NamedTuple):
     """
         name: .BGMTT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGMTT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13977,11 +13977,11 @@ _BGMTT_NEXT = _BGMTT_NEXT()
 """
     name: .BGMTT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -13989,19 +13989,19 @@ class _NEARBON(NamedTuple):
     """
         name: .NEARBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14023,11 +14023,11 @@ _NEARBON = _NEARBON()
 """
     name: .NEARBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14035,19 +14035,19 @@ class _NEARBON8H(NamedTuple):
     """
         name: .NEARBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14069,11 +14069,11 @@ _NEARBON8H = _NEARBON8H()
 """
     name: .NEARBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14081,19 +14081,19 @@ class _NEARUSDTPI(NamedTuple):
     """
         name: .NEARUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14115,11 +14115,11 @@ _NEARUSDTPI = _NEARUSDTPI()
 """
     name: .NEARUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14127,19 +14127,19 @@ class _NEARUSDTPI8H(NamedTuple):
     """
         name: .NEARUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14161,11 +14161,11 @@ _NEARUSDTPI8H = _NEARUSDTPI8H()
 """
     name: .NEARUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14173,19 +14173,19 @@ class _NEARUSDPI(NamedTuple):
     """
         name: .NEARUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14207,11 +14207,11 @@ _NEARUSDPI = _NEARUSDPI()
 """
     name: .NEARUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14219,19 +14219,19 @@ class _NEARUSDPI8H(NamedTuple):
     """
         name: .NEARUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NEARUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14253,11 +14253,11 @@ _NEARUSDPI8H = _NEARUSDPI8H()
 """
     name: .NEARUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14265,19 +14265,19 @@ class _BNEAR(NamedTuple):
     """
         name: .BNEAR
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNEAR"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14299,11 +14299,11 @@ _BNEAR = _BNEAR()
 """
     name: .BNEAR
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14311,19 +14311,19 @@ class _BNEAR_NEXT(NamedTuple):
     """
         name: .BNEAR_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNEAR_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14345,11 +14345,11 @@ _BNEAR_NEXT = _BNEAR_NEXT()
 """
     name: .BNEAR_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14357,19 +14357,19 @@ class _BNEART(NamedTuple):
     """
         name: .BNEART
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNEART"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14391,11 +14391,11 @@ _BNEART = _BNEART()
 """
     name: .BNEART
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14403,19 +14403,19 @@ class _BNEART_NEXT(NamedTuple):
     """
         name: .BNEART_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNEART_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14437,11 +14437,11 @@ _BNEART_NEXT = _BNEART_NEXT()
 """
     name: .BNEART_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14449,19 +14449,19 @@ class _BLUNA30M(NamedTuple):
     """
         name: .BLUNA30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNA30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14483,11 +14483,11 @@ _BLUNA30M = _BLUNA30M()
 """
     name: .BLUNA30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14495,19 +14495,19 @@ class _BLUNAT30M(NamedTuple):
     """
         name: .BLUNAT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNAT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14529,11 +14529,11 @@ _BLUNAT30M = _BLUNAT30M()
 """
     name: .BLUNAT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14541,19 +14541,19 @@ class _BAPE(NamedTuple):
     """
         name: .BAPE
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPE"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14575,11 +14575,11 @@ _BAPE = _BAPE()
 """
     name: .BAPE
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14587,19 +14587,19 @@ class _BAPE_NEXT(NamedTuple):
     """
         name: .BAPE_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPE_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14621,11 +14621,11 @@ _BAPE_NEXT = _BAPE_NEXT()
 """
     name: .BAPE_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14633,19 +14633,19 @@ class _BTRX(NamedTuple):
     """
         name: .BTRX
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRX"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14667,11 +14667,11 @@ _BTRX = _BTRX()
 """
     name: .BTRX
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14679,19 +14679,19 @@ class _BTRX_NEXT(NamedTuple):
     """
         name: .BTRX_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRX_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14713,11 +14713,11 @@ _BTRX_NEXT = _BTRX_NEXT()
 """
     name: .BTRX_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14725,19 +14725,19 @@ class _BGAL(NamedTuple):
     """
         name: .BGAL
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGAL"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14759,11 +14759,11 @@ _BGAL = _BGAL()
 """
     name: .BGAL
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14771,19 +14771,19 @@ class _BGAL_NEXT(NamedTuple):
     """
         name: .BGAL_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGAL_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14805,11 +14805,11 @@ _BGAL_NEXT = _BGAL_NEXT()
 """
     name: .BGAL_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14817,19 +14817,19 @@ class _BGALT(NamedTuple):
     """
         name: .BGALT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGALT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14851,11 +14851,11 @@ _BGALT = _BGALT()
 """
     name: .BGALT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14863,19 +14863,19 @@ class _BGALT_NEXT(NamedTuple):
     """
         name: .BGALT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGALT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14897,11 +14897,11 @@ _BGALT_NEXT = _BGALT_NEXT()
 """
     name: .BGALT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14909,19 +14909,19 @@ class _GALBON(NamedTuple):
     """
         name: .GALBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14943,11 +14943,11 @@ _GALBON = _GALBON()
 """
     name: .GALBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -14955,19 +14955,19 @@ class _GALBON8H(NamedTuple):
     """
         name: .GALBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14989,11 +14989,11 @@ _GALBON8H = _GALBON8H()
 """
     name: .GALBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15001,19 +15001,19 @@ class _APEUSDPI(NamedTuple):
     """
         name: .APEUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15035,11 +15035,11 @@ _APEUSDPI = _APEUSDPI()
 """
     name: .APEUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15047,19 +15047,19 @@ class _APEUSDPI8H(NamedTuple):
     """
         name: .APEUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APEUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15081,11 +15081,11 @@ _APEUSDPI8H = _APEUSDPI8H()
 """
     name: .APEUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15093,19 +15093,19 @@ class _TRXUSDPI(NamedTuple):
     """
         name: .TRXUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15127,11 +15127,11 @@ _TRXUSDPI = _TRXUSDPI()
 """
     name: .TRXUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15139,19 +15139,19 @@ class _TRXUSDPI8H(NamedTuple):
     """
         name: .TRXUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRXUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15173,11 +15173,11 @@ _TRXUSDPI8H = _TRXUSDPI8H()
 """
     name: .TRXUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15185,19 +15185,19 @@ class _GALUSDTPI(NamedTuple):
     """
         name: .GALUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15219,11 +15219,11 @@ _GALUSDTPI = _GALUSDTPI()
 """
     name: .GALUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15231,19 +15231,19 @@ class _GALUSDTPI8H(NamedTuple):
     """
         name: .GALUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15265,11 +15265,11 @@ _GALUSDTPI8H = _GALUSDTPI8H()
 """
     name: .GALUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15277,19 +15277,19 @@ class _GALUSDPI(NamedTuple):
     """
         name: .GALUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15311,11 +15311,11 @@ _GALUSDPI = _GALUSDPI()
 """
     name: .GALUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15323,19 +15323,19 @@ class _GALUSDPI8H(NamedTuple):
     """
         name: .GALUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".GALUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15357,11 +15357,11 @@ _GALUSDPI8H = _GALUSDPI8H()
 """
     name: .GALUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15369,19 +15369,19 @@ class _BLUNC(NamedTuple):
     """
         name: .BLUNC
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNC"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15403,11 +15403,11 @@ _BLUNC = _BLUNC()
 """
     name: .BLUNC
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15415,19 +15415,19 @@ class _BLUNC_NEXT(NamedTuple):
     """
         name: .BLUNC_NEXT
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNC_NEXT"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15449,11 +15449,11 @@ _BLUNC_NEXT = _BLUNC_NEXT()
 """
     name: .BLUNC_NEXT
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15461,19 +15461,19 @@ class _BLUNCT(NamedTuple):
     """
         name: .BLUNCT
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNCT"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15495,11 +15495,11 @@ _BLUNCT = _BLUNCT()
 """
     name: .BLUNCT
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15507,19 +15507,19 @@ class _BLUNCT_NEXT(NamedTuple):
     """
         name: .BLUNCT_NEXT
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLUNCT_NEXT"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15541,11 +15541,11 @@ _BLUNCT_NEXT = _BLUNCT_NEXT()
 """
     name: .BLUNCT_NEXT
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15553,19 +15553,19 @@ class _BDFI(NamedTuple):
     """
         name: .BDFI
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDFI"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15587,11 +15587,11 @@ _BDFI = _BDFI()
 """
     name: .BDFI
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15599,19 +15599,19 @@ class _BDFIT(NamedTuple):
     """
         name: .BDFIT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDFIT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15633,11 +15633,11 @@ _BDFIT = _BDFIT()
 """
     name: .BDFIT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15645,19 +15645,19 @@ class _BGRT(NamedTuple):
     """
         name: .BGRT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGRT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15679,11 +15679,11 @@ _BGRT = _BGRT()
 """
     name: .BGRT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15691,19 +15691,19 @@ class _EURUSDPI(NamedTuple):
     """
         name: .EURUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15725,11 +15725,11 @@ _EURUSDPI = _EURUSDPI()
 """
     name: .EURUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15737,19 +15737,19 @@ class _USDCHFPI(NamedTuple):
     """
         name: .USDCHFPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDCHFPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15771,11 +15771,11 @@ _USDCHFPI = _USDCHFPI()
 """
     name: .USDCHFPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15783,19 +15783,19 @@ class _EURCHFPI(NamedTuple):
     """
         name: .EURCHFPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURCHFPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15817,11 +15817,11 @@ _EURCHFPI = _EURCHFPI()
 """
     name: .EURCHFPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15829,19 +15829,19 @@ class _EURTRYPI(NamedTuple):
     """
         name: .EURTRYPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURTRYPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15863,11 +15863,11 @@ _EURTRYPI = _EURTRYPI()
 """
     name: .EURTRYPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15875,19 +15875,19 @@ class _USDTRYPI(NamedTuple):
     """
         name: .USDTRYPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTRYPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15909,11 +15909,11 @@ _USDTRYPI = _USDTRYPI()
 """
     name: .USDTRYPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15921,19 +15921,19 @@ class _USDINRPI(NamedTuple):
     """
         name: .USDINRPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDINRPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15955,11 +15955,11 @@ _USDINRPI = _USDINRPI()
 """
     name: .USDINRPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -15967,19 +15967,19 @@ class _USDZARPI(NamedTuple):
     """
         name: .USDZARPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDZARPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16001,11 +16001,11 @@ _USDZARPI = _USDZARPI()
 """
     name: .USDZARPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16013,19 +16013,19 @@ class _USDBRLPI(NamedTuple):
     """
         name: .USDBRLPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDBRLPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16047,11 +16047,11 @@ _USDBRLPI = _USDBRLPI()
 """
     name: .USDBRLPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16059,19 +16059,19 @@ class _USDMXNPI(NamedTuple):
     """
         name: .USDMXNPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDMXNPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16093,11 +16093,11 @@ _USDMXNPI = _USDMXNPI()
 """
     name: .USDMXNPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16105,19 +16105,19 @@ class _NZDUSDPI(NamedTuple):
     """
         name: .NZDUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16139,11 +16139,11 @@ _NZDUSDPI = _NZDUSDPI()
 """
     name: .NZDUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16151,19 +16151,19 @@ class _USDCNHPI(NamedTuple):
     """
         name: .USDCNHPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDCNHPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16185,11 +16185,11 @@ _USDCNHPI = _USDCNHPI()
 """
     name: .USDCNHPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16197,19 +16197,19 @@ class _USDSEKPI(NamedTuple):
     """
         name: .USDSEKPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDSEKPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16231,11 +16231,11 @@ _USDSEKPI = _USDSEKPI()
 """
     name: .USDSEKPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16243,19 +16243,19 @@ class _EURUSDPI8H(NamedTuple):
     """
         name: .EURUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16277,11 +16277,11 @@ _EURUSDPI8H = _EURUSDPI8H()
 """
     name: .EURUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16289,19 +16289,19 @@ class _USDCHFPI8H(NamedTuple):
     """
         name: .USDCHFPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDCHFPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16323,11 +16323,11 @@ _USDCHFPI8H = _USDCHFPI8H()
 """
     name: .USDCHFPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16335,19 +16335,19 @@ class _EURCHFPI8H(NamedTuple):
     """
         name: .EURCHFPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURCHFPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16369,11 +16369,11 @@ _EURCHFPI8H = _EURCHFPI8H()
 """
     name: .EURCHFPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16381,19 +16381,19 @@ class _EURTRYPI8H(NamedTuple):
     """
         name: .EURTRYPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURTRYPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16415,11 +16415,11 @@ _EURTRYPI8H = _EURTRYPI8H()
 """
     name: .EURTRYPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16427,19 +16427,19 @@ class _USDTRYPI8H(NamedTuple):
     """
         name: .USDTRYPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTRYPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16461,11 +16461,11 @@ _USDTRYPI8H = _USDTRYPI8H()
 """
     name: .USDTRYPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16473,19 +16473,19 @@ class _USDINRPI8H(NamedTuple):
     """
         name: .USDINRPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDINRPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16507,11 +16507,11 @@ _USDINRPI8H = _USDINRPI8H()
 """
     name: .USDINRPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16519,19 +16519,19 @@ class _USDZARPI8H(NamedTuple):
     """
         name: .USDZARPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDZARPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16553,11 +16553,11 @@ _USDZARPI8H = _USDZARPI8H()
 """
     name: .USDZARPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16565,19 +16565,19 @@ class _USDBRLPI8H(NamedTuple):
     """
         name: .USDBRLPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDBRLPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16599,11 +16599,11 @@ _USDBRLPI8H = _USDBRLPI8H()
 """
     name: .USDBRLPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16611,19 +16611,19 @@ class _USDMXNPI8H(NamedTuple):
     """
         name: .USDMXNPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDMXNPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16645,11 +16645,11 @@ _USDMXNPI8H = _USDMXNPI8H()
 """
     name: .USDMXNPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16657,19 +16657,19 @@ class _NZDUSDPI8H(NamedTuple):
     """
         name: .NZDUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16691,11 +16691,11 @@ _NZDUSDPI8H = _NZDUSDPI8H()
 """
     name: .NZDUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16703,19 +16703,19 @@ class _USDCNHPI8H(NamedTuple):
     """
         name: .USDCNHPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDCNHPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16737,11 +16737,11 @@ _USDCNHPI8H = _USDCNHPI8H()
 """
     name: .USDCNHPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16749,19 +16749,19 @@ class _USDSEKPI8H(NamedTuple):
     """
         name: .USDSEKPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDSEKPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16783,11 +16783,11 @@ _USDSEKPI8H = _USDSEKPI8H()
 """
     name: .USDSEKPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16795,19 +16795,19 @@ class _EURUSDTPI(NamedTuple):
     """
         name: .EURUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16829,11 +16829,11 @@ _EURUSDTPI = _EURUSDTPI()
 """
     name: .EURUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16841,19 +16841,19 @@ class _USDTCHFPI(NamedTuple):
     """
         name: .USDTCHFPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTCHFPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16875,11 +16875,11 @@ _USDTCHFPI = _USDTCHFPI()
 """
     name: .USDTCHFPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16887,19 +16887,19 @@ class _USDTTRYPI(NamedTuple):
     """
         name: .USDTTRYPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTTRYPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16921,11 +16921,11 @@ _USDTTRYPI = _USDTTRYPI()
 """
     name: .USDTTRYPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16933,19 +16933,19 @@ class _USDTINRPI(NamedTuple):
     """
         name: .USDTINRPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTINRPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16967,11 +16967,11 @@ _USDTINRPI = _USDTINRPI()
 """
     name: .USDTINRPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -16979,19 +16979,19 @@ class _USDTZARPI(NamedTuple):
     """
         name: .USDTZARPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTZARPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17013,11 +17013,11 @@ _USDTZARPI = _USDTZARPI()
 """
     name: .USDTZARPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17025,19 +17025,19 @@ class _USDTBRLPI(NamedTuple):
     """
         name: .USDTBRLPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTBRLPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17059,11 +17059,11 @@ _USDTBRLPI = _USDTBRLPI()
 """
     name: .USDTBRLPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17071,19 +17071,19 @@ class _USDTMXNPI(NamedTuple):
     """
         name: .USDTMXNPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTMXNPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17105,11 +17105,11 @@ _USDTMXNPI = _USDTMXNPI()
 """
     name: .USDTMXNPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17117,19 +17117,19 @@ class _NZDUSDTPI(NamedTuple):
     """
         name: .NZDUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17151,11 +17151,11 @@ _NZDUSDTPI = _NZDUSDTPI()
 """
     name: .NZDUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17163,19 +17163,19 @@ class _USDTCNHPI(NamedTuple):
     """
         name: .USDTCNHPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTCNHPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17197,11 +17197,11 @@ _USDTCNHPI = _USDTCNHPI()
 """
     name: .USDTCNHPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17209,19 +17209,19 @@ class _USDTSEKPI(NamedTuple):
     """
         name: .USDTSEKPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTSEKPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17243,11 +17243,11 @@ _USDTSEKPI = _USDTSEKPI()
 """
     name: .USDTSEKPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17255,19 +17255,19 @@ class _EURUSDTPI8H(NamedTuple):
     """
         name: .EURUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".EURUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17289,11 +17289,11 @@ _EURUSDTPI8H = _EURUSDTPI8H()
 """
     name: .EURUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17301,19 +17301,19 @@ class _USDTCHFPI8H(NamedTuple):
     """
         name: .USDTCHFPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTCHFPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17335,11 +17335,11 @@ _USDTCHFPI8H = _USDTCHFPI8H()
 """
     name: .USDTCHFPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17347,19 +17347,19 @@ class _USDTTRYPI8H(NamedTuple):
     """
         name: .USDTTRYPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTTRYPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17381,11 +17381,11 @@ _USDTTRYPI8H = _USDTTRYPI8H()
 """
     name: .USDTTRYPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17393,19 +17393,19 @@ class _USDTINRPI8H(NamedTuple):
     """
         name: .USDTINRPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTINRPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17427,11 +17427,11 @@ _USDTINRPI8H = _USDTINRPI8H()
 """
     name: .USDTINRPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17439,19 +17439,19 @@ class _USDTZARPI8H(NamedTuple):
     """
         name: .USDTZARPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTZARPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17473,11 +17473,11 @@ _USDTZARPI8H = _USDTZARPI8H()
 """
     name: .USDTZARPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17485,19 +17485,19 @@ class _USDTBRLPI8H(NamedTuple):
     """
         name: .USDTBRLPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTBRLPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17519,11 +17519,11 @@ _USDTBRLPI8H = _USDTBRLPI8H()
 """
     name: .USDTBRLPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17531,19 +17531,19 @@ class _USDTMXNPI8H(NamedTuple):
     """
         name: .USDTMXNPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTMXNPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17565,11 +17565,11 @@ _USDTMXNPI8H = _USDTMXNPI8H()
 """
     name: .USDTMXNPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17577,19 +17577,19 @@ class _NZDUSDTPI8H(NamedTuple):
     """
         name: .NZDUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17611,11 +17611,11 @@ _NZDUSDTPI8H = _NZDUSDTPI8H()
 """
     name: .NZDUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17623,19 +17623,19 @@ class _USDTCNHPI8H(NamedTuple):
     """
         name: .USDTCNHPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTCNHPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17657,11 +17657,11 @@ _USDTCNHPI8H = _USDTCNHPI8H()
 """
     name: .USDTCNHPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17669,19 +17669,19 @@ class _USDTSEKPI8H(NamedTuple):
     """
         name: .USDTSEKPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDTSEKPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17703,11 +17703,11 @@ _USDTSEKPI8H = _USDTSEKPI8H()
 """
     name: .USDTSEKPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17715,19 +17715,19 @@ class _CHFBON(NamedTuple):
     """
         name: .CHFBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CHFBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17749,11 +17749,11 @@ _CHFBON = _CHFBON()
 """
     name: .CHFBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17761,19 +17761,19 @@ class _TRYBON(NamedTuple):
     """
         name: .TRYBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRYBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17795,11 +17795,11 @@ _TRYBON = _TRYBON()
 """
     name: .TRYBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17807,19 +17807,19 @@ class _INRBON(NamedTuple):
     """
         name: .INRBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".INRBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17841,11 +17841,11 @@ _INRBON = _INRBON()
 """
     name: .INRBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17853,19 +17853,19 @@ class _ZARBON(NamedTuple):
     """
         name: .ZARBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ZARBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17887,11 +17887,11 @@ _ZARBON = _ZARBON()
 """
     name: .ZARBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17899,19 +17899,19 @@ class _BRLBON(NamedTuple):
     """
         name: .BRLBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BRLBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17933,11 +17933,11 @@ _BRLBON = _BRLBON()
 """
     name: .BRLBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17945,19 +17945,19 @@ class _MXNBON(NamedTuple):
     """
         name: .MXNBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MXNBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17979,11 +17979,11 @@ _MXNBON = _MXNBON()
 """
     name: .MXNBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -17991,19 +17991,19 @@ class _NZDBON(NamedTuple):
     """
         name: .NZDBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18025,11 +18025,11 @@ _NZDBON = _NZDBON()
 """
     name: .NZDBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18037,19 +18037,19 @@ class _CNHBON(NamedTuple):
     """
         name: .CNHBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CNHBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18071,11 +18071,11 @@ _CNHBON = _CNHBON()
 """
     name: .CNHBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18083,19 +18083,19 @@ class _SEKBON(NamedTuple):
     """
         name: .SEKBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SEKBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18117,11 +18117,11 @@ _SEKBON = _SEKBON()
 """
     name: .SEKBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18129,19 +18129,19 @@ class _CHFBON8H(NamedTuple):
     """
         name: .CHFBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CHFBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18163,11 +18163,11 @@ _CHFBON8H = _CHFBON8H()
 """
     name: .CHFBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18175,19 +18175,19 @@ class _TRYBON8H(NamedTuple):
     """
         name: .TRYBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".TRYBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18209,11 +18209,11 @@ _TRYBON8H = _TRYBON8H()
 """
     name: .TRYBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18221,19 +18221,19 @@ class _INRBON8H(NamedTuple):
     """
         name: .INRBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".INRBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18255,11 +18255,11 @@ _INRBON8H = _INRBON8H()
 """
     name: .INRBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18267,19 +18267,19 @@ class _ZARBON8H(NamedTuple):
     """
         name: .ZARBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ZARBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18301,11 +18301,11 @@ _ZARBON8H = _ZARBON8H()
 """
     name: .ZARBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18313,19 +18313,19 @@ class _BRLBON8H(NamedTuple):
     """
         name: .BRLBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BRLBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18347,11 +18347,11 @@ _BRLBON8H = _BRLBON8H()
 """
     name: .BRLBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18359,19 +18359,19 @@ class _MXNBON8H(NamedTuple):
     """
         name: .MXNBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".MXNBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18393,11 +18393,11 @@ _MXNBON8H = _MXNBON8H()
 """
     name: .MXNBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18405,19 +18405,19 @@ class _NZDBON8H(NamedTuple):
     """
         name: .NZDBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".NZDBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18439,11 +18439,11 @@ _NZDBON8H = _NZDBON8H()
 """
     name: .NZDBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18451,19 +18451,19 @@ class _CNHBON8H(NamedTuple):
     """
         name: .CNHBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CNHBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18485,11 +18485,11 @@ _CNHBON8H = _CNHBON8H()
 """
     name: .CNHBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18497,19 +18497,19 @@ class _SEKBON8H(NamedTuple):
     """
         name: .SEKBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".SEKBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18531,11 +18531,11 @@ _SEKBON8H = _SEKBON8H()
 """
     name: .SEKBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18543,19 +18543,19 @@ class _BEURUSD(NamedTuple):
     """
         name: .BEURUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18577,11 +18577,11 @@ _BEURUSD = _BEURUSD()
 """
     name: .BEURUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18589,19 +18589,19 @@ class _BUSDCHF(NamedTuple):
     """
         name: .BUSDCHF
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCHF"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18623,11 +18623,11 @@ _BUSDCHF = _BUSDCHF()
 """
     name: .BUSDCHF
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18635,19 +18635,19 @@ class _BEURCHF(NamedTuple):
     """
         name: .BEURCHF
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURCHF"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18669,11 +18669,11 @@ _BEURCHF = _BEURCHF()
 """
     name: .BEURCHF
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18681,19 +18681,19 @@ class _BEURTRY(NamedTuple):
     """
         name: .BEURTRY
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURTRY"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18715,11 +18715,11 @@ _BEURTRY = _BEURTRY()
 """
     name: .BEURTRY
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18727,19 +18727,19 @@ class _BUSDTRY(NamedTuple):
     """
         name: .BUSDTRY
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTRY"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18761,11 +18761,11 @@ _BUSDTRY = _BUSDTRY()
 """
     name: .BUSDTRY
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18773,19 +18773,19 @@ class _BUSDINR(NamedTuple):
     """
         name: .BUSDINR
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDINR"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18807,11 +18807,11 @@ _BUSDINR = _BUSDINR()
 """
     name: .BUSDINR
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18819,19 +18819,19 @@ class _BUSDZAR(NamedTuple):
     """
         name: .BUSDZAR
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDZAR"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18853,11 +18853,11 @@ _BUSDZAR = _BUSDZAR()
 """
     name: .BUSDZAR
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18865,19 +18865,19 @@ class _BUSDBRL(NamedTuple):
     """
         name: .BUSDBRL
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDBRL"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18899,11 +18899,11 @@ _BUSDBRL = _BUSDBRL()
 """
     name: .BUSDBRL
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18911,19 +18911,19 @@ class _BUSDMXN(NamedTuple):
     """
         name: .BUSDMXN
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDMXN"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18945,11 +18945,11 @@ _BUSDMXN = _BUSDMXN()
 """
     name: .BUSDMXN
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -18957,19 +18957,19 @@ class _BNZDUSD(NamedTuple):
     """
         name: .BNZDUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18991,11 +18991,11 @@ _BNZDUSD = _BNZDUSD()
 """
     name: .BNZDUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19003,19 +19003,19 @@ class _BUSDCNH(NamedTuple):
     """
         name: .BUSDCNH
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCNH"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19037,11 +19037,11 @@ _BUSDCNH = _BUSDCNH()
 """
     name: .BUSDCNH
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19049,19 +19049,19 @@ class _BUSDSEK(NamedTuple):
     """
         name: .BUSDSEK
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDSEK"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19083,11 +19083,11 @@ _BUSDSEK = _BUSDSEK()
 """
     name: .BUSDSEK
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19095,19 +19095,19 @@ class _BEURUSD_NEXT(NamedTuple):
     """
         name: .BEURUSD_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSD_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19129,11 +19129,11 @@ _BEURUSD_NEXT = _BEURUSD_NEXT()
 """
     name: .BEURUSD_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19141,19 +19141,19 @@ class _BUSDCHF_NEXT(NamedTuple):
     """
         name: .BUSDCHF_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCHF_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19175,11 +19175,11 @@ _BUSDCHF_NEXT = _BUSDCHF_NEXT()
 """
     name: .BUSDCHF_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19187,19 +19187,19 @@ class _BEURCHF_NEXT(NamedTuple):
     """
         name: .BEURCHF_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURCHF_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19221,11 +19221,11 @@ _BEURCHF_NEXT = _BEURCHF_NEXT()
 """
     name: .BEURCHF_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19233,19 +19233,19 @@ class _BEURTRY_NEXT(NamedTuple):
     """
         name: .BEURTRY_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURTRY_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19267,11 +19267,11 @@ _BEURTRY_NEXT = _BEURTRY_NEXT()
 """
     name: .BEURTRY_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19279,19 +19279,19 @@ class _BUSDTRY_NEXT(NamedTuple):
     """
         name: .BUSDTRY_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTRY_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19313,11 +19313,11 @@ _BUSDTRY_NEXT = _BUSDTRY_NEXT()
 """
     name: .BUSDTRY_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19325,19 +19325,19 @@ class _BUSDINR_NEXT(NamedTuple):
     """
         name: .BUSDINR_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDINR_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19359,11 +19359,11 @@ _BUSDINR_NEXT = _BUSDINR_NEXT()
 """
     name: .BUSDINR_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19371,19 +19371,19 @@ class _BUSDZAR_NEXT(NamedTuple):
     """
         name: .BUSDZAR_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDZAR_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19405,11 +19405,11 @@ _BUSDZAR_NEXT = _BUSDZAR_NEXT()
 """
     name: .BUSDZAR_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19417,19 +19417,19 @@ class _BUSDBRL_NEXT(NamedTuple):
     """
         name: .BUSDBRL_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDBRL_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19451,11 +19451,11 @@ _BUSDBRL_NEXT = _BUSDBRL_NEXT()
 """
     name: .BUSDBRL_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19463,19 +19463,19 @@ class _BUSDMXN_NEXT(NamedTuple):
     """
         name: .BUSDMXN_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDMXN_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19497,11 +19497,11 @@ _BUSDMXN_NEXT = _BUSDMXN_NEXT()
 """
     name: .BUSDMXN_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19509,19 +19509,19 @@ class _BNZDUSD_NEXT(NamedTuple):
     """
         name: .BNZDUSD_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSD_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19543,11 +19543,11 @@ _BNZDUSD_NEXT = _BNZDUSD_NEXT()
 """
     name: .BNZDUSD_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19555,19 +19555,19 @@ class _BUSDCNH_NEXT(NamedTuple):
     """
         name: .BUSDCNH_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCNH_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19589,11 +19589,11 @@ _BUSDCNH_NEXT = _BUSDCNH_NEXT()
 """
     name: .BUSDCNH_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19601,19 +19601,19 @@ class _BUSDSEK_NEXT(NamedTuple):
     """
         name: .BUSDSEK_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDSEK_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19635,11 +19635,11 @@ _BUSDSEK_NEXT = _BUSDSEK_NEXT()
 """
     name: .BUSDSEK_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19647,19 +19647,19 @@ class _BEURUSDT(NamedTuple):
     """
         name: .BEURUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19681,11 +19681,11 @@ _BEURUSDT = _BEURUSDT()
 """
     name: .BEURUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19693,19 +19693,19 @@ class _BUSDTCHF(NamedTuple):
     """
         name: .BUSDTCHF
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCHF"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19727,11 +19727,11 @@ _BUSDTCHF = _BUSDTCHF()
 """
     name: .BUSDTCHF
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19739,19 +19739,19 @@ class _BUSDTTRY(NamedTuple):
     """
         name: .BUSDTTRY
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTTRY"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19773,11 +19773,11 @@ _BUSDTTRY = _BUSDTTRY()
 """
     name: .BUSDTTRY
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19785,19 +19785,19 @@ class _BUSDTINR(NamedTuple):
     """
         name: .BUSDTINR
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTINR"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19819,11 +19819,11 @@ _BUSDTINR = _BUSDTINR()
 """
     name: .BUSDTINR
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19831,19 +19831,19 @@ class _BUSDTZAR(NamedTuple):
     """
         name: .BUSDTZAR
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTZAR"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19865,11 +19865,11 @@ _BUSDTZAR = _BUSDTZAR()
 """
     name: .BUSDTZAR
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19877,19 +19877,19 @@ class _BUSDTBRL(NamedTuple):
     """
         name: .BUSDTBRL
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTBRL"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19911,11 +19911,11 @@ _BUSDTBRL = _BUSDTBRL()
 """
     name: .BUSDTBRL
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19923,19 +19923,19 @@ class _BUSDTMXN(NamedTuple):
     """
         name: .BUSDTMXN
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTMXN"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19957,11 +19957,11 @@ _BUSDTMXN = _BUSDTMXN()
 """
     name: .BUSDTMXN
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -19969,19 +19969,19 @@ class _BNZDUSDT(NamedTuple):
     """
         name: .BNZDUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20003,11 +20003,11 @@ _BNZDUSDT = _BNZDUSDT()
 """
     name: .BNZDUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20015,19 +20015,19 @@ class _BUSDTCNH(NamedTuple):
     """
         name: .BUSDTCNH
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCNH"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20049,11 +20049,11 @@ _BUSDTCNH = _BUSDTCNH()
 """
     name: .BUSDTCNH
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20061,19 +20061,19 @@ class _BUSDTSEK(NamedTuple):
     """
         name: .BUSDTSEK
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTSEK"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20095,11 +20095,11 @@ _BUSDTSEK = _BUSDTSEK()
 """
     name: .BUSDTSEK
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20107,19 +20107,19 @@ class _BEURUSDT_NEXT(NamedTuple):
     """
         name: .BEURUSDT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSDT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20141,11 +20141,11 @@ _BEURUSDT_NEXT = _BEURUSDT_NEXT()
 """
     name: .BEURUSDT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20153,19 +20153,19 @@ class _BUSDTCHF_NEXT(NamedTuple):
     """
         name: .BUSDTCHF_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCHF_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20187,11 +20187,11 @@ _BUSDTCHF_NEXT = _BUSDTCHF_NEXT()
 """
     name: .BUSDTCHF_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20199,19 +20199,19 @@ class _BUSDTTRY_NEXT(NamedTuple):
     """
         name: .BUSDTTRY_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTTRY_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20233,11 +20233,11 @@ _BUSDTTRY_NEXT = _BUSDTTRY_NEXT()
 """
     name: .BUSDTTRY_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20245,19 +20245,19 @@ class _BUSDTINR_NEXT(NamedTuple):
     """
         name: .BUSDTINR_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTINR_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20279,11 +20279,11 @@ _BUSDTINR_NEXT = _BUSDTINR_NEXT()
 """
     name: .BUSDTINR_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20291,19 +20291,19 @@ class _BUSDTZAR_NEXT(NamedTuple):
     """
         name: .BUSDTZAR_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTZAR_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20325,11 +20325,11 @@ _BUSDTZAR_NEXT = _BUSDTZAR_NEXT()
 """
     name: .BUSDTZAR_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20337,19 +20337,19 @@ class _BUSDTBRL_NEXT(NamedTuple):
     """
         name: .BUSDTBRL_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTBRL_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20371,11 +20371,11 @@ _BUSDTBRL_NEXT = _BUSDTBRL_NEXT()
 """
     name: .BUSDTBRL_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20383,19 +20383,19 @@ class _BUSDTMXN_NEXT(NamedTuple):
     """
         name: .BUSDTMXN_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTMXN_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20417,11 +20417,11 @@ _BUSDTMXN_NEXT = _BUSDTMXN_NEXT()
 """
     name: .BUSDTMXN_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20429,19 +20429,19 @@ class _BNZDUSDT_NEXT(NamedTuple):
     """
         name: .BNZDUSDT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSDT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20463,11 +20463,11 @@ _BNZDUSDT_NEXT = _BNZDUSDT_NEXT()
 """
     name: .BNZDUSDT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20475,19 +20475,19 @@ class _BUSDTCNH_NEXT(NamedTuple):
     """
         name: .BUSDTCNH_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCNH_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20509,11 +20509,11 @@ _BUSDTCNH_NEXT = _BUSDTCNH_NEXT()
 """
     name: .BUSDTCNH_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20521,19 +20521,19 @@ class _BUSDTSEK_NEXT(NamedTuple):
     """
         name: .BUSDTSEK_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTSEK_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20555,11 +20555,11 @@ _BUSDTSEK_NEXT = _BUSDTSEK_NEXT()
 """
     name: .BUSDTSEK_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20567,19 +20567,19 @@ class _BOP(NamedTuple):
     """
         name: .BOP
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOP"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20601,11 +20601,11 @@ _BOP = _BOP()
 """
     name: .BOP
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20613,19 +20613,19 @@ class _BOP_NEXT(NamedTuple):
     """
         name: .BOP_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOP_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20647,11 +20647,11 @@ _BOP_NEXT = _BOP_NEXT()
 """
     name: .BOP_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20659,19 +20659,19 @@ class _BOPT(NamedTuple):
     """
         name: .BOPT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOPT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20693,11 +20693,11 @@ _BOPT = _BOPT()
 """
     name: .BOPT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20705,19 +20705,19 @@ class _BOPT_NEXT(NamedTuple):
     """
         name: .BOPT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOPT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20739,11 +20739,11 @@ _BOPT_NEXT = _BOPT_NEXT()
 """
     name: .BOPT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20751,19 +20751,19 @@ class _OPBON(NamedTuple):
     """
         name: .OPBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20785,11 +20785,11 @@ _OPBON = _OPBON()
 """
     name: .OPBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20797,19 +20797,19 @@ class _OPBON8H(NamedTuple):
     """
         name: .OPBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20831,11 +20831,11 @@ _OPBON8H = _OPBON8H()
 """
     name: .OPBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20843,19 +20843,19 @@ class _OPUSDTPI(NamedTuple):
     """
         name: .OPUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20877,11 +20877,11 @@ _OPUSDTPI = _OPUSDTPI()
 """
     name: .OPUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20889,19 +20889,19 @@ class _OPUSDTPI8H(NamedTuple):
     """
         name: .OPUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20923,11 +20923,11 @@ _OPUSDTPI8H = _OPUSDTPI8H()
 """
     name: .OPUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20935,19 +20935,19 @@ class _OPUSDPI(NamedTuple):
     """
         name: .OPUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20969,11 +20969,11 @@ _OPUSDPI = _OPUSDPI()
 """
     name: .OPUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -20981,19 +20981,19 @@ class _OPUSDPI8H(NamedTuple):
     """
         name: .OPUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".OPUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21015,11 +21015,11 @@ _OPUSDPI8H = _OPUSDPI8H()
 """
     name: .OPUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21027,19 +21027,19 @@ class _BUSDC(NamedTuple):
     """
         name: .BUSDC
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDC"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21061,11 +21061,11 @@ _BUSDC = _BUSDC()
 """
     name: .BUSDC
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21073,19 +21073,19 @@ class _BUSDCT(NamedTuple):
     """
         name: .BUSDCT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21107,11 +21107,11 @@ _BUSDCT = _BUSDCT()
 """
     name: .BUSDCT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21119,19 +21119,19 @@ class _BETHPOWT(NamedTuple):
     """
         name: .BETHPOWT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHPOWT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21153,11 +21153,11 @@ _BETHPOWT = _BETHPOWT()
 """
     name: .BETHPOWT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21165,19 +21165,19 @@ class _BETHPOWT_NEXT(NamedTuple):
     """
         name: .BETHPOWT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHPOWT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21199,11 +21199,11 @@ _BETHPOWT_NEXT = _BETHPOWT_NEXT()
 """
     name: .BETHPOWT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21211,19 +21211,19 @@ class _BETHPOWT30M(NamedTuple):
     """
         name: .BETHPOWT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHPOWT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21245,11 +21245,11 @@ _BETHPOWT30M = _BETHPOWT30M()
 """
     name: .BETHPOWT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21257,19 +21257,19 @@ class _BALTMEXT30M(NamedTuple):
     """
         name: .BALTMEXT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BALTMEXT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21291,11 +21291,11 @@ _BALTMEXT30M = _BALTMEXT30M()
 """
     name: .BALTMEXT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21303,19 +21303,19 @@ class _BDEFIMEXT30M(NamedTuple):
     """
         name: .BDEFIMEXT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDEFIMEXT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21337,11 +21337,11 @@ _BDEFIMEXT30M = _BDEFIMEXT30M()
 """
     name: .BDEFIMEXT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21349,19 +21349,19 @@ class _BMETAMEXT30M(NamedTuple):
     """
         name: .BMETAMEXT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMETAMEXT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21383,11 +21383,11 @@ _BMETAMEXT30M = _BMETAMEXT30M()
 """
     name: .BMETAMEXT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21395,19 +21395,19 @@ class _BUSDC_NEXT(NamedTuple):
     """
         name: .BUSDC_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDC_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21429,11 +21429,11 @@ _BUSDC_NEXT = _BUSDC_NEXT()
 """
     name: .BUSDC_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21441,19 +21441,19 @@ class _BUSDCT_NEXT(NamedTuple):
     """
         name: .BUSDCT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21475,11 +21475,11 @@ _BUSDCT_NEXT = _BUSDCT_NEXT()
 """
     name: .BUSDCT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21487,19 +21487,19 @@ class _BKLAY(NamedTuple):
     """
         name: .BKLAY
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BKLAY"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21521,11 +21521,11 @@ _BKLAY = _BKLAY()
 """
     name: .BKLAY
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21533,19 +21533,19 @@ class _BKLAY_NEXT(NamedTuple):
     """
         name: .BKLAY_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BKLAY_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21567,11 +21567,11 @@ _BKLAY_NEXT = _BKLAY_NEXT()
 """
     name: .BKLAY_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21579,19 +21579,19 @@ class _BKLAYT(NamedTuple):
     """
         name: .BKLAYT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BKLAYT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21613,11 +21613,11 @@ _BKLAYT = _BKLAYT()
 """
     name: .BKLAYT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21625,19 +21625,19 @@ class _BKLAYT_NEXT(NamedTuple):
     """
         name: .BKLAYT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BKLAYT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21659,11 +21659,11 @@ _BKLAYT_NEXT = _BKLAYT_NEXT()
 """
     name: .BKLAYT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21671,19 +21671,19 @@ class _KLAYUSDTPI(NamedTuple):
     """
         name: .KLAYUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21705,11 +21705,11 @@ _KLAYUSDTPI = _KLAYUSDTPI()
 """
     name: .KLAYUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21717,19 +21717,19 @@ class _KLAYUSDTPI8H(NamedTuple):
     """
         name: .KLAYUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21751,11 +21751,11 @@ _KLAYUSDTPI8H = _KLAYUSDTPI8H()
 """
     name: .KLAYUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21763,19 +21763,19 @@ class _KLAYUSDPI(NamedTuple):
     """
         name: .KLAYUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21797,11 +21797,11 @@ _KLAYUSDPI = _KLAYUSDPI()
 """
     name: .KLAYUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21809,19 +21809,19 @@ class _KLAYUSDPI8H(NamedTuple):
     """
         name: .KLAYUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21843,11 +21843,11 @@ _KLAYUSDPI8H = _KLAYUSDPI8H()
 """
     name: .KLAYUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21855,19 +21855,19 @@ class _KLAYBON(NamedTuple):
     """
         name: .KLAYBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21889,11 +21889,11 @@ _KLAYBON = _KLAYBON()
 """
     name: .KLAYBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21901,19 +21901,19 @@ class _KLAYBON8H(NamedTuple):
     """
         name: .KLAYBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".KLAYBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21935,11 +21935,11 @@ _KLAYBON8H = _KLAYBON8H()
 """
     name: .KLAYBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21947,19 +21947,19 @@ class _BSTETH(NamedTuple):
     """
         name: .BSTETH
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSTETH"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21981,11 +21981,11 @@ _BSTETH = _BSTETH()
 """
     name: .BSTETH
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -21993,19 +21993,19 @@ class _BSTETHT(NamedTuple):
     """
         name: .BSTETHT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSTETHT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22027,11 +22027,11 @@ _BSTETHT = _BSTETHT()
 """
     name: .BSTETHT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22039,19 +22039,19 @@ class _BDAI(NamedTuple):
     """
         name: .BDAI
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDAI"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22073,11 +22073,11 @@ _BDAI = _BDAI()
 """
     name: .BDAI
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22085,19 +22085,19 @@ class _BDAIT(NamedTuple):
     """
         name: .BDAIT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BDAIT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22119,11 +22119,11 @@ _BDAIT = _BDAIT()
 """
     name: .BDAIT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22131,19 +22131,19 @@ class _BBUSD(NamedTuple):
     """
         name: .BBUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22165,11 +22165,11 @@ _BBUSD = _BBUSD()
 """
     name: .BBUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22177,19 +22177,19 @@ class _BBUSDT(NamedTuple):
     """
         name: .BBUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22211,11 +22211,11 @@ _BBUSDT = _BBUSDT()
 """
     name: .BBUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22223,19 +22223,19 @@ class _BWBTC(NamedTuple):
     """
         name: .BWBTC
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BWBTC"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22257,11 +22257,11 @@ _BWBTC = _BWBTC()
 """
     name: .BWBTC
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22269,19 +22269,19 @@ class _BWBTCT(NamedTuple):
     """
         name: .BWBTCT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BWBTCT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22303,11 +22303,11 @@ _BWBTCT = _BWBTCT()
 """
     name: .BWBTCT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22315,19 +22315,19 @@ class _BCRO(NamedTuple):
     """
         name: .BCRO
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCRO"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22349,11 +22349,11 @@ _BCRO = _BCRO()
 """
     name: .BCRO
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22361,19 +22361,19 @@ class _BCROT(NamedTuple):
     """
         name: .BCROT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BCROT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22395,11 +22395,11 @@ _BCROT = _BCROT()
 """
     name: .BCROT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22407,19 +22407,19 @@ class _BQNT(NamedTuple):
     """
         name: .BQNT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BQNT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22441,11 +22441,11 @@ _BQNT = _BQNT()
 """
     name: .BQNT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22453,19 +22453,19 @@ class _BQNTT(NamedTuple):
     """
         name: .BQNTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BQNTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22487,11 +22487,11 @@ _BQNTT = _BQNTT()
 """
     name: .BQNTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22499,19 +22499,19 @@ class _BOKB(NamedTuple):
     """
         name: .BOKB
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOKB"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22533,11 +22533,11 @@ _BOKB = _BOKB()
 """
     name: .BOKB
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22545,19 +22545,19 @@ class _BOKBT(NamedTuple):
     """
         name: .BOKBT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOKBT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22579,11 +22579,11 @@ _BOKBT = _BOKBT()
 """
     name: .BOKBT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22591,19 +22591,19 @@ class _BLEO(NamedTuple):
     """
         name: .BLEO
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLEO"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22625,11 +22625,11 @@ _BLEO = _BLEO()
 """
     name: .BLEO
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22637,19 +22637,19 @@ class _BLEOT(NamedTuple):
     """
         name: .BLEOT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLEOT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22671,11 +22671,11 @@ _BLEOT = _BLEOT()
 """
     name: .BLEOT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22683,19 +22683,19 @@ class _BAAVE(NamedTuple):
     """
         name: .BAAVE
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAAVE"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22717,11 +22717,11 @@ _BAAVE = _BAAVE()
 """
     name: .BAAVE
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22729,19 +22729,19 @@ class _BMANA(NamedTuple):
     """
         name: .BMANA
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMANA"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22763,11 +22763,11 @@ _BMANA = _BMANA()
 """
     name: .BMANA
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22775,19 +22775,19 @@ class _BXLM(NamedTuple):
     """
         name: .BXLM
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXLM"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22809,11 +22809,11 @@ _BXLM = _BXLM()
 """
     name: .BXLM
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22821,19 +22821,19 @@ class _BVET(NamedTuple):
     """
         name: .BVET
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVET"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22855,11 +22855,11 @@ _BVET = _BVET()
 """
     name: .BVET
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22867,19 +22867,19 @@ class _BFIL(NamedTuple):
     """
         name: .BFIL
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFIL"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22901,11 +22901,11 @@ _BFIL = _BFIL()
 """
     name: .BFIL
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22913,19 +22913,19 @@ class _BXTZ(NamedTuple):
     """
         name: .BXTZ
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXTZ"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22947,11 +22947,11 @@ _BXTZ = _BXTZ()
 """
     name: .BXTZ
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -22959,19 +22959,19 @@ class _BMKR(NamedTuple):
     """
         name: .BMKR
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMKR"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22993,11 +22993,11 @@ _BMKR = _BMKR()
 """
     name: .BMKR
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23005,19 +23005,19 @@ class _BFLOW(NamedTuple):
     """
         name: .BFLOW
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLOW"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23039,11 +23039,11 @@ _BFLOW = _BFLOW()
 """
     name: .BFLOW
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23051,19 +23051,19 @@ class _BFLOWT(NamedTuple):
     """
         name: .BFLOWT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLOWT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23085,11 +23085,11 @@ _BFLOWT = _BFLOWT()
 """
     name: .BFLOWT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23097,19 +23097,19 @@ class _BHBAR(NamedTuple):
     """
         name: .BHBAR
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BHBAR"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23131,11 +23131,11 @@ _BHBAR = _BHBAR()
 """
     name: .BHBAR
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23143,19 +23143,19 @@ class _BHBART(NamedTuple):
     """
         name: .BHBART
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BHBART"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23177,11 +23177,11 @@ _BHBART = _BHBART()
 """
     name: .BHBART
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23189,19 +23189,19 @@ class _BEGLD(NamedTuple):
     """
         name: .BEGLD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEGLD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23223,11 +23223,11 @@ _BEGLD = _BEGLD()
 """
     name: .BEGLD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23235,19 +23235,19 @@ class _BEGLDT(NamedTuple):
     """
         name: .BEGLDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEGLDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23269,11 +23269,11 @@ _BEGLDT = _BEGLDT()
 """
     name: .BEGLDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23281,19 +23281,19 @@ class _BTUSD(NamedTuple):
     """
         name: .BTUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23315,11 +23315,11 @@ _BTUSD = _BTUSD()
 """
     name: .BTUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23327,19 +23327,19 @@ class _BTUSDT(NamedTuple):
     """
         name: .BTUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23361,11 +23361,11 @@ _BTUSDT = _BTUSDT()
 """
     name: .BTUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23373,19 +23373,19 @@ class _BUSDP(NamedTuple):
     """
         name: .BUSDP
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDP"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23407,11 +23407,11 @@ _BUSDP = _BUSDP()
 """
     name: .BUSDP
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23419,19 +23419,19 @@ class _BHNT(NamedTuple):
     """
         name: .BHNT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BHNT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23453,11 +23453,11 @@ _BHNT = _BHNT()
 """
     name: .BHNT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23465,19 +23465,19 @@ class _BHNTT(NamedTuple):
     """
         name: .BHNTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BHNTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23499,11 +23499,11 @@ _BHNTT = _BHNTT()
 """
     name: .BHNTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23511,19 +23511,19 @@ class _BIOTA(NamedTuple):
     """
         name: .BIOTA
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BIOTA"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23545,11 +23545,11 @@ _BIOTA = _BIOTA()
 """
     name: .BIOTA
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23557,19 +23557,19 @@ class _BIOTAT(NamedTuple):
     """
         name: .BIOTAT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BIOTAT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23591,11 +23591,11 @@ _BIOTAT = _BIOTAT()
 """
     name: .BIOTAT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23603,19 +23603,19 @@ class _BXEC(NamedTuple):
     """
         name: .BXEC
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXEC"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23637,11 +23637,11 @@ _BXEC = _BXEC()
 """
     name: .BXEC
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23649,19 +23649,19 @@ class _BXECT(NamedTuple):
     """
         name: .BXECT
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXECT"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23683,11 +23683,11 @@ _BXECT = _BXECT()
 """
     name: .BXECT
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23695,19 +23695,19 @@ class _BFTTT(NamedTuple):
     """
         name: .BFTTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23729,11 +23729,11 @@ _BFTTT = _BFTTT()
 """
     name: .BFTTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23741,19 +23741,19 @@ class _BUSDCHF30M(NamedTuple):
     """
         name: .BUSDCHF30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCHF30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23775,11 +23775,11 @@ _BUSDCHF30M = _BUSDCHF30M()
 """
     name: .BUSDCHF30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23787,19 +23787,19 @@ class _BEURCHF30M(NamedTuple):
     """
         name: .BEURCHF30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURCHF30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23821,11 +23821,11 @@ _BEURCHF30M = _BEURCHF30M()
 """
     name: .BEURCHF30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23833,19 +23833,19 @@ class _BEURTRY30M(NamedTuple):
     """
         name: .BEURTRY30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURTRY30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23867,11 +23867,11 @@ _BEURTRY30M = _BEURTRY30M()
 """
     name: .BEURTRY30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23879,19 +23879,19 @@ class _BUSDTRY30M(NamedTuple):
     """
         name: .BUSDTRY30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTRY30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23913,11 +23913,11 @@ _BUSDTRY30M = _BUSDTRY30M()
 """
     name: .BUSDTRY30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23925,19 +23925,19 @@ class _BUSDINR30M(NamedTuple):
     """
         name: .BUSDINR30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDINR30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23959,11 +23959,11 @@ _BUSDINR30M = _BUSDINR30M()
 """
     name: .BUSDINR30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -23971,19 +23971,19 @@ class _BUSDZAR30M(NamedTuple):
     """
         name: .BUSDZAR30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDZAR30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24005,11 +24005,11 @@ _BUSDZAR30M = _BUSDZAR30M()
 """
     name: .BUSDZAR30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24017,19 +24017,19 @@ class _BUSDBRL30M(NamedTuple):
     """
         name: .BUSDBRL30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDBRL30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24051,11 +24051,11 @@ _BUSDBRL30M = _BUSDBRL30M()
 """
     name: .BUSDBRL30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24063,19 +24063,19 @@ class _BUSDMXN30M(NamedTuple):
     """
         name: .BUSDMXN30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDMXN30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24097,11 +24097,11 @@ _BUSDMXN30M = _BUSDMXN30M()
 """
     name: .BUSDMXN30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24109,19 +24109,19 @@ class _BNZDUSD30M(NamedTuple):
     """
         name: .BNZDUSD30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSD30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24143,11 +24143,11 @@ _BNZDUSD30M = _BNZDUSD30M()
 """
     name: .BNZDUSD30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24155,19 +24155,19 @@ class _BUSDCNH30M(NamedTuple):
     """
         name: .BUSDCNH30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDCNH30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24189,11 +24189,11 @@ _BUSDCNH30M = _BUSDCNH30M()
 """
     name: .BUSDCNH30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24201,19 +24201,19 @@ class _BUSDSEK30M(NamedTuple):
     """
         name: .BUSDSEK30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDSEK30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24235,11 +24235,11 @@ _BUSDSEK30M = _BUSDSEK30M()
 """
     name: .BUSDSEK30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24247,19 +24247,19 @@ class _BUSDTCHF30M(NamedTuple):
     """
         name: .BUSDTCHF30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCHF30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24281,11 +24281,11 @@ _BUSDTCHF30M = _BUSDTCHF30M()
 """
     name: .BUSDTCHF30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24293,19 +24293,19 @@ class _BNZDUSDT30M(NamedTuple):
     """
         name: .BNZDUSDT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNZDUSDT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24327,11 +24327,11 @@ _BNZDUSDT30M = _BNZDUSDT30M()
 """
     name: .BNZDUSDT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24339,19 +24339,19 @@ class _BUSDTCNH30M(NamedTuple):
     """
         name: .BUSDTCNH30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTCNH30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24373,11 +24373,11 @@ _BUSDTCNH30M = _BUSDTCNH30M()
 """
     name: .BUSDTCNH30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24385,19 +24385,19 @@ class _BSANDT30M(NamedTuple):
     """
         name: .BSANDT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSANDT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24419,11 +24419,11 @@ _BSANDT30M = _BSANDT30M()
 """
     name: .BSANDT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24431,19 +24431,19 @@ class _BNEART30M(NamedTuple):
     """
         name: .BNEART30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BNEART30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24465,11 +24465,11 @@ _BNEART30M = _BNEART30M()
 """
     name: .BNEART30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24477,19 +24477,19 @@ class _BMANAT30M(NamedTuple):
     """
         name: .BMANAT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMANAT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24511,11 +24511,11 @@ _BMANAT30M = _BMANAT30M()
 """
     name: .BMANAT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24523,19 +24523,19 @@ class _BSHIBT30M(NamedTuple):
     """
         name: .BSHIBT30M
         precision: 1e-09
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BSHIBT30M"
     precision: int = 1e-09
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24557,11 +24557,11 @@ _BSHIBT30M = _BSHIBT30M()
 """
     name: .BSHIBT30M
     precision: 1e-09
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24569,19 +24569,19 @@ class _BOPT30M(NamedTuple):
     """
         name: .BOPT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOPT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24603,11 +24603,11 @@ _BOPT30M = _BOPT30M()
 """
     name: .BOPT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24615,19 +24615,19 @@ class _BGALT30M(NamedTuple):
     """
         name: .BGALT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGALT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24649,11 +24649,11 @@ _BGALT30M = _BGALT30M()
 """
     name: .BGALT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24661,19 +24661,19 @@ class _BGAL30M(NamedTuple):
     """
         name: .BGAL30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BGAL30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24695,11 +24695,11 @@ _BGAL30M = _BGAL30M()
 """
     name: .BGAL30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24707,19 +24707,19 @@ class _BTRX30M(NamedTuple):
     """
         name: .BTRX30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BTRX30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24741,11 +24741,11 @@ _BTRX30M = _BTRX30M()
 """
     name: .BTRX30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24753,19 +24753,19 @@ class _BOP30M(NamedTuple):
     """
         name: .BOP30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BOP30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24787,11 +24787,11 @@ _BOP30M = _BOP30M()
 """
     name: .BOP30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24799,19 +24799,19 @@ class _BAPE30M(NamedTuple):
     """
         name: .BAPE30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPE30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24833,11 +24833,11 @@ _BAPE30M = _BAPE30M()
 """
     name: .BAPE30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24845,19 +24845,19 @@ class _BFTMT30M(NamedTuple):
     """
         name: .BFTMT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTMT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24879,11 +24879,11 @@ _BFTMT30M = _BFTMT30M()
 """
     name: .BFTMT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24891,19 +24891,19 @@ class _BAPT(NamedTuple):
     """
         name: .BAPT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24925,11 +24925,11 @@ _BAPT = _BAPT()
 """
     name: .BAPT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24937,19 +24937,19 @@ class _BAPT_NEXT(NamedTuple):
     """
         name: .BAPT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24971,11 +24971,11 @@ _BAPT_NEXT = _BAPT_NEXT()
 """
     name: .BAPT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -24983,19 +24983,19 @@ class _BAPT30M(NamedTuple):
     """
         name: .BAPT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25017,11 +25017,11 @@ _BAPT30M = _BAPT30M()
 """
     name: .BAPT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25029,19 +25029,19 @@ class _BAPTT(NamedTuple):
     """
         name: .BAPTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25063,11 +25063,11 @@ _BAPTT = _BAPTT()
 """
     name: .BAPTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25075,19 +25075,19 @@ class _BAPTT_NEXT(NamedTuple):
     """
         name: .BAPTT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPTT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25109,11 +25109,11 @@ _BAPTT_NEXT = _BAPTT_NEXT()
 """
     name: .BAPTT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25121,19 +25121,19 @@ class _BAPTT30M(NamedTuple):
     """
         name: .BAPTT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BAPTT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25155,11 +25155,11 @@ _BAPTT30M = _BAPTT30M()
 """
     name: .BAPTT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25167,19 +25167,19 @@ class _APTBON(NamedTuple):
     """
         name: .APTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25201,11 +25201,11 @@ _APTBON = _APTBON()
 """
     name: .APTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25213,19 +25213,19 @@ class _APTBON8H(NamedTuple):
     """
         name: .APTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25247,11 +25247,11 @@ _APTBON8H = _APTBON8H()
 """
     name: .APTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25259,19 +25259,19 @@ class _APTUSDTPI(NamedTuple):
     """
         name: .APTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25293,11 +25293,11 @@ _APTUSDTPI = _APTUSDTPI()
 """
     name: .APTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25305,19 +25305,19 @@ class _APTUSDTPI8H(NamedTuple):
     """
         name: .APTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25339,11 +25339,11 @@ _APTUSDTPI8H = _APTUSDTPI8H()
 """
     name: .APTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25351,19 +25351,19 @@ class _APTUSDPI(NamedTuple):
     """
         name: .APTUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25385,11 +25385,11 @@ _APTUSDPI = _APTUSDPI()
 """
     name: .APTUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25397,19 +25397,19 @@ class _APTUSDPI8H(NamedTuple):
     """
         name: .APTUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".APTUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25431,11 +25431,11 @@ _APTUSDPI8H = _APTUSDPI8H()
 """
     name: .APTUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25443,19 +25443,19 @@ class _BFTT(NamedTuple):
     """
         name: .BFTT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25477,11 +25477,11 @@ _BFTT = _BFTT()
 """
     name: .BFTT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25489,19 +25489,19 @@ class _BFTT_NEXT(NamedTuple):
     """
         name: .BFTT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25523,11 +25523,11 @@ _BFTT_NEXT = _BFTT_NEXT()
 """
     name: .BFTT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25535,19 +25535,19 @@ class _BFTTT_NEXT(NamedTuple):
     """
         name: .BFTTT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTTT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25569,11 +25569,11 @@ _BFTTT_NEXT = _BFTTT_NEXT()
 """
     name: .BFTTT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25581,19 +25581,19 @@ class _FTTBON(NamedTuple):
     """
         name: .FTTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25615,11 +25615,11 @@ _FTTBON = _FTTBON()
 """
     name: .FTTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25627,19 +25627,19 @@ class _FTTBON8H(NamedTuple):
     """
         name: .FTTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25661,11 +25661,11 @@ _FTTBON8H = _FTTBON8H()
 """
     name: .FTTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25673,19 +25673,19 @@ class _FTTUSDTPI(NamedTuple):
     """
         name: .FTTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25707,11 +25707,11 @@ _FTTUSDTPI = _FTTUSDTPI()
 """
     name: .FTTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25719,19 +25719,19 @@ class _FTTUSDTPI8H(NamedTuple):
     """
         name: .FTTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25753,11 +25753,11 @@ _FTTUSDTPI8H = _FTTUSDTPI8H()
 """
     name: .FTTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25765,19 +25765,19 @@ class _FTTUSDPI(NamedTuple):
     """
         name: .FTTUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25799,11 +25799,11 @@ _FTTUSDPI = _FTTUSDPI()
 """
     name: .FTTUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25811,19 +25811,19 @@ class _FTTUSDPI8H(NamedTuple):
     """
         name: .FTTUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FTTUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25845,11 +25845,11 @@ _FTTUSDPI8H = _FTTUSDPI8H()
 """
     name: .FTTUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25857,19 +25857,19 @@ class _BMEXBON(NamedTuple):
     """
         name: .BMEXBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25891,11 +25891,11 @@ _BMEXBON = _BMEXBON()
 """
     name: .BMEXBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25903,19 +25903,19 @@ class _BMEXBON8H(NamedTuple):
     """
         name: .BMEXBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25937,11 +25937,11 @@ _BMEXBON8H = _BMEXBON8H()
 """
     name: .BMEXBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25949,19 +25949,19 @@ class _BMEXUSDTPI(NamedTuple):
     """
         name: .BMEXUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25983,11 +25983,11 @@ _BMEXUSDTPI = _BMEXUSDTPI()
 """
     name: .BMEXUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -25995,19 +25995,19 @@ class _BMEXUSDTPI8H(NamedTuple):
     """
         name: .BMEXUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26029,11 +26029,11 @@ _BMEXUSDTPI8H = _BMEXUSDTPI8H()
 """
     name: .BMEXUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26041,19 +26041,19 @@ class _BMEXUSDPI(NamedTuple):
     """
         name: .BMEXUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26075,11 +26075,11 @@ _BMEXUSDPI = _BMEXUSDPI()
 """
     name: .BMEXUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26087,19 +26087,19 @@ class _BMEXUSDPI8H(NamedTuple):
     """
         name: .BMEXUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BMEXUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26121,11 +26121,11 @@ _BMEXUSDPI8H = _BMEXUSDPI8H()
 """
     name: .BMEXUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26133,19 +26133,19 @@ class _BBMEXT(NamedTuple):
     """
         name: .BBMEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBMEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26167,11 +26167,11 @@ _BBMEXT = _BBMEXT()
 """
     name: .BBMEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26179,19 +26179,19 @@ class _BBMEXT_NEXT(NamedTuple):
     """
         name: .BBMEXT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBMEXT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26213,11 +26213,11 @@ _BBMEXT_NEXT = _BBMEXT_NEXT()
 """
     name: .BBMEXT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26225,19 +26225,19 @@ class _BBMEX(NamedTuple):
     """
         name: .BBMEX
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBMEX"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26259,11 +26259,11 @@ _BBMEX = _BBMEX()
 """
     name: .BBMEX
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26271,19 +26271,19 @@ class _BBMEX_NEXT(NamedTuple):
     """
         name: .BBMEX_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BBMEX_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26305,11 +26305,11 @@ _BBMEX_NEXT = _BBMEX_NEXT()
 """
     name: .BBMEX_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26317,19 +26317,19 @@ class _CROBON(NamedTuple):
     """
         name: .CROBON
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROBON"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26351,11 +26351,11 @@ _CROBON = _CROBON()
 """
     name: .CROBON
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26363,19 +26363,19 @@ class _CROBON8H(NamedTuple):
     """
         name: .CROBON8H
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROBON8H"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26397,11 +26397,11 @@ _CROBON8H = _CROBON8H()
 """
     name: .CROBON8H
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26409,19 +26409,19 @@ class _CROUSDTPI(NamedTuple):
     """
         name: .CROUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26443,11 +26443,11 @@ _CROUSDTPI = _CROUSDTPI()
 """
     name: .CROUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26455,19 +26455,19 @@ class _CROUSDTPI8H(NamedTuple):
     """
         name: .CROUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26489,11 +26489,11 @@ _CROUSDTPI8H = _CROUSDTPI8H()
 """
     name: .CROUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26501,19 +26501,19 @@ class _CROUSDPI(NamedTuple):
     """
         name: .CROUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26535,11 +26535,11 @@ _CROUSDPI = _CROUSDPI()
 """
     name: .CROUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26547,19 +26547,19 @@ class _CROUSDPI8H(NamedTuple):
     """
         name: .CROUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".CROUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26581,11 +26581,11 @@ _CROUSDPI8H = _CROUSDPI8H()
 """
     name: .CROUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26593,19 +26593,19 @@ class _BFTT30M(NamedTuple):
     """
         name: .BFTT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26627,11 +26627,11 @@ _BFTT30M = _BFTT30M()
 """
     name: .BFTT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26639,19 +26639,19 @@ class _BFTTT30M(NamedTuple):
     """
         name: .BFTTT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFTTT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26673,11 +26673,11 @@ _BFTTT30M = _BFTTT30M()
 """
     name: .BFTTT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26685,19 +26685,19 @@ class _BETHYLD(NamedTuple):
     """
         name: .BETHYLD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHYLD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26719,11 +26719,11 @@ _BETHYLD = _BETHYLD()
 """
     name: .BETHYLD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26731,19 +26731,19 @@ class _BEURUSD30M(NamedTuple):
     """
         name: .BEURUSD30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSD30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26765,11 +26765,11 @@ _BEURUSD30M = _BEURUSD30M()
 """
     name: .BEURUSD30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26777,19 +26777,19 @@ class _BEURUSDT30M(NamedTuple):
     """
         name: .BEURUSDT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BEURUSDT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26811,11 +26811,11 @@ _BEURUSDT30M = _BEURUSDT30M()
 """
     name: .BEURUSDT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26823,19 +26823,19 @@ class _BUSDTBRL30M(NamedTuple):
     """
         name: .BUSDTBRL30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTBRL30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26857,11 +26857,11 @@ _BUSDTBRL30M = _BUSDTBRL30M()
 """
     name: .BUSDTBRL30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26869,19 +26869,19 @@ class _BUSDTINR30M(NamedTuple):
     """
         name: .BUSDTINR30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTINR30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26903,11 +26903,11 @@ _BUSDTINR30M = _BUSDTINR30M()
 """
     name: .BUSDTINR30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26915,19 +26915,19 @@ class _BUSDTMXN30M(NamedTuple):
     """
         name: .BUSDTMXN30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTMXN30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26949,11 +26949,11 @@ _BUSDTMXN30M = _BUSDTMXN30M()
 """
     name: .BUSDTMXN30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -26961,19 +26961,19 @@ class _BUSDTSEK30M(NamedTuple):
     """
         name: .BUSDTSEK30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTSEK30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26995,11 +26995,11 @@ _BUSDTSEK30M = _BUSDTSEK30M()
 """
     name: .BUSDTSEK30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27007,19 +27007,19 @@ class _BUSDTTRY30M(NamedTuple):
     """
         name: .BUSDTTRY30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTTRY30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27041,11 +27041,11 @@ _BUSDTTRY30M = _BUSDTTRY30M()
 """
     name: .BUSDTTRY30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27053,19 +27053,19 @@ class _BUSDTZAR30M(NamedTuple):
     """
         name: .BUSDTZAR30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BUSDTZAR30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27087,11 +27087,11 @@ _BUSDTZAR30M = _BUSDTZAR30M()
 """
     name: .BUSDTZAR30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27099,19 +27099,19 @@ class _BFLRT(NamedTuple):
     """
         name: .BFLRT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLRT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27133,11 +27133,11 @@ _BFLRT = _BFLRT()
 """
     name: .BFLRT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27145,19 +27145,19 @@ class _BFLRT_NEXT(NamedTuple):
     """
         name: .BFLRT_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLRT_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27179,11 +27179,11 @@ _BFLRT_NEXT = _BFLRT_NEXT()
 """
     name: .BFLRT_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27191,19 +27191,19 @@ class _BFLRT30M(NamedTuple):
     """
         name: .BFLRT30M
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLRT30M"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27225,11 +27225,11 @@ _BFLRT30M = _BFLRT30M()
 """
     name: .BFLRT30M
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27237,19 +27237,19 @@ class _FLRBON(NamedTuple):
     """
         name: .FLRBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27271,11 +27271,11 @@ _FLRBON = _FLRBON()
 """
     name: .FLRBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27283,19 +27283,19 @@ class _FLRBON8H(NamedTuple):
     """
         name: .FLRBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27317,11 +27317,11 @@ _FLRBON8H = _FLRBON8H()
 """
     name: .FLRBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27329,19 +27329,19 @@ class _FLRUSDTPI(NamedTuple):
     """
         name: .FLRUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27363,11 +27363,11 @@ _FLRUSDTPI = _FLRUSDTPI()
 """
     name: .FLRUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27375,19 +27375,19 @@ class _FLRUSDTPI8H(NamedTuple):
     """
         name: .FLRUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27409,11 +27409,11 @@ _FLRUSDTPI8H = _FLRUSDTPI8H()
 """
     name: .FLRUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27421,19 +27421,19 @@ class _FLRUSDPI(NamedTuple):
     """
         name: .FLRUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27455,11 +27455,11 @@ _FLRUSDPI = _FLRUSDPI()
 """
     name: .FLRUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27467,19 +27467,19 @@ class _FLRUSDPI8H(NamedTuple):
     """
         name: .FLRUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".FLRUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27501,11 +27501,11 @@ _FLRUSDPI8H = _FLRUSDPI8H()
 """
     name: .FLRUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27513,19 +27513,19 @@ class _BFLR(NamedTuple):
     """
         name: .BFLR
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLR"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27547,11 +27547,11 @@ _BFLR = _BFLR()
 """
     name: .BFLR
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27559,19 +27559,19 @@ class _BFLR_NEXT(NamedTuple):
     """
         name: .BFLR_NEXT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BFLR_NEXT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27593,11 +27593,11 @@ _BFLR_NEXT = _BFLR_NEXT()
 """
     name: .BFLR_NEXT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -27605,19 +27605,19 @@ class ADAH23(NamedTuple):
     """
         name: ADAH23
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "ADAH23"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27639,11 +27639,11 @@ ADAH23 = ADAH23()
 """
     name: ADAH23
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -27651,19 +27651,19 @@ class XRPH23(NamedTuple):
     """
         name: XRPH23
         precision: 1e-08
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XRPH23"
     precision: int = 1e-08
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27685,11 +27685,11 @@ XRPH23 = XRPH23()
 """
     name: XRPH23
     precision: 1e-08
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -27697,19 +27697,19 @@ class FLRUSDTH23(NamedTuple):
     """
         name: FLRUSDTH23
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.5
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "FLRUSDTH23"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.5
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27731,11 +27731,11 @@ FLRUSDTH23 = FLRUSDTH23()
 """
     name: FLRUSDTH23
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.5
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -27743,19 +27743,19 @@ class KLAYUSD(NamedTuple):
     """
         name: KLAYUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "KLAYUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27777,11 +27777,11 @@ KLAYUSD = KLAYUSD()
 """
     name: KLAYUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -27789,19 +27789,19 @@ class KLAYUSDT(NamedTuple):
     """
         name: KLAYUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "KLAYUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27823,11 +27823,11 @@ KLAYUSDT = KLAYUSDT()
 """
     name: KLAYUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -27835,19 +27835,19 @@ class XRPUSD(NamedTuple):
     """
         name: XRPUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 100000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
     """
     name: str = "XRPUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 100000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27869,11 +27869,11 @@ XRPUSD = XRPUSD()
 """
     name: XRPUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 100000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
 """
 
 
@@ -27881,19 +27881,19 @@ class BCHUSD(NamedTuple):
     """
         name: BCHUSD
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 100000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
     """
     name: str = "BCHUSD"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 100000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27915,11 +27915,11 @@ BCHUSD = BCHUSD()
 """
     name: BCHUSD
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 100000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
 """
 
 
@@ -27927,19 +27927,19 @@ class DOGEUSD(NamedTuple):
     """
         name: DOGEUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 5000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 5000000
+        has_margin: True
     """
     name: str = "DOGEUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 5000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 5000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27961,11 +27961,11 @@ DOGEUSD = DOGEUSD()
 """
     name: DOGEUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 5000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 5000000
+    has_margin: True
 """
 
 
@@ -27973,19 +27973,19 @@ class BNBUSD(NamedTuple):
     """
         name: BNBUSD
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "BNBUSD"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28007,11 +28007,11 @@ BNBUSD = BNBUSD()
 """
     name: BNBUSD
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -28019,19 +28019,19 @@ class LINKUSD(NamedTuple):
     """
         name: LINKUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "LINKUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28053,11 +28053,11 @@ LINKUSD = LINKUSD()
 """
     name: LINKUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -28065,19 +28065,19 @@ class SOLUSD(NamedTuple):
     """
         name: SOLUSD
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "SOLUSD"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28099,11 +28099,11 @@ SOLUSD = SOLUSD()
 """
     name: SOLUSD
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -28111,19 +28111,19 @@ class APTUSD(NamedTuple):
     """
         name: APTUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "APTUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28145,11 +28145,11 @@ APTUSD = APTUSD()
 """
     name: APTUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -28157,19 +28157,19 @@ class BMEXUSD(NamedTuple):
     """
         name: BMEXUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "BMEXUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28191,11 +28191,11 @@ BMEXUSD = BMEXUSD()
 """
     name: BMEXUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -28203,19 +28203,19 @@ class CROUSD(NamedTuple):
     """
         name: CROUSD
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 5000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 5000000
+        has_margin: True
     """
     name: str = "CROUSD"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 5000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 5000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28237,11 +28237,11 @@ CROUSD = CROUSD()
 """
     name: CROUSD
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 5000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 5000000
+    has_margin: True
 """
 
 
@@ -28249,19 +28249,19 @@ class FLRUSD(NamedTuple):
     """
         name: FLRUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "FLRUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28283,11 +28283,11 @@ FLRUSD = FLRUSD()
 """
     name: FLRUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -28295,19 +28295,19 @@ class DOGEUSDT(NamedTuple):
     """
         name: DOGEUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 10000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 10000000000
+        has_margin: True
     """
     name: str = "DOGEUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 10000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 10000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28329,11 +28329,11 @@ DOGEUSDT = DOGEUSDT()
 """
     name: DOGEUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 10000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 10000000000
+    has_margin: True
 """
 
 
@@ -28341,19 +28341,19 @@ class DOTUSDT(NamedTuple):
     """
         name: DOTUSDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "DOTUSDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28375,11 +28375,11 @@ DOTUSDT = DOTUSDT()
 """
     name: DOTUSDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28387,19 +28387,19 @@ class ADAUSDT(NamedTuple):
     """
         name: ADAUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "ADAUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28421,11 +28421,11 @@ ADAUSDT = ADAUSDT()
 """
     name: ADAUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28433,19 +28433,19 @@ class BNBUSDT(NamedTuple):
     """
         name: BNBUSDT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "BNBUSDT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28467,11 +28467,11 @@ BNBUSDT = BNBUSDT()
 """
     name: BNBUSDT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28479,19 +28479,19 @@ class SOLUSDT(NamedTuple):
     """
         name: SOLUSDT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "SOLUSDT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28513,11 +28513,11 @@ SOLUSDT = SOLUSDT()
 """
     name: SOLUSDT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28525,19 +28525,19 @@ class ADAUSD(NamedTuple):
     """
         name: ADAUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "ADAUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28559,11 +28559,11 @@ ADAUSD = ADAUSD()
 """
     name: ADAUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -28571,19 +28571,19 @@ class EOSUSD(NamedTuple):
     """
         name: EOSUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "EOSUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28605,11 +28605,11 @@ EOSUSD = EOSUSD()
 """
     name: EOSUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -28617,19 +28617,19 @@ class XRPUSDT(NamedTuple):
     """
         name: XRPUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XRPUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28651,11 +28651,11 @@ XRPUSDT = XRPUSDT()
 """
     name: XRPUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28663,19 +28663,19 @@ class BCHUSDT(NamedTuple):
     """
         name: BCHUSDT
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "BCHUSDT"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28697,11 +28697,11 @@ BCHUSDT = BCHUSDT()
 """
     name: BCHUSDT
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28709,19 +28709,19 @@ class APEUSDT(NamedTuple):
     """
         name: APEUSDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "APEUSDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28743,11 +28743,11 @@ APEUSDT = APEUSDT()
 """
     name: APEUSDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28755,19 +28755,19 @@ class GMTUSDT(NamedTuple):
     """
         name: GMTUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "GMTUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28789,11 +28789,11 @@ GMTUSDT = GMTUSDT()
 """
     name: GMTUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28801,19 +28801,19 @@ class GMTUSD(NamedTuple):
     """
         name: GMTUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "GMTUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28835,11 +28835,11 @@ GMTUSD = GMTUSD()
 """
     name: GMTUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -28847,19 +28847,19 @@ class NEARUSD(NamedTuple):
     """
         name: NEARUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "NEARUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28881,11 +28881,11 @@ NEARUSD = NEARUSD()
 """
     name: NEARUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -28893,19 +28893,19 @@ class APTUSDT(NamedTuple):
     """
         name: APTUSDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "APTUSDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28927,11 +28927,11 @@ APTUSDT = APTUSDT()
 """
     name: APTUSDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28939,19 +28939,19 @@ class BMEXUSDT(NamedTuple):
     """
         name: BMEXUSDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "BMEXUSDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28973,11 +28973,11 @@ BMEXUSDT = BMEXUSDT()
 """
     name: BMEXUSDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -28985,19 +28985,19 @@ class CROUSDT(NamedTuple):
     """
         name: CROUSDT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 10000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 10000000000
+        has_margin: True
     """
     name: str = "CROUSDT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 10000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 10000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29019,11 +29019,11 @@ CROUSDT = CROUSDT()
 """
     name: CROUSDT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 10000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 10000000000
+    has_margin: True
 """
 
 
@@ -29031,19 +29031,19 @@ class FLRUSDT(NamedTuple):
     """
         name: FLRUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "FLRUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29065,11 +29065,11 @@ FLRUSDT = FLRUSDT()
 """
     name: FLRUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -29077,19 +29077,19 @@ class LUNAUSD(NamedTuple):
     """
         name: LUNAUSD
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.04
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "LUNAUSD"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.04
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29111,11 +29111,11 @@ LUNAUSD = LUNAUSD()
 """
     name: LUNAUSD
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.04
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -29123,19 +29123,19 @@ class DOTUSD(NamedTuple):
     """
         name: DOTUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.04
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "DOTUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.04
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29157,11 +29157,11 @@ DOTUSD = DOTUSD()
 """
     name: DOTUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.04
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -29169,19 +29169,19 @@ class MATICUSDT(NamedTuple):
     """
         name: MATICUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "MATICUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29203,11 +29203,11 @@ MATICUSDT = MATICUSDT()
 """
     name: MATICUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -29215,19 +29215,19 @@ class AVAXUSD(NamedTuple):
     """
         name: AVAXUSD
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1
-        maximum_order_size: 500000
-        margin: True
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
     """
     name: str = "AVAXUSD"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1
-    maximum_order_size: float = 500000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29249,11 +29249,11 @@ AVAXUSD = AVAXUSD()
 """
     name: AVAXUSD
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1
-    maximum_order_size: 500000
-    margin: True
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
 """
 
 
@@ -29261,19 +29261,19 @@ class AXSUSD(NamedTuple):
     """
         name: AXSUSD
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1
-        maximum_order_size: 1000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
     """
     name: str = "AXSUSD"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1
-    maximum_order_size: float = 1000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29295,11 +29295,11 @@ AXSUSD = AXSUSD()
 """
     name: AXSUSD
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1
-    maximum_order_size: 1000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
 """
 
 
@@ -29307,19 +29307,19 @@ class AVAXUSDT(NamedTuple):
     """
         name: AVAXUSDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "AVAXUSDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29341,11 +29341,11 @@ AVAXUSDT = AVAXUSDT()
 """
     name: AVAXUSDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -29353,19 +29353,19 @@ class LUNAUSDT(NamedTuple):
     """
         name: LUNAUSDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.05
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "LUNAUSDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.05
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29387,11 +29387,11 @@ LUNAUSDT = LUNAUSDT()
 """
     name: LUNAUSDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.05
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -29399,19 +29399,19 @@ class UNI_USDT(NamedTuple):
     """
         name: UNI_USDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 10000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 10000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "UNI_USDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 10000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 10000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29433,11 +29433,11 @@ UNI_USDT = UNI_USDT()
 """
     name: UNI_USDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 10000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 10000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -29445,19 +29445,19 @@ class LINK_USDT(NamedTuple):
     """
         name: LINK_USDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 10000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 10000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "LINK_USDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 10000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 10000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29479,11 +29479,11 @@ LINK_USDT = LINK_USDT()
 """
     name: LINK_USDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 10000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 10000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -29491,19 +29491,19 @@ class MATIC_USDT(NamedTuple):
     """
         name: MATIC_USDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 100000000
-        maximum_order_size: 100000000000000
-        margin: True
+        min_order_size: 100000000
+        max_order_size: 100000000000000
+        has_margin: True
     """
     name: str = "MATIC_USDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 100000000
-    maximum_order_size: float = 100000000000000
-    margin: bool = True
+    min_order_size: float = 100000000
+    max_order_size: float = 100000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29525,11 +29525,11 @@ MATIC_USDT = MATIC_USDT()
 """
     name: MATIC_USDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 100000000
-    maximum_order_size: 100000000000000
-    margin: True
+    min_order_size: 100000000
+    max_order_size: 100000000000000
+    has_margin: True
 """
 
 
@@ -29537,19 +29537,19 @@ class AXS_USDT(NamedTuple):
     """
         name: AXS_USDT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 1000000
-        maximum_order_size: 1000000000000
-        margin: True
+        min_order_size: 1000000
+        max_order_size: 1000000000000
+        has_margin: True
     """
     name: str = "AXS_USDT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 1000000
-    maximum_order_size: float = 1000000000000
-    margin: bool = True
+    min_order_size: float = 1000000
+    max_order_size: float = 1000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29571,11 +29571,11 @@ AXS_USDT = AXS_USDT()
 """
     name: AXS_USDT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 1000000
-    maximum_order_size: 1000000000000
-    margin: True
+    min_order_size: 1000000
+    max_order_size: 1000000000000
+    has_margin: True
 """
 
 
@@ -29583,19 +29583,19 @@ class APE_USDT(NamedTuple):
     """
         name: APE_USDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 10000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 10000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "APE_USDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 10000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 10000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29617,11 +29617,11 @@ APE_USDT = APE_USDT()
 """
     name: APE_USDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 10000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 10000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -29629,19 +29629,19 @@ class TRX_USDT(NamedTuple):
     """
         name: TRX_USDT
         precision: 0.0001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 100000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 100000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "TRX_USDT"
     precision: int = 0.0001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 100000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 100000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29663,11 +29663,11 @@ TRX_USDT = TRX_USDT()
 """
     name: TRX_USDT
     precision: 0.0001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 100000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 100000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -29675,19 +29675,19 @@ class SOL_USDT(NamedTuple):
     """
         name: SOL_USDT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 1000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 1000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "SOL_USDT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 1000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 1000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29709,11 +29709,11 @@ SOL_USDT = SOL_USDT()
 """
     name: SOL_USDT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 1000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 1000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -29721,19 +29721,19 @@ class BMEX_USDT(NamedTuple):
     """
         name: BMEX_USDT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 1000000
-        maximum_order_size: 1000000000000
-        margin: True
+        min_order_size: 1000000
+        max_order_size: 1000000000000
+        has_margin: True
     """
     name: str = "BMEX_USDT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 1000000
-    maximum_order_size: float = 1000000000000
-    margin: bool = True
+    min_order_size: float = 1000000
+    max_order_size: float = 1000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29755,11 +29755,11 @@ BMEX_USDT = BMEX_USDT()
 """
     name: BMEX_USDT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 1000000
-    maximum_order_size: 1000000000000
-    margin: True
+    min_order_size: 1000000
+    max_order_size: 1000000000000
+    has_margin: True
 """
 
 
@@ -29767,19 +29767,19 @@ class _XBT(NamedTuple):
     """
         name: .XBT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29801,11 +29801,11 @@ _XBT = _XBT()
 """
     name: .XBT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -29813,19 +29813,19 @@ class _XBT30M(NamedTuple):
     """
         name: .XBT30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBT30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29847,11 +29847,11 @@ _XBT30M = _XBT30M()
 """
     name: .XBT30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -29859,19 +29859,19 @@ class _XBTBON(NamedTuple):
     """
         name: .XBTBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29893,11 +29893,11 @@ _XBTBON = _XBTBON()
 """
     name: .XBTBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -29905,19 +29905,19 @@ class _XBTBON8H(NamedTuple):
     """
         name: .XBTBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29939,11 +29939,11 @@ _XBTBON8H = _XBTBON8H()
 """
     name: .XBTBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -29951,19 +29951,19 @@ class _XBTUSDPI(NamedTuple):
     """
         name: .XBTUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29985,11 +29985,11 @@ _XBTUSDPI = _XBTUSDPI()
 """
     name: .XBTUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -29997,19 +29997,19 @@ class _XBTUSDPI8H(NamedTuple):
     """
         name: .XBTUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30031,11 +30031,11 @@ _XBTUSDPI8H = _XBTUSDPI8H()
 """
     name: .XBTUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30043,19 +30043,19 @@ class _BXBT(NamedTuple):
     """
         name: .BXBT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30077,11 +30077,11 @@ _BXBT = _BXBT()
 """
     name: .BXBT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30089,19 +30089,19 @@ class _BXBT30M(NamedTuple):
     """
         name: .BXBT30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBT30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30123,11 +30123,11 @@ _BXBT30M = _BXBT30M()
 """
     name: .BXBT30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30135,19 +30135,19 @@ class _BXBT_NEXT(NamedTuple):
     """
         name: .BXBT_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBT_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30169,11 +30169,11 @@ _BXBT_NEXT = _BXBT_NEXT()
 """
     name: .BXBT_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30181,19 +30181,19 @@ class _BXBTEUR(NamedTuple):
     """
         name: .BXBTEUR
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTEUR"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30215,11 +30215,11 @@ _BXBTEUR = _BXBTEUR()
 """
     name: .BXBTEUR
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30227,19 +30227,19 @@ class _BXBTEUR_NEXT(NamedTuple):
     """
         name: .BXBTEUR_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTEUR_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30261,11 +30261,11 @@ _BXBTEUR_NEXT = _BXBTEUR_NEXT()
 """
     name: .BXBTEUR_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30273,19 +30273,19 @@ class _XBTEURPI(NamedTuple):
     """
         name: .XBTEURPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTEURPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30307,11 +30307,11 @@ _XBTEURPI = _XBTEURPI()
 """
     name: .XBTEURPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30319,19 +30319,19 @@ class _XBTEURPI8H(NamedTuple):
     """
         name: .XBTEURPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTEURPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30353,11 +30353,11 @@ _XBTEURPI8H = _XBTEURPI8H()
 """
     name: .XBTEURPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30365,19 +30365,19 @@ class _BXBTEUR30M(NamedTuple):
     """
         name: .BXBTEUR30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTEUR30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30399,11 +30399,11 @@ _BXBTEUR30M = _BXBTEUR30M()
 """
     name: .BXBTEUR30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30411,19 +30411,19 @@ class _BXBTT(NamedTuple):
     """
         name: .BXBTT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30445,11 +30445,11 @@ _BXBTT = _BXBTT()
 """
     name: .BXBTT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30457,19 +30457,19 @@ class _BXBTT_NEXT(NamedTuple):
     """
         name: .BXBTT_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTT_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30491,11 +30491,11 @@ _BXBTT_NEXT = _BXBTT_NEXT()
 """
     name: .BXBTT_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30503,19 +30503,19 @@ class _BXBTT30M(NamedTuple):
     """
         name: .BXBTT30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BXBTT30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30537,11 +30537,11 @@ _BXBTT30M = _BXBTT30M()
 """
     name: .BXBTT30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30549,19 +30549,19 @@ class _XBTUSDTPI(NamedTuple):
     """
         name: .XBTUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30583,11 +30583,11 @@ _XBTUSDTPI = _XBTUSDTPI()
 """
     name: .XBTUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30595,19 +30595,19 @@ class _XBTUSDTPI8H(NamedTuple):
     """
         name: .XBTUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".XBTUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30629,11 +30629,11 @@ _XBTUSDTPI8H = _XBTUSDTPI8H()
 """
     name: .XBTUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30641,19 +30641,19 @@ class _BVOL(NamedTuple):
     """
         name: .BVOL
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVOL"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30675,11 +30675,11 @@ _BVOL = _BVOL()
 """
     name: .BVOL
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30687,19 +30687,19 @@ class _BVOL24H(NamedTuple):
     """
         name: .BVOL24H
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVOL24H"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30721,11 +30721,11 @@ _BVOL24H = _BVOL24H()
 """
     name: .BVOL24H
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30733,19 +30733,19 @@ class _BVOL7D(NamedTuple):
     """
         name: .BVOL7D
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BVOL7D"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30767,11 +30767,11 @@ _BVOL7D = _BVOL7D()
 """
     name: .BVOL7D
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30779,19 +30779,19 @@ class _ETHBON(NamedTuple):
     """
         name: .ETHBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30813,11 +30813,11 @@ _ETHBON = _ETHBON()
 """
     name: .ETHBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30825,19 +30825,19 @@ class _ETHBON8H(NamedTuple):
     """
         name: .ETHBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30859,11 +30859,11 @@ _ETHBON8H = _ETHBON8H()
 """
     name: .ETHBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30871,19 +30871,19 @@ class _ETHUSDPI(NamedTuple):
     """
         name: .ETHUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30905,11 +30905,11 @@ _ETHUSDPI = _ETHUSDPI()
 """
     name: .ETHUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30917,19 +30917,19 @@ class _ETHUSDPI8H(NamedTuple):
     """
         name: .ETHUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30951,11 +30951,11 @@ _ETHUSDPI8H = _ETHUSDPI8H()
 """
     name: .ETHUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -30963,19 +30963,19 @@ class _BETH(NamedTuple):
     """
         name: .BETH
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETH"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30997,11 +30997,11 @@ _BETH = _BETH()
 """
     name: .BETH
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31009,19 +31009,19 @@ class _BETH30M(NamedTuple):
     """
         name: .BETH30M
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETH30M"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31043,11 +31043,11 @@ _BETH30M = _BETH30M()
 """
     name: .BETH30M
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31055,19 +31055,19 @@ class _BETHXBT(NamedTuple):
     """
         name: .BETHXBT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHXBT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31089,11 +31089,11 @@ _BETHXBT = _BETHXBT()
 """
     name: .BETHXBT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31101,19 +31101,19 @@ class _BETHXBT30M(NamedTuple):
     """
         name: .BETHXBT30M
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHXBT30M"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31135,11 +31135,11 @@ _BETHXBT30M = _BETHXBT30M()
 """
     name: .BETHXBT30M
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31147,19 +31147,19 @@ class _BETH_NEXT(NamedTuple):
     """
         name: .BETH_NEXT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETH_NEXT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31181,11 +31181,11 @@ _BETH_NEXT = _BETH_NEXT()
 """
     name: .BETH_NEXT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31193,19 +31193,19 @@ class _BETHXBT_NEXT(NamedTuple):
     """
         name: .BETHXBT_NEXT
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHXBT_NEXT"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31227,11 +31227,11 @@ _BETHXBT_NEXT = _BETHXBT_NEXT()
 """
     name: .BETHXBT_NEXT
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31239,19 +31239,19 @@ class _BETHT(NamedTuple):
     """
         name: .BETHT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31273,11 +31273,11 @@ _BETHT = _BETHT()
 """
     name: .BETHT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31285,19 +31285,19 @@ class _BETHT_NEXT(NamedTuple):
     """
         name: .BETHT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31319,11 +31319,11 @@ _BETHT_NEXT = _BETHT_NEXT()
 """
     name: .BETHT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31331,19 +31331,19 @@ class _BETHT30M(NamedTuple):
     """
         name: .BETHT30M
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETHT30M"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31365,11 +31365,11 @@ _BETHT30M = _BETHT30M()
 """
     name: .BETHT30M
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31377,19 +31377,19 @@ class _ETHUSDTPI(NamedTuple):
     """
         name: .ETHUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31411,11 +31411,11 @@ _ETHUSDTPI = _ETHUSDTPI()
 """
     name: .ETHUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31423,19 +31423,19 @@ class _ETHUSDTPI8H(NamedTuple):
     """
         name: .ETHUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31457,11 +31457,11 @@ _ETHUSDTPI8H = _ETHUSDTPI8H()
 """
     name: .ETHUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31469,19 +31469,19 @@ class _ETHUSD_ETHPI(NamedTuple):
     """
         name: .ETHUSD_ETHPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSD_ETHPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31503,11 +31503,11 @@ _ETHUSD_ETHPI = _ETHUSD_ETHPI()
 """
     name: .ETHUSD_ETHPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31515,19 +31515,19 @@ class _ETHUSD_ETHPI8H(NamedTuple):
     """
         name: .ETHUSD_ETHPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".ETHUSD_ETHPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31549,11 +31549,11 @@ _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
 """
     name: .ETHUSD_ETHPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31561,19 +31561,19 @@ class _BETC(NamedTuple):
     """
         name: .BETC
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BETC"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31595,11 +31595,11 @@ _BETC = _BETC()
 """
     name: .BETC
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31607,19 +31607,19 @@ class _LTCBON(NamedTuple):
     """
         name: .LTCBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31641,11 +31641,11 @@ _LTCBON = _LTCBON()
 """
     name: .LTCBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31653,19 +31653,19 @@ class _LTCBON8H(NamedTuple):
     """
         name: .LTCBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31687,11 +31687,11 @@ _LTCBON8H = _LTCBON8H()
 """
     name: .LTCBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31699,19 +31699,19 @@ class _BLTCXBT(NamedTuple):
     """
         name: .BLTCXBT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTCXBT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31733,11 +31733,11 @@ _BLTCXBT = _BLTCXBT()
 """
     name: .BLTCXBT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31745,19 +31745,19 @@ class _BLTCXBT30M(NamedTuple):
     """
         name: .BLTCXBT30M
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTCXBT30M"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31779,11 +31779,11 @@ _BLTCXBT30M = _BLTCXBT30M()
 """
     name: .BLTCXBT30M
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31791,19 +31791,19 @@ class _BLTCXBT_NEXT(NamedTuple):
     """
         name: .BLTCXBT_NEXT
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTCXBT_NEXT"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31825,11 +31825,11 @@ _BLTCXBT_NEXT = _BLTCXBT_NEXT()
 """
     name: .BLTCXBT_NEXT
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31837,19 +31837,19 @@ class _BLTC(NamedTuple):
     """
         name: .BLTC
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTC"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31871,11 +31871,11 @@ _BLTC = _BLTC()
 """
     name: .BLTC
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31883,19 +31883,19 @@ class _LTCUSDPI(NamedTuple):
     """
         name: .LTCUSDPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCUSDPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31917,11 +31917,11 @@ _LTCUSDPI = _LTCUSDPI()
 """
     name: .LTCUSDPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31929,19 +31929,19 @@ class _LTCUSDPI8H(NamedTuple):
     """
         name: .LTCUSDPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCUSDPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31963,11 +31963,11 @@ _LTCUSDPI8H = _LTCUSDPI8H()
 """
     name: .LTCUSDPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -31975,19 +31975,19 @@ class _BLTC_NEXT(NamedTuple):
     """
         name: .BLTC_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTC_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32009,11 +32009,11 @@ _BLTC_NEXT = _BLTC_NEXT()
 """
     name: .BLTC_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32021,19 +32021,19 @@ class _BLTCT(NamedTuple):
     """
         name: .BLTCT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTCT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32055,11 +32055,11 @@ _BLTCT = _BLTCT()
 """
     name: .BLTCT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32067,19 +32067,19 @@ class _BLTCT_NEXT(NamedTuple):
     """
         name: .BLTCT_NEXT
         precision: 0.001
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".BLTCT_NEXT"
     precision: int = 0.001
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32101,11 +32101,11 @@ _BLTCT_NEXT = _BLTCT_NEXT()
 """
     name: .BLTCT_NEXT
     precision: 0.001
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32113,19 +32113,19 @@ class _LTCUSDTPI(NamedTuple):
     """
         name: .LTCUSDTPI
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCUSDTPI"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32147,11 +32147,11 @@ _LTCUSDTPI = _LTCUSDTPI()
 """
     name: .LTCUSDTPI
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32159,19 +32159,19 @@ class _LTCUSDTPI8H(NamedTuple):
     """
         name: .LTCUSDTPI8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".LTCUSDTPI8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32193,11 +32193,11 @@ _LTCUSDTPI8H = _LTCUSDTPI8H()
 """
     name: .LTCUSDTPI8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32205,19 +32205,19 @@ class _USDBON(NamedTuple):
     """
         name: .USDBON
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDBON"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32239,11 +32239,11 @@ _USDBON = _USDBON()
 """
     name: .USDBON
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32251,19 +32251,19 @@ class _USDBON8H(NamedTuple):
     """
         name: .USDBON8H
         precision: 1e-06
-        minimum_margin: None
+        min_margin: None
         initial_margin: None
-        minimum_order_size: None
-        maximum_order_size: None
-        margin: False
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
     """
     name: str = ".USDBON8H"
     precision: int = 1e-06
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = None
-    minimum_order_size: float = None
-    maximum_order_size: float = None
-    margin: bool = False
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32285,11 +32285,11 @@ _USDBON8H = _USDBON8H()
 """
     name: .USDBON8H
     precision: 1e-06
-    minimum_margin: None
+    min_margin: None
     initial_margin: None
-    minimum_order_size: None
-    maximum_order_size: None
-    margin: False
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
 """
 
 
@@ -32297,19 +32297,19 @@ class XBTUSD(NamedTuple):
     """
         name: XBTUSD
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTUSD"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32331,11 +32331,11 @@ XBTUSD = XBTUSD()
 """
     name: XBTUSD
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32343,19 +32343,19 @@ class XBTUSDT(NamedTuple):
     """
         name: XBTUSDT
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XBTUSDT"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32377,11 +32377,11 @@ XBTUSDT = XBTUSDT()
 """
     name: XBTUSDT
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -32389,19 +32389,19 @@ class XBTEUR(NamedTuple):
     """
         name: XBTEUR
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTEUR"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32423,57 +32423,11 @@ XBTEUR = XBTEUR()
 """
     name: XBTEUR
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
-"""
-
-
-class XBTF23(NamedTuple):
-    """
-        name: XBTF23
-        precision: 0.5
-        minimum_margin: None
-        initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
-    """
-    name: str = "XBTF23"
-    precision: int = 0.5
-    minimum_margin: float = None
-    initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTF23"
-
-    def __str__(self):
-        return "XBTF23"
-
-    def __call__(self):
-        return "XBTF23"
-
-
-XBTF23 = XBTF23()
-"""
-    name: XBTF23
-    precision: 0.5
-    minimum_margin: None
-    initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32481,19 +32435,19 @@ class XBTG23(NamedTuple):
     """
         name: XBTG23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTG23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32515,11 +32469,11 @@ XBTG23 = XBTG23()
 """
     name: XBTG23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32527,19 +32481,19 @@ class XBTH23(NamedTuple):
     """
         name: XBTH23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTH23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32561,11 +32515,11 @@ XBTH23 = XBTH23()
 """
     name: XBTH23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32573,19 +32527,19 @@ class XBTUSDTH23(NamedTuple):
     """
         name: XBTUSDTH23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XBTUSDTH23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32607,11 +32561,11 @@ XBTUSDTH23 = XBTUSDTH23()
 """
     name: XBTUSDTH23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -32619,19 +32573,19 @@ class XBTM23(NamedTuple):
     """
         name: XBTM23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTM23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32653,11 +32607,11 @@ XBTM23 = XBTM23()
 """
     name: XBTM23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32665,19 +32619,19 @@ class XBTUSDTM23(NamedTuple):
     """
         name: XBTUSDTM23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XBTUSDTM23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32699,11 +32653,11 @@ XBTUSDTM23 = XBTUSDTM23()
 """
     name: XBTUSDTM23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -32711,19 +32665,19 @@ class XBTU23(NamedTuple):
     """
         name: XBTU23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 100
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "XBTU23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 100
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32745,11 +32699,11 @@ XBTU23 = XBTU23()
 """
     name: XBTU23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 100
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32757,19 +32711,19 @@ class XBTUSDTU23(NamedTuple):
     """
         name: XBTUSDTU23
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "XBTUSDTU23"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32791,11 +32745,11 @@ XBTUSDTU23 = XBTUSDTU23()
 """
     name: XBTUSDTU23
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -32803,19 +32757,19 @@ class XBT_USDT(NamedTuple):
     """
         name: XBT_USDT
         precision: 0.5
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 10000
-        maximum_order_size: 100000000000
-        margin: True
+        min_order_size: 10000
+        max_order_size: 100000000000
+        has_margin: True
     """
     name: str = "XBT_USDT"
     precision: int = 0.5
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 10000
-    maximum_order_size: float = 100000000000
-    margin: bool = True
+    min_order_size: float = 10000
+    max_order_size: float = 100000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32837,11 +32791,11 @@ XBT_USDT = XBT_USDT()
 """
     name: XBT_USDT
     precision: 0.5
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 10000
-    maximum_order_size: 100000000000
-    margin: True
+    min_order_size: 10000
+    max_order_size: 100000000000
+    has_margin: True
 """
 
 
@@ -32849,19 +32803,19 @@ class ETHUSD(NamedTuple):
     """
         name: ETHUSD
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.01
-        minimum_order_size: 1
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "ETHUSD"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.01
-    minimum_order_size: float = 1
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32883,11 +32837,11 @@ ETHUSD = ETHUSD()
 """
     name: ETHUSD
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.01
-    minimum_order_size: 1
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -32895,19 +32849,19 @@ class ETHUSDT(NamedTuple):
     """
         name: ETHUSDT
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "ETHUSDT"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32929,11 +32883,11 @@ ETHUSDT = ETHUSDT()
 """
     name: ETHUSDT
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -32941,19 +32895,19 @@ class ETHUSD_ETH(NamedTuple):
     """
         name: ETHUSD_ETH
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 100000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
     """
     name: str = "ETHUSD_ETH"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 100000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32975,11 +32929,11 @@ ETHUSD_ETH = ETHUSD_ETH()
 """
     name: ETHUSD_ETH
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 100000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
 """
 
 
@@ -32987,19 +32941,19 @@ class ETHH23(NamedTuple):
     """
         name: ETHH23
         precision: 1e-05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "ETHH23"
     precision: int = 1e-05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33021,11 +32975,11 @@ ETHH23 = ETHH23()
 """
     name: ETHH23
     precision: 1e-05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -33033,19 +32987,19 @@ class ETHUSDH23(NamedTuple):
     """
         name: ETHUSDH23
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 10000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 10000000
+        has_margin: True
     """
     name: str = "ETHUSDH23"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 10000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 10000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33067,11 +33021,11 @@ ETHUSDH23 = ETHUSDH23()
 """
     name: ETHUSDH23
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 10000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 10000000
+    has_margin: True
 """
 
 
@@ -33079,19 +33033,19 @@ class ETHUSDTH23(NamedTuple):
     """
         name: ETHUSDTH23
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "ETHUSDTH23"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33113,11 +33067,11 @@ ETHUSDTH23 = ETHUSDTH23()
 """
     name: ETHUSDTH23
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
 """
 
 
@@ -33125,19 +33079,19 @@ class ETHUSDH23_ETH(NamedTuple):
     """
         name: ETHUSDH23_ETH
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 100000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
     """
     name: str = "ETHUSDH23_ETH"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 100000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33159,11 +33113,11 @@ ETHUSDH23_ETH = ETHUSDH23_ETH()
 """
     name: ETHUSDH23_ETH
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 100000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
 """
 
 
@@ -33171,19 +33125,19 @@ class ETH_USDT(NamedTuple):
     """
         name: ETH_USDT
         precision: 0.05
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 1000000
-        maximum_order_size: 10000000000000
-        margin: True
+        min_order_size: 1000000
+        max_order_size: 10000000000000
+        has_margin: True
     """
     name: str = "ETH_USDT"
     precision: int = 0.05
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 1000000
-    maximum_order_size: float = 10000000000000
-    margin: bool = True
+    min_order_size: float = 1000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33205,11 +33159,11 @@ ETH_USDT = ETH_USDT()
 """
     name: ETH_USDT
     precision: 0.05
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 1000000
-    maximum_order_size: 10000000000000
-    margin: True
+    min_order_size: 1000000
+    max_order_size: 10000000000000
+    has_margin: True
 """
 
 
@@ -33217,19 +33171,19 @@ class ETH_XBT(NamedTuple):
     """
         name: ETH_XBT
         precision: 1e-07
-        minimum_margin: None
+        min_margin: None
         initial_margin: 1
-        minimum_order_size: 1000000
-        maximum_order_size: 100000000000
-        margin: True
+        min_order_size: 1000000
+        max_order_size: 100000000000
+        has_margin: True
     """
     name: str = "ETH_XBT"
     precision: int = 1e-07
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 1
-    minimum_order_size: float = 1000000
-    maximum_order_size: float = 100000000000
-    margin: bool = True
+    min_order_size: float = 1000000
+    max_order_size: float = 100000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33251,11 +33205,11 @@ ETH_XBT = ETH_XBT()
 """
     name: ETH_XBT
     precision: 1e-07
-    minimum_margin: None
+    min_margin: None
     initial_margin: 1
-    minimum_order_size: 1000000
-    maximum_order_size: 100000000000
-    margin: True
+    min_order_size: 1000000
+    max_order_size: 100000000000
+    has_margin: True
 """
 
 
@@ -33263,19 +33217,19 @@ class LTCUSD(NamedTuple):
     """
         name: LTCUSD
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.02
-        minimum_order_size: 1
-        maximum_order_size: 100000000
-        margin: True
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
     """
     name: str = "LTCUSD"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.02
-    minimum_order_size: float = 1
-    maximum_order_size: float = 100000000
-    margin: bool = True
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33297,11 +33251,11 @@ LTCUSD = LTCUSD()
 """
     name: LTCUSD
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.02
-    minimum_order_size: 1
-    maximum_order_size: 100000000
-    margin: True
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
 """
 
 
@@ -33309,19 +33263,19 @@ class LTCUSDT(NamedTuple):
     """
         name: LTCUSDT
         precision: 0.01
-        minimum_margin: None
+        min_margin: None
         initial_margin: 0.03
-        minimum_order_size: 1000
-        maximum_order_size: 1000000000
-        margin: True
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
     """
     name: str = "LTCUSDT"
     precision: int = 0.01
-    minimum_margin: float = None
+    min_margin: float = None
     initial_margin: float = 0.03
-    minimum_order_size: float = 1000
-    maximum_order_size: float = 1000000000
-    margin: bool = True
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33343,9 +33297,55 @@ LTCUSDT = LTCUSDT()
 """
     name: LTCUSDT
     precision: 0.01
-    minimum_margin: None
+    min_margin: None
     initial_margin: 0.03
-    minimum_order_size: 1000
-    maximum_order_size: 1000000000
-    margin: True
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+"""
+
+
+class XBTF23(NamedTuple):
+    """
+        name: XBTF23
+        precision: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+    """
+    name: str = "XBTF23"
+    precision: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTF23"
+
+    def __str__(self):
+        return "XBTF23"
+
+    def __call__(self):
+        return "XBTF23"
+
+
+XBTF23 = XBTF23()
+"""
+    name: XBTF23
+    precision: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
 """
