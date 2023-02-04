@@ -10,6 +10,7 @@ class ZERO0_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "00-USD"
     precision: int = 0.0001
@@ -18,6 +19,7 @@ class ZERO0_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -44,6 +46,7 @@ ZERO0_USD = ZERO0_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -56,6 +59,7 @@ class ONEINCH_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "1INCH-BTC"
     precision: int = 0.0000001
@@ -64,6 +68,7 @@ class ONEINCH_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -90,6 +95,7 @@ ONEINCH_BTC = ONEINCH_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -102,6 +108,7 @@ class ONEINCH_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "1INCH-EUR"
     precision: int = 0.001
@@ -110,6 +117,7 @@ class ONEINCH_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -136,6 +144,7 @@ ONEINCH_EUR = ONEINCH_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -148,6 +157,7 @@ class ONEINCH_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "1INCH-GBP"
     precision: int = 0.001
@@ -156,6 +166,7 @@ class ONEINCH_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -182,6 +193,7 @@ ONEINCH_GBP = ONEINCH_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -194,6 +206,7 @@ class ONEINCH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "1INCH-USD"
     precision: int = 0.001
@@ -202,6 +215,7 @@ class ONEINCH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -228,6 +242,7 @@ ONEINCH_USD = ONEINCH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -240,6 +255,7 @@ class AAVE_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AAVE-BTC"
     precision: int = 0.000001
@@ -248,6 +264,7 @@ class AAVE_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -274,6 +291,7 @@ AAVE_BTC = AAVE_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -286,6 +304,7 @@ class AAVE_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AAVE-EUR"
     precision: int = 0.01
@@ -294,6 +313,7 @@ class AAVE_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -320,6 +340,7 @@ AAVE_EUR = AAVE_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -332,6 +353,7 @@ class AAVE_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AAVE-GBP"
     precision: int = 0.01
@@ -340,6 +362,7 @@ class AAVE_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -366,6 +389,7 @@ AAVE_GBP = AAVE_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -378,6 +402,7 @@ class AAVE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AAVE-USD"
     precision: int = 0.01
@@ -386,6 +411,7 @@ class AAVE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -412,6 +438,7 @@ AAVE_USD = AAVE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -424,6 +451,7 @@ class ABT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ABT-USD"
     precision: int = 0.0001
@@ -432,6 +460,7 @@ class ABT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -458,6 +487,7 @@ ABT_USD = ABT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -470,6 +500,7 @@ class ACH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ACH-USD"
     precision: int = 0.000001
@@ -478,6 +509,7 @@ class ACH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -504,6 +536,7 @@ ACH_USD = ACH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -516,6 +549,7 @@ class ACH_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ACH-USDT"
     precision: int = 0.000001
@@ -524,6 +558,7 @@ class ACH_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -550,6 +585,7 @@ ACH_USDT = ACH_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -562,6 +598,7 @@ class ADA_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-BTC"
     precision: int = 0.00000001
@@ -570,6 +607,7 @@ class ADA_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -596,6 +634,7 @@ ADA_BTC = ADA_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -608,6 +647,7 @@ class ADA_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-ETH"
     precision: int = 0.000001
@@ -616,6 +656,7 @@ class ADA_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -642,6 +683,7 @@ ADA_ETH = ADA_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -654,6 +696,7 @@ class ADA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-EUR"
     precision: int = 0.0001
@@ -662,6 +705,7 @@ class ADA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -688,6 +732,7 @@ ADA_EUR = ADA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -700,6 +745,7 @@ class ADA_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-GBP"
     precision: int = 0.0001
@@ -708,6 +754,7 @@ class ADA_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -734,6 +781,7 @@ ADA_GBP = ADA_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -746,6 +794,7 @@ class ADA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-USD"
     precision: int = 0.0001
@@ -754,6 +803,7 @@ class ADA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -780,6 +830,7 @@ ADA_USD = ADA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -792,6 +843,7 @@ class ADA_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-USDC"
     precision: int = 0.001
@@ -800,6 +852,7 @@ class ADA_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -826,6 +879,7 @@ ADA_USDC = ADA_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -838,6 +892,7 @@ class ADA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ADA-USDT"
     precision: int = 0.001
@@ -846,6 +901,7 @@ class ADA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -872,6 +928,7 @@ ADA_USDT = ADA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -884,6 +941,7 @@ class AERGO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AERGO-USD"
     precision: int = 0.0001
@@ -892,6 +950,7 @@ class AERGO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -918,6 +977,7 @@ AERGO_USD = AERGO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -930,6 +990,7 @@ class AGLD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AGLD-USD"
     precision: int = 0.0001
@@ -938,6 +999,7 @@ class AGLD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -964,6 +1026,7 @@ AGLD_USD = AGLD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -976,6 +1039,7 @@ class AGLD_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AGLD-USDT"
     precision: int = 0.0001
@@ -984,6 +1048,7 @@ class AGLD_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1010,6 +1075,7 @@ AGLD_USDT = AGLD_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1022,6 +1088,7 @@ class AIOZ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AIOZ-USD"
     precision: int = 0.0001
@@ -1030,6 +1097,7 @@ class AIOZ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1056,6 +1124,7 @@ AIOZ_USD = AIOZ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1068,6 +1137,7 @@ class AIOZ_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AIOZ-USDT"
     precision: int = 0.0001
@@ -1076,6 +1146,7 @@ class AIOZ_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1102,6 +1173,7 @@ AIOZ_USDT = AIOZ_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1114,6 +1186,7 @@ class ALCX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALCX-EUR"
     precision: int = 0.01
@@ -1122,6 +1195,7 @@ class ALCX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1148,6 +1222,7 @@ ALCX_EUR = ALCX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1160,6 +1235,7 @@ class ALCX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALCX-USD"
     precision: int = 0.01
@@ -1168,6 +1244,7 @@ class ALCX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1194,6 +1271,7 @@ ALCX_USD = ALCX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1206,6 +1284,7 @@ class ALCX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALCX-USDT"
     precision: int = 0.01
@@ -1214,6 +1293,7 @@ class ALCX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1240,6 +1320,7 @@ ALCX_USDT = ALCX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1252,6 +1333,7 @@ class ALEPH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALEPH-USD"
     precision: int = 0.0001
@@ -1260,6 +1342,7 @@ class ALEPH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1286,6 +1369,7 @@ ALEPH_USD = ALEPH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1298,6 +1382,7 @@ class ALGO_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALGO-BTC"
     precision: int = 0.00000001
@@ -1306,6 +1391,7 @@ class ALGO_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1332,6 +1418,7 @@ ALGO_BTC = ALGO_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1344,6 +1431,7 @@ class ALGO_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALGO-EUR"
     precision: int = 0.0001
@@ -1352,6 +1440,7 @@ class ALGO_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1378,6 +1467,7 @@ ALGO_EUR = ALGO_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1390,6 +1480,7 @@ class ALGO_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALGO-GBP"
     precision: int = 0.0001
@@ -1398,6 +1489,7 @@ class ALGO_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1424,6 +1516,7 @@ ALGO_GBP = ALGO_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1436,6 +1529,7 @@ class ALGO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALGO-USD"
     precision: int = 0.0001
@@ -1444,6 +1538,7 @@ class ALGO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1470,6 +1565,7 @@ ALGO_USD = ALGO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1482,6 +1578,7 @@ class ALICE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ALICE-USD"
     precision: int = 0.001
@@ -1490,6 +1587,7 @@ class ALICE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1516,6 +1614,7 @@ ALICE_USD = ALICE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1528,6 +1627,7 @@ class AMP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AMP-USD"
     precision: int = 0.00001
@@ -1536,6 +1636,7 @@ class AMP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1562,6 +1663,7 @@ AMP_USD = AMP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1574,6 +1676,7 @@ class ANKR_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ANKR-BTC"
     precision: int = 0.00000001
@@ -1582,6 +1685,7 @@ class ANKR_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1608,6 +1712,7 @@ ANKR_BTC = ANKR_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1620,6 +1725,7 @@ class ANKR_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ANKR-EUR"
     precision: int = 0.00001
@@ -1628,6 +1734,7 @@ class ANKR_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1654,6 +1761,7 @@ ANKR_EUR = ANKR_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1666,6 +1774,7 @@ class ANKR_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ANKR-GBP"
     precision: int = 0.00001
@@ -1674,6 +1783,7 @@ class ANKR_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1700,6 +1810,7 @@ ANKR_GBP = ANKR_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1712,6 +1823,7 @@ class ANKR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ANKR-USD"
     precision: int = 0.00001
@@ -1720,6 +1832,7 @@ class ANKR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1746,6 +1859,7 @@ ANKR_USD = ANKR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1758,6 +1872,7 @@ class ANT_USD(NamedTuple):
         min_order_size: 5.0
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ANT-USD"
     precision: int = 0.01
@@ -1766,6 +1881,7 @@ class ANT_USD(NamedTuple):
     min_order_size: float = 5.0
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1792,6 +1908,7 @@ ANT_USD = ANT_USD()
     min_order_size: 5.0
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1804,6 +1921,7 @@ class APE_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "APE-EUR"
     precision: int = 0.001
@@ -1812,6 +1930,7 @@ class APE_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1838,6 +1957,7 @@ APE_EUR = APE_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1850,6 +1970,7 @@ class APE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "APE-USD"
     precision: int = 0.001
@@ -1858,6 +1979,7 @@ class APE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1884,6 +2006,7 @@ APE_USD = APE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1896,6 +2019,7 @@ class APE_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "APE-USDT"
     precision: int = 0.001
@@ -1904,6 +2028,7 @@ class APE_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1930,6 +2055,7 @@ APE_USDT = APE_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1942,6 +2068,7 @@ class API3_USD(NamedTuple):
         min_order_size: 5
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "API3-USD"
     precision: int = 0.001
@@ -1950,6 +2077,7 @@ class API3_USD(NamedTuple):
     min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1976,6 +2104,7 @@ API3_USD = API3_USD()
     min_order_size: 5
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -1988,6 +2117,7 @@ class API3_USDT(NamedTuple):
         min_order_size: 5
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "API3-USDT"
     precision: int = 0.001
@@ -1996,6 +2126,7 @@ class API3_USDT(NamedTuple):
     min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2022,6 +2153,7 @@ API3_USDT = API3_USDT()
     min_order_size: 5
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2034,6 +2166,7 @@ class APT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "APT-USD"
     precision: int = 0.01
@@ -2042,6 +2175,7 @@ class APT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2068,6 +2202,7 @@ APT_USD = APT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2080,6 +2215,7 @@ class APT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "APT-USDT"
     precision: int = 0.01
@@ -2088,6 +2224,7 @@ class APT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2114,6 +2251,7 @@ APT_USDT = APT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2126,6 +2264,7 @@ class ARPA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ARPA-EUR"
     precision: int = 0.00001
@@ -2134,6 +2273,7 @@ class ARPA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2160,6 +2300,7 @@ ARPA_EUR = ARPA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2172,6 +2313,7 @@ class ARPA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ARPA-USD"
     precision: int = 0.0001
@@ -2180,6 +2322,7 @@ class ARPA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2206,6 +2349,7 @@ ARPA_USD = ARPA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2218,6 +2362,7 @@ class ARPA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ARPA-USDT"
     precision: int = 0.0001
@@ -2226,6 +2371,7 @@ class ARPA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2252,6 +2398,7 @@ ARPA_USDT = ARPA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2264,6 +2411,7 @@ class ASM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ASM-USD"
     precision: int = 0.00001
@@ -2272,6 +2420,7 @@ class ASM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2298,6 +2447,7 @@ ASM_USD = ASM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2310,6 +2460,7 @@ class ASM_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ASM-USDT"
     precision: int = 0.00001
@@ -2318,6 +2469,7 @@ class ASM_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2344,6 +2496,7 @@ ASM_USDT = ASM_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2356,6 +2509,7 @@ class AST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AST-USD"
     precision: int = 0.0001
@@ -2364,6 +2518,7 @@ class AST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2390,6 +2545,7 @@ AST_USD = AST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2402,6 +2558,7 @@ class ATA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATA-USD"
     precision: int = 0.0001
@@ -2410,6 +2567,7 @@ class ATA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2436,6 +2594,7 @@ ATA_USD = ATA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2448,6 +2607,7 @@ class ATA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATA-USDT"
     precision: int = 0.0001
@@ -2456,6 +2616,7 @@ class ATA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2482,6 +2643,7 @@ ATA_USDT = ATA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2494,6 +2656,7 @@ class ATOM_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATOM-BTC"
     precision: int = 0.0000001
@@ -2502,6 +2665,7 @@ class ATOM_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2528,6 +2692,7 @@ ATOM_BTC = ATOM_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2540,6 +2705,7 @@ class ATOM_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATOM-EUR"
     precision: int = 0.01
@@ -2548,6 +2714,7 @@ class ATOM_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2574,6 +2741,7 @@ ATOM_EUR = ATOM_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2586,6 +2754,7 @@ class ATOM_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATOM-GBP"
     precision: int = 0.01
@@ -2594,6 +2763,7 @@ class ATOM_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2620,6 +2790,7 @@ ATOM_GBP = ATOM_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2632,6 +2803,7 @@ class ATOM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATOM-USD"
     precision: int = 0.001
@@ -2640,6 +2812,7 @@ class ATOM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2666,6 +2839,7 @@ ATOM_USD = ATOM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2678,6 +2852,7 @@ class ATOM_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ATOM-USDT"
     precision: int = 0.01
@@ -2686,6 +2861,7 @@ class ATOM_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2712,6 +2888,7 @@ ATOM_USDT = ATOM_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2724,6 +2901,7 @@ class AUCTION_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AUCTION-EUR"
     precision: int = 0.01
@@ -2732,6 +2910,7 @@ class AUCTION_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2758,6 +2937,7 @@ AUCTION_EUR = AUCTION_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2770,6 +2950,7 @@ class AUCTION_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AUCTION-USD"
     precision: int = 0.01
@@ -2778,6 +2959,7 @@ class AUCTION_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2804,6 +2986,7 @@ AUCTION_USD = AUCTION_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2816,6 +2999,7 @@ class AUCTION_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AUCTION-USDT"
     precision: int = 0.01
@@ -2824,6 +3008,7 @@ class AUCTION_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2850,6 +3035,7 @@ AUCTION_USDT = AUCTION_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2862,6 +3048,7 @@ class AUDIO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AUDIO-USD"
     precision: int = 0.0001
@@ -2870,6 +3057,7 @@ class AUDIO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2896,6 +3084,7 @@ AUDIO_USD = AUDIO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2908,6 +3097,7 @@ class AURORA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AURORA-USD"
     precision: int = 0.001
@@ -2916,6 +3106,7 @@ class AURORA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2942,6 +3133,7 @@ AURORA_USD = AURORA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -2954,6 +3146,7 @@ class AVAX_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AVAX-BTC"
     precision: int = 0.00000001
@@ -2962,6 +3155,7 @@ class AVAX_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2988,6 +3182,7 @@ AVAX_BTC = AVAX_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3000,6 +3195,7 @@ class AVAX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AVAX-EUR"
     precision: int = 0.01
@@ -3008,6 +3204,7 @@ class AVAX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3034,6 +3231,7 @@ AVAX_EUR = AVAX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3046,6 +3244,7 @@ class AVAX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AVAX-USD"
     precision: int = 0.01
@@ -3054,6 +3253,7 @@ class AVAX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3080,6 +3280,7 @@ AVAX_USD = AVAX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3092,6 +3293,7 @@ class AVAX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AVAX-USDT"
     precision: int = 0.01
@@ -3100,6 +3302,7 @@ class AVAX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3126,6 +3329,7 @@ AVAX_USDT = AVAX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3138,6 +3342,7 @@ class AVT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AVT-USD"
     precision: int = 0.01
@@ -3146,6 +3351,7 @@ class AVT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3172,6 +3378,7 @@ AVT_USD = AVT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3184,6 +3391,7 @@ class AXS_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AXS-BTC"
     precision: int = 0.0000001
@@ -3192,6 +3400,7 @@ class AXS_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3218,6 +3427,7 @@ AXS_BTC = AXS_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3230,6 +3440,7 @@ class AXS_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AXS-EUR"
     precision: int = 0.01
@@ -3238,6 +3449,7 @@ class AXS_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3264,6 +3476,7 @@ AXS_EUR = AXS_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3276,6 +3489,7 @@ class AXS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AXS-USD"
     precision: int = 0.01
@@ -3284,6 +3498,7 @@ class AXS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3310,6 +3525,7 @@ AXS_USD = AXS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3322,6 +3538,7 @@ class AXS_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "AXS-USDT"
     precision: int = 0.01
@@ -3330,6 +3547,7 @@ class AXS_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3356,6 +3574,7 @@ AXS_USDT = AXS_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3368,6 +3587,7 @@ class BADGER_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BADGER-EUR"
     precision: int = 0.01
@@ -3376,6 +3596,7 @@ class BADGER_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3402,6 +3623,7 @@ BADGER_EUR = BADGER_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3414,6 +3636,7 @@ class BADGER_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BADGER-USD"
     precision: int = 0.01
@@ -3422,6 +3645,7 @@ class BADGER_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3448,6 +3672,7 @@ BADGER_USD = BADGER_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3460,6 +3685,7 @@ class BADGER_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BADGER-USDT"
     precision: int = 0.01
@@ -3468,6 +3694,7 @@ class BADGER_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3494,6 +3721,7 @@ BADGER_USDT = BADGER_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3506,6 +3734,7 @@ class BAL_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAL-BTC"
     precision: int = 0.00000001
@@ -3514,6 +3743,7 @@ class BAL_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3540,6 +3770,7 @@ BAL_BTC = BAL_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3552,6 +3783,7 @@ class BAL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAL-USD"
     precision: int = 0.01
@@ -3560,6 +3792,7 @@ class BAL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3586,6 +3819,7 @@ BAL_USD = BAL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3598,6 +3832,7 @@ class BAND_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAND-BTC"
     precision: int = 0.00000001
@@ -3606,6 +3841,7 @@ class BAND_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3632,6 +3868,7 @@ BAND_BTC = BAND_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3644,6 +3881,7 @@ class BAND_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAND-EUR"
     precision: int = 0.01
@@ -3652,6 +3890,7 @@ class BAND_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3678,6 +3917,7 @@ BAND_EUR = BAND_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3690,6 +3930,7 @@ class BAND_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAND-GBP"
     precision: int = 0.001
@@ -3698,6 +3939,7 @@ class BAND_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3724,6 +3966,7 @@ BAND_GBP = BAND_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3736,6 +3979,7 @@ class BAND_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAND-USD"
     precision: int = 0.001
@@ -3744,6 +3988,7 @@ class BAND_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3770,6 +4015,7 @@ BAND_USD = BAND_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3782,6 +4028,7 @@ class BAT_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAT-BTC"
     precision: int = 0.00000001
@@ -3790,6 +4037,7 @@ class BAT_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3816,6 +4064,7 @@ BAT_BTC = BAT_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3828,6 +4077,7 @@ class BAT_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAT-ETH"
     precision: int = 0.00000001
@@ -3836,6 +4086,7 @@ class BAT_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3862,6 +4113,7 @@ BAT_ETH = BAT_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3874,6 +4126,7 @@ class BAT_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAT-EUR"
     precision: int = 0.00001
@@ -3882,6 +4135,7 @@ class BAT_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3908,6 +4162,7 @@ BAT_EUR = BAT_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3920,6 +4175,7 @@ class BAT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAT-USD"
     precision: int = 0.00001
@@ -3928,6 +4184,7 @@ class BAT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3954,6 +4211,7 @@ BAT_USD = BAT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -3966,6 +4224,7 @@ class BAT_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BAT-USDC"
     precision: int = 0.000001
@@ -3974,6 +4233,7 @@ class BAT_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4000,6 +4260,7 @@ BAT_USDC = BAT_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4012,6 +4273,7 @@ class BCH_BTC(NamedTuple):
         min_order_size: 0.00001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BCH-BTC"
     precision: int = 0.000001
@@ -4020,6 +4282,7 @@ class BCH_BTC(NamedTuple):
     min_order_size: float = 0.00001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4046,6 +4309,7 @@ BCH_BTC = BCH_BTC()
     min_order_size: 0.00001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4058,6 +4322,7 @@ class BCH_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BCH-EUR"
     precision: int = 0.01
@@ -4066,6 +4331,7 @@ class BCH_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4092,6 +4358,7 @@ BCH_EUR = BCH_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4104,6 +4371,7 @@ class BCH_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BCH-GBP"
     precision: int = 0.01
@@ -4112,6 +4380,7 @@ class BCH_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4138,6 +4407,7 @@ BCH_GBP = BCH_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4150,6 +4420,7 @@ class BCH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BCH-USD"
     precision: int = 0.01
@@ -4158,6 +4429,7 @@ class BCH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4184,6 +4456,7 @@ BCH_USD = BCH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4196,6 +4469,7 @@ class BICO_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BICO-EUR"
     precision: int = 0.0001
@@ -4204,6 +4478,7 @@ class BICO_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4230,6 +4505,7 @@ BICO_EUR = BICO_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4242,6 +4518,7 @@ class BICO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BICO-USD"
     precision: int = 0.0001
@@ -4250,6 +4527,7 @@ class BICO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4276,6 +4554,7 @@ BICO_USD = BICO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4288,6 +4567,7 @@ class BICO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BICO-USDT"
     precision: int = 0.0001
@@ -4296,6 +4576,7 @@ class BICO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4322,6 +4603,7 @@ BICO_USDT = BICO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4334,6 +4616,7 @@ class BIT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BIT-USD"
     precision: int = 0.0001
@@ -4342,6 +4625,7 @@ class BIT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4368,6 +4652,7 @@ BIT_USD = BIT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4380,6 +4665,7 @@ class BIT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BIT-USDT"
     precision: int = 0.0001
@@ -4388,6 +4674,7 @@ class BIT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4414,6 +4701,7 @@ BIT_USDT = BIT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4426,6 +4714,7 @@ class BLZ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BLZ-USD"
     precision: int = 0.0001
@@ -4434,6 +4723,7 @@ class BLZ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4460,6 +4750,7 @@ BLZ_USD = BLZ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4472,6 +4763,7 @@ class BNT_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BNT-BTC"
     precision: int = 0.00000001
@@ -4480,6 +4772,7 @@ class BNT_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4506,6 +4799,7 @@ BNT_BTC = BNT_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4518,6 +4812,7 @@ class BNT_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BNT-EUR"
     precision: int = 0.001
@@ -4526,6 +4821,7 @@ class BNT_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4552,6 +4848,7 @@ BNT_EUR = BNT_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4564,6 +4861,7 @@ class BNT_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BNT-GBP"
     precision: int = 0.0001
@@ -4572,6 +4870,7 @@ class BNT_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4598,6 +4897,7 @@ BNT_GBP = BNT_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4610,6 +4910,7 @@ class BNT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BNT-USD"
     precision: int = 0.0001
@@ -4618,6 +4919,7 @@ class BNT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4644,6 +4946,7 @@ BNT_USD = BNT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4656,6 +4959,7 @@ class BOBA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BOBA-USD"
     precision: int = 0.0001
@@ -4664,6 +4968,7 @@ class BOBA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4690,6 +4995,7 @@ BOBA_USD = BOBA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4702,6 +5008,7 @@ class BOBA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BOBA-USDT"
     precision: int = 0.0001
@@ -4710,6 +5017,7 @@ class BOBA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4736,6 +5044,7 @@ BOBA_USDT = BOBA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4748,6 +5057,7 @@ class BOND_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BOND-USD"
     precision: int = 0.01
@@ -4756,6 +5066,7 @@ class BOND_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4782,6 +5093,7 @@ BOND_USD = BOND_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4794,6 +5106,7 @@ class BOND_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BOND-USDT"
     precision: int = 0.001
@@ -4802,6 +5115,7 @@ class BOND_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4828,6 +5142,7 @@ BOND_USDT = BOND_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4840,6 +5155,7 @@ class BTC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTC-EUR"
     precision: int = 0.01
@@ -4848,6 +5164,7 @@ class BTC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4874,6 +5191,7 @@ BTC_EUR = BTC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4886,6 +5204,7 @@ class BTC_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTC-GBP"
     precision: int = 0.01
@@ -4894,6 +5213,7 @@ class BTC_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4920,6 +5240,7 @@ BTC_GBP = BTC_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4932,6 +5253,7 @@ class BTC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTC-USD"
     precision: int = 0.01
@@ -4940,6 +5262,7 @@ class BTC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4966,6 +5289,7 @@ BTC_USD = BTC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -4978,6 +5302,7 @@ class BTC_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTC-USDC"
     precision: int = 1
@@ -4986,6 +5311,7 @@ class BTC_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5012,6 +5338,7 @@ BTC_USDC = BTC_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5024,6 +5351,7 @@ class BTC_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTC-USDT"
     precision: int = 0.01
@@ -5032,6 +5360,7 @@ class BTC_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5058,6 +5387,7 @@ BTC_USDT = BTC_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5070,6 +5400,7 @@ class BTRST_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTRST-BTC"
     precision: int = 0.00000001
@@ -5078,6 +5409,7 @@ class BTRST_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5104,6 +5436,7 @@ BTRST_BTC = BTRST_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5116,6 +5449,7 @@ class BTRST_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTRST-EUR"
     precision: int = 0.01
@@ -5124,6 +5458,7 @@ class BTRST_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5150,6 +5485,7 @@ BTRST_EUR = BTRST_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5162,6 +5498,7 @@ class BTRST_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTRST-GBP"
     precision: int = 0.001
@@ -5170,6 +5507,7 @@ class BTRST_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5196,6 +5534,7 @@ BTRST_GBP = BTRST_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5208,6 +5547,7 @@ class BTRST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTRST-USD"
     precision: int = 0.001
@@ -5216,6 +5556,7 @@ class BTRST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5242,6 +5583,7 @@ BTRST_USD = BTRST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5254,6 +5596,7 @@ class BTRST_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BTRST-USDT"
     precision: int = 0.001
@@ -5262,6 +5605,7 @@ class BTRST_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5288,6 +5632,7 @@ BTRST_USDT = BTRST_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5300,6 +5645,7 @@ class BUSD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "BUSD-USD"
     precision: int = 0.001
@@ -5308,6 +5654,7 @@ class BUSD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5334,6 +5681,7 @@ BUSD_USD = BUSD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5346,6 +5694,7 @@ class C98_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "C98-USD"
     precision: int = 0.0001
@@ -5354,6 +5703,7 @@ class C98_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5380,6 +5730,7 @@ C98_USD = C98_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5392,6 +5743,7 @@ class C98_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "C98-USDT"
     precision: int = 0.0001
@@ -5400,6 +5752,7 @@ class C98_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5426,6 +5779,7 @@ C98_USDT = C98_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5438,6 +5792,7 @@ class CBETH_ETH(NamedTuple):
         min_order_size: 0.002
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CBETH-ETH"
     precision: int = 0.00001
@@ -5446,6 +5801,7 @@ class CBETH_ETH(NamedTuple):
     min_order_size: float = 0.002
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5472,6 +5828,7 @@ CBETH_ETH = CBETH_ETH()
     min_order_size: 0.002
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5484,6 +5841,7 @@ class CBETH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CBETH-USD"
     precision: int = 0.01
@@ -5492,6 +5850,7 @@ class CBETH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5518,6 +5877,7 @@ CBETH_USD = CBETH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5530,6 +5890,7 @@ class CELR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CELR-USD"
     precision: int = 0.00001
@@ -5538,6 +5899,7 @@ class CELR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5564,6 +5926,7 @@ CELR_USD = CELR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5576,6 +5939,7 @@ class CGLD_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CGLD-BTC"
     precision: int = 0.00000001
@@ -5584,6 +5948,7 @@ class CGLD_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5610,6 +5975,7 @@ CGLD_BTC = CGLD_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5622,6 +5988,7 @@ class CGLD_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CGLD-EUR"
     precision: int = 0.01
@@ -5630,6 +5997,7 @@ class CGLD_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5656,6 +6024,7 @@ CGLD_EUR = CGLD_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5668,6 +6037,7 @@ class CGLD_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CGLD-GBP"
     precision: int = 0.001
@@ -5676,6 +6046,7 @@ class CGLD_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5702,6 +6073,7 @@ CGLD_GBP = CGLD_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5714,6 +6086,7 @@ class CGLD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CGLD-USD"
     precision: int = 0.001
@@ -5722,6 +6095,7 @@ class CGLD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5748,6 +6122,7 @@ CGLD_USD = CGLD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5760,6 +6135,7 @@ class CHZ_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CHZ-EUR"
     precision: int = 0.0001
@@ -5768,6 +6144,7 @@ class CHZ_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5794,6 +6171,7 @@ CHZ_EUR = CHZ_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5806,6 +6184,7 @@ class CHZ_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CHZ-GBP"
     precision: int = 0.0001
@@ -5814,6 +6193,7 @@ class CHZ_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5840,6 +6220,7 @@ CHZ_GBP = CHZ_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5852,6 +6233,7 @@ class CHZ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CHZ-USD"
     precision: int = 0.0001
@@ -5860,6 +6242,7 @@ class CHZ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5886,6 +6269,7 @@ CHZ_USD = CHZ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5898,6 +6282,7 @@ class CHZ_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CHZ-USDT"
     precision: int = 0.0001
@@ -5906,6 +6291,7 @@ class CHZ_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5932,6 +6318,7 @@ CHZ_USDT = CHZ_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5944,6 +6331,7 @@ class CLV_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CLV-EUR"
     precision: int = 0.00001
@@ -5952,6 +6340,7 @@ class CLV_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5978,6 +6367,7 @@ CLV_EUR = CLV_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -5990,6 +6380,7 @@ class CLV_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CLV-GBP"
     precision: int = 0.0001
@@ -5998,6 +6389,7 @@ class CLV_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6024,6 +6416,7 @@ CLV_GBP = CLV_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6036,6 +6429,7 @@ class CLV_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CLV-USD"
     precision: int = 0.0001
@@ -6044,6 +6438,7 @@ class CLV_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6070,6 +6465,7 @@ CLV_USD = CLV_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6082,6 +6478,7 @@ class CLV_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CLV-USDT"
     precision: int = 0.0001
@@ -6090,6 +6487,7 @@ class CLV_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6116,6 +6514,7 @@ CLV_USDT = CLV_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6128,6 +6527,7 @@ class COMP_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "COMP-BTC"
     precision: int = 0.000001
@@ -6136,6 +6536,7 @@ class COMP_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6162,6 +6563,7 @@ COMP_BTC = COMP_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6174,6 +6576,7 @@ class COMP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "COMP-USD"
     precision: int = 0.01
@@ -6182,6 +6585,7 @@ class COMP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6208,6 +6612,7 @@ COMP_USD = COMP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6220,6 +6625,7 @@ class COTI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "COTI-USD"
     precision: int = 0.0001
@@ -6228,6 +6634,7 @@ class COTI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6254,6 +6661,7 @@ COTI_USD = COTI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6266,6 +6674,7 @@ class COVAL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "COVAL-USD"
     precision: int = 0.00001
@@ -6274,6 +6683,7 @@ class COVAL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6300,6 +6710,7 @@ COVAL_USD = COVAL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6312,6 +6723,7 @@ class COVAL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "COVAL-USDT"
     precision: int = 0.00001
@@ -6320,6 +6732,7 @@ class COVAL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6346,6 +6759,7 @@ COVAL_USDT = COVAL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6358,6 +6772,7 @@ class CRO_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRO-EUR"
     precision: int = 0.0001
@@ -6366,6 +6781,7 @@ class CRO_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6392,6 +6808,7 @@ CRO_EUR = CRO_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6404,6 +6821,7 @@ class CRO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRO-USD"
     precision: int = 0.0001
@@ -6412,6 +6830,7 @@ class CRO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6438,6 +6857,7 @@ CRO_USD = CRO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6450,6 +6870,7 @@ class CRO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRO-USDT"
     precision: int = 0.0001
@@ -6458,6 +6879,7 @@ class CRO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6484,6 +6906,7 @@ CRO_USDT = CRO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6496,6 +6919,7 @@ class CRPT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRPT-USD"
     precision: int = 0.0001
@@ -6504,6 +6928,7 @@ class CRPT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6530,6 +6955,7 @@ CRPT_USD = CRPT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6542,6 +6968,7 @@ class CRV_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRV-BTC"
     precision: int = 0.0000001
@@ -6550,6 +6977,7 @@ class CRV_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6576,6 +7004,7 @@ CRV_BTC = CRV_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6588,6 +7017,7 @@ class CRV_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRV-EUR"
     precision: int = 0.0001
@@ -6596,6 +7026,7 @@ class CRV_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6622,6 +7053,7 @@ CRV_EUR = CRV_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6634,6 +7066,7 @@ class CRV_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRV-GBP"
     precision: int = 0.0001
@@ -6642,6 +7075,7 @@ class CRV_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6668,6 +7102,7 @@ CRV_GBP = CRV_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6680,6 +7115,7 @@ class CRV_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CRV-USD"
     precision: int = 0.0001
@@ -6688,6 +7124,7 @@ class CRV_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6714,6 +7151,7 @@ CRV_USD = CRV_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6726,6 +7164,7 @@ class CTSI_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CTSI-BTC"
     precision: int = 0.0000001
@@ -6734,6 +7173,7 @@ class CTSI_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6760,6 +7200,7 @@ CTSI_BTC = CTSI_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6772,6 +7213,7 @@ class CTSI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CTSI-USD"
     precision: int = 0.0001
@@ -6780,6 +7222,7 @@ class CTSI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6806,6 +7249,7 @@ CTSI_USD = CTSI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6818,6 +7262,7 @@ class CTX_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CTX-EUR"
     precision: int = 0.01
@@ -6826,6 +7271,7 @@ class CTX_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6852,6 +7298,7 @@ CTX_EUR = CTX_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6864,6 +7311,7 @@ class CTX_USD(NamedTuple):
         min_order_size: 5
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CTX-USD"
     precision: int = 0.01
@@ -6872,6 +7320,7 @@ class CTX_USD(NamedTuple):
     min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6898,6 +7347,7 @@ CTX_USD = CTX_USD()
     min_order_size: 5
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6910,6 +7360,7 @@ class CTX_USDT(NamedTuple):
         min_order_size: 5
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CTX-USDT"
     precision: int = 0.01
@@ -6918,6 +7369,7 @@ class CTX_USDT(NamedTuple):
     min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6944,6 +7396,7 @@ CTX_USDT = CTX_USDT()
     min_order_size: 5
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -6956,6 +7409,7 @@ class CVC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CVC-USD"
     precision: int = 0.0001
@@ -6964,6 +7418,7 @@ class CVC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6990,6 +7445,7 @@ CVC_USD = CVC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7002,6 +7458,7 @@ class CVC_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CVC-USDC"
     precision: int = 0.000001
@@ -7010,6 +7467,7 @@ class CVC_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7036,6 +7494,7 @@ CVC_USDC = CVC_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7048,6 +7507,7 @@ class CVX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "CVX-USD"
     precision: int = 0.001
@@ -7056,6 +7516,7 @@ class CVX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7082,6 +7543,7 @@ CVX_USD = CVX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7094,6 +7556,7 @@ class DAI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DAI-USD"
     precision: int = 0.0001
@@ -7102,6 +7565,7 @@ class DAI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7128,6 +7592,7 @@ DAI_USD = DAI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7140,6 +7605,7 @@ class DAI_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DAI-USDC"
     precision: int = 0.0001
@@ -7148,6 +7614,7 @@ class DAI_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7174,6 +7641,7 @@ DAI_USDC = DAI_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7186,6 +7654,7 @@ class DAR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DAR-USD"
     precision: int = 0.001
@@ -7194,6 +7663,7 @@ class DAR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7220,6 +7690,7 @@ DAR_USD = DAR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7232,6 +7703,7 @@ class DASH_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DASH-BTC"
     precision: int = 0.000001
@@ -7240,6 +7712,7 @@ class DASH_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7266,6 +7739,7 @@ DASH_BTC = DASH_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7278,6 +7752,7 @@ class DASH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DASH-USD"
     precision: int = 0.01
@@ -7286,6 +7761,7 @@ class DASH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7312,6 +7788,7 @@ DASH_USD = DASH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7324,6 +7801,7 @@ class DDX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DDX-EUR"
     precision: int = 0.0001
@@ -7332,6 +7810,7 @@ class DDX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7358,6 +7837,7 @@ DDX_EUR = DDX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7370,6 +7850,7 @@ class DDX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DDX-USD"
     precision: int = 0.0001
@@ -7378,6 +7859,7 @@ class DDX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7404,6 +7886,7 @@ DDX_USD = DDX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7416,6 +7899,7 @@ class DDX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DDX-USDT"
     precision: int = 0.0001
@@ -7424,6 +7908,7 @@ class DDX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7450,6 +7935,7 @@ DDX_USDT = DDX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7462,6 +7948,7 @@ class DESO_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DESO-EUR"
     precision: int = 0.01
@@ -7470,6 +7957,7 @@ class DESO_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7496,6 +7984,7 @@ DESO_EUR = DESO_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7508,6 +7997,7 @@ class DESO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DESO-USD"
     precision: int = 0.01
@@ -7516,6 +8006,7 @@ class DESO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7542,6 +8033,7 @@ DESO_USD = DESO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7554,6 +8046,7 @@ class DESO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DESO-USDT"
     precision: int = 0.01
@@ -7562,6 +8055,7 @@ class DESO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7588,6 +8082,7 @@ DESO_USDT = DESO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7600,6 +8095,7 @@ class DEXT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DEXT-USD"
     precision: int = 0.0001
@@ -7608,6 +8104,7 @@ class DEXT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7634,6 +8131,7 @@ DEXT_USD = DEXT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7646,6 +8144,7 @@ class DIA_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DIA-EUR"
     precision: int = 0.00001
@@ -7654,6 +8153,7 @@ class DIA_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7680,6 +8180,7 @@ DIA_EUR = DIA_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7692,6 +8193,7 @@ class DIA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DIA-USD"
     precision: int = 0.00001
@@ -7700,6 +8202,7 @@ class DIA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7726,6 +8229,7 @@ DIA_USD = DIA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7738,6 +8242,7 @@ class DIA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DIA-USDT"
     precision: int = 0.00001
@@ -7746,6 +8251,7 @@ class DIA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7772,6 +8278,7 @@ DIA_USDT = DIA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7784,6 +8291,7 @@ class DNT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DNT-USD"
     precision: int = 0.0001
@@ -7792,6 +8300,7 @@ class DNT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7818,6 +8327,7 @@ DNT_USD = DNT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7830,6 +8340,7 @@ class DNT_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DNT-USDC"
     precision: int = 0.000001
@@ -7838,6 +8349,7 @@ class DNT_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7864,6 +8376,7 @@ DNT_USDC = DNT_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7876,6 +8389,7 @@ class DOGE_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOGE-BTC"
     precision: int = 0.00000001
@@ -7884,6 +8398,7 @@ class DOGE_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7910,6 +8425,7 @@ DOGE_BTC = DOGE_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7922,6 +8438,7 @@ class DOGE_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOGE-EUR"
     precision: int = 0.0001
@@ -7930,6 +8447,7 @@ class DOGE_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7956,6 +8474,7 @@ DOGE_EUR = DOGE_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -7968,6 +8487,7 @@ class DOGE_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOGE-GBP"
     precision: int = 0.0001
@@ -7976,6 +8496,7 @@ class DOGE_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8002,6 +8523,7 @@ DOGE_GBP = DOGE_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8014,6 +8536,7 @@ class DOGE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOGE-USD"
     precision: int = 0.00001
@@ -8022,6 +8545,7 @@ class DOGE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8048,6 +8572,7 @@ DOGE_USD = DOGE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8060,6 +8585,7 @@ class DOGE_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOGE-USDT"
     precision: int = 0.0001
@@ -8068,6 +8594,7 @@ class DOGE_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8094,6 +8621,7 @@ DOGE_USDT = DOGE_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8106,6 +8634,7 @@ class DOT_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOT-BTC"
     precision: int = 0.0000001
@@ -8114,6 +8643,7 @@ class DOT_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8140,6 +8670,7 @@ DOT_BTC = DOT_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8152,6 +8683,7 @@ class DOT_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOT-EUR"
     precision: int = 0.01
@@ -8160,6 +8692,7 @@ class DOT_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8186,6 +8719,7 @@ DOT_EUR = DOT_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8198,6 +8732,7 @@ class DOT_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOT-GBP"
     precision: int = 0.01
@@ -8206,6 +8741,7 @@ class DOT_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8232,6 +8768,7 @@ DOT_GBP = DOT_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8244,6 +8781,7 @@ class DOT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOT-USD"
     precision: int = 0.001
@@ -8252,6 +8790,7 @@ class DOT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8278,6 +8817,7 @@ DOT_USD = DOT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8290,6 +8830,7 @@ class DOT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DOT-USDT"
     precision: int = 0.01
@@ -8298,6 +8839,7 @@ class DOT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8324,6 +8866,7 @@ DOT_USDT = DOT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8336,6 +8879,7 @@ class DREP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DREP-USD"
     precision: int = 0.0001
@@ -8344,6 +8888,7 @@ class DREP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8370,6 +8915,7 @@ DREP_USD = DREP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8382,6 +8928,7 @@ class DREP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DREP-USDT"
     precision: int = 0.0001
@@ -8390,6 +8937,7 @@ class DREP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8416,6 +8964,7 @@ DREP_USDT = DREP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8428,6 +8977,7 @@ class DYP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DYP-USD"
     precision: int = 0.00001
@@ -8436,6 +8986,7 @@ class DYP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8462,6 +9013,7 @@ DYP_USD = DYP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8474,6 +9026,7 @@ class DYP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "DYP-USDT"
     precision: int = 0.00001
@@ -8482,6 +9035,7 @@ class DYP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8508,6 +9062,7 @@ DYP_USDT = DYP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8520,6 +9075,7 @@ class EGLD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "EGLD-USD"
     precision: int = 0.01
@@ -8528,6 +9084,7 @@ class EGLD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8554,6 +9111,7 @@ EGLD_USD = EGLD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8566,6 +9124,7 @@ class ELA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ELA-USD"
     precision: int = 0.001
@@ -8574,6 +9133,7 @@ class ELA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8600,6 +9160,7 @@ ELA_USD = ELA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8612,6 +9173,7 @@ class ELA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ELA-USDT"
     precision: int = 0.001
@@ -8620,6 +9182,7 @@ class ELA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8646,6 +9209,7 @@ ELA_USDT = ELA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8658,6 +9222,7 @@ class ENJ_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENJ-BTC"
     precision: int = 0.00000001
@@ -8666,6 +9231,7 @@ class ENJ_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8692,6 +9258,7 @@ ENJ_BTC = ENJ_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8704,6 +9271,7 @@ class ENJ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENJ-USD"
     precision: int = 0.001
@@ -8712,6 +9280,7 @@ class ENJ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8738,6 +9307,7 @@ ENJ_USD = ENJ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8750,6 +9320,7 @@ class ENJ_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENJ-USDT"
     precision: int = 0.001
@@ -8758,6 +9329,7 @@ class ENJ_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8784,6 +9356,7 @@ ENJ_USDT = ENJ_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8796,6 +9369,7 @@ class ENS_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENS-EUR"
     precision: int = 0.01
@@ -8804,6 +9378,7 @@ class ENS_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8830,6 +9405,7 @@ ENS_EUR = ENS_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8842,6 +9418,7 @@ class ENS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENS-USD"
     precision: int = 0.01
@@ -8850,6 +9427,7 @@ class ENS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8876,6 +9454,7 @@ ENS_USD = ENS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8888,6 +9467,7 @@ class ENS_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ENS-USDT"
     precision: int = 0.01
@@ -8896,6 +9476,7 @@ class ENS_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8922,6 +9503,7 @@ ENS_USDT = ENS_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8934,6 +9516,7 @@ class EOS_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "EOS-BTC"
     precision: int = 0.00000001
@@ -8942,6 +9525,7 @@ class EOS_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8968,6 +9552,7 @@ EOS_BTC = EOS_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -8980,6 +9565,7 @@ class EOS_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "EOS-EUR"
     precision: int = 0.0001
@@ -8988,6 +9574,7 @@ class EOS_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9014,6 +9601,7 @@ EOS_EUR = EOS_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9026,6 +9614,7 @@ class EOS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "EOS-USD"
     precision: int = 0.0001
@@ -9034,6 +9623,7 @@ class EOS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9060,6 +9650,7 @@ EOS_USD = EOS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9072,6 +9663,7 @@ class ERN_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ERN-EUR"
     precision: int = 0.01
@@ -9080,6 +9672,7 @@ class ERN_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9106,6 +9699,7 @@ ERN_EUR = ERN_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9118,6 +9712,7 @@ class ERN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ERN-USD"
     precision: int = 0.01
@@ -9126,6 +9721,7 @@ class ERN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9152,6 +9748,7 @@ ERN_USD = ERN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9164,6 +9761,7 @@ class ERN_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ERN-USDT"
     precision: int = 0.01
@@ -9172,6 +9770,7 @@ class ERN_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9198,6 +9797,7 @@ ERN_USDT = ERN_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9210,6 +9810,7 @@ class ETC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETC-BTC"
     precision: int = 0.000001
@@ -9218,6 +9819,7 @@ class ETC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9244,6 +9846,7 @@ ETC_BTC = ETC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9256,6 +9859,7 @@ class ETC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETC-EUR"
     precision: int = 0.01
@@ -9264,6 +9868,7 @@ class ETC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9290,6 +9895,7 @@ ETC_EUR = ETC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9302,6 +9908,7 @@ class ETC_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETC-GBP"
     precision: int = 0.01
@@ -9310,6 +9917,7 @@ class ETC_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9336,6 +9944,7 @@ ETC_GBP = ETC_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9348,6 +9957,7 @@ class ETC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETC-USD"
     precision: int = 0.01
@@ -9356,6 +9966,7 @@ class ETC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9382,6 +9993,7 @@ ETC_USD = ETC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9394,6 +10006,7 @@ class ETH_BTC(NamedTuple):
         min_order_size: 0.00001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-BTC"
     precision: int = 0.00001
@@ -9402,6 +10015,7 @@ class ETH_BTC(NamedTuple):
     min_order_size: float = 0.00001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9428,6 +10042,7 @@ ETH_BTC = ETH_BTC()
     min_order_size: 0.00001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9440,6 +10055,7 @@ class ETH_DAI(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-DAI"
     precision: int = 0.01
@@ -9448,6 +10064,7 @@ class ETH_DAI(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9474,6 +10091,7 @@ ETH_DAI = ETH_DAI()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9486,6 +10104,7 @@ class ETH_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-EUR"
     precision: int = 0.01
@@ -9494,6 +10113,7 @@ class ETH_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9520,6 +10140,7 @@ ETH_EUR = ETH_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9532,6 +10153,7 @@ class ETH_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-GBP"
     precision: int = 0.01
@@ -9540,6 +10162,7 @@ class ETH_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9566,6 +10189,7 @@ ETH_GBP = ETH_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9578,6 +10202,7 @@ class ETH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-USD"
     precision: int = 0.01
@@ -9586,6 +10211,7 @@ class ETH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9612,6 +10238,7 @@ ETH_USD = ETH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9624,6 +10251,7 @@ class ETH_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-USDC"
     precision: int = 1
@@ -9632,6 +10260,7 @@ class ETH_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9658,6 +10287,7 @@ ETH_USDC = ETH_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9670,6 +10300,7 @@ class ETH_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ETH-USDT"
     precision: int = 0.01
@@ -9678,6 +10309,7 @@ class ETH_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9704,6 +10336,7 @@ ETH_USDT = ETH_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9716,6 +10349,7 @@ class FARM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FARM-USD"
     precision: int = 0.01
@@ -9724,6 +10358,7 @@ class FARM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9750,6 +10385,7 @@ FARM_USD = FARM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9762,6 +10398,7 @@ class FARM_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FARM-USDT"
     precision: int = 0.01
@@ -9770,6 +10407,7 @@ class FARM_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9796,6 +10434,7 @@ FARM_USDT = FARM_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9808,6 +10447,7 @@ class FET_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FET-USD"
     precision: int = 0.0001
@@ -9816,6 +10456,7 @@ class FET_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9842,6 +10483,7 @@ FET_USD = FET_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9854,6 +10496,7 @@ class FET_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FET-USDT"
     precision: int = 0.0001
@@ -9862,6 +10505,7 @@ class FET_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9888,6 +10532,7 @@ FET_USDT = FET_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9900,6 +10545,7 @@ class FIDA_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIDA-EUR"
     precision: int = 0.0001
@@ -9908,6 +10554,7 @@ class FIDA_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9934,6 +10581,7 @@ FIDA_EUR = FIDA_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9946,6 +10594,7 @@ class FIDA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIDA-USD"
     precision: int = 0.0001
@@ -9954,6 +10603,7 @@ class FIDA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9980,6 +10630,7 @@ FIDA_USD = FIDA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -9992,6 +10643,7 @@ class FIDA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIDA-USDT"
     precision: int = 0.0001
@@ -10000,6 +10652,7 @@ class FIDA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10026,6 +10679,7 @@ FIDA_USDT = FIDA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10038,6 +10692,7 @@ class FIL_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIL-BTC"
     precision: int = 0.00000001
@@ -10046,6 +10701,7 @@ class FIL_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10072,6 +10728,7 @@ FIL_BTC = FIL_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10084,6 +10741,7 @@ class FIL_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIL-EUR"
     precision: int = 0.01
@@ -10092,6 +10750,7 @@ class FIL_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10118,6 +10777,7 @@ FIL_EUR = FIL_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10130,6 +10790,7 @@ class FIL_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIL-GBP"
     precision: int = 0.01
@@ -10138,6 +10799,7 @@ class FIL_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10164,6 +10826,7 @@ FIL_GBP = FIL_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10176,6 +10839,7 @@ class FIL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIL-USD"
     precision: int = 0.001
@@ -10184,6 +10848,7 @@ class FIL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10210,6 +10875,7 @@ FIL_USD = FIL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10222,6 +10888,7 @@ class FIS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIS-USD"
     precision: int = 0.0001
@@ -10230,6 +10897,7 @@ class FIS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10256,6 +10924,7 @@ FIS_USD = FIS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10268,6 +10937,7 @@ class FIS_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FIS-USDT"
     precision: int = 0.0001
@@ -10276,6 +10946,7 @@ class FIS_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10302,6 +10973,7 @@ FIS_USDT = FIS_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10314,6 +10986,7 @@ class FLOW_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FLOW-USD"
     precision: int = 0.001
@@ -10322,6 +10995,7 @@ class FLOW_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10348,6 +11022,7 @@ FLOW_USD = FLOW_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10360,6 +11035,7 @@ class FLOW_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FLOW-USDT"
     precision: int = 0.001
@@ -10368,6 +11044,7 @@ class FLOW_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10394,6 +11071,7 @@ FLOW_USDT = FLOW_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10406,6 +11084,7 @@ class FORT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORT-USD"
     precision: int = 0.0001
@@ -10414,6 +11093,7 @@ class FORT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10440,6 +11120,7 @@ FORT_USD = FORT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10452,6 +11133,7 @@ class FORT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORT-USDT"
     precision: int = 0.0001
@@ -10460,6 +11142,7 @@ class FORT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10486,6 +11169,7 @@ FORT_USDT = FORT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10498,6 +11182,7 @@ class FORTH_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORTH-BTC"
     precision: int = 0.0000001
@@ -10506,6 +11191,7 @@ class FORTH_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10532,6 +11218,7 @@ FORTH_BTC = FORTH_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10544,6 +11231,7 @@ class FORTH_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORTH-EUR"
     precision: int = 0.01
@@ -10552,6 +11240,7 @@ class FORTH_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10578,6 +11267,7 @@ FORTH_EUR = FORTH_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10590,6 +11280,7 @@ class FORTH_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORTH-GBP"
     precision: int = 0.001
@@ -10598,6 +11289,7 @@ class FORTH_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10624,6 +11316,7 @@ FORTH_GBP = FORTH_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10636,6 +11329,7 @@ class FORTH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FORTH-USD"
     precision: int = 0.01
@@ -10644,6 +11338,7 @@ class FORTH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10670,6 +11365,7 @@ FORTH_USD = FORTH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10682,6 +11378,7 @@ class FOX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FOX-USD"
     precision: int = 0.0001
@@ -10690,6 +11387,7 @@ class FOX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10716,6 +11414,7 @@ FOX_USD = FOX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10728,6 +11427,7 @@ class FOX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FOX-USDT"
     precision: int = 0.0001
@@ -10736,6 +11436,7 @@ class FOX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10762,6 +11463,7 @@ FOX_USDT = FOX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10774,6 +11476,7 @@ class FX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "FX-USD"
     precision: int = 0.0001
@@ -10782,6 +11485,7 @@ class FX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10808,6 +11512,7 @@ FX_USD = FX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10820,6 +11525,7 @@ class GAL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GAL-USD"
     precision: int = 0.001
@@ -10828,6 +11534,7 @@ class GAL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10854,6 +11561,7 @@ GAL_USD = GAL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10866,6 +11574,7 @@ class GAL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GAL-USDT"
     precision: int = 0.001
@@ -10874,6 +11583,7 @@ class GAL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10900,6 +11610,7 @@ GAL_USDT = GAL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10912,6 +11623,7 @@ class GALA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GALA-EUR"
     precision: int = 0.0001
@@ -10920,6 +11632,7 @@ class GALA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10946,6 +11659,7 @@ GALA_EUR = GALA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -10958,6 +11672,7 @@ class GALA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GALA-USD"
     precision: int = 0.00001
@@ -10966,6 +11681,7 @@ class GALA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10992,6 +11708,7 @@ GALA_USD = GALA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11004,6 +11721,7 @@ class GALA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GALA-USDT"
     precision: int = 0.00001
@@ -11012,6 +11730,7 @@ class GALA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11038,6 +11757,7 @@ GALA_USDT = GALA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11050,6 +11770,7 @@ class GFI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GFI-USD"
     precision: int = 0.0001
@@ -11058,6 +11779,7 @@ class GFI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11084,6 +11806,7 @@ GFI_USD = GFI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11096,6 +11819,7 @@ class GHST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GHST-USD"
     precision: int = 0.001
@@ -11104,6 +11828,7 @@ class GHST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11130,6 +11855,7 @@ GHST_USD = GHST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11142,6 +11868,7 @@ class GLM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GLM-USD"
     precision: int = 0.0001
@@ -11150,6 +11877,7 @@ class GLM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11176,6 +11904,7 @@ GLM_USD = GLM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11188,6 +11917,7 @@ class GMT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GMT-USD"
     precision: int = 0.0001
@@ -11196,6 +11926,7 @@ class GMT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11222,6 +11953,7 @@ GMT_USD = GMT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11234,6 +11966,7 @@ class GMT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GMT-USDT"
     precision: int = 0.0001
@@ -11242,6 +11975,7 @@ class GMT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11268,6 +12002,7 @@ GMT_USDT = GMT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11280,6 +12015,7 @@ class GNO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GNO-USD"
     precision: int = 0.01
@@ -11288,6 +12024,7 @@ class GNO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11314,6 +12051,7 @@ GNO_USD = GNO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11326,6 +12064,7 @@ class GNO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GNO-USDT"
     precision: int = 0.01
@@ -11334,6 +12073,7 @@ class GNO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11360,6 +12100,7 @@ GNO_USDT = GNO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11372,6 +12113,7 @@ class GNT_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GNT-USDC"
     precision: int = 0.000001
@@ -11380,6 +12122,7 @@ class GNT_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11406,6 +12149,7 @@ GNT_USDC = GNT_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11418,6 +12162,7 @@ class GODS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GODS-USD"
     precision: int = 0.00001
@@ -11426,6 +12171,7 @@ class GODS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11452,6 +12198,7 @@ GODS_USD = GODS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11464,6 +12211,7 @@ class GRT_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GRT-BTC"
     precision: int = 0.00000001
@@ -11472,6 +12220,7 @@ class GRT_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11498,6 +12247,7 @@ GRT_BTC = GRT_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11510,6 +12260,7 @@ class GRT_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GRT-EUR"
     precision: int = 0.0001
@@ -11518,6 +12269,7 @@ class GRT_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11544,6 +12296,7 @@ GRT_EUR = GRT_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11556,6 +12309,7 @@ class GRT_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GRT-GBP"
     precision: int = 0.0001
@@ -11564,6 +12318,7 @@ class GRT_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11590,6 +12345,7 @@ GRT_GBP = GRT_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11602,6 +12358,7 @@ class GRT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GRT-USD"
     precision: int = 0.0001
@@ -11610,6 +12367,7 @@ class GRT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11636,6 +12394,7 @@ GRT_USD = GRT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11648,6 +12407,7 @@ class GST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GST-USD"
     precision: int = 0.000001
@@ -11656,6 +12416,7 @@ class GST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11682,6 +12443,7 @@ GST_USD = GST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11694,6 +12456,7 @@ class GTC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GTC-USD"
     precision: int = 0.01
@@ -11702,6 +12465,7 @@ class GTC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11728,6 +12492,7 @@ GTC_USD = GTC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11740,6 +12505,7 @@ class GUSD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GUSD-USD"
     precision: int = 0.001
@@ -11748,6 +12514,7 @@ class GUSD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11774,6 +12541,7 @@ GUSD_USD = GUSD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11786,6 +12554,7 @@ class GYEN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "GYEN-USD"
     precision: int = 0.000001
@@ -11794,6 +12563,7 @@ class GYEN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11820,6 +12590,7 @@ GYEN_USD = GYEN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11832,6 +12603,7 @@ class HBAR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HBAR-USD"
     precision: int = 0.00001
@@ -11840,6 +12612,7 @@ class HBAR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11866,6 +12639,7 @@ HBAR_USD = HBAR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11878,6 +12652,7 @@ class HBAR_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HBAR-USDT"
     precision: int = 0.00001
@@ -11886,6 +12661,7 @@ class HBAR_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11912,6 +12688,7 @@ HBAR_USDT = HBAR_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11924,6 +12701,7 @@ class HFT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HFT-USD"
     precision: int = 0.0001
@@ -11932,6 +12710,7 @@ class HFT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11958,6 +12737,7 @@ HFT_USD = HFT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -11970,6 +12750,7 @@ class HFT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HFT-USDT"
     precision: int = 0.0001
@@ -11978,6 +12759,7 @@ class HFT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12004,6 +12786,7 @@ HFT_USDT = HFT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12016,6 +12799,7 @@ class HIGH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HIGH-USD"
     precision: int = 0.001
@@ -12024,6 +12808,7 @@ class HIGH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12050,6 +12835,7 @@ HIGH_USD = HIGH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12062,6 +12848,7 @@ class HOPR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HOPR-USD"
     precision: int = 0.0001
@@ -12070,6 +12857,7 @@ class HOPR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12096,6 +12884,7 @@ HOPR_USD = HOPR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12108,6 +12897,7 @@ class HOPR_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "HOPR-USDT"
     precision: int = 0.0001
@@ -12116,6 +12906,7 @@ class HOPR_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12142,6 +12933,7 @@ HOPR_USDT = HOPR_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12154,6 +12946,7 @@ class ICP_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ICP-BTC"
     precision: int = 0.0000001
@@ -12162,6 +12955,7 @@ class ICP_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12188,6 +12982,7 @@ ICP_BTC = ICP_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12200,6 +12995,7 @@ class ICP_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ICP-EUR"
     precision: int = 0.01
@@ -12208,6 +13004,7 @@ class ICP_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12234,6 +13031,7 @@ ICP_EUR = ICP_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12246,6 +13044,7 @@ class ICP_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ICP-GBP"
     precision: int = 0.01
@@ -12254,6 +13053,7 @@ class ICP_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12280,6 +13080,7 @@ ICP_GBP = ICP_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12292,6 +13093,7 @@ class ICP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ICP-USD"
     precision: int = 0.001
@@ -12300,6 +13102,7 @@ class ICP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12326,6 +13129,7 @@ ICP_USD = ICP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12338,6 +13142,7 @@ class ICP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ICP-USDT"
     precision: int = 0.01
@@ -12346,6 +13151,7 @@ class ICP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12372,6 +13178,7 @@ ICP_USDT = ICP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12384,6 +13191,7 @@ class IDEX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IDEX-USD"
     precision: int = 0.0001
@@ -12392,6 +13200,7 @@ class IDEX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12418,6 +13227,7 @@ IDEX_USD = IDEX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12430,6 +13240,7 @@ class IDEX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IDEX-USDT"
     precision: int = 0.0001
@@ -12438,6 +13249,7 @@ class IDEX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12464,6 +13276,7 @@ IDEX_USDT = IDEX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12476,6 +13289,7 @@ class ILV_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ILV-USD"
     precision: int = 0.01
@@ -12484,6 +13298,7 @@ class ILV_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12510,6 +13325,7 @@ ILV_USD = ILV_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12522,6 +13338,7 @@ class IMX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IMX-USD"
     precision: int = 0.0001
@@ -12530,6 +13347,7 @@ class IMX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12556,6 +13374,7 @@ IMX_USD = IMX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12568,6 +13387,7 @@ class IMX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IMX-USDT"
     precision: int = 0.0001
@@ -12576,6 +13396,7 @@ class IMX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12602,6 +13423,7 @@ IMX_USDT = IMX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12614,6 +13436,7 @@ class INDEX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "INDEX-USD"
     precision: int = 0.01
@@ -12622,6 +13445,7 @@ class INDEX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12648,6 +13472,7 @@ INDEX_USD = INDEX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12660,6 +13485,7 @@ class INDEX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "INDEX-USDT"
     precision: int = 0.01
@@ -12668,6 +13494,7 @@ class INDEX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12694,6 +13521,7 @@ INDEX_USDT = INDEX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12706,6 +13534,7 @@ class INJ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "INJ-USD"
     precision: int = 0.001
@@ -12714,6 +13543,7 @@ class INJ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12740,6 +13570,7 @@ INJ_USD = INJ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12752,6 +13583,7 @@ class INV_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "INV-USD"
     precision: int = 0.01
@@ -12760,6 +13592,7 @@ class INV_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12786,6 +13619,7 @@ INV_USD = INV_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12798,6 +13632,7 @@ class IOTX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IOTX-EUR"
     precision: int = 0.00001
@@ -12806,6 +13641,7 @@ class IOTX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12832,6 +13668,7 @@ IOTX_EUR = IOTX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12844,6 +13681,7 @@ class IOTX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "IOTX-USD"
     precision: int = 0.00001
@@ -12852,6 +13690,7 @@ class IOTX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12878,6 +13717,7 @@ IOTX_USD = IOTX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12890,6 +13730,7 @@ class JASMY_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "JASMY-USD"
     precision: int = 0.00001
@@ -12898,6 +13739,7 @@ class JASMY_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12924,6 +13766,7 @@ JASMY_USD = JASMY_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12936,6 +13779,7 @@ class JASMY_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "JASMY-USDT"
     precision: int = 0.00001
@@ -12944,6 +13788,7 @@ class JASMY_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12970,6 +13815,7 @@ JASMY_USDT = JASMY_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -12982,6 +13828,7 @@ class JUP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "JUP-USD"
     precision: int = 0.000001
@@ -12990,6 +13837,7 @@ class JUP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13016,6 +13864,7 @@ JUP_USD = JUP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13028,6 +13877,7 @@ class KAVA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KAVA-USD"
     precision: int = 0.0001
@@ -13036,6 +13886,7 @@ class KAVA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13062,6 +13913,7 @@ KAVA_USD = KAVA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13074,6 +13926,7 @@ class KEEP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KEEP-USD"
     precision: int = 0.0001
@@ -13082,6 +13935,7 @@ class KEEP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13108,6 +13962,7 @@ KEEP_USD = KEEP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13120,6 +13975,7 @@ class KNC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KNC-BTC"
     precision: int = 0.00000001
@@ -13128,6 +13984,7 @@ class KNC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13154,6 +14011,7 @@ KNC_BTC = KNC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13166,6 +14024,7 @@ class KNC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KNC-USD"
     precision: int = 0.0001
@@ -13174,6 +14033,7 @@ class KNC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13200,6 +14060,7 @@ KNC_USD = KNC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13212,6 +14073,7 @@ class KRL_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KRL-EUR"
     precision: int = 0.0001
@@ -13220,6 +14082,7 @@ class KRL_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13246,6 +14109,7 @@ KRL_EUR = KRL_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13258,6 +14122,7 @@ class KRL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KRL-USD"
     precision: int = 0.0001
@@ -13266,6 +14131,7 @@ class KRL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13292,6 +14158,7 @@ KRL_USD = KRL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13304,6 +14171,7 @@ class KRL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KRL-USDT"
     precision: int = 0.0001
@@ -13312,6 +14180,7 @@ class KRL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13338,6 +14207,7 @@ KRL_USDT = KRL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13350,6 +14220,7 @@ class KSM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KSM-USD"
     precision: int = 0.01
@@ -13358,6 +14229,7 @@ class KSM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13384,6 +14256,7 @@ KSM_USD = KSM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13396,6 +14269,7 @@ class KSM_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "KSM-USDT"
     precision: int = 0.01
@@ -13404,6 +14278,7 @@ class KSM_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13430,6 +14305,7 @@ KSM_USDT = KSM_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13442,6 +14318,7 @@ class LCX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LCX-EUR"
     precision: int = 0.0001
@@ -13450,6 +14327,7 @@ class LCX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13476,6 +14354,7 @@ LCX_EUR = LCX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13488,6 +14367,7 @@ class LCX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LCX-USD"
     precision: int = 0.0001
@@ -13496,6 +14376,7 @@ class LCX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13522,6 +14403,7 @@ LCX_USD = LCX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13534,6 +14416,7 @@ class LCX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LCX-USDT"
     precision: int = 0.0001
@@ -13542,6 +14425,7 @@ class LCX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13568,6 +14452,7 @@ LCX_USDT = LCX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13580,6 +14465,7 @@ class LDO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LDO-USD"
     precision: int = 0.001
@@ -13588,6 +14474,7 @@ class LDO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13614,6 +14501,7 @@ LDO_USD = LDO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13626,6 +14514,7 @@ class LINK_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-BTC"
     precision: int = 0.00000001
@@ -13634,6 +14523,7 @@ class LINK_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13660,6 +14550,7 @@ LINK_BTC = LINK_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13672,6 +14563,7 @@ class LINK_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-ETH"
     precision: int = 0.00000001
@@ -13680,6 +14572,7 @@ class LINK_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13706,6 +14599,7 @@ LINK_ETH = LINK_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13718,6 +14612,7 @@ class LINK_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-EUR"
     precision: int = 0.01
@@ -13726,6 +14621,7 @@ class LINK_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13752,6 +14648,7 @@ LINK_EUR = LINK_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13764,6 +14661,7 @@ class LINK_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-GBP"
     precision: int = 0.01
@@ -13772,6 +14670,7 @@ class LINK_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13798,6 +14697,7 @@ LINK_GBP = LINK_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13810,6 +14710,7 @@ class LINK_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-USD"
     precision: int = 0.001
@@ -13818,6 +14719,7 @@ class LINK_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13844,6 +14746,7 @@ LINK_USD = LINK_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13856,6 +14759,7 @@ class LINK_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LINK-USDT"
     precision: int = 0.01
@@ -13864,6 +14768,7 @@ class LINK_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13890,6 +14795,7 @@ LINK_USDT = LINK_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13902,6 +14808,7 @@ class LIT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LIT-USD"
     precision: int = 0.0001
@@ -13910,6 +14817,7 @@ class LIT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13936,6 +14844,7 @@ LIT_USD = LIT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13948,6 +14857,7 @@ class LOKA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LOKA-USD"
     precision: int = 0.0001
@@ -13956,6 +14866,7 @@ class LOKA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13982,6 +14893,7 @@ LOKA_USD = LOKA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -13994,6 +14906,7 @@ class LOOM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LOOM-USD"
     precision: int = 0.0001
@@ -14002,6 +14915,7 @@ class LOOM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14028,6 +14942,7 @@ LOOM_USD = LOOM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14040,6 +14955,7 @@ class LOOM_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LOOM-USDC"
     precision: int = 0.000001
@@ -14048,6 +14964,7 @@ class LOOM_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14074,6 +14991,7 @@ LOOM_USDC = LOOM_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14086,6 +15004,7 @@ class LPT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LPT-USD"
     precision: int = 0.01
@@ -14094,6 +15013,7 @@ class LPT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14120,6 +15040,7 @@ LPT_USD = LPT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14132,6 +15053,7 @@ class LQTY_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LQTY-EUR"
     precision: int = 0.0001
@@ -14140,6 +15062,7 @@ class LQTY_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14166,6 +15089,7 @@ LQTY_EUR = LQTY_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14178,6 +15102,7 @@ class LQTY_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LQTY-USD"
     precision: int = 0.0001
@@ -14186,6 +15111,7 @@ class LQTY_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14212,6 +15138,7 @@ LQTY_USD = LQTY_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14224,6 +15151,7 @@ class LQTY_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LQTY-USDT"
     precision: int = 0.0001
@@ -14232,6 +15160,7 @@ class LQTY_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14258,6 +15187,7 @@ LQTY_USDT = LQTY_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14270,6 +15200,7 @@ class LRC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LRC-BTC"
     precision: int = 0.00000001
@@ -14278,6 +15209,7 @@ class LRC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14304,6 +15236,7 @@ LRC_BTC = LRC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14316,6 +15249,7 @@ class LRC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LRC-USD"
     precision: int = 0.0001
@@ -14324,6 +15258,7 @@ class LRC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14350,6 +15285,7 @@ LRC_USD = LRC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14362,6 +15298,7 @@ class LRC_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LRC-USDT"
     precision: int = 0.0001
@@ -14370,6 +15307,7 @@ class LRC_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14396,6 +15334,7 @@ LRC_USDT = LRC_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14408,6 +15347,7 @@ class LTC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LTC-BTC"
     precision: int = 0.000001
@@ -14416,6 +15356,7 @@ class LTC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14442,6 +15383,7 @@ LTC_BTC = LTC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14454,6 +15396,7 @@ class LTC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LTC-EUR"
     precision: int = 0.01
@@ -14462,6 +15405,7 @@ class LTC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14488,6 +15432,7 @@ LTC_EUR = LTC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14500,6 +15445,7 @@ class LTC_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LTC-GBP"
     precision: int = 0.01
@@ -14508,6 +15454,7 @@ class LTC_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14534,6 +15481,7 @@ LTC_GBP = LTC_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14546,6 +15494,7 @@ class LTC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "LTC-USD"
     precision: int = 0.01
@@ -14554,6 +15503,7 @@ class LTC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14580,6 +15530,7 @@ LTC_USD = LTC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14592,6 +15543,7 @@ class MAGIC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MAGIC-USD"
     precision: int = 0.0001
@@ -14600,6 +15552,7 @@ class MAGIC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14626,6 +15579,7 @@ MAGIC_USD = MAGIC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14638,6 +15592,7 @@ class MANA_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MANA-BTC"
     precision: int = 0.0000001
@@ -14646,6 +15601,7 @@ class MANA_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14672,6 +15628,7 @@ MANA_BTC = MANA_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14684,6 +15641,7 @@ class MANA_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MANA-ETH"
     precision: int = 0.0000001
@@ -14692,6 +15650,7 @@ class MANA_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14718,6 +15677,7 @@ MANA_ETH = MANA_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14730,6 +15690,7 @@ class MANA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MANA-EUR"
     precision: int = 0.001
@@ -14738,6 +15699,7 @@ class MANA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14764,6 +15726,7 @@ MANA_EUR = MANA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14776,6 +15739,7 @@ class MANA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MANA-USD"
     precision: int = 0.0001
@@ -14784,6 +15748,7 @@ class MANA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14810,6 +15775,7 @@ MANA_USD = MANA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14822,6 +15788,7 @@ class MANA_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MANA-USDC"
     precision: int = 0.000001
@@ -14830,6 +15797,7 @@ class MANA_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14856,6 +15824,7 @@ MANA_USDC = MANA_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14868,6 +15837,7 @@ class MASK_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MASK-EUR"
     precision: int = 0.01
@@ -14876,6 +15846,7 @@ class MASK_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14902,6 +15873,7 @@ MASK_EUR = MASK_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14914,6 +15886,7 @@ class MASK_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MASK-GBP"
     precision: int = 0.001
@@ -14922,6 +15895,7 @@ class MASK_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14948,6 +15922,7 @@ MASK_GBP = MASK_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -14960,6 +15935,7 @@ class MASK_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MASK-USD"
     precision: int = 0.01
@@ -14968,6 +15944,7 @@ class MASK_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14994,6 +15971,7 @@ MASK_USD = MASK_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15006,6 +15984,7 @@ class MASK_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MASK-USDT"
     precision: int = 0.01
@@ -15014,6 +15993,7 @@ class MASK_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15040,6 +16020,7 @@ MASK_USDT = MASK_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15052,6 +16033,7 @@ class MATH_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATH-USD"
     precision: int = 0.0001
@@ -15060,6 +16042,7 @@ class MATH_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15086,6 +16069,7 @@ MATH_USD = MATH_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15098,6 +16082,7 @@ class MATH_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATH-USDT"
     precision: int = 0.0001
@@ -15106,6 +16091,7 @@ class MATH_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15132,6 +16118,7 @@ MATH_USDT = MATH_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15144,6 +16131,7 @@ class MATIC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATIC-BTC"
     precision: int = 0.00000001
@@ -15152,6 +16140,7 @@ class MATIC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15178,6 +16167,7 @@ MATIC_BTC = MATIC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15190,6 +16180,7 @@ class MATIC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATIC-EUR"
     precision: int = 0.0001
@@ -15198,6 +16189,7 @@ class MATIC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15224,6 +16216,7 @@ MATIC_EUR = MATIC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15236,6 +16229,7 @@ class MATIC_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATIC-GBP"
     precision: int = 0.0001
@@ -15244,6 +16238,7 @@ class MATIC_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15270,6 +16265,7 @@ MATIC_GBP = MATIC_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15282,6 +16278,7 @@ class MATIC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATIC-USD"
     precision: int = 0.0001
@@ -15290,6 +16287,7 @@ class MATIC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15316,6 +16314,7 @@ MATIC_USD = MATIC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15328,6 +16327,7 @@ class MATIC_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MATIC-USDT"
     precision: int = 0.001
@@ -15336,6 +16336,7 @@ class MATIC_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15362,6 +16363,7 @@ MATIC_USDT = MATIC_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15374,6 +16376,7 @@ class MCO2_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MCO2-USD"
     precision: int = 0.01
@@ -15382,6 +16385,7 @@ class MCO2_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15408,6 +16412,7 @@ MCO2_USD = MCO2_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15420,6 +16425,7 @@ class MCO2_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MCO2-USDT"
     precision: int = 0.01
@@ -15428,6 +16434,7 @@ class MCO2_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15454,6 +16461,7 @@ MCO2_USDT = MCO2_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15466,6 +16474,7 @@ class MDT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MDT-USD"
     precision: int = 0.00001
@@ -15474,6 +16483,7 @@ class MDT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15500,6 +16510,7 @@ MDT_USD = MDT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15512,6 +16523,7 @@ class MDT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MDT-USDT"
     precision: int = 0.00001
@@ -15520,6 +16532,7 @@ class MDT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15546,6 +16559,7 @@ MDT_USDT = MDT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15558,6 +16572,7 @@ class MEDIA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MEDIA-USD"
     precision: int = 0.01
@@ -15566,6 +16581,7 @@ class MEDIA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15592,6 +16608,7 @@ MEDIA_USD = MEDIA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15604,6 +16621,7 @@ class MEDIA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MEDIA-USDT"
     precision: int = 0.01
@@ -15612,6 +16630,7 @@ class MEDIA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15638,6 +16657,7 @@ MEDIA_USDT = MEDIA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15650,6 +16670,7 @@ class METIS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "METIS-USD"
     precision: int = 0.01
@@ -15658,6 +16679,7 @@ class METIS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15684,6 +16706,7 @@ METIS_USD = METIS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15696,6 +16719,7 @@ class METIS_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "METIS-USDT"
     precision: int = 0.01
@@ -15704,6 +16728,7 @@ class METIS_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15730,6 +16755,7 @@ METIS_USDT = METIS_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15742,6 +16768,7 @@ class MINA_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MINA-EUR"
     precision: int = 0.001
@@ -15750,6 +16777,7 @@ class MINA_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15776,6 +16804,7 @@ MINA_EUR = MINA_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15788,6 +16817,7 @@ class MINA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MINA-USD"
     precision: int = 0.001
@@ -15796,6 +16826,7 @@ class MINA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15822,6 +16853,7 @@ MINA_USD = MINA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15834,6 +16866,7 @@ class MINA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MINA-USDT"
     precision: int = 0.001
@@ -15842,6 +16875,7 @@ class MINA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15868,6 +16902,7 @@ MINA_USDT = MINA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15880,6 +16915,7 @@ class MIR_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MIR-BTC"
     precision: int = 0.00000001
@@ -15888,6 +16924,7 @@ class MIR_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15914,6 +16951,7 @@ MIR_BTC = MIR_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15926,6 +16964,7 @@ class MIR_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MIR-EUR"
     precision: int = 0.001
@@ -15934,6 +16973,7 @@ class MIR_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15960,6 +17000,7 @@ MIR_EUR = MIR_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -15972,6 +17013,7 @@ class MIR_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MIR-GBP"
     precision: int = 0.001
@@ -15980,6 +17022,7 @@ class MIR_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16006,6 +17049,7 @@ MIR_GBP = MIR_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16018,6 +17062,7 @@ class MIR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MIR-USD"
     precision: int = 0.0001
@@ -16026,6 +17071,7 @@ class MIR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16052,6 +17098,7 @@ MIR_USD = MIR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16064,6 +17111,7 @@ class MKR_BTC(NamedTuple):
         min_order_size: 0.00001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MKR-BTC"
     precision: int = 0.00001
@@ -16072,6 +17120,7 @@ class MKR_BTC(NamedTuple):
     min_order_size: float = 0.00001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16098,6 +17147,7 @@ MKR_BTC = MKR_BTC()
     min_order_size: 0.00001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16110,6 +17160,7 @@ class MKR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MKR-USD"
     precision: int = 0.01
@@ -16118,6 +17169,7 @@ class MKR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16144,6 +17196,7 @@ MKR_USD = MKR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16156,6 +17209,7 @@ class MLN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MLN-USD"
     precision: int = 0.01
@@ -16164,6 +17218,7 @@ class MLN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16190,6 +17245,7 @@ MLN_USD = MLN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16202,6 +17258,7 @@ class MNDE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MNDE-USD"
     precision: int = 0.00001
@@ -16210,6 +17267,7 @@ class MNDE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16236,6 +17294,7 @@ MNDE_USD = MNDE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16248,6 +17307,7 @@ class MONA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MONA-USD"
     precision: int = 0.01
@@ -16256,6 +17316,7 @@ class MONA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16282,6 +17343,7 @@ MONA_USD = MONA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16294,6 +17356,7 @@ class MPL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MPL-USD"
     precision: int = 0.01
@@ -16302,6 +17365,7 @@ class MPL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16328,6 +17392,7 @@ MPL_USD = MPL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16340,6 +17405,7 @@ class MSOL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MSOL-USD"
     precision: int = 0.01
@@ -16348,6 +17414,7 @@ class MSOL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16374,6 +17441,7 @@ MSOL_USD = MSOL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16386,6 +17454,7 @@ class MTL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MTL-USD"
     precision: int = 0.001
@@ -16394,6 +17463,7 @@ class MTL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16420,6 +17490,7 @@ MTL_USD = MTL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16432,6 +17503,7 @@ class MUSD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MUSD-USD"
     precision: int = 0.0001
@@ -16440,6 +17512,7 @@ class MUSD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16466,6 +17539,7 @@ MUSD_USD = MUSD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16478,6 +17552,7 @@ class MUSE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MUSE-USD"
     precision: int = 0.001
@@ -16486,6 +17561,7 @@ class MUSE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16512,6 +17588,7 @@ MUSE_USD = MUSE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16524,6 +17601,7 @@ class MXC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "MXC-USD"
     precision: int = 0.00001
@@ -16532,6 +17610,7 @@ class MXC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16558,6 +17637,7 @@ MXC_USD = MXC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16570,6 +17650,7 @@ class NCT_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NCT-EUR"
     precision: int = 0.00001
@@ -16578,6 +17659,7 @@ class NCT_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16604,6 +17686,7 @@ NCT_EUR = NCT_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16616,6 +17699,7 @@ class NCT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NCT-USD"
     precision: int = 0.00001
@@ -16624,6 +17708,7 @@ class NCT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16650,6 +17735,7 @@ NCT_USD = NCT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16662,6 +17748,7 @@ class NCT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NCT-USDT"
     precision: int = 0.00001
@@ -16670,6 +17757,7 @@ class NCT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16696,6 +17784,7 @@ NCT_USDT = NCT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16708,6 +17797,7 @@ class NEAR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NEAR-USD"
     precision: int = 0.001
@@ -16716,6 +17806,7 @@ class NEAR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16742,6 +17833,7 @@ NEAR_USD = NEAR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16754,6 +17846,7 @@ class NEAR_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NEAR-USDT"
     precision: int = 0.001
@@ -16762,6 +17855,7 @@ class NEAR_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16788,6 +17882,7 @@ NEAR_USDT = NEAR_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16800,6 +17895,7 @@ class NEST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NEST-USD"
     precision: int = 0.00001
@@ -16808,6 +17904,7 @@ class NEST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16834,6 +17931,7 @@ NEST_USD = NEST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16846,6 +17944,7 @@ class NEST_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NEST-USDT"
     precision: int = 0.00001
@@ -16854,6 +17953,7 @@ class NEST_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16880,6 +17980,7 @@ NEST_USDT = NEST_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16892,6 +17993,7 @@ class NKN_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NKN-BTC"
     precision: int = 0.00000001
@@ -16900,6 +18002,7 @@ class NKN_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16926,6 +18029,7 @@ NKN_BTC = NKN_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16938,6 +18042,7 @@ class NKN_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NKN-EUR"
     precision: int = 0.0001
@@ -16946,6 +18051,7 @@ class NKN_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16972,6 +18078,7 @@ NKN_EUR = NKN_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -16984,6 +18091,7 @@ class NKN_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NKN-GBP"
     precision: int = 0.0001
@@ -16992,6 +18100,7 @@ class NKN_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17018,6 +18127,7 @@ NKN_GBP = NKN_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17030,6 +18140,7 @@ class NKN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NKN-USD"
     precision: int = 0.0001
@@ -17038,6 +18149,7 @@ class NKN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17064,6 +18176,7 @@ NKN_USD = NKN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17076,6 +18189,7 @@ class NMR_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NMR-BTC"
     precision: int = 0.0000001
@@ -17084,6 +18198,7 @@ class NMR_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17110,6 +18225,7 @@ NMR_BTC = NMR_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17122,6 +18238,7 @@ class NMR_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NMR-EUR"
     precision: int = 0.01
@@ -17130,6 +18247,7 @@ class NMR_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17156,6 +18274,7 @@ NMR_EUR = NMR_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17168,6 +18287,7 @@ class NMR_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NMR-GBP"
     precision: int = 0.01
@@ -17176,6 +18296,7 @@ class NMR_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17202,6 +18323,7 @@ NMR_GBP = NMR_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17214,6 +18336,7 @@ class NMR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NMR-USD"
     precision: int = 0.01
@@ -17222,6 +18345,7 @@ class NMR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17248,6 +18372,7 @@ NMR_USD = NMR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17260,6 +18385,7 @@ class NU_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NU-BTC"
     precision: int = 0.00000001
@@ -17268,6 +18394,7 @@ class NU_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17294,6 +18421,7 @@ NU_BTC = NU_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17306,6 +18434,7 @@ class NU_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NU-EUR"
     precision: int = 0.0001
@@ -17314,6 +18443,7 @@ class NU_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17340,6 +18470,7 @@ NU_EUR = NU_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17352,6 +18483,7 @@ class NU_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NU-GBP"
     precision: int = 0.0001
@@ -17360,6 +18492,7 @@ class NU_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17386,6 +18519,7 @@ NU_GBP = NU_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17398,6 +18532,7 @@ class NU_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "NU-USD"
     precision: int = 0.0001
@@ -17406,6 +18541,7 @@ class NU_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17432,6 +18568,7 @@ NU_USD = NU_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17444,6 +18581,7 @@ class OCEAN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OCEAN-USD"
     precision: int = 0.0001
@@ -17452,6 +18590,7 @@ class OCEAN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17478,6 +18617,7 @@ OCEAN_USD = OCEAN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17490,6 +18630,7 @@ class OGN_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OGN-BTC"
     precision: int = 0.00000001
@@ -17498,6 +18639,7 @@ class OGN_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17524,6 +18666,7 @@ OGN_BTC = OGN_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17536,6 +18679,7 @@ class OGN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OGN-USD"
     precision: int = 0.00001
@@ -17544,6 +18688,7 @@ class OGN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17570,6 +18715,7 @@ OGN_USD = OGN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17582,6 +18728,7 @@ class OMG_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OMG-BTC"
     precision: int = 0.00000001
@@ -17590,6 +18737,7 @@ class OMG_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17616,6 +18764,7 @@ OMG_BTC = OMG_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17628,6 +18777,7 @@ class OMG_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OMG-EUR"
     precision: int = 0.0001
@@ -17636,6 +18786,7 @@ class OMG_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17662,6 +18813,7 @@ OMG_EUR = OMG_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17674,6 +18826,7 @@ class OMG_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OMG-GBP"
     precision: int = 0.0001
@@ -17682,6 +18835,7 @@ class OMG_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17708,6 +18862,7 @@ OMG_GBP = OMG_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17720,6 +18875,7 @@ class OMG_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OMG-USD"
     precision: int = 0.0001
@@ -17728,6 +18884,7 @@ class OMG_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17754,6 +18911,7 @@ OMG_USD = OMG_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17766,6 +18924,7 @@ class OOKI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OOKI-USD"
     precision: int = 0.000001
@@ -17774,6 +18933,7 @@ class OOKI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17800,6 +18960,7 @@ OOKI_USD = OOKI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17812,6 +18973,7 @@ class OP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OP-USD"
     precision: int = 0.001
@@ -17820,6 +18982,7 @@ class OP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17846,6 +19009,7 @@ OP_USD = OP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17858,6 +19022,7 @@ class OP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OP-USDT"
     precision: int = 0.001
@@ -17866,6 +19031,7 @@ class OP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17892,6 +19058,7 @@ OP_USDT = OP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17904,6 +19071,7 @@ class ORCA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ORCA-USD"
     precision: int = 0.0001
@@ -17912,6 +19080,7 @@ class ORCA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17938,6 +19107,7 @@ ORCA_USD = ORCA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17950,6 +19120,7 @@ class ORN_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ORN-BTC"
     precision: int = 0.0000001
@@ -17958,6 +19129,7 @@ class ORN_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17984,6 +19156,7 @@ ORN_BTC = ORN_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -17996,6 +19169,7 @@ class ORN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ORN-USD"
     precision: int = 0.001
@@ -18004,6 +19178,7 @@ class ORN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18030,6 +19205,7 @@ ORN_USD = ORN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18042,6 +19218,7 @@ class ORN_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ORN-USDT"
     precision: int = 0.001
@@ -18050,6 +19227,7 @@ class ORN_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18076,6 +19254,7 @@ ORN_USDT = ORN_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18088,6 +19267,7 @@ class OXT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "OXT-USD"
     precision: int = 0.0001
@@ -18096,6 +19276,7 @@ class OXT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18122,6 +19303,7 @@ OXT_USD = OXT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18134,6 +19316,7 @@ class PAX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PAX-USD"
     precision: int = 0.0001
@@ -18142,6 +19325,7 @@ class PAX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18168,6 +19352,7 @@ PAX_USD = PAX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18180,6 +19365,7 @@ class PAX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PAX-USDT"
     precision: int = 0.0001
@@ -18188,6 +19374,7 @@ class PAX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18214,6 +19401,7 @@ PAX_USDT = PAX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18226,6 +19414,7 @@ class PERP_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PERP-EUR"
     precision: int = 0.0001
@@ -18234,6 +19423,7 @@ class PERP_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18260,6 +19450,7 @@ PERP_EUR = PERP_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18272,6 +19463,7 @@ class PERP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PERP-USD"
     precision: int = 0.0001
@@ -18280,6 +19472,7 @@ class PERP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18306,6 +19499,7 @@ PERP_USD = PERP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18318,6 +19512,7 @@ class PERP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PERP-USDT"
     precision: int = 0.0001
@@ -18326,6 +19521,7 @@ class PERP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18352,6 +19548,7 @@ PERP_USDT = PERP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18364,6 +19561,7 @@ class PLA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PLA-USD"
     precision: int = 0.0001
@@ -18372,6 +19570,7 @@ class PLA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18398,6 +19597,7 @@ PLA_USD = PLA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18410,6 +19610,7 @@ class PLU_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PLU-USD"
     precision: int = 0.01
@@ -18418,6 +19619,7 @@ class PLU_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18444,6 +19646,7 @@ PLU_USD = PLU_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18456,6 +19659,7 @@ class PNG_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PNG-USD"
     precision: int = 0.00001
@@ -18464,6 +19668,7 @@ class PNG_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18490,6 +19695,7 @@ PNG_USD = PNG_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18502,6 +19708,7 @@ class POLS_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POLS-USD"
     precision: int = 0.0001
@@ -18510,6 +19717,7 @@ class POLS_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18536,6 +19744,7 @@ POLS_USD = POLS_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18548,6 +19757,7 @@ class POLS_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POLS-USDT"
     precision: int = 0.0001
@@ -18556,6 +19766,7 @@ class POLS_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18582,6 +19793,7 @@ POLS_USDT = POLS_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18594,6 +19806,7 @@ class POLY_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POLY-USD"
     precision: int = 0.0001
@@ -18602,6 +19815,7 @@ class POLY_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18628,6 +19842,7 @@ POLY_USD = POLY_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18640,6 +19855,7 @@ class POLY_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POLY-USDT"
     precision: int = 0.0001
@@ -18648,6 +19864,7 @@ class POLY_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18674,6 +19891,7 @@ POLY_USDT = POLY_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18686,6 +19904,7 @@ class POND_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POND-USD"
     precision: int = 0.00001
@@ -18694,6 +19913,7 @@ class POND_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18720,6 +19940,7 @@ POND_USD = POND_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18732,6 +19953,7 @@ class POND_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POND-USDT"
     precision: int = 0.00001
@@ -18740,6 +19962,7 @@ class POND_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18766,6 +19989,7 @@ POND_USDT = POND_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18778,6 +20002,7 @@ class POWR_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POWR-EUR"
     precision: int = 0.0001
@@ -18786,6 +20011,7 @@ class POWR_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18812,6 +20038,7 @@ POWR_EUR = POWR_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18824,6 +20051,7 @@ class POWR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POWR-USD"
     precision: int = 0.0001
@@ -18832,6 +20060,7 @@ class POWR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18858,6 +20087,7 @@ POWR_USD = POWR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18870,6 +20100,7 @@ class POWR_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "POWR-USDT"
     precision: int = 0.0001
@@ -18878,6 +20109,7 @@ class POWR_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18904,6 +20136,7 @@ POWR_USDT = POWR_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18916,6 +20149,7 @@ class PRO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PRO-USD"
     precision: int = 0.0001
@@ -18924,6 +20158,7 @@ class PRO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18950,6 +20185,7 @@ PRO_USD = PRO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -18962,6 +20198,7 @@ class PRQ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PRQ-USD"
     precision: int = 0.0001
@@ -18970,6 +20207,7 @@ class PRQ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18996,6 +20234,7 @@ PRQ_USD = PRQ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19008,6 +20247,7 @@ class PRQ_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PRQ-USDT"
     precision: int = 0.0001
@@ -19016,6 +20256,7 @@ class PRQ_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19042,6 +20283,7 @@ PRQ_USDT = PRQ_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19054,6 +20296,7 @@ class PUNDIX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PUNDIX-USD"
     precision: int = 0.0001
@@ -19062,6 +20305,7 @@ class PUNDIX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19088,6 +20332,7 @@ PUNDIX_USD = PUNDIX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19100,6 +20345,7 @@ class PYR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "PYR-USD"
     precision: int = 0.001
@@ -19108,6 +20354,7 @@ class PYR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19134,6 +20381,7 @@ PYR_USD = PYR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19146,6 +20394,7 @@ class QI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QI-USD"
     precision: int = 0.000001
@@ -19154,6 +20403,7 @@ class QI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19180,6 +20430,7 @@ QI_USD = QI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19192,6 +20443,7 @@ class QNT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QNT-USD"
     precision: int = 0.01
@@ -19200,6 +20452,7 @@ class QNT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19226,6 +20479,7 @@ QNT_USD = QNT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19238,6 +20492,7 @@ class QNT_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QNT-USDT"
     precision: int = 0.01
@@ -19246,6 +20501,7 @@ class QNT_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19272,6 +20528,7 @@ QNT_USDT = QNT_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19284,6 +20541,7 @@ class QSP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QSP-USD"
     precision: int = 0.00001
@@ -19292,6 +20550,7 @@ class QSP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19318,6 +20577,7 @@ QSP_USD = QSP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19330,6 +20590,7 @@ class QSP_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QSP-USDT"
     precision: int = 0.00001
@@ -19338,6 +20599,7 @@ class QSP_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19364,6 +20626,7 @@ QSP_USDT = QSP_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19376,6 +20639,7 @@ class QUICK_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "QUICK-USD"
     precision: int = 0.01
@@ -19384,6 +20648,7 @@ class QUICK_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19410,6 +20675,7 @@ QUICK_USD = QUICK_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19422,6 +20688,7 @@ class RAD_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAD-BTC"
     precision: int = 0.0000001
@@ -19430,6 +20697,7 @@ class RAD_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19456,6 +20724,7 @@ RAD_BTC = RAD_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19468,6 +20737,7 @@ class RAD_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAD-EUR"
     precision: int = 0.001
@@ -19476,6 +20746,7 @@ class RAD_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19502,6 +20773,7 @@ RAD_EUR = RAD_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19514,6 +20786,7 @@ class RAD_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAD-GBP"
     precision: int = 0.001
@@ -19522,6 +20795,7 @@ class RAD_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19548,6 +20822,7 @@ RAD_GBP = RAD_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19560,6 +20835,7 @@ class RAD_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAD-USD"
     precision: int = 0.01
@@ -19568,6 +20844,7 @@ class RAD_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19594,6 +20871,7 @@ RAD_USD = RAD_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19606,6 +20884,7 @@ class RAD_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAD-USDT"
     precision: int = 0.01
@@ -19614,6 +20893,7 @@ class RAD_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19640,6 +20920,7 @@ RAD_USDT = RAD_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19652,6 +20933,7 @@ class RAI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RAI-USD"
     precision: int = 0.01
@@ -19660,6 +20942,7 @@ class RAI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19686,6 +20969,7 @@ RAI_USD = RAI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19698,6 +20982,7 @@ class RARE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RARE-USD"
     precision: int = 0.0001
@@ -19706,6 +20991,7 @@ class RARE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19732,6 +21018,7 @@ RARE_USD = RARE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19744,6 +21031,7 @@ class RARI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RARI-USD"
     precision: int = 0.01
@@ -19752,6 +21040,7 @@ class RARI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19778,6 +21067,7 @@ RARI_USD = RARI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19790,6 +21080,7 @@ class RBN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RBN-USD"
     precision: int = 0.00001
@@ -19798,6 +21089,7 @@ class RBN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19824,6 +21116,7 @@ RBN_USD = RBN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19836,6 +21129,7 @@ class REN_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REN-BTC"
     precision: int = 0.00000001
@@ -19844,6 +21138,7 @@ class REN_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19870,6 +21165,7 @@ REN_BTC = REN_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19882,6 +21178,7 @@ class REN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REN-USD"
     precision: int = 0.0001
@@ -19890,6 +21187,7 @@ class REN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19916,6 +21214,7 @@ REN_USD = REN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19928,6 +21227,7 @@ class REP_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REP-BTC"
     precision: int = 0.0000001
@@ -19936,6 +21236,7 @@ class REP_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19962,6 +21263,7 @@ REP_BTC = REP_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -19974,6 +21276,7 @@ class REP_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REP-USD"
     precision: int = 0.01
@@ -19982,6 +21285,7 @@ class REP_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20008,6 +21312,7 @@ REP_USD = REP_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20020,6 +21325,7 @@ class REQ_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REQ-BTC"
     precision: int = 0.00000001
@@ -20028,6 +21334,7 @@ class REQ_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20054,6 +21361,7 @@ REQ_BTC = REQ_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20066,6 +21374,7 @@ class REQ_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REQ-EUR"
     precision: int = 0.00001
@@ -20074,6 +21383,7 @@ class REQ_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20100,6 +21410,7 @@ REQ_EUR = REQ_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20112,6 +21423,7 @@ class REQ_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REQ-GBP"
     precision: int = 0.0001
@@ -20120,6 +21432,7 @@ class REQ_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20146,6 +21459,7 @@ REQ_GBP = REQ_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20158,6 +21472,7 @@ class REQ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REQ-USD"
     precision: int = 0.0001
@@ -20166,6 +21481,7 @@ class REQ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20192,6 +21508,7 @@ REQ_USD = REQ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20204,6 +21521,7 @@ class REQ_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "REQ-USDT"
     precision: int = 0.0001
@@ -20212,6 +21530,7 @@ class REQ_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20238,6 +21557,7 @@ REQ_USDT = REQ_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20250,6 +21570,7 @@ class RGT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RGT-USD"
     precision: int = 0.01
@@ -20258,6 +21579,7 @@ class RGT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20284,6 +21606,7 @@ RGT_USD = RGT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20296,6 +21619,7 @@ class RLC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLC-BTC"
     precision: int = 0.0000001
@@ -20304,6 +21628,7 @@ class RLC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20330,6 +21655,7 @@ RLC_BTC = RLC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20342,6 +21668,7 @@ class RLC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLC-USD"
     precision: int = 0.0001
@@ -20350,6 +21677,7 @@ class RLC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20376,6 +21704,7 @@ RLC_USD = RLC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20388,6 +21717,7 @@ class RLY_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLY-EUR"
     precision: int = 0.0001
@@ -20396,6 +21726,7 @@ class RLY_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20422,6 +21753,7 @@ RLY_EUR = RLY_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20434,6 +21766,7 @@ class RLY_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLY-GBP"
     precision: int = 0.0001
@@ -20442,6 +21775,7 @@ class RLY_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20468,6 +21802,7 @@ RLY_GBP = RLY_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20480,6 +21815,7 @@ class RLY_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLY-USD"
     precision: int = 0.0001
@@ -20488,6 +21824,7 @@ class RLY_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20514,6 +21851,7 @@ RLY_USD = RLY_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20526,6 +21864,7 @@ class RLY_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RLY-USDT"
     precision: int = 0.0001
@@ -20534,6 +21873,7 @@ class RLY_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20560,6 +21900,7 @@ RLY_USDT = RLY_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20572,6 +21913,7 @@ class RNDR_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RNDR-EUR"
     precision: int = 0.0001
@@ -20580,6 +21922,7 @@ class RNDR_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20606,6 +21949,7 @@ RNDR_EUR = RNDR_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20618,6 +21962,7 @@ class RNDR_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RNDR-USD"
     precision: int = 0.0001
@@ -20626,6 +21971,7 @@ class RNDR_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20652,6 +21998,7 @@ RNDR_USD = RNDR_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20664,6 +22011,7 @@ class RNDR_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RNDR-USDT"
     precision: int = 0.0001
@@ -20672,6 +22020,7 @@ class RNDR_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20698,6 +22047,7 @@ RNDR_USDT = RNDR_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20710,6 +22060,7 @@ class ROSE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ROSE-USD"
     precision: int = 0.00001
@@ -20718,6 +22069,7 @@ class ROSE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20744,6 +22096,7 @@ ROSE_USD = ROSE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20756,6 +22109,7 @@ class ROSE_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ROSE-USDT"
     precision: int = 0.0001
@@ -20764,6 +22118,7 @@ class ROSE_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20790,6 +22145,7 @@ ROSE_USDT = ROSE_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20802,6 +22158,7 @@ class RPL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "RPL-USD"
     precision: int = 0.01
@@ -20810,6 +22167,7 @@ class RPL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20836,6 +22194,7 @@ RPL_USD = RPL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20848,6 +22207,7 @@ class SAND_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SAND-USD"
     precision: int = 0.0001
@@ -20856,6 +22216,7 @@ class SAND_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20882,6 +22243,7 @@ SAND_USD = SAND_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20894,6 +22256,7 @@ class SAND_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SAND-USDT"
     precision: int = 0.001
@@ -20902,6 +22265,7 @@ class SAND_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20928,6 +22292,7 @@ SAND_USDT = SAND_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20940,6 +22305,7 @@ class SHIB_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHIB-EUR"
     precision: int = 0.00000001
@@ -20948,6 +22314,7 @@ class SHIB_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20974,6 +22341,7 @@ SHIB_EUR = SHIB_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -20986,6 +22354,7 @@ class SHIB_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHIB-GBP"
     precision: int = 0.00000001
@@ -20994,6 +22363,7 @@ class SHIB_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21020,6 +22390,7 @@ SHIB_GBP = SHIB_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21032,6 +22403,7 @@ class SHIB_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHIB-USD"
     precision: int = 0.00000001
@@ -21040,6 +22412,7 @@ class SHIB_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21066,6 +22439,7 @@ SHIB_USD = SHIB_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21078,6 +22452,7 @@ class SHIB_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHIB-USDT"
     precision: int = 0.0000001
@@ -21086,6 +22461,7 @@ class SHIB_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21112,6 +22488,7 @@ SHIB_USDT = SHIB_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21124,6 +22501,7 @@ class SHPING_EUR(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHPING-EUR"
     precision: int = 0.000001
@@ -21132,6 +22510,7 @@ class SHPING_EUR(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21158,6 +22537,7 @@ SHPING_EUR = SHPING_EUR()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21170,6 +22550,7 @@ class SHPING_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHPING-USD"
     precision: int = 0.000001
@@ -21178,6 +22559,7 @@ class SHPING_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21204,6 +22586,7 @@ SHPING_USD = SHPING_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21216,6 +22599,7 @@ class SHPING_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SHPING-USDT"
     precision: int = 0.000001
@@ -21224,6 +22608,7 @@ class SHPING_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21250,6 +22635,7 @@ SHPING_USDT = SHPING_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21262,6 +22648,7 @@ class SKL_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SKL-BTC"
     precision: int = 0.00000001
@@ -21270,6 +22657,7 @@ class SKL_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21296,6 +22684,7 @@ SKL_BTC = SKL_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21308,6 +22697,7 @@ class SKL_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SKL-EUR"
     precision: int = 0.0001
@@ -21316,6 +22706,7 @@ class SKL_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21342,6 +22733,7 @@ SKL_EUR = SKL_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21354,6 +22746,7 @@ class SKL_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SKL-GBP"
     precision: int = 0.0001
@@ -21362,6 +22755,7 @@ class SKL_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21388,6 +22782,7 @@ SKL_GBP = SKL_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21400,6 +22795,7 @@ class SKL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SKL-USD"
     precision: int = 0.0001
@@ -21408,6 +22804,7 @@ class SKL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21434,6 +22831,7 @@ SKL_USD = SKL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21446,6 +22844,7 @@ class SNT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SNT-USD"
     precision: int = 0.00001
@@ -21454,6 +22853,7 @@ class SNT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21480,6 +22880,7 @@ SNT_USD = SNT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21492,6 +22893,7 @@ class SNX_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SNX-BTC"
     precision: int = 0.0000001
@@ -21500,6 +22902,7 @@ class SNX_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21526,6 +22929,7 @@ SNX_BTC = SNX_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21538,6 +22942,7 @@ class SNX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SNX-EUR"
     precision: int = 0.001
@@ -21546,6 +22951,7 @@ class SNX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21572,6 +22978,7 @@ SNX_EUR = SNX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21584,6 +22991,7 @@ class SNX_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SNX-GBP"
     precision: int = 0.001
@@ -21592,6 +23000,7 @@ class SNX_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21618,6 +23027,7 @@ SNX_GBP = SNX_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21630,6 +23040,7 @@ class SNX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SNX-USD"
     precision: int = 0.001
@@ -21638,6 +23049,7 @@ class SNX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21664,6 +23076,7 @@ SNX_USD = SNX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21676,6 +23089,7 @@ class SOL_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-BTC"
     precision: int = 0.0000001
@@ -21684,6 +23098,7 @@ class SOL_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21710,6 +23125,7 @@ SOL_BTC = SOL_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21722,6 +23138,7 @@ class SOL_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-ETH"
     precision: int = 0.00001
@@ -21730,6 +23147,7 @@ class SOL_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21756,6 +23174,7 @@ SOL_ETH = SOL_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21768,6 +23187,7 @@ class SOL_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-EUR"
     precision: int = 0.01
@@ -21776,6 +23196,7 @@ class SOL_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21802,6 +23223,7 @@ SOL_EUR = SOL_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21814,6 +23236,7 @@ class SOL_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-GBP"
     precision: int = 0.01
@@ -21822,6 +23245,7 @@ class SOL_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21848,6 +23272,7 @@ SOL_GBP = SOL_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21860,6 +23285,7 @@ class SOL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-USD"
     precision: int = 0.01
@@ -21868,6 +23294,7 @@ class SOL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21894,6 +23321,7 @@ SOL_USD = SOL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21906,6 +23334,7 @@ class SOL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SOL-USDT"
     precision: int = 0.01
@@ -21914,6 +23343,7 @@ class SOL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21940,6 +23370,7 @@ SOL_USDT = SOL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21952,6 +23383,7 @@ class SPELL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SPELL-USD"
     precision: int = 0.0000001
@@ -21960,6 +23392,7 @@ class SPELL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21986,6 +23419,7 @@ SPELL_USD = SPELL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -21998,6 +23432,7 @@ class SPELL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SPELL-USDT"
     precision: int = 0.0000001
@@ -22006,6 +23441,7 @@ class SPELL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22032,6 +23468,7 @@ SPELL_USDT = SPELL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22044,6 +23481,7 @@ class STG_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STG-USD"
     precision: int = 0.0001
@@ -22052,6 +23490,7 @@ class STG_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22078,6 +23517,7 @@ STG_USD = STG_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22090,6 +23530,7 @@ class STG_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STG-USDT"
     precision: int = 0.0001
@@ -22098,6 +23539,7 @@ class STG_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22124,6 +23566,7 @@ STG_USDT = STG_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22136,6 +23579,7 @@ class STORJ_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STORJ-BTC"
     precision: int = 0.00000001
@@ -22144,6 +23588,7 @@ class STORJ_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22170,6 +23615,7 @@ STORJ_BTC = STORJ_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22182,6 +23628,7 @@ class STORJ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STORJ-USD"
     precision: int = 0.0001
@@ -22190,6 +23637,7 @@ class STORJ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22216,6 +23664,7 @@ STORJ_USD = STORJ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22228,6 +23677,7 @@ class STX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STX-USD"
     precision: int = 0.0001
@@ -22236,6 +23686,7 @@ class STX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22262,6 +23713,7 @@ STX_USD = STX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22274,6 +23726,7 @@ class STX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "STX-USDT"
     precision: int = 0.0001
@@ -22282,6 +23735,7 @@ class STX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22308,6 +23762,7 @@ STX_USDT = STX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22320,6 +23775,7 @@ class SUKU_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUKU-EUR"
     precision: int = 0.0001
@@ -22328,6 +23784,7 @@ class SUKU_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22354,6 +23811,7 @@ SUKU_EUR = SUKU_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22366,6 +23824,7 @@ class SUKU_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUKU-USD"
     precision: int = 0.0001
@@ -22374,6 +23833,7 @@ class SUKU_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22400,6 +23860,7 @@ SUKU_USD = SUKU_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22412,6 +23873,7 @@ class SUKU_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUKU-USDT"
     precision: int = 0.0001
@@ -22420,6 +23882,7 @@ class SUKU_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22446,6 +23909,7 @@ SUKU_USDT = SUKU_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22458,6 +23922,7 @@ class SUPER_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUPER-USD"
     precision: int = 0.00001
@@ -22466,6 +23931,7 @@ class SUPER_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22492,6 +23958,7 @@ SUPER_USD = SUPER_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22504,6 +23971,7 @@ class SUPER_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUPER-USDT"
     precision: int = 0.00001
@@ -22512,6 +23980,7 @@ class SUPER_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22538,6 +24007,7 @@ SUPER_USDT = SUPER_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22550,6 +24020,7 @@ class SUSHI_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUSHI-BTC"
     precision: int = 0.00000001
@@ -22558,6 +24029,7 @@ class SUSHI_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22584,6 +24056,7 @@ SUSHI_BTC = SUSHI_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22596,6 +24069,7 @@ class SUSHI_ETH(NamedTuple):
         min_order_size: 0.00022
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUSHI-ETH"
     precision: int = 0.0000001
@@ -22604,6 +24078,7 @@ class SUSHI_ETH(NamedTuple):
     min_order_size: float = 0.00022
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22630,6 +24105,7 @@ SUSHI_ETH = SUSHI_ETH()
     min_order_size: 0.00022
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22642,6 +24118,7 @@ class SUSHI_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUSHI-EUR"
     precision: int = 0.0001
@@ -22650,6 +24127,7 @@ class SUSHI_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22676,6 +24154,7 @@ SUSHI_EUR = SUSHI_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22688,6 +24167,7 @@ class SUSHI_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUSHI-GBP"
     precision: int = 0.0001
@@ -22696,6 +24176,7 @@ class SUSHI_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22722,6 +24203,7 @@ SUSHI_GBP = SUSHI_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22734,6 +24216,7 @@ class SUSHI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SUSHI-USD"
     precision: int = 0.0001
@@ -22742,6 +24225,7 @@ class SUSHI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22768,6 +24252,7 @@ SUSHI_USD = SUSHI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22780,6 +24265,7 @@ class SWFTC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SWFTC-USD"
     precision: int = 0.000001
@@ -22788,6 +24274,7 @@ class SWFTC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22814,6 +24301,7 @@ SWFTC_USD = SWFTC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22826,6 +24314,7 @@ class SYLO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SYLO-USD"
     precision: int = 0.000001
@@ -22834,6 +24323,7 @@ class SYLO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22860,6 +24350,7 @@ SYLO_USD = SYLO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22872,6 +24363,7 @@ class SYLO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SYLO-USDT"
     precision: int = 0.000001
@@ -22880,6 +24372,7 @@ class SYLO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22906,6 +24399,7 @@ SYLO_USDT = SYLO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22918,6 +24412,7 @@ class SYN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "SYN-USD"
     precision: int = 0.001
@@ -22926,6 +24421,7 @@ class SYN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22952,6 +24448,7 @@ SYN_USD = SYN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -22964,6 +24461,7 @@ class T_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "T-USD"
     precision: int = 0.00001
@@ -22972,6 +24470,7 @@ class T_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22998,6 +24497,7 @@ T_USD = T_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23010,6 +24510,7 @@ class TIME_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TIME-USD"
     precision: int = 0.01
@@ -23018,6 +24519,7 @@ class TIME_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23044,6 +24546,7 @@ TIME_USD = TIME_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23056,6 +24559,7 @@ class TIME_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TIME-USDT"
     precision: int = 0.01
@@ -23064,6 +24568,7 @@ class TIME_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23090,6 +24595,7 @@ TIME_USDT = TIME_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23102,6 +24608,7 @@ class TONE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TONE-USD"
     precision: int = 0.00001
@@ -23110,6 +24617,7 @@ class TONE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23136,6 +24644,7 @@ TONE_USD = TONE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23148,6 +24657,7 @@ class TRAC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRAC-EUR"
     precision: int = 0.0001
@@ -23156,6 +24666,7 @@ class TRAC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23182,6 +24693,7 @@ TRAC_EUR = TRAC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23194,6 +24706,7 @@ class TRAC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRAC-USD"
     precision: int = 0.0001
@@ -23202,6 +24715,7 @@ class TRAC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23228,6 +24742,7 @@ TRAC_USD = TRAC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23240,6 +24755,7 @@ class TRAC_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRAC-USDT"
     precision: int = 0.0001
@@ -23248,6 +24764,7 @@ class TRAC_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23274,6 +24791,7 @@ TRAC_USDT = TRAC_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23286,6 +24804,7 @@ class TRB_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRB-BTC"
     precision: int = 0.0000001
@@ -23294,6 +24813,7 @@ class TRB_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23320,6 +24840,7 @@ TRB_BTC = TRB_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23332,6 +24853,7 @@ class TRB_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRB-USD"
     precision: int = 0.01
@@ -23340,6 +24862,7 @@ class TRB_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23366,6 +24889,7 @@ TRB_USD = TRB_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23378,6 +24902,7 @@ class TRIBE_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRIBE-USD"
     precision: int = 0.0001
@@ -23386,6 +24911,7 @@ class TRIBE_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23412,6 +24938,7 @@ TRIBE_USD = TRIBE_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23424,6 +24951,7 @@ class TRU_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRU-BTC"
     precision: int = 0.00000001
@@ -23432,6 +24960,7 @@ class TRU_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23458,6 +24987,7 @@ TRU_BTC = TRU_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23470,6 +25000,7 @@ class TRU_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRU-EUR"
     precision: int = 0.0001
@@ -23478,6 +25009,7 @@ class TRU_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23504,6 +25036,7 @@ TRU_EUR = TRU_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23516,6 +25049,7 @@ class TRU_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRU-USD"
     precision: int = 0.0001
@@ -23524,6 +25058,7 @@ class TRU_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23550,6 +25085,7 @@ TRU_USD = TRU_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23562,6 +25098,7 @@ class TRU_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "TRU-USDT"
     precision: int = 0.0001
@@ -23570,6 +25107,7 @@ class TRU_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23596,6 +25134,7 @@ TRU_USDT = TRU_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23608,6 +25147,7 @@ class UMA_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UMA-BTC"
     precision: int = 0.00000001
@@ -23616,6 +25156,7 @@ class UMA_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23642,6 +25183,7 @@ UMA_BTC = UMA_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23654,6 +25196,7 @@ class UMA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UMA-EUR"
     precision: int = 0.001
@@ -23662,6 +25205,7 @@ class UMA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23688,6 +25232,7 @@ UMA_EUR = UMA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23700,6 +25245,7 @@ class UMA_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UMA-GBP"
     precision: int = 0.01
@@ -23708,6 +25254,7 @@ class UMA_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23734,6 +25281,7 @@ UMA_GBP = UMA_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23746,6 +25294,7 @@ class UMA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UMA-USD"
     precision: int = 0.001
@@ -23754,6 +25303,7 @@ class UMA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23780,6 +25330,7 @@ UMA_USD = UMA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23792,6 +25343,7 @@ class UNFI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UNFI-USD"
     precision: int = 0.01
@@ -23800,6 +25352,7 @@ class UNFI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23826,6 +25379,7 @@ UNFI_USD = UNFI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23838,6 +25392,7 @@ class UNI_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UNI-BTC"
     precision: int = 0.0000001
@@ -23846,6 +25401,7 @@ class UNI_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23872,6 +25428,7 @@ UNI_BTC = UNI_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23884,6 +25441,7 @@ class UNI_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UNI-EUR"
     precision: int = 0.01
@@ -23892,6 +25450,7 @@ class UNI_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23918,6 +25477,7 @@ UNI_EUR = UNI_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23930,6 +25490,7 @@ class UNI_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UNI-GBP"
     precision: int = 0.01
@@ -23938,6 +25499,7 @@ class UNI_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23964,6 +25526,7 @@ UNI_GBP = UNI_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -23976,6 +25539,7 @@ class UNI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UNI-USD"
     precision: int = 0.001
@@ -23984,6 +25548,7 @@ class UNI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24010,6 +25575,7 @@ UNI_USD = UNI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24022,6 +25588,7 @@ class UPI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UPI-USD"
     precision: int = 0.00001
@@ -24030,6 +25597,7 @@ class UPI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24056,6 +25624,7 @@ UPI_USD = UPI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24068,6 +25637,7 @@ class UPI_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UPI-USDT"
     precision: int = 0.00001
@@ -24076,6 +25646,7 @@ class UPI_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24102,6 +25673,7 @@ UPI_USDT = UPI_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24114,6 +25686,7 @@ class USDC_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDC-EUR"
     precision: int = 0.0001
@@ -24122,6 +25695,7 @@ class USDC_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24148,6 +25722,7 @@ USDC_EUR = USDC_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24160,6 +25735,7 @@ class USDC_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDC-GBP"
     precision: int = 0.0001
@@ -24168,6 +25744,7 @@ class USDC_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24194,6 +25771,7 @@ USDC_GBP = USDC_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24206,6 +25784,7 @@ class USDT_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDT-EUR"
     precision: int = 0.00001
@@ -24214,6 +25793,7 @@ class USDT_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24240,6 +25820,7 @@ USDT_EUR = USDT_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24252,6 +25833,7 @@ class USDT_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDT-GBP"
     precision: int = 0.0001
@@ -24260,6 +25842,7 @@ class USDT_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24286,6 +25869,7 @@ USDT_GBP = USDT_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24298,6 +25882,7 @@ class USDT_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDT-USD"
     precision: int = 0.00001
@@ -24306,6 +25891,7 @@ class USDT_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24332,6 +25918,7 @@ USDT_USD = USDT_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24344,6 +25931,7 @@ class USDT_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "USDT-USDC"
     precision: int = 0.0001
@@ -24352,6 +25940,7 @@ class USDT_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24378,6 +25967,7 @@ USDT_USDC = USDT_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24390,6 +25980,7 @@ class UST_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UST-EUR"
     precision: int = 0.00001
@@ -24398,6 +25989,7 @@ class UST_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24424,6 +26016,7 @@ UST_EUR = UST_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24436,6 +26029,7 @@ class UST_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UST-USD"
     precision: int = 0.00001
@@ -24444,6 +26038,7 @@ class UST_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24470,6 +26065,7 @@ UST_USD = UST_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24482,6 +26078,7 @@ class UST_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "UST-USDT"
     precision: int = 0.00001
@@ -24490,6 +26087,7 @@ class UST_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24516,6 +26114,7 @@ UST_USDT = UST_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24528,6 +26127,7 @@ class VGX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "VGX-EUR"
     precision: int = 0.0001
@@ -24536,6 +26136,7 @@ class VGX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24562,6 +26163,7 @@ VGX_EUR = VGX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24574,6 +26176,7 @@ class VGX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "VGX-USD"
     precision: int = 0.0001
@@ -24582,6 +26185,7 @@ class VGX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24608,6 +26212,7 @@ VGX_USD = VGX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24620,6 +26225,7 @@ class VGX_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "VGX-USDT"
     precision: int = 0.0001
@@ -24628,6 +26234,7 @@ class VGX_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24654,6 +26261,7 @@ VGX_USDT = VGX_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24666,6 +26274,7 @@ class WAMPL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WAMPL-USD"
     precision: int = 0.01
@@ -24674,6 +26283,7 @@ class WAMPL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24700,6 +26310,7 @@ WAMPL_USD = WAMPL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24712,6 +26323,7 @@ class WAMPL_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WAMPL-USDT"
     precision: int = 0.01
@@ -24720,6 +26332,7 @@ class WAMPL_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24746,6 +26359,7 @@ WAMPL_USDT = WAMPL_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24758,6 +26372,7 @@ class WAXL_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WAXL-USD"
     precision: int = 0.0001
@@ -24766,6 +26381,7 @@ class WAXL_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24792,6 +26408,7 @@ WAXL_USD = WAXL_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24804,6 +26421,7 @@ class WBTC_BTC(NamedTuple):
         min_order_size: 0.0001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WBTC-BTC"
     precision: int = 0.0001
@@ -24812,6 +26430,7 @@ class WBTC_BTC(NamedTuple):
     min_order_size: float = 0.0001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24838,6 +26457,7 @@ WBTC_BTC = WBTC_BTC()
     min_order_size: 0.0001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24850,6 +26470,7 @@ class WBTC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WBTC-USD"
     precision: int = 0.01
@@ -24858,6 +26479,7 @@ class WBTC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24884,6 +26506,7 @@ WBTC_USD = WBTC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24896,6 +26519,7 @@ class WCFG_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WCFG-BTC"
     precision: int = 0.00000001
@@ -24904,6 +26528,7 @@ class WCFG_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24930,6 +26555,7 @@ WCFG_BTC = WCFG_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24942,6 +26568,7 @@ class WCFG_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WCFG-EUR"
     precision: int = 0.0001
@@ -24950,6 +26577,7 @@ class WCFG_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24976,6 +26604,7 @@ WCFG_EUR = WCFG_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -24988,6 +26617,7 @@ class WCFG_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WCFG-USD"
     precision: int = 0.001
@@ -24996,6 +26626,7 @@ class WCFG_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25022,6 +26653,7 @@ WCFG_USD = WCFG_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25034,6 +26666,7 @@ class WCFG_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WCFG-USDT"
     precision: int = 0.00001
@@ -25042,6 +26675,7 @@ class WCFG_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25068,6 +26702,7 @@ WCFG_USDT = WCFG_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25080,6 +26715,7 @@ class WLUNA_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WLUNA-EUR"
     precision: int = 0.00000001
@@ -25088,6 +26724,7 @@ class WLUNA_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25114,6 +26751,7 @@ WLUNA_EUR = WLUNA_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25126,6 +26764,7 @@ class WLUNA_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WLUNA-GBP"
     precision: int = 0.00000001
@@ -25134,6 +26773,7 @@ class WLUNA_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25160,6 +26800,7 @@ WLUNA_GBP = WLUNA_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25172,6 +26813,7 @@ class WLUNA_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WLUNA-USD"
     precision: int = 0.00000001
@@ -25180,6 +26822,7 @@ class WLUNA_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25206,6 +26849,7 @@ WLUNA_USD = WLUNA_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25218,6 +26862,7 @@ class WLUNA_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "WLUNA-USDT"
     precision: int = 0.00000001
@@ -25226,6 +26871,7 @@ class WLUNA_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25252,6 +26898,7 @@ WLUNA_USDT = WLUNA_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25264,6 +26911,7 @@ class XCN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XCN-USD"
     precision: int = 0.00001
@@ -25272,6 +26920,7 @@ class XCN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25298,6 +26947,7 @@ XCN_USD = XCN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25310,6 +26960,7 @@ class XCN_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XCN-USDT"
     precision: int = 0.00001
@@ -25318,6 +26969,7 @@ class XCN_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25344,6 +26996,7 @@ XCN_USDT = XCN_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25356,6 +27009,7 @@ class XLM_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XLM-BTC"
     precision: int = 0.00000001
@@ -25364,6 +27018,7 @@ class XLM_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25390,6 +27045,7 @@ XLM_BTC = XLM_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25402,6 +27058,7 @@ class XLM_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XLM-EUR"
     precision: int = 0.000001
@@ -25410,6 +27067,7 @@ class XLM_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25436,6 +27094,7 @@ XLM_EUR = XLM_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25448,6 +27107,7 @@ class XLM_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XLM-USD"
     precision: int = 0.000001
@@ -25456,6 +27116,7 @@ class XLM_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25482,6 +27143,7 @@ XLM_USD = XLM_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25494,6 +27156,7 @@ class XLM_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XLM-USDT"
     precision: int = 0.0001
@@ -25502,6 +27165,7 @@ class XLM_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25528,6 +27192,7 @@ XLM_USDT = XLM_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25540,6 +27205,7 @@ class XRP_BTC(NamedTuple):
         min_order_size: 0.001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XRP-BTC"
     precision: int = 0.00000001
@@ -25548,6 +27214,7 @@ class XRP_BTC(NamedTuple):
     min_order_size: float = 0.001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25574,6 +27241,7 @@ XRP_BTC = XRP_BTC()
     min_order_size: 0.001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25586,6 +27254,7 @@ class XRP_EUR(NamedTuple):
         min_order_size: 10
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XRP-EUR"
     precision: int = 0.0001
@@ -25594,6 +27263,7 @@ class XRP_EUR(NamedTuple):
     min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25620,6 +27290,7 @@ XRP_EUR = XRP_EUR()
     min_order_size: 10
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25632,6 +27303,7 @@ class XRP_GBP(NamedTuple):
         min_order_size: 10
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XRP-GBP"
     precision: int = 0.0001
@@ -25640,6 +27312,7 @@ class XRP_GBP(NamedTuple):
     min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25666,6 +27339,7 @@ XRP_GBP = XRP_GBP()
     min_order_size: 10
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25678,6 +27352,7 @@ class XRP_USD(NamedTuple):
         min_order_size: 10
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XRP-USD"
     precision: int = 0.0001
@@ -25686,6 +27361,7 @@ class XRP_USD(NamedTuple):
     min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25712,6 +27388,7 @@ XRP_USD = XRP_USD()
     min_order_size: 10
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25724,6 +27401,7 @@ class XTZ_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XTZ-BTC"
     precision: int = 0.00000001
@@ -25732,6 +27410,7 @@ class XTZ_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25758,6 +27437,7 @@ XTZ_BTC = XTZ_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25770,6 +27450,7 @@ class XTZ_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XTZ-EUR"
     precision: int = 0.01
@@ -25778,6 +27459,7 @@ class XTZ_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25804,6 +27486,7 @@ XTZ_EUR = XTZ_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25816,6 +27499,7 @@ class XTZ_GBP(NamedTuple):
         min_order_size: 0.72
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XTZ-GBP"
     precision: int = 0.001
@@ -25824,6 +27508,7 @@ class XTZ_GBP(NamedTuple):
     min_order_size: float = 0.72
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25850,6 +27535,7 @@ XTZ_GBP = XTZ_GBP()
     min_order_size: 0.72
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25862,6 +27548,7 @@ class XTZ_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XTZ-USD"
     precision: int = 0.001
@@ -25870,6 +27557,7 @@ class XTZ_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25896,6 +27584,7 @@ XTZ_USD = XTZ_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25908,6 +27597,7 @@ class XYO_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XYO-BTC"
     precision: int = 0.00000001
@@ -25916,6 +27606,7 @@ class XYO_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25942,6 +27633,7 @@ XYO_BTC = XYO_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -25954,6 +27646,7 @@ class XYO_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XYO-EUR"
     precision: int = 0.000001
@@ -25962,6 +27655,7 @@ class XYO_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25988,6 +27682,7 @@ XYO_EUR = XYO_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26000,6 +27695,7 @@ class XYO_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XYO-USD"
     precision: int = 0.00001
@@ -26008,6 +27704,7 @@ class XYO_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26034,6 +27731,7 @@ XYO_USD = XYO_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26046,6 +27744,7 @@ class XYO_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "XYO-USDT"
     precision: int = 0.00001
@@ -26054,6 +27753,7 @@ class XYO_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26080,6 +27780,7 @@ XYO_USDT = XYO_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26092,6 +27793,7 @@ class YFI_BTC(NamedTuple):
         min_order_size: 0.00001
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "YFI-BTC"
     precision: int = 0.0001
@@ -26100,6 +27802,7 @@ class YFI_BTC(NamedTuple):
     min_order_size: float = 0.00001
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26126,6 +27829,7 @@ YFI_BTC = YFI_BTC()
     min_order_size: 0.00001
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26138,6 +27842,7 @@ class YFI_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "YFI-USD"
     precision: int = 0.01
@@ -26146,6 +27851,7 @@ class YFI_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26172,6 +27878,7 @@ YFI_USD = YFI_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26184,6 +27891,7 @@ class YFII_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "YFII-USD"
     precision: int = 0.01
@@ -26192,6 +27900,7 @@ class YFII_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26218,6 +27927,7 @@ YFII_USD = YFII_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26230,6 +27940,7 @@ class ZEC_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEC-BTC"
     precision: int = 0.000001
@@ -26238,6 +27949,7 @@ class ZEC_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26264,6 +27976,7 @@ ZEC_BTC = ZEC_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26276,6 +27989,7 @@ class ZEC_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEC-USD"
     precision: int = 0.01
@@ -26284,6 +27998,7 @@ class ZEC_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26310,6 +28025,7 @@ ZEC_USD = ZEC_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26322,6 +28038,7 @@ class ZEC_USDC(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEC-USDC"
     precision: int = 0.01
@@ -26330,6 +28047,7 @@ class ZEC_USDC(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26356,6 +28074,7 @@ ZEC_USDC = ZEC_USDC()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26368,6 +28087,7 @@ class ZEN_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEN-BTC"
     precision: int = 0.0000001
@@ -26376,6 +28096,7 @@ class ZEN_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26402,6 +28123,7 @@ ZEN_BTC = ZEN_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26414,6 +28136,7 @@ class ZEN_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEN-USD"
     precision: int = 0.01
@@ -26422,6 +28145,7 @@ class ZEN_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26448,6 +28172,7 @@ ZEN_USD = ZEN_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26460,6 +28185,7 @@ class ZEN_USDT(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZEN-USDT"
     precision: int = 0.01
@@ -26468,6 +28194,7 @@ class ZEN_USDT(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26494,6 +28221,7 @@ ZEN_USDT = ZEN_USDT()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26506,6 +28234,7 @@ class ZRX_BTC(NamedTuple):
         min_order_size: 0.000016
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZRX-BTC"
     precision: int = 0.00000001
@@ -26514,6 +28243,7 @@ class ZRX_BTC(NamedTuple):
     min_order_size: float = 0.000016
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26540,6 +28270,7 @@ ZRX_BTC = ZRX_BTC()
     min_order_size: 0.000016
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26552,6 +28283,7 @@ class ZRX_EUR(NamedTuple):
         min_order_size: 0.84
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZRX-EUR"
     precision: int = 0.0001
@@ -26560,6 +28292,7 @@ class ZRX_EUR(NamedTuple):
     min_order_size: float = 0.84
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26586,6 +28319,7 @@ ZRX_EUR = ZRX_EUR()
     min_order_size: 0.84
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """
 
 
@@ -26598,6 +28332,7 @@ class ZRX_USD(NamedTuple):
         min_order_size: 1
         max_order_size: None
         has_margin: False
+        exchange: coinbase
     """
     name: str = "ZRX-USD"
     precision: int = 0.000001
@@ -26606,6 +28341,7 @@ class ZRX_USD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "coinbase"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26632,4 +28368,5 @@ ZRX_USD = ZRX_USD()
     min_order_size: 1
     max_order_size: None
     has_margin: False
+    exchange: coinbase
 """

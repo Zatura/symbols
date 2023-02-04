@@ -10,6 +10,7 @@ class _EVOL7D(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EVOL7D"
     precision: int = 0.01
@@ -18,6 +19,7 @@ class _EVOL7D(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -44,6 +46,7 @@ _EVOL7D = _EVOL7D()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -56,6 +59,7 @@ class _BADAXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAXBT"
     precision: int = 1e-08
@@ -64,6 +68,7 @@ class _BADAXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -90,6 +95,7 @@ _BADAXBT = _BADAXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -102,6 +108,7 @@ class _BADAXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAXBT30M"
     precision: int = 1e-08
@@ -110,6 +117,7 @@ class _BADAXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -136,6 +144,7 @@ _BADAXBT30M = _BADAXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -148,6 +157,7 @@ class _BBCHXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCHXBT"
     precision: int = 1e-06
@@ -156,6 +166,7 @@ class _BBCHXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -182,6 +193,7 @@ _BBCHXBT = _BBCHXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -194,6 +206,7 @@ class _BBCHXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCHXBT30M"
     precision: int = 1e-06
@@ -202,6 +215,7 @@ class _BBCHXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -228,6 +242,7 @@ _BBCHXBT30M = _BBCHXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -240,6 +255,7 @@ class _BEOSXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOSXBT"
     precision: int = 1e-08
@@ -248,6 +264,7 @@ class _BEOSXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -274,6 +291,7 @@ _BEOSXBT = _BEOSXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -286,6 +304,7 @@ class _BEOSXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOSXBT30M"
     precision: int = 1e-08
@@ -294,6 +313,7 @@ class _BEOSXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -320,6 +340,7 @@ _BEOSXBT30M = _BEOSXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -332,6 +353,7 @@ class _BXRPXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRPXBT"
     precision: int = 1e-08
@@ -340,6 +362,7 @@ class _BXRPXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -366,6 +389,7 @@ _BXRPXBT = _BXRPXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -378,6 +402,7 @@ class _BXRPXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRPXBT30M"
     precision: int = 1e-08
@@ -386,6 +411,7 @@ class _BXRPXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -412,6 +438,7 @@ _BXRPXBT30M = _BXRPXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -424,6 +451,7 @@ class _BTRXXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXXBT"
     precision: int = 1e-10
@@ -432,6 +460,7 @@ class _BTRXXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -458,6 +487,7 @@ _BTRXXBT = _BTRXXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -470,6 +500,7 @@ class _BTRXXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXXBT30M"
     precision: int = 1e-10
@@ -478,6 +509,7 @@ class _BTRXXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -504,6 +536,7 @@ _BTRXXBT30M = _BTRXXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -516,6 +549,7 @@ class _BADAXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAXBT_NEXT"
     precision: int = 1e-08
@@ -524,6 +558,7 @@ class _BADAXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -550,6 +585,7 @@ _BADAXBT_NEXT = _BADAXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -562,6 +598,7 @@ class _BBCHXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCHXBT_NEXT"
     precision: int = 1e-06
@@ -570,6 +607,7 @@ class _BBCHXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -596,6 +634,7 @@ _BBCHXBT_NEXT = _BBCHXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -608,6 +647,7 @@ class _BEOSXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOSXBT_NEXT"
     precision: int = 1e-08
@@ -616,6 +656,7 @@ class _BEOSXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -642,6 +683,7 @@ _BEOSXBT_NEXT = _BEOSXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -654,6 +696,7 @@ class _BTRXXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXXBT_NEXT"
     precision: int = 1e-10
@@ -662,6 +705,7 @@ class _BTRXXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -688,6 +732,7 @@ _BTRXXBT_NEXT = _BTRXXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -700,6 +745,7 @@ class _BXRPXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRPXBT_NEXT"
     precision: int = 1e-08
@@ -708,6 +754,7 @@ class _BXRPXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -734,6 +781,7 @@ _BXRPXBT_NEXT = _BXRPXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -746,6 +794,7 @@ class _BXRP_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRP_NEXT"
     precision: int = 1e-05
@@ -754,6 +803,7 @@ class _BXRP_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -780,6 +830,7 @@ _BXRP_NEXT = _BXRP_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -792,6 +843,7 @@ class _BXRP(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRP"
     precision: int = 1e-05
@@ -800,6 +852,7 @@ class _BXRP(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -826,6 +879,7 @@ _BXRP = _BXRP()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -838,6 +892,7 @@ class _XRPBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPBON"
     precision: int = 1e-06
@@ -846,6 +901,7 @@ class _XRPBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -872,6 +928,7 @@ _XRPBON = _XRPBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -884,6 +941,7 @@ class _XRPBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPBON8H"
     precision: int = 1e-06
@@ -892,6 +950,7 @@ class _XRPBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -918,6 +977,7 @@ _XRPBON8H = _XRPBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -930,6 +990,7 @@ class _XRPUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPUSDPI"
     precision: int = 1e-06
@@ -938,6 +999,7 @@ class _XRPUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -964,6 +1026,7 @@ _XRPUSDPI = _XRPUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -976,6 +1039,7 @@ class _XRPUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPUSDPI8H"
     precision: int = 1e-06
@@ -984,6 +1048,7 @@ class _XRPUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1010,6 +1075,7 @@ _XRPUSDPI8H = _XRPUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1022,6 +1088,7 @@ class _BBCH(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCH"
     precision: int = 0.001
@@ -1030,6 +1097,7 @@ class _BBCH(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1056,6 +1124,7 @@ _BBCH = _BBCH()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1068,6 +1137,7 @@ class _BCHBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHBON"
     precision: int = 1e-06
@@ -1076,6 +1146,7 @@ class _BCHBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1102,6 +1173,7 @@ _BCHBON = _BCHBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1114,6 +1186,7 @@ class _BCHBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHBON8H"
     precision: int = 1e-06
@@ -1122,6 +1195,7 @@ class _BCHBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1148,6 +1222,7 @@ _BCHBON8H = _BCHBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1160,6 +1235,7 @@ class _BCHUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHUSDPI"
     precision: int = 1e-06
@@ -1168,6 +1244,7 @@ class _BCHUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1194,6 +1271,7 @@ _BCHUSDPI = _BCHUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1206,6 +1284,7 @@ class _BCHUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHUSDPI8H"
     precision: int = 1e-06
@@ -1214,6 +1293,7 @@ class _BCHUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1240,6 +1320,7 @@ _BCHUSDPI8H = _BCHUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1252,6 +1333,7 @@ class _BBCH_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCH_NEXT"
     precision: int = 0.001
@@ -1260,6 +1342,7 @@ class _BBCH_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1286,6 +1369,7 @@ _BBCH_NEXT = _BBCH_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1298,6 +1382,7 @@ class _BUSDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDT"
     precision: int = 1e-05
@@ -1306,6 +1391,7 @@ class _BUSDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1332,6 +1418,7 @@ _BUSDT = _BUSDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1344,6 +1431,7 @@ class _BUSDT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDT_NEXT"
     precision: int = 1e-05
@@ -1352,6 +1440,7 @@ class _BUSDT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1378,6 +1467,7 @@ _BUSDT_NEXT = _BUSDT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1390,6 +1480,7 @@ class _BEOST(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOST"
     precision: int = 1e-05
@@ -1398,6 +1489,7 @@ class _BEOST(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1424,6 +1516,7 @@ _BEOST = _BEOST()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1436,6 +1529,7 @@ class _BEOST_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOST_NEXT"
     precision: int = 1e-05
@@ -1444,6 +1538,7 @@ class _BEOST_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1470,6 +1565,7 @@ _BEOST_NEXT = _BEOST_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1482,6 +1578,7 @@ class _BEOST30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOST30M"
     precision: int = 1e-05
@@ -1490,6 +1587,7 @@ class _BEOST30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1516,6 +1614,7 @@ _BEOST30M = _BEOST30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1528,6 +1627,7 @@ class _BLINKT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLINKT"
     precision: int = 0.0001
@@ -1536,6 +1636,7 @@ class _BLINKT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1562,6 +1663,7 @@ _BLINKT = _BLINKT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1574,6 +1676,7 @@ class _BLINKT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLINKT_NEXT"
     precision: int = 0.0001
@@ -1582,6 +1685,7 @@ class _BLINKT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1608,6 +1712,7 @@ _BLINKT_NEXT = _BLINKT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1620,6 +1725,7 @@ class _BLINKT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLINKT30M"
     precision: int = 0.0001
@@ -1628,6 +1734,7 @@ class _BLINKT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1654,6 +1761,7 @@ _BLINKT30M = _BLINKT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1666,6 +1774,7 @@ class _BADAT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAT"
     precision: int = 1e-05
@@ -1674,6 +1783,7 @@ class _BADAT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1700,6 +1810,7 @@ _BADAT = _BADAT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1712,6 +1823,7 @@ class _BADAT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAT_NEXT"
     precision: int = 1e-05
@@ -1720,6 +1832,7 @@ class _BADAT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1746,6 +1859,7 @@ _BADAT_NEXT = _BADAT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1758,6 +1872,7 @@ class _BADAT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADAT30M"
     precision: int = 1e-05
@@ -1766,6 +1881,7 @@ class _BADAT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1792,6 +1908,7 @@ _BADAT30M = _BADAT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1804,6 +1921,7 @@ class _BXTZT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXTZT"
     precision: int = 1e-05
@@ -1812,6 +1930,7 @@ class _BXTZT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1838,6 +1957,7 @@ _BXTZT = _BXTZT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1850,6 +1970,7 @@ class _BXTZT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXTZT_NEXT"
     precision: int = 1e-05
@@ -1858,6 +1979,7 @@ class _BXTZT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1884,6 +2006,7 @@ _BXTZT_NEXT = _BXTZT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1896,6 +2019,7 @@ class _BXTZT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXTZT30M"
     precision: int = 1e-05
@@ -1904,6 +2028,7 @@ class _BXTZT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1930,6 +2055,7 @@ _BXTZT30M = _BXTZT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1942,6 +2068,7 @@ class _LINKBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKBON"
     precision: int = 1e-05
@@ -1950,6 +2077,7 @@ class _LINKBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -1976,6 +2104,7 @@ _LINKBON = _LINKBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -1988,6 +2117,7 @@ class _LINKBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKBON8H"
     precision: int = 1e-05
@@ -1996,6 +2126,7 @@ class _LINKBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2022,6 +2153,7 @@ _LINKBON8H = _LINKBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2034,6 +2166,7 @@ class _LINKUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKUSDTPI"
     precision: int = 1e-05
@@ -2042,6 +2175,7 @@ class _LINKUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2068,6 +2202,7 @@ _LINKUSDTPI = _LINKUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2080,6 +2215,7 @@ class _LINKUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKUSDTPI8H"
     precision: int = 1e-05
@@ -2088,6 +2224,7 @@ class _LINKUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2114,6 +2251,7 @@ _LINKUSDTPI8H = _LINKUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2126,6 +2264,7 @@ class _USDTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTBON"
     precision: int = 1e-05
@@ -2134,6 +2273,7 @@ class _USDTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2160,6 +2300,7 @@ _USDTBON = _USDTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2172,6 +2313,7 @@ class _USDTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTBON8H"
     precision: int = 1e-05
@@ -2180,6 +2322,7 @@ class _USDTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2206,6 +2349,7 @@ _USDTBON8H = _USDTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2218,6 +2362,7 @@ class _BBNBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBNBT"
     precision: int = 0.001
@@ -2226,6 +2371,7 @@ class _BBNBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2252,6 +2398,7 @@ _BBNBT = _BBNBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2264,6 +2411,7 @@ class _BBNBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBNBT_NEXT"
     precision: int = 0.001
@@ -2272,6 +2420,7 @@ class _BBNBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2298,6 +2447,7 @@ _BBNBT_NEXT = _BBNBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2310,6 +2460,7 @@ class _BBNBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBNBT30M"
     precision: int = 0.001
@@ -2318,6 +2469,7 @@ class _BBNBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2344,6 +2496,7 @@ _BBNBT30M = _BBNBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2356,6 +2509,7 @@ class _BDOTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOTT"
     precision: int = 0.0001
@@ -2364,6 +2518,7 @@ class _BDOTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2390,6 +2545,7 @@ _BDOTT = _BDOTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2402,6 +2558,7 @@ class _BDOTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOTT_NEXT"
     precision: int = 0.0001
@@ -2410,6 +2567,7 @@ class _BDOTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2436,6 +2594,7 @@ _BDOTT_NEXT = _BDOTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2448,6 +2607,7 @@ class _BDOTT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOTT30M"
     precision: int = 0.0001
@@ -2456,6 +2616,7 @@ class _BDOTT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2482,6 +2643,7 @@ _BDOTT30M = _BDOTT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2494,6 +2656,7 @@ class _BYFIT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BYFIT"
     precision: int = 0.01
@@ -2502,6 +2665,7 @@ class _BYFIT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2528,6 +2692,7 @@ _BYFIT = _BYFIT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2540,6 +2705,7 @@ class _BYFIT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BYFIT_NEXT"
     precision: int = 0.01
@@ -2548,6 +2714,7 @@ class _BYFIT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2574,6 +2741,7 @@ _BYFIT_NEXT = _BYFIT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2586,6 +2754,7 @@ class _BYFIT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BYFIT30M"
     precision: int = 0.01
@@ -2594,6 +2763,7 @@ class _BYFIT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2620,6 +2790,7 @@ _BYFIT30M = _BYFIT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2632,6 +2803,7 @@ class _BDOGET(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOGET"
     precision: int = 1e-06
@@ -2640,6 +2812,7 @@ class _BDOGET(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2666,6 +2839,7 @@ _BDOGET = _BDOGET()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2678,6 +2852,7 @@ class _BDOGET_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOGET_NEXT"
     precision: int = 1e-06
@@ -2686,6 +2861,7 @@ class _BDOGET_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2712,6 +2888,7 @@ _BDOGET_NEXT = _BDOGET_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2724,6 +2901,7 @@ class _DOGEBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEBON"
     precision: int = 1e-06
@@ -2732,6 +2910,7 @@ class _DOGEBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2758,6 +2937,7 @@ _DOGEBON = _DOGEBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2770,6 +2950,7 @@ class _DOGEBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEBON8H"
     precision: int = 1e-06
@@ -2778,6 +2959,7 @@ class _DOGEBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2804,6 +2986,7 @@ _DOGEBON8H = _DOGEBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2816,6 +2999,7 @@ class _DOGEUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEUSDTPI"
     precision: int = 1e-06
@@ -2824,6 +3008,7 @@ class _DOGEUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2850,6 +3035,7 @@ _DOGEUSDTPI = _DOGEUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2862,6 +3048,7 @@ class _DOGEUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEUSDTPI8H"
     precision: int = 1e-06
@@ -2870,6 +3057,7 @@ class _DOGEUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2896,6 +3084,7 @@ _DOGEUSDTPI8H = _DOGEUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2908,6 +3097,7 @@ class _BNBBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBBON"
     precision: int = 1e-05
@@ -2916,6 +3106,7 @@ class _BNBBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2942,6 +3133,7 @@ _BNBBON = _BNBBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -2954,6 +3146,7 @@ class _BNBBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBBON8H"
     precision: int = 1e-05
@@ -2962,6 +3155,7 @@ class _BNBBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -2988,6 +3182,7 @@ _BNBBON8H = _BNBBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3000,6 +3195,7 @@ class _BNBUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBUSDTPI"
     precision: int = 1e-05
@@ -3008,6 +3204,7 @@ class _BNBUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3034,6 +3231,7 @@ _BNBUSDTPI = _BNBUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3046,6 +3244,7 @@ class _BNBUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBUSDTPI8H"
     precision: int = 1e-05
@@ -3054,6 +3253,7 @@ class _BNBUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3080,6 +3280,7 @@ _BNBUSDTPI8H = _BNBUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3092,6 +3293,7 @@ class _ADABON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADABON"
     precision: int = 1e-06
@@ -3100,6 +3302,7 @@ class _ADABON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3126,6 +3329,7 @@ _ADABON = _ADABON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3138,6 +3342,7 @@ class _ADABON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADABON8H"
     precision: int = 1e-06
@@ -3146,6 +3351,7 @@ class _ADABON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3172,6 +3378,7 @@ _ADABON8H = _ADABON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3184,6 +3391,7 @@ class _ADAUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADAUSDTPI"
     precision: int = 1e-06
@@ -3192,6 +3400,7 @@ class _ADAUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3218,6 +3427,7 @@ _ADAUSDTPI = _ADAUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3230,6 +3440,7 @@ class _ADAUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADAUSDTPI8H"
     precision: int = 1e-06
@@ -3238,6 +3449,7 @@ class _ADAUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3264,6 +3476,7 @@ _ADAUSDTPI8H = _ADAUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3276,6 +3489,7 @@ class _DOTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTBON"
     precision: int = 1e-06
@@ -3284,6 +3498,7 @@ class _DOTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3310,6 +3525,7 @@ _DOTBON = _DOTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3322,6 +3538,7 @@ class _DOTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTBON8H"
     precision: int = 1e-06
@@ -3330,6 +3547,7 @@ class _DOTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3356,6 +3574,7 @@ _DOTBON8H = _DOTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3368,6 +3587,7 @@ class _DOTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTUSDTPI"
     precision: int = 1e-06
@@ -3376,6 +3596,7 @@ class _DOTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3402,6 +3623,7 @@ _DOTUSDTPI = _DOTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3414,6 +3636,7 @@ class _DOTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTUSDTPI8H"
     precision: int = 1e-06
@@ -3422,6 +3645,7 @@ class _DOTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3448,6 +3672,7 @@ _DOTUSDTPI8H = _DOTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3460,6 +3685,7 @@ class _EOSBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSBON"
     precision: int = 1e-06
@@ -3468,6 +3694,7 @@ class _EOSBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3494,6 +3721,7 @@ _EOSBON = _EOSBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3506,6 +3734,7 @@ class _EOSBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSBON8H"
     precision: int = 1e-06
@@ -3514,6 +3743,7 @@ class _EOSBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3540,6 +3770,7 @@ _EOSBON8H = _EOSBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3552,6 +3783,7 @@ class _EOSUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSUSDTPI"
     precision: int = 1e-06
@@ -3560,6 +3792,7 @@ class _EOSUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3586,6 +3819,7 @@ _EOSUSDTPI = _EOSUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3598,6 +3832,7 @@ class _EOSUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSUSDTPI8H"
     precision: int = 1e-06
@@ -3606,6 +3841,7 @@ class _EOSUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3632,6 +3868,7 @@ _EOSUSDTPI8H = _EOSUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3644,6 +3881,7 @@ class _XTZBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XTZBON"
     precision: int = 1e-06
@@ -3652,6 +3890,7 @@ class _XTZBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3678,6 +3917,7 @@ _XTZBON = _XTZBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3690,6 +3930,7 @@ class _XTZBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XTZBON8H"
     precision: int = 1e-06
@@ -3698,6 +3939,7 @@ class _XTZBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3724,6 +3966,7 @@ _XTZBON8H = _XTZBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3736,6 +3979,7 @@ class _XTZUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XTZUSDTPI"
     precision: int = 1e-06
@@ -3744,6 +3988,7 @@ class _XTZUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3770,6 +4015,7 @@ _XTZUSDTPI = _XTZUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3782,6 +4028,7 @@ class _YFIBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".YFIBON"
     precision: int = 1e-06
@@ -3790,6 +4037,7 @@ class _YFIBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3816,6 +4064,7 @@ _YFIBON = _YFIBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3828,6 +4077,7 @@ class _YFIBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".YFIBON8H"
     precision: int = 1e-06
@@ -3836,6 +4086,7 @@ class _YFIBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3862,6 +4113,7 @@ _YFIBON8H = _YFIBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3874,6 +4126,7 @@ class _YFIUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".YFIUSDTPI"
     precision: int = 1e-06
@@ -3882,6 +4135,7 @@ class _YFIUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3908,6 +4162,7 @@ _YFIUSDTPI = _YFIUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3920,6 +4175,7 @@ class _BAAVET(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAAVET"
     precision: int = 0.001
@@ -3928,6 +4184,7 @@ class _BAAVET(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -3954,6 +4211,7 @@ _BAAVET = _BAAVET()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -3966,6 +4224,7 @@ class _BAAVET_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAAVET_NEXT"
     precision: int = 0.001
@@ -3974,6 +4233,7 @@ class _BAAVET_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4000,6 +4260,7 @@ _BAAVET_NEXT = _BAAVET_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4012,6 +4273,7 @@ class _AAVEBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AAVEBON"
     precision: int = 1e-06
@@ -4020,6 +4282,7 @@ class _AAVEBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4046,6 +4309,7 @@ _AAVEBON = _AAVEBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4058,6 +4322,7 @@ class _AAVEBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AAVEBON8H"
     precision: int = 1e-06
@@ -4066,6 +4331,7 @@ class _AAVEBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4092,6 +4358,7 @@ _AAVEBON8H = _AAVEBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4104,6 +4371,7 @@ class _AAVEUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AAVEUSDTPI"
     precision: int = 1e-06
@@ -4112,6 +4380,7 @@ class _AAVEUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4138,6 +4407,7 @@ _AAVEUSDTPI = _AAVEUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4150,6 +4420,7 @@ class _AAVEUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AAVEUSDTPI8H"
     precision: int = 1e-06
@@ -4158,6 +4429,7 @@ class _AAVEUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4184,6 +4456,7 @@ _AAVEUSDTPI8H = _AAVEUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4196,6 +4469,7 @@ class _BUNIT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUNIT"
     precision: int = 0.0001
@@ -4204,6 +4478,7 @@ class _BUNIT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4230,6 +4505,7 @@ _BUNIT = _BUNIT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4242,6 +4518,7 @@ class _BUNIT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUNIT_NEXT"
     precision: int = 0.0001
@@ -4250,6 +4527,7 @@ class _BUNIT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4276,6 +4554,7 @@ _BUNIT_NEXT = _BUNIT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4288,6 +4567,7 @@ class _UNIBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".UNIBON"
     precision: int = 1e-06
@@ -4296,6 +4576,7 @@ class _UNIBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4322,6 +4603,7 @@ _UNIBON = _UNIBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4334,6 +4616,7 @@ class _UNIBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".UNIBON8H"
     precision: int = 1e-06
@@ -4342,6 +4625,7 @@ class _UNIBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4368,6 +4652,7 @@ _UNIBON8H = _UNIBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4380,6 +4665,7 @@ class _UNIUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".UNIUSDTPI"
     precision: int = 1e-06
@@ -4388,6 +4674,7 @@ class _UNIUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4414,6 +4701,7 @@ _UNIUSDTPI = _UNIUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4426,6 +4714,7 @@ class _UNIUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".UNIUSDTPI8H"
     precision: int = 1e-06
@@ -4434,6 +4723,7 @@ class _UNIUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4460,6 +4750,7 @@ _UNIUSDTPI8H = _UNIUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4472,6 +4763,7 @@ class _BXLMT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXLMT"
     precision: int = 1e-06
@@ -4480,6 +4772,7 @@ class _BXLMT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4506,6 +4799,7 @@ _BXLMT = _BXLMT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4518,6 +4812,7 @@ class _BXLMT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXLMT_NEXT"
     precision: int = 1e-06
@@ -4526,6 +4821,7 @@ class _BXLMT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4552,6 +4848,7 @@ _BXLMT_NEXT = _BXLMT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4564,6 +4861,7 @@ class _XLMBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XLMBON"
     precision: int = 1e-06
@@ -4572,6 +4870,7 @@ class _XLMBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4598,6 +4897,7 @@ _XLMBON = _XLMBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4610,6 +4910,7 @@ class _XLMBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XLMBON8H"
     precision: int = 1e-06
@@ -4618,6 +4919,7 @@ class _XLMBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4644,6 +4946,7 @@ _XLMBON8H = _XLMBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4656,6 +4959,7 @@ class _XLMUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XLMUSDTPI"
     precision: int = 1e-06
@@ -4664,6 +4968,7 @@ class _XLMUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4690,6 +4995,7 @@ _XLMUSDTPI = _XLMUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4702,6 +5008,7 @@ class _XLMUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XLMUSDTPI8H"
     precision: int = 1e-06
@@ -4710,6 +5017,7 @@ class _XLMUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4736,6 +5044,7 @@ _XLMUSDTPI8H = _XLMUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4748,6 +5057,7 @@ class _BTRXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXT"
     precision: int = 1e-06
@@ -4756,6 +5066,7 @@ class _BTRXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4782,6 +5093,7 @@ _BTRXT = _BTRXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4794,6 +5106,7 @@ class _BTRXT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXT_NEXT"
     precision: int = 1e-06
@@ -4802,6 +5115,7 @@ class _BTRXT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4828,6 +5142,7 @@ _BTRXT_NEXT = _BTRXT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4840,6 +5155,7 @@ class _TRXBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXBON"
     precision: int = 1e-06
@@ -4848,6 +5164,7 @@ class _TRXBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4874,6 +5191,7 @@ _TRXBON = _TRXBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4886,6 +5204,7 @@ class _TRXBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXBON8H"
     precision: int = 1e-06
@@ -4894,6 +5213,7 @@ class _TRXBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4920,6 +5240,7 @@ _TRXBON8H = _TRXBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4932,6 +5253,7 @@ class _TRXUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXUSDTPI"
     precision: int = 1e-06
@@ -4940,6 +5262,7 @@ class _TRXUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -4966,6 +5289,7 @@ _TRXUSDTPI = _TRXUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -4978,6 +5302,7 @@ class _TRXUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXUSDTPI8H"
     precision: int = 1e-06
@@ -4986,6 +5311,7 @@ class _TRXUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5012,6 +5338,7 @@ _TRXUSDTPI8H = _TRXUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5024,6 +5351,7 @@ class _BTRXT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRXT30M"
     precision: int = 1e-06
@@ -5032,6 +5360,7 @@ class _BTRXT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5058,6 +5387,7 @@ _BTRXT30M = _BTRXT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5070,6 +5400,7 @@ class _BSOLT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSOLT"
     precision: int = 0.001
@@ -5078,6 +5409,7 @@ class _BSOLT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5104,6 +5436,7 @@ _BSOLT = _BSOLT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5116,6 +5449,7 @@ class _BSOLT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSOLT_NEXT"
     precision: int = 0.001
@@ -5124,6 +5458,7 @@ class _BSOLT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5150,6 +5485,7 @@ _BSOLT_NEXT = _BSOLT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5162,6 +5498,7 @@ class _SOLBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLBON"
     precision: int = 1e-06
@@ -5170,6 +5507,7 @@ class _SOLBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5196,6 +5534,7 @@ _SOLBON = _SOLBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5208,6 +5547,7 @@ class _SOLBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLBON8H"
     precision: int = 1e-06
@@ -5216,6 +5556,7 @@ class _SOLBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5242,6 +5583,7 @@ _SOLBON8H = _SOLBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5254,6 +5596,7 @@ class _SOLUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLUSDTPI"
     precision: int = 1e-06
@@ -5262,6 +5605,7 @@ class _SOLUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5288,6 +5632,7 @@ _SOLUSDTPI = _SOLUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5300,6 +5645,7 @@ class _SOLUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLUSDTPI8H"
     precision: int = 1e-06
@@ -5308,6 +5654,7 @@ class _SOLUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5334,6 +5681,7 @@ _SOLUSDTPI8H = _SOLUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5346,6 +5694,7 @@ class _BFILT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFILT"
     precision: int = 0.001
@@ -5354,6 +5703,7 @@ class _BFILT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5380,6 +5730,7 @@ _BFILT = _BFILT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5392,6 +5743,7 @@ class _BFILT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFILT_NEXT"
     precision: int = 0.001
@@ -5400,6 +5752,7 @@ class _BFILT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5426,6 +5779,7 @@ _BFILT_NEXT = _BFILT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5438,6 +5792,7 @@ class _FILBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FILBON"
     precision: int = 1e-06
@@ -5446,6 +5801,7 @@ class _FILBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5472,6 +5828,7 @@ _FILBON = _FILBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5484,6 +5841,7 @@ class _FILBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FILBON8H"
     precision: int = 1e-06
@@ -5492,6 +5850,7 @@ class _FILBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5518,6 +5877,7 @@ _FILBON8H = _FILBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5530,6 +5890,7 @@ class _FILUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FILUSDTPI"
     precision: int = 1e-06
@@ -5538,6 +5899,7 @@ class _FILUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5564,6 +5926,7 @@ _FILUSDTPI = _FILUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5576,6 +5939,7 @@ class _FILUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FILUSDTPI8H"
     precision: int = 1e-06
@@ -5584,6 +5948,7 @@ class _FILUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5610,6 +5975,7 @@ _FILUSDTPI8H = _FILUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5622,6 +5988,7 @@ class _EURBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURBON"
     precision: int = 1e-06
@@ -5630,6 +5997,7 @@ class _EURBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5656,6 +6024,7 @@ _EURBON = _EURBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5668,6 +6037,7 @@ class _EURBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURBON8H"
     precision: int = 1e-06
@@ -5676,6 +6046,7 @@ class _EURBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5702,6 +6073,7 @@ _EURBON8H = _EURBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5714,6 +6086,7 @@ class _BVETT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVETT"
     precision: int = 1e-06
@@ -5722,6 +6095,7 @@ class _BVETT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5748,6 +6122,7 @@ _BVETT = _BVETT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5760,6 +6135,7 @@ class _BVETT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVETT_NEXT"
     precision: int = 1e-06
@@ -5768,6 +6144,7 @@ class _BVETT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5794,6 +6171,7 @@ _BVETT_NEXT = _BVETT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5806,6 +6184,7 @@ class _VETBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".VETBON"
     precision: int = 1e-06
@@ -5814,6 +6193,7 @@ class _VETBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5840,6 +6220,7 @@ _VETBON = _VETBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5852,6 +6233,7 @@ class _VETBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".VETBON8H"
     precision: int = 1e-06
@@ -5860,6 +6242,7 @@ class _VETBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5886,6 +6269,7 @@ _VETBON8H = _VETBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5898,6 +6282,7 @@ class _VETUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".VETUSDTPI"
     precision: int = 1e-06
@@ -5906,6 +6291,7 @@ class _VETUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5932,6 +6318,7 @@ _VETUSDTPI = _VETUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5944,6 +6331,7 @@ class _VETUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".VETUSDTPI8H"
     precision: int = 1e-06
@@ -5952,6 +6340,7 @@ class _VETUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -5978,6 +6367,7 @@ _VETUSDTPI8H = _VETUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -5990,6 +6380,7 @@ class _BMATICT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMATICT"
     precision: int = 1e-05
@@ -5998,6 +6389,7 @@ class _BMATICT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6024,6 +6416,7 @@ _BMATICT = _BMATICT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6036,6 +6429,7 @@ class _BMATICT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMATICT_NEXT"
     precision: int = 1e-05
@@ -6044,6 +6438,7 @@ class _BMATICT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6070,6 +6465,7 @@ _BMATICT_NEXT = _BMATICT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6082,6 +6478,7 @@ class _MATICBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MATICBON"
     precision: int = 1e-06
@@ -6090,6 +6487,7 @@ class _MATICBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6116,6 +6514,7 @@ _MATICBON = _MATICBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6128,6 +6527,7 @@ class _MATICBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MATICBON8H"
     precision: int = 1e-06
@@ -6136,6 +6536,7 @@ class _MATICBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6162,6 +6563,7 @@ _MATICBON8H = _MATICBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6174,6 +6576,7 @@ class _MATICUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MATICUSDTPI"
     precision: int = 1e-06
@@ -6182,6 +6585,7 @@ class _MATICUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6208,6 +6612,7 @@ _MATICUSDTPI = _MATICUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6220,6 +6625,7 @@ class _MATICUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MATICUSDTPI8H"
     precision: int = 1e-06
@@ -6228,6 +6634,7 @@ class _MATICUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6254,6 +6661,7 @@ _MATICUSDTPI8H = _MATICUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6266,6 +6674,7 @@ class _BMKRT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMKRT"
     precision: int = 0.01
@@ -6274,6 +6683,7 @@ class _BMKRT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6300,6 +6710,7 @@ _BMKRT = _BMKRT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6312,6 +6723,7 @@ class _BMKRT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMKRT_NEXT"
     precision: int = 0.01
@@ -6320,6 +6732,7 @@ class _BMKRT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6346,6 +6759,7 @@ _BMKRT_NEXT = _BMKRT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6358,6 +6772,7 @@ class _BAVAXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAVAXT"
     precision: int = 0.0001
@@ -6366,6 +6781,7 @@ class _BAVAXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6392,6 +6808,7 @@ _BAVAXT = _BAVAXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6404,6 +6821,7 @@ class _BAVAXT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAVAXT_NEXT"
     precision: int = 0.0001
@@ -6412,6 +6830,7 @@ class _BAVAXT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6438,6 +6857,7 @@ _BAVAXT_NEXT = _BAVAXT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6450,6 +6870,7 @@ class _BLUNAT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNAT"
     precision: int = 0.0001
@@ -6458,6 +6879,7 @@ class _BLUNAT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6484,6 +6906,7 @@ _BLUNAT = _BLUNAT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6496,6 +6919,7 @@ class _BLUNAT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNAT_NEXT"
     precision: int = 0.0001
@@ -6504,6 +6928,7 @@ class _BLUNAT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6530,6 +6955,7 @@ _BLUNAT_NEXT = _BLUNAT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6542,6 +6968,7 @@ class _BCOMPT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCOMPT"
     precision: int = 0.001
@@ -6550,6 +6977,7 @@ class _BCOMPT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6576,6 +7004,7 @@ _BCOMPT = _BCOMPT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6588,6 +7017,7 @@ class _BCOMPT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCOMPT_NEXT"
     precision: int = 0.001
@@ -6596,6 +7026,7 @@ class _BCOMPT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6622,6 +7053,7 @@ _BCOMPT_NEXT = _BCOMPT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6634,6 +7066,7 @@ class _BSUSHIT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSUSHIT"
     precision: int = 0.0001
@@ -6642,6 +7075,7 @@ class _BSUSHIT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6668,6 +7102,7 @@ _BSUSHIT = _BSUSHIT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6680,6 +7115,7 @@ class _BSUSHIT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSUSHIT_NEXT"
     precision: int = 0.0001
@@ -6688,6 +7124,7 @@ class _BSUSHIT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6714,6 +7151,7 @@ _BSUSHIT_NEXT = _BSUSHIT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6726,6 +7164,7 @@ class _BGRTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGRTT"
     precision: int = 1e-05
@@ -6734,6 +7173,7 @@ class _BGRTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6760,6 +7200,7 @@ _BGRTT = _BGRTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6772,6 +7213,7 @@ class _BGRTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGRTT_NEXT"
     precision: int = 1e-05
@@ -6780,6 +7222,7 @@ class _BGRTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6806,6 +7249,7 @@ _BGRTT_NEXT = _BGRTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6818,6 +7262,7 @@ class _BALTMEX(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BALTMEX"
     precision: int = 1e-06
@@ -6826,6 +7271,7 @@ class _BALTMEX(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6852,6 +7298,7 @@ _BALTMEX = _BALTMEX()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6864,6 +7311,7 @@ class _BDEFIMEX(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDEFIMEX"
     precision: int = 1e-06
@@ -6872,6 +7320,7 @@ class _BDEFIMEX(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6898,6 +7347,7 @@ _BDEFIMEX = _BDEFIMEX()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6910,6 +7360,7 @@ class _ALTMEXBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXBON"
     precision: int = 1e-06
@@ -6918,6 +7369,7 @@ class _ALTMEXBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6944,6 +7396,7 @@ _ALTMEXBON = _ALTMEXBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -6956,6 +7409,7 @@ class _ALTMEXBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXBON8H"
     precision: int = 1e-06
@@ -6964,6 +7418,7 @@ class _ALTMEXBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -6990,6 +7445,7 @@ _ALTMEXBON8H = _ALTMEXBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7002,6 +7458,7 @@ class _ALTMEXUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXUSDPI"
     precision: int = 1e-06
@@ -7010,6 +7467,7 @@ class _ALTMEXUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7036,6 +7494,7 @@ _ALTMEXUSDPI = _ALTMEXUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7048,6 +7507,7 @@ class _ALTMEXUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXUSDPI8H"
     precision: int = 1e-06
@@ -7056,6 +7516,7 @@ class _ALTMEXUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7082,6 +7543,7 @@ _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7094,6 +7556,7 @@ class _DEFIMEXBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXBON"
     precision: int = 1e-06
@@ -7102,6 +7565,7 @@ class _DEFIMEXBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7128,6 +7592,7 @@ _DEFIMEXBON = _DEFIMEXBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7140,6 +7605,7 @@ class _DEFIMEXBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXBON8H"
     precision: int = 1e-06
@@ -7148,6 +7614,7 @@ class _DEFIMEXBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7174,6 +7641,7 @@ _DEFIMEXBON8H = _DEFIMEXBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7186,6 +7654,7 @@ class _DEFIMEXUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXUSDPI"
     precision: int = 1e-06
@@ -7194,6 +7663,7 @@ class _DEFIMEXUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7220,6 +7690,7 @@ _DEFIMEXUSDPI = _DEFIMEXUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7232,6 +7703,7 @@ class _DEFIMEXUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXUSDPI8H"
     precision: int = 1e-06
@@ -7240,6 +7712,7 @@ class _DEFIMEXUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7266,6 +7739,7 @@ _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7278,6 +7752,7 @@ class _SUSHIBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SUSHIBON"
     precision: int = 1e-06
@@ -7286,6 +7761,7 @@ class _SUSHIBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7312,6 +7788,7 @@ _SUSHIBON = _SUSHIBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7324,6 +7801,7 @@ class _SUSHIBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SUSHIBON8H"
     precision: int = 1e-06
@@ -7332,6 +7810,7 @@ class _SUSHIBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7358,6 +7837,7 @@ _SUSHIBON8H = _SUSHIBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7370,6 +7850,7 @@ class _SUSHIUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SUSHIUSDTPI"
     precision: int = 1e-06
@@ -7378,6 +7859,7 @@ class _SUSHIUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7404,6 +7886,7 @@ _SUSHIUSDTPI = _SUSHIUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7416,6 +7899,7 @@ class _SUSHIUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SUSHIUSDTPI8H"
     precision: int = 1e-06
@@ -7424,6 +7908,7 @@ class _SUSHIUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7450,6 +7935,7 @@ _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7462,6 +7948,7 @@ class _BAXST(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAXST"
     precision: int = 0.001
@@ -7470,6 +7957,7 @@ class _BAXST(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7496,6 +7984,7 @@ _BAXST = _BAXST()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7508,6 +7997,7 @@ class _BAXST_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAXST_NEXT"
     precision: int = 0.001
@@ -7516,6 +8006,7 @@ class _BAXST_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7542,6 +8033,7 @@ _BAXST_NEXT = _BAXST_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7554,6 +8046,7 @@ class _AXSBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSBON"
     precision: int = 1e-06
@@ -7562,6 +8055,7 @@ class _AXSBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7588,6 +8082,7 @@ _AXSBON = _AXSBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7600,6 +8095,7 @@ class _AXSBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSBON8H"
     precision: int = 1e-06
@@ -7608,6 +8104,7 @@ class _AXSBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7634,6 +8131,7 @@ _AXSBON8H = _AXSBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7646,6 +8144,7 @@ class _AXSUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSUSDTPI"
     precision: int = 1e-06
@@ -7654,6 +8153,7 @@ class _AXSUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7680,6 +8180,7 @@ _AXSUSDTPI = _AXSUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7692,6 +8193,7 @@ class _AXSUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSUSDTPI8H"
     precision: int = 1e-06
@@ -7700,6 +8202,7 @@ class _AXSUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7726,6 +8229,7 @@ _AXSUSDTPI8H = _AXSUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7738,6 +8242,7 @@ class _BSRMT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSRMT"
     precision: int = 0.0001
@@ -7746,6 +8251,7 @@ class _BSRMT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7772,6 +8278,7 @@ _BSRMT = _BSRMT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7784,6 +8291,7 @@ class _BSRMT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSRMT_NEXT"
     precision: int = 0.0001
@@ -7792,6 +8300,7 @@ class _BSRMT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7818,6 +8327,7 @@ _BSRMT_NEXT = _BSRMT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7830,6 +8340,7 @@ class _SRMBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SRMBON"
     precision: int = 1e-06
@@ -7838,6 +8349,7 @@ class _SRMBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7864,6 +8376,7 @@ _SRMBON = _SRMBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7876,6 +8389,7 @@ class _SRMBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SRMBON8H"
     precision: int = 1e-06
@@ -7884,6 +8398,7 @@ class _SRMBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7910,6 +8425,7 @@ _SRMBON8H = _SRMBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7922,6 +8438,7 @@ class _SRMUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SRMUSDTPI"
     precision: int = 1e-06
@@ -7930,6 +8447,7 @@ class _SRMUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -7956,6 +8474,7 @@ _SRMUSDTPI = _SRMUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -7968,6 +8487,7 @@ class _SRMUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SRMUSDTPI8H"
     precision: int = 1e-06
@@ -7976,6 +8496,7 @@ class _SRMUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8002,6 +8523,7 @@ _SRMUSDTPI8H = _SRMUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8014,6 +8536,7 @@ class _BLUNA(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNA"
     precision: int = 0.0001
@@ -8022,6 +8545,7 @@ class _BLUNA(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8048,6 +8572,7 @@ _BLUNA = _BLUNA()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8060,6 +8585,7 @@ class _BLUNA_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNA_NEXT"
     precision: int = 0.0001
@@ -8068,6 +8594,7 @@ class _BLUNA_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8094,6 +8621,7 @@ _BLUNA_NEXT = _BLUNA_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8106,6 +8634,7 @@ class _LUNABON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNABON"
     precision: int = 1e-06
@@ -8114,6 +8643,7 @@ class _LUNABON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8140,6 +8670,7 @@ _LUNABON = _LUNABON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8152,6 +8683,7 @@ class _LUNABON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNABON8H"
     precision: int = 1e-06
@@ -8160,6 +8692,7 @@ class _LUNABON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8186,6 +8719,7 @@ _LUNABON8H = _LUNABON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8198,6 +8732,7 @@ class _LUNAUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNAUSDPI"
     precision: int = 1e-06
@@ -8206,6 +8741,7 @@ class _LUNAUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8232,6 +8768,7 @@ _LUNAUSDPI = _LUNAUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8244,6 +8781,7 @@ class _LUNAUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNAUSDPI8H"
     precision: int = 1e-06
@@ -8252,6 +8790,7 @@ class _LUNAUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8278,6 +8817,7 @@ _LUNAUSDPI8H = _LUNAUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8290,6 +8830,7 @@ class _AVAXBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXBON"
     precision: int = 1e-06
@@ -8298,6 +8839,7 @@ class _AVAXBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8324,6 +8866,7 @@ _AVAXBON = _AVAXBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8336,6 +8879,7 @@ class _AVAXBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXBON8H"
     precision: int = 1e-06
@@ -8344,6 +8888,7 @@ class _AVAXBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8370,6 +8915,7 @@ _AVAXBON8H = _AVAXBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8382,6 +8928,7 @@ class _BAVAX(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAVAX"
     precision: int = 0.0001
@@ -8390,6 +8937,7 @@ class _BAVAX(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8416,6 +8964,7 @@ _BAVAX = _BAVAX()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8428,6 +8977,7 @@ class _BAVAX_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAVAX_NEXT"
     precision: int = 0.0001
@@ -8436,6 +8986,7 @@ class _BAVAX_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8462,6 +9013,7 @@ _BAVAX_NEXT = _BAVAX_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8474,6 +9026,7 @@ class _AVAXUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXUSDPI"
     precision: int = 1e-06
@@ -8482,6 +9035,7 @@ class _AVAXUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8508,6 +9062,7 @@ _AVAXUSDPI = _AVAXUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8520,6 +9075,7 @@ class _AVAXUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXUSDPI8H"
     precision: int = 1e-06
@@ -8528,6 +9084,7 @@ class _AVAXUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8554,6 +9111,7 @@ _AVAXUSDPI8H = _AVAXUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8566,6 +9124,7 @@ class _BADA(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADA"
     precision: int = 1e-05
@@ -8574,6 +9133,7 @@ class _BADA(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8600,6 +9160,7 @@ _BADA = _BADA()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8612,6 +9173,7 @@ class _BADA_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BADA_NEXT"
     precision: int = 1e-05
@@ -8620,6 +9182,7 @@ class _BADA_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8646,6 +9209,7 @@ _BADA_NEXT = _BADA_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8658,6 +9222,7 @@ class _ADAUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADAUSDPI"
     precision: int = 1e-06
@@ -8666,6 +9231,7 @@ class _ADAUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8692,6 +9258,7 @@ _ADAUSDPI = _ADAUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8704,6 +9271,7 @@ class _ADAUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ADAUSDPI8H"
     precision: int = 1e-06
@@ -8712,6 +9280,7 @@ class _ADAUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8738,6 +9307,7 @@ _ADAUSDPI8H = _ADAUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8750,6 +9320,7 @@ class _BDOGE(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOGE"
     precision: int = 1e-06
@@ -8758,6 +9329,7 @@ class _BDOGE(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8784,6 +9356,7 @@ _BDOGE = _BDOGE()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8796,6 +9369,7 @@ class _BDOGE_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOGE_NEXT"
     precision: int = 1e-06
@@ -8804,6 +9378,7 @@ class _BDOGE_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8830,6 +9405,7 @@ _BDOGE_NEXT = _BDOGE_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8842,6 +9418,7 @@ class _DOGEUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEUSDPI"
     precision: int = 1e-06
@@ -8850,6 +9427,7 @@ class _DOGEUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8876,6 +9454,7 @@ _DOGEUSDPI = _DOGEUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8888,6 +9467,7 @@ class _DOGEUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOGEUSDPI8H"
     precision: int = 1e-06
@@ -8896,6 +9476,7 @@ class _DOGEUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8922,6 +9503,7 @@ _DOGEUSDPI8H = _DOGEUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8934,6 +9516,7 @@ class _BBNB(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBNB"
     precision: int = 0.001
@@ -8942,6 +9525,7 @@ class _BBNB(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -8968,6 +9552,7 @@ _BBNB = _BBNB()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -8980,6 +9565,7 @@ class _BBNB_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBNB_NEXT"
     precision: int = 0.001
@@ -8988,6 +9574,7 @@ class _BBNB_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9014,6 +9601,7 @@ _BBNB_NEXT = _BBNB_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9026,6 +9614,7 @@ class _BNBUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBUSDPI"
     precision: int = 1e-06
@@ -9034,6 +9623,7 @@ class _BNBUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9060,6 +9650,7 @@ _BNBUSDPI = _BNBUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9072,6 +9663,7 @@ class _BNBUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNBUSDPI8H"
     precision: int = 1e-06
@@ -9080,6 +9672,7 @@ class _BNBUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9106,6 +9699,7 @@ _BNBUSDPI8H = _BNBUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9118,6 +9712,7 @@ class _BDOT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOT"
     precision: int = 0.0001
@@ -9126,6 +9721,7 @@ class _BDOT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9152,6 +9748,7 @@ _BDOT = _BDOT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9164,6 +9761,7 @@ class _BDOT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOT_NEXT"
     precision: int = 0.0001
@@ -9172,6 +9770,7 @@ class _BDOT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9198,6 +9797,7 @@ _BDOT_NEXT = _BDOT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9210,6 +9810,7 @@ class _DOTUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTUSDPI"
     precision: int = 1e-06
@@ -9218,6 +9819,7 @@ class _DOTUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9244,6 +9846,7 @@ _DOTUSDPI = _DOTUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9256,6 +9859,7 @@ class _DOTUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DOTUSDPI8H"
     precision: int = 1e-06
@@ -9264,6 +9868,7 @@ class _DOTUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9290,6 +9895,7 @@ _DOTUSDPI8H = _DOTUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9302,6 +9908,7 @@ class _BDOGET30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDOGET30M"
     precision: int = 1e-06
@@ -9310,6 +9917,7 @@ class _BDOGET30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9336,6 +9944,7 @@ _BDOGET30M = _BDOGET30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9348,6 +9957,7 @@ class _BFILT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFILT30M"
     precision: int = 1e-06
@@ -9356,6 +9966,7 @@ class _BFILT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9382,6 +9993,7 @@ _BFILT30M = _BFILT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9394,6 +10006,7 @@ class _BUNIT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUNIT30M"
     precision: int = 0.0001
@@ -9402,6 +10015,7 @@ class _BUNIT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9428,6 +10042,7 @@ _BUNIT30M = _BUNIT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9440,6 +10055,7 @@ class _BXLMT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXLMT30M"
     precision: int = 1e-06
@@ -9448,6 +10064,7 @@ class _BXLMT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9474,6 +10091,7 @@ _BXLMT30M = _BXLMT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9486,6 +10104,7 @@ class _BAXS(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAXS"
     precision: int = 0.001
@@ -9494,6 +10113,7 @@ class _BAXS(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9520,6 +10140,7 @@ _BAXS = _BAXS()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9532,6 +10153,7 @@ class _BAXS_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAXS_NEXT"
     precision: int = 0.001
@@ -9540,6 +10162,7 @@ class _BAXS_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9566,6 +10189,7 @@ _BAXS_NEXT = _BAXS_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9578,6 +10202,7 @@ class _AXSUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSUSDPI"
     precision: int = 1e-06
@@ -9586,6 +10211,7 @@ class _AXSUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9612,6 +10238,7 @@ _AXSUSDPI = _AXSUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9624,6 +10251,7 @@ class _AXSUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AXSUSDPI8H"
     precision: int = 1e-06
@@ -9632,6 +10260,7 @@ class _AXSUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9658,6 +10287,7 @@ _AXSUSDPI8H = _AXSUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9670,6 +10300,7 @@ class _BEOS(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOS"
     precision: int = 1e-05
@@ -9678,6 +10309,7 @@ class _BEOS(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9704,6 +10336,7 @@ _BEOS = _BEOS()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9716,6 +10349,7 @@ class _BEOS_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEOS_NEXT"
     precision: int = 1e-05
@@ -9724,6 +10358,7 @@ class _BEOS_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9750,6 +10385,7 @@ _BEOS_NEXT = _BEOS_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9762,6 +10398,7 @@ class _EOSUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSUSDPI"
     precision: int = 1e-06
@@ -9770,6 +10407,7 @@ class _EOSUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9796,6 +10434,7 @@ _EOSUSDPI = _EOSUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9808,6 +10447,7 @@ class _EOSUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EOSUSDPI8H"
     precision: int = 1e-06
@@ -9816,6 +10456,7 @@ class _EOSUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9842,6 +10483,7 @@ _EOSUSDPI8H = _EOSUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9854,6 +10496,7 @@ class _BLINK(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLINK"
     precision: int = 0.0001
@@ -9862,6 +10505,7 @@ class _BLINK(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9888,6 +10532,7 @@ _BLINK = _BLINK()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9900,6 +10545,7 @@ class _BLINK_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLINK_NEXT"
     precision: int = 0.0001
@@ -9908,6 +10554,7 @@ class _BLINK_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9934,6 +10581,7 @@ _BLINK_NEXT = _BLINK_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9946,6 +10594,7 @@ class _LINKUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKUSDPI"
     precision: int = 1e-06
@@ -9954,6 +10603,7 @@ class _LINKUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -9980,6 +10630,7 @@ _LINKUSDPI = _LINKUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -9992,6 +10643,7 @@ class _LINKUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LINKUSDPI8H"
     precision: int = 1e-06
@@ -10000,6 +10652,7 @@ class _LINKUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10026,6 +10679,7 @@ _LINKUSDPI8H = _LINKUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10038,6 +10692,7 @@ class _BSOL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSOL"
     precision: int = 0.001
@@ -10046,6 +10701,7 @@ class _BSOL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10072,6 +10728,7 @@ _BSOL = _BSOL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10084,6 +10741,7 @@ class _BSOL_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSOL_NEXT"
     precision: int = 0.001
@@ -10092,6 +10750,7 @@ class _BSOL_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10118,6 +10777,7 @@ _BSOL_NEXT = _BSOL_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10130,6 +10790,7 @@ class _SOLUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLUSDPI"
     precision: int = 1e-06
@@ -10138,6 +10799,7 @@ class _SOLUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10164,6 +10826,7 @@ _SOLUSDPI = _SOLUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10176,6 +10839,7 @@ class _SOLUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SOLUSDPI8H"
     precision: int = 1e-06
@@ -10184,6 +10848,7 @@ class _SOLUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10210,6 +10875,7 @@ _SOLUSDPI8H = _SOLUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10222,6 +10888,7 @@ class _BAXST30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAXST30M"
     precision: int = 0.001
@@ -10230,6 +10897,7 @@ class _BAXST30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10256,6 +10924,7 @@ _BAXST30M = _BAXST30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10268,6 +10937,7 @@ class _BSOLT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSOLT30M"
     precision: int = 0.001
@@ -10276,6 +10946,7 @@ class _BSOLT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10302,6 +10973,7 @@ _BSOLT30M = _BSOLT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10314,6 +10986,7 @@ class _BVETT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVETT30M"
     precision: int = 1e-06
@@ -10322,6 +10995,7 @@ class _BVETT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10348,6 +11022,7 @@ _BVETT30M = _BVETT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10360,6 +11035,7 @@ class _BMATICT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMATICT30M"
     precision: int = 1e-05
@@ -10368,6 +11044,7 @@ class _BMATICT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10394,6 +11071,7 @@ _BMATICT30M = _BMATICT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10406,6 +11084,7 @@ class _BAAVET30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAAVET30M"
     precision: int = 0.001
@@ -10414,6 +11093,7 @@ class _BAAVET30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10440,6 +11120,7 @@ _BAAVET30M = _BAAVET30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10452,6 +11133,7 @@ class _BSUSHIT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSUSHIT30M"
     precision: int = 0.0001
@@ -10460,6 +11142,7 @@ class _BSUSHIT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10486,6 +11169,7 @@ _BSUSHIT30M = _BSUSHIT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10498,6 +11182,7 @@ class _BSRMT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSRMT30M"
     precision: int = 0.0001
@@ -10506,6 +11191,7 @@ class _BSRMT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10532,6 +11218,7 @@ _BSRMT30M = _BSRMT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10544,6 +11231,7 @@ class _BXRPT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRPT"
     precision: int = 1e-05
@@ -10552,6 +11240,7 @@ class _BXRPT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10578,6 +11267,7 @@ _BXRPT = _BXRPT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10590,6 +11280,7 @@ class _BXRPT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXRPT_NEXT"
     precision: int = 1e-05
@@ -10598,6 +11289,7 @@ class _BXRPT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10624,6 +11316,7 @@ _BXRPT_NEXT = _BXRPT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10636,6 +11329,7 @@ class _BBCHT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCHT"
     precision: int = 0.001
@@ -10644,6 +11338,7 @@ class _BBCHT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10670,6 +11365,7 @@ _BBCHT = _BBCHT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10682,6 +11378,7 @@ class _BBCHT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBCHT_NEXT"
     precision: int = 0.001
@@ -10690,6 +11387,7 @@ class _BBCHT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10716,6 +11414,7 @@ _BBCHT_NEXT = _BBCHT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10728,6 +11427,7 @@ class _XRPUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPUSDTPI"
     precision: int = 1e-06
@@ -10736,6 +11436,7 @@ class _XRPUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10762,6 +11463,7 @@ _XRPUSDTPI = _XRPUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10774,6 +11476,7 @@ class _XRPUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XRPUSDTPI8H"
     precision: int = 1e-06
@@ -10782,6 +11485,7 @@ class _XRPUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10808,6 +11512,7 @@ _XRPUSDTPI8H = _XRPUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10820,6 +11525,7 @@ class _BCHUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHUSDTPI"
     precision: int = 1e-06
@@ -10828,6 +11534,7 @@ class _BCHUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10854,6 +11561,7 @@ _BCHUSDTPI = _BCHUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10866,6 +11574,7 @@ class _BCHUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCHUSDTPI8H"
     precision: int = 1e-06
@@ -10874,6 +11583,7 @@ class _BCHUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10900,6 +11610,7 @@ _BCHUSDTPI8H = _BCHUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10912,6 +11623,7 @@ class _BDEFIMEX30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDEFIMEX30M"
     precision: int = 1e-06
@@ -10920,6 +11632,7 @@ class _BDEFIMEX30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10946,6 +11659,7 @@ _BDEFIMEX30M = _BDEFIMEX30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -10958,6 +11672,7 @@ class _BALTMEX30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BALTMEX30M"
     precision: int = 1e-06
@@ -10966,6 +11681,7 @@ class _BALTMEX30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -10992,6 +11708,7 @@ _BALTMEX30M = _BALTMEX30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11004,6 +11721,7 @@ class _BFTMT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTMT"
     precision: int = 1e-05
@@ -11012,6 +11730,7 @@ class _BFTMT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11038,6 +11757,7 @@ _BFTMT = _BFTMT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11050,6 +11770,7 @@ class _BFTMT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTMT_NEXT"
     precision: int = 1e-05
@@ -11058,6 +11779,7 @@ class _BFTMT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11084,6 +11806,7 @@ _BFTMT_NEXT = _BFTMT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11096,6 +11819,7 @@ class _FTMBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTMBON"
     precision: int = 1e-06
@@ -11104,6 +11828,7 @@ class _FTMBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11130,6 +11855,7 @@ _FTMBON = _FTMBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11142,6 +11868,7 @@ class _FTMBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTMBON8H"
     precision: int = 1e-06
@@ -11150,6 +11877,7 @@ class _FTMBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11176,6 +11904,7 @@ _FTMBON8H = _FTMBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11188,6 +11917,7 @@ class _FTMUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTMUSDTPI"
     precision: int = 1e-06
@@ -11196,6 +11926,7 @@ class _FTMUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11222,6 +11953,7 @@ _FTMUSDTPI = _FTMUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11234,6 +11966,7 @@ class _FTMUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTMUSDTPI8H"
     precision: int = 1e-06
@@ -11242,6 +11975,7 @@ class _FTMUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11268,6 +12002,7 @@ _FTMUSDTPI8H = _FTMUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11280,6 +12015,7 @@ class _BSHIBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSHIBT"
     precision: int = 1e-09
@@ -11288,6 +12024,7 @@ class _BSHIBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11314,6 +12051,7 @@ _BSHIBT = _BSHIBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11326,6 +12064,7 @@ class _BSHIBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSHIBT_NEXT"
     precision: int = 1e-09
@@ -11334,6 +12073,7 @@ class _BSHIBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11360,6 +12100,7 @@ _BSHIBT_NEXT = _BSHIBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11372,6 +12113,7 @@ class _SHIBBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SHIBBON"
     precision: int = 1e-06
@@ -11380,6 +12122,7 @@ class _SHIBBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11406,6 +12149,7 @@ _SHIBBON = _SHIBBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11418,6 +12162,7 @@ class _SHIBBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SHIBBON8H"
     precision: int = 1e-06
@@ -11426,6 +12171,7 @@ class _SHIBBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11452,6 +12198,7 @@ _SHIBBON8H = _SHIBBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11464,6 +12211,7 @@ class _SHIBUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SHIBUSDTPI"
     precision: int = 1e-06
@@ -11472,6 +12220,7 @@ class _SHIBUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11498,6 +12247,7 @@ _SHIBUSDTPI = _SHIBUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11510,6 +12260,7 @@ class _SHIBUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SHIBUSDTPI8H"
     precision: int = 1e-06
@@ -11518,6 +12269,7 @@ class _SHIBUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11544,6 +12296,7 @@ _SHIBUSDTPI8H = _SHIBUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11556,6 +12309,7 @@ class _BLRCT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLRCT"
     precision: int = 1e-05
@@ -11564,6 +12318,7 @@ class _BLRCT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11590,6 +12345,7 @@ _BLRCT = _BLRCT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11602,6 +12358,7 @@ class _BLRCT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLRCT_NEXT"
     precision: int = 1e-05
@@ -11610,6 +12367,7 @@ class _BLRCT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11636,6 +12394,7 @@ _BLRCT_NEXT = _BLRCT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11648,6 +12407,7 @@ class _BMANAT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMANAT"
     precision: int = 1e-05
@@ -11656,6 +12416,7 @@ class _BMANAT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11682,6 +12443,7 @@ _BMANAT = _BMANAT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11694,6 +12456,7 @@ class _BMANAT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMANAT_NEXT"
     precision: int = 1e-05
@@ -11702,6 +12465,7 @@ class _BMANAT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11728,6 +12492,7 @@ _BMANAT_NEXT = _BMANAT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11740,6 +12505,7 @@ class _MANABON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MANABON"
     precision: int = 1e-06
@@ -11748,6 +12514,7 @@ class _MANABON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11774,6 +12541,7 @@ _MANABON = _MANABON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11786,6 +12554,7 @@ class _MANABON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MANABON8H"
     precision: int = 1e-06
@@ -11794,6 +12563,7 @@ class _MANABON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11820,6 +12590,7 @@ _MANABON8H = _MANABON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11832,6 +12603,7 @@ class _MANAUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MANAUSDTPI"
     precision: int = 1e-06
@@ -11840,6 +12612,7 @@ class _MANAUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11866,6 +12639,7 @@ _MANAUSDTPI = _MANAUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11878,6 +12652,7 @@ class _MANAUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MANAUSDTPI8H"
     precision: int = 1e-06
@@ -11886,6 +12661,7 @@ class _MANAUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11912,6 +12688,7 @@ _MANAUSDTPI8H = _MANAUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11924,6 +12701,7 @@ class _BSANDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSANDT"
     precision: int = 1e-05
@@ -11932,6 +12710,7 @@ class _BSANDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -11958,6 +12737,7 @@ _BSANDT = _BSANDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -11970,6 +12750,7 @@ class _BSANDT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSANDT_NEXT"
     precision: int = 1e-05
@@ -11978,6 +12759,7 @@ class _BSANDT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12004,6 +12786,7 @@ _BSANDT_NEXT = _BSANDT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12016,6 +12799,7 @@ class _SANDBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SANDBON"
     precision: int = 1e-06
@@ -12024,6 +12808,7 @@ class _SANDBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12050,6 +12835,7 @@ _SANDBON = _SANDBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12062,6 +12848,7 @@ class _SANDBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SANDBON8H"
     precision: int = 1e-06
@@ -12070,6 +12857,7 @@ class _SANDBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12096,6 +12884,7 @@ _SANDBON8H = _SANDBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12108,6 +12897,7 @@ class _SANDUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SANDUSDTPI"
     precision: int = 1e-06
@@ -12116,6 +12906,7 @@ class _SANDUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12142,6 +12933,7 @@ _SANDUSDTPI = _SANDUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12154,6 +12946,7 @@ class _SANDUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SANDUSDTPI8H"
     precision: int = 1e-06
@@ -12162,6 +12955,7 @@ class _SANDUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12188,6 +12982,7 @@ _SANDUSDTPI8H = _SANDUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12200,6 +12995,7 @@ class _BTHETAT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTHETAT"
     precision: int = 0.0001
@@ -12208,6 +13004,7 @@ class _BTHETAT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12234,6 +13031,7 @@ _BTHETAT = _BTHETAT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12246,6 +13044,7 @@ class _BTHETAT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTHETAT_NEXT"
     precision: int = 0.0001
@@ -12254,6 +13053,7 @@ class _BTHETAT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12280,6 +13080,7 @@ _BTHETAT_NEXT = _BTHETAT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12292,6 +13093,7 @@ class _BENJT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BENJT"
     precision: int = 1e-05
@@ -12300,6 +13102,7 @@ class _BENJT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12326,6 +13129,7 @@ _BENJT = _BENJT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12338,6 +13142,7 @@ class _BENJT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BENJT_NEXT"
     precision: int = 1e-05
@@ -12346,6 +13151,7 @@ class _BENJT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12372,6 +13178,7 @@ _BENJT_NEXT = _BENJT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12384,6 +13191,7 @@ class _BDEFIMEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDEFIMEXT"
     precision: int = 1e-06
@@ -12392,6 +13200,7 @@ class _BDEFIMEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12418,6 +13227,7 @@ _BDEFIMEXT = _BDEFIMEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12430,6 +13240,7 @@ class _DEFIMEXTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXTBON"
     precision: int = 1e-06
@@ -12438,6 +13249,7 @@ class _DEFIMEXTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12464,6 +13276,7 @@ _DEFIMEXTBON = _DEFIMEXTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12476,6 +13289,7 @@ class _DEFIMEXTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXTBON8H"
     precision: int = 1e-06
@@ -12484,6 +13298,7 @@ class _DEFIMEXTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12510,6 +13325,7 @@ _DEFIMEXTBON8H = _DEFIMEXTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12522,6 +13338,7 @@ class _DEFIMEXTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXTUSDTPI"
     precision: int = 1e-06
@@ -12530,6 +13347,7 @@ class _DEFIMEXTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12556,6 +13374,7 @@ _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12568,6 +13387,7 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".DEFIMEXTUSDTPI8H"
     precision: int = 1e-06
@@ -12576,6 +13396,7 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12602,6 +13423,7 @@ _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12614,6 +13436,7 @@ class _BALTMEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BALTMEXT"
     precision: int = 1e-06
@@ -12622,6 +13445,7 @@ class _BALTMEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12648,6 +13472,7 @@ _BALTMEXT = _BALTMEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12660,6 +13485,7 @@ class _ALTMEXTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXTBON"
     precision: int = 1e-06
@@ -12668,6 +13494,7 @@ class _ALTMEXTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12694,6 +13521,7 @@ _ALTMEXTBON = _ALTMEXTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12706,6 +13534,7 @@ class _ALTMEXTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXTBON8H"
     precision: int = 1e-06
@@ -12714,6 +13543,7 @@ class _ALTMEXTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12740,6 +13570,7 @@ _ALTMEXTBON8H = _ALTMEXTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12752,6 +13583,7 @@ class _ALTMEXTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXTUSDTPI"
     precision: int = 1e-06
@@ -12760,6 +13592,7 @@ class _ALTMEXTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12786,6 +13619,7 @@ _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12798,6 +13632,7 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ALTMEXTUSDTPI8H"
     precision: int = 1e-06
@@ -12806,6 +13641,7 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12832,6 +13668,7 @@ _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12844,6 +13681,7 @@ class _BMETAMEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMETAMEXT"
     precision: int = 1e-06
@@ -12852,6 +13690,7 @@ class _BMETAMEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12878,6 +13717,7 @@ _BMETAMEXT = _BMETAMEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12890,6 +13730,7 @@ class _METAMEXTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".METAMEXTBON"
     precision: int = 1e-06
@@ -12898,6 +13739,7 @@ class _METAMEXTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12924,6 +13766,7 @@ _METAMEXTBON = _METAMEXTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12936,6 +13779,7 @@ class _METAMEXTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".METAMEXTBON8H"
     precision: int = 1e-06
@@ -12944,6 +13788,7 @@ class _METAMEXTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -12970,6 +13815,7 @@ _METAMEXTBON8H = _METAMEXTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -12982,6 +13828,7 @@ class _METAMEXTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".METAMEXTUSDTPI"
     precision: int = 1e-06
@@ -12990,6 +13837,7 @@ class _METAMEXTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13016,6 +13864,7 @@ _METAMEXTUSDTPI = _METAMEXTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13028,6 +13877,7 @@ class _METAMEXTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".METAMEXTUSDTPI8H"
     precision: int = 1e-06
@@ -13036,6 +13886,7 @@ class _METAMEXTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13062,6 +13913,7 @@ _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13074,6 +13926,7 @@ class _AVAXUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXUSDTPI"
     precision: int = 1e-06
@@ -13082,6 +13935,7 @@ class _AVAXUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13108,6 +13962,7 @@ _AVAXUSDTPI = _AVAXUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13120,6 +13975,7 @@ class _AVAXUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".AVAXUSDTPI8H"
     precision: int = 1e-06
@@ -13128,6 +13984,7 @@ class _AVAXUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13154,6 +14011,7 @@ _AVAXUSDTPI8H = _AVAXUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13166,6 +14024,7 @@ class _LUNAUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNAUSDTPI"
     precision: int = 1e-06
@@ -13174,6 +14033,7 @@ class _LUNAUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13200,6 +14060,7 @@ _LUNAUSDTPI = _LUNAUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13212,6 +14073,7 @@ class _LUNAUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LUNAUSDTPI8H"
     precision: int = 1e-06
@@ -13220,6 +14082,7 @@ class _LUNAUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13246,6 +14109,7 @@ _LUNAUSDTPI8H = _LUNAUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13258,6 +14122,7 @@ class _BAPET(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPET"
     precision: int = 0.0001
@@ -13266,6 +14131,7 @@ class _BAPET(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13292,6 +14158,7 @@ _BAPET = _BAPET()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13304,6 +14171,7 @@ class _BAPET_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPET_NEXT"
     precision: int = 0.0001
@@ -13312,6 +14180,7 @@ class _BAPET_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13338,6 +14207,7 @@ _BAPET_NEXT = _BAPET_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13350,6 +14220,7 @@ class _APEBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEBON"
     precision: int = 1e-06
@@ -13358,6 +14229,7 @@ class _APEBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13384,6 +14256,7 @@ _APEBON = _APEBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13396,6 +14269,7 @@ class _APEBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEBON8H"
     precision: int = 1e-06
@@ -13404,6 +14278,7 @@ class _APEBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13430,6 +14305,7 @@ _APEBON8H = _APEBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13442,6 +14318,7 @@ class _APEUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEUSDTPI"
     precision: int = 1e-06
@@ -13450,6 +14327,7 @@ class _APEUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13476,6 +14354,7 @@ _APEUSDTPI = _APEUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13488,6 +14367,7 @@ class _APEUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEUSDTPI8H"
     precision: int = 1e-06
@@ -13496,6 +14376,7 @@ class _APEUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13522,6 +14403,7 @@ _APEUSDTPI8H = _APEUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13534,6 +14416,7 @@ class _GMTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTBON"
     precision: int = 1e-06
@@ -13542,6 +14425,7 @@ class _GMTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13568,6 +14452,7 @@ _GMTBON = _GMTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13580,6 +14465,7 @@ class _GMTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTBON8H"
     precision: int = 1e-06
@@ -13588,6 +14474,7 @@ class _GMTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13614,6 +14501,7 @@ _GMTBON8H = _GMTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13626,6 +14514,7 @@ class _GMTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTUSDTPI"
     precision: int = 1e-06
@@ -13634,6 +14523,7 @@ class _GMTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13660,6 +14550,7 @@ _GMTUSDTPI = _GMTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13672,6 +14563,7 @@ class _GMTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTUSDTPI8H"
     precision: int = 1e-06
@@ -13680,6 +14572,7 @@ class _GMTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13706,6 +14599,7 @@ _GMTUSDTPI8H = _GMTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13718,6 +14612,7 @@ class _GMTUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTUSDPI"
     precision: int = 1e-06
@@ -13726,6 +14621,7 @@ class _GMTUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13752,6 +14648,7 @@ _GMTUSDPI = _GMTUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13764,6 +14661,7 @@ class _GMTUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GMTUSDPI8H"
     precision: int = 1e-06
@@ -13772,6 +14670,7 @@ class _GMTUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13798,6 +14697,7 @@ _GMTUSDPI8H = _GMTUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13810,6 +14710,7 @@ class _BGMT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGMT"
     precision: int = 0.0001
@@ -13818,6 +14719,7 @@ class _BGMT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13844,6 +14746,7 @@ _BGMT = _BGMT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13856,6 +14759,7 @@ class _BGMT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGMT_NEXT"
     precision: int = 0.0001
@@ -13864,6 +14768,7 @@ class _BGMT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13890,6 +14795,7 @@ _BGMT_NEXT = _BGMT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13902,6 +14808,7 @@ class _BGMTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGMTT"
     precision: int = 0.0001
@@ -13910,6 +14817,7 @@ class _BGMTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13936,6 +14844,7 @@ _BGMTT = _BGMTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13948,6 +14857,7 @@ class _BGMTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGMTT_NEXT"
     precision: int = 0.0001
@@ -13956,6 +14866,7 @@ class _BGMTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -13982,6 +14893,7 @@ _BGMTT_NEXT = _BGMTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -13994,6 +14906,7 @@ class _NEARBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARBON"
     precision: int = 1e-06
@@ -14002,6 +14915,7 @@ class _NEARBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14028,6 +14942,7 @@ _NEARBON = _NEARBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14040,6 +14955,7 @@ class _NEARBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARBON8H"
     precision: int = 1e-06
@@ -14048,6 +14964,7 @@ class _NEARBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14074,6 +14991,7 @@ _NEARBON8H = _NEARBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14086,6 +15004,7 @@ class _NEARUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARUSDTPI"
     precision: int = 1e-06
@@ -14094,6 +15013,7 @@ class _NEARUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14120,6 +15040,7 @@ _NEARUSDTPI = _NEARUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14132,6 +15053,7 @@ class _NEARUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARUSDTPI8H"
     precision: int = 1e-06
@@ -14140,6 +15062,7 @@ class _NEARUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14166,6 +15089,7 @@ _NEARUSDTPI8H = _NEARUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14178,6 +15102,7 @@ class _NEARUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARUSDPI"
     precision: int = 1e-06
@@ -14186,6 +15111,7 @@ class _NEARUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14212,6 +15138,7 @@ _NEARUSDPI = _NEARUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14224,6 +15151,7 @@ class _NEARUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NEARUSDPI8H"
     precision: int = 1e-06
@@ -14232,6 +15160,7 @@ class _NEARUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14258,6 +15187,7 @@ _NEARUSDPI8H = _NEARUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14270,6 +15200,7 @@ class _BNEAR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNEAR"
     precision: int = 0.001
@@ -14278,6 +15209,7 @@ class _BNEAR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14304,6 +15236,7 @@ _BNEAR = _BNEAR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14316,6 +15249,7 @@ class _BNEAR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNEAR_NEXT"
     precision: int = 0.001
@@ -14324,6 +15258,7 @@ class _BNEAR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14350,6 +15285,7 @@ _BNEAR_NEXT = _BNEAR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14362,6 +15298,7 @@ class _BNEART(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNEART"
     precision: int = 0.001
@@ -14370,6 +15307,7 @@ class _BNEART(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14396,6 +15334,7 @@ _BNEART = _BNEART()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14408,6 +15347,7 @@ class _BNEART_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNEART_NEXT"
     precision: int = 0.001
@@ -14416,6 +15356,7 @@ class _BNEART_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14442,6 +15383,7 @@ _BNEART_NEXT = _BNEART_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14454,6 +15396,7 @@ class _BLUNA30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNA30M"
     precision: int = 0.0001
@@ -14462,6 +15405,7 @@ class _BLUNA30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14488,6 +15432,7 @@ _BLUNA30M = _BLUNA30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14500,6 +15445,7 @@ class _BLUNAT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNAT30M"
     precision: int = 0.0001
@@ -14508,6 +15454,7 @@ class _BLUNAT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14534,6 +15481,7 @@ _BLUNAT30M = _BLUNAT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14546,6 +15494,7 @@ class _BAPE(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPE"
     precision: int = 0.0001
@@ -14554,6 +15503,7 @@ class _BAPE(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14580,6 +15530,7 @@ _BAPE = _BAPE()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14592,6 +15543,7 @@ class _BAPE_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPE_NEXT"
     precision: int = 0.0001
@@ -14600,6 +15552,7 @@ class _BAPE_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14626,6 +15579,7 @@ _BAPE_NEXT = _BAPE_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14638,6 +15592,7 @@ class _BTRX(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRX"
     precision: int = 1e-06
@@ -14646,6 +15601,7 @@ class _BTRX(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14672,6 +15628,7 @@ _BTRX = _BTRX()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14684,6 +15641,7 @@ class _BTRX_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRX_NEXT"
     precision: int = 1e-06
@@ -14692,6 +15650,7 @@ class _BTRX_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14718,6 +15677,7 @@ _BTRX_NEXT = _BTRX_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14730,6 +15690,7 @@ class _BGAL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGAL"
     precision: int = 1e-05
@@ -14738,6 +15699,7 @@ class _BGAL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14764,6 +15726,7 @@ _BGAL = _BGAL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14776,6 +15739,7 @@ class _BGAL_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGAL_NEXT"
     precision: int = 1e-05
@@ -14784,6 +15748,7 @@ class _BGAL_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14810,6 +15775,7 @@ _BGAL_NEXT = _BGAL_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14822,6 +15788,7 @@ class _BGALT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGALT"
     precision: int = 1e-05
@@ -14830,6 +15797,7 @@ class _BGALT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14856,6 +15824,7 @@ _BGALT = _BGALT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14868,6 +15837,7 @@ class _BGALT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGALT_NEXT"
     precision: int = 1e-05
@@ -14876,6 +15846,7 @@ class _BGALT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14902,6 +15873,7 @@ _BGALT_NEXT = _BGALT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14914,6 +15886,7 @@ class _GALBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALBON"
     precision: int = 1e-06
@@ -14922,6 +15895,7 @@ class _GALBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14948,6 +15922,7 @@ _GALBON = _GALBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -14960,6 +15935,7 @@ class _GALBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALBON8H"
     precision: int = 1e-06
@@ -14968,6 +15944,7 @@ class _GALBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -14994,6 +15971,7 @@ _GALBON8H = _GALBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15006,6 +15984,7 @@ class _APEUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEUSDPI"
     precision: int = 1e-06
@@ -15014,6 +15993,7 @@ class _APEUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15040,6 +16020,7 @@ _APEUSDPI = _APEUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15052,6 +16033,7 @@ class _APEUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APEUSDPI8H"
     precision: int = 1e-06
@@ -15060,6 +16042,7 @@ class _APEUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15086,6 +16069,7 @@ _APEUSDPI8H = _APEUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15098,6 +16082,7 @@ class _TRXUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXUSDPI"
     precision: int = 1e-06
@@ -15106,6 +16091,7 @@ class _TRXUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15132,6 +16118,7 @@ _TRXUSDPI = _TRXUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15144,6 +16131,7 @@ class _TRXUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRXUSDPI8H"
     precision: int = 1e-06
@@ -15152,6 +16140,7 @@ class _TRXUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15178,6 +16167,7 @@ _TRXUSDPI8H = _TRXUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15190,6 +16180,7 @@ class _GALUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALUSDTPI"
     precision: int = 1e-06
@@ -15198,6 +16189,7 @@ class _GALUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15224,6 +16216,7 @@ _GALUSDTPI = _GALUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15236,6 +16229,7 @@ class _GALUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALUSDTPI8H"
     precision: int = 1e-06
@@ -15244,6 +16238,7 @@ class _GALUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15270,6 +16265,7 @@ _GALUSDTPI8H = _GALUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15282,6 +16278,7 @@ class _GALUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALUSDPI"
     precision: int = 1e-06
@@ -15290,6 +16287,7 @@ class _GALUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15316,6 +16314,7 @@ _GALUSDPI = _GALUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15328,6 +16327,7 @@ class _GALUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".GALUSDPI8H"
     precision: int = 1e-06
@@ -15336,6 +16336,7 @@ class _GALUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15362,6 +16363,7 @@ _GALUSDPI8H = _GALUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15374,6 +16376,7 @@ class _BLUNC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNC"
     precision: int = 1e-09
@@ -15382,6 +16385,7 @@ class _BLUNC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15408,6 +16412,7 @@ _BLUNC = _BLUNC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15420,6 +16425,7 @@ class _BLUNC_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNC_NEXT"
     precision: int = 1e-09
@@ -15428,6 +16434,7 @@ class _BLUNC_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15454,6 +16461,7 @@ _BLUNC_NEXT = _BLUNC_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15466,6 +16474,7 @@ class _BLUNCT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNCT"
     precision: int = 1e-09
@@ -15474,6 +16483,7 @@ class _BLUNCT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15500,6 +16510,7 @@ _BLUNCT = _BLUNCT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15512,6 +16523,7 @@ class _BLUNCT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLUNCT_NEXT"
     precision: int = 1e-09
@@ -15520,6 +16532,7 @@ class _BLUNCT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15546,6 +16559,7 @@ _BLUNCT_NEXT = _BLUNCT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15558,6 +16572,7 @@ class _BDFI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDFI"
     precision: int = 0.0001
@@ -15566,6 +16581,7 @@ class _BDFI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15592,6 +16608,7 @@ _BDFI = _BDFI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15604,6 +16621,7 @@ class _BDFIT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDFIT"
     precision: int = 0.0001
@@ -15612,6 +16630,7 @@ class _BDFIT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15638,6 +16657,7 @@ _BDFIT = _BDFIT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15650,6 +16670,7 @@ class _BGRT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGRT"
     precision: int = 0.0001
@@ -15658,6 +16679,7 @@ class _BGRT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15684,6 +16706,7 @@ _BGRT = _BGRT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15696,6 +16719,7 @@ class _EURUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURUSDPI"
     precision: int = 1e-06
@@ -15704,6 +16728,7 @@ class _EURUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15730,6 +16755,7 @@ _EURUSDPI = _EURUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15742,6 +16768,7 @@ class _USDCHFPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDCHFPI"
     precision: int = 1e-06
@@ -15750,6 +16777,7 @@ class _USDCHFPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15776,6 +16804,7 @@ _USDCHFPI = _USDCHFPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15788,6 +16817,7 @@ class _EURCHFPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURCHFPI"
     precision: int = 1e-06
@@ -15796,6 +16826,7 @@ class _EURCHFPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15822,6 +16853,7 @@ _EURCHFPI = _EURCHFPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15834,6 +16866,7 @@ class _EURTRYPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURTRYPI"
     precision: int = 1e-06
@@ -15842,6 +16875,7 @@ class _EURTRYPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15868,6 +16902,7 @@ _EURTRYPI = _EURTRYPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15880,6 +16915,7 @@ class _USDTRYPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTRYPI"
     precision: int = 1e-06
@@ -15888,6 +16924,7 @@ class _USDTRYPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15914,6 +16951,7 @@ _USDTRYPI = _USDTRYPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15926,6 +16964,7 @@ class _USDINRPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDINRPI"
     precision: int = 1e-06
@@ -15934,6 +16973,7 @@ class _USDINRPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -15960,6 +17000,7 @@ _USDINRPI = _USDINRPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -15972,6 +17013,7 @@ class _USDZARPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDZARPI"
     precision: int = 1e-06
@@ -15980,6 +17022,7 @@ class _USDZARPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16006,6 +17049,7 @@ _USDZARPI = _USDZARPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16018,6 +17062,7 @@ class _USDBRLPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDBRLPI"
     precision: int = 1e-06
@@ -16026,6 +17071,7 @@ class _USDBRLPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16052,6 +17098,7 @@ _USDBRLPI = _USDBRLPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16064,6 +17111,7 @@ class _USDMXNPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDMXNPI"
     precision: int = 1e-06
@@ -16072,6 +17120,7 @@ class _USDMXNPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16098,6 +17147,7 @@ _USDMXNPI = _USDMXNPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16110,6 +17160,7 @@ class _NZDUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDUSDPI"
     precision: int = 1e-06
@@ -16118,6 +17169,7 @@ class _NZDUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16144,6 +17196,7 @@ _NZDUSDPI = _NZDUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16156,6 +17209,7 @@ class _USDCNHPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDCNHPI"
     precision: int = 1e-06
@@ -16164,6 +17218,7 @@ class _USDCNHPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16190,6 +17245,7 @@ _USDCNHPI = _USDCNHPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16202,6 +17258,7 @@ class _USDSEKPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDSEKPI"
     precision: int = 1e-06
@@ -16210,6 +17267,7 @@ class _USDSEKPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16236,6 +17294,7 @@ _USDSEKPI = _USDSEKPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16248,6 +17307,7 @@ class _EURUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURUSDPI8H"
     precision: int = 1e-06
@@ -16256,6 +17316,7 @@ class _EURUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16282,6 +17343,7 @@ _EURUSDPI8H = _EURUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16294,6 +17356,7 @@ class _USDCHFPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDCHFPI8H"
     precision: int = 1e-06
@@ -16302,6 +17365,7 @@ class _USDCHFPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16328,6 +17392,7 @@ _USDCHFPI8H = _USDCHFPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16340,6 +17405,7 @@ class _EURCHFPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURCHFPI8H"
     precision: int = 1e-06
@@ -16348,6 +17414,7 @@ class _EURCHFPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16374,6 +17441,7 @@ _EURCHFPI8H = _EURCHFPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16386,6 +17454,7 @@ class _EURTRYPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURTRYPI8H"
     precision: int = 1e-06
@@ -16394,6 +17463,7 @@ class _EURTRYPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16420,6 +17490,7 @@ _EURTRYPI8H = _EURTRYPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16432,6 +17503,7 @@ class _USDTRYPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTRYPI8H"
     precision: int = 1e-06
@@ -16440,6 +17512,7 @@ class _USDTRYPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16466,6 +17539,7 @@ _USDTRYPI8H = _USDTRYPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16478,6 +17552,7 @@ class _USDINRPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDINRPI8H"
     precision: int = 1e-06
@@ -16486,6 +17561,7 @@ class _USDINRPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16512,6 +17588,7 @@ _USDINRPI8H = _USDINRPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16524,6 +17601,7 @@ class _USDZARPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDZARPI8H"
     precision: int = 1e-06
@@ -16532,6 +17610,7 @@ class _USDZARPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16558,6 +17637,7 @@ _USDZARPI8H = _USDZARPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16570,6 +17650,7 @@ class _USDBRLPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDBRLPI8H"
     precision: int = 1e-06
@@ -16578,6 +17659,7 @@ class _USDBRLPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16604,6 +17686,7 @@ _USDBRLPI8H = _USDBRLPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16616,6 +17699,7 @@ class _USDMXNPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDMXNPI8H"
     precision: int = 1e-06
@@ -16624,6 +17708,7 @@ class _USDMXNPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16650,6 +17735,7 @@ _USDMXNPI8H = _USDMXNPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16662,6 +17748,7 @@ class _NZDUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDUSDPI8H"
     precision: int = 1e-06
@@ -16670,6 +17757,7 @@ class _NZDUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16696,6 +17784,7 @@ _NZDUSDPI8H = _NZDUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16708,6 +17797,7 @@ class _USDCNHPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDCNHPI8H"
     precision: int = 1e-06
@@ -16716,6 +17806,7 @@ class _USDCNHPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16742,6 +17833,7 @@ _USDCNHPI8H = _USDCNHPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16754,6 +17846,7 @@ class _USDSEKPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDSEKPI8H"
     precision: int = 1e-06
@@ -16762,6 +17855,7 @@ class _USDSEKPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16788,6 +17882,7 @@ _USDSEKPI8H = _USDSEKPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16800,6 +17895,7 @@ class _EURUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURUSDTPI"
     precision: int = 1e-06
@@ -16808,6 +17904,7 @@ class _EURUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16834,6 +17931,7 @@ _EURUSDTPI = _EURUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16846,6 +17944,7 @@ class _USDTCHFPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTCHFPI"
     precision: int = 1e-06
@@ -16854,6 +17953,7 @@ class _USDTCHFPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16880,6 +17980,7 @@ _USDTCHFPI = _USDTCHFPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16892,6 +17993,7 @@ class _USDTTRYPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTTRYPI"
     precision: int = 1e-06
@@ -16900,6 +18002,7 @@ class _USDTTRYPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16926,6 +18029,7 @@ _USDTTRYPI = _USDTTRYPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16938,6 +18042,7 @@ class _USDTINRPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTINRPI"
     precision: int = 1e-06
@@ -16946,6 +18051,7 @@ class _USDTINRPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -16972,6 +18078,7 @@ _USDTINRPI = _USDTINRPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -16984,6 +18091,7 @@ class _USDTZARPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTZARPI"
     precision: int = 1e-06
@@ -16992,6 +18100,7 @@ class _USDTZARPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17018,6 +18127,7 @@ _USDTZARPI = _USDTZARPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17030,6 +18140,7 @@ class _USDTBRLPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTBRLPI"
     precision: int = 1e-06
@@ -17038,6 +18149,7 @@ class _USDTBRLPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17064,6 +18176,7 @@ _USDTBRLPI = _USDTBRLPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17076,6 +18189,7 @@ class _USDTMXNPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTMXNPI"
     precision: int = 1e-06
@@ -17084,6 +18198,7 @@ class _USDTMXNPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17110,6 +18225,7 @@ _USDTMXNPI = _USDTMXNPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17122,6 +18238,7 @@ class _NZDUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDUSDTPI"
     precision: int = 1e-06
@@ -17130,6 +18247,7 @@ class _NZDUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17156,6 +18274,7 @@ _NZDUSDTPI = _NZDUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17168,6 +18287,7 @@ class _USDTCNHPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTCNHPI"
     precision: int = 1e-06
@@ -17176,6 +18296,7 @@ class _USDTCNHPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17202,6 +18323,7 @@ _USDTCNHPI = _USDTCNHPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17214,6 +18336,7 @@ class _USDTSEKPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTSEKPI"
     precision: int = 1e-06
@@ -17222,6 +18345,7 @@ class _USDTSEKPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17248,6 +18372,7 @@ _USDTSEKPI = _USDTSEKPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17260,6 +18385,7 @@ class _EURUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".EURUSDTPI8H"
     precision: int = 1e-06
@@ -17268,6 +18394,7 @@ class _EURUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17294,6 +18421,7 @@ _EURUSDTPI8H = _EURUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17306,6 +18434,7 @@ class _USDTCHFPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTCHFPI8H"
     precision: int = 1e-06
@@ -17314,6 +18443,7 @@ class _USDTCHFPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17340,6 +18470,7 @@ _USDTCHFPI8H = _USDTCHFPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17352,6 +18483,7 @@ class _USDTTRYPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTTRYPI8H"
     precision: int = 1e-06
@@ -17360,6 +18492,7 @@ class _USDTTRYPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17386,6 +18519,7 @@ _USDTTRYPI8H = _USDTTRYPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17398,6 +18532,7 @@ class _USDTINRPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTINRPI8H"
     precision: int = 1e-06
@@ -17406,6 +18541,7 @@ class _USDTINRPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17432,6 +18568,7 @@ _USDTINRPI8H = _USDTINRPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17444,6 +18581,7 @@ class _USDTZARPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTZARPI8H"
     precision: int = 1e-06
@@ -17452,6 +18590,7 @@ class _USDTZARPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17478,6 +18617,7 @@ _USDTZARPI8H = _USDTZARPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17490,6 +18630,7 @@ class _USDTBRLPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTBRLPI8H"
     precision: int = 1e-06
@@ -17498,6 +18639,7 @@ class _USDTBRLPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17524,6 +18666,7 @@ _USDTBRLPI8H = _USDTBRLPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17536,6 +18679,7 @@ class _USDTMXNPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTMXNPI8H"
     precision: int = 1e-06
@@ -17544,6 +18688,7 @@ class _USDTMXNPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17570,6 +18715,7 @@ _USDTMXNPI8H = _USDTMXNPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17582,6 +18728,7 @@ class _NZDUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDUSDTPI8H"
     precision: int = 1e-06
@@ -17590,6 +18737,7 @@ class _NZDUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17616,6 +18764,7 @@ _NZDUSDTPI8H = _NZDUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17628,6 +18777,7 @@ class _USDTCNHPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTCNHPI8H"
     precision: int = 1e-06
@@ -17636,6 +18786,7 @@ class _USDTCNHPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17662,6 +18813,7 @@ _USDTCNHPI8H = _USDTCNHPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17674,6 +18826,7 @@ class _USDTSEKPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDTSEKPI8H"
     precision: int = 1e-06
@@ -17682,6 +18835,7 @@ class _USDTSEKPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17708,6 +18862,7 @@ _USDTSEKPI8H = _USDTSEKPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17720,6 +18875,7 @@ class _CHFBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CHFBON"
     precision: int = 1e-06
@@ -17728,6 +18884,7 @@ class _CHFBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17754,6 +18911,7 @@ _CHFBON = _CHFBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17766,6 +18924,7 @@ class _TRYBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRYBON"
     precision: int = 1e-06
@@ -17774,6 +18933,7 @@ class _TRYBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17800,6 +18960,7 @@ _TRYBON = _TRYBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17812,6 +18973,7 @@ class _INRBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".INRBON"
     precision: int = 1e-06
@@ -17820,6 +18982,7 @@ class _INRBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17846,6 +19009,7 @@ _INRBON = _INRBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17858,6 +19022,7 @@ class _ZARBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ZARBON"
     precision: int = 1e-06
@@ -17866,6 +19031,7 @@ class _ZARBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17892,6 +19058,7 @@ _ZARBON = _ZARBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17904,6 +19071,7 @@ class _BRLBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BRLBON"
     precision: int = 1e-06
@@ -17912,6 +19080,7 @@ class _BRLBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17938,6 +19107,7 @@ _BRLBON = _BRLBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17950,6 +19120,7 @@ class _MXNBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MXNBON"
     precision: int = 1e-06
@@ -17958,6 +19129,7 @@ class _MXNBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -17984,6 +19156,7 @@ _MXNBON = _MXNBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -17996,6 +19169,7 @@ class _NZDBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDBON"
     precision: int = 1e-06
@@ -18004,6 +19178,7 @@ class _NZDBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18030,6 +19205,7 @@ _NZDBON = _NZDBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18042,6 +19218,7 @@ class _CNHBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CNHBON"
     precision: int = 1e-06
@@ -18050,6 +19227,7 @@ class _CNHBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18076,6 +19254,7 @@ _CNHBON = _CNHBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18088,6 +19267,7 @@ class _SEKBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SEKBON"
     precision: int = 1e-06
@@ -18096,6 +19276,7 @@ class _SEKBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18122,6 +19303,7 @@ _SEKBON = _SEKBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18134,6 +19316,7 @@ class _CHFBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CHFBON8H"
     precision: int = 1e-06
@@ -18142,6 +19325,7 @@ class _CHFBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18168,6 +19352,7 @@ _CHFBON8H = _CHFBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18180,6 +19365,7 @@ class _TRYBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".TRYBON8H"
     precision: int = 1e-06
@@ -18188,6 +19374,7 @@ class _TRYBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18214,6 +19401,7 @@ _TRYBON8H = _TRYBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18226,6 +19414,7 @@ class _INRBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".INRBON8H"
     precision: int = 1e-06
@@ -18234,6 +19423,7 @@ class _INRBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18260,6 +19450,7 @@ _INRBON8H = _INRBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18272,6 +19463,7 @@ class _ZARBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ZARBON8H"
     precision: int = 1e-06
@@ -18280,6 +19472,7 @@ class _ZARBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18306,6 +19499,7 @@ _ZARBON8H = _ZARBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18318,6 +19512,7 @@ class _BRLBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BRLBON8H"
     precision: int = 1e-06
@@ -18326,6 +19521,7 @@ class _BRLBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18352,6 +19548,7 @@ _BRLBON8H = _BRLBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18364,6 +19561,7 @@ class _MXNBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".MXNBON8H"
     precision: int = 1e-06
@@ -18372,6 +19570,7 @@ class _MXNBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18398,6 +19597,7 @@ _MXNBON8H = _MXNBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18410,6 +19610,7 @@ class _NZDBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".NZDBON8H"
     precision: int = 1e-06
@@ -18418,6 +19619,7 @@ class _NZDBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18444,6 +19646,7 @@ _NZDBON8H = _NZDBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18456,6 +19659,7 @@ class _CNHBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CNHBON8H"
     precision: int = 1e-06
@@ -18464,6 +19668,7 @@ class _CNHBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18490,6 +19695,7 @@ _CNHBON8H = _CNHBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18502,6 +19708,7 @@ class _SEKBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".SEKBON8H"
     precision: int = 1e-06
@@ -18510,6 +19717,7 @@ class _SEKBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18536,6 +19744,7 @@ _SEKBON8H = _SEKBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18548,6 +19757,7 @@ class _BEURUSD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSD"
     precision: int = 1e-05
@@ -18556,6 +19766,7 @@ class _BEURUSD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18582,6 +19793,7 @@ _BEURUSD = _BEURUSD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18594,6 +19806,7 @@ class _BUSDCHF(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCHF"
     precision: int = 1e-05
@@ -18602,6 +19815,7 @@ class _BUSDCHF(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18628,6 +19842,7 @@ _BUSDCHF = _BUSDCHF()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18640,6 +19855,7 @@ class _BEURCHF(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURCHF"
     precision: int = 1e-05
@@ -18648,6 +19864,7 @@ class _BEURCHF(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18674,6 +19891,7 @@ _BEURCHF = _BEURCHF()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18686,6 +19904,7 @@ class _BEURTRY(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURTRY"
     precision: int = 0.0001
@@ -18694,6 +19913,7 @@ class _BEURTRY(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18720,6 +19940,7 @@ _BEURTRY = _BEURTRY()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18732,6 +19953,7 @@ class _BUSDTRY(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTRY"
     precision: int = 0.0001
@@ -18740,6 +19962,7 @@ class _BUSDTRY(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18766,6 +19989,7 @@ _BUSDTRY = _BUSDTRY()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18778,6 +20002,7 @@ class _BUSDINR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDINR"
     precision: int = 0.0001
@@ -18786,6 +20011,7 @@ class _BUSDINR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18812,6 +20038,7 @@ _BUSDINR = _BUSDINR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18824,6 +20051,7 @@ class _BUSDZAR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDZAR"
     precision: int = 0.0001
@@ -18832,6 +20060,7 @@ class _BUSDZAR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18858,6 +20087,7 @@ _BUSDZAR = _BUSDZAR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18870,6 +20100,7 @@ class _BUSDBRL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDBRL"
     precision: int = 0.0001
@@ -18878,6 +20109,7 @@ class _BUSDBRL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18904,6 +20136,7 @@ _BUSDBRL = _BUSDBRL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18916,6 +20149,7 @@ class _BUSDMXN(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDMXN"
     precision: int = 0.0001
@@ -18924,6 +20158,7 @@ class _BUSDMXN(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18950,6 +20185,7 @@ _BUSDMXN = _BUSDMXN()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -18962,6 +20198,7 @@ class _BNZDUSD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSD"
     precision: int = 1e-05
@@ -18970,6 +20207,7 @@ class _BNZDUSD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -18996,6 +20234,7 @@ _BNZDUSD = _BNZDUSD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19008,6 +20247,7 @@ class _BUSDCNH(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCNH"
     precision: int = 0.0001
@@ -19016,6 +20256,7 @@ class _BUSDCNH(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19042,6 +20283,7 @@ _BUSDCNH = _BUSDCNH()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19054,6 +20296,7 @@ class _BUSDSEK(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDSEK"
     precision: int = 0.0001
@@ -19062,6 +20305,7 @@ class _BUSDSEK(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19088,6 +20332,7 @@ _BUSDSEK = _BUSDSEK()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19100,6 +20345,7 @@ class _BEURUSD_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSD_NEXT"
     precision: int = 1e-05
@@ -19108,6 +20354,7 @@ class _BEURUSD_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19134,6 +20381,7 @@ _BEURUSD_NEXT = _BEURUSD_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19146,6 +20394,7 @@ class _BUSDCHF_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCHF_NEXT"
     precision: int = 1e-05
@@ -19154,6 +20403,7 @@ class _BUSDCHF_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19180,6 +20430,7 @@ _BUSDCHF_NEXT = _BUSDCHF_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19192,6 +20443,7 @@ class _BEURCHF_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURCHF_NEXT"
     precision: int = 1e-05
@@ -19200,6 +20452,7 @@ class _BEURCHF_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19226,6 +20479,7 @@ _BEURCHF_NEXT = _BEURCHF_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19238,6 +20492,7 @@ class _BEURTRY_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURTRY_NEXT"
     precision: int = 0.0001
@@ -19246,6 +20501,7 @@ class _BEURTRY_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19272,6 +20528,7 @@ _BEURTRY_NEXT = _BEURTRY_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19284,6 +20541,7 @@ class _BUSDTRY_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTRY_NEXT"
     precision: int = 0.0001
@@ -19292,6 +20550,7 @@ class _BUSDTRY_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19318,6 +20577,7 @@ _BUSDTRY_NEXT = _BUSDTRY_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19330,6 +20590,7 @@ class _BUSDINR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDINR_NEXT"
     precision: int = 0.0001
@@ -19338,6 +20599,7 @@ class _BUSDINR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19364,6 +20626,7 @@ _BUSDINR_NEXT = _BUSDINR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19376,6 +20639,7 @@ class _BUSDZAR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDZAR_NEXT"
     precision: int = 0.0001
@@ -19384,6 +20648,7 @@ class _BUSDZAR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19410,6 +20675,7 @@ _BUSDZAR_NEXT = _BUSDZAR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19422,6 +20688,7 @@ class _BUSDBRL_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDBRL_NEXT"
     precision: int = 0.0001
@@ -19430,6 +20697,7 @@ class _BUSDBRL_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19456,6 +20724,7 @@ _BUSDBRL_NEXT = _BUSDBRL_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19468,6 +20737,7 @@ class _BUSDMXN_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDMXN_NEXT"
     precision: int = 0.0001
@@ -19476,6 +20746,7 @@ class _BUSDMXN_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19502,6 +20773,7 @@ _BUSDMXN_NEXT = _BUSDMXN_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19514,6 +20786,7 @@ class _BNZDUSD_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSD_NEXT"
     precision: int = 1e-05
@@ -19522,6 +20795,7 @@ class _BNZDUSD_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19548,6 +20822,7 @@ _BNZDUSD_NEXT = _BNZDUSD_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19560,6 +20835,7 @@ class _BUSDCNH_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCNH_NEXT"
     precision: int = 0.0001
@@ -19568,6 +20844,7 @@ class _BUSDCNH_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19594,6 +20871,7 @@ _BUSDCNH_NEXT = _BUSDCNH_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19606,6 +20884,7 @@ class _BUSDSEK_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDSEK_NEXT"
     precision: int = 0.0001
@@ -19614,6 +20893,7 @@ class _BUSDSEK_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19640,6 +20920,7 @@ _BUSDSEK_NEXT = _BUSDSEK_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19652,6 +20933,7 @@ class _BEURUSDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSDT"
     precision: int = 1e-05
@@ -19660,6 +20942,7 @@ class _BEURUSDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19686,6 +20969,7 @@ _BEURUSDT = _BEURUSDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19698,6 +20982,7 @@ class _BUSDTCHF(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCHF"
     precision: int = 1e-05
@@ -19706,6 +20991,7 @@ class _BUSDTCHF(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19732,6 +21018,7 @@ _BUSDTCHF = _BUSDTCHF()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19744,6 +21031,7 @@ class _BUSDTTRY(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTTRY"
     precision: int = 0.0001
@@ -19752,6 +21040,7 @@ class _BUSDTTRY(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19778,6 +21067,7 @@ _BUSDTTRY = _BUSDTTRY()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19790,6 +21080,7 @@ class _BUSDTINR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTINR"
     precision: int = 0.0001
@@ -19798,6 +21089,7 @@ class _BUSDTINR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19824,6 +21116,7 @@ _BUSDTINR = _BUSDTINR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19836,6 +21129,7 @@ class _BUSDTZAR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTZAR"
     precision: int = 0.0001
@@ -19844,6 +21138,7 @@ class _BUSDTZAR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19870,6 +21165,7 @@ _BUSDTZAR = _BUSDTZAR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19882,6 +21178,7 @@ class _BUSDTBRL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTBRL"
     precision: int = 0.0001
@@ -19890,6 +21187,7 @@ class _BUSDTBRL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19916,6 +21214,7 @@ _BUSDTBRL = _BUSDTBRL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19928,6 +21227,7 @@ class _BUSDTMXN(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTMXN"
     precision: int = 0.0001
@@ -19936,6 +21236,7 @@ class _BUSDTMXN(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -19962,6 +21263,7 @@ _BUSDTMXN = _BUSDTMXN()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -19974,6 +21276,7 @@ class _BNZDUSDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSDT"
     precision: int = 1e-05
@@ -19982,6 +21285,7 @@ class _BNZDUSDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20008,6 +21312,7 @@ _BNZDUSDT = _BNZDUSDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20020,6 +21325,7 @@ class _BUSDTCNH(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCNH"
     precision: int = 0.0001
@@ -20028,6 +21334,7 @@ class _BUSDTCNH(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20054,6 +21361,7 @@ _BUSDTCNH = _BUSDTCNH()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20066,6 +21374,7 @@ class _BUSDTSEK(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTSEK"
     precision: int = 0.0001
@@ -20074,6 +21383,7 @@ class _BUSDTSEK(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20100,6 +21410,7 @@ _BUSDTSEK = _BUSDTSEK()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20112,6 +21423,7 @@ class _BEURUSDT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSDT_NEXT"
     precision: int = 1e-05
@@ -20120,6 +21432,7 @@ class _BEURUSDT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20146,6 +21459,7 @@ _BEURUSDT_NEXT = _BEURUSDT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20158,6 +21472,7 @@ class _BUSDTCHF_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCHF_NEXT"
     precision: int = 1e-05
@@ -20166,6 +21481,7 @@ class _BUSDTCHF_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20192,6 +21508,7 @@ _BUSDTCHF_NEXT = _BUSDTCHF_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20204,6 +21521,7 @@ class _BUSDTTRY_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTTRY_NEXT"
     precision: int = 0.0001
@@ -20212,6 +21530,7 @@ class _BUSDTTRY_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20238,6 +21557,7 @@ _BUSDTTRY_NEXT = _BUSDTTRY_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20250,6 +21570,7 @@ class _BUSDTINR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTINR_NEXT"
     precision: int = 0.0001
@@ -20258,6 +21579,7 @@ class _BUSDTINR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20284,6 +21606,7 @@ _BUSDTINR_NEXT = _BUSDTINR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20296,6 +21619,7 @@ class _BUSDTZAR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTZAR_NEXT"
     precision: int = 0.0001
@@ -20304,6 +21628,7 @@ class _BUSDTZAR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20330,6 +21655,7 @@ _BUSDTZAR_NEXT = _BUSDTZAR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20342,6 +21668,7 @@ class _BUSDTBRL_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTBRL_NEXT"
     precision: int = 0.0001
@@ -20350,6 +21677,7 @@ class _BUSDTBRL_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20376,6 +21704,7 @@ _BUSDTBRL_NEXT = _BUSDTBRL_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20388,6 +21717,7 @@ class _BUSDTMXN_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTMXN_NEXT"
     precision: int = 0.0001
@@ -20396,6 +21726,7 @@ class _BUSDTMXN_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20422,6 +21753,7 @@ _BUSDTMXN_NEXT = _BUSDTMXN_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20434,6 +21766,7 @@ class _BNZDUSDT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSDT_NEXT"
     precision: int = 1e-05
@@ -20442,6 +21775,7 @@ class _BNZDUSDT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20468,6 +21802,7 @@ _BNZDUSDT_NEXT = _BNZDUSDT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20480,6 +21815,7 @@ class _BUSDTCNH_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCNH_NEXT"
     precision: int = 0.0001
@@ -20488,6 +21824,7 @@ class _BUSDTCNH_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20514,6 +21851,7 @@ _BUSDTCNH_NEXT = _BUSDTCNH_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20526,6 +21864,7 @@ class _BUSDTSEK_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTSEK_NEXT"
     precision: int = 0.0001
@@ -20534,6 +21873,7 @@ class _BUSDTSEK_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20560,6 +21900,7 @@ _BUSDTSEK_NEXT = _BUSDTSEK_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20572,6 +21913,7 @@ class _BOP(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOP"
     precision: int = 0.0001
@@ -20580,6 +21922,7 @@ class _BOP(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20606,6 +21949,7 @@ _BOP = _BOP()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20618,6 +21962,7 @@ class _BOP_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOP_NEXT"
     precision: int = 0.0001
@@ -20626,6 +21971,7 @@ class _BOP_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20652,6 +21998,7 @@ _BOP_NEXT = _BOP_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20664,6 +22011,7 @@ class _BOPT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOPT"
     precision: int = 0.0001
@@ -20672,6 +22020,7 @@ class _BOPT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20698,6 +22047,7 @@ _BOPT = _BOPT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20710,6 +22060,7 @@ class _BOPT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOPT_NEXT"
     precision: int = 0.0001
@@ -20718,6 +22069,7 @@ class _BOPT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20744,6 +22096,7 @@ _BOPT_NEXT = _BOPT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20756,6 +22109,7 @@ class _OPBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPBON"
     precision: int = 1e-06
@@ -20764,6 +22118,7 @@ class _OPBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20790,6 +22145,7 @@ _OPBON = _OPBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20802,6 +22158,7 @@ class _OPBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPBON8H"
     precision: int = 1e-06
@@ -20810,6 +22167,7 @@ class _OPBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20836,6 +22194,7 @@ _OPBON8H = _OPBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20848,6 +22207,7 @@ class _OPUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPUSDTPI"
     precision: int = 1e-06
@@ -20856,6 +22216,7 @@ class _OPUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20882,6 +22243,7 @@ _OPUSDTPI = _OPUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20894,6 +22256,7 @@ class _OPUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPUSDTPI8H"
     precision: int = 1e-06
@@ -20902,6 +22265,7 @@ class _OPUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20928,6 +22292,7 @@ _OPUSDTPI8H = _OPUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20940,6 +22305,7 @@ class _OPUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPUSDPI"
     precision: int = 1e-06
@@ -20948,6 +22314,7 @@ class _OPUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -20974,6 +22341,7 @@ _OPUSDPI = _OPUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -20986,6 +22354,7 @@ class _OPUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".OPUSDPI8H"
     precision: int = 1e-06
@@ -20994,6 +22363,7 @@ class _OPUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21020,6 +22390,7 @@ _OPUSDPI8H = _OPUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21032,6 +22403,7 @@ class _BUSDC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDC"
     precision: int = 1e-05
@@ -21040,6 +22412,7 @@ class _BUSDC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21066,6 +22439,7 @@ _BUSDC = _BUSDC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21078,6 +22452,7 @@ class _BUSDCT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCT"
     precision: int = 1e-05
@@ -21086,6 +22461,7 @@ class _BUSDCT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21112,6 +22488,7 @@ _BUSDCT = _BUSDCT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21124,6 +22501,7 @@ class _BETHPOWT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHPOWT"
     precision: int = 0.0001
@@ -21132,6 +22510,7 @@ class _BETHPOWT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21158,6 +22537,7 @@ _BETHPOWT = _BETHPOWT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21170,6 +22550,7 @@ class _BETHPOWT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHPOWT_NEXT"
     precision: int = 0.0001
@@ -21178,6 +22559,7 @@ class _BETHPOWT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21204,6 +22586,7 @@ _BETHPOWT_NEXT = _BETHPOWT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21216,6 +22599,7 @@ class _BETHPOWT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHPOWT30M"
     precision: int = 0.0001
@@ -21224,6 +22608,7 @@ class _BETHPOWT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21250,6 +22635,7 @@ _BETHPOWT30M = _BETHPOWT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21262,6 +22648,7 @@ class _BALTMEXT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BALTMEXT30M"
     precision: int = 1e-06
@@ -21270,6 +22657,7 @@ class _BALTMEXT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21296,6 +22684,7 @@ _BALTMEXT30M = _BALTMEXT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21308,6 +22697,7 @@ class _BDEFIMEXT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDEFIMEXT30M"
     precision: int = 1e-06
@@ -21316,6 +22706,7 @@ class _BDEFIMEXT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21342,6 +22733,7 @@ _BDEFIMEXT30M = _BDEFIMEXT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21354,6 +22746,7 @@ class _BMETAMEXT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMETAMEXT30M"
     precision: int = 1e-06
@@ -21362,6 +22755,7 @@ class _BMETAMEXT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21388,6 +22782,7 @@ _BMETAMEXT30M = _BMETAMEXT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21400,6 +22795,7 @@ class _BUSDC_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDC_NEXT"
     precision: int = 1e-05
@@ -21408,6 +22804,7 @@ class _BUSDC_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21434,6 +22831,7 @@ _BUSDC_NEXT = _BUSDC_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21446,6 +22844,7 @@ class _BUSDCT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCT_NEXT"
     precision: int = 1e-05
@@ -21454,6 +22853,7 @@ class _BUSDCT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21480,6 +22880,7 @@ _BUSDCT_NEXT = _BUSDCT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21492,6 +22893,7 @@ class _BKLAY(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BKLAY"
     precision: int = 1e-06
@@ -21500,6 +22902,7 @@ class _BKLAY(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21526,6 +22929,7 @@ _BKLAY = _BKLAY()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21538,6 +22942,7 @@ class _BKLAY_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BKLAY_NEXT"
     precision: int = 1e-06
@@ -21546,6 +22951,7 @@ class _BKLAY_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21572,6 +22978,7 @@ _BKLAY_NEXT = _BKLAY_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21584,6 +22991,7 @@ class _BKLAYT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BKLAYT"
     precision: int = 1e-06
@@ -21592,6 +23000,7 @@ class _BKLAYT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21618,6 +23027,7 @@ _BKLAYT = _BKLAYT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21630,6 +23040,7 @@ class _BKLAYT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BKLAYT_NEXT"
     precision: int = 1e-06
@@ -21638,6 +23049,7 @@ class _BKLAYT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21664,6 +23076,7 @@ _BKLAYT_NEXT = _BKLAYT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21676,6 +23089,7 @@ class _KLAYUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYUSDTPI"
     precision: int = 1e-06
@@ -21684,6 +23098,7 @@ class _KLAYUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21710,6 +23125,7 @@ _KLAYUSDTPI = _KLAYUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21722,6 +23138,7 @@ class _KLAYUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYUSDTPI8H"
     precision: int = 1e-06
@@ -21730,6 +23147,7 @@ class _KLAYUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21756,6 +23174,7 @@ _KLAYUSDTPI8H = _KLAYUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21768,6 +23187,7 @@ class _KLAYUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYUSDPI"
     precision: int = 1e-06
@@ -21776,6 +23196,7 @@ class _KLAYUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21802,6 +23223,7 @@ _KLAYUSDPI = _KLAYUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21814,6 +23236,7 @@ class _KLAYUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYUSDPI8H"
     precision: int = 1e-06
@@ -21822,6 +23245,7 @@ class _KLAYUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21848,6 +23272,7 @@ _KLAYUSDPI8H = _KLAYUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21860,6 +23285,7 @@ class _KLAYBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYBON"
     precision: int = 1e-06
@@ -21868,6 +23294,7 @@ class _KLAYBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21894,6 +23321,7 @@ _KLAYBON = _KLAYBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21906,6 +23334,7 @@ class _KLAYBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".KLAYBON8H"
     precision: int = 1e-06
@@ -21914,6 +23343,7 @@ class _KLAYBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21940,6 +23370,7 @@ _KLAYBON8H = _KLAYBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21952,6 +23383,7 @@ class _BSTETH(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSTETH"
     precision: int = 0.001
@@ -21960,6 +23392,7 @@ class _BSTETH(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -21986,6 +23419,7 @@ _BSTETH = _BSTETH()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -21998,6 +23432,7 @@ class _BSTETHT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSTETHT"
     precision: int = 0.001
@@ -22006,6 +23441,7 @@ class _BSTETHT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22032,6 +23468,7 @@ _BSTETHT = _BSTETHT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22044,6 +23481,7 @@ class _BDAI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDAI"
     precision: int = 1e-05
@@ -22052,6 +23490,7 @@ class _BDAI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22078,6 +23517,7 @@ _BDAI = _BDAI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22090,6 +23530,7 @@ class _BDAIT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BDAIT"
     precision: int = 1e-05
@@ -22098,6 +23539,7 @@ class _BDAIT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22124,6 +23566,7 @@ _BDAIT = _BDAIT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22136,6 +23579,7 @@ class _BBUSD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBUSD"
     precision: int = 1e-05
@@ -22144,6 +23588,7 @@ class _BBUSD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22170,6 +23615,7 @@ _BBUSD = _BBUSD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22182,6 +23628,7 @@ class _BBUSDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBUSDT"
     precision: int = 1e-05
@@ -22190,6 +23637,7 @@ class _BBUSDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22216,6 +23664,7 @@ _BBUSDT = _BBUSDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22228,6 +23677,7 @@ class _BWBTC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BWBTC"
     precision: int = 0.01
@@ -22236,6 +23686,7 @@ class _BWBTC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22262,6 +23713,7 @@ _BWBTC = _BWBTC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22274,6 +23726,7 @@ class _BWBTCT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BWBTCT"
     precision: int = 0.01
@@ -22282,6 +23735,7 @@ class _BWBTCT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22308,6 +23762,7 @@ _BWBTCT = _BWBTCT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22320,6 +23775,7 @@ class _BCRO(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCRO"
     precision: int = 0.0001
@@ -22328,6 +23784,7 @@ class _BCRO(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22354,6 +23811,7 @@ _BCRO = _BCRO()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22366,6 +23824,7 @@ class _BCROT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BCROT"
     precision: int = 0.0001
@@ -22374,6 +23833,7 @@ class _BCROT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22400,6 +23860,7 @@ _BCROT = _BCROT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22412,6 +23873,7 @@ class _BQNT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BQNT"
     precision: int = 0.0001
@@ -22420,6 +23882,7 @@ class _BQNT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22446,6 +23909,7 @@ _BQNT = _BQNT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22458,6 +23922,7 @@ class _BQNTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BQNTT"
     precision: int = 0.0001
@@ -22466,6 +23931,7 @@ class _BQNTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22492,6 +23958,7 @@ _BQNTT = _BQNTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22504,6 +23971,7 @@ class _BOKB(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOKB"
     precision: int = 0.0001
@@ -22512,6 +23980,7 @@ class _BOKB(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22538,6 +24007,7 @@ _BOKB = _BOKB()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22550,6 +24020,7 @@ class _BOKBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOKBT"
     precision: int = 0.0001
@@ -22558,6 +24029,7 @@ class _BOKBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22584,6 +24056,7 @@ _BOKBT = _BOKBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22596,6 +24069,7 @@ class _BLEO(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLEO"
     precision: int = 0.0001
@@ -22604,6 +24078,7 @@ class _BLEO(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22630,6 +24105,7 @@ _BLEO = _BLEO()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22642,6 +24118,7 @@ class _BLEOT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLEOT"
     precision: int = 0.0001
@@ -22650,6 +24127,7 @@ class _BLEOT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22676,6 +24154,7 @@ _BLEOT = _BLEOT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22688,6 +24167,7 @@ class _BAAVE(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAAVE"
     precision: int = 0.001
@@ -22696,6 +24176,7 @@ class _BAAVE(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22722,6 +24203,7 @@ _BAAVE = _BAAVE()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22734,6 +24216,7 @@ class _BMANA(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMANA"
     precision: int = 1e-05
@@ -22742,6 +24225,7 @@ class _BMANA(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22768,6 +24252,7 @@ _BMANA = _BMANA()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22780,6 +24265,7 @@ class _BXLM(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXLM"
     precision: int = 1e-06
@@ -22788,6 +24274,7 @@ class _BXLM(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22814,6 +24301,7 @@ _BXLM = _BXLM()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22826,6 +24314,7 @@ class _BVET(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVET"
     precision: int = 1e-06
@@ -22834,6 +24323,7 @@ class _BVET(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22860,6 +24350,7 @@ _BVET = _BVET()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22872,6 +24363,7 @@ class _BFIL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFIL"
     precision: int = 0.001
@@ -22880,6 +24372,7 @@ class _BFIL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22906,6 +24399,7 @@ _BFIL = _BFIL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22918,6 +24412,7 @@ class _BXTZ(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXTZ"
     precision: int = 1e-05
@@ -22926,6 +24421,7 @@ class _BXTZ(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22952,6 +24448,7 @@ _BXTZ = _BXTZ()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -22964,6 +24461,7 @@ class _BMKR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMKR"
     precision: int = 0.01
@@ -22972,6 +24470,7 @@ class _BMKR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -22998,6 +24497,7 @@ _BMKR = _BMKR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23010,6 +24510,7 @@ class _BFLOW(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLOW"
     precision: int = 0.0001
@@ -23018,6 +24519,7 @@ class _BFLOW(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23044,6 +24546,7 @@ _BFLOW = _BFLOW()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23056,6 +24559,7 @@ class _BFLOWT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLOWT"
     precision: int = 0.0001
@@ -23064,6 +24568,7 @@ class _BFLOWT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23090,6 +24595,7 @@ _BFLOWT = _BFLOWT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23102,6 +24608,7 @@ class _BHBAR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BHBAR"
     precision: int = 1e-05
@@ -23110,6 +24617,7 @@ class _BHBAR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23136,6 +24644,7 @@ _BHBAR = _BHBAR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23148,6 +24657,7 @@ class _BHBART(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BHBART"
     precision: int = 1e-05
@@ -23156,6 +24666,7 @@ class _BHBART(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23182,6 +24693,7 @@ _BHBART = _BHBART()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23194,6 +24706,7 @@ class _BEGLD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEGLD"
     precision: int = 0.0001
@@ -23202,6 +24715,7 @@ class _BEGLD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23228,6 +24742,7 @@ _BEGLD = _BEGLD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23240,6 +24755,7 @@ class _BEGLDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEGLDT"
     precision: int = 0.0001
@@ -23248,6 +24764,7 @@ class _BEGLDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23274,6 +24791,7 @@ _BEGLDT = _BEGLDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23286,6 +24804,7 @@ class _BTUSD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTUSD"
     precision: int = 1e-05
@@ -23294,6 +24813,7 @@ class _BTUSD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23320,6 +24840,7 @@ _BTUSD = _BTUSD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23332,6 +24853,7 @@ class _BTUSDT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTUSDT"
     precision: int = 1e-05
@@ -23340,6 +24862,7 @@ class _BTUSDT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23366,6 +24889,7 @@ _BTUSDT = _BTUSDT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23378,6 +24902,7 @@ class _BUSDP(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDP"
     precision: int = 1e-05
@@ -23386,6 +24911,7 @@ class _BUSDP(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23412,6 +24938,7 @@ _BUSDP = _BUSDP()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23424,6 +24951,7 @@ class _BHNT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BHNT"
     precision: int = 0.0001
@@ -23432,6 +24960,7 @@ class _BHNT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23458,6 +24987,7 @@ _BHNT = _BHNT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23470,6 +25000,7 @@ class _BHNTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BHNTT"
     precision: int = 0.0001
@@ -23478,6 +25009,7 @@ class _BHNTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23504,6 +25036,7 @@ _BHNTT = _BHNTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23516,6 +25049,7 @@ class _BIOTA(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BIOTA"
     precision: int = 1e-05
@@ -23524,6 +25058,7 @@ class _BIOTA(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23550,6 +25085,7 @@ _BIOTA = _BIOTA()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23562,6 +25098,7 @@ class _BIOTAT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BIOTAT"
     precision: int = 1e-05
@@ -23570,6 +25107,7 @@ class _BIOTAT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23596,6 +25134,7 @@ _BIOTAT = _BIOTAT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23608,6 +25147,7 @@ class _BXEC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXEC"
     precision: int = 1e-08
@@ -23616,6 +25156,7 @@ class _BXEC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23642,6 +25183,7 @@ _BXEC = _BXEC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23654,6 +25196,7 @@ class _BXECT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXECT"
     precision: int = 1e-08
@@ -23662,6 +25205,7 @@ class _BXECT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23688,6 +25232,7 @@ _BXECT = _BXECT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23700,6 +25245,7 @@ class _BFTTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTTT"
     precision: int = 0.0001
@@ -23708,6 +25254,7 @@ class _BFTTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23734,6 +25281,7 @@ _BFTTT = _BFTTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23746,6 +25294,7 @@ class _BUSDCHF30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCHF30M"
     precision: int = 1e-05
@@ -23754,6 +25303,7 @@ class _BUSDCHF30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23780,6 +25330,7 @@ _BUSDCHF30M = _BUSDCHF30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23792,6 +25343,7 @@ class _BEURCHF30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURCHF30M"
     precision: int = 1e-05
@@ -23800,6 +25352,7 @@ class _BEURCHF30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23826,6 +25379,7 @@ _BEURCHF30M = _BEURCHF30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23838,6 +25392,7 @@ class _BEURTRY30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURTRY30M"
     precision: int = 0.0001
@@ -23846,6 +25401,7 @@ class _BEURTRY30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23872,6 +25428,7 @@ _BEURTRY30M = _BEURTRY30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23884,6 +25441,7 @@ class _BUSDTRY30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTRY30M"
     precision: int = 0.0001
@@ -23892,6 +25450,7 @@ class _BUSDTRY30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23918,6 +25477,7 @@ _BUSDTRY30M = _BUSDTRY30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23930,6 +25490,7 @@ class _BUSDINR30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDINR30M"
     precision: int = 0.0001
@@ -23938,6 +25499,7 @@ class _BUSDINR30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -23964,6 +25526,7 @@ _BUSDINR30M = _BUSDINR30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -23976,6 +25539,7 @@ class _BUSDZAR30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDZAR30M"
     precision: int = 0.0001
@@ -23984,6 +25548,7 @@ class _BUSDZAR30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24010,6 +25575,7 @@ _BUSDZAR30M = _BUSDZAR30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24022,6 +25588,7 @@ class _BUSDBRL30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDBRL30M"
     precision: int = 0.0001
@@ -24030,6 +25597,7 @@ class _BUSDBRL30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24056,6 +25624,7 @@ _BUSDBRL30M = _BUSDBRL30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24068,6 +25637,7 @@ class _BUSDMXN30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDMXN30M"
     precision: int = 0.0001
@@ -24076,6 +25646,7 @@ class _BUSDMXN30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24102,6 +25673,7 @@ _BUSDMXN30M = _BUSDMXN30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24114,6 +25686,7 @@ class _BNZDUSD30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSD30M"
     precision: int = 1e-05
@@ -24122,6 +25695,7 @@ class _BNZDUSD30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24148,6 +25722,7 @@ _BNZDUSD30M = _BNZDUSD30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24160,6 +25735,7 @@ class _BUSDCNH30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDCNH30M"
     precision: int = 0.0001
@@ -24168,6 +25744,7 @@ class _BUSDCNH30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24194,6 +25771,7 @@ _BUSDCNH30M = _BUSDCNH30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24206,6 +25784,7 @@ class _BUSDSEK30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDSEK30M"
     precision: int = 0.0001
@@ -24214,6 +25793,7 @@ class _BUSDSEK30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24240,6 +25820,7 @@ _BUSDSEK30M = _BUSDSEK30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24252,6 +25833,7 @@ class _BUSDTCHF30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCHF30M"
     precision: int = 1e-05
@@ -24260,6 +25842,7 @@ class _BUSDTCHF30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24286,6 +25869,7 @@ _BUSDTCHF30M = _BUSDTCHF30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24298,6 +25882,7 @@ class _BNZDUSDT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNZDUSDT30M"
     precision: int = 1e-05
@@ -24306,6 +25891,7 @@ class _BNZDUSDT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24332,6 +25918,7 @@ _BNZDUSDT30M = _BNZDUSDT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24344,6 +25931,7 @@ class _BUSDTCNH30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTCNH30M"
     precision: int = 0.0001
@@ -24352,6 +25940,7 @@ class _BUSDTCNH30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24378,6 +25967,7 @@ _BUSDTCNH30M = _BUSDTCNH30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24390,6 +25980,7 @@ class _BSANDT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSANDT30M"
     precision: int = 1e-05
@@ -24398,6 +25989,7 @@ class _BSANDT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24424,6 +26016,7 @@ _BSANDT30M = _BSANDT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24436,6 +26029,7 @@ class _BNEART30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BNEART30M"
     precision: int = 0.001
@@ -24444,6 +26038,7 @@ class _BNEART30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24470,6 +26065,7 @@ _BNEART30M = _BNEART30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24482,6 +26078,7 @@ class _BMANAT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMANAT30M"
     precision: int = 1e-05
@@ -24490,6 +26087,7 @@ class _BMANAT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24516,6 +26114,7 @@ _BMANAT30M = _BMANAT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24528,6 +26127,7 @@ class _BSHIBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BSHIBT30M"
     precision: int = 1e-09
@@ -24536,6 +26136,7 @@ class _BSHIBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24562,6 +26163,7 @@ _BSHIBT30M = _BSHIBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24574,6 +26176,7 @@ class _BOPT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOPT30M"
     precision: int = 0.0001
@@ -24582,6 +26185,7 @@ class _BOPT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24608,6 +26212,7 @@ _BOPT30M = _BOPT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24620,6 +26225,7 @@ class _BGALT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGALT30M"
     precision: int = 1e-05
@@ -24628,6 +26234,7 @@ class _BGALT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24654,6 +26261,7 @@ _BGALT30M = _BGALT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24666,6 +26274,7 @@ class _BGAL30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BGAL30M"
     precision: int = 1e-05
@@ -24674,6 +26283,7 @@ class _BGAL30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24700,6 +26310,7 @@ _BGAL30M = _BGAL30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24712,6 +26323,7 @@ class _BTRX30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BTRX30M"
     precision: int = 1e-06
@@ -24720,6 +26332,7 @@ class _BTRX30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24746,6 +26359,7 @@ _BTRX30M = _BTRX30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24758,6 +26372,7 @@ class _BOP30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BOP30M"
     precision: int = 0.0001
@@ -24766,6 +26381,7 @@ class _BOP30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24792,6 +26408,7 @@ _BOP30M = _BOP30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24804,6 +26421,7 @@ class _BAPE30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPE30M"
     precision: int = 0.0001
@@ -24812,6 +26430,7 @@ class _BAPE30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24838,6 +26457,7 @@ _BAPE30M = _BAPE30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24850,6 +26470,7 @@ class _BFTMT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTMT30M"
     precision: int = 1e-05
@@ -24858,6 +26479,7 @@ class _BFTMT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24884,6 +26506,7 @@ _BFTMT30M = _BFTMT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24896,6 +26519,7 @@ class _BAPT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPT"
     precision: int = 0.0001
@@ -24904,6 +26528,7 @@ class _BAPT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24930,6 +26555,7 @@ _BAPT = _BAPT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24942,6 +26568,7 @@ class _BAPT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPT_NEXT"
     precision: int = 0.0001
@@ -24950,6 +26577,7 @@ class _BAPT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -24976,6 +26604,7 @@ _BAPT_NEXT = _BAPT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -24988,6 +26617,7 @@ class _BAPT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPT30M"
     precision: int = 0.0001
@@ -24996,6 +26626,7 @@ class _BAPT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25022,6 +26653,7 @@ _BAPT30M = _BAPT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25034,6 +26666,7 @@ class _BAPTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPTT"
     precision: int = 0.0001
@@ -25042,6 +26675,7 @@ class _BAPTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25068,6 +26702,7 @@ _BAPTT = _BAPTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25080,6 +26715,7 @@ class _BAPTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPTT_NEXT"
     precision: int = 0.0001
@@ -25088,6 +26724,7 @@ class _BAPTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25114,6 +26751,7 @@ _BAPTT_NEXT = _BAPTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25126,6 +26764,7 @@ class _BAPTT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BAPTT30M"
     precision: int = 0.0001
@@ -25134,6 +26773,7 @@ class _BAPTT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25160,6 +26800,7 @@ _BAPTT30M = _BAPTT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25172,6 +26813,7 @@ class _APTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTBON"
     precision: int = 1e-06
@@ -25180,6 +26822,7 @@ class _APTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25206,6 +26849,7 @@ _APTBON = _APTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25218,6 +26862,7 @@ class _APTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTBON8H"
     precision: int = 1e-06
@@ -25226,6 +26871,7 @@ class _APTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25252,6 +26898,7 @@ _APTBON8H = _APTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25264,6 +26911,7 @@ class _APTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTUSDTPI"
     precision: int = 1e-06
@@ -25272,6 +26920,7 @@ class _APTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25298,6 +26947,7 @@ _APTUSDTPI = _APTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25310,6 +26960,7 @@ class _APTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTUSDTPI8H"
     precision: int = 1e-06
@@ -25318,6 +26969,7 @@ class _APTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25344,6 +26996,7 @@ _APTUSDTPI8H = _APTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25356,6 +27009,7 @@ class _APTUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTUSDPI"
     precision: int = 1e-06
@@ -25364,6 +27018,7 @@ class _APTUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25390,6 +27045,7 @@ _APTUSDPI = _APTUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25402,6 +27058,7 @@ class _APTUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".APTUSDPI8H"
     precision: int = 1e-06
@@ -25410,6 +27067,7 @@ class _APTUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25436,6 +27094,7 @@ _APTUSDPI8H = _APTUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25448,6 +27107,7 @@ class _BFTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTT"
     precision: int = 0.0001
@@ -25456,6 +27116,7 @@ class _BFTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25482,6 +27143,7 @@ _BFTT = _BFTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25494,6 +27156,7 @@ class _BFTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTT_NEXT"
     precision: int = 0.0001
@@ -25502,6 +27165,7 @@ class _BFTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25528,6 +27192,7 @@ _BFTT_NEXT = _BFTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25540,6 +27205,7 @@ class _BFTTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTTT_NEXT"
     precision: int = 0.0001
@@ -25548,6 +27214,7 @@ class _BFTTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25574,6 +27241,7 @@ _BFTTT_NEXT = _BFTTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25586,6 +27254,7 @@ class _FTTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTBON"
     precision: int = 1e-06
@@ -25594,6 +27263,7 @@ class _FTTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25620,6 +27290,7 @@ _FTTBON = _FTTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25632,6 +27303,7 @@ class _FTTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTBON8H"
     precision: int = 1e-06
@@ -25640,6 +27312,7 @@ class _FTTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25666,6 +27339,7 @@ _FTTBON8H = _FTTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25678,6 +27352,7 @@ class _FTTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTUSDTPI"
     precision: int = 1e-06
@@ -25686,6 +27361,7 @@ class _FTTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25712,6 +27388,7 @@ _FTTUSDTPI = _FTTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25724,6 +27401,7 @@ class _FTTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTUSDTPI8H"
     precision: int = 1e-06
@@ -25732,6 +27410,7 @@ class _FTTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25758,6 +27437,7 @@ _FTTUSDTPI8H = _FTTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25770,6 +27450,7 @@ class _FTTUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTUSDPI"
     precision: int = 1e-06
@@ -25778,6 +27459,7 @@ class _FTTUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25804,6 +27486,7 @@ _FTTUSDPI = _FTTUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25816,6 +27499,7 @@ class _FTTUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FTTUSDPI8H"
     precision: int = 1e-06
@@ -25824,6 +27508,7 @@ class _FTTUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25850,6 +27535,7 @@ _FTTUSDPI8H = _FTTUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25862,6 +27548,7 @@ class _BMEXBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXBON"
     precision: int = 1e-06
@@ -25870,6 +27557,7 @@ class _BMEXBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25896,6 +27584,7 @@ _BMEXBON = _BMEXBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25908,6 +27597,7 @@ class _BMEXBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXBON8H"
     precision: int = 1e-06
@@ -25916,6 +27606,7 @@ class _BMEXBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25942,6 +27633,7 @@ _BMEXBON8H = _BMEXBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -25954,6 +27646,7 @@ class _BMEXUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXUSDTPI"
     precision: int = 1e-06
@@ -25962,6 +27655,7 @@ class _BMEXUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -25988,6 +27682,7 @@ _BMEXUSDTPI = _BMEXUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26000,6 +27695,7 @@ class _BMEXUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXUSDTPI8H"
     precision: int = 1e-06
@@ -26008,6 +27704,7 @@ class _BMEXUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26034,6 +27731,7 @@ _BMEXUSDTPI8H = _BMEXUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26046,6 +27744,7 @@ class _BMEXUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXUSDPI"
     precision: int = 1e-06
@@ -26054,6 +27753,7 @@ class _BMEXUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26080,6 +27780,7 @@ _BMEXUSDPI = _BMEXUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26092,6 +27793,7 @@ class _BMEXUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BMEXUSDPI8H"
     precision: int = 1e-06
@@ -26100,6 +27802,7 @@ class _BMEXUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26126,6 +27829,7 @@ _BMEXUSDPI8H = _BMEXUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26138,6 +27842,7 @@ class _BBMEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBMEXT"
     precision: int = 0.0001
@@ -26146,6 +27851,7 @@ class _BBMEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26172,6 +27878,7 @@ _BBMEXT = _BBMEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26184,6 +27891,7 @@ class _BBMEXT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBMEXT_NEXT"
     precision: int = 0.0001
@@ -26192,6 +27900,7 @@ class _BBMEXT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26218,6 +27927,7 @@ _BBMEXT_NEXT = _BBMEXT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26230,6 +27940,7 @@ class _BBMEX(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBMEX"
     precision: int = 0.0001
@@ -26238,6 +27949,7 @@ class _BBMEX(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26264,6 +27976,7 @@ _BBMEX = _BBMEX()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26276,6 +27989,7 @@ class _BBMEX_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BBMEX_NEXT"
     precision: int = 0.0001
@@ -26284,6 +27998,7 @@ class _BBMEX_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26310,6 +28025,7 @@ _BBMEX_NEXT = _BBMEX_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26322,6 +28038,7 @@ class _CROBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROBON"
     precision: int = 1e-05
@@ -26330,6 +28047,7 @@ class _CROBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26356,6 +28074,7 @@ _CROBON = _CROBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26368,6 +28087,7 @@ class _CROBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROBON8H"
     precision: int = 1e-05
@@ -26376,6 +28096,7 @@ class _CROBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26402,6 +28123,7 @@ _CROBON8H = _CROBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26414,6 +28136,7 @@ class _CROUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROUSDTPI"
     precision: int = 1e-06
@@ -26422,6 +28145,7 @@ class _CROUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26448,6 +28172,7 @@ _CROUSDTPI = _CROUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26460,6 +28185,7 @@ class _CROUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROUSDTPI8H"
     precision: int = 1e-06
@@ -26468,6 +28194,7 @@ class _CROUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26494,6 +28221,7 @@ _CROUSDTPI8H = _CROUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26506,6 +28234,7 @@ class _CROUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROUSDPI"
     precision: int = 1e-06
@@ -26514,6 +28243,7 @@ class _CROUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26540,6 +28270,7 @@ _CROUSDPI = _CROUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26552,6 +28283,7 @@ class _CROUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".CROUSDPI8H"
     precision: int = 1e-06
@@ -26560,6 +28292,7 @@ class _CROUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26586,6 +28319,7 @@ _CROUSDPI8H = _CROUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26598,6 +28332,7 @@ class _BFTT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTT30M"
     precision: int = 0.0001
@@ -26606,6 +28341,7 @@ class _BFTT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26632,6 +28368,7 @@ _BFTT30M = _BFTT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26644,6 +28381,7 @@ class _BFTTT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFTTT30M"
     precision: int = 0.0001
@@ -26652,6 +28390,7 @@ class _BFTTT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26678,6 +28417,7 @@ _BFTTT30M = _BFTTT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26690,6 +28430,7 @@ class _BETHYLD(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHYLD"
     precision: int = 1e-05
@@ -26698,6 +28439,7 @@ class _BETHYLD(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26724,6 +28466,7 @@ _BETHYLD = _BETHYLD()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26736,6 +28479,7 @@ class _BEURUSD30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSD30M"
     precision: int = 1e-05
@@ -26744,6 +28488,7 @@ class _BEURUSD30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26770,6 +28515,7 @@ _BEURUSD30M = _BEURUSD30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26782,6 +28528,7 @@ class _BEURUSDT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BEURUSDT30M"
     precision: int = 1e-05
@@ -26790,6 +28537,7 @@ class _BEURUSDT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26816,6 +28564,7 @@ _BEURUSDT30M = _BEURUSDT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26828,6 +28577,7 @@ class _BUSDTBRL30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTBRL30M"
     precision: int = 0.0001
@@ -26836,6 +28586,7 @@ class _BUSDTBRL30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26862,6 +28613,7 @@ _BUSDTBRL30M = _BUSDTBRL30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26874,6 +28626,7 @@ class _BUSDTINR30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTINR30M"
     precision: int = 0.0001
@@ -26882,6 +28635,7 @@ class _BUSDTINR30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26908,6 +28662,7 @@ _BUSDTINR30M = _BUSDTINR30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26920,6 +28675,7 @@ class _BUSDTMXN30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTMXN30M"
     precision: int = 0.0001
@@ -26928,6 +28684,7 @@ class _BUSDTMXN30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -26954,6 +28711,7 @@ _BUSDTMXN30M = _BUSDTMXN30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -26966,6 +28724,7 @@ class _BUSDTSEK30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTSEK30M"
     precision: int = 0.0001
@@ -26974,6 +28733,7 @@ class _BUSDTSEK30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27000,6 +28760,7 @@ _BUSDTSEK30M = _BUSDTSEK30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27012,6 +28773,7 @@ class _BUSDTTRY30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTTRY30M"
     precision: int = 0.0001
@@ -27020,6 +28782,7 @@ class _BUSDTTRY30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27046,6 +28809,7 @@ _BUSDTTRY30M = _BUSDTTRY30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27058,6 +28822,7 @@ class _BUSDTZAR30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BUSDTZAR30M"
     precision: int = 0.0001
@@ -27066,6 +28831,7 @@ class _BUSDTZAR30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27092,26 +28858,29 @@ _BUSDTZAR30M = _BUSDTZAR30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
 class _BFLRT(NamedTuple):
     """
         name: .BFLRT
-        precision: 0.0001
+        precision: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLRT"
-    precision: int = 0.0001
+    precision: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27132,32 +28901,35 @@ class _BFLRT(NamedTuple):
 _BFLRT = _BFLRT()
 """
     name: .BFLRT
-    precision: 0.0001
+    precision: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
 class _BFLRT_NEXT(NamedTuple):
     """
         name: .BFLRT_NEXT
-        precision: 0.0001
+        precision: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLRT_NEXT"
-    precision: int = 0.0001
+    precision: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27178,12 +28950,13 @@ class _BFLRT_NEXT(NamedTuple):
 _BFLRT_NEXT = _BFLRT_NEXT()
 """
     name: .BFLRT_NEXT
-    precision: 0.0001
+    precision: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27196,6 +28969,7 @@ class _BFLRT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLRT30M"
     precision: int = 0.0001
@@ -27204,6 +28978,7 @@ class _BFLRT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27230,6 +29005,7 @@ _BFLRT30M = _BFLRT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27242,6 +29018,7 @@ class _FLRBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRBON"
     precision: int = 1e-06
@@ -27250,6 +29027,7 @@ class _FLRBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27276,6 +29054,7 @@ _FLRBON = _FLRBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27288,6 +29067,7 @@ class _FLRBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRBON8H"
     precision: int = 1e-06
@@ -27296,6 +29076,7 @@ class _FLRBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27322,6 +29103,7 @@ _FLRBON8H = _FLRBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27334,6 +29116,7 @@ class _FLRUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRUSDTPI"
     precision: int = 1e-06
@@ -27342,6 +29125,7 @@ class _FLRUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27368,6 +29152,7 @@ _FLRUSDTPI = _FLRUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27380,6 +29165,7 @@ class _FLRUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRUSDTPI8H"
     precision: int = 1e-06
@@ -27388,6 +29174,7 @@ class _FLRUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27414,6 +29201,7 @@ _FLRUSDTPI8H = _FLRUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27426,6 +29214,7 @@ class _FLRUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRUSDPI"
     precision: int = 1e-06
@@ -27434,6 +29223,7 @@ class _FLRUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27460,6 +29250,7 @@ _FLRUSDPI = _FLRUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27472,6 +29263,7 @@ class _FLRUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".FLRUSDPI8H"
     precision: int = 1e-06
@@ -27480,6 +29272,7 @@ class _FLRUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27506,26 +29299,29 @@ _FLRUSDPI8H = _FLRUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
 class _BFLR(NamedTuple):
     """
         name: .BFLR
-        precision: 0.0001
+        precision: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLR"
-    precision: int = 0.0001
+    precision: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27546,32 +29342,35 @@ class _BFLR(NamedTuple):
 _BFLR = _BFLR()
 """
     name: .BFLR
-    precision: 0.0001
+    precision: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
 class _BFLR_NEXT(NamedTuple):
     """
         name: .BFLR_NEXT
-        precision: 0.0001
+        precision: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BFLR_NEXT"
-    precision: int = 0.0001
+    precision: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27592,12 +29391,13 @@ class _BFLR_NEXT(NamedTuple):
 _BFLR_NEXT = _BFLR_NEXT()
 """
     name: .BFLR_NEXT
-    precision: 0.0001
+    precision: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -27610,6 +29410,7 @@ class ADAH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ADAH23"
     precision: int = 1e-08
@@ -27618,6 +29419,7 @@ class ADAH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27644,6 +29446,7 @@ ADAH23 = ADAH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27656,6 +29459,7 @@ class XRPH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XRPH23"
     precision: int = 1e-08
@@ -27664,6 +29468,7 @@ class XRPH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27690,6 +29495,7 @@ XRPH23 = XRPH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27702,6 +29508,7 @@ class FLRUSDTH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "FLRUSDTH23"
     precision: int = 0.0001
@@ -27710,6 +29517,7 @@ class FLRUSDTH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27736,6 +29544,7 @@ FLRUSDTH23 = FLRUSDTH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27748,6 +29557,7 @@ class KLAYUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "KLAYUSD"
     precision: int = 1e-05
@@ -27756,6 +29566,7 @@ class KLAYUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27782,6 +29593,7 @@ KLAYUSD = KLAYUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27794,6 +29606,7 @@ class KLAYUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "KLAYUSDT"
     precision: int = 1e-05
@@ -27802,6 +29615,7 @@ class KLAYUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27828,6 +29642,7 @@ KLAYUSDT = KLAYUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27840,6 +29655,7 @@ class XRPUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 100000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XRPUSD"
     precision: int = 0.0001
@@ -27848,6 +29664,7 @@ class XRPUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 100000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27874,6 +29691,7 @@ XRPUSD = XRPUSD()
     min_order_size: 1
     max_order_size: 100000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27886,6 +29704,7 @@ class BCHUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 100000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BCHUSD"
     precision: int = 0.05
@@ -27894,6 +29713,7 @@ class BCHUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 100000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27920,6 +29740,7 @@ BCHUSD = BCHUSD()
     min_order_size: 1
     max_order_size: 100000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27932,6 +29753,7 @@ class DOGEUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 5000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "DOGEUSD"
     precision: int = 1e-05
@@ -27940,6 +29762,7 @@ class DOGEUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 5000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -27966,6 +29789,7 @@ DOGEUSD = DOGEUSD()
     min_order_size: 1
     max_order_size: 5000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -27978,6 +29802,7 @@ class BNBUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BNBUSD"
     precision: int = 0.01
@@ -27986,6 +29811,7 @@ class BNBUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28012,6 +29838,7 @@ BNBUSD = BNBUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28024,6 +29851,7 @@ class LINKUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LINKUSD"
     precision: int = 0.001
@@ -28032,6 +29860,7 @@ class LINKUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28058,6 +29887,7 @@ LINKUSD = LINKUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28070,6 +29900,7 @@ class SOLUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "SOLUSD"
     precision: int = 0.01
@@ -28078,6 +29909,7 @@ class SOLUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28104,6 +29936,7 @@ SOLUSD = SOLUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28116,6 +29949,7 @@ class APTUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "APTUSD"
     precision: int = 0.001
@@ -28124,6 +29958,7 @@ class APTUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28150,6 +29985,7 @@ APTUSD = APTUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28162,6 +29998,7 @@ class BMEXUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BMEXUSD"
     precision: int = 0.001
@@ -28170,6 +30007,7 @@ class BMEXUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28196,6 +30034,7 @@ BMEXUSD = BMEXUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28208,6 +30047,7 @@ class CROUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 5000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "CROUSD"
     precision: int = 1e-05
@@ -28216,6 +30056,7 @@ class CROUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 5000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28242,6 +30083,7 @@ CROUSD = CROUSD()
     min_order_size: 1
     max_order_size: 5000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28254,6 +30096,7 @@ class FLRUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "FLRUSD"
     precision: int = 0.0001
@@ -28262,6 +30105,7 @@ class FLRUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28288,6 +30132,7 @@ FLRUSD = FLRUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28300,6 +30145,7 @@ class DOGEUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 10000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "DOGEUSDT"
     precision: int = 1e-05
@@ -28308,6 +30154,7 @@ class DOGEUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 10000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28334,6 +30181,7 @@ DOGEUSDT = DOGEUSDT()
     min_order_size: 1000
     max_order_size: 10000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28346,6 +30194,7 @@ class DOTUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "DOTUSDT"
     precision: int = 0.001
@@ -28354,6 +30203,7 @@ class DOTUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28380,6 +30230,7 @@ DOTUSDT = DOTUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28392,6 +30243,7 @@ class ADAUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ADAUSDT"
     precision: int = 0.0001
@@ -28400,6 +30252,7 @@ class ADAUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28426,6 +30279,7 @@ ADAUSDT = ADAUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28438,6 +30292,7 @@ class BNBUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BNBUSDT"
     precision: int = 0.01
@@ -28446,6 +30301,7 @@ class BNBUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28472,6 +30328,7 @@ BNBUSDT = BNBUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28484,6 +30341,7 @@ class SOLUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "SOLUSDT"
     precision: int = 0.01
@@ -28492,6 +30350,7 @@ class SOLUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28518,6 +30377,7 @@ SOLUSDT = SOLUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28530,6 +30390,7 @@ class ADAUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ADAUSD"
     precision: int = 0.0001
@@ -28538,6 +30399,7 @@ class ADAUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28564,6 +30426,7 @@ ADAUSD = ADAUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28576,6 +30439,7 @@ class EOSUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "EOSUSD"
     precision: int = 0.0001
@@ -28584,6 +30448,7 @@ class EOSUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28610,6 +30475,7 @@ EOSUSD = EOSUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28622,6 +30488,7 @@ class XRPUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XRPUSDT"
     precision: int = 0.0001
@@ -28630,6 +30497,7 @@ class XRPUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28656,6 +30524,7 @@ XRPUSDT = XRPUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28668,6 +30537,7 @@ class BCHUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BCHUSDT"
     precision: int = 0.05
@@ -28676,6 +30546,7 @@ class BCHUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28702,6 +30573,7 @@ BCHUSDT = BCHUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28714,6 +30586,7 @@ class APEUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "APEUSDT"
     precision: int = 0.001
@@ -28722,6 +30595,7 @@ class APEUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28748,6 +30622,7 @@ APEUSDT = APEUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28760,6 +30635,7 @@ class GMTUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "GMTUSDT"
     precision: int = 0.0001
@@ -28768,6 +30644,7 @@ class GMTUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28794,6 +30671,7 @@ GMTUSDT = GMTUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28806,6 +30684,7 @@ class GMTUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "GMTUSD"
     precision: int = 0.0001
@@ -28814,6 +30693,7 @@ class GMTUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28840,6 +30720,7 @@ GMTUSD = GMTUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28852,6 +30733,7 @@ class NEARUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "NEARUSD"
     precision: int = 0.001
@@ -28860,6 +30742,7 @@ class NEARUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28886,6 +30769,7 @@ NEARUSD = NEARUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28898,6 +30782,7 @@ class APTUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "APTUSDT"
     precision: int = 0.001
@@ -28906,6 +30791,7 @@ class APTUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28932,6 +30818,7 @@ APTUSDT = APTUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28944,6 +30831,7 @@ class BMEXUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BMEXUSDT"
     precision: int = 0.001
@@ -28952,6 +30840,7 @@ class BMEXUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -28978,6 +30867,7 @@ BMEXUSDT = BMEXUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -28990,6 +30880,7 @@ class CROUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 10000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "CROUSDT"
     precision: int = 1e-05
@@ -28998,6 +30889,7 @@ class CROUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 10000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29024,6 +30916,7 @@ CROUSDT = CROUSDT()
     min_order_size: 1000
     max_order_size: 10000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29036,6 +30929,7 @@ class FLRUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "FLRUSDT"
     precision: int = 0.0001
@@ -29044,6 +30938,7 @@ class FLRUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29070,6 +30965,7 @@ FLRUSDT = FLRUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29082,6 +30978,7 @@ class LUNAUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LUNAUSD"
     precision: int = 0.0001
@@ -29090,6 +30987,7 @@ class LUNAUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29116,6 +31014,7 @@ LUNAUSD = LUNAUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29128,6 +31027,7 @@ class DOTUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "DOTUSD"
     precision: int = 0.001
@@ -29136,6 +31036,7 @@ class DOTUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29162,6 +31063,7 @@ DOTUSD = DOTUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29174,6 +31076,7 @@ class MATICUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "MATICUSDT"
     precision: int = 0.0001
@@ -29182,6 +31085,7 @@ class MATICUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29208,6 +31112,7 @@ MATICUSDT = MATICUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29220,6 +31125,7 @@ class AVAXUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 500000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "AVAXUSD"
     precision: int = 0.001
@@ -29228,6 +31134,7 @@ class AVAXUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 500000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29254,6 +31161,7 @@ AVAXUSD = AVAXUSD()
     min_order_size: 1
     max_order_size: 500000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29266,6 +31174,7 @@ class AXSUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 1000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "AXSUSD"
     precision: int = 0.01
@@ -29274,6 +31183,7 @@ class AXSUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 1000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29300,6 +31210,7 @@ AXSUSD = AXSUSD()
     min_order_size: 1
     max_order_size: 1000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29312,6 +31223,7 @@ class AVAXUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "AVAXUSDT"
     precision: int = 0.001
@@ -29320,6 +31232,7 @@ class AVAXUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29346,6 +31259,7 @@ AVAXUSDT = AVAXUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29358,6 +31272,7 @@ class LUNAUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LUNAUSDT"
     precision: int = 0.0001
@@ -29366,6 +31281,7 @@ class LUNAUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29392,6 +31308,7 @@ LUNAUSDT = LUNAUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29404,6 +31321,7 @@ class UNI_USDT(NamedTuple):
         min_order_size: 10000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "UNI_USDT"
     precision: int = 0.001
@@ -29412,6 +31330,7 @@ class UNI_USDT(NamedTuple):
     min_order_size: float = 10000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29438,6 +31357,7 @@ UNI_USDT = UNI_USDT()
     min_order_size: 10000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29450,6 +31370,7 @@ class LINK_USDT(NamedTuple):
         min_order_size: 10000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LINK_USDT"
     precision: int = 0.001
@@ -29458,6 +31379,7 @@ class LINK_USDT(NamedTuple):
     min_order_size: float = 10000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29484,6 +31406,7 @@ LINK_USDT = LINK_USDT()
     min_order_size: 10000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29496,6 +31419,7 @@ class MATIC_USDT(NamedTuple):
         min_order_size: 100000000
         max_order_size: 100000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "MATIC_USDT"
     precision: int = 0.0001
@@ -29504,6 +31428,7 @@ class MATIC_USDT(NamedTuple):
     min_order_size: float = 100000000
     max_order_size: float = 100000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29530,6 +31455,7 @@ MATIC_USDT = MATIC_USDT()
     min_order_size: 100000000
     max_order_size: 100000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29542,6 +31468,7 @@ class AXS_USDT(NamedTuple):
         min_order_size: 1000000
         max_order_size: 1000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "AXS_USDT"
     precision: int = 0.01
@@ -29550,6 +31477,7 @@ class AXS_USDT(NamedTuple):
     min_order_size: float = 1000000
     max_order_size: float = 1000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29576,6 +31504,7 @@ AXS_USDT = AXS_USDT()
     min_order_size: 1000000
     max_order_size: 1000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29588,6 +31517,7 @@ class APE_USDT(NamedTuple):
         min_order_size: 10000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "APE_USDT"
     precision: int = 0.001
@@ -29596,6 +31526,7 @@ class APE_USDT(NamedTuple):
     min_order_size: float = 10000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29622,6 +31553,7 @@ APE_USDT = APE_USDT()
     min_order_size: 10000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29634,6 +31566,7 @@ class TRX_USDT(NamedTuple):
         min_order_size: 100000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "TRX_USDT"
     precision: int = 0.0001
@@ -29642,6 +31575,7 @@ class TRX_USDT(NamedTuple):
     min_order_size: float = 100000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29668,6 +31602,7 @@ TRX_USDT = TRX_USDT()
     min_order_size: 100000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29680,6 +31615,7 @@ class SOL_USDT(NamedTuple):
         min_order_size: 1000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "SOL_USDT"
     precision: int = 0.01
@@ -29688,6 +31624,7 @@ class SOL_USDT(NamedTuple):
     min_order_size: float = 1000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29714,6 +31651,7 @@ SOL_USDT = SOL_USDT()
     min_order_size: 1000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29726,6 +31664,7 @@ class BMEX_USDT(NamedTuple):
         min_order_size: 1000000
         max_order_size: 1000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "BMEX_USDT"
     precision: int = 0.001
@@ -29734,6 +31673,7 @@ class BMEX_USDT(NamedTuple):
     min_order_size: float = 1000000
     max_order_size: float = 1000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29760,6 +31700,7 @@ BMEX_USDT = BMEX_USDT()
     min_order_size: 1000000
     max_order_size: 1000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -29772,6 +31713,7 @@ class _XBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBT"
     precision: int = 0.01
@@ -29780,6 +31722,7 @@ class _XBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29806,6 +31749,7 @@ _XBT = _XBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -29818,6 +31762,7 @@ class _XBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBT30M"
     precision: int = 0.01
@@ -29826,6 +31771,7 @@ class _XBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29852,6 +31798,7 @@ _XBT30M = _XBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -29864,6 +31811,7 @@ class _XBTBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTBON"
     precision: int = 1e-06
@@ -29872,6 +31820,7 @@ class _XBTBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29898,6 +31847,7 @@ _XBTBON = _XBTBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -29910,6 +31860,7 @@ class _XBTBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTBON8H"
     precision: int = 1e-06
@@ -29918,6 +31869,7 @@ class _XBTBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29944,6 +31896,7 @@ _XBTBON8H = _XBTBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -29956,6 +31909,7 @@ class _XBTUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTUSDPI"
     precision: int = 1e-06
@@ -29964,6 +31918,7 @@ class _XBTUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -29990,6 +31945,7 @@ _XBTUSDPI = _XBTUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30002,6 +31958,7 @@ class _XBTUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTUSDPI8H"
     precision: int = 1e-06
@@ -30010,6 +31967,7 @@ class _XBTUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30036,6 +31994,7 @@ _XBTUSDPI8H = _XBTUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30048,6 +32007,7 @@ class _BXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBT"
     precision: int = 0.01
@@ -30056,6 +32016,7 @@ class _BXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30082,6 +32043,7 @@ _BXBT = _BXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30094,6 +32056,7 @@ class _BXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBT30M"
     precision: int = 0.01
@@ -30102,6 +32065,7 @@ class _BXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30128,6 +32092,7 @@ _BXBT30M = _BXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30140,6 +32105,7 @@ class _BXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBT_NEXT"
     precision: int = 0.01
@@ -30148,6 +32114,7 @@ class _BXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30174,6 +32141,7 @@ _BXBT_NEXT = _BXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30186,6 +32154,7 @@ class _BXBTEUR(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTEUR"
     precision: int = 0.01
@@ -30194,6 +32163,7 @@ class _BXBTEUR(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30220,6 +32190,7 @@ _BXBTEUR = _BXBTEUR()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30232,6 +32203,7 @@ class _BXBTEUR_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTEUR_NEXT"
     precision: int = 0.01
@@ -30240,6 +32212,7 @@ class _BXBTEUR_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30266,6 +32239,7 @@ _BXBTEUR_NEXT = _BXBTEUR_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30278,6 +32252,7 @@ class _XBTEURPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTEURPI"
     precision: int = 1e-06
@@ -30286,6 +32261,7 @@ class _XBTEURPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30312,6 +32288,7 @@ _XBTEURPI = _XBTEURPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30324,6 +32301,7 @@ class _XBTEURPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTEURPI8H"
     precision: int = 1e-06
@@ -30332,6 +32310,7 @@ class _XBTEURPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30358,6 +32337,7 @@ _XBTEURPI8H = _XBTEURPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30370,6 +32350,7 @@ class _BXBTEUR30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTEUR30M"
     precision: int = 0.01
@@ -30378,6 +32359,7 @@ class _BXBTEUR30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30404,6 +32386,7 @@ _BXBTEUR30M = _BXBTEUR30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30416,6 +32399,7 @@ class _BXBTT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTT"
     precision: int = 0.01
@@ -30424,6 +32408,7 @@ class _BXBTT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30450,6 +32435,7 @@ _BXBTT = _BXBTT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30462,6 +32448,7 @@ class _BXBTT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTT_NEXT"
     precision: int = 0.01
@@ -30470,6 +32457,7 @@ class _BXBTT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30496,6 +32484,7 @@ _BXBTT_NEXT = _BXBTT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30508,6 +32497,7 @@ class _BXBTT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BXBTT30M"
     precision: int = 0.01
@@ -30516,6 +32506,7 @@ class _BXBTT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30542,6 +32533,7 @@ _BXBTT30M = _BXBTT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30554,6 +32546,7 @@ class _XBTUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTUSDTPI"
     precision: int = 1e-06
@@ -30562,6 +32555,7 @@ class _XBTUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30588,6 +32582,7 @@ _XBTUSDTPI = _XBTUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30600,6 +32595,7 @@ class _XBTUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".XBTUSDTPI8H"
     precision: int = 1e-06
@@ -30608,6 +32604,7 @@ class _XBTUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30634,6 +32631,7 @@ _XBTUSDTPI8H = _XBTUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30646,6 +32644,7 @@ class _BVOL(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVOL"
     precision: int = 0.01
@@ -30654,6 +32653,7 @@ class _BVOL(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30680,6 +32680,7 @@ _BVOL = _BVOL()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30692,6 +32693,7 @@ class _BVOL24H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVOL24H"
     precision: int = 0.01
@@ -30700,6 +32702,7 @@ class _BVOL24H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30726,6 +32729,7 @@ _BVOL24H = _BVOL24H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30738,6 +32742,7 @@ class _BVOL7D(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BVOL7D"
     precision: int = 0.01
@@ -30746,6 +32751,7 @@ class _BVOL7D(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30772,6 +32778,7 @@ _BVOL7D = _BVOL7D()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30784,6 +32791,7 @@ class _ETHBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHBON"
     precision: int = 1e-06
@@ -30792,6 +32800,7 @@ class _ETHBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30818,6 +32827,7 @@ _ETHBON = _ETHBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30830,6 +32840,7 @@ class _ETHBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHBON8H"
     precision: int = 1e-06
@@ -30838,6 +32849,7 @@ class _ETHBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30864,6 +32876,7 @@ _ETHBON8H = _ETHBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30876,6 +32889,7 @@ class _ETHUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSDPI"
     precision: int = 1e-06
@@ -30884,6 +32898,7 @@ class _ETHUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30910,6 +32925,7 @@ _ETHUSDPI = _ETHUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30922,6 +32938,7 @@ class _ETHUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSDPI8H"
     precision: int = 1e-06
@@ -30930,6 +32947,7 @@ class _ETHUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -30956,6 +32974,7 @@ _ETHUSDPI8H = _ETHUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -30968,6 +32987,7 @@ class _BETH(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETH"
     precision: int = 0.01
@@ -30976,6 +32996,7 @@ class _BETH(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31002,6 +33023,7 @@ _BETH = _BETH()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31014,6 +33036,7 @@ class _BETH30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETH30M"
     precision: int = 0.01
@@ -31022,6 +33045,7 @@ class _BETH30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31048,6 +33072,7 @@ _BETH30M = _BETH30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31060,6 +33085,7 @@ class _BETHXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHXBT"
     precision: int = 1e-05
@@ -31068,6 +33094,7 @@ class _BETHXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31094,6 +33121,7 @@ _BETHXBT = _BETHXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31106,6 +33134,7 @@ class _BETHXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHXBT30M"
     precision: int = 1e-05
@@ -31114,6 +33143,7 @@ class _BETHXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31140,6 +33170,7 @@ _BETHXBT30M = _BETHXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31152,6 +33183,7 @@ class _BETH_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETH_NEXT"
     precision: int = 0.01
@@ -31160,6 +33192,7 @@ class _BETH_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31186,6 +33219,7 @@ _BETH_NEXT = _BETH_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31198,6 +33232,7 @@ class _BETHXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHXBT_NEXT"
     precision: int = 1e-05
@@ -31206,6 +33241,7 @@ class _BETHXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31232,6 +33268,7 @@ _BETHXBT_NEXT = _BETHXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31244,6 +33281,7 @@ class _BETHT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHT"
     precision: int = 0.001
@@ -31252,6 +33290,7 @@ class _BETHT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31278,6 +33317,7 @@ _BETHT = _BETHT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31290,6 +33330,7 @@ class _BETHT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHT_NEXT"
     precision: int = 0.001
@@ -31298,6 +33339,7 @@ class _BETHT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31324,6 +33366,7 @@ _BETHT_NEXT = _BETHT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31336,6 +33379,7 @@ class _BETHT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETHT30M"
     precision: int = 0.001
@@ -31344,6 +33388,7 @@ class _BETHT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31370,6 +33415,7 @@ _BETHT30M = _BETHT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31382,6 +33428,7 @@ class _ETHUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSDTPI"
     precision: int = 1e-06
@@ -31390,6 +33437,7 @@ class _ETHUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31416,6 +33464,7 @@ _ETHUSDTPI = _ETHUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31428,6 +33477,7 @@ class _ETHUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSDTPI8H"
     precision: int = 1e-06
@@ -31436,6 +33486,7 @@ class _ETHUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31462,6 +33513,7 @@ _ETHUSDTPI8H = _ETHUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31474,6 +33526,7 @@ class _ETHUSD_ETHPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSD_ETHPI"
     precision: int = 1e-06
@@ -31482,6 +33535,7 @@ class _ETHUSD_ETHPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31508,6 +33562,7 @@ _ETHUSD_ETHPI = _ETHUSD_ETHPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31520,6 +33575,7 @@ class _ETHUSD_ETHPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".ETHUSD_ETHPI8H"
     precision: int = 1e-06
@@ -31528,6 +33584,7 @@ class _ETHUSD_ETHPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31554,6 +33611,7 @@ _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31566,6 +33624,7 @@ class _BETC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BETC"
     precision: int = 1e-05
@@ -31574,6 +33633,7 @@ class _BETC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31600,6 +33660,7 @@ _BETC = _BETC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31612,6 +33673,7 @@ class _LTCBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCBON"
     precision: int = 1e-06
@@ -31620,6 +33682,7 @@ class _LTCBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31646,6 +33709,7 @@ _LTCBON = _LTCBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31658,6 +33722,7 @@ class _LTCBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCBON8H"
     precision: int = 1e-06
@@ -31666,6 +33731,7 @@ class _LTCBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31692,6 +33758,7 @@ _LTCBON8H = _LTCBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31704,6 +33771,7 @@ class _BLTCXBT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTCXBT"
     precision: int = 1e-06
@@ -31712,6 +33780,7 @@ class _BLTCXBT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31738,6 +33807,7 @@ _BLTCXBT = _BLTCXBT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31750,6 +33820,7 @@ class _BLTCXBT30M(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTCXBT30M"
     precision: int = 1e-06
@@ -31758,6 +33829,7 @@ class _BLTCXBT30M(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31784,6 +33856,7 @@ _BLTCXBT30M = _BLTCXBT30M()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31796,6 +33869,7 @@ class _BLTCXBT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTCXBT_NEXT"
     precision: int = 1e-06
@@ -31804,6 +33878,7 @@ class _BLTCXBT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31830,6 +33905,7 @@ _BLTCXBT_NEXT = _BLTCXBT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31842,6 +33918,7 @@ class _BLTC(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTC"
     precision: int = 0.001
@@ -31850,6 +33927,7 @@ class _BLTC(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31876,6 +33954,7 @@ _BLTC = _BLTC()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31888,6 +33967,7 @@ class _LTCUSDPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCUSDPI"
     precision: int = 1e-06
@@ -31896,6 +33976,7 @@ class _LTCUSDPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31922,6 +34003,7 @@ _LTCUSDPI = _LTCUSDPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31934,6 +34016,7 @@ class _LTCUSDPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCUSDPI8H"
     precision: int = 1e-06
@@ -31942,6 +34025,7 @@ class _LTCUSDPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -31968,6 +34052,7 @@ _LTCUSDPI8H = _LTCUSDPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -31980,6 +34065,7 @@ class _BLTC_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTC_NEXT"
     precision: int = 0.001
@@ -31988,6 +34074,7 @@ class _BLTC_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32014,6 +34101,7 @@ _BLTC_NEXT = _BLTC_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32026,6 +34114,7 @@ class _BLTCT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTCT"
     precision: int = 0.001
@@ -32034,6 +34123,7 @@ class _BLTCT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32060,6 +34150,7 @@ _BLTCT = _BLTCT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32072,6 +34163,7 @@ class _BLTCT_NEXT(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".BLTCT_NEXT"
     precision: int = 0.001
@@ -32080,6 +34172,7 @@ class _BLTCT_NEXT(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32106,6 +34199,7 @@ _BLTCT_NEXT = _BLTCT_NEXT()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32118,6 +34212,7 @@ class _LTCUSDTPI(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCUSDTPI"
     precision: int = 1e-06
@@ -32126,6 +34221,7 @@ class _LTCUSDTPI(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32152,6 +34248,7 @@ _LTCUSDTPI = _LTCUSDTPI()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32164,6 +34261,7 @@ class _LTCUSDTPI8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".LTCUSDTPI8H"
     precision: int = 1e-06
@@ -32172,6 +34270,7 @@ class _LTCUSDTPI8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32198,6 +34297,7 @@ _LTCUSDTPI8H = _LTCUSDTPI8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32210,6 +34310,7 @@ class _USDBON(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDBON"
     precision: int = 1e-06
@@ -32218,6 +34319,7 @@ class _USDBON(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32244,6 +34346,7 @@ _USDBON = _USDBON()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32256,6 +34359,7 @@ class _USDBON8H(NamedTuple):
         min_order_size: None
         max_order_size: None
         has_margin: False
+        exchange: bitmex
     """
     name: str = ".USDBON8H"
     precision: int = 1e-06
@@ -32264,6 +34368,7 @@ class _USDBON8H(NamedTuple):
     min_order_size: float = None
     max_order_size: float = None
     has_margin: bool = False
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32290,6 +34395,7 @@ _USDBON8H = _USDBON8H()
     min_order_size: None
     max_order_size: None
     has_margin: False
+    exchange: bitmex
 """
 
 
@@ -32302,6 +34408,7 @@ class XBTUSD(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTUSD"
     precision: int = 0.5
@@ -32310,6 +34417,7 @@ class XBTUSD(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32336,6 +34444,7 @@ XBTUSD = XBTUSD()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32348,6 +34457,7 @@ class XBTUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTUSDT"
     precision: int = 0.5
@@ -32356,6 +34466,7 @@ class XBTUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32382,6 +34493,7 @@ XBTUSDT = XBTUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32394,6 +34506,7 @@ class XBTEUR(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTEUR"
     precision: int = 0.5
@@ -32402,6 +34515,7 @@ class XBTEUR(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32428,6 +34542,7 @@ XBTEUR = XBTEUR()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32440,6 +34555,7 @@ class XBTG23(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTG23"
     precision: int = 0.5
@@ -32448,6 +34564,7 @@ class XBTG23(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32474,6 +34591,7 @@ XBTG23 = XBTG23()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32486,6 +34604,7 @@ class XBTH23(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTH23"
     precision: int = 0.5
@@ -32494,6 +34613,7 @@ class XBTH23(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32520,6 +34640,7 @@ XBTH23 = XBTH23()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32532,6 +34653,7 @@ class XBTUSDTH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTUSDTH23"
     precision: int = 0.5
@@ -32540,6 +34662,7 @@ class XBTUSDTH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32566,6 +34689,7 @@ XBTUSDTH23 = XBTUSDTH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32578,6 +34702,7 @@ class XBTM23(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTM23"
     precision: int = 0.5
@@ -32586,6 +34711,7 @@ class XBTM23(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32612,6 +34738,7 @@ XBTM23 = XBTM23()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32624,6 +34751,7 @@ class XBTUSDTM23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTUSDTM23"
     precision: int = 0.5
@@ -32632,6 +34760,7 @@ class XBTUSDTM23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32658,6 +34787,7 @@ XBTUSDTM23 = XBTUSDTM23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32670,6 +34800,7 @@ class XBTU23(NamedTuple):
         min_order_size: 100
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTU23"
     precision: int = 0.5
@@ -32678,6 +34809,7 @@ class XBTU23(NamedTuple):
     min_order_size: float = 100
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32704,6 +34836,7 @@ XBTU23 = XBTU23()
     min_order_size: 100
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32716,6 +34849,7 @@ class XBTUSDTU23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBTUSDTU23"
     precision: int = 0.5
@@ -32724,6 +34858,7 @@ class XBTUSDTU23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32750,6 +34885,7 @@ XBTUSDTU23 = XBTUSDTU23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32762,6 +34898,7 @@ class XBT_USDT(NamedTuple):
         min_order_size: 10000
         max_order_size: 100000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "XBT_USDT"
     precision: int = 0.5
@@ -32770,6 +34907,7 @@ class XBT_USDT(NamedTuple):
     min_order_size: float = 10000
     max_order_size: float = 100000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32796,6 +34934,7 @@ XBT_USDT = XBT_USDT()
     min_order_size: 10000
     max_order_size: 100000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32808,6 +34947,7 @@ class ETHUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSD"
     precision: int = 0.05
@@ -32816,6 +34956,7 @@ class ETHUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32842,6 +34983,7 @@ ETHUSD = ETHUSD()
     min_order_size: 1
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32854,6 +34996,7 @@ class ETHUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSDT"
     precision: int = 0.05
@@ -32862,6 +35005,7 @@ class ETHUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32888,6 +35032,7 @@ ETHUSDT = ETHUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32900,6 +35045,7 @@ class ETHUSD_ETH(NamedTuple):
         min_order_size: 1
         max_order_size: 100000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSD_ETH"
     precision: int = 0.05
@@ -32908,6 +35054,7 @@ class ETHUSD_ETH(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 100000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32934,6 +35081,7 @@ ETHUSD_ETH = ETHUSD_ETH()
     min_order_size: 1
     max_order_size: 100000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32946,6 +35094,7 @@ class ETHH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHH23"
     precision: int = 1e-05
@@ -32954,6 +35103,7 @@ class ETHH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -32980,6 +35130,7 @@ ETHH23 = ETHH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -32992,6 +35143,7 @@ class ETHUSDH23(NamedTuple):
         min_order_size: 1
         max_order_size: 10000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSDH23"
     precision: int = 0.05
@@ -33000,6 +35152,7 @@ class ETHUSDH23(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 10000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33026,6 +35179,7 @@ ETHUSDH23 = ETHUSDH23()
     min_order_size: 1
     max_order_size: 10000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33038,6 +35192,7 @@ class ETHUSDTH23(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSDTH23"
     precision: int = 0.05
@@ -33046,6 +35201,7 @@ class ETHUSDTH23(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33072,6 +35228,7 @@ ETHUSDTH23 = ETHUSDTH23()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33084,6 +35241,7 @@ class ETHUSDH23_ETH(NamedTuple):
         min_order_size: 1
         max_order_size: 100000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETHUSDH23_ETH"
     precision: int = 0.05
@@ -33092,6 +35250,7 @@ class ETHUSDH23_ETH(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 100000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33118,6 +35277,7 @@ ETHUSDH23_ETH = ETHUSDH23_ETH()
     min_order_size: 1
     max_order_size: 100000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33130,6 +35290,7 @@ class ETH_USDT(NamedTuple):
         min_order_size: 1000000
         max_order_size: 10000000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETH_USDT"
     precision: int = 0.05
@@ -33138,6 +35299,7 @@ class ETH_USDT(NamedTuple):
     min_order_size: float = 1000000
     max_order_size: float = 10000000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33164,6 +35326,7 @@ ETH_USDT = ETH_USDT()
     min_order_size: 1000000
     max_order_size: 10000000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33176,6 +35339,7 @@ class ETH_XBT(NamedTuple):
         min_order_size: 1000000
         max_order_size: 100000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "ETH_XBT"
     precision: int = 1e-07
@@ -33184,6 +35348,7 @@ class ETH_XBT(NamedTuple):
     min_order_size: float = 1000000
     max_order_size: float = 100000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33210,6 +35375,7 @@ ETH_XBT = ETH_XBT()
     min_order_size: 1000000
     max_order_size: 100000000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33222,6 +35388,7 @@ class LTCUSD(NamedTuple):
         min_order_size: 1
         max_order_size: 100000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LTCUSD"
     precision: int = 0.01
@@ -33230,6 +35397,7 @@ class LTCUSD(NamedTuple):
     min_order_size: float = 1
     max_order_size: float = 100000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33256,6 +35424,7 @@ LTCUSD = LTCUSD()
     min_order_size: 1
     max_order_size: 100000000
     has_margin: True
+    exchange: bitmex
 """
 
 
@@ -33268,6 +35437,7 @@ class LTCUSDT(NamedTuple):
         min_order_size: 1000
         max_order_size: 1000000000
         has_margin: True
+        exchange: bitmex
     """
     name: str = "LTCUSDT"
     precision: int = 0.01
@@ -33276,6 +35446,7 @@ class LTCUSDT(NamedTuple):
     min_order_size: float = 1000
     max_order_size: float = 1000000000
     has_margin: bool = True
+    exchange: str = "bitmex"
 
     def __eq__(self, other):
         if type(other) == str:
@@ -33302,50 +35473,5 @@ LTCUSDT = LTCUSDT()
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
-"""
-
-
-class XBTF23(NamedTuple):
-    """
-        name: XBTF23
-        precision: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-    """
-    name: str = "XBTF23"
-    precision: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTF23"
-
-    def __str__(self):
-        return "XBTF23"
-
-    def __call__(self):
-        return "XBTF23"
-
-
-XBTF23 = XBTF23()
-"""
-    name: XBTF23
-    precision: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
+    exchange: bitmex
 """
