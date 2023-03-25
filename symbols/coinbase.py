@@ -589,6 +589,55 @@ ACH_USDT = ACH_USDT()
 """
 
 
+class ACS_USD(NamedTuple):
+    """
+        name: ACS-USD
+        precision: 0.0000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "ACS-USD"
+    precision: int = 0.0000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ACS-USD"
+
+    def __str__(self):
+        return "ACS-USD"
+
+    def __call__(self):
+        return "ACS-USD"
+
+
+ACS_USD = ACS_USD()
+"""
+    name: ACS-USD
+    precision: 0.0000001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class ADA_BTC(NamedTuple):
     """
         name: ADA-BTC
@@ -2255,6 +2304,55 @@ APT_USDT = APT_USDT()
 """
 
 
+class ARB_USD(NamedTuple):
+    """
+        name: ARB-USD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "ARB-USD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARB-USD"
+
+    def __str__(self):
+        return "ARB-USD"
+
+    def __call__(self):
+        return "ARB-USD"
+
+
+ARB_USD = ARB_USD()
+"""
+    name: ARB-USD
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class ARPA_EUR(NamedTuple):
     """
         name: ARPA-EUR
@@ -3373,6 +3471,55 @@ AVT_USD = AVT_USD()
 """
     name: AVT-USD
     precision: 0.01
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class AXL_USD(NamedTuple):
+    """
+        name: AXL-USD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "AXL-USD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AXL-USD"
+
+    def __str__(self):
+        return "AXL-USD"
+
+    def __call__(self):
+        return "AXL-USD"
+
+
+AXL_USD = AXL_USD()
+"""
+    name: AXL-USD
+    precision: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4695,6 +4842,55 @@ class BIT_USDT(NamedTuple):
 BIT_USDT = BIT_USDT()
 """
     name: BIT-USDT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class BLUR_USD(NamedTuple):
+    """
+        name: BLUR-USD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "BLUR-USD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLUR-USD"
+
+    def __str__(self):
+        return "BLUR-USD"
+
+    def __call__(self):
+        return "BLUR-USD"
+
+
+BLUR_USD = BLUR_USD()
+"""
+    name: BLUR-USD
     precision: 0.0001
     min_margin: None
     initial_margin: None
@@ -10340,6 +10536,104 @@ ETH_USDT = ETH_USDT()
 """
 
 
+class EUROC_EUR(NamedTuple):
+    """
+        name: EUROC-EUR
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "EUROC-EUR"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EUROC-EUR"
+
+    def __str__(self):
+        return "EUROC-EUR"
+
+    def __call__(self):
+        return "EUROC-EUR"
+
+
+EUROC_EUR = EUROC_EUR()
+"""
+    name: EUROC-EUR
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class EUROC_USD(NamedTuple):
+    """
+        name: EUROC-USD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "EUROC-USD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EUROC-USD"
+
+    def __str__(self):
+        return "EUROC-USD"
+
+    def __call__(self):
+        return "EUROC-USD"
+
+
+EUROC_USD = EUROC_USD()
+"""
+    name: EUROC-USD
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class FARM_USD(NamedTuple):
     """
         name: FARM-USD
@@ -15338,6 +15632,104 @@ LRC_USDT = LRC_USDT()
 """
 
 
+class LSETH_ETH(NamedTuple):
+    """
+        name: LSETH-ETH
+        precision: 0.00001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.002
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "LSETH-ETH"
+    precision: int = 0.00001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.002
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LSETH-ETH"
+
+    def __str__(self):
+        return "LSETH-ETH"
+
+    def __call__(self):
+        return "LSETH-ETH"
+
+
+LSETH_ETH = LSETH_ETH()
+"""
+    name: LSETH-ETH
+    precision: 0.00001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.002
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class LSETH_USD(NamedTuple):
+    """
+        name: LSETH-USD
+        precision: 0.01
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "LSETH-USD"
+    precision: int = 0.01
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LSETH-USD"
+
+    def __str__(self):
+        return "LSETH-USD"
+
+    def __call__(self):
+        return "LSETH-USD"
+
+
+LSETH_USD = LSETH_USD()
+"""
+    name: LSETH-USD
+    precision: 0.01
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class LTC_BTC(NamedTuple):
     """
         name: LTC-BTC
@@ -20131,6 +20523,55 @@ POWR_USDT = POWR_USDT()
 """
     name: POWR-USDT
     precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class PRIME_USD(NamedTuple):
+    """
+        name: PRIME-USD
+        precision: 0.001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "PRIME-USD"
+    precision: int = 0.001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PRIME-USD"
+
+    def __str__(self):
+        return "PRIME-USD"
+
+    def __call__(self):
+        return "PRIME-USD"
+
+
+PRIME_USD = PRIME_USD()
+"""
+    name: PRIME-USD
+    precision: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26255,6 +26696,55 @@ class VGX_USDT(NamedTuple):
 VGX_USDT = VGX_USDT()
 """
     name: VGX-USDT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class VOXEL_USD(NamedTuple):
+    """
+        name: VOXEL-USD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "VOXEL-USD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "VOXEL-USD"
+
+    def __str__(self):
+        return "VOXEL-USD"
+
+    def __call__(self):
+        return "VOXEL-USD"
+
+
+VOXEL_USD = VOXEL_USD()
+"""
+    name: VOXEL-USD
     precision: 0.0001
     min_margin: None
     initial_margin: None

@@ -19748,2162 +19748,6 @@ _SEKBON8H = _SEKBON8H()
 """
 
 
-class _BEURUSD(NamedTuple):
-    """
-        name: .BEURUSD
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSD"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSD"
-
-    def __str__(self):
-        return ".BEURUSD"
-
-    def __call__(self):
-        return ".BEURUSD"
-
-
-_BEURUSD = _BEURUSD()
-"""
-    name: .BEURUSD
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDCHF(NamedTuple):
-    """
-        name: .BUSDCHF
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCHF"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCHF"
-
-    def __str__(self):
-        return ".BUSDCHF"
-
-    def __call__(self):
-        return ".BUSDCHF"
-
-
-_BUSDCHF = _BUSDCHF()
-"""
-    name: .BUSDCHF
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURCHF(NamedTuple):
-    """
-        name: .BEURCHF
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURCHF"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURCHF"
-
-    def __str__(self):
-        return ".BEURCHF"
-
-    def __call__(self):
-        return ".BEURCHF"
-
-
-_BEURCHF = _BEURCHF()
-"""
-    name: .BEURCHF
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURTRY(NamedTuple):
-    """
-        name: .BEURTRY
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURTRY"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURTRY"
-
-    def __str__(self):
-        return ".BEURTRY"
-
-    def __call__(self):
-        return ".BEURTRY"
-
-
-_BEURTRY = _BEURTRY()
-"""
-    name: .BEURTRY
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTRY(NamedTuple):
-    """
-        name: .BUSDTRY
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTRY"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTRY"
-
-    def __str__(self):
-        return ".BUSDTRY"
-
-    def __call__(self):
-        return ".BUSDTRY"
-
-
-_BUSDTRY = _BUSDTRY()
-"""
-    name: .BUSDTRY
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDINR(NamedTuple):
-    """
-        name: .BUSDINR
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDINR"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDINR"
-
-    def __str__(self):
-        return ".BUSDINR"
-
-    def __call__(self):
-        return ".BUSDINR"
-
-
-_BUSDINR = _BUSDINR()
-"""
-    name: .BUSDINR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDZAR(NamedTuple):
-    """
-        name: .BUSDZAR
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDZAR"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDZAR"
-
-    def __str__(self):
-        return ".BUSDZAR"
-
-    def __call__(self):
-        return ".BUSDZAR"
-
-
-_BUSDZAR = _BUSDZAR()
-"""
-    name: .BUSDZAR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDBRL(NamedTuple):
-    """
-        name: .BUSDBRL
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDBRL"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDBRL"
-
-    def __str__(self):
-        return ".BUSDBRL"
-
-    def __call__(self):
-        return ".BUSDBRL"
-
-
-_BUSDBRL = _BUSDBRL()
-"""
-    name: .BUSDBRL
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDMXN(NamedTuple):
-    """
-        name: .BUSDMXN
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDMXN"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDMXN"
-
-    def __str__(self):
-        return ".BUSDMXN"
-
-    def __call__(self):
-        return ".BUSDMXN"
-
-
-_BUSDMXN = _BUSDMXN()
-"""
-    name: .BUSDMXN
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSD(NamedTuple):
-    """
-        name: .BNZDUSD
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSD"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSD"
-
-    def __str__(self):
-        return ".BNZDUSD"
-
-    def __call__(self):
-        return ".BNZDUSD"
-
-
-_BNZDUSD = _BNZDUSD()
-"""
-    name: .BNZDUSD
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDCNH(NamedTuple):
-    """
-        name: .BUSDCNH
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCNH"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCNH"
-
-    def __str__(self):
-        return ".BUSDCNH"
-
-    def __call__(self):
-        return ".BUSDCNH"
-
-
-_BUSDCNH = _BUSDCNH()
-"""
-    name: .BUSDCNH
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDSEK(NamedTuple):
-    """
-        name: .BUSDSEK
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDSEK"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDSEK"
-
-    def __str__(self):
-        return ".BUSDSEK"
-
-    def __call__(self):
-        return ".BUSDSEK"
-
-
-_BUSDSEK = _BUSDSEK()
-"""
-    name: .BUSDSEK
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURUSD_NEXT(NamedTuple):
-    """
-        name: .BEURUSD_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSD_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSD_NEXT"
-
-    def __str__(self):
-        return ".BEURUSD_NEXT"
-
-    def __call__(self):
-        return ".BEURUSD_NEXT"
-
-
-_BEURUSD_NEXT = _BEURUSD_NEXT()
-"""
-    name: .BEURUSD_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDCHF_NEXT(NamedTuple):
-    """
-        name: .BUSDCHF_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCHF_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCHF_NEXT"
-
-    def __str__(self):
-        return ".BUSDCHF_NEXT"
-
-    def __call__(self):
-        return ".BUSDCHF_NEXT"
-
-
-_BUSDCHF_NEXT = _BUSDCHF_NEXT()
-"""
-    name: .BUSDCHF_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURCHF_NEXT(NamedTuple):
-    """
-        name: .BEURCHF_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURCHF_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURCHF_NEXT"
-
-    def __str__(self):
-        return ".BEURCHF_NEXT"
-
-    def __call__(self):
-        return ".BEURCHF_NEXT"
-
-
-_BEURCHF_NEXT = _BEURCHF_NEXT()
-"""
-    name: .BEURCHF_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURTRY_NEXT(NamedTuple):
-    """
-        name: .BEURTRY_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURTRY_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURTRY_NEXT"
-
-    def __str__(self):
-        return ".BEURTRY_NEXT"
-
-    def __call__(self):
-        return ".BEURTRY_NEXT"
-
-
-_BEURTRY_NEXT = _BEURTRY_NEXT()
-"""
-    name: .BEURTRY_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTRY_NEXT(NamedTuple):
-    """
-        name: .BUSDTRY_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTRY_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTRY_NEXT"
-
-    def __str__(self):
-        return ".BUSDTRY_NEXT"
-
-    def __call__(self):
-        return ".BUSDTRY_NEXT"
-
-
-_BUSDTRY_NEXT = _BUSDTRY_NEXT()
-"""
-    name: .BUSDTRY_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDINR_NEXT(NamedTuple):
-    """
-        name: .BUSDINR_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDINR_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDINR_NEXT"
-
-    def __str__(self):
-        return ".BUSDINR_NEXT"
-
-    def __call__(self):
-        return ".BUSDINR_NEXT"
-
-
-_BUSDINR_NEXT = _BUSDINR_NEXT()
-"""
-    name: .BUSDINR_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDZAR_NEXT(NamedTuple):
-    """
-        name: .BUSDZAR_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDZAR_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDZAR_NEXT"
-
-    def __str__(self):
-        return ".BUSDZAR_NEXT"
-
-    def __call__(self):
-        return ".BUSDZAR_NEXT"
-
-
-_BUSDZAR_NEXT = _BUSDZAR_NEXT()
-"""
-    name: .BUSDZAR_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDBRL_NEXT(NamedTuple):
-    """
-        name: .BUSDBRL_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDBRL_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDBRL_NEXT"
-
-    def __str__(self):
-        return ".BUSDBRL_NEXT"
-
-    def __call__(self):
-        return ".BUSDBRL_NEXT"
-
-
-_BUSDBRL_NEXT = _BUSDBRL_NEXT()
-"""
-    name: .BUSDBRL_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDMXN_NEXT(NamedTuple):
-    """
-        name: .BUSDMXN_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDMXN_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDMXN_NEXT"
-
-    def __str__(self):
-        return ".BUSDMXN_NEXT"
-
-    def __call__(self):
-        return ".BUSDMXN_NEXT"
-
-
-_BUSDMXN_NEXT = _BUSDMXN_NEXT()
-"""
-    name: .BUSDMXN_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSD_NEXT(NamedTuple):
-    """
-        name: .BNZDUSD_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSD_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSD_NEXT"
-
-    def __str__(self):
-        return ".BNZDUSD_NEXT"
-
-    def __call__(self):
-        return ".BNZDUSD_NEXT"
-
-
-_BNZDUSD_NEXT = _BNZDUSD_NEXT()
-"""
-    name: .BNZDUSD_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDCNH_NEXT(NamedTuple):
-    """
-        name: .BUSDCNH_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCNH_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCNH_NEXT"
-
-    def __str__(self):
-        return ".BUSDCNH_NEXT"
-
-    def __call__(self):
-        return ".BUSDCNH_NEXT"
-
-
-_BUSDCNH_NEXT = _BUSDCNH_NEXT()
-"""
-    name: .BUSDCNH_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDSEK_NEXT(NamedTuple):
-    """
-        name: .BUSDSEK_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDSEK_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDSEK_NEXT"
-
-    def __str__(self):
-        return ".BUSDSEK_NEXT"
-
-    def __call__(self):
-        return ".BUSDSEK_NEXT"
-
-
-_BUSDSEK_NEXT = _BUSDSEK_NEXT()
-"""
-    name: .BUSDSEK_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURUSDT(NamedTuple):
-    """
-        name: .BEURUSDT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSDT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSDT"
-
-    def __str__(self):
-        return ".BEURUSDT"
-
-    def __call__(self):
-        return ".BEURUSDT"
-
-
-_BEURUSDT = _BEURUSDT()
-"""
-    name: .BEURUSDT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCHF(NamedTuple):
-    """
-        name: .BUSDTCHF
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCHF"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCHF"
-
-    def __str__(self):
-        return ".BUSDTCHF"
-
-    def __call__(self):
-        return ".BUSDTCHF"
-
-
-_BUSDTCHF = _BUSDTCHF()
-"""
-    name: .BUSDTCHF
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTTRY(NamedTuple):
-    """
-        name: .BUSDTTRY
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTTRY"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTTRY"
-
-    def __str__(self):
-        return ".BUSDTTRY"
-
-    def __call__(self):
-        return ".BUSDTTRY"
-
-
-_BUSDTTRY = _BUSDTTRY()
-"""
-    name: .BUSDTTRY
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTINR(NamedTuple):
-    """
-        name: .BUSDTINR
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTINR"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTINR"
-
-    def __str__(self):
-        return ".BUSDTINR"
-
-    def __call__(self):
-        return ".BUSDTINR"
-
-
-_BUSDTINR = _BUSDTINR()
-"""
-    name: .BUSDTINR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTZAR(NamedTuple):
-    """
-        name: .BUSDTZAR
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTZAR"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTZAR"
-
-    def __str__(self):
-        return ".BUSDTZAR"
-
-    def __call__(self):
-        return ".BUSDTZAR"
-
-
-_BUSDTZAR = _BUSDTZAR()
-"""
-    name: .BUSDTZAR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTBRL(NamedTuple):
-    """
-        name: .BUSDTBRL
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTBRL"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTBRL"
-
-    def __str__(self):
-        return ".BUSDTBRL"
-
-    def __call__(self):
-        return ".BUSDTBRL"
-
-
-_BUSDTBRL = _BUSDTBRL()
-"""
-    name: .BUSDTBRL
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTMXN(NamedTuple):
-    """
-        name: .BUSDTMXN
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTMXN"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTMXN"
-
-    def __str__(self):
-        return ".BUSDTMXN"
-
-    def __call__(self):
-        return ".BUSDTMXN"
-
-
-_BUSDTMXN = _BUSDTMXN()
-"""
-    name: .BUSDTMXN
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSDT(NamedTuple):
-    """
-        name: .BNZDUSDT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSDT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSDT"
-
-    def __str__(self):
-        return ".BNZDUSDT"
-
-    def __call__(self):
-        return ".BNZDUSDT"
-
-
-_BNZDUSDT = _BNZDUSDT()
-"""
-    name: .BNZDUSDT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCNH(NamedTuple):
-    """
-        name: .BUSDTCNH
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCNH"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCNH"
-
-    def __str__(self):
-        return ".BUSDTCNH"
-
-    def __call__(self):
-        return ".BUSDTCNH"
-
-
-_BUSDTCNH = _BUSDTCNH()
-"""
-    name: .BUSDTCNH
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTSEK(NamedTuple):
-    """
-        name: .BUSDTSEK
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTSEK"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTSEK"
-
-    def __str__(self):
-        return ".BUSDTSEK"
-
-    def __call__(self):
-        return ".BUSDTSEK"
-
-
-_BUSDTSEK = _BUSDTSEK()
-"""
-    name: .BUSDTSEK
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURUSDT_NEXT(NamedTuple):
-    """
-        name: .BEURUSDT_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSDT_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSDT_NEXT"
-
-    def __str__(self):
-        return ".BEURUSDT_NEXT"
-
-    def __call__(self):
-        return ".BEURUSDT_NEXT"
-
-
-_BEURUSDT_NEXT = _BEURUSDT_NEXT()
-"""
-    name: .BEURUSDT_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCHF_NEXT(NamedTuple):
-    """
-        name: .BUSDTCHF_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCHF_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCHF_NEXT"
-
-    def __str__(self):
-        return ".BUSDTCHF_NEXT"
-
-    def __call__(self):
-        return ".BUSDTCHF_NEXT"
-
-
-_BUSDTCHF_NEXT = _BUSDTCHF_NEXT()
-"""
-    name: .BUSDTCHF_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTTRY_NEXT(NamedTuple):
-    """
-        name: .BUSDTTRY_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTTRY_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTTRY_NEXT"
-
-    def __str__(self):
-        return ".BUSDTTRY_NEXT"
-
-    def __call__(self):
-        return ".BUSDTTRY_NEXT"
-
-
-_BUSDTTRY_NEXT = _BUSDTTRY_NEXT()
-"""
-    name: .BUSDTTRY_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTINR_NEXT(NamedTuple):
-    """
-        name: .BUSDTINR_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTINR_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTINR_NEXT"
-
-    def __str__(self):
-        return ".BUSDTINR_NEXT"
-
-    def __call__(self):
-        return ".BUSDTINR_NEXT"
-
-
-_BUSDTINR_NEXT = _BUSDTINR_NEXT()
-"""
-    name: .BUSDTINR_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTZAR_NEXT(NamedTuple):
-    """
-        name: .BUSDTZAR_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTZAR_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTZAR_NEXT"
-
-    def __str__(self):
-        return ".BUSDTZAR_NEXT"
-
-    def __call__(self):
-        return ".BUSDTZAR_NEXT"
-
-
-_BUSDTZAR_NEXT = _BUSDTZAR_NEXT()
-"""
-    name: .BUSDTZAR_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTBRL_NEXT(NamedTuple):
-    """
-        name: .BUSDTBRL_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTBRL_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTBRL_NEXT"
-
-    def __str__(self):
-        return ".BUSDTBRL_NEXT"
-
-    def __call__(self):
-        return ".BUSDTBRL_NEXT"
-
-
-_BUSDTBRL_NEXT = _BUSDTBRL_NEXT()
-"""
-    name: .BUSDTBRL_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTMXN_NEXT(NamedTuple):
-    """
-        name: .BUSDTMXN_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTMXN_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTMXN_NEXT"
-
-    def __str__(self):
-        return ".BUSDTMXN_NEXT"
-
-    def __call__(self):
-        return ".BUSDTMXN_NEXT"
-
-
-_BUSDTMXN_NEXT = _BUSDTMXN_NEXT()
-"""
-    name: .BUSDTMXN_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSDT_NEXT(NamedTuple):
-    """
-        name: .BNZDUSDT_NEXT
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSDT_NEXT"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSDT_NEXT"
-
-    def __str__(self):
-        return ".BNZDUSDT_NEXT"
-
-    def __call__(self):
-        return ".BNZDUSDT_NEXT"
-
-
-_BNZDUSDT_NEXT = _BNZDUSDT_NEXT()
-"""
-    name: .BNZDUSDT_NEXT
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCNH_NEXT(NamedTuple):
-    """
-        name: .BUSDTCNH_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCNH_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCNH_NEXT"
-
-    def __str__(self):
-        return ".BUSDTCNH_NEXT"
-
-    def __call__(self):
-        return ".BUSDTCNH_NEXT"
-
-
-_BUSDTCNH_NEXT = _BUSDTCNH_NEXT()
-"""
-    name: .BUSDTCNH_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTSEK_NEXT(NamedTuple):
-    """
-        name: .BUSDTSEK_NEXT
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTSEK_NEXT"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTSEK_NEXT"
-
-    def __str__(self):
-        return ".BUSDTSEK_NEXT"
-
-    def __call__(self):
-        return ".BUSDTSEK_NEXT"
-
-
-_BUSDTSEK_NEXT = _BUSDTSEK_NEXT()
-"""
-    name: .BUSDTSEK_NEXT
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
 class _BOP(NamedTuple):
     """
         name: .BOP
@@ -25285,692 +23129,6 @@ _BFTTT = _BFTTT()
 """
 
 
-class _BUSDCHF30M(NamedTuple):
-    """
-        name: .BUSDCHF30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCHF30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCHF30M"
-
-    def __str__(self):
-        return ".BUSDCHF30M"
-
-    def __call__(self):
-        return ".BUSDCHF30M"
-
-
-_BUSDCHF30M = _BUSDCHF30M()
-"""
-    name: .BUSDCHF30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURCHF30M(NamedTuple):
-    """
-        name: .BEURCHF30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURCHF30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURCHF30M"
-
-    def __str__(self):
-        return ".BEURCHF30M"
-
-    def __call__(self):
-        return ".BEURCHF30M"
-
-
-_BEURCHF30M = _BEURCHF30M()
-"""
-    name: .BEURCHF30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURTRY30M(NamedTuple):
-    """
-        name: .BEURTRY30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURTRY30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURTRY30M"
-
-    def __str__(self):
-        return ".BEURTRY30M"
-
-    def __call__(self):
-        return ".BEURTRY30M"
-
-
-_BEURTRY30M = _BEURTRY30M()
-"""
-    name: .BEURTRY30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTRY30M(NamedTuple):
-    """
-        name: .BUSDTRY30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTRY30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTRY30M"
-
-    def __str__(self):
-        return ".BUSDTRY30M"
-
-    def __call__(self):
-        return ".BUSDTRY30M"
-
-
-_BUSDTRY30M = _BUSDTRY30M()
-"""
-    name: .BUSDTRY30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDINR30M(NamedTuple):
-    """
-        name: .BUSDINR30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDINR30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDINR30M"
-
-    def __str__(self):
-        return ".BUSDINR30M"
-
-    def __call__(self):
-        return ".BUSDINR30M"
-
-
-_BUSDINR30M = _BUSDINR30M()
-"""
-    name: .BUSDINR30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDZAR30M(NamedTuple):
-    """
-        name: .BUSDZAR30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDZAR30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDZAR30M"
-
-    def __str__(self):
-        return ".BUSDZAR30M"
-
-    def __call__(self):
-        return ".BUSDZAR30M"
-
-
-_BUSDZAR30M = _BUSDZAR30M()
-"""
-    name: .BUSDZAR30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDBRL30M(NamedTuple):
-    """
-        name: .BUSDBRL30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDBRL30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDBRL30M"
-
-    def __str__(self):
-        return ".BUSDBRL30M"
-
-    def __call__(self):
-        return ".BUSDBRL30M"
-
-
-_BUSDBRL30M = _BUSDBRL30M()
-"""
-    name: .BUSDBRL30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDMXN30M(NamedTuple):
-    """
-        name: .BUSDMXN30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDMXN30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDMXN30M"
-
-    def __str__(self):
-        return ".BUSDMXN30M"
-
-    def __call__(self):
-        return ".BUSDMXN30M"
-
-
-_BUSDMXN30M = _BUSDMXN30M()
-"""
-    name: .BUSDMXN30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSD30M(NamedTuple):
-    """
-        name: .BNZDUSD30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSD30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSD30M"
-
-    def __str__(self):
-        return ".BNZDUSD30M"
-
-    def __call__(self):
-        return ".BNZDUSD30M"
-
-
-_BNZDUSD30M = _BNZDUSD30M()
-"""
-    name: .BNZDUSD30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDCNH30M(NamedTuple):
-    """
-        name: .BUSDCNH30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDCNH30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDCNH30M"
-
-    def __str__(self):
-        return ".BUSDCNH30M"
-
-    def __call__(self):
-        return ".BUSDCNH30M"
-
-
-_BUSDCNH30M = _BUSDCNH30M()
-"""
-    name: .BUSDCNH30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDSEK30M(NamedTuple):
-    """
-        name: .BUSDSEK30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDSEK30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDSEK30M"
-
-    def __str__(self):
-        return ".BUSDSEK30M"
-
-    def __call__(self):
-        return ".BUSDSEK30M"
-
-
-_BUSDSEK30M = _BUSDSEK30M()
-"""
-    name: .BUSDSEK30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCHF30M(NamedTuple):
-    """
-        name: .BUSDTCHF30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCHF30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCHF30M"
-
-    def __str__(self):
-        return ".BUSDTCHF30M"
-
-    def __call__(self):
-        return ".BUSDTCHF30M"
-
-
-_BUSDTCHF30M = _BUSDTCHF30M()
-"""
-    name: .BUSDTCHF30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BNZDUSDT30M(NamedTuple):
-    """
-        name: .BNZDUSDT30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BNZDUSDT30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BNZDUSDT30M"
-
-    def __str__(self):
-        return ".BNZDUSDT30M"
-
-    def __call__(self):
-        return ".BNZDUSDT30M"
-
-
-_BNZDUSDT30M = _BNZDUSDT30M()
-"""
-    name: .BNZDUSDT30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTCNH30M(NamedTuple):
-    """
-        name: .BUSDTCNH30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTCNH30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTCNH30M"
-
-    def __str__(self):
-        return ".BUSDTCNH30M"
-
-    def __call__(self):
-        return ".BUSDTCNH30M"
-
-
-_BUSDTCNH30M = _BUSDTCNH30M()
-"""
-    name: .BUSDTCNH30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
 class _BSANDT30M(NamedTuple):
     """
         name: .BSANDT30M
@@ -28470,398 +25628,6 @@ _BETHYLD = _BETHYLD()
 """
 
 
-class _BEURUSD30M(NamedTuple):
-    """
-        name: .BEURUSD30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSD30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSD30M"
-
-    def __str__(self):
-        return ".BEURUSD30M"
-
-    def __call__(self):
-        return ".BEURUSD30M"
-
-
-_BEURUSD30M = _BEURUSD30M()
-"""
-    name: .BEURUSD30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BEURUSDT30M(NamedTuple):
-    """
-        name: .BEURUSDT30M
-        precision: 1e-05
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BEURUSDT30M"
-    precision: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BEURUSDT30M"
-
-    def __str__(self):
-        return ".BEURUSDT30M"
-
-    def __call__(self):
-        return ".BEURUSDT30M"
-
-
-_BEURUSDT30M = _BEURUSDT30M()
-"""
-    name: .BEURUSDT30M
-    precision: 1e-05
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTBRL30M(NamedTuple):
-    """
-        name: .BUSDTBRL30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTBRL30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTBRL30M"
-
-    def __str__(self):
-        return ".BUSDTBRL30M"
-
-    def __call__(self):
-        return ".BUSDTBRL30M"
-
-
-_BUSDTBRL30M = _BUSDTBRL30M()
-"""
-    name: .BUSDTBRL30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTINR30M(NamedTuple):
-    """
-        name: .BUSDTINR30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTINR30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTINR30M"
-
-    def __str__(self):
-        return ".BUSDTINR30M"
-
-    def __call__(self):
-        return ".BUSDTINR30M"
-
-
-_BUSDTINR30M = _BUSDTINR30M()
-"""
-    name: .BUSDTINR30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTMXN30M(NamedTuple):
-    """
-        name: .BUSDTMXN30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTMXN30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTMXN30M"
-
-    def __str__(self):
-        return ".BUSDTMXN30M"
-
-    def __call__(self):
-        return ".BUSDTMXN30M"
-
-
-_BUSDTMXN30M = _BUSDTMXN30M()
-"""
-    name: .BUSDTMXN30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTSEK30M(NamedTuple):
-    """
-        name: .BUSDTSEK30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTSEK30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTSEK30M"
-
-    def __str__(self):
-        return ".BUSDTSEK30M"
-
-    def __call__(self):
-        return ".BUSDTSEK30M"
-
-
-_BUSDTSEK30M = _BUSDTSEK30M()
-"""
-    name: .BUSDTSEK30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTTRY30M(NamedTuple):
-    """
-        name: .BUSDTTRY30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTTRY30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTTRY30M"
-
-    def __str__(self):
-        return ".BUSDTTRY30M"
-
-    def __call__(self):
-        return ".BUSDTTRY30M"
-
-
-_BUSDTTRY30M = _BUSDTTRY30M()
-"""
-    name: .BUSDTTRY30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
-class _BUSDTZAR30M(NamedTuple):
-    """
-        name: .BUSDTZAR30M
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: bitmex
-    """
-    name: str = ".BUSDTZAR30M"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return ".BUSDTZAR30M"
-
-    def __str__(self):
-        return ".BUSDTZAR30M"
-
-    def __call__(self):
-        return ".BUSDTZAR30M"
-
-
-_BUSDTZAR30M = _BUSDTZAR30M()
-"""
-    name: .BUSDTZAR30M
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: bitmex
-"""
-
-
 class _BFLRT(NamedTuple):
     """
         name: .BFLRT
@@ -29401,6 +26167,1770 @@ _BFLR_NEXT = _BFLR_NEXT()
 """
 
 
+class _BLURBON(NamedTuple):
+    """
+        name: .BLURBON
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURBON"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURBON"
+
+    def __str__(self):
+        return ".BLURBON"
+
+    def __call__(self):
+        return ".BLURBON"
+
+
+_BLURBON = _BLURBON()
+"""
+    name: .BLURBON
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BLURBON8H(NamedTuple):
+    """
+        name: .BLURBON8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURBON8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURBON8H"
+
+    def __str__(self):
+        return ".BLURBON8H"
+
+    def __call__(self):
+        return ".BLURBON8H"
+
+
+_BLURBON8H = _BLURBON8H()
+"""
+    name: .BLURBON8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BLURUSDTPI(NamedTuple):
+    """
+        name: .BLURUSDTPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURUSDTPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURUSDTPI"
+
+    def __str__(self):
+        return ".BLURUSDTPI"
+
+    def __call__(self):
+        return ".BLURUSDTPI"
+
+
+_BLURUSDTPI = _BLURUSDTPI()
+"""
+    name: .BLURUSDTPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BLURUSDTPI8H(NamedTuple):
+    """
+        name: .BLURUSDTPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURUSDTPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURUSDTPI8H"
+
+    def __str__(self):
+        return ".BLURUSDTPI8H"
+
+    def __call__(self):
+        return ".BLURUSDTPI8H"
+
+
+_BLURUSDTPI8H = _BLURUSDTPI8H()
+"""
+    name: .BLURUSDTPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BLURUSDPI(NamedTuple):
+    """
+        name: .BLURUSDPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURUSDPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURUSDPI"
+
+    def __str__(self):
+        return ".BLURUSDPI"
+
+    def __call__(self):
+        return ".BLURUSDPI"
+
+
+_BLURUSDPI = _BLURUSDPI()
+"""
+    name: .BLURUSDPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BLURUSDPI8H(NamedTuple):
+    """
+        name: .BLURUSDPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BLURUSDPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BLURUSDPI8H"
+
+    def __str__(self):
+        return ".BLURUSDPI8H"
+
+    def __call__(self):
+        return ".BLURUSDPI8H"
+
+
+_BLURUSDPI8H = _BLURUSDPI8H()
+"""
+    name: .BLURUSDPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BBLUR(NamedTuple):
+    """
+        name: .BBLUR
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BBLUR"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BBLUR"
+
+    def __str__(self):
+        return ".BBLUR"
+
+    def __call__(self):
+        return ".BBLUR"
+
+
+_BBLUR = _BBLUR()
+"""
+    name: .BBLUR
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BBLUR_NEXT(NamedTuple):
+    """
+        name: .BBLUR_NEXT
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BBLUR_NEXT"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BBLUR_NEXT"
+
+    def __str__(self):
+        return ".BBLUR_NEXT"
+
+    def __call__(self):
+        return ".BBLUR_NEXT"
+
+
+_BBLUR_NEXT = _BBLUR_NEXT()
+"""
+    name: .BBLUR_NEXT
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BBLURT(NamedTuple):
+    """
+        name: .BBLURT
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BBLURT"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BBLURT"
+
+    def __str__(self):
+        return ".BBLURT"
+
+    def __call__(self):
+        return ".BBLURT"
+
+
+_BBLURT = _BBLURT()
+"""
+    name: .BBLURT
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BBLURT_NEXT(NamedTuple):
+    """
+        name: .BBLURT_NEXT
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BBLURT_NEXT"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BBLURT_NEXT"
+
+    def __str__(self):
+        return ".BBLURT_NEXT"
+
+    def __call__(self):
+        return ".BBLURT_NEXT"
+
+
+_BBLURT_NEXT = _BBLURT_NEXT()
+"""
+    name: .BBLURT_NEXT
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BGMXT(NamedTuple):
+    """
+        name: .BGMXT
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BGMXT"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BGMXT"
+
+    def __str__(self):
+        return ".BGMXT"
+
+    def __call__(self):
+        return ".BGMXT"
+
+
+_BGMXT = _BGMXT()
+"""
+    name: .BGMXT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BGMXT_NEXT(NamedTuple):
+    """
+        name: .BGMXT_NEXT
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BGMXT_NEXT"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BGMXT_NEXT"
+
+    def __str__(self):
+        return ".BGMXT_NEXT"
+
+    def __call__(self):
+        return ".BGMXT_NEXT"
+
+
+_BGMXT_NEXT = _BGMXT_NEXT()
+"""
+    name: .BGMXT_NEXT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BGMX(NamedTuple):
+    """
+        name: .BGMX
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BGMX"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BGMX"
+
+    def __str__(self):
+        return ".BGMX"
+
+    def __call__(self):
+        return ".BGMX"
+
+
+_BGMX = _BGMX()
+"""
+    name: .BGMX
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BGMX_NEXT(NamedTuple):
+    """
+        name: .BGMX_NEXT
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BGMX_NEXT"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BGMX_NEXT"
+
+    def __str__(self):
+        return ".BGMX_NEXT"
+
+    def __call__(self):
+        return ".BGMX_NEXT"
+
+
+_BGMX_NEXT = _BGMX_NEXT()
+"""
+    name: .BGMX_NEXT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXBON(NamedTuple):
+    """
+        name: .GMXBON
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXBON"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXBON"
+
+    def __str__(self):
+        return ".GMXBON"
+
+    def __call__(self):
+        return ".GMXBON"
+
+
+_GMXBON = _GMXBON()
+"""
+    name: .GMXBON
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXBON8H(NamedTuple):
+    """
+        name: .GMXBON8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXBON8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXBON8H"
+
+    def __str__(self):
+        return ".GMXBON8H"
+
+    def __call__(self):
+        return ".GMXBON8H"
+
+
+_GMXBON8H = _GMXBON8H()
+"""
+    name: .GMXBON8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXUSDTPI(NamedTuple):
+    """
+        name: .GMXUSDTPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXUSDTPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXUSDTPI"
+
+    def __str__(self):
+        return ".GMXUSDTPI"
+
+    def __call__(self):
+        return ".GMXUSDTPI"
+
+
+_GMXUSDTPI = _GMXUSDTPI()
+"""
+    name: .GMXUSDTPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXUSDTPI8H(NamedTuple):
+    """
+        name: .GMXUSDTPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXUSDTPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXUSDTPI8H"
+
+    def __str__(self):
+        return ".GMXUSDTPI8H"
+
+    def __call__(self):
+        return ".GMXUSDTPI8H"
+
+
+_GMXUSDTPI8H = _GMXUSDTPI8H()
+"""
+    name: .GMXUSDTPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXUSDPI(NamedTuple):
+    """
+        name: .GMXUSDPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXUSDPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXUSDPI"
+
+    def __str__(self):
+        return ".GMXUSDPI"
+
+    def __call__(self):
+        return ".GMXUSDPI"
+
+
+_GMXUSDPI = _GMXUSDPI()
+"""
+    name: .GMXUSDPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _GMXUSDPI8H(NamedTuple):
+    """
+        name: .GMXUSDPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".GMXUSDPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".GMXUSDPI8H"
+
+    def __str__(self):
+        return ".GMXUSDPI8H"
+
+    def __call__(self):
+        return ".GMXUSDPI8H"
+
+
+_GMXUSDPI8H = _GMXUSDPI8H()
+"""
+    name: .GMXUSDPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _USDCBON(NamedTuple):
+    """
+        name: .USDCBON
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".USDCBON"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".USDCBON"
+
+    def __str__(self):
+        return ".USDCBON"
+
+    def __call__(self):
+        return ".USDCBON"
+
+
+_USDCBON = _USDCBON()
+"""
+    name: .USDCBON
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _USDCBON8H(NamedTuple):
+    """
+        name: .USDCBON8H
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".USDCBON8H"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".USDCBON8H"
+
+    def __str__(self):
+        return ".USDCBON8H"
+
+    def __call__(self):
+        return ".USDCBON8H"
+
+
+_USDCBON8H = _USDCBON8H()
+"""
+    name: .USDCBON8H
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _USDTUSDCPI(NamedTuple):
+    """
+        name: .USDTUSDCPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".USDTUSDCPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".USDTUSDCPI"
+
+    def __str__(self):
+        return ".USDTUSDCPI"
+
+    def __call__(self):
+        return ".USDTUSDCPI"
+
+
+_USDTUSDCPI = _USDTUSDCPI()
+"""
+    name: .USDTUSDCPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _USDTUSDCPI8H(NamedTuple):
+    """
+        name: .USDTUSDCPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".USDTUSDCPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".USDTUSDCPI8H"
+
+    def __str__(self):
+        return ".USDTUSDCPI8H"
+
+    def __call__(self):
+        return ".USDTUSDCPI8H"
+
+
+_USDTUSDCPI8H = _USDTUSDCPI8H()
+"""
+    name: .USDTUSDCPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BUSDTUSDC(NamedTuple):
+    """
+        name: .BUSDTUSDC
+        precision: 0.001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BUSDTUSDC"
+    precision: int = 0.001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BUSDTUSDC"
+
+    def __str__(self):
+        return ".BUSDTUSDC"
+
+    def __call__(self):
+        return ".BUSDTUSDC"
+
+
+_BUSDTUSDC = _BUSDTUSDC()
+"""
+    name: .BUSDTUSDC
+    precision: 0.001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BARBT(NamedTuple):
+    """
+        name: .BARBT
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BARBT"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BARBT"
+
+    def __str__(self):
+        return ".BARBT"
+
+    def __call__(self):
+        return ".BARBT"
+
+
+_BARBT = _BARBT()
+"""
+    name: .BARBT
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BARBT_NEXT(NamedTuple):
+    """
+        name: .BARBT_NEXT
+        precision: 1e-05
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BARBT_NEXT"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BARBT_NEXT"
+
+    def __str__(self):
+        return ".BARBT_NEXT"
+
+    def __call__(self):
+        return ".BARBT_NEXT"
+
+
+_BARBT_NEXT = _BARBT_NEXT()
+"""
+    name: .BARBT_NEXT
+    precision: 1e-05
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BARBT30M(NamedTuple):
+    """
+        name: .BARBT30M
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BARBT30M"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BARBT30M"
+
+    def __str__(self):
+        return ".BARBT30M"
+
+    def __call__(self):
+        return ".BARBT30M"
+
+
+_BARBT30M = _BARBT30M()
+"""
+    name: .BARBT30M
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BARB(NamedTuple):
+    """
+        name: .BARB
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BARB"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BARB"
+
+    def __str__(self):
+        return ".BARB"
+
+    def __call__(self):
+        return ".BARB"
+
+
+_BARB = _BARB()
+"""
+    name: .BARB
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BARB_NEXT(NamedTuple):
+    """
+        name: .BARB_NEXT
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BARB_NEXT"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BARB_NEXT"
+
+    def __str__(self):
+        return ".BARB_NEXT"
+
+    def __call__(self):
+        return ".BARB_NEXT"
+
+
+_BARB_NEXT = _BARB_NEXT()
+"""
+    name: .BARB_NEXT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBBON(NamedTuple):
+    """
+        name: .ARBBON
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBBON"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBBON"
+
+    def __str__(self):
+        return ".ARBBON"
+
+    def __call__(self):
+        return ".ARBBON"
+
+
+_ARBBON = _ARBBON()
+"""
+    name: .ARBBON
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBBON8H(NamedTuple):
+    """
+        name: .ARBBON8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBBON8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBBON8H"
+
+    def __str__(self):
+        return ".ARBBON8H"
+
+    def __call__(self):
+        return ".ARBBON8H"
+
+
+_ARBBON8H = _ARBBON8H()
+"""
+    name: .ARBBON8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBUSDTPI(NamedTuple):
+    """
+        name: .ARBUSDTPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBUSDTPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBUSDTPI"
+
+    def __str__(self):
+        return ".ARBUSDTPI"
+
+    def __call__(self):
+        return ".ARBUSDTPI"
+
+
+_ARBUSDTPI = _ARBUSDTPI()
+"""
+    name: .ARBUSDTPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBUSDTPI8H(NamedTuple):
+    """
+        name: .ARBUSDTPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBUSDTPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBUSDTPI8H"
+
+    def __str__(self):
+        return ".ARBUSDTPI8H"
+
+    def __call__(self):
+        return ".ARBUSDTPI8H"
+
+
+_ARBUSDTPI8H = _ARBUSDTPI8H()
+"""
+    name: .ARBUSDTPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBUSDPI(NamedTuple):
+    """
+        name: .ARBUSDPI
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBUSDPI"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBUSDPI"
+
+    def __str__(self):
+        return ".ARBUSDPI"
+
+    def __call__(self):
+        return ".ARBUSDPI"
+
+
+_ARBUSDPI = _ARBUSDPI()
+"""
+    name: .ARBUSDPI
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _ARBUSDPI8H(NamedTuple):
+    """
+        name: .ARBUSDPI8H
+        precision: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".ARBUSDPI8H"
+    precision: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".ARBUSDPI8H"
+
+    def __str__(self):
+        return ".ARBUSDPI8H"
+
+    def __call__(self):
+        return ".ARBUSDPI8H"
+
+
+_ARBUSDPI8H = _ARBUSDPI8H()
+"""
+    name: .ARBUSDPI8H
+    precision: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
 class ADAH23(NamedTuple):
     """
         name: ADAH23
@@ -29541,6 +28071,153 @@ FLRUSDTH23 = FLRUSDTH23()
     precision: 0.0001
     min_margin: None
     initial_margin: 0.5
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ADAM23(NamedTuple):
+    """
+        name: ADAM23
+        precision: 1e-08
+        min_margin: None
+        initial_margin: 0.05
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ADAM23"
+    precision: int = 1e-08
+    min_margin: float = None
+    initial_margin: float = 0.05
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ADAM23"
+
+    def __str__(self):
+        return "ADAM23"
+
+    def __call__(self):
+        return "ADAM23"
+
+
+ADAM23 = ADAM23()
+"""
+    name: ADAM23
+    precision: 1e-08
+    min_margin: None
+    initial_margin: 0.05
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XRPM23(NamedTuple):
+    """
+        name: XRPM23
+        precision: 1e-08
+        min_margin: None
+        initial_margin: 0.05
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XRPM23"
+    precision: int = 1e-08
+    min_margin: float = None
+    initial_margin: float = 0.05
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XRPM23"
+
+    def __str__(self):
+        return "XRPM23"
+
+    def __call__(self):
+        return "XRPM23"
+
+
+XRPM23 = XRPM23()
+"""
+    name: XRPM23
+    precision: 1e-08
+    min_margin: None
+    initial_margin: 0.05
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ARBUSDTM23(NamedTuple):
+    """
+        name: ARBUSDTM23
+        precision: 0.001
+        min_margin: None
+        initial_margin: 0.05
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ARBUSDTM23"
+    precision: int = 0.001
+    min_margin: float = None
+    initial_margin: float = 0.05
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBUSDTM23"
+
+    def __str__(self):
+        return "ARBUSDTM23"
+
+    def __call__(self):
+        return "ARBUSDTM23"
+
+
+ARBUSDTM23 = ARBUSDTM23()
+"""
+    name: ARBUSDTM23
+    precision: 0.001
+    min_margin: None
+    initial_margin: 0.05
     min_order_size: 1000
     max_order_size: 1000000000
     has_margin: True
@@ -30127,6 +28804,153 @@ FLRUSD = FLRUSD()
 """
     name: FLRUSD
     precision: 0.0001
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class BLURUSD(NamedTuple):
+    """
+        name: BLURUSD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "BLURUSD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLURUSD"
+
+    def __str__(self):
+        return "BLURUSD"
+
+    def __call__(self):
+        return "BLURUSD"
+
+
+BLURUSD = BLURUSD()
+"""
+    name: BLURUSD
+    precision: 0.0001
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class GMXUSD(NamedTuple):
+    """
+        name: GMXUSD
+        precision: 0.01
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 1000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "GMXUSD"
+    precision: int = 0.01
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 1000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GMXUSD"
+
+    def __str__(self):
+        return "GMXUSD"
+
+    def __call__(self):
+        return "GMXUSD"
+
+
+GMXUSD = GMXUSD()
+"""
+    name: GMXUSD
+    precision: 0.01
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 1000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ARBUSD(NamedTuple):
+    """
+        name: ARBUSD
+        precision: 0.001
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ARBUSD"
+    precision: int = 0.001
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBUSD"
+
+    def __str__(self):
+        return "ARBUSD"
+
+    def __call__(self):
+        return "ARBUSD"
+
+
+ARBUSD = ARBUSD()
+"""
+    name: ARBUSD
+    precision: 0.001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -30969,6 +29793,153 @@ FLRUSDT = FLRUSDT()
 """
 
 
+class BLURUSDT(NamedTuple):
+    """
+        name: BLURUSDT
+        precision: 0.0001
+        min_margin: None
+        initial_margin: 0.03
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "BLURUSDT"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = 0.03
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLURUSDT"
+
+    def __str__(self):
+        return "BLURUSDT"
+
+    def __call__(self):
+        return "BLURUSDT"
+
+
+BLURUSDT = BLURUSDT()
+"""
+    name: BLURUSDT
+    precision: 0.0001
+    min_margin: None
+    initial_margin: 0.03
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class GMXUSDT(NamedTuple):
+    """
+        name: GMXUSDT
+        precision: 0.01
+        min_margin: None
+        initial_margin: 0.03
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "GMXUSDT"
+    precision: int = 0.01
+    min_margin: float = None
+    initial_margin: float = 0.03
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GMXUSDT"
+
+    def __str__(self):
+        return "GMXUSDT"
+
+    def __call__(self):
+        return "GMXUSDT"
+
+
+GMXUSDT = GMXUSDT()
+"""
+    name: GMXUSDT
+    precision: 0.01
+    min_margin: None
+    initial_margin: 0.03
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ARBUSDT(NamedTuple):
+    """
+        name: ARBUSDT
+        precision: 0.001
+        min_margin: None
+        initial_margin: 0.03
+        min_order_size: 100
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ARBUSDT"
+    precision: int = 0.001
+    min_margin: float = None
+    initial_margin: float = 0.03
+    min_order_size: float = 100
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBUSDT"
+
+    def __str__(self):
+        return "ARBUSDT"
+
+    def __call__(self):
+        return "ARBUSDT"
+
+
+ARBUSDT = ARBUSDT()
+"""
+    name: ARBUSDT
+    precision: 0.001
+    min_margin: None
+    initial_margin: 0.03
+    min_order_size: 100
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
 class LUNAUSD(NamedTuple):
     """
         name: LUNAUSD
@@ -31307,6 +30278,55 @@ LUNAUSDT = LUNAUSDT()
     initial_margin: 0.05
     min_order_size: 1000
     max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class USDTUSDC(NamedTuple):
+    """
+        name: USDTUSDC
+        precision: 0.0001
+        min_margin: None
+        initial_margin: 0.1
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "USDTUSDC"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = 0.1
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDTUSDC"
+
+    def __str__(self):
+        return "USDTUSDC"
+
+    def __call__(self):
+        return "USDTUSDC"
+
+
+USDTUSDC = USDTUSDC()
+"""
+    name: USDTUSDC
+    precision: 0.0001
+    min_margin: None
+    initial_margin: 0.1
+    min_order_size: 1
+    max_order_size: 100000000
     has_margin: True
     exchange: bitmex
 """
@@ -34546,55 +33566,6 @@ XBTEUR = XBTEUR()
 """
 
 
-class XBTG23(NamedTuple):
-    """
-        name: XBTG23
-        precision: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTG23"
-    precision: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTG23"
-
-    def __str__(self):
-        return "XBTG23"
-
-    def __call__(self):
-        return "XBTG23"
-
-
-XBTG23 = XBTG23()
-"""
-    name: XBTG23
-    precision: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
 class XBTH23(NamedTuple):
     """
         name: XBTH23
@@ -34688,6 +33659,55 @@ XBTUSDTH23 = XBTUSDTH23()
     initial_margin: 0.01
     min_order_size: 1000
     max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTJ23(NamedTuple):
+    """
+        name: XBTJ23
+        precision: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTJ23"
+    precision: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTJ23"
+
+    def __str__(self):
+        return "XBTJ23"
+
+    def __call__(self):
+        return "XBTJ23"
+
+
+XBTJ23 = XBTJ23()
+"""
+    name: XBTJ23
+    precision: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
     has_margin: True
     exchange: bitmex
 """
@@ -34884,6 +33904,55 @@ XBTUSDTU23 = XBTUSDTU23()
     initial_margin: 0.01
     min_order_size: 1000
     max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTZ23(NamedTuple):
+    """
+        name: XBTZ23
+        precision: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTZ23"
+    precision: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTZ23"
+
+    def __str__(self):
+        return "XBTZ23"
+
+    def __call__(self):
+        return "XBTZ23"
+
+
+XBTZ23 = XBTZ23()
+"""
+    name: XBTZ23
+    precision: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
     has_margin: True
     exchange: bitmex
 """
@@ -35276,6 +34345,153 @@ ETHUSDH23_ETH = ETHUSDH23_ETH()
     initial_margin: 0.02
     min_order_size: 1
     max_order_size: 100000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHM23(NamedTuple):
+    """
+        name: ETHM23
+        precision: 1e-05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHM23"
+    precision: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHM23"
+
+    def __str__(self):
+        return "ETHM23"
+
+    def __call__(self):
+        return "ETHM23"
+
+
+ETHM23 = ETHM23()
+"""
+    name: ETHM23
+    precision: 1e-05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSDM23(NamedTuple):
+    """
+        name: ETHUSDM23
+        precision: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSDM23"
+    precision: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSDM23"
+
+    def __str__(self):
+        return "ETHUSDM23"
+
+    def __call__(self):
+        return "ETHUSDM23"
+
+
+ETHUSDM23 = ETHUSDM23()
+"""
+    name: ETHUSDM23
+    precision: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSDTM23(NamedTuple):
+    """
+        name: ETHUSDTM23
+        precision: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSDTM23"
+    precision: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSDTM23"
+
+    def __str__(self):
+        return "ETHUSDTM23"
+
+    def __call__(self):
+        return "ETHUSDTM23"
+
+
+ETHUSDTM23 = ETHUSDTM23()
+"""
+    name: ETHUSDTM23
+    precision: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1000
+    max_order_size: 1000000000
     has_margin: True
     exchange: bitmex
 """

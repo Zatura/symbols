@@ -99,62 +99,13 @@ ONEINCHUSD = ONEINCHUSD()
 """
 
 
-class AAVEAUD(NamedTuple):
-    """
-        name: AAVEAUD
-        precision: 0.01
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.15
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "AAVEAUD"
-    precision: int = 0.01
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.15
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AAVEAUD"
-
-    def __str__(self):
-        return "AAVEAUD"
-
-    def __call__(self):
-        return "AAVEAUD"
-
-
-AAVEAUD = AAVEAUD()
-"""
-    name: AAVEAUD
-    precision: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class AAVEETH(NamedTuple):
     """
         name: AAVEETH
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.15
+        min_order_size: 0.07
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -163,7 +114,7 @@ class AAVEETH(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.15
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -190,7 +141,7 @@ AAVEETH = AAVEETH()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.15
+    min_order_size: 0.07
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -203,7 +154,7 @@ class AAVEEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.15
+        min_order_size: 0.07
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -212,7 +163,7 @@ class AAVEEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.15
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -239,7 +190,7 @@ AAVEEUR = AAVEEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.15
+    min_order_size: 0.07
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -252,7 +203,7 @@ class AAVEGBP(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.15
+        min_order_size: 0.07
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -261,7 +212,7 @@ class AAVEGBP(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.15
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -288,7 +239,7 @@ AAVEGBP = AAVEGBP()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.15
+    min_order_size: 0.07
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -301,7 +252,7 @@ class AAVEUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.15
+        min_order_size: 0.07
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -310,7 +261,7 @@ class AAVEUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.15
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -337,7 +288,7 @@ AAVEUSD = AAVEUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.15
+    min_order_size: 0.07
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -350,7 +301,7 @@ class AAVEXBT(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.15
+        min_order_size: 0.07
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -359,7 +310,7 @@ class AAVEXBT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.15
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -386,7 +337,7 @@ AAVEXBT = AAVEXBT()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.15
+    min_order_size: 0.07
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -497,7 +448,7 @@ class ACHEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 325
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -506,7 +457,7 @@ class ACHEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 325
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -533,7 +484,7 @@ ACHEUR = ACHEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 325
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -546,7 +497,7 @@ class ACHUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 325
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -555,7 +506,7 @@ class ACHUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 325
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -582,7 +533,7 @@ ACHUSD = ACHUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 325
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -938,7 +889,7 @@ class ADXEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 40
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -947,7 +898,7 @@ class ADXEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 40
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -974,7 +925,7 @@ ADXEUR = ADXEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 40
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -987,7 +938,7 @@ class ADXUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 40
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -996,7 +947,7 @@ class ADXUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 40
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1023,7 +974,7 @@ ADXUSD = ADXUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 40
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1036,7 +987,7 @@ class AGLDEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 11
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1045,7 +996,7 @@ class AGLDEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 11
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1072,7 +1023,7 @@ AGLDEUR = AGLDEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 11
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1085,7 +1036,7 @@ class AGLDUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 11
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1094,7 +1045,7 @@ class AGLDUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 11
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1121,7 +1072,7 @@ AGLDUSD = AGLDUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 11
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1134,7 +1085,7 @@ class AIREUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 700
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1143,7 +1094,7 @@ class AIREUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 700
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1170,7 +1121,7 @@ AIREUR = AIREUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 700
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1183,7 +1134,7 @@ class AIRUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 700
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1192,7 +1143,7 @@ class AIRUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 700
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1219,7 +1170,7 @@ AIRUSD = AIRUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 700
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1232,7 +1183,7 @@ class AKTEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 10
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1241,7 +1192,7 @@ class AKTEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1268,7 +1219,7 @@ AKTEUR = AKTEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 10
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1281,7 +1232,7 @@ class AKTUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 10
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1290,7 +1241,7 @@ class AKTUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1317,7 +1268,7 @@ AKTUSD = AKTUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 10
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1428,7 +1379,7 @@ class ALGOETH(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1437,7 +1388,7 @@ class ALGOETH(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1464,7 +1415,7 @@ ALGOETH = ALGOETH()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1477,7 +1428,7 @@ class ALGOEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -1486,7 +1437,7 @@ class ALGOEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -1513,7 +1464,7 @@ ALGOEUR = ALGOEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -1526,7 +1477,7 @@ class ALGOGBP(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1535,7 +1486,7 @@ class ALGOGBP(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1562,7 +1513,7 @@ ALGOGBP = ALGOGBP()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1575,7 +1526,7 @@ class ALGOUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -1584,7 +1535,7 @@ class ALGOUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -1611,7 +1562,7 @@ ALGOUSD = ALGOUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -1624,7 +1575,7 @@ class ALGOUSDT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1633,7 +1584,7 @@ class ALGOUSDT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1660,7 +1611,7 @@ ALGOUSDT = ALGOUSDT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1673,7 +1624,7 @@ class ALGOXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 2.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -1682,7 +1633,7 @@ class ALGOXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 2.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -1709,7 +1660,7 @@ ALGOXBT = ALGOXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 2.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -1722,7 +1673,7 @@ class ALICEEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1731,7 +1682,7 @@ class ALICEEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1758,7 +1709,7 @@ ALICEEUR = ALICEEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1771,7 +1722,7 @@ class ALICEUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -1780,7 +1731,7 @@ class ALICEUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -1807,7 +1758,7 @@ ALICEUSD = ALICEUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -1961,55 +1912,6 @@ ANKREUR = ANKREUR()
 """
 
 
-class ANKRGBP(NamedTuple):
-    """
-        name: ANKRGBP
-        precision: 0.00001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 200
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "ANKRGBP"
-    precision: int = 0.00001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 200
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ANKRGBP"
-
-    def __str__(self):
-        return "ANKRGBP"
-
-    def __call__(self):
-        return "ANKRGBP"
-
-
-ANKRGBP = ANKRGBP()
-"""
-    name: ANKRGBP
-    precision: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 200
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class ANKRUSD(NamedTuple):
     """
         name: ANKRUSD
@@ -2114,7 +2016,7 @@ class ANTETH(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2123,7 +2025,7 @@ class ANTETH(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2150,7 +2052,7 @@ ANTETH = ANTETH()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2163,7 +2065,7 @@ class ANTEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2172,7 +2074,7 @@ class ANTEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2199,7 +2101,7 @@ ANTEUR = ANTEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2212,7 +2114,7 @@ class ANTUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2221,7 +2123,7 @@ class ANTUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2248,7 +2150,7 @@ ANTUSD = ANTUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2261,7 +2163,7 @@ class ANTXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2270,7 +2172,7 @@ class ANTXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2297,7 +2199,7 @@ ANTXBT = ANTXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2310,7 +2212,7 @@ class APEEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -2319,7 +2221,7 @@ class APEEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -2346,7 +2248,7 @@ APEEUR = APEEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -2359,7 +2261,7 @@ class APEUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -2368,7 +2270,7 @@ class APEUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -2395,7 +2297,7 @@ APEUSD = APEUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -2408,7 +2310,7 @@ class APEUSDT(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2417,7 +2319,7 @@ class APEUSDT(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2444,7 +2346,7 @@ APEUSDT = APEUSDT()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2555,18 +2457,18 @@ class APTEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 0.35
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "APTEUR"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 0.35
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -2591,9 +2493,9 @@ APTEUR = APTEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 0.35
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -2604,18 +2506,18 @@ class APTUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 0.35
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "APTUSD"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 0.35
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -2640,7 +2542,105 @@ APTUSD = APTUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 0.35
+    max_order_size: None
+    has_margin: True
+    exchange: kraken
+"""
+
+
+class ARBEUR(NamedTuple):
+    """
+        name: ARBEUR
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 5
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "ARBEUR"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 5
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBEUR"
+
+    def __str__(self):
+        return "ARBEUR"
+
+    def __call__(self):
+        return "ARBEUR"
+
+
+ARBEUR = ARBEUR()
+"""
+    name: ARBEUR
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 5
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class ARBUSD(NamedTuple):
+    """
+        name: ARBUSD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 5
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "ARBUSD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 5
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBUSD"
+
+    def __str__(self):
+        return "ARBUSD"
+
+    def __call__(self):
+        return "ARBUSD"
+
+
+ARBUSD = ARBUSD()
+"""
+    name: ARBUSD
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2653,7 +2653,7 @@ class ARPAEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2662,7 +2662,7 @@ class ARPAEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2689,7 +2689,7 @@ ARPAEUR = ARPAEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2702,7 +2702,7 @@ class ARPAUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2711,7 +2711,7 @@ class ARPAUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2738,7 +2738,7 @@ ARPAUSD = ARPAUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2751,7 +2751,7 @@ class ASTREUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 125
+        min_order_size: 60
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2760,7 +2760,7 @@ class ASTREUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 125
+    min_order_size: float = 60
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2787,7 +2787,7 @@ ASTREUR = ASTREUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 125
+    min_order_size: 60
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2800,7 +2800,7 @@ class ASTRUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 125
+        min_order_size: 60
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2809,7 +2809,7 @@ class ASTRUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 125
+    min_order_size: float = 60
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2836,7 +2836,7 @@ ASTRUSD = ASTRUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 125
+    min_order_size: 60
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2849,7 +2849,7 @@ class ATLASEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1350
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2858,7 +2858,7 @@ class ATLASEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1350
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2885,7 +2885,7 @@ ATLASEUR = ATLASEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1350
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -2898,7 +2898,7 @@ class ATLASUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1350
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -2907,7 +2907,7 @@ class ATLASUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1350
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -2934,56 +2934,7 @@ ATLASUSD = ATLASUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class ATOMAUD(NamedTuple):
-    """
-        name: ATOMAUD
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.5
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "ATOMAUD"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.5
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ATOMAUD"
-
-    def __str__(self):
-        return "ATOMAUD"
-
-    def __call__(self):
-        return "ATOMAUD"
-
-
-ATOMAUD = ATOMAUD()
-"""
-    name: ATOMAUD
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.5
+    min_order_size: 1350
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -3290,7 +3241,7 @@ class AUDIOEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 30
+        min_order_size: 20
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -3299,7 +3250,7 @@ class AUDIOEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 30
+    min_order_size: float = 20
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -3326,7 +3277,7 @@ AUDIOEUR = AUDIOEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 30
+    min_order_size: 20
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -3339,7 +3290,7 @@ class AUDIOUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 30
+        min_order_size: 20
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -3348,7 +3299,7 @@ class AUDIOUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 30
+    min_order_size: float = 20
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -3375,7 +3326,7 @@ AUDIOUSD = AUDIOUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 30
+    min_order_size: 20
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -3486,7 +3437,7 @@ class AVAXEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.4
+        min_order_size: 0.3
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -3495,7 +3446,7 @@ class AVAXEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.4
+    min_order_size: float = 0.3
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -3522,7 +3473,7 @@ AVAXEUR = AVAXEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.4
+    min_order_size: 0.3
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -3535,7 +3486,7 @@ class AVAXUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.4
+        min_order_size: 0.3
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -3544,7 +3495,7 @@ class AVAXUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.4
+    min_order_size: float = 0.3
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -3571,7 +3522,7 @@ AVAXUSD = AVAXUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.4
+    min_order_size: 0.3
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -3584,7 +3535,7 @@ class AVAXUSDT(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.4
+        min_order_size: 0.3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -3593,7 +3544,7 @@ class AVAXUSDT(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.4
+    min_order_size: float = 0.3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -3620,7 +3571,7 @@ AVAXUSDT = AVAXUSDT()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.4
+    min_order_size: 0.3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -3817,55 +3768,6 @@ BADGERUSD = BADGERUSD()
     min_margin: None
     initial_margin: None
     min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class BALETH(NamedTuple):
-    """
-        name: BALETH
-        precision: 0.00001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 1
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "BALETH"
-    precision: int = 0.00001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 1
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BALETH"
-
-    def __str__(self):
-        return "BALETH"
-
-    def __call__(self):
-        return "BALETH"
-
-
-BALETH = BALETH()
-"""
-    name: BALETH
-    precision: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -4858,7 +4760,7 @@ class BITEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 17.5
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -4867,7 +4769,7 @@ class BITEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 17.5
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -4894,7 +4796,7 @@ BITEUR = BITEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 17.5
+    min_order_size: 9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -4907,7 +4809,7 @@ class BITUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 17.5
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -4916,7 +4818,7 @@ class BITUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 17.5
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -4943,9 +4845,107 @@ BITUSD = BITUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 17.5
+    min_order_size: 9
     max_order_size: None
     has_margin: False
+    exchange: kraken
+"""
+
+
+class BLUREUR(NamedTuple):
+    """
+        name: BLUREUR
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 7.5
+        max_order_size: None
+        has_margin: True
+        exchange: kraken
+    """
+    name: str = "BLUREUR"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 7.5
+    max_order_size: float = None
+    has_margin: bool = True
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLUREUR"
+
+    def __str__(self):
+        return "BLUREUR"
+
+    def __call__(self):
+        return "BLUREUR"
+
+
+BLUREUR = BLUREUR()
+"""
+    name: BLUREUR
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 7.5
+    max_order_size: None
+    has_margin: True
+    exchange: kraken
+"""
+
+
+class BLURUSD(NamedTuple):
+    """
+        name: BLURUSD
+        precision: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 7.5
+        max_order_size: None
+        has_margin: True
+        exchange: kraken
+    """
+    name: str = "BLURUSD"
+    precision: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 7.5
+    max_order_size: float = None
+    has_margin: bool = True
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLURUSD"
+
+    def __str__(self):
+        return "BLURUSD"
+
+    def __call__(self):
+        return "BLURUSD"
+
+
+BLURUSD = BLURUSD()
+"""
+    name: BLURUSD
+    precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 7.5
+    max_order_size: None
+    has_margin: True
     exchange: kraken
 """
 
@@ -4956,7 +4956,7 @@ class BLZEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 85
+        min_order_size: 55
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -4965,7 +4965,7 @@ class BLZEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 85
+    min_order_size: float = 55
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -4992,7 +4992,7 @@ BLZEUR = BLZEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 85
+    min_order_size: 55
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5005,7 +5005,7 @@ class BLZUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 85
+        min_order_size: 55
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5014,7 +5014,7 @@ class BLZUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 85
+    min_order_size: float = 55
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5041,7 +5041,7 @@ BLZUSD = BLZUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 85
+    min_order_size: 55
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5054,7 +5054,7 @@ class BNCEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 12.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5063,7 +5063,7 @@ class BNCEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 12.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5090,7 +5090,7 @@ BNCEUR = BNCEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 12.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5103,7 +5103,7 @@ class BNCUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 12.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5112,7 +5112,7 @@ class BNCUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 12.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5139,7 +5139,7 @@ BNCUSD = BNCUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 12.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5185,55 +5185,6 @@ class BNTEUR(NamedTuple):
 BNTEUR = BNTEUR()
 """
     name: BNTEUR
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class BNTGBP(NamedTuple):
-    """
-        name: BNTGBP
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 15
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "BNTGBP"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 15
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BNTGBP"
-
-    def __str__(self):
-        return "BNTGBP"
-
-    def __call__(self):
-        return "BNTGBP"
-
-
-BNTGBP = BNTGBP()
-"""
-    name: BNTGBP
     precision: 0.001
     min_margin: None
     initial_margin: None
@@ -5446,7 +5397,7 @@ class BONDEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5455,7 +5406,7 @@ class BONDEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5482,7 +5433,7 @@ BONDEUR = BONDEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5495,7 +5446,7 @@ class BONDUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5504,7 +5455,7 @@ class BONDUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5531,7 +5482,7 @@ BONDUSD = BONDUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5544,7 +5495,7 @@ class BSXEUR(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 60000
+        min_order_size: 35000
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5553,7 +5504,7 @@ class BSXEUR(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 60000
+    min_order_size: float = 35000
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5580,7 +5531,7 @@ BSXEUR = BSXEUR()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 60000
+    min_order_size: 35000
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5593,7 +5544,7 @@ class BSXUSD(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 60000
+        min_order_size: 35000
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5602,7 +5553,7 @@ class BSXUSD(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 60000
+    min_order_size: float = 35000
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5629,7 +5580,7 @@ BSXUSD = BSXUSD()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 60000
+    min_order_size: 35000
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5838,7 +5789,7 @@ class CELREUR(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5847,7 +5798,7 @@ class CELREUR(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5874,7 +5825,7 @@ CELREUR = CELREUR()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -5887,7 +5838,7 @@ class CELRUSD(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -5896,7 +5847,7 @@ class CELRUSD(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -5923,7 +5874,7 @@ CELRUSD = CELRUSD()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6034,7 +5985,7 @@ class CHREUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 40
+        min_order_size: 28
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6043,7 +5994,7 @@ class CHREUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 40
+    min_order_size: float = 28
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6070,7 +6021,7 @@ CHREUR = CHREUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 40
+    min_order_size: 28
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6083,7 +6034,7 @@ class CHRUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 40
+        min_order_size: 28
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6092,7 +6043,7 @@ class CHRUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 40
+    min_order_size: float = 28
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6119,7 +6070,7 @@ CHRUSD = CHRUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 40
+    min_order_size: 28
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6132,7 +6083,7 @@ class CHZEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 40
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6141,7 +6092,7 @@ class CHZEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 40
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6168,7 +6119,7 @@ CHZEUR = CHZEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 40
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6181,7 +6132,7 @@ class CHZUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 40
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6190,7 +6141,7 @@ class CHZUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 40
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6217,56 +6168,7 @@ CHZUSD = CHZUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class COMPETH(NamedTuple):
-    """
-        name: COMPETH
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.2
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "COMPETH"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.2
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "COMPETH"
-
-    def __str__(self):
-        return "COMPETH"
-
-    def __call__(self):
-        return "COMPETH"
-
-
-COMPETH = COMPETH()
-"""
-    name: COMPETH
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
+    min_order_size: 40
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6279,7 +6181,7 @@ class COMPEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.2
+        min_order_size: 0.11
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -6288,7 +6190,7 @@ class COMPEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.2
+    min_order_size: float = 0.11
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -6315,7 +6217,7 @@ COMPEUR = COMPEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.2
+    min_order_size: 0.11
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -6328,7 +6230,7 @@ class COMPUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.2
+        min_order_size: 0.11
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -6337,7 +6239,7 @@ class COMPUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.2
+    min_order_size: float = 0.11
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -6364,7 +6266,7 @@ COMPUSD = COMPUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.2
+    min_order_size: 0.11
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -6377,7 +6279,7 @@ class COMPXBT(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.2
+        min_order_size: 0.11
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6386,7 +6288,7 @@ class COMPXBT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.2
+    min_order_size: float = 0.11
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6413,7 +6315,7 @@ COMPXBT = COMPXBT()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.2
+    min_order_size: 0.11
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6524,7 +6426,7 @@ class CQTEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 35
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6533,7 +6435,7 @@ class CQTEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 35
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6560,7 +6462,7 @@ CQTEUR = CQTEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 35
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6573,7 +6475,7 @@ class CQTUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 35
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6582,7 +6484,7 @@ class CQTUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 35
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6609,7 +6511,7 @@ CQTUSD = CQTUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 35
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6622,7 +6524,7 @@ class CRVETH(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6631,7 +6533,7 @@ class CRVETH(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6658,7 +6560,7 @@ CRVETH = CRVETH()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6671,7 +6573,7 @@ class CRVEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -6680,7 +6582,7 @@ class CRVEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -6707,7 +6609,7 @@ CRVEUR = CRVEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -6720,7 +6622,7 @@ class CRVUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -6729,7 +6631,7 @@ class CRVUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -6756,7 +6658,7 @@ CRVUSD = CRVUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -6769,7 +6671,7 @@ class CRVXBT(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6778,7 +6680,7 @@ class CRVXBT(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6805,7 +6707,7 @@ CRVXBT = CRVXBT()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6818,7 +6720,7 @@ class CSMEUR(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 1250
+        min_order_size: 300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6827,7 +6729,7 @@ class CSMEUR(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1250
+    min_order_size: float = 300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6854,7 +6756,7 @@ CSMEUR = CSMEUR()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 1250
+    min_order_size: 300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6867,7 +6769,7 @@ class CSMUSD(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 1250
+        min_order_size: 300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6876,7 +6778,7 @@ class CSMUSD(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1250
+    min_order_size: float = 300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6903,7 +6805,7 @@ CSMUSD = CSMUSD()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 1250
+    min_order_size: 300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6916,7 +6818,7 @@ class CTSIEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 33
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6925,7 +6827,7 @@ class CTSIEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 33
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -6952,7 +6854,7 @@ CTSIEUR = CTSIEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 33
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -6965,7 +6867,7 @@ class CTSIUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 33
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -6974,7 +6876,7 @@ class CTSIUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 33
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -7001,7 +6903,7 @@ CTSIUSD = CTSIUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 33
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -7112,7 +7014,7 @@ class CVXEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 1.2
+        min_order_size: 0.9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -7121,7 +7023,7 @@ class CVXEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.2
+    min_order_size: float = 0.9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -7148,7 +7050,7 @@ CVXEUR = CVXEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 1.2
+    min_order_size: 0.9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -7161,7 +7063,7 @@ class CVXUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 1.2
+        min_order_size: 0.9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -7170,7 +7072,7 @@ class CVXUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.2
+    min_order_size: float = 0.9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -7197,7 +7099,7 @@ CVXUSD = CVXUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 1.2
+    min_order_size: 0.9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -7357,7 +7259,7 @@ class DASHEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.13
+        min_order_size: 0.075
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -7366,7 +7268,7 @@ class DASHEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.13
+    min_order_size: float = 0.075
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -7393,7 +7295,7 @@ DASHEUR = DASHEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.13
+    min_order_size: 0.075
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -7406,7 +7308,7 @@ class DASHUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.13
+        min_order_size: 0.075
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -7415,7 +7317,7 @@ class DASHUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.13
+    min_order_size: float = 0.075
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -7442,7 +7344,7 @@ DASHUSD = DASHUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.13
+    min_order_size: 0.075
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -7455,7 +7357,7 @@ class DASHXBT(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.13
+        min_order_size: 0.075
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -7464,7 +7366,7 @@ class DASHXBT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.13
+    min_order_size: float = 0.075
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -7491,7 +7393,7 @@ DASHXBT = DASHXBT()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.13
+    min_order_size: 0.075
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -7590,55 +7492,6 @@ DENTUSD = DENTUSD()
     min_margin: None
     initial_margin: None
     min_order_size: 7000
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class DOTAUD(NamedTuple):
-    """
-        name: DOTAUD
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 1
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "DOTAUD"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 1
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DOTAUD"
-
-    def __str__(self):
-        return "DOTAUD"
-
-    def __call__(self):
-        return "DOTAUD"
-
-
-DOTAUD = DOTAUD()
-"""
-    name: DOTAUD
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9366,7 +9219,7 @@ class EURAUD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9375,7 +9228,7 @@ class EURAUD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9402,7 +9255,7 @@ EURAUD = EURAUD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9415,7 +9268,7 @@ class EURCAD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9424,7 +9277,7 @@ class EURCAD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9451,7 +9304,7 @@ EURCAD = EURCAD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9464,7 +9317,7 @@ class EURCHF(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9473,7 +9326,7 @@ class EURCHF(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9500,7 +9353,7 @@ EURCHF = EURCHF()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9513,7 +9366,7 @@ class EURGBP(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9522,7 +9375,7 @@ class EURGBP(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9549,7 +9402,7 @@ EURGBP = EURGBP()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9562,7 +9415,7 @@ class EURJPY(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9571,7 +9424,7 @@ class EURJPY(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9598,7 +9451,7 @@ EURJPY = EURJPY()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9611,7 +9464,7 @@ class EWTEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9620,7 +9473,7 @@ class EWTEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9647,7 +9500,7 @@ EWTEUR = EWTEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9660,7 +9513,7 @@ class EWTGBP(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9669,7 +9522,7 @@ class EWTGBP(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9696,7 +9549,7 @@ EWTGBP = EWTGBP()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9709,7 +9562,7 @@ class EWTUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9718,7 +9571,7 @@ class EWTUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9745,7 +9598,7 @@ EWTUSD = EWTUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9758,7 +9611,7 @@ class EWTXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.25
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9767,7 +9620,7 @@ class EWTXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.25
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9794,7 +9647,7 @@ EWTXBT = EWTXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9905,7 +9758,7 @@ class FETEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 12.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9914,7 +9767,7 @@ class FETEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 12.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9941,7 +9794,7 @@ FETEUR = FETEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 12.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -9954,7 +9807,7 @@ class FETUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 12.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -9963,7 +9816,7 @@ class FETUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 12.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -9990,7 +9843,7 @@ FETUSD = FETUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 12.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -10003,7 +9856,7 @@ class FIDAEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 12
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -10012,7 +9865,7 @@ class FIDAEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 12
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -10039,7 +9892,7 @@ FIDAEUR = FIDAEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 12
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -10052,7 +9905,7 @@ class FIDAUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 12
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -10061,7 +9914,7 @@ class FIDAUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 12
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -10088,56 +9941,7 @@ FIDAUSD = FIDAUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class FILAUD(NamedTuple):
-    """
-        name: FILAUD
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 1.25
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "FILAUD"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 1.25
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FILAUD"
-
-    def __str__(self):
-        return "FILAUD"
-
-    def __call__(self):
-        return "FILAUD"
-
-
-FILAUD = FILAUD()
-"""
-    name: FILAUD
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.25
+    min_order_size: 12
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -10395,7 +10199,7 @@ class FISEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 15
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -10404,7 +10208,7 @@ class FISEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 15
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -10431,7 +10235,7 @@ FISEUR = FISEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 15
+    min_order_size: 9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -10444,7 +10248,7 @@ class FISUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 15
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -10453,7 +10257,7 @@ class FISUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 15
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -10480,7 +10284,7 @@ FISUSD = FISUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 15
+    min_order_size: 9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -10738,18 +10542,18 @@ class FLREUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 125
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "FLREUR"
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 125
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -10774,9 +10578,9 @@ FLREUR = FLREUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 125
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -10787,18 +10591,18 @@ class FLRUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 125
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "FLRUSD"
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 125
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -10823,9 +10627,9 @@ FLRUSD = FLRUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 125
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -10934,18 +10738,18 @@ class FTMEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 10
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "FTMEUR"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 10
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -10970,9 +10774,9 @@ FTMEUR = FTMEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 10
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -10983,18 +10787,18 @@ class FTMUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 10
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "FTMUSD"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 10
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -11019,9 +10823,9 @@ FTMUSD = FTMUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 10
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -11130,7 +10934,7 @@ class GALAEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 120
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -11139,7 +10943,7 @@ class GALAEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 120
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -11166,7 +10970,7 @@ GALAEUR = GALAEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 120
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -11179,7 +10983,7 @@ class GALAUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 120
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -11188,7 +10992,7 @@ class GALAUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 120
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -11215,7 +11019,7 @@ GALAUSD = GALAUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 120
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -11326,7 +11130,7 @@ class GARIEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 85
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -11335,7 +11139,7 @@ class GARIEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 85
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -11362,7 +11166,7 @@ GARIEUR = GARIEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 85
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -11375,7 +11179,7 @@ class GARIUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 85
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -11384,7 +11188,7 @@ class GARIUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 85
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -11411,7 +11215,7 @@ GARIUSD = GARIUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 85
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -11457,55 +11261,6 @@ class GHSTEUR(NamedTuple):
 GHSTEUR = GHSTEUR()
 """
     name: GHSTEUR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class GHSTGBP(NamedTuple):
-    """
-        name: GHSTGBP
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 5
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "GHSTGBP"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 5
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GHSTGBP"
-
-    def __str__(self):
-        return "GHSTGBP"
-
-    def __call__(self):
-        return "GHSTGBP"
-
-
-GHSTGBP = GHSTGBP()
-"""
-    name: GHSTGBP
     precision: 0.0001
     min_margin: None
     initial_margin: None
@@ -11810,22 +11565,22 @@ GMTUSD = GMTUSD()
 """
 
 
-class GNOETH(NamedTuple):
+class GMXEUR(NamedTuple):
     """
-        name: GNOETH
-        precision: 0.0001
+        name: GMXEUR
+        precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.06
+        min_order_size: 0.05
         max_order_size: None
         has_margin: False
         exchange: kraken
     """
-    name: str = "GNOETH"
-    precision: int = 0.0001
+    name: str = "GMXEUR"
+    precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.06
+    min_order_size: float = 0.05
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -11837,22 +11592,71 @@ class GNOETH(NamedTuple):
             return self.name == other.name
 
     def __repr__(self):
-        return "GNOETH"
+        return "GMXEUR"
 
     def __str__(self):
-        return "GNOETH"
+        return "GMXEUR"
 
     def __call__(self):
-        return "GNOETH"
+        return "GMXEUR"
 
 
-GNOETH = GNOETH()
+GMXEUR = GMXEUR()
 """
-    name: GNOETH
-    precision: 0.0001
+    name: GMXEUR
+    precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.06
+    min_order_size: 0.05
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class GMXUSD(NamedTuple):
+    """
+        name: GMXUSD
+        precision: 0.01
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.05
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "GMXUSD"
+    precision: int = 0.01
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.05
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GMXUSD"
+
+    def __str__(self):
+        return "GMXUSD"
+
+    def __call__(self):
+        return "GMXUSD"
+
+
+GMXUSD = GMXUSD()
+"""
+    name: GMXUSD
+    precision: 0.01
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.05
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12006,111 +11810,13 @@ GNOXBT = GNOXBT()
 """
 
 
-class GRTAUD(NamedTuple):
-    """
-        name: GRTAUD
-        precision: 0.00001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 80
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "GRTAUD"
-    precision: int = 0.00001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 80
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GRTAUD"
-
-    def __str__(self):
-        return "GRTAUD"
-
-    def __call__(self):
-        return "GRTAUD"
-
-
-GRTAUD = GRTAUD()
-"""
-    name: GRTAUD
-    precision: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 80
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class GRTETH(NamedTuple):
-    """
-        name: GRTETH
-        precision: 0.0000001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 80
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "GRTETH"
-    precision: int = 0.0000001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 80
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GRTETH"
-
-    def __str__(self):
-        return "GRTETH"
-
-    def __call__(self):
-        return "GRTETH"
-
-
-GRTETH = GRTETH()
-"""
-    name: GRTETH
-    precision: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 80
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class GRTEUR(NamedTuple):
     """
         name: GRTEUR
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 80
+        min_order_size: 30
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -12119,7 +11825,7 @@ class GRTEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 80
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -12146,7 +11852,7 @@ GRTEUR = GRTEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 80
+    min_order_size: 30
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -12159,7 +11865,7 @@ class GRTGBP(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 80
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12168,7 +11874,7 @@ class GRTGBP(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 80
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12195,7 +11901,7 @@ GRTGBP = GRTGBP()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 80
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12208,7 +11914,7 @@ class GRTUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 80
+        min_order_size: 30
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -12217,7 +11923,7 @@ class GRTUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 80
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -12244,7 +11950,7 @@ GRTUSD = GRTUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 80
+    min_order_size: 30
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -12257,7 +11963,7 @@ class GRTXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 80
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12266,7 +11972,7 @@ class GRTXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 80
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12293,7 +11999,7 @@ GRTXBT = GRTXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 80
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12306,7 +12012,7 @@ class GSTEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12315,7 +12021,7 @@ class GSTEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12342,7 +12048,7 @@ GSTEUR = GSTEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12355,7 +12061,7 @@ class GSTUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 200
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12364,7 +12070,7 @@ class GSTUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 200
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12391,7 +12097,7 @@ GSTUSD = GSTUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 200
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12502,7 +12208,7 @@ class HDXEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 700
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12511,7 +12217,7 @@ class HDXEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 700
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12538,7 +12244,7 @@ HDXEUR = HDXEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 700
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12551,7 +12257,7 @@ class HDXUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 700
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12560,7 +12266,7 @@ class HDXUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 700
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12587,7 +12293,7 @@ HDXUSD = HDXUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 700
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12698,7 +12404,7 @@ class ICPEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12707,7 +12413,7 @@ class ICPEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12734,7 +12440,7 @@ ICPEUR = ICPEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -12747,7 +12453,7 @@ class ICPUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -12756,7 +12462,7 @@ class ICPUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -12783,7 +12489,7 @@ ICPUSD = ICPUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13090,7 +12796,7 @@ class IMXEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13099,7 +12805,7 @@ class IMXEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13126,7 +12832,7 @@ IMXEUR = IMXEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13139,7 +12845,7 @@ class IMXUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13148,7 +12854,7 @@ class IMXUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13175,7 +12881,7 @@ IMXUSD = IMXUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13188,7 +12894,7 @@ class INJEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13197,7 +12903,7 @@ class INJEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13224,7 +12930,7 @@ INJEUR = INJEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13237,7 +12943,7 @@ class INJUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13246,7 +12952,7 @@ class INJUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13273,7 +12979,7 @@ INJUSD = INJUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13384,7 +13090,7 @@ class JASMYEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 1250
+        min_order_size: 800
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13393,7 +13099,7 @@ class JASMYEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1250
+    min_order_size: float = 800
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13420,7 +13126,7 @@ JASMYEUR = JASMYEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 1250
+    min_order_size: 800
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13433,7 +13139,7 @@ class JASMYUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 1250
+        min_order_size: 800
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13442,7 +13148,7 @@ class JASMYUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1250
+    min_order_size: float = 800
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13469,7 +13175,7 @@ JASMYUSD = JASMYUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 1250
+    min_order_size: 800
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13482,7 +13188,7 @@ class JUNOEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 4
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13491,7 +13197,7 @@ class JUNOEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13518,7 +13224,7 @@ JUNOEUR = JUNOEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 4
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13531,7 +13237,7 @@ class JUNOUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 2.5
+        min_order_size: 4
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13540,7 +13246,7 @@ class JUNOUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2.5
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13567,7 +13273,7 @@ JUNOUSD = JUNOUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 2.5
+    min_order_size: 4
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13580,7 +13286,7 @@ class KAREUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 22.5
+        min_order_size: 25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13589,7 +13295,7 @@ class KAREUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 22.5
+    min_order_size: float = 25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13616,7 +13322,7 @@ KAREUR = KAREUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 22.5
+    min_order_size: 25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13629,7 +13335,7 @@ class KARUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 22.5
+        min_order_size: 25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13638,7 +13344,7 @@ class KARUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 22.5
+    min_order_size: float = 25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13665,7 +13371,7 @@ KARUSD = KARUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 22.5
+    min_order_size: 25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13678,7 +13384,7 @@ class KAVAETH(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13687,7 +13393,7 @@ class KAVAETH(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13714,7 +13420,7 @@ KAVAETH = KAVAETH()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13727,7 +13433,7 @@ class KAVAEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 6
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -13736,7 +13442,7 @@ class KAVAEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -13763,7 +13469,7 @@ KAVAEUR = KAVAEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 6
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -13776,7 +13482,7 @@ class KAVAUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 6
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -13785,7 +13491,7 @@ class KAVAUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -13812,7 +13518,7 @@ KAVAUSD = KAVAUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 6
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -13825,7 +13531,7 @@ class KAVAXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -13834,7 +13540,7 @@ class KAVAXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -13861,56 +13567,7 @@ KAVAXBT = KAVAXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class KEEPETH(NamedTuple):
-    """
-        name: KEEPETH
-        precision: 0.0000001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 75
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "KEEPETH"
-    precision: int = 0.0000001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 75
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KEEPETH"
-
-    def __str__(self):
-        return "KEEPETH"
-
-    def __call__(self):
-        return "KEEPETH"
-
-
-KEEPETH = KEEPETH()
-"""
-    name: KEEPETH
-    precision: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 75
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -13923,7 +13580,7 @@ class KEEPEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 30
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -13932,7 +13589,7 @@ class KEEPEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -13959,7 +13616,7 @@ KEEPEUR = KEEPEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 30
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -13972,7 +13629,7 @@ class KEEPUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 30
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -13981,7 +13638,7 @@ class KEEPUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -14008,7 +13665,7 @@ KEEPUSD = KEEPUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 30
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -14021,7 +13678,7 @@ class KEEPXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14030,7 +13687,7 @@ class KEEPXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14057,7 +13714,7 @@ KEEPXBT = KEEPXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14266,7 +13923,7 @@ class KINEUR(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 500000
+        min_order_size: 1200000
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14275,7 +13932,7 @@ class KINEUR(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500000
+    min_order_size: float = 1200000
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14302,7 +13959,7 @@ KINEUR = KINEUR()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 500000
+    min_order_size: 1200000
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14413,7 +14070,7 @@ class KINUSD(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 500000
+        min_order_size: 1200000
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14422,7 +14079,7 @@ class KINUSD(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500000
+    min_order_size: float = 1200000
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14449,7 +14106,7 @@ KINUSD = KINUSD()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 500000
+    min_order_size: 1200000
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14462,7 +14119,7 @@ class KNCETH(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14471,7 +14128,7 @@ class KNCETH(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14498,7 +14155,7 @@ KNCETH = KNCETH()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14511,7 +14168,7 @@ class KNCEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14520,7 +14177,7 @@ class KNCEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14547,7 +14204,7 @@ KNCEUR = KNCEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14560,7 +14217,7 @@ class KNCUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14569,7 +14226,7 @@ class KNCUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14596,7 +14253,7 @@ KNCUSD = KNCUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14609,7 +14266,7 @@ class KNCXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14618,7 +14275,7 @@ class KNCXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14645,7 +14302,7 @@ KNCXBT = KNCXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14658,7 +14315,7 @@ class KP3REUR(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.065
+        min_order_size: 0.07
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14667,7 +14324,7 @@ class KP3REUR(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.065
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14694,7 +14351,7 @@ KP3REUR = KP3REUR()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.065
+    min_order_size: 0.07
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -14707,7 +14364,7 @@ class KP3RUSD(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.065
+        min_order_size: 0.07
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -14716,7 +14373,7 @@ class KP3RUSD(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.065
+    min_order_size: float = 0.07
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -14743,56 +14400,7 @@ KP3RUSD = KP3RUSD()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.065
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class KSMAUD(NamedTuple):
-    """
-        name: KSMAUD
-        precision: 0.01
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.2
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "KSMAUD"
-    precision: int = 0.01
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.2
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KSMAUD"
-
-    def __str__(self):
-        return "KSMAUD"
-
-    def __call__(self):
-        return "KSMAUD"
-
-
-KSMAUD = KSMAUD()
-"""
-    name: KSMAUD
-    precision: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.2
+    min_order_size: 0.07
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -15099,7 +14707,7 @@ class LCXEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 125
+        min_order_size: 45
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -15108,7 +14716,7 @@ class LCXEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 125
+    min_order_size: float = 45
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -15135,7 +14743,7 @@ LCXEUR = LCXEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 125
+    min_order_size: 45
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -15148,7 +14756,7 @@ class LCXUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 125
+        min_order_size: 45
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -15157,7 +14765,7 @@ class LCXUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 125
+    min_order_size: float = 45
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -15184,7 +14792,7 @@ LCXUSD = LCXUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 125
+    min_order_size: 45
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -15197,18 +14805,18 @@ class LDOEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 2
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "LDOEUR"
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 2
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -15233,9 +14841,9 @@ LDOEUR = LDOEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 2
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -15246,18 +14854,18 @@ class LDOUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 2
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "LDOUSD"
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 2
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -15282,9 +14890,9 @@ LDOUSD = LDOUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 2
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -15883,7 +15491,7 @@ class LRCEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 13
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -15892,7 +15500,7 @@ class LRCEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 13
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -15919,7 +15527,7 @@ LRCEUR = LRCEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 13
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -15932,7 +15540,7 @@ class LRCUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 20
+        min_order_size: 13
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -15941,7 +15549,7 @@ class LRCUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 20
+    min_order_size: float = 13
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -15968,7 +15576,7 @@ LRCUSD = LRCUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 20
+    min_order_size: 13
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -15981,7 +15589,7 @@ class LSKETH(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 7.5
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -15990,7 +15598,7 @@ class LSKETH(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 7.5
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16017,7 +15625,7 @@ LSKETH = LSKETH()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 7.5
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16030,7 +15638,7 @@ class LSKEUR(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 7.5
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16039,7 +15647,7 @@ class LSKEUR(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 7.5
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16066,7 +15674,7 @@ LSKEUR = LSKEUR()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 7.5
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16079,7 +15687,7 @@ class LSKUSD(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 7.5
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16088,7 +15696,7 @@ class LSKUSD(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 7.5
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16115,7 +15723,7 @@ LSKUSD = LSKUSD()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 7.5
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16128,7 +15736,7 @@ class LSKXBT(NamedTuple):
         precision: 0.000000001
         min_margin: None
         initial_margin: None
-        min_order_size: 7.5
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16137,7 +15745,7 @@ class LSKXBT(NamedTuple):
     precision: int = 0.000000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 7.5
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16164,7 +15772,7 @@ LSKXBT = LSKXBT()
     precision: 0.000000001
     min_margin: None
     initial_margin: None
-    min_order_size: 7.5
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16569,7 +16177,7 @@ class MANAETH(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 8
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16578,7 +16186,7 @@ class MANAETH(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 8
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16605,7 +16213,7 @@ MANAETH = MANAETH()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 8
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16618,7 +16226,7 @@ class MANAEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 8
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -16627,7 +16235,7 @@ class MANAEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 8
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -16654,7 +16262,7 @@ MANAEUR = MANAEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 8
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -16667,7 +16275,7 @@ class MANAUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 8
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -16676,7 +16284,7 @@ class MANAUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 8
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -16703,7 +16311,7 @@ MANAUSD = MANAUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 8
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -16716,7 +16324,7 @@ class MANAUSDT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 8
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16725,7 +16333,7 @@ class MANAUSDT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 8
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16752,7 +16360,7 @@ MANAUSDT = MANAUSDT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 8
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16765,7 +16373,7 @@ class MANAXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 8
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -16774,7 +16382,7 @@ class MANAXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 8
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -16801,7 +16409,7 @@ MANAXBT = MANAXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 8
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -16814,7 +16422,7 @@ class MASKEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16823,7 +16431,7 @@ class MASKEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16850,7 +16458,7 @@ MASKEUR = MASKEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16863,7 +16471,7 @@ class MASKUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16872,7 +16480,7 @@ class MASKUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16899,7 +16507,7 @@ MASKUSD = MASKUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -16912,7 +16520,7 @@ class MATICEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6
+        min_order_size: 4
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -16921,7 +16529,7 @@ class MATICEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -16948,7 +16556,7 @@ MATICEUR = MATICEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6
+    min_order_size: 4
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -16961,7 +16569,7 @@ class MATICGBP(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6
+        min_order_size: 4
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -16970,7 +16578,7 @@ class MATICGBP(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -16997,7 +16605,7 @@ MATICGBP = MATICGBP()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6
+    min_order_size: 4
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17010,7 +16618,7 @@ class MATICUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6
+        min_order_size: 4
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -17019,7 +16627,7 @@ class MATICUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -17046,7 +16654,7 @@ MATICUSD = MATICUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6
+    min_order_size: 4
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -17059,7 +16667,7 @@ class MATICUSDT(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6
+        min_order_size: 4
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17068,7 +16676,7 @@ class MATICUSDT(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17095,7 +16703,7 @@ MATICUSDT = MATICUSDT()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6
+    min_order_size: 4
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17108,7 +16716,7 @@ class MATICXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 6
+        min_order_size: 4
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -17117,7 +16725,7 @@ class MATICXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6
+    min_order_size: float = 4
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -17144,7 +16752,7 @@ MATICXBT = MATICXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 6
+    min_order_size: 4
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -17157,7 +16765,7 @@ class MCEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 17.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17166,7 +16774,7 @@ class MCEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 17.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17193,7 +16801,7 @@ MCEUR = MCEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
+    min_order_size: 17.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17206,7 +16814,7 @@ class MCUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 17.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17215,7 +16823,7 @@ class MCUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 17.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17242,7 +16850,7 @@ MCUSD = MCUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
+    min_order_size: 17.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17255,18 +16863,18 @@ class MINAEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "MINAEUR"
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -17291,9 +16899,9 @@ MINAEUR = MINAEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -17304,7 +16912,7 @@ class MINAGBP(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17313,7 +16921,7 @@ class MINAGBP(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17340,7 +16948,7 @@ MINAGBP = MINAGBP()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17353,18 +16961,18 @@ class MINAUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "MINAUSD"
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -17389,9 +16997,9 @@ MINAUSD = MINAUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -17402,7 +17010,7 @@ class MINAXBT(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17411,7 +17019,7 @@ class MINAXBT(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17438,7 +17046,7 @@ MINAXBT = MINAXBT()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17592,55 +17200,6 @@ MKREUR = MKREUR()
 """
 
 
-class MKRGBP(NamedTuple):
-    """
-        name: MKRGBP
-        precision: 0.1
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.0075
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "MKRGBP"
-    precision: int = 0.1
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.0075
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MKRGBP"
-
-    def __str__(self):
-        return "MKRGBP"
-
-    def __call__(self):
-        return "MKRGBP"
-
-
-MKRGBP = MKRGBP()
-"""
-    name: MKRGBP
-    precision: 0.1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0075
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class MKRUSD(NamedTuple):
     """
         name: MKRUSD
@@ -17745,7 +17304,7 @@ class MNGOEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 275
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17754,7 +17313,7 @@ class MNGOEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 275
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17781,7 +17340,7 @@ MNGOEUR = MNGOEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 275
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17794,7 +17353,7 @@ class MNGOUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 275
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17803,7 +17362,7 @@ class MNGOUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 275
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17830,7 +17389,7 @@ MNGOUSD = MNGOUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 275
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17941,7 +17500,7 @@ class MSOLEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.225
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17950,7 +17509,7 @@ class MSOLEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.225
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -17977,7 +17536,7 @@ MSOLEUR = MSOLEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.225
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -17990,7 +17549,7 @@ class MSOLUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.225
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -17999,7 +17558,7 @@ class MSOLUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.225
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18026,7 +17585,7 @@ MSOLUSD = MSOLUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.225
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18039,7 +17598,7 @@ class MULTIEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 0.6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18048,7 +17607,7 @@ class MULTIEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 0.6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18075,7 +17634,7 @@ MULTIEUR = MULTIEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 0.6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18088,7 +17647,7 @@ class MULTIUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 0.6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18097,7 +17656,7 @@ class MULTIUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 0.6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18124,7 +17683,7 @@ MULTIUSD = MULTIUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 0.6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18137,7 +17696,7 @@ class MVEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18146,7 +17705,7 @@ class MVEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18173,7 +17732,7 @@ MVEUR = MVEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18186,7 +17745,7 @@ class MVUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 30
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18195,7 +17754,7 @@ class MVUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 30
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18222,7 +17781,7 @@ MVUSD = MVUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 30
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18235,7 +17794,7 @@ class MXCEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 200
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18244,7 +17803,7 @@ class MXCEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 200
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18271,7 +17830,7 @@ MXCEUR = MXCEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 200
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18284,7 +17843,7 @@ class MXCUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 200
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18293,7 +17852,7 @@ class MXCUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 200
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18320,7 +17879,7 @@ MXCUSD = MXCUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 200
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18627,7 +18186,7 @@ class NMREUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.5
+        min_order_size: 0.25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18636,7 +18195,7 @@ class NMREUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.5
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18663,7 +18222,7 @@ NMREUR = NMREUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.5
+    min_order_size: 0.25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18676,7 +18235,7 @@ class NMRUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.5
+        min_order_size: 0.25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -18685,7 +18244,7 @@ class NMRUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.5
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -18712,7 +18271,7 @@ NMRUSD = NMRUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.5
+    min_order_size: 0.25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -18970,18 +18529,18 @@ class OCEANEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 35
+        min_order_size: 12
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "OCEANEUR"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 35
+    min_order_size: float = 12
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -19006,9 +18565,9 @@ OCEANEUR = OCEANEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 35
+    min_order_size: 12
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -19019,7 +18578,7 @@ class OCEANGBP(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 35
+        min_order_size: 12
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19028,7 +18587,7 @@ class OCEANGBP(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 35
+    min_order_size: float = 12
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19055,7 +18614,7 @@ OCEANGBP = OCEANGBP()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 35
+    min_order_size: 12
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19068,18 +18627,18 @@ class OCEANUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 35
+        min_order_size: 12
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "OCEANUSD"
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 35
+    min_order_size: float = 12
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -19104,9 +18663,9 @@ OCEANUSD = OCEANUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 35
+    min_order_size: 12
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -19117,7 +18676,7 @@ class OCEANXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 35
+        min_order_size: 12
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19126,7 +18685,7 @@ class OCEANXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 35
+    min_order_size: float = 12
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19153,7 +18712,7 @@ OCEANXBT = OCEANXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 35
+    min_order_size: 12
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19264,7 +18823,7 @@ class OMGETH(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19273,7 +18832,7 @@ class OMGETH(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19300,7 +18859,7 @@ OMGETH = OMGETH()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19313,7 +18872,7 @@ class OMGEUR(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -19322,7 +18881,7 @@ class OMGEUR(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -19349,7 +18908,7 @@ OMGEUR = OMGEUR()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -19362,7 +18921,7 @@ class OMGJPY(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19371,7 +18930,7 @@ class OMGJPY(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19398,7 +18957,7 @@ OMGJPY = OMGJPY()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19411,7 +18970,7 @@ class OMGUSD(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -19420,7 +18979,7 @@ class OMGUSD(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -19447,7 +19006,7 @@ OMGUSD = OMGUSD()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -19460,7 +19019,7 @@ class OMGXBT(NamedTuple):
         precision: 0.000000001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3.5
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -19469,7 +19028,7 @@ class OMGXBT(NamedTuple):
     precision: int = 0.000000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -19496,7 +19055,7 @@ OMGXBT = OMGXBT()
     precision: 0.000000001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3.5
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -19509,7 +19068,7 @@ class ORCAEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19518,7 +19077,7 @@ class ORCAEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19545,7 +19104,7 @@ ORCAEUR = ORCAEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19558,7 +19117,7 @@ class ORCAUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19567,7 +19126,7 @@ class ORCAUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19594,56 +19153,7 @@ ORCAUSD = ORCAUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class OXTETH(NamedTuple):
-    """
-        name: OXTETH
-        precision: 0.0000001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 75
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "OXTETH"
-    precision: int = 0.0000001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 75
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OXTETH"
-
-    def __str__(self):
-        return "OXTETH"
-
-    def __call__(self):
-        return "OXTETH"
-
-
-OXTETH = OXTETH()
-"""
-    name: OXTETH
-    precision: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 75
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19656,7 +19166,7 @@ class OXTEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 55
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19665,7 +19175,7 @@ class OXTEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 55
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19692,7 +19202,7 @@ OXTEUR = OXTEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 55
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19705,7 +19215,7 @@ class OXTUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 55
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19714,7 +19224,7 @@ class OXTUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 55
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19741,7 +19251,7 @@ OXTUSD = OXTUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 55
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19754,7 +19264,7 @@ class OXTXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 75
+        min_order_size: 55
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19763,7 +19273,7 @@ class OXTXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 75
+    min_order_size: float = 55
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19790,7 +19300,7 @@ OXTXBT = OXTXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 75
+    min_order_size: 55
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19803,7 +19313,7 @@ class OXYEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 600
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19812,7 +19322,7 @@ class OXYEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 600
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19839,7 +19349,7 @@ OXYEUR = OXYEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 600
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19852,7 +19362,7 @@ class OXYUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 600
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19861,7 +19371,7 @@ class OXYUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 600
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19888,7 +19398,7 @@ OXYUSD = OXYUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 600
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19901,7 +19411,7 @@ class PARAEUR(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 350
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19910,7 +19420,7 @@ class PARAEUR(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 350
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19937,7 +19447,7 @@ PARAEUR = PARAEUR()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 350
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -19950,7 +19460,7 @@ class PARAUSD(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 350
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -19959,7 +19469,7 @@ class PARAUSD(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 350
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -19986,7 +19496,7 @@ PARAUSD = PARAUSD()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 350
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20148,7 +19658,7 @@ class PAXGXBT(NamedTuple):
         initial_margin: None
         min_order_size: 0.003
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "PAXGXBT"
@@ -20157,7 +19667,7 @@ class PAXGXBT(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.003
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -20184,7 +19694,7 @@ PAXGXBT = PAXGXBT()
     initial_margin: None
     min_order_size: 0.003
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -20195,7 +19705,7 @@ class PERPEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20204,7 +19714,7 @@ class PERPEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20231,7 +19741,7 @@ PERPEUR = PERPEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20244,7 +19754,7 @@ class PERPUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 9
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20253,7 +19763,7 @@ class PERPUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 9
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20280,7 +19790,7 @@ PERPUSD = PERPUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 9
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20489,7 +19999,7 @@ class POLISEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 30
+        min_order_size: 17
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20498,7 +20008,7 @@ class POLISEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 30
+    min_order_size: float = 17
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20525,7 +20035,7 @@ POLISEUR = POLISEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 30
+    min_order_size: 17
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20538,7 +20048,7 @@ class POLISUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 30
+        min_order_size: 17
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20547,7 +20057,7 @@ class POLISUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 30
+    min_order_size: float = 17
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20574,7 +20084,7 @@ POLISUSD = POLISUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 30
+    min_order_size: 17
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20881,7 +20391,7 @@ class PSTAKEEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 65
+        min_order_size: 40
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20890,7 +20400,7 @@ class PSTAKEEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 65
+    min_order_size: float = 40
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20917,7 +20427,7 @@ PSTAKEEUR = PSTAKEEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 65
+    min_order_size: 40
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -20930,7 +20440,7 @@ class PSTAKEUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 65
+        min_order_size: 40
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -20939,7 +20449,7 @@ class PSTAKEUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 65
+    min_order_size: float = 40
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -20966,7 +20476,7 @@ PSTAKEUSD = PSTAKEUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 65
+    min_order_size: 40
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21469,7 +20979,7 @@ class RARIEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21478,7 +20988,7 @@ class RARIEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21505,56 +21015,7 @@ RARIEUR = RARIEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 2
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class RARIGBP(NamedTuple):
-    """
-        name: RARIGBP
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 2
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "RARIGBP"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 2
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RARIGBP"
-
-    def __str__(self):
-        return "RARIGBP"
-
-    def __call__(self):
-        return "RARIGBP"
-
-
-RARIGBP = RARIGBP()
-"""
-    name: RARIGBP
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 2
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21567,7 +21028,7 @@ class RARIUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21576,7 +21037,7 @@ class RARIUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21603,7 +21064,7 @@ RARIUSD = RARIUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21616,7 +21077,7 @@ class RARIXBT(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21625,7 +21086,7 @@ class RARIXBT(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21652,7 +21113,7 @@ RARIXBT = RARIXBT()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21665,7 +21126,7 @@ class RAYEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 18
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21674,7 +21135,7 @@ class RAYEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 18
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21701,7 +21162,7 @@ RAYEUR = RAYEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 18
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21714,7 +21175,7 @@ class RAYUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 18
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21723,7 +21184,7 @@ class RAYUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 18
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21750,7 +21211,7 @@ RAYUSD = RAYUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 18
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21763,7 +21224,7 @@ class RBCEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21772,7 +21233,7 @@ class RBCEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21799,7 +21260,7 @@ RBCEUR = RBCEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21812,7 +21273,7 @@ class RBCUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 150
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -21821,7 +21282,7 @@ class RBCUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 150
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -21848,7 +21309,7 @@ RBCUSD = RBCUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 150
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -21894,55 +21355,6 @@ class RENEUR(NamedTuple):
 RENEUR = RENEUR()
 """
     name: RENEUR
-    precision: 0.0001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class RENGBP(NamedTuple):
-    """
-        name: RENGBP
-        precision: 0.0001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 60
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "RENGBP"
-    precision: int = 0.0001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 60
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RENGBP"
-
-    def __str__(self):
-        return "RENGBP"
-
-    def __call__(self):
-        return "RENGBP"
-
-
-RENGBP = RENGBP()
-"""
-    name: RENGBP
     precision: 0.0001
     min_margin: None
     initial_margin: None
@@ -22351,7 +21763,7 @@ class RLCEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6.5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22360,7 +21772,7 @@ class RLCEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6.5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22387,7 +21799,7 @@ RLCEUR = RLCEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6.5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22400,7 +21812,7 @@ class RLCUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 6.5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22409,7 +21821,7 @@ class RLCUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 6.5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22436,7 +21848,7 @@ RLCUSD = RLCUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 6.5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22449,7 +21861,7 @@ class RNDREUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22458,7 +21870,7 @@ class RNDREUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22485,7 +21897,7 @@ RNDREUR = RNDREUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22498,7 +21910,7 @@ class RNDRUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22507,7 +21919,7 @@ class RNDRUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22534,7 +21946,7 @@ RNDRUSD = RNDRUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22645,7 +22057,7 @@ class RPLEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.25
+        min_order_size: 0.125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22654,7 +22066,7 @@ class RPLEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.25
+    min_order_size: float = 0.125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22681,7 +22093,7 @@ RPLEUR = RPLEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.25
+    min_order_size: 0.125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22694,7 +22106,7 @@ class RPLUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.25
+        min_order_size: 0.125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22703,7 +22115,7 @@ class RPLUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.25
+    min_order_size: float = 0.125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22730,7 +22142,7 @@ RPLUSD = RPLUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.25
+    min_order_size: 0.125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22743,7 +22155,7 @@ class RUNEEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22752,7 +22164,7 @@ class RUNEEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22779,7 +22191,7 @@ RUNEEUR = RUNEEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22792,7 +22204,7 @@ class RUNEUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 3
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22801,7 +22213,7 @@ class RUNEUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 3
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22828,7 +22240,7 @@ RUNEUSD = RUNEUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 3
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22841,7 +22253,7 @@ class SAMOEUR(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22850,7 +22262,7 @@ class SAMOEUR(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22877,7 +22289,7 @@ SAMOEUR = SAMOEUR()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -22890,7 +22302,7 @@ class SAMOUSD(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -22899,7 +22311,7 @@ class SAMOUSD(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -22926,7 +22338,7 @@ SAMOUSD = SAMOUSD()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23233,7 +22645,7 @@ class SCETH(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23242,7 +22654,7 @@ class SCETH(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23269,7 +22681,7 @@ SCETH = SCETH()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23282,7 +22694,7 @@ class SCEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1300
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -23291,7 +22703,7 @@ class SCEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1300
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -23318,7 +22730,7 @@ SCEUR = SCEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1300
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -23331,7 +22743,7 @@ class SCRTEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23340,7 +22752,7 @@ class SCRTEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23367,7 +22779,7 @@ SCRTEUR = SCRTEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23380,7 +22792,7 @@ class SCRTUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 10
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23389,7 +22801,7 @@ class SCRTUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 10
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23416,7 +22828,7 @@ SCRTUSD = SCRTUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 10
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23429,7 +22841,7 @@ class SCUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1300
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -23438,7 +22850,7 @@ class SCUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1300
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -23465,7 +22877,7 @@ SCUSD = SCUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1300
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -23478,7 +22890,7 @@ class SCXBT(NamedTuple):
         precision: 0.0000000001
         min_margin: None
         initial_margin: None
-        min_order_size: 2000
+        min_order_size: 1300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23487,7 +22899,7 @@ class SCXBT(NamedTuple):
     precision: int = 0.0000000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2000
+    min_order_size: float = 1300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23514,7 +22926,7 @@ SCXBT = SCXBT()
     precision: 0.0000000001
     min_margin: None
     initial_margin: None
-    min_order_size: 2000
+    min_order_size: 1300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23527,7 +22939,7 @@ class SDNEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 17.5
+        min_order_size: 10
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23536,7 +22948,7 @@ class SDNEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 17.5
+    min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23563,7 +22975,7 @@ SDNEUR = SDNEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 17.5
+    min_order_size: 10
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23576,7 +22988,7 @@ class SDNUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 17.5
+        min_order_size: 10
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23585,7 +22997,7 @@ class SDNUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 17.5
+    min_order_size: float = 10
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23612,7 +23024,7 @@ SDNUSD = SDNUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 17.5
+    min_order_size: 10
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23625,7 +23037,7 @@ class SGBEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 400
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23634,7 +23046,7 @@ class SGBEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 400
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23661,7 +23073,7 @@ SGBEUR = SGBEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 400
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23674,7 +23086,7 @@ class SGBUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 400
+        min_order_size: 500
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23683,7 +23095,7 @@ class SGBUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 400
+    min_order_size: float = 500
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23710,7 +23122,7 @@ SGBUSD = SGBUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 400
+    min_order_size: 500
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23864,62 +23276,13 @@ SHIBUSDT = SHIBUSDT()
 """
 
 
-class SNXAUD(NamedTuple):
-    """
-        name: SNXAUD
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 3
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "SNXAUD"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 3
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SNXAUD"
-
-    def __str__(self):
-        return "SNXAUD"
-
-    def __call__(self):
-        return "SNXAUD"
-
-
-SNXAUD = SNXAUD()
-"""
-    name: SNXAUD
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class SNXETH(NamedTuple):
     """
         name: SNXETH
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23928,7 +23291,7 @@ class SNXETH(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -23955,7 +23318,7 @@ SNXETH = SNXETH()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -23968,7 +23331,7 @@ class SNXEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -23977,7 +23340,7 @@ class SNXEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24004,56 +23367,7 @@ SNXEUR = SNXEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class SNXGBP(NamedTuple):
-    """
-        name: SNXGBP
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 3
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "SNXGBP"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 3
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SNXGBP"
-
-    def __str__(self):
-        return "SNXGBP"
-
-    def __call__(self):
-        return "SNXGBP"
-
-
-SNXGBP = SNXGBP()
-"""
-    name: SNXGBP
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24066,7 +23380,7 @@ class SNXUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24075,7 +23389,7 @@ class SNXUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24102,7 +23416,7 @@ SNXUSD = SNXUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24115,7 +23429,7 @@ class SNXXBT(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 3
+        min_order_size: 2
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24124,7 +23438,7 @@ class SNXXBT(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 3
+    min_order_size: float = 2
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24151,7 +23465,7 @@ SNXXBT = SNXXBT()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 3
+    min_order_size: 2
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24164,7 +23478,7 @@ class SOLEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.25
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -24173,7 +23487,7 @@ class SOLEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -24200,7 +23514,7 @@ SOLEUR = SOLEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.25
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -24213,7 +23527,7 @@ class SOLGBP(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.25
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -24222,7 +23536,7 @@ class SOLGBP(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -24249,7 +23563,7 @@ SOLGBP = SOLGBP()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.25
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -24262,7 +23576,7 @@ class SOLUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.25
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -24271,7 +23585,7 @@ class SOLUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -24298,7 +23612,7 @@ SOLUSD = SOLUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.25
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -24311,7 +23625,7 @@ class SOLUSDT(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24320,7 +23634,7 @@ class SOLUSDT(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24347,7 +23661,7 @@ SOLUSDT = SOLUSDT()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24360,7 +23674,7 @@ class SOLXBT(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.35
+        min_order_size: 0.25
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -24369,7 +23683,7 @@ class SOLXBT(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.35
+    min_order_size: float = 0.25
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -24396,7 +23710,7 @@ SOLXBT = SOLXBT()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.35
+    min_order_size: 0.25
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -24550,55 +23864,6 @@ SRMEUR = SRMEUR()
 """
 
 
-class SRMGBP(NamedTuple):
-    """
-        name: SRMGBP
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 20
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "SRMGBP"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 20
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SRMGBP"
-
-    def __str__(self):
-        return "SRMGBP"
-
-    def __call__(self):
-        return "SRMGBP"
-
-
-SRMGBP = SRMGBP()
-"""
-    name: SRMGBP
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 20
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class SRMUSD(NamedTuple):
     """
         name: SRMUSD
@@ -24703,7 +23968,7 @@ class STEPEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 325
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24712,7 +23977,7 @@ class STEPEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 325
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24739,7 +24004,7 @@ STEPEUR = STEPEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 325
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24752,7 +24017,7 @@ class STEPUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 500
+        min_order_size: 325
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24761,7 +24026,7 @@ class STEPUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 500
+    min_order_size: float = 325
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24788,7 +24053,7 @@ STEPUSD = STEPUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 500
+    min_order_size: 325
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24801,7 +24066,7 @@ class STGEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24810,7 +24075,7 @@ class STGEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24837,7 +24102,7 @@ STGEUR = STGEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -24850,7 +24115,7 @@ class STGUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 12
+        min_order_size: 6
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -24859,7 +24124,7 @@ class STGUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12
+    min_order_size: float = 6
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -24886,56 +24151,7 @@ STGUSD = STGUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 12
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class STORJETH(NamedTuple):
-    """
-        name: STORJETH
-        precision: 0.0000001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 15
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "STORJETH"
-    precision: int = 0.0000001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 15
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "STORJETH"
-
-    def __str__(self):
-        return "STORJETH"
-
-    def __call__(self):
-        return "STORJETH"
-
-
-STORJETH = STORJETH()
-"""
-    name: STORJETH
-    precision: 0.0000001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 15
+    min_order_size: 6
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25487,7 +24703,7 @@ class SYNEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 8
+        min_order_size: 3.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25496,7 +24712,7 @@ class SYNEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 8
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25523,7 +24739,7 @@ SYNEUR = SYNEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 8
+    min_order_size: 3.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25536,7 +24752,7 @@ class SYNUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 8
+        min_order_size: 3.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25545,7 +24761,7 @@ class SYNUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 8
+    min_order_size: float = 3.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25572,56 +24788,7 @@ SYNUSD = SYNUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 8
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class TBTCETH(NamedTuple):
-    """
-        name: TBTCETH
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.0001
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "TBTCETH"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.0001
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "TBTCETH"
-
-    def __str__(self):
-        return "TBTCETH"
-
-    def __call__(self):
-        return "TBTCETH"
-
-
-TBTCETH = TBTCETH()
-"""
-    name: TBTCETH
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 3.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25634,7 +24801,7 @@ class TBTCEUR(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25643,7 +24810,7 @@ class TBTCEUR(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25670,7 +24837,7 @@ TBTCEUR = TBTCEUR()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25683,7 +24850,7 @@ class TBTCUSD(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25692,7 +24859,7 @@ class TBTCUSD(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25719,7 +24886,7 @@ TBTCUSD = TBTCUSD()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25732,7 +24899,7 @@ class TBTCXBT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25741,7 +24908,7 @@ class TBTCXBT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25768,7 +24935,7 @@ TBTCXBT = TBTCXBT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25879,7 +25046,7 @@ class TEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 130
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25888,7 +25055,7 @@ class TEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 130
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25915,7 +25082,7 @@ TEUR = TEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 130
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25928,7 +25095,7 @@ class TLMEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 350
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25937,7 +25104,7 @@ class TLMEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 350
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -25964,7 +25131,7 @@ TLMEUR = TLMEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 350
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -25977,7 +25144,7 @@ class TLMUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 350
+        min_order_size: 250
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -25986,7 +25153,7 @@ class TLMUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 350
+    min_order_size: float = 250
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26013,7 +25180,7 @@ TLMUSD = TLMUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 350
+    min_order_size: 250
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26222,7 +25389,7 @@ class TRUEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 100
+        min_order_size: 125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26231,7 +25398,7 @@ class TRUEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 100
+    min_order_size: float = 125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26258,7 +25425,7 @@ TRUEUR = TRUEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 100
+    min_order_size: 125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26271,7 +25438,7 @@ class TRUUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 100
+        min_order_size: 125
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26280,7 +25447,7 @@ class TRUUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 100
+    min_order_size: float = 125
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26307,7 +25474,7 @@ TRUUSD = TRUUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 100
+    min_order_size: 125
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26516,7 +25683,7 @@ class TUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 130
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26525,7 +25692,7 @@ class TUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 130
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26552,7 +25719,7 @@ TUSD = TUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 130
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26565,7 +25732,7 @@ class TVKEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 175
+        min_order_size: 110
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26574,7 +25741,7 @@ class TVKEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 175
+    min_order_size: float = 110
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26601,7 +25768,7 @@ TVKEUR = TVKEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 175
+    min_order_size: 110
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26614,7 +25781,7 @@ class TVKUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 175
+        min_order_size: 110
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26623,7 +25790,7 @@ class TVKUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 175
+    min_order_size: float = 110
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26650,7 +25817,7 @@ TVKUSD = TVKUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 175
+    min_order_size: 110
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26761,7 +25928,7 @@ class UNFIEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26770,7 +25937,7 @@ class UNFIEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26797,7 +25964,7 @@ UNFIEUR = UNFIEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -26810,7 +25977,7 @@ class UNFIUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -26819,7 +25986,7 @@ class UNFIUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -26846,7 +26013,7 @@ UNFIUSD = UNFIUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -27787,7 +26954,7 @@ USDTJPY = USDTJPY()
 class USDTZUSD(NamedTuple):
     """
         name: USDTUSD
-        precision: 0.0001
+        precision: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 5
@@ -27796,7 +26963,7 @@ class USDTZUSD(NamedTuple):
         exchange: kraken
     """
     name: str = "USDTUSD"
-    precision: int = 0.0001
+    precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5
@@ -27823,7 +26990,7 @@ class USDTZUSD(NamedTuple):
 USDTZUSD = USDTZUSD()
 """
     name: USDTUSD
-    precision: 0.0001
+    precision: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 5
@@ -27839,7 +27006,7 @@ class USTEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 175
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -27848,7 +27015,7 @@ class USTEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 175
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -27875,7 +27042,7 @@ USTEUR = USTEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 175
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -27888,7 +27055,7 @@ class USTUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 175
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -27897,7 +27064,7 @@ class USTUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 175
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -27924,7 +27091,7 @@ USTUSD = USTUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 175
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -27937,7 +27104,7 @@ class USTUSDC(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 175
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -27946,7 +27113,7 @@ class USTUSDC(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 175
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -27973,7 +27140,7 @@ USTUSDC = USTUSDC()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 175
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -27986,7 +27153,7 @@ class USTUSDT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 250
+        min_order_size: 175
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -27995,7 +27162,7 @@ class USTUSDT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 250
+    min_order_size: float = 175
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28022,7 +27189,7 @@ USTUSDT = USTUSDT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 250
+    min_order_size: 175
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28231,7 +27398,7 @@ class WAXLEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28240,7 +27407,7 @@ class WAXLEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28267,7 +27434,7 @@ WAXLEUR = WAXLEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28280,7 +27447,7 @@ class WAXLUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 7
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28289,7 +27456,7 @@ class WAXLUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 7
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28316,7 +27483,7 @@ WAXLUSD = WAXLUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 7
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28329,7 +27496,7 @@ class WBTCEUR(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28338,7 +27505,7 @@ class WBTCEUR(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28365,7 +27532,7 @@ WBTCEUR = WBTCEUR()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28378,7 +27545,7 @@ class WBTCUSD(NamedTuple):
         precision: 0.1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28387,7 +27554,7 @@ class WBTCUSD(NamedTuple):
     precision: int = 0.1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28414,7 +27581,7 @@ WBTCUSD = WBTCUSD()
     precision: 0.1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28427,7 +27594,7 @@ class WBTCXBT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.0001
+        min_order_size: 0.00025
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28436,7 +27603,7 @@ class WBTCXBT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.0001
+    min_order_size: float = 0.00025
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28463,7 +27630,7 @@ WBTCXBT = WBTCXBT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.0001
+    min_order_size: 0.00025
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28476,7 +27643,7 @@ class WOOEUR(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28485,7 +27652,7 @@ class WOOEUR(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28512,7 +27679,7 @@ WOOEUR = WOOEUR()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28525,7 +27692,7 @@ class WOOUSD(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 50
+        min_order_size: 25
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28534,7 +27701,7 @@ class WOOUSD(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 50
+    min_order_size: float = 25
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28561,7 +27728,7 @@ WOOUSD = WOOUSD()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 50
+    min_order_size: 25
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28868,7 +28035,7 @@ class XCNEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 100
+        min_order_size: 300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28877,7 +28044,7 @@ class XCNEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 100
+    min_order_size: float = 300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28904,7 +28071,7 @@ XCNEUR = XCNEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 100
+    min_order_size: 300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -28917,7 +28084,7 @@ class XCNUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 100
+        min_order_size: 300
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -28926,7 +28093,7 @@ class XCNUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 100
+    min_order_size: float = 300
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -28953,7 +28120,7 @@ XCNUSD = XCNUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 100
+    min_order_size: 300
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -29995,7 +29162,7 @@ class XMRUSDT(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.05
+        min_order_size: 0.035
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30004,7 +29171,7 @@ class XMRUSDT(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.05
+    min_order_size: float = 0.035
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30031,58 +29198,9 @@ XMRUSDT = XMRUSDT()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.05
+    min_order_size: 0.035
     max_order_size: None
     has_margin: False
-    exchange: kraken
-"""
-
-
-class XREPXETH(NamedTuple):
-    """
-        name: REPETH
-        precision: 0.00001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 1.5
-        max_order_size: None
-        has_margin: True
-        exchange: kraken
-    """
-    name: str = "REPETH"
-    precision: int = 0.00001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 1.5
-    max_order_size: float = None
-    has_margin: bool = True
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "REPETH"
-
-    def __str__(self):
-        return "REPETH"
-
-    def __call__(self):
-        return "REPETH"
-
-
-XREPXETH = XREPXETH()
-"""
-    name: REPETH
-    precision: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 1.5
-    max_order_size: None
-    has_margin: True
     exchange: kraken
 """
 
@@ -30093,7 +29211,7 @@ class XREPXXBT(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -30102,7 +29220,7 @@ class XREPXXBT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -30129,7 +29247,7 @@ XREPXXBT = XREPXXBT()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -30142,7 +29260,7 @@ class XREPZEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -30151,7 +29269,7 @@ class XREPZEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -30178,7 +29296,7 @@ XREPZEUR = XREPZEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -30191,7 +29309,7 @@ class XREPZUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 1.5
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30200,7 +29318,7 @@ class XREPZUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 1.5
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30227,7 +29345,7 @@ XREPZUSD = XREPZUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 1.5
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -30240,7 +29358,7 @@ class XRPAUD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30249,7 +29367,7 @@ class XRPAUD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30276,7 +29394,7 @@ XRPAUD = XRPAUD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -30289,7 +29407,7 @@ class XRPETH(NamedTuple):
         precision: 0.0000001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30298,7 +29416,7 @@ class XRPETH(NamedTuple):
     precision: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30325,7 +29443,7 @@ XRPETH = XRPETH()
     precision: 0.0000001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -30338,7 +29456,7 @@ class XRPGBP(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30347,7 +29465,7 @@ class XRPGBP(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30374,7 +29492,7 @@ XRPGBP = XRPGBP()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -30387,7 +29505,7 @@ class XRPUSDT(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -30396,7 +29514,7 @@ class XRPUSDT(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -30423,7 +29541,7 @@ XRPUSDT = XRPUSDT()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -30436,7 +29554,7 @@ class XRTEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30445,7 +29563,7 @@ class XRTEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30472,7 +29590,7 @@ XRTEUR = XRTEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -30485,7 +29603,7 @@ class XRTUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 2
+        min_order_size: 1
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -30494,7 +29612,7 @@ class XRTUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 2
+    min_order_size: float = 1
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -30521,7 +29639,7 @@ XRTUSD = XRTUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 2
+    min_order_size: 1
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -31214,55 +30332,6 @@ XXLMXXBT = XXLMXXBT()
 """
 
 
-class XXLMZAUD(NamedTuple):
-    """
-        name: XLMAUD
-        precision: 0.00001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 60
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "XLMAUD"
-    precision: int = 0.00001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 60
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XLMAUD"
-
-    def __str__(self):
-        return "XLMAUD"
-
-    def __call__(self):
-        return "XLMAUD"
-
-
-XXLMZAUD = XXLMZAUD()
-"""
-    name: XLMAUD
-    precision: 0.00001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 60
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class XXLMZEUR(NamedTuple):
     """
         name: XLMEUR
@@ -31416,7 +30485,7 @@ class XXMRXXBT(NamedTuple):
         precision: 0.000001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.05
+        min_order_size: 0.035
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31425,7 +30494,7 @@ class XXMRXXBT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.05
+    min_order_size: float = 0.035
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31452,7 +30521,7 @@ XXMRXXBT = XXMRXXBT()
     precision: 0.000001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.05
+    min_order_size: 0.035
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31465,7 +30534,7 @@ class XXMRZEUR(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.05
+        min_order_size: 0.035
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31474,7 +30543,7 @@ class XXMRZEUR(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.05
+    min_order_size: float = 0.035
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31501,7 +30570,7 @@ XXMRZEUR = XXMRZEUR()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.05
+    min_order_size: 0.035
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31514,7 +30583,7 @@ class XXMRZUSD(NamedTuple):
         precision: 0.01
         min_margin: None
         initial_margin: None
-        min_order_size: 0.05
+        min_order_size: 0.035
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31523,7 +30592,7 @@ class XXMRZUSD(NamedTuple):
     precision: int = 0.01
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.05
+    min_order_size: float = 0.035
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31550,7 +30619,7 @@ XXMRZUSD = XXMRZUSD()
     precision: 0.01
     min_margin: None
     initial_margin: None
-    min_order_size: 0.05
+    min_order_size: 0.035
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31563,7 +30632,7 @@ class XXRPXXBT(NamedTuple):
         precision: 0.00000001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31572,7 +30641,7 @@ class XXRPXXBT(NamedTuple):
     precision: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31599,7 +30668,7 @@ XXRPXXBT = XXRPXXBT()
     precision: 0.00000001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31612,7 +30681,7 @@ class XXRPZCAD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -31621,7 +30690,7 @@ class XXRPZCAD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -31648,7 +30717,7 @@ XXRPZCAD = XXRPZCAD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -31661,7 +30730,7 @@ class XXRPZEUR(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31670,7 +30739,7 @@ class XXRPZEUR(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31697,7 +30766,7 @@ XXRPZEUR = XXRPZEUR()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31710,7 +30779,7 @@ class XXRPZJPY(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -31719,7 +30788,7 @@ class XXRPZJPY(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -31746,7 +30815,7 @@ XXRPZJPY = XXRPZJPY()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -31759,7 +30828,7 @@ class XXRPZUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 12.5
+        min_order_size: 15
         max_order_size: None
         has_margin: True
         exchange: kraken
@@ -31768,7 +30837,7 @@ class XXRPZUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 12.5
+    min_order_size: float = 15
     max_order_size: float = None
     has_margin: bool = True
     exchange: str = "kraken"
@@ -31795,7 +30864,7 @@ XXRPZUSD = XXRPZUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 12.5
+    min_order_size: 15
     max_order_size: None
     has_margin: True
     exchange: kraken
@@ -31949,111 +31018,13 @@ XZECZUSD = XZECZUSD()
 """
 
 
-class YFIAUD(NamedTuple):
-    """
-        name: YFIAUD
-        precision: 1
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.002
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "YFIAUD"
-    precision: int = 1
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.002
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YFIAUD"
-
-    def __str__(self):
-        return "YFIAUD"
-
-    def __call__(self):
-        return "YFIAUD"
-
-
-YFIAUD = YFIAUD()
-"""
-    name: YFIAUD
-    precision: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.002
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class YFIETH(NamedTuple):
-    """
-        name: YFIETH
-        precision: 0.01
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.002
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "YFIETH"
-    precision: int = 0.01
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.002
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YFIETH"
-
-    def __str__(self):
-        return "YFIETH"
-
-    def __call__(self):
-        return "YFIETH"
-
-
-YFIETH = YFIETH()
-"""
-    name: YFIETH
-    precision: 0.01
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.002
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
 class YFIEUR(NamedTuple):
     """
         name: YFIEUR
         precision: 1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.002
+        min_order_size: 0.0007
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32062,7 +31033,7 @@ class YFIEUR(NamedTuple):
     precision: int = 1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.002
+    min_order_size: float = 0.0007
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32089,56 +31060,7 @@ YFIEUR = YFIEUR()
     precision: 1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.002
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class YFIGBP(NamedTuple):
-    """
-        name: YFIGBP
-        precision: 1
-        min_margin: None
-        initial_margin: None
-        min_order_size: 0.002
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "YFIGBP"
-    precision: int = 1
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 0.002
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YFIGBP"
-
-    def __str__(self):
-        return "YFIGBP"
-
-    def __call__(self):
-        return "YFIGBP"
-
-
-YFIGBP = YFIGBP()
-"""
-    name: YFIGBP
-    precision: 1
-    min_margin: None
-    initial_margin: None
-    min_order_size: 0.002
+    min_order_size: 0.0007
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32151,7 +31073,7 @@ class YFIUSD(NamedTuple):
         precision: 1
         min_margin: None
         initial_margin: None
-        min_order_size: 0.002
+        min_order_size: 0.0007
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32160,7 +31082,7 @@ class YFIUSD(NamedTuple):
     precision: int = 1
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.002
+    min_order_size: float = 0.0007
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32187,7 +31109,7 @@ YFIUSD = YFIUSD()
     precision: 1
     min_margin: None
     initial_margin: None
-    min_order_size: 0.002
+    min_order_size: 0.0007
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32200,7 +31122,7 @@ class YFIXBT(NamedTuple):
         precision: 0.0001
         min_margin: None
         initial_margin: None
-        min_order_size: 0.002
+        min_order_size: 0.0007
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32209,7 +31131,7 @@ class YFIXBT(NamedTuple):
     precision: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 0.002
+    min_order_size: float = 0.0007
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32236,7 +31158,7 @@ YFIXBT = YFIXBT()
     precision: 0.0001
     min_margin: None
     initial_margin: None
-    min_order_size: 0.002
+    min_order_size: 0.0007
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32249,7 +31171,7 @@ class YGGEUR(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 17.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32258,7 +31180,7 @@ class YGGEUR(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 17.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32285,7 +31207,7 @@ YGGEUR = YGGEUR()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 17.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32298,7 +31220,7 @@ class YGGUSD(NamedTuple):
         precision: 0.001
         min_margin: None
         initial_margin: None
-        min_order_size: 25
+        min_order_size: 17.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32307,7 +31229,7 @@ class YGGUSD(NamedTuple):
     precision: int = 0.001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 25
+    min_order_size: float = 17.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32334,7 +31256,7 @@ YGGUSD = YGGUSD()
     precision: 0.001
     min_margin: None
     initial_margin: None
-    min_order_size: 25
+    min_order_size: 17.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32347,7 +31269,7 @@ class ZEURZUSD(NamedTuple):
         precision: 0.00001
         min_margin: None
         initial_margin: None
-        min_order_size: 5
+        min_order_size: 0.5
         max_order_size: None
         has_margin: False
         exchange: kraken
@@ -32356,7 +31278,7 @@ class ZEURZUSD(NamedTuple):
     precision: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
-    min_order_size: float = 5
+    min_order_size: float = 0.5
     max_order_size: float = None
     has_margin: bool = False
     exchange: str = "kraken"
@@ -32383,7 +31305,7 @@ ZEURZUSD = ZEURZUSD()
     precision: 0.00001
     min_margin: None
     initial_margin: None
-    min_order_size: 5
+    min_order_size: 0.5
     max_order_size: None
     has_margin: False
     exchange: kraken
@@ -32478,55 +31400,6 @@ class ZRXEUR(NamedTuple):
 ZRXEUR = ZRXEUR()
 """
     name: ZRXEUR
-    precision: 0.001
-    min_margin: None
-    initial_margin: None
-    min_order_size: 25
-    max_order_size: None
-    has_margin: False
-    exchange: kraken
-"""
-
-
-class ZRXGBP(NamedTuple):
-    """
-        name: ZRXGBP
-        precision: 0.001
-        min_margin: None
-        initial_margin: None
-        min_order_size: 25
-        max_order_size: None
-        has_margin: False
-        exchange: kraken
-    """
-    name: str = "ZRXGBP"
-    precision: int = 0.001
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = 25
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "kraken"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ZRXGBP"
-
-    def __str__(self):
-        return "ZRXGBP"
-
-    def __call__(self):
-        return "ZRXGBP"
-
-
-ZRXGBP = ZRXGBP()
-"""
-    name: ZRXGBP
     precision: 0.001
     min_margin: None
     initial_margin: None
