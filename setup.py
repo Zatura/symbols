@@ -6,7 +6,7 @@ long_description = open('README.md').read()
 
 setup(
     name='symbols',
-    version='0.4.1',
+    version='0.4.2',
     author='Matheus Tura',
     author_website='zatura.me',
     packages=find_packages(),
