@@ -11369,6 +11369,55 @@ FLOW_USDT = FLOW_USDT()
 """
 
 
+class FLR_USD(NamedTuple):
+    """
+        name: FLR-USD
+        precision: 0.00001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "FLR-USD"
+    precision: int = 0.00001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FLR-USD"
+
+    def __str__(self):
+        return "FLR-USD"
+
+    def __call__(self):
+        return "FLR-USD"
+
+
+FLR_USD = FLR_USD()
+"""
+    name: FLR-USD
+    precision: 0.00001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class FORT_USD(NamedTuple):
     """
         name: FORT-USD

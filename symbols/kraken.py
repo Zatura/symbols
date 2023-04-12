@@ -2557,7 +2557,7 @@ class ARBEUR(NamedTuple):
         initial_margin: None
         min_order_size: 5
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "ARBEUR"
@@ -2566,7 +2566,7 @@ class ARBEUR(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 5
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -2593,7 +2593,7 @@ ARBEUR = ARBEUR()
     initial_margin: None
     min_order_size: 5
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 
@@ -2606,7 +2606,7 @@ class ARBUSD(NamedTuple):
         initial_margin: None
         min_order_size: 5
         max_order_size: None
-        has_margin: False
+        has_margin: True
         exchange: kraken
     """
     name: str = "ARBUSD"
@@ -2615,7 +2615,7 @@ class ARBUSD(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 5
     max_order_size: float = None
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "kraken"
 
     def __eq__(self, other):
@@ -2642,7 +2642,7 @@ ARBUSD = ARBUSD()
     initial_margin: None
     min_order_size: 5
     max_order_size: None
-    has_margin: False
+    has_margin: True
     exchange: kraken
 """
 

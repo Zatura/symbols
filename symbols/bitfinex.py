@@ -1471,6 +1471,55 @@ APTUST = APTUST()
 """
 
 
+class ARBF0_USTF0(NamedTuple):
+    """
+        name: tARBF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 75000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tARBF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 75000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tARBF0:USTF0"
+
+    def __str__(self):
+        return "tARBF0:USTF0"
+
+    def __call__(self):
+        return "tARBF0:USTF0"
+
+
+ARBF0_USTF0 = ARBF0_USTF0()
+"""
+    name: tARBF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 75000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class ARBUSD(NamedTuple):
     """
         name: tARBUSD
@@ -1907,6 +1956,55 @@ ATOUST = ATOUST()
     initial_margin: 30.0
     min_order_size: 0.2
     max_order_size: 100000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class AUSTRALIA200IXF0_USTF0(NamedTuple):
+    """
+        name: tAUSTRALIA200IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tAUSTRALIA200IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tAUSTRALIA200IXF0:USTF0"
+
+    def __str__(self):
+        return "tAUSTRALIA200IXF0:USTF0"
+
+    def __call__(self):
+        return "tAUSTRALIA200IXF0:USTF0"
+
+
+AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0()
+"""
+    name: tAUSTRALIA200IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
     has_margin: True
     exchange: bitfinex
 """
@@ -3377,6 +3475,104 @@ BOSON_UST = BOSON_UST()
     initial_margin: 30.0
     min_order_size: 6.0
     max_order_size: 50000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class BRISE_USD(NamedTuple):
+    """
+        name: tBRISE:USD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 100000000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tBRISE:USD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 100000000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tBRISE:USD"
+
+    def __str__(self):
+        return "tBRISE:USD"
+
+    def __call__(self):
+        return "tBRISE:USD"
+
+
+BRISE_USD = BRISE_USD()
+"""
+    name: tBRISE:USD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 100000000000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class BRISE_UST(NamedTuple):
+    """
+        name: tBRISE:UST
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 100000000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tBRISE:UST"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 100000000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tBRISE:UST"
+
+    def __str__(self):
+        return "tBRISE:UST"
+
+    def __call__(self):
+        return "tBRISE:UST"
+
+
+BRISE_UST = BRISE_UST()
+"""
+    name: tBRISE:UST
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 100000000000.0
     has_margin: False
     exchange: bitfinex
 """
@@ -7792,6 +7988,55 @@ EURF0_USTF0 = EURF0_USTF0()
 """
 
 
+class EUROPE50IXF0_USTF0(NamedTuple):
+    """
+        name: tEUROPE50IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.0006
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tEUROPE50IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.0006
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tEUROPE50IXF0:USTF0"
+
+    def __str__(self):
+        return "tEUROPE50IXF0:USTF0"
+
+    def __call__(self):
+        return "tEUROPE50IXF0:USTF0"
+
+
+EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0()
+"""
+    name: tEUROPE50IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.0006
+    max_order_size: 10.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class EURUST(NamedTuple):
     """
         name: tEURUST
@@ -8723,6 +8968,55 @@ FORTH_UST = FORTH_UST()
 """
 
 
+class FRANCE40IXF0_USTF0(NamedTuple):
+    """
+        name: tFRANCE40IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tFRANCE40IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tFRANCE40IXF0:USTF0"
+
+    def __str__(self):
+        return "tFRANCE40IXF0:USTF0"
+
+    def __call__(self):
+        return "tFRANCE40IXF0:USTF0"
+
+
+FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0()
+"""
+    name: tFRANCE40IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class FTMF0_USTF0(NamedTuple):
     """
         name: tFTMF0:USTF0
@@ -9209,6 +9503,55 @@ GBPUST = GBPUST()
     min_order_size: 2.0
     max_order_size: 500000.0
     has_margin: False
+    exchange: bitfinex
+"""
+
+
+class GERMANY40IXF0_USTF0(NamedTuple):
+    """
+        name: tGERMANY40IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.0004
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tGERMANY40IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.0004
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tGERMANY40IXF0:USTF0"
+
+    def __str__(self):
+        return "tGERMANY40IXF0:USTF0"
+
+    def __call__(self):
+        return "tGERMANY40IXF0:USTF0"
+
+
+GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0()
+"""
+    name: tGERMANY40IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.0004
+    max_order_size: 10.0
+    has_margin: True
     exchange: bitfinex
 """
 
@@ -9997,6 +10340,55 @@ HMTUST = HMTUST()
 """
 
 
+class HONGKONG50IXF0_USTF0(NamedTuple):
+    """
+        name: tHONGKONG50IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tHONGKONG50IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tHONGKONG50IXF0:USTF0"
+
+    def __str__(self):
+        return "tHONGKONG50IXF0:USTF0"
+
+    def __call__(self):
+        return "tHONGKONG50IXF0:USTF0"
+
+
+HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0()
+"""
+    name: tHONGKONG50IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class HTXUSD(NamedTuple):
     """
         name: tHTXUSD
@@ -10580,6 +10972,55 @@ IOTUSD = IOTUSD()
     initial_margin: 30.0
     min_order_size: 6.0
     max_order_size: 100000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class JAPAN225IXF0_USTF0(NamedTuple):
+    """
+        name: tJAPAN225IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tJAPAN225IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tJAPAN225IXF0:USTF0"
+
+    def __str__(self):
+        return "tJAPAN225IXF0:USTF0"
+
+    def __call__(self):
+        return "tJAPAN225IXF0:USTF0"
+
+
+JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0()
+"""
+    name: tJAPAN225IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
     has_margin: True
     exchange: bitfinex
 """
@@ -11315,6 +11756,104 @@ KSMUST = KSMUST()
     initial_margin: 30.0
     min_order_size: 0.02
     max_order_size: 5000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class LDOUSD(NamedTuple):
+    """
+        name: tLDOUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 100000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tLDOUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 100000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tLDOUSD"
+
+    def __str__(self):
+        return "tLDOUSD"
+
+    def __call__(self):
+        return "tLDOUSD"
+
+
+LDOUSD = LDOUSD()
+"""
+    name: tLDOUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 100000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class LDOUST(NamedTuple):
+    """
+        name: tLDOUST
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 100000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tLDOUST"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 100000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tLDOUST"
+
+    def __str__(self):
+        return "tLDOUST"
+
+    def __call__(self):
+        return "tLDOUST"
+
+
+LDOUST = LDOUST()
+"""
+    name: tLDOUST
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 100000.0
     has_margin: False
     exchange: bitfinex
 """
@@ -14701,6 +15240,104 @@ POLIS_UST = POLIS_UST()
 """
 
 
+class PRMX_USD(NamedTuple):
+    """
+        name: tPRMX:USD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 4000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tPRMX:USD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 4000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tPRMX:USD"
+
+    def __str__(self):
+        return "tPRMX:USD"
+
+    def __call__(self):
+        return "tPRMX:USD"
+
+
+PRMX_USD = PRMX_USD()
+"""
+    name: tPRMX:USD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 4000000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class PRMX_UST(NamedTuple):
+    """
+        name: tPRMX:UST
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 4000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tPRMX:UST"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 4000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tPRMX:UST"
+
+    def __str__(self):
+        return "tPRMX:UST"
+
+    def __call__(self):
+        return "tPRMX:UST"
+
+
+PRMX_UST = PRMX_UST()
+"""
+    name: tPRMX:UST
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 4000000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
 class QRDO_USD(NamedTuple):
     """
         name: tQRDO:USD
@@ -16416,6 +17053,55 @@ SOLUST = SOLUST()
 """
 
 
+class SPAIN35IXF0_USTF0(NamedTuple):
+    """
+        name: tSPAIN35IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tSPAIN35IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tSPAIN35IXF0:USTF0"
+
+    def __str__(self):
+        return "tSPAIN35IXF0:USTF0"
+
+    def __call__(self):
+        return "tSPAIN35IXF0:USTF0"
+
+
+SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0()
+"""
+    name: tSPAIN35IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class SPELL_USD(NamedTuple):
     """
         name: tSPELL:USD
@@ -17200,6 +17886,202 @@ TERRAUST_USD = TERRAUST_USD()
 """
 
 
+class TESTADA_TESTUSD(NamedTuple):
+    """
+        name: tTESTADA:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTADA:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTADA:TESTUSD"
+
+    def __str__(self):
+        return "tTESTADA:TESTUSD"
+
+    def __call__(self):
+        return "tTESTADA:TESTUSD"
+
+
+TESTADA_TESTUSD = TESTADA_TESTUSD()
+"""
+    name: tTESTADA:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTALGO_TESTUSD(NamedTuple):
+    """
+        name: tTESTALGO:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTALGO:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTALGO:TESTUSD"
+
+    def __str__(self):
+        return "tTESTALGO:TESTUSD"
+
+    def __call__(self):
+        return "tTESTALGO:TESTUSD"
+
+
+TESTALGO_TESTUSD = TESTALGO_TESTUSD()
+"""
+    name: tTESTALGO:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTAPT_TESTUSD(NamedTuple):
+    """
+        name: tTESTAPT:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTAPT:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTAPT:TESTUSD"
+
+    def __str__(self):
+        return "tTESTAPT:TESTUSD"
+
+    def __call__(self):
+        return "tTESTAPT:TESTUSD"
+
+
+TESTAPT_TESTUSD = TESTAPT_TESTUSD()
+"""
+    name: tTESTAPT:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTAVAX_TESTUSD(NamedTuple):
+    """
+        name: tTESTAVAX:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTAVAX:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTAVAX:TESTUSD"
+
+    def __str__(self):
+        return "tTESTAVAX:TESTUSD"
+
+    def __call__(self):
+        return "tTESTAVAX:TESTUSD"
+
+
+TESTAVAX_TESTUSD = TESTAVAX_TESTUSD()
+"""
+    name: tTESTAVAX:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class TESTBTC_TESTUSD(NamedTuple):
     """
         name: tTESTBTC:TESTUSD
@@ -17347,6 +18229,55 @@ TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
 """
 
 
+class TESTDOGE_TESTUSD(NamedTuple):
+    """
+        name: tTESTDOGE:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTDOGE:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTDOGE:TESTUSD"
+
+    def __str__(self):
+        return "tTESTDOGE:TESTUSD"
+
+    def __call__(self):
+        return "tTESTDOGE:TESTUSD"
+
+
+TESTDOGE_TESTUSD = TESTDOGE_TESTUSD()
+"""
+    name: tTESTDOGE:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class TESTDOT_TESTUSD(NamedTuple):
     """
         name: tTESTDOT:TESTUSD
@@ -17355,7 +18286,7 @@ class TESTDOT_TESTUSD(NamedTuple):
         initial_margin: 30.0
         min_order_size: 0.001
         max_order_size: 100000.0
-        has_margin: False
+        has_margin: True
         exchange: bitfinex
     """
     name: str = "tTESTDOT:TESTUSD"
@@ -17364,7 +18295,7 @@ class TESTDOT_TESTUSD(NamedTuple):
     initial_margin: float = 30.0
     min_order_size: float = 0.001
     max_order_size: float = 100000.0
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "bitfinex"
 
     def __eq__(self, other):
@@ -17391,7 +18322,7 @@ TESTDOT_TESTUSD = TESTDOT_TESTUSD()
     initial_margin: 30.0
     min_order_size: 0.001
     max_order_size: 100000.0
-    has_margin: False
+    has_margin: True
     exchange: bitfinex
 """
 
@@ -17445,6 +18376,202 @@ TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0()
 """
 
 
+class TESTEOS_TESTUSD(NamedTuple):
+    """
+        name: tTESTEOS:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTEOS:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTEOS:TESTUSD"
+
+    def __str__(self):
+        return "tTESTEOS:TESTUSD"
+
+    def __call__(self):
+        return "tTESTEOS:TESTUSD"
+
+
+TESTEOS_TESTUSD = TESTEOS_TESTUSD()
+"""
+    name: tTESTEOS:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTETH_TESTUSD(NamedTuple):
+    """
+        name: tTESTETH:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTETH:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTETH:TESTUSD"
+
+    def __str__(self):
+        return "tTESTETH:TESTUSD"
+
+    def __call__(self):
+        return "tTESTETH:TESTUSD"
+
+
+TESTETH_TESTUSD = TESTETH_TESTUSD()
+"""
+    name: tTESTETH:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTFIL_TESTUSD(NamedTuple):
+    """
+        name: tTESTFIL:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTFIL:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTFIL:TESTUSD"
+
+    def __str__(self):
+        return "tTESTFIL:TESTUSD"
+
+    def __call__(self):
+        return "tTESTFIL:TESTUSD"
+
+
+TESTFIL_TESTUSD = TESTFIL_TESTUSD()
+"""
+    name: tTESTFIL:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTLTC_TESTUSD(NamedTuple):
+    """
+        name: tTESTLTC:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTLTC:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTLTC:TESTUSD"
+
+    def __str__(self):
+        return "tTESTLTC:TESTUSD"
+
+    def __call__(self):
+        return "tTESTLTC:TESTUSD"
+
+
+TESTLTC_TESTUSD = TESTLTC_TESTUSD()
+"""
+    name: tTESTLTC:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class TESTMATIC_TESTUSD(NamedTuple):
     """
         name: tTESTMATIC:TESTUSD
@@ -17453,7 +18580,7 @@ class TESTMATIC_TESTUSD(NamedTuple):
         initial_margin: 30.0
         min_order_size: 0.001
         max_order_size: 100000.0
-        has_margin: False
+        has_margin: True
         exchange: bitfinex
     """
     name: str = "tTESTMATIC:TESTUSD"
@@ -17462,7 +18589,7 @@ class TESTMATIC_TESTUSD(NamedTuple):
     initial_margin: float = 30.0
     min_order_size: float = 0.001
     max_order_size: float = 100000.0
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "bitfinex"
 
     def __eq__(self, other):
@@ -17489,7 +18616,7 @@ TESTMATIC_TESTUSD = TESTMATIC_TESTUSD()
     initial_margin: 30.0
     min_order_size: 0.001
     max_order_size: 100000.0
-    has_margin: False
+    has_margin: True
     exchange: bitfinex
 """
 
@@ -17592,6 +18719,55 @@ TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0()
 """
 
 
+class TESTNEAR_TESTUSD(NamedTuple):
+    """
+        name: tTESTNEAR:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTNEAR:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTNEAR:TESTUSD"
+
+    def __str__(self):
+        return "tTESTNEAR:TESTUSD"
+
+    def __call__(self):
+        return "tTESTNEAR:TESTUSD"
+
+
+TESTNEAR_TESTUSD = TESTNEAR_TESTUSD()
+"""
+    name: tTESTNEAR:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class TESTSOL_TESTUSD(NamedTuple):
     """
         name: tTESTSOL:TESTUSD
@@ -17600,7 +18776,7 @@ class TESTSOL_TESTUSD(NamedTuple):
         initial_margin: 30.0
         min_order_size: 0.001
         max_order_size: 100000.0
-        has_margin: False
+        has_margin: True
         exchange: bitfinex
     """
     name: str = "tTESTSOL:TESTUSD"
@@ -17609,7 +18785,7 @@ class TESTSOL_TESTUSD(NamedTuple):
     initial_margin: float = 30.0
     min_order_size: float = 0.001
     max_order_size: float = 100000.0
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "bitfinex"
 
     def __eq__(self, other):
@@ -17636,7 +18812,7 @@ TESTSOL_TESTUSD = TESTSOL_TESTUSD()
     initial_margin: 30.0
     min_order_size: 0.001
     max_order_size: 100000.0
-    has_margin: False
+    has_margin: True
     exchange: bitfinex
 """
 
@@ -17685,6 +18861,104 @@ TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0()
     initial_margin: 1.0
     min_order_size: 0.001
     max_order_size: 100000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTXAUT_TESTUSD(NamedTuple):
+    """
+        name: tTESTXAUT:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTXAUT:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTXAUT:TESTUSD"
+
+    def __str__(self):
+        return "tTESTXAUT:TESTUSD"
+
+    def __call__(self):
+        return "tTESTXAUT:TESTUSD"
+
+
+TESTXAUT_TESTUSD = TESTXAUT_TESTUSD()
+"""
+    name: tTESTXAUT:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
+class TESTXTZ_TESTUSD(NamedTuple):
+    """
+        name: tTESTXTZ:TESTUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 10000.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tTESTXTZ:TESTUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10000.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTESTXTZ:TESTUSD"
+
+    def __str__(self):
+        return "tTESTXTZ:TESTUSD"
+
+    def __call__(self):
+        return "tTESTXTZ:TESTUSD"
+
+
+TESTXTZ_TESTUSD = TESTXTZ_TESTUSD()
+"""
+    name: tTESTXTZ:TESTUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 10000.0
     has_margin: True
     exchange: bitfinex
 """
@@ -17831,6 +19105,104 @@ TLOS_USD = TLOS_USD()
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
+    max_order_size: 50000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class TONUSD(NamedTuple):
+    """
+        name: tTONUSD
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 50000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tTONUSD"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 50000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTONUSD"
+
+    def __str__(self):
+        return "tTONUSD"
+
+    def __call__(self):
+        return "tTONUSD"
+
+
+TONUSD = TONUSD()
+"""
+    name: tTONUSD
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 50000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class TONUST(NamedTuple):
+    """
+        name: tTONUST
+        precision: 5
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 50000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tTONUST"
+    precision: int = 5
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 50000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tTONUST"
+
+    def __str__(self):
+        return "tTONUST"
+
+    def __call__(self):
+        return "tTONUST"
+
+
+TONUST = TONUST()
+"""
+    name: tTONUST
+    precision: 5
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
     max_order_size: 50000.0
     has_margin: False
     exchange: bitfinex
@@ -18572,6 +19944,55 @@ UDCUST = UDCUST()
 """
 
 
+class UK100IXF0_USTF0(NamedTuple):
+    """
+        name: tUK100IXF0:USTF0
+        precision: 5
+        min_margin: 0.5
+        initial_margin: 1.0
+        min_order_size: 0.001
+        max_order_size: 10.0
+        has_margin: True
+        exchange: bitfinex
+    """
+    name: str = "tUK100IXF0:USTF0"
+    precision: int = 5
+    min_margin: float = 0.5
+    initial_margin: float = 1.0
+    min_order_size: float = 0.001
+    max_order_size: float = 10.0
+    has_margin: bool = True
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tUK100IXF0:USTF0"
+
+    def __str__(self):
+        return "tUK100IXF0:USTF0"
+
+    def __call__(self):
+        return "tUK100IXF0:USTF0"
+
+
+UK100IXF0_USTF0 = UK100IXF0_USTF0()
+"""
+    name: tUK100IXF0:USTF0
+    precision: 5
+    min_margin: 0.5
+    initial_margin: 1.0
+    min_order_size: 0.001
+    max_order_size: 10.0
+    has_margin: True
+    exchange: bitfinex
+"""
+
+
 class UKOILF0_USTF0(NamedTuple):
     """
         name: tUKOILF0:USTF0
@@ -19069,7 +20490,7 @@ class VELO_USD(NamedTuple):
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
-        max_order_size: 75000.0
+        max_order_size: 1750000.0
         has_margin: False
         exchange: bitfinex
     """
@@ -19078,7 +20499,7 @@ class VELO_USD(NamedTuple):
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
-    max_order_size: float = 75000.0
+    max_order_size: float = 1750000.0
     has_margin: bool = False
     exchange: str = "bitfinex"
 
@@ -19105,7 +20526,7 @@ VELO_USD = VELO_USD()
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
-    max_order_size: 75000.0
+    max_order_size: 1750000.0
     has_margin: False
     exchange: bitfinex
 """
@@ -19118,7 +20539,7 @@ class VELO_UST(NamedTuple):
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
-        max_order_size: 75000.0
+        max_order_size: 1750000.0
         has_margin: False
         exchange: bitfinex
     """
@@ -19127,7 +20548,7 @@ class VELO_UST(NamedTuple):
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
-    max_order_size: float = 75000.0
+    max_order_size: float = 1750000.0
     has_margin: bool = False
     exchange: str = "bitfinex"
 
@@ -19154,7 +20575,7 @@ VELO_UST = VELO_UST()
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
-    max_order_size: 75000.0
+    max_order_size: 1750000.0
     has_margin: False
     exchange: bitfinex
 """

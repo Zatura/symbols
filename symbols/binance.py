@@ -7898,7 +7898,7 @@ class ARBTUSD(NamedTuple):
         initial_margin: None
         min_order_size: 0.10000000
         max_order_size: 92141578.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "ARBTUSD"
@@ -7907,7 +7907,7 @@ class ARBTUSD(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.10000000
     max_order_size: float = 92141578.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -7934,7 +7934,7 @@ ARBTUSD = ARBTUSD()
     initial_margin: None
     min_order_size: 0.10000000
     max_order_size: 92141578.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -17747,7 +17747,7 @@ class BNBTUSD(NamedTuple):
         initial_margin: None
         min_order_size: 0.00100000
         max_order_size: 900000.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "BNBTUSD"
@@ -17756,7 +17756,7 @@ class BNBTUSD(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.00100000
     max_order_size: float = 900000.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -17783,7 +17783,7 @@ BNBTUSD = BNBTUSD()
     initial_margin: None
     min_order_size: 0.00100000
     max_order_size: 900000.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -36955,7 +36955,7 @@ class ERNUSDT(NamedTuple):
         initial_margin: None
         min_order_size: 0.10000000
         max_order_size: 9222449.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "ERNUSDT"
@@ -36964,7 +36964,7 @@ class ERNUSDT(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.10000000
     max_order_size: float = 9222449.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -36991,7 +36991,7 @@ ERNUSDT = ERNUSDT()
     initial_margin: None
     min_order_size: 0.10000000
     max_order_size: 9222449.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -50087,7 +50087,7 @@ class ICXBTC(NamedTuple):
         initial_margin: None
         min_order_size: 1.00000000
         max_order_size: 90000000.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "ICXBTC"
@@ -50096,7 +50096,7 @@ class ICXBTC(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 1.00000000
     max_order_size: float = 90000000.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -50123,7 +50123,7 @@ ICXBTC = ICXBTC()
     initial_margin: None
     min_order_size: 1.00000000
     max_order_size: 90000000.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -55465,6 +55465,55 @@ LDOBUSD = LDOBUSD()
     min_order_size: 0.01000000
     max_order_size: 92141578.00000000
     has_margin: True
+    exchange: binance
+"""
+
+
+class LDOTUSD(NamedTuple):
+    """
+        name: LDOTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.01000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "LDOTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.01000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LDOTUSD"
+
+    def __str__(self):
+        return "LDOTUSD"
+
+    def __call__(self):
+        return "LDOTUSD"
+
+
+LDOTUSD = LDOTUSD()
+"""
+    name: LDOTUSD
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.01000000
+    max_order_size: 92141578.00000000
+    has_margin: False
     exchange: binance
 """
 
@@ -61349,6 +61398,55 @@ MATICTRY = MATICTRY()
 """
 
 
+class MATICTUSD(NamedTuple):
+    """
+        name: MATICTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.10000000
+        max_order_size: 9000000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "MATICTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.10000000
+    max_order_size: float = 9000000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MATICTUSD"
+
+    def __str__(self):
+        return "MATICTUSD"
+
+    def __call__(self):
+        return "MATICTUSD"
+
+
+MATICTUSD = MATICTUSD()
+"""
+    name: MATICTUSD
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.10000000
+    max_order_size: 9000000.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class MATICUSDT(NamedTuple):
     """
         name: MATICUSDT
@@ -66012,7 +66110,7 @@ class NEBLBUSD(NamedTuple):
         initial_margin: None
         min_order_size: 0.10000000
         max_order_size: 92141578.00000000
-        has_margin: True
+        has_margin: False
         exchange: binance
     """
     name: str = "NEBLBUSD"
@@ -66021,7 +66119,7 @@ class NEBLBUSD(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.10000000
     max_order_size: float = 92141578.00000000
-    has_margin: bool = True
+    has_margin: bool = False
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -66048,7 +66146,7 @@ NEBLBUSD = NEBLBUSD()
     initial_margin: None
     min_order_size: 0.10000000
     max_order_size: 92141578.00000000
-    has_margin: True
+    has_margin: False
     exchange: binance
 """
 
@@ -67972,7 +68070,7 @@ class OAXBTC(NamedTuple):
         initial_margin: None
         min_order_size: 1.00000000
         max_order_size: 90000000.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "OAXBTC"
@@ -67981,7 +68079,7 @@ class OAXBTC(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 1.00000000
     max_order_size: float = 90000000.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -68008,7 +68106,7 @@ OAXBTC = OAXBTC()
     initial_margin: None
     min_order_size: 1.00000000
     max_order_size: 90000000.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -68070,7 +68168,7 @@ class OAXUSDT(NamedTuple):
         initial_margin: None
         min_order_size: 1.00000000
         max_order_size: 92141578.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "OAXUSDT"
@@ -68079,7 +68177,7 @@ class OAXUSDT(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 1.00000000
     max_order_size: float = 92141578.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -68106,7 +68204,7 @@ OAXUSDT = OAXUSDT()
     initial_margin: None
     min_order_size: 1.00000000
     max_order_size: 92141578.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -70502,6 +70600,55 @@ class OPEUR(NamedTuple):
 OPEUR = OPEUR()
 """
     name: OPEUR
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.01000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class OPTUSD(NamedTuple):
+    """
+        name: OPTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.01000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "OPTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.01000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OPTUSD"
+
+    def __str__(self):
+        return "OPTUSD"
+
+    def __call__(self):
+        return "OPTUSD"
+
+
+OPTUSD = OPTUSD()
+"""
+    name: OPTUSD
     precision: 8
     min_margin: None
     initial_margin: None
@@ -77862,6 +78009,153 @@ RDNETH = RDNETH()
 """
 
 
+class RDNTBTC(NamedTuple):
+    """
+        name: RDNTBTC
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "RDNTBTC"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RDNTBTC"
+
+    def __str__(self):
+        return "RDNTBTC"
+
+    def __call__(self):
+        return "RDNTBTC"
+
+
+RDNTBTC = RDNTBTC()
+"""
+    name: RDNTBTC
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class RDNTTUSD(NamedTuple):
+    """
+        name: RDNTTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "RDNTTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RDNTTUSD"
+
+    def __str__(self):
+        return "RDNTTUSD"
+
+    def __call__(self):
+        return "RDNTTUSD"
+
+
+RDNTTUSD = RDNTTUSD()
+"""
+    name: RDNTTUSD
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class RDNTUSDT(NamedTuple):
+    """
+        name: RDNTUSDT
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: True
+        exchange: binance
+    """
+    name: str = "RDNTUSDT"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = True
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RDNTUSDT"
+
+    def __str__(self):
+        return "RDNTUSDT"
+
+    def __call__(self):
+        return "RDNTUSDT"
+
+
+RDNTUSDT = RDNTUSDT()
+"""
+    name: RDNTUSDT
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: True
+    exchange: binance
+"""
+
+
 class REEFBIDR(NamedTuple):
     """
         name: REEFBIDR
@@ -84673,6 +84967,55 @@ SOLTRY = SOLTRY()
 """
 
 
+class SOLTUSD(NamedTuple):
+    """
+        name: SOLTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.01000000
+        max_order_size: 90000.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "SOLTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.01000000
+    max_order_size: float = 90000.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SOLTUSD"
+
+    def __str__(self):
+        return "SOLTUSD"
+
+    def __call__(self):
+        return "SOLTUSD"
+
+
+SOLTUSD = SOLTUSD()
+"""
+    name: SOLTUSD
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.01000000
+    max_order_size: 90000.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class SOLUSDC(NamedTuple):
     """
         name: SOLUSDC
@@ -85452,6 +85795,55 @@ SSVETH = SSVETH()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class SSVTUSD(NamedTuple):
+    """
+        name: SSVTUSD
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.00100000
+        max_order_size: 9222449.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "SSVTUSD"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.00100000
+    max_order_size: float = 9222449.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SSVTUSD"
+
+    def __str__(self):
+        return "SSVTUSD"
+
+    def __call__(self):
+        return "SSVTUSD"
+
+
+SSVTUSD = SSVTUSD()
+"""
+    name: SSVTUSD
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.00100000
+    max_order_size: 9222449.00000000
     has_margin: False
     exchange: binance
 """
@@ -86690,7 +87082,7 @@ class STPTUSDT(NamedTuple):
         initial_margin: None
         min_order_size: 0.10000000
         max_order_size: 9000000.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "STPTUSDT"
@@ -86699,7 +87091,7 @@ class STPTUSDT(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.10000000
     max_order_size: float = 9000000.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -86726,7 +87118,7 @@ STPTUSDT = STPTUSDT()
     initial_margin: None
     min_order_size: 0.10000000
     max_order_size: 9000000.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -88454,7 +88846,7 @@ class SXPBNB(NamedTuple):
         initial_margin: None
         min_order_size: 0.10000000
         max_order_size: 9000000.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "SXPBNB"
@@ -88463,7 +88855,7 @@ class SXPBNB(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.10000000
     max_order_size: float = 9000000.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -88490,7 +88882,7 @@ SXPBNB = SXPBNB()
     initial_margin: None
     min_order_size: 0.10000000
     max_order_size: 9000000.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -103202,7 +103594,7 @@ class XRPTUSD(NamedTuple):
         min_margin: None
         initial_margin: None
         min_order_size: 1.00000000
-        max_order_size: 900000.00000000
+        max_order_size: 9222449.00000000
         has_margin: False
         exchange: binance
     """
@@ -103211,7 +103603,7 @@ class XRPTUSD(NamedTuple):
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1.00000000
-    max_order_size: float = 900000.00000000
+    max_order_size: float = 9222449.00000000
     has_margin: bool = False
     exchange: str = "binance"
 
@@ -103238,7 +103630,7 @@ XRPTUSD = XRPTUSD()
     min_margin: None
     initial_margin: None
     min_order_size: 1.00000000
-    max_order_size: 900000.00000000
+    max_order_size: 9222449.00000000
     has_margin: False
     exchange: binance
 """
