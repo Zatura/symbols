@@ -22544,7 +22544,7 @@ ETH3L_USDT = ETH3L_USDT()
 class ETH3S_USDT(NamedTuple):
     """
         name: ETH3S-USDT
-        precision: 0.000001
+        precision: 0.00000001
         min_margin: 0.1
         initial_margin: None
         min_order_size: 0.01
@@ -22553,7 +22553,7 @@ class ETH3S_USDT(NamedTuple):
         exchange: kucoin
     """
     name: str = "ETH3S-USDT"
-    precision: int = 0.000001
+    precision: int = 0.00000001
     min_margin: float = 0.1
     initial_margin: float = None
     min_order_size: float = 0.01
@@ -22580,7 +22580,7 @@ class ETH3S_USDT(NamedTuple):
 ETH3S_USDT = ETH3S_USDT()
 """
     name: ETH3S-USDT
-    precision: 0.000001
+    precision: 0.00000001
     min_margin: 0.1
     initial_margin: None
     min_order_size: 0.01
@@ -37783,7 +37783,7 @@ MATIC3L_USDT = MATIC3L_USDT()
 class MATIC3S_USDT(NamedTuple):
     """
         name: MATIC3S-USDT
-        precision: 0.000001
+        precision: 0.00000001
         min_margin: 0.1
         initial_margin: None
         min_order_size: 0.1
@@ -37792,7 +37792,7 @@ class MATIC3S_USDT(NamedTuple):
         exchange: kucoin
     """
     name: str = "MATIC3S-USDT"
-    precision: int = 0.000001
+    precision: int = 0.00000001
     min_margin: float = 0.1
     initial_margin: float = None
     min_order_size: float = 0.1
@@ -37819,7 +37819,7 @@ class MATIC3S_USDT(NamedTuple):
 MATIC3S_USDT = MATIC3S_USDT()
 """
     name: MATIC3S-USDT
-    precision: 0.000001
+    precision: 0.00000001
     min_margin: 0.1
     initial_margin: None
     min_order_size: 0.1
@@ -39547,7 +39547,7 @@ SUSHI3L_USDT = SUSHI3L_USDT()
 class SUSHI3S_USDT(NamedTuple):
     """
         name: SUSHI3S-USDT
-        precision: 0.0001
+        precision: 0.000001
         min_margin: 0.1
         initial_margin: None
         min_order_size: 0.1
@@ -39556,7 +39556,7 @@ class SUSHI3S_USDT(NamedTuple):
         exchange: kucoin
     """
     name: str = "SUSHI3S-USDT"
-    precision: int = 0.0001
+    precision: int = 0.000001
     min_margin: float = 0.1
     initial_margin: float = None
     min_order_size: float = 0.1
@@ -39583,7 +39583,7 @@ class SUSHI3S_USDT(NamedTuple):
 SUSHI3S_USDT = SUSHI3S_USDT()
 """
     name: SUSHI3S-USDT
-    precision: 0.0001
+    precision: 0.000001
     min_margin: 0.1
     initial_margin: None
     min_order_size: 0.1
@@ -41899,7 +41899,7 @@ AVAX3L_USDT = AVAX3L_USDT()
 class AVAX3S_USDT(NamedTuple):
     """
         name: AVAX3S-USDT
-        precision: 0.0001
+        precision: 0.000001
         min_margin: 0.1
         initial_margin: None
         min_order_size: 0.1
@@ -41908,7 +41908,7 @@ class AVAX3S_USDT(NamedTuple):
         exchange: kucoin
     """
     name: str = "AVAX3S-USDT"
-    precision: int = 0.0001
+    precision: int = 0.000001
     min_margin: float = 0.1
     initial_margin: float = None
     min_order_size: float = 0.1
@@ -41935,7 +41935,7 @@ class AVAX3S_USDT(NamedTuple):
 AVAX3S_USDT = AVAX3S_USDT()
 """
     name: AVAX3S-USDT
-    precision: 0.0001
+    precision: 0.000001
     min_margin: 0.1
     initial_margin: None
     min_order_size: 0.1
@@ -56942,7 +56942,7 @@ MPLX_USDT = MPLX_USDT()
 class HIDOODLES_USDT(NamedTuple):
     """
         name: HIDOODLES-USDT
-        precision: 0.00001
+        precision: 0.0000001
         min_margin: 0.1
         initial_margin: None
         min_order_size: 10
@@ -56951,7 +56951,7 @@ class HIDOODLES_USDT(NamedTuple):
         exchange: kucoin
     """
     name: str = "HIDOODLES-USDT"
-    precision: int = 0.00001
+    precision: int = 0.0000001
     min_margin: float = 0.1
     initial_margin: float = None
     min_order_size: float = 10
@@ -56978,7 +56978,7 @@ class HIDOODLES_USDT(NamedTuple):
 HIDOODLES_USDT = HIDOODLES_USDT()
 """
     name: HIDOODLES-USDT
-    precision: 0.00001
+    precision: 0.0000001
     min_margin: 0.1
     initial_margin: None
     min_order_size: 10
@@ -63658,7 +63658,7 @@ class CGPT_USDT(NamedTuple):
         precision: 0.000001
         min_margin: 0.1
         initial_margin: None
-        min_order_size: 100
+        min_order_size: 1
         max_order_size: 10000000000
         has_margin: False
         exchange: kucoin
@@ -63667,7 +63667,7 @@ class CGPT_USDT(NamedTuple):
     precision: int = 0.000001
     min_margin: float = 0.1
     initial_margin: float = None
-    min_order_size: float = 100
+    min_order_size: float = 1
     max_order_size: float = 10000000000
     has_margin: bool = False
     exchange: str = "kucoin"
@@ -63694,7 +63694,7 @@ CGPT_USDT = CGPT_USDT()
     precision: 0.000001
     min_margin: 0.1
     initial_margin: None
-    min_order_size: 100
+    min_order_size: 1
     max_order_size: 10000000000
     has_margin: False
     exchange: kucoin
@@ -64185,6 +64185,790 @@ OTK_USDT = OTK_USDT()
     min_margin: 0.1
     initial_margin: None
     min_order_size: 10
+    max_order_size: 10000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class RNDRUP_USDT(NamedTuple):
+    """
+        name: RNDRUP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "RNDRUP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RNDRUP-USDT"
+
+    def __str__(self):
+        return "RNDRUP-USDT"
+
+    def __call__(self):
+        return "RNDRUP-USDT"
+
+
+RNDRUP_USDT = RNDRUP_USDT()
+"""
+    name: RNDRUP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class RNDRDOWN_USDT(NamedTuple):
+    """
+        name: RNDRDOWN-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "RNDRDOWN-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RNDRDOWN-USDT"
+
+    def __str__(self):
+        return "RNDRDOWN-USDT"
+
+    def __call__(self):
+        return "RNDRDOWN-USDT"
+
+
+RNDRDOWN_USDT = RNDRDOWN_USDT()
+"""
+    name: RNDRDOWN-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class STXUP_USDT(NamedTuple):
+    """
+        name: STXUP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "STXUP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "STXUP-USDT"
+
+    def __str__(self):
+        return "STXUP-USDT"
+
+    def __call__(self):
+        return "STXUP-USDT"
+
+
+STXUP_USDT = STXUP_USDT()
+"""
+    name: STXUP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class STXDOWN_USDT(NamedTuple):
+    """
+        name: STXDOWN-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "STXDOWN-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "STXDOWN-USDT"
+
+    def __str__(self):
+        return "STXDOWN-USDT"
+
+    def __call__(self):
+        return "STXDOWN-USDT"
+
+
+STXDOWN_USDT = STXDOWN_USDT()
+"""
+    name: STXDOWN-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class LINAUP_USDT(NamedTuple):
+    """
+        name: LINAUP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "LINAUP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LINAUP-USDT"
+
+    def __str__(self):
+        return "LINAUP-USDT"
+
+    def __call__(self):
+        return "LINAUP-USDT"
+
+
+LINAUP_USDT = LINAUP_USDT()
+"""
+    name: LINAUP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class LINADOWN_USDT(NamedTuple):
+    """
+        name: LINADOWN-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "LINADOWN-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LINADOWN-USDT"
+
+    def __str__(self):
+        return "LINADOWN-USDT"
+
+    def __call__(self):
+        return "LINADOWN-USDT"
+
+
+LINADOWN_USDT = LINADOWN_USDT()
+"""
+    name: LINADOWN-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class GPT_USDT(NamedTuple):
+    """
+        name: GPT-USDT
+        precision: 0.00001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 10
+        max_order_size: 10000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "GPT-USDT"
+    precision: int = 0.00001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 10
+    max_order_size: float = 10000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GPT-USDT"
+
+    def __str__(self):
+        return "GPT-USDT"
+
+    def __call__(self):
+        return "GPT-USDT"
+
+
+GPT_USDT = GPT_USDT()
+"""
+    name: GPT-USDT
+    precision: 0.00001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 10
+    max_order_size: 10000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class BABYDOGE_USDT(NamedTuple):
+    """
+        name: BABYDOGE-USDT
+        precision: 0.000000000001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 100000000
+        max_order_size: 1000000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "BABYDOGE-USDT"
+    precision: int = 0.000000000001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 100000000
+    max_order_size: float = 1000000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BABYDOGE-USDT"
+
+    def __str__(self):
+        return "BABYDOGE-USDT"
+
+    def __call__(self):
+        return "BABYDOGE-USDT"
+
+
+BABYDOGE_USDT = BABYDOGE_USDT()
+"""
+    name: BABYDOGE-USDT
+    precision: 0.000000000001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 100000000
+    max_order_size: 1000000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class PZP_USDT(NamedTuple):
+    """
+        name: PZP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: 10000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "PZP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = 10000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PZP-USDT"
+
+    def __str__(self):
+        return "PZP-USDT"
+
+    def __call__(self):
+        return "PZP-USDT"
+
+
+PZP_USDT = PZP_USDT()
+"""
+    name: PZP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: 10000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class INJDOWN_USDT(NamedTuple):
+    """
+        name: INJDOWN-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "INJDOWN-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "INJDOWN-USDT"
+
+    def __str__(self):
+        return "INJDOWN-USDT"
+
+    def __call__(self):
+        return "INJDOWN-USDT"
+
+
+INJDOWN_USDT = INJDOWN_USDT()
+"""
+    name: INJDOWN-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class ETCUP_USDT(NamedTuple):
+    """
+        name: ETCUP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "ETCUP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETCUP-USDT"
+
+    def __str__(self):
+        return "ETCUP-USDT"
+
+    def __call__(self):
+        return "ETCUP-USDT"
+
+
+ETCUP_USDT = ETCUP_USDT()
+"""
+    name: ETCUP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class ETCDOWN_USDT(NamedTuple):
+    """
+        name: ETCDOWN-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "ETCDOWN-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETCDOWN-USDT"
+
+    def __str__(self):
+        return "ETCDOWN-USDT"
+
+    def __call__(self):
+        return "ETCDOWN-USDT"
+
+
+ETCDOWN_USDT = ETCDOWN_USDT()
+"""
+    name: ETCDOWN-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class INJUP_USDT(NamedTuple):
+    """
+        name: INJUP-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 999999999999
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "INJUP-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 999999999999
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "INJUP-USDT"
+
+    def __str__(self):
+        return "INJUP-USDT"
+
+    def __call__(self):
+        return "INJUP-USDT"
+
+
+INJUP_USDT = INJUP_USDT()
+"""
+    name: INJUP-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 999999999999
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class LOCUS_USDT(NamedTuple):
+    """
+        name: LOCUS-USDT
+        precision: 0.00001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 10
+        max_order_size: 10000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "LOCUS-USDT"
+    precision: int = 0.00001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 10
+    max_order_size: float = 10000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LOCUS-USDT"
+
+    def __str__(self):
+        return "LOCUS-USDT"
+
+    def __call__(self):
+        return "LOCUS-USDT"
+
+
+LOCUS_USDT = LOCUS_USDT()
+"""
+    name: LOCUS-USDT
+    precision: 0.00001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 10
+    max_order_size: 10000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class IRON_USDT(NamedTuple):
+    """
+        name: IRON-USDT
+        precision: 0.001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 0.1
+        max_order_size: 10000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "IRON-USDT"
+    precision: int = 0.001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 0.1
+    max_order_size: float = 10000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "IRON-USDT"
+
+    def __str__(self):
+        return "IRON-USDT"
+
+    def __call__(self):
+        return "IRON-USDT"
+
+
+IRON_USDT = IRON_USDT()
+"""
+    name: IRON-USDT
+    precision: 0.001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 0.1
+    max_order_size: 10000000000
+    has_margin: False
+    exchange: kucoin
+"""
+
+
+class ZPAY_USDT(NamedTuple):
+    """
+        name: ZPAY-USDT
+        precision: 0.0001
+        min_margin: 0.1
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: 10000000000
+        has_margin: False
+        exchange: kucoin
+    """
+    name: str = "ZPAY-USDT"
+    precision: int = 0.0001
+    min_margin: float = 0.1
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = 10000000000
+    has_margin: bool = False
+    exchange: str = "kucoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ZPAY-USDT"
+
+    def __str__(self):
+        return "ZPAY-USDT"
+
+    def __call__(self):
+        return "ZPAY-USDT"
+
+
+ZPAY_USDT = ZPAY_USDT()
+"""
+    name: ZPAY-USDT
+    precision: 0.0001
+    min_margin: 0.1
+    initial_margin: None
+    min_order_size: 1
     max_order_size: 10000000000
     has_margin: False
     exchange: kucoin

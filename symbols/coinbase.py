@@ -8478,6 +8478,55 @@ DIA_USDT = DIA_USDT()
 """
 
 
+class DIMO_USD(NamedTuple):
+    """
+        name: DIMO-USD
+        precision: 0.00001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "DIMO-USD"
+    precision: int = 0.00001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DIMO-USD"
+
+    def __str__(self):
+        return "DIMO-USD"
+
+    def __call__(self):
+        return "DIMO-USD"
+
+
+DIMO_USD = DIMO_USD()
+"""
+    name: DIMO-USD
+    precision: 0.00001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
 class DNT_USD(NamedTuple):
     """
         name: DNT-USD
@@ -25619,6 +25668,55 @@ TRU_USDT = TRU_USDT()
 """
     name: TRU-USDT
     precision: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class TVK_USD(NamedTuple):
+    """
+        name: TVK-USD
+        precision: 0.00001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "TVK-USD"
+    precision: int = 0.00001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "TVK-USD"
+
+    def __str__(self):
+        return "TVK-USD"
+
+    def __call__(self):
+        return "TVK-USD"
+
+
+TVK_USD = TVK_USD()
+"""
+    name: TVK-USD
+    precision: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1

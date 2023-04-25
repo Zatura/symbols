@@ -932,6 +932,55 @@ ACHBUSD = ACHBUSD()
 """
 
 
+class ACHTRY(NamedTuple):
+    """
+        name: ACHTRY
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "ACHTRY"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ACHTRY"
+
+    def __str__(self):
+        return "ACHTRY"
+
+    def __call__(self):
+        return "ACHTRY"
+
+
+ACHTRY = ACHTRY()
+"""
+    name: ACHTRY
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class ACHUSDT(NamedTuple):
     """
         name: ACHUSDT
@@ -7787,6 +7836,55 @@ ARBNB = ARBNB()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 100000.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class ARBRUB(NamedTuple):
+    """
+        name: ARBRUB
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.10000000
+        max_order_size: 922327.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "ARBRUB"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.10000000
+    max_order_size: float = 922327.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARBRUB"
+
+    def __str__(self):
+        return "ARBRUB"
+
+    def __call__(self):
+        return "ARBRUB"
+
+
+ARBRUB = ARBRUB()
+"""
+    name: ARBRUB
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.10000000
+    max_order_size: 922327.00000000
     has_margin: False
     exchange: binance
 """
@@ -27988,7 +28086,7 @@ class CTSIBTC(NamedTuple):
         initial_margin: None
         min_order_size: 1.00000000
         max_order_size: 90000000.00000000
-        has_margin: True
+        has_margin: False
         exchange: binance
     """
     name: str = "CTSIBTC"
@@ -27997,7 +28095,7 @@ class CTSIBTC(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 1.00000000
     max_order_size: float = 90000000.00000000
-    has_margin: bool = True
+    has_margin: bool = False
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -28024,7 +28122,7 @@ CTSIBTC = CTSIBTC()
     initial_margin: None
     min_order_size: 1.00000000
     max_order_size: 90000000.00000000
-    has_margin: True
+    has_margin: False
     exchange: binance
 """
 
@@ -34443,6 +34541,55 @@ EGLDEUR = EGLDEUR()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 90000.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class EGLDRON(NamedTuple):
+    """
+        name: EGLDRON
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.01000000
+        max_order_size: 922327.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "EGLDRON"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.01000000
+    max_order_size: float = 922327.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EGLDRON"
+
+    def __str__(self):
+        return "EGLDRON"
+
+    def __call__(self):
+        return "EGLDRON"
+
+
+EGLDRON = EGLDRON()
+"""
+    name: EGLDRON
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.01000000
+    max_order_size: 922327.00000000
     has_margin: False
     exchange: binance
 """
@@ -52872,6 +53019,55 @@ JOEBUSD = JOEBUSD()
 """
 
 
+class JOETRY(NamedTuple):
+    """
+        name: JOETRY
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.10000000
+        max_order_size: 9222449.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "JOETRY"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.10000000
+    max_order_size: float = 9222449.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "JOETRY"
+
+    def __str__(self):
+        return "JOETRY"
+
+    def __call__(self):
+        return "JOETRY"
+
+
+JOETRY = JOETRY()
+"""
+    name: JOETRY
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.10000000
+    max_order_size: 9222449.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class JOEUSDT(NamedTuple):
     """
         name: JOEUSDT
@@ -60271,6 +60467,55 @@ MAGICBUSD = MAGICBUSD()
 """
 
 
+class MAGICTRY(NamedTuple):
+    """
+        name: MAGICTRY
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.10000000
+        max_order_size: 9222449.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "MAGICTRY"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.10000000
+    max_order_size: float = 9222449.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MAGICTRY"
+
+    def __str__(self):
+        return "MAGICTRY"
+
+    def __call__(self):
+        return "MAGICTRY"
+
+
+MAGICTRY = MAGICTRY()
+"""
+    name: MAGICTRY
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.10000000
+    max_order_size: 9222449.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class MAGICUSDT(NamedTuple):
     """
         name: MAGICUSDT
@@ -62288,7 +62533,7 @@ class MCUSDT(NamedTuple):
         initial_margin: None
         min_order_size: 0.01000000
         max_order_size: 9222449.00000000
-        has_margin: False
+        has_margin: True
         exchange: binance
     """
     name: str = "MCUSDT"
@@ -62297,7 +62542,7 @@ class MCUSDT(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.01000000
     max_order_size: float = 9222449.00000000
-    has_margin: bool = False
+    has_margin: bool = True
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -62324,7 +62569,7 @@ MCUSDT = MCUSDT()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 9222449.00000000
-    has_margin: False
+    has_margin: True
     exchange: binance
 """
 
@@ -95894,6 +96139,104 @@ USDTNGN = USDTNGN()
 """
 
 
+class USDTPLN(NamedTuple):
+    """
+        name: USDTPLN
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "USDTPLN"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDTPLN"
+
+    def __str__(self):
+        return "USDTPLN"
+
+    def __call__(self):
+        return "USDTPLN"
+
+
+USDTPLN = USDTPLN()
+"""
+    name: USDTPLN
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
+class USDTRON(NamedTuple):
+    """
+        name: USDTRON
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1.00000000
+        max_order_size: 92141578.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "USDTRON"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1.00000000
+    max_order_size: float = 92141578.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDTRON"
+
+    def __str__(self):
+        return "USDTRON"
+
+    def __call__(self):
+        return "USDTRON"
+
+
+USDTRON = USDTRON()
+"""
+    name: USDTRON
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1.00000000
+    max_order_size: 92141578.00000000
+    has_margin: False
+    exchange: binance
+"""
+
+
 class USDTRUB(NamedTuple):
     """
         name: USDTRUB
@@ -104428,7 +104771,7 @@ class XVSBTC(NamedTuple):
         initial_margin: None
         min_order_size: 0.01000000
         max_order_size: 90000000.00000000
-        has_margin: True
+        has_margin: False
         exchange: binance
     """
     name: str = "XVSBTC"
@@ -104437,7 +104780,7 @@ class XVSBTC(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.01000000
     max_order_size: float = 90000000.00000000
-    has_margin: bool = True
+    has_margin: bool = False
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -104464,7 +104807,7 @@ XVSBTC = XVSBTC()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 90000000.00000000
-    has_margin: True
+    has_margin: False
     exchange: binance
 """
 
@@ -104477,7 +104820,7 @@ class XVSBUSD(NamedTuple):
         initial_margin: None
         min_order_size: 0.01000000
         max_order_size: 900000.00000000
-        has_margin: True
+        has_margin: False
         exchange: binance
     """
     name: str = "XVSBUSD"
@@ -104486,7 +104829,7 @@ class XVSBUSD(NamedTuple):
     initial_margin: float = None
     min_order_size: float = 0.01000000
     max_order_size: float = 900000.00000000
-    has_margin: bool = True
+    has_margin: bool = False
     exchange: str = "binance"
 
     def __eq__(self, other):
@@ -104513,7 +104856,56 @@ XVSBUSD = XVSBUSD()
     initial_margin: None
     min_order_size: 0.01000000
     max_order_size: 900000.00000000
-    has_margin: True
+    has_margin: False
+    exchange: binance
+"""
+
+
+class XVSTRY(NamedTuple):
+    """
+        name: XVSTRY
+        precision: 8
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.01000000
+        max_order_size: 922327.00000000
+        has_margin: False
+        exchange: binance
+    """
+    name: str = "XVSTRY"
+    precision: int = 8
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.01000000
+    max_order_size: float = 922327.00000000
+    has_margin: bool = False
+    exchange: str = "binance"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XVSTRY"
+
+    def __str__(self):
+        return "XVSTRY"
+
+    def __call__(self):
+        return "XVSTRY"
+
+
+XVSTRY = XVSTRY()
+"""
+    name: XVSTRY
+    precision: 8
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.01000000
+    max_order_size: 922327.00000000
+    has_margin: False
     exchange: binance
 """
 
