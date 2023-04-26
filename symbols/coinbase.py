@@ -4,7 +4,8 @@ from typing import NamedTuple
 class ZERO0_USD(NamedTuple):
     """
         name: 00-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13,7 +14,8 @@ class ZERO0_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "00-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -40,7 +42,8 @@ class ZERO0_USD(NamedTuple):
 ZERO0_USD = ZERO0_USD()
 """
     name: 00-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -53,7 +56,8 @@ ZERO0_USD = ZERO0_USD()
 class ONEINCH_BTC(NamedTuple):
     """
         name: 1INCH-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -62,7 +66,8 @@ class ONEINCH_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "1INCH-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -89,7 +94,8 @@ class ONEINCH_BTC(NamedTuple):
 ONEINCH_BTC = ONEINCH_BTC()
 """
     name: 1INCH-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -102,7 +108,8 @@ ONEINCH_BTC = ONEINCH_BTC()
 class ONEINCH_EUR(NamedTuple):
     """
         name: 1INCH-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -111,7 +118,8 @@ class ONEINCH_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "1INCH-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -138,7 +146,8 @@ class ONEINCH_EUR(NamedTuple):
 ONEINCH_EUR = ONEINCH_EUR()
 """
     name: 1INCH-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -151,7 +160,8 @@ ONEINCH_EUR = ONEINCH_EUR()
 class ONEINCH_GBP(NamedTuple):
     """
         name: 1INCH-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -160,7 +170,8 @@ class ONEINCH_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "1INCH-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -187,7 +198,8 @@ class ONEINCH_GBP(NamedTuple):
 ONEINCH_GBP = ONEINCH_GBP()
 """
     name: 1INCH-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -200,7 +212,8 @@ ONEINCH_GBP = ONEINCH_GBP()
 class ONEINCH_USD(NamedTuple):
     """
         name: 1INCH-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -209,7 +222,8 @@ class ONEINCH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "1INCH-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -236,7 +250,8 @@ class ONEINCH_USD(NamedTuple):
 ONEINCH_USD = ONEINCH_USD()
 """
     name: 1INCH-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -249,7 +264,8 @@ ONEINCH_USD = ONEINCH_USD()
 class AAVE_BTC(NamedTuple):
     """
         name: AAVE-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -258,7 +274,8 @@ class AAVE_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "AAVE-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -285,7 +302,8 @@ class AAVE_BTC(NamedTuple):
 AAVE_BTC = AAVE_BTC()
 """
     name: AAVE-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -298,7 +316,8 @@ AAVE_BTC = AAVE_BTC()
 class AAVE_EUR(NamedTuple):
     """
         name: AAVE-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -307,7 +326,8 @@ class AAVE_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "AAVE-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -334,7 +354,8 @@ class AAVE_EUR(NamedTuple):
 AAVE_EUR = AAVE_EUR()
 """
     name: AAVE-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -347,7 +368,8 @@ AAVE_EUR = AAVE_EUR()
 class AAVE_GBP(NamedTuple):
     """
         name: AAVE-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -356,7 +378,8 @@ class AAVE_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "AAVE-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -383,7 +406,8 @@ class AAVE_GBP(NamedTuple):
 AAVE_GBP = AAVE_GBP()
 """
     name: AAVE-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -396,7 +420,8 @@ AAVE_GBP = AAVE_GBP()
 class AAVE_USD(NamedTuple):
     """
         name: AAVE-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -405,7 +430,8 @@ class AAVE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AAVE-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -432,7 +458,8 @@ class AAVE_USD(NamedTuple):
 AAVE_USD = AAVE_USD()
 """
     name: AAVE-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -445,7 +472,8 @@ AAVE_USD = AAVE_USD()
 class ABT_USD(NamedTuple):
     """
         name: ABT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -454,7 +482,8 @@ class ABT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ABT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -481,7 +510,8 @@ class ABT_USD(NamedTuple):
 ABT_USD = ABT_USD()
 """
     name: ABT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -494,7 +524,8 @@ ABT_USD = ABT_USD()
 class ACH_USD(NamedTuple):
     """
         name: ACH-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -503,7 +534,8 @@ class ACH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ACH-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -530,7 +562,8 @@ class ACH_USD(NamedTuple):
 ACH_USD = ACH_USD()
 """
     name: ACH-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -543,7 +576,8 @@ ACH_USD = ACH_USD()
 class ACH_USDT(NamedTuple):
     """
         name: ACH-USDT
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -552,7 +586,8 @@ class ACH_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ACH-USDT"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -579,7 +614,8 @@ class ACH_USDT(NamedTuple):
 ACH_USDT = ACH_USDT()
 """
     name: ACH-USDT
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -592,7 +628,8 @@ ACH_USDT = ACH_USDT()
 class ACS_USD(NamedTuple):
     """
         name: ACS-USD
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -601,7 +638,8 @@ class ACS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ACS-USD"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -628,7 +666,8 @@ class ACS_USD(NamedTuple):
 ACS_USD = ACS_USD()
 """
     name: ACS-USD
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -641,7 +680,8 @@ ACS_USD = ACS_USD()
 class ADA_BTC(NamedTuple):
     """
         name: ADA-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -650,7 +690,8 @@ class ADA_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -677,7 +718,8 @@ class ADA_BTC(NamedTuple):
 ADA_BTC = ADA_BTC()
 """
     name: ADA-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -690,7 +732,8 @@ ADA_BTC = ADA_BTC()
 class ADA_ETH(NamedTuple):
     """
         name: ADA-ETH
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -699,7 +742,8 @@ class ADA_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-ETH"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -726,7 +770,8 @@ class ADA_ETH(NamedTuple):
 ADA_ETH = ADA_ETH()
 """
     name: ADA-ETH
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -739,7 +784,8 @@ ADA_ETH = ADA_ETH()
 class ADA_EUR(NamedTuple):
     """
         name: ADA-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -748,7 +794,8 @@ class ADA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -775,7 +822,8 @@ class ADA_EUR(NamedTuple):
 ADA_EUR = ADA_EUR()
 """
     name: ADA-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -788,7 +836,8 @@ ADA_EUR = ADA_EUR()
 class ADA_GBP(NamedTuple):
     """
         name: ADA-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -797,7 +846,8 @@ class ADA_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -824,7 +874,8 @@ class ADA_GBP(NamedTuple):
 ADA_GBP = ADA_GBP()
 """
     name: ADA-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -837,7 +888,8 @@ ADA_GBP = ADA_GBP()
 class ADA_USD(NamedTuple):
     """
         name: ADA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -846,7 +898,8 @@ class ADA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -873,7 +926,8 @@ class ADA_USD(NamedTuple):
 ADA_USD = ADA_USD()
 """
     name: ADA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -886,7 +940,8 @@ ADA_USD = ADA_USD()
 class ADA_USDC(NamedTuple):
     """
         name: ADA-USDC
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -895,7 +950,8 @@ class ADA_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-USDC"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -922,7 +978,8 @@ class ADA_USDC(NamedTuple):
 ADA_USDC = ADA_USDC()
 """
     name: ADA-USDC
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -935,7 +992,8 @@ ADA_USDC = ADA_USDC()
 class ADA_USDT(NamedTuple):
     """
         name: ADA-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -944,7 +1002,8 @@ class ADA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ADA-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -971,7 +1030,8 @@ class ADA_USDT(NamedTuple):
 ADA_USDT = ADA_USDT()
 """
     name: ADA-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -984,7 +1044,8 @@ ADA_USDT = ADA_USDT()
 class AERGO_USD(NamedTuple):
     """
         name: AERGO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -993,7 +1054,8 @@ class AERGO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AERGO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1020,7 +1082,8 @@ class AERGO_USD(NamedTuple):
 AERGO_USD = AERGO_USD()
 """
     name: AERGO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1033,7 +1096,8 @@ AERGO_USD = AERGO_USD()
 class AGLD_USD(NamedTuple):
     """
         name: AGLD-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1042,7 +1106,8 @@ class AGLD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AGLD-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1069,7 +1134,8 @@ class AGLD_USD(NamedTuple):
 AGLD_USD = AGLD_USD()
 """
     name: AGLD-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1082,7 +1148,8 @@ AGLD_USD = AGLD_USD()
 class AGLD_USDT(NamedTuple):
     """
         name: AGLD-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1091,7 +1158,8 @@ class AGLD_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "AGLD-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1118,7 +1186,8 @@ class AGLD_USDT(NamedTuple):
 AGLD_USDT = AGLD_USDT()
 """
     name: AGLD-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1131,7 +1200,8 @@ AGLD_USDT = AGLD_USDT()
 class AIOZ_USD(NamedTuple):
     """
         name: AIOZ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1140,7 +1210,8 @@ class AIOZ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AIOZ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1167,7 +1238,8 @@ class AIOZ_USD(NamedTuple):
 AIOZ_USD = AIOZ_USD()
 """
     name: AIOZ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1180,7 +1252,8 @@ AIOZ_USD = AIOZ_USD()
 class AIOZ_USDT(NamedTuple):
     """
         name: AIOZ-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1189,7 +1262,8 @@ class AIOZ_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "AIOZ-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1216,7 +1290,8 @@ class AIOZ_USDT(NamedTuple):
 AIOZ_USDT = AIOZ_USDT()
 """
     name: AIOZ-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1229,7 +1304,8 @@ AIOZ_USDT = AIOZ_USDT()
 class ALCX_EUR(NamedTuple):
     """
         name: ALCX-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -1238,7 +1314,8 @@ class ALCX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALCX-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -1265,7 +1342,8 @@ class ALCX_EUR(NamedTuple):
 ALCX_EUR = ALCX_EUR()
 """
     name: ALCX-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -1278,7 +1356,8 @@ ALCX_EUR = ALCX_EUR()
 class ALCX_USD(NamedTuple):
     """
         name: ALCX-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1287,7 +1366,8 @@ class ALCX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALCX-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1314,7 +1394,8 @@ class ALCX_USD(NamedTuple):
 ALCX_USD = ALCX_USD()
 """
     name: ALCX-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1327,7 +1408,8 @@ ALCX_USD = ALCX_USD()
 class ALCX_USDT(NamedTuple):
     """
         name: ALCX-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1336,7 +1418,8 @@ class ALCX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALCX-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1363,7 +1446,8 @@ class ALCX_USDT(NamedTuple):
 ALCX_USDT = ALCX_USDT()
 """
     name: ALCX-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1376,7 +1460,8 @@ ALCX_USDT = ALCX_USDT()
 class ALEPH_USD(NamedTuple):
     """
         name: ALEPH-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1385,7 +1470,8 @@ class ALEPH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALEPH-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1412,7 +1498,8 @@ class ALEPH_USD(NamedTuple):
 ALEPH_USD = ALEPH_USD()
 """
     name: ALEPH-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1425,7 +1512,8 @@ ALEPH_USD = ALEPH_USD()
 class ALGO_BTC(NamedTuple):
     """
         name: ALGO-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -1434,7 +1522,8 @@ class ALGO_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALGO-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -1461,7 +1550,8 @@ class ALGO_BTC(NamedTuple):
 ALGO_BTC = ALGO_BTC()
 """
     name: ALGO-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -1474,7 +1564,8 @@ ALGO_BTC = ALGO_BTC()
 class ALGO_EUR(NamedTuple):
     """
         name: ALGO-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -1483,7 +1574,8 @@ class ALGO_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALGO-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -1510,7 +1602,8 @@ class ALGO_EUR(NamedTuple):
 ALGO_EUR = ALGO_EUR()
 """
     name: ALGO-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -1523,7 +1616,8 @@ ALGO_EUR = ALGO_EUR()
 class ALGO_GBP(NamedTuple):
     """
         name: ALGO-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -1532,7 +1626,8 @@ class ALGO_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALGO-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -1559,7 +1654,8 @@ class ALGO_GBP(NamedTuple):
 ALGO_GBP = ALGO_GBP()
 """
     name: ALGO-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -1572,7 +1668,8 @@ ALGO_GBP = ALGO_GBP()
 class ALGO_USD(NamedTuple):
     """
         name: ALGO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1581,7 +1678,8 @@ class ALGO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALGO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1608,7 +1706,8 @@ class ALGO_USD(NamedTuple):
 ALGO_USD = ALGO_USD()
 """
     name: ALGO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1621,7 +1720,8 @@ ALGO_USD = ALGO_USD()
 class ALICE_USD(NamedTuple):
     """
         name: ALICE-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1630,7 +1730,8 @@ class ALICE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ALICE-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1657,7 +1758,8 @@ class ALICE_USD(NamedTuple):
 ALICE_USD = ALICE_USD()
 """
     name: ALICE-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1670,7 +1772,8 @@ ALICE_USD = ALICE_USD()
 class AMP_USD(NamedTuple):
     """
         name: AMP-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1679,7 +1782,8 @@ class AMP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AMP-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1706,7 +1810,8 @@ class AMP_USD(NamedTuple):
 AMP_USD = AMP_USD()
 """
     name: AMP-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1719,7 +1824,8 @@ AMP_USD = AMP_USD()
 class ANKR_BTC(NamedTuple):
     """
         name: ANKR-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -1728,7 +1834,8 @@ class ANKR_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ANKR-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -1755,7 +1862,8 @@ class ANKR_BTC(NamedTuple):
 ANKR_BTC = ANKR_BTC()
 """
     name: ANKR-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -1768,7 +1876,8 @@ ANKR_BTC = ANKR_BTC()
 class ANKR_EUR(NamedTuple):
     """
         name: ANKR-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -1777,7 +1886,8 @@ class ANKR_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ANKR-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -1804,7 +1914,8 @@ class ANKR_EUR(NamedTuple):
 ANKR_EUR = ANKR_EUR()
 """
     name: ANKR-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -1817,7 +1928,8 @@ ANKR_EUR = ANKR_EUR()
 class ANKR_GBP(NamedTuple):
     """
         name: ANKR-GBP
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -1826,7 +1938,8 @@ class ANKR_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ANKR-GBP"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -1853,7 +1966,8 @@ class ANKR_GBP(NamedTuple):
 ANKR_GBP = ANKR_GBP()
 """
     name: ANKR-GBP
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -1866,7 +1980,8 @@ ANKR_GBP = ANKR_GBP()
 class ANKR_USD(NamedTuple):
     """
         name: ANKR-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1875,7 +1990,8 @@ class ANKR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ANKR-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -1902,7 +2018,8 @@ class ANKR_USD(NamedTuple):
 ANKR_USD = ANKR_USD()
 """
     name: ANKR-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -1915,7 +2032,8 @@ ANKR_USD = ANKR_USD()
 class ANT_USD(NamedTuple):
     """
         name: ANT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 5.0
@@ -1924,7 +2042,8 @@ class ANT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ANT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5.0
@@ -1951,7 +2070,8 @@ class ANT_USD(NamedTuple):
 ANT_USD = ANT_USD()
 """
     name: ANT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 5.0
@@ -1964,7 +2084,8 @@ ANT_USD = ANT_USD()
 class APE_EUR(NamedTuple):
     """
         name: APE-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -1973,7 +2094,8 @@ class APE_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "APE-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2000,7 +2122,8 @@ class APE_EUR(NamedTuple):
 APE_EUR = APE_EUR()
 """
     name: APE-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2013,7 +2136,8 @@ APE_EUR = APE_EUR()
 class APE_USD(NamedTuple):
     """
         name: APE-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2022,7 +2146,8 @@ class APE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "APE-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2049,7 +2174,8 @@ class APE_USD(NamedTuple):
 APE_USD = APE_USD()
 """
     name: APE-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2062,7 +2188,8 @@ APE_USD = APE_USD()
 class APE_USDT(NamedTuple):
     """
         name: APE-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2071,7 +2198,8 @@ class APE_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "APE-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2098,7 +2226,8 @@ class APE_USDT(NamedTuple):
 APE_USDT = APE_USDT()
 """
     name: APE-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2111,7 +2240,8 @@ APE_USDT = APE_USDT()
 class API3_USD(NamedTuple):
     """
         name: API3-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 5
@@ -2120,7 +2250,8 @@ class API3_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "API3-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5
@@ -2147,7 +2278,8 @@ class API3_USD(NamedTuple):
 API3_USD = API3_USD()
 """
     name: API3-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 5
@@ -2160,7 +2292,8 @@ API3_USD = API3_USD()
 class API3_USDT(NamedTuple):
     """
         name: API3-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 5
@@ -2169,7 +2302,8 @@ class API3_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "API3-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5
@@ -2196,7 +2330,8 @@ class API3_USDT(NamedTuple):
 API3_USDT = API3_USDT()
 """
     name: API3-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 5
@@ -2209,7 +2344,8 @@ API3_USDT = API3_USDT()
 class APT_USD(NamedTuple):
     """
         name: APT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2218,7 +2354,8 @@ class APT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "APT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2245,7 +2382,8 @@ class APT_USD(NamedTuple):
 APT_USD = APT_USD()
 """
     name: APT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2258,7 +2396,8 @@ APT_USD = APT_USD()
 class APT_USDT(NamedTuple):
     """
         name: APT-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2267,7 +2406,8 @@ class APT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "APT-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2294,7 +2434,8 @@ class APT_USDT(NamedTuple):
 APT_USDT = APT_USDT()
 """
     name: APT-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2307,7 +2448,8 @@ APT_USDT = APT_USDT()
 class ARB_USD(NamedTuple):
     """
         name: ARB-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2316,7 +2458,8 @@ class ARB_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ARB-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2343,7 +2486,8 @@ class ARB_USD(NamedTuple):
 ARB_USD = ARB_USD()
 """
     name: ARB-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2356,7 +2500,8 @@ ARB_USD = ARB_USD()
 class ARPA_EUR(NamedTuple):
     """
         name: ARPA-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -2365,7 +2510,8 @@ class ARPA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ARPA-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -2392,7 +2538,8 @@ class ARPA_EUR(NamedTuple):
 ARPA_EUR = ARPA_EUR()
 """
     name: ARPA-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -2405,7 +2552,8 @@ ARPA_EUR = ARPA_EUR()
 class ARPA_USD(NamedTuple):
     """
         name: ARPA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2414,7 +2562,8 @@ class ARPA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ARPA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2441,7 +2590,8 @@ class ARPA_USD(NamedTuple):
 ARPA_USD = ARPA_USD()
 """
     name: ARPA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2454,7 +2604,8 @@ ARPA_USD = ARPA_USD()
 class ARPA_USDT(NamedTuple):
     """
         name: ARPA-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2463,7 +2614,8 @@ class ARPA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ARPA-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2490,7 +2642,8 @@ class ARPA_USDT(NamedTuple):
 ARPA_USDT = ARPA_USDT()
 """
     name: ARPA-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2503,7 +2656,8 @@ ARPA_USDT = ARPA_USDT()
 class ASM_USD(NamedTuple):
     """
         name: ASM-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2512,7 +2666,8 @@ class ASM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ASM-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2539,7 +2694,8 @@ class ASM_USD(NamedTuple):
 ASM_USD = ASM_USD()
 """
     name: ASM-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2552,7 +2708,8 @@ ASM_USD = ASM_USD()
 class ASM_USDT(NamedTuple):
     """
         name: ASM-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2561,7 +2718,8 @@ class ASM_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ASM-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2588,7 +2746,8 @@ class ASM_USDT(NamedTuple):
 ASM_USDT = ASM_USDT()
 """
     name: ASM-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2601,7 +2760,8 @@ ASM_USDT = ASM_USDT()
 class AST_USD(NamedTuple):
     """
         name: AST-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2610,7 +2770,8 @@ class AST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AST-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2637,7 +2798,8 @@ class AST_USD(NamedTuple):
 AST_USD = AST_USD()
 """
     name: AST-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2650,7 +2812,8 @@ AST_USD = AST_USD()
 class ATA_USD(NamedTuple):
     """
         name: ATA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2659,7 +2822,8 @@ class ATA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2686,7 +2850,8 @@ class ATA_USD(NamedTuple):
 ATA_USD = ATA_USD()
 """
     name: ATA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2699,7 +2864,8 @@ ATA_USD = ATA_USD()
 class ATA_USDT(NamedTuple):
     """
         name: ATA-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2708,7 +2874,8 @@ class ATA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATA-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2735,7 +2902,8 @@ class ATA_USDT(NamedTuple):
 ATA_USDT = ATA_USDT()
 """
     name: ATA-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2748,7 +2916,8 @@ ATA_USDT = ATA_USDT()
 class ATOM_BTC(NamedTuple):
     """
         name: ATOM-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -2757,7 +2926,8 @@ class ATOM_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATOM-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -2784,7 +2954,8 @@ class ATOM_BTC(NamedTuple):
 ATOM_BTC = ATOM_BTC()
 """
     name: ATOM-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -2797,7 +2968,8 @@ ATOM_BTC = ATOM_BTC()
 class ATOM_EUR(NamedTuple):
     """
         name: ATOM-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -2806,7 +2978,8 @@ class ATOM_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATOM-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -2833,7 +3006,8 @@ class ATOM_EUR(NamedTuple):
 ATOM_EUR = ATOM_EUR()
 """
     name: ATOM-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -2846,7 +3020,8 @@ ATOM_EUR = ATOM_EUR()
 class ATOM_GBP(NamedTuple):
     """
         name: ATOM-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -2855,7 +3030,8 @@ class ATOM_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATOM-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -2882,7 +3058,8 @@ class ATOM_GBP(NamedTuple):
 ATOM_GBP = ATOM_GBP()
 """
     name: ATOM-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -2895,7 +3072,8 @@ ATOM_GBP = ATOM_GBP()
 class ATOM_USD(NamedTuple):
     """
         name: ATOM-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2904,7 +3082,8 @@ class ATOM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATOM-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2931,7 +3110,8 @@ class ATOM_USD(NamedTuple):
 ATOM_USD = ATOM_USD()
 """
     name: ATOM-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2944,7 +3124,8 @@ ATOM_USD = ATOM_USD()
 class ATOM_USDT(NamedTuple):
     """
         name: ATOM-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -2953,7 +3134,8 @@ class ATOM_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ATOM-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -2980,7 +3162,8 @@ class ATOM_USDT(NamedTuple):
 ATOM_USDT = ATOM_USDT()
 """
     name: ATOM-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -2993,7 +3176,8 @@ ATOM_USDT = ATOM_USDT()
 class AUCTION_EUR(NamedTuple):
     """
         name: AUCTION-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -3002,7 +3186,8 @@ class AUCTION_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "AUCTION-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -3029,7 +3214,8 @@ class AUCTION_EUR(NamedTuple):
 AUCTION_EUR = AUCTION_EUR()
 """
     name: AUCTION-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -3042,7 +3228,8 @@ AUCTION_EUR = AUCTION_EUR()
 class AUCTION_USD(NamedTuple):
     """
         name: AUCTION-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3051,7 +3238,8 @@ class AUCTION_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AUCTION-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3078,7 +3266,8 @@ class AUCTION_USD(NamedTuple):
 AUCTION_USD = AUCTION_USD()
 """
     name: AUCTION-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3091,7 +3280,8 @@ AUCTION_USD = AUCTION_USD()
 class AUCTION_USDT(NamedTuple):
     """
         name: AUCTION-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3100,7 +3290,8 @@ class AUCTION_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "AUCTION-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3127,7 +3318,8 @@ class AUCTION_USDT(NamedTuple):
 AUCTION_USDT = AUCTION_USDT()
 """
     name: AUCTION-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3140,7 +3332,8 @@ AUCTION_USDT = AUCTION_USDT()
 class AUDIO_USD(NamedTuple):
     """
         name: AUDIO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3149,7 +3342,8 @@ class AUDIO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AUDIO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3176,7 +3370,8 @@ class AUDIO_USD(NamedTuple):
 AUDIO_USD = AUDIO_USD()
 """
     name: AUDIO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3189,7 +3384,8 @@ AUDIO_USD = AUDIO_USD()
 class AURORA_USD(NamedTuple):
     """
         name: AURORA-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3198,7 +3394,8 @@ class AURORA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AURORA-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3225,7 +3422,8 @@ class AURORA_USD(NamedTuple):
 AURORA_USD = AURORA_USD()
 """
     name: AURORA-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3238,7 +3436,8 @@ AURORA_USD = AURORA_USD()
 class AVAX_BTC(NamedTuple):
     """
         name: AVAX-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -3247,7 +3446,8 @@ class AVAX_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "AVAX-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -3274,7 +3474,8 @@ class AVAX_BTC(NamedTuple):
 AVAX_BTC = AVAX_BTC()
 """
     name: AVAX-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -3287,7 +3488,8 @@ AVAX_BTC = AVAX_BTC()
 class AVAX_EUR(NamedTuple):
     """
         name: AVAX-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -3296,7 +3498,8 @@ class AVAX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "AVAX-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -3323,7 +3526,8 @@ class AVAX_EUR(NamedTuple):
 AVAX_EUR = AVAX_EUR()
 """
     name: AVAX-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -3336,7 +3540,8 @@ AVAX_EUR = AVAX_EUR()
 class AVAX_USD(NamedTuple):
     """
         name: AVAX-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3345,7 +3550,8 @@ class AVAX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AVAX-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3372,7 +3578,8 @@ class AVAX_USD(NamedTuple):
 AVAX_USD = AVAX_USD()
 """
     name: AVAX-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3385,7 +3592,8 @@ AVAX_USD = AVAX_USD()
 class AVAX_USDT(NamedTuple):
     """
         name: AVAX-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3394,7 +3602,8 @@ class AVAX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "AVAX-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3421,7 +3630,8 @@ class AVAX_USDT(NamedTuple):
 AVAX_USDT = AVAX_USDT()
 """
     name: AVAX-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3434,7 +3644,8 @@ AVAX_USDT = AVAX_USDT()
 class AVT_USD(NamedTuple):
     """
         name: AVT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3443,7 +3654,8 @@ class AVT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AVT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3470,7 +3682,8 @@ class AVT_USD(NamedTuple):
 AVT_USD = AVT_USD()
 """
     name: AVT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3483,7 +3696,8 @@ AVT_USD = AVT_USD()
 class AXL_USD(NamedTuple):
     """
         name: AXL-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3492,7 +3706,8 @@ class AXL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AXL-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3519,7 +3734,8 @@ class AXL_USD(NamedTuple):
 AXL_USD = AXL_USD()
 """
     name: AXL-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3532,7 +3748,8 @@ AXL_USD = AXL_USD()
 class AXS_BTC(NamedTuple):
     """
         name: AXS-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -3541,7 +3758,8 @@ class AXS_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "AXS-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -3568,7 +3786,8 @@ class AXS_BTC(NamedTuple):
 AXS_BTC = AXS_BTC()
 """
     name: AXS-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -3581,7 +3800,8 @@ AXS_BTC = AXS_BTC()
 class AXS_EUR(NamedTuple):
     """
         name: AXS-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -3590,7 +3810,8 @@ class AXS_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "AXS-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -3617,7 +3838,8 @@ class AXS_EUR(NamedTuple):
 AXS_EUR = AXS_EUR()
 """
     name: AXS-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -3630,7 +3852,8 @@ AXS_EUR = AXS_EUR()
 class AXS_USD(NamedTuple):
     """
         name: AXS-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3639,7 +3862,8 @@ class AXS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "AXS-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3666,7 +3890,8 @@ class AXS_USD(NamedTuple):
 AXS_USD = AXS_USD()
 """
     name: AXS-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3679,7 +3904,8 @@ AXS_USD = AXS_USD()
 class AXS_USDT(NamedTuple):
     """
         name: AXS-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3688,7 +3914,8 @@ class AXS_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "AXS-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3715,7 +3942,8 @@ class AXS_USDT(NamedTuple):
 AXS_USDT = AXS_USDT()
 """
     name: AXS-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3728,7 +3956,8 @@ AXS_USDT = AXS_USDT()
 class BADGER_EUR(NamedTuple):
     """
         name: BADGER-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -3737,7 +3966,8 @@ class BADGER_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BADGER-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -3764,7 +3994,8 @@ class BADGER_EUR(NamedTuple):
 BADGER_EUR = BADGER_EUR()
 """
     name: BADGER-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -3777,7 +4008,8 @@ BADGER_EUR = BADGER_EUR()
 class BADGER_USD(NamedTuple):
     """
         name: BADGER-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3786,7 +4018,8 @@ class BADGER_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BADGER-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3813,7 +4046,8 @@ class BADGER_USD(NamedTuple):
 BADGER_USD = BADGER_USD()
 """
     name: BADGER-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3826,7 +4060,8 @@ BADGER_USD = BADGER_USD()
 class BADGER_USDT(NamedTuple):
     """
         name: BADGER-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3835,7 +4070,8 @@ class BADGER_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BADGER-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3862,7 +4098,8 @@ class BADGER_USDT(NamedTuple):
 BADGER_USDT = BADGER_USDT()
 """
     name: BADGER-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3875,7 +4112,8 @@ BADGER_USDT = BADGER_USDT()
 class BAL_BTC(NamedTuple):
     """
         name: BAL-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -3884,7 +4122,8 @@ class BAL_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAL-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -3911,7 +4150,8 @@ class BAL_BTC(NamedTuple):
 BAL_BTC = BAL_BTC()
 """
     name: BAL-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -3924,7 +4164,8 @@ BAL_BTC = BAL_BTC()
 class BAL_USD(NamedTuple):
     """
         name: BAL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -3933,7 +4174,8 @@ class BAL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -3960,7 +4202,8 @@ class BAL_USD(NamedTuple):
 BAL_USD = BAL_USD()
 """
     name: BAL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -3973,7 +4216,8 @@ BAL_USD = BAL_USD()
 class BAND_BTC(NamedTuple):
     """
         name: BAND-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -3982,7 +4226,8 @@ class BAND_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAND-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -4009,7 +4254,8 @@ class BAND_BTC(NamedTuple):
 BAND_BTC = BAND_BTC()
 """
     name: BAND-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -4022,7 +4268,8 @@ BAND_BTC = BAND_BTC()
 class BAND_EUR(NamedTuple):
     """
         name: BAND-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -4031,7 +4278,8 @@ class BAND_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAND-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -4058,7 +4306,8 @@ class BAND_EUR(NamedTuple):
 BAND_EUR = BAND_EUR()
 """
     name: BAND-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -4071,7 +4320,8 @@ BAND_EUR = BAND_EUR()
 class BAND_GBP(NamedTuple):
     """
         name: BAND-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -4080,7 +4330,8 @@ class BAND_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAND-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -4107,7 +4358,8 @@ class BAND_GBP(NamedTuple):
 BAND_GBP = BAND_GBP()
 """
     name: BAND-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -4120,7 +4372,8 @@ BAND_GBP = BAND_GBP()
 class BAND_USD(NamedTuple):
     """
         name: BAND-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4129,7 +4382,8 @@ class BAND_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAND-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4156,7 +4410,8 @@ class BAND_USD(NamedTuple):
 BAND_USD = BAND_USD()
 """
     name: BAND-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4169,7 +4424,8 @@ BAND_USD = BAND_USD()
 class BAT_BTC(NamedTuple):
     """
         name: BAT-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -4178,7 +4434,8 @@ class BAT_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAT-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -4205,7 +4462,8 @@ class BAT_BTC(NamedTuple):
 BAT_BTC = BAT_BTC()
 """
     name: BAT-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -4218,7 +4476,8 @@ BAT_BTC = BAT_BTC()
 class BAT_ETH(NamedTuple):
     """
         name: BAT-ETH
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -4227,7 +4486,8 @@ class BAT_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAT-ETH"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -4254,7 +4514,8 @@ class BAT_ETH(NamedTuple):
 BAT_ETH = BAT_ETH()
 """
     name: BAT-ETH
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -4267,7 +4528,8 @@ BAT_ETH = BAT_ETH()
 class BAT_EUR(NamedTuple):
     """
         name: BAT-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -4276,7 +4538,8 @@ class BAT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAT-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -4303,7 +4566,8 @@ class BAT_EUR(NamedTuple):
 BAT_EUR = BAT_EUR()
 """
     name: BAT-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -4316,7 +4580,8 @@ BAT_EUR = BAT_EUR()
 class BAT_USD(NamedTuple):
     """
         name: BAT-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4325,7 +4590,8 @@ class BAT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAT-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4352,7 +4618,8 @@ class BAT_USD(NamedTuple):
 BAT_USD = BAT_USD()
 """
     name: BAT-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4365,7 +4632,8 @@ BAT_USD = BAT_USD()
 class BAT_USDC(NamedTuple):
     """
         name: BAT-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4374,7 +4642,8 @@ class BAT_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BAT-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4401,7 +4670,8 @@ class BAT_USDC(NamedTuple):
 BAT_USDC = BAT_USDC()
 """
     name: BAT-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4414,7 +4684,8 @@ BAT_USDC = BAT_USDC()
 class BCH_BTC(NamedTuple):
     """
         name: BCH-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00001
@@ -4423,7 +4694,8 @@ class BCH_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BCH-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00001
@@ -4450,7 +4722,8 @@ class BCH_BTC(NamedTuple):
 BCH_BTC = BCH_BTC()
 """
     name: BCH-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00001
@@ -4463,7 +4736,8 @@ BCH_BTC = BCH_BTC()
 class BCH_EUR(NamedTuple):
     """
         name: BCH-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -4472,7 +4746,8 @@ class BCH_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BCH-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -4499,7 +4774,8 @@ class BCH_EUR(NamedTuple):
 BCH_EUR = BCH_EUR()
 """
     name: BCH-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -4512,7 +4788,8 @@ BCH_EUR = BCH_EUR()
 class BCH_GBP(NamedTuple):
     """
         name: BCH-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -4521,7 +4798,8 @@ class BCH_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "BCH-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -4548,7 +4826,8 @@ class BCH_GBP(NamedTuple):
 BCH_GBP = BCH_GBP()
 """
     name: BCH-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -4561,7 +4840,8 @@ BCH_GBP = BCH_GBP()
 class BCH_USD(NamedTuple):
     """
         name: BCH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4570,7 +4850,8 @@ class BCH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BCH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4597,7 +4878,8 @@ class BCH_USD(NamedTuple):
 BCH_USD = BCH_USD()
 """
     name: BCH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4610,7 +4892,8 @@ BCH_USD = BCH_USD()
 class BICO_EUR(NamedTuple):
     """
         name: BICO-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4619,7 +4902,8 @@ class BICO_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BICO-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4646,7 +4930,8 @@ class BICO_EUR(NamedTuple):
 BICO_EUR = BICO_EUR()
 """
     name: BICO-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4659,7 +4944,8 @@ BICO_EUR = BICO_EUR()
 class BICO_USD(NamedTuple):
     """
         name: BICO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4668,7 +4954,8 @@ class BICO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BICO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4695,7 +4982,8 @@ class BICO_USD(NamedTuple):
 BICO_USD = BICO_USD()
 """
     name: BICO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4708,7 +4996,8 @@ BICO_USD = BICO_USD()
 class BICO_USDT(NamedTuple):
     """
         name: BICO-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4717,7 +5006,8 @@ class BICO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BICO-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4744,7 +5034,8 @@ class BICO_USDT(NamedTuple):
 BICO_USDT = BICO_USDT()
 """
     name: BICO-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4757,7 +5048,8 @@ BICO_USDT = BICO_USDT()
 class BIT_USD(NamedTuple):
     """
         name: BIT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4766,7 +5058,8 @@ class BIT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BIT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4793,7 +5086,8 @@ class BIT_USD(NamedTuple):
 BIT_USD = BIT_USD()
 """
     name: BIT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4806,7 +5100,8 @@ BIT_USD = BIT_USD()
 class BIT_USDT(NamedTuple):
     """
         name: BIT-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4815,7 +5110,8 @@ class BIT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BIT-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4842,7 +5138,8 @@ class BIT_USDT(NamedTuple):
 BIT_USDT = BIT_USDT()
 """
     name: BIT-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4855,7 +5152,8 @@ BIT_USDT = BIT_USDT()
 class BLUR_USD(NamedTuple):
     """
         name: BLUR-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4864,7 +5162,8 @@ class BLUR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BLUR-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4891,7 +5190,8 @@ class BLUR_USD(NamedTuple):
 BLUR_USD = BLUR_USD()
 """
     name: BLUR-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4904,7 +5204,8 @@ BLUR_USD = BLUR_USD()
 class BLZ_USD(NamedTuple):
     """
         name: BLZ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -4913,7 +5214,8 @@ class BLZ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BLZ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -4940,7 +5242,8 @@ class BLZ_USD(NamedTuple):
 BLZ_USD = BLZ_USD()
 """
     name: BLZ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -4953,7 +5256,8 @@ BLZ_USD = BLZ_USD()
 class BNT_BTC(NamedTuple):
     """
         name: BNT-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -4962,7 +5266,8 @@ class BNT_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BNT-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -4989,7 +5294,8 @@ class BNT_BTC(NamedTuple):
 BNT_BTC = BNT_BTC()
 """
     name: BNT-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -5002,7 +5308,8 @@ BNT_BTC = BNT_BTC()
 class BNT_EUR(NamedTuple):
     """
         name: BNT-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -5011,7 +5318,8 @@ class BNT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BNT-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -5038,7 +5346,8 @@ class BNT_EUR(NamedTuple):
 BNT_EUR = BNT_EUR()
 """
     name: BNT-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -5051,7 +5360,8 @@ BNT_EUR = BNT_EUR()
 class BNT_GBP(NamedTuple):
     """
         name: BNT-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -5060,7 +5370,8 @@ class BNT_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "BNT-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -5087,7 +5398,8 @@ class BNT_GBP(NamedTuple):
 BNT_GBP = BNT_GBP()
 """
     name: BNT-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -5100,7 +5412,8 @@ BNT_GBP = BNT_GBP()
 class BNT_USD(NamedTuple):
     """
         name: BNT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5109,7 +5422,8 @@ class BNT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BNT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5136,7 +5450,8 @@ class BNT_USD(NamedTuple):
 BNT_USD = BNT_USD()
 """
     name: BNT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5149,7 +5464,8 @@ BNT_USD = BNT_USD()
 class BOBA_USD(NamedTuple):
     """
         name: BOBA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5158,7 +5474,8 @@ class BOBA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BOBA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5185,7 +5502,8 @@ class BOBA_USD(NamedTuple):
 BOBA_USD = BOBA_USD()
 """
     name: BOBA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5198,7 +5516,8 @@ BOBA_USD = BOBA_USD()
 class BOBA_USDT(NamedTuple):
     """
         name: BOBA-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5207,7 +5526,8 @@ class BOBA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BOBA-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5234,7 +5554,8 @@ class BOBA_USDT(NamedTuple):
 BOBA_USDT = BOBA_USDT()
 """
     name: BOBA-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5247,7 +5568,8 @@ BOBA_USDT = BOBA_USDT()
 class BOND_USD(NamedTuple):
     """
         name: BOND-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5256,7 +5578,8 @@ class BOND_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BOND-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5283,7 +5606,8 @@ class BOND_USD(NamedTuple):
 BOND_USD = BOND_USD()
 """
     name: BOND-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5296,7 +5620,8 @@ BOND_USD = BOND_USD()
 class BOND_USDT(NamedTuple):
     """
         name: BOND-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5305,7 +5630,8 @@ class BOND_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BOND-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5332,7 +5658,8 @@ class BOND_USDT(NamedTuple):
 BOND_USDT = BOND_USDT()
 """
     name: BOND-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5345,7 +5672,8 @@ BOND_USDT = BOND_USDT()
 class BTC_EUR(NamedTuple):
     """
         name: BTC-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -5354,7 +5682,8 @@ class BTC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTC-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -5381,7 +5710,8 @@ class BTC_EUR(NamedTuple):
 BTC_EUR = BTC_EUR()
 """
     name: BTC-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -5394,7 +5724,8 @@ BTC_EUR = BTC_EUR()
 class BTC_GBP(NamedTuple):
     """
         name: BTC-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -5403,7 +5734,8 @@ class BTC_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTC-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -5430,7 +5762,8 @@ class BTC_GBP(NamedTuple):
 BTC_GBP = BTC_GBP()
 """
     name: BTC-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -5443,7 +5776,8 @@ BTC_GBP = BTC_GBP()
 class BTC_USD(NamedTuple):
     """
         name: BTC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5452,7 +5786,8 @@ class BTC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5479,7 +5814,8 @@ class BTC_USD(NamedTuple):
 BTC_USD = BTC_USD()
 """
     name: BTC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5492,7 +5828,8 @@ BTC_USD = BTC_USD()
 class BTC_USDC(NamedTuple):
     """
         name: BTC-USDC
-        precision: 1
+        significant_digits: None
+        tick_size: 1
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5501,7 +5838,8 @@ class BTC_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTC-USDC"
-    precision: int = 1
+    significant_digits: int = None
+    tick_size: int = 1
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5528,7 +5866,8 @@ class BTC_USDC(NamedTuple):
 BTC_USDC = BTC_USDC()
 """
     name: BTC-USDC
-    precision: 1
+    significant_digits: None
+    tick_size: 1
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5541,7 +5880,8 @@ BTC_USDC = BTC_USDC()
 class BTC_USDT(NamedTuple):
     """
         name: BTC-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5550,7 +5890,8 @@ class BTC_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTC-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5577,7 +5918,8 @@ class BTC_USDT(NamedTuple):
 BTC_USDT = BTC_USDT()
 """
     name: BTC-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5590,7 +5932,8 @@ BTC_USDT = BTC_USDT()
 class BTRST_BTC(NamedTuple):
     """
         name: BTRST-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -5599,7 +5942,8 @@ class BTRST_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTRST-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -5626,7 +5970,8 @@ class BTRST_BTC(NamedTuple):
 BTRST_BTC = BTRST_BTC()
 """
     name: BTRST-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -5639,7 +5984,8 @@ BTRST_BTC = BTRST_BTC()
 class BTRST_EUR(NamedTuple):
     """
         name: BTRST-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -5648,7 +5994,8 @@ class BTRST_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTRST-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -5675,7 +6022,8 @@ class BTRST_EUR(NamedTuple):
 BTRST_EUR = BTRST_EUR()
 """
     name: BTRST-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -5688,7 +6036,8 @@ BTRST_EUR = BTRST_EUR()
 class BTRST_GBP(NamedTuple):
     """
         name: BTRST-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -5697,7 +6046,8 @@ class BTRST_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTRST-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -5724,7 +6074,8 @@ class BTRST_GBP(NamedTuple):
 BTRST_GBP = BTRST_GBP()
 """
     name: BTRST-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -5737,7 +6088,8 @@ BTRST_GBP = BTRST_GBP()
 class BTRST_USD(NamedTuple):
     """
         name: BTRST-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5746,7 +6098,8 @@ class BTRST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTRST-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5773,7 +6126,8 @@ class BTRST_USD(NamedTuple):
 BTRST_USD = BTRST_USD()
 """
     name: BTRST-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5786,7 +6140,8 @@ BTRST_USD = BTRST_USD()
 class BTRST_USDT(NamedTuple):
     """
         name: BTRST-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5795,7 +6150,8 @@ class BTRST_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "BTRST-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5822,7 +6178,8 @@ class BTRST_USDT(NamedTuple):
 BTRST_USDT = BTRST_USDT()
 """
     name: BTRST-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5835,7 +6192,8 @@ BTRST_USDT = BTRST_USDT()
 class BUSD_USD(NamedTuple):
     """
         name: BUSD-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5844,7 +6202,8 @@ class BUSD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "BUSD-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5871,7 +6230,8 @@ class BUSD_USD(NamedTuple):
 BUSD_USD = BUSD_USD()
 """
     name: BUSD-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5884,7 +6244,8 @@ BUSD_USD = BUSD_USD()
 class C98_USD(NamedTuple):
     """
         name: C98-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5893,7 +6254,8 @@ class C98_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "C98-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5920,7 +6282,8 @@ class C98_USD(NamedTuple):
 C98_USD = C98_USD()
 """
     name: C98-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5933,7 +6296,8 @@ C98_USD = C98_USD()
 class C98_USDT(NamedTuple):
     """
         name: C98-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -5942,7 +6306,8 @@ class C98_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "C98-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -5969,7 +6334,8 @@ class C98_USDT(NamedTuple):
 C98_USDT = C98_USDT()
 """
     name: C98-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -5982,7 +6348,8 @@ C98_USDT = C98_USDT()
 class CBETH_ETH(NamedTuple):
     """
         name: CBETH-ETH
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.002
@@ -5991,7 +6358,8 @@ class CBETH_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "CBETH-ETH"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.002
@@ -6018,7 +6386,8 @@ class CBETH_ETH(NamedTuple):
 CBETH_ETH = CBETH_ETH()
 """
     name: CBETH-ETH
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.002
@@ -6031,7 +6400,8 @@ CBETH_ETH = CBETH_ETH()
 class CBETH_USD(NamedTuple):
     """
         name: CBETH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6040,7 +6410,8 @@ class CBETH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CBETH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6067,7 +6438,8 @@ class CBETH_USD(NamedTuple):
 CBETH_USD = CBETH_USD()
 """
     name: CBETH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6080,7 +6452,8 @@ CBETH_USD = CBETH_USD()
 class CELR_USD(NamedTuple):
     """
         name: CELR-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6089,7 +6462,8 @@ class CELR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CELR-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6116,7 +6490,8 @@ class CELR_USD(NamedTuple):
 CELR_USD = CELR_USD()
 """
     name: CELR-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6129,7 +6504,8 @@ CELR_USD = CELR_USD()
 class CGLD_BTC(NamedTuple):
     """
         name: CGLD-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -6138,7 +6514,8 @@ class CGLD_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "CGLD-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -6165,7 +6542,8 @@ class CGLD_BTC(NamedTuple):
 CGLD_BTC = CGLD_BTC()
 """
     name: CGLD-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -6178,7 +6556,8 @@ CGLD_BTC = CGLD_BTC()
 class CGLD_EUR(NamedTuple):
     """
         name: CGLD-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -6187,7 +6566,8 @@ class CGLD_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CGLD-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -6214,7 +6594,8 @@ class CGLD_EUR(NamedTuple):
 CGLD_EUR = CGLD_EUR()
 """
     name: CGLD-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -6227,7 +6608,8 @@ CGLD_EUR = CGLD_EUR()
 class CGLD_GBP(NamedTuple):
     """
         name: CGLD-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -6236,7 +6618,8 @@ class CGLD_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "CGLD-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -6263,7 +6646,8 @@ class CGLD_GBP(NamedTuple):
 CGLD_GBP = CGLD_GBP()
 """
     name: CGLD-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -6276,7 +6660,8 @@ CGLD_GBP = CGLD_GBP()
 class CGLD_USD(NamedTuple):
     """
         name: CGLD-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6285,7 +6670,8 @@ class CGLD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CGLD-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6312,7 +6698,8 @@ class CGLD_USD(NamedTuple):
 CGLD_USD = CGLD_USD()
 """
     name: CGLD-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6325,7 +6712,8 @@ CGLD_USD = CGLD_USD()
 class CHZ_EUR(NamedTuple):
     """
         name: CHZ-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -6334,7 +6722,8 @@ class CHZ_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CHZ-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -6361,7 +6750,8 @@ class CHZ_EUR(NamedTuple):
 CHZ_EUR = CHZ_EUR()
 """
     name: CHZ-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -6374,7 +6764,8 @@ CHZ_EUR = CHZ_EUR()
 class CHZ_GBP(NamedTuple):
     """
         name: CHZ-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -6383,7 +6774,8 @@ class CHZ_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "CHZ-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -6410,7 +6802,8 @@ class CHZ_GBP(NamedTuple):
 CHZ_GBP = CHZ_GBP()
 """
     name: CHZ-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -6423,7 +6816,8 @@ CHZ_GBP = CHZ_GBP()
 class CHZ_USD(NamedTuple):
     """
         name: CHZ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6432,7 +6826,8 @@ class CHZ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CHZ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6459,7 +6854,8 @@ class CHZ_USD(NamedTuple):
 CHZ_USD = CHZ_USD()
 """
     name: CHZ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6472,7 +6868,8 @@ CHZ_USD = CHZ_USD()
 class CHZ_USDT(NamedTuple):
     """
         name: CHZ-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6481,7 +6878,8 @@ class CHZ_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "CHZ-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6508,7 +6906,8 @@ class CHZ_USDT(NamedTuple):
 CHZ_USDT = CHZ_USDT()
 """
     name: CHZ-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6521,7 +6920,8 @@ CHZ_USDT = CHZ_USDT()
 class CLV_EUR(NamedTuple):
     """
         name: CLV-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -6530,7 +6930,8 @@ class CLV_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CLV-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -6557,7 +6958,8 @@ class CLV_EUR(NamedTuple):
 CLV_EUR = CLV_EUR()
 """
     name: CLV-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -6570,7 +6972,8 @@ CLV_EUR = CLV_EUR()
 class CLV_GBP(NamedTuple):
     """
         name: CLV-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -6579,7 +6982,8 @@ class CLV_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "CLV-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -6606,7 +7010,8 @@ class CLV_GBP(NamedTuple):
 CLV_GBP = CLV_GBP()
 """
     name: CLV-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -6619,7 +7024,8 @@ CLV_GBP = CLV_GBP()
 class CLV_USD(NamedTuple):
     """
         name: CLV-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6628,7 +7034,8 @@ class CLV_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CLV-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6655,7 +7062,8 @@ class CLV_USD(NamedTuple):
 CLV_USD = CLV_USD()
 """
     name: CLV-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6668,7 +7076,8 @@ CLV_USD = CLV_USD()
 class CLV_USDT(NamedTuple):
     """
         name: CLV-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6677,7 +7086,8 @@ class CLV_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "CLV-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6704,7 +7114,8 @@ class CLV_USDT(NamedTuple):
 CLV_USDT = CLV_USDT()
 """
     name: CLV-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6717,7 +7128,8 @@ CLV_USDT = CLV_USDT()
 class COMP_BTC(NamedTuple):
     """
         name: COMP-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -6726,7 +7138,8 @@ class COMP_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "COMP-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -6753,7 +7166,8 @@ class COMP_BTC(NamedTuple):
 COMP_BTC = COMP_BTC()
 """
     name: COMP-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -6766,7 +7180,8 @@ COMP_BTC = COMP_BTC()
 class COMP_USD(NamedTuple):
     """
         name: COMP-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6775,7 +7190,8 @@ class COMP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "COMP-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6802,7 +7218,8 @@ class COMP_USD(NamedTuple):
 COMP_USD = COMP_USD()
 """
     name: COMP-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6815,7 +7232,8 @@ COMP_USD = COMP_USD()
 class COTI_USD(NamedTuple):
     """
         name: COTI-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6824,7 +7242,8 @@ class COTI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "COTI-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6851,7 +7270,8 @@ class COTI_USD(NamedTuple):
 COTI_USD = COTI_USD()
 """
     name: COTI-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6864,7 +7284,8 @@ COTI_USD = COTI_USD()
 class COVAL_USD(NamedTuple):
     """
         name: COVAL-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6873,7 +7294,8 @@ class COVAL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "COVAL-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6900,7 +7322,8 @@ class COVAL_USD(NamedTuple):
 COVAL_USD = COVAL_USD()
 """
     name: COVAL-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6913,7 +7336,8 @@ COVAL_USD = COVAL_USD()
 class COVAL_USDT(NamedTuple):
     """
         name: COVAL-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -6922,7 +7346,8 @@ class COVAL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "COVAL-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -6949,7 +7374,8 @@ class COVAL_USDT(NamedTuple):
 COVAL_USDT = COVAL_USDT()
 """
     name: COVAL-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -6962,7 +7388,8 @@ COVAL_USDT = COVAL_USDT()
 class CRO_EUR(NamedTuple):
     """
         name: CRO-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -6971,7 +7398,8 @@ class CRO_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRO-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -6998,7 +7426,8 @@ class CRO_EUR(NamedTuple):
 CRO_EUR = CRO_EUR()
 """
     name: CRO-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -7011,7 +7440,8 @@ CRO_EUR = CRO_EUR()
 class CRO_USD(NamedTuple):
     """
         name: CRO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7020,7 +7450,8 @@ class CRO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7047,7 +7478,8 @@ class CRO_USD(NamedTuple):
 CRO_USD = CRO_USD()
 """
     name: CRO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7060,7 +7492,8 @@ CRO_USD = CRO_USD()
 class CRO_USDT(NamedTuple):
     """
         name: CRO-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7069,7 +7502,8 @@ class CRO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRO-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7096,7 +7530,8 @@ class CRO_USDT(NamedTuple):
 CRO_USDT = CRO_USDT()
 """
     name: CRO-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7109,7 +7544,8 @@ CRO_USDT = CRO_USDT()
 class CRPT_USD(NamedTuple):
     """
         name: CRPT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7118,7 +7554,8 @@ class CRPT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRPT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7145,7 +7582,8 @@ class CRPT_USD(NamedTuple):
 CRPT_USD = CRPT_USD()
 """
     name: CRPT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7158,7 +7596,8 @@ CRPT_USD = CRPT_USD()
 class CRV_BTC(NamedTuple):
     """
         name: CRV-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -7167,7 +7606,8 @@ class CRV_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRV-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -7194,7 +7634,8 @@ class CRV_BTC(NamedTuple):
 CRV_BTC = CRV_BTC()
 """
     name: CRV-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -7207,7 +7648,8 @@ CRV_BTC = CRV_BTC()
 class CRV_EUR(NamedTuple):
     """
         name: CRV-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -7216,7 +7658,8 @@ class CRV_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRV-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -7243,7 +7686,8 @@ class CRV_EUR(NamedTuple):
 CRV_EUR = CRV_EUR()
 """
     name: CRV-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -7256,7 +7700,8 @@ CRV_EUR = CRV_EUR()
 class CRV_GBP(NamedTuple):
     """
         name: CRV-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -7265,7 +7710,8 @@ class CRV_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRV-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -7292,7 +7738,8 @@ class CRV_GBP(NamedTuple):
 CRV_GBP = CRV_GBP()
 """
     name: CRV-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -7305,7 +7752,8 @@ CRV_GBP = CRV_GBP()
 class CRV_USD(NamedTuple):
     """
         name: CRV-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7314,7 +7762,8 @@ class CRV_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CRV-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7341,7 +7790,8 @@ class CRV_USD(NamedTuple):
 CRV_USD = CRV_USD()
 """
     name: CRV-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7354,7 +7804,8 @@ CRV_USD = CRV_USD()
 class CTSI_BTC(NamedTuple):
     """
         name: CTSI-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -7363,7 +7814,8 @@ class CTSI_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "CTSI-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -7390,7 +7842,8 @@ class CTSI_BTC(NamedTuple):
 CTSI_BTC = CTSI_BTC()
 """
     name: CTSI-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -7403,7 +7856,8 @@ CTSI_BTC = CTSI_BTC()
 class CTSI_USD(NamedTuple):
     """
         name: CTSI-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7412,7 +7866,8 @@ class CTSI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CTSI-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7439,7 +7894,8 @@ class CTSI_USD(NamedTuple):
 CTSI_USD = CTSI_USD()
 """
     name: CTSI-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7452,7 +7908,8 @@ CTSI_USD = CTSI_USD()
 class CTX_EUR(NamedTuple):
     """
         name: CTX-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7461,7 +7918,8 @@ class CTX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "CTX-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7488,7 +7946,8 @@ class CTX_EUR(NamedTuple):
 CTX_EUR = CTX_EUR()
 """
     name: CTX-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7501,7 +7960,8 @@ CTX_EUR = CTX_EUR()
 class CTX_USD(NamedTuple):
     """
         name: CTX-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 5
@@ -7510,7 +7970,8 @@ class CTX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CTX-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5
@@ -7537,7 +7998,8 @@ class CTX_USD(NamedTuple):
 CTX_USD = CTX_USD()
 """
     name: CTX-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 5
@@ -7550,7 +8012,8 @@ CTX_USD = CTX_USD()
 class CTX_USDT(NamedTuple):
     """
         name: CTX-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 5
@@ -7559,7 +8022,8 @@ class CTX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "CTX-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 5
@@ -7586,7 +8050,8 @@ class CTX_USDT(NamedTuple):
 CTX_USDT = CTX_USDT()
 """
     name: CTX-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 5
@@ -7599,7 +8064,8 @@ CTX_USDT = CTX_USDT()
 class CVC_USD(NamedTuple):
     """
         name: CVC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7608,7 +8074,8 @@ class CVC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CVC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7635,7 +8102,8 @@ class CVC_USD(NamedTuple):
 CVC_USD = CVC_USD()
 """
     name: CVC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7648,7 +8116,8 @@ CVC_USD = CVC_USD()
 class CVC_USDC(NamedTuple):
     """
         name: CVC-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7657,7 +8126,8 @@ class CVC_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "CVC-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7684,7 +8154,8 @@ class CVC_USDC(NamedTuple):
 CVC_USDC = CVC_USDC()
 """
     name: CVC-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7697,7 +8168,8 @@ CVC_USDC = CVC_USDC()
 class CVX_USD(NamedTuple):
     """
         name: CVX-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7706,7 +8178,8 @@ class CVX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "CVX-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7733,7 +8206,8 @@ class CVX_USD(NamedTuple):
 CVX_USD = CVX_USD()
 """
     name: CVX-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7746,7 +8220,8 @@ CVX_USD = CVX_USD()
 class DAI_USD(NamedTuple):
     """
         name: DAI-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7755,7 +8230,8 @@ class DAI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DAI-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7782,7 +8258,8 @@ class DAI_USD(NamedTuple):
 DAI_USD = DAI_USD()
 """
     name: DAI-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7795,7 +8272,8 @@ DAI_USD = DAI_USD()
 class DAI_USDC(NamedTuple):
     """
         name: DAI-USDC
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7804,7 +8282,8 @@ class DAI_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "DAI-USDC"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7831,7 +8310,8 @@ class DAI_USDC(NamedTuple):
 DAI_USDC = DAI_USDC()
 """
     name: DAI-USDC
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7844,7 +8324,8 @@ DAI_USDC = DAI_USDC()
 class DAR_USD(NamedTuple):
     """
         name: DAR-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7853,7 +8334,8 @@ class DAR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DAR-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7880,7 +8362,8 @@ class DAR_USD(NamedTuple):
 DAR_USD = DAR_USD()
 """
     name: DAR-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7893,7 +8376,8 @@ DAR_USD = DAR_USD()
 class DASH_BTC(NamedTuple):
     """
         name: DASH-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -7902,7 +8386,8 @@ class DASH_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "DASH-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -7929,7 +8414,8 @@ class DASH_BTC(NamedTuple):
 DASH_BTC = DASH_BTC()
 """
     name: DASH-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -7942,7 +8428,8 @@ DASH_BTC = DASH_BTC()
 class DASH_USD(NamedTuple):
     """
         name: DASH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -7951,7 +8438,8 @@ class DASH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DASH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -7978,7 +8466,8 @@ class DASH_USD(NamedTuple):
 DASH_USD = DASH_USD()
 """
     name: DASH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -7991,7 +8480,8 @@ DASH_USD = DASH_USD()
 class DDX_EUR(NamedTuple):
     """
         name: DDX-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -8000,7 +8490,8 @@ class DDX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "DDX-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -8027,7 +8518,8 @@ class DDX_EUR(NamedTuple):
 DDX_EUR = DDX_EUR()
 """
     name: DDX-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -8040,7 +8532,8 @@ DDX_EUR = DDX_EUR()
 class DDX_USD(NamedTuple):
     """
         name: DDX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8049,7 +8542,8 @@ class DDX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DDX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8076,7 +8570,8 @@ class DDX_USD(NamedTuple):
 DDX_USD = DDX_USD()
 """
     name: DDX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8089,7 +8584,8 @@ DDX_USD = DDX_USD()
 class DDX_USDT(NamedTuple):
     """
         name: DDX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8098,7 +8594,8 @@ class DDX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DDX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8125,7 +8622,8 @@ class DDX_USDT(NamedTuple):
 DDX_USDT = DDX_USDT()
 """
     name: DDX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8138,7 +8636,8 @@ DDX_USDT = DDX_USDT()
 class DESO_EUR(NamedTuple):
     """
         name: DESO-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8147,7 +8646,8 @@ class DESO_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "DESO-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8174,7 +8674,8 @@ class DESO_EUR(NamedTuple):
 DESO_EUR = DESO_EUR()
 """
     name: DESO-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8187,7 +8688,8 @@ DESO_EUR = DESO_EUR()
 class DESO_USD(NamedTuple):
     """
         name: DESO-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8196,7 +8698,8 @@ class DESO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DESO-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8223,7 +8726,8 @@ class DESO_USD(NamedTuple):
 DESO_USD = DESO_USD()
 """
     name: DESO-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8236,7 +8740,8 @@ DESO_USD = DESO_USD()
 class DESO_USDT(NamedTuple):
     """
         name: DESO-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8245,7 +8750,8 @@ class DESO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DESO-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8272,7 +8778,8 @@ class DESO_USDT(NamedTuple):
 DESO_USDT = DESO_USDT()
 """
     name: DESO-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8285,7 +8792,8 @@ DESO_USDT = DESO_USDT()
 class DEXT_USD(NamedTuple):
     """
         name: DEXT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8294,7 +8802,8 @@ class DEXT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DEXT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8321,7 +8830,8 @@ class DEXT_USD(NamedTuple):
 DEXT_USD = DEXT_USD()
 """
     name: DEXT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8334,7 +8844,8 @@ DEXT_USD = DEXT_USD()
 class DIA_EUR(NamedTuple):
     """
         name: DIA-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8343,7 +8854,8 @@ class DIA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "DIA-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8370,7 +8882,8 @@ class DIA_EUR(NamedTuple):
 DIA_EUR = DIA_EUR()
 """
     name: DIA-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8383,7 +8896,8 @@ DIA_EUR = DIA_EUR()
 class DIA_USD(NamedTuple):
     """
         name: DIA-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8392,7 +8906,8 @@ class DIA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DIA-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8419,7 +8934,8 @@ class DIA_USD(NamedTuple):
 DIA_USD = DIA_USD()
 """
     name: DIA-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8432,7 +8948,8 @@ DIA_USD = DIA_USD()
 class DIA_USDT(NamedTuple):
     """
         name: DIA-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8441,7 +8958,8 @@ class DIA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DIA-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8468,7 +8986,8 @@ class DIA_USDT(NamedTuple):
 DIA_USDT = DIA_USDT()
 """
     name: DIA-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8481,7 +9000,8 @@ DIA_USDT = DIA_USDT()
 class DIMO_USD(NamedTuple):
     """
         name: DIMO-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8490,7 +9010,8 @@ class DIMO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DIMO-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8517,7 +9038,8 @@ class DIMO_USD(NamedTuple):
 DIMO_USD = DIMO_USD()
 """
     name: DIMO-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8530,7 +9052,8 @@ DIMO_USD = DIMO_USD()
 class DNT_USD(NamedTuple):
     """
         name: DNT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8539,7 +9062,8 @@ class DNT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DNT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8566,7 +9090,8 @@ class DNT_USD(NamedTuple):
 DNT_USD = DNT_USD()
 """
     name: DNT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8579,7 +9104,8 @@ DNT_USD = DNT_USD()
 class DNT_USDC(NamedTuple):
     """
         name: DNT-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8588,7 +9114,8 @@ class DNT_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "DNT-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8615,7 +9142,8 @@ class DNT_USDC(NamedTuple):
 DNT_USDC = DNT_USDC()
 """
     name: DNT-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8628,7 +9156,8 @@ DNT_USDC = DNT_USDC()
 class DOGE_BTC(NamedTuple):
     """
         name: DOGE-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -8637,7 +9166,8 @@ class DOGE_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOGE-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -8664,7 +9194,8 @@ class DOGE_BTC(NamedTuple):
 DOGE_BTC = DOGE_BTC()
 """
     name: DOGE-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -8677,7 +9208,8 @@ DOGE_BTC = DOGE_BTC()
 class DOGE_EUR(NamedTuple):
     """
         name: DOGE-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -8686,7 +9218,8 @@ class DOGE_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOGE-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -8713,7 +9246,8 @@ class DOGE_EUR(NamedTuple):
 DOGE_EUR = DOGE_EUR()
 """
     name: DOGE-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -8726,7 +9260,8 @@ DOGE_EUR = DOGE_EUR()
 class DOGE_GBP(NamedTuple):
     """
         name: DOGE-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -8735,7 +9270,8 @@ class DOGE_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOGE-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -8762,7 +9298,8 @@ class DOGE_GBP(NamedTuple):
 DOGE_GBP = DOGE_GBP()
 """
     name: DOGE-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -8775,7 +9312,8 @@ DOGE_GBP = DOGE_GBP()
 class DOGE_USD(NamedTuple):
     """
         name: DOGE-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8784,7 +9322,8 @@ class DOGE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOGE-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8811,7 +9350,8 @@ class DOGE_USD(NamedTuple):
 DOGE_USD = DOGE_USD()
 """
     name: DOGE-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8824,7 +9364,8 @@ DOGE_USD = DOGE_USD()
 class DOGE_USDT(NamedTuple):
     """
         name: DOGE-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -8833,7 +9374,8 @@ class DOGE_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOGE-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -8860,7 +9402,8 @@ class DOGE_USDT(NamedTuple):
 DOGE_USDT = DOGE_USDT()
 """
     name: DOGE-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -8873,7 +9416,8 @@ DOGE_USDT = DOGE_USDT()
 class DOT_BTC(NamedTuple):
     """
         name: DOT-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -8882,7 +9426,8 @@ class DOT_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOT-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -8909,7 +9454,8 @@ class DOT_BTC(NamedTuple):
 DOT_BTC = DOT_BTC()
 """
     name: DOT-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -8922,7 +9468,8 @@ DOT_BTC = DOT_BTC()
 class DOT_EUR(NamedTuple):
     """
         name: DOT-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -8931,7 +9478,8 @@ class DOT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOT-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -8958,7 +9506,8 @@ class DOT_EUR(NamedTuple):
 DOT_EUR = DOT_EUR()
 """
     name: DOT-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -8971,7 +9520,8 @@ DOT_EUR = DOT_EUR()
 class DOT_GBP(NamedTuple):
     """
         name: DOT-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -8980,7 +9530,8 @@ class DOT_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOT-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -9007,7 +9558,8 @@ class DOT_GBP(NamedTuple):
 DOT_GBP = DOT_GBP()
 """
     name: DOT-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -9020,7 +9572,8 @@ DOT_GBP = DOT_GBP()
 class DOT_USD(NamedTuple):
     """
         name: DOT-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9029,7 +9582,8 @@ class DOT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOT-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9056,7 +9610,8 @@ class DOT_USD(NamedTuple):
 DOT_USD = DOT_USD()
 """
     name: DOT-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9069,7 +9624,8 @@ DOT_USD = DOT_USD()
 class DOT_USDT(NamedTuple):
     """
         name: DOT-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9078,7 +9634,8 @@ class DOT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DOT-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9105,7 +9662,8 @@ class DOT_USDT(NamedTuple):
 DOT_USDT = DOT_USDT()
 """
     name: DOT-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9118,7 +9676,8 @@ DOT_USDT = DOT_USDT()
 class DREP_USD(NamedTuple):
     """
         name: DREP-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9127,7 +9686,8 @@ class DREP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DREP-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9154,7 +9714,8 @@ class DREP_USD(NamedTuple):
 DREP_USD = DREP_USD()
 """
     name: DREP-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9167,7 +9728,8 @@ DREP_USD = DREP_USD()
 class DREP_USDT(NamedTuple):
     """
         name: DREP-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9176,7 +9738,8 @@ class DREP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DREP-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9203,7 +9766,8 @@ class DREP_USDT(NamedTuple):
 DREP_USDT = DREP_USDT()
 """
     name: DREP-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9216,7 +9780,8 @@ DREP_USDT = DREP_USDT()
 class DYP_USD(NamedTuple):
     """
         name: DYP-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9225,7 +9790,8 @@ class DYP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "DYP-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9252,7 +9818,8 @@ class DYP_USD(NamedTuple):
 DYP_USD = DYP_USD()
 """
     name: DYP-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9265,7 +9832,8 @@ DYP_USD = DYP_USD()
 class DYP_USDT(NamedTuple):
     """
         name: DYP-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9274,7 +9842,8 @@ class DYP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "DYP-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9301,7 +9870,8 @@ class DYP_USDT(NamedTuple):
 DYP_USDT = DYP_USDT()
 """
     name: DYP-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9314,7 +9884,8 @@ DYP_USDT = DYP_USDT()
 class EGLD_USD(NamedTuple):
     """
         name: EGLD-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9323,7 +9894,8 @@ class EGLD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "EGLD-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9350,7 +9922,8 @@ class EGLD_USD(NamedTuple):
 EGLD_USD = EGLD_USD()
 """
     name: EGLD-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9363,7 +9936,8 @@ EGLD_USD = EGLD_USD()
 class ELA_USD(NamedTuple):
     """
         name: ELA-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9372,7 +9946,8 @@ class ELA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ELA-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9399,7 +9974,8 @@ class ELA_USD(NamedTuple):
 ELA_USD = ELA_USD()
 """
     name: ELA-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9412,7 +9988,8 @@ ELA_USD = ELA_USD()
 class ELA_USDT(NamedTuple):
     """
         name: ELA-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9421,7 +9998,8 @@ class ELA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ELA-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9448,7 +10026,8 @@ class ELA_USDT(NamedTuple):
 ELA_USDT = ELA_USDT()
 """
     name: ELA-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9461,7 +10040,8 @@ ELA_USDT = ELA_USDT()
 class ENJ_BTC(NamedTuple):
     """
         name: ENJ-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -9470,7 +10050,8 @@ class ENJ_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENJ-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -9497,7 +10078,8 @@ class ENJ_BTC(NamedTuple):
 ENJ_BTC = ENJ_BTC()
 """
     name: ENJ-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -9510,7 +10092,8 @@ ENJ_BTC = ENJ_BTC()
 class ENJ_USD(NamedTuple):
     """
         name: ENJ-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9519,7 +10102,8 @@ class ENJ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENJ-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9546,7 +10130,8 @@ class ENJ_USD(NamedTuple):
 ENJ_USD = ENJ_USD()
 """
     name: ENJ-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9559,7 +10144,8 @@ ENJ_USD = ENJ_USD()
 class ENJ_USDT(NamedTuple):
     """
         name: ENJ-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9568,7 +10154,8 @@ class ENJ_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENJ-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9595,7 +10182,8 @@ class ENJ_USDT(NamedTuple):
 ENJ_USDT = ENJ_USDT()
 """
     name: ENJ-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9608,7 +10196,8 @@ ENJ_USDT = ENJ_USDT()
 class ENS_EUR(NamedTuple):
     """
         name: ENS-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -9617,7 +10206,8 @@ class ENS_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENS-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -9644,7 +10234,8 @@ class ENS_EUR(NamedTuple):
 ENS_EUR = ENS_EUR()
 """
     name: ENS-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -9657,7 +10248,8 @@ ENS_EUR = ENS_EUR()
 class ENS_USD(NamedTuple):
     """
         name: ENS-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9666,7 +10258,8 @@ class ENS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENS-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9693,7 +10286,8 @@ class ENS_USD(NamedTuple):
 ENS_USD = ENS_USD()
 """
     name: ENS-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9706,7 +10300,8 @@ ENS_USD = ENS_USD()
 class ENS_USDT(NamedTuple):
     """
         name: ENS-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9715,7 +10310,8 @@ class ENS_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ENS-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9742,7 +10338,8 @@ class ENS_USDT(NamedTuple):
 ENS_USDT = ENS_USDT()
 """
     name: ENS-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9755,7 +10352,8 @@ ENS_USDT = ENS_USDT()
 class EOS_BTC(NamedTuple):
     """
         name: EOS-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -9764,7 +10362,8 @@ class EOS_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "EOS-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -9791,7 +10390,8 @@ class EOS_BTC(NamedTuple):
 EOS_BTC = EOS_BTC()
 """
     name: EOS-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -9804,7 +10404,8 @@ EOS_BTC = EOS_BTC()
 class EOS_EUR(NamedTuple):
     """
         name: EOS-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -9813,7 +10414,8 @@ class EOS_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "EOS-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -9840,7 +10442,8 @@ class EOS_EUR(NamedTuple):
 EOS_EUR = EOS_EUR()
 """
     name: EOS-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -9853,7 +10456,8 @@ EOS_EUR = EOS_EUR()
 class EOS_USD(NamedTuple):
     """
         name: EOS-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9862,7 +10466,8 @@ class EOS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "EOS-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9889,7 +10494,8 @@ class EOS_USD(NamedTuple):
 EOS_USD = EOS_USD()
 """
     name: EOS-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9902,7 +10508,8 @@ EOS_USD = EOS_USD()
 class ERN_EUR(NamedTuple):
     """
         name: ERN-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9911,7 +10518,8 @@ class ERN_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ERN-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9938,7 +10546,8 @@ class ERN_EUR(NamedTuple):
 ERN_EUR = ERN_EUR()
 """
     name: ERN-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -9951,7 +10560,8 @@ ERN_EUR = ERN_EUR()
 class ERN_USD(NamedTuple):
     """
         name: ERN-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -9960,7 +10570,8 @@ class ERN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ERN-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -9987,7 +10598,8 @@ class ERN_USD(NamedTuple):
 ERN_USD = ERN_USD()
 """
     name: ERN-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10000,7 +10612,8 @@ ERN_USD = ERN_USD()
 class ERN_USDT(NamedTuple):
     """
         name: ERN-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10009,7 +10622,8 @@ class ERN_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ERN-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10036,7 +10650,8 @@ class ERN_USDT(NamedTuple):
 ERN_USDT = ERN_USDT()
 """
     name: ERN-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10049,7 +10664,8 @@ ERN_USDT = ERN_USDT()
 class ETC_BTC(NamedTuple):
     """
         name: ETC-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -10058,7 +10674,8 @@ class ETC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETC-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -10085,7 +10702,8 @@ class ETC_BTC(NamedTuple):
 ETC_BTC = ETC_BTC()
 """
     name: ETC-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -10098,7 +10716,8 @@ ETC_BTC = ETC_BTC()
 class ETC_EUR(NamedTuple):
     """
         name: ETC-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -10107,7 +10726,8 @@ class ETC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETC-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -10134,7 +10754,8 @@ class ETC_EUR(NamedTuple):
 ETC_EUR = ETC_EUR()
 """
     name: ETC-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -10147,7 +10768,8 @@ ETC_EUR = ETC_EUR()
 class ETC_GBP(NamedTuple):
     """
         name: ETC-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -10156,7 +10778,8 @@ class ETC_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETC-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -10183,7 +10806,8 @@ class ETC_GBP(NamedTuple):
 ETC_GBP = ETC_GBP()
 """
     name: ETC-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -10196,7 +10820,8 @@ ETC_GBP = ETC_GBP()
 class ETC_USD(NamedTuple):
     """
         name: ETC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10205,7 +10830,8 @@ class ETC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10232,7 +10858,8 @@ class ETC_USD(NamedTuple):
 ETC_USD = ETC_USD()
 """
     name: ETC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10245,7 +10872,8 @@ ETC_USD = ETC_USD()
 class ETH_BTC(NamedTuple):
     """
         name: ETH-BTC
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00001
@@ -10254,7 +10882,8 @@ class ETH_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-BTC"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00001
@@ -10281,7 +10910,8 @@ class ETH_BTC(NamedTuple):
 ETH_BTC = ETH_BTC()
 """
     name: ETH-BTC
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00001
@@ -10294,7 +10924,8 @@ ETH_BTC = ETH_BTC()
 class ETH_DAI(NamedTuple):
     """
         name: ETH-DAI
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10303,7 +10934,8 @@ class ETH_DAI(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-DAI"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10330,7 +10962,8 @@ class ETH_DAI(NamedTuple):
 ETH_DAI = ETH_DAI()
 """
     name: ETH-DAI
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10343,7 +10976,8 @@ ETH_DAI = ETH_DAI()
 class ETH_EUR(NamedTuple):
     """
         name: ETH-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -10352,7 +10986,8 @@ class ETH_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -10379,7 +11014,8 @@ class ETH_EUR(NamedTuple):
 ETH_EUR = ETH_EUR()
 """
     name: ETH-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -10392,7 +11028,8 @@ ETH_EUR = ETH_EUR()
 class ETH_GBP(NamedTuple):
     """
         name: ETH-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -10401,7 +11038,8 @@ class ETH_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -10428,7 +11066,8 @@ class ETH_GBP(NamedTuple):
 ETH_GBP = ETH_GBP()
 """
     name: ETH-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -10441,7 +11080,8 @@ ETH_GBP = ETH_GBP()
 class ETH_USD(NamedTuple):
     """
         name: ETH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10450,7 +11090,8 @@ class ETH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10477,7 +11118,8 @@ class ETH_USD(NamedTuple):
 ETH_USD = ETH_USD()
 """
     name: ETH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10490,7 +11132,8 @@ ETH_USD = ETH_USD()
 class ETH_USDC(NamedTuple):
     """
         name: ETH-USDC
-        precision: 1
+        significant_digits: None
+        tick_size: 1
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10499,7 +11142,8 @@ class ETH_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-USDC"
-    precision: int = 1
+    significant_digits: int = None
+    tick_size: int = 1
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10526,7 +11170,8 @@ class ETH_USDC(NamedTuple):
 ETH_USDC = ETH_USDC()
 """
     name: ETH-USDC
-    precision: 1
+    significant_digits: None
+    tick_size: 1
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10539,7 +11184,8 @@ ETH_USDC = ETH_USDC()
 class ETH_USDT(NamedTuple):
     """
         name: ETH-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10548,7 +11194,8 @@ class ETH_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ETH-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10575,7 +11222,8 @@ class ETH_USDT(NamedTuple):
 ETH_USDT = ETH_USDT()
 """
     name: ETH-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10588,7 +11236,8 @@ ETH_USDT = ETH_USDT()
 class EUROC_EUR(NamedTuple):
     """
         name: EUROC-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10597,7 +11246,8 @@ class EUROC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "EUROC-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10624,7 +11274,8 @@ class EUROC_EUR(NamedTuple):
 EUROC_EUR = EUROC_EUR()
 """
     name: EUROC-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10637,7 +11288,8 @@ EUROC_EUR = EUROC_EUR()
 class EUROC_USD(NamedTuple):
     """
         name: EUROC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10646,7 +11298,8 @@ class EUROC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "EUROC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10673,7 +11326,8 @@ class EUROC_USD(NamedTuple):
 EUROC_USD = EUROC_USD()
 """
     name: EUROC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10686,7 +11340,8 @@ EUROC_USD = EUROC_USD()
 class FARM_USD(NamedTuple):
     """
         name: FARM-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10695,7 +11350,8 @@ class FARM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FARM-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10722,7 +11378,8 @@ class FARM_USD(NamedTuple):
 FARM_USD = FARM_USD()
 """
     name: FARM-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10735,7 +11392,8 @@ FARM_USD = FARM_USD()
 class FARM_USDT(NamedTuple):
     """
         name: FARM-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10744,7 +11402,8 @@ class FARM_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FARM-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10771,7 +11430,8 @@ class FARM_USDT(NamedTuple):
 FARM_USDT = FARM_USDT()
 """
     name: FARM-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10784,7 +11444,8 @@ FARM_USDT = FARM_USDT()
 class FET_USD(NamedTuple):
     """
         name: FET-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10793,7 +11454,8 @@ class FET_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FET-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10820,7 +11482,8 @@ class FET_USD(NamedTuple):
 FET_USD = FET_USD()
 """
     name: FET-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10833,7 +11496,8 @@ FET_USD = FET_USD()
 class FET_USDT(NamedTuple):
     """
         name: FET-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10842,7 +11506,8 @@ class FET_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FET-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10869,7 +11534,8 @@ class FET_USDT(NamedTuple):
 FET_USDT = FET_USDT()
 """
     name: FET-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10882,7 +11548,8 @@ FET_USDT = FET_USDT()
 class FIDA_EUR(NamedTuple):
     """
         name: FIDA-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10891,7 +11558,8 @@ class FIDA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIDA-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10918,7 +11586,8 @@ class FIDA_EUR(NamedTuple):
 FIDA_EUR = FIDA_EUR()
 """
     name: FIDA-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10931,7 +11600,8 @@ FIDA_EUR = FIDA_EUR()
 class FIDA_USD(NamedTuple):
     """
         name: FIDA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10940,7 +11610,8 @@ class FIDA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIDA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -10967,7 +11638,8 @@ class FIDA_USD(NamedTuple):
 FIDA_USD = FIDA_USD()
 """
     name: FIDA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -10980,7 +11652,8 @@ FIDA_USD = FIDA_USD()
 class FIDA_USDT(NamedTuple):
     """
         name: FIDA-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -10989,7 +11662,8 @@ class FIDA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIDA-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11016,7 +11690,8 @@ class FIDA_USDT(NamedTuple):
 FIDA_USDT = FIDA_USDT()
 """
     name: FIDA-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11029,7 +11704,8 @@ FIDA_USDT = FIDA_USDT()
 class FIL_BTC(NamedTuple):
     """
         name: FIL-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -11038,7 +11714,8 @@ class FIL_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIL-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -11065,7 +11742,8 @@ class FIL_BTC(NamedTuple):
 FIL_BTC = FIL_BTC()
 """
     name: FIL-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -11078,7 +11756,8 @@ FIL_BTC = FIL_BTC()
 class FIL_EUR(NamedTuple):
     """
         name: FIL-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -11087,7 +11766,8 @@ class FIL_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIL-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -11114,7 +11794,8 @@ class FIL_EUR(NamedTuple):
 FIL_EUR = FIL_EUR()
 """
     name: FIL-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -11127,7 +11808,8 @@ FIL_EUR = FIL_EUR()
 class FIL_GBP(NamedTuple):
     """
         name: FIL-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -11136,7 +11818,8 @@ class FIL_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIL-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -11163,7 +11846,8 @@ class FIL_GBP(NamedTuple):
 FIL_GBP = FIL_GBP()
 """
     name: FIL-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -11176,7 +11860,8 @@ FIL_GBP = FIL_GBP()
 class FIL_USD(NamedTuple):
     """
         name: FIL-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11185,7 +11870,8 @@ class FIL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIL-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11212,7 +11898,8 @@ class FIL_USD(NamedTuple):
 FIL_USD = FIL_USD()
 """
     name: FIL-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11225,7 +11912,8 @@ FIL_USD = FIL_USD()
 class FIS_USD(NamedTuple):
     """
         name: FIS-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11234,7 +11922,8 @@ class FIS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIS-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11261,7 +11950,8 @@ class FIS_USD(NamedTuple):
 FIS_USD = FIS_USD()
 """
     name: FIS-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11274,7 +11964,8 @@ FIS_USD = FIS_USD()
 class FIS_USDT(NamedTuple):
     """
         name: FIS-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11283,7 +11974,8 @@ class FIS_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FIS-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11310,7 +12002,8 @@ class FIS_USDT(NamedTuple):
 FIS_USDT = FIS_USDT()
 """
     name: FIS-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11323,7 +12016,8 @@ FIS_USDT = FIS_USDT()
 class FLOW_USD(NamedTuple):
     """
         name: FLOW-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11332,7 +12026,8 @@ class FLOW_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FLOW-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11359,7 +12054,8 @@ class FLOW_USD(NamedTuple):
 FLOW_USD = FLOW_USD()
 """
     name: FLOW-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11372,7 +12068,8 @@ FLOW_USD = FLOW_USD()
 class FLOW_USDT(NamedTuple):
     """
         name: FLOW-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11381,7 +12078,8 @@ class FLOW_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FLOW-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11408,7 +12106,8 @@ class FLOW_USDT(NamedTuple):
 FLOW_USDT = FLOW_USDT()
 """
     name: FLOW-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11421,7 +12120,8 @@ FLOW_USDT = FLOW_USDT()
 class FLR_USD(NamedTuple):
     """
         name: FLR-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11430,7 +12130,8 @@ class FLR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FLR-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11457,7 +12158,8 @@ class FLR_USD(NamedTuple):
 FLR_USD = FLR_USD()
 """
     name: FLR-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11470,7 +12172,8 @@ FLR_USD = FLR_USD()
 class FORT_USD(NamedTuple):
     """
         name: FORT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11479,7 +12182,8 @@ class FORT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11506,7 +12210,8 @@ class FORT_USD(NamedTuple):
 FORT_USD = FORT_USD()
 """
     name: FORT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11519,7 +12224,8 @@ FORT_USD = FORT_USD()
 class FORT_USDT(NamedTuple):
     """
         name: FORT-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11528,7 +12234,8 @@ class FORT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORT-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11555,7 +12262,8 @@ class FORT_USDT(NamedTuple):
 FORT_USDT = FORT_USDT()
 """
     name: FORT-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11568,7 +12276,8 @@ FORT_USDT = FORT_USDT()
 class FORTH_BTC(NamedTuple):
     """
         name: FORTH-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -11577,7 +12286,8 @@ class FORTH_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORTH-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -11604,7 +12314,8 @@ class FORTH_BTC(NamedTuple):
 FORTH_BTC = FORTH_BTC()
 """
     name: FORTH-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -11617,7 +12328,8 @@ FORTH_BTC = FORTH_BTC()
 class FORTH_EUR(NamedTuple):
     """
         name: FORTH-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -11626,7 +12338,8 @@ class FORTH_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORTH-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -11653,7 +12366,8 @@ class FORTH_EUR(NamedTuple):
 FORTH_EUR = FORTH_EUR()
 """
     name: FORTH-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -11666,7 +12380,8 @@ FORTH_EUR = FORTH_EUR()
 class FORTH_GBP(NamedTuple):
     """
         name: FORTH-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -11675,7 +12390,8 @@ class FORTH_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORTH-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -11702,7 +12418,8 @@ class FORTH_GBP(NamedTuple):
 FORTH_GBP = FORTH_GBP()
 """
     name: FORTH-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -11715,7 +12432,8 @@ FORTH_GBP = FORTH_GBP()
 class FORTH_USD(NamedTuple):
     """
         name: FORTH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11724,7 +12442,8 @@ class FORTH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FORTH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11751,7 +12470,8 @@ class FORTH_USD(NamedTuple):
 FORTH_USD = FORTH_USD()
 """
     name: FORTH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11764,7 +12484,8 @@ FORTH_USD = FORTH_USD()
 class FOX_USD(NamedTuple):
     """
         name: FOX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11773,7 +12494,8 @@ class FOX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FOX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11800,7 +12522,8 @@ class FOX_USD(NamedTuple):
 FOX_USD = FOX_USD()
 """
     name: FOX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11813,7 +12536,8 @@ FOX_USD = FOX_USD()
 class FOX_USDT(NamedTuple):
     """
         name: FOX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11822,7 +12546,8 @@ class FOX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "FOX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11849,7 +12574,8 @@ class FOX_USDT(NamedTuple):
 FOX_USDT = FOX_USDT()
 """
     name: FOX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11862,7 +12588,8 @@ FOX_USDT = FOX_USDT()
 class FX_USD(NamedTuple):
     """
         name: FX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11871,7 +12598,8 @@ class FX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "FX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11898,7 +12626,8 @@ class FX_USD(NamedTuple):
 FX_USD = FX_USD()
 """
     name: FX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11911,7 +12640,8 @@ FX_USD = FX_USD()
 class GAL_USD(NamedTuple):
     """
         name: GAL-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11920,7 +12650,8 @@ class GAL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GAL-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11947,7 +12678,8 @@ class GAL_USD(NamedTuple):
 GAL_USD = GAL_USD()
 """
     name: GAL-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -11960,7 +12692,8 @@ GAL_USD = GAL_USD()
 class GAL_USDT(NamedTuple):
     """
         name: GAL-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -11969,7 +12702,8 @@ class GAL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "GAL-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -11996,7 +12730,8 @@ class GAL_USDT(NamedTuple):
 GAL_USDT = GAL_USDT()
 """
     name: GAL-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12009,7 +12744,8 @@ GAL_USDT = GAL_USDT()
 class GALA_EUR(NamedTuple):
     """
         name: GALA-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -12018,7 +12754,8 @@ class GALA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "GALA-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -12045,7 +12782,8 @@ class GALA_EUR(NamedTuple):
 GALA_EUR = GALA_EUR()
 """
     name: GALA-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -12058,7 +12796,8 @@ GALA_EUR = GALA_EUR()
 class GALA_USD(NamedTuple):
     """
         name: GALA-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12067,7 +12806,8 @@ class GALA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GALA-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12094,7 +12834,8 @@ class GALA_USD(NamedTuple):
 GALA_USD = GALA_USD()
 """
     name: GALA-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12107,7 +12848,8 @@ GALA_USD = GALA_USD()
 class GALA_USDT(NamedTuple):
     """
         name: GALA-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12116,7 +12858,8 @@ class GALA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "GALA-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12143,7 +12886,8 @@ class GALA_USDT(NamedTuple):
 GALA_USDT = GALA_USDT()
 """
     name: GALA-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12156,7 +12900,8 @@ GALA_USDT = GALA_USDT()
 class GFI_USD(NamedTuple):
     """
         name: GFI-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12165,7 +12910,8 @@ class GFI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GFI-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12192,7 +12938,8 @@ class GFI_USD(NamedTuple):
 GFI_USD = GFI_USD()
 """
     name: GFI-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12205,7 +12952,8 @@ GFI_USD = GFI_USD()
 class GHST_USD(NamedTuple):
     """
         name: GHST-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12214,7 +12962,8 @@ class GHST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GHST-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12241,7 +12990,8 @@ class GHST_USD(NamedTuple):
 GHST_USD = GHST_USD()
 """
     name: GHST-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12254,7 +13004,8 @@ GHST_USD = GHST_USD()
 class GLM_USD(NamedTuple):
     """
         name: GLM-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12263,7 +13014,8 @@ class GLM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GLM-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12290,7 +13042,8 @@ class GLM_USD(NamedTuple):
 GLM_USD = GLM_USD()
 """
     name: GLM-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12303,7 +13056,8 @@ GLM_USD = GLM_USD()
 class GMT_USD(NamedTuple):
     """
         name: GMT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12312,7 +13066,8 @@ class GMT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GMT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12339,7 +13094,8 @@ class GMT_USD(NamedTuple):
 GMT_USD = GMT_USD()
 """
     name: GMT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12352,7 +13108,8 @@ GMT_USD = GMT_USD()
 class GMT_USDT(NamedTuple):
     """
         name: GMT-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12361,7 +13118,8 @@ class GMT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "GMT-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12388,7 +13146,8 @@ class GMT_USDT(NamedTuple):
 GMT_USDT = GMT_USDT()
 """
     name: GMT-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12401,7 +13160,8 @@ GMT_USDT = GMT_USDT()
 class GNO_USD(NamedTuple):
     """
         name: GNO-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12410,7 +13170,8 @@ class GNO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GNO-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12437,7 +13198,8 @@ class GNO_USD(NamedTuple):
 GNO_USD = GNO_USD()
 """
     name: GNO-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12450,7 +13212,8 @@ GNO_USD = GNO_USD()
 class GNO_USDT(NamedTuple):
     """
         name: GNO-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12459,7 +13222,8 @@ class GNO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "GNO-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12486,7 +13250,8 @@ class GNO_USDT(NamedTuple):
 GNO_USDT = GNO_USDT()
 """
     name: GNO-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12499,7 +13264,8 @@ GNO_USDT = GNO_USDT()
 class GNT_USDC(NamedTuple):
     """
         name: GNT-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12508,7 +13274,8 @@ class GNT_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "GNT-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12535,7 +13302,8 @@ class GNT_USDC(NamedTuple):
 GNT_USDC = GNT_USDC()
 """
     name: GNT-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12548,7 +13316,8 @@ GNT_USDC = GNT_USDC()
 class GODS_USD(NamedTuple):
     """
         name: GODS-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12557,7 +13326,8 @@ class GODS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GODS-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12584,7 +13354,8 @@ class GODS_USD(NamedTuple):
 GODS_USD = GODS_USD()
 """
     name: GODS-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12597,7 +13368,8 @@ GODS_USD = GODS_USD()
 class GRT_BTC(NamedTuple):
     """
         name: GRT-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -12606,7 +13378,8 @@ class GRT_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "GRT-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -12633,7 +13406,8 @@ class GRT_BTC(NamedTuple):
 GRT_BTC = GRT_BTC()
 """
     name: GRT-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -12646,7 +13420,8 @@ GRT_BTC = GRT_BTC()
 class GRT_EUR(NamedTuple):
     """
         name: GRT-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -12655,7 +13430,8 @@ class GRT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "GRT-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -12682,7 +13458,8 @@ class GRT_EUR(NamedTuple):
 GRT_EUR = GRT_EUR()
 """
     name: GRT-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -12695,7 +13472,8 @@ GRT_EUR = GRT_EUR()
 class GRT_GBP(NamedTuple):
     """
         name: GRT-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -12704,7 +13482,8 @@ class GRT_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "GRT-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -12731,7 +13510,8 @@ class GRT_GBP(NamedTuple):
 GRT_GBP = GRT_GBP()
 """
     name: GRT-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -12744,7 +13524,8 @@ GRT_GBP = GRT_GBP()
 class GRT_USD(NamedTuple):
     """
         name: GRT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12753,7 +13534,8 @@ class GRT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GRT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12780,7 +13562,8 @@ class GRT_USD(NamedTuple):
 GRT_USD = GRT_USD()
 """
     name: GRT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12793,7 +13576,8 @@ GRT_USD = GRT_USD()
 class GST_USD(NamedTuple):
     """
         name: GST-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12802,7 +13586,8 @@ class GST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GST-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12829,7 +13614,8 @@ class GST_USD(NamedTuple):
 GST_USD = GST_USD()
 """
     name: GST-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12842,7 +13628,8 @@ GST_USD = GST_USD()
 class GTC_USD(NamedTuple):
     """
         name: GTC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12851,7 +13638,8 @@ class GTC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GTC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12878,7 +13666,8 @@ class GTC_USD(NamedTuple):
 GTC_USD = GTC_USD()
 """
     name: GTC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12891,7 +13680,8 @@ GTC_USD = GTC_USD()
 class GUSD_USD(NamedTuple):
     """
         name: GUSD-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12900,7 +13690,8 @@ class GUSD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GUSD-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12927,7 +13718,8 @@ class GUSD_USD(NamedTuple):
 GUSD_USD = GUSD_USD()
 """
     name: GUSD-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12940,7 +13732,8 @@ GUSD_USD = GUSD_USD()
 class GYEN_USD(NamedTuple):
     """
         name: GYEN-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12949,7 +13742,8 @@ class GYEN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "GYEN-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -12976,7 +13770,8 @@ class GYEN_USD(NamedTuple):
 GYEN_USD = GYEN_USD()
 """
     name: GYEN-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -12989,7 +13784,8 @@ GYEN_USD = GYEN_USD()
 class HBAR_USD(NamedTuple):
     """
         name: HBAR-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -12998,7 +13794,8 @@ class HBAR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "HBAR-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13025,7 +13822,8 @@ class HBAR_USD(NamedTuple):
 HBAR_USD = HBAR_USD()
 """
     name: HBAR-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13038,7 +13836,8 @@ HBAR_USD = HBAR_USD()
 class HBAR_USDT(NamedTuple):
     """
         name: HBAR-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13047,7 +13846,8 @@ class HBAR_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "HBAR-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13074,7 +13874,8 @@ class HBAR_USDT(NamedTuple):
 HBAR_USDT = HBAR_USDT()
 """
     name: HBAR-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13087,7 +13888,8 @@ HBAR_USDT = HBAR_USDT()
 class HFT_USD(NamedTuple):
     """
         name: HFT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13096,7 +13898,8 @@ class HFT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "HFT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13123,7 +13926,8 @@ class HFT_USD(NamedTuple):
 HFT_USD = HFT_USD()
 """
     name: HFT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13136,7 +13940,8 @@ HFT_USD = HFT_USD()
 class HFT_USDT(NamedTuple):
     """
         name: HFT-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13145,7 +13950,8 @@ class HFT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "HFT-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13172,7 +13978,8 @@ class HFT_USDT(NamedTuple):
 HFT_USDT = HFT_USDT()
 """
     name: HFT-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13185,7 +13992,8 @@ HFT_USDT = HFT_USDT()
 class HIGH_USD(NamedTuple):
     """
         name: HIGH-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13194,7 +14002,8 @@ class HIGH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "HIGH-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13221,7 +14030,8 @@ class HIGH_USD(NamedTuple):
 HIGH_USD = HIGH_USD()
 """
     name: HIGH-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13234,7 +14044,8 @@ HIGH_USD = HIGH_USD()
 class HOPR_USD(NamedTuple):
     """
         name: HOPR-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13243,7 +14054,8 @@ class HOPR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "HOPR-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13270,7 +14082,8 @@ class HOPR_USD(NamedTuple):
 HOPR_USD = HOPR_USD()
 """
     name: HOPR-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13283,7 +14096,8 @@ HOPR_USD = HOPR_USD()
 class HOPR_USDT(NamedTuple):
     """
         name: HOPR-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13292,7 +14106,8 @@ class HOPR_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "HOPR-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13319,7 +14134,8 @@ class HOPR_USDT(NamedTuple):
 HOPR_USDT = HOPR_USDT()
 """
     name: HOPR-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13332,7 +14148,8 @@ HOPR_USDT = HOPR_USDT()
 class ICP_BTC(NamedTuple):
     """
         name: ICP-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -13341,7 +14158,8 @@ class ICP_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ICP-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -13368,7 +14186,8 @@ class ICP_BTC(NamedTuple):
 ICP_BTC = ICP_BTC()
 """
     name: ICP-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -13381,7 +14200,8 @@ ICP_BTC = ICP_BTC()
 class ICP_EUR(NamedTuple):
     """
         name: ICP-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -13390,7 +14210,8 @@ class ICP_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ICP-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -13417,7 +14238,8 @@ class ICP_EUR(NamedTuple):
 ICP_EUR = ICP_EUR()
 """
     name: ICP-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -13430,7 +14252,8 @@ ICP_EUR = ICP_EUR()
 class ICP_GBP(NamedTuple):
     """
         name: ICP-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -13439,7 +14262,8 @@ class ICP_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "ICP-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -13466,7 +14290,8 @@ class ICP_GBP(NamedTuple):
 ICP_GBP = ICP_GBP()
 """
     name: ICP-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -13479,7 +14304,8 @@ ICP_GBP = ICP_GBP()
 class ICP_USD(NamedTuple):
     """
         name: ICP-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13488,7 +14314,8 @@ class ICP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ICP-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13515,7 +14342,8 @@ class ICP_USD(NamedTuple):
 ICP_USD = ICP_USD()
 """
     name: ICP-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13528,7 +14356,8 @@ ICP_USD = ICP_USD()
 class ICP_USDT(NamedTuple):
     """
         name: ICP-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13537,7 +14366,8 @@ class ICP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ICP-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13564,7 +14394,8 @@ class ICP_USDT(NamedTuple):
 ICP_USDT = ICP_USDT()
 """
     name: ICP-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13577,7 +14408,8 @@ ICP_USDT = ICP_USDT()
 class IDEX_USD(NamedTuple):
     """
         name: IDEX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13586,7 +14418,8 @@ class IDEX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "IDEX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13613,7 +14446,8 @@ class IDEX_USD(NamedTuple):
 IDEX_USD = IDEX_USD()
 """
     name: IDEX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13626,7 +14460,8 @@ IDEX_USD = IDEX_USD()
 class IDEX_USDT(NamedTuple):
     """
         name: IDEX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13635,7 +14470,8 @@ class IDEX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "IDEX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13662,7 +14498,8 @@ class IDEX_USDT(NamedTuple):
 IDEX_USDT = IDEX_USDT()
 """
     name: IDEX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13675,7 +14512,8 @@ IDEX_USDT = IDEX_USDT()
 class ILV_USD(NamedTuple):
     """
         name: ILV-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13684,7 +14522,8 @@ class ILV_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ILV-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13711,7 +14550,8 @@ class ILV_USD(NamedTuple):
 ILV_USD = ILV_USD()
 """
     name: ILV-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13724,7 +14564,8 @@ ILV_USD = ILV_USD()
 class IMX_USD(NamedTuple):
     """
         name: IMX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13733,7 +14574,8 @@ class IMX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "IMX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13760,7 +14602,8 @@ class IMX_USD(NamedTuple):
 IMX_USD = IMX_USD()
 """
     name: IMX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13773,7 +14616,8 @@ IMX_USD = IMX_USD()
 class IMX_USDT(NamedTuple):
     """
         name: IMX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13782,7 +14626,8 @@ class IMX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "IMX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13809,7 +14654,8 @@ class IMX_USDT(NamedTuple):
 IMX_USDT = IMX_USDT()
 """
     name: IMX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13822,7 +14668,8 @@ IMX_USDT = IMX_USDT()
 class INDEX_USD(NamedTuple):
     """
         name: INDEX-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13831,7 +14678,8 @@ class INDEX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "INDEX-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13858,7 +14706,8 @@ class INDEX_USD(NamedTuple):
 INDEX_USD = INDEX_USD()
 """
     name: INDEX-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13871,7 +14720,8 @@ INDEX_USD = INDEX_USD()
 class INDEX_USDT(NamedTuple):
     """
         name: INDEX-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13880,7 +14730,8 @@ class INDEX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "INDEX-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13907,7 +14758,8 @@ class INDEX_USDT(NamedTuple):
 INDEX_USDT = INDEX_USDT()
 """
     name: INDEX-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13920,7 +14772,8 @@ INDEX_USDT = INDEX_USDT()
 class INJ_USD(NamedTuple):
     """
         name: INJ-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13929,7 +14782,8 @@ class INJ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "INJ-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -13956,7 +14810,8 @@ class INJ_USD(NamedTuple):
 INJ_USD = INJ_USD()
 """
     name: INJ-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -13969,7 +14824,8 @@ INJ_USD = INJ_USD()
 class INV_USD(NamedTuple):
     """
         name: INV-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -13978,7 +14834,8 @@ class INV_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "INV-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14005,7 +14862,8 @@ class INV_USD(NamedTuple):
 INV_USD = INV_USD()
 """
     name: INV-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14018,7 +14876,8 @@ INV_USD = INV_USD()
 class IOTX_EUR(NamedTuple):
     """
         name: IOTX-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -14027,7 +14886,8 @@ class IOTX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "IOTX-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -14054,7 +14914,8 @@ class IOTX_EUR(NamedTuple):
 IOTX_EUR = IOTX_EUR()
 """
     name: IOTX-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -14067,7 +14928,8 @@ IOTX_EUR = IOTX_EUR()
 class IOTX_USD(NamedTuple):
     """
         name: IOTX-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14076,7 +14938,8 @@ class IOTX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "IOTX-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14103,7 +14966,8 @@ class IOTX_USD(NamedTuple):
 IOTX_USD = IOTX_USD()
 """
     name: IOTX-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14116,7 +14980,8 @@ IOTX_USD = IOTX_USD()
 class JASMY_USD(NamedTuple):
     """
         name: JASMY-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14125,7 +14990,8 @@ class JASMY_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "JASMY-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14152,7 +15018,8 @@ class JASMY_USD(NamedTuple):
 JASMY_USD = JASMY_USD()
 """
     name: JASMY-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14165,7 +15032,8 @@ JASMY_USD = JASMY_USD()
 class JASMY_USDT(NamedTuple):
     """
         name: JASMY-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14174,7 +15042,8 @@ class JASMY_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "JASMY-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14201,7 +15070,8 @@ class JASMY_USDT(NamedTuple):
 JASMY_USDT = JASMY_USDT()
 """
     name: JASMY-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14214,7 +15084,8 @@ JASMY_USDT = JASMY_USDT()
 class JUP_USD(NamedTuple):
     """
         name: JUP-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14223,7 +15094,8 @@ class JUP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "JUP-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14250,7 +15122,8 @@ class JUP_USD(NamedTuple):
 JUP_USD = JUP_USD()
 """
     name: JUP-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14263,7 +15136,8 @@ JUP_USD = JUP_USD()
 class KAVA_USD(NamedTuple):
     """
         name: KAVA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14272,7 +15146,8 @@ class KAVA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "KAVA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14299,7 +15174,8 @@ class KAVA_USD(NamedTuple):
 KAVA_USD = KAVA_USD()
 """
     name: KAVA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14312,7 +15188,8 @@ KAVA_USD = KAVA_USD()
 class KEEP_USD(NamedTuple):
     """
         name: KEEP-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14321,7 +15198,8 @@ class KEEP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "KEEP-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14348,7 +15226,8 @@ class KEEP_USD(NamedTuple):
 KEEP_USD = KEEP_USD()
 """
     name: KEEP-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14361,7 +15240,8 @@ KEEP_USD = KEEP_USD()
 class KNC_BTC(NamedTuple):
     """
         name: KNC-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -14370,7 +15250,8 @@ class KNC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "KNC-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -14397,7 +15278,8 @@ class KNC_BTC(NamedTuple):
 KNC_BTC = KNC_BTC()
 """
     name: KNC-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -14410,7 +15292,8 @@ KNC_BTC = KNC_BTC()
 class KNC_USD(NamedTuple):
     """
         name: KNC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14419,7 +15302,8 @@ class KNC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "KNC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14446,7 +15330,8 @@ class KNC_USD(NamedTuple):
 KNC_USD = KNC_USD()
 """
     name: KNC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14459,7 +15344,8 @@ KNC_USD = KNC_USD()
 class KRL_EUR(NamedTuple):
     """
         name: KRL-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -14468,7 +15354,8 @@ class KRL_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "KRL-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -14495,7 +15382,8 @@ class KRL_EUR(NamedTuple):
 KRL_EUR = KRL_EUR()
 """
     name: KRL-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -14508,7 +15396,8 @@ KRL_EUR = KRL_EUR()
 class KRL_USD(NamedTuple):
     """
         name: KRL-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14517,7 +15406,8 @@ class KRL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "KRL-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14544,7 +15434,8 @@ class KRL_USD(NamedTuple):
 KRL_USD = KRL_USD()
 """
     name: KRL-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14557,7 +15448,8 @@ KRL_USD = KRL_USD()
 class KRL_USDT(NamedTuple):
     """
         name: KRL-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14566,7 +15458,8 @@ class KRL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "KRL-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14593,7 +15486,8 @@ class KRL_USDT(NamedTuple):
 KRL_USDT = KRL_USDT()
 """
     name: KRL-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14606,7 +15500,8 @@ KRL_USDT = KRL_USDT()
 class KSM_USD(NamedTuple):
     """
         name: KSM-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14615,7 +15510,8 @@ class KSM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "KSM-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14642,7 +15538,8 @@ class KSM_USD(NamedTuple):
 KSM_USD = KSM_USD()
 """
     name: KSM-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14655,7 +15552,8 @@ KSM_USD = KSM_USD()
 class KSM_USDT(NamedTuple):
     """
         name: KSM-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14664,7 +15562,8 @@ class KSM_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "KSM-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14691,7 +15590,8 @@ class KSM_USDT(NamedTuple):
 KSM_USDT = KSM_USDT()
 """
     name: KSM-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14704,7 +15604,8 @@ KSM_USDT = KSM_USDT()
 class LCX_EUR(NamedTuple):
     """
         name: LCX-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -14713,7 +15614,8 @@ class LCX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "LCX-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -14740,7 +15642,8 @@ class LCX_EUR(NamedTuple):
 LCX_EUR = LCX_EUR()
 """
     name: LCX-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -14753,7 +15656,8 @@ LCX_EUR = LCX_EUR()
 class LCX_USD(NamedTuple):
     """
         name: LCX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14762,7 +15666,8 @@ class LCX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LCX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14789,7 +15694,8 @@ class LCX_USD(NamedTuple):
 LCX_USD = LCX_USD()
 """
     name: LCX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14802,7 +15708,8 @@ LCX_USD = LCX_USD()
 class LCX_USDT(NamedTuple):
     """
         name: LCX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14811,7 +15718,8 @@ class LCX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "LCX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14838,7 +15746,8 @@ class LCX_USDT(NamedTuple):
 LCX_USDT = LCX_USDT()
 """
     name: LCX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14851,7 +15760,8 @@ LCX_USDT = LCX_USDT()
 class LDO_USD(NamedTuple):
     """
         name: LDO-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -14860,7 +15770,8 @@ class LDO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LDO-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -14887,7 +15798,8 @@ class LDO_USD(NamedTuple):
 LDO_USD = LDO_USD()
 """
     name: LDO-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -14900,7 +15812,8 @@ LDO_USD = LDO_USD()
 class LINK_BTC(NamedTuple):
     """
         name: LINK-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -14909,7 +15822,8 @@ class LINK_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -14936,7 +15850,8 @@ class LINK_BTC(NamedTuple):
 LINK_BTC = LINK_BTC()
 """
     name: LINK-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -14949,7 +15864,8 @@ LINK_BTC = LINK_BTC()
 class LINK_ETH(NamedTuple):
     """
         name: LINK-ETH
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -14958,7 +15874,8 @@ class LINK_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-ETH"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -14985,7 +15902,8 @@ class LINK_ETH(NamedTuple):
 LINK_ETH = LINK_ETH()
 """
     name: LINK-ETH
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -14998,7 +15916,8 @@ LINK_ETH = LINK_ETH()
 class LINK_EUR(NamedTuple):
     """
         name: LINK-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -15007,7 +15926,8 @@ class LINK_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -15034,7 +15954,8 @@ class LINK_EUR(NamedTuple):
 LINK_EUR = LINK_EUR()
 """
     name: LINK-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -15047,7 +15968,8 @@ LINK_EUR = LINK_EUR()
 class LINK_GBP(NamedTuple):
     """
         name: LINK-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -15056,7 +15978,8 @@ class LINK_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -15083,7 +16006,8 @@ class LINK_GBP(NamedTuple):
 LINK_GBP = LINK_GBP()
 """
     name: LINK-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -15096,7 +16020,8 @@ LINK_GBP = LINK_GBP()
 class LINK_USD(NamedTuple):
     """
         name: LINK-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15105,7 +16030,8 @@ class LINK_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15132,7 +16058,8 @@ class LINK_USD(NamedTuple):
 LINK_USD = LINK_USD()
 """
     name: LINK-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15145,7 +16072,8 @@ LINK_USD = LINK_USD()
 class LINK_USDT(NamedTuple):
     """
         name: LINK-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15154,7 +16082,8 @@ class LINK_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "LINK-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15181,7 +16110,8 @@ class LINK_USDT(NamedTuple):
 LINK_USDT = LINK_USDT()
 """
     name: LINK-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15194,7 +16124,8 @@ LINK_USDT = LINK_USDT()
 class LIT_USD(NamedTuple):
     """
         name: LIT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15203,7 +16134,8 @@ class LIT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LIT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15230,7 +16162,8 @@ class LIT_USD(NamedTuple):
 LIT_USD = LIT_USD()
 """
     name: LIT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15243,7 +16176,8 @@ LIT_USD = LIT_USD()
 class LOKA_USD(NamedTuple):
     """
         name: LOKA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15252,7 +16186,8 @@ class LOKA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LOKA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15279,7 +16214,8 @@ class LOKA_USD(NamedTuple):
 LOKA_USD = LOKA_USD()
 """
     name: LOKA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15292,7 +16228,8 @@ LOKA_USD = LOKA_USD()
 class LOOM_USD(NamedTuple):
     """
         name: LOOM-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15301,7 +16238,8 @@ class LOOM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LOOM-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15328,7 +16266,8 @@ class LOOM_USD(NamedTuple):
 LOOM_USD = LOOM_USD()
 """
     name: LOOM-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15341,7 +16280,8 @@ LOOM_USD = LOOM_USD()
 class LOOM_USDC(NamedTuple):
     """
         name: LOOM-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15350,7 +16290,8 @@ class LOOM_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "LOOM-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15377,7 +16318,8 @@ class LOOM_USDC(NamedTuple):
 LOOM_USDC = LOOM_USDC()
 """
     name: LOOM-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15390,7 +16332,8 @@ LOOM_USDC = LOOM_USDC()
 class LPT_USD(NamedTuple):
     """
         name: LPT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15399,7 +16342,8 @@ class LPT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LPT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15426,7 +16370,8 @@ class LPT_USD(NamedTuple):
 LPT_USD = LPT_USD()
 """
     name: LPT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15439,7 +16384,8 @@ LPT_USD = LPT_USD()
 class LQTY_EUR(NamedTuple):
     """
         name: LQTY-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15448,7 +16394,8 @@ class LQTY_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "LQTY-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15475,7 +16422,8 @@ class LQTY_EUR(NamedTuple):
 LQTY_EUR = LQTY_EUR()
 """
     name: LQTY-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15488,7 +16436,8 @@ LQTY_EUR = LQTY_EUR()
 class LQTY_USD(NamedTuple):
     """
         name: LQTY-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15497,7 +16446,8 @@ class LQTY_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LQTY-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15524,7 +16474,8 @@ class LQTY_USD(NamedTuple):
 LQTY_USD = LQTY_USD()
 """
     name: LQTY-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15537,7 +16488,8 @@ LQTY_USD = LQTY_USD()
 class LQTY_USDT(NamedTuple):
     """
         name: LQTY-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15546,7 +16498,8 @@ class LQTY_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "LQTY-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15573,7 +16526,8 @@ class LQTY_USDT(NamedTuple):
 LQTY_USDT = LQTY_USDT()
 """
     name: LQTY-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15586,7 +16540,8 @@ LQTY_USDT = LQTY_USDT()
 class LRC_BTC(NamedTuple):
     """
         name: LRC-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -15595,7 +16550,8 @@ class LRC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "LRC-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -15622,7 +16578,8 @@ class LRC_BTC(NamedTuple):
 LRC_BTC = LRC_BTC()
 """
     name: LRC-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -15635,7 +16592,8 @@ LRC_BTC = LRC_BTC()
 class LRC_USD(NamedTuple):
     """
         name: LRC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15644,7 +16602,8 @@ class LRC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LRC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15671,7 +16630,8 @@ class LRC_USD(NamedTuple):
 LRC_USD = LRC_USD()
 """
     name: LRC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15684,7 +16644,8 @@ LRC_USD = LRC_USD()
 class LRC_USDT(NamedTuple):
     """
         name: LRC-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15693,7 +16654,8 @@ class LRC_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "LRC-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15720,7 +16682,8 @@ class LRC_USDT(NamedTuple):
 LRC_USDT = LRC_USDT()
 """
     name: LRC-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15733,7 +16696,8 @@ LRC_USDT = LRC_USDT()
 class LSETH_ETH(NamedTuple):
     """
         name: LSETH-ETH
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.002
@@ -15742,7 +16706,8 @@ class LSETH_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "LSETH-ETH"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.002
@@ -15769,7 +16734,8 @@ class LSETH_ETH(NamedTuple):
 LSETH_ETH = LSETH_ETH()
 """
     name: LSETH-ETH
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.002
@@ -15782,7 +16748,8 @@ LSETH_ETH = LSETH_ETH()
 class LSETH_USD(NamedTuple):
     """
         name: LSETH-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15791,7 +16758,8 @@ class LSETH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LSETH-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -15818,7 +16786,8 @@ class LSETH_USD(NamedTuple):
 LSETH_USD = LSETH_USD()
 """
     name: LSETH-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -15831,7 +16800,8 @@ LSETH_USD = LSETH_USD()
 class LTC_BTC(NamedTuple):
     """
         name: LTC-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -15840,7 +16810,8 @@ class LTC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "LTC-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -15867,7 +16838,8 @@ class LTC_BTC(NamedTuple):
 LTC_BTC = LTC_BTC()
 """
     name: LTC-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -15880,7 +16852,8 @@ LTC_BTC = LTC_BTC()
 class LTC_EUR(NamedTuple):
     """
         name: LTC-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -15889,7 +16862,8 @@ class LTC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "LTC-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -15916,7 +16890,8 @@ class LTC_EUR(NamedTuple):
 LTC_EUR = LTC_EUR()
 """
     name: LTC-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -15929,7 +16904,8 @@ LTC_EUR = LTC_EUR()
 class LTC_GBP(NamedTuple):
     """
         name: LTC-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -15938,7 +16914,8 @@ class LTC_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "LTC-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -15965,7 +16942,8 @@ class LTC_GBP(NamedTuple):
 LTC_GBP = LTC_GBP()
 """
     name: LTC-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -15978,7 +16956,8 @@ LTC_GBP = LTC_GBP()
 class LTC_USD(NamedTuple):
     """
         name: LTC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -15987,7 +16966,8 @@ class LTC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "LTC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16014,7 +16994,8 @@ class LTC_USD(NamedTuple):
 LTC_USD = LTC_USD()
 """
     name: LTC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16027,7 +17008,8 @@ LTC_USD = LTC_USD()
 class MAGIC_USD(NamedTuple):
     """
         name: MAGIC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16036,7 +17018,8 @@ class MAGIC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MAGIC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16063,7 +17046,8 @@ class MAGIC_USD(NamedTuple):
 MAGIC_USD = MAGIC_USD()
 """
     name: MAGIC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16076,7 +17060,8 @@ MAGIC_USD = MAGIC_USD()
 class MANA_BTC(NamedTuple):
     """
         name: MANA-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -16085,7 +17070,8 @@ class MANA_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "MANA-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -16112,7 +17098,8 @@ class MANA_BTC(NamedTuple):
 MANA_BTC = MANA_BTC()
 """
     name: MANA-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -16125,7 +17112,8 @@ MANA_BTC = MANA_BTC()
 class MANA_ETH(NamedTuple):
     """
         name: MANA-ETH
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -16134,7 +17122,8 @@ class MANA_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "MANA-ETH"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -16161,7 +17150,8 @@ class MANA_ETH(NamedTuple):
 MANA_ETH = MANA_ETH()
 """
     name: MANA-ETH
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -16174,7 +17164,8 @@ MANA_ETH = MANA_ETH()
 class MANA_EUR(NamedTuple):
     """
         name: MANA-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -16183,7 +17174,8 @@ class MANA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "MANA-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -16210,7 +17202,8 @@ class MANA_EUR(NamedTuple):
 MANA_EUR = MANA_EUR()
 """
     name: MANA-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -16223,7 +17216,8 @@ MANA_EUR = MANA_EUR()
 class MANA_USD(NamedTuple):
     """
         name: MANA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16232,7 +17226,8 @@ class MANA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MANA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16259,7 +17254,8 @@ class MANA_USD(NamedTuple):
 MANA_USD = MANA_USD()
 """
     name: MANA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16272,7 +17268,8 @@ MANA_USD = MANA_USD()
 class MANA_USDC(NamedTuple):
     """
         name: MANA-USDC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16281,7 +17278,8 @@ class MANA_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "MANA-USDC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16308,7 +17306,8 @@ class MANA_USDC(NamedTuple):
 MANA_USDC = MANA_USDC()
 """
     name: MANA-USDC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16321,7 +17320,8 @@ MANA_USDC = MANA_USDC()
 class MASK_EUR(NamedTuple):
     """
         name: MASK-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -16330,7 +17330,8 @@ class MASK_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "MASK-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -16357,7 +17358,8 @@ class MASK_EUR(NamedTuple):
 MASK_EUR = MASK_EUR()
 """
     name: MASK-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -16370,7 +17372,8 @@ MASK_EUR = MASK_EUR()
 class MASK_GBP(NamedTuple):
     """
         name: MASK-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -16379,7 +17382,8 @@ class MASK_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "MASK-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -16406,7 +17410,8 @@ class MASK_GBP(NamedTuple):
 MASK_GBP = MASK_GBP()
 """
     name: MASK-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -16419,7 +17424,8 @@ MASK_GBP = MASK_GBP()
 class MASK_USD(NamedTuple):
     """
         name: MASK-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16428,7 +17434,8 @@ class MASK_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MASK-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16455,7 +17462,8 @@ class MASK_USD(NamedTuple):
 MASK_USD = MASK_USD()
 """
     name: MASK-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16468,7 +17476,8 @@ MASK_USD = MASK_USD()
 class MASK_USDT(NamedTuple):
     """
         name: MASK-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16477,7 +17486,8 @@ class MASK_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MASK-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16504,7 +17514,8 @@ class MASK_USDT(NamedTuple):
 MASK_USDT = MASK_USDT()
 """
     name: MASK-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16517,7 +17528,8 @@ MASK_USDT = MASK_USDT()
 class MATH_USD(NamedTuple):
     """
         name: MATH-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16526,7 +17538,8 @@ class MATH_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATH-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16553,7 +17566,8 @@ class MATH_USD(NamedTuple):
 MATH_USD = MATH_USD()
 """
     name: MATH-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16566,7 +17580,8 @@ MATH_USD = MATH_USD()
 class MATH_USDT(NamedTuple):
     """
         name: MATH-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16575,7 +17590,8 @@ class MATH_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATH-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16602,7 +17618,8 @@ class MATH_USDT(NamedTuple):
 MATH_USDT = MATH_USDT()
 """
     name: MATH-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16615,7 +17632,8 @@ MATH_USDT = MATH_USDT()
 class MATIC_BTC(NamedTuple):
     """
         name: MATIC-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -16624,7 +17642,8 @@ class MATIC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATIC-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -16651,7 +17670,8 @@ class MATIC_BTC(NamedTuple):
 MATIC_BTC = MATIC_BTC()
 """
     name: MATIC-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -16664,7 +17684,8 @@ MATIC_BTC = MATIC_BTC()
 class MATIC_EUR(NamedTuple):
     """
         name: MATIC-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -16673,7 +17694,8 @@ class MATIC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATIC-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -16700,7 +17722,8 @@ class MATIC_EUR(NamedTuple):
 MATIC_EUR = MATIC_EUR()
 """
     name: MATIC-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -16713,7 +17736,8 @@ MATIC_EUR = MATIC_EUR()
 class MATIC_GBP(NamedTuple):
     """
         name: MATIC-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -16722,7 +17746,8 @@ class MATIC_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATIC-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -16749,7 +17774,8 @@ class MATIC_GBP(NamedTuple):
 MATIC_GBP = MATIC_GBP()
 """
     name: MATIC-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -16762,7 +17788,8 @@ MATIC_GBP = MATIC_GBP()
 class MATIC_USD(NamedTuple):
     """
         name: MATIC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16771,7 +17798,8 @@ class MATIC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATIC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16798,7 +17826,8 @@ class MATIC_USD(NamedTuple):
 MATIC_USD = MATIC_USD()
 """
     name: MATIC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16811,7 +17840,8 @@ MATIC_USD = MATIC_USD()
 class MATIC_USDT(NamedTuple):
     """
         name: MATIC-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16820,7 +17850,8 @@ class MATIC_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MATIC-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16847,7 +17878,8 @@ class MATIC_USDT(NamedTuple):
 MATIC_USDT = MATIC_USDT()
 """
     name: MATIC-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16860,7 +17892,8 @@ MATIC_USDT = MATIC_USDT()
 class MCO2_USD(NamedTuple):
     """
         name: MCO2-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16869,7 +17902,8 @@ class MCO2_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MCO2-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16896,7 +17930,8 @@ class MCO2_USD(NamedTuple):
 MCO2_USD = MCO2_USD()
 """
     name: MCO2-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16909,7 +17944,8 @@ MCO2_USD = MCO2_USD()
 class MCO2_USDT(NamedTuple):
     """
         name: MCO2-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16918,7 +17954,8 @@ class MCO2_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MCO2-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16945,7 +17982,8 @@ class MCO2_USDT(NamedTuple):
 MCO2_USDT = MCO2_USDT()
 """
     name: MCO2-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -16958,7 +17996,8 @@ MCO2_USDT = MCO2_USDT()
 class MDT_USD(NamedTuple):
     """
         name: MDT-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -16967,7 +18006,8 @@ class MDT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MDT-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -16994,7 +18034,8 @@ class MDT_USD(NamedTuple):
 MDT_USD = MDT_USD()
 """
     name: MDT-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17007,7 +18048,8 @@ MDT_USD = MDT_USD()
 class MDT_USDT(NamedTuple):
     """
         name: MDT-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17016,7 +18058,8 @@ class MDT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MDT-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17043,7 +18086,8 @@ class MDT_USDT(NamedTuple):
 MDT_USDT = MDT_USDT()
 """
     name: MDT-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17056,7 +18100,8 @@ MDT_USDT = MDT_USDT()
 class MEDIA_USD(NamedTuple):
     """
         name: MEDIA-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17065,7 +18110,8 @@ class MEDIA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MEDIA-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17092,7 +18138,8 @@ class MEDIA_USD(NamedTuple):
 MEDIA_USD = MEDIA_USD()
 """
     name: MEDIA-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17105,7 +18152,8 @@ MEDIA_USD = MEDIA_USD()
 class MEDIA_USDT(NamedTuple):
     """
         name: MEDIA-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17114,7 +18162,8 @@ class MEDIA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MEDIA-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17141,7 +18190,8 @@ class MEDIA_USDT(NamedTuple):
 MEDIA_USDT = MEDIA_USDT()
 """
     name: MEDIA-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17154,7 +18204,8 @@ MEDIA_USDT = MEDIA_USDT()
 class METIS_USD(NamedTuple):
     """
         name: METIS-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17163,7 +18214,8 @@ class METIS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "METIS-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17190,7 +18242,8 @@ class METIS_USD(NamedTuple):
 METIS_USD = METIS_USD()
 """
     name: METIS-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17203,7 +18256,8 @@ METIS_USD = METIS_USD()
 class METIS_USDT(NamedTuple):
     """
         name: METIS-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17212,7 +18266,8 @@ class METIS_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "METIS-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17239,7 +18294,8 @@ class METIS_USDT(NamedTuple):
 METIS_USDT = METIS_USDT()
 """
     name: METIS-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17252,7 +18308,8 @@ METIS_USDT = METIS_USDT()
 class MINA_EUR(NamedTuple):
     """
         name: MINA-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17261,7 +18318,8 @@ class MINA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "MINA-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17288,7 +18346,8 @@ class MINA_EUR(NamedTuple):
 MINA_EUR = MINA_EUR()
 """
     name: MINA-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17301,7 +18360,8 @@ MINA_EUR = MINA_EUR()
 class MINA_USD(NamedTuple):
     """
         name: MINA-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17310,7 +18370,8 @@ class MINA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MINA-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17337,7 +18398,8 @@ class MINA_USD(NamedTuple):
 MINA_USD = MINA_USD()
 """
     name: MINA-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17350,7 +18412,8 @@ MINA_USD = MINA_USD()
 class MINA_USDT(NamedTuple):
     """
         name: MINA-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17359,7 +18422,8 @@ class MINA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "MINA-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17386,7 +18450,8 @@ class MINA_USDT(NamedTuple):
 MINA_USDT = MINA_USDT()
 """
     name: MINA-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17399,7 +18464,8 @@ MINA_USDT = MINA_USDT()
 class MIR_BTC(NamedTuple):
     """
         name: MIR-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -17408,7 +18474,8 @@ class MIR_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "MIR-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -17435,7 +18502,8 @@ class MIR_BTC(NamedTuple):
 MIR_BTC = MIR_BTC()
 """
     name: MIR-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -17448,7 +18516,8 @@ MIR_BTC = MIR_BTC()
 class MIR_EUR(NamedTuple):
     """
         name: MIR-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -17457,7 +18526,8 @@ class MIR_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "MIR-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -17484,7 +18554,8 @@ class MIR_EUR(NamedTuple):
 MIR_EUR = MIR_EUR()
 """
     name: MIR-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -17497,7 +18568,8 @@ MIR_EUR = MIR_EUR()
 class MIR_GBP(NamedTuple):
     """
         name: MIR-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -17506,7 +18578,8 @@ class MIR_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "MIR-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -17533,7 +18606,8 @@ class MIR_GBP(NamedTuple):
 MIR_GBP = MIR_GBP()
 """
     name: MIR-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -17546,7 +18620,8 @@ MIR_GBP = MIR_GBP()
 class MIR_USD(NamedTuple):
     """
         name: MIR-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17555,7 +18630,8 @@ class MIR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MIR-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17582,7 +18658,8 @@ class MIR_USD(NamedTuple):
 MIR_USD = MIR_USD()
 """
     name: MIR-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17595,7 +18672,8 @@ MIR_USD = MIR_USD()
 class MKR_BTC(NamedTuple):
     """
         name: MKR-BTC
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00001
@@ -17604,7 +18682,8 @@ class MKR_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "MKR-BTC"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00001
@@ -17631,7 +18710,8 @@ class MKR_BTC(NamedTuple):
 MKR_BTC = MKR_BTC()
 """
     name: MKR-BTC
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00001
@@ -17644,7 +18724,8 @@ MKR_BTC = MKR_BTC()
 class MKR_USD(NamedTuple):
     """
         name: MKR-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17653,7 +18734,8 @@ class MKR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MKR-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17680,7 +18762,8 @@ class MKR_USD(NamedTuple):
 MKR_USD = MKR_USD()
 """
     name: MKR-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17693,7 +18776,8 @@ MKR_USD = MKR_USD()
 class MLN_USD(NamedTuple):
     """
         name: MLN-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17702,7 +18786,8 @@ class MLN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MLN-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17729,7 +18814,8 @@ class MLN_USD(NamedTuple):
 MLN_USD = MLN_USD()
 """
     name: MLN-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17742,7 +18828,8 @@ MLN_USD = MLN_USD()
 class MNDE_USD(NamedTuple):
     """
         name: MNDE-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17751,7 +18838,8 @@ class MNDE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MNDE-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17778,7 +18866,8 @@ class MNDE_USD(NamedTuple):
 MNDE_USD = MNDE_USD()
 """
     name: MNDE-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17791,7 +18880,8 @@ MNDE_USD = MNDE_USD()
 class MONA_USD(NamedTuple):
     """
         name: MONA-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17800,7 +18890,8 @@ class MONA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MONA-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17827,7 +18918,8 @@ class MONA_USD(NamedTuple):
 MONA_USD = MONA_USD()
 """
     name: MONA-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17840,7 +18932,8 @@ MONA_USD = MONA_USD()
 class MPL_USD(NamedTuple):
     """
         name: MPL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17849,7 +18942,8 @@ class MPL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MPL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17876,7 +18970,8 @@ class MPL_USD(NamedTuple):
 MPL_USD = MPL_USD()
 """
     name: MPL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17889,7 +18984,8 @@ MPL_USD = MPL_USD()
 class MSOL_USD(NamedTuple):
     """
         name: MSOL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17898,7 +18994,8 @@ class MSOL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MSOL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17925,7 +19022,8 @@ class MSOL_USD(NamedTuple):
 MSOL_USD = MSOL_USD()
 """
     name: MSOL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17938,7 +19036,8 @@ MSOL_USD = MSOL_USD()
 class MTL_USD(NamedTuple):
     """
         name: MTL-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17947,7 +19046,8 @@ class MTL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MTL-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -17974,7 +19074,8 @@ class MTL_USD(NamedTuple):
 MTL_USD = MTL_USD()
 """
     name: MTL-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -17987,7 +19088,8 @@ MTL_USD = MTL_USD()
 class MUSD_USD(NamedTuple):
     """
         name: MUSD-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -17996,7 +19098,8 @@ class MUSD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MUSD-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18023,7 +19126,8 @@ class MUSD_USD(NamedTuple):
 MUSD_USD = MUSD_USD()
 """
     name: MUSD-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18036,7 +19140,8 @@ MUSD_USD = MUSD_USD()
 class MUSE_USD(NamedTuple):
     """
         name: MUSE-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18045,7 +19150,8 @@ class MUSE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MUSE-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18072,7 +19178,8 @@ class MUSE_USD(NamedTuple):
 MUSE_USD = MUSE_USD()
 """
     name: MUSE-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18085,7 +19192,8 @@ MUSE_USD = MUSE_USD()
 class MXC_USD(NamedTuple):
     """
         name: MXC-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18094,7 +19202,8 @@ class MXC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "MXC-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18121,7 +19230,8 @@ class MXC_USD(NamedTuple):
 MXC_USD = MXC_USD()
 """
     name: MXC-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18134,7 +19244,8 @@ MXC_USD = MXC_USD()
 class NCT_EUR(NamedTuple):
     """
         name: NCT-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18143,7 +19254,8 @@ class NCT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "NCT-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18170,7 +19282,8 @@ class NCT_EUR(NamedTuple):
 NCT_EUR = NCT_EUR()
 """
     name: NCT-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18183,7 +19296,8 @@ NCT_EUR = NCT_EUR()
 class NCT_USD(NamedTuple):
     """
         name: NCT-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18192,7 +19306,8 @@ class NCT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NCT-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18219,7 +19334,8 @@ class NCT_USD(NamedTuple):
 NCT_USD = NCT_USD()
 """
     name: NCT-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18232,7 +19348,8 @@ NCT_USD = NCT_USD()
 class NCT_USDT(NamedTuple):
     """
         name: NCT-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18241,7 +19358,8 @@ class NCT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "NCT-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18268,7 +19386,8 @@ class NCT_USDT(NamedTuple):
 NCT_USDT = NCT_USDT()
 """
     name: NCT-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18281,7 +19400,8 @@ NCT_USDT = NCT_USDT()
 class NEAR_USD(NamedTuple):
     """
         name: NEAR-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18290,7 +19410,8 @@ class NEAR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NEAR-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18317,7 +19438,8 @@ class NEAR_USD(NamedTuple):
 NEAR_USD = NEAR_USD()
 """
     name: NEAR-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18330,7 +19452,8 @@ NEAR_USD = NEAR_USD()
 class NEAR_USDT(NamedTuple):
     """
         name: NEAR-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18339,7 +19462,8 @@ class NEAR_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "NEAR-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18366,7 +19490,8 @@ class NEAR_USDT(NamedTuple):
 NEAR_USDT = NEAR_USDT()
 """
     name: NEAR-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18379,7 +19504,8 @@ NEAR_USDT = NEAR_USDT()
 class NEST_USD(NamedTuple):
     """
         name: NEST-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18388,7 +19514,8 @@ class NEST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NEST-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18415,7 +19542,8 @@ class NEST_USD(NamedTuple):
 NEST_USD = NEST_USD()
 """
     name: NEST-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18428,7 +19556,8 @@ NEST_USD = NEST_USD()
 class NEST_USDT(NamedTuple):
     """
         name: NEST-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18437,7 +19566,8 @@ class NEST_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "NEST-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18464,7 +19594,8 @@ class NEST_USDT(NamedTuple):
 NEST_USDT = NEST_USDT()
 """
     name: NEST-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18477,7 +19608,8 @@ NEST_USDT = NEST_USDT()
 class NKN_BTC(NamedTuple):
     """
         name: NKN-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -18486,7 +19618,8 @@ class NKN_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "NKN-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -18513,7 +19646,8 @@ class NKN_BTC(NamedTuple):
 NKN_BTC = NKN_BTC()
 """
     name: NKN-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -18526,7 +19660,8 @@ NKN_BTC = NKN_BTC()
 class NKN_EUR(NamedTuple):
     """
         name: NKN-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -18535,7 +19670,8 @@ class NKN_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "NKN-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -18562,7 +19698,8 @@ class NKN_EUR(NamedTuple):
 NKN_EUR = NKN_EUR()
 """
     name: NKN-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -18575,7 +19712,8 @@ NKN_EUR = NKN_EUR()
 class NKN_GBP(NamedTuple):
     """
         name: NKN-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -18584,7 +19722,8 @@ class NKN_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "NKN-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -18611,7 +19750,8 @@ class NKN_GBP(NamedTuple):
 NKN_GBP = NKN_GBP()
 """
     name: NKN-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -18624,7 +19764,8 @@ NKN_GBP = NKN_GBP()
 class NKN_USD(NamedTuple):
     """
         name: NKN-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18633,7 +19774,8 @@ class NKN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NKN-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18660,7 +19802,8 @@ class NKN_USD(NamedTuple):
 NKN_USD = NKN_USD()
 """
     name: NKN-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18673,7 +19816,8 @@ NKN_USD = NKN_USD()
 class NMR_BTC(NamedTuple):
     """
         name: NMR-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -18682,7 +19826,8 @@ class NMR_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "NMR-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -18709,7 +19854,8 @@ class NMR_BTC(NamedTuple):
 NMR_BTC = NMR_BTC()
 """
     name: NMR-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -18722,7 +19868,8 @@ NMR_BTC = NMR_BTC()
 class NMR_EUR(NamedTuple):
     """
         name: NMR-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -18731,7 +19878,8 @@ class NMR_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "NMR-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -18758,7 +19906,8 @@ class NMR_EUR(NamedTuple):
 NMR_EUR = NMR_EUR()
 """
     name: NMR-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -18771,7 +19920,8 @@ NMR_EUR = NMR_EUR()
 class NMR_GBP(NamedTuple):
     """
         name: NMR-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -18780,7 +19930,8 @@ class NMR_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "NMR-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -18807,7 +19958,8 @@ class NMR_GBP(NamedTuple):
 NMR_GBP = NMR_GBP()
 """
     name: NMR-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -18820,7 +19972,8 @@ NMR_GBP = NMR_GBP()
 class NMR_USD(NamedTuple):
     """
         name: NMR-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -18829,7 +19982,8 @@ class NMR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NMR-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -18856,7 +20010,8 @@ class NMR_USD(NamedTuple):
 NMR_USD = NMR_USD()
 """
     name: NMR-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -18869,7 +20024,8 @@ NMR_USD = NMR_USD()
 class NU_BTC(NamedTuple):
     """
         name: NU-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -18878,7 +20034,8 @@ class NU_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "NU-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -18905,7 +20062,8 @@ class NU_BTC(NamedTuple):
 NU_BTC = NU_BTC()
 """
     name: NU-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -18918,7 +20076,8 @@ NU_BTC = NU_BTC()
 class NU_EUR(NamedTuple):
     """
         name: NU-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -18927,7 +20086,8 @@ class NU_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "NU-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -18954,7 +20114,8 @@ class NU_EUR(NamedTuple):
 NU_EUR = NU_EUR()
 """
     name: NU-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -18967,7 +20128,8 @@ NU_EUR = NU_EUR()
 class NU_GBP(NamedTuple):
     """
         name: NU-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -18976,7 +20138,8 @@ class NU_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "NU-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -19003,7 +20166,8 @@ class NU_GBP(NamedTuple):
 NU_GBP = NU_GBP()
 """
     name: NU-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -19016,7 +20180,8 @@ NU_GBP = NU_GBP()
 class NU_USD(NamedTuple):
     """
         name: NU-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19025,7 +20190,8 @@ class NU_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "NU-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19052,7 +20218,8 @@ class NU_USD(NamedTuple):
 NU_USD = NU_USD()
 """
     name: NU-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19065,7 +20232,8 @@ NU_USD = NU_USD()
 class OCEAN_USD(NamedTuple):
     """
         name: OCEAN-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19074,7 +20242,8 @@ class OCEAN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OCEAN-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19101,7 +20270,8 @@ class OCEAN_USD(NamedTuple):
 OCEAN_USD = OCEAN_USD()
 """
     name: OCEAN-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19114,7 +20284,8 @@ OCEAN_USD = OCEAN_USD()
 class OGN_BTC(NamedTuple):
     """
         name: OGN-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -19123,7 +20294,8 @@ class OGN_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "OGN-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -19150,7 +20322,8 @@ class OGN_BTC(NamedTuple):
 OGN_BTC = OGN_BTC()
 """
     name: OGN-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -19163,7 +20336,8 @@ OGN_BTC = OGN_BTC()
 class OGN_USD(NamedTuple):
     """
         name: OGN-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19172,7 +20346,8 @@ class OGN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OGN-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19199,7 +20374,8 @@ class OGN_USD(NamedTuple):
 OGN_USD = OGN_USD()
 """
     name: OGN-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19212,7 +20388,8 @@ OGN_USD = OGN_USD()
 class OMG_BTC(NamedTuple):
     """
         name: OMG-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -19221,7 +20398,8 @@ class OMG_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "OMG-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -19248,7 +20426,8 @@ class OMG_BTC(NamedTuple):
 OMG_BTC = OMG_BTC()
 """
     name: OMG-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -19261,7 +20440,8 @@ OMG_BTC = OMG_BTC()
 class OMG_EUR(NamedTuple):
     """
         name: OMG-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -19270,7 +20450,8 @@ class OMG_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "OMG-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -19297,7 +20478,8 @@ class OMG_EUR(NamedTuple):
 OMG_EUR = OMG_EUR()
 """
     name: OMG-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -19310,7 +20492,8 @@ OMG_EUR = OMG_EUR()
 class OMG_GBP(NamedTuple):
     """
         name: OMG-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -19319,7 +20502,8 @@ class OMG_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "OMG-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -19346,7 +20530,8 @@ class OMG_GBP(NamedTuple):
 OMG_GBP = OMG_GBP()
 """
     name: OMG-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -19359,7 +20544,8 @@ OMG_GBP = OMG_GBP()
 class OMG_USD(NamedTuple):
     """
         name: OMG-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19368,7 +20554,8 @@ class OMG_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OMG-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19395,7 +20582,8 @@ class OMG_USD(NamedTuple):
 OMG_USD = OMG_USD()
 """
     name: OMG-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19408,7 +20596,8 @@ OMG_USD = OMG_USD()
 class OOKI_USD(NamedTuple):
     """
         name: OOKI-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19417,7 +20606,8 @@ class OOKI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OOKI-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19444,7 +20634,8 @@ class OOKI_USD(NamedTuple):
 OOKI_USD = OOKI_USD()
 """
     name: OOKI-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19457,7 +20648,8 @@ OOKI_USD = OOKI_USD()
 class OP_USD(NamedTuple):
     """
         name: OP-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19466,7 +20658,8 @@ class OP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OP-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19493,7 +20686,8 @@ class OP_USD(NamedTuple):
 OP_USD = OP_USD()
 """
     name: OP-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19506,7 +20700,8 @@ OP_USD = OP_USD()
 class OP_USDT(NamedTuple):
     """
         name: OP-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19515,7 +20710,8 @@ class OP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "OP-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19542,7 +20738,8 @@ class OP_USDT(NamedTuple):
 OP_USDT = OP_USDT()
 """
     name: OP-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19555,7 +20752,8 @@ OP_USDT = OP_USDT()
 class ORCA_USD(NamedTuple):
     """
         name: ORCA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19564,7 +20762,8 @@ class ORCA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ORCA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19591,7 +20790,8 @@ class ORCA_USD(NamedTuple):
 ORCA_USD = ORCA_USD()
 """
     name: ORCA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19604,7 +20804,8 @@ ORCA_USD = ORCA_USD()
 class ORN_BTC(NamedTuple):
     """
         name: ORN-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -19613,7 +20814,8 @@ class ORN_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ORN-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -19640,7 +20842,8 @@ class ORN_BTC(NamedTuple):
 ORN_BTC = ORN_BTC()
 """
     name: ORN-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -19653,7 +20856,8 @@ ORN_BTC = ORN_BTC()
 class ORN_USD(NamedTuple):
     """
         name: ORN-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19662,7 +20866,8 @@ class ORN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ORN-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19689,7 +20894,8 @@ class ORN_USD(NamedTuple):
 ORN_USD = ORN_USD()
 """
     name: ORN-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19702,7 +20908,8 @@ ORN_USD = ORN_USD()
 class ORN_USDT(NamedTuple):
     """
         name: ORN-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19711,7 +20918,8 @@ class ORN_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ORN-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19738,7 +20946,8 @@ class ORN_USDT(NamedTuple):
 ORN_USDT = ORN_USDT()
 """
     name: ORN-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19751,7 +20960,8 @@ ORN_USDT = ORN_USDT()
 class OXT_USD(NamedTuple):
     """
         name: OXT-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19760,7 +20970,8 @@ class OXT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "OXT-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19787,7 +20998,8 @@ class OXT_USD(NamedTuple):
 OXT_USD = OXT_USD()
 """
     name: OXT-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19800,7 +21012,8 @@ OXT_USD = OXT_USD()
 class PAX_USD(NamedTuple):
     """
         name: PAX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19809,7 +21022,8 @@ class PAX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PAX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19836,7 +21050,8 @@ class PAX_USD(NamedTuple):
 PAX_USD = PAX_USD()
 """
     name: PAX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19849,7 +21064,8 @@ PAX_USD = PAX_USD()
 class PAX_USDT(NamedTuple):
     """
         name: PAX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19858,7 +21074,8 @@ class PAX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "PAX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19885,7 +21102,8 @@ class PAX_USDT(NamedTuple):
 PAX_USDT = PAX_USDT()
 """
     name: PAX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19898,7 +21116,8 @@ PAX_USDT = PAX_USDT()
 class PERP_EUR(NamedTuple):
     """
         name: PERP-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -19907,7 +21126,8 @@ class PERP_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "PERP-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -19934,7 +21154,8 @@ class PERP_EUR(NamedTuple):
 PERP_EUR = PERP_EUR()
 """
     name: PERP-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -19947,7 +21168,8 @@ PERP_EUR = PERP_EUR()
 class PERP_USD(NamedTuple):
     """
         name: PERP-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -19956,7 +21178,8 @@ class PERP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PERP-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -19983,7 +21206,8 @@ class PERP_USD(NamedTuple):
 PERP_USD = PERP_USD()
 """
     name: PERP-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -19996,7 +21220,8 @@ PERP_USD = PERP_USD()
 class PERP_USDT(NamedTuple):
     """
         name: PERP-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20005,7 +21230,8 @@ class PERP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "PERP-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20032,7 +21258,8 @@ class PERP_USDT(NamedTuple):
 PERP_USDT = PERP_USDT()
 """
     name: PERP-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20045,7 +21272,8 @@ PERP_USDT = PERP_USDT()
 class PLA_USD(NamedTuple):
     """
         name: PLA-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20054,7 +21282,8 @@ class PLA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PLA-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20081,7 +21310,8 @@ class PLA_USD(NamedTuple):
 PLA_USD = PLA_USD()
 """
     name: PLA-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20094,7 +21324,8 @@ PLA_USD = PLA_USD()
 class PLU_USD(NamedTuple):
     """
         name: PLU-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20103,7 +21334,8 @@ class PLU_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PLU-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20130,7 +21362,8 @@ class PLU_USD(NamedTuple):
 PLU_USD = PLU_USD()
 """
     name: PLU-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20143,7 +21376,8 @@ PLU_USD = PLU_USD()
 class PNG_USD(NamedTuple):
     """
         name: PNG-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20152,7 +21386,8 @@ class PNG_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PNG-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20179,7 +21414,8 @@ class PNG_USD(NamedTuple):
 PNG_USD = PNG_USD()
 """
     name: PNG-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20192,7 +21428,8 @@ PNG_USD = PNG_USD()
 class POLS_USD(NamedTuple):
     """
         name: POLS-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20201,7 +21438,8 @@ class POLS_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "POLS-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20228,7 +21466,8 @@ class POLS_USD(NamedTuple):
 POLS_USD = POLS_USD()
 """
     name: POLS-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20241,7 +21480,8 @@ POLS_USD = POLS_USD()
 class POLS_USDT(NamedTuple):
     """
         name: POLS-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20250,7 +21490,8 @@ class POLS_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "POLS-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20277,7 +21518,8 @@ class POLS_USDT(NamedTuple):
 POLS_USDT = POLS_USDT()
 """
     name: POLS-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20290,7 +21532,8 @@ POLS_USDT = POLS_USDT()
 class POLY_USD(NamedTuple):
     """
         name: POLY-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20299,7 +21542,8 @@ class POLY_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "POLY-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20326,7 +21570,8 @@ class POLY_USD(NamedTuple):
 POLY_USD = POLY_USD()
 """
     name: POLY-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20339,7 +21584,8 @@ POLY_USD = POLY_USD()
 class POLY_USDT(NamedTuple):
     """
         name: POLY-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20348,7 +21594,8 @@ class POLY_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "POLY-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20375,7 +21622,8 @@ class POLY_USDT(NamedTuple):
 POLY_USDT = POLY_USDT()
 """
     name: POLY-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20388,7 +21636,8 @@ POLY_USDT = POLY_USDT()
 class POND_USD(NamedTuple):
     """
         name: POND-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20397,7 +21646,8 @@ class POND_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "POND-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20424,7 +21674,8 @@ class POND_USD(NamedTuple):
 POND_USD = POND_USD()
 """
     name: POND-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20437,7 +21688,8 @@ POND_USD = POND_USD()
 class POND_USDT(NamedTuple):
     """
         name: POND-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20446,7 +21698,8 @@ class POND_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "POND-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20473,7 +21726,8 @@ class POND_USDT(NamedTuple):
 POND_USDT = POND_USDT()
 """
     name: POND-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20486,7 +21740,8 @@ POND_USDT = POND_USDT()
 class POWR_EUR(NamedTuple):
     """
         name: POWR-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -20495,7 +21750,8 @@ class POWR_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "POWR-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -20522,7 +21778,8 @@ class POWR_EUR(NamedTuple):
 POWR_EUR = POWR_EUR()
 """
     name: POWR-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -20535,7 +21792,8 @@ POWR_EUR = POWR_EUR()
 class POWR_USD(NamedTuple):
     """
         name: POWR-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20544,7 +21802,8 @@ class POWR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "POWR-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20571,7 +21830,8 @@ class POWR_USD(NamedTuple):
 POWR_USD = POWR_USD()
 """
     name: POWR-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20584,7 +21844,8 @@ POWR_USD = POWR_USD()
 class POWR_USDT(NamedTuple):
     """
         name: POWR-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20593,7 +21854,8 @@ class POWR_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "POWR-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20620,7 +21882,8 @@ class POWR_USDT(NamedTuple):
 POWR_USDT = POWR_USDT()
 """
     name: POWR-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20633,7 +21896,8 @@ POWR_USDT = POWR_USDT()
 class PRIME_USD(NamedTuple):
     """
         name: PRIME-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20642,7 +21906,8 @@ class PRIME_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PRIME-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20669,7 +21934,8 @@ class PRIME_USD(NamedTuple):
 PRIME_USD = PRIME_USD()
 """
     name: PRIME-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20682,7 +21948,8 @@ PRIME_USD = PRIME_USD()
 class PRO_USD(NamedTuple):
     """
         name: PRO-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20691,7 +21958,8 @@ class PRO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PRO-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20718,7 +21986,8 @@ class PRO_USD(NamedTuple):
 PRO_USD = PRO_USD()
 """
     name: PRO-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20731,7 +22000,8 @@ PRO_USD = PRO_USD()
 class PRQ_USD(NamedTuple):
     """
         name: PRQ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20740,7 +22010,8 @@ class PRQ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PRQ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20767,7 +22038,8 @@ class PRQ_USD(NamedTuple):
 PRQ_USD = PRQ_USD()
 """
     name: PRQ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20780,7 +22052,8 @@ PRQ_USD = PRQ_USD()
 class PRQ_USDT(NamedTuple):
     """
         name: PRQ-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20789,7 +22062,8 @@ class PRQ_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "PRQ-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20816,7 +22090,8 @@ class PRQ_USDT(NamedTuple):
 PRQ_USDT = PRQ_USDT()
 """
     name: PRQ-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20829,7 +22104,8 @@ PRQ_USDT = PRQ_USDT()
 class PUNDIX_USD(NamedTuple):
     """
         name: PUNDIX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20838,7 +22114,8 @@ class PUNDIX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PUNDIX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20865,7 +22142,8 @@ class PUNDIX_USD(NamedTuple):
 PUNDIX_USD = PUNDIX_USD()
 """
     name: PUNDIX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20878,7 +22156,8 @@ PUNDIX_USD = PUNDIX_USD()
 class PYR_USD(NamedTuple):
     """
         name: PYR-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20887,7 +22166,8 @@ class PYR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "PYR-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20914,7 +22194,8 @@ class PYR_USD(NamedTuple):
 PYR_USD = PYR_USD()
 """
     name: PYR-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20927,7 +22208,8 @@ PYR_USD = PYR_USD()
 class QI_USD(NamedTuple):
     """
         name: QI-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20936,7 +22218,8 @@ class QI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "QI-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -20963,7 +22246,8 @@ class QI_USD(NamedTuple):
 QI_USD = QI_USD()
 """
     name: QI-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -20976,7 +22260,8 @@ QI_USD = QI_USD()
 class QNT_USD(NamedTuple):
     """
         name: QNT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -20985,7 +22270,8 @@ class QNT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "QNT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21012,7 +22298,8 @@ class QNT_USD(NamedTuple):
 QNT_USD = QNT_USD()
 """
     name: QNT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21025,7 +22312,8 @@ QNT_USD = QNT_USD()
 class QNT_USDT(NamedTuple):
     """
         name: QNT-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21034,7 +22322,8 @@ class QNT_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "QNT-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21061,7 +22350,8 @@ class QNT_USDT(NamedTuple):
 QNT_USDT = QNT_USDT()
 """
     name: QNT-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21074,7 +22364,8 @@ QNT_USDT = QNT_USDT()
 class QSP_USD(NamedTuple):
     """
         name: QSP-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21083,7 +22374,8 @@ class QSP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "QSP-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21110,7 +22402,8 @@ class QSP_USD(NamedTuple):
 QSP_USD = QSP_USD()
 """
     name: QSP-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21123,7 +22416,8 @@ QSP_USD = QSP_USD()
 class QSP_USDT(NamedTuple):
     """
         name: QSP-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21132,7 +22426,8 @@ class QSP_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "QSP-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21159,7 +22454,8 @@ class QSP_USDT(NamedTuple):
 QSP_USDT = QSP_USDT()
 """
     name: QSP-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21172,7 +22468,8 @@ QSP_USDT = QSP_USDT()
 class QUICK_USD(NamedTuple):
     """
         name: QUICK-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21181,7 +22478,8 @@ class QUICK_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "QUICK-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21208,7 +22506,8 @@ class QUICK_USD(NamedTuple):
 QUICK_USD = QUICK_USD()
 """
     name: QUICK-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21221,7 +22520,8 @@ QUICK_USD = QUICK_USD()
 class RAD_BTC(NamedTuple):
     """
         name: RAD-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -21230,7 +22530,8 @@ class RAD_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAD-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -21257,7 +22558,8 @@ class RAD_BTC(NamedTuple):
 RAD_BTC = RAD_BTC()
 """
     name: RAD-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -21270,7 +22572,8 @@ RAD_BTC = RAD_BTC()
 class RAD_EUR(NamedTuple):
     """
         name: RAD-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -21279,7 +22582,8 @@ class RAD_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAD-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -21306,7 +22610,8 @@ class RAD_EUR(NamedTuple):
 RAD_EUR = RAD_EUR()
 """
     name: RAD-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -21319,7 +22624,8 @@ RAD_EUR = RAD_EUR()
 class RAD_GBP(NamedTuple):
     """
         name: RAD-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -21328,7 +22634,8 @@ class RAD_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAD-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -21355,7 +22662,8 @@ class RAD_GBP(NamedTuple):
 RAD_GBP = RAD_GBP()
 """
     name: RAD-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -21368,7 +22676,8 @@ RAD_GBP = RAD_GBP()
 class RAD_USD(NamedTuple):
     """
         name: RAD-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21377,7 +22686,8 @@ class RAD_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAD-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21404,7 +22714,8 @@ class RAD_USD(NamedTuple):
 RAD_USD = RAD_USD()
 """
     name: RAD-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21417,7 +22728,8 @@ RAD_USD = RAD_USD()
 class RAD_USDT(NamedTuple):
     """
         name: RAD-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21426,7 +22738,8 @@ class RAD_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAD-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21453,7 +22766,8 @@ class RAD_USDT(NamedTuple):
 RAD_USDT = RAD_USDT()
 """
     name: RAD-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21466,7 +22780,8 @@ RAD_USDT = RAD_USDT()
 class RAI_USD(NamedTuple):
     """
         name: RAI-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21475,7 +22790,8 @@ class RAI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RAI-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21502,7 +22818,8 @@ class RAI_USD(NamedTuple):
 RAI_USD = RAI_USD()
 """
     name: RAI-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21515,7 +22832,8 @@ RAI_USD = RAI_USD()
 class RARE_USD(NamedTuple):
     """
         name: RARE-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21524,7 +22842,8 @@ class RARE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RARE-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21551,7 +22870,8 @@ class RARE_USD(NamedTuple):
 RARE_USD = RARE_USD()
 """
     name: RARE-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21564,7 +22884,8 @@ RARE_USD = RARE_USD()
 class RARI_USD(NamedTuple):
     """
         name: RARI-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21573,7 +22894,8 @@ class RARI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RARI-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21600,7 +22922,8 @@ class RARI_USD(NamedTuple):
 RARI_USD = RARI_USD()
 """
     name: RARI-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21613,7 +22936,8 @@ RARI_USD = RARI_USD()
 class RBN_USD(NamedTuple):
     """
         name: RBN-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21622,7 +22946,8 @@ class RBN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RBN-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21649,7 +22974,8 @@ class RBN_USD(NamedTuple):
 RBN_USD = RBN_USD()
 """
     name: RBN-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21662,7 +22988,8 @@ RBN_USD = RBN_USD()
 class REN_BTC(NamedTuple):
     """
         name: REN-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -21671,7 +22998,8 @@ class REN_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "REN-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -21698,7 +23026,8 @@ class REN_BTC(NamedTuple):
 REN_BTC = REN_BTC()
 """
     name: REN-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -21711,7 +23040,8 @@ REN_BTC = REN_BTC()
 class REN_USD(NamedTuple):
     """
         name: REN-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21720,7 +23050,8 @@ class REN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "REN-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21747,7 +23078,8 @@ class REN_USD(NamedTuple):
 REN_USD = REN_USD()
 """
     name: REN-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21760,7 +23092,8 @@ REN_USD = REN_USD()
 class REP_BTC(NamedTuple):
     """
         name: REP-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -21769,7 +23102,8 @@ class REP_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "REP-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -21796,7 +23130,8 @@ class REP_BTC(NamedTuple):
 REP_BTC = REP_BTC()
 """
     name: REP-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -21809,7 +23144,8 @@ REP_BTC = REP_BTC()
 class REP_USD(NamedTuple):
     """
         name: REP-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -21818,7 +23154,8 @@ class REP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "REP-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -21845,7 +23182,8 @@ class REP_USD(NamedTuple):
 REP_USD = REP_USD()
 """
     name: REP-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -21858,7 +23196,8 @@ REP_USD = REP_USD()
 class REQ_BTC(NamedTuple):
     """
         name: REQ-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -21867,7 +23206,8 @@ class REQ_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "REQ-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -21894,7 +23234,8 @@ class REQ_BTC(NamedTuple):
 REQ_BTC = REQ_BTC()
 """
     name: REQ-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -21907,7 +23248,8 @@ REQ_BTC = REQ_BTC()
 class REQ_EUR(NamedTuple):
     """
         name: REQ-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -21916,7 +23258,8 @@ class REQ_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "REQ-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -21943,7 +23286,8 @@ class REQ_EUR(NamedTuple):
 REQ_EUR = REQ_EUR()
 """
     name: REQ-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -21956,7 +23300,8 @@ REQ_EUR = REQ_EUR()
 class REQ_GBP(NamedTuple):
     """
         name: REQ-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -21965,7 +23310,8 @@ class REQ_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "REQ-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -21992,7 +23338,8 @@ class REQ_GBP(NamedTuple):
 REQ_GBP = REQ_GBP()
 """
     name: REQ-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -22005,7 +23352,8 @@ REQ_GBP = REQ_GBP()
 class REQ_USD(NamedTuple):
     """
         name: REQ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22014,7 +23362,8 @@ class REQ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "REQ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22041,7 +23390,8 @@ class REQ_USD(NamedTuple):
 REQ_USD = REQ_USD()
 """
     name: REQ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22054,7 +23404,8 @@ REQ_USD = REQ_USD()
 class REQ_USDT(NamedTuple):
     """
         name: REQ-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22063,7 +23414,8 @@ class REQ_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "REQ-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22090,7 +23442,8 @@ class REQ_USDT(NamedTuple):
 REQ_USDT = REQ_USDT()
 """
     name: REQ-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22103,7 +23456,8 @@ REQ_USDT = REQ_USDT()
 class RGT_USD(NamedTuple):
     """
         name: RGT-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22112,7 +23466,8 @@ class RGT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RGT-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22139,7 +23494,8 @@ class RGT_USD(NamedTuple):
 RGT_USD = RGT_USD()
 """
     name: RGT-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22152,7 +23508,8 @@ RGT_USD = RGT_USD()
 class RLC_BTC(NamedTuple):
     """
         name: RLC-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -22161,7 +23518,8 @@ class RLC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLC-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -22188,7 +23546,8 @@ class RLC_BTC(NamedTuple):
 RLC_BTC = RLC_BTC()
 """
     name: RLC-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -22201,7 +23560,8 @@ RLC_BTC = RLC_BTC()
 class RLC_USD(NamedTuple):
     """
         name: RLC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22210,7 +23570,8 @@ class RLC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22237,7 +23598,8 @@ class RLC_USD(NamedTuple):
 RLC_USD = RLC_USD()
 """
     name: RLC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22250,7 +23612,8 @@ RLC_USD = RLC_USD()
 class RLY_EUR(NamedTuple):
     """
         name: RLY-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -22259,7 +23622,8 @@ class RLY_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLY-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -22286,7 +23650,8 @@ class RLY_EUR(NamedTuple):
 RLY_EUR = RLY_EUR()
 """
     name: RLY-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -22299,7 +23664,8 @@ RLY_EUR = RLY_EUR()
 class RLY_GBP(NamedTuple):
     """
         name: RLY-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -22308,7 +23674,8 @@ class RLY_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLY-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -22335,7 +23702,8 @@ class RLY_GBP(NamedTuple):
 RLY_GBP = RLY_GBP()
 """
     name: RLY-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -22348,7 +23716,8 @@ RLY_GBP = RLY_GBP()
 class RLY_USD(NamedTuple):
     """
         name: RLY-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22357,7 +23726,8 @@ class RLY_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLY-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22384,7 +23754,8 @@ class RLY_USD(NamedTuple):
 RLY_USD = RLY_USD()
 """
     name: RLY-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22397,7 +23768,8 @@ RLY_USD = RLY_USD()
 class RLY_USDT(NamedTuple):
     """
         name: RLY-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22406,7 +23778,8 @@ class RLY_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "RLY-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22433,7 +23806,8 @@ class RLY_USDT(NamedTuple):
 RLY_USDT = RLY_USDT()
 """
     name: RLY-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22446,7 +23820,8 @@ RLY_USDT = RLY_USDT()
 class RNDR_EUR(NamedTuple):
     """
         name: RNDR-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22455,7 +23830,8 @@ class RNDR_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "RNDR-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22482,7 +23858,8 @@ class RNDR_EUR(NamedTuple):
 RNDR_EUR = RNDR_EUR()
 """
     name: RNDR-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22495,7 +23872,8 @@ RNDR_EUR = RNDR_EUR()
 class RNDR_USD(NamedTuple):
     """
         name: RNDR-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22504,7 +23882,8 @@ class RNDR_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RNDR-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22531,7 +23910,8 @@ class RNDR_USD(NamedTuple):
 RNDR_USD = RNDR_USD()
 """
     name: RNDR-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22544,7 +23924,8 @@ RNDR_USD = RNDR_USD()
 class RNDR_USDT(NamedTuple):
     """
         name: RNDR-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22553,7 +23934,8 @@ class RNDR_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "RNDR-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22580,7 +23962,8 @@ class RNDR_USDT(NamedTuple):
 RNDR_USDT = RNDR_USDT()
 """
     name: RNDR-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22593,7 +23976,8 @@ RNDR_USDT = RNDR_USDT()
 class ROSE_USD(NamedTuple):
     """
         name: ROSE-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22602,7 +23986,8 @@ class ROSE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ROSE-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22629,7 +24014,8 @@ class ROSE_USD(NamedTuple):
 ROSE_USD = ROSE_USD()
 """
     name: ROSE-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22642,7 +24028,8 @@ ROSE_USD = ROSE_USD()
 class ROSE_USDT(NamedTuple):
     """
         name: ROSE-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22651,7 +24038,8 @@ class ROSE_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ROSE-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22678,7 +24066,8 @@ class ROSE_USDT(NamedTuple):
 ROSE_USDT = ROSE_USDT()
 """
     name: ROSE-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22691,7 +24080,8 @@ ROSE_USDT = ROSE_USDT()
 class RPL_USD(NamedTuple):
     """
         name: RPL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22700,7 +24090,8 @@ class RPL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "RPL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22727,7 +24118,8 @@ class RPL_USD(NamedTuple):
 RPL_USD = RPL_USD()
 """
     name: RPL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22740,7 +24132,8 @@ RPL_USD = RPL_USD()
 class SAND_USD(NamedTuple):
     """
         name: SAND-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22749,7 +24142,8 @@ class SAND_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SAND-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22776,7 +24170,8 @@ class SAND_USD(NamedTuple):
 SAND_USD = SAND_USD()
 """
     name: SAND-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22789,7 +24184,8 @@ SAND_USD = SAND_USD()
 class SAND_USDT(NamedTuple):
     """
         name: SAND-USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22798,7 +24194,8 @@ class SAND_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SAND-USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22825,7 +24222,8 @@ class SAND_USDT(NamedTuple):
 SAND_USDT = SAND_USDT()
 """
     name: SAND-USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22838,7 +24236,8 @@ SAND_USDT = SAND_USDT()
 class SHIB_EUR(NamedTuple):
     """
         name: SHIB-EUR
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -22847,7 +24246,8 @@ class SHIB_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHIB-EUR"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -22874,7 +24274,8 @@ class SHIB_EUR(NamedTuple):
 SHIB_EUR = SHIB_EUR()
 """
     name: SHIB-EUR
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -22887,7 +24288,8 @@ SHIB_EUR = SHIB_EUR()
 class SHIB_GBP(NamedTuple):
     """
         name: SHIB-GBP
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -22896,7 +24298,8 @@ class SHIB_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHIB-GBP"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -22923,7 +24326,8 @@ class SHIB_GBP(NamedTuple):
 SHIB_GBP = SHIB_GBP()
 """
     name: SHIB-GBP
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -22936,7 +24340,8 @@ SHIB_GBP = SHIB_GBP()
 class SHIB_USD(NamedTuple):
     """
         name: SHIB-USD
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22945,7 +24350,8 @@ class SHIB_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHIB-USD"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -22972,7 +24378,8 @@ class SHIB_USD(NamedTuple):
 SHIB_USD = SHIB_USD()
 """
     name: SHIB-USD
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -22985,7 +24392,8 @@ SHIB_USD = SHIB_USD()
 class SHIB_USDT(NamedTuple):
     """
         name: SHIB-USDT
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -22994,7 +24402,8 @@ class SHIB_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHIB-USDT"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23021,7 +24430,8 @@ class SHIB_USDT(NamedTuple):
 SHIB_USDT = SHIB_USDT()
 """
     name: SHIB-USDT
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23034,7 +24444,8 @@ SHIB_USDT = SHIB_USDT()
 class SHPING_EUR(NamedTuple):
     """
         name: SHPING-EUR
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23043,7 +24454,8 @@ class SHPING_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHPING-EUR"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23070,7 +24482,8 @@ class SHPING_EUR(NamedTuple):
 SHPING_EUR = SHPING_EUR()
 """
     name: SHPING-EUR
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23083,7 +24496,8 @@ SHPING_EUR = SHPING_EUR()
 class SHPING_USD(NamedTuple):
     """
         name: SHPING-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23092,7 +24506,8 @@ class SHPING_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHPING-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23119,7 +24534,8 @@ class SHPING_USD(NamedTuple):
 SHPING_USD = SHPING_USD()
 """
     name: SHPING-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23132,7 +24548,8 @@ SHPING_USD = SHPING_USD()
 class SHPING_USDT(NamedTuple):
     """
         name: SHPING-USDT
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23141,7 +24558,8 @@ class SHPING_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SHPING-USDT"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23168,7 +24586,8 @@ class SHPING_USDT(NamedTuple):
 SHPING_USDT = SHPING_USDT()
 """
     name: SHPING-USDT
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23181,7 +24600,8 @@ SHPING_USDT = SHPING_USDT()
 class SKL_BTC(NamedTuple):
     """
         name: SKL-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -23190,7 +24610,8 @@ class SKL_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "SKL-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -23217,7 +24638,8 @@ class SKL_BTC(NamedTuple):
 SKL_BTC = SKL_BTC()
 """
     name: SKL-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -23230,7 +24652,8 @@ SKL_BTC = SKL_BTC()
 class SKL_EUR(NamedTuple):
     """
         name: SKL-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -23239,7 +24662,8 @@ class SKL_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SKL-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -23266,7 +24690,8 @@ class SKL_EUR(NamedTuple):
 SKL_EUR = SKL_EUR()
 """
     name: SKL-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -23279,7 +24704,8 @@ SKL_EUR = SKL_EUR()
 class SKL_GBP(NamedTuple):
     """
         name: SKL-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -23288,7 +24714,8 @@ class SKL_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "SKL-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -23315,7 +24742,8 @@ class SKL_GBP(NamedTuple):
 SKL_GBP = SKL_GBP()
 """
     name: SKL-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -23328,7 +24756,8 @@ SKL_GBP = SKL_GBP()
 class SKL_USD(NamedTuple):
     """
         name: SKL-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23337,7 +24766,8 @@ class SKL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SKL-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23364,7 +24794,8 @@ class SKL_USD(NamedTuple):
 SKL_USD = SKL_USD()
 """
     name: SKL-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23377,7 +24808,8 @@ SKL_USD = SKL_USD()
 class SNT_USD(NamedTuple):
     """
         name: SNT-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23386,7 +24818,8 @@ class SNT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SNT-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23413,7 +24846,8 @@ class SNT_USD(NamedTuple):
 SNT_USD = SNT_USD()
 """
     name: SNT-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23426,7 +24860,8 @@ SNT_USD = SNT_USD()
 class SNX_BTC(NamedTuple):
     """
         name: SNX-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -23435,7 +24870,8 @@ class SNX_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "SNX-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -23462,7 +24898,8 @@ class SNX_BTC(NamedTuple):
 SNX_BTC = SNX_BTC()
 """
     name: SNX-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -23475,7 +24912,8 @@ SNX_BTC = SNX_BTC()
 class SNX_EUR(NamedTuple):
     """
         name: SNX-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -23484,7 +24922,8 @@ class SNX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SNX-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -23511,7 +24950,8 @@ class SNX_EUR(NamedTuple):
 SNX_EUR = SNX_EUR()
 """
     name: SNX-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -23524,7 +24964,8 @@ SNX_EUR = SNX_EUR()
 class SNX_GBP(NamedTuple):
     """
         name: SNX-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -23533,7 +24974,8 @@ class SNX_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "SNX-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -23560,7 +25002,8 @@ class SNX_GBP(NamedTuple):
 SNX_GBP = SNX_GBP()
 """
     name: SNX-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -23573,7 +25016,8 @@ SNX_GBP = SNX_GBP()
 class SNX_USD(NamedTuple):
     """
         name: SNX-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23582,7 +25026,8 @@ class SNX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SNX-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23609,7 +25054,8 @@ class SNX_USD(NamedTuple):
 SNX_USD = SNX_USD()
 """
     name: SNX-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23622,7 +25068,8 @@ SNX_USD = SNX_USD()
 class SOL_BTC(NamedTuple):
     """
         name: SOL-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -23631,7 +25078,8 @@ class SOL_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -23658,7 +25106,8 @@ class SOL_BTC(NamedTuple):
 SOL_BTC = SOL_BTC()
 """
     name: SOL-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -23671,7 +25120,8 @@ SOL_BTC = SOL_BTC()
 class SOL_ETH(NamedTuple):
     """
         name: SOL-ETH
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -23680,7 +25130,8 @@ class SOL_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-ETH"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -23707,7 +25158,8 @@ class SOL_ETH(NamedTuple):
 SOL_ETH = SOL_ETH()
 """
     name: SOL-ETH
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -23720,7 +25172,8 @@ SOL_ETH = SOL_ETH()
 class SOL_EUR(NamedTuple):
     """
         name: SOL-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -23729,7 +25182,8 @@ class SOL_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -23756,7 +25210,8 @@ class SOL_EUR(NamedTuple):
 SOL_EUR = SOL_EUR()
 """
     name: SOL-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -23769,7 +25224,8 @@ SOL_EUR = SOL_EUR()
 class SOL_GBP(NamedTuple):
     """
         name: SOL-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -23778,7 +25234,8 @@ class SOL_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -23805,7 +25262,8 @@ class SOL_GBP(NamedTuple):
 SOL_GBP = SOL_GBP()
 """
     name: SOL-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -23818,7 +25276,8 @@ SOL_GBP = SOL_GBP()
 class SOL_USD(NamedTuple):
     """
         name: SOL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23827,7 +25286,8 @@ class SOL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23854,7 +25314,8 @@ class SOL_USD(NamedTuple):
 SOL_USD = SOL_USD()
 """
     name: SOL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23867,7 +25328,8 @@ SOL_USD = SOL_USD()
 class SOL_USDT(NamedTuple):
     """
         name: SOL-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23876,7 +25338,8 @@ class SOL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SOL-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23903,7 +25366,8 @@ class SOL_USDT(NamedTuple):
 SOL_USDT = SOL_USDT()
 """
     name: SOL-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23916,7 +25380,8 @@ SOL_USDT = SOL_USDT()
 class SPELL_USD(NamedTuple):
     """
         name: SPELL-USD
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23925,7 +25390,8 @@ class SPELL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SPELL-USD"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -23952,7 +25418,8 @@ class SPELL_USD(NamedTuple):
 SPELL_USD = SPELL_USD()
 """
     name: SPELL-USD
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -23965,7 +25432,8 @@ SPELL_USD = SPELL_USD()
 class SPELL_USDT(NamedTuple):
     """
         name: SPELL-USDT
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -23974,7 +25442,8 @@ class SPELL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SPELL-USDT"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24001,7 +25470,8 @@ class SPELL_USDT(NamedTuple):
 SPELL_USDT = SPELL_USDT()
 """
     name: SPELL-USDT
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24014,7 +25484,8 @@ SPELL_USDT = SPELL_USDT()
 class STG_USD(NamedTuple):
     """
         name: STG-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24023,7 +25494,8 @@ class STG_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "STG-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24050,7 +25522,8 @@ class STG_USD(NamedTuple):
 STG_USD = STG_USD()
 """
     name: STG-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24063,7 +25536,8 @@ STG_USD = STG_USD()
 class STG_USDT(NamedTuple):
     """
         name: STG-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24072,7 +25546,8 @@ class STG_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "STG-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24099,7 +25574,8 @@ class STG_USDT(NamedTuple):
 STG_USDT = STG_USDT()
 """
     name: STG-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24112,7 +25588,8 @@ STG_USDT = STG_USDT()
 class STORJ_BTC(NamedTuple):
     """
         name: STORJ-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -24121,7 +25598,8 @@ class STORJ_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "STORJ-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -24148,7 +25626,8 @@ class STORJ_BTC(NamedTuple):
 STORJ_BTC = STORJ_BTC()
 """
     name: STORJ-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -24161,7 +25640,8 @@ STORJ_BTC = STORJ_BTC()
 class STORJ_USD(NamedTuple):
     """
         name: STORJ-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24170,7 +25650,8 @@ class STORJ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "STORJ-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24197,7 +25678,8 @@ class STORJ_USD(NamedTuple):
 STORJ_USD = STORJ_USD()
 """
     name: STORJ-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24210,7 +25692,8 @@ STORJ_USD = STORJ_USD()
 class STX_USD(NamedTuple):
     """
         name: STX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24219,7 +25702,8 @@ class STX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "STX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24246,7 +25730,8 @@ class STX_USD(NamedTuple):
 STX_USD = STX_USD()
 """
     name: STX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24259,7 +25744,8 @@ STX_USD = STX_USD()
 class STX_USDT(NamedTuple):
     """
         name: STX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24268,7 +25754,8 @@ class STX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "STX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24295,7 +25782,8 @@ class STX_USDT(NamedTuple):
 STX_USDT = STX_USDT()
 """
     name: STX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24308,7 +25796,8 @@ STX_USDT = STX_USDT()
 class SUKU_EUR(NamedTuple):
     """
         name: SUKU-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -24317,7 +25806,8 @@ class SUKU_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUKU-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -24344,7 +25834,8 @@ class SUKU_EUR(NamedTuple):
 SUKU_EUR = SUKU_EUR()
 """
     name: SUKU-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -24357,7 +25848,8 @@ SUKU_EUR = SUKU_EUR()
 class SUKU_USD(NamedTuple):
     """
         name: SUKU-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24366,7 +25858,8 @@ class SUKU_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUKU-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24393,7 +25886,8 @@ class SUKU_USD(NamedTuple):
 SUKU_USD = SUKU_USD()
 """
     name: SUKU-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24406,7 +25900,8 @@ SUKU_USD = SUKU_USD()
 class SUKU_USDT(NamedTuple):
     """
         name: SUKU-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24415,7 +25910,8 @@ class SUKU_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUKU-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24442,7 +25938,8 @@ class SUKU_USDT(NamedTuple):
 SUKU_USDT = SUKU_USDT()
 """
     name: SUKU-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24455,7 +25952,8 @@ SUKU_USDT = SUKU_USDT()
 class SUPER_USD(NamedTuple):
     """
         name: SUPER-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24464,7 +25962,8 @@ class SUPER_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUPER-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24491,7 +25990,8 @@ class SUPER_USD(NamedTuple):
 SUPER_USD = SUPER_USD()
 """
     name: SUPER-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24504,7 +26004,8 @@ SUPER_USD = SUPER_USD()
 class SUPER_USDT(NamedTuple):
     """
         name: SUPER-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24513,7 +26014,8 @@ class SUPER_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUPER-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24540,7 +26042,8 @@ class SUPER_USDT(NamedTuple):
 SUPER_USDT = SUPER_USDT()
 """
     name: SUPER-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24553,7 +26056,8 @@ SUPER_USDT = SUPER_USDT()
 class SUSHI_BTC(NamedTuple):
     """
         name: SUSHI-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -24562,7 +26066,8 @@ class SUSHI_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUSHI-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -24589,7 +26094,8 @@ class SUSHI_BTC(NamedTuple):
 SUSHI_BTC = SUSHI_BTC()
 """
     name: SUSHI-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -24602,7 +26108,8 @@ SUSHI_BTC = SUSHI_BTC()
 class SUSHI_ETH(NamedTuple):
     """
         name: SUSHI-ETH
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00022
@@ -24611,7 +26118,8 @@ class SUSHI_ETH(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUSHI-ETH"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00022
@@ -24638,7 +26146,8 @@ class SUSHI_ETH(NamedTuple):
 SUSHI_ETH = SUSHI_ETH()
 """
     name: SUSHI-ETH
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00022
@@ -24651,7 +26160,8 @@ SUSHI_ETH = SUSHI_ETH()
 class SUSHI_EUR(NamedTuple):
     """
         name: SUSHI-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -24660,7 +26170,8 @@ class SUSHI_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUSHI-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -24687,7 +26198,8 @@ class SUSHI_EUR(NamedTuple):
 SUSHI_EUR = SUSHI_EUR()
 """
     name: SUSHI-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -24700,7 +26212,8 @@ SUSHI_EUR = SUSHI_EUR()
 class SUSHI_GBP(NamedTuple):
     """
         name: SUSHI-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -24709,7 +26222,8 @@ class SUSHI_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUSHI-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -24736,7 +26250,8 @@ class SUSHI_GBP(NamedTuple):
 SUSHI_GBP = SUSHI_GBP()
 """
     name: SUSHI-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -24749,7 +26264,8 @@ SUSHI_GBP = SUSHI_GBP()
 class SUSHI_USD(NamedTuple):
     """
         name: SUSHI-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24758,7 +26274,8 @@ class SUSHI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SUSHI-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24785,7 +26302,8 @@ class SUSHI_USD(NamedTuple):
 SUSHI_USD = SUSHI_USD()
 """
     name: SUSHI-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24798,7 +26316,8 @@ SUSHI_USD = SUSHI_USD()
 class SWFTC_USD(NamedTuple):
     """
         name: SWFTC-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24807,7 +26326,8 @@ class SWFTC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SWFTC-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24834,7 +26354,8 @@ class SWFTC_USD(NamedTuple):
 SWFTC_USD = SWFTC_USD()
 """
     name: SWFTC-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24847,7 +26368,8 @@ SWFTC_USD = SWFTC_USD()
 class SYLO_USD(NamedTuple):
     """
         name: SYLO-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24856,7 +26378,8 @@ class SYLO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SYLO-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24883,7 +26406,8 @@ class SYLO_USD(NamedTuple):
 SYLO_USD = SYLO_USD()
 """
     name: SYLO-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24896,7 +26420,8 @@ SYLO_USD = SYLO_USD()
 class SYLO_USDT(NamedTuple):
     """
         name: SYLO-USDT
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24905,7 +26430,8 @@ class SYLO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "SYLO-USDT"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24932,7 +26458,8 @@ class SYLO_USDT(NamedTuple):
 SYLO_USDT = SYLO_USDT()
 """
     name: SYLO-USDT
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24945,7 +26472,8 @@ SYLO_USDT = SYLO_USDT()
 class SYN_USD(NamedTuple):
     """
         name: SYN-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -24954,7 +26482,8 @@ class SYN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "SYN-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -24981,7 +26510,8 @@ class SYN_USD(NamedTuple):
 SYN_USD = SYN_USD()
 """
     name: SYN-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -24994,7 +26524,8 @@ SYN_USD = SYN_USD()
 class T_USD(NamedTuple):
     """
         name: T-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25003,7 +26534,8 @@ class T_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "T-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25030,7 +26562,8 @@ class T_USD(NamedTuple):
 T_USD = T_USD()
 """
     name: T-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25043,7 +26576,8 @@ T_USD = T_USD()
 class TIME_USD(NamedTuple):
     """
         name: TIME-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25052,7 +26586,8 @@ class TIME_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TIME-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25079,7 +26614,8 @@ class TIME_USD(NamedTuple):
 TIME_USD = TIME_USD()
 """
     name: TIME-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25092,7 +26628,8 @@ TIME_USD = TIME_USD()
 class TIME_USDT(NamedTuple):
     """
         name: TIME-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25101,7 +26638,8 @@ class TIME_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "TIME-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25128,7 +26666,8 @@ class TIME_USDT(NamedTuple):
 TIME_USDT = TIME_USDT()
 """
     name: TIME-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25141,7 +26680,8 @@ TIME_USDT = TIME_USDT()
 class TONE_USD(NamedTuple):
     """
         name: TONE-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25150,7 +26690,8 @@ class TONE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TONE-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25177,7 +26718,8 @@ class TONE_USD(NamedTuple):
 TONE_USD = TONE_USD()
 """
     name: TONE-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25190,7 +26732,8 @@ TONE_USD = TONE_USD()
 class TRAC_EUR(NamedTuple):
     """
         name: TRAC-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -25199,7 +26742,8 @@ class TRAC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRAC-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -25226,7 +26770,8 @@ class TRAC_EUR(NamedTuple):
 TRAC_EUR = TRAC_EUR()
 """
     name: TRAC-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -25239,7 +26784,8 @@ TRAC_EUR = TRAC_EUR()
 class TRAC_USD(NamedTuple):
     """
         name: TRAC-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25248,7 +26794,8 @@ class TRAC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRAC-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25275,7 +26822,8 @@ class TRAC_USD(NamedTuple):
 TRAC_USD = TRAC_USD()
 """
     name: TRAC-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25288,7 +26836,8 @@ TRAC_USD = TRAC_USD()
 class TRAC_USDT(NamedTuple):
     """
         name: TRAC-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25297,7 +26846,8 @@ class TRAC_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRAC-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25324,7 +26874,8 @@ class TRAC_USDT(NamedTuple):
 TRAC_USDT = TRAC_USDT()
 """
     name: TRAC-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25337,7 +26888,8 @@ TRAC_USDT = TRAC_USDT()
 class TRB_BTC(NamedTuple):
     """
         name: TRB-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -25346,7 +26898,8 @@ class TRB_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRB-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -25373,7 +26926,8 @@ class TRB_BTC(NamedTuple):
 TRB_BTC = TRB_BTC()
 """
     name: TRB-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -25386,7 +26940,8 @@ TRB_BTC = TRB_BTC()
 class TRB_USD(NamedTuple):
     """
         name: TRB-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25395,7 +26950,8 @@ class TRB_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRB-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25422,7 +26978,8 @@ class TRB_USD(NamedTuple):
 TRB_USD = TRB_USD()
 """
     name: TRB-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25435,7 +26992,8 @@ TRB_USD = TRB_USD()
 class TRIBE_USD(NamedTuple):
     """
         name: TRIBE-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25444,7 +27002,8 @@ class TRIBE_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRIBE-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25471,7 +27030,8 @@ class TRIBE_USD(NamedTuple):
 TRIBE_USD = TRIBE_USD()
 """
     name: TRIBE-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25484,7 +27044,8 @@ TRIBE_USD = TRIBE_USD()
 class TRU_BTC(NamedTuple):
     """
         name: TRU-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -25493,7 +27054,8 @@ class TRU_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRU-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -25520,7 +27082,8 @@ class TRU_BTC(NamedTuple):
 TRU_BTC = TRU_BTC()
 """
     name: TRU-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -25533,7 +27096,8 @@ TRU_BTC = TRU_BTC()
 class TRU_EUR(NamedTuple):
     """
         name: TRU-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -25542,7 +27106,8 @@ class TRU_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRU-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -25569,7 +27134,8 @@ class TRU_EUR(NamedTuple):
 TRU_EUR = TRU_EUR()
 """
     name: TRU-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -25582,7 +27148,8 @@ TRU_EUR = TRU_EUR()
 class TRU_USD(NamedTuple):
     """
         name: TRU-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25591,7 +27158,8 @@ class TRU_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRU-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25618,7 +27186,8 @@ class TRU_USD(NamedTuple):
 TRU_USD = TRU_USD()
 """
     name: TRU-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25631,7 +27200,8 @@ TRU_USD = TRU_USD()
 class TRU_USDT(NamedTuple):
     """
         name: TRU-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25640,7 +27210,8 @@ class TRU_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "TRU-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25667,7 +27238,8 @@ class TRU_USDT(NamedTuple):
 TRU_USDT = TRU_USDT()
 """
     name: TRU-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25680,7 +27252,8 @@ TRU_USDT = TRU_USDT()
 class TVK_USD(NamedTuple):
     """
         name: TVK-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25689,7 +27262,8 @@ class TVK_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "TVK-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25716,7 +27290,8 @@ class TVK_USD(NamedTuple):
 TVK_USD = TVK_USD()
 """
     name: TVK-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25729,7 +27304,8 @@ TVK_USD = TVK_USD()
 class UMA_BTC(NamedTuple):
     """
         name: UMA-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -25738,7 +27314,8 @@ class UMA_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "UMA-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -25765,7 +27342,8 @@ class UMA_BTC(NamedTuple):
 UMA_BTC = UMA_BTC()
 """
     name: UMA-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -25778,7 +27356,8 @@ UMA_BTC = UMA_BTC()
 class UMA_EUR(NamedTuple):
     """
         name: UMA-EUR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -25787,7 +27366,8 @@ class UMA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "UMA-EUR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -25814,7 +27394,8 @@ class UMA_EUR(NamedTuple):
 UMA_EUR = UMA_EUR()
 """
     name: UMA-EUR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -25827,7 +27408,8 @@ UMA_EUR = UMA_EUR()
 class UMA_GBP(NamedTuple):
     """
         name: UMA-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -25836,7 +27418,8 @@ class UMA_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "UMA-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -25863,7 +27446,8 @@ class UMA_GBP(NamedTuple):
 UMA_GBP = UMA_GBP()
 """
     name: UMA-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -25876,7 +27460,8 @@ UMA_GBP = UMA_GBP()
 class UMA_USD(NamedTuple):
     """
         name: UMA-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25885,7 +27470,8 @@ class UMA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "UMA-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25912,7 +27498,8 @@ class UMA_USD(NamedTuple):
 UMA_USD = UMA_USD()
 """
     name: UMA-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25925,7 +27512,8 @@ UMA_USD = UMA_USD()
 class UNFI_USD(NamedTuple):
     """
         name: UNFI-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -25934,7 +27522,8 @@ class UNFI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "UNFI-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -25961,7 +27550,8 @@ class UNFI_USD(NamedTuple):
 UNFI_USD = UNFI_USD()
 """
     name: UNFI-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -25974,7 +27564,8 @@ UNFI_USD = UNFI_USD()
 class UNI_BTC(NamedTuple):
     """
         name: UNI-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -25983,7 +27574,8 @@ class UNI_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "UNI-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -26010,7 +27602,8 @@ class UNI_BTC(NamedTuple):
 UNI_BTC = UNI_BTC()
 """
     name: UNI-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -26023,7 +27616,8 @@ UNI_BTC = UNI_BTC()
 class UNI_EUR(NamedTuple):
     """
         name: UNI-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -26032,7 +27626,8 @@ class UNI_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "UNI-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -26059,7 +27654,8 @@ class UNI_EUR(NamedTuple):
 UNI_EUR = UNI_EUR()
 """
     name: UNI-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -26072,7 +27668,8 @@ UNI_EUR = UNI_EUR()
 class UNI_GBP(NamedTuple):
     """
         name: UNI-GBP
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -26081,7 +27678,8 @@ class UNI_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "UNI-GBP"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -26108,7 +27706,8 @@ class UNI_GBP(NamedTuple):
 UNI_GBP = UNI_GBP()
 """
     name: UNI-GBP
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -26121,7 +27720,8 @@ UNI_GBP = UNI_GBP()
 class UNI_USD(NamedTuple):
     """
         name: UNI-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26130,7 +27730,8 @@ class UNI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "UNI-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26157,7 +27758,8 @@ class UNI_USD(NamedTuple):
 UNI_USD = UNI_USD()
 """
     name: UNI-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26170,7 +27772,8 @@ UNI_USD = UNI_USD()
 class UPI_USD(NamedTuple):
     """
         name: UPI-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26179,7 +27782,8 @@ class UPI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "UPI-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26206,7 +27810,8 @@ class UPI_USD(NamedTuple):
 UPI_USD = UPI_USD()
 """
     name: UPI-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26219,7 +27824,8 @@ UPI_USD = UPI_USD()
 class UPI_USDT(NamedTuple):
     """
         name: UPI-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26228,7 +27834,8 @@ class UPI_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "UPI-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26255,7 +27862,8 @@ class UPI_USDT(NamedTuple):
 UPI_USDT = UPI_USDT()
 """
     name: UPI-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26268,7 +27876,8 @@ UPI_USDT = UPI_USDT()
 class USDC_EUR(NamedTuple):
     """
         name: USDC-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -26277,7 +27886,8 @@ class USDC_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDC-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -26304,7 +27914,8 @@ class USDC_EUR(NamedTuple):
 USDC_EUR = USDC_EUR()
 """
     name: USDC-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -26317,7 +27928,8 @@ USDC_EUR = USDC_EUR()
 class USDC_GBP(NamedTuple):
     """
         name: USDC-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -26326,7 +27938,8 @@ class USDC_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDC-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -26353,7 +27966,8 @@ class USDC_GBP(NamedTuple):
 USDC_GBP = USDC_GBP()
 """
     name: USDC-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -26366,7 +27980,8 @@ USDC_GBP = USDC_GBP()
 class USDT_EUR(NamedTuple):
     """
         name: USDT-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -26375,7 +27990,8 @@ class USDT_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDT-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -26402,7 +28018,8 @@ class USDT_EUR(NamedTuple):
 USDT_EUR = USDT_EUR()
 """
     name: USDT-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -26415,7 +28032,8 @@ USDT_EUR = USDT_EUR()
 class USDT_GBP(NamedTuple):
     """
         name: USDT-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -26424,7 +28042,8 @@ class USDT_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDT-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -26451,7 +28070,8 @@ class USDT_GBP(NamedTuple):
 USDT_GBP = USDT_GBP()
 """
     name: USDT-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -26464,7 +28084,8 @@ USDT_GBP = USDT_GBP()
 class USDT_USD(NamedTuple):
     """
         name: USDT-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26473,7 +28094,8 @@ class USDT_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDT-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26500,7 +28122,8 @@ class USDT_USD(NamedTuple):
 USDT_USD = USDT_USD()
 """
     name: USDT-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26513,7 +28136,8 @@ USDT_USD = USDT_USD()
 class USDT_USDC(NamedTuple):
     """
         name: USDT-USDC
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26522,7 +28146,8 @@ class USDT_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "USDT-USDC"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26549,7 +28174,8 @@ class USDT_USDC(NamedTuple):
 USDT_USDC = USDT_USDC()
 """
     name: USDT-USDC
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26562,7 +28188,8 @@ USDT_USDC = USDT_USDC()
 class UST_EUR(NamedTuple):
     """
         name: UST-EUR
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -26571,7 +28198,8 @@ class UST_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "UST-EUR"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -26598,7 +28226,8 @@ class UST_EUR(NamedTuple):
 UST_EUR = UST_EUR()
 """
     name: UST-EUR
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -26611,7 +28240,8 @@ UST_EUR = UST_EUR()
 class UST_USD(NamedTuple):
     """
         name: UST-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26620,7 +28250,8 @@ class UST_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "UST-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26647,7 +28278,8 @@ class UST_USD(NamedTuple):
 UST_USD = UST_USD()
 """
     name: UST-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26660,7 +28292,8 @@ UST_USD = UST_USD()
 class UST_USDT(NamedTuple):
     """
         name: UST-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26669,7 +28302,8 @@ class UST_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "UST-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26696,7 +28330,8 @@ class UST_USDT(NamedTuple):
 UST_USDT = UST_USDT()
 """
     name: UST-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26709,7 +28344,8 @@ UST_USDT = UST_USDT()
 class VGX_EUR(NamedTuple):
     """
         name: VGX-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -26718,7 +28354,8 @@ class VGX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "VGX-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -26745,7 +28382,8 @@ class VGX_EUR(NamedTuple):
 VGX_EUR = VGX_EUR()
 """
     name: VGX-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -26758,7 +28396,8 @@ VGX_EUR = VGX_EUR()
 class VGX_USD(NamedTuple):
     """
         name: VGX-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26767,7 +28406,8 @@ class VGX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "VGX-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26794,7 +28434,8 @@ class VGX_USD(NamedTuple):
 VGX_USD = VGX_USD()
 """
     name: VGX-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26807,7 +28448,8 @@ VGX_USD = VGX_USD()
 class VGX_USDT(NamedTuple):
     """
         name: VGX-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26816,7 +28458,8 @@ class VGX_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "VGX-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26843,7 +28486,8 @@ class VGX_USDT(NamedTuple):
 VGX_USDT = VGX_USDT()
 """
     name: VGX-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26856,7 +28500,8 @@ VGX_USDT = VGX_USDT()
 class VOXEL_USD(NamedTuple):
     """
         name: VOXEL-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26865,7 +28510,8 @@ class VOXEL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "VOXEL-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26892,7 +28538,8 @@ class VOXEL_USD(NamedTuple):
 VOXEL_USD = VOXEL_USD()
 """
     name: VOXEL-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26905,7 +28552,8 @@ VOXEL_USD = VOXEL_USD()
 class WAMPL_USD(NamedTuple):
     """
         name: WAMPL-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26914,7 +28562,8 @@ class WAMPL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "WAMPL-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26941,7 +28590,8 @@ class WAMPL_USD(NamedTuple):
 WAMPL_USD = WAMPL_USD()
 """
     name: WAMPL-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -26954,7 +28604,8 @@ WAMPL_USD = WAMPL_USD()
 class WAMPL_USDT(NamedTuple):
     """
         name: WAMPL-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -26963,7 +28614,8 @@ class WAMPL_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "WAMPL-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -26990,7 +28642,8 @@ class WAMPL_USDT(NamedTuple):
 WAMPL_USDT = WAMPL_USDT()
 """
     name: WAMPL-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27003,7 +28656,8 @@ WAMPL_USDT = WAMPL_USDT()
 class WAXL_USD(NamedTuple):
     """
         name: WAXL-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27012,7 +28666,8 @@ class WAXL_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "WAXL-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27039,7 +28694,8 @@ class WAXL_USD(NamedTuple):
 WAXL_USD = WAXL_USD()
 """
     name: WAXL-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27052,7 +28708,8 @@ WAXL_USD = WAXL_USD()
 class WBTC_BTC(NamedTuple):
     """
         name: WBTC-BTC
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.0001
@@ -27061,7 +28718,8 @@ class WBTC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "WBTC-BTC"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.0001
@@ -27088,7 +28746,8 @@ class WBTC_BTC(NamedTuple):
 WBTC_BTC = WBTC_BTC()
 """
     name: WBTC-BTC
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.0001
@@ -27101,7 +28760,8 @@ WBTC_BTC = WBTC_BTC()
 class WBTC_USD(NamedTuple):
     """
         name: WBTC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27110,7 +28770,8 @@ class WBTC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "WBTC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27137,7 +28798,8 @@ class WBTC_USD(NamedTuple):
 WBTC_USD = WBTC_USD()
 """
     name: WBTC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27150,7 +28812,8 @@ WBTC_USD = WBTC_USD()
 class WCFG_BTC(NamedTuple):
     """
         name: WCFG-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -27159,7 +28822,8 @@ class WCFG_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "WCFG-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -27186,7 +28850,8 @@ class WCFG_BTC(NamedTuple):
 WCFG_BTC = WCFG_BTC()
 """
     name: WCFG-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -27199,7 +28864,8 @@ WCFG_BTC = WCFG_BTC()
 class WCFG_EUR(NamedTuple):
     """
         name: WCFG-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -27208,7 +28874,8 @@ class WCFG_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "WCFG-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -27235,7 +28902,8 @@ class WCFG_EUR(NamedTuple):
 WCFG_EUR = WCFG_EUR()
 """
     name: WCFG-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -27248,7 +28916,8 @@ WCFG_EUR = WCFG_EUR()
 class WCFG_USD(NamedTuple):
     """
         name: WCFG-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27257,7 +28926,8 @@ class WCFG_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "WCFG-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27284,7 +28954,8 @@ class WCFG_USD(NamedTuple):
 WCFG_USD = WCFG_USD()
 """
     name: WCFG-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27297,7 +28968,8 @@ WCFG_USD = WCFG_USD()
 class WCFG_USDT(NamedTuple):
     """
         name: WCFG-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27306,7 +28978,8 @@ class WCFG_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "WCFG-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27333,7 +29006,8 @@ class WCFG_USDT(NamedTuple):
 WCFG_USDT = WCFG_USDT()
 """
     name: WCFG-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27346,7 +29020,8 @@ WCFG_USDT = WCFG_USDT()
 class WLUNA_EUR(NamedTuple):
     """
         name: WLUNA-EUR
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -27355,7 +29030,8 @@ class WLUNA_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "WLUNA-EUR"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -27382,7 +29058,8 @@ class WLUNA_EUR(NamedTuple):
 WLUNA_EUR = WLUNA_EUR()
 """
     name: WLUNA-EUR
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -27395,7 +29072,8 @@ WLUNA_EUR = WLUNA_EUR()
 class WLUNA_GBP(NamedTuple):
     """
         name: WLUNA-GBP
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -27404,7 +29082,8 @@ class WLUNA_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "WLUNA-GBP"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -27431,7 +29110,8 @@ class WLUNA_GBP(NamedTuple):
 WLUNA_GBP = WLUNA_GBP()
 """
     name: WLUNA-GBP
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -27444,7 +29124,8 @@ WLUNA_GBP = WLUNA_GBP()
 class WLUNA_USD(NamedTuple):
     """
         name: WLUNA-USD
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27453,7 +29134,8 @@ class WLUNA_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "WLUNA-USD"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27480,7 +29162,8 @@ class WLUNA_USD(NamedTuple):
 WLUNA_USD = WLUNA_USD()
 """
     name: WLUNA-USD
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27493,7 +29176,8 @@ WLUNA_USD = WLUNA_USD()
 class WLUNA_USDT(NamedTuple):
     """
         name: WLUNA-USDT
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27502,7 +29186,8 @@ class WLUNA_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "WLUNA-USDT"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27529,7 +29214,8 @@ class WLUNA_USDT(NamedTuple):
 WLUNA_USDT = WLUNA_USDT()
 """
     name: WLUNA-USDT
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27542,7 +29228,8 @@ WLUNA_USDT = WLUNA_USDT()
 class XCN_USD(NamedTuple):
     """
         name: XCN-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27551,7 +29238,8 @@ class XCN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "XCN-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27578,7 +29266,8 @@ class XCN_USD(NamedTuple):
 XCN_USD = XCN_USD()
 """
     name: XCN-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27591,7 +29280,8 @@ XCN_USD = XCN_USD()
 class XCN_USDT(NamedTuple):
     """
         name: XCN-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27600,7 +29290,8 @@ class XCN_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "XCN-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27627,7 +29318,8 @@ class XCN_USDT(NamedTuple):
 XCN_USDT = XCN_USDT()
 """
     name: XCN-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27640,7 +29332,8 @@ XCN_USDT = XCN_USDT()
 class XLM_BTC(NamedTuple):
     """
         name: XLM-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -27649,7 +29342,8 @@ class XLM_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "XLM-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -27676,7 +29370,8 @@ class XLM_BTC(NamedTuple):
 XLM_BTC = XLM_BTC()
 """
     name: XLM-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -27689,7 +29384,8 @@ XLM_BTC = XLM_BTC()
 class XLM_EUR(NamedTuple):
     """
         name: XLM-EUR
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -27698,7 +29394,8 @@ class XLM_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "XLM-EUR"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -27725,7 +29422,8 @@ class XLM_EUR(NamedTuple):
 XLM_EUR = XLM_EUR()
 """
     name: XLM-EUR
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -27738,7 +29436,8 @@ XLM_EUR = XLM_EUR()
 class XLM_USD(NamedTuple):
     """
         name: XLM-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27747,7 +29446,8 @@ class XLM_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "XLM-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27774,7 +29474,8 @@ class XLM_USD(NamedTuple):
 XLM_USD = XLM_USD()
 """
     name: XLM-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27787,7 +29488,8 @@ XLM_USD = XLM_USD()
 class XLM_USDT(NamedTuple):
     """
         name: XLM-USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -27796,7 +29498,8 @@ class XLM_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "XLM-USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -27823,7 +29526,8 @@ class XLM_USDT(NamedTuple):
 XLM_USDT = XLM_USDT()
 """
     name: XLM-USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -27836,7 +29540,8 @@ XLM_USDT = XLM_USDT()
 class XRP_BTC(NamedTuple):
     """
         name: XRP-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.001
@@ -27845,7 +29550,8 @@ class XRP_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "XRP-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.001
@@ -27872,7 +29578,8 @@ class XRP_BTC(NamedTuple):
 XRP_BTC = XRP_BTC()
 """
     name: XRP-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.001
@@ -27885,7 +29592,8 @@ XRP_BTC = XRP_BTC()
 class XRP_EUR(NamedTuple):
     """
         name: XRP-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 10
@@ -27894,7 +29602,8 @@ class XRP_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "XRP-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 10
@@ -27921,7 +29630,8 @@ class XRP_EUR(NamedTuple):
 XRP_EUR = XRP_EUR()
 """
     name: XRP-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 10
@@ -27934,7 +29644,8 @@ XRP_EUR = XRP_EUR()
 class XRP_GBP(NamedTuple):
     """
         name: XRP-GBP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 10
@@ -27943,7 +29654,8 @@ class XRP_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "XRP-GBP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 10
@@ -27970,7 +29682,8 @@ class XRP_GBP(NamedTuple):
 XRP_GBP = XRP_GBP()
 """
     name: XRP-GBP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 10
@@ -27983,7 +29696,8 @@ XRP_GBP = XRP_GBP()
 class XRP_USD(NamedTuple):
     """
         name: XRP-USD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 10
@@ -27992,7 +29706,8 @@ class XRP_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "XRP-USD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 10
@@ -28019,7 +29734,8 @@ class XRP_USD(NamedTuple):
 XRP_USD = XRP_USD()
 """
     name: XRP-USD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 10
@@ -28032,7 +29748,8 @@ XRP_USD = XRP_USD()
 class XTZ_BTC(NamedTuple):
     """
         name: XTZ-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -28041,7 +29758,8 @@ class XTZ_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "XTZ-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -28068,7 +29786,8 @@ class XTZ_BTC(NamedTuple):
 XTZ_BTC = XTZ_BTC()
 """
     name: XTZ-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -28081,7 +29800,8 @@ XTZ_BTC = XTZ_BTC()
 class XTZ_EUR(NamedTuple):
     """
         name: XTZ-EUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -28090,7 +29810,8 @@ class XTZ_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "XTZ-EUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -28117,7 +29838,8 @@ class XTZ_EUR(NamedTuple):
 XTZ_EUR = XTZ_EUR()
 """
     name: XTZ-EUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -28130,7 +29852,8 @@ XTZ_EUR = XTZ_EUR()
 class XTZ_GBP(NamedTuple):
     """
         name: XTZ-GBP
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 0.72
@@ -28139,7 +29862,8 @@ class XTZ_GBP(NamedTuple):
         exchange: coinbase
     """
     name: str = "XTZ-GBP"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.72
@@ -28166,7 +29890,8 @@ class XTZ_GBP(NamedTuple):
 XTZ_GBP = XTZ_GBP()
 """
     name: XTZ-GBP
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 0.72
@@ -28179,7 +29904,8 @@ XTZ_GBP = XTZ_GBP()
 class XTZ_USD(NamedTuple):
     """
         name: XTZ-USD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28188,7 +29914,8 @@ class XTZ_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "XTZ-USD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28215,7 +29942,8 @@ class XTZ_USD(NamedTuple):
 XTZ_USD = XTZ_USD()
 """
     name: XTZ-USD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28228,7 +29956,8 @@ XTZ_USD = XTZ_USD()
 class XYO_BTC(NamedTuple):
     """
         name: XYO-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -28237,7 +29966,8 @@ class XYO_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "XYO-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -28264,7 +29994,8 @@ class XYO_BTC(NamedTuple):
 XYO_BTC = XYO_BTC()
 """
     name: XYO-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -28277,7 +30008,8 @@ XYO_BTC = XYO_BTC()
 class XYO_EUR(NamedTuple):
     """
         name: XYO-EUR
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -28286,7 +30018,8 @@ class XYO_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "XYO-EUR"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -28313,7 +30046,8 @@ class XYO_EUR(NamedTuple):
 XYO_EUR = XYO_EUR()
 """
     name: XYO-EUR
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -28326,7 +30060,8 @@ XYO_EUR = XYO_EUR()
 class XYO_USD(NamedTuple):
     """
         name: XYO-USD
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28335,7 +30070,8 @@ class XYO_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "XYO-USD"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28362,7 +30098,8 @@ class XYO_USD(NamedTuple):
 XYO_USD = XYO_USD()
 """
     name: XYO-USD
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28375,7 +30112,8 @@ XYO_USD = XYO_USD()
 class XYO_USDT(NamedTuple):
     """
         name: XYO-USDT
-        precision: 0.00001
+        significant_digits: None
+        tick_size: 0.00001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28384,7 +30122,8 @@ class XYO_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "XYO-USDT"
-    precision: int = 0.00001
+    significant_digits: int = None
+    tick_size: int = 0.00001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28411,7 +30150,8 @@ class XYO_USDT(NamedTuple):
 XYO_USDT = XYO_USDT()
 """
     name: XYO-USDT
-    precision: 0.00001
+    significant_digits: None
+    tick_size: 0.00001
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28424,7 +30164,8 @@ XYO_USDT = XYO_USDT()
 class YFI_BTC(NamedTuple):
     """
         name: YFI-BTC
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.00001
@@ -28433,7 +30174,8 @@ class YFI_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "YFI-BTC"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.00001
@@ -28460,7 +30202,8 @@ class YFI_BTC(NamedTuple):
 YFI_BTC = YFI_BTC()
 """
     name: YFI-BTC
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.00001
@@ -28473,7 +30216,8 @@ YFI_BTC = YFI_BTC()
 class YFI_USD(NamedTuple):
     """
         name: YFI-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28482,7 +30226,8 @@ class YFI_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "YFI-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28509,7 +30254,8 @@ class YFI_USD(NamedTuple):
 YFI_USD = YFI_USD()
 """
     name: YFI-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28522,7 +30268,8 @@ YFI_USD = YFI_USD()
 class YFII_USD(NamedTuple):
     """
         name: YFII-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28531,7 +30278,8 @@ class YFII_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "YFII-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28558,7 +30306,8 @@ class YFII_USD(NamedTuple):
 YFII_USD = YFII_USD()
 """
     name: YFII-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28571,7 +30320,8 @@ YFII_USD = YFII_USD()
 class ZEC_BTC(NamedTuple):
     """
         name: ZEC-BTC
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -28580,7 +30330,8 @@ class ZEC_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEC-BTC"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -28607,7 +30358,8 @@ class ZEC_BTC(NamedTuple):
 ZEC_BTC = ZEC_BTC()
 """
     name: ZEC-BTC
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -28620,7 +30372,8 @@ ZEC_BTC = ZEC_BTC()
 class ZEC_USD(NamedTuple):
     """
         name: ZEC-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28629,7 +30382,8 @@ class ZEC_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEC-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28656,7 +30410,8 @@ class ZEC_USD(NamedTuple):
 ZEC_USD = ZEC_USD()
 """
     name: ZEC-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28669,7 +30424,8 @@ ZEC_USD = ZEC_USD()
 class ZEC_USDC(NamedTuple):
     """
         name: ZEC-USDC
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28678,7 +30434,8 @@ class ZEC_USDC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEC-USDC"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28705,7 +30462,8 @@ class ZEC_USDC(NamedTuple):
 ZEC_USDC = ZEC_USDC()
 """
     name: ZEC-USDC
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28718,7 +30476,8 @@ ZEC_USDC = ZEC_USDC()
 class ZEN_BTC(NamedTuple):
     """
         name: ZEN-BTC
-        precision: 0.0000001
+        significant_digits: None
+        tick_size: 0.0000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -28727,7 +30486,8 @@ class ZEN_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEN-BTC"
-    precision: int = 0.0000001
+    significant_digits: int = None
+    tick_size: int = 0.0000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -28754,7 +30514,8 @@ class ZEN_BTC(NamedTuple):
 ZEN_BTC = ZEN_BTC()
 """
     name: ZEN-BTC
-    precision: 0.0000001
+    significant_digits: None
+    tick_size: 0.0000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -28767,7 +30528,8 @@ ZEN_BTC = ZEN_BTC()
 class ZEN_USD(NamedTuple):
     """
         name: ZEN-USD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28776,7 +30538,8 @@ class ZEN_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEN-USD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28803,7 +30566,8 @@ class ZEN_USD(NamedTuple):
 ZEN_USD = ZEN_USD()
 """
     name: ZEN-USD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28816,7 +30580,8 @@ ZEN_USD = ZEN_USD()
 class ZEN_USDT(NamedTuple):
     """
         name: ZEN-USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28825,7 +30590,8 @@ class ZEN_USDT(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZEN-USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28852,7 +30618,8 @@ class ZEN_USDT(NamedTuple):
 ZEN_USDT = ZEN_USDT()
 """
     name: ZEN-USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: 1
@@ -28865,7 +30632,8 @@ ZEN_USDT = ZEN_USDT()
 class ZRX_BTC(NamedTuple):
     """
         name: ZRX-BTC
-        precision: 0.00000001
+        significant_digits: None
+        tick_size: 0.00000001
         min_margin: None
         initial_margin: None
         min_order_size: 0.000016
@@ -28874,7 +30642,8 @@ class ZRX_BTC(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZRX-BTC"
-    precision: int = 0.00000001
+    significant_digits: int = None
+    tick_size: int = 0.00000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.000016
@@ -28901,7 +30670,8 @@ class ZRX_BTC(NamedTuple):
 ZRX_BTC = ZRX_BTC()
 """
     name: ZRX-BTC
-    precision: 0.00000001
+    significant_digits: None
+    tick_size: 0.00000001
     min_margin: None
     initial_margin: None
     min_order_size: 0.000016
@@ -28914,7 +30684,8 @@ ZRX_BTC = ZRX_BTC()
 class ZRX_EUR(NamedTuple):
     """
         name: ZRX-EUR
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: 0.84
@@ -28923,7 +30694,8 @@ class ZRX_EUR(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZRX-EUR"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 0.84
@@ -28950,7 +30722,8 @@ class ZRX_EUR(NamedTuple):
 ZRX_EUR = ZRX_EUR()
 """
     name: ZRX-EUR
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: 0.84
@@ -28963,7 +30736,8 @@ ZRX_EUR = ZRX_EUR()
 class ZRX_USD(NamedTuple):
     """
         name: ZRX-USD
-        precision: 0.000001
+        significant_digits: None
+        tick_size: 0.000001
         min_margin: None
         initial_margin: None
         min_order_size: 1
@@ -28972,7 +30746,8 @@ class ZRX_USD(NamedTuple):
         exchange: coinbase
     """
     name: str = "ZRX-USD"
-    precision: int = 0.000001
+    significant_digits: int = None
+    tick_size: int = 0.000001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = 1
@@ -28999,7 +30774,8 @@ class ZRX_USD(NamedTuple):
 ZRX_USD = ZRX_USD()
 """
     name: ZRX-USD
-    precision: 0.000001
+    significant_digits: None
+    tick_size: 0.000001
     min_margin: None
     initial_margin: None
     min_order_size: 1

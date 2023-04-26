@@ -4,7 +4,8 @@ from typing import NamedTuple
 class _EVOL7D(NamedTuple):
     """
         name: .EVOL7D
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13,7 +14,8 @@ class _EVOL7D(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EVOL7D"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -40,7 +42,8 @@ class _EVOL7D(NamedTuple):
 _EVOL7D = _EVOL7D()
 """
     name: .EVOL7D
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -53,7 +56,8 @@ _EVOL7D = _EVOL7D()
 class _BADAXBT(NamedTuple):
     """
         name: .BADAXBT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -62,7 +66,8 @@ class _BADAXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAXBT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -89,7 +94,8 @@ class _BADAXBT(NamedTuple):
 _BADAXBT = _BADAXBT()
 """
     name: .BADAXBT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -102,7 +108,8 @@ _BADAXBT = _BADAXBT()
 class _BADAXBT30M(NamedTuple):
     """
         name: .BADAXBT30M
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -111,7 +118,8 @@ class _BADAXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAXBT30M"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -138,7 +146,8 @@ class _BADAXBT30M(NamedTuple):
 _BADAXBT30M = _BADAXBT30M()
 """
     name: .BADAXBT30M
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -151,7 +160,8 @@ _BADAXBT30M = _BADAXBT30M()
 class _BBCHXBT(NamedTuple):
     """
         name: .BBCHXBT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -160,7 +170,8 @@ class _BBCHXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCHXBT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -187,7 +198,8 @@ class _BBCHXBT(NamedTuple):
 _BBCHXBT = _BBCHXBT()
 """
     name: .BBCHXBT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -200,7 +212,8 @@ _BBCHXBT = _BBCHXBT()
 class _BBCHXBT30M(NamedTuple):
     """
         name: .BBCHXBT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -209,7 +222,8 @@ class _BBCHXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCHXBT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -236,7 +250,8 @@ class _BBCHXBT30M(NamedTuple):
 _BBCHXBT30M = _BBCHXBT30M()
 """
     name: .BBCHXBT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -249,7 +264,8 @@ _BBCHXBT30M = _BBCHXBT30M()
 class _BEOSXBT(NamedTuple):
     """
         name: .BEOSXBT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -258,7 +274,8 @@ class _BEOSXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOSXBT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -285,7 +302,8 @@ class _BEOSXBT(NamedTuple):
 _BEOSXBT = _BEOSXBT()
 """
     name: .BEOSXBT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -298,7 +316,8 @@ _BEOSXBT = _BEOSXBT()
 class _BEOSXBT30M(NamedTuple):
     """
         name: .BEOSXBT30M
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -307,7 +326,8 @@ class _BEOSXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOSXBT30M"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -334,7 +354,8 @@ class _BEOSXBT30M(NamedTuple):
 _BEOSXBT30M = _BEOSXBT30M()
 """
     name: .BEOSXBT30M
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -347,7 +368,8 @@ _BEOSXBT30M = _BEOSXBT30M()
 class _BXRPXBT(NamedTuple):
     """
         name: .BXRPXBT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -356,7 +378,8 @@ class _BXRPXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRPXBT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -383,7 +406,8 @@ class _BXRPXBT(NamedTuple):
 _BXRPXBT = _BXRPXBT()
 """
     name: .BXRPXBT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -396,7 +420,8 @@ _BXRPXBT = _BXRPXBT()
 class _BXRPXBT30M(NamedTuple):
     """
         name: .BXRPXBT30M
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -405,7 +430,8 @@ class _BXRPXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRPXBT30M"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -432,7 +458,8 @@ class _BXRPXBT30M(NamedTuple):
 _BXRPXBT30M = _BXRPXBT30M()
 """
     name: .BXRPXBT30M
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -445,7 +472,8 @@ _BXRPXBT30M = _BXRPXBT30M()
 class _BTRXXBT(NamedTuple):
     """
         name: .BTRXXBT
-        precision: 1e-10
+        significant_digits: None
+        tick_size: 1e-10
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -454,7 +482,8 @@ class _BTRXXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXXBT"
-    precision: int = 1e-10
+    significant_digits: int = None
+    tick_size: int = 1e-10
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -481,7 +510,8 @@ class _BTRXXBT(NamedTuple):
 _BTRXXBT = _BTRXXBT()
 """
     name: .BTRXXBT
-    precision: 1e-10
+    significant_digits: None
+    tick_size: 1e-10
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -494,7 +524,8 @@ _BTRXXBT = _BTRXXBT()
 class _BTRXXBT30M(NamedTuple):
     """
         name: .BTRXXBT30M
-        precision: 1e-10
+        significant_digits: None
+        tick_size: 1e-10
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -503,7 +534,8 @@ class _BTRXXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXXBT30M"
-    precision: int = 1e-10
+    significant_digits: int = None
+    tick_size: int = 1e-10
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -530,7 +562,8 @@ class _BTRXXBT30M(NamedTuple):
 _BTRXXBT30M = _BTRXXBT30M()
 """
     name: .BTRXXBT30M
-    precision: 1e-10
+    significant_digits: None
+    tick_size: 1e-10
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -543,7 +576,8 @@ _BTRXXBT30M = _BTRXXBT30M()
 class _BADAXBT_NEXT(NamedTuple):
     """
         name: .BADAXBT_NEXT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -552,7 +586,8 @@ class _BADAXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAXBT_NEXT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -579,7 +614,8 @@ class _BADAXBT_NEXT(NamedTuple):
 _BADAXBT_NEXT = _BADAXBT_NEXT()
 """
     name: .BADAXBT_NEXT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -592,7 +628,8 @@ _BADAXBT_NEXT = _BADAXBT_NEXT()
 class _BBCHXBT_NEXT(NamedTuple):
     """
         name: .BBCHXBT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -601,7 +638,8 @@ class _BBCHXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCHXBT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -628,7 +666,8 @@ class _BBCHXBT_NEXT(NamedTuple):
 _BBCHXBT_NEXT = _BBCHXBT_NEXT()
 """
     name: .BBCHXBT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -641,7 +680,8 @@ _BBCHXBT_NEXT = _BBCHXBT_NEXT()
 class _BEOSXBT_NEXT(NamedTuple):
     """
         name: .BEOSXBT_NEXT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -650,7 +690,8 @@ class _BEOSXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOSXBT_NEXT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -677,7 +718,8 @@ class _BEOSXBT_NEXT(NamedTuple):
 _BEOSXBT_NEXT = _BEOSXBT_NEXT()
 """
     name: .BEOSXBT_NEXT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -690,7 +732,8 @@ _BEOSXBT_NEXT = _BEOSXBT_NEXT()
 class _BTRXXBT_NEXT(NamedTuple):
     """
         name: .BTRXXBT_NEXT
-        precision: 1e-10
+        significant_digits: None
+        tick_size: 1e-10
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -699,7 +742,8 @@ class _BTRXXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXXBT_NEXT"
-    precision: int = 1e-10
+    significant_digits: int = None
+    tick_size: int = 1e-10
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -726,7 +770,8 @@ class _BTRXXBT_NEXT(NamedTuple):
 _BTRXXBT_NEXT = _BTRXXBT_NEXT()
 """
     name: .BTRXXBT_NEXT
-    precision: 1e-10
+    significant_digits: None
+    tick_size: 1e-10
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -739,7 +784,8 @@ _BTRXXBT_NEXT = _BTRXXBT_NEXT()
 class _BXRPXBT_NEXT(NamedTuple):
     """
         name: .BXRPXBT_NEXT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -748,7 +794,8 @@ class _BXRPXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRPXBT_NEXT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -775,7 +822,8 @@ class _BXRPXBT_NEXT(NamedTuple):
 _BXRPXBT_NEXT = _BXRPXBT_NEXT()
 """
     name: .BXRPXBT_NEXT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -788,7 +836,8 @@ _BXRPXBT_NEXT = _BXRPXBT_NEXT()
 class _BXRP_NEXT(NamedTuple):
     """
         name: .BXRP_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -797,7 +846,8 @@ class _BXRP_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRP_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -824,7 +874,8 @@ class _BXRP_NEXT(NamedTuple):
 _BXRP_NEXT = _BXRP_NEXT()
 """
     name: .BXRP_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -837,7 +888,8 @@ _BXRP_NEXT = _BXRP_NEXT()
 class _BXRP(NamedTuple):
     """
         name: .BXRP
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -846,7 +898,8 @@ class _BXRP(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRP"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -873,7 +926,8 @@ class _BXRP(NamedTuple):
 _BXRP = _BXRP()
 """
     name: .BXRP
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -886,7 +940,8 @@ _BXRP = _BXRP()
 class _XRPBON(NamedTuple):
     """
         name: .XRPBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -895,7 +950,8 @@ class _XRPBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -922,7 +978,8 @@ class _XRPBON(NamedTuple):
 _XRPBON = _XRPBON()
 """
     name: .XRPBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -935,7 +992,8 @@ _XRPBON = _XRPBON()
 class _XRPBON8H(NamedTuple):
     """
         name: .XRPBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -944,7 +1002,8 @@ class _XRPBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -971,7 +1030,8 @@ class _XRPBON8H(NamedTuple):
 _XRPBON8H = _XRPBON8H()
 """
     name: .XRPBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -984,7 +1044,8 @@ _XRPBON8H = _XRPBON8H()
 class _XRPUSDPI(NamedTuple):
     """
         name: .XRPUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -993,7 +1054,8 @@ class _XRPUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1020,7 +1082,8 @@ class _XRPUSDPI(NamedTuple):
 _XRPUSDPI = _XRPUSDPI()
 """
     name: .XRPUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1033,7 +1096,8 @@ _XRPUSDPI = _XRPUSDPI()
 class _XRPUSDPI8H(NamedTuple):
     """
         name: .XRPUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1042,7 +1106,8 @@ class _XRPUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1069,7 +1134,8 @@ class _XRPUSDPI8H(NamedTuple):
 _XRPUSDPI8H = _XRPUSDPI8H()
 """
     name: .XRPUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1082,7 +1148,8 @@ _XRPUSDPI8H = _XRPUSDPI8H()
 class _BBCH(NamedTuple):
     """
         name: .BBCH
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1091,7 +1158,8 @@ class _BBCH(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCH"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1118,7 +1186,8 @@ class _BBCH(NamedTuple):
 _BBCH = _BBCH()
 """
     name: .BBCH
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1131,7 +1200,8 @@ _BBCH = _BBCH()
 class _BCHBON(NamedTuple):
     """
         name: .BCHBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1140,7 +1210,8 @@ class _BCHBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1167,7 +1238,8 @@ class _BCHBON(NamedTuple):
 _BCHBON = _BCHBON()
 """
     name: .BCHBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1180,7 +1252,8 @@ _BCHBON = _BCHBON()
 class _BCHBON8H(NamedTuple):
     """
         name: .BCHBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1189,7 +1262,8 @@ class _BCHBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1216,7 +1290,8 @@ class _BCHBON8H(NamedTuple):
 _BCHBON8H = _BCHBON8H()
 """
     name: .BCHBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1229,7 +1304,8 @@ _BCHBON8H = _BCHBON8H()
 class _BCHUSDPI(NamedTuple):
     """
         name: .BCHUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1238,7 +1314,8 @@ class _BCHUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1265,7 +1342,8 @@ class _BCHUSDPI(NamedTuple):
 _BCHUSDPI = _BCHUSDPI()
 """
     name: .BCHUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1278,7 +1356,8 @@ _BCHUSDPI = _BCHUSDPI()
 class _BCHUSDPI8H(NamedTuple):
     """
         name: .BCHUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1287,7 +1366,8 @@ class _BCHUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1314,7 +1394,8 @@ class _BCHUSDPI8H(NamedTuple):
 _BCHUSDPI8H = _BCHUSDPI8H()
 """
     name: .BCHUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1327,7 +1408,8 @@ _BCHUSDPI8H = _BCHUSDPI8H()
 class _BBCH_NEXT(NamedTuple):
     """
         name: .BBCH_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1336,7 +1418,8 @@ class _BBCH_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCH_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1363,7 +1446,8 @@ class _BBCH_NEXT(NamedTuple):
 _BBCH_NEXT = _BBCH_NEXT()
 """
     name: .BBCH_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1376,7 +1460,8 @@ _BBCH_NEXT = _BBCH_NEXT()
 class _BUSDT(NamedTuple):
     """
         name: .BUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1385,7 +1470,8 @@ class _BUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1412,7 +1498,8 @@ class _BUSDT(NamedTuple):
 _BUSDT = _BUSDT()
 """
     name: .BUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1425,7 +1512,8 @@ _BUSDT = _BUSDT()
 class _BUSDT_NEXT(NamedTuple):
     """
         name: .BUSDT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1434,7 +1522,8 @@ class _BUSDT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1461,7 +1550,8 @@ class _BUSDT_NEXT(NamedTuple):
 _BUSDT_NEXT = _BUSDT_NEXT()
 """
     name: .BUSDT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1474,7 +1564,8 @@ _BUSDT_NEXT = _BUSDT_NEXT()
 class _BEOST(NamedTuple):
     """
         name: .BEOST
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1483,7 +1574,8 @@ class _BEOST(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOST"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1510,7 +1602,8 @@ class _BEOST(NamedTuple):
 _BEOST = _BEOST()
 """
     name: .BEOST
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1523,7 +1616,8 @@ _BEOST = _BEOST()
 class _BEOST_NEXT(NamedTuple):
     """
         name: .BEOST_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1532,7 +1626,8 @@ class _BEOST_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOST_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1559,7 +1654,8 @@ class _BEOST_NEXT(NamedTuple):
 _BEOST_NEXT = _BEOST_NEXT()
 """
     name: .BEOST_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1572,7 +1668,8 @@ _BEOST_NEXT = _BEOST_NEXT()
 class _BEOST30M(NamedTuple):
     """
         name: .BEOST30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1581,7 +1678,8 @@ class _BEOST30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOST30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1608,7 +1706,8 @@ class _BEOST30M(NamedTuple):
 _BEOST30M = _BEOST30M()
 """
     name: .BEOST30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1621,7 +1720,8 @@ _BEOST30M = _BEOST30M()
 class _BLINKT(NamedTuple):
     """
         name: .BLINKT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1630,7 +1730,8 @@ class _BLINKT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLINKT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1657,7 +1758,8 @@ class _BLINKT(NamedTuple):
 _BLINKT = _BLINKT()
 """
     name: .BLINKT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1670,7 +1772,8 @@ _BLINKT = _BLINKT()
 class _BLINKT_NEXT(NamedTuple):
     """
         name: .BLINKT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1679,7 +1782,8 @@ class _BLINKT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLINKT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1706,7 +1810,8 @@ class _BLINKT_NEXT(NamedTuple):
 _BLINKT_NEXT = _BLINKT_NEXT()
 """
     name: .BLINKT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1719,7 +1824,8 @@ _BLINKT_NEXT = _BLINKT_NEXT()
 class _BLINKT30M(NamedTuple):
     """
         name: .BLINKT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1728,7 +1834,8 @@ class _BLINKT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLINKT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1755,7 +1862,8 @@ class _BLINKT30M(NamedTuple):
 _BLINKT30M = _BLINKT30M()
 """
     name: .BLINKT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1768,7 +1876,8 @@ _BLINKT30M = _BLINKT30M()
 class _BADAT(NamedTuple):
     """
         name: .BADAT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1777,7 +1886,8 @@ class _BADAT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1804,7 +1914,8 @@ class _BADAT(NamedTuple):
 _BADAT = _BADAT()
 """
     name: .BADAT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1817,7 +1928,8 @@ _BADAT = _BADAT()
 class _BADAT_NEXT(NamedTuple):
     """
         name: .BADAT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1826,7 +1938,8 @@ class _BADAT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1853,7 +1966,8 @@ class _BADAT_NEXT(NamedTuple):
 _BADAT_NEXT = _BADAT_NEXT()
 """
     name: .BADAT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1866,7 +1980,8 @@ _BADAT_NEXT = _BADAT_NEXT()
 class _BADAT30M(NamedTuple):
     """
         name: .BADAT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1875,7 +1990,8 @@ class _BADAT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADAT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1902,7 +2018,8 @@ class _BADAT30M(NamedTuple):
 _BADAT30M = _BADAT30M()
 """
     name: .BADAT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1915,7 +2032,8 @@ _BADAT30M = _BADAT30M()
 class _BXTZT(NamedTuple):
     """
         name: .BXTZT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1924,7 +2042,8 @@ class _BXTZT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXTZT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -1951,7 +2070,8 @@ class _BXTZT(NamedTuple):
 _BXTZT = _BXTZT()
 """
     name: .BXTZT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -1964,7 +2084,8 @@ _BXTZT = _BXTZT()
 class _BXTZT_NEXT(NamedTuple):
     """
         name: .BXTZT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -1973,7 +2094,8 @@ class _BXTZT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXTZT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2000,7 +2122,8 @@ class _BXTZT_NEXT(NamedTuple):
 _BXTZT_NEXT = _BXTZT_NEXT()
 """
     name: .BXTZT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2013,7 +2136,8 @@ _BXTZT_NEXT = _BXTZT_NEXT()
 class _BXTZT30M(NamedTuple):
     """
         name: .BXTZT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2022,7 +2146,8 @@ class _BXTZT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXTZT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2049,7 +2174,8 @@ class _BXTZT30M(NamedTuple):
 _BXTZT30M = _BXTZT30M()
 """
     name: .BXTZT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2062,7 +2188,8 @@ _BXTZT30M = _BXTZT30M()
 class _LINKBON(NamedTuple):
     """
         name: .LINKBON
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2071,7 +2198,8 @@ class _LINKBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKBON"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2098,7 +2226,8 @@ class _LINKBON(NamedTuple):
 _LINKBON = _LINKBON()
 """
     name: .LINKBON
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2111,7 +2240,8 @@ _LINKBON = _LINKBON()
 class _LINKBON8H(NamedTuple):
     """
         name: .LINKBON8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2120,7 +2250,8 @@ class _LINKBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKBON8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2147,7 +2278,8 @@ class _LINKBON8H(NamedTuple):
 _LINKBON8H = _LINKBON8H()
 """
     name: .LINKBON8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2160,7 +2292,8 @@ _LINKBON8H = _LINKBON8H()
 class _LINKUSDTPI(NamedTuple):
     """
         name: .LINKUSDTPI
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2169,7 +2302,8 @@ class _LINKUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKUSDTPI"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2196,7 +2330,8 @@ class _LINKUSDTPI(NamedTuple):
 _LINKUSDTPI = _LINKUSDTPI()
 """
     name: .LINKUSDTPI
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2209,7 +2344,8 @@ _LINKUSDTPI = _LINKUSDTPI()
 class _LINKUSDTPI8H(NamedTuple):
     """
         name: .LINKUSDTPI8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2218,7 +2354,8 @@ class _LINKUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKUSDTPI8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2245,7 +2382,8 @@ class _LINKUSDTPI8H(NamedTuple):
 _LINKUSDTPI8H = _LINKUSDTPI8H()
 """
     name: .LINKUSDTPI8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2258,7 +2396,8 @@ _LINKUSDTPI8H = _LINKUSDTPI8H()
 class _USDTBON(NamedTuple):
     """
         name: .USDTBON
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2267,7 +2406,8 @@ class _USDTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTBON"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2294,7 +2434,8 @@ class _USDTBON(NamedTuple):
 _USDTBON = _USDTBON()
 """
     name: .USDTBON
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2307,7 +2448,8 @@ _USDTBON = _USDTBON()
 class _USDTBON8H(NamedTuple):
     """
         name: .USDTBON8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2316,7 +2458,8 @@ class _USDTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTBON8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2343,7 +2486,8 @@ class _USDTBON8H(NamedTuple):
 _USDTBON8H = _USDTBON8H()
 """
     name: .USDTBON8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2356,7 +2500,8 @@ _USDTBON8H = _USDTBON8H()
 class _BBNBT(NamedTuple):
     """
         name: .BBNBT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2365,7 +2510,8 @@ class _BBNBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBNBT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2392,7 +2538,8 @@ class _BBNBT(NamedTuple):
 _BBNBT = _BBNBT()
 """
     name: .BBNBT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2405,7 +2552,8 @@ _BBNBT = _BBNBT()
 class _BBNBT_NEXT(NamedTuple):
     """
         name: .BBNBT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2414,7 +2562,8 @@ class _BBNBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBNBT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2441,7 +2590,8 @@ class _BBNBT_NEXT(NamedTuple):
 _BBNBT_NEXT = _BBNBT_NEXT()
 """
     name: .BBNBT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2454,7 +2604,8 @@ _BBNBT_NEXT = _BBNBT_NEXT()
 class _BBNBT30M(NamedTuple):
     """
         name: .BBNBT30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2463,7 +2614,8 @@ class _BBNBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBNBT30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2490,7 +2642,8 @@ class _BBNBT30M(NamedTuple):
 _BBNBT30M = _BBNBT30M()
 """
     name: .BBNBT30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2503,7 +2656,8 @@ _BBNBT30M = _BBNBT30M()
 class _BDOTT(NamedTuple):
     """
         name: .BDOTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2512,7 +2666,8 @@ class _BDOTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2539,7 +2694,8 @@ class _BDOTT(NamedTuple):
 _BDOTT = _BDOTT()
 """
     name: .BDOTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2552,7 +2708,8 @@ _BDOTT = _BDOTT()
 class _BDOTT_NEXT(NamedTuple):
     """
         name: .BDOTT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2561,7 +2718,8 @@ class _BDOTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOTT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2588,7 +2746,8 @@ class _BDOTT_NEXT(NamedTuple):
 _BDOTT_NEXT = _BDOTT_NEXT()
 """
     name: .BDOTT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2601,7 +2760,8 @@ _BDOTT_NEXT = _BDOTT_NEXT()
 class _BDOTT30M(NamedTuple):
     """
         name: .BDOTT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2610,7 +2770,8 @@ class _BDOTT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOTT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2637,7 +2798,8 @@ class _BDOTT30M(NamedTuple):
 _BDOTT30M = _BDOTT30M()
 """
     name: .BDOTT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2650,7 +2812,8 @@ _BDOTT30M = _BDOTT30M()
 class _BYFIT(NamedTuple):
     """
         name: .BYFIT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2659,7 +2822,8 @@ class _BYFIT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BYFIT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2686,7 +2850,8 @@ class _BYFIT(NamedTuple):
 _BYFIT = _BYFIT()
 """
     name: .BYFIT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2699,7 +2864,8 @@ _BYFIT = _BYFIT()
 class _BYFIT_NEXT(NamedTuple):
     """
         name: .BYFIT_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2708,7 +2874,8 @@ class _BYFIT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BYFIT_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2735,7 +2902,8 @@ class _BYFIT_NEXT(NamedTuple):
 _BYFIT_NEXT = _BYFIT_NEXT()
 """
     name: .BYFIT_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2748,7 +2916,8 @@ _BYFIT_NEXT = _BYFIT_NEXT()
 class _BYFIT30M(NamedTuple):
     """
         name: .BYFIT30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2757,7 +2926,8 @@ class _BYFIT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BYFIT30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2784,7 +2954,8 @@ class _BYFIT30M(NamedTuple):
 _BYFIT30M = _BYFIT30M()
 """
     name: .BYFIT30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2797,7 +2968,8 @@ _BYFIT30M = _BYFIT30M()
 class _BDOGET(NamedTuple):
     """
         name: .BDOGET
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2806,7 +2978,8 @@ class _BDOGET(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOGET"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2833,7 +3006,8 @@ class _BDOGET(NamedTuple):
 _BDOGET = _BDOGET()
 """
     name: .BDOGET
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2846,7 +3020,8 @@ _BDOGET = _BDOGET()
 class _BDOGET_NEXT(NamedTuple):
     """
         name: .BDOGET_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2855,7 +3030,8 @@ class _BDOGET_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOGET_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2882,7 +3058,8 @@ class _BDOGET_NEXT(NamedTuple):
 _BDOGET_NEXT = _BDOGET_NEXT()
 """
     name: .BDOGET_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2895,7 +3072,8 @@ _BDOGET_NEXT = _BDOGET_NEXT()
 class _DOGEBON(NamedTuple):
     """
         name: .DOGEBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2904,7 +3082,8 @@ class _DOGEBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2931,7 +3110,8 @@ class _DOGEBON(NamedTuple):
 _DOGEBON = _DOGEBON()
 """
     name: .DOGEBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2944,7 +3124,8 @@ _DOGEBON = _DOGEBON()
 class _DOGEBON8H(NamedTuple):
     """
         name: .DOGEBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -2953,7 +3134,8 @@ class _DOGEBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -2980,7 +3162,8 @@ class _DOGEBON8H(NamedTuple):
 _DOGEBON8H = _DOGEBON8H()
 """
     name: .DOGEBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -2993,7 +3176,8 @@ _DOGEBON8H = _DOGEBON8H()
 class _DOGEUSDTPI(NamedTuple):
     """
         name: .DOGEUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3002,7 +3186,8 @@ class _DOGEUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3029,7 +3214,8 @@ class _DOGEUSDTPI(NamedTuple):
 _DOGEUSDTPI = _DOGEUSDTPI()
 """
     name: .DOGEUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3042,7 +3228,8 @@ _DOGEUSDTPI = _DOGEUSDTPI()
 class _DOGEUSDTPI8H(NamedTuple):
     """
         name: .DOGEUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3051,7 +3238,8 @@ class _DOGEUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3078,7 +3266,8 @@ class _DOGEUSDTPI8H(NamedTuple):
 _DOGEUSDTPI8H = _DOGEUSDTPI8H()
 """
     name: .DOGEUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3091,7 +3280,8 @@ _DOGEUSDTPI8H = _DOGEUSDTPI8H()
 class _BNBBON(NamedTuple):
     """
         name: .BNBBON
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3100,7 +3290,8 @@ class _BNBBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBBON"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3127,7 +3318,8 @@ class _BNBBON(NamedTuple):
 _BNBBON = _BNBBON()
 """
     name: .BNBBON
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3140,7 +3332,8 @@ _BNBBON = _BNBBON()
 class _BNBBON8H(NamedTuple):
     """
         name: .BNBBON8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3149,7 +3342,8 @@ class _BNBBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBBON8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3176,7 +3370,8 @@ class _BNBBON8H(NamedTuple):
 _BNBBON8H = _BNBBON8H()
 """
     name: .BNBBON8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3189,7 +3384,8 @@ _BNBBON8H = _BNBBON8H()
 class _BNBUSDTPI(NamedTuple):
     """
         name: .BNBUSDTPI
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3198,7 +3394,8 @@ class _BNBUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBUSDTPI"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3225,7 +3422,8 @@ class _BNBUSDTPI(NamedTuple):
 _BNBUSDTPI = _BNBUSDTPI()
 """
     name: .BNBUSDTPI
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3238,7 +3436,8 @@ _BNBUSDTPI = _BNBUSDTPI()
 class _BNBUSDTPI8H(NamedTuple):
     """
         name: .BNBUSDTPI8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3247,7 +3446,8 @@ class _BNBUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBUSDTPI8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3274,7 +3474,8 @@ class _BNBUSDTPI8H(NamedTuple):
 _BNBUSDTPI8H = _BNBUSDTPI8H()
 """
     name: .BNBUSDTPI8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3287,7 +3488,8 @@ _BNBUSDTPI8H = _BNBUSDTPI8H()
 class _ADABON(NamedTuple):
     """
         name: .ADABON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3296,7 +3498,8 @@ class _ADABON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADABON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3323,7 +3526,8 @@ class _ADABON(NamedTuple):
 _ADABON = _ADABON()
 """
     name: .ADABON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3336,7 +3540,8 @@ _ADABON = _ADABON()
 class _ADABON8H(NamedTuple):
     """
         name: .ADABON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3345,7 +3550,8 @@ class _ADABON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADABON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3372,7 +3578,8 @@ class _ADABON8H(NamedTuple):
 _ADABON8H = _ADABON8H()
 """
     name: .ADABON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3385,7 +3592,8 @@ _ADABON8H = _ADABON8H()
 class _ADAUSDTPI(NamedTuple):
     """
         name: .ADAUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3394,7 +3602,8 @@ class _ADAUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADAUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3421,7 +3630,8 @@ class _ADAUSDTPI(NamedTuple):
 _ADAUSDTPI = _ADAUSDTPI()
 """
     name: .ADAUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3434,7 +3644,8 @@ _ADAUSDTPI = _ADAUSDTPI()
 class _ADAUSDTPI8H(NamedTuple):
     """
         name: .ADAUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3443,7 +3654,8 @@ class _ADAUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADAUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3470,7 +3682,8 @@ class _ADAUSDTPI8H(NamedTuple):
 _ADAUSDTPI8H = _ADAUSDTPI8H()
 """
     name: .ADAUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3483,7 +3696,8 @@ _ADAUSDTPI8H = _ADAUSDTPI8H()
 class _DOTBON(NamedTuple):
     """
         name: .DOTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3492,7 +3706,8 @@ class _DOTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3519,7 +3734,8 @@ class _DOTBON(NamedTuple):
 _DOTBON = _DOTBON()
 """
     name: .DOTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3532,7 +3748,8 @@ _DOTBON = _DOTBON()
 class _DOTBON8H(NamedTuple):
     """
         name: .DOTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3541,7 +3758,8 @@ class _DOTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3568,7 +3786,8 @@ class _DOTBON8H(NamedTuple):
 _DOTBON8H = _DOTBON8H()
 """
     name: .DOTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3581,7 +3800,8 @@ _DOTBON8H = _DOTBON8H()
 class _DOTUSDTPI(NamedTuple):
     """
         name: .DOTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3590,7 +3810,8 @@ class _DOTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3617,7 +3838,8 @@ class _DOTUSDTPI(NamedTuple):
 _DOTUSDTPI = _DOTUSDTPI()
 """
     name: .DOTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3630,7 +3852,8 @@ _DOTUSDTPI = _DOTUSDTPI()
 class _DOTUSDTPI8H(NamedTuple):
     """
         name: .DOTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3639,7 +3862,8 @@ class _DOTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3666,7 +3890,8 @@ class _DOTUSDTPI8H(NamedTuple):
 _DOTUSDTPI8H = _DOTUSDTPI8H()
 """
     name: .DOTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3679,7 +3904,8 @@ _DOTUSDTPI8H = _DOTUSDTPI8H()
 class _EOSBON(NamedTuple):
     """
         name: .EOSBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3688,7 +3914,8 @@ class _EOSBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3715,7 +3942,8 @@ class _EOSBON(NamedTuple):
 _EOSBON = _EOSBON()
 """
     name: .EOSBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3728,7 +3956,8 @@ _EOSBON = _EOSBON()
 class _EOSBON8H(NamedTuple):
     """
         name: .EOSBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3737,7 +3966,8 @@ class _EOSBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3764,7 +3994,8 @@ class _EOSBON8H(NamedTuple):
 _EOSBON8H = _EOSBON8H()
 """
     name: .EOSBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3777,7 +4008,8 @@ _EOSBON8H = _EOSBON8H()
 class _EOSUSDTPI(NamedTuple):
     """
         name: .EOSUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3786,7 +4018,8 @@ class _EOSUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3813,7 +4046,8 @@ class _EOSUSDTPI(NamedTuple):
 _EOSUSDTPI = _EOSUSDTPI()
 """
     name: .EOSUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3826,7 +4060,8 @@ _EOSUSDTPI = _EOSUSDTPI()
 class _EOSUSDTPI8H(NamedTuple):
     """
         name: .EOSUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3835,7 +4070,8 @@ class _EOSUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3862,7 +4098,8 @@ class _EOSUSDTPI8H(NamedTuple):
 _EOSUSDTPI8H = _EOSUSDTPI8H()
 """
     name: .EOSUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3875,7 +4112,8 @@ _EOSUSDTPI8H = _EOSUSDTPI8H()
 class _XTZBON(NamedTuple):
     """
         name: .XTZBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3884,7 +4122,8 @@ class _XTZBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XTZBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3911,7 +4150,8 @@ class _XTZBON(NamedTuple):
 _XTZBON = _XTZBON()
 """
     name: .XTZBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3924,7 +4164,8 @@ _XTZBON = _XTZBON()
 class _XTZBON8H(NamedTuple):
     """
         name: .XTZBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3933,7 +4174,8 @@ class _XTZBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XTZBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -3960,7 +4202,8 @@ class _XTZBON8H(NamedTuple):
 _XTZBON8H = _XTZBON8H()
 """
     name: .XTZBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -3973,7 +4216,8 @@ _XTZBON8H = _XTZBON8H()
 class _XTZUSDTPI(NamedTuple):
     """
         name: .XTZUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -3982,7 +4226,8 @@ class _XTZUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XTZUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4009,7 +4254,8 @@ class _XTZUSDTPI(NamedTuple):
 _XTZUSDTPI = _XTZUSDTPI()
 """
     name: .XTZUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4022,7 +4268,8 @@ _XTZUSDTPI = _XTZUSDTPI()
 class _YFIBON(NamedTuple):
     """
         name: .YFIBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4031,7 +4278,8 @@ class _YFIBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".YFIBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4058,7 +4306,8 @@ class _YFIBON(NamedTuple):
 _YFIBON = _YFIBON()
 """
     name: .YFIBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4071,7 +4320,8 @@ _YFIBON = _YFIBON()
 class _YFIBON8H(NamedTuple):
     """
         name: .YFIBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4080,7 +4330,8 @@ class _YFIBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".YFIBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4107,7 +4358,8 @@ class _YFIBON8H(NamedTuple):
 _YFIBON8H = _YFIBON8H()
 """
     name: .YFIBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4120,7 +4372,8 @@ _YFIBON8H = _YFIBON8H()
 class _YFIUSDTPI(NamedTuple):
     """
         name: .YFIUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4129,7 +4382,8 @@ class _YFIUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".YFIUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4156,7 +4410,8 @@ class _YFIUSDTPI(NamedTuple):
 _YFIUSDTPI = _YFIUSDTPI()
 """
     name: .YFIUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4169,7 +4424,8 @@ _YFIUSDTPI = _YFIUSDTPI()
 class _BAAVET(NamedTuple):
     """
         name: .BAAVET
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4178,7 +4434,8 @@ class _BAAVET(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAAVET"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4205,7 +4462,8 @@ class _BAAVET(NamedTuple):
 _BAAVET = _BAAVET()
 """
     name: .BAAVET
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4218,7 +4476,8 @@ _BAAVET = _BAAVET()
 class _BAAVET_NEXT(NamedTuple):
     """
         name: .BAAVET_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4227,7 +4486,8 @@ class _BAAVET_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAAVET_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4254,7 +4514,8 @@ class _BAAVET_NEXT(NamedTuple):
 _BAAVET_NEXT = _BAAVET_NEXT()
 """
     name: .BAAVET_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4267,7 +4528,8 @@ _BAAVET_NEXT = _BAAVET_NEXT()
 class _AAVEBON(NamedTuple):
     """
         name: .AAVEBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4276,7 +4538,8 @@ class _AAVEBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AAVEBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4303,7 +4566,8 @@ class _AAVEBON(NamedTuple):
 _AAVEBON = _AAVEBON()
 """
     name: .AAVEBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4316,7 +4580,8 @@ _AAVEBON = _AAVEBON()
 class _AAVEBON8H(NamedTuple):
     """
         name: .AAVEBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4325,7 +4590,8 @@ class _AAVEBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AAVEBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4352,7 +4618,8 @@ class _AAVEBON8H(NamedTuple):
 _AAVEBON8H = _AAVEBON8H()
 """
     name: .AAVEBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4365,7 +4632,8 @@ _AAVEBON8H = _AAVEBON8H()
 class _AAVEUSDTPI(NamedTuple):
     """
         name: .AAVEUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4374,7 +4642,8 @@ class _AAVEUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AAVEUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4401,7 +4670,8 @@ class _AAVEUSDTPI(NamedTuple):
 _AAVEUSDTPI = _AAVEUSDTPI()
 """
     name: .AAVEUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4414,7 +4684,8 @@ _AAVEUSDTPI = _AAVEUSDTPI()
 class _AAVEUSDTPI8H(NamedTuple):
     """
         name: .AAVEUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4423,7 +4694,8 @@ class _AAVEUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AAVEUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4450,7 +4722,8 @@ class _AAVEUSDTPI8H(NamedTuple):
 _AAVEUSDTPI8H = _AAVEUSDTPI8H()
 """
     name: .AAVEUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4463,7 +4736,8 @@ _AAVEUSDTPI8H = _AAVEUSDTPI8H()
 class _BUNIT(NamedTuple):
     """
         name: .BUNIT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4472,7 +4746,8 @@ class _BUNIT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUNIT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4499,7 +4774,8 @@ class _BUNIT(NamedTuple):
 _BUNIT = _BUNIT()
 """
     name: .BUNIT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4512,7 +4788,8 @@ _BUNIT = _BUNIT()
 class _BUNIT_NEXT(NamedTuple):
     """
         name: .BUNIT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4521,7 +4798,8 @@ class _BUNIT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUNIT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4548,7 +4826,8 @@ class _BUNIT_NEXT(NamedTuple):
 _BUNIT_NEXT = _BUNIT_NEXT()
 """
     name: .BUNIT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4561,7 +4840,8 @@ _BUNIT_NEXT = _BUNIT_NEXT()
 class _UNIBON(NamedTuple):
     """
         name: .UNIBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4570,7 +4850,8 @@ class _UNIBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".UNIBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4597,7 +4878,8 @@ class _UNIBON(NamedTuple):
 _UNIBON = _UNIBON()
 """
     name: .UNIBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4610,7 +4892,8 @@ _UNIBON = _UNIBON()
 class _UNIBON8H(NamedTuple):
     """
         name: .UNIBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4619,7 +4902,8 @@ class _UNIBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".UNIBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4646,7 +4930,8 @@ class _UNIBON8H(NamedTuple):
 _UNIBON8H = _UNIBON8H()
 """
     name: .UNIBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4659,7 +4944,8 @@ _UNIBON8H = _UNIBON8H()
 class _UNIUSDTPI(NamedTuple):
     """
         name: .UNIUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4668,7 +4954,8 @@ class _UNIUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".UNIUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4695,7 +4982,8 @@ class _UNIUSDTPI(NamedTuple):
 _UNIUSDTPI = _UNIUSDTPI()
 """
     name: .UNIUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4708,7 +4996,8 @@ _UNIUSDTPI = _UNIUSDTPI()
 class _UNIUSDTPI8H(NamedTuple):
     """
         name: .UNIUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4717,7 +5006,8 @@ class _UNIUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".UNIUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4744,7 +5034,8 @@ class _UNIUSDTPI8H(NamedTuple):
 _UNIUSDTPI8H = _UNIUSDTPI8H()
 """
     name: .UNIUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4757,7 +5048,8 @@ _UNIUSDTPI8H = _UNIUSDTPI8H()
 class _BXLMT(NamedTuple):
     """
         name: .BXLMT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4766,7 +5058,8 @@ class _BXLMT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXLMT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4793,7 +5086,8 @@ class _BXLMT(NamedTuple):
 _BXLMT = _BXLMT()
 """
     name: .BXLMT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4806,7 +5100,8 @@ _BXLMT = _BXLMT()
 class _BXLMT_NEXT(NamedTuple):
     """
         name: .BXLMT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4815,7 +5110,8 @@ class _BXLMT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXLMT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4842,7 +5138,8 @@ class _BXLMT_NEXT(NamedTuple):
 _BXLMT_NEXT = _BXLMT_NEXT()
 """
     name: .BXLMT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4855,7 +5152,8 @@ _BXLMT_NEXT = _BXLMT_NEXT()
 class _XLMBON(NamedTuple):
     """
         name: .XLMBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4864,7 +5162,8 @@ class _XLMBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XLMBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4891,7 +5190,8 @@ class _XLMBON(NamedTuple):
 _XLMBON = _XLMBON()
 """
     name: .XLMBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4904,7 +5204,8 @@ _XLMBON = _XLMBON()
 class _XLMBON8H(NamedTuple):
     """
         name: .XLMBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4913,7 +5214,8 @@ class _XLMBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XLMBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4940,7 +5242,8 @@ class _XLMBON8H(NamedTuple):
 _XLMBON8H = _XLMBON8H()
 """
     name: .XLMBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -4953,7 +5256,8 @@ _XLMBON8H = _XLMBON8H()
 class _XLMUSDTPI(NamedTuple):
     """
         name: .XLMUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -4962,7 +5266,8 @@ class _XLMUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XLMUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -4989,7 +5294,8 @@ class _XLMUSDTPI(NamedTuple):
 _XLMUSDTPI = _XLMUSDTPI()
 """
     name: .XLMUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5002,7 +5308,8 @@ _XLMUSDTPI = _XLMUSDTPI()
 class _XLMUSDTPI8H(NamedTuple):
     """
         name: .XLMUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5011,7 +5318,8 @@ class _XLMUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XLMUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5038,7 +5346,8 @@ class _XLMUSDTPI8H(NamedTuple):
 _XLMUSDTPI8H = _XLMUSDTPI8H()
 """
     name: .XLMUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5051,7 +5360,8 @@ _XLMUSDTPI8H = _XLMUSDTPI8H()
 class _BTRXT(NamedTuple):
     """
         name: .BTRXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5060,7 +5370,8 @@ class _BTRXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5087,7 +5398,8 @@ class _BTRXT(NamedTuple):
 _BTRXT = _BTRXT()
 """
     name: .BTRXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5100,7 +5412,8 @@ _BTRXT = _BTRXT()
 class _BTRXT_NEXT(NamedTuple):
     """
         name: .BTRXT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5109,7 +5422,8 @@ class _BTRXT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5136,7 +5450,8 @@ class _BTRXT_NEXT(NamedTuple):
 _BTRXT_NEXT = _BTRXT_NEXT()
 """
     name: .BTRXT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5149,7 +5464,8 @@ _BTRXT_NEXT = _BTRXT_NEXT()
 class _TRXBON(NamedTuple):
     """
         name: .TRXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5158,7 +5474,8 @@ class _TRXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5185,7 +5502,8 @@ class _TRXBON(NamedTuple):
 _TRXBON = _TRXBON()
 """
     name: .TRXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5198,7 +5516,8 @@ _TRXBON = _TRXBON()
 class _TRXBON8H(NamedTuple):
     """
         name: .TRXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5207,7 +5526,8 @@ class _TRXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5234,7 +5554,8 @@ class _TRXBON8H(NamedTuple):
 _TRXBON8H = _TRXBON8H()
 """
     name: .TRXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5247,7 +5568,8 @@ _TRXBON8H = _TRXBON8H()
 class _TRXUSDTPI(NamedTuple):
     """
         name: .TRXUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5256,7 +5578,8 @@ class _TRXUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5283,7 +5606,8 @@ class _TRXUSDTPI(NamedTuple):
 _TRXUSDTPI = _TRXUSDTPI()
 """
     name: .TRXUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5296,7 +5620,8 @@ _TRXUSDTPI = _TRXUSDTPI()
 class _TRXUSDTPI8H(NamedTuple):
     """
         name: .TRXUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5305,7 +5630,8 @@ class _TRXUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5332,7 +5658,8 @@ class _TRXUSDTPI8H(NamedTuple):
 _TRXUSDTPI8H = _TRXUSDTPI8H()
 """
     name: .TRXUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5345,7 +5672,8 @@ _TRXUSDTPI8H = _TRXUSDTPI8H()
 class _BTRXT30M(NamedTuple):
     """
         name: .BTRXT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5354,7 +5682,8 @@ class _BTRXT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRXT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5381,7 +5710,8 @@ class _BTRXT30M(NamedTuple):
 _BTRXT30M = _BTRXT30M()
 """
     name: .BTRXT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5394,7 +5724,8 @@ _BTRXT30M = _BTRXT30M()
 class _BSOLT(NamedTuple):
     """
         name: .BSOLT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5403,7 +5734,8 @@ class _BSOLT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSOLT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5430,7 +5762,8 @@ class _BSOLT(NamedTuple):
 _BSOLT = _BSOLT()
 """
     name: .BSOLT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5443,7 +5776,8 @@ _BSOLT = _BSOLT()
 class _BSOLT_NEXT(NamedTuple):
     """
         name: .BSOLT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5452,7 +5786,8 @@ class _BSOLT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSOLT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5479,7 +5814,8 @@ class _BSOLT_NEXT(NamedTuple):
 _BSOLT_NEXT = _BSOLT_NEXT()
 """
     name: .BSOLT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5492,7 +5828,8 @@ _BSOLT_NEXT = _BSOLT_NEXT()
 class _SOLBON(NamedTuple):
     """
         name: .SOLBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5501,7 +5838,8 @@ class _SOLBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5528,7 +5866,8 @@ class _SOLBON(NamedTuple):
 _SOLBON = _SOLBON()
 """
     name: .SOLBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5541,7 +5880,8 @@ _SOLBON = _SOLBON()
 class _SOLBON8H(NamedTuple):
     """
         name: .SOLBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5550,7 +5890,8 @@ class _SOLBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5577,7 +5918,8 @@ class _SOLBON8H(NamedTuple):
 _SOLBON8H = _SOLBON8H()
 """
     name: .SOLBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5590,7 +5932,8 @@ _SOLBON8H = _SOLBON8H()
 class _SOLUSDTPI(NamedTuple):
     """
         name: .SOLUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5599,7 +5942,8 @@ class _SOLUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5626,7 +5970,8 @@ class _SOLUSDTPI(NamedTuple):
 _SOLUSDTPI = _SOLUSDTPI()
 """
     name: .SOLUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5639,7 +5984,8 @@ _SOLUSDTPI = _SOLUSDTPI()
 class _SOLUSDTPI8H(NamedTuple):
     """
         name: .SOLUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5648,7 +5994,8 @@ class _SOLUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5675,7 +6022,8 @@ class _SOLUSDTPI8H(NamedTuple):
 _SOLUSDTPI8H = _SOLUSDTPI8H()
 """
     name: .SOLUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5688,7 +6036,8 @@ _SOLUSDTPI8H = _SOLUSDTPI8H()
 class _BFILT(NamedTuple):
     """
         name: .BFILT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5697,7 +6046,8 @@ class _BFILT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFILT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5724,7 +6074,8 @@ class _BFILT(NamedTuple):
 _BFILT = _BFILT()
 """
     name: .BFILT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5737,7 +6088,8 @@ _BFILT = _BFILT()
 class _BFILT_NEXT(NamedTuple):
     """
         name: .BFILT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5746,7 +6098,8 @@ class _BFILT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFILT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5773,7 +6126,8 @@ class _BFILT_NEXT(NamedTuple):
 _BFILT_NEXT = _BFILT_NEXT()
 """
     name: .BFILT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5786,7 +6140,8 @@ _BFILT_NEXT = _BFILT_NEXT()
 class _FILBON(NamedTuple):
     """
         name: .FILBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5795,7 +6150,8 @@ class _FILBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FILBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5822,7 +6178,8 @@ class _FILBON(NamedTuple):
 _FILBON = _FILBON()
 """
     name: .FILBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5835,7 +6192,8 @@ _FILBON = _FILBON()
 class _FILBON8H(NamedTuple):
     """
         name: .FILBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5844,7 +6202,8 @@ class _FILBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FILBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5871,7 +6230,8 @@ class _FILBON8H(NamedTuple):
 _FILBON8H = _FILBON8H()
 """
     name: .FILBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5884,7 +6244,8 @@ _FILBON8H = _FILBON8H()
 class _FILUSDTPI(NamedTuple):
     """
         name: .FILUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5893,7 +6254,8 @@ class _FILUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FILUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5920,7 +6282,8 @@ class _FILUSDTPI(NamedTuple):
 _FILUSDTPI = _FILUSDTPI()
 """
     name: .FILUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5933,7 +6296,8 @@ _FILUSDTPI = _FILUSDTPI()
 class _FILUSDTPI8H(NamedTuple):
     """
         name: .FILUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5942,7 +6306,8 @@ class _FILUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FILUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -5969,7 +6334,8 @@ class _FILUSDTPI8H(NamedTuple):
 _FILUSDTPI8H = _FILUSDTPI8H()
 """
     name: .FILUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -5982,7 +6348,8 @@ _FILUSDTPI8H = _FILUSDTPI8H()
 class _EURBON(NamedTuple):
     """
         name: .EURBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -5991,7 +6358,8 @@ class _EURBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6018,7 +6386,8 @@ class _EURBON(NamedTuple):
 _EURBON = _EURBON()
 """
     name: .EURBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6031,7 +6400,8 @@ _EURBON = _EURBON()
 class _EURBON8H(NamedTuple):
     """
         name: .EURBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6040,7 +6410,8 @@ class _EURBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6067,7 +6438,8 @@ class _EURBON8H(NamedTuple):
 _EURBON8H = _EURBON8H()
 """
     name: .EURBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6080,7 +6452,8 @@ _EURBON8H = _EURBON8H()
 class _BVETT(NamedTuple):
     """
         name: .BVETT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6089,7 +6462,8 @@ class _BVETT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVETT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6116,7 +6490,8 @@ class _BVETT(NamedTuple):
 _BVETT = _BVETT()
 """
     name: .BVETT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6129,7 +6504,8 @@ _BVETT = _BVETT()
 class _BVETT_NEXT(NamedTuple):
     """
         name: .BVETT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6138,7 +6514,8 @@ class _BVETT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVETT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6165,7 +6542,8 @@ class _BVETT_NEXT(NamedTuple):
 _BVETT_NEXT = _BVETT_NEXT()
 """
     name: .BVETT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6178,7 +6556,8 @@ _BVETT_NEXT = _BVETT_NEXT()
 class _VETBON(NamedTuple):
     """
         name: .VETBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6187,7 +6566,8 @@ class _VETBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".VETBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6214,7 +6594,8 @@ class _VETBON(NamedTuple):
 _VETBON = _VETBON()
 """
     name: .VETBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6227,7 +6608,8 @@ _VETBON = _VETBON()
 class _VETBON8H(NamedTuple):
     """
         name: .VETBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6236,7 +6618,8 @@ class _VETBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".VETBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6263,7 +6646,8 @@ class _VETBON8H(NamedTuple):
 _VETBON8H = _VETBON8H()
 """
     name: .VETBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6276,7 +6660,8 @@ _VETBON8H = _VETBON8H()
 class _VETUSDTPI(NamedTuple):
     """
         name: .VETUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6285,7 +6670,8 @@ class _VETUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".VETUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6312,7 +6698,8 @@ class _VETUSDTPI(NamedTuple):
 _VETUSDTPI = _VETUSDTPI()
 """
     name: .VETUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6325,7 +6712,8 @@ _VETUSDTPI = _VETUSDTPI()
 class _VETUSDTPI8H(NamedTuple):
     """
         name: .VETUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6334,7 +6722,8 @@ class _VETUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".VETUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6361,7 +6750,8 @@ class _VETUSDTPI8H(NamedTuple):
 _VETUSDTPI8H = _VETUSDTPI8H()
 """
     name: .VETUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6374,7 +6764,8 @@ _VETUSDTPI8H = _VETUSDTPI8H()
 class _BMATICT(NamedTuple):
     """
         name: .BMATICT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6383,7 +6774,8 @@ class _BMATICT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMATICT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6410,7 +6802,8 @@ class _BMATICT(NamedTuple):
 _BMATICT = _BMATICT()
 """
     name: .BMATICT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6423,7 +6816,8 @@ _BMATICT = _BMATICT()
 class _BMATICT_NEXT(NamedTuple):
     """
         name: .BMATICT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6432,7 +6826,8 @@ class _BMATICT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMATICT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6459,7 +6854,8 @@ class _BMATICT_NEXT(NamedTuple):
 _BMATICT_NEXT = _BMATICT_NEXT()
 """
     name: .BMATICT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6472,7 +6868,8 @@ _BMATICT_NEXT = _BMATICT_NEXT()
 class _MATICBON(NamedTuple):
     """
         name: .MATICBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6481,7 +6878,8 @@ class _MATICBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MATICBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6508,7 +6906,8 @@ class _MATICBON(NamedTuple):
 _MATICBON = _MATICBON()
 """
     name: .MATICBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6521,7 +6920,8 @@ _MATICBON = _MATICBON()
 class _MATICBON8H(NamedTuple):
     """
         name: .MATICBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6530,7 +6930,8 @@ class _MATICBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MATICBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6557,7 +6958,8 @@ class _MATICBON8H(NamedTuple):
 _MATICBON8H = _MATICBON8H()
 """
     name: .MATICBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6570,7 +6972,8 @@ _MATICBON8H = _MATICBON8H()
 class _MATICUSDTPI(NamedTuple):
     """
         name: .MATICUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6579,7 +6982,8 @@ class _MATICUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MATICUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6606,7 +7010,8 @@ class _MATICUSDTPI(NamedTuple):
 _MATICUSDTPI = _MATICUSDTPI()
 """
     name: .MATICUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6619,7 +7024,8 @@ _MATICUSDTPI = _MATICUSDTPI()
 class _MATICUSDTPI8H(NamedTuple):
     """
         name: .MATICUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6628,7 +7034,8 @@ class _MATICUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MATICUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6655,7 +7062,8 @@ class _MATICUSDTPI8H(NamedTuple):
 _MATICUSDTPI8H = _MATICUSDTPI8H()
 """
     name: .MATICUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6668,7 +7076,8 @@ _MATICUSDTPI8H = _MATICUSDTPI8H()
 class _BMKRT(NamedTuple):
     """
         name: .BMKRT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6677,7 +7086,8 @@ class _BMKRT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMKRT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6704,7 +7114,8 @@ class _BMKRT(NamedTuple):
 _BMKRT = _BMKRT()
 """
     name: .BMKRT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6717,7 +7128,8 @@ _BMKRT = _BMKRT()
 class _BMKRT_NEXT(NamedTuple):
     """
         name: .BMKRT_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6726,7 +7138,8 @@ class _BMKRT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMKRT_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6753,7 +7166,8 @@ class _BMKRT_NEXT(NamedTuple):
 _BMKRT_NEXT = _BMKRT_NEXT()
 """
     name: .BMKRT_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6766,7 +7180,8 @@ _BMKRT_NEXT = _BMKRT_NEXT()
 class _BAVAXT(NamedTuple):
     """
         name: .BAVAXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6775,7 +7190,8 @@ class _BAVAXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAVAXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6802,7 +7218,8 @@ class _BAVAXT(NamedTuple):
 _BAVAXT = _BAVAXT()
 """
     name: .BAVAXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6815,7 +7232,8 @@ _BAVAXT = _BAVAXT()
 class _BAVAXT_NEXT(NamedTuple):
     """
         name: .BAVAXT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6824,7 +7242,8 @@ class _BAVAXT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAVAXT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6851,7 +7270,8 @@ class _BAVAXT_NEXT(NamedTuple):
 _BAVAXT_NEXT = _BAVAXT_NEXT()
 """
     name: .BAVAXT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6864,7 +7284,8 @@ _BAVAXT_NEXT = _BAVAXT_NEXT()
 class _BLUNAT(NamedTuple):
     """
         name: .BLUNAT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6873,7 +7294,8 @@ class _BLUNAT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNAT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6900,7 +7322,8 @@ class _BLUNAT(NamedTuple):
 _BLUNAT = _BLUNAT()
 """
     name: .BLUNAT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6913,7 +7336,8 @@ _BLUNAT = _BLUNAT()
 class _BLUNAT_NEXT(NamedTuple):
     """
         name: .BLUNAT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6922,7 +7346,8 @@ class _BLUNAT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNAT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6949,7 +7374,8 @@ class _BLUNAT_NEXT(NamedTuple):
 _BLUNAT_NEXT = _BLUNAT_NEXT()
 """
     name: .BLUNAT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -6962,7 +7388,8 @@ _BLUNAT_NEXT = _BLUNAT_NEXT()
 class _BCOMPT(NamedTuple):
     """
         name: .BCOMPT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -6971,7 +7398,8 @@ class _BCOMPT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCOMPT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -6998,7 +7426,8 @@ class _BCOMPT(NamedTuple):
 _BCOMPT = _BCOMPT()
 """
     name: .BCOMPT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7011,7 +7440,8 @@ _BCOMPT = _BCOMPT()
 class _BCOMPT_NEXT(NamedTuple):
     """
         name: .BCOMPT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7020,7 +7450,8 @@ class _BCOMPT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCOMPT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7047,7 +7478,8 @@ class _BCOMPT_NEXT(NamedTuple):
 _BCOMPT_NEXT = _BCOMPT_NEXT()
 """
     name: .BCOMPT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7060,7 +7492,8 @@ _BCOMPT_NEXT = _BCOMPT_NEXT()
 class _BSUSHIT(NamedTuple):
     """
         name: .BSUSHIT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7069,7 +7502,8 @@ class _BSUSHIT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSUSHIT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7096,7 +7530,8 @@ class _BSUSHIT(NamedTuple):
 _BSUSHIT = _BSUSHIT()
 """
     name: .BSUSHIT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7109,7 +7544,8 @@ _BSUSHIT = _BSUSHIT()
 class _BSUSHIT_NEXT(NamedTuple):
     """
         name: .BSUSHIT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7118,7 +7554,8 @@ class _BSUSHIT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSUSHIT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7145,7 +7582,8 @@ class _BSUSHIT_NEXT(NamedTuple):
 _BSUSHIT_NEXT = _BSUSHIT_NEXT()
 """
     name: .BSUSHIT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7158,7 +7596,8 @@ _BSUSHIT_NEXT = _BSUSHIT_NEXT()
 class _BGRTT(NamedTuple):
     """
         name: .BGRTT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7167,7 +7606,8 @@ class _BGRTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGRTT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7194,7 +7634,8 @@ class _BGRTT(NamedTuple):
 _BGRTT = _BGRTT()
 """
     name: .BGRTT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7207,7 +7648,8 @@ _BGRTT = _BGRTT()
 class _BGRTT_NEXT(NamedTuple):
     """
         name: .BGRTT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7216,7 +7658,8 @@ class _BGRTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGRTT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7243,7 +7686,8 @@ class _BGRTT_NEXT(NamedTuple):
 _BGRTT_NEXT = _BGRTT_NEXT()
 """
     name: .BGRTT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7256,7 +7700,8 @@ _BGRTT_NEXT = _BGRTT_NEXT()
 class _BALTMEX(NamedTuple):
     """
         name: .BALTMEX
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7265,7 +7710,8 @@ class _BALTMEX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BALTMEX"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7292,7 +7738,8 @@ class _BALTMEX(NamedTuple):
 _BALTMEX = _BALTMEX()
 """
     name: .BALTMEX
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7305,7 +7752,8 @@ _BALTMEX = _BALTMEX()
 class _BDEFIMEX(NamedTuple):
     """
         name: .BDEFIMEX
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7314,7 +7762,8 @@ class _BDEFIMEX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDEFIMEX"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7341,7 +7790,8 @@ class _BDEFIMEX(NamedTuple):
 _BDEFIMEX = _BDEFIMEX()
 """
     name: .BDEFIMEX
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7354,7 +7804,8 @@ _BDEFIMEX = _BDEFIMEX()
 class _ALTMEXBON(NamedTuple):
     """
         name: .ALTMEXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7363,7 +7814,8 @@ class _ALTMEXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7390,7 +7842,8 @@ class _ALTMEXBON(NamedTuple):
 _ALTMEXBON = _ALTMEXBON()
 """
     name: .ALTMEXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7403,7 +7856,8 @@ _ALTMEXBON = _ALTMEXBON()
 class _ALTMEXBON8H(NamedTuple):
     """
         name: .ALTMEXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7412,7 +7866,8 @@ class _ALTMEXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7439,7 +7894,8 @@ class _ALTMEXBON8H(NamedTuple):
 _ALTMEXBON8H = _ALTMEXBON8H()
 """
     name: .ALTMEXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7452,7 +7908,8 @@ _ALTMEXBON8H = _ALTMEXBON8H()
 class _ALTMEXUSDPI(NamedTuple):
     """
         name: .ALTMEXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7461,7 +7918,8 @@ class _ALTMEXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7488,7 +7946,8 @@ class _ALTMEXUSDPI(NamedTuple):
 _ALTMEXUSDPI = _ALTMEXUSDPI()
 """
     name: .ALTMEXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7501,7 +7960,8 @@ _ALTMEXUSDPI = _ALTMEXUSDPI()
 class _ALTMEXUSDPI8H(NamedTuple):
     """
         name: .ALTMEXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7510,7 +7970,8 @@ class _ALTMEXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7537,7 +7998,8 @@ class _ALTMEXUSDPI8H(NamedTuple):
 _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
 """
     name: .ALTMEXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7550,7 +8012,8 @@ _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
 class _DEFIMEXBON(NamedTuple):
     """
         name: .DEFIMEXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7559,7 +8022,8 @@ class _DEFIMEXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7586,7 +8050,8 @@ class _DEFIMEXBON(NamedTuple):
 _DEFIMEXBON = _DEFIMEXBON()
 """
     name: .DEFIMEXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7599,7 +8064,8 @@ _DEFIMEXBON = _DEFIMEXBON()
 class _DEFIMEXBON8H(NamedTuple):
     """
         name: .DEFIMEXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7608,7 +8074,8 @@ class _DEFIMEXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7635,7 +8102,8 @@ class _DEFIMEXBON8H(NamedTuple):
 _DEFIMEXBON8H = _DEFIMEXBON8H()
 """
     name: .DEFIMEXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7648,7 +8116,8 @@ _DEFIMEXBON8H = _DEFIMEXBON8H()
 class _DEFIMEXUSDPI(NamedTuple):
     """
         name: .DEFIMEXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7657,7 +8126,8 @@ class _DEFIMEXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7684,7 +8154,8 @@ class _DEFIMEXUSDPI(NamedTuple):
 _DEFIMEXUSDPI = _DEFIMEXUSDPI()
 """
     name: .DEFIMEXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7697,7 +8168,8 @@ _DEFIMEXUSDPI = _DEFIMEXUSDPI()
 class _DEFIMEXUSDPI8H(NamedTuple):
     """
         name: .DEFIMEXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7706,7 +8178,8 @@ class _DEFIMEXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7733,7 +8206,8 @@ class _DEFIMEXUSDPI8H(NamedTuple):
 _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
 """
     name: .DEFIMEXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7746,7 +8220,8 @@ _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
 class _SUSHIBON(NamedTuple):
     """
         name: .SUSHIBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7755,7 +8230,8 @@ class _SUSHIBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SUSHIBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7782,7 +8258,8 @@ class _SUSHIBON(NamedTuple):
 _SUSHIBON = _SUSHIBON()
 """
     name: .SUSHIBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7795,7 +8272,8 @@ _SUSHIBON = _SUSHIBON()
 class _SUSHIBON8H(NamedTuple):
     """
         name: .SUSHIBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7804,7 +8282,8 @@ class _SUSHIBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SUSHIBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7831,7 +8310,8 @@ class _SUSHIBON8H(NamedTuple):
 _SUSHIBON8H = _SUSHIBON8H()
 """
     name: .SUSHIBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7844,7 +8324,8 @@ _SUSHIBON8H = _SUSHIBON8H()
 class _SUSHIUSDTPI(NamedTuple):
     """
         name: .SUSHIUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7853,7 +8334,8 @@ class _SUSHIUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SUSHIUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7880,7 +8362,8 @@ class _SUSHIUSDTPI(NamedTuple):
 _SUSHIUSDTPI = _SUSHIUSDTPI()
 """
     name: .SUSHIUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7893,7 +8376,8 @@ _SUSHIUSDTPI = _SUSHIUSDTPI()
 class _SUSHIUSDTPI8H(NamedTuple):
     """
         name: .SUSHIUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7902,7 +8386,8 @@ class _SUSHIUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SUSHIUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7929,7 +8414,8 @@ class _SUSHIUSDTPI8H(NamedTuple):
 _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
 """
     name: .SUSHIUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7942,7 +8428,8 @@ _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
 class _BAXST(NamedTuple):
     """
         name: .BAXST
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -7951,7 +8438,8 @@ class _BAXST(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAXST"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -7978,7 +8466,8 @@ class _BAXST(NamedTuple):
 _BAXST = _BAXST()
 """
     name: .BAXST
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -7991,7 +8480,8 @@ _BAXST = _BAXST()
 class _BAXST_NEXT(NamedTuple):
     """
         name: .BAXST_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8000,7 +8490,8 @@ class _BAXST_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAXST_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8027,7 +8518,8 @@ class _BAXST_NEXT(NamedTuple):
 _BAXST_NEXT = _BAXST_NEXT()
 """
     name: .BAXST_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8040,7 +8532,8 @@ _BAXST_NEXT = _BAXST_NEXT()
 class _AXSBON(NamedTuple):
     """
         name: .AXSBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8049,7 +8542,8 @@ class _AXSBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8076,7 +8570,8 @@ class _AXSBON(NamedTuple):
 _AXSBON = _AXSBON()
 """
     name: .AXSBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8089,7 +8584,8 @@ _AXSBON = _AXSBON()
 class _AXSBON8H(NamedTuple):
     """
         name: .AXSBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8098,7 +8594,8 @@ class _AXSBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8125,7 +8622,8 @@ class _AXSBON8H(NamedTuple):
 _AXSBON8H = _AXSBON8H()
 """
     name: .AXSBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8138,7 +8636,8 @@ _AXSBON8H = _AXSBON8H()
 class _AXSUSDTPI(NamedTuple):
     """
         name: .AXSUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8147,7 +8646,8 @@ class _AXSUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8174,7 +8674,8 @@ class _AXSUSDTPI(NamedTuple):
 _AXSUSDTPI = _AXSUSDTPI()
 """
     name: .AXSUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8187,7 +8688,8 @@ _AXSUSDTPI = _AXSUSDTPI()
 class _AXSUSDTPI8H(NamedTuple):
     """
         name: .AXSUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8196,7 +8698,8 @@ class _AXSUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8223,7 +8726,8 @@ class _AXSUSDTPI8H(NamedTuple):
 _AXSUSDTPI8H = _AXSUSDTPI8H()
 """
     name: .AXSUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8236,7 +8740,8 @@ _AXSUSDTPI8H = _AXSUSDTPI8H()
 class _BSRMT(NamedTuple):
     """
         name: .BSRMT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8245,7 +8750,8 @@ class _BSRMT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSRMT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8272,7 +8778,8 @@ class _BSRMT(NamedTuple):
 _BSRMT = _BSRMT()
 """
     name: .BSRMT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8285,7 +8792,8 @@ _BSRMT = _BSRMT()
 class _BSRMT_NEXT(NamedTuple):
     """
         name: .BSRMT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8294,7 +8802,8 @@ class _BSRMT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSRMT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8321,7 +8830,8 @@ class _BSRMT_NEXT(NamedTuple):
 _BSRMT_NEXT = _BSRMT_NEXT()
 """
     name: .BSRMT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8334,7 +8844,8 @@ _BSRMT_NEXT = _BSRMT_NEXT()
 class _SRMBON(NamedTuple):
     """
         name: .SRMBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8343,7 +8854,8 @@ class _SRMBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SRMBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8370,7 +8882,8 @@ class _SRMBON(NamedTuple):
 _SRMBON = _SRMBON()
 """
     name: .SRMBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8383,7 +8896,8 @@ _SRMBON = _SRMBON()
 class _SRMBON8H(NamedTuple):
     """
         name: .SRMBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8392,7 +8906,8 @@ class _SRMBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SRMBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8419,7 +8934,8 @@ class _SRMBON8H(NamedTuple):
 _SRMBON8H = _SRMBON8H()
 """
     name: .SRMBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8432,7 +8948,8 @@ _SRMBON8H = _SRMBON8H()
 class _SRMUSDTPI(NamedTuple):
     """
         name: .SRMUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8441,7 +8958,8 @@ class _SRMUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SRMUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8468,7 +8986,8 @@ class _SRMUSDTPI(NamedTuple):
 _SRMUSDTPI = _SRMUSDTPI()
 """
     name: .SRMUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8481,7 +9000,8 @@ _SRMUSDTPI = _SRMUSDTPI()
 class _SRMUSDTPI8H(NamedTuple):
     """
         name: .SRMUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8490,7 +9010,8 @@ class _SRMUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SRMUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8517,7 +9038,8 @@ class _SRMUSDTPI8H(NamedTuple):
 _SRMUSDTPI8H = _SRMUSDTPI8H()
 """
     name: .SRMUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8530,7 +9052,8 @@ _SRMUSDTPI8H = _SRMUSDTPI8H()
 class _BLUNA(NamedTuple):
     """
         name: .BLUNA
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8539,7 +9062,8 @@ class _BLUNA(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNA"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8566,7 +9090,8 @@ class _BLUNA(NamedTuple):
 _BLUNA = _BLUNA()
 """
     name: .BLUNA
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8579,7 +9104,8 @@ _BLUNA = _BLUNA()
 class _BLUNA_NEXT(NamedTuple):
     """
         name: .BLUNA_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8588,7 +9114,8 @@ class _BLUNA_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNA_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8615,7 +9142,8 @@ class _BLUNA_NEXT(NamedTuple):
 _BLUNA_NEXT = _BLUNA_NEXT()
 """
     name: .BLUNA_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8628,7 +9156,8 @@ _BLUNA_NEXT = _BLUNA_NEXT()
 class _LUNABON(NamedTuple):
     """
         name: .LUNABON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8637,7 +9166,8 @@ class _LUNABON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNABON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8664,7 +9194,8 @@ class _LUNABON(NamedTuple):
 _LUNABON = _LUNABON()
 """
     name: .LUNABON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8677,7 +9208,8 @@ _LUNABON = _LUNABON()
 class _LUNABON8H(NamedTuple):
     """
         name: .LUNABON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8686,7 +9218,8 @@ class _LUNABON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNABON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8713,7 +9246,8 @@ class _LUNABON8H(NamedTuple):
 _LUNABON8H = _LUNABON8H()
 """
     name: .LUNABON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8726,7 +9260,8 @@ _LUNABON8H = _LUNABON8H()
 class _LUNAUSDPI(NamedTuple):
     """
         name: .LUNAUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8735,7 +9270,8 @@ class _LUNAUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNAUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8762,7 +9298,8 @@ class _LUNAUSDPI(NamedTuple):
 _LUNAUSDPI = _LUNAUSDPI()
 """
     name: .LUNAUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8775,7 +9312,8 @@ _LUNAUSDPI = _LUNAUSDPI()
 class _LUNAUSDPI8H(NamedTuple):
     """
         name: .LUNAUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8784,7 +9322,8 @@ class _LUNAUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNAUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8811,7 +9350,8 @@ class _LUNAUSDPI8H(NamedTuple):
 _LUNAUSDPI8H = _LUNAUSDPI8H()
 """
     name: .LUNAUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8824,7 +9364,8 @@ _LUNAUSDPI8H = _LUNAUSDPI8H()
 class _AVAXBON(NamedTuple):
     """
         name: .AVAXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8833,7 +9374,8 @@ class _AVAXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8860,7 +9402,8 @@ class _AVAXBON(NamedTuple):
 _AVAXBON = _AVAXBON()
 """
     name: .AVAXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8873,7 +9416,8 @@ _AVAXBON = _AVAXBON()
 class _AVAXBON8H(NamedTuple):
     """
         name: .AVAXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8882,7 +9426,8 @@ class _AVAXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8909,7 +9454,8 @@ class _AVAXBON8H(NamedTuple):
 _AVAXBON8H = _AVAXBON8H()
 """
     name: .AVAXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8922,7 +9468,8 @@ _AVAXBON8H = _AVAXBON8H()
 class _BAVAX(NamedTuple):
     """
         name: .BAVAX
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8931,7 +9478,8 @@ class _BAVAX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAVAX"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -8958,7 +9506,8 @@ class _BAVAX(NamedTuple):
 _BAVAX = _BAVAX()
 """
     name: .BAVAX
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -8971,7 +9520,8 @@ _BAVAX = _BAVAX()
 class _BAVAX_NEXT(NamedTuple):
     """
         name: .BAVAX_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -8980,7 +9530,8 @@ class _BAVAX_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAVAX_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9007,7 +9558,8 @@ class _BAVAX_NEXT(NamedTuple):
 _BAVAX_NEXT = _BAVAX_NEXT()
 """
     name: .BAVAX_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9020,7 +9572,8 @@ _BAVAX_NEXT = _BAVAX_NEXT()
 class _AVAXUSDPI(NamedTuple):
     """
         name: .AVAXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9029,7 +9582,8 @@ class _AVAXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9056,7 +9610,8 @@ class _AVAXUSDPI(NamedTuple):
 _AVAXUSDPI = _AVAXUSDPI()
 """
     name: .AVAXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9069,7 +9624,8 @@ _AVAXUSDPI = _AVAXUSDPI()
 class _AVAXUSDPI8H(NamedTuple):
     """
         name: .AVAXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9078,7 +9634,8 @@ class _AVAXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9105,7 +9662,8 @@ class _AVAXUSDPI8H(NamedTuple):
 _AVAXUSDPI8H = _AVAXUSDPI8H()
 """
     name: .AVAXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9118,7 +9676,8 @@ _AVAXUSDPI8H = _AVAXUSDPI8H()
 class _BADA(NamedTuple):
     """
         name: .BADA
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9127,7 +9686,8 @@ class _BADA(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADA"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9154,7 +9714,8 @@ class _BADA(NamedTuple):
 _BADA = _BADA()
 """
     name: .BADA
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9167,7 +9728,8 @@ _BADA = _BADA()
 class _BADA_NEXT(NamedTuple):
     """
         name: .BADA_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9176,7 +9738,8 @@ class _BADA_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BADA_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9203,7 +9766,8 @@ class _BADA_NEXT(NamedTuple):
 _BADA_NEXT = _BADA_NEXT()
 """
     name: .BADA_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9216,7 +9780,8 @@ _BADA_NEXT = _BADA_NEXT()
 class _ADAUSDPI(NamedTuple):
     """
         name: .ADAUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9225,7 +9790,8 @@ class _ADAUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADAUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9252,7 +9818,8 @@ class _ADAUSDPI(NamedTuple):
 _ADAUSDPI = _ADAUSDPI()
 """
     name: .ADAUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9265,7 +9832,8 @@ _ADAUSDPI = _ADAUSDPI()
 class _ADAUSDPI8H(NamedTuple):
     """
         name: .ADAUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9274,7 +9842,8 @@ class _ADAUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ADAUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9301,7 +9870,8 @@ class _ADAUSDPI8H(NamedTuple):
 _ADAUSDPI8H = _ADAUSDPI8H()
 """
     name: .ADAUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9314,7 +9884,8 @@ _ADAUSDPI8H = _ADAUSDPI8H()
 class _BDOGE(NamedTuple):
     """
         name: .BDOGE
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9323,7 +9894,8 @@ class _BDOGE(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOGE"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9350,7 +9922,8 @@ class _BDOGE(NamedTuple):
 _BDOGE = _BDOGE()
 """
     name: .BDOGE
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9363,7 +9936,8 @@ _BDOGE = _BDOGE()
 class _BDOGE_NEXT(NamedTuple):
     """
         name: .BDOGE_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9372,7 +9946,8 @@ class _BDOGE_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOGE_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9399,7 +9974,8 @@ class _BDOGE_NEXT(NamedTuple):
 _BDOGE_NEXT = _BDOGE_NEXT()
 """
     name: .BDOGE_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9412,7 +9988,8 @@ _BDOGE_NEXT = _BDOGE_NEXT()
 class _DOGEUSDPI(NamedTuple):
     """
         name: .DOGEUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9421,7 +9998,8 @@ class _DOGEUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9448,7 +10026,8 @@ class _DOGEUSDPI(NamedTuple):
 _DOGEUSDPI = _DOGEUSDPI()
 """
     name: .DOGEUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9461,7 +10040,8 @@ _DOGEUSDPI = _DOGEUSDPI()
 class _DOGEUSDPI8H(NamedTuple):
     """
         name: .DOGEUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9470,7 +10050,8 @@ class _DOGEUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOGEUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9497,7 +10078,8 @@ class _DOGEUSDPI8H(NamedTuple):
 _DOGEUSDPI8H = _DOGEUSDPI8H()
 """
     name: .DOGEUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9510,7 +10092,8 @@ _DOGEUSDPI8H = _DOGEUSDPI8H()
 class _BBNB(NamedTuple):
     """
         name: .BBNB
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9519,7 +10102,8 @@ class _BBNB(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBNB"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9546,7 +10130,8 @@ class _BBNB(NamedTuple):
 _BBNB = _BBNB()
 """
     name: .BBNB
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9559,7 +10144,8 @@ _BBNB = _BBNB()
 class _BBNB_NEXT(NamedTuple):
     """
         name: .BBNB_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9568,7 +10154,8 @@ class _BBNB_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBNB_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9595,7 +10182,8 @@ class _BBNB_NEXT(NamedTuple):
 _BBNB_NEXT = _BBNB_NEXT()
 """
     name: .BBNB_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9608,7 +10196,8 @@ _BBNB_NEXT = _BBNB_NEXT()
 class _BNBUSDPI(NamedTuple):
     """
         name: .BNBUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9617,7 +10206,8 @@ class _BNBUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9644,7 +10234,8 @@ class _BNBUSDPI(NamedTuple):
 _BNBUSDPI = _BNBUSDPI()
 """
     name: .BNBUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9657,7 +10248,8 @@ _BNBUSDPI = _BNBUSDPI()
 class _BNBUSDPI8H(NamedTuple):
     """
         name: .BNBUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9666,7 +10258,8 @@ class _BNBUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNBUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9693,7 +10286,8 @@ class _BNBUSDPI8H(NamedTuple):
 _BNBUSDPI8H = _BNBUSDPI8H()
 """
     name: .BNBUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9706,7 +10300,8 @@ _BNBUSDPI8H = _BNBUSDPI8H()
 class _BDOT(NamedTuple):
     """
         name: .BDOT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9715,7 +10310,8 @@ class _BDOT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9742,7 +10338,8 @@ class _BDOT(NamedTuple):
 _BDOT = _BDOT()
 """
     name: .BDOT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9755,7 +10352,8 @@ _BDOT = _BDOT()
 class _BDOT_NEXT(NamedTuple):
     """
         name: .BDOT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9764,7 +10362,8 @@ class _BDOT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9791,7 +10390,8 @@ class _BDOT_NEXT(NamedTuple):
 _BDOT_NEXT = _BDOT_NEXT()
 """
     name: .BDOT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9804,7 +10404,8 @@ _BDOT_NEXT = _BDOT_NEXT()
 class _DOTUSDPI(NamedTuple):
     """
         name: .DOTUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9813,7 +10414,8 @@ class _DOTUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9840,7 +10442,8 @@ class _DOTUSDPI(NamedTuple):
 _DOTUSDPI = _DOTUSDPI()
 """
     name: .DOTUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9853,7 +10456,8 @@ _DOTUSDPI = _DOTUSDPI()
 class _DOTUSDPI8H(NamedTuple):
     """
         name: .DOTUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9862,7 +10466,8 @@ class _DOTUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DOTUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9889,7 +10494,8 @@ class _DOTUSDPI8H(NamedTuple):
 _DOTUSDPI8H = _DOTUSDPI8H()
 """
     name: .DOTUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9902,7 +10508,8 @@ _DOTUSDPI8H = _DOTUSDPI8H()
 class _BDOGET30M(NamedTuple):
     """
         name: .BDOGET30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9911,7 +10518,8 @@ class _BDOGET30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDOGET30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9938,7 +10546,8 @@ class _BDOGET30M(NamedTuple):
 _BDOGET30M = _BDOGET30M()
 """
     name: .BDOGET30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -9951,7 +10560,8 @@ _BDOGET30M = _BDOGET30M()
 class _BFILT30M(NamedTuple):
     """
         name: .BFILT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -9960,7 +10570,8 @@ class _BFILT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFILT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -9987,7 +10598,8 @@ class _BFILT30M(NamedTuple):
 _BFILT30M = _BFILT30M()
 """
     name: .BFILT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10000,7 +10612,8 @@ _BFILT30M = _BFILT30M()
 class _BUNIT30M(NamedTuple):
     """
         name: .BUNIT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10009,7 +10622,8 @@ class _BUNIT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUNIT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10036,7 +10650,8 @@ class _BUNIT30M(NamedTuple):
 _BUNIT30M = _BUNIT30M()
 """
     name: .BUNIT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10049,7 +10664,8 @@ _BUNIT30M = _BUNIT30M()
 class _BXLMT30M(NamedTuple):
     """
         name: .BXLMT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10058,7 +10674,8 @@ class _BXLMT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXLMT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10085,7 +10702,8 @@ class _BXLMT30M(NamedTuple):
 _BXLMT30M = _BXLMT30M()
 """
     name: .BXLMT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10098,7 +10716,8 @@ _BXLMT30M = _BXLMT30M()
 class _BAXS(NamedTuple):
     """
         name: .BAXS
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10107,7 +10726,8 @@ class _BAXS(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAXS"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10134,7 +10754,8 @@ class _BAXS(NamedTuple):
 _BAXS = _BAXS()
 """
     name: .BAXS
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10147,7 +10768,8 @@ _BAXS = _BAXS()
 class _BAXS_NEXT(NamedTuple):
     """
         name: .BAXS_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10156,7 +10778,8 @@ class _BAXS_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAXS_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10183,7 +10806,8 @@ class _BAXS_NEXT(NamedTuple):
 _BAXS_NEXT = _BAXS_NEXT()
 """
     name: .BAXS_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10196,7 +10820,8 @@ _BAXS_NEXT = _BAXS_NEXT()
 class _AXSUSDPI(NamedTuple):
     """
         name: .AXSUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10205,7 +10830,8 @@ class _AXSUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10232,7 +10858,8 @@ class _AXSUSDPI(NamedTuple):
 _AXSUSDPI = _AXSUSDPI()
 """
     name: .AXSUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10245,7 +10872,8 @@ _AXSUSDPI = _AXSUSDPI()
 class _AXSUSDPI8H(NamedTuple):
     """
         name: .AXSUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10254,7 +10882,8 @@ class _AXSUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AXSUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10281,7 +10910,8 @@ class _AXSUSDPI8H(NamedTuple):
 _AXSUSDPI8H = _AXSUSDPI8H()
 """
     name: .AXSUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10294,7 +10924,8 @@ _AXSUSDPI8H = _AXSUSDPI8H()
 class _BEOS(NamedTuple):
     """
         name: .BEOS
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10303,7 +10934,8 @@ class _BEOS(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOS"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10330,7 +10962,8 @@ class _BEOS(NamedTuple):
 _BEOS = _BEOS()
 """
     name: .BEOS
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10343,7 +10976,8 @@ _BEOS = _BEOS()
 class _BEOS_NEXT(NamedTuple):
     """
         name: .BEOS_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10352,7 +10986,8 @@ class _BEOS_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEOS_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10379,7 +11014,8 @@ class _BEOS_NEXT(NamedTuple):
 _BEOS_NEXT = _BEOS_NEXT()
 """
     name: .BEOS_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10392,7 +11028,8 @@ _BEOS_NEXT = _BEOS_NEXT()
 class _EOSUSDPI(NamedTuple):
     """
         name: .EOSUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10401,7 +11038,8 @@ class _EOSUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10428,7 +11066,8 @@ class _EOSUSDPI(NamedTuple):
 _EOSUSDPI = _EOSUSDPI()
 """
     name: .EOSUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10441,7 +11080,8 @@ _EOSUSDPI = _EOSUSDPI()
 class _EOSUSDPI8H(NamedTuple):
     """
         name: .EOSUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10450,7 +11090,8 @@ class _EOSUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EOSUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10477,7 +11118,8 @@ class _EOSUSDPI8H(NamedTuple):
 _EOSUSDPI8H = _EOSUSDPI8H()
 """
     name: .EOSUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10490,7 +11132,8 @@ _EOSUSDPI8H = _EOSUSDPI8H()
 class _BLINK(NamedTuple):
     """
         name: .BLINK
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10499,7 +11142,8 @@ class _BLINK(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLINK"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10526,7 +11170,8 @@ class _BLINK(NamedTuple):
 _BLINK = _BLINK()
 """
     name: .BLINK
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10539,7 +11184,8 @@ _BLINK = _BLINK()
 class _BLINK_NEXT(NamedTuple):
     """
         name: .BLINK_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10548,7 +11194,8 @@ class _BLINK_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLINK_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10575,7 +11222,8 @@ class _BLINK_NEXT(NamedTuple):
 _BLINK_NEXT = _BLINK_NEXT()
 """
     name: .BLINK_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10588,7 +11236,8 @@ _BLINK_NEXT = _BLINK_NEXT()
 class _LINKUSDPI(NamedTuple):
     """
         name: .LINKUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10597,7 +11246,8 @@ class _LINKUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10624,7 +11274,8 @@ class _LINKUSDPI(NamedTuple):
 _LINKUSDPI = _LINKUSDPI()
 """
     name: .LINKUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10637,7 +11288,8 @@ _LINKUSDPI = _LINKUSDPI()
 class _LINKUSDPI8H(NamedTuple):
     """
         name: .LINKUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10646,7 +11298,8 @@ class _LINKUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LINKUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10673,7 +11326,8 @@ class _LINKUSDPI8H(NamedTuple):
 _LINKUSDPI8H = _LINKUSDPI8H()
 """
     name: .LINKUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10686,7 +11340,8 @@ _LINKUSDPI8H = _LINKUSDPI8H()
 class _BSOL(NamedTuple):
     """
         name: .BSOL
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10695,7 +11350,8 @@ class _BSOL(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSOL"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10722,7 +11378,8 @@ class _BSOL(NamedTuple):
 _BSOL = _BSOL()
 """
     name: .BSOL
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10735,7 +11392,8 @@ _BSOL = _BSOL()
 class _BSOL_NEXT(NamedTuple):
     """
         name: .BSOL_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10744,7 +11402,8 @@ class _BSOL_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSOL_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10771,7 +11430,8 @@ class _BSOL_NEXT(NamedTuple):
 _BSOL_NEXT = _BSOL_NEXT()
 """
     name: .BSOL_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10784,7 +11444,8 @@ _BSOL_NEXT = _BSOL_NEXT()
 class _SOLUSDPI(NamedTuple):
     """
         name: .SOLUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10793,7 +11454,8 @@ class _SOLUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10820,7 +11482,8 @@ class _SOLUSDPI(NamedTuple):
 _SOLUSDPI = _SOLUSDPI()
 """
     name: .SOLUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10833,7 +11496,8 @@ _SOLUSDPI = _SOLUSDPI()
 class _SOLUSDPI8H(NamedTuple):
     """
         name: .SOLUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10842,7 +11506,8 @@ class _SOLUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SOLUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10869,7 +11534,8 @@ class _SOLUSDPI8H(NamedTuple):
 _SOLUSDPI8H = _SOLUSDPI8H()
 """
     name: .SOLUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10882,7 +11548,8 @@ _SOLUSDPI8H = _SOLUSDPI8H()
 class _BAXST30M(NamedTuple):
     """
         name: .BAXST30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10891,7 +11558,8 @@ class _BAXST30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAXST30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10918,7 +11586,8 @@ class _BAXST30M(NamedTuple):
 _BAXST30M = _BAXST30M()
 """
     name: .BAXST30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10931,7 +11600,8 @@ _BAXST30M = _BAXST30M()
 class _BSOLT30M(NamedTuple):
     """
         name: .BSOLT30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10940,7 +11610,8 @@ class _BSOLT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSOLT30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -10967,7 +11638,8 @@ class _BSOLT30M(NamedTuple):
 _BSOLT30M = _BSOLT30M()
 """
     name: .BSOLT30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -10980,7 +11652,8 @@ _BSOLT30M = _BSOLT30M()
 class _BVETT30M(NamedTuple):
     """
         name: .BVETT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -10989,7 +11662,8 @@ class _BVETT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVETT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11016,7 +11690,8 @@ class _BVETT30M(NamedTuple):
 _BVETT30M = _BVETT30M()
 """
     name: .BVETT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11029,7 +11704,8 @@ _BVETT30M = _BVETT30M()
 class _BMATICT30M(NamedTuple):
     """
         name: .BMATICT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11038,7 +11714,8 @@ class _BMATICT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMATICT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11065,7 +11742,8 @@ class _BMATICT30M(NamedTuple):
 _BMATICT30M = _BMATICT30M()
 """
     name: .BMATICT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11078,7 +11756,8 @@ _BMATICT30M = _BMATICT30M()
 class _BAAVET30M(NamedTuple):
     """
         name: .BAAVET30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11087,7 +11766,8 @@ class _BAAVET30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAAVET30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11114,7 +11794,8 @@ class _BAAVET30M(NamedTuple):
 _BAAVET30M = _BAAVET30M()
 """
     name: .BAAVET30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11127,7 +11808,8 @@ _BAAVET30M = _BAAVET30M()
 class _BSUSHIT30M(NamedTuple):
     """
         name: .BSUSHIT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11136,7 +11818,8 @@ class _BSUSHIT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSUSHIT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11163,7 +11846,8 @@ class _BSUSHIT30M(NamedTuple):
 _BSUSHIT30M = _BSUSHIT30M()
 """
     name: .BSUSHIT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11176,7 +11860,8 @@ _BSUSHIT30M = _BSUSHIT30M()
 class _BSRMT30M(NamedTuple):
     """
         name: .BSRMT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11185,7 +11870,8 @@ class _BSRMT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSRMT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11212,7 +11898,8 @@ class _BSRMT30M(NamedTuple):
 _BSRMT30M = _BSRMT30M()
 """
     name: .BSRMT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11225,7 +11912,8 @@ _BSRMT30M = _BSRMT30M()
 class _BXRPT(NamedTuple):
     """
         name: .BXRPT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11234,7 +11922,8 @@ class _BXRPT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRPT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11261,7 +11950,8 @@ class _BXRPT(NamedTuple):
 _BXRPT = _BXRPT()
 """
     name: .BXRPT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11274,7 +11964,8 @@ _BXRPT = _BXRPT()
 class _BXRPT_NEXT(NamedTuple):
     """
         name: .BXRPT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11283,7 +11974,8 @@ class _BXRPT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXRPT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11310,7 +12002,8 @@ class _BXRPT_NEXT(NamedTuple):
 _BXRPT_NEXT = _BXRPT_NEXT()
 """
     name: .BXRPT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11323,7 +12016,8 @@ _BXRPT_NEXT = _BXRPT_NEXT()
 class _BBCHT(NamedTuple):
     """
         name: .BBCHT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11332,7 +12026,8 @@ class _BBCHT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCHT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11359,7 +12054,8 @@ class _BBCHT(NamedTuple):
 _BBCHT = _BBCHT()
 """
     name: .BBCHT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11372,7 +12068,8 @@ _BBCHT = _BBCHT()
 class _BBCHT_NEXT(NamedTuple):
     """
         name: .BBCHT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11381,7 +12078,8 @@ class _BBCHT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBCHT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11408,7 +12106,8 @@ class _BBCHT_NEXT(NamedTuple):
 _BBCHT_NEXT = _BBCHT_NEXT()
 """
     name: .BBCHT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11421,7 +12120,8 @@ _BBCHT_NEXT = _BBCHT_NEXT()
 class _XRPUSDTPI(NamedTuple):
     """
         name: .XRPUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11430,7 +12130,8 @@ class _XRPUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11457,7 +12158,8 @@ class _XRPUSDTPI(NamedTuple):
 _XRPUSDTPI = _XRPUSDTPI()
 """
     name: .XRPUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11470,7 +12172,8 @@ _XRPUSDTPI = _XRPUSDTPI()
 class _XRPUSDTPI8H(NamedTuple):
     """
         name: .XRPUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11479,7 +12182,8 @@ class _XRPUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XRPUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11506,7 +12210,8 @@ class _XRPUSDTPI8H(NamedTuple):
 _XRPUSDTPI8H = _XRPUSDTPI8H()
 """
     name: .XRPUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11519,7 +12224,8 @@ _XRPUSDTPI8H = _XRPUSDTPI8H()
 class _BCHUSDTPI(NamedTuple):
     """
         name: .BCHUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11528,7 +12234,8 @@ class _BCHUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11555,7 +12262,8 @@ class _BCHUSDTPI(NamedTuple):
 _BCHUSDTPI = _BCHUSDTPI()
 """
     name: .BCHUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11568,7 +12276,8 @@ _BCHUSDTPI = _BCHUSDTPI()
 class _BCHUSDTPI8H(NamedTuple):
     """
         name: .BCHUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11577,7 +12286,8 @@ class _BCHUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCHUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11604,7 +12314,8 @@ class _BCHUSDTPI8H(NamedTuple):
 _BCHUSDTPI8H = _BCHUSDTPI8H()
 """
     name: .BCHUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11617,7 +12328,8 @@ _BCHUSDTPI8H = _BCHUSDTPI8H()
 class _BDEFIMEX30M(NamedTuple):
     """
         name: .BDEFIMEX30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11626,7 +12338,8 @@ class _BDEFIMEX30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDEFIMEX30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11653,7 +12366,8 @@ class _BDEFIMEX30M(NamedTuple):
 _BDEFIMEX30M = _BDEFIMEX30M()
 """
     name: .BDEFIMEX30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11666,7 +12380,8 @@ _BDEFIMEX30M = _BDEFIMEX30M()
 class _BALTMEX30M(NamedTuple):
     """
         name: .BALTMEX30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11675,7 +12390,8 @@ class _BALTMEX30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BALTMEX30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11702,7 +12418,8 @@ class _BALTMEX30M(NamedTuple):
 _BALTMEX30M = _BALTMEX30M()
 """
     name: .BALTMEX30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11715,7 +12432,8 @@ _BALTMEX30M = _BALTMEX30M()
 class _BFTMT(NamedTuple):
     """
         name: .BFTMT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11724,7 +12442,8 @@ class _BFTMT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTMT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11751,7 +12470,8 @@ class _BFTMT(NamedTuple):
 _BFTMT = _BFTMT()
 """
     name: .BFTMT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11764,7 +12484,8 @@ _BFTMT = _BFTMT()
 class _BFTMT_NEXT(NamedTuple):
     """
         name: .BFTMT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11773,7 +12494,8 @@ class _BFTMT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTMT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11800,7 +12522,8 @@ class _BFTMT_NEXT(NamedTuple):
 _BFTMT_NEXT = _BFTMT_NEXT()
 """
     name: .BFTMT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11813,7 +12536,8 @@ _BFTMT_NEXT = _BFTMT_NEXT()
 class _FTMBON(NamedTuple):
     """
         name: .FTMBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11822,7 +12546,8 @@ class _FTMBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTMBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11849,7 +12574,8 @@ class _FTMBON(NamedTuple):
 _FTMBON = _FTMBON()
 """
     name: .FTMBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11862,7 +12588,8 @@ _FTMBON = _FTMBON()
 class _FTMBON8H(NamedTuple):
     """
         name: .FTMBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11871,7 +12598,8 @@ class _FTMBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTMBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11898,7 +12626,8 @@ class _FTMBON8H(NamedTuple):
 _FTMBON8H = _FTMBON8H()
 """
     name: .FTMBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11911,7 +12640,8 @@ _FTMBON8H = _FTMBON8H()
 class _FTMUSDTPI(NamedTuple):
     """
         name: .FTMUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11920,7 +12650,8 @@ class _FTMUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTMUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11947,7 +12678,8 @@ class _FTMUSDTPI(NamedTuple):
 _FTMUSDTPI = _FTMUSDTPI()
 """
     name: .FTMUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -11960,7 +12692,8 @@ _FTMUSDTPI = _FTMUSDTPI()
 class _FTMUSDTPI8H(NamedTuple):
     """
         name: .FTMUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -11969,7 +12702,8 @@ class _FTMUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTMUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -11996,7 +12730,8 @@ class _FTMUSDTPI8H(NamedTuple):
 _FTMUSDTPI8H = _FTMUSDTPI8H()
 """
     name: .FTMUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12009,7 +12744,8 @@ _FTMUSDTPI8H = _FTMUSDTPI8H()
 class _BSHIBT(NamedTuple):
     """
         name: .BSHIBT
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12018,7 +12754,8 @@ class _BSHIBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSHIBT"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12045,7 +12782,8 @@ class _BSHIBT(NamedTuple):
 _BSHIBT = _BSHIBT()
 """
     name: .BSHIBT
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12058,7 +12796,8 @@ _BSHIBT = _BSHIBT()
 class _BSHIBT_NEXT(NamedTuple):
     """
         name: .BSHIBT_NEXT
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12067,7 +12806,8 @@ class _BSHIBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSHIBT_NEXT"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12094,7 +12834,8 @@ class _BSHIBT_NEXT(NamedTuple):
 _BSHIBT_NEXT = _BSHIBT_NEXT()
 """
     name: .BSHIBT_NEXT
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12107,7 +12848,8 @@ _BSHIBT_NEXT = _BSHIBT_NEXT()
 class _SHIBBON(NamedTuple):
     """
         name: .SHIBBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12116,7 +12858,8 @@ class _SHIBBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SHIBBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12143,7 +12886,8 @@ class _SHIBBON(NamedTuple):
 _SHIBBON = _SHIBBON()
 """
     name: .SHIBBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12156,7 +12900,8 @@ _SHIBBON = _SHIBBON()
 class _SHIBBON8H(NamedTuple):
     """
         name: .SHIBBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12165,7 +12910,8 @@ class _SHIBBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SHIBBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12192,7 +12938,8 @@ class _SHIBBON8H(NamedTuple):
 _SHIBBON8H = _SHIBBON8H()
 """
     name: .SHIBBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12205,7 +12952,8 @@ _SHIBBON8H = _SHIBBON8H()
 class _SHIBUSDTPI(NamedTuple):
     """
         name: .SHIBUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12214,7 +12962,8 @@ class _SHIBUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SHIBUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12241,7 +12990,8 @@ class _SHIBUSDTPI(NamedTuple):
 _SHIBUSDTPI = _SHIBUSDTPI()
 """
     name: .SHIBUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12254,7 +13004,8 @@ _SHIBUSDTPI = _SHIBUSDTPI()
 class _SHIBUSDTPI8H(NamedTuple):
     """
         name: .SHIBUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12263,7 +13014,8 @@ class _SHIBUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SHIBUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12290,7 +13042,8 @@ class _SHIBUSDTPI8H(NamedTuple):
 _SHIBUSDTPI8H = _SHIBUSDTPI8H()
 """
     name: .SHIBUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12303,7 +13056,8 @@ _SHIBUSDTPI8H = _SHIBUSDTPI8H()
 class _BLRCT(NamedTuple):
     """
         name: .BLRCT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12312,7 +13066,8 @@ class _BLRCT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLRCT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12339,7 +13094,8 @@ class _BLRCT(NamedTuple):
 _BLRCT = _BLRCT()
 """
     name: .BLRCT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12352,7 +13108,8 @@ _BLRCT = _BLRCT()
 class _BLRCT_NEXT(NamedTuple):
     """
         name: .BLRCT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12361,7 +13118,8 @@ class _BLRCT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLRCT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12388,7 +13146,8 @@ class _BLRCT_NEXT(NamedTuple):
 _BLRCT_NEXT = _BLRCT_NEXT()
 """
     name: .BLRCT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12401,7 +13160,8 @@ _BLRCT_NEXT = _BLRCT_NEXT()
 class _BMANAT(NamedTuple):
     """
         name: .BMANAT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12410,7 +13170,8 @@ class _BMANAT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMANAT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12437,7 +13198,8 @@ class _BMANAT(NamedTuple):
 _BMANAT = _BMANAT()
 """
     name: .BMANAT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12450,7 +13212,8 @@ _BMANAT = _BMANAT()
 class _BMANAT_NEXT(NamedTuple):
     """
         name: .BMANAT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12459,7 +13222,8 @@ class _BMANAT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMANAT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12486,7 +13250,8 @@ class _BMANAT_NEXT(NamedTuple):
 _BMANAT_NEXT = _BMANAT_NEXT()
 """
     name: .BMANAT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12499,7 +13264,8 @@ _BMANAT_NEXT = _BMANAT_NEXT()
 class _MANABON(NamedTuple):
     """
         name: .MANABON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12508,7 +13274,8 @@ class _MANABON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MANABON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12535,7 +13302,8 @@ class _MANABON(NamedTuple):
 _MANABON = _MANABON()
 """
     name: .MANABON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12548,7 +13316,8 @@ _MANABON = _MANABON()
 class _MANABON8H(NamedTuple):
     """
         name: .MANABON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12557,7 +13326,8 @@ class _MANABON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MANABON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12584,7 +13354,8 @@ class _MANABON8H(NamedTuple):
 _MANABON8H = _MANABON8H()
 """
     name: .MANABON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12597,7 +13368,8 @@ _MANABON8H = _MANABON8H()
 class _MANAUSDTPI(NamedTuple):
     """
         name: .MANAUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12606,7 +13378,8 @@ class _MANAUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MANAUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12633,7 +13406,8 @@ class _MANAUSDTPI(NamedTuple):
 _MANAUSDTPI = _MANAUSDTPI()
 """
     name: .MANAUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12646,7 +13420,8 @@ _MANAUSDTPI = _MANAUSDTPI()
 class _MANAUSDTPI8H(NamedTuple):
     """
         name: .MANAUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12655,7 +13430,8 @@ class _MANAUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MANAUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12682,7 +13458,8 @@ class _MANAUSDTPI8H(NamedTuple):
 _MANAUSDTPI8H = _MANAUSDTPI8H()
 """
     name: .MANAUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12695,7 +13472,8 @@ _MANAUSDTPI8H = _MANAUSDTPI8H()
 class _BSANDT(NamedTuple):
     """
         name: .BSANDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12704,7 +13482,8 @@ class _BSANDT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSANDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12731,7 +13510,8 @@ class _BSANDT(NamedTuple):
 _BSANDT = _BSANDT()
 """
     name: .BSANDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12744,7 +13524,8 @@ _BSANDT = _BSANDT()
 class _BSANDT_NEXT(NamedTuple):
     """
         name: .BSANDT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12753,7 +13534,8 @@ class _BSANDT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSANDT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12780,7 +13562,8 @@ class _BSANDT_NEXT(NamedTuple):
 _BSANDT_NEXT = _BSANDT_NEXT()
 """
     name: .BSANDT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12793,7 +13576,8 @@ _BSANDT_NEXT = _BSANDT_NEXT()
 class _SANDBON(NamedTuple):
     """
         name: .SANDBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12802,7 +13586,8 @@ class _SANDBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SANDBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12829,7 +13614,8 @@ class _SANDBON(NamedTuple):
 _SANDBON = _SANDBON()
 """
     name: .SANDBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12842,7 +13628,8 @@ _SANDBON = _SANDBON()
 class _SANDBON8H(NamedTuple):
     """
         name: .SANDBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12851,7 +13638,8 @@ class _SANDBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SANDBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12878,7 +13666,8 @@ class _SANDBON8H(NamedTuple):
 _SANDBON8H = _SANDBON8H()
 """
     name: .SANDBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12891,7 +13680,8 @@ _SANDBON8H = _SANDBON8H()
 class _SANDUSDTPI(NamedTuple):
     """
         name: .SANDUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12900,7 +13690,8 @@ class _SANDUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SANDUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12927,7 +13718,8 @@ class _SANDUSDTPI(NamedTuple):
 _SANDUSDTPI = _SANDUSDTPI()
 """
     name: .SANDUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12940,7 +13732,8 @@ _SANDUSDTPI = _SANDUSDTPI()
 class _SANDUSDTPI8H(NamedTuple):
     """
         name: .SANDUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12949,7 +13742,8 @@ class _SANDUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SANDUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -12976,7 +13770,8 @@ class _SANDUSDTPI8H(NamedTuple):
 _SANDUSDTPI8H = _SANDUSDTPI8H()
 """
     name: .SANDUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -12989,7 +13784,8 @@ _SANDUSDTPI8H = _SANDUSDTPI8H()
 class _BTHETAT(NamedTuple):
     """
         name: .BTHETAT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -12998,7 +13794,8 @@ class _BTHETAT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTHETAT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13025,7 +13822,8 @@ class _BTHETAT(NamedTuple):
 _BTHETAT = _BTHETAT()
 """
     name: .BTHETAT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13038,7 +13836,8 @@ _BTHETAT = _BTHETAT()
 class _BTHETAT_NEXT(NamedTuple):
     """
         name: .BTHETAT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13047,7 +13846,8 @@ class _BTHETAT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTHETAT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13074,7 +13874,8 @@ class _BTHETAT_NEXT(NamedTuple):
 _BTHETAT_NEXT = _BTHETAT_NEXT()
 """
     name: .BTHETAT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13087,7 +13888,8 @@ _BTHETAT_NEXT = _BTHETAT_NEXT()
 class _BENJT(NamedTuple):
     """
         name: .BENJT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13096,7 +13898,8 @@ class _BENJT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BENJT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13123,7 +13926,8 @@ class _BENJT(NamedTuple):
 _BENJT = _BENJT()
 """
     name: .BENJT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13136,7 +13940,8 @@ _BENJT = _BENJT()
 class _BENJT_NEXT(NamedTuple):
     """
         name: .BENJT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13145,7 +13950,8 @@ class _BENJT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BENJT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13172,7 +13978,8 @@ class _BENJT_NEXT(NamedTuple):
 _BENJT_NEXT = _BENJT_NEXT()
 """
     name: .BENJT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13185,7 +13992,8 @@ _BENJT_NEXT = _BENJT_NEXT()
 class _BDEFIMEXT(NamedTuple):
     """
         name: .BDEFIMEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13194,7 +14002,8 @@ class _BDEFIMEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDEFIMEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13221,7 +14030,8 @@ class _BDEFIMEXT(NamedTuple):
 _BDEFIMEXT = _BDEFIMEXT()
 """
     name: .BDEFIMEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13234,7 +14044,8 @@ _BDEFIMEXT = _BDEFIMEXT()
 class _DEFIMEXTBON(NamedTuple):
     """
         name: .DEFIMEXTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13243,7 +14054,8 @@ class _DEFIMEXTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13270,7 +14082,8 @@ class _DEFIMEXTBON(NamedTuple):
 _DEFIMEXTBON = _DEFIMEXTBON()
 """
     name: .DEFIMEXTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13283,7 +14096,8 @@ _DEFIMEXTBON = _DEFIMEXTBON()
 class _DEFIMEXTBON8H(NamedTuple):
     """
         name: .DEFIMEXTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13292,7 +14106,8 @@ class _DEFIMEXTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13319,7 +14134,8 @@ class _DEFIMEXTBON8H(NamedTuple):
 _DEFIMEXTBON8H = _DEFIMEXTBON8H()
 """
     name: .DEFIMEXTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13332,7 +14148,8 @@ _DEFIMEXTBON8H = _DEFIMEXTBON8H()
 class _DEFIMEXTUSDTPI(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13341,7 +14158,8 @@ class _DEFIMEXTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13368,7 +14186,8 @@ class _DEFIMEXTUSDTPI(NamedTuple):
 _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
 """
     name: .DEFIMEXTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13381,7 +14200,8 @@ _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
 class _DEFIMEXTUSDTPI8H(NamedTuple):
     """
         name: .DEFIMEXTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13390,7 +14210,8 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".DEFIMEXTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13417,7 +14238,8 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
 _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
 """
     name: .DEFIMEXTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13430,7 +14252,8 @@ _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
 class _BALTMEXT(NamedTuple):
     """
         name: .BALTMEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13439,7 +14262,8 @@ class _BALTMEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BALTMEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13466,7 +14290,8 @@ class _BALTMEXT(NamedTuple):
 _BALTMEXT = _BALTMEXT()
 """
     name: .BALTMEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13479,7 +14304,8 @@ _BALTMEXT = _BALTMEXT()
 class _ALTMEXTBON(NamedTuple):
     """
         name: .ALTMEXTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13488,7 +14314,8 @@ class _ALTMEXTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13515,7 +14342,8 @@ class _ALTMEXTBON(NamedTuple):
 _ALTMEXTBON = _ALTMEXTBON()
 """
     name: .ALTMEXTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13528,7 +14356,8 @@ _ALTMEXTBON = _ALTMEXTBON()
 class _ALTMEXTBON8H(NamedTuple):
     """
         name: .ALTMEXTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13537,7 +14366,8 @@ class _ALTMEXTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13564,7 +14394,8 @@ class _ALTMEXTBON8H(NamedTuple):
 _ALTMEXTBON8H = _ALTMEXTBON8H()
 """
     name: .ALTMEXTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13577,7 +14408,8 @@ _ALTMEXTBON8H = _ALTMEXTBON8H()
 class _ALTMEXTUSDTPI(NamedTuple):
     """
         name: .ALTMEXTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13586,7 +14418,8 @@ class _ALTMEXTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13613,7 +14446,8 @@ class _ALTMEXTUSDTPI(NamedTuple):
 _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
 """
     name: .ALTMEXTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13626,7 +14460,8 @@ _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
 class _ALTMEXTUSDTPI8H(NamedTuple):
     """
         name: .ALTMEXTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13635,7 +14470,8 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ALTMEXTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13662,7 +14498,8 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
 _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
 """
     name: .ALTMEXTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13675,7 +14512,8 @@ _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
 class _BMETAMEXT(NamedTuple):
     """
         name: .BMETAMEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13684,7 +14522,8 @@ class _BMETAMEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMETAMEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13711,7 +14550,8 @@ class _BMETAMEXT(NamedTuple):
 _BMETAMEXT = _BMETAMEXT()
 """
     name: .BMETAMEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13724,7 +14564,8 @@ _BMETAMEXT = _BMETAMEXT()
 class _METAMEXTBON(NamedTuple):
     """
         name: .METAMEXTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13733,7 +14574,8 @@ class _METAMEXTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".METAMEXTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13760,7 +14602,8 @@ class _METAMEXTBON(NamedTuple):
 _METAMEXTBON = _METAMEXTBON()
 """
     name: .METAMEXTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13773,7 +14616,8 @@ _METAMEXTBON = _METAMEXTBON()
 class _METAMEXTBON8H(NamedTuple):
     """
         name: .METAMEXTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13782,7 +14626,8 @@ class _METAMEXTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".METAMEXTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13809,7 +14654,8 @@ class _METAMEXTBON8H(NamedTuple):
 _METAMEXTBON8H = _METAMEXTBON8H()
 """
     name: .METAMEXTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13822,7 +14668,8 @@ _METAMEXTBON8H = _METAMEXTBON8H()
 class _METAMEXTUSDTPI(NamedTuple):
     """
         name: .METAMEXTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13831,7 +14678,8 @@ class _METAMEXTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".METAMEXTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13858,7 +14706,8 @@ class _METAMEXTUSDTPI(NamedTuple):
 _METAMEXTUSDTPI = _METAMEXTUSDTPI()
 """
     name: .METAMEXTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13871,7 +14720,8 @@ _METAMEXTUSDTPI = _METAMEXTUSDTPI()
 class _METAMEXTUSDTPI8H(NamedTuple):
     """
         name: .METAMEXTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13880,7 +14730,8 @@ class _METAMEXTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".METAMEXTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13907,7 +14758,8 @@ class _METAMEXTUSDTPI8H(NamedTuple):
 _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
 """
     name: .METAMEXTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13920,7 +14772,8 @@ _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
 class _AVAXUSDTPI(NamedTuple):
     """
         name: .AVAXUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13929,7 +14782,8 @@ class _AVAXUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -13956,7 +14810,8 @@ class _AVAXUSDTPI(NamedTuple):
 _AVAXUSDTPI = _AVAXUSDTPI()
 """
     name: .AVAXUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -13969,7 +14824,8 @@ _AVAXUSDTPI = _AVAXUSDTPI()
 class _AVAXUSDTPI8H(NamedTuple):
     """
         name: .AVAXUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -13978,7 +14834,8 @@ class _AVAXUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".AVAXUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14005,7 +14862,8 @@ class _AVAXUSDTPI8H(NamedTuple):
 _AVAXUSDTPI8H = _AVAXUSDTPI8H()
 """
     name: .AVAXUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14018,7 +14876,8 @@ _AVAXUSDTPI8H = _AVAXUSDTPI8H()
 class _LUNAUSDTPI(NamedTuple):
     """
         name: .LUNAUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14027,7 +14886,8 @@ class _LUNAUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNAUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14054,7 +14914,8 @@ class _LUNAUSDTPI(NamedTuple):
 _LUNAUSDTPI = _LUNAUSDTPI()
 """
     name: .LUNAUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14067,7 +14928,8 @@ _LUNAUSDTPI = _LUNAUSDTPI()
 class _LUNAUSDTPI8H(NamedTuple):
     """
         name: .LUNAUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14076,7 +14938,8 @@ class _LUNAUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LUNAUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14103,7 +14966,8 @@ class _LUNAUSDTPI8H(NamedTuple):
 _LUNAUSDTPI8H = _LUNAUSDTPI8H()
 """
     name: .LUNAUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14116,7 +14980,8 @@ _LUNAUSDTPI8H = _LUNAUSDTPI8H()
 class _BAPET(NamedTuple):
     """
         name: .BAPET
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14125,7 +14990,8 @@ class _BAPET(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPET"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14152,7 +15018,8 @@ class _BAPET(NamedTuple):
 _BAPET = _BAPET()
 """
     name: .BAPET
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14165,7 +15032,8 @@ _BAPET = _BAPET()
 class _BAPET_NEXT(NamedTuple):
     """
         name: .BAPET_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14174,7 +15042,8 @@ class _BAPET_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPET_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14201,7 +15070,8 @@ class _BAPET_NEXT(NamedTuple):
 _BAPET_NEXT = _BAPET_NEXT()
 """
     name: .BAPET_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14214,7 +15084,8 @@ _BAPET_NEXT = _BAPET_NEXT()
 class _APEBON(NamedTuple):
     """
         name: .APEBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14223,7 +15094,8 @@ class _APEBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14250,7 +15122,8 @@ class _APEBON(NamedTuple):
 _APEBON = _APEBON()
 """
     name: .APEBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14263,7 +15136,8 @@ _APEBON = _APEBON()
 class _APEBON8H(NamedTuple):
     """
         name: .APEBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14272,7 +15146,8 @@ class _APEBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14299,7 +15174,8 @@ class _APEBON8H(NamedTuple):
 _APEBON8H = _APEBON8H()
 """
     name: .APEBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14312,7 +15188,8 @@ _APEBON8H = _APEBON8H()
 class _APEUSDTPI(NamedTuple):
     """
         name: .APEUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14321,7 +15198,8 @@ class _APEUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14348,7 +15226,8 @@ class _APEUSDTPI(NamedTuple):
 _APEUSDTPI = _APEUSDTPI()
 """
     name: .APEUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14361,7 +15240,8 @@ _APEUSDTPI = _APEUSDTPI()
 class _APEUSDTPI8H(NamedTuple):
     """
         name: .APEUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14370,7 +15250,8 @@ class _APEUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14397,7 +15278,8 @@ class _APEUSDTPI8H(NamedTuple):
 _APEUSDTPI8H = _APEUSDTPI8H()
 """
     name: .APEUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14410,7 +15292,8 @@ _APEUSDTPI8H = _APEUSDTPI8H()
 class _GMTBON(NamedTuple):
     """
         name: .GMTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14419,7 +15302,8 @@ class _GMTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14446,7 +15330,8 @@ class _GMTBON(NamedTuple):
 _GMTBON = _GMTBON()
 """
     name: .GMTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14459,7 +15344,8 @@ _GMTBON = _GMTBON()
 class _GMTBON8H(NamedTuple):
     """
         name: .GMTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14468,7 +15354,8 @@ class _GMTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14495,7 +15382,8 @@ class _GMTBON8H(NamedTuple):
 _GMTBON8H = _GMTBON8H()
 """
     name: .GMTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14508,7 +15396,8 @@ _GMTBON8H = _GMTBON8H()
 class _GMTUSDTPI(NamedTuple):
     """
         name: .GMTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14517,7 +15406,8 @@ class _GMTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14544,7 +15434,8 @@ class _GMTUSDTPI(NamedTuple):
 _GMTUSDTPI = _GMTUSDTPI()
 """
     name: .GMTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14557,7 +15448,8 @@ _GMTUSDTPI = _GMTUSDTPI()
 class _GMTUSDTPI8H(NamedTuple):
     """
         name: .GMTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14566,7 +15458,8 @@ class _GMTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14593,7 +15486,8 @@ class _GMTUSDTPI8H(NamedTuple):
 _GMTUSDTPI8H = _GMTUSDTPI8H()
 """
     name: .GMTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14606,7 +15500,8 @@ _GMTUSDTPI8H = _GMTUSDTPI8H()
 class _GMTUSDPI(NamedTuple):
     """
         name: .GMTUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14615,7 +15510,8 @@ class _GMTUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14642,7 +15538,8 @@ class _GMTUSDPI(NamedTuple):
 _GMTUSDPI = _GMTUSDPI()
 """
     name: .GMTUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14655,7 +15552,8 @@ _GMTUSDPI = _GMTUSDPI()
 class _GMTUSDPI8H(NamedTuple):
     """
         name: .GMTUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14664,7 +15562,8 @@ class _GMTUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMTUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14691,7 +15590,8 @@ class _GMTUSDPI8H(NamedTuple):
 _GMTUSDPI8H = _GMTUSDPI8H()
 """
     name: .GMTUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14704,7 +15604,8 @@ _GMTUSDPI8H = _GMTUSDPI8H()
 class _BGMT(NamedTuple):
     """
         name: .BGMT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14713,7 +15614,8 @@ class _BGMT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14740,7 +15642,8 @@ class _BGMT(NamedTuple):
 _BGMT = _BGMT()
 """
     name: .BGMT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14753,7 +15656,8 @@ _BGMT = _BGMT()
 class _BGMT_NEXT(NamedTuple):
     """
         name: .BGMT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14762,7 +15666,8 @@ class _BGMT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14789,7 +15694,8 @@ class _BGMT_NEXT(NamedTuple):
 _BGMT_NEXT = _BGMT_NEXT()
 """
     name: .BGMT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14802,7 +15708,8 @@ _BGMT_NEXT = _BGMT_NEXT()
 class _BGMTT(NamedTuple):
     """
         name: .BGMTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14811,7 +15718,8 @@ class _BGMTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14838,7 +15746,8 @@ class _BGMTT(NamedTuple):
 _BGMTT = _BGMTT()
 """
     name: .BGMTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14851,7 +15760,8 @@ _BGMTT = _BGMTT()
 class _BGMTT_NEXT(NamedTuple):
     """
         name: .BGMTT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14860,7 +15770,8 @@ class _BGMTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMTT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14887,7 +15798,8 @@ class _BGMTT_NEXT(NamedTuple):
 _BGMTT_NEXT = _BGMTT_NEXT()
 """
     name: .BGMTT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14900,7 +15812,8 @@ _BGMTT_NEXT = _BGMTT_NEXT()
 class _NEARBON(NamedTuple):
     """
         name: .NEARBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14909,7 +15822,8 @@ class _NEARBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14936,7 +15850,8 @@ class _NEARBON(NamedTuple):
 _NEARBON = _NEARBON()
 """
     name: .NEARBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14949,7 +15864,8 @@ _NEARBON = _NEARBON()
 class _NEARBON8H(NamedTuple):
     """
         name: .NEARBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -14958,7 +15874,8 @@ class _NEARBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -14985,7 +15902,8 @@ class _NEARBON8H(NamedTuple):
 _NEARBON8H = _NEARBON8H()
 """
     name: .NEARBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -14998,7 +15916,8 @@ _NEARBON8H = _NEARBON8H()
 class _NEARUSDTPI(NamedTuple):
     """
         name: .NEARUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15007,7 +15926,8 @@ class _NEARUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15034,7 +15954,8 @@ class _NEARUSDTPI(NamedTuple):
 _NEARUSDTPI = _NEARUSDTPI()
 """
     name: .NEARUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15047,7 +15968,8 @@ _NEARUSDTPI = _NEARUSDTPI()
 class _NEARUSDTPI8H(NamedTuple):
     """
         name: .NEARUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15056,7 +15978,8 @@ class _NEARUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15083,7 +16006,8 @@ class _NEARUSDTPI8H(NamedTuple):
 _NEARUSDTPI8H = _NEARUSDTPI8H()
 """
     name: .NEARUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15096,7 +16020,8 @@ _NEARUSDTPI8H = _NEARUSDTPI8H()
 class _NEARUSDPI(NamedTuple):
     """
         name: .NEARUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15105,7 +16030,8 @@ class _NEARUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15132,7 +16058,8 @@ class _NEARUSDPI(NamedTuple):
 _NEARUSDPI = _NEARUSDPI()
 """
     name: .NEARUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15145,7 +16072,8 @@ _NEARUSDPI = _NEARUSDPI()
 class _NEARUSDPI8H(NamedTuple):
     """
         name: .NEARUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15154,7 +16082,8 @@ class _NEARUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NEARUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15181,7 +16110,8 @@ class _NEARUSDPI8H(NamedTuple):
 _NEARUSDPI8H = _NEARUSDPI8H()
 """
     name: .NEARUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15194,7 +16124,8 @@ _NEARUSDPI8H = _NEARUSDPI8H()
 class _BNEAR(NamedTuple):
     """
         name: .BNEAR
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15203,7 +16134,8 @@ class _BNEAR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNEAR"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15230,7 +16162,8 @@ class _BNEAR(NamedTuple):
 _BNEAR = _BNEAR()
 """
     name: .BNEAR
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15243,7 +16176,8 @@ _BNEAR = _BNEAR()
 class _BNEAR_NEXT(NamedTuple):
     """
         name: .BNEAR_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15252,7 +16186,8 @@ class _BNEAR_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNEAR_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15279,7 +16214,8 @@ class _BNEAR_NEXT(NamedTuple):
 _BNEAR_NEXT = _BNEAR_NEXT()
 """
     name: .BNEAR_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15292,7 +16228,8 @@ _BNEAR_NEXT = _BNEAR_NEXT()
 class _BNEART(NamedTuple):
     """
         name: .BNEART
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15301,7 +16238,8 @@ class _BNEART(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNEART"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15328,7 +16266,8 @@ class _BNEART(NamedTuple):
 _BNEART = _BNEART()
 """
     name: .BNEART
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15341,7 +16280,8 @@ _BNEART = _BNEART()
 class _BNEART_NEXT(NamedTuple):
     """
         name: .BNEART_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15350,7 +16290,8 @@ class _BNEART_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNEART_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15377,7 +16318,8 @@ class _BNEART_NEXT(NamedTuple):
 _BNEART_NEXT = _BNEART_NEXT()
 """
     name: .BNEART_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15390,7 +16332,8 @@ _BNEART_NEXT = _BNEART_NEXT()
 class _BLUNA30M(NamedTuple):
     """
         name: .BLUNA30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15399,7 +16342,8 @@ class _BLUNA30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNA30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15426,7 +16370,8 @@ class _BLUNA30M(NamedTuple):
 _BLUNA30M = _BLUNA30M()
 """
     name: .BLUNA30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15439,7 +16384,8 @@ _BLUNA30M = _BLUNA30M()
 class _BLUNAT30M(NamedTuple):
     """
         name: .BLUNAT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15448,7 +16394,8 @@ class _BLUNAT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNAT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15475,7 +16422,8 @@ class _BLUNAT30M(NamedTuple):
 _BLUNAT30M = _BLUNAT30M()
 """
     name: .BLUNAT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15488,7 +16436,8 @@ _BLUNAT30M = _BLUNAT30M()
 class _BAPE(NamedTuple):
     """
         name: .BAPE
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15497,7 +16446,8 @@ class _BAPE(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPE"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15524,7 +16474,8 @@ class _BAPE(NamedTuple):
 _BAPE = _BAPE()
 """
     name: .BAPE
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15537,7 +16488,8 @@ _BAPE = _BAPE()
 class _BAPE_NEXT(NamedTuple):
     """
         name: .BAPE_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15546,7 +16498,8 @@ class _BAPE_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPE_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15573,7 +16526,8 @@ class _BAPE_NEXT(NamedTuple):
 _BAPE_NEXT = _BAPE_NEXT()
 """
     name: .BAPE_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15586,7 +16540,8 @@ _BAPE_NEXT = _BAPE_NEXT()
 class _BTRX(NamedTuple):
     """
         name: .BTRX
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15595,7 +16550,8 @@ class _BTRX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRX"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15622,7 +16578,8 @@ class _BTRX(NamedTuple):
 _BTRX = _BTRX()
 """
     name: .BTRX
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15635,7 +16592,8 @@ _BTRX = _BTRX()
 class _BTRX_NEXT(NamedTuple):
     """
         name: .BTRX_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15644,7 +16602,8 @@ class _BTRX_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRX_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15671,7 +16630,8 @@ class _BTRX_NEXT(NamedTuple):
 _BTRX_NEXT = _BTRX_NEXT()
 """
     name: .BTRX_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15684,7 +16644,8 @@ _BTRX_NEXT = _BTRX_NEXT()
 class _BGAL(NamedTuple):
     """
         name: .BGAL
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15693,7 +16654,8 @@ class _BGAL(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGAL"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15720,7 +16682,8 @@ class _BGAL(NamedTuple):
 _BGAL = _BGAL()
 """
     name: .BGAL
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15733,7 +16696,8 @@ _BGAL = _BGAL()
 class _BGAL_NEXT(NamedTuple):
     """
         name: .BGAL_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15742,7 +16706,8 @@ class _BGAL_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGAL_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15769,7 +16734,8 @@ class _BGAL_NEXT(NamedTuple):
 _BGAL_NEXT = _BGAL_NEXT()
 """
     name: .BGAL_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15782,7 +16748,8 @@ _BGAL_NEXT = _BGAL_NEXT()
 class _BGALT(NamedTuple):
     """
         name: .BGALT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15791,7 +16758,8 @@ class _BGALT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGALT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15818,7 +16786,8 @@ class _BGALT(NamedTuple):
 _BGALT = _BGALT()
 """
     name: .BGALT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15831,7 +16800,8 @@ _BGALT = _BGALT()
 class _BGALT_NEXT(NamedTuple):
     """
         name: .BGALT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15840,7 +16810,8 @@ class _BGALT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGALT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15867,7 +16838,8 @@ class _BGALT_NEXT(NamedTuple):
 _BGALT_NEXT = _BGALT_NEXT()
 """
     name: .BGALT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15880,7 +16852,8 @@ _BGALT_NEXT = _BGALT_NEXT()
 class _GALBON(NamedTuple):
     """
         name: .GALBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15889,7 +16862,8 @@ class _GALBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15916,7 +16890,8 @@ class _GALBON(NamedTuple):
 _GALBON = _GALBON()
 """
     name: .GALBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15929,7 +16904,8 @@ _GALBON = _GALBON()
 class _GALBON8H(NamedTuple):
     """
         name: .GALBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15938,7 +16914,8 @@ class _GALBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -15965,7 +16942,8 @@ class _GALBON8H(NamedTuple):
 _GALBON8H = _GALBON8H()
 """
     name: .GALBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -15978,7 +16956,8 @@ _GALBON8H = _GALBON8H()
 class _APEUSDPI(NamedTuple):
     """
         name: .APEUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -15987,7 +16966,8 @@ class _APEUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16014,7 +16994,8 @@ class _APEUSDPI(NamedTuple):
 _APEUSDPI = _APEUSDPI()
 """
     name: .APEUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16027,7 +17008,8 @@ _APEUSDPI = _APEUSDPI()
 class _APEUSDPI8H(NamedTuple):
     """
         name: .APEUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16036,7 +17018,8 @@ class _APEUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APEUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16063,7 +17046,8 @@ class _APEUSDPI8H(NamedTuple):
 _APEUSDPI8H = _APEUSDPI8H()
 """
     name: .APEUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16076,7 +17060,8 @@ _APEUSDPI8H = _APEUSDPI8H()
 class _TRXUSDPI(NamedTuple):
     """
         name: .TRXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16085,7 +17070,8 @@ class _TRXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16112,7 +17098,8 @@ class _TRXUSDPI(NamedTuple):
 _TRXUSDPI = _TRXUSDPI()
 """
     name: .TRXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16125,7 +17112,8 @@ _TRXUSDPI = _TRXUSDPI()
 class _TRXUSDPI8H(NamedTuple):
     """
         name: .TRXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16134,7 +17122,8 @@ class _TRXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16161,7 +17150,8 @@ class _TRXUSDPI8H(NamedTuple):
 _TRXUSDPI8H = _TRXUSDPI8H()
 """
     name: .TRXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16174,7 +17164,8 @@ _TRXUSDPI8H = _TRXUSDPI8H()
 class _GALUSDTPI(NamedTuple):
     """
         name: .GALUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16183,7 +17174,8 @@ class _GALUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16210,7 +17202,8 @@ class _GALUSDTPI(NamedTuple):
 _GALUSDTPI = _GALUSDTPI()
 """
     name: .GALUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16223,7 +17216,8 @@ _GALUSDTPI = _GALUSDTPI()
 class _GALUSDTPI8H(NamedTuple):
     """
         name: .GALUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16232,7 +17226,8 @@ class _GALUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16259,7 +17254,8 @@ class _GALUSDTPI8H(NamedTuple):
 _GALUSDTPI8H = _GALUSDTPI8H()
 """
     name: .GALUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16272,7 +17268,8 @@ _GALUSDTPI8H = _GALUSDTPI8H()
 class _GALUSDPI(NamedTuple):
     """
         name: .GALUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16281,7 +17278,8 @@ class _GALUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16308,7 +17306,8 @@ class _GALUSDPI(NamedTuple):
 _GALUSDPI = _GALUSDPI()
 """
     name: .GALUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16321,7 +17320,8 @@ _GALUSDPI = _GALUSDPI()
 class _GALUSDPI8H(NamedTuple):
     """
         name: .GALUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16330,7 +17330,8 @@ class _GALUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GALUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16357,7 +17358,8 @@ class _GALUSDPI8H(NamedTuple):
 _GALUSDPI8H = _GALUSDPI8H()
 """
     name: .GALUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16370,7 +17372,8 @@ _GALUSDPI8H = _GALUSDPI8H()
 class _BLUNC(NamedTuple):
     """
         name: .BLUNC
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16379,7 +17382,8 @@ class _BLUNC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNC"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16406,7 +17410,8 @@ class _BLUNC(NamedTuple):
 _BLUNC = _BLUNC()
 """
     name: .BLUNC
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16419,7 +17424,8 @@ _BLUNC = _BLUNC()
 class _BLUNC_NEXT(NamedTuple):
     """
         name: .BLUNC_NEXT
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16428,7 +17434,8 @@ class _BLUNC_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNC_NEXT"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16455,7 +17462,8 @@ class _BLUNC_NEXT(NamedTuple):
 _BLUNC_NEXT = _BLUNC_NEXT()
 """
     name: .BLUNC_NEXT
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16468,7 +17476,8 @@ _BLUNC_NEXT = _BLUNC_NEXT()
 class _BLUNCT(NamedTuple):
     """
         name: .BLUNCT
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16477,7 +17486,8 @@ class _BLUNCT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNCT"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16504,7 +17514,8 @@ class _BLUNCT(NamedTuple):
 _BLUNCT = _BLUNCT()
 """
     name: .BLUNCT
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16517,7 +17528,8 @@ _BLUNCT = _BLUNCT()
 class _BLUNCT_NEXT(NamedTuple):
     """
         name: .BLUNCT_NEXT
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16526,7 +17538,8 @@ class _BLUNCT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLUNCT_NEXT"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16553,7 +17566,8 @@ class _BLUNCT_NEXT(NamedTuple):
 _BLUNCT_NEXT = _BLUNCT_NEXT()
 """
     name: .BLUNCT_NEXT
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16566,7 +17580,8 @@ _BLUNCT_NEXT = _BLUNCT_NEXT()
 class _BDFI(NamedTuple):
     """
         name: .BDFI
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16575,7 +17590,8 @@ class _BDFI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDFI"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16602,7 +17618,8 @@ class _BDFI(NamedTuple):
 _BDFI = _BDFI()
 """
     name: .BDFI
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16615,7 +17632,8 @@ _BDFI = _BDFI()
 class _BDFIT(NamedTuple):
     """
         name: .BDFIT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16624,7 +17642,8 @@ class _BDFIT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDFIT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16651,7 +17670,8 @@ class _BDFIT(NamedTuple):
 _BDFIT = _BDFIT()
 """
     name: .BDFIT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16664,7 +17684,8 @@ _BDFIT = _BDFIT()
 class _BGRT(NamedTuple):
     """
         name: .BGRT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16673,7 +17694,8 @@ class _BGRT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGRT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16700,7 +17722,8 @@ class _BGRT(NamedTuple):
 _BGRT = _BGRT()
 """
     name: .BGRT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16713,7 +17736,8 @@ _BGRT = _BGRT()
 class _EURUSDPI(NamedTuple):
     """
         name: .EURUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16722,7 +17746,8 @@ class _EURUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16749,7 +17774,8 @@ class _EURUSDPI(NamedTuple):
 _EURUSDPI = _EURUSDPI()
 """
     name: .EURUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16762,7 +17788,8 @@ _EURUSDPI = _EURUSDPI()
 class _USDCHFPI(NamedTuple):
     """
         name: .USDCHFPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16771,7 +17798,8 @@ class _USDCHFPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCHFPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16798,7 +17826,8 @@ class _USDCHFPI(NamedTuple):
 _USDCHFPI = _USDCHFPI()
 """
     name: .USDCHFPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16811,7 +17840,8 @@ _USDCHFPI = _USDCHFPI()
 class _EURCHFPI(NamedTuple):
     """
         name: .EURCHFPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16820,7 +17850,8 @@ class _EURCHFPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURCHFPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16847,7 +17878,8 @@ class _EURCHFPI(NamedTuple):
 _EURCHFPI = _EURCHFPI()
 """
     name: .EURCHFPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16860,7 +17892,8 @@ _EURCHFPI = _EURCHFPI()
 class _EURTRYPI(NamedTuple):
     """
         name: .EURTRYPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16869,7 +17902,8 @@ class _EURTRYPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURTRYPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16896,7 +17930,8 @@ class _EURTRYPI(NamedTuple):
 _EURTRYPI = _EURTRYPI()
 """
     name: .EURTRYPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16909,7 +17944,8 @@ _EURTRYPI = _EURTRYPI()
 class _USDTRYPI(NamedTuple):
     """
         name: .USDTRYPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16918,7 +17954,8 @@ class _USDTRYPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTRYPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16945,7 +17982,8 @@ class _USDTRYPI(NamedTuple):
 _USDTRYPI = _USDTRYPI()
 """
     name: .USDTRYPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -16958,7 +17996,8 @@ _USDTRYPI = _USDTRYPI()
 class _USDINRPI(NamedTuple):
     """
         name: .USDINRPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -16967,7 +18006,8 @@ class _USDINRPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDINRPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -16994,7 +18034,8 @@ class _USDINRPI(NamedTuple):
 _USDINRPI = _USDINRPI()
 """
     name: .USDINRPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17007,7 +18048,8 @@ _USDINRPI = _USDINRPI()
 class _USDZARPI(NamedTuple):
     """
         name: .USDZARPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17016,7 +18058,8 @@ class _USDZARPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDZARPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17043,7 +18086,8 @@ class _USDZARPI(NamedTuple):
 _USDZARPI = _USDZARPI()
 """
     name: .USDZARPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17056,7 +18100,8 @@ _USDZARPI = _USDZARPI()
 class _USDBRLPI(NamedTuple):
     """
         name: .USDBRLPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17065,7 +18110,8 @@ class _USDBRLPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDBRLPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17092,7 +18138,8 @@ class _USDBRLPI(NamedTuple):
 _USDBRLPI = _USDBRLPI()
 """
     name: .USDBRLPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17105,7 +18152,8 @@ _USDBRLPI = _USDBRLPI()
 class _USDMXNPI(NamedTuple):
     """
         name: .USDMXNPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17114,7 +18162,8 @@ class _USDMXNPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDMXNPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17141,7 +18190,8 @@ class _USDMXNPI(NamedTuple):
 _USDMXNPI = _USDMXNPI()
 """
     name: .USDMXNPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17154,7 +18204,8 @@ _USDMXNPI = _USDMXNPI()
 class _NZDUSDPI(NamedTuple):
     """
         name: .NZDUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17163,7 +18214,8 @@ class _NZDUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17190,7 +18242,8 @@ class _NZDUSDPI(NamedTuple):
 _NZDUSDPI = _NZDUSDPI()
 """
     name: .NZDUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17203,7 +18256,8 @@ _NZDUSDPI = _NZDUSDPI()
 class _USDCNHPI(NamedTuple):
     """
         name: .USDCNHPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17212,7 +18266,8 @@ class _USDCNHPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCNHPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17239,7 +18294,8 @@ class _USDCNHPI(NamedTuple):
 _USDCNHPI = _USDCNHPI()
 """
     name: .USDCNHPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17252,7 +18308,8 @@ _USDCNHPI = _USDCNHPI()
 class _USDSEKPI(NamedTuple):
     """
         name: .USDSEKPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17261,7 +18318,8 @@ class _USDSEKPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDSEKPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17288,7 +18346,8 @@ class _USDSEKPI(NamedTuple):
 _USDSEKPI = _USDSEKPI()
 """
     name: .USDSEKPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17301,7 +18360,8 @@ _USDSEKPI = _USDSEKPI()
 class _EURUSDPI8H(NamedTuple):
     """
         name: .EURUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17310,7 +18370,8 @@ class _EURUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17337,7 +18398,8 @@ class _EURUSDPI8H(NamedTuple):
 _EURUSDPI8H = _EURUSDPI8H()
 """
     name: .EURUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17350,7 +18412,8 @@ _EURUSDPI8H = _EURUSDPI8H()
 class _USDCHFPI8H(NamedTuple):
     """
         name: .USDCHFPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17359,7 +18422,8 @@ class _USDCHFPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCHFPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17386,7 +18450,8 @@ class _USDCHFPI8H(NamedTuple):
 _USDCHFPI8H = _USDCHFPI8H()
 """
     name: .USDCHFPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17399,7 +18464,8 @@ _USDCHFPI8H = _USDCHFPI8H()
 class _EURCHFPI8H(NamedTuple):
     """
         name: .EURCHFPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17408,7 +18474,8 @@ class _EURCHFPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURCHFPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17435,7 +18502,8 @@ class _EURCHFPI8H(NamedTuple):
 _EURCHFPI8H = _EURCHFPI8H()
 """
     name: .EURCHFPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17448,7 +18516,8 @@ _EURCHFPI8H = _EURCHFPI8H()
 class _EURTRYPI8H(NamedTuple):
     """
         name: .EURTRYPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17457,7 +18526,8 @@ class _EURTRYPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURTRYPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17484,7 +18554,8 @@ class _EURTRYPI8H(NamedTuple):
 _EURTRYPI8H = _EURTRYPI8H()
 """
     name: .EURTRYPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17497,7 +18568,8 @@ _EURTRYPI8H = _EURTRYPI8H()
 class _USDTRYPI8H(NamedTuple):
     """
         name: .USDTRYPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17506,7 +18578,8 @@ class _USDTRYPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTRYPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17533,7 +18606,8 @@ class _USDTRYPI8H(NamedTuple):
 _USDTRYPI8H = _USDTRYPI8H()
 """
     name: .USDTRYPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17546,7 +18620,8 @@ _USDTRYPI8H = _USDTRYPI8H()
 class _USDINRPI8H(NamedTuple):
     """
         name: .USDINRPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17555,7 +18630,8 @@ class _USDINRPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDINRPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17582,7 +18658,8 @@ class _USDINRPI8H(NamedTuple):
 _USDINRPI8H = _USDINRPI8H()
 """
     name: .USDINRPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17595,7 +18672,8 @@ _USDINRPI8H = _USDINRPI8H()
 class _USDZARPI8H(NamedTuple):
     """
         name: .USDZARPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17604,7 +18682,8 @@ class _USDZARPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDZARPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17631,7 +18710,8 @@ class _USDZARPI8H(NamedTuple):
 _USDZARPI8H = _USDZARPI8H()
 """
     name: .USDZARPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17644,7 +18724,8 @@ _USDZARPI8H = _USDZARPI8H()
 class _USDBRLPI8H(NamedTuple):
     """
         name: .USDBRLPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17653,7 +18734,8 @@ class _USDBRLPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDBRLPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17680,7 +18762,8 @@ class _USDBRLPI8H(NamedTuple):
 _USDBRLPI8H = _USDBRLPI8H()
 """
     name: .USDBRLPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17693,7 +18776,8 @@ _USDBRLPI8H = _USDBRLPI8H()
 class _USDMXNPI8H(NamedTuple):
     """
         name: .USDMXNPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17702,7 +18786,8 @@ class _USDMXNPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDMXNPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17729,7 +18814,8 @@ class _USDMXNPI8H(NamedTuple):
 _USDMXNPI8H = _USDMXNPI8H()
 """
     name: .USDMXNPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17742,7 +18828,8 @@ _USDMXNPI8H = _USDMXNPI8H()
 class _NZDUSDPI8H(NamedTuple):
     """
         name: .NZDUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17751,7 +18838,8 @@ class _NZDUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17778,7 +18866,8 @@ class _NZDUSDPI8H(NamedTuple):
 _NZDUSDPI8H = _NZDUSDPI8H()
 """
     name: .NZDUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17791,7 +18880,8 @@ _NZDUSDPI8H = _NZDUSDPI8H()
 class _USDCNHPI8H(NamedTuple):
     """
         name: .USDCNHPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17800,7 +18890,8 @@ class _USDCNHPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCNHPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17827,7 +18918,8 @@ class _USDCNHPI8H(NamedTuple):
 _USDCNHPI8H = _USDCNHPI8H()
 """
     name: .USDCNHPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17840,7 +18932,8 @@ _USDCNHPI8H = _USDCNHPI8H()
 class _USDSEKPI8H(NamedTuple):
     """
         name: .USDSEKPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17849,7 +18942,8 @@ class _USDSEKPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDSEKPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17876,7 +18970,8 @@ class _USDSEKPI8H(NamedTuple):
 _USDSEKPI8H = _USDSEKPI8H()
 """
     name: .USDSEKPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17889,7 +18984,8 @@ _USDSEKPI8H = _USDSEKPI8H()
 class _EURUSDTPI(NamedTuple):
     """
         name: .EURUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17898,7 +18994,8 @@ class _EURUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17925,7 +19022,8 @@ class _EURUSDTPI(NamedTuple):
 _EURUSDTPI = _EURUSDTPI()
 """
     name: .EURUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17938,7 +19036,8 @@ _EURUSDTPI = _EURUSDTPI()
 class _USDTCHFPI(NamedTuple):
     """
         name: .USDTCHFPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17947,7 +19046,8 @@ class _USDTCHFPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTCHFPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -17974,7 +19074,8 @@ class _USDTCHFPI(NamedTuple):
 _USDTCHFPI = _USDTCHFPI()
 """
     name: .USDTCHFPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -17987,7 +19088,8 @@ _USDTCHFPI = _USDTCHFPI()
 class _USDTTRYPI(NamedTuple):
     """
         name: .USDTTRYPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -17996,7 +19098,8 @@ class _USDTTRYPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTTRYPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18023,7 +19126,8 @@ class _USDTTRYPI(NamedTuple):
 _USDTTRYPI = _USDTTRYPI()
 """
     name: .USDTTRYPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18036,7 +19140,8 @@ _USDTTRYPI = _USDTTRYPI()
 class _USDTINRPI(NamedTuple):
     """
         name: .USDTINRPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18045,7 +19150,8 @@ class _USDTINRPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTINRPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18072,7 +19178,8 @@ class _USDTINRPI(NamedTuple):
 _USDTINRPI = _USDTINRPI()
 """
     name: .USDTINRPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18085,7 +19192,8 @@ _USDTINRPI = _USDTINRPI()
 class _USDTZARPI(NamedTuple):
     """
         name: .USDTZARPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18094,7 +19202,8 @@ class _USDTZARPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTZARPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18121,7 +19230,8 @@ class _USDTZARPI(NamedTuple):
 _USDTZARPI = _USDTZARPI()
 """
     name: .USDTZARPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18134,7 +19244,8 @@ _USDTZARPI = _USDTZARPI()
 class _USDTBRLPI(NamedTuple):
     """
         name: .USDTBRLPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18143,7 +19254,8 @@ class _USDTBRLPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTBRLPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18170,7 +19282,8 @@ class _USDTBRLPI(NamedTuple):
 _USDTBRLPI = _USDTBRLPI()
 """
     name: .USDTBRLPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18183,7 +19296,8 @@ _USDTBRLPI = _USDTBRLPI()
 class _USDTMXNPI(NamedTuple):
     """
         name: .USDTMXNPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18192,7 +19306,8 @@ class _USDTMXNPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTMXNPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18219,7 +19334,8 @@ class _USDTMXNPI(NamedTuple):
 _USDTMXNPI = _USDTMXNPI()
 """
     name: .USDTMXNPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18232,7 +19348,8 @@ _USDTMXNPI = _USDTMXNPI()
 class _NZDUSDTPI(NamedTuple):
     """
         name: .NZDUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18241,7 +19358,8 @@ class _NZDUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18268,7 +19386,8 @@ class _NZDUSDTPI(NamedTuple):
 _NZDUSDTPI = _NZDUSDTPI()
 """
     name: .NZDUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18281,7 +19400,8 @@ _NZDUSDTPI = _NZDUSDTPI()
 class _USDTCNHPI(NamedTuple):
     """
         name: .USDTCNHPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18290,7 +19410,8 @@ class _USDTCNHPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTCNHPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18317,7 +19438,8 @@ class _USDTCNHPI(NamedTuple):
 _USDTCNHPI = _USDTCNHPI()
 """
     name: .USDTCNHPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18330,7 +19452,8 @@ _USDTCNHPI = _USDTCNHPI()
 class _USDTSEKPI(NamedTuple):
     """
         name: .USDTSEKPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18339,7 +19462,8 @@ class _USDTSEKPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTSEKPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18366,7 +19490,8 @@ class _USDTSEKPI(NamedTuple):
 _USDTSEKPI = _USDTSEKPI()
 """
     name: .USDTSEKPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18379,7 +19504,8 @@ _USDTSEKPI = _USDTSEKPI()
 class _EURUSDTPI8H(NamedTuple):
     """
         name: .EURUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18388,7 +19514,8 @@ class _EURUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".EURUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18415,7 +19542,8 @@ class _EURUSDTPI8H(NamedTuple):
 _EURUSDTPI8H = _EURUSDTPI8H()
 """
     name: .EURUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18428,7 +19556,8 @@ _EURUSDTPI8H = _EURUSDTPI8H()
 class _USDTCHFPI8H(NamedTuple):
     """
         name: .USDTCHFPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18437,7 +19566,8 @@ class _USDTCHFPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTCHFPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18464,7 +19594,8 @@ class _USDTCHFPI8H(NamedTuple):
 _USDTCHFPI8H = _USDTCHFPI8H()
 """
     name: .USDTCHFPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18477,7 +19608,8 @@ _USDTCHFPI8H = _USDTCHFPI8H()
 class _USDTTRYPI8H(NamedTuple):
     """
         name: .USDTTRYPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18486,7 +19618,8 @@ class _USDTTRYPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTTRYPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18513,7 +19646,8 @@ class _USDTTRYPI8H(NamedTuple):
 _USDTTRYPI8H = _USDTTRYPI8H()
 """
     name: .USDTTRYPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18526,7 +19660,8 @@ _USDTTRYPI8H = _USDTTRYPI8H()
 class _USDTINRPI8H(NamedTuple):
     """
         name: .USDTINRPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18535,7 +19670,8 @@ class _USDTINRPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTINRPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18562,7 +19698,8 @@ class _USDTINRPI8H(NamedTuple):
 _USDTINRPI8H = _USDTINRPI8H()
 """
     name: .USDTINRPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18575,7 +19712,8 @@ _USDTINRPI8H = _USDTINRPI8H()
 class _USDTZARPI8H(NamedTuple):
     """
         name: .USDTZARPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18584,7 +19722,8 @@ class _USDTZARPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTZARPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18611,7 +19750,8 @@ class _USDTZARPI8H(NamedTuple):
 _USDTZARPI8H = _USDTZARPI8H()
 """
     name: .USDTZARPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18624,7 +19764,8 @@ _USDTZARPI8H = _USDTZARPI8H()
 class _USDTBRLPI8H(NamedTuple):
     """
         name: .USDTBRLPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18633,7 +19774,8 @@ class _USDTBRLPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTBRLPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18660,7 +19802,8 @@ class _USDTBRLPI8H(NamedTuple):
 _USDTBRLPI8H = _USDTBRLPI8H()
 """
     name: .USDTBRLPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18673,7 +19816,8 @@ _USDTBRLPI8H = _USDTBRLPI8H()
 class _USDTMXNPI8H(NamedTuple):
     """
         name: .USDTMXNPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18682,7 +19826,8 @@ class _USDTMXNPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTMXNPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18709,7 +19854,8 @@ class _USDTMXNPI8H(NamedTuple):
 _USDTMXNPI8H = _USDTMXNPI8H()
 """
     name: .USDTMXNPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18722,7 +19868,8 @@ _USDTMXNPI8H = _USDTMXNPI8H()
 class _NZDUSDTPI8H(NamedTuple):
     """
         name: .NZDUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18731,7 +19878,8 @@ class _NZDUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18758,7 +19906,8 @@ class _NZDUSDTPI8H(NamedTuple):
 _NZDUSDTPI8H = _NZDUSDTPI8H()
 """
     name: .NZDUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18771,7 +19920,8 @@ _NZDUSDTPI8H = _NZDUSDTPI8H()
 class _USDTCNHPI8H(NamedTuple):
     """
         name: .USDTCNHPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18780,7 +19930,8 @@ class _USDTCNHPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTCNHPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18807,7 +19958,8 @@ class _USDTCNHPI8H(NamedTuple):
 _USDTCNHPI8H = _USDTCNHPI8H()
 """
     name: .USDTCNHPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18820,7 +19972,8 @@ _USDTCNHPI8H = _USDTCNHPI8H()
 class _USDTSEKPI8H(NamedTuple):
     """
         name: .USDTSEKPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18829,7 +19982,8 @@ class _USDTSEKPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTSEKPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18856,7 +20010,8 @@ class _USDTSEKPI8H(NamedTuple):
 _USDTSEKPI8H = _USDTSEKPI8H()
 """
     name: .USDTSEKPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18869,7 +20024,8 @@ _USDTSEKPI8H = _USDTSEKPI8H()
 class _CHFBON(NamedTuple):
     """
         name: .CHFBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18878,7 +20034,8 @@ class _CHFBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CHFBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18905,7 +20062,8 @@ class _CHFBON(NamedTuple):
 _CHFBON = _CHFBON()
 """
     name: .CHFBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18918,7 +20076,8 @@ _CHFBON = _CHFBON()
 class _TRYBON(NamedTuple):
     """
         name: .TRYBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18927,7 +20086,8 @@ class _TRYBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRYBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -18954,7 +20114,8 @@ class _TRYBON(NamedTuple):
 _TRYBON = _TRYBON()
 """
     name: .TRYBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -18967,7 +20128,8 @@ _TRYBON = _TRYBON()
 class _INRBON(NamedTuple):
     """
         name: .INRBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -18976,7 +20138,8 @@ class _INRBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".INRBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19003,7 +20166,8 @@ class _INRBON(NamedTuple):
 _INRBON = _INRBON()
 """
     name: .INRBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19016,7 +20180,8 @@ _INRBON = _INRBON()
 class _ZARBON(NamedTuple):
     """
         name: .ZARBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19025,7 +20190,8 @@ class _ZARBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ZARBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19052,7 +20218,8 @@ class _ZARBON(NamedTuple):
 _ZARBON = _ZARBON()
 """
     name: .ZARBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19065,7 +20232,8 @@ _ZARBON = _ZARBON()
 class _BRLBON(NamedTuple):
     """
         name: .BRLBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19074,7 +20242,8 @@ class _BRLBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BRLBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19101,7 +20270,8 @@ class _BRLBON(NamedTuple):
 _BRLBON = _BRLBON()
 """
     name: .BRLBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19114,7 +20284,8 @@ _BRLBON = _BRLBON()
 class _MXNBON(NamedTuple):
     """
         name: .MXNBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19123,7 +20294,8 @@ class _MXNBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MXNBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19150,7 +20322,8 @@ class _MXNBON(NamedTuple):
 _MXNBON = _MXNBON()
 """
     name: .MXNBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19163,7 +20336,8 @@ _MXNBON = _MXNBON()
 class _NZDBON(NamedTuple):
     """
         name: .NZDBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19172,7 +20346,8 @@ class _NZDBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19199,7 +20374,8 @@ class _NZDBON(NamedTuple):
 _NZDBON = _NZDBON()
 """
     name: .NZDBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19212,7 +20388,8 @@ _NZDBON = _NZDBON()
 class _CNHBON(NamedTuple):
     """
         name: .CNHBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19221,7 +20398,8 @@ class _CNHBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CNHBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19248,7 +20426,8 @@ class _CNHBON(NamedTuple):
 _CNHBON = _CNHBON()
 """
     name: .CNHBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19261,7 +20440,8 @@ _CNHBON = _CNHBON()
 class _SEKBON(NamedTuple):
     """
         name: .SEKBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19270,7 +20450,8 @@ class _SEKBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SEKBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19297,7 +20478,8 @@ class _SEKBON(NamedTuple):
 _SEKBON = _SEKBON()
 """
     name: .SEKBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19310,7 +20492,8 @@ _SEKBON = _SEKBON()
 class _CHFBON8H(NamedTuple):
     """
         name: .CHFBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19319,7 +20502,8 @@ class _CHFBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CHFBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19346,7 +20530,8 @@ class _CHFBON8H(NamedTuple):
 _CHFBON8H = _CHFBON8H()
 """
     name: .CHFBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19359,7 +20544,8 @@ _CHFBON8H = _CHFBON8H()
 class _TRYBON8H(NamedTuple):
     """
         name: .TRYBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19368,7 +20554,8 @@ class _TRYBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".TRYBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19395,7 +20582,8 @@ class _TRYBON8H(NamedTuple):
 _TRYBON8H = _TRYBON8H()
 """
     name: .TRYBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19408,7 +20596,8 @@ _TRYBON8H = _TRYBON8H()
 class _INRBON8H(NamedTuple):
     """
         name: .INRBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19417,7 +20606,8 @@ class _INRBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".INRBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19444,7 +20634,8 @@ class _INRBON8H(NamedTuple):
 _INRBON8H = _INRBON8H()
 """
     name: .INRBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19457,7 +20648,8 @@ _INRBON8H = _INRBON8H()
 class _ZARBON8H(NamedTuple):
     """
         name: .ZARBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19466,7 +20658,8 @@ class _ZARBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ZARBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19493,7 +20686,8 @@ class _ZARBON8H(NamedTuple):
 _ZARBON8H = _ZARBON8H()
 """
     name: .ZARBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19506,7 +20700,8 @@ _ZARBON8H = _ZARBON8H()
 class _BRLBON8H(NamedTuple):
     """
         name: .BRLBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19515,7 +20710,8 @@ class _BRLBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BRLBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19542,7 +20738,8 @@ class _BRLBON8H(NamedTuple):
 _BRLBON8H = _BRLBON8H()
 """
     name: .BRLBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19555,7 +20752,8 @@ _BRLBON8H = _BRLBON8H()
 class _MXNBON8H(NamedTuple):
     """
         name: .MXNBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19564,7 +20762,8 @@ class _MXNBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".MXNBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19591,7 +20790,8 @@ class _MXNBON8H(NamedTuple):
 _MXNBON8H = _MXNBON8H()
 """
     name: .MXNBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19604,7 +20804,8 @@ _MXNBON8H = _MXNBON8H()
 class _NZDBON8H(NamedTuple):
     """
         name: .NZDBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19613,7 +20814,8 @@ class _NZDBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".NZDBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19640,7 +20842,8 @@ class _NZDBON8H(NamedTuple):
 _NZDBON8H = _NZDBON8H()
 """
     name: .NZDBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19653,7 +20856,8 @@ _NZDBON8H = _NZDBON8H()
 class _CNHBON8H(NamedTuple):
     """
         name: .CNHBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19662,7 +20866,8 @@ class _CNHBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CNHBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19689,7 +20894,8 @@ class _CNHBON8H(NamedTuple):
 _CNHBON8H = _CNHBON8H()
 """
     name: .CNHBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19702,7 +20908,8 @@ _CNHBON8H = _CNHBON8H()
 class _SEKBON8H(NamedTuple):
     """
         name: .SEKBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19711,7 +20918,8 @@ class _SEKBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".SEKBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19738,7 +20946,8 @@ class _SEKBON8H(NamedTuple):
 _SEKBON8H = _SEKBON8H()
 """
     name: .SEKBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19751,7 +20960,8 @@ _SEKBON8H = _SEKBON8H()
 class _BOP(NamedTuple):
     """
         name: .BOP
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19760,7 +20970,8 @@ class _BOP(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOP"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19787,7 +20998,8 @@ class _BOP(NamedTuple):
 _BOP = _BOP()
 """
     name: .BOP
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19800,7 +21012,8 @@ _BOP = _BOP()
 class _BOP_NEXT(NamedTuple):
     """
         name: .BOP_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19809,7 +21022,8 @@ class _BOP_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOP_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19836,7 +21050,8 @@ class _BOP_NEXT(NamedTuple):
 _BOP_NEXT = _BOP_NEXT()
 """
     name: .BOP_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19849,7 +21064,8 @@ _BOP_NEXT = _BOP_NEXT()
 class _BOPT(NamedTuple):
     """
         name: .BOPT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19858,7 +21074,8 @@ class _BOPT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOPT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19885,7 +21102,8 @@ class _BOPT(NamedTuple):
 _BOPT = _BOPT()
 """
     name: .BOPT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19898,7 +21116,8 @@ _BOPT = _BOPT()
 class _BOPT_NEXT(NamedTuple):
     """
         name: .BOPT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19907,7 +21126,8 @@ class _BOPT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOPT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19934,7 +21154,8 @@ class _BOPT_NEXT(NamedTuple):
 _BOPT_NEXT = _BOPT_NEXT()
 """
     name: .BOPT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19947,7 +21168,8 @@ _BOPT_NEXT = _BOPT_NEXT()
 class _OPBON(NamedTuple):
     """
         name: .OPBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -19956,7 +21178,8 @@ class _OPBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -19983,7 +21206,8 @@ class _OPBON(NamedTuple):
 _OPBON = _OPBON()
 """
     name: .OPBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -19996,7 +21220,8 @@ _OPBON = _OPBON()
 class _OPBON8H(NamedTuple):
     """
         name: .OPBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20005,7 +21230,8 @@ class _OPBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20032,7 +21258,8 @@ class _OPBON8H(NamedTuple):
 _OPBON8H = _OPBON8H()
 """
     name: .OPBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20045,7 +21272,8 @@ _OPBON8H = _OPBON8H()
 class _OPUSDTPI(NamedTuple):
     """
         name: .OPUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20054,7 +21282,8 @@ class _OPUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20081,7 +21310,8 @@ class _OPUSDTPI(NamedTuple):
 _OPUSDTPI = _OPUSDTPI()
 """
     name: .OPUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20094,7 +21324,8 @@ _OPUSDTPI = _OPUSDTPI()
 class _OPUSDTPI8H(NamedTuple):
     """
         name: .OPUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20103,7 +21334,8 @@ class _OPUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20130,7 +21362,8 @@ class _OPUSDTPI8H(NamedTuple):
 _OPUSDTPI8H = _OPUSDTPI8H()
 """
     name: .OPUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20143,7 +21376,8 @@ _OPUSDTPI8H = _OPUSDTPI8H()
 class _OPUSDPI(NamedTuple):
     """
         name: .OPUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20152,7 +21386,8 @@ class _OPUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20179,7 +21414,8 @@ class _OPUSDPI(NamedTuple):
 _OPUSDPI = _OPUSDPI()
 """
     name: .OPUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20192,7 +21428,8 @@ _OPUSDPI = _OPUSDPI()
 class _OPUSDPI8H(NamedTuple):
     """
         name: .OPUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20201,7 +21438,8 @@ class _OPUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".OPUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20228,7 +21466,8 @@ class _OPUSDPI8H(NamedTuple):
 _OPUSDPI8H = _OPUSDPI8H()
 """
     name: .OPUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20241,7 +21480,8 @@ _OPUSDPI8H = _OPUSDPI8H()
 class _BUSDC(NamedTuple):
     """
         name: .BUSDC
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20250,7 +21490,8 @@ class _BUSDC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDC"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20277,7 +21518,8 @@ class _BUSDC(NamedTuple):
 _BUSDC = _BUSDC()
 """
     name: .BUSDC
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20290,7 +21532,8 @@ _BUSDC = _BUSDC()
 class _BUSDCT(NamedTuple):
     """
         name: .BUSDCT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20299,7 +21542,8 @@ class _BUSDCT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDCT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20326,7 +21570,8 @@ class _BUSDCT(NamedTuple):
 _BUSDCT = _BUSDCT()
 """
     name: .BUSDCT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20339,7 +21584,8 @@ _BUSDCT = _BUSDCT()
 class _BETHPOWT(NamedTuple):
     """
         name: .BETHPOWT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20348,7 +21594,8 @@ class _BETHPOWT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHPOWT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20375,7 +21622,8 @@ class _BETHPOWT(NamedTuple):
 _BETHPOWT = _BETHPOWT()
 """
     name: .BETHPOWT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20388,7 +21636,8 @@ _BETHPOWT = _BETHPOWT()
 class _BETHPOWT_NEXT(NamedTuple):
     """
         name: .BETHPOWT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20397,7 +21646,8 @@ class _BETHPOWT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHPOWT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20424,7 +21674,8 @@ class _BETHPOWT_NEXT(NamedTuple):
 _BETHPOWT_NEXT = _BETHPOWT_NEXT()
 """
     name: .BETHPOWT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20437,7 +21688,8 @@ _BETHPOWT_NEXT = _BETHPOWT_NEXT()
 class _BETHPOWT30M(NamedTuple):
     """
         name: .BETHPOWT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20446,7 +21698,8 @@ class _BETHPOWT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHPOWT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20473,7 +21726,8 @@ class _BETHPOWT30M(NamedTuple):
 _BETHPOWT30M = _BETHPOWT30M()
 """
     name: .BETHPOWT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20486,7 +21740,8 @@ _BETHPOWT30M = _BETHPOWT30M()
 class _BALTMEXT30M(NamedTuple):
     """
         name: .BALTMEXT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20495,7 +21750,8 @@ class _BALTMEXT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BALTMEXT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20522,7 +21778,8 @@ class _BALTMEXT30M(NamedTuple):
 _BALTMEXT30M = _BALTMEXT30M()
 """
     name: .BALTMEXT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20535,7 +21792,8 @@ _BALTMEXT30M = _BALTMEXT30M()
 class _BDEFIMEXT30M(NamedTuple):
     """
         name: .BDEFIMEXT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20544,7 +21802,8 @@ class _BDEFIMEXT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDEFIMEXT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20571,7 +21830,8 @@ class _BDEFIMEXT30M(NamedTuple):
 _BDEFIMEXT30M = _BDEFIMEXT30M()
 """
     name: .BDEFIMEXT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20584,7 +21844,8 @@ _BDEFIMEXT30M = _BDEFIMEXT30M()
 class _BMETAMEXT30M(NamedTuple):
     """
         name: .BMETAMEXT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20593,7 +21854,8 @@ class _BMETAMEXT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMETAMEXT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20620,7 +21882,8 @@ class _BMETAMEXT30M(NamedTuple):
 _BMETAMEXT30M = _BMETAMEXT30M()
 """
     name: .BMETAMEXT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20633,7 +21896,8 @@ _BMETAMEXT30M = _BMETAMEXT30M()
 class _BUSDC_NEXT(NamedTuple):
     """
         name: .BUSDC_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20642,7 +21906,8 @@ class _BUSDC_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDC_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20669,7 +21934,8 @@ class _BUSDC_NEXT(NamedTuple):
 _BUSDC_NEXT = _BUSDC_NEXT()
 """
     name: .BUSDC_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20682,7 +21948,8 @@ _BUSDC_NEXT = _BUSDC_NEXT()
 class _BUSDCT_NEXT(NamedTuple):
     """
         name: .BUSDCT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20691,7 +21958,8 @@ class _BUSDCT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDCT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20718,7 +21986,8 @@ class _BUSDCT_NEXT(NamedTuple):
 _BUSDCT_NEXT = _BUSDCT_NEXT()
 """
     name: .BUSDCT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20731,7 +22000,8 @@ _BUSDCT_NEXT = _BUSDCT_NEXT()
 class _BKLAY(NamedTuple):
     """
         name: .BKLAY
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20740,7 +22010,8 @@ class _BKLAY(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BKLAY"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20767,7 +22038,8 @@ class _BKLAY(NamedTuple):
 _BKLAY = _BKLAY()
 """
     name: .BKLAY
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20780,7 +22052,8 @@ _BKLAY = _BKLAY()
 class _BKLAY_NEXT(NamedTuple):
     """
         name: .BKLAY_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20789,7 +22062,8 @@ class _BKLAY_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BKLAY_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20816,7 +22090,8 @@ class _BKLAY_NEXT(NamedTuple):
 _BKLAY_NEXT = _BKLAY_NEXT()
 """
     name: .BKLAY_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20829,7 +22104,8 @@ _BKLAY_NEXT = _BKLAY_NEXT()
 class _BKLAYT(NamedTuple):
     """
         name: .BKLAYT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20838,7 +22114,8 @@ class _BKLAYT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BKLAYT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20865,7 +22142,8 @@ class _BKLAYT(NamedTuple):
 _BKLAYT = _BKLAYT()
 """
     name: .BKLAYT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20878,7 +22156,8 @@ _BKLAYT = _BKLAYT()
 class _BKLAYT_NEXT(NamedTuple):
     """
         name: .BKLAYT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20887,7 +22166,8 @@ class _BKLAYT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BKLAYT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20914,7 +22194,8 @@ class _BKLAYT_NEXT(NamedTuple):
 _BKLAYT_NEXT = _BKLAYT_NEXT()
 """
     name: .BKLAYT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20927,7 +22208,8 @@ _BKLAYT_NEXT = _BKLAYT_NEXT()
 class _KLAYUSDTPI(NamedTuple):
     """
         name: .KLAYUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20936,7 +22218,8 @@ class _KLAYUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -20963,7 +22246,8 @@ class _KLAYUSDTPI(NamedTuple):
 _KLAYUSDTPI = _KLAYUSDTPI()
 """
     name: .KLAYUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -20976,7 +22260,8 @@ _KLAYUSDTPI = _KLAYUSDTPI()
 class _KLAYUSDTPI8H(NamedTuple):
     """
         name: .KLAYUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -20985,7 +22270,8 @@ class _KLAYUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21012,7 +22298,8 @@ class _KLAYUSDTPI8H(NamedTuple):
 _KLAYUSDTPI8H = _KLAYUSDTPI8H()
 """
     name: .KLAYUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21025,7 +22312,8 @@ _KLAYUSDTPI8H = _KLAYUSDTPI8H()
 class _KLAYUSDPI(NamedTuple):
     """
         name: .KLAYUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21034,7 +22322,8 @@ class _KLAYUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21061,7 +22350,8 @@ class _KLAYUSDPI(NamedTuple):
 _KLAYUSDPI = _KLAYUSDPI()
 """
     name: .KLAYUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21074,7 +22364,8 @@ _KLAYUSDPI = _KLAYUSDPI()
 class _KLAYUSDPI8H(NamedTuple):
     """
         name: .KLAYUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21083,7 +22374,8 @@ class _KLAYUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21110,7 +22402,8 @@ class _KLAYUSDPI8H(NamedTuple):
 _KLAYUSDPI8H = _KLAYUSDPI8H()
 """
     name: .KLAYUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21123,7 +22416,8 @@ _KLAYUSDPI8H = _KLAYUSDPI8H()
 class _KLAYBON(NamedTuple):
     """
         name: .KLAYBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21132,7 +22426,8 @@ class _KLAYBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21159,7 +22454,8 @@ class _KLAYBON(NamedTuple):
 _KLAYBON = _KLAYBON()
 """
     name: .KLAYBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21172,7 +22468,8 @@ _KLAYBON = _KLAYBON()
 class _KLAYBON8H(NamedTuple):
     """
         name: .KLAYBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21181,7 +22478,8 @@ class _KLAYBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".KLAYBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21208,7 +22506,8 @@ class _KLAYBON8H(NamedTuple):
 _KLAYBON8H = _KLAYBON8H()
 """
     name: .KLAYBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21221,7 +22520,8 @@ _KLAYBON8H = _KLAYBON8H()
 class _BSTETH(NamedTuple):
     """
         name: .BSTETH
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21230,7 +22530,8 @@ class _BSTETH(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSTETH"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21257,7 +22558,8 @@ class _BSTETH(NamedTuple):
 _BSTETH = _BSTETH()
 """
     name: .BSTETH
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21270,7 +22572,8 @@ _BSTETH = _BSTETH()
 class _BSTETHT(NamedTuple):
     """
         name: .BSTETHT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21279,7 +22582,8 @@ class _BSTETHT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSTETHT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21306,7 +22610,8 @@ class _BSTETHT(NamedTuple):
 _BSTETHT = _BSTETHT()
 """
     name: .BSTETHT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21319,7 +22624,8 @@ _BSTETHT = _BSTETHT()
 class _BDAI(NamedTuple):
     """
         name: .BDAI
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21328,7 +22634,8 @@ class _BDAI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDAI"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21355,7 +22662,8 @@ class _BDAI(NamedTuple):
 _BDAI = _BDAI()
 """
     name: .BDAI
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21368,7 +22676,8 @@ _BDAI = _BDAI()
 class _BDAIT(NamedTuple):
     """
         name: .BDAIT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21377,7 +22686,8 @@ class _BDAIT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BDAIT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21404,7 +22714,8 @@ class _BDAIT(NamedTuple):
 _BDAIT = _BDAIT()
 """
     name: .BDAIT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21417,7 +22728,8 @@ _BDAIT = _BDAIT()
 class _BBUSD(NamedTuple):
     """
         name: .BBUSD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21426,7 +22738,8 @@ class _BBUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBUSD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21453,7 +22766,8 @@ class _BBUSD(NamedTuple):
 _BBUSD = _BBUSD()
 """
     name: .BBUSD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21466,7 +22780,8 @@ _BBUSD = _BBUSD()
 class _BBUSDT(NamedTuple):
     """
         name: .BBUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21475,7 +22790,8 @@ class _BBUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21502,7 +22818,8 @@ class _BBUSDT(NamedTuple):
 _BBUSDT = _BBUSDT()
 """
     name: .BBUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21515,7 +22832,8 @@ _BBUSDT = _BBUSDT()
 class _BWBTC(NamedTuple):
     """
         name: .BWBTC
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21524,7 +22842,8 @@ class _BWBTC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BWBTC"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21551,7 +22870,8 @@ class _BWBTC(NamedTuple):
 _BWBTC = _BWBTC()
 """
     name: .BWBTC
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21564,7 +22884,8 @@ _BWBTC = _BWBTC()
 class _BWBTCT(NamedTuple):
     """
         name: .BWBTCT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21573,7 +22894,8 @@ class _BWBTCT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BWBTCT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21600,7 +22922,8 @@ class _BWBTCT(NamedTuple):
 _BWBTCT = _BWBTCT()
 """
     name: .BWBTCT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21613,7 +22936,8 @@ _BWBTCT = _BWBTCT()
 class _BCRO(NamedTuple):
     """
         name: .BCRO
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21622,7 +22946,8 @@ class _BCRO(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCRO"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21649,7 +22974,8 @@ class _BCRO(NamedTuple):
 _BCRO = _BCRO()
 """
     name: .BCRO
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21662,7 +22988,8 @@ _BCRO = _BCRO()
 class _BCROT(NamedTuple):
     """
         name: .BCROT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21671,7 +22998,8 @@ class _BCROT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BCROT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21698,7 +23026,8 @@ class _BCROT(NamedTuple):
 _BCROT = _BCROT()
 """
     name: .BCROT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21711,7 +23040,8 @@ _BCROT = _BCROT()
 class _BQNT(NamedTuple):
     """
         name: .BQNT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21720,7 +23050,8 @@ class _BQNT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BQNT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21747,7 +23078,8 @@ class _BQNT(NamedTuple):
 _BQNT = _BQNT()
 """
     name: .BQNT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21760,7 +23092,8 @@ _BQNT = _BQNT()
 class _BQNTT(NamedTuple):
     """
         name: .BQNTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21769,7 +23102,8 @@ class _BQNTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BQNTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21796,7 +23130,8 @@ class _BQNTT(NamedTuple):
 _BQNTT = _BQNTT()
 """
     name: .BQNTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21809,7 +23144,8 @@ _BQNTT = _BQNTT()
 class _BOKB(NamedTuple):
     """
         name: .BOKB
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21818,7 +23154,8 @@ class _BOKB(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOKB"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21845,7 +23182,8 @@ class _BOKB(NamedTuple):
 _BOKB = _BOKB()
 """
     name: .BOKB
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21858,7 +23196,8 @@ _BOKB = _BOKB()
 class _BOKBT(NamedTuple):
     """
         name: .BOKBT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21867,7 +23206,8 @@ class _BOKBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOKBT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21894,7 +23234,8 @@ class _BOKBT(NamedTuple):
 _BOKBT = _BOKBT()
 """
     name: .BOKBT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21907,7 +23248,8 @@ _BOKBT = _BOKBT()
 class _BLEO(NamedTuple):
     """
         name: .BLEO
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21916,7 +23258,8 @@ class _BLEO(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLEO"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21943,7 +23286,8 @@ class _BLEO(NamedTuple):
 _BLEO = _BLEO()
 """
     name: .BLEO
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -21956,7 +23300,8 @@ _BLEO = _BLEO()
 class _BLEOT(NamedTuple):
     """
         name: .BLEOT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -21965,7 +23310,8 @@ class _BLEOT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLEOT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -21992,7 +23338,8 @@ class _BLEOT(NamedTuple):
 _BLEOT = _BLEOT()
 """
     name: .BLEOT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22005,7 +23352,8 @@ _BLEOT = _BLEOT()
 class _BAAVE(NamedTuple):
     """
         name: .BAAVE
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22014,7 +23362,8 @@ class _BAAVE(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAAVE"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22041,7 +23390,8 @@ class _BAAVE(NamedTuple):
 _BAAVE = _BAAVE()
 """
     name: .BAAVE
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22054,7 +23404,8 @@ _BAAVE = _BAAVE()
 class _BMANA(NamedTuple):
     """
         name: .BMANA
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22063,7 +23414,8 @@ class _BMANA(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMANA"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22090,7 +23442,8 @@ class _BMANA(NamedTuple):
 _BMANA = _BMANA()
 """
     name: .BMANA
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22103,7 +23456,8 @@ _BMANA = _BMANA()
 class _BXLM(NamedTuple):
     """
         name: .BXLM
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22112,7 +23466,8 @@ class _BXLM(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXLM"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22139,7 +23494,8 @@ class _BXLM(NamedTuple):
 _BXLM = _BXLM()
 """
     name: .BXLM
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22152,7 +23508,8 @@ _BXLM = _BXLM()
 class _BVET(NamedTuple):
     """
         name: .BVET
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22161,7 +23518,8 @@ class _BVET(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVET"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22188,7 +23546,8 @@ class _BVET(NamedTuple):
 _BVET = _BVET()
 """
     name: .BVET
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22201,7 +23560,8 @@ _BVET = _BVET()
 class _BFIL(NamedTuple):
     """
         name: .BFIL
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22210,7 +23570,8 @@ class _BFIL(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFIL"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22237,7 +23598,8 @@ class _BFIL(NamedTuple):
 _BFIL = _BFIL()
 """
     name: .BFIL
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22250,7 +23612,8 @@ _BFIL = _BFIL()
 class _BXTZ(NamedTuple):
     """
         name: .BXTZ
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22259,7 +23622,8 @@ class _BXTZ(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXTZ"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22286,7 +23650,8 @@ class _BXTZ(NamedTuple):
 _BXTZ = _BXTZ()
 """
     name: .BXTZ
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22299,7 +23664,8 @@ _BXTZ = _BXTZ()
 class _BMKR(NamedTuple):
     """
         name: .BMKR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22308,7 +23674,8 @@ class _BMKR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMKR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22335,7 +23702,8 @@ class _BMKR(NamedTuple):
 _BMKR = _BMKR()
 """
     name: .BMKR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22348,7 +23716,8 @@ _BMKR = _BMKR()
 class _BFLOW(NamedTuple):
     """
         name: .BFLOW
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22357,7 +23726,8 @@ class _BFLOW(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLOW"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22384,7 +23754,8 @@ class _BFLOW(NamedTuple):
 _BFLOW = _BFLOW()
 """
     name: .BFLOW
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22397,7 +23768,8 @@ _BFLOW = _BFLOW()
 class _BFLOWT(NamedTuple):
     """
         name: .BFLOWT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22406,7 +23778,8 @@ class _BFLOWT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLOWT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22433,7 +23806,8 @@ class _BFLOWT(NamedTuple):
 _BFLOWT = _BFLOWT()
 """
     name: .BFLOWT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22446,7 +23820,8 @@ _BFLOWT = _BFLOWT()
 class _BHBAR(NamedTuple):
     """
         name: .BHBAR
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22455,7 +23830,8 @@ class _BHBAR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BHBAR"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22482,7 +23858,8 @@ class _BHBAR(NamedTuple):
 _BHBAR = _BHBAR()
 """
     name: .BHBAR
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22495,7 +23872,8 @@ _BHBAR = _BHBAR()
 class _BHBART(NamedTuple):
     """
         name: .BHBART
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22504,7 +23882,8 @@ class _BHBART(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BHBART"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22531,7 +23910,8 @@ class _BHBART(NamedTuple):
 _BHBART = _BHBART()
 """
     name: .BHBART
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22544,7 +23924,8 @@ _BHBART = _BHBART()
 class _BEGLD(NamedTuple):
     """
         name: .BEGLD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22553,7 +23934,8 @@ class _BEGLD(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEGLD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22580,7 +23962,8 @@ class _BEGLD(NamedTuple):
 _BEGLD = _BEGLD()
 """
     name: .BEGLD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22593,7 +23976,8 @@ _BEGLD = _BEGLD()
 class _BEGLDT(NamedTuple):
     """
         name: .BEGLDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22602,7 +23986,8 @@ class _BEGLDT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BEGLDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22629,7 +24014,8 @@ class _BEGLDT(NamedTuple):
 _BEGLDT = _BEGLDT()
 """
     name: .BEGLDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22642,7 +24028,8 @@ _BEGLDT = _BEGLDT()
 class _BTUSD(NamedTuple):
     """
         name: .BTUSD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22651,7 +24038,8 @@ class _BTUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTUSD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22678,7 +24066,8 @@ class _BTUSD(NamedTuple):
 _BTUSD = _BTUSD()
 """
     name: .BTUSD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22691,7 +24080,8 @@ _BTUSD = _BTUSD()
 class _BTUSDT(NamedTuple):
     """
         name: .BTUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22700,7 +24090,8 @@ class _BTUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22727,7 +24118,8 @@ class _BTUSDT(NamedTuple):
 _BTUSDT = _BTUSDT()
 """
     name: .BTUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22740,7 +24132,8 @@ _BTUSDT = _BTUSDT()
 class _BUSDP(NamedTuple):
     """
         name: .BUSDP
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22749,7 +24142,8 @@ class _BUSDP(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDP"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22776,7 +24170,8 @@ class _BUSDP(NamedTuple):
 _BUSDP = _BUSDP()
 """
     name: .BUSDP
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22789,7 +24184,8 @@ _BUSDP = _BUSDP()
 class _BHNT(NamedTuple):
     """
         name: .BHNT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22798,7 +24194,8 @@ class _BHNT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BHNT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22825,7 +24222,8 @@ class _BHNT(NamedTuple):
 _BHNT = _BHNT()
 """
     name: .BHNT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22838,7 +24236,8 @@ _BHNT = _BHNT()
 class _BHNTT(NamedTuple):
     """
         name: .BHNTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22847,7 +24246,8 @@ class _BHNTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BHNTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22874,7 +24274,8 @@ class _BHNTT(NamedTuple):
 _BHNTT = _BHNTT()
 """
     name: .BHNTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22887,7 +24288,8 @@ _BHNTT = _BHNTT()
 class _BIOTA(NamedTuple):
     """
         name: .BIOTA
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22896,7 +24298,8 @@ class _BIOTA(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BIOTA"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22923,7 +24326,8 @@ class _BIOTA(NamedTuple):
 _BIOTA = _BIOTA()
 """
     name: .BIOTA
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22936,7 +24340,8 @@ _BIOTA = _BIOTA()
 class _BIOTAT(NamedTuple):
     """
         name: .BIOTAT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22945,7 +24350,8 @@ class _BIOTAT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BIOTAT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -22972,7 +24378,8 @@ class _BIOTAT(NamedTuple):
 _BIOTAT = _BIOTAT()
 """
     name: .BIOTAT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -22985,7 +24392,8 @@ _BIOTAT = _BIOTAT()
 class _BXEC(NamedTuple):
     """
         name: .BXEC
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -22994,7 +24402,8 @@ class _BXEC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXEC"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23021,7 +24430,8 @@ class _BXEC(NamedTuple):
 _BXEC = _BXEC()
 """
     name: .BXEC
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23034,7 +24444,8 @@ _BXEC = _BXEC()
 class _BXECT(NamedTuple):
     """
         name: .BXECT
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23043,7 +24454,8 @@ class _BXECT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXECT"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23070,7 +24482,8 @@ class _BXECT(NamedTuple):
 _BXECT = _BXECT()
 """
     name: .BXECT
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23083,7 +24496,8 @@ _BXECT = _BXECT()
 class _BFTTT(NamedTuple):
     """
         name: .BFTTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23092,7 +24506,8 @@ class _BFTTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23119,7 +24534,8 @@ class _BFTTT(NamedTuple):
 _BFTTT = _BFTTT()
 """
     name: .BFTTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23132,7 +24548,8 @@ _BFTTT = _BFTTT()
 class _BSANDT30M(NamedTuple):
     """
         name: .BSANDT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23141,7 +24558,8 @@ class _BSANDT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSANDT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23168,7 +24586,8 @@ class _BSANDT30M(NamedTuple):
 _BSANDT30M = _BSANDT30M()
 """
     name: .BSANDT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23181,7 +24600,8 @@ _BSANDT30M = _BSANDT30M()
 class _BNEART30M(NamedTuple):
     """
         name: .BNEART30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23190,7 +24610,8 @@ class _BNEART30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BNEART30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23217,7 +24638,8 @@ class _BNEART30M(NamedTuple):
 _BNEART30M = _BNEART30M()
 """
     name: .BNEART30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23230,7 +24652,8 @@ _BNEART30M = _BNEART30M()
 class _BMANAT30M(NamedTuple):
     """
         name: .BMANAT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23239,7 +24662,8 @@ class _BMANAT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMANAT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23266,7 +24690,8 @@ class _BMANAT30M(NamedTuple):
 _BMANAT30M = _BMANAT30M()
 """
     name: .BMANAT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23279,7 +24704,8 @@ _BMANAT30M = _BMANAT30M()
 class _BSHIBT30M(NamedTuple):
     """
         name: .BSHIBT30M
-        precision: 1e-09
+        significant_digits: None
+        tick_size: 1e-09
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23288,7 +24714,8 @@ class _BSHIBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BSHIBT30M"
-    precision: int = 1e-09
+    significant_digits: int = None
+    tick_size: int = 1e-09
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23315,7 +24742,8 @@ class _BSHIBT30M(NamedTuple):
 _BSHIBT30M = _BSHIBT30M()
 """
     name: .BSHIBT30M
-    precision: 1e-09
+    significant_digits: None
+    tick_size: 1e-09
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23328,7 +24756,8 @@ _BSHIBT30M = _BSHIBT30M()
 class _BOPT30M(NamedTuple):
     """
         name: .BOPT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23337,7 +24766,8 @@ class _BOPT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOPT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23364,7 +24794,8 @@ class _BOPT30M(NamedTuple):
 _BOPT30M = _BOPT30M()
 """
     name: .BOPT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23377,7 +24808,8 @@ _BOPT30M = _BOPT30M()
 class _BGALT30M(NamedTuple):
     """
         name: .BGALT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23386,7 +24818,8 @@ class _BGALT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGALT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23413,7 +24846,8 @@ class _BGALT30M(NamedTuple):
 _BGALT30M = _BGALT30M()
 """
     name: .BGALT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23426,7 +24860,8 @@ _BGALT30M = _BGALT30M()
 class _BGAL30M(NamedTuple):
     """
         name: .BGAL30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23435,7 +24870,8 @@ class _BGAL30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGAL30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23462,7 +24898,8 @@ class _BGAL30M(NamedTuple):
 _BGAL30M = _BGAL30M()
 """
     name: .BGAL30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23475,7 +24912,8 @@ _BGAL30M = _BGAL30M()
 class _BTRX30M(NamedTuple):
     """
         name: .BTRX30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23484,7 +24922,8 @@ class _BTRX30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BTRX30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23511,7 +24950,8 @@ class _BTRX30M(NamedTuple):
 _BTRX30M = _BTRX30M()
 """
     name: .BTRX30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23524,7 +24964,8 @@ _BTRX30M = _BTRX30M()
 class _BOP30M(NamedTuple):
     """
         name: .BOP30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23533,7 +24974,8 @@ class _BOP30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BOP30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23560,7 +25002,8 @@ class _BOP30M(NamedTuple):
 _BOP30M = _BOP30M()
 """
     name: .BOP30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23573,7 +25016,8 @@ _BOP30M = _BOP30M()
 class _BAPE30M(NamedTuple):
     """
         name: .BAPE30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23582,7 +25026,8 @@ class _BAPE30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPE30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23609,7 +25054,8 @@ class _BAPE30M(NamedTuple):
 _BAPE30M = _BAPE30M()
 """
     name: .BAPE30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23622,7 +25068,8 @@ _BAPE30M = _BAPE30M()
 class _BFTMT30M(NamedTuple):
     """
         name: .BFTMT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23631,7 +25078,8 @@ class _BFTMT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTMT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23658,7 +25106,8 @@ class _BFTMT30M(NamedTuple):
 _BFTMT30M = _BFTMT30M()
 """
     name: .BFTMT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23671,7 +25120,8 @@ _BFTMT30M = _BFTMT30M()
 class _BAPT(NamedTuple):
     """
         name: .BAPT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23680,7 +25130,8 @@ class _BAPT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23707,7 +25158,8 @@ class _BAPT(NamedTuple):
 _BAPT = _BAPT()
 """
     name: .BAPT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23720,7 +25172,8 @@ _BAPT = _BAPT()
 class _BAPT_NEXT(NamedTuple):
     """
         name: .BAPT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23729,7 +25182,8 @@ class _BAPT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23756,7 +25210,8 @@ class _BAPT_NEXT(NamedTuple):
 _BAPT_NEXT = _BAPT_NEXT()
 """
     name: .BAPT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23769,7 +25224,8 @@ _BAPT_NEXT = _BAPT_NEXT()
 class _BAPT30M(NamedTuple):
     """
         name: .BAPT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23778,7 +25234,8 @@ class _BAPT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23805,7 +25262,8 @@ class _BAPT30M(NamedTuple):
 _BAPT30M = _BAPT30M()
 """
     name: .BAPT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23818,7 +25276,8 @@ _BAPT30M = _BAPT30M()
 class _BAPTT(NamedTuple):
     """
         name: .BAPTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23827,7 +25286,8 @@ class _BAPTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23854,7 +25314,8 @@ class _BAPTT(NamedTuple):
 _BAPTT = _BAPTT()
 """
     name: .BAPTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23867,7 +25328,8 @@ _BAPTT = _BAPTT()
 class _BAPTT_NEXT(NamedTuple):
     """
         name: .BAPTT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23876,7 +25338,8 @@ class _BAPTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPTT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23903,7 +25366,8 @@ class _BAPTT_NEXT(NamedTuple):
 _BAPTT_NEXT = _BAPTT_NEXT()
 """
     name: .BAPTT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23916,7 +25380,8 @@ _BAPTT_NEXT = _BAPTT_NEXT()
 class _BAPTT30M(NamedTuple):
     """
         name: .BAPTT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23925,7 +25390,8 @@ class _BAPTT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BAPTT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -23952,7 +25418,8 @@ class _BAPTT30M(NamedTuple):
 _BAPTT30M = _BAPTT30M()
 """
     name: .BAPTT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -23965,7 +25432,8 @@ _BAPTT30M = _BAPTT30M()
 class _APTBON(NamedTuple):
     """
         name: .APTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -23974,7 +25442,8 @@ class _APTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24001,7 +25470,8 @@ class _APTBON(NamedTuple):
 _APTBON = _APTBON()
 """
     name: .APTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24014,7 +25484,8 @@ _APTBON = _APTBON()
 class _APTBON8H(NamedTuple):
     """
         name: .APTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24023,7 +25494,8 @@ class _APTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24050,7 +25522,8 @@ class _APTBON8H(NamedTuple):
 _APTBON8H = _APTBON8H()
 """
     name: .APTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24063,7 +25536,8 @@ _APTBON8H = _APTBON8H()
 class _APTUSDTPI(NamedTuple):
     """
         name: .APTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24072,7 +25546,8 @@ class _APTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24099,7 +25574,8 @@ class _APTUSDTPI(NamedTuple):
 _APTUSDTPI = _APTUSDTPI()
 """
     name: .APTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24112,7 +25588,8 @@ _APTUSDTPI = _APTUSDTPI()
 class _APTUSDTPI8H(NamedTuple):
     """
         name: .APTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24121,7 +25598,8 @@ class _APTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24148,7 +25626,8 @@ class _APTUSDTPI8H(NamedTuple):
 _APTUSDTPI8H = _APTUSDTPI8H()
 """
     name: .APTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24161,7 +25640,8 @@ _APTUSDTPI8H = _APTUSDTPI8H()
 class _APTUSDPI(NamedTuple):
     """
         name: .APTUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24170,7 +25650,8 @@ class _APTUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24197,7 +25678,8 @@ class _APTUSDPI(NamedTuple):
 _APTUSDPI = _APTUSDPI()
 """
     name: .APTUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24210,7 +25692,8 @@ _APTUSDPI = _APTUSDPI()
 class _APTUSDPI8H(NamedTuple):
     """
         name: .APTUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24219,7 +25702,8 @@ class _APTUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".APTUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24246,7 +25730,8 @@ class _APTUSDPI8H(NamedTuple):
 _APTUSDPI8H = _APTUSDPI8H()
 """
     name: .APTUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24259,7 +25744,8 @@ _APTUSDPI8H = _APTUSDPI8H()
 class _BFTT(NamedTuple):
     """
         name: .BFTT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24268,7 +25754,8 @@ class _BFTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24295,7 +25782,8 @@ class _BFTT(NamedTuple):
 _BFTT = _BFTT()
 """
     name: .BFTT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24308,7 +25796,8 @@ _BFTT = _BFTT()
 class _BFTT_NEXT(NamedTuple):
     """
         name: .BFTT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24317,7 +25806,8 @@ class _BFTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24344,7 +25834,8 @@ class _BFTT_NEXT(NamedTuple):
 _BFTT_NEXT = _BFTT_NEXT()
 """
     name: .BFTT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24357,7 +25848,8 @@ _BFTT_NEXT = _BFTT_NEXT()
 class _BFTTT_NEXT(NamedTuple):
     """
         name: .BFTTT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24366,7 +25858,8 @@ class _BFTTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTTT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24393,7 +25886,8 @@ class _BFTTT_NEXT(NamedTuple):
 _BFTTT_NEXT = _BFTTT_NEXT()
 """
     name: .BFTTT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24406,7 +25900,8 @@ _BFTTT_NEXT = _BFTTT_NEXT()
 class _FTTBON(NamedTuple):
     """
         name: .FTTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24415,7 +25910,8 @@ class _FTTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24442,7 +25938,8 @@ class _FTTBON(NamedTuple):
 _FTTBON = _FTTBON()
 """
     name: .FTTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24455,7 +25952,8 @@ _FTTBON = _FTTBON()
 class _FTTBON8H(NamedTuple):
     """
         name: .FTTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24464,7 +25962,8 @@ class _FTTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24491,7 +25990,8 @@ class _FTTBON8H(NamedTuple):
 _FTTBON8H = _FTTBON8H()
 """
     name: .FTTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24504,7 +26004,8 @@ _FTTBON8H = _FTTBON8H()
 class _FTTUSDTPI(NamedTuple):
     """
         name: .FTTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24513,7 +26014,8 @@ class _FTTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24540,7 +26042,8 @@ class _FTTUSDTPI(NamedTuple):
 _FTTUSDTPI = _FTTUSDTPI()
 """
     name: .FTTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24553,7 +26056,8 @@ _FTTUSDTPI = _FTTUSDTPI()
 class _FTTUSDTPI8H(NamedTuple):
     """
         name: .FTTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24562,7 +26066,8 @@ class _FTTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24589,7 +26094,8 @@ class _FTTUSDTPI8H(NamedTuple):
 _FTTUSDTPI8H = _FTTUSDTPI8H()
 """
     name: .FTTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24602,7 +26108,8 @@ _FTTUSDTPI8H = _FTTUSDTPI8H()
 class _FTTUSDPI(NamedTuple):
     """
         name: .FTTUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24611,7 +26118,8 @@ class _FTTUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24638,7 +26146,8 @@ class _FTTUSDPI(NamedTuple):
 _FTTUSDPI = _FTTUSDPI()
 """
     name: .FTTUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24651,7 +26160,8 @@ _FTTUSDPI = _FTTUSDPI()
 class _FTTUSDPI8H(NamedTuple):
     """
         name: .FTTUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24660,7 +26170,8 @@ class _FTTUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FTTUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24687,7 +26198,8 @@ class _FTTUSDPI8H(NamedTuple):
 _FTTUSDPI8H = _FTTUSDPI8H()
 """
     name: .FTTUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24700,7 +26212,8 @@ _FTTUSDPI8H = _FTTUSDPI8H()
 class _BMEXBON(NamedTuple):
     """
         name: .BMEXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24709,7 +26222,8 @@ class _BMEXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24736,7 +26250,8 @@ class _BMEXBON(NamedTuple):
 _BMEXBON = _BMEXBON()
 """
     name: .BMEXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24749,7 +26264,8 @@ _BMEXBON = _BMEXBON()
 class _BMEXBON8H(NamedTuple):
     """
         name: .BMEXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24758,7 +26274,8 @@ class _BMEXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24785,7 +26302,8 @@ class _BMEXBON8H(NamedTuple):
 _BMEXBON8H = _BMEXBON8H()
 """
     name: .BMEXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24798,7 +26316,8 @@ _BMEXBON8H = _BMEXBON8H()
 class _BMEXUSDTPI(NamedTuple):
     """
         name: .BMEXUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24807,7 +26326,8 @@ class _BMEXUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24834,7 +26354,8 @@ class _BMEXUSDTPI(NamedTuple):
 _BMEXUSDTPI = _BMEXUSDTPI()
 """
     name: .BMEXUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24847,7 +26368,8 @@ _BMEXUSDTPI = _BMEXUSDTPI()
 class _BMEXUSDTPI8H(NamedTuple):
     """
         name: .BMEXUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24856,7 +26378,8 @@ class _BMEXUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24883,7 +26406,8 @@ class _BMEXUSDTPI8H(NamedTuple):
 _BMEXUSDTPI8H = _BMEXUSDTPI8H()
 """
     name: .BMEXUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24896,7 +26420,8 @@ _BMEXUSDTPI8H = _BMEXUSDTPI8H()
 class _BMEXUSDPI(NamedTuple):
     """
         name: .BMEXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24905,7 +26430,8 @@ class _BMEXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24932,7 +26458,8 @@ class _BMEXUSDPI(NamedTuple):
 _BMEXUSDPI = _BMEXUSDPI()
 """
     name: .BMEXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24945,7 +26472,8 @@ _BMEXUSDPI = _BMEXUSDPI()
 class _BMEXUSDPI8H(NamedTuple):
     """
         name: .BMEXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -24954,7 +26482,8 @@ class _BMEXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BMEXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -24981,7 +26510,8 @@ class _BMEXUSDPI8H(NamedTuple):
 _BMEXUSDPI8H = _BMEXUSDPI8H()
 """
     name: .BMEXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -24994,7 +26524,8 @@ _BMEXUSDPI8H = _BMEXUSDPI8H()
 class _BBMEXT(NamedTuple):
     """
         name: .BBMEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25003,7 +26534,8 @@ class _BBMEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBMEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25030,7 +26562,8 @@ class _BBMEXT(NamedTuple):
 _BBMEXT = _BBMEXT()
 """
     name: .BBMEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25043,7 +26576,8 @@ _BBMEXT = _BBMEXT()
 class _BBMEXT_NEXT(NamedTuple):
     """
         name: .BBMEXT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25052,7 +26586,8 @@ class _BBMEXT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBMEXT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25079,7 +26614,8 @@ class _BBMEXT_NEXT(NamedTuple):
 _BBMEXT_NEXT = _BBMEXT_NEXT()
 """
     name: .BBMEXT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25092,7 +26628,8 @@ _BBMEXT_NEXT = _BBMEXT_NEXT()
 class _BBMEX(NamedTuple):
     """
         name: .BBMEX
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25101,7 +26638,8 @@ class _BBMEX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBMEX"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25128,7 +26666,8 @@ class _BBMEX(NamedTuple):
 _BBMEX = _BBMEX()
 """
     name: .BBMEX
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25141,7 +26680,8 @@ _BBMEX = _BBMEX()
 class _BBMEX_NEXT(NamedTuple):
     """
         name: .BBMEX_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25150,7 +26690,8 @@ class _BBMEX_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBMEX_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25177,7 +26718,8 @@ class _BBMEX_NEXT(NamedTuple):
 _BBMEX_NEXT = _BBMEX_NEXT()
 """
     name: .BBMEX_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25190,7 +26732,8 @@ _BBMEX_NEXT = _BBMEX_NEXT()
 class _CROBON(NamedTuple):
     """
         name: .CROBON
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25199,7 +26742,8 @@ class _CROBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROBON"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25226,7 +26770,8 @@ class _CROBON(NamedTuple):
 _CROBON = _CROBON()
 """
     name: .CROBON
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25239,7 +26784,8 @@ _CROBON = _CROBON()
 class _CROBON8H(NamedTuple):
     """
         name: .CROBON8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25248,7 +26794,8 @@ class _CROBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROBON8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25275,7 +26822,8 @@ class _CROBON8H(NamedTuple):
 _CROBON8H = _CROBON8H()
 """
     name: .CROBON8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25288,7 +26836,8 @@ _CROBON8H = _CROBON8H()
 class _CROUSDTPI(NamedTuple):
     """
         name: .CROUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25297,7 +26846,8 @@ class _CROUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25324,7 +26874,8 @@ class _CROUSDTPI(NamedTuple):
 _CROUSDTPI = _CROUSDTPI()
 """
     name: .CROUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25337,7 +26888,8 @@ _CROUSDTPI = _CROUSDTPI()
 class _CROUSDTPI8H(NamedTuple):
     """
         name: .CROUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25346,7 +26898,8 @@ class _CROUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25373,7 +26926,8 @@ class _CROUSDTPI8H(NamedTuple):
 _CROUSDTPI8H = _CROUSDTPI8H()
 """
     name: .CROUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25386,7 +26940,8 @@ _CROUSDTPI8H = _CROUSDTPI8H()
 class _CROUSDPI(NamedTuple):
     """
         name: .CROUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25395,7 +26950,8 @@ class _CROUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25422,7 +26978,8 @@ class _CROUSDPI(NamedTuple):
 _CROUSDPI = _CROUSDPI()
 """
     name: .CROUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25435,7 +26992,8 @@ _CROUSDPI = _CROUSDPI()
 class _CROUSDPI8H(NamedTuple):
     """
         name: .CROUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25444,7 +27002,8 @@ class _CROUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".CROUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25471,7 +27030,8 @@ class _CROUSDPI8H(NamedTuple):
 _CROUSDPI8H = _CROUSDPI8H()
 """
     name: .CROUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25484,7 +27044,8 @@ _CROUSDPI8H = _CROUSDPI8H()
 class _BFTT30M(NamedTuple):
     """
         name: .BFTT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25493,7 +27054,8 @@ class _BFTT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25520,7 +27082,8 @@ class _BFTT30M(NamedTuple):
 _BFTT30M = _BFTT30M()
 """
     name: .BFTT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25533,7 +27096,8 @@ _BFTT30M = _BFTT30M()
 class _BFTTT30M(NamedTuple):
     """
         name: .BFTTT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25542,7 +27106,8 @@ class _BFTTT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFTTT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25569,7 +27134,8 @@ class _BFTTT30M(NamedTuple):
 _BFTTT30M = _BFTTT30M()
 """
     name: .BFTTT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25582,7 +27148,8 @@ _BFTTT30M = _BFTTT30M()
 class _BETHYLD(NamedTuple):
     """
         name: .BETHYLD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25591,7 +27158,8 @@ class _BETHYLD(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHYLD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25618,7 +27186,8 @@ class _BETHYLD(NamedTuple):
 _BETHYLD = _BETHYLD()
 """
     name: .BETHYLD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25631,7 +27200,8 @@ _BETHYLD = _BETHYLD()
 class _BFLRT(NamedTuple):
     """
         name: .BFLRT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25640,7 +27210,8 @@ class _BFLRT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLRT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25667,7 +27238,8 @@ class _BFLRT(NamedTuple):
 _BFLRT = _BFLRT()
 """
     name: .BFLRT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25680,7 +27252,8 @@ _BFLRT = _BFLRT()
 class _BFLRT_NEXT(NamedTuple):
     """
         name: .BFLRT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25689,7 +27262,8 @@ class _BFLRT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLRT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25716,7 +27290,8 @@ class _BFLRT_NEXT(NamedTuple):
 _BFLRT_NEXT = _BFLRT_NEXT()
 """
     name: .BFLRT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25729,7 +27304,8 @@ _BFLRT_NEXT = _BFLRT_NEXT()
 class _BFLRT30M(NamedTuple):
     """
         name: .BFLRT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25738,7 +27314,8 @@ class _BFLRT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLRT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25765,7 +27342,8 @@ class _BFLRT30M(NamedTuple):
 _BFLRT30M = _BFLRT30M()
 """
     name: .BFLRT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25778,7 +27356,8 @@ _BFLRT30M = _BFLRT30M()
 class _FLRBON(NamedTuple):
     """
         name: .FLRBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25787,7 +27366,8 @@ class _FLRBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25814,7 +27394,8 @@ class _FLRBON(NamedTuple):
 _FLRBON = _FLRBON()
 """
     name: .FLRBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25827,7 +27408,8 @@ _FLRBON = _FLRBON()
 class _FLRBON8H(NamedTuple):
     """
         name: .FLRBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25836,7 +27418,8 @@ class _FLRBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25863,7 +27446,8 @@ class _FLRBON8H(NamedTuple):
 _FLRBON8H = _FLRBON8H()
 """
     name: .FLRBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25876,7 +27460,8 @@ _FLRBON8H = _FLRBON8H()
 class _FLRUSDTPI(NamedTuple):
     """
         name: .FLRUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25885,7 +27470,8 @@ class _FLRUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25912,7 +27498,8 @@ class _FLRUSDTPI(NamedTuple):
 _FLRUSDTPI = _FLRUSDTPI()
 """
     name: .FLRUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25925,7 +27512,8 @@ _FLRUSDTPI = _FLRUSDTPI()
 class _FLRUSDTPI8H(NamedTuple):
     """
         name: .FLRUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25934,7 +27522,8 @@ class _FLRUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -25961,7 +27550,8 @@ class _FLRUSDTPI8H(NamedTuple):
 _FLRUSDTPI8H = _FLRUSDTPI8H()
 """
     name: .FLRUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -25974,7 +27564,8 @@ _FLRUSDTPI8H = _FLRUSDTPI8H()
 class _FLRUSDPI(NamedTuple):
     """
         name: .FLRUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -25983,7 +27574,8 @@ class _FLRUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26010,7 +27602,8 @@ class _FLRUSDPI(NamedTuple):
 _FLRUSDPI = _FLRUSDPI()
 """
     name: .FLRUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26023,7 +27616,8 @@ _FLRUSDPI = _FLRUSDPI()
 class _FLRUSDPI8H(NamedTuple):
     """
         name: .FLRUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26032,7 +27626,8 @@ class _FLRUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".FLRUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26059,7 +27654,8 @@ class _FLRUSDPI8H(NamedTuple):
 _FLRUSDPI8H = _FLRUSDPI8H()
 """
     name: .FLRUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26072,7 +27668,8 @@ _FLRUSDPI8H = _FLRUSDPI8H()
 class _BFLR(NamedTuple):
     """
         name: .BFLR
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26081,7 +27678,8 @@ class _BFLR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLR"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26108,7 +27706,8 @@ class _BFLR(NamedTuple):
 _BFLR = _BFLR()
 """
     name: .BFLR
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26121,7 +27720,8 @@ _BFLR = _BFLR()
 class _BFLR_NEXT(NamedTuple):
     """
         name: .BFLR_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26130,7 +27730,8 @@ class _BFLR_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BFLR_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26157,7 +27758,8 @@ class _BFLR_NEXT(NamedTuple):
 _BFLR_NEXT = _BFLR_NEXT()
 """
     name: .BFLR_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26170,7 +27772,8 @@ _BFLR_NEXT = _BFLR_NEXT()
 class _BLURBON(NamedTuple):
     """
         name: .BLURBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26179,7 +27782,8 @@ class _BLURBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26206,7 +27810,8 @@ class _BLURBON(NamedTuple):
 _BLURBON = _BLURBON()
 """
     name: .BLURBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26219,7 +27824,8 @@ _BLURBON = _BLURBON()
 class _BLURBON8H(NamedTuple):
     """
         name: .BLURBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26228,7 +27834,8 @@ class _BLURBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26255,7 +27862,8 @@ class _BLURBON8H(NamedTuple):
 _BLURBON8H = _BLURBON8H()
 """
     name: .BLURBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26268,7 +27876,8 @@ _BLURBON8H = _BLURBON8H()
 class _BLURUSDTPI(NamedTuple):
     """
         name: .BLURUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26277,7 +27886,8 @@ class _BLURUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26304,7 +27914,8 @@ class _BLURUSDTPI(NamedTuple):
 _BLURUSDTPI = _BLURUSDTPI()
 """
     name: .BLURUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26317,7 +27928,8 @@ _BLURUSDTPI = _BLURUSDTPI()
 class _BLURUSDTPI8H(NamedTuple):
     """
         name: .BLURUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26326,7 +27938,8 @@ class _BLURUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26353,7 +27966,8 @@ class _BLURUSDTPI8H(NamedTuple):
 _BLURUSDTPI8H = _BLURUSDTPI8H()
 """
     name: .BLURUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26366,7 +27980,8 @@ _BLURUSDTPI8H = _BLURUSDTPI8H()
 class _BLURUSDPI(NamedTuple):
     """
         name: .BLURUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26375,7 +27990,8 @@ class _BLURUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26402,7 +28018,8 @@ class _BLURUSDPI(NamedTuple):
 _BLURUSDPI = _BLURUSDPI()
 """
     name: .BLURUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26415,7 +28032,8 @@ _BLURUSDPI = _BLURUSDPI()
 class _BLURUSDPI8H(NamedTuple):
     """
         name: .BLURUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26424,7 +28042,8 @@ class _BLURUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLURUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26451,7 +28070,8 @@ class _BLURUSDPI8H(NamedTuple):
 _BLURUSDPI8H = _BLURUSDPI8H()
 """
     name: .BLURUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26464,7 +28084,8 @@ _BLURUSDPI8H = _BLURUSDPI8H()
 class _BBLUR(NamedTuple):
     """
         name: .BBLUR
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26473,7 +28094,8 @@ class _BBLUR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBLUR"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26500,7 +28122,8 @@ class _BBLUR(NamedTuple):
 _BBLUR = _BBLUR()
 """
     name: .BBLUR
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26513,7 +28136,8 @@ _BBLUR = _BBLUR()
 class _BBLUR_NEXT(NamedTuple):
     """
         name: .BBLUR_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26522,7 +28146,8 @@ class _BBLUR_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBLUR_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26549,7 +28174,8 @@ class _BBLUR_NEXT(NamedTuple):
 _BBLUR_NEXT = _BBLUR_NEXT()
 """
     name: .BBLUR_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26562,7 +28188,8 @@ _BBLUR_NEXT = _BBLUR_NEXT()
 class _BBLURT(NamedTuple):
     """
         name: .BBLURT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26571,7 +28198,8 @@ class _BBLURT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBLURT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26598,7 +28226,8 @@ class _BBLURT(NamedTuple):
 _BBLURT = _BBLURT()
 """
     name: .BBLURT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26611,7 +28240,8 @@ _BBLURT = _BBLURT()
 class _BBLURT_NEXT(NamedTuple):
     """
         name: .BBLURT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26620,7 +28250,8 @@ class _BBLURT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BBLURT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26647,7 +28278,8 @@ class _BBLURT_NEXT(NamedTuple):
 _BBLURT_NEXT = _BBLURT_NEXT()
 """
     name: .BBLURT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26660,7 +28292,8 @@ _BBLURT_NEXT = _BBLURT_NEXT()
 class _BGMXT(NamedTuple):
     """
         name: .BGMXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26669,7 +28302,8 @@ class _BGMXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26696,7 +28330,8 @@ class _BGMXT(NamedTuple):
 _BGMXT = _BGMXT()
 """
     name: .BGMXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26709,7 +28344,8 @@ _BGMXT = _BGMXT()
 class _BGMXT_NEXT(NamedTuple):
     """
         name: .BGMXT_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26718,7 +28354,8 @@ class _BGMXT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMXT_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26745,7 +28382,8 @@ class _BGMXT_NEXT(NamedTuple):
 _BGMXT_NEXT = _BGMXT_NEXT()
 """
     name: .BGMXT_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26758,7 +28396,8 @@ _BGMXT_NEXT = _BGMXT_NEXT()
 class _BGMX(NamedTuple):
     """
         name: .BGMX
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26767,7 +28406,8 @@ class _BGMX(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMX"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26794,7 +28434,8 @@ class _BGMX(NamedTuple):
 _BGMX = _BGMX()
 """
     name: .BGMX
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26807,7 +28448,8 @@ _BGMX = _BGMX()
 class _BGMX_NEXT(NamedTuple):
     """
         name: .BGMX_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26816,7 +28458,8 @@ class _BGMX_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BGMX_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26843,7 +28486,8 @@ class _BGMX_NEXT(NamedTuple):
 _BGMX_NEXT = _BGMX_NEXT()
 """
     name: .BGMX_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26856,7 +28500,8 @@ _BGMX_NEXT = _BGMX_NEXT()
 class _GMXBON(NamedTuple):
     """
         name: .GMXBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26865,7 +28510,8 @@ class _GMXBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26892,7 +28538,8 @@ class _GMXBON(NamedTuple):
 _GMXBON = _GMXBON()
 """
     name: .GMXBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26905,7 +28552,8 @@ _GMXBON = _GMXBON()
 class _GMXBON8H(NamedTuple):
     """
         name: .GMXBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26914,7 +28562,8 @@ class _GMXBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26941,7 +28590,8 @@ class _GMXBON8H(NamedTuple):
 _GMXBON8H = _GMXBON8H()
 """
     name: .GMXBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -26954,7 +28604,8 @@ _GMXBON8H = _GMXBON8H()
 class _GMXUSDTPI(NamedTuple):
     """
         name: .GMXUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -26963,7 +28614,8 @@ class _GMXUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -26990,7 +28642,8 @@ class _GMXUSDTPI(NamedTuple):
 _GMXUSDTPI = _GMXUSDTPI()
 """
     name: .GMXUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27003,7 +28656,8 @@ _GMXUSDTPI = _GMXUSDTPI()
 class _GMXUSDTPI8H(NamedTuple):
     """
         name: .GMXUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27012,7 +28666,8 @@ class _GMXUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27039,7 +28694,8 @@ class _GMXUSDTPI8H(NamedTuple):
 _GMXUSDTPI8H = _GMXUSDTPI8H()
 """
     name: .GMXUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27052,7 +28708,8 @@ _GMXUSDTPI8H = _GMXUSDTPI8H()
 class _GMXUSDPI(NamedTuple):
     """
         name: .GMXUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27061,7 +28718,8 @@ class _GMXUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27088,7 +28746,8 @@ class _GMXUSDPI(NamedTuple):
 _GMXUSDPI = _GMXUSDPI()
 """
     name: .GMXUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27101,7 +28760,8 @@ _GMXUSDPI = _GMXUSDPI()
 class _GMXUSDPI8H(NamedTuple):
     """
         name: .GMXUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27110,7 +28770,8 @@ class _GMXUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".GMXUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27137,7 +28798,8 @@ class _GMXUSDPI8H(NamedTuple):
 _GMXUSDPI8H = _GMXUSDPI8H()
 """
     name: .GMXUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27150,7 +28812,8 @@ _GMXUSDPI8H = _GMXUSDPI8H()
 class _USDCBON(NamedTuple):
     """
         name: .USDCBON
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27159,7 +28822,8 @@ class _USDCBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCBON"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27186,7 +28850,8 @@ class _USDCBON(NamedTuple):
 _USDCBON = _USDCBON()
 """
     name: .USDCBON
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27199,7 +28864,8 @@ _USDCBON = _USDCBON()
 class _USDCBON8H(NamedTuple):
     """
         name: .USDCBON8H
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27208,7 +28874,8 @@ class _USDCBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDCBON8H"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27235,7 +28902,8 @@ class _USDCBON8H(NamedTuple):
 _USDCBON8H = _USDCBON8H()
 """
     name: .USDCBON8H
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27248,7 +28916,8 @@ _USDCBON8H = _USDCBON8H()
 class _USDTUSDCPI(NamedTuple):
     """
         name: .USDTUSDCPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27257,7 +28926,8 @@ class _USDTUSDCPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTUSDCPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27284,7 +28954,8 @@ class _USDTUSDCPI(NamedTuple):
 _USDTUSDCPI = _USDTUSDCPI()
 """
     name: .USDTUSDCPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27297,7 +28968,8 @@ _USDTUSDCPI = _USDTUSDCPI()
 class _USDTUSDCPI8H(NamedTuple):
     """
         name: .USDTUSDCPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27306,7 +28978,8 @@ class _USDTUSDCPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDTUSDCPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27333,7 +29006,8 @@ class _USDTUSDCPI8H(NamedTuple):
 _USDTUSDCPI8H = _USDTUSDCPI8H()
 """
     name: .USDTUSDCPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27346,7 +29020,8 @@ _USDTUSDCPI8H = _USDTUSDCPI8H()
 class _BUSDTUSDC(NamedTuple):
     """
         name: .BUSDTUSDC
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27355,7 +29030,8 @@ class _BUSDTUSDC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BUSDTUSDC"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27382,7 +29058,8 @@ class _BUSDTUSDC(NamedTuple):
 _BUSDTUSDC = _BUSDTUSDC()
 """
     name: .BUSDTUSDC
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27395,7 +29072,8 @@ _BUSDTUSDC = _BUSDTUSDC()
 class _BARBT(NamedTuple):
     """
         name: .BARBT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27404,7 +29082,8 @@ class _BARBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BARBT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27431,7 +29110,8 @@ class _BARBT(NamedTuple):
 _BARBT = _BARBT()
 """
     name: .BARBT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27444,7 +29124,8 @@ _BARBT = _BARBT()
 class _BARBT_NEXT(NamedTuple):
     """
         name: .BARBT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27453,7 +29134,8 @@ class _BARBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BARBT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27480,7 +29162,8 @@ class _BARBT_NEXT(NamedTuple):
 _BARBT_NEXT = _BARBT_NEXT()
 """
     name: .BARBT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27493,7 +29176,8 @@ _BARBT_NEXT = _BARBT_NEXT()
 class _BARBT30M(NamedTuple):
     """
         name: .BARBT30M
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27502,7 +29186,8 @@ class _BARBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BARBT30M"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27529,7 +29214,8 @@ class _BARBT30M(NamedTuple):
 _BARBT30M = _BARBT30M()
 """
     name: .BARBT30M
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27542,7 +29228,8 @@ _BARBT30M = _BARBT30M()
 class _BARB(NamedTuple):
     """
         name: .BARB
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27551,7 +29238,8 @@ class _BARB(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BARB"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27578,7 +29266,8 @@ class _BARB(NamedTuple):
 _BARB = _BARB()
 """
     name: .BARB
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27591,7 +29280,8 @@ _BARB = _BARB()
 class _BARB_NEXT(NamedTuple):
     """
         name: .BARB_NEXT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27600,7 +29290,8 @@ class _BARB_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BARB_NEXT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27627,7 +29318,8 @@ class _BARB_NEXT(NamedTuple):
 _BARB_NEXT = _BARB_NEXT()
 """
     name: .BARB_NEXT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27640,7 +29332,8 @@ _BARB_NEXT = _BARB_NEXT()
 class _ARBBON(NamedTuple):
     """
         name: .ARBBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27649,7 +29342,8 @@ class _ARBBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27676,7 +29370,8 @@ class _ARBBON(NamedTuple):
 _ARBBON = _ARBBON()
 """
     name: .ARBBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27689,7 +29384,8 @@ _ARBBON = _ARBBON()
 class _ARBBON8H(NamedTuple):
     """
         name: .ARBBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27698,7 +29394,8 @@ class _ARBBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27725,7 +29422,8 @@ class _ARBBON8H(NamedTuple):
 _ARBBON8H = _ARBBON8H()
 """
     name: .ARBBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27738,7 +29436,8 @@ _ARBBON8H = _ARBBON8H()
 class _ARBUSDTPI(NamedTuple):
     """
         name: .ARBUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27747,7 +29446,8 @@ class _ARBUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27774,7 +29474,8 @@ class _ARBUSDTPI(NamedTuple):
 _ARBUSDTPI = _ARBUSDTPI()
 """
     name: .ARBUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27787,7 +29488,8 @@ _ARBUSDTPI = _ARBUSDTPI()
 class _ARBUSDTPI8H(NamedTuple):
     """
         name: .ARBUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27796,7 +29498,8 @@ class _ARBUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27823,7 +29526,8 @@ class _ARBUSDTPI8H(NamedTuple):
 _ARBUSDTPI8H = _ARBUSDTPI8H()
 """
     name: .ARBUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27836,7 +29540,8 @@ _ARBUSDTPI8H = _ARBUSDTPI8H()
 class _ARBUSDPI(NamedTuple):
     """
         name: .ARBUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27845,7 +29550,8 @@ class _ARBUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27872,7 +29578,8 @@ class _ARBUSDPI(NamedTuple):
 _ARBUSDPI = _ARBUSDPI()
 """
     name: .ARBUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27885,7 +29592,8 @@ _ARBUSDPI = _ARBUSDPI()
 class _ARBUSDPI8H(NamedTuple):
     """
         name: .ARBUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -27894,7 +29602,8 @@ class _ARBUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ARBUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -27921,7 +29630,8 @@ class _ARBUSDPI8H(NamedTuple):
 _ARBUSDPI8H = _ARBUSDPI8H()
 """
     name: .ARBUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -27934,7 +29644,8 @@ _ARBUSDPI8H = _ARBUSDPI8H()
 class ADAM23(NamedTuple):
     """
         name: ADAM23
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -27943,7 +29654,8 @@ class ADAM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "ADAM23"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -27970,7 +29682,8 @@ class ADAM23(NamedTuple):
 ADAM23 = ADAM23()
 """
     name: ADAM23
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -27983,7 +29696,8 @@ ADAM23 = ADAM23()
 class XRPM23(NamedTuple):
     """
         name: XRPM23
-        precision: 1e-08
+        significant_digits: None
+        tick_size: 1e-08
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -27992,7 +29706,8 @@ class XRPM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XRPM23"
-    precision: int = 1e-08
+    significant_digits: int = None
+    tick_size: int = 1e-08
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -28019,7 +29734,8 @@ class XRPM23(NamedTuple):
 XRPM23 = XRPM23()
 """
     name: XRPM23
-    precision: 1e-08
+    significant_digits: None
+    tick_size: 1e-08
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -28032,7 +29748,8 @@ XRPM23 = XRPM23()
 class ARBUSDTM23(NamedTuple):
     """
         name: ARBUSDTM23
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -28041,7 +29758,8 @@ class ARBUSDTM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "ARBUSDTM23"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -28068,7 +29786,8 @@ class ARBUSDTM23(NamedTuple):
 ARBUSDTM23 = ARBUSDTM23()
 """
     name: ARBUSDTM23
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -28081,7 +29800,8 @@ ARBUSDTM23 = ARBUSDTM23()
 class KLAYUSD(NamedTuple):
     """
         name: KLAYUSD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1
@@ -28090,7 +29810,8 @@ class KLAYUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "KLAYUSD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1
@@ -28117,7 +29838,8 @@ class KLAYUSD(NamedTuple):
 KLAYUSD = KLAYUSD()
 """
     name: KLAYUSD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1
@@ -28130,7 +29852,8 @@ KLAYUSD = KLAYUSD()
 class KLAYUSDT(NamedTuple):
     """
         name: KLAYUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1000
@@ -28139,7 +29862,8 @@ class KLAYUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "KLAYUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1000
@@ -28166,7 +29890,8 @@ class KLAYUSDT(NamedTuple):
 KLAYUSDT = KLAYUSDT()
 """
     name: KLAYUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1000
@@ -28179,7 +29904,8 @@ KLAYUSDT = KLAYUSDT()
 class XRPUSD(NamedTuple):
     """
         name: XRPUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28188,7 +29914,8 @@ class XRPUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "XRPUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28215,7 +29942,8 @@ class XRPUSD(NamedTuple):
 XRPUSD = XRPUSD()
 """
     name: XRPUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28228,7 +29956,8 @@ XRPUSD = XRPUSD()
 class BCHUSD(NamedTuple):
     """
         name: BCHUSD
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28237,7 +29966,8 @@ class BCHUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "BCHUSD"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28264,7 +29994,8 @@ class BCHUSD(NamedTuple):
 BCHUSD = BCHUSD()
 """
     name: BCHUSD
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28277,7 +30008,8 @@ BCHUSD = BCHUSD()
 class DOGEUSD(NamedTuple):
     """
         name: DOGEUSD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28286,7 +30018,8 @@ class DOGEUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "DOGEUSD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28313,7 +30046,8 @@ class DOGEUSD(NamedTuple):
 DOGEUSD = DOGEUSD()
 """
     name: DOGEUSD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28326,7 +30060,8 @@ DOGEUSD = DOGEUSD()
 class BNBUSD(NamedTuple):
     """
         name: BNBUSD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28335,7 +30070,8 @@ class BNBUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "BNBUSD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28362,7 +30098,8 @@ class BNBUSD(NamedTuple):
 BNBUSD = BNBUSD()
 """
     name: BNBUSD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28375,7 +30112,8 @@ BNBUSD = BNBUSD()
 class LINKUSD(NamedTuple):
     """
         name: LINKUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28384,7 +30122,8 @@ class LINKUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "LINKUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28411,7 +30150,8 @@ class LINKUSD(NamedTuple):
 LINKUSD = LINKUSD()
 """
     name: LINKUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28424,7 +30164,8 @@ LINKUSD = LINKUSD()
 class SOLUSD(NamedTuple):
     """
         name: SOLUSD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28433,7 +30174,8 @@ class SOLUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "SOLUSD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28460,7 +30202,8 @@ class SOLUSD(NamedTuple):
 SOLUSD = SOLUSD()
 """
     name: SOLUSD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28473,7 +30216,8 @@ SOLUSD = SOLUSD()
 class APTUSD(NamedTuple):
     """
         name: APTUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28482,7 +30226,8 @@ class APTUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "APTUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28509,7 +30254,8 @@ class APTUSD(NamedTuple):
 APTUSD = APTUSD()
 """
     name: APTUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28522,7 +30268,8 @@ APTUSD = APTUSD()
 class BMEXUSD(NamedTuple):
     """
         name: BMEXUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28531,7 +30278,8 @@ class BMEXUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "BMEXUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28558,7 +30306,8 @@ class BMEXUSD(NamedTuple):
 BMEXUSD = BMEXUSD()
 """
     name: BMEXUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28571,7 +30320,8 @@ BMEXUSD = BMEXUSD()
 class CROUSD(NamedTuple):
     """
         name: CROUSD
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28580,7 +30330,8 @@ class CROUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "CROUSD"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28607,7 +30358,8 @@ class CROUSD(NamedTuple):
 CROUSD = CROUSD()
 """
     name: CROUSD
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28620,7 +30372,8 @@ CROUSD = CROUSD()
 class FLRUSD(NamedTuple):
     """
         name: FLRUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28629,7 +30382,8 @@ class FLRUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "FLRUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28656,7 +30410,8 @@ class FLRUSD(NamedTuple):
 FLRUSD = FLRUSD()
 """
     name: FLRUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28669,7 +30424,8 @@ FLRUSD = FLRUSD()
 class BLURUSD(NamedTuple):
     """
         name: BLURUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28678,7 +30434,8 @@ class BLURUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "BLURUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28705,7 +30462,8 @@ class BLURUSD(NamedTuple):
 BLURUSD = BLURUSD()
 """
     name: BLURUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28718,7 +30476,8 @@ BLURUSD = BLURUSD()
 class GMXUSD(NamedTuple):
     """
         name: GMXUSD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28727,7 +30486,8 @@ class GMXUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "GMXUSD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28754,7 +30514,8 @@ class GMXUSD(NamedTuple):
 GMXUSD = GMXUSD()
 """
     name: GMXUSD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28767,7 +30528,8 @@ GMXUSD = GMXUSD()
 class ARBUSD(NamedTuple):
     """
         name: ARBUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -28776,7 +30538,8 @@ class ARBUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "ARBUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -28803,7 +30566,8 @@ class ARBUSD(NamedTuple):
 ARBUSD = ARBUSD()
 """
     name: ARBUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -28816,7 +30580,8 @@ ARBUSD = ARBUSD()
 class DOGEUSDT(NamedTuple):
     """
         name: DOGEUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -28825,7 +30590,8 @@ class DOGEUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "DOGEUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -28852,7 +30618,8 @@ class DOGEUSDT(NamedTuple):
 DOGEUSDT = DOGEUSDT()
 """
     name: DOGEUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -28865,7 +30632,8 @@ DOGEUSDT = DOGEUSDT()
 class DOTUSDT(NamedTuple):
     """
         name: DOTUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -28874,7 +30642,8 @@ class DOTUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "DOTUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -28901,7 +30670,8 @@ class DOTUSDT(NamedTuple):
 DOTUSDT = DOTUSDT()
 """
     name: DOTUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -28914,7 +30684,8 @@ DOTUSDT = DOTUSDT()
 class ADAUSDT(NamedTuple):
     """
         name: ADAUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -28923,7 +30694,8 @@ class ADAUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "ADAUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -28950,7 +30722,8 @@ class ADAUSDT(NamedTuple):
 ADAUSDT = ADAUSDT()
 """
     name: ADAUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -28963,7 +30736,8 @@ ADAUSDT = ADAUSDT()
 class BNBUSDT(NamedTuple):
     """
         name: BNBUSDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -28972,7 +30746,8 @@ class BNBUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "BNBUSDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -28999,7 +30774,8 @@ class BNBUSDT(NamedTuple):
 BNBUSDT = BNBUSDT()
 """
     name: BNBUSDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29012,7 +30788,8 @@ BNBUSDT = BNBUSDT()
 class SOLUSDT(NamedTuple):
     """
         name: SOLUSDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29021,7 +30798,8 @@ class SOLUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "SOLUSDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29048,7 +30826,8 @@ class SOLUSDT(NamedTuple):
 SOLUSDT = SOLUSDT()
 """
     name: SOLUSDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29061,7 +30840,8 @@ SOLUSDT = SOLUSDT()
 class ADAUSD(NamedTuple):
     """
         name: ADAUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1
@@ -29070,7 +30850,8 @@ class ADAUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "ADAUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1
@@ -29097,7 +30878,8 @@ class ADAUSD(NamedTuple):
 ADAUSD = ADAUSD()
 """
     name: ADAUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1
@@ -29110,7 +30892,8 @@ ADAUSD = ADAUSD()
 class EOSUSD(NamedTuple):
     """
         name: EOSUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1
@@ -29119,7 +30902,8 @@ class EOSUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "EOSUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1
@@ -29146,7 +30930,8 @@ class EOSUSD(NamedTuple):
 EOSUSD = EOSUSD()
 """
     name: EOSUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1
@@ -29159,7 +30944,8 @@ EOSUSD = EOSUSD()
 class XRPUSDT(NamedTuple):
     """
         name: XRPUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29168,7 +30954,8 @@ class XRPUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "XRPUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29195,7 +30982,8 @@ class XRPUSDT(NamedTuple):
 XRPUSDT = XRPUSDT()
 """
     name: XRPUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29208,7 +30996,8 @@ XRPUSDT = XRPUSDT()
 class BCHUSDT(NamedTuple):
     """
         name: BCHUSDT
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29217,7 +31006,8 @@ class BCHUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "BCHUSDT"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29244,7 +31034,8 @@ class BCHUSDT(NamedTuple):
 BCHUSDT = BCHUSDT()
 """
     name: BCHUSDT
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29257,7 +31048,8 @@ BCHUSDT = BCHUSDT()
 class APEUSDT(NamedTuple):
     """
         name: APEUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29266,7 +31058,8 @@ class APEUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "APEUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29293,7 +31086,8 @@ class APEUSDT(NamedTuple):
 APEUSDT = APEUSDT()
 """
     name: APEUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29306,7 +31100,8 @@ APEUSDT = APEUSDT()
 class GMTUSDT(NamedTuple):
     """
         name: GMTUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29315,7 +31110,8 @@ class GMTUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "GMTUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29342,7 +31138,8 @@ class GMTUSDT(NamedTuple):
 GMTUSDT = GMTUSDT()
 """
     name: GMTUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29355,7 +31152,8 @@ GMTUSDT = GMTUSDT()
 class GMTUSD(NamedTuple):
     """
         name: GMTUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1
@@ -29364,7 +31162,8 @@ class GMTUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "GMTUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1
@@ -29391,7 +31190,8 @@ class GMTUSD(NamedTuple):
 GMTUSD = GMTUSD()
 """
     name: GMTUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1
@@ -29404,7 +31204,8 @@ GMTUSD = GMTUSD()
 class NEARUSD(NamedTuple):
     """
         name: NEARUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1
@@ -29413,7 +31214,8 @@ class NEARUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "NEARUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1
@@ -29440,7 +31242,8 @@ class NEARUSD(NamedTuple):
 NEARUSD = NEARUSD()
 """
     name: NEARUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1
@@ -29453,7 +31256,8 @@ NEARUSD = NEARUSD()
 class APTUSDT(NamedTuple):
     """
         name: APTUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29462,7 +31266,8 @@ class APTUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "APTUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29489,7 +31294,8 @@ class APTUSDT(NamedTuple):
 APTUSDT = APTUSDT()
 """
     name: APTUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29502,7 +31308,8 @@ APTUSDT = APTUSDT()
 class BMEXUSDT(NamedTuple):
     """
         name: BMEXUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29511,7 +31318,8 @@ class BMEXUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "BMEXUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29538,7 +31346,8 @@ class BMEXUSDT(NamedTuple):
 BMEXUSDT = BMEXUSDT()
 """
     name: BMEXUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29551,7 +31360,8 @@ BMEXUSDT = BMEXUSDT()
 class CROUSDT(NamedTuple):
     """
         name: CROUSDT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29560,7 +31370,8 @@ class CROUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "CROUSDT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29587,7 +31398,8 @@ class CROUSDT(NamedTuple):
 CROUSDT = CROUSDT()
 """
     name: CROUSDT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29600,7 +31412,8 @@ CROUSDT = CROUSDT()
 class FLRUSDT(NamedTuple):
     """
         name: FLRUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29609,7 +31422,8 @@ class FLRUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "FLRUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29636,7 +31450,8 @@ class FLRUSDT(NamedTuple):
 FLRUSDT = FLRUSDT()
 """
     name: FLRUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29649,7 +31464,8 @@ FLRUSDT = FLRUSDT()
 class BLURUSDT(NamedTuple):
     """
         name: BLURUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29658,7 +31474,8 @@ class BLURUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "BLURUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29685,7 +31502,8 @@ class BLURUSDT(NamedTuple):
 BLURUSDT = BLURUSDT()
 """
     name: BLURUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29698,7 +31516,8 @@ BLURUSDT = BLURUSDT()
 class GMXUSDT(NamedTuple):
     """
         name: GMXUSDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -29707,7 +31526,8 @@ class GMXUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "GMXUSDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -29734,7 +31554,8 @@ class GMXUSDT(NamedTuple):
 GMXUSDT = GMXUSDT()
 """
     name: GMXUSDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
@@ -29747,7 +31568,8 @@ GMXUSDT = GMXUSDT()
 class ARBUSDT(NamedTuple):
     """
         name: ARBUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.03
         min_order_size: 100
@@ -29756,7 +31578,8 @@ class ARBUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "ARBUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 100
@@ -29783,7 +31606,8 @@ class ARBUSDT(NamedTuple):
 ARBUSDT = ARBUSDT()
 """
     name: ARBUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.03
     min_order_size: 100
@@ -29796,7 +31620,8 @@ ARBUSDT = ARBUSDT()
 class LUNAUSD(NamedTuple):
     """
         name: LUNAUSD
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.04
         min_order_size: 1
@@ -29805,7 +31630,8 @@ class LUNAUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "LUNAUSD"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.04
     min_order_size: float = 1
@@ -29832,7 +31658,8 @@ class LUNAUSD(NamedTuple):
 LUNAUSD = LUNAUSD()
 """
     name: LUNAUSD
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.04
     min_order_size: 1
@@ -29845,7 +31672,8 @@ LUNAUSD = LUNAUSD()
 class DOTUSD(NamedTuple):
     """
         name: DOTUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.04
         min_order_size: 1
@@ -29854,7 +31682,8 @@ class DOTUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "DOTUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.04
     min_order_size: float = 1
@@ -29881,7 +31710,8 @@ class DOTUSD(NamedTuple):
 DOTUSD = DOTUSD()
 """
     name: DOTUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.04
     min_order_size: 1
@@ -29894,7 +31724,8 @@ DOTUSD = DOTUSD()
 class MATICUSDT(NamedTuple):
     """
         name: MATICUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -29903,7 +31734,8 @@ class MATICUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "MATICUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -29930,7 +31762,8 @@ class MATICUSDT(NamedTuple):
 MATICUSDT = MATICUSDT()
 """
     name: MATICUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -29943,7 +31776,8 @@ MATICUSDT = MATICUSDT()
 class AVAXUSD(NamedTuple):
     """
         name: AVAXUSD
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1
@@ -29952,7 +31786,8 @@ class AVAXUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "AVAXUSD"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1
@@ -29979,7 +31814,8 @@ class AVAXUSD(NamedTuple):
 AVAXUSD = AVAXUSD()
 """
     name: AVAXUSD
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1
@@ -29992,7 +31828,8 @@ AVAXUSD = AVAXUSD()
 class AXSUSD(NamedTuple):
     """
         name: AXSUSD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1
@@ -30001,7 +31838,8 @@ class AXSUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "AXSUSD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1
@@ -30028,7 +31866,8 @@ class AXSUSD(NamedTuple):
 AXSUSD = AXSUSD()
 """
     name: AXSUSD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1
@@ -30041,7 +31880,8 @@ AXSUSD = AXSUSD()
 class AVAXUSDT(NamedTuple):
     """
         name: AVAXUSDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -30050,7 +31890,8 @@ class AVAXUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "AVAXUSDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -30077,7 +31918,8 @@ class AVAXUSDT(NamedTuple):
 AVAXUSDT = AVAXUSDT()
 """
     name: AVAXUSDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -30090,7 +31932,8 @@ AVAXUSDT = AVAXUSDT()
 class LUNAUSDT(NamedTuple):
     """
         name: LUNAUSDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.05
         min_order_size: 1000
@@ -30099,7 +31942,8 @@ class LUNAUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "LUNAUSDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.05
     min_order_size: float = 1000
@@ -30126,7 +31970,8 @@ class LUNAUSDT(NamedTuple):
 LUNAUSDT = LUNAUSDT()
 """
     name: LUNAUSDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.05
     min_order_size: 1000
@@ -30139,7 +31984,8 @@ LUNAUSDT = LUNAUSDT()
 class USDTUSDC(NamedTuple):
     """
         name: USDTUSDC
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 0.1
         min_order_size: 1
@@ -30148,7 +31994,8 @@ class USDTUSDC(NamedTuple):
         exchange: bitmex
     """
     name: str = "USDTUSDC"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 0.1
     min_order_size: float = 1
@@ -30175,7 +32022,8 @@ class USDTUSDC(NamedTuple):
 USDTUSDC = USDTUSDC()
 """
     name: USDTUSDC
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 0.1
     min_order_size: 1
@@ -30188,7 +32036,8 @@ USDTUSDC = USDTUSDC()
 class UNI_USDT(NamedTuple):
     """
         name: UNI_USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 1
         min_order_size: 10000000
@@ -30197,7 +32046,8 @@ class UNI_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "UNI_USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 10000000
@@ -30224,7 +32074,8 @@ class UNI_USDT(NamedTuple):
 UNI_USDT = UNI_USDT()
 """
     name: UNI_USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 1
     min_order_size: 10000000
@@ -30237,7 +32088,8 @@ UNI_USDT = UNI_USDT()
 class LINK_USDT(NamedTuple):
     """
         name: LINK_USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 1
         min_order_size: 10000000
@@ -30246,7 +32098,8 @@ class LINK_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "LINK_USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 10000000
@@ -30273,7 +32126,8 @@ class LINK_USDT(NamedTuple):
 LINK_USDT = LINK_USDT()
 """
     name: LINK_USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 1
     min_order_size: 10000000
@@ -30286,7 +32140,8 @@ LINK_USDT = LINK_USDT()
 class MATIC_USDT(NamedTuple):
     """
         name: MATIC_USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 1
         min_order_size: 100000000
@@ -30295,7 +32150,8 @@ class MATIC_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "MATIC_USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 100000000
@@ -30322,7 +32178,8 @@ class MATIC_USDT(NamedTuple):
 MATIC_USDT = MATIC_USDT()
 """
     name: MATIC_USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 1
     min_order_size: 100000000
@@ -30335,7 +32192,8 @@ MATIC_USDT = MATIC_USDT()
 class AXS_USDT(NamedTuple):
     """
         name: AXS_USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 1
         min_order_size: 1000000
@@ -30344,7 +32202,8 @@ class AXS_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "AXS_USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 1000000
@@ -30371,7 +32230,8 @@ class AXS_USDT(NamedTuple):
 AXS_USDT = AXS_USDT()
 """
     name: AXS_USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 1
     min_order_size: 1000000
@@ -30384,7 +32244,8 @@ AXS_USDT = AXS_USDT()
 class APE_USDT(NamedTuple):
     """
         name: APE_USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 1
         min_order_size: 10000000
@@ -30393,7 +32254,8 @@ class APE_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "APE_USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 10000000
@@ -30420,7 +32282,8 @@ class APE_USDT(NamedTuple):
 APE_USDT = APE_USDT()
 """
     name: APE_USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 1
     min_order_size: 10000000
@@ -30433,7 +32296,8 @@ APE_USDT = APE_USDT()
 class TRX_USDT(NamedTuple):
     """
         name: TRX_USDT
-        precision: 0.0001
+        significant_digits: None
+        tick_size: 0.0001
         min_margin: None
         initial_margin: 1
         min_order_size: 100000000
@@ -30442,7 +32306,8 @@ class TRX_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "TRX_USDT"
-    precision: int = 0.0001
+    significant_digits: int = None
+    tick_size: int = 0.0001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 100000000
@@ -30469,7 +32334,8 @@ class TRX_USDT(NamedTuple):
 TRX_USDT = TRX_USDT()
 """
     name: TRX_USDT
-    precision: 0.0001
+    significant_digits: None
+    tick_size: 0.0001
     min_margin: None
     initial_margin: 1
     min_order_size: 100000000
@@ -30482,7 +32348,8 @@ TRX_USDT = TRX_USDT()
 class SOL_USDT(NamedTuple):
     """
         name: SOL_USDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 1
         min_order_size: 1000000
@@ -30491,7 +32358,8 @@ class SOL_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "SOL_USDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 1000000
@@ -30518,7 +32386,8 @@ class SOL_USDT(NamedTuple):
 SOL_USDT = SOL_USDT()
 """
     name: SOL_USDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 1
     min_order_size: 1000000
@@ -30531,7 +32400,8 @@ SOL_USDT = SOL_USDT()
 class BMEX_USDT(NamedTuple):
     """
         name: BMEX_USDT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: 1
         min_order_size: 1000000
@@ -30540,7 +32410,8 @@ class BMEX_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "BMEX_USDT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 1000000
@@ -30567,7 +32438,8 @@ class BMEX_USDT(NamedTuple):
 BMEX_USDT = BMEX_USDT()
 """
     name: BMEX_USDT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: 1
     min_order_size: 1000000
@@ -30580,7 +32452,8 @@ BMEX_USDT = BMEX_USDT()
 class _XBT(NamedTuple):
     """
         name: .XBT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30589,7 +32462,8 @@ class _XBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30616,7 +32490,8 @@ class _XBT(NamedTuple):
 _XBT = _XBT()
 """
     name: .XBT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30629,7 +32504,8 @@ _XBT = _XBT()
 class _XBT30M(NamedTuple):
     """
         name: .XBT30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30638,7 +32514,8 @@ class _XBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBT30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30665,7 +32542,8 @@ class _XBT30M(NamedTuple):
 _XBT30M = _XBT30M()
 """
     name: .XBT30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30678,7 +32556,8 @@ _XBT30M = _XBT30M()
 class _XBTBON(NamedTuple):
     """
         name: .XBTBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30687,7 +32566,8 @@ class _XBTBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30714,7 +32594,8 @@ class _XBTBON(NamedTuple):
 _XBTBON = _XBTBON()
 """
     name: .XBTBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30727,7 +32608,8 @@ _XBTBON = _XBTBON()
 class _XBTBON8H(NamedTuple):
     """
         name: .XBTBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30736,7 +32618,8 @@ class _XBTBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30763,7 +32646,8 @@ class _XBTBON8H(NamedTuple):
 _XBTBON8H = _XBTBON8H()
 """
     name: .XBTBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30776,7 +32660,8 @@ _XBTBON8H = _XBTBON8H()
 class _XBTUSDPI(NamedTuple):
     """
         name: .XBTUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30785,7 +32670,8 @@ class _XBTUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30812,7 +32698,8 @@ class _XBTUSDPI(NamedTuple):
 _XBTUSDPI = _XBTUSDPI()
 """
     name: .XBTUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30825,7 +32712,8 @@ _XBTUSDPI = _XBTUSDPI()
 class _XBTUSDPI8H(NamedTuple):
     """
         name: .XBTUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30834,7 +32722,8 @@ class _XBTUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30861,7 +32750,8 @@ class _XBTUSDPI8H(NamedTuple):
 _XBTUSDPI8H = _XBTUSDPI8H()
 """
     name: .XBTUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30874,7 +32764,8 @@ _XBTUSDPI8H = _XBTUSDPI8H()
 class _BXBT(NamedTuple):
     """
         name: .BXBT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30883,7 +32774,8 @@ class _BXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30910,7 +32802,8 @@ class _BXBT(NamedTuple):
 _BXBT = _BXBT()
 """
     name: .BXBT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30923,7 +32816,8 @@ _BXBT = _BXBT()
 class _BXBT30M(NamedTuple):
     """
         name: .BXBT30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30932,7 +32826,8 @@ class _BXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBT30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -30959,7 +32854,8 @@ class _BXBT30M(NamedTuple):
 _BXBT30M = _BXBT30M()
 """
     name: .BXBT30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -30972,7 +32868,8 @@ _BXBT30M = _BXBT30M()
 class _BXBT_NEXT(NamedTuple):
     """
         name: .BXBT_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -30981,7 +32878,8 @@ class _BXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBT_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31008,7 +32906,8 @@ class _BXBT_NEXT(NamedTuple):
 _BXBT_NEXT = _BXBT_NEXT()
 """
     name: .BXBT_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31021,7 +32920,8 @@ _BXBT_NEXT = _BXBT_NEXT()
 class _BXBTEUR(NamedTuple):
     """
         name: .BXBTEUR
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31030,7 +32930,8 @@ class _BXBTEUR(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTEUR"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31057,7 +32958,8 @@ class _BXBTEUR(NamedTuple):
 _BXBTEUR = _BXBTEUR()
 """
     name: .BXBTEUR
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31070,7 +32972,8 @@ _BXBTEUR = _BXBTEUR()
 class _BXBTEUR_NEXT(NamedTuple):
     """
         name: .BXBTEUR_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31079,7 +32982,8 @@ class _BXBTEUR_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTEUR_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31106,7 +33010,8 @@ class _BXBTEUR_NEXT(NamedTuple):
 _BXBTEUR_NEXT = _BXBTEUR_NEXT()
 """
     name: .BXBTEUR_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31119,7 +33024,8 @@ _BXBTEUR_NEXT = _BXBTEUR_NEXT()
 class _XBTEURPI(NamedTuple):
     """
         name: .XBTEURPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31128,7 +33034,8 @@ class _XBTEURPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTEURPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31155,7 +33062,8 @@ class _XBTEURPI(NamedTuple):
 _XBTEURPI = _XBTEURPI()
 """
     name: .XBTEURPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31168,7 +33076,8 @@ _XBTEURPI = _XBTEURPI()
 class _XBTEURPI8H(NamedTuple):
     """
         name: .XBTEURPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31177,7 +33086,8 @@ class _XBTEURPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTEURPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31204,7 +33114,8 @@ class _XBTEURPI8H(NamedTuple):
 _XBTEURPI8H = _XBTEURPI8H()
 """
     name: .XBTEURPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31217,7 +33128,8 @@ _XBTEURPI8H = _XBTEURPI8H()
 class _BXBTEUR30M(NamedTuple):
     """
         name: .BXBTEUR30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31226,7 +33138,8 @@ class _BXBTEUR30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTEUR30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31253,7 +33166,8 @@ class _BXBTEUR30M(NamedTuple):
 _BXBTEUR30M = _BXBTEUR30M()
 """
     name: .BXBTEUR30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31266,7 +33180,8 @@ _BXBTEUR30M = _BXBTEUR30M()
 class _BXBTT(NamedTuple):
     """
         name: .BXBTT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31275,7 +33190,8 @@ class _BXBTT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31302,7 +33218,8 @@ class _BXBTT(NamedTuple):
 _BXBTT = _BXBTT()
 """
     name: .BXBTT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31315,7 +33232,8 @@ _BXBTT = _BXBTT()
 class _BXBTT_NEXT(NamedTuple):
     """
         name: .BXBTT_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31324,7 +33242,8 @@ class _BXBTT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTT_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31351,7 +33270,8 @@ class _BXBTT_NEXT(NamedTuple):
 _BXBTT_NEXT = _BXBTT_NEXT()
 """
     name: .BXBTT_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31364,7 +33284,8 @@ _BXBTT_NEXT = _BXBTT_NEXT()
 class _BXBTT30M(NamedTuple):
     """
         name: .BXBTT30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31373,7 +33294,8 @@ class _BXBTT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BXBTT30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31400,7 +33322,8 @@ class _BXBTT30M(NamedTuple):
 _BXBTT30M = _BXBTT30M()
 """
     name: .BXBTT30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31413,7 +33336,8 @@ _BXBTT30M = _BXBTT30M()
 class _XBTUSDTPI(NamedTuple):
     """
         name: .XBTUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31422,7 +33346,8 @@ class _XBTUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31449,7 +33374,8 @@ class _XBTUSDTPI(NamedTuple):
 _XBTUSDTPI = _XBTUSDTPI()
 """
     name: .XBTUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31462,7 +33388,8 @@ _XBTUSDTPI = _XBTUSDTPI()
 class _XBTUSDTPI8H(NamedTuple):
     """
         name: .XBTUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31471,7 +33398,8 @@ class _XBTUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".XBTUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31498,7 +33426,8 @@ class _XBTUSDTPI8H(NamedTuple):
 _XBTUSDTPI8H = _XBTUSDTPI8H()
 """
     name: .XBTUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31511,7 +33440,8 @@ _XBTUSDTPI8H = _XBTUSDTPI8H()
 class _BVOL(NamedTuple):
     """
         name: .BVOL
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31520,7 +33450,8 @@ class _BVOL(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVOL"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31547,7 +33478,8 @@ class _BVOL(NamedTuple):
 _BVOL = _BVOL()
 """
     name: .BVOL
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31560,7 +33492,8 @@ _BVOL = _BVOL()
 class _BVOL24H(NamedTuple):
     """
         name: .BVOL24H
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31569,7 +33502,8 @@ class _BVOL24H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVOL24H"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31596,7 +33530,8 @@ class _BVOL24H(NamedTuple):
 _BVOL24H = _BVOL24H()
 """
     name: .BVOL24H
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31609,7 +33544,8 @@ _BVOL24H = _BVOL24H()
 class _BVOL7D(NamedTuple):
     """
         name: .BVOL7D
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31618,7 +33554,8 @@ class _BVOL7D(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BVOL7D"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31645,7 +33582,8 @@ class _BVOL7D(NamedTuple):
 _BVOL7D = _BVOL7D()
 """
     name: .BVOL7D
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31658,7 +33596,8 @@ _BVOL7D = _BVOL7D()
 class _ETHBON(NamedTuple):
     """
         name: .ETHBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31667,7 +33606,8 @@ class _ETHBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31694,7 +33634,8 @@ class _ETHBON(NamedTuple):
 _ETHBON = _ETHBON()
 """
     name: .ETHBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31707,7 +33648,8 @@ _ETHBON = _ETHBON()
 class _ETHBON8H(NamedTuple):
     """
         name: .ETHBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31716,7 +33658,8 @@ class _ETHBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31743,7 +33686,8 @@ class _ETHBON8H(NamedTuple):
 _ETHBON8H = _ETHBON8H()
 """
     name: .ETHBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31756,7 +33700,8 @@ _ETHBON8H = _ETHBON8H()
 class _ETHUSDPI(NamedTuple):
     """
         name: .ETHUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31765,7 +33710,8 @@ class _ETHUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31792,7 +33738,8 @@ class _ETHUSDPI(NamedTuple):
 _ETHUSDPI = _ETHUSDPI()
 """
     name: .ETHUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31805,7 +33752,8 @@ _ETHUSDPI = _ETHUSDPI()
 class _ETHUSDPI8H(NamedTuple):
     """
         name: .ETHUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31814,7 +33762,8 @@ class _ETHUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31841,7 +33790,8 @@ class _ETHUSDPI8H(NamedTuple):
 _ETHUSDPI8H = _ETHUSDPI8H()
 """
     name: .ETHUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31854,7 +33804,8 @@ _ETHUSDPI8H = _ETHUSDPI8H()
 class _BETH(NamedTuple):
     """
         name: .BETH
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31863,7 +33814,8 @@ class _BETH(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETH"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31890,7 +33842,8 @@ class _BETH(NamedTuple):
 _BETH = _BETH()
 """
     name: .BETH
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31903,7 +33856,8 @@ _BETH = _BETH()
 class _BETH30M(NamedTuple):
     """
         name: .BETH30M
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31912,7 +33866,8 @@ class _BETH30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETH30M"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31939,7 +33894,8 @@ class _BETH30M(NamedTuple):
 _BETH30M = _BETH30M()
 """
     name: .BETH30M
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -31952,7 +33908,8 @@ _BETH30M = _BETH30M()
 class _BETHXBT(NamedTuple):
     """
         name: .BETHXBT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -31961,7 +33918,8 @@ class _BETHXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHXBT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -31988,7 +33946,8 @@ class _BETHXBT(NamedTuple):
 _BETHXBT = _BETHXBT()
 """
     name: .BETHXBT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32001,7 +33960,8 @@ _BETHXBT = _BETHXBT()
 class _BETHXBT30M(NamedTuple):
     """
         name: .BETHXBT30M
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32010,7 +33970,8 @@ class _BETHXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHXBT30M"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32037,7 +33998,8 @@ class _BETHXBT30M(NamedTuple):
 _BETHXBT30M = _BETHXBT30M()
 """
     name: .BETHXBT30M
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32050,7 +34012,8 @@ _BETHXBT30M = _BETHXBT30M()
 class _BETH_NEXT(NamedTuple):
     """
         name: .BETH_NEXT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32059,7 +34022,8 @@ class _BETH_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETH_NEXT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32086,7 +34050,8 @@ class _BETH_NEXT(NamedTuple):
 _BETH_NEXT = _BETH_NEXT()
 """
     name: .BETH_NEXT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32099,7 +34064,8 @@ _BETH_NEXT = _BETH_NEXT()
 class _BETHXBT_NEXT(NamedTuple):
     """
         name: .BETHXBT_NEXT
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32108,7 +34074,8 @@ class _BETHXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHXBT_NEXT"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32135,7 +34102,8 @@ class _BETHXBT_NEXT(NamedTuple):
 _BETHXBT_NEXT = _BETHXBT_NEXT()
 """
     name: .BETHXBT_NEXT
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32148,7 +34116,8 @@ _BETHXBT_NEXT = _BETHXBT_NEXT()
 class _BETHT(NamedTuple):
     """
         name: .BETHT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32157,7 +34126,8 @@ class _BETHT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32184,7 +34154,8 @@ class _BETHT(NamedTuple):
 _BETHT = _BETHT()
 """
     name: .BETHT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32197,7 +34168,8 @@ _BETHT = _BETHT()
 class _BETHT_NEXT(NamedTuple):
     """
         name: .BETHT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32206,7 +34178,8 @@ class _BETHT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32233,7 +34206,8 @@ class _BETHT_NEXT(NamedTuple):
 _BETHT_NEXT = _BETHT_NEXT()
 """
     name: .BETHT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32246,7 +34220,8 @@ _BETHT_NEXT = _BETHT_NEXT()
 class _BETHT30M(NamedTuple):
     """
         name: .BETHT30M
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32255,7 +34230,8 @@ class _BETHT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETHT30M"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32282,7 +34258,8 @@ class _BETHT30M(NamedTuple):
 _BETHT30M = _BETHT30M()
 """
     name: .BETHT30M
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32295,7 +34272,8 @@ _BETHT30M = _BETHT30M()
 class _ETHUSDTPI(NamedTuple):
     """
         name: .ETHUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32304,7 +34282,8 @@ class _ETHUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32331,7 +34310,8 @@ class _ETHUSDTPI(NamedTuple):
 _ETHUSDTPI = _ETHUSDTPI()
 """
     name: .ETHUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32344,7 +34324,8 @@ _ETHUSDTPI = _ETHUSDTPI()
 class _ETHUSDTPI8H(NamedTuple):
     """
         name: .ETHUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32353,7 +34334,8 @@ class _ETHUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32380,7 +34362,8 @@ class _ETHUSDTPI8H(NamedTuple):
 _ETHUSDTPI8H = _ETHUSDTPI8H()
 """
     name: .ETHUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32393,7 +34376,8 @@ _ETHUSDTPI8H = _ETHUSDTPI8H()
 class _ETHUSD_ETHPI(NamedTuple):
     """
         name: .ETHUSD_ETHPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32402,7 +34386,8 @@ class _ETHUSD_ETHPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSD_ETHPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32429,7 +34414,8 @@ class _ETHUSD_ETHPI(NamedTuple):
 _ETHUSD_ETHPI = _ETHUSD_ETHPI()
 """
     name: .ETHUSD_ETHPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32442,7 +34428,8 @@ _ETHUSD_ETHPI = _ETHUSD_ETHPI()
 class _ETHUSD_ETHPI8H(NamedTuple):
     """
         name: .ETHUSD_ETHPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32451,7 +34438,8 @@ class _ETHUSD_ETHPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".ETHUSD_ETHPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32478,7 +34466,8 @@ class _ETHUSD_ETHPI8H(NamedTuple):
 _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
 """
     name: .ETHUSD_ETHPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32491,7 +34480,8 @@ _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
 class _BETC(NamedTuple):
     """
         name: .BETC
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32500,7 +34490,8 @@ class _BETC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BETC"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32527,7 +34518,8 @@ class _BETC(NamedTuple):
 _BETC = _BETC()
 """
     name: .BETC
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32540,7 +34532,8 @@ _BETC = _BETC()
 class _LTCBON(NamedTuple):
     """
         name: .LTCBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32549,7 +34542,8 @@ class _LTCBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32576,7 +34570,8 @@ class _LTCBON(NamedTuple):
 _LTCBON = _LTCBON()
 """
     name: .LTCBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32589,7 +34584,8 @@ _LTCBON = _LTCBON()
 class _LTCBON8H(NamedTuple):
     """
         name: .LTCBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32598,7 +34594,8 @@ class _LTCBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32625,7 +34622,8 @@ class _LTCBON8H(NamedTuple):
 _LTCBON8H = _LTCBON8H()
 """
     name: .LTCBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32638,7 +34636,8 @@ _LTCBON8H = _LTCBON8H()
 class _BLTCXBT(NamedTuple):
     """
         name: .BLTCXBT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32647,7 +34646,8 @@ class _BLTCXBT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTCXBT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32674,7 +34674,8 @@ class _BLTCXBT(NamedTuple):
 _BLTCXBT = _BLTCXBT()
 """
     name: .BLTCXBT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32687,7 +34688,8 @@ _BLTCXBT = _BLTCXBT()
 class _BLTCXBT30M(NamedTuple):
     """
         name: .BLTCXBT30M
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32696,7 +34698,8 @@ class _BLTCXBT30M(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTCXBT30M"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32723,7 +34726,8 @@ class _BLTCXBT30M(NamedTuple):
 _BLTCXBT30M = _BLTCXBT30M()
 """
     name: .BLTCXBT30M
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32736,7 +34740,8 @@ _BLTCXBT30M = _BLTCXBT30M()
 class _BLTCXBT_NEXT(NamedTuple):
     """
         name: .BLTCXBT_NEXT
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32745,7 +34750,8 @@ class _BLTCXBT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTCXBT_NEXT"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32772,7 +34778,8 @@ class _BLTCXBT_NEXT(NamedTuple):
 _BLTCXBT_NEXT = _BLTCXBT_NEXT()
 """
     name: .BLTCXBT_NEXT
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32785,7 +34792,8 @@ _BLTCXBT_NEXT = _BLTCXBT_NEXT()
 class _BLTC(NamedTuple):
     """
         name: .BLTC
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32794,7 +34802,8 @@ class _BLTC(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTC"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32821,7 +34830,8 @@ class _BLTC(NamedTuple):
 _BLTC = _BLTC()
 """
     name: .BLTC
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32834,7 +34844,8 @@ _BLTC = _BLTC()
 class _LTCUSDPI(NamedTuple):
     """
         name: .LTCUSDPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32843,7 +34854,8 @@ class _LTCUSDPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCUSDPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32870,7 +34882,8 @@ class _LTCUSDPI(NamedTuple):
 _LTCUSDPI = _LTCUSDPI()
 """
     name: .LTCUSDPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32883,7 +34896,8 @@ _LTCUSDPI = _LTCUSDPI()
 class _LTCUSDPI8H(NamedTuple):
     """
         name: .LTCUSDPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32892,7 +34906,8 @@ class _LTCUSDPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCUSDPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32919,7 +34934,8 @@ class _LTCUSDPI8H(NamedTuple):
 _LTCUSDPI8H = _LTCUSDPI8H()
 """
     name: .LTCUSDPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32932,7 +34948,8 @@ _LTCUSDPI8H = _LTCUSDPI8H()
 class _BLTC_NEXT(NamedTuple):
     """
         name: .BLTC_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32941,7 +34958,8 @@ class _BLTC_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTC_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -32968,7 +34986,8 @@ class _BLTC_NEXT(NamedTuple):
 _BLTC_NEXT = _BLTC_NEXT()
 """
     name: .BLTC_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -32981,7 +35000,8 @@ _BLTC_NEXT = _BLTC_NEXT()
 class _BLTCT(NamedTuple):
     """
         name: .BLTCT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -32990,7 +35010,8 @@ class _BLTCT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTCT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33017,7 +35038,8 @@ class _BLTCT(NamedTuple):
 _BLTCT = _BLTCT()
 """
     name: .BLTCT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33030,7 +35052,8 @@ _BLTCT = _BLTCT()
 class _BLTCT_NEXT(NamedTuple):
     """
         name: .BLTCT_NEXT
-        precision: 0.001
+        significant_digits: None
+        tick_size: 0.001
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -33039,7 +35062,8 @@ class _BLTCT_NEXT(NamedTuple):
         exchange: bitmex
     """
     name: str = ".BLTCT_NEXT"
-    precision: int = 0.001
+    significant_digits: int = None
+    tick_size: int = 0.001
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33066,7 +35090,8 @@ class _BLTCT_NEXT(NamedTuple):
 _BLTCT_NEXT = _BLTCT_NEXT()
 """
     name: .BLTCT_NEXT
-    precision: 0.001
+    significant_digits: None
+    tick_size: 0.001
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33079,7 +35104,8 @@ _BLTCT_NEXT = _BLTCT_NEXT()
 class _LTCUSDTPI(NamedTuple):
     """
         name: .LTCUSDTPI
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -33088,7 +35114,8 @@ class _LTCUSDTPI(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCUSDTPI"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33115,7 +35142,8 @@ class _LTCUSDTPI(NamedTuple):
 _LTCUSDTPI = _LTCUSDTPI()
 """
     name: .LTCUSDTPI
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33128,7 +35156,8 @@ _LTCUSDTPI = _LTCUSDTPI()
 class _LTCUSDTPI8H(NamedTuple):
     """
         name: .LTCUSDTPI8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -33137,7 +35166,8 @@ class _LTCUSDTPI8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".LTCUSDTPI8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33164,7 +35194,8 @@ class _LTCUSDTPI8H(NamedTuple):
 _LTCUSDTPI8H = _LTCUSDTPI8H()
 """
     name: .LTCUSDTPI8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33177,7 +35208,8 @@ _LTCUSDTPI8H = _LTCUSDTPI8H()
 class _USDBON(NamedTuple):
     """
         name: .USDBON
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -33186,7 +35218,8 @@ class _USDBON(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDBON"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33213,7 +35246,8 @@ class _USDBON(NamedTuple):
 _USDBON = _USDBON()
 """
     name: .USDBON
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33226,7 +35260,8 @@ _USDBON = _USDBON()
 class _USDBON8H(NamedTuple):
     """
         name: .USDBON8H
-        precision: 1e-06
+        significant_digits: None
+        tick_size: 1e-06
         min_margin: None
         initial_margin: None
         min_order_size: None
@@ -33235,7 +35270,8 @@ class _USDBON8H(NamedTuple):
         exchange: bitmex
     """
     name: str = ".USDBON8H"
-    precision: int = 1e-06
+    significant_digits: int = None
+    tick_size: int = 1e-06
     min_margin: float = None
     initial_margin: float = None
     min_order_size: float = None
@@ -33262,7 +35298,8 @@ class _USDBON8H(NamedTuple):
 _USDBON8H = _USDBON8H()
 """
     name: .USDBON8H
-    precision: 1e-06
+    significant_digits: None
+    tick_size: 1e-06
     min_margin: None
     initial_margin: None
     min_order_size: None
@@ -33275,7 +35312,8 @@ _USDBON8H = _USDBON8H()
 class XBTUSD(NamedTuple):
     """
         name: XBTUSD
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 100
@@ -33284,7 +35322,8 @@ class XBTUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTUSD"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 100
@@ -33311,7 +35350,8 @@ class XBTUSD(NamedTuple):
 XBTUSD = XBTUSD()
 """
     name: XBTUSD
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 100
@@ -33324,7 +35364,8 @@ XBTUSD = XBTUSD()
 class XBTUSDT(NamedTuple):
     """
         name: XBTUSDT
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1000
@@ -33333,7 +35374,8 @@ class XBTUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTUSDT"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1000
@@ -33360,7 +35402,8 @@ class XBTUSDT(NamedTuple):
 XBTUSDT = XBTUSDT()
 """
     name: XBTUSDT
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1000
@@ -33373,7 +35416,8 @@ XBTUSDT = XBTUSDT()
 class XBTEUR(NamedTuple):
     """
         name: XBTEUR
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.02
         min_order_size: 100
@@ -33382,7 +35426,8 @@ class XBTEUR(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTEUR"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 100
@@ -33409,7 +35454,8 @@ class XBTEUR(NamedTuple):
 XBTEUR = XBTEUR()
 """
     name: XBTEUR
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.02
     min_order_size: 100
@@ -33422,7 +35468,8 @@ XBTEUR = XBTEUR()
 class XBTJ23(NamedTuple):
     """
         name: XBTJ23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 100
@@ -33431,7 +35478,8 @@ class XBTJ23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTJ23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 100
@@ -33458,7 +35506,8 @@ class XBTJ23(NamedTuple):
 XBTJ23 = XBTJ23()
 """
     name: XBTJ23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 100
@@ -33471,7 +35520,8 @@ XBTJ23 = XBTJ23()
 class XBTM23(NamedTuple):
     """
         name: XBTM23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 100
@@ -33480,7 +35530,8 @@ class XBTM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTM23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 100
@@ -33507,7 +35558,8 @@ class XBTM23(NamedTuple):
 XBTM23 = XBTM23()
 """
     name: XBTM23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 100
@@ -33520,7 +35572,8 @@ XBTM23 = XBTM23()
 class XBTUSDTM23(NamedTuple):
     """
         name: XBTUSDTM23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1000
@@ -33529,7 +35582,8 @@ class XBTUSDTM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTUSDTM23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1000
@@ -33556,7 +35610,8 @@ class XBTUSDTM23(NamedTuple):
 XBTUSDTM23 = XBTUSDTM23()
 """
     name: XBTUSDTM23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1000
@@ -33569,7 +35624,8 @@ XBTUSDTM23 = XBTUSDTM23()
 class XBTU23(NamedTuple):
     """
         name: XBTU23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 100
@@ -33578,7 +35634,8 @@ class XBTU23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTU23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 100
@@ -33605,7 +35662,8 @@ class XBTU23(NamedTuple):
 XBTU23 = XBTU23()
 """
     name: XBTU23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 100
@@ -33618,7 +35676,8 @@ XBTU23 = XBTU23()
 class XBTUSDTU23(NamedTuple):
     """
         name: XBTUSDTU23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1000
@@ -33627,7 +35686,8 @@ class XBTUSDTU23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTUSDTU23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1000
@@ -33654,7 +35714,8 @@ class XBTUSDTU23(NamedTuple):
 XBTUSDTU23 = XBTUSDTU23()
 """
     name: XBTUSDTU23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1000
@@ -33667,7 +35728,8 @@ XBTUSDTU23 = XBTUSDTU23()
 class XBTZ23(NamedTuple):
     """
         name: XBTZ23
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 0.01
         min_order_size: 100
@@ -33676,7 +35738,8 @@ class XBTZ23(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBTZ23"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 100
@@ -33703,7 +35766,8 @@ class XBTZ23(NamedTuple):
 XBTZ23 = XBTZ23()
 """
     name: XBTZ23
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 0.01
     min_order_size: 100
@@ -33716,7 +35780,8 @@ XBTZ23 = XBTZ23()
 class XBT_USDT(NamedTuple):
     """
         name: XBT_USDT
-        precision: 0.5
+        significant_digits: None
+        tick_size: 0.5
         min_margin: None
         initial_margin: 1
         min_order_size: 10000
@@ -33725,7 +35790,8 @@ class XBT_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "XBT_USDT"
-    precision: int = 0.5
+    significant_digits: int = None
+    tick_size: int = 0.5
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 10000
@@ -33752,7 +35818,8 @@ class XBT_USDT(NamedTuple):
 XBT_USDT = XBT_USDT()
 """
     name: XBT_USDT
-    precision: 0.5
+    significant_digits: None
+    tick_size: 0.5
     min_margin: None
     initial_margin: 1
     min_order_size: 10000
@@ -33765,7 +35832,8 @@ XBT_USDT = XBT_USDT()
 class ETHUSD(NamedTuple):
     """
         name: ETHUSD
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.01
         min_order_size: 1
@@ -33774,7 +35842,8 @@ class ETHUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHUSD"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.01
     min_order_size: float = 1
@@ -33801,7 +35870,8 @@ class ETHUSD(NamedTuple):
 ETHUSD = ETHUSD()
 """
     name: ETHUSD
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.01
     min_order_size: 1
@@ -33814,7 +35884,8 @@ ETHUSD = ETHUSD()
 class ETHUSDT(NamedTuple):
     """
         name: ETHUSDT
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1000
@@ -33823,7 +35894,8 @@ class ETHUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHUSDT"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1000
@@ -33850,7 +35922,8 @@ class ETHUSDT(NamedTuple):
 ETHUSDT = ETHUSDT()
 """
     name: ETHUSDT
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1000
@@ -33863,7 +35936,8 @@ ETHUSDT = ETHUSDT()
 class ETHUSD_ETH(NamedTuple):
     """
         name: ETHUSD_ETH
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -33872,7 +35946,8 @@ class ETHUSD_ETH(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHUSD_ETH"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -33899,7 +35974,8 @@ class ETHUSD_ETH(NamedTuple):
 ETHUSD_ETH = ETHUSD_ETH()
 """
     name: ETHUSD_ETH
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -33912,7 +35988,8 @@ ETHUSD_ETH = ETHUSD_ETH()
 class ETHM23(NamedTuple):
     """
         name: ETHM23
-        precision: 1e-05
+        significant_digits: None
+        tick_size: 1e-05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1000
@@ -33921,7 +35998,8 @@ class ETHM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHM23"
-    precision: int = 1e-05
+    significant_digits: int = None
+    tick_size: int = 1e-05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1000
@@ -33948,7 +36026,8 @@ class ETHM23(NamedTuple):
 ETHM23 = ETHM23()
 """
     name: ETHM23
-    precision: 1e-05
+    significant_digits: None
+    tick_size: 1e-05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1000
@@ -33961,7 +36040,8 @@ ETHM23 = ETHM23()
 class ETHUSDM23(NamedTuple):
     """
         name: ETHUSDM23
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -33970,7 +36050,8 @@ class ETHUSDM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHUSDM23"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -33997,7 +36078,8 @@ class ETHUSDM23(NamedTuple):
 ETHUSDM23 = ETHUSDM23()
 """
     name: ETHUSDM23
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -34010,7 +36092,8 @@ ETHUSDM23 = ETHUSDM23()
 class ETHUSDTM23(NamedTuple):
     """
         name: ETHUSDTM23
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1000
@@ -34019,7 +36102,8 @@ class ETHUSDTM23(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETHUSDTM23"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1000
@@ -34046,7 +36130,8 @@ class ETHUSDTM23(NamedTuple):
 ETHUSDTM23 = ETHUSDTM23()
 """
     name: ETHUSDTM23
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1000
@@ -34059,7 +36144,8 @@ ETHUSDTM23 = ETHUSDTM23()
 class ETH_USDT(NamedTuple):
     """
         name: ETH_USDT
-        precision: 0.05
+        significant_digits: None
+        tick_size: 0.05
         min_margin: None
         initial_margin: 1
         min_order_size: 1000000
@@ -34068,7 +36154,8 @@ class ETH_USDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETH_USDT"
-    precision: int = 0.05
+    significant_digits: int = None
+    tick_size: int = 0.05
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 1000000
@@ -34095,7 +36182,8 @@ class ETH_USDT(NamedTuple):
 ETH_USDT = ETH_USDT()
 """
     name: ETH_USDT
-    precision: 0.05
+    significant_digits: None
+    tick_size: 0.05
     min_margin: None
     initial_margin: 1
     min_order_size: 1000000
@@ -34108,7 +36196,8 @@ ETH_USDT = ETH_USDT()
 class ETH_XBT(NamedTuple):
     """
         name: ETH_XBT
-        precision: 1e-07
+        significant_digits: None
+        tick_size: 1e-07
         min_margin: None
         initial_margin: 1
         min_order_size: 1000000
@@ -34117,7 +36206,8 @@ class ETH_XBT(NamedTuple):
         exchange: bitmex
     """
     name: str = "ETH_XBT"
-    precision: int = 1e-07
+    significant_digits: int = None
+    tick_size: int = 1e-07
     min_margin: float = None
     initial_margin: float = 1
     min_order_size: float = 1000000
@@ -34144,7 +36234,8 @@ class ETH_XBT(NamedTuple):
 ETH_XBT = ETH_XBT()
 """
     name: ETH_XBT
-    precision: 1e-07
+    significant_digits: None
+    tick_size: 1e-07
     min_margin: None
     initial_margin: 1
     min_order_size: 1000000
@@ -34157,7 +36248,8 @@ ETH_XBT = ETH_XBT()
 class LTCUSD(NamedTuple):
     """
         name: LTCUSD
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.02
         min_order_size: 1
@@ -34166,7 +36258,8 @@ class LTCUSD(NamedTuple):
         exchange: bitmex
     """
     name: str = "LTCUSD"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.02
     min_order_size: float = 1
@@ -34193,7 +36286,8 @@ class LTCUSD(NamedTuple):
 LTCUSD = LTCUSD()
 """
     name: LTCUSD
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.02
     min_order_size: 1
@@ -34206,7 +36300,8 @@ LTCUSD = LTCUSD()
 class LTCUSDT(NamedTuple):
     """
         name: LTCUSDT
-        precision: 0.01
+        significant_digits: None
+        tick_size: 0.01
         min_margin: None
         initial_margin: 0.03
         min_order_size: 1000
@@ -34215,7 +36310,8 @@ class LTCUSDT(NamedTuple):
         exchange: bitmex
     """
     name: str = "LTCUSDT"
-    precision: int = 0.01
+    significant_digits: int = None
+    tick_size: int = 0.01
     min_margin: float = None
     initial_margin: float = 0.03
     min_order_size: float = 1000
@@ -34242,11 +36338,64 @@ class LTCUSDT(NamedTuple):
 LTCUSDT = LTCUSDT()
 """
     name: LTCUSDT
-    precision: 0.01
+    significant_digits: None
+    tick_size: 0.01
     min_margin: None
     initial_margin: 0.03
     min_order_size: 1000
     max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTK23(NamedTuple):
+    """
+        name: XBTK23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTK23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTK23"
+
+    def __str__(self):
+        return "XBTK23"
+
+    def __call__(self):
+        return "XBTK23"
+
+
+XBTK23 = XBTK23()
+"""
+    name: XBTK23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
     has_margin: True
     exchange: bitmex
 """

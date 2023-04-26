@@ -4,7 +4,8 @@ from typing import NamedTuple
 class ONEINCH_USD(NamedTuple):
     """
         name: t1INCH:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13,7 +14,8 @@ class ONEINCH_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "t1INCH:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -40,7 +42,8 @@ class ONEINCH_USD(NamedTuple):
 ONEINCH_USD = ONEINCH_USD()
 """
     name: t1INCH:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -53,7 +56,8 @@ ONEINCH_USD = ONEINCH_USD()
 class ONEINCH_UST(NamedTuple):
     """
         name: t1INCH:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -62,7 +66,8 @@ class ONEINCH_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "t1INCH:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -89,7 +94,8 @@ class ONEINCH_UST(NamedTuple):
 ONEINCH_UST = ONEINCH_UST()
 """
     name: t1INCH:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -102,7 +108,8 @@ ONEINCH_UST = ONEINCH_UST()
 class AAVE_USD(NamedTuple):
     """
         name: tAAVE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -111,7 +118,8 @@ class AAVE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAAVE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -138,7 +146,8 @@ class AAVE_USD(NamedTuple):
 AAVE_USD = AAVE_USD()
 """
     name: tAAVE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -151,7 +160,8 @@ AAVE_USD = AAVE_USD()
 class AAVE_UST(NamedTuple):
     """
         name: tAAVE:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -160,7 +170,8 @@ class AAVE_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAAVE:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -187,7 +198,8 @@ class AAVE_UST(NamedTuple):
 AAVE_UST = AAVE_UST()
 """
     name: tAAVE:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -200,7 +212,8 @@ AAVE_UST = AAVE_UST()
 class AAVEF0_USTF0(NamedTuple):
     """
         name: tAAVEF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.02
@@ -209,7 +222,8 @@ class AAVEF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAAVEF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.02
@@ -236,7 +250,8 @@ class AAVEF0_USTF0(NamedTuple):
 AAVEF0_USTF0 = AAVEF0_USTF0()
 """
     name: tAAVEF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.02
@@ -249,7 +264,8 @@ AAVEF0_USTF0 = AAVEF0_USTF0()
 class ADABTC(NamedTuple):
     """
         name: tADABTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -258,7 +274,8 @@ class ADABTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tADABTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -285,7 +302,8 @@ class ADABTC(NamedTuple):
 ADABTC = ADABTC()
 """
     name: tADABTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -298,7 +316,8 @@ ADABTC = ADABTC()
 class ADAF0_USTF0(NamedTuple):
     """
         name: tADAF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 4.0
@@ -307,7 +326,8 @@ class ADAF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tADAF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 4.0
@@ -334,7 +354,8 @@ class ADAF0_USTF0(NamedTuple):
 ADAF0_USTF0 = ADAF0_USTF0()
 """
     name: tADAF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 4.0
@@ -347,7 +368,8 @@ ADAF0_USTF0 = ADAF0_USTF0()
 class ADAUSD(NamedTuple):
     """
         name: tADAUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -356,7 +378,8 @@ class ADAUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tADAUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -383,7 +406,8 @@ class ADAUSD(NamedTuple):
 ADAUSD = ADAUSD()
 """
     name: tADAUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -396,7 +420,8 @@ ADAUSD = ADAUSD()
 class ADAUST(NamedTuple):
     """
         name: tADAUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -405,7 +430,8 @@ class ADAUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tADAUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -432,7 +458,8 @@ class ADAUST(NamedTuple):
 ADAUST = ADAUST()
 """
     name: tADAUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -445,7 +472,8 @@ ADAUST = ADAUST()
 class AIXUSD(NamedTuple):
     """
         name: tAIXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 570.0
@@ -454,7 +482,8 @@ class AIXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAIXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 570.0
@@ -481,7 +510,8 @@ class AIXUSD(NamedTuple):
 AIXUSD = AIXUSD()
 """
     name: tAIXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 570.0
@@ -494,7 +524,8 @@ AIXUSD = AIXUSD()
 class AIXUST(NamedTuple):
     """
         name: tAIXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 570.0
@@ -503,7 +534,8 @@ class AIXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAIXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 570.0
@@ -530,7 +562,8 @@ class AIXUST(NamedTuple):
 AIXUST = AIXUST()
 """
     name: tAIXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 570.0
@@ -543,7 +576,8 @@ AIXUST = AIXUST()
 class ALGBTC(NamedTuple):
     """
         name: tALGBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -552,7 +586,8 @@ class ALGBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tALGBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -579,7 +614,8 @@ class ALGBTC(NamedTuple):
 ALGBTC = ALGBTC()
 """
     name: tALGBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -592,7 +628,8 @@ ALGBTC = ALGBTC()
 class ALGF0_USTF0(NamedTuple):
     """
         name: tALGF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 6.0
@@ -601,7 +638,8 @@ class ALGF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tALGF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 6.0
@@ -628,7 +666,8 @@ class ALGF0_USTF0(NamedTuple):
 ALGF0_USTF0 = ALGF0_USTF0()
 """
     name: tALGF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 6.0
@@ -641,7 +680,8 @@ ALGF0_USTF0 = ALGF0_USTF0()
 class ALGUSD(NamedTuple):
     """
         name: tALGUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 25.0
         initial_margin: 50.0
         min_order_size: 6.0
@@ -650,7 +690,8 @@ class ALGUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tALGUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 25.0
     initial_margin: float = 50.0
     min_order_size: float = 6.0
@@ -677,7 +718,8 @@ class ALGUSD(NamedTuple):
 ALGUSD = ALGUSD()
 """
     name: tALGUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 25.0
     initial_margin: 50.0
     min_order_size: 6.0
@@ -690,7 +732,8 @@ ALGUSD = ALGUSD()
 class ALGUST(NamedTuple):
     """
         name: tALGUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 25.0
         initial_margin: 50.0
         min_order_size: 6.0
@@ -699,7 +742,8 @@ class ALGUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tALGUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 25.0
     initial_margin: float = 50.0
     min_order_size: float = 6.0
@@ -726,7 +770,8 @@ class ALGUST(NamedTuple):
 ALGUST = ALGUST()
 """
     name: tALGUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 25.0
     initial_margin: 50.0
     min_order_size: 6.0
@@ -739,7 +784,8 @@ ALGUST = ALGUST()
 class AMPBTC(NamedTuple):
     """
         name: tAMPBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -748,7 +794,8 @@ class AMPBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAMPBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -775,7 +822,8 @@ class AMPBTC(NamedTuple):
 AMPBTC = AMPBTC()
 """
     name: tAMPBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -788,7 +836,8 @@ AMPBTC = AMPBTC()
 class AMPF0_USTF0(NamedTuple):
     """
         name: tAMPF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 2.5
         initial_margin: 5.0
         min_order_size: 2.0
@@ -797,7 +846,8 @@ class AMPF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAMPF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 2.5
     initial_margin: float = 5.0
     min_order_size: float = 2.0
@@ -824,7 +874,8 @@ class AMPF0_USTF0(NamedTuple):
 AMPF0_USTF0 = AMPF0_USTF0()
 """
     name: tAMPF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 2.5
     initial_margin: 5.0
     min_order_size: 2.0
@@ -837,7 +888,8 @@ AMPF0_USTF0 = AMPF0_USTF0()
 class AMPUSD(NamedTuple):
     """
         name: tAMPUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -846,7 +898,8 @@ class AMPUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAMPUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -873,7 +926,8 @@ class AMPUSD(NamedTuple):
 AMPUSD = AMPUSD()
 """
     name: tAMPUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -886,7 +940,8 @@ AMPUSD = AMPUSD()
 class AMPUST(NamedTuple):
     """
         name: tAMPUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -895,7 +950,8 @@ class AMPUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAMPUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -922,7 +978,8 @@ class AMPUST(NamedTuple):
 AMPUST = AMPUST()
 """
     name: tAMPUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -935,7 +992,8 @@ AMPUST = AMPUST()
 class ANTBTC(NamedTuple):
     """
         name: tANTBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -944,7 +1002,8 @@ class ANTBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tANTBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -971,7 +1030,8 @@ class ANTBTC(NamedTuple):
 ANTBTC = ANTBTC()
 """
     name: tANTBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -984,7 +1044,8 @@ ANTBTC = ANTBTC()
 class ANTUSD(NamedTuple):
     """
         name: tANTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -993,7 +1054,8 @@ class ANTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tANTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -1020,7 +1082,8 @@ class ANTUSD(NamedTuple):
 ANTUSD = ANTUSD()
 """
     name: tANTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -1033,7 +1096,8 @@ ANTUSD = ANTUSD()
 class APEF0_USTF0(NamedTuple):
     """
         name: tAPEF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.4
@@ -1042,7 +1106,8 @@ class APEF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPEF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.4
@@ -1069,7 +1134,8 @@ class APEF0_USTF0(NamedTuple):
 APEF0_USTF0 = APEF0_USTF0()
 """
     name: tAPEF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.4
@@ -1082,7 +1148,8 @@ APEF0_USTF0 = APEF0_USTF0()
 class APENFT_USD(NamedTuple):
     """
         name: tAPENFT:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1091,7 +1158,8 @@ class APENFT_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPENFT:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1118,7 +1186,8 @@ class APENFT_USD(NamedTuple):
 APENFT_USD = APENFT_USD()
 """
     name: tAPENFT:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1131,7 +1200,8 @@ APENFT_USD = APENFT_USD()
 class APENFT_UST(NamedTuple):
     """
         name: tAPENFT:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1140,7 +1210,8 @@ class APENFT_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPENFT:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1167,7 +1238,8 @@ class APENFT_UST(NamedTuple):
 APENFT_UST = APENFT_UST()
 """
     name: tAPENFT:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1180,7 +1252,8 @@ APENFT_UST = APENFT_UST()
 class APEUSD(NamedTuple):
     """
         name: tAPEUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 30.0
         initial_margin: 60.0
         min_order_size: 0.4
@@ -1189,7 +1262,8 @@ class APEUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPEUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 30.0
     initial_margin: float = 60.0
     min_order_size: float = 0.4
@@ -1216,7 +1290,8 @@ class APEUSD(NamedTuple):
 APEUSD = APEUSD()
 """
     name: tAPEUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 30.0
     initial_margin: 60.0
     min_order_size: 0.4
@@ -1229,7 +1304,8 @@ APEUSD = APEUSD()
 class APEUST(NamedTuple):
     """
         name: tAPEUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 30.0
         initial_margin: 60.0
         min_order_size: 0.4
@@ -1238,7 +1314,8 @@ class APEUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPEUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 30.0
     initial_margin: float = 60.0
     min_order_size: float = 0.4
@@ -1265,7 +1342,8 @@ class APEUST(NamedTuple):
 APEUST = APEUST()
 """
     name: tAPEUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 30.0
     initial_margin: 60.0
     min_order_size: 0.4
@@ -1278,7 +1356,8 @@ APEUST = APEUST()
 class APTF0_USTF0(NamedTuple):
     """
         name: tAPTF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -1287,7 +1366,8 @@ class APTF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPTF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -1314,7 +1394,8 @@ class APTF0_USTF0(NamedTuple):
 APTF0_USTF0 = APTF0_USTF0()
 """
     name: tAPTF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -1327,7 +1408,8 @@ APTF0_USTF0 = APTF0_USTF0()
 class APTUSD(NamedTuple):
     """
         name: tAPTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1336,7 +1418,8 @@ class APTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1363,7 +1446,8 @@ class APTUSD(NamedTuple):
 APTUSD = APTUSD()
 """
     name: tAPTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1376,7 +1460,8 @@ APTUSD = APTUSD()
 class APTUST(NamedTuple):
     """
         name: tAPTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1385,7 +1470,8 @@ class APTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAPTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1412,7 +1498,8 @@ class APTUST(NamedTuple):
 APTUST = APTUST()
 """
     name: tAPTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1425,7 +1512,8 @@ APTUST = APTUST()
 class ARBF0_USTF0(NamedTuple):
     """
         name: tARBF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -1434,7 +1522,8 @@ class ARBF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tARBF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -1461,7 +1550,8 @@ class ARBF0_USTF0(NamedTuple):
 ARBF0_USTF0 = ARBF0_USTF0()
 """
     name: tARBF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -1474,7 +1564,8 @@ ARBF0_USTF0 = ARBF0_USTF0()
 class ARBUSD(NamedTuple):
     """
         name: tARBUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1483,7 +1574,8 @@ class ARBUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tARBUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1510,7 +1602,8 @@ class ARBUSD(NamedTuple):
 ARBUSD = ARBUSD()
 """
     name: tARBUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1523,7 +1616,8 @@ ARBUSD = ARBUSD()
 class ARBUST(NamedTuple):
     """
         name: tARBUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -1532,7 +1626,8 @@ class ARBUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tARBUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -1559,7 +1654,8 @@ class ARBUST(NamedTuple):
 ARBUST = ARBUST()
 """
     name: tARBUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -1572,7 +1668,8 @@ ARBUST = ARBUST()
 class ATLAS_USD(NamedTuple):
     """
         name: tATLAS:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 232.0
@@ -1581,7 +1678,8 @@ class ATLAS_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATLAS:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 232.0
@@ -1608,7 +1706,8 @@ class ATLAS_USD(NamedTuple):
 ATLAS_USD = ATLAS_USD()
 """
     name: tATLAS:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 232.0
@@ -1621,7 +1720,8 @@ ATLAS_USD = ATLAS_USD()
 class ATLAS_UST(NamedTuple):
     """
         name: tATLAS:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 232.0
@@ -1630,7 +1730,8 @@ class ATLAS_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATLAS:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 232.0
@@ -1657,7 +1758,8 @@ class ATLAS_UST(NamedTuple):
 ATLAS_UST = ATLAS_UST()
 """
     name: tATLAS:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 232.0
@@ -1670,7 +1772,8 @@ ATLAS_UST = ATLAS_UST()
 class ATOBTC(NamedTuple):
     """
         name: tATOBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -1679,7 +1782,8 @@ class ATOBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATOBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -1706,7 +1810,8 @@ class ATOBTC(NamedTuple):
 ATOBTC = ATOBTC()
 """
     name: tATOBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -1719,7 +1824,8 @@ ATOBTC = ATOBTC()
 class ATOETH(NamedTuple):
     """
         name: tATOETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -1728,7 +1834,8 @@ class ATOETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATOETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -1755,7 +1862,8 @@ class ATOETH(NamedTuple):
 ATOETH = ATOETH()
 """
     name: tATOETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -1768,7 +1876,8 @@ ATOETH = ATOETH()
 class ATOF0_USTF0(NamedTuple):
     """
         name: tATOF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -1777,7 +1886,8 @@ class ATOF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATOF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -1804,7 +1914,8 @@ class ATOF0_USTF0(NamedTuple):
 ATOF0_USTF0 = ATOF0_USTF0()
 """
     name: tATOF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -1817,7 +1928,8 @@ ATOF0_USTF0 = ATOF0_USTF0()
 class ATOUSD(NamedTuple):
     """
         name: tATOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 25.0
         initial_margin: 50.0
         min_order_size: 0.2
@@ -1826,7 +1938,8 @@ class ATOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 25.0
     initial_margin: float = 50.0
     min_order_size: float = 0.2
@@ -1853,7 +1966,8 @@ class ATOUSD(NamedTuple):
 ATOUSD = ATOUSD()
 """
     name: tATOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 25.0
     initial_margin: 50.0
     min_order_size: 0.2
@@ -1866,7 +1980,8 @@ ATOUSD = ATOUSD()
 class ATOUST(NamedTuple):
     """
         name: tATOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -1875,7 +1990,8 @@ class ATOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tATOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -1902,7 +2018,8 @@ class ATOUST(NamedTuple):
 ATOUST = ATOUST()
 """
     name: tATOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -1915,7 +2032,8 @@ ATOUST = ATOUST()
 class AUSTRALIA200IXF0_USTF0(NamedTuple):
     """
         name: tAUSTRALIA200IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -1924,7 +2042,8 @@ class AUSTRALIA200IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAUSTRALIA200IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -1951,7 +2070,8 @@ class AUSTRALIA200IXF0_USTF0(NamedTuple):
 AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0()
 """
     name: tAUSTRALIA200IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -1964,7 +2084,8 @@ AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0()
 class AVAX_BTC(NamedTuple):
     """
         name: tAVAX:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.08
@@ -1973,7 +2094,8 @@ class AVAX_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAVAX:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.08
@@ -2000,7 +2122,8 @@ class AVAX_BTC(NamedTuple):
 AVAX_BTC = AVAX_BTC()
 """
     name: tAVAX:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.08
@@ -2013,7 +2136,8 @@ AVAX_BTC = AVAX_BTC()
 class AVAX_USD(NamedTuple):
     """
         name: tAVAX:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.08
@@ -2022,7 +2146,8 @@ class AVAX_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAVAX:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.08
@@ -2049,7 +2174,8 @@ class AVAX_USD(NamedTuple):
 AVAX_USD = AVAX_USD()
 """
     name: tAVAX:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.08
@@ -2062,7 +2188,8 @@ AVAX_USD = AVAX_USD()
 class AVAX_UST(NamedTuple):
     """
         name: tAVAX:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.08
@@ -2071,7 +2198,8 @@ class AVAX_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAVAX:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.08
@@ -2098,7 +2226,8 @@ class AVAX_UST(NamedTuple):
 AVAX_UST = AVAX_UST()
 """
     name: tAVAX:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.08
@@ -2111,7 +2240,8 @@ AVAX_UST = AVAX_UST()
 class AVAXF0_BTCF0(NamedTuple):
     """
         name: tAVAXF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.08
@@ -2120,7 +2250,8 @@ class AVAXF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAVAXF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.08
@@ -2147,7 +2278,8 @@ class AVAXF0_BTCF0(NamedTuple):
 AVAXF0_BTCF0 = AVAXF0_BTCF0()
 """
     name: tAVAXF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.08
@@ -2160,7 +2292,8 @@ AVAXF0_BTCF0 = AVAXF0_BTCF0()
 class AVAXF0_USTF0(NamedTuple):
     """
         name: tAVAXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.08
@@ -2169,7 +2302,8 @@ class AVAXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAVAXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.08
@@ -2196,7 +2330,8 @@ class AVAXF0_USTF0(NamedTuple):
 AVAXF0_USTF0 = AVAXF0_USTF0()
 """
     name: tAVAXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.08
@@ -2209,7 +2344,8 @@ AVAXF0_USTF0 = AVAXF0_USTF0()
 class AXSF0_USTF0(NamedTuple):
     """
         name: tAXSF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -2218,7 +2354,8 @@ class AXSF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAXSF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -2245,7 +2382,8 @@ class AXSF0_USTF0(NamedTuple):
 AXSF0_USTF0 = AXSF0_USTF0()
 """
     name: tAXSF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -2258,7 +2396,8 @@ AXSF0_USTF0 = AXSF0_USTF0()
 class AXSUSD(NamedTuple):
     """
         name: tAXSUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -2267,7 +2406,8 @@ class AXSUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAXSUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -2294,7 +2434,8 @@ class AXSUSD(NamedTuple):
 AXSUSD = AXSUSD()
 """
     name: tAXSUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -2307,7 +2448,8 @@ AXSUSD = AXSUSD()
 class AXSUST(NamedTuple):
     """
         name: tAXSUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -2316,7 +2458,8 @@ class AXSUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tAXSUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -2343,7 +2486,8 @@ class AXSUST(NamedTuple):
 AXSUST = AXSUST()
 """
     name: tAXSUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -2356,7 +2500,8 @@ AXSUST = AXSUST()
 class B2MUSD(NamedTuple):
     """
         name: tB2MUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 144.0
@@ -2365,7 +2510,8 @@ class B2MUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tB2MUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 144.0
@@ -2392,7 +2538,8 @@ class B2MUSD(NamedTuple):
 B2MUSD = B2MUSD()
 """
     name: tB2MUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 144.0
@@ -2405,7 +2552,8 @@ B2MUSD = B2MUSD()
 class B2MUST(NamedTuple):
     """
         name: tB2MUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 144.0
@@ -2414,7 +2562,8 @@ class B2MUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tB2MUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 144.0
@@ -2441,7 +2590,8 @@ class B2MUST(NamedTuple):
 B2MUST = B2MUST()
 """
     name: tB2MUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 144.0
@@ -2454,7 +2604,8 @@ B2MUST = B2MUST()
 class BALUSD(NamedTuple):
     """
         name: tBALUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -2463,7 +2614,8 @@ class BALUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBALUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -2490,7 +2642,8 @@ class BALUSD(NamedTuple):
 BALUSD = BALUSD()
 """
     name: tBALUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -2503,7 +2656,8 @@ BALUSD = BALUSD()
 class BALUST(NamedTuple):
     """
         name: tBALUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -2512,7 +2666,8 @@ class BALUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBALUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -2539,7 +2694,8 @@ class BALUST(NamedTuple):
 BALUST = BALUST()
 """
     name: tBALUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -2552,7 +2708,8 @@ BALUST = BALUST()
 class BAND_USD(NamedTuple):
     """
         name: tBAND:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -2561,7 +2718,8 @@ class BAND_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBAND:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -2588,7 +2746,8 @@ class BAND_USD(NamedTuple):
 BAND_USD = BAND_USD()
 """
     name: tBAND:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -2601,7 +2760,8 @@ BAND_USD = BAND_USD()
 class BAND_UST(NamedTuple):
     """
         name: tBAND:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -2610,7 +2770,8 @@ class BAND_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBAND:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -2637,7 +2798,8 @@ class BAND_UST(NamedTuple):
 BAND_UST = BAND_UST()
 """
     name: tBAND:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -2650,7 +2812,8 @@ BAND_UST = BAND_UST()
 class BATUSD(NamedTuple):
     """
         name: tBATUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -2659,7 +2822,8 @@ class BATUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBATUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -2686,7 +2850,8 @@ class BATUSD(NamedTuple):
 BATUSD = BATUSD()
 """
     name: tBATUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -2699,7 +2864,8 @@ BATUSD = BATUSD()
 class BATUST(NamedTuple):
     """
         name: tBATUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -2708,7 +2874,8 @@ class BATUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBATUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -2735,7 +2902,8 @@ class BATUST(NamedTuple):
 BATUST = BATUST()
 """
     name: tBATUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -2748,7 +2916,8 @@ BATUST = BATUST()
 class BCHABC_USD(NamedTuple):
     """
         name: tBCHABC:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 40962.0
@@ -2757,7 +2926,8 @@ class BCHABC_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBCHABC:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 40962.0
@@ -2784,7 +2954,8 @@ class BCHABC_USD(NamedTuple):
 BCHABC_USD = BCHABC_USD()
 """
     name: tBCHABC:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 40962.0
@@ -2797,7 +2968,8 @@ BCHABC_USD = BCHABC_USD()
 class BCHN_USD(NamedTuple):
     """
         name: tBCHN:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -2806,7 +2978,8 @@ class BCHN_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBCHN:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -2833,7 +3006,8 @@ class BCHN_USD(NamedTuple):
 BCHN_USD = BCHN_USD()
 """
     name: tBCHN:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -2846,7 +3020,8 @@ BCHN_USD = BCHN_USD()
 class BEST_USD(NamedTuple):
     """
         name: tBEST:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -2855,7 +3030,8 @@ class BEST_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBEST:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -2882,7 +3058,8 @@ class BEST_USD(NamedTuple):
 BEST_USD = BEST_USD()
 """
     name: tBEST:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -2895,7 +3072,8 @@ BEST_USD = BEST_USD()
 class BGBUSD(NamedTuple):
     """
         name: tBGBUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -2904,7 +3082,8 @@ class BGBUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBGBUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -2931,7 +3110,8 @@ class BGBUSD(NamedTuple):
 BGBUSD = BGBUSD()
 """
     name: tBGBUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -2944,7 +3124,8 @@ BGBUSD = BGBUSD()
 class BGBUST(NamedTuple):
     """
         name: tBGBUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -2953,7 +3134,8 @@ class BGBUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBGBUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -2980,7 +3162,8 @@ class BGBUST(NamedTuple):
 BGBUST = BGBUST()
 """
     name: tBGBUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -2993,7 +3176,8 @@ BGBUST = BGBUST()
 class BLUR_USD(NamedTuple):
     """
         name: tBLUR:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3002,7 +3186,8 @@ class BLUR_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBLUR:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3029,7 +3214,8 @@ class BLUR_USD(NamedTuple):
 BLUR_USD = BLUR_USD()
 """
     name: tBLUR:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3042,7 +3228,8 @@ BLUR_USD = BLUR_USD()
 class BLUR_UST(NamedTuple):
     """
         name: tBLUR:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3051,7 +3238,8 @@ class BLUR_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBLUR:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3078,7 +3266,8 @@ class BLUR_UST(NamedTuple):
 BLUR_UST = BLUR_UST()
 """
     name: tBLUR:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3091,7 +3280,8 @@ BLUR_UST = BLUR_UST()
 class BMNBTC(NamedTuple):
     """
         name: tBMNBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00002
@@ -3100,7 +3290,8 @@ class BMNBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBMNBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00002
@@ -3127,7 +3318,8 @@ class BMNBTC(NamedTuple):
 BMNBTC = BMNBTC()
 """
     name: tBMNBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00002
@@ -3140,7 +3332,8 @@ BMNBTC = BMNBTC()
 class BMNUSD(NamedTuple):
     """
         name: tBMNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00002
@@ -3149,7 +3342,8 @@ class BMNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBMNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00002
@@ -3176,7 +3370,8 @@ class BMNUSD(NamedTuple):
 BMNUSD = BMNUSD()
 """
     name: tBMNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00002
@@ -3189,7 +3384,8 @@ BMNUSD = BMNUSD()
 class BNTUSD(NamedTuple):
     """
         name: tBNTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -3198,7 +3394,8 @@ class BNTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBNTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -3225,7 +3422,8 @@ class BNTUSD(NamedTuple):
 BNTUSD = BNTUSD()
 """
     name: tBNTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -3238,7 +3436,8 @@ BNTUSD = BNTUSD()
 class BOBA_USD(NamedTuple):
     """
         name: tBOBA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -3247,7 +3446,8 @@ class BOBA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOBA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -3274,7 +3474,8 @@ class BOBA_USD(NamedTuple):
 BOBA_USD = BOBA_USD()
 """
     name: tBOBA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -3287,7 +3488,8 @@ BOBA_USD = BOBA_USD()
 class BOBA_UST(NamedTuple):
     """
         name: tBOBA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -3296,7 +3498,8 @@ class BOBA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOBA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -3323,7 +3526,8 @@ class BOBA_UST(NamedTuple):
 BOBA_UST = BOBA_UST()
 """
     name: tBOBA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -3336,7 +3540,8 @@ BOBA_UST = BOBA_UST()
 class BOOUSD(NamedTuple):
     """
         name: tBOOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3345,7 +3550,8 @@ class BOOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3372,7 +3578,8 @@ class BOOUSD(NamedTuple):
 BOOUSD = BOOUSD()
 """
     name: tBOOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3385,7 +3592,8 @@ BOOUSD = BOOUSD()
 class BOOUST(NamedTuple):
     """
         name: tBOOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3394,7 +3602,8 @@ class BOOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3421,7 +3630,8 @@ class BOOUST(NamedTuple):
 BOOUST = BOOUST()
 """
     name: tBOOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3434,7 +3644,8 @@ BOOUST = BOOUST()
 class BOSON_USD(NamedTuple):
     """
         name: tBOSON:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -3443,7 +3654,8 @@ class BOSON_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOSON:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -3470,7 +3682,8 @@ class BOSON_USD(NamedTuple):
 BOSON_USD = BOSON_USD()
 """
     name: tBOSON:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -3483,7 +3696,8 @@ BOSON_USD = BOSON_USD()
 class BOSON_UST(NamedTuple):
     """
         name: tBOSON:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -3492,7 +3706,8 @@ class BOSON_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBOSON:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -3519,7 +3734,8 @@ class BOSON_UST(NamedTuple):
 BOSON_UST = BOSON_UST()
 """
     name: tBOSON:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -3532,7 +3748,8 @@ BOSON_UST = BOSON_UST()
 class BRISE_USD(NamedTuple):
     """
         name: tBRISE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3541,7 +3758,8 @@ class BRISE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBRISE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3568,7 +3786,8 @@ class BRISE_USD(NamedTuple):
 BRISE_USD = BRISE_USD()
 """
     name: tBRISE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3581,7 +3800,8 @@ BRISE_USD = BRISE_USD()
 class BRISE_UST(NamedTuple):
     """
         name: tBRISE:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3590,7 +3810,8 @@ class BRISE_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBRISE:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3617,7 +3838,8 @@ class BRISE_UST(NamedTuple):
 BRISE_UST = BRISE_UST()
 """
     name: tBRISE:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3630,7 +3852,8 @@ BRISE_UST = BRISE_UST()
 class BTC_CNHT(NamedTuple):
     """
         name: tBTC:CNHT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -3639,7 +3862,8 @@ class BTC_CNHT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTC:CNHT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -3666,7 +3890,8 @@ class BTC_CNHT(NamedTuple):
 BTC_CNHT = BTC_CNHT()
 """
     name: tBTC:CNHT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -3679,7 +3904,8 @@ BTC_CNHT = BTC_CNHT()
 class BTC_MXNT(NamedTuple):
     """
         name: tBTC:MXNT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -3688,7 +3914,8 @@ class BTC_MXNT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTC:MXNT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -3715,7 +3942,8 @@ class BTC_MXNT(NamedTuple):
 BTC_MXNT = BTC_MXNT()
 """
     name: tBTC:MXNT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -3728,7 +3956,8 @@ BTC_MXNT = BTC_MXNT()
 class BTC_XAUT(NamedTuple):
     """
         name: tBTC:XAUT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.0002
@@ -3737,7 +3966,8 @@ class BTC_XAUT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTC:XAUT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.0002
@@ -3764,7 +3994,8 @@ class BTC_XAUT(NamedTuple):
 BTC_XAUT = BTC_XAUT()
 """
     name: tBTC:XAUT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.0002
@@ -3777,7 +4008,8 @@ BTC_XAUT = BTC_XAUT()
 class BTCDOMF0_USTF0(NamedTuple):
     """
         name: tBTCDOMF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.01
@@ -3786,7 +4018,8 @@ class BTCDOMF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCDOMF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.01
@@ -3813,7 +4046,8 @@ class BTCDOMF0_USTF0(NamedTuple):
 BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
 """
     name: tBTCDOMF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.01
@@ -3826,7 +4060,8 @@ BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
 class BTCEUR(NamedTuple):
     """
         name: tBTCEUR
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.00006
@@ -3835,7 +4070,8 @@ class BTCEUR(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCEUR"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.00006
@@ -3862,7 +4098,8 @@ class BTCEUR(NamedTuple):
 BTCEUR = BTCEUR()
 """
     name: tBTCEUR
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.00006
@@ -3875,7 +4112,8 @@ BTCEUR = BTCEUR()
 class BTCEUT(NamedTuple):
     """
         name: tBTCEUT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -3884,7 +4122,8 @@ class BTCEUT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCEUT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -3911,7 +4150,8 @@ class BTCEUT(NamedTuple):
 BTCEUT = BTCEUT()
 """
     name: tBTCEUT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -3924,7 +4164,8 @@ BTCEUT = BTCEUT()
 class BTCF0_EUTF0(NamedTuple):
     """
         name: tBTCF0:EUTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.0002
@@ -3933,7 +4174,8 @@ class BTCF0_EUTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCF0:EUTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.0002
@@ -3960,7 +4202,8 @@ class BTCF0_EUTF0(NamedTuple):
 BTCF0_EUTF0 = BTCF0_EUTF0()
 """
     name: tBTCF0:EUTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.0002
@@ -3973,7 +4216,8 @@ BTCF0_EUTF0 = BTCF0_EUTF0()
 class BTCF0_USTF0(NamedTuple):
     """
         name: tBTCF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.00006
@@ -3982,7 +4226,8 @@ class BTCF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.00006
@@ -4009,7 +4254,8 @@ class BTCF0_USTF0(NamedTuple):
 BTCF0_USTF0 = BTCF0_USTF0()
 """
     name: tBTCF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.00006
@@ -4022,7 +4268,8 @@ BTCF0_USTF0 = BTCF0_USTF0()
 class BTCGBP(NamedTuple):
     """
         name: tBTCGBP
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -4031,7 +4278,8 @@ class BTCGBP(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCGBP"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -4058,7 +4306,8 @@ class BTCGBP(NamedTuple):
 BTCGBP = BTCGBP()
 """
     name: tBTCGBP
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -4071,7 +4320,8 @@ BTCGBP = BTCGBP()
 class BTCJPY(NamedTuple):
     """
         name: tBTCJPY
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -4080,7 +4330,8 @@ class BTCJPY(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCJPY"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -4107,7 +4358,8 @@ class BTCJPY(NamedTuple):
 BTCJPY = BTCJPY()
 """
     name: tBTCJPY
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -4120,7 +4372,8 @@ BTCJPY = BTCJPY()
 class BTCMIM(NamedTuple):
     """
         name: tBTCMIM
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.0002
@@ -4129,7 +4382,8 @@ class BTCMIM(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCMIM"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.0002
@@ -4156,7 +4410,8 @@ class BTCMIM(NamedTuple):
 BTCMIM = BTCMIM()
 """
     name: tBTCMIM
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.0002
@@ -4169,7 +4424,8 @@ BTCMIM = BTCMIM()
 class BTCTRY(NamedTuple):
     """
         name: tBTCTRY
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -4178,7 +4434,8 @@ class BTCTRY(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCTRY"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -4205,7 +4462,8 @@ class BTCTRY(NamedTuple):
 BTCTRY = BTCTRY()
 """
     name: tBTCTRY
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -4218,7 +4476,8 @@ BTCTRY = BTCTRY()
 class BTCUSD(NamedTuple):
     """
         name: tBTCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 5.0
         initial_margin: 10.0
         min_order_size: 0.00006
@@ -4227,7 +4486,8 @@ class BTCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 5.0
     initial_margin: float = 10.0
     min_order_size: float = 0.00006
@@ -4254,7 +4514,8 @@ class BTCUSD(NamedTuple):
 BTCUSD = BTCUSD()
 """
     name: tBTCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 5.0
     initial_margin: 10.0
     min_order_size: 0.00006
@@ -4267,7 +4528,8 @@ BTCUSD = BTCUSD()
 class BTCUST(NamedTuple):
     """
         name: tBTCUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.00006
@@ -4276,7 +4538,8 @@ class BTCUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTCUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.00006
@@ -4303,7 +4566,8 @@ class BTCUST(NamedTuple):
 BTCUST = BTCUST()
 """
     name: tBTCUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.00006
@@ -4316,7 +4580,8 @@ BTCUST = BTCUST()
 class BTGBTC(NamedTuple):
     """
         name: tBTGBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.1
@@ -4325,7 +4590,8 @@ class BTGBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTGBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.1
@@ -4352,7 +4618,8 @@ class BTGBTC(NamedTuple):
 BTGBTC = BTGBTC()
 """
     name: tBTGBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.1
@@ -4365,7 +4632,8 @@ BTGBTC = BTGBTC()
 class BTGUSD(NamedTuple):
     """
         name: tBTGUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.1
@@ -4374,7 +4642,8 @@ class BTGUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTGUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.1
@@ -4401,7 +4670,8 @@ class BTGUSD(NamedTuple):
 BTGUSD = BTGUSD()
 """
     name: tBTGUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.1
@@ -4414,7 +4684,8 @@ BTGUSD = BTGUSD()
 class BTSE_USD(NamedTuple):
     """
         name: tBTSE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -4423,7 +4694,8 @@ class BTSE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTSE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -4450,7 +4722,8 @@ class BTSE_USD(NamedTuple):
 BTSE_USD = BTSE_USD()
 """
     name: tBTSE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -4463,7 +4736,8 @@ BTSE_USD = BTSE_USD()
 class BTTUSD(NamedTuple):
     """
         name: tBTTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1970444.0
@@ -4472,7 +4746,8 @@ class BTTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tBTTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1970444.0
@@ -4499,7 +4774,8 @@ class BTTUSD(NamedTuple):
 BTTUSD = BTTUSD()
 """
     name: tBTTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1970444.0
@@ -4512,7 +4788,8 @@ BTTUSD = BTTUSD()
 class CCDBTC(NamedTuple):
     """
         name: tCCDBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 100.0
@@ -4521,7 +4798,8 @@ class CCDBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCCDBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 100.0
@@ -4548,7 +4826,8 @@ class CCDBTC(NamedTuple):
 CCDBTC = CCDBTC()
 """
     name: tCCDBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 100.0
@@ -4561,7 +4840,8 @@ CCDBTC = CCDBTC()
 class CCDUSD(NamedTuple):
     """
         name: tCCDUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 100.0
@@ -4570,7 +4850,8 @@ class CCDUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCCDUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 100.0
@@ -4597,7 +4878,8 @@ class CCDUSD(NamedTuple):
 CCDUSD = CCDUSD()
 """
     name: tCCDUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 100.0
@@ -4610,7 +4892,8 @@ CCDUSD = CCDUSD()
 class CCDUST(NamedTuple):
     """
         name: tCCDUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 100.0
@@ -4619,7 +4902,8 @@ class CCDUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCCDUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 100.0
@@ -4646,7 +4930,8 @@ class CCDUST(NamedTuple):
 CCDUST = CCDUST()
 """
     name: tCCDUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 100.0
@@ -4659,7 +4944,8 @@ CCDUST = CCDUST()
 class CHEX_USD(NamedTuple):
     """
         name: tCHEX:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 88.0
@@ -4668,7 +4954,8 @@ class CHEX_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHEX:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 88.0
@@ -4695,7 +4982,8 @@ class CHEX_USD(NamedTuple):
 CHEX_USD = CHEX_USD()
 """
     name: tCHEX:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 88.0
@@ -4708,7 +4996,8 @@ CHEX_USD = CHEX_USD()
 class CHSB_BTC(NamedTuple):
     """
         name: tCHSB:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -4717,7 +5006,8 @@ class CHSB_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHSB:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -4744,7 +5034,8 @@ class CHSB_BTC(NamedTuple):
 CHSB_BTC = CHSB_BTC()
 """
     name: tCHSB:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -4757,7 +5048,8 @@ CHSB_BTC = CHSB_BTC()
 class CHSB_USD(NamedTuple):
     """
         name: tCHSB:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -4766,7 +5058,8 @@ class CHSB_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHSB:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -4793,7 +5086,8 @@ class CHSB_USD(NamedTuple):
 CHSB_USD = CHSB_USD()
 """
     name: tCHSB:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -4806,7 +5100,8 @@ CHSB_USD = CHSB_USD()
 class CHSB_UST(NamedTuple):
     """
         name: tCHSB:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -4815,7 +5110,8 @@ class CHSB_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHSB:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -4842,7 +5138,8 @@ class CHSB_UST(NamedTuple):
 CHSB_UST = CHSB_UST()
 """
     name: tCHSB:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -4855,7 +5152,8 @@ CHSB_UST = CHSB_UST()
 class CHZUSD(NamedTuple):
     """
         name: tCHZUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 16.0
@@ -4864,7 +5162,8 @@ class CHZUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHZUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 16.0
@@ -4891,7 +5190,8 @@ class CHZUSD(NamedTuple):
 CHZUSD = CHZUSD()
 """
     name: tCHZUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 16.0
@@ -4904,7 +5204,8 @@ CHZUSD = CHZUSD()
 class CHZUST(NamedTuple):
     """
         name: tCHZUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 16.0
@@ -4913,7 +5214,8 @@ class CHZUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCHZUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 16.0
@@ -4940,7 +5242,8 @@ class CHZUST(NamedTuple):
 CHZUST = CHZUST()
 """
     name: tCHZUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 16.0
@@ -4953,7 +5256,8 @@ CHZUST = CHZUST()
 class CLOUSD(NamedTuple):
     """
         name: tCLOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 624.0
@@ -4962,7 +5266,8 @@ class CLOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCLOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 624.0
@@ -4989,7 +5294,8 @@ class CLOUSD(NamedTuple):
 CLOUSD = CLOUSD()
 """
     name: tCLOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 624.0
@@ -5002,7 +5308,8 @@ CLOUSD = CLOUSD()
 class CNH_CNHT(NamedTuple):
     """
         name: tCNH:CNHT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -5011,7 +5318,8 @@ class CNH_CNHT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCNH:CNHT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -5038,7 +5346,8 @@ class CNH_CNHT(NamedTuple):
 CNH_CNHT = CNH_CNHT()
 """
     name: tCNH:CNHT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -5051,7 +5360,8 @@ CNH_CNHT = CNH_CNHT()
 class COMP_USD(NamedTuple):
     """
         name: tCOMP:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.04
@@ -5060,7 +5370,8 @@ class COMP_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCOMP:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.04
@@ -5087,7 +5398,8 @@ class COMP_USD(NamedTuple):
 COMP_USD = COMP_USD()
 """
     name: tCOMP:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.04
@@ -5100,7 +5412,8 @@ COMP_USD = COMP_USD()
 class COMP_UST(NamedTuple):
     """
         name: tCOMP:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.04
@@ -5109,7 +5422,8 @@ class COMP_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCOMP:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.04
@@ -5136,7 +5450,8 @@ class COMP_UST(NamedTuple):
 COMP_UST = COMP_UST()
 """
     name: tCOMP:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.04
@@ -5149,7 +5464,8 @@ COMP_UST = COMP_UST()
 class COMPF0_USTF0(NamedTuple):
     """
         name: tCOMPF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.04
@@ -5158,7 +5474,8 @@ class COMPF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCOMPF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.04
@@ -5185,7 +5502,8 @@ class COMPF0_USTF0(NamedTuple):
 COMPF0_USTF0 = COMPF0_USTF0()
 """
     name: tCOMPF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.04
@@ -5198,7 +5516,8 @@ COMPF0_USTF0 = COMPF0_USTF0()
 class CONV_USD(NamedTuple):
     """
         name: tCONV:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -5207,7 +5526,8 @@ class CONV_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCONV:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -5234,7 +5554,8 @@ class CONV_USD(NamedTuple):
 CONV_USD = CONV_USD()
 """
     name: tCONV:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -5247,7 +5568,8 @@ CONV_USD = CONV_USD()
 class CONV_UST(NamedTuple):
     """
         name: tCONV:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -5256,7 +5578,8 @@ class CONV_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCONV:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -5283,7 +5606,8 @@ class CONV_UST(NamedTuple):
 CONV_UST = CONV_UST()
 """
     name: tCONV:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -5296,7 +5620,8 @@ CONV_UST = CONV_UST()
 class CRVF0_USTF0(NamedTuple):
     """
         name: tCRVF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -5305,7 +5630,8 @@ class CRVF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCRVF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -5332,7 +5658,8 @@ class CRVF0_USTF0(NamedTuple):
 CRVF0_USTF0 = CRVF0_USTF0()
 """
     name: tCRVF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -5345,7 +5672,8 @@ CRVF0_USTF0 = CRVF0_USTF0()
 class CRVUSD(NamedTuple):
     """
         name: tCRVUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -5354,7 +5682,8 @@ class CRVUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCRVUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -5381,7 +5710,8 @@ class CRVUSD(NamedTuple):
 CRVUSD = CRVUSD()
 """
     name: tCRVUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -5394,7 +5724,8 @@ CRVUSD = CRVUSD()
 class CRVUST(NamedTuple):
     """
         name: tCRVUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -5403,7 +5734,8 @@ class CRVUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tCRVUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -5430,7 +5762,8 @@ class CRVUST(NamedTuple):
 CRVUST = CRVUST()
 """
     name: tCRVUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -5443,7 +5776,8 @@ CRVUST = CRVUST()
 class DAIBTC(NamedTuple):
     """
         name: tDAIBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -5452,7 +5786,8 @@ class DAIBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDAIBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -5479,7 +5814,8 @@ class DAIBTC(NamedTuple):
 DAIBTC = DAIBTC()
 """
     name: tDAIBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -5492,7 +5828,8 @@ DAIBTC = DAIBTC()
 class DAIUSD(NamedTuple):
     """
         name: tDAIUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 33.0
         initial_margin: 66.0
         min_order_size: 2.0
@@ -5501,7 +5838,8 @@ class DAIUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDAIUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 33.0
     initial_margin: float = 66.0
     min_order_size: float = 2.0
@@ -5528,7 +5866,8 @@ class DAIUSD(NamedTuple):
 DAIUSD = DAIUSD()
 """
     name: tDAIUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 33.0
     initial_margin: 66.0
     min_order_size: 2.0
@@ -5541,7 +5880,8 @@ DAIUSD = DAIUSD()
 class DGBUSD(NamedTuple):
     """
         name: tDGBUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 184.0
@@ -5550,7 +5890,8 @@ class DGBUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDGBUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 184.0
@@ -5577,7 +5918,8 @@ class DGBUSD(NamedTuple):
 DGBUSD = DGBUSD()
 """
     name: tDGBUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 184.0
@@ -5590,7 +5932,8 @@ DGBUSD = DGBUSD()
 class DOGE_BTC(NamedTuple):
     """
         name: tDOGE:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -5599,7 +5942,8 @@ class DOGE_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOGE:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -5626,7 +5970,8 @@ class DOGE_BTC(NamedTuple):
 DOGE_BTC = DOGE_BTC()
 """
     name: tDOGE:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -5639,7 +5984,8 @@ DOGE_BTC = DOGE_BTC()
 class DOGE_USD(NamedTuple):
     """
         name: tDOGE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -5648,7 +5994,8 @@ class DOGE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOGE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -5675,7 +6022,8 @@ class DOGE_USD(NamedTuple):
 DOGE_USD = DOGE_USD()
 """
     name: tDOGE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -5688,7 +6036,8 @@ DOGE_USD = DOGE_USD()
 class DOGE_UST(NamedTuple):
     """
         name: tDOGE:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -5697,7 +6046,8 @@ class DOGE_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOGE:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -5724,7 +6074,8 @@ class DOGE_UST(NamedTuple):
 DOGE_UST = DOGE_UST()
 """
     name: tDOGE:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -5737,7 +6088,8 @@ DOGE_UST = DOGE_UST()
 class DOGEF0_USTF0(NamedTuple):
     """
         name: tDOGEF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 26.0
@@ -5746,7 +6098,8 @@ class DOGEF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOGEF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 26.0
@@ -5773,7 +6126,8 @@ class DOGEF0_USTF0(NamedTuple):
 DOGEF0_USTF0 = DOGEF0_USTF0()
 """
     name: tDOGEF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 26.0
@@ -5786,7 +6140,8 @@ DOGEF0_USTF0 = DOGEF0_USTF0()
 class DORA_USD(NamedTuple):
     """
         name: tDORA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -5795,7 +6150,8 @@ class DORA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDORA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -5822,7 +6178,8 @@ class DORA_USD(NamedTuple):
 DORA_USD = DORA_USD()
 """
     name: tDORA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -5835,7 +6192,8 @@ DORA_USD = DORA_USD()
 class DORA_UST(NamedTuple):
     """
         name: tDORA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -5844,7 +6202,8 @@ class DORA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDORA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -5871,7 +6230,8 @@ class DORA_UST(NamedTuple):
 DORA_UST = DORA_UST()
 """
     name: tDORA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -5884,7 +6244,8 @@ DORA_UST = DORA_UST()
 class DOTBTC(NamedTuple):
     """
         name: tDOTBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -5893,7 +6254,8 @@ class DOTBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOTBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -5920,7 +6282,8 @@ class DOTBTC(NamedTuple):
 DOTBTC = DOTBTC()
 """
     name: tDOTBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -5933,7 +6296,8 @@ DOTBTC = DOTBTC()
 class DOTF0_BTCF0(NamedTuple):
     """
         name: tDOTF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -5942,7 +6306,8 @@ class DOTF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOTF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -5969,7 +6334,8 @@ class DOTF0_BTCF0(NamedTuple):
 DOTF0_BTCF0 = DOTF0_BTCF0()
 """
     name: tDOTF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -5982,7 +6348,8 @@ DOTF0_BTCF0 = DOTF0_BTCF0()
 class DOTF0_USTF0(NamedTuple):
     """
         name: tDOTF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -5991,7 +6358,8 @@ class DOTF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOTF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -6018,7 +6386,8 @@ class DOTF0_USTF0(NamedTuple):
 DOTF0_USTF0 = DOTF0_USTF0()
 """
     name: tDOTF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -6031,7 +6400,8 @@ DOTF0_USTF0 = DOTF0_USTF0()
 class DOTUSD(NamedTuple):
     """
         name: tDOTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -6040,7 +6410,8 @@ class DOTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -6067,7 +6438,8 @@ class DOTUSD(NamedTuple):
 DOTUSD = DOTUSD()
 """
     name: tDOTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -6080,7 +6452,8 @@ DOTUSD = DOTUSD()
 class DOTUST(NamedTuple):
     """
         name: tDOTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -6089,7 +6462,8 @@ class DOTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDOTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -6116,7 +6490,8 @@ class DOTUST(NamedTuple):
 DOTUST = DOTUST()
 """
     name: tDOTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -6129,7 +6504,8 @@ DOTUST = DOTUST()
 class DSHBTC(NamedTuple):
     """
         name: tDSHBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.04
@@ -6138,7 +6514,8 @@ class DSHBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDSHBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.04
@@ -6165,7 +6542,8 @@ class DSHBTC(NamedTuple):
 DSHBTC = DSHBTC()
 """
     name: tDSHBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.04
@@ -6178,7 +6556,8 @@ DSHBTC = DSHBTC()
 class DSHUSD(NamedTuple):
     """
         name: tDSHUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.04
@@ -6187,7 +6566,8 @@ class DSHUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDSHUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.04
@@ -6214,7 +6594,8 @@ class DSHUSD(NamedTuple):
 DSHUSD = DSHUSD()
 """
     name: tDSHUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.04
@@ -6227,7 +6608,8 @@ DSHUSD = DSHUSD()
 class DUSK_BTC(NamedTuple):
     """
         name: tDUSK:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -6236,7 +6618,8 @@ class DUSK_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDUSK:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -6263,7 +6646,8 @@ class DUSK_BTC(NamedTuple):
 DUSK_BTC = DUSK_BTC()
 """
     name: tDUSK:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -6276,7 +6660,8 @@ DUSK_BTC = DUSK_BTC()
 class DUSK_USD(NamedTuple):
     """
         name: tDUSK:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -6285,7 +6670,8 @@ class DUSK_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDUSK:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -6312,7 +6698,8 @@ class DUSK_USD(NamedTuple):
 DUSK_USD = DUSK_USD()
 """
     name: tDUSK:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -6325,7 +6712,8 @@ DUSK_USD = DUSK_USD()
 class DVFUSD(NamedTuple):
     """
         name: tDVFUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1.0
@@ -6334,7 +6722,8 @@ class DVFUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tDVFUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1.0
@@ -6361,7 +6750,8 @@ class DVFUSD(NamedTuple):
 DVFUSD = DVFUSD()
 """
     name: tDVFUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1.0
@@ -6374,7 +6764,8 @@ DVFUSD = DVFUSD()
 class EDOUSD(NamedTuple):
     """
         name: tEDOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -6383,7 +6774,8 @@ class EDOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEDOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -6410,7 +6802,8 @@ class EDOUSD(NamedTuple):
 EDOUSD = EDOUSD()
 """
     name: tEDOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -6423,7 +6816,8 @@ EDOUSD = EDOUSD()
 class EGLD_USD(NamedTuple):
     """
         name: tEGLD:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -6432,7 +6826,8 @@ class EGLD_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEGLD:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -6459,7 +6854,8 @@ class EGLD_USD(NamedTuple):
 EGLD_USD = EGLD_USD()
 """
     name: tEGLD:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -6472,7 +6868,8 @@ EGLD_USD = EGLD_USD()
 class EGLD_UST(NamedTuple):
     """
         name: tEGLD:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -6481,7 +6878,8 @@ class EGLD_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEGLD:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -6508,7 +6906,8 @@ class EGLD_UST(NamedTuple):
 EGLD_UST = EGLD_UST()
 """
     name: tEGLD:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -6521,7 +6920,8 @@ EGLD_UST = EGLD_UST()
 class EGLDF0_USTF0(NamedTuple):
     """
         name: tEGLDF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.02
@@ -6530,7 +6930,8 @@ class EGLDF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEGLDF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.02
@@ -6557,7 +6958,8 @@ class EGLDF0_USTF0(NamedTuple):
 EGLDF0_USTF0 = EGLDF0_USTF0()
 """
     name: tEGLDF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.02
@@ -6570,7 +6972,8 @@ EGLDF0_USTF0 = EGLDF0_USTF0()
 class ENJUSD(NamedTuple):
     """
         name: tENJUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -6579,7 +6982,8 @@ class ENJUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tENJUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -6606,7 +7010,8 @@ class ENJUSD(NamedTuple):
 ENJUSD = ENJUSD()
 """
     name: tENJUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -6619,7 +7024,8 @@ ENJUSD = ENJUSD()
 class EOSBTC(NamedTuple):
     """
         name: tEOSBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -6628,7 +7034,8 @@ class EOSBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -6655,7 +7062,8 @@ class EOSBTC(NamedTuple):
 EOSBTC = EOSBTC()
 """
     name: tEOSBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -6668,7 +7076,8 @@ EOSBTC = EOSBTC()
 class EOSETH(NamedTuple):
     """
         name: tEOSETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -6677,7 +7086,8 @@ class EOSETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -6704,7 +7114,8 @@ class EOSETH(NamedTuple):
 EOSETH = EOSETH()
 """
     name: tEOSETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -6717,7 +7128,8 @@ EOSETH = EOSETH()
 class EOSEUR(NamedTuple):
     """
         name: tEOSEUR
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -6726,7 +7138,8 @@ class EOSEUR(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSEUR"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -6753,7 +7166,8 @@ class EOSEUR(NamedTuple):
 EOSEUR = EOSEUR()
 """
     name: tEOSEUR
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -6766,7 +7180,8 @@ EOSEUR = EOSEUR()
 class EOSF0_USTF0(NamedTuple):
     """
         name: tEOSF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -6775,7 +7190,8 @@ class EOSF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -6802,7 +7218,8 @@ class EOSF0_USTF0(NamedTuple):
 EOSF0_USTF0 = EOSF0_USTF0()
 """
     name: tEOSF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -6815,7 +7232,8 @@ EOSF0_USTF0 = EOSF0_USTF0()
 class EOSUSD(NamedTuple):
     """
         name: tEOSUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 2.0
@@ -6824,7 +7242,8 @@ class EOSUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 2.0
@@ -6851,7 +7270,8 @@ class EOSUSD(NamedTuple):
 EOSUSD = EOSUSD()
 """
     name: tEOSUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 2.0
@@ -6864,7 +7284,8 @@ EOSUSD = EOSUSD()
 class EOSUST(NamedTuple):
     """
         name: tEOSUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 2.0
@@ -6873,7 +7294,8 @@ class EOSUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEOSUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 2.0
@@ -6900,7 +7322,8 @@ class EOSUST(NamedTuple):
 EOSUST = EOSUST()
 """
     name: tEOSUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 2.0
@@ -6913,7 +7336,8 @@ EOSUST = EOSUST()
 class ETCBTC(NamedTuple):
     """
         name: tETCBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.1
@@ -6922,7 +7346,8 @@ class ETCBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETCBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.1
@@ -6949,7 +7374,8 @@ class ETCBTC(NamedTuple):
 ETCBTC = ETCBTC()
 """
     name: tETCBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.1
@@ -6962,7 +7388,8 @@ ETCBTC = ETCBTC()
 class ETCF0_USTF0(NamedTuple):
     """
         name: tETCF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.1
@@ -6971,7 +7398,8 @@ class ETCF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETCF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.1
@@ -6998,7 +7426,8 @@ class ETCF0_USTF0(NamedTuple):
 ETCF0_USTF0 = ETCF0_USTF0()
 """
     name: tETCF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.1
@@ -7011,7 +7440,8 @@ ETCF0_USTF0 = ETCF0_USTF0()
 class ETCUSD(NamedTuple):
     """
         name: tETCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.1
@@ -7020,7 +7450,8 @@ class ETCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.1
@@ -7047,7 +7478,8 @@ class ETCUSD(NamedTuple):
 ETCUSD = ETCUSD()
 """
     name: tETCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.1
@@ -7060,7 +7492,8 @@ ETCUSD = ETCUSD()
 class ETCUST(NamedTuple):
     """
         name: tETCUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.1
@@ -7069,7 +7502,8 @@ class ETCUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETCUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.1
@@ -7096,7 +7530,8 @@ class ETCUST(NamedTuple):
 ETCUST = ETCUST()
 """
     name: tETCUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.1
@@ -7109,7 +7544,8 @@ ETCUST = ETCUST()
 class ETH2X_ETH(NamedTuple):
     """
         name: tETH2X:ETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7118,7 +7554,8 @@ class ETH2X_ETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETH2X:ETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7145,7 +7582,8 @@ class ETH2X_ETH(NamedTuple):
 ETH2X_ETH = ETH2X_ETH()
 """
     name: tETH2X:ETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7158,7 +7596,8 @@ ETH2X_ETH = ETH2X_ETH()
 class ETH2X_USD(NamedTuple):
     """
         name: tETH2X:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7167,7 +7606,8 @@ class ETH2X_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETH2X:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7194,7 +7634,8 @@ class ETH2X_USD(NamedTuple):
 ETH2X_USD = ETH2X_USD()
 """
     name: tETH2X:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7207,7 +7648,8 @@ ETH2X_USD = ETH2X_USD()
 class ETH2X_UST(NamedTuple):
     """
         name: tETH2X:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7216,7 +7658,8 @@ class ETH2X_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETH2X:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7243,7 +7686,8 @@ class ETH2X_UST(NamedTuple):
 ETH2X_UST = ETH2X_UST()
 """
     name: tETH2X:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7256,7 +7700,8 @@ ETH2X_UST = ETH2X_UST()
 class ETH_MXNT(NamedTuple):
     """
         name: tETH:MXNT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -7265,7 +7710,8 @@ class ETH_MXNT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETH:MXNT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -7292,7 +7738,8 @@ class ETH_MXNT(NamedTuple):
 ETH_MXNT = ETH_MXNT()
 """
     name: tETH:MXNT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -7305,7 +7752,8 @@ ETH_MXNT = ETH_MXNT()
 class ETH_XAUT(NamedTuple):
     """
         name: tETH:XAUT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7314,7 +7762,8 @@ class ETH_XAUT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETH:XAUT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7341,7 +7790,8 @@ class ETH_XAUT(NamedTuple):
 ETH_XAUT = ETH_XAUT()
 """
     name: tETH:XAUT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7354,7 +7804,8 @@ ETH_XAUT = ETH_XAUT()
 class ETHBTC(NamedTuple):
     """
         name: tETHBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -7363,7 +7814,8 @@ class ETHBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -7390,7 +7842,8 @@ class ETHBTC(NamedTuple):
 ETHBTC = ETHBTC()
 """
     name: tETHBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -7403,7 +7856,8 @@ ETHBTC = ETHBTC()
 class ETHEUR(NamedTuple):
     """
         name: tETHEUR
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7412,7 +7866,8 @@ class ETHEUR(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHEUR"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7439,7 +7894,8 @@ class ETHEUR(NamedTuple):
 ETHEUR = ETHEUR()
 """
     name: tETHEUR
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7452,7 +7908,8 @@ ETHEUR = ETHEUR()
 class ETHEUT(NamedTuple):
     """
         name: tETHEUT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7461,7 +7918,8 @@ class ETHEUT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHEUT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7488,7 +7946,8 @@ class ETHEUT(NamedTuple):
 ETHEUT = ETHEUT()
 """
     name: tETHEUT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7501,7 +7960,8 @@ ETHEUT = ETHEUT()
 class ETHF0_BTCF0(NamedTuple):
     """
         name: tETHF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -7510,7 +7970,8 @@ class ETHF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -7537,7 +7998,8 @@ class ETHF0_BTCF0(NamedTuple):
 ETHF0_BTCF0 = ETHF0_BTCF0()
 """
     name: tETHF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -7550,7 +8012,8 @@ ETHF0_BTCF0 = ETHF0_BTCF0()
 class ETHF0_EUTF0(NamedTuple):
     """
         name: tETHF0:EUTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -7559,7 +8022,8 @@ class ETHF0_EUTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHF0:EUTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -7586,7 +8050,8 @@ class ETHF0_EUTF0(NamedTuple):
 ETHF0_EUTF0 = ETHF0_EUTF0()
 """
     name: tETHF0:EUTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -7599,7 +8064,8 @@ ETHF0_EUTF0 = ETHF0_EUTF0()
 class ETHF0_USTF0(NamedTuple):
     """
         name: tETHF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -7608,7 +8074,8 @@ class ETHF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -7635,7 +8102,8 @@ class ETHF0_USTF0(NamedTuple):
 ETHF0_USTF0 = ETHF0_USTF0()
 """
     name: tETHF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -7648,7 +8116,8 @@ ETHF0_USTF0 = ETHF0_USTF0()
 class ETHGBP(NamedTuple):
     """
         name: tETHGBP
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7657,7 +8126,8 @@ class ETHGBP(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHGBP"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7684,7 +8154,8 @@ class ETHGBP(NamedTuple):
 ETHGBP = ETHGBP()
 """
     name: tETHGBP
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7697,7 +8168,8 @@ ETHGBP = ETHGBP()
 class ETHJPY(NamedTuple):
     """
         name: tETHJPY
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -7706,7 +8178,8 @@ class ETHJPY(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHJPY"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -7733,7 +8206,8 @@ class ETHJPY(NamedTuple):
 ETHJPY = ETHJPY()
 """
     name: tETHJPY
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -7746,7 +8220,8 @@ ETHJPY = ETHJPY()
 class ETHUSD(NamedTuple):
     """
         name: tETHUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -7755,7 +8230,8 @@ class ETHUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -7782,7 +8258,8 @@ class ETHUSD(NamedTuple):
 ETHUSD = ETHUSD()
 """
     name: tETHUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -7795,7 +8272,8 @@ ETHUSD = ETHUSD()
 class ETHUST(NamedTuple):
     """
         name: tETHUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -7804,7 +8282,8 @@ class ETHUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -7831,7 +8310,8 @@ class ETHUST(NamedTuple):
 ETHUST = ETHUST()
 """
     name: tETHUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -7844,7 +8324,8 @@ ETHUST = ETHUST()
 class ETHW_USD(NamedTuple):
     """
         name: tETHW:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 30.0
         initial_margin: 60.0
         min_order_size: 0.001
@@ -7853,7 +8334,8 @@ class ETHW_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHW:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 30.0
     initial_margin: float = 60.0
     min_order_size: float = 0.001
@@ -7880,7 +8362,8 @@ class ETHW_USD(NamedTuple):
 ETHW_USD = ETHW_USD()
 """
     name: tETHW:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 30.0
     initial_margin: 60.0
     min_order_size: 0.001
@@ -7893,7 +8376,8 @@ ETHW_USD = ETHW_USD()
 class ETHW_UST(NamedTuple):
     """
         name: tETHW:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 30.0
         initial_margin: 60.0
         min_order_size: 0.001
@@ -7902,7 +8386,8 @@ class ETHW_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETHW:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 30.0
     initial_margin: float = 60.0
     min_order_size: float = 0.001
@@ -7929,7 +8414,8 @@ class ETHW_UST(NamedTuple):
 ETHW_UST = ETHW_UST()
 """
     name: tETHW:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 30.0
     initial_margin: 60.0
     min_order_size: 0.001
@@ -7942,7 +8428,8 @@ ETHW_UST = ETHW_UST()
 class ETPUSD(NamedTuple):
     """
         name: tETPUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 42.0
@@ -7951,7 +8438,8 @@ class ETPUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tETPUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 42.0
@@ -7978,7 +8466,8 @@ class ETPUSD(NamedTuple):
 ETPUSD = ETPUSD()
 """
     name: tETPUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 42.0
@@ -7991,7 +8480,8 @@ ETPUSD = ETPUSD()
 class EURF0_USTF0(NamedTuple):
     """
         name: tEURF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -8000,7 +8490,8 @@ class EURF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEURF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -8027,7 +8518,8 @@ class EURF0_USTF0(NamedTuple):
 EURF0_USTF0 = EURF0_USTF0()
 """
     name: tEURF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -8040,7 +8532,8 @@ EURF0_USTF0 = EURF0_USTF0()
 class EUROPE50IXF0_USTF0(NamedTuple):
     """
         name: tEUROPE50IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.0006
@@ -8049,7 +8542,8 @@ class EUROPE50IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUROPE50IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.0006
@@ -8076,7 +8570,8 @@ class EUROPE50IXF0_USTF0(NamedTuple):
 EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0()
 """
     name: tEUROPE50IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.0006
@@ -8089,7 +8584,8 @@ EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0()
 class EURUST(NamedTuple):
     """
         name: tEURUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -8098,7 +8594,8 @@ class EURUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEURUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -8125,7 +8622,8 @@ class EURUST(NamedTuple):
 EURUST = EURUST()
 """
     name: tEURUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -8138,7 +8636,8 @@ EURUST = EURUST()
 class EUSUSD(NamedTuple):
     """
         name: tEUSUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -8147,7 +8646,8 @@ class EUSUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUSUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -8174,7 +8674,8 @@ class EUSUSD(NamedTuple):
 EUSUSD = EUSUSD()
 """
     name: tEUSUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -8187,7 +8688,8 @@ EUSUSD = EUSUSD()
 class EUT_MXNT(NamedTuple):
     """
         name: tEUT:MXNT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -8196,7 +8698,8 @@ class EUT_MXNT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUT:MXNT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -8223,7 +8726,8 @@ class EUT_MXNT(NamedTuple):
 EUT_MXNT = EUT_MXNT()
 """
     name: tEUT:MXNT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -8236,7 +8740,8 @@ EUT_MXNT = EUT_MXNT()
 class EUTEUR(NamedTuple):
     """
         name: tEUTEUR
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -8245,7 +8750,8 @@ class EUTEUR(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUTEUR"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -8272,7 +8778,8 @@ class EUTEUR(NamedTuple):
 EUTEUR = EUTEUR()
 """
     name: tEUTEUR
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -8285,7 +8792,8 @@ EUTEUR = EUTEUR()
 class EUTUSD(NamedTuple):
     """
         name: tEUTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -8294,7 +8802,8 @@ class EUTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -8321,7 +8830,8 @@ class EUTUSD(NamedTuple):
 EUTUSD = EUTUSD()
 """
     name: tEUTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -8334,7 +8844,8 @@ EUTUSD = EUTUSD()
 class EUTUST(NamedTuple):
     """
         name: tEUTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -8343,7 +8854,8 @@ class EUTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tEUTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -8370,7 +8882,8 @@ class EUTUST(NamedTuple):
 EUTUST = EUTUST()
 """
     name: tEUTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -8383,7 +8896,8 @@ EUTUST = EUTUST()
 class FBTUSD(NamedTuple):
     """
         name: tFBTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -8392,7 +8906,8 @@ class FBTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFBTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -8419,7 +8934,8 @@ class FBTUSD(NamedTuple):
 FBTUSD = FBTUSD()
 """
     name: tFBTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -8432,7 +8948,8 @@ FBTUSD = FBTUSD()
 class FBTUST(NamedTuple):
     """
         name: tFBTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -8441,7 +8958,8 @@ class FBTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFBTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -8468,7 +8986,8 @@ class FBTUST(NamedTuple):
 FBTUST = FBTUST()
 """
     name: tFBTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -8481,7 +9000,8 @@ FBTUST = FBTUST()
 class FCLUSD(NamedTuple):
     """
         name: tFCLUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 62.0
@@ -8490,7 +9010,8 @@ class FCLUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFCLUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 62.0
@@ -8517,7 +9038,8 @@ class FCLUSD(NamedTuple):
 FCLUSD = FCLUSD()
 """
     name: tFCLUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 62.0
@@ -8530,7 +9052,8 @@ FCLUSD = FCLUSD()
 class FCLUST(NamedTuple):
     """
         name: tFCLUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 62.0
@@ -8539,7 +9062,8 @@ class FCLUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFCLUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 62.0
@@ -8566,7 +9090,8 @@ class FCLUST(NamedTuple):
 FCLUST = FCLUST()
 """
     name: tFCLUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 62.0
@@ -8579,7 +9104,8 @@ FCLUST = FCLUST()
 class FETUSD(NamedTuple):
     """
         name: tFETUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -8588,7 +9114,8 @@ class FETUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFETUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -8615,7 +9142,8 @@ class FETUSD(NamedTuple):
 FETUSD = FETUSD()
 """
     name: tFETUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -8628,7 +9156,8 @@ FETUSD = FETUSD()
 class FETUST(NamedTuple):
     """
         name: tFETUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -8637,7 +9166,8 @@ class FETUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFETUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -8664,7 +9194,8 @@ class FETUST(NamedTuple):
 FETUST = FETUST()
 """
     name: tFETUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -8677,7 +9208,8 @@ FETUST = FETUST()
 class FILF0_USTF0(NamedTuple):
     """
         name: tFILF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -8686,7 +9218,8 @@ class FILF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFILF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -8713,7 +9246,8 @@ class FILF0_USTF0(NamedTuple):
 FILF0_USTF0 = FILF0_USTF0()
 """
     name: tFILF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -8726,7 +9260,8 @@ FILF0_USTF0 = FILF0_USTF0()
 class FILUSD(NamedTuple):
     """
         name: tFILUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -8735,7 +9270,8 @@ class FILUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFILUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -8762,7 +9298,8 @@ class FILUSD(NamedTuple):
 FILUSD = FILUSD()
 """
     name: tFILUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -8775,7 +9312,8 @@ FILUSD = FILUSD()
 class FILUST(NamedTuple):
     """
         name: tFILUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -8784,7 +9322,8 @@ class FILUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFILUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -8811,7 +9350,8 @@ class FILUST(NamedTuple):
 FILUST = FILUST()
 """
     name: tFILUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -8824,7 +9364,8 @@ FILUST = FILUST()
 class FLRUSD(NamedTuple):
     """
         name: tFLRUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -8833,7 +9374,8 @@ class FLRUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFLRUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -8860,7 +9402,8 @@ class FLRUSD(NamedTuple):
 FLRUSD = FLRUSD()
 """
     name: tFLRUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -8873,7 +9416,8 @@ FLRUSD = FLRUSD()
 class FLRUST(NamedTuple):
     """
         name: tFLRUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -8882,7 +9426,8 @@ class FLRUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFLRUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -8909,7 +9454,8 @@ class FLRUST(NamedTuple):
 FLRUST = FLRUST()
 """
     name: tFLRUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -8922,7 +9468,8 @@ FLRUST = FLRUST()
 class FORTH_USD(NamedTuple):
     """
         name: tFORTH:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -8931,7 +9478,8 @@ class FORTH_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFORTH:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -8958,7 +9506,8 @@ class FORTH_USD(NamedTuple):
 FORTH_USD = FORTH_USD()
 """
     name: tFORTH:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -8971,7 +9520,8 @@ FORTH_USD = FORTH_USD()
 class FORTH_UST(NamedTuple):
     """
         name: tFORTH:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -8980,7 +9530,8 @@ class FORTH_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFORTH:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -9007,7 +9558,8 @@ class FORTH_UST(NamedTuple):
 FORTH_UST = FORTH_UST()
 """
     name: tFORTH:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -9020,7 +9572,8 @@ FORTH_UST = FORTH_UST()
 class FRANCE40IXF0_USTF0(NamedTuple):
     """
         name: tFRANCE40IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -9029,7 +9582,8 @@ class FRANCE40IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFRANCE40IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -9056,7 +9610,8 @@ class FRANCE40IXF0_USTF0(NamedTuple):
 FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0()
 """
     name: tFRANCE40IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -9069,7 +9624,8 @@ FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0()
 class FTMF0_USTF0(NamedTuple):
     """
         name: tFTMF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 6.0
@@ -9078,7 +9634,8 @@ class FTMF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFTMF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 6.0
@@ -9105,7 +9662,8 @@ class FTMF0_USTF0(NamedTuple):
 FTMF0_USTF0 = FTMF0_USTF0()
 """
     name: tFTMF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 6.0
@@ -9118,7 +9676,8 @@ FTMF0_USTF0 = FTMF0_USTF0()
 class FTMUSD(NamedTuple):
     """
         name: tFTMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -9127,7 +9686,8 @@ class FTMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFTMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -9154,7 +9714,8 @@ class FTMUSD(NamedTuple):
 FTMUSD = FTMUSD()
 """
     name: tFTMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -9167,7 +9728,8 @@ FTMUSD = FTMUSD()
 class FTMUST(NamedTuple):
     """
         name: tFTMUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -9176,7 +9738,8 @@ class FTMUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFTMUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -9203,7 +9766,8 @@ class FTMUST(NamedTuple):
 FTMUST = FTMUST()
 """
     name: tFTMUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -9216,7 +9780,8 @@ FTMUST = FTMUST()
 class FUNUSD(NamedTuple):
     """
         name: tFUNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 226.0
@@ -9225,7 +9790,8 @@ class FUNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tFUNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 226.0
@@ -9252,7 +9818,8 @@ class FUNUSD(NamedTuple):
 FUNUSD = FUNUSD()
 """
     name: tFUNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 226.0
@@ -9265,7 +9832,8 @@ FUNUSD = FUNUSD()
 class GALA_USD(NamedTuple):
     """
         name: tGALA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -9274,7 +9842,8 @@ class GALA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGALA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -9301,7 +9870,8 @@ class GALA_USD(NamedTuple):
 GALA_USD = GALA_USD()
 """
     name: tGALA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -9314,7 +9884,8 @@ GALA_USD = GALA_USD()
 class GALA_UST(NamedTuple):
     """
         name: tGALA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -9323,7 +9894,8 @@ class GALA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGALA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -9350,7 +9922,8 @@ class GALA_UST(NamedTuple):
 GALA_UST = GALA_UST()
 """
     name: tGALA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -9363,7 +9936,8 @@ GALA_UST = GALA_UST()
 class GALAF0_USTF0(NamedTuple):
     """
         name: tGALAF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 26.0
@@ -9372,7 +9946,8 @@ class GALAF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGALAF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 26.0
@@ -9399,7 +9974,8 @@ class GALAF0_USTF0(NamedTuple):
 GALAF0_USTF0 = GALAF0_USTF0()
 """
     name: tGALAF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 26.0
@@ -9412,7 +9988,8 @@ GALAF0_USTF0 = GALAF0_USTF0()
 class GBPEUT(NamedTuple):
     """
         name: tGBPEUT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -9421,7 +9998,8 @@ class GBPEUT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGBPEUT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -9448,7 +10026,8 @@ class GBPEUT(NamedTuple):
 GBPEUT = GBPEUT()
 """
     name: tGBPEUT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -9461,7 +10040,8 @@ GBPEUT = GBPEUT()
 class GBPF0_USTF0(NamedTuple):
     """
         name: tGBPF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -9470,7 +10050,8 @@ class GBPF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGBPF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -9497,7 +10078,8 @@ class GBPF0_USTF0(NamedTuple):
 GBPF0_USTF0 = GBPF0_USTF0()
 """
     name: tGBPF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -9510,7 +10092,8 @@ GBPF0_USTF0 = GBPF0_USTF0()
 class GBPUST(NamedTuple):
     """
         name: tGBPUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -9519,7 +10102,8 @@ class GBPUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGBPUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -9546,7 +10130,8 @@ class GBPUST(NamedTuple):
 GBPUST = GBPUST()
 """
     name: tGBPUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -9559,7 +10144,8 @@ GBPUST = GBPUST()
 class GERMANY40IXF0_USTF0(NamedTuple):
     """
         name: tGERMANY40IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.0004
@@ -9568,7 +10154,8 @@ class GERMANY40IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGERMANY40IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.0004
@@ -9595,7 +10182,8 @@ class GERMANY40IXF0_USTF0(NamedTuple):
 GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0()
 """
     name: tGERMANY40IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.0004
@@ -9608,7 +10196,8 @@ GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0()
 class GNOUSD(NamedTuple):
     """
         name: tGNOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -9617,7 +10206,8 @@ class GNOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGNOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -9644,7 +10234,8 @@ class GNOUSD(NamedTuple):
 GNOUSD = GNOUSD()
 """
     name: tGNOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -9657,7 +10248,8 @@ GNOUSD = GNOUSD()
 class GNTUSD(NamedTuple):
     """
         name: tGNTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -9666,7 +10258,8 @@ class GNTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGNTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -9693,7 +10286,8 @@ class GNTUSD(NamedTuple):
 GNTUSD = GNTUSD()
 """
     name: tGNTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -9706,7 +10300,8 @@ GNTUSD = GNTUSD()
 class GPTUSD(NamedTuple):
     """
         name: tGPTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -9715,7 +10310,8 @@ class GPTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGPTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -9742,7 +10338,8 @@ class GPTUSD(NamedTuple):
 GPTUSD = GPTUSD()
 """
     name: tGPTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -9755,7 +10352,8 @@ GPTUSD = GPTUSD()
 class GPTUST(NamedTuple):
     """
         name: tGPTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -9764,7 +10362,8 @@ class GPTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGPTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -9791,7 +10390,8 @@ class GPTUST(NamedTuple):
 GPTUST = GPTUST()
 """
     name: tGPTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -9804,7 +10404,8 @@ GPTUST = GPTUST()
 class GRTUSD(NamedTuple):
     """
         name: tGRTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -9813,7 +10414,8 @@ class GRTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGRTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -9840,7 +10442,8 @@ class GRTUSD(NamedTuple):
 GRTUSD = GRTUSD()
 """
     name: tGRTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -9853,7 +10456,8 @@ GRTUSD = GRTUSD()
 class GRTUST(NamedTuple):
     """
         name: tGRTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -9862,7 +10466,8 @@ class GRTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGRTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -9889,7 +10494,8 @@ class GRTUST(NamedTuple):
 GRTUST = GRTUST()
 """
     name: tGRTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -9902,7 +10508,8 @@ GRTUST = GRTUST()
 class GTXUSD(NamedTuple):
     """
         name: tGTXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -9911,7 +10518,8 @@ class GTXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGTXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -9938,7 +10546,8 @@ class GTXUSD(NamedTuple):
 GTXUSD = GTXUSD()
 """
     name: tGTXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -9951,7 +10560,8 @@ GTXUSD = GTXUSD()
 class GTXUST(NamedTuple):
     """
         name: tGTXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -9960,7 +10570,8 @@ class GTXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGTXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -9987,7 +10598,8 @@ class GTXUST(NamedTuple):
 GTXUST = GTXUST()
 """
     name: tGTXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -10000,7 +10612,8 @@ GTXUST = GTXUST()
 class GXTUSD(NamedTuple):
     """
         name: tGXTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10009,7 +10622,8 @@ class GXTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGXTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10036,7 +10650,8 @@ class GXTUSD(NamedTuple):
 GXTUSD = GXTUSD()
 """
     name: tGXTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10049,7 +10664,8 @@ GXTUSD = GXTUSD()
 class GXTUST(NamedTuple):
     """
         name: tGXTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10058,7 +10674,8 @@ class GXTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tGXTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10085,7 +10702,8 @@ class GXTUST(NamedTuple):
 GXTUST = GXTUST()
 """
     name: tGXTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10098,7 +10716,8 @@ GXTUST = GXTUST()
 class HECUSD(NamedTuple):
     """
         name: tHECUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10107,7 +10726,8 @@ class HECUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHECUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10134,7 +10754,8 @@ class HECUSD(NamedTuple):
 HECUSD = HECUSD()
 """
     name: tHECUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10147,7 +10768,8 @@ HECUSD = HECUSD()
 class HECUST(NamedTuple):
     """
         name: tHECUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10156,7 +10778,8 @@ class HECUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHECUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10183,7 +10806,8 @@ class HECUST(NamedTuple):
 HECUST = HECUST()
 """
     name: tHECUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10196,7 +10820,8 @@ HECUST = HECUST()
 class HIXUSD(NamedTuple):
     """
         name: tHIXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -10205,7 +10830,8 @@ class HIXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHIXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -10232,7 +10858,8 @@ class HIXUSD(NamedTuple):
 HIXUSD = HIXUSD()
 """
     name: tHIXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -10245,7 +10872,8 @@ HIXUSD = HIXUSD()
 class HIXUST(NamedTuple):
     """
         name: tHIXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -10254,7 +10882,8 @@ class HIXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHIXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -10281,7 +10910,8 @@ class HIXUST(NamedTuple):
 HIXUST = HIXUST()
 """
     name: tHIXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -10294,7 +10924,8 @@ HIXUST = HIXUST()
 class HMTUSD(NamedTuple):
     """
         name: tHMTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -10303,7 +10934,8 @@ class HMTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHMTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -10330,7 +10962,8 @@ class HMTUSD(NamedTuple):
 HMTUSD = HMTUSD()
 """
     name: tHMTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -10343,7 +10976,8 @@ HMTUSD = HMTUSD()
 class HMTUST(NamedTuple):
     """
         name: tHMTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -10352,7 +10986,8 @@ class HMTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHMTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -10379,7 +11014,8 @@ class HMTUST(NamedTuple):
 HMTUST = HMTUST()
 """
     name: tHMTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -10392,7 +11028,8 @@ HMTUST = HMTUST()
 class HONGKONG50IXF0_USTF0(NamedTuple):
     """
         name: tHONGKONG50IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -10401,7 +11038,8 @@ class HONGKONG50IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHONGKONG50IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -10428,7 +11066,8 @@ class HONGKONG50IXF0_USTF0(NamedTuple):
 HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0()
 """
     name: tHONGKONG50IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -10441,7 +11080,8 @@ HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0()
 class HTXUSD(NamedTuple):
     """
         name: tHTXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10450,7 +11090,8 @@ class HTXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHTXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10477,7 +11118,8 @@ class HTXUSD(NamedTuple):
 HTXUSD = HTXUSD()
 """
     name: tHTXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10490,7 +11132,8 @@ HTXUSD = HTXUSD()
 class HTXUST(NamedTuple):
     """
         name: tHTXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -10499,7 +11142,8 @@ class HTXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tHTXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -10526,7 +11170,8 @@ class HTXUST(NamedTuple):
 HTXUST = HTXUST()
 """
     name: tHTXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -10539,7 +11184,8 @@ HTXUST = HTXUST()
 class ICEUSD(NamedTuple):
     """
         name: tICEUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -10548,7 +11194,8 @@ class ICEUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tICEUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -10575,7 +11222,8 @@ class ICEUSD(NamedTuple):
 ICEUSD = ICEUSD()
 """
     name: tICEUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -10588,7 +11236,8 @@ ICEUSD = ICEUSD()
 class ICPBTC(NamedTuple):
     """
         name: tICPBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -10597,7 +11246,8 @@ class ICPBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tICPBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -10624,7 +11274,8 @@ class ICPBTC(NamedTuple):
 ICPBTC = ICPBTC()
 """
     name: tICPBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -10637,7 +11288,8 @@ ICPBTC = ICPBTC()
 class ICPF0_USTF0(NamedTuple):
     """
         name: tICPF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -10646,7 +11298,8 @@ class ICPF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tICPF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -10673,7 +11326,8 @@ class ICPF0_USTF0(NamedTuple):
 ICPF0_USTF0 = ICPF0_USTF0()
 """
     name: tICPF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -10686,7 +11340,8 @@ ICPF0_USTF0 = ICPF0_USTF0()
 class ICPUSD(NamedTuple):
     """
         name: tICPUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -10695,7 +11350,8 @@ class ICPUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tICPUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -10722,7 +11378,8 @@ class ICPUSD(NamedTuple):
 ICPUSD = ICPUSD()
 """
     name: tICPUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -10735,7 +11392,8 @@ ICPUSD = ICPUSD()
 class ICPUST(NamedTuple):
     """
         name: tICPUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -10744,7 +11402,8 @@ class ICPUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tICPUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -10771,7 +11430,8 @@ class ICPUST(NamedTuple):
 ICPUST = ICPUST()
 """
     name: tICPUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -10784,7 +11444,8 @@ ICPUST = ICPUST()
 class IDXUSD(NamedTuple):
     """
         name: tIDXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20.0
@@ -10793,7 +11454,8 @@ class IDXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tIDXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20.0
@@ -10820,7 +11482,8 @@ class IDXUSD(NamedTuple):
 IDXUSD = IDXUSD()
 """
     name: tIDXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20.0
@@ -10833,7 +11496,8 @@ IDXUSD = IDXUSD()
 class IDXUST(NamedTuple):
     """
         name: tIDXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20.0
@@ -10842,7 +11506,8 @@ class IDXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tIDXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20.0
@@ -10869,7 +11534,8 @@ class IDXUST(NamedTuple):
 IDXUST = IDXUST()
 """
     name: tIDXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20.0
@@ -10882,7 +11548,8 @@ IDXUST = IDXUST()
 class IOTBTC(NamedTuple):
     """
         name: tIOTBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -10891,7 +11558,8 @@ class IOTBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tIOTBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -10918,7 +11586,8 @@ class IOTBTC(NamedTuple):
 IOTBTC = IOTBTC()
 """
     name: tIOTBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -10931,7 +11600,8 @@ IOTBTC = IOTBTC()
 class IOTF0_USTF0(NamedTuple):
     """
         name: tIOTF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 6.0
@@ -10940,7 +11610,8 @@ class IOTF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tIOTF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 6.0
@@ -10967,7 +11638,8 @@ class IOTF0_USTF0(NamedTuple):
 IOTF0_USTF0 = IOTF0_USTF0()
 """
     name: tIOTF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 6.0
@@ -10980,7 +11652,8 @@ IOTF0_USTF0 = IOTF0_USTF0()
 class IOTUSD(NamedTuple):
     """
         name: tIOTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -10989,7 +11662,8 @@ class IOTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tIOTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -11016,7 +11690,8 @@ class IOTUSD(NamedTuple):
 IOTUSD = IOTUSD()
 """
     name: tIOTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -11029,7 +11704,8 @@ IOTUSD = IOTUSD()
 class JAPAN225IXF0_USTF0(NamedTuple):
     """
         name: tJAPAN225IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -11038,7 +11714,8 @@ class JAPAN225IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJAPAN225IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -11065,7 +11742,8 @@ class JAPAN225IXF0_USTF0(NamedTuple):
 JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0()
 """
     name: tJAPAN225IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -11078,7 +11756,8 @@ JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0()
 class JASMY_USD(NamedTuple):
     """
         name: tJASMY:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 168.0
@@ -11087,7 +11766,8 @@ class JASMY_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJASMY:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 168.0
@@ -11114,7 +11794,8 @@ class JASMY_USD(NamedTuple):
 JASMY_USD = JASMY_USD()
 """
     name: tJASMY:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 168.0
@@ -11127,7 +11808,8 @@ JASMY_USD = JASMY_USD()
 class JASMY_UST(NamedTuple):
     """
         name: tJASMY:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 168.0
@@ -11136,7 +11818,8 @@ class JASMY_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJASMY:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 168.0
@@ -11163,7 +11846,8 @@ class JASMY_UST(NamedTuple):
 JASMY_UST = JASMY_UST()
 """
     name: tJASMY:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 168.0
@@ -11176,7 +11860,8 @@ JASMY_UST = JASMY_UST()
 class JASMYF0_USTF0(NamedTuple):
     """
         name: tJASMYF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 168.0
@@ -11185,7 +11870,8 @@ class JASMYF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJASMYF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 168.0
@@ -11212,7 +11898,8 @@ class JASMYF0_USTF0(NamedTuple):
 JASMYF0_USTF0 = JASMYF0_USTF0()
 """
     name: tJASMYF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 168.0
@@ -11225,7 +11912,8 @@ JASMYF0_USTF0 = JASMYF0_USTF0()
 class JPYF0_USTF0(NamedTuple):
     """
         name: tJPYF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 262.0
@@ -11234,7 +11922,8 @@ class JPYF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJPYF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 262.0
@@ -11261,7 +11950,8 @@ class JPYF0_USTF0(NamedTuple):
 JPYF0_USTF0 = JPYF0_USTF0()
 """
     name: tJPYF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 262.0
@@ -11274,7 +11964,8 @@ JPYF0_USTF0 = JPYF0_USTF0()
 class JPYUST(NamedTuple):
     """
         name: tJPYUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 262.0
@@ -11283,7 +11974,8 @@ class JPYUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJPYUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 262.0
@@ -11310,7 +12002,8 @@ class JPYUST(NamedTuple):
 JPYUST = JPYUST()
 """
     name: tJPYUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 262.0
@@ -11323,7 +12016,8 @@ JPYUST = JPYUST()
 class JSTBTC(NamedTuple):
     """
         name: tJSTBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 48.0
@@ -11332,7 +12026,8 @@ class JSTBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJSTBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 48.0
@@ -11359,7 +12054,8 @@ class JSTBTC(NamedTuple):
 JSTBTC = JSTBTC()
 """
     name: tJSTBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 48.0
@@ -11372,7 +12068,8 @@ JSTBTC = JSTBTC()
 class JSTUSD(NamedTuple):
     """
         name: tJSTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 48.0
@@ -11381,7 +12078,8 @@ class JSTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJSTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 48.0
@@ -11408,7 +12106,8 @@ class JSTUSD(NamedTuple):
 JSTUSD = JSTUSD()
 """
     name: tJSTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 48.0
@@ -11421,7 +12120,8 @@ JSTUSD = JSTUSD()
 class JSTUST(NamedTuple):
     """
         name: tJSTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 48.0
@@ -11430,7 +12130,8 @@ class JSTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tJSTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 48.0
@@ -11457,7 +12158,8 @@ class JSTUST(NamedTuple):
 JSTUST = JSTUST()
 """
     name: tJSTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 48.0
@@ -11470,7 +12172,8 @@ JSTUST = JSTUST()
 class KANUSD(NamedTuple):
     """
         name: tKANUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1542.0
@@ -11479,7 +12182,8 @@ class KANUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKANUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1542.0
@@ -11506,7 +12210,8 @@ class KANUSD(NamedTuple):
 KANUSD = KANUSD()
 """
     name: tKANUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1542.0
@@ -11519,7 +12224,8 @@ KANUSD = KANUSD()
 class KANUST(NamedTuple):
     """
         name: tKANUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1542.0
@@ -11528,7 +12234,8 @@ class KANUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKANUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1542.0
@@ -11555,7 +12262,8 @@ class KANUST(NamedTuple):
 KANUST = KANUST()
 """
     name: tKANUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1542.0
@@ -11568,7 +12276,8 @@ KANUST = KANUST()
 class KNCBTC(NamedTuple):
     """
         name: tKNCBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -11577,7 +12286,8 @@ class KNCBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKNCBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -11604,7 +12314,8 @@ class KNCBTC(NamedTuple):
 KNCBTC = KNCBTC()
 """
     name: tKNCBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -11617,7 +12328,8 @@ KNCBTC = KNCBTC()
 class KNCF0_USTF0(NamedTuple):
     """
         name: tKNCF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -11626,7 +12338,8 @@ class KNCF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKNCF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -11653,7 +12366,8 @@ class KNCF0_USTF0(NamedTuple):
 KNCF0_USTF0 = KNCF0_USTF0()
 """
     name: tKNCF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -11666,7 +12380,8 @@ KNCF0_USTF0 = KNCF0_USTF0()
 class KNCUSD(NamedTuple):
     """
         name: tKNCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -11675,7 +12390,8 @@ class KNCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKNCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -11702,7 +12418,8 @@ class KNCUSD(NamedTuple):
 KNCUSD = KNCUSD()
 """
     name: tKNCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -11715,7 +12432,8 @@ KNCUSD = KNCUSD()
 class KSMUSD(NamedTuple):
     """
         name: tKSMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -11724,7 +12442,8 @@ class KSMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKSMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -11751,7 +12470,8 @@ class KSMUSD(NamedTuple):
 KSMUSD = KSMUSD()
 """
     name: tKSMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -11764,7 +12484,8 @@ KSMUSD = KSMUSD()
 class KSMUST(NamedTuple):
     """
         name: tKSMUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -11773,7 +12494,8 @@ class KSMUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tKSMUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -11800,7 +12522,8 @@ class KSMUST(NamedTuple):
 KSMUST = KSMUST()
 """
     name: tKSMUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -11813,7 +12536,8 @@ KSMUST = KSMUST()
 class LDOUSD(NamedTuple):
     """
         name: tLDOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -11822,7 +12546,8 @@ class LDOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLDOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -11849,7 +12574,8 @@ class LDOUSD(NamedTuple):
 LDOUSD = LDOUSD()
 """
     name: tLDOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -11862,7 +12588,8 @@ LDOUSD = LDOUSD()
 class LDOUST(NamedTuple):
     """
         name: tLDOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -11871,7 +12598,8 @@ class LDOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLDOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -11898,7 +12626,8 @@ class LDOUST(NamedTuple):
 LDOUST = LDOUST()
 """
     name: tLDOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -11911,7 +12640,8 @@ LDOUST = LDOUST()
 class LEOBTC(NamedTuple):
     """
         name: tLEOBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -11920,7 +12650,8 @@ class LEOBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLEOBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -11947,7 +12678,8 @@ class LEOBTC(NamedTuple):
 LEOBTC = LEOBTC()
 """
     name: tLEOBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -11960,7 +12692,8 @@ LEOBTC = LEOBTC()
 class LEOETH(NamedTuple):
     """
         name: tLEOETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -11969,7 +12702,8 @@ class LEOETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLEOETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -11996,7 +12730,8 @@ class LEOETH(NamedTuple):
 LEOETH = LEOETH()
 """
     name: tLEOETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -12009,7 +12744,8 @@ LEOETH = LEOETH()
 class LEOUSD(NamedTuple):
     """
         name: tLEOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -12018,7 +12754,8 @@ class LEOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLEOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -12045,7 +12782,8 @@ class LEOUSD(NamedTuple):
 LEOUSD = LEOUSD()
 """
     name: tLEOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -12058,7 +12796,8 @@ LEOUSD = LEOUSD()
 class LEOUST(NamedTuple):
     """
         name: tLEOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -12067,7 +12806,8 @@ class LEOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLEOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -12094,7 +12834,8 @@ class LEOUST(NamedTuple):
 LEOUST = LEOUST()
 """
     name: tLEOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -12107,7 +12848,8 @@ LEOUST = LEOUST()
 class LINK_USD(NamedTuple):
     """
         name: tLINK:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -12116,7 +12858,8 @@ class LINK_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLINK:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -12143,7 +12886,8 @@ class LINK_USD(NamedTuple):
 LINK_USD = LINK_USD()
 """
     name: tLINK:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -12156,7 +12900,8 @@ LINK_USD = LINK_USD()
 class LINK_UST(NamedTuple):
     """
         name: tLINK:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -12165,7 +12910,8 @@ class LINK_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLINK:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -12192,7 +12938,8 @@ class LINK_UST(NamedTuple):
 LINK_UST = LINK_UST()
 """
     name: tLINK:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -12205,7 +12952,8 @@ LINK_UST = LINK_UST()
 class LINKF0_USTF0(NamedTuple):
     """
         name: tLINKF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -12214,7 +12962,8 @@ class LINKF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLINKF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -12241,7 +12990,8 @@ class LINKF0_USTF0(NamedTuple):
 LINKF0_USTF0 = LINKF0_USTF0()
 """
     name: tLINKF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -12254,7 +13004,8 @@ LINKF0_USTF0 = LINKF0_USTF0()
 class LRCUSD(NamedTuple):
     """
         name: tLRCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -12263,7 +13014,8 @@ class LRCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLRCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -12290,7 +13042,8 @@ class LRCUSD(NamedTuple):
 LRCUSD = LRCUSD()
 """
     name: tLRCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -12303,7 +13056,8 @@ LRCUSD = LRCUSD()
 class LTCBTC(NamedTuple):
     """
         name: tLTCBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.04
@@ -12312,7 +13066,8 @@ class LTCBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLTCBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.04
@@ -12339,7 +13094,8 @@ class LTCBTC(NamedTuple):
 LTCBTC = LTCBTC()
 """
     name: tLTCBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.04
@@ -12352,7 +13108,8 @@ LTCBTC = LTCBTC()
 class LTCF0_BTCF0(NamedTuple):
     """
         name: tLTCF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.04
@@ -12361,7 +13118,8 @@ class LTCF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLTCF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.04
@@ -12388,7 +13146,8 @@ class LTCF0_BTCF0(NamedTuple):
 LTCF0_BTCF0 = LTCF0_BTCF0()
 """
     name: tLTCF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.04
@@ -12401,7 +13160,8 @@ LTCF0_BTCF0 = LTCF0_BTCF0()
 class LTCF0_USTF0(NamedTuple):
     """
         name: tLTCF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.04
@@ -12410,7 +13170,8 @@ class LTCF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLTCF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.04
@@ -12437,7 +13198,8 @@ class LTCF0_USTF0(NamedTuple):
 LTCF0_USTF0 = LTCF0_USTF0()
 """
     name: tLTCF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.04
@@ -12450,7 +13212,8 @@ LTCF0_USTF0 = LTCF0_USTF0()
 class LTCUSD(NamedTuple):
     """
         name: tLTCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.04
@@ -12459,7 +13222,8 @@ class LTCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLTCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.04
@@ -12486,7 +13250,8 @@ class LTCUSD(NamedTuple):
 LTCUSD = LTCUSD()
 """
     name: tLTCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.04
@@ -12499,7 +13264,8 @@ LTCUSD = LTCUSD()
 class LTCUST(NamedTuple):
     """
         name: tLTCUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.04
@@ -12508,7 +13274,8 @@ class LTCUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLTCUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.04
@@ -12535,7 +13302,8 @@ class LTCUST(NamedTuple):
 LTCUST = LTCUST()
 """
     name: tLTCUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.04
@@ -12548,7 +13316,8 @@ LTCUST = LTCUST()
 class LUNA2_USD(NamedTuple):
     """
         name: tLUNA2:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -12557,7 +13326,8 @@ class LUNA2_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLUNA2:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -12584,7 +13354,8 @@ class LUNA2_USD(NamedTuple):
 LUNA2_USD = LUNA2_USD()
 """
     name: tLUNA2:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -12597,7 +13368,8 @@ LUNA2_USD = LUNA2_USD()
 class LUNA2_UST(NamedTuple):
     """
         name: tLUNA2:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -12606,7 +13378,8 @@ class LUNA2_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLUNA2:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -12633,7 +13406,8 @@ class LUNA2_UST(NamedTuple):
 LUNA2_UST = LUNA2_UST()
 """
     name: tLUNA2:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -12646,7 +13420,8 @@ LUNA2_UST = LUNA2_UST()
 class LUNA_USD(NamedTuple):
     """
         name: tLUNA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20814.0
@@ -12655,7 +13430,8 @@ class LUNA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLUNA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20814.0
@@ -12682,7 +13458,8 @@ class LUNA_USD(NamedTuple):
 LUNA_USD = LUNA_USD()
 """
     name: tLUNA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20814.0
@@ -12695,7 +13472,8 @@ LUNA_USD = LUNA_USD()
 class LUNA_UST(NamedTuple):
     """
         name: tLUNA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20814.0
@@ -12704,7 +13482,8 @@ class LUNA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLUNA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20814.0
@@ -12731,7 +13510,8 @@ class LUNA_UST(NamedTuple):
 LUNA_UST = LUNA_UST()
 """
     name: tLUNA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20814.0
@@ -12744,7 +13524,8 @@ LUNA_UST = LUNA_UST()
 class LUXO_USD(NamedTuple):
     """
         name: tLUXO:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20.0
@@ -12753,7 +13534,8 @@ class LUXO_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLUXO:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20.0
@@ -12780,7 +13562,8 @@ class LUXO_USD(NamedTuple):
 LUXO_USD = LUXO_USD()
 """
     name: tLUXO:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20.0
@@ -12793,7 +13576,8 @@ LUXO_USD = LUXO_USD()
 class LYMUSD(NamedTuple):
     """
         name: tLYMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 740.0
@@ -12802,7 +13586,8 @@ class LYMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tLYMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 740.0
@@ -12829,7 +13614,8 @@ class LYMUSD(NamedTuple):
 LYMUSD = LYMUSD()
 """
     name: tLYMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 740.0
@@ -12842,7 +13628,8 @@ LYMUSD = LYMUSD()
 class MATIC_BTC(NamedTuple):
     """
         name: tMATIC:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -12851,7 +13638,8 @@ class MATIC_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMATIC:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -12878,7 +13666,8 @@ class MATIC_BTC(NamedTuple):
 MATIC_BTC = MATIC_BTC()
 """
     name: tMATIC:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -12891,7 +13680,8 @@ MATIC_BTC = MATIC_BTC()
 class MATIC_USD(NamedTuple):
     """
         name: tMATIC:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -12900,7 +13690,8 @@ class MATIC_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMATIC:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -12927,7 +13718,8 @@ class MATIC_USD(NamedTuple):
 MATIC_USD = MATIC_USD()
 """
     name: tMATIC:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -12940,7 +13732,8 @@ MATIC_USD = MATIC_USD()
 class MATIC_UST(NamedTuple):
     """
         name: tMATIC:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -12949,7 +13742,8 @@ class MATIC_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMATIC:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -12976,7 +13770,8 @@ class MATIC_UST(NamedTuple):
 MATIC_UST = MATIC_UST()
 """
     name: tMATIC:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -12989,7 +13784,8 @@ MATIC_UST = MATIC_UST()
 class MATICF0_USTF0(NamedTuple):
     """
         name: tMATICF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 4.0
@@ -12998,7 +13794,8 @@ class MATICF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMATICF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 4.0
@@ -13025,7 +13822,8 @@ class MATICF0_USTF0(NamedTuple):
 MATICF0_USTF0 = MATICF0_USTF0()
 """
     name: tMATICF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 4.0
@@ -13038,7 +13836,8 @@ MATICF0_USTF0 = MATICF0_USTF0()
 class MIMUSD(NamedTuple):
     """
         name: tMIMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13047,7 +13846,8 @@ class MIMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMIMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -13074,7 +13874,8 @@ class MIMUSD(NamedTuple):
 MIMUSD = MIMUSD()
 """
     name: tMIMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -13087,7 +13888,8 @@ MIMUSD = MIMUSD()
 class MIMUST(NamedTuple):
     """
         name: tMIMUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13096,7 +13898,8 @@ class MIMUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMIMUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -13123,7 +13926,8 @@ class MIMUST(NamedTuple):
 MIMUST = MIMUST()
 """
     name: tMIMUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -13136,7 +13940,8 @@ MIMUST = MIMUST()
 class MKRF0_USTF0(NamedTuple):
     """
         name: tMKRF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -13145,7 +13950,8 @@ class MKRF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMKRF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -13172,7 +13978,8 @@ class MKRF0_USTF0(NamedTuple):
 MKRF0_USTF0 = MKRF0_USTF0()
 """
     name: tMKRF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -13185,7 +13992,8 @@ MKRF0_USTF0 = MKRF0_USTF0()
 class MKRUSD(NamedTuple):
     """
         name: tMKRUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -13194,7 +14002,8 @@ class MKRUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMKRUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -13221,7 +14030,8 @@ class MKRUSD(NamedTuple):
 MKRUSD = MKRUSD()
 """
     name: tMKRUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -13234,7 +14044,8 @@ MKRUSD = MKRUSD()
 class MKRUST(NamedTuple):
     """
         name: tMKRUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.002
@@ -13243,7 +14054,8 @@ class MKRUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMKRUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.002
@@ -13270,7 +14082,8 @@ class MKRUST(NamedTuple):
 MKRUST = MKRUST()
 """
     name: tMKRUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.002
@@ -13283,7 +14096,8 @@ MKRUST = MKRUST()
 class MLNUSD(NamedTuple):
     """
         name: tMLNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.08
@@ -13292,7 +14106,8 @@ class MLNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMLNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.08
@@ -13319,7 +14134,8 @@ class MLNUSD(NamedTuple):
 MLNUSD = MLNUSD()
 """
     name: tMLNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.08
@@ -13332,7 +14148,8 @@ MLNUSD = MLNUSD()
 class MNABTC(NamedTuple):
     """
         name: tMNABTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -13341,7 +14158,8 @@ class MNABTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMNABTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -13368,7 +14186,8 @@ class MNABTC(NamedTuple):
 MNABTC = MNABTC()
 """
     name: tMNABTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -13381,7 +14200,8 @@ MNABTC = MNABTC()
 class MNAUSD(NamedTuple):
     """
         name: tMNAUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -13390,7 +14210,8 @@ class MNAUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMNAUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -13417,7 +14238,8 @@ class MNAUSD(NamedTuple):
 MNAUSD = MNAUSD()
 """
     name: tMNAUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -13430,7 +14252,8 @@ MNAUSD = MNAUSD()
 class MOBUSD(NamedTuple):
     """
         name: tMOBUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13439,7 +14262,8 @@ class MOBUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMOBUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -13466,7 +14290,8 @@ class MOBUSD(NamedTuple):
 MOBUSD = MOBUSD()
 """
     name: tMOBUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -13479,7 +14304,8 @@ MOBUSD = MOBUSD()
 class MOBUST(NamedTuple):
     """
         name: tMOBUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13488,7 +14314,8 @@ class MOBUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMOBUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -13515,7 +14342,8 @@ class MOBUST(NamedTuple):
 MOBUST = MOBUST()
 """
     name: tMOBUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -13528,7 +14356,8 @@ MOBUST = MOBUST()
 class MXNT_USD(NamedTuple):
     """
         name: tMXNT:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -13537,7 +14366,8 @@ class MXNT_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tMXNT:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -13564,7 +14394,8 @@ class MXNT_USD(NamedTuple):
 MXNT_USD = MXNT_USD()
 """
     name: tMXNT:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -13577,7 +14408,8 @@ MXNT_USD = MXNT_USD()
 class NEAR_USD(NamedTuple):
     """
         name: tNEAR:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -13586,7 +14418,8 @@ class NEAR_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEAR:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -13613,7 +14446,8 @@ class NEAR_USD(NamedTuple):
 NEAR_USD = NEAR_USD()
 """
     name: tNEAR:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -13626,7 +14460,8 @@ NEAR_USD = NEAR_USD()
 class NEAR_UST(NamedTuple):
     """
         name: tNEAR:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -13635,7 +14470,8 @@ class NEAR_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEAR:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -13662,7 +14498,8 @@ class NEAR_UST(NamedTuple):
 NEAR_UST = NEAR_UST()
 """
     name: tNEAR:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -13675,7 +14512,8 @@ NEAR_UST = NEAR_UST()
 class NEARF0_USTF0(NamedTuple):
     """
         name: tNEARF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.4
@@ -13684,7 +14522,8 @@ class NEARF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEARF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.4
@@ -13711,7 +14550,8 @@ class NEARF0_USTF0(NamedTuple):
 NEARF0_USTF0 = NEARF0_USTF0()
 """
     name: tNEARF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.4
@@ -13724,7 +14564,8 @@ NEARF0_USTF0 = NEARF0_USTF0()
 class NEOBTC(NamedTuple):
     """
         name: tNEOBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -13733,7 +14574,8 @@ class NEOBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEOBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -13760,7 +14602,8 @@ class NEOBTC(NamedTuple):
 NEOBTC = NEOBTC()
 """
     name: tNEOBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -13773,7 +14616,8 @@ NEOBTC = NEOBTC()
 class NEOF0_USTF0(NamedTuple):
     """
         name: tNEOF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -13782,7 +14626,8 @@ class NEOF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEOF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -13809,7 +14654,8 @@ class NEOF0_USTF0(NamedTuple):
 NEOF0_USTF0 = NEOF0_USTF0()
 """
     name: tNEOF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -13822,7 +14668,8 @@ NEOF0_USTF0 = NEOF0_USTF0()
 class NEOUSD(NamedTuple):
     """
         name: tNEOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -13831,7 +14678,8 @@ class NEOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -13858,7 +14706,8 @@ class NEOUSD(NamedTuple):
 NEOUSD = NEOUSD()
 """
     name: tNEOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -13871,7 +14720,8 @@ NEOUSD = NEOUSD()
 class NEOUST(NamedTuple):
     """
         name: tNEOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -13880,7 +14730,8 @@ class NEOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -13907,7 +14758,8 @@ class NEOUST(NamedTuple):
 NEOUST = NEOUST()
 """
     name: tNEOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -13920,7 +14772,8 @@ NEOUST = NEOUST()
 class NEXO_BTC(NamedTuple):
     """
         name: tNEXO:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13929,7 +14782,8 @@ class NEXO_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEXO:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -13956,7 +14810,8 @@ class NEXO_BTC(NamedTuple):
 NEXO_BTC = NEXO_BTC()
 """
     name: tNEXO:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -13969,7 +14824,8 @@ NEXO_BTC = NEXO_BTC()
 class NEXO_USD(NamedTuple):
     """
         name: tNEXO:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -13978,7 +14834,8 @@ class NEXO_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEXO:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -14005,7 +14862,8 @@ class NEXO_USD(NamedTuple):
 NEXO_USD = NEXO_USD()
 """
     name: tNEXO:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -14018,7 +14876,8 @@ NEXO_USD = NEXO_USD()
 class NEXO_UST(NamedTuple):
     """
         name: tNEXO:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -14027,7 +14886,8 @@ class NEXO_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNEXO:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -14054,7 +14914,8 @@ class NEXO_UST(NamedTuple):
 NEXO_UST = NEXO_UST()
 """
     name: tNEXO:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -14067,7 +14928,8 @@ NEXO_UST = NEXO_UST()
 class NOMUSD(NamedTuple):
     """
         name: tNOMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14076,7 +14938,8 @@ class NOMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNOMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14103,7 +14966,8 @@ class NOMUSD(NamedTuple):
 NOMUSD = NOMUSD()
 """
     name: tNOMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14116,7 +14980,8 @@ NOMUSD = NOMUSD()
 class NOMUST(NamedTuple):
     """
         name: tNOMUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14125,7 +14990,8 @@ class NOMUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNOMUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14152,7 +15018,8 @@ class NOMUST(NamedTuple):
 NOMUST = NOMUST()
 """
     name: tNOMUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14165,7 +15032,8 @@ NOMUST = NOMUST()
 class NXRA_USD(NamedTuple):
     """
         name: tNXRA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14174,7 +15042,8 @@ class NXRA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tNXRA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14201,7 +15070,8 @@ class NXRA_USD(NamedTuple):
 NXRA_USD = NXRA_USD()
 """
     name: tNXRA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14214,7 +15084,8 @@ NXRA_USD = NXRA_USD()
 class OCEAN_USD(NamedTuple):
     """
         name: tOCEAN:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 10.0
@@ -14223,7 +15094,8 @@ class OCEAN_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOCEAN:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 10.0
@@ -14250,7 +15122,8 @@ class OCEAN_USD(NamedTuple):
 OCEAN_USD = OCEAN_USD()
 """
     name: tOCEAN:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 10.0
@@ -14263,7 +15136,8 @@ OCEAN_USD = OCEAN_USD()
 class OCEAN_UST(NamedTuple):
     """
         name: tOCEAN:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 10.0
@@ -14272,7 +15146,8 @@ class OCEAN_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOCEAN:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 10.0
@@ -14299,7 +15174,8 @@ class OCEAN_UST(NamedTuple):
 OCEAN_UST = OCEAN_UST()
 """
     name: tOCEAN:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 10.0
@@ -14312,7 +15188,8 @@ OCEAN_UST = OCEAN_UST()
 class OGNUSD(NamedTuple):
     """
         name: tOGNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14321,7 +15198,8 @@ class OGNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOGNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14348,7 +15226,8 @@ class OGNUSD(NamedTuple):
 OGNUSD = OGNUSD()
 """
     name: tOGNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14361,7 +15240,8 @@ OGNUSD = OGNUSD()
 class OGNUST(NamedTuple):
     """
         name: tOGNUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14370,7 +15250,8 @@ class OGNUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOGNUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14397,7 +15278,8 @@ class OGNUST(NamedTuple):
 OGNUST = OGNUST()
 """
     name: tOGNUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14410,7 +15292,8 @@ OGNUST = OGNUST()
 class OMGBTC(NamedTuple):
     """
         name: tOMGBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -14419,7 +15302,8 @@ class OMGBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOMGBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -14446,7 +15330,8 @@ class OMGBTC(NamedTuple):
 OMGBTC = OMGBTC()
 """
     name: tOMGBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -14459,7 +15344,8 @@ OMGBTC = OMGBTC()
 class OMGETH(NamedTuple):
     """
         name: tOMGETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -14468,7 +15354,8 @@ class OMGETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOMGETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -14495,7 +15382,8 @@ class OMGETH(NamedTuple):
 OMGETH = OMGETH()
 """
     name: tOMGETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -14508,7 +15396,8 @@ OMGETH = OMGETH()
 class OMGF0_USTF0(NamedTuple):
     """
         name: tOMGF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.8
@@ -14517,7 +15406,8 @@ class OMGF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOMGF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.8
@@ -14544,7 +15434,8 @@ class OMGF0_USTF0(NamedTuple):
 OMGF0_USTF0 = OMGF0_USTF0()
 """
     name: tOMGF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.8
@@ -14557,7 +15448,8 @@ OMGF0_USTF0 = OMGF0_USTF0()
 class OMGUSD(NamedTuple):
     """
         name: tOMGUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -14566,7 +15458,8 @@ class OMGUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOMGUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -14593,7 +15486,8 @@ class OMGUSD(NamedTuple):
 OMGUSD = OMGUSD()
 """
     name: tOMGUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -14606,7 +15500,8 @@ OMGUSD = OMGUSD()
 class OMNUSD(NamedTuple):
     """
         name: tOMNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -14615,7 +15510,8 @@ class OMNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tOMNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -14642,7 +15538,8 @@ class OMNUSD(NamedTuple):
 OMNUSD = OMNUSD()
 """
     name: tOMNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -14655,7 +15552,8 @@ OMNUSD = OMNUSD()
 class ONEUSD(NamedTuple):
     """
         name: tONEUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14664,7 +15562,8 @@ class ONEUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tONEUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14691,7 +15590,8 @@ class ONEUSD(NamedTuple):
 ONEUSD = ONEUSD()
 """
     name: tONEUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14704,7 +15604,8 @@ ONEUSD = ONEUSD()
 class ONEUST(NamedTuple):
     """
         name: tONEUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -14713,7 +15614,8 @@ class ONEUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tONEUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -14740,7 +15642,8 @@ class ONEUST(NamedTuple):
 ONEUST = ONEUST()
 """
     name: tONEUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -14753,7 +15656,8 @@ ONEUST = ONEUST()
 class PASUSD(NamedTuple):
     """
         name: tPASUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1588.0
@@ -14762,7 +15666,8 @@ class PASUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPASUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1588.0
@@ -14789,7 +15694,8 @@ class PASUSD(NamedTuple):
 PASUSD = PASUSD()
 """
     name: tPASUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1588.0
@@ -14802,7 +15708,8 @@ PASUSD = PASUSD()
 class PAXUSD(NamedTuple):
     """
         name: tPAXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -14811,7 +15718,8 @@ class PAXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPAXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -14838,7 +15746,8 @@ class PAXUSD(NamedTuple):
 PAXUSD = PAXUSD()
 """
     name: tPAXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -14851,7 +15760,8 @@ PAXUSD = PAXUSD()
 class PAXUST(NamedTuple):
     """
         name: tPAXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -14860,7 +15770,8 @@ class PAXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPAXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -14887,7 +15798,8 @@ class PAXUST(NamedTuple):
 PAXUST = PAXUST()
 """
     name: tPAXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -14900,7 +15812,8 @@ PAXUST = PAXUST()
 class PLANETS_USD(NamedTuple):
     """
         name: tPLANETS:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 124.0
@@ -14909,7 +15822,8 @@ class PLANETS_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPLANETS:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 124.0
@@ -14936,7 +15850,8 @@ class PLANETS_USD(NamedTuple):
 PLANETS_USD = PLANETS_USD()
 """
     name: tPLANETS:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 124.0
@@ -14949,7 +15864,8 @@ PLANETS_USD = PLANETS_USD()
 class PLANETS_UST(NamedTuple):
     """
         name: tPLANETS:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 124.0
@@ -14958,7 +15874,8 @@ class PLANETS_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPLANETS:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 124.0
@@ -14985,7 +15902,8 @@ class PLANETS_UST(NamedTuple):
 PLANETS_UST = PLANETS_UST()
 """
     name: tPLANETS:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 124.0
@@ -14998,7 +15916,8 @@ PLANETS_UST = PLANETS_UST()
 class PLUUSD(NamedTuple):
     """
         name: tPLUUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -15007,7 +15926,8 @@ class PLUUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPLUUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -15034,7 +15954,8 @@ class PLUUSD(NamedTuple):
 PLUUSD = PLUUSD()
 """
     name: tPLUUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -15047,7 +15968,8 @@ PLUUSD = PLUUSD()
 class PNKUSD(NamedTuple):
     """
         name: tPNKUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 52.0
@@ -15056,7 +15978,8 @@ class PNKUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPNKUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 52.0
@@ -15083,7 +16006,8 @@ class PNKUSD(NamedTuple):
 PNKUSD = PNKUSD()
 """
     name: tPNKUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 52.0
@@ -15096,7 +16020,8 @@ PNKUSD = PNKUSD()
 class POLC_USD(NamedTuple):
     """
         name: tPOLC:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -15105,7 +16030,8 @@ class POLC_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPOLC:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -15132,7 +16058,8 @@ class POLC_USD(NamedTuple):
 POLC_USD = POLC_USD()
 """
     name: tPOLC:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -15145,7 +16072,8 @@ POLC_USD = POLC_USD()
 class POLC_UST(NamedTuple):
     """
         name: tPOLC:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 26.0
@@ -15154,7 +16082,8 @@ class POLC_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPOLC:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 26.0
@@ -15181,7 +16110,8 @@ class POLC_UST(NamedTuple):
 POLC_UST = POLC_UST()
 """
     name: tPOLC:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 26.0
@@ -15194,7 +16124,8 @@ POLC_UST = POLC_UST()
 class POLIS_USD(NamedTuple):
     """
         name: tPOLIS:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -15203,7 +16134,8 @@ class POLIS_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPOLIS:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -15230,7 +16162,8 @@ class POLIS_USD(NamedTuple):
 POLIS_USD = POLIS_USD()
 """
     name: tPOLIS:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -15243,7 +16176,8 @@ POLIS_USD = POLIS_USD()
 class POLIS_UST(NamedTuple):
     """
         name: tPOLIS:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -15252,7 +16186,8 @@ class POLIS_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPOLIS:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -15279,7 +16214,8 @@ class POLIS_UST(NamedTuple):
 POLIS_UST = POLIS_UST()
 """
     name: tPOLIS:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -15292,7 +16228,8 @@ POLIS_UST = POLIS_UST()
 class PRMX_USD(NamedTuple):
     """
         name: tPRMX:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -15301,7 +16238,8 @@ class PRMX_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPRMX:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -15328,7 +16266,8 @@ class PRMX_USD(NamedTuple):
 PRMX_USD = PRMX_USD()
 """
     name: tPRMX:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -15341,7 +16280,8 @@ PRMX_USD = PRMX_USD()
 class PRMX_UST(NamedTuple):
     """
         name: tPRMX:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -15350,7 +16290,8 @@ class PRMX_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tPRMX:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -15377,7 +16318,8 @@ class PRMX_UST(NamedTuple):
 PRMX_UST = PRMX_UST()
 """
     name: tPRMX:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -15390,7 +16332,8 @@ PRMX_UST = PRMX_UST()
 class QRDO_USD(NamedTuple):
     """
         name: tQRDO:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -15399,7 +16342,8 @@ class QRDO_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tQRDO:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -15426,7 +16370,8 @@ class QRDO_USD(NamedTuple):
 QRDO_USD = QRDO_USD()
 """
     name: tQRDO:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -15439,7 +16384,8 @@ QRDO_USD = QRDO_USD()
 class QRDO_UST(NamedTuple):
     """
         name: tQRDO:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -15448,7 +16394,8 @@ class QRDO_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tQRDO:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -15475,7 +16422,8 @@ class QRDO_UST(NamedTuple):
 QRDO_UST = QRDO_UST()
 """
     name: tQRDO:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -15488,7 +16436,8 @@ QRDO_UST = QRDO_UST()
 class QTFBTC(NamedTuple):
     """
         name: tQTFBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -15497,7 +16446,8 @@ class QTFBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tQTFBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -15524,7 +16474,8 @@ class QTFBTC(NamedTuple):
 QTFBTC = QTFBTC()
 """
     name: tQTFBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -15537,7 +16488,8 @@ QTFBTC = QTFBTC()
 class QTFUSD(NamedTuple):
     """
         name: tQTFUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -15546,7 +16498,8 @@ class QTFUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tQTFUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -15573,7 +16526,8 @@ class QTFUSD(NamedTuple):
 QTFUSD = QTFUSD()
 """
     name: tQTFUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -15586,7 +16540,8 @@ QTFUSD = QTFUSD()
 class QTMUSD(NamedTuple):
     """
         name: tQTMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.6
@@ -15595,7 +16550,8 @@ class QTMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tQTMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.6
@@ -15622,7 +16578,8 @@ class QTMUSD(NamedTuple):
 QTMUSD = QTMUSD()
 """
     name: tQTMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.6
@@ -15635,7 +16592,8 @@ QTMUSD = QTMUSD()
 class RBTUSD(NamedTuple):
     """
         name: tRBTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -15644,7 +16602,8 @@ class RBTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tRBTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -15671,7 +16630,8 @@ class RBTUSD(NamedTuple):
 RBTUSD = RBTUSD()
 """
     name: tRBTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -15684,7 +16644,8 @@ RBTUSD = RBTUSD()
 class REEF_USD(NamedTuple):
     """
         name: tREEF:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 466.0
@@ -15693,7 +16654,8 @@ class REEF_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tREEF:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 466.0
@@ -15720,7 +16682,8 @@ class REEF_USD(NamedTuple):
 REEF_USD = REEF_USD()
 """
     name: tREEF:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 466.0
@@ -15733,7 +16696,8 @@ REEF_USD = REEF_USD()
 class REEF_UST(NamedTuple):
     """
         name: tREEF:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 466.0
@@ -15742,7 +16706,8 @@ class REEF_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tREEF:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 466.0
@@ -15769,7 +16734,8 @@ class REEF_UST(NamedTuple):
 REEF_UST = REEF_UST()
 """
     name: tREEF:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 466.0
@@ -15782,7 +16748,8 @@ REEF_UST = REEF_UST()
 class REPUSD(NamedTuple):
     """
         name: tREPUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -15791,7 +16758,8 @@ class REPUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tREPUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -15818,7 +16786,8 @@ class REPUSD(NamedTuple):
 REPUSD = REPUSD()
 """
     name: tREPUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -15831,7 +16800,8 @@ REPUSD = REPUSD()
 class REQUSD(NamedTuple):
     """
         name: tREQUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 16.0
@@ -15840,7 +16810,8 @@ class REQUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tREQUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 16.0
@@ -15867,7 +16838,8 @@ class REQUSD(NamedTuple):
 REQUSD = REQUSD()
 """
     name: tREQUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 16.0
@@ -15880,7 +16852,8 @@ REQUSD = REQUSD()
 class RLYUSD(NamedTuple):
     """
         name: tRLYUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -15889,7 +16862,8 @@ class RLYUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tRLYUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -15916,7 +16890,8 @@ class RLYUSD(NamedTuple):
 RLYUSD = RLYUSD()
 """
     name: tRLYUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -15929,7 +16904,8 @@ RLYUSD = RLYUSD()
 class RLYUST(NamedTuple):
     """
         name: tRLYUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -15938,7 +16914,8 @@ class RLYUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tRLYUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -15965,7 +16942,8 @@ class RLYUST(NamedTuple):
 RLYUST = RLYUST()
 """
     name: tRLYUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -15978,7 +16956,8 @@ RLYUST = RLYUST()
 class RRTUSD(NamedTuple):
     """
         name: tRRTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -15987,7 +16966,8 @@ class RRTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tRRTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -16014,7 +16994,8 @@ class RRTUSD(NamedTuple):
 RRTUSD = RRTUSD()
 """
     name: tRRTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -16027,7 +17008,8 @@ RRTUSD = RRTUSD()
 class SAND_USD(NamedTuple):
     """
         name: tSAND:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -16036,7 +17018,8 @@ class SAND_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSAND:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -16063,7 +17046,8 @@ class SAND_USD(NamedTuple):
 SAND_USD = SAND_USD()
 """
     name: tSAND:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -16076,7 +17060,8 @@ SAND_USD = SAND_USD()
 class SAND_UST(NamedTuple):
     """
         name: tSAND:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -16085,7 +17070,8 @@ class SAND_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSAND:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -16112,7 +17098,8 @@ class SAND_UST(NamedTuple):
 SAND_UST = SAND_UST()
 """
     name: tSAND:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -16125,7 +17112,8 @@ SAND_UST = SAND_UST()
 class SANDF0_USTF0(NamedTuple):
     """
         name: tSANDF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -16134,7 +17122,8 @@ class SANDF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSANDF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -16161,7 +17150,8 @@ class SANDF0_USTF0(NamedTuple):
 SANDF0_USTF0 = SANDF0_USTF0()
 """
     name: tSANDF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -16174,7 +17164,8 @@ SANDF0_USTF0 = SANDF0_USTF0()
 class SENATE_USD(NamedTuple):
     """
         name: tSENATE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 20.0
@@ -16183,7 +17174,8 @@ class SENATE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSENATE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 20.0
@@ -16210,7 +17202,8 @@ class SENATE_USD(NamedTuple):
 SENATE_USD = SENATE_USD()
 """
     name: tSENATE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 20.0
@@ -16223,7 +17216,8 @@ SENATE_USD = SENATE_USD()
 class SGBUSD(NamedTuple):
     """
         name: tSGBUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 52.0
@@ -16232,7 +17226,8 @@ class SGBUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSGBUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 52.0
@@ -16259,7 +17254,8 @@ class SGBUSD(NamedTuple):
 SGBUSD = SGBUSD()
 """
     name: tSGBUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 52.0
@@ -16272,7 +17268,8 @@ SGBUSD = SGBUSD()
 class SGBUST(NamedTuple):
     """
         name: tSGBUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 52.0
@@ -16281,7 +17278,8 @@ class SGBUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSGBUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 52.0
@@ -16308,7 +17306,8 @@ class SGBUST(NamedTuple):
 SGBUST = SGBUST()
 """
     name: tSGBUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 52.0
@@ -16321,7 +17320,8 @@ SGBUST = SGBUST()
 class SHFT_USD(NamedTuple):
     """
         name: tSHFT:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 52.0
@@ -16330,7 +17330,8 @@ class SHFT_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSHFT:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 52.0
@@ -16357,7 +17358,8 @@ class SHFT_USD(NamedTuple):
 SHFT_USD = SHFT_USD()
 """
     name: tSHFT:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 52.0
@@ -16370,7 +17372,8 @@ SHFT_USD = SHFT_USD()
 class SHFT_UST(NamedTuple):
     """
         name: tSHFT:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 52.0
@@ -16379,7 +17382,8 @@ class SHFT_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSHFT:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 52.0
@@ -16406,7 +17410,8 @@ class SHFT_UST(NamedTuple):
 SHFT_UST = SHFT_UST()
 """
     name: tSHFT:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 52.0
@@ -16419,7 +17424,8 @@ SHFT_UST = SHFT_UST()
 class SHIB_USD(NamedTuple):
     """
         name: tSHIB:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 187004.0
@@ -16428,7 +17434,8 @@ class SHIB_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSHIB:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 187004.0
@@ -16455,7 +17462,8 @@ class SHIB_USD(NamedTuple):
 SHIB_USD = SHIB_USD()
 """
     name: tSHIB:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 187004.0
@@ -16468,7 +17476,8 @@ SHIB_USD = SHIB_USD()
 class SHIB_UST(NamedTuple):
     """
         name: tSHIB:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 187004.0
@@ -16477,7 +17486,8 @@ class SHIB_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSHIB:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 187004.0
@@ -16504,7 +17514,8 @@ class SHIB_UST(NamedTuple):
 SHIB_UST = SHIB_UST()
 """
     name: tSHIB:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 187004.0
@@ -16517,7 +17528,8 @@ SHIB_UST = SHIB_UST()
 class SHIBF0_USTF0(NamedTuple):
     """
         name: tSHIBF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 187004.0
@@ -16526,7 +17538,8 @@ class SHIBF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSHIBF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 187004.0
@@ -16553,7 +17566,8 @@ class SHIBF0_USTF0(NamedTuple):
 SHIBF0_USTF0 = SHIBF0_USTF0()
 """
     name: tSHIBF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 187004.0
@@ -16566,7 +17580,8 @@ SHIBF0_USTF0 = SHIBF0_USTF0()
 class SIDUS_USD(NamedTuple):
     """
         name: tSIDUS:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 664.0
@@ -16575,7 +17590,8 @@ class SIDUS_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSIDUS:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 664.0
@@ -16602,7 +17618,8 @@ class SIDUS_USD(NamedTuple):
 SIDUS_USD = SIDUS_USD()
 """
     name: tSIDUS:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 664.0
@@ -16615,7 +17632,8 @@ SIDUS_USD = SIDUS_USD()
 class SMRUSD(NamedTuple):
     """
         name: tSMRUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -16624,7 +17642,8 @@ class SMRUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSMRUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -16651,7 +17670,8 @@ class SMRUSD(NamedTuple):
 SMRUSD = SMRUSD()
 """
     name: tSMRUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -16664,7 +17684,8 @@ SMRUSD = SMRUSD()
 class SMRUST(NamedTuple):
     """
         name: tSMRUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -16673,7 +17694,8 @@ class SMRUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSMRUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -16700,7 +17722,8 @@ class SMRUST(NamedTuple):
 SMRUST = SMRUST()
 """
     name: tSMRUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -16713,7 +17736,8 @@ SMRUST = SMRUST()
 class SNTUSD(NamedTuple):
     """
         name: tSNTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 48.0
@@ -16722,7 +17746,8 @@ class SNTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSNTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 48.0
@@ -16749,7 +17774,8 @@ class SNTUSD(NamedTuple):
 SNTUSD = SNTUSD()
 """
     name: tSNTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 48.0
@@ -16762,7 +17788,8 @@ SNTUSD = SNTUSD()
 class SNXUSD(NamedTuple):
     """
         name: tSNXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -16771,7 +17798,8 @@ class SNXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSNXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -16798,7 +17826,8 @@ class SNXUSD(NamedTuple):
 SNXUSD = SNXUSD()
 """
     name: tSNXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -16811,7 +17840,8 @@ SNXUSD = SNXUSD()
 class SNXUST(NamedTuple):
     """
         name: tSNXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.8
@@ -16820,7 +17850,8 @@ class SNXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSNXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.8
@@ -16847,7 +17878,8 @@ class SNXUST(NamedTuple):
 SNXUST = SNXUST()
 """
     name: tSNXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.8
@@ -16860,7 +17892,8 @@ SNXUST = SNXUST()
 class SOLBTC(NamedTuple):
     """
         name: tSOLBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.06
@@ -16869,7 +17902,8 @@ class SOLBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSOLBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.06
@@ -16896,7 +17930,8 @@ class SOLBTC(NamedTuple):
 SOLBTC = SOLBTC()
 """
     name: tSOLBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.06
@@ -16909,7 +17944,8 @@ SOLBTC = SOLBTC()
 class SOLF0_BTCF0(NamedTuple):
     """
         name: tSOLF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 2.5
         initial_margin: 5.0
         min_order_size: 0.06
@@ -16918,7 +17954,8 @@ class SOLF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSOLF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 2.5
     initial_margin: float = 5.0
     min_order_size: float = 0.06
@@ -16945,7 +17982,8 @@ class SOLF0_BTCF0(NamedTuple):
 SOLF0_BTCF0 = SOLF0_BTCF0()
 """
     name: tSOLF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 2.5
     initial_margin: 5.0
     min_order_size: 0.06
@@ -16958,7 +17996,8 @@ SOLF0_BTCF0 = SOLF0_BTCF0()
 class SOLF0_USTF0(NamedTuple):
     """
         name: tSOLF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 2.5
         initial_margin: 5.0
         min_order_size: 0.06
@@ -16967,7 +18006,8 @@ class SOLF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSOLF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 2.5
     initial_margin: float = 5.0
     min_order_size: float = 0.06
@@ -16994,7 +18034,8 @@ class SOLF0_USTF0(NamedTuple):
 SOLF0_USTF0 = SOLF0_USTF0()
 """
     name: tSOLF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 2.5
     initial_margin: 5.0
     min_order_size: 0.06
@@ -17007,7 +18048,8 @@ SOLF0_USTF0 = SOLF0_USTF0()
 class SOLUSD(NamedTuple):
     """
         name: tSOLUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.06
@@ -17016,7 +18058,8 @@ class SOLUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSOLUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.06
@@ -17043,7 +18086,8 @@ class SOLUSD(NamedTuple):
 SOLUSD = SOLUSD()
 """
     name: tSOLUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.06
@@ -17056,7 +18100,8 @@ SOLUSD = SOLUSD()
 class SOLUST(NamedTuple):
     """
         name: tSOLUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.06
@@ -17065,7 +18110,8 @@ class SOLUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSOLUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.06
@@ -17092,7 +18138,8 @@ class SOLUST(NamedTuple):
 SOLUST = SOLUST()
 """
     name: tSOLUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.06
@@ -17105,7 +18152,8 @@ SOLUST = SOLUST()
 class SPAIN35IXF0_USTF0(NamedTuple):
     """
         name: tSPAIN35IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -17114,7 +18162,8 @@ class SPAIN35IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSPAIN35IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -17141,7 +18190,8 @@ class SPAIN35IXF0_USTF0(NamedTuple):
 SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0()
 """
     name: tSPAIN35IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -17154,7 +18204,8 @@ SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0()
 class SPELL_USD(NamedTuple):
     """
         name: tSPELL:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 1640.0
@@ -17163,7 +18214,8 @@ class SPELL_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSPELL:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 1640.0
@@ -17190,7 +18242,8 @@ class SPELL_USD(NamedTuple):
 SPELL_USD = SPELL_USD()
 """
     name: tSPELL:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 1640.0
@@ -17203,7 +18256,8 @@ SPELL_USD = SPELL_USD()
 class STGF0_USTF0(NamedTuple):
     """
         name: tSTGF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 4.0
@@ -17212,7 +18266,8 @@ class STGF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSTGF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 4.0
@@ -17239,7 +18294,8 @@ class STGF0_USTF0(NamedTuple):
 STGF0_USTF0 = STGF0_USTF0()
 """
     name: tSTGF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 4.0
@@ -17252,7 +18308,8 @@ STGF0_USTF0 = STGF0_USTF0()
 class STGUSD(NamedTuple):
     """
         name: tSTGUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -17261,7 +18318,8 @@ class STGUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSTGUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -17288,7 +18346,8 @@ class STGUSD(NamedTuple):
 STGUSD = STGUSD()
 """
     name: tSTGUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -17301,7 +18360,8 @@ STGUSD = STGUSD()
 class STGUST(NamedTuple):
     """
         name: tSTGUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -17310,7 +18370,8 @@ class STGUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSTGUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -17337,7 +18398,8 @@ class STGUST(NamedTuple):
 STGUST = STGUST()
 """
     name: tSTGUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -17350,7 +18412,8 @@ STGUST = STGUST()
 class STJUSD(NamedTuple):
     """
         name: tSTJUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -17359,7 +18422,8 @@ class STJUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSTJUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -17386,7 +18450,8 @@ class STJUSD(NamedTuple):
 STJUSD = STJUSD()
 """
     name: tSTJUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -17399,7 +18464,8 @@ STJUSD = STJUSD()
 class SUKU_USD(NamedTuple):
     """
         name: tSUKU:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -17408,7 +18474,8 @@ class SUKU_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUKU:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -17435,7 +18502,8 @@ class SUKU_USD(NamedTuple):
 SUKU_USD = SUKU_USD()
 """
     name: tSUKU:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -17448,7 +18516,8 @@ SUKU_USD = SUKU_USD()
 class SUKU_UST(NamedTuple):
     """
         name: tSUKU:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 18.0
@@ -17457,7 +18526,8 @@ class SUKU_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUKU:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 18.0
@@ -17484,7 +18554,8 @@ class SUKU_UST(NamedTuple):
 SUKU_UST = SUKU_UST()
 """
     name: tSUKU:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 18.0
@@ -17497,7 +18568,8 @@ SUKU_UST = SUKU_UST()
 class SUNUSD(NamedTuple):
     """
         name: tSUNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 216.0
@@ -17506,7 +18578,8 @@ class SUNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 216.0
@@ -17533,7 +18606,8 @@ class SUNUSD(NamedTuple):
 SUNUSD = SUNUSD()
 """
     name: tSUNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 216.0
@@ -17546,7 +18620,8 @@ SUNUSD = SUNUSD()
 class SUNUST(NamedTuple):
     """
         name: tSUNUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 216.0
@@ -17555,7 +18630,8 @@ class SUNUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUNUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 216.0
@@ -17582,7 +18658,8 @@ class SUNUST(NamedTuple):
 SUNUST = SUNUST()
 """
     name: tSUNUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 216.0
@@ -17595,7 +18672,8 @@ SUNUST = SUNUST()
 class SUSHI_USD(NamedTuple):
     """
         name: tSUSHI:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -17604,7 +18682,8 @@ class SUSHI_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUSHI:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -17631,7 +18710,8 @@ class SUSHI_USD(NamedTuple):
 SUSHI_USD = SUSHI_USD()
 """
     name: tSUSHI:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -17644,7 +18724,8 @@ SUSHI_USD = SUSHI_USD()
 class SUSHI_UST(NamedTuple):
     """
         name: tSUSHI:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -17653,7 +18734,8 @@ class SUSHI_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUSHI:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -17680,7 +18762,8 @@ class SUSHI_UST(NamedTuple):
 SUSHI_UST = SUSHI_UST()
 """
     name: tSUSHI:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -17693,7 +18776,8 @@ SUSHI_UST = SUSHI_UST()
 class SUSHIF0_USTF0(NamedTuple):
     """
         name: tSUSHIF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -17702,7 +18786,8 @@ class SUSHIF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSUSHIF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -17729,7 +18814,8 @@ class SUSHIF0_USTF0(NamedTuple):
 SUSHIF0_USTF0 = SUSHIF0_USTF0()
 """
     name: tSUSHIF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -17742,7 +18828,8 @@ SUSHIF0_USTF0 = SUSHIF0_USTF0()
 class SWEAT_USD(NamedTuple):
     """
         name: tSWEAT:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -17751,7 +18838,8 @@ class SWEAT_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSWEAT:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -17778,7 +18866,8 @@ class SWEAT_USD(NamedTuple):
 SWEAT_USD = SWEAT_USD()
 """
     name: tSWEAT:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -17791,7 +18880,8 @@ SWEAT_USD = SWEAT_USD()
 class SWEAT_UST(NamedTuple):
     """
         name: tSWEAT:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -17800,7 +18890,8 @@ class SWEAT_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSWEAT:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -17827,7 +18918,8 @@ class SWEAT_UST(NamedTuple):
 SWEAT_UST = SWEAT_UST()
 """
     name: tSWEAT:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -17840,7 +18932,8 @@ SWEAT_UST = SWEAT_UST()
 class SXXUSD(NamedTuple):
     """
         name: tSXXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -17849,7 +18942,8 @@ class SXXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tSXXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -17876,7 +18970,8 @@ class SXXUSD(NamedTuple):
 SXXUSD = SXXUSD()
 """
     name: tSXXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -17889,7 +18984,8 @@ SXXUSD = SXXUSD()
 class TERRAUST_USD(NamedTuple):
     """
         name: tTERRAUST:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 100.0
@@ -17898,7 +18994,8 @@ class TERRAUST_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTERRAUST:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 100.0
@@ -17925,7 +19022,8 @@ class TERRAUST_USD(NamedTuple):
 TERRAUST_USD = TERRAUST_USD()
 """
     name: tTERRAUST:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 100.0
@@ -17938,7 +19036,8 @@ TERRAUST_USD = TERRAUST_USD()
 class TESTADA_TESTUSD(NamedTuple):
     """
         name: tTESTADA:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -17947,7 +19046,8 @@ class TESTADA_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTADA:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -17974,7 +19074,8 @@ class TESTADA_TESTUSD(NamedTuple):
 TESTADA_TESTUSD = TESTADA_TESTUSD()
 """
     name: tTESTADA:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -17987,7 +19088,8 @@ TESTADA_TESTUSD = TESTADA_TESTUSD()
 class TESTADAF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTADAF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -17996,7 +19098,8 @@ class TESTADAF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTADAF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18023,7 +19126,8 @@ class TESTADAF0_TESTUSDTF0(NamedTuple):
 TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0()
 """
     name: tTESTADAF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18036,7 +19140,8 @@ TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0()
 class TESTALGO_TESTUSD(NamedTuple):
     """
         name: tTESTALGO:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18045,7 +19150,8 @@ class TESTALGO_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTALGO:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18072,7 +19178,8 @@ class TESTALGO_TESTUSD(NamedTuple):
 TESTALGO_TESTUSD = TESTALGO_TESTUSD()
 """
     name: tTESTALGO:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18085,7 +19192,8 @@ TESTALGO_TESTUSD = TESTALGO_TESTUSD()
 class TESTALGOF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTALGOF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18094,7 +19202,8 @@ class TESTALGOF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTALGOF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18121,7 +19230,8 @@ class TESTALGOF0_TESTUSDTF0(NamedTuple):
 TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0()
 """
     name: tTESTALGOF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18134,7 +19244,8 @@ TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0()
 class TESTAPT_TESTUSD(NamedTuple):
     """
         name: tTESTAPT:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18143,7 +19254,8 @@ class TESTAPT_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTAPT:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18170,7 +19282,8 @@ class TESTAPT_TESTUSD(NamedTuple):
 TESTAPT_TESTUSD = TESTAPT_TESTUSD()
 """
     name: tTESTAPT:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18183,7 +19296,8 @@ TESTAPT_TESTUSD = TESTAPT_TESTUSD()
 class TESTAPTF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTAPTF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18192,7 +19306,8 @@ class TESTAPTF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTAPTF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18219,7 +19334,8 @@ class TESTAPTF0_TESTUSDTF0(NamedTuple):
 TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0()
 """
     name: tTESTAPTF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18232,7 +19348,8 @@ TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0()
 class TESTAVAX_TESTUSD(NamedTuple):
     """
         name: tTESTAVAX:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18241,7 +19358,8 @@ class TESTAVAX_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTAVAX:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18268,7 +19386,8 @@ class TESTAVAX_TESTUSD(NamedTuple):
 TESTAVAX_TESTUSD = TESTAVAX_TESTUSD()
 """
     name: tTESTAVAX:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18281,7 +19400,8 @@ TESTAVAX_TESTUSD = TESTAVAX_TESTUSD()
 class TESTAVAXF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTAVAXF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18290,7 +19410,8 @@ class TESTAVAXF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTAVAXF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18317,7 +19438,8 @@ class TESTAVAXF0_TESTUSDTF0(NamedTuple):
 TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0()
 """
     name: tTESTAVAXF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18330,7 +19452,8 @@ TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0()
 class TESTBTC_TESTUSD(NamedTuple):
     """
         name: tTESTBTC:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -18339,7 +19462,8 @@ class TESTBTC_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTBTC:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -18366,7 +19490,8 @@ class TESTBTC_TESTUSD(NamedTuple):
 TESTBTC_TESTUSD = TESTBTC_TESTUSD()
 """
     name: tTESTBTC:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -18379,7 +19504,8 @@ TESTBTC_TESTUSD = TESTBTC_TESTUSD()
 class TESTBTC_TESTUSDT(NamedTuple):
     """
         name: tTESTBTC:TESTUSDT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -18388,7 +19514,8 @@ class TESTBTC_TESTUSDT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTBTC:TESTUSDT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -18415,7 +19542,8 @@ class TESTBTC_TESTUSDT(NamedTuple):
 TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
 """
     name: tTESTBTC:TESTUSDT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -18428,7 +19556,8 @@ TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
 class TESTBTCF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTBTCF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.00006
@@ -18437,7 +19566,8 @@ class TESTBTCF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTBTCF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.00006
@@ -18464,7 +19594,8 @@ class TESTBTCF0_TESTUSDTF0(NamedTuple):
 TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
 """
     name: tTESTBTCF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.00006
@@ -18477,7 +19608,8 @@ TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
 class TESTDOGE_TESTUSD(NamedTuple):
     """
         name: tTESTDOGE:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18486,7 +19618,8 @@ class TESTDOGE_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTDOGE:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18513,7 +19646,8 @@ class TESTDOGE_TESTUSD(NamedTuple):
 TESTDOGE_TESTUSD = TESTDOGE_TESTUSD()
 """
     name: tTESTDOGE:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18526,7 +19660,8 @@ TESTDOGE_TESTUSD = TESTDOGE_TESTUSD()
 class TESTDOGEF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTDOGEF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18535,7 +19670,8 @@ class TESTDOGEF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTDOGEF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18562,7 +19698,8 @@ class TESTDOGEF0_TESTUSDTF0(NamedTuple):
 TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0()
 """
     name: tTESTDOGEF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18575,7 +19712,8 @@ TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0()
 class TESTDOT_TESTUSD(NamedTuple):
     """
         name: tTESTDOT:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18584,7 +19722,8 @@ class TESTDOT_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTDOT:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18611,7 +19750,8 @@ class TESTDOT_TESTUSD(NamedTuple):
 TESTDOT_TESTUSD = TESTDOT_TESTUSD()
 """
     name: tTESTDOT:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18624,7 +19764,8 @@ TESTDOT_TESTUSD = TESTDOT_TESTUSD()
 class TESTDOTF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTDOTF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18633,7 +19774,8 @@ class TESTDOTF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTDOTF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18660,7 +19802,8 @@ class TESTDOTF0_TESTUSDTF0(NamedTuple):
 TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0()
 """
     name: tTESTDOTF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18673,7 +19816,8 @@ TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0()
 class TESTEOS_TESTUSD(NamedTuple):
     """
         name: tTESTEOS:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18682,7 +19826,8 @@ class TESTEOS_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTEOS:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18709,7 +19854,8 @@ class TESTEOS_TESTUSD(NamedTuple):
 TESTEOS_TESTUSD = TESTEOS_TESTUSD()
 """
     name: tTESTEOS:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18722,7 +19868,8 @@ TESTEOS_TESTUSD = TESTEOS_TESTUSD()
 class TESTEOSF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTEOSF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18731,7 +19878,8 @@ class TESTEOSF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTEOSF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18758,7 +19906,8 @@ class TESTEOSF0_TESTUSDTF0(NamedTuple):
 TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0()
 """
     name: tTESTEOSF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18771,7 +19920,8 @@ TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0()
 class TESTETH_TESTUSD(NamedTuple):
     """
         name: tTESTETH:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18780,7 +19930,8 @@ class TESTETH_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTETH:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18807,7 +19958,8 @@ class TESTETH_TESTUSD(NamedTuple):
 TESTETH_TESTUSD = TESTETH_TESTUSD()
 """
     name: tTESTETH:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18820,7 +19972,8 @@ TESTETH_TESTUSD = TESTETH_TESTUSD()
 class TESTETHF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTETHF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18829,7 +19982,8 @@ class TESTETHF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTETHF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18856,7 +20010,8 @@ class TESTETHF0_TESTUSDTF0(NamedTuple):
 TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0()
 """
     name: tTESTETHF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18869,7 +20024,8 @@ TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0()
 class TESTFIL_TESTUSD(NamedTuple):
     """
         name: tTESTFIL:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18878,7 +20034,8 @@ class TESTFIL_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTFIL:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -18905,7 +20062,8 @@ class TESTFIL_TESTUSD(NamedTuple):
 TESTFIL_TESTUSD = TESTFIL_TESTUSD()
 """
     name: tTESTFIL:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -18918,7 +20076,8 @@ TESTFIL_TESTUSD = TESTFIL_TESTUSD()
 class TESTFILF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTFILF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -18927,7 +20086,8 @@ class TESTFILF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTFILF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -18954,7 +20114,8 @@ class TESTFILF0_TESTUSDTF0(NamedTuple):
 TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0()
 """
     name: tTESTFILF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -18967,7 +20128,8 @@ TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0()
 class TESTLTC_TESTUSD(NamedTuple):
     """
         name: tTESTLTC:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -18976,7 +20138,8 @@ class TESTLTC_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTLTC:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19003,7 +20166,8 @@ class TESTLTC_TESTUSD(NamedTuple):
 TESTLTC_TESTUSD = TESTLTC_TESTUSD()
 """
     name: tTESTLTC:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19016,7 +20180,8 @@ TESTLTC_TESTUSD = TESTLTC_TESTUSD()
 class TESTLTCF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTLTCF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19025,7 +20190,8 @@ class TESTLTCF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTLTCF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19052,7 +20218,8 @@ class TESTLTCF0_TESTUSDTF0(NamedTuple):
 TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0()
 """
     name: tTESTLTCF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19065,7 +20232,8 @@ TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0()
 class TESTMATIC_TESTUSD(NamedTuple):
     """
         name: tTESTMATIC:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19074,7 +20242,8 @@ class TESTMATIC_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTMATIC:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19101,7 +20270,8 @@ class TESTMATIC_TESTUSD(NamedTuple):
 TESTMATIC_TESTUSD = TESTMATIC_TESTUSD()
 """
     name: tTESTMATIC:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19114,7 +20284,8 @@ TESTMATIC_TESTUSD = TESTMATIC_TESTUSD()
 class TESTMATIC_TESTUSDT(NamedTuple):
     """
         name: tTESTMATIC:TESTUSDT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19123,7 +20294,8 @@ class TESTMATIC_TESTUSDT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTMATIC:TESTUSDT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19150,7 +20322,8 @@ class TESTMATIC_TESTUSDT(NamedTuple):
 TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT()
 """
     name: tTESTMATIC:TESTUSDT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19163,7 +20336,8 @@ TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT()
 class TESTMATICF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTMATICF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19172,7 +20346,8 @@ class TESTMATICF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTMATICF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19199,7 +20374,8 @@ class TESTMATICF0_TESTUSDTF0(NamedTuple):
 TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0()
 """
     name: tTESTMATICF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19212,7 +20388,8 @@ TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0()
 class TESTNEAR_TESTUSD(NamedTuple):
     """
         name: tTESTNEAR:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19221,7 +20398,8 @@ class TESTNEAR_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTNEAR:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19248,7 +20426,8 @@ class TESTNEAR_TESTUSD(NamedTuple):
 TESTNEAR_TESTUSD = TESTNEAR_TESTUSD()
 """
     name: tTESTNEAR:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19261,7 +20440,8 @@ TESTNEAR_TESTUSD = TESTNEAR_TESTUSD()
 class TESTNEARF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTNEARF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19270,7 +20450,8 @@ class TESTNEARF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTNEARF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19297,7 +20478,8 @@ class TESTNEARF0_TESTUSDTF0(NamedTuple):
 TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0()
 """
     name: tTESTNEARF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19310,7 +20492,8 @@ TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0()
 class TESTSOL_TESTUSD(NamedTuple):
     """
         name: tTESTSOL:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19319,7 +20502,8 @@ class TESTSOL_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTSOL:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19346,7 +20530,8 @@ class TESTSOL_TESTUSD(NamedTuple):
 TESTSOL_TESTUSD = TESTSOL_TESTUSD()
 """
     name: tTESTSOL:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19359,7 +20544,8 @@ TESTSOL_TESTUSD = TESTSOL_TESTUSD()
 class TESTSOLF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTSOLF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19368,7 +20554,8 @@ class TESTSOLF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTSOLF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19395,7 +20582,8 @@ class TESTSOLF0_TESTUSDTF0(NamedTuple):
 TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0()
 """
     name: tTESTSOLF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19408,7 +20596,8 @@ TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0()
 class TESTXAUT_TESTUSD(NamedTuple):
     """
         name: tTESTXAUT:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19417,7 +20606,8 @@ class TESTXAUT_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTXAUT:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19444,7 +20634,8 @@ class TESTXAUT_TESTUSD(NamedTuple):
 TESTXAUT_TESTUSD = TESTXAUT_TESTUSD()
 """
     name: tTESTXAUT:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19457,7 +20648,8 @@ TESTXAUT_TESTUSD = TESTXAUT_TESTUSD()
 class TESTXAUTF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTXAUTF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19466,7 +20658,8 @@ class TESTXAUTF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTXAUTF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19493,7 +20686,8 @@ class TESTXAUTF0_TESTUSDTF0(NamedTuple):
 TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0()
 """
     name: tTESTXAUTF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19506,7 +20700,8 @@ TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0()
 class TESTXTZ_TESTUSD(NamedTuple):
     """
         name: tTESTXTZ:TESTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19515,7 +20710,8 @@ class TESTXTZ_TESTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTXTZ:TESTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19542,7 +20738,8 @@ class TESTXTZ_TESTUSD(NamedTuple):
 TESTXTZ_TESTUSD = TESTXTZ_TESTUSD()
 """
     name: tTESTXTZ:TESTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19555,7 +20752,8 @@ TESTXTZ_TESTUSD = TESTXTZ_TESTUSD()
 class TESTXTZF0_TESTUSDTF0(NamedTuple):
     """
         name: tTESTXTZF0:TESTUSDTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -19564,7 +20762,8 @@ class TESTXTZF0_TESTUSDTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTESTXTZF0:TESTUSDTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -19591,7 +20790,8 @@ class TESTXTZF0_TESTUSDTF0(NamedTuple):
 TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0()
 """
     name: tTESTXTZF0:TESTUSDTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -19604,7 +20804,8 @@ TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0()
 class THETA_USD(NamedTuple):
     """
         name: tTHETA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -19613,7 +20814,8 @@ class THETA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTHETA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -19640,7 +20842,8 @@ class THETA_USD(NamedTuple):
 THETA_USD = THETA_USD()
 """
     name: tTHETA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -19653,7 +20856,8 @@ THETA_USD = THETA_USD()
 class THETA_UST(NamedTuple):
     """
         name: tTHETA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -19662,7 +20866,8 @@ class THETA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTHETA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -19689,7 +20894,8 @@ class THETA_UST(NamedTuple):
 THETA_UST = THETA_UST()
 """
     name: tTHETA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -19702,7 +20908,8 @@ THETA_UST = THETA_UST()
 class TLOS_USD(NamedTuple):
     """
         name: tTLOS:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 8.0
@@ -19711,7 +20918,8 @@ class TLOS_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTLOS:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 8.0
@@ -19738,7 +20946,8 @@ class TLOS_USD(NamedTuple):
 TLOS_USD = TLOS_USD()
 """
     name: tTLOS:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 8.0
@@ -19751,7 +20960,8 @@ TLOS_USD = TLOS_USD()
 class TONUSD(NamedTuple):
     """
         name: tTONUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19760,7 +20970,8 @@ class TONUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTONUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19787,7 +20998,8 @@ class TONUSD(NamedTuple):
 TONUSD = TONUSD()
 """
     name: tTONUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19800,7 +21012,8 @@ TONUSD = TONUSD()
 class TONUST(NamedTuple):
     """
         name: tTONUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19809,7 +21022,8 @@ class TONUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTONUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19836,7 +21050,8 @@ class TONUST(NamedTuple):
 TONUST = TONUST()
 """
     name: tTONUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19849,7 +21064,8 @@ TONUST = TONUST()
 class TRADE_USD(NamedTuple):
     """
         name: tTRADE:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 28.0
@@ -19858,7 +21074,8 @@ class TRADE_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRADE:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 28.0
@@ -19885,7 +21102,8 @@ class TRADE_USD(NamedTuple):
 TRADE_USD = TRADE_USD()
 """
     name: tTRADE:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 28.0
@@ -19898,7 +21116,8 @@ TRADE_USD = TRADE_USD()
 class TRADE_UST(NamedTuple):
     """
         name: tTRADE:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 28.0
@@ -19907,7 +21126,8 @@ class TRADE_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRADE:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 28.0
@@ -19934,7 +21154,8 @@ class TRADE_UST(NamedTuple):
 TRADE_UST = TRADE_UST()
 """
     name: tTRADE:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 28.0
@@ -19947,7 +21168,8 @@ TRADE_UST = TRADE_UST()
 class TREEB_USD(NamedTuple):
     """
         name: tTREEB:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -19956,7 +21178,8 @@ class TREEB_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTREEB:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -19983,7 +21206,8 @@ class TREEB_USD(NamedTuple):
 TREEB_USD = TREEB_USD()
 """
     name: tTREEB:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -19996,7 +21220,8 @@ TREEB_USD = TREEB_USD()
 class TREEB_UST(NamedTuple):
     """
         name: tTREEB:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -20005,7 +21230,8 @@ class TREEB_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTREEB:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -20032,7 +21258,8 @@ class TREEB_UST(NamedTuple):
 TREEB_UST = TREEB_UST()
 """
     name: tTREEB:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -20045,7 +21272,8 @@ TREEB_UST = TREEB_UST()
 class TRXBTC(NamedTuple):
     """
         name: tTRXBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 34.0
@@ -20054,7 +21282,8 @@ class TRXBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 34.0
@@ -20081,7 +21310,8 @@ class TRXBTC(NamedTuple):
 TRXBTC = TRXBTC()
 """
     name: tTRXBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 34.0
@@ -20094,7 +21324,8 @@ TRXBTC = TRXBTC()
 class TRXETH(NamedTuple):
     """
         name: tTRXETH
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 34.0
@@ -20103,7 +21334,8 @@ class TRXETH(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXETH"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 34.0
@@ -20130,7 +21362,8 @@ class TRXETH(NamedTuple):
 TRXETH = TRXETH()
 """
     name: tTRXETH
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 34.0
@@ -20143,7 +21376,8 @@ TRXETH = TRXETH()
 class TRXEUR(NamedTuple):
     """
         name: tTRXEUR
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 34.0
@@ -20152,7 +21386,8 @@ class TRXEUR(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXEUR"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 34.0
@@ -20179,7 +21414,8 @@ class TRXEUR(NamedTuple):
 TRXEUR = TRXEUR()
 """
     name: tTRXEUR
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 34.0
@@ -20192,7 +21428,8 @@ TRXEUR = TRXEUR()
 class TRXF0_USTF0(NamedTuple):
     """
         name: tTRXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 24.0
@@ -20201,7 +21438,8 @@ class TRXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 24.0
@@ -20228,7 +21466,8 @@ class TRXF0_USTF0(NamedTuple):
 TRXF0_USTF0 = TRXF0_USTF0()
 """
     name: tTRXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 24.0
@@ -20241,7 +21480,8 @@ TRXF0_USTF0 = TRXF0_USTF0()
 class TRXUSD(NamedTuple):
     """
         name: tTRXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 34.0
@@ -20250,7 +21490,8 @@ class TRXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 34.0
@@ -20277,7 +21518,8 @@ class TRXUSD(NamedTuple):
 TRXUSD = TRXUSD()
 """
     name: tTRXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 34.0
@@ -20290,7 +21532,8 @@ TRXUSD = TRXUSD()
 class TRXUST(NamedTuple):
     """
         name: tTRXUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 24.0
@@ -20299,7 +21542,8 @@ class TRXUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRXUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 24.0
@@ -20326,7 +21570,8 @@ class TRXUST(NamedTuple):
 TRXUST = TRXUST()
 """
     name: tTRXUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 24.0
@@ -20339,7 +21584,8 @@ TRXUST = TRXUST()
 class TRYUST(NamedTuple):
     """
         name: tTRYUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -20348,7 +21594,8 @@ class TRYUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTRYUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -20375,7 +21622,8 @@ class TRYUST(NamedTuple):
 TRYUST = TRYUST()
 """
     name: tTRYUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -20388,7 +21636,8 @@ TRYUST = TRYUST()
 class TSDUSD(NamedTuple):
     """
         name: tTSDUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -20397,7 +21646,8 @@ class TSDUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTSDUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -20424,7 +21674,8 @@ class TSDUSD(NamedTuple):
 TSDUSD = TSDUSD()
 """
     name: tTSDUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -20437,7 +21688,8 @@ TSDUSD = TSDUSD()
 class TSDUST(NamedTuple):
     """
         name: tTSDUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -20446,7 +21698,8 @@ class TSDUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tTSDUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -20473,7 +21726,8 @@ class TSDUST(NamedTuple):
 TSDUST = TSDUST()
 """
     name: tTSDUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -20486,7 +21740,8 @@ TSDUST = TSDUST()
 class UDCUSD(NamedTuple):
     """
         name: tUDCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -20495,7 +21750,8 @@ class UDCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUDCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -20522,7 +21778,8 @@ class UDCUSD(NamedTuple):
 UDCUSD = UDCUSD()
 """
     name: tUDCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -20535,7 +21792,8 @@ UDCUSD = UDCUSD()
 class UDCUST(NamedTuple):
     """
         name: tUDCUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -20544,7 +21802,8 @@ class UDCUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUDCUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -20571,7 +21830,8 @@ class UDCUST(NamedTuple):
 UDCUST = UDCUST()
 """
     name: tUDCUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -20584,7 +21844,8 @@ UDCUST = UDCUST()
 class UK100IXF0_USTF0(NamedTuple):
     """
         name: tUK100IXF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -20593,7 +21854,8 @@ class UK100IXF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUK100IXF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -20620,7 +21882,8 @@ class UK100IXF0_USTF0(NamedTuple):
 UK100IXF0_USTF0 = UK100IXF0_USTF0()
 """
     name: tUK100IXF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -20633,7 +21896,8 @@ UK100IXF0_USTF0 = UK100IXF0_USTF0()
 class UKOILF0_USTF0(NamedTuple):
     """
         name: tUKOILF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -20642,7 +21906,8 @@ class UKOILF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUKOILF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -20669,7 +21934,8 @@ class UKOILF0_USTF0(NamedTuple):
 UKOILF0_USTF0 = UKOILF0_USTF0()
 """
     name: tUKOILF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -20682,7 +21948,8 @@ UKOILF0_USTF0 = UKOILF0_USTF0()
 class UNIF0_USTF0(NamedTuple):
     """
         name: tUNIF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.4
@@ -20691,7 +21958,8 @@ class UNIF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUNIF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.4
@@ -20718,7 +21986,8 @@ class UNIF0_USTF0(NamedTuple):
 UNIF0_USTF0 = UNIF0_USTF0()
 """
     name: tUNIF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.4
@@ -20731,7 +22000,8 @@ UNIF0_USTF0 = UNIF0_USTF0()
 class UNIUSD(NamedTuple):
     """
         name: tUNIUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -20740,7 +22010,8 @@ class UNIUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUNIUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -20767,7 +22038,8 @@ class UNIUSD(NamedTuple):
 UNIUSD = UNIUSD()
 """
     name: tUNIUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -20780,7 +22052,8 @@ UNIUSD = UNIUSD()
 class UNIUST(NamedTuple):
     """
         name: tUNIUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.4
@@ -20789,7 +22062,8 @@ class UNIUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUNIUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.4
@@ -20816,7 +22090,8 @@ class UNIUST(NamedTuple):
 UNIUST = UNIUST()
 """
     name: tUNIUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.4
@@ -20829,7 +22104,8 @@ UNIUST = UNIUST()
 class UOSBTC(NamedTuple):
     """
         name: tUOSBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -20838,7 +22114,8 @@ class UOSBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUOSBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -20865,7 +22142,8 @@ class UOSBTC(NamedTuple):
 UOSBTC = UOSBTC()
 """
     name: tUOSBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -20878,7 +22156,8 @@ UOSBTC = UOSBTC()
 class UOSUSD(NamedTuple):
     """
         name: tUOSUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 4.0
@@ -20887,7 +22166,8 @@ class UOSUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUOSUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 4.0
@@ -20914,7 +22194,8 @@ class UOSUSD(NamedTuple):
 UOSUSD = UOSUSD()
 """
     name: tUOSUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 4.0
@@ -20927,7 +22208,8 @@ UOSUSD = UOSUSD()
 class UST_CNHT(NamedTuple):
     """
         name: tUST:CNHT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -20936,7 +22218,8 @@ class UST_CNHT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUST:CNHT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -20963,7 +22246,8 @@ class UST_CNHT(NamedTuple):
 UST_CNHT = UST_CNHT()
 """
     name: tUST:CNHT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -20976,7 +22260,8 @@ UST_CNHT = UST_CNHT()
 class UST_MXNT(NamedTuple):
     """
         name: tUST:MXNT
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -20985,7 +22270,8 @@ class UST_MXNT(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUST:MXNT"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -21012,7 +22298,8 @@ class UST_MXNT(NamedTuple):
 UST_MXNT = UST_MXNT()
 """
     name: tUST:MXNT
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -21025,7 +22312,8 @@ UST_MXNT = UST_MXNT()
 class USTUSD(NamedTuple):
     """
         name: tUSTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 5.0
         initial_margin: 10.0
         min_order_size: 2.0
@@ -21034,7 +22322,8 @@ class USTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUSTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 5.0
     initial_margin: float = 10.0
     min_order_size: float = 2.0
@@ -21061,7 +22350,8 @@ class USTUSD(NamedTuple):
 USTUSD = USTUSD()
 """
     name: tUSTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 5.0
     initial_margin: 10.0
     min_order_size: 2.0
@@ -21074,7 +22364,8 @@ USTUSD = USTUSD()
 class UTKUSD(NamedTuple):
     """
         name: tUTKUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 10.0
@@ -21083,7 +22374,8 @@ class UTKUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tUTKUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 10.0
@@ -21110,7 +22402,8 @@ class UTKUSD(NamedTuple):
 UTKUSD = UTKUSD()
 """
     name: tUTKUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 10.0
@@ -21123,7 +22416,8 @@ UTKUSD = UTKUSD()
 class VELO_USD(NamedTuple):
     """
         name: tVELO:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
@@ -21132,7 +22426,8 @@ class VELO_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVELO:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
@@ -21159,7 +22454,8 @@ class VELO_USD(NamedTuple):
 VELO_USD = VELO_USD()
 """
     name: tVELO:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
@@ -21172,7 +22468,8 @@ VELO_USD = VELO_USD()
 class VELO_UST(NamedTuple):
     """
         name: tVELO:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
@@ -21181,7 +22478,8 @@ class VELO_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVELO:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
@@ -21208,7 +22506,8 @@ class VELO_UST(NamedTuple):
 VELO_UST = VELO_UST()
 """
     name: tVELO:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
@@ -21221,7 +22520,8 @@ VELO_UST = VELO_UST()
 class VETBTC(NamedTuple):
     """
         name: tVETBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
@@ -21230,7 +22530,8 @@ class VETBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVETBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
@@ -21257,7 +22558,8 @@ class VETBTC(NamedTuple):
 VETBTC = VETBTC()
 """
     name: tVETBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
@@ -21270,7 +22572,8 @@ VETBTC = VETBTC()
 class VETUSD(NamedTuple):
     """
         name: tVETUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
@@ -21279,7 +22582,8 @@ class VETUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVETUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
@@ -21306,7 +22610,8 @@ class VETUSD(NamedTuple):
 VETUSD = VETUSD()
 """
     name: tVETUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
@@ -21319,7 +22624,8 @@ VETUSD = VETUSD()
 class VETUST(NamedTuple):
     """
         name: tVETUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 66.0
@@ -21328,7 +22634,8 @@ class VETUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVETUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 66.0
@@ -21355,7 +22662,8 @@ class VETUST(NamedTuple):
 VETUST = VETUST()
 """
     name: tVETUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 66.0
@@ -21368,7 +22676,8 @@ VETUST = VETUST()
 class VRAUSD(NamedTuple):
     """
         name: tVRAUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 286.0
@@ -21377,7 +22686,8 @@ class VRAUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVRAUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 286.0
@@ -21404,7 +22714,8 @@ class VRAUSD(NamedTuple):
 VRAUSD = VRAUSD()
 """
     name: tVRAUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 286.0
@@ -21417,7 +22728,8 @@ VRAUSD = VRAUSD()
 class VRAUST(NamedTuple):
     """
         name: tVRAUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 286.0
@@ -21426,7 +22738,8 @@ class VRAUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVRAUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 286.0
@@ -21453,7 +22766,8 @@ class VRAUST(NamedTuple):
 VRAUST = VRAUST()
 """
     name: tVRAUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 286.0
@@ -21466,7 +22780,8 @@ VRAUST = VRAUST()
 class VSYUSD(NamedTuple):
     """
         name: tVSYUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 432.0
@@ -21475,7 +22790,8 @@ class VSYUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tVSYUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 432.0
@@ -21502,7 +22818,8 @@ class VSYUSD(NamedTuple):
 VSYUSD = VSYUSD()
 """
     name: tVSYUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 432.0
@@ -21515,7 +22832,8 @@ VSYUSD = VSYUSD()
 class WAVES_USD(NamedTuple):
     """
         name: tWAVES:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -21524,7 +22842,8 @@ class WAVES_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWAVES:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -21551,7 +22870,8 @@ class WAVES_USD(NamedTuple):
 WAVES_USD = WAVES_USD()
 """
     name: tWAVES:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -21564,7 +22884,8 @@ WAVES_USD = WAVES_USD()
 class WAVES_UST(NamedTuple):
     """
         name: tWAVES:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.2
@@ -21573,7 +22894,8 @@ class WAVES_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWAVES:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.2
@@ -21600,7 +22922,8 @@ class WAVES_UST(NamedTuple):
 WAVES_UST = WAVES_UST()
 """
     name: tWAVES:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.2
@@ -21613,7 +22936,8 @@ WAVES_UST = WAVES_UST()
 class WAVESF0_USTF0(NamedTuple):
     """
         name: tWAVESF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.2
@@ -21622,7 +22946,8 @@ class WAVESF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWAVESF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.2
@@ -21649,7 +22974,8 @@ class WAVESF0_USTF0(NamedTuple):
 WAVESF0_USTF0 = WAVESF0_USTF0()
 """
     name: tWAVESF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.2
@@ -21662,7 +22988,8 @@ WAVESF0_USTF0 = WAVESF0_USTF0()
 class WAXUSD(NamedTuple):
     """
         name: tWAXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 16.0
@@ -21671,7 +22998,8 @@ class WAXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWAXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 16.0
@@ -21698,7 +23026,8 @@ class WAXUSD(NamedTuple):
 WAXUSD = WAXUSD()
 """
     name: tWAXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 16.0
@@ -21711,7 +23040,8 @@ WAXUSD = WAXUSD()
 class WBTBTC(NamedTuple):
     """
         name: tWBTBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -21720,7 +23050,8 @@ class WBTBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWBTBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -21747,7 +23078,8 @@ class WBTBTC(NamedTuple):
 WBTBTC = WBTBTC()
 """
     name: tWBTBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -21760,7 +23092,8 @@ WBTBTC = WBTBTC()
 class WBTUSD(NamedTuple):
     """
         name: tWBTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.00006
@@ -21769,7 +23102,8 @@ class WBTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWBTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.00006
@@ -21796,7 +23130,8 @@ class WBTUSD(NamedTuple):
 WBTUSD = WBTUSD()
 """
     name: tWBTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.00006
@@ -21809,7 +23144,8 @@ WBTUSD = WBTUSD()
 class WILD_USD(NamedTuple):
     """
         name: tWILD:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -21818,7 +23154,8 @@ class WILD_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWILD:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -21845,7 +23182,8 @@ class WILD_USD(NamedTuple):
 WILD_USD = WILD_USD()
 """
     name: tWILD:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -21858,7 +23196,8 @@ WILD_USD = WILD_USD()
 class WILD_UST(NamedTuple):
     """
         name: tWILD:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -21867,7 +23206,8 @@ class WILD_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWILD:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -21894,7 +23234,8 @@ class WILD_UST(NamedTuple):
 WILD_UST = WILD_UST()
 """
     name: tWILD:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -21907,7 +23248,8 @@ WILD_UST = WILD_UST()
 class WMINIMA_USD(NamedTuple):
     """
         name: tWMINIMA:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -21916,7 +23258,8 @@ class WMINIMA_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWMINIMA:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -21943,7 +23286,8 @@ class WMINIMA_USD(NamedTuple):
 WMINIMA_USD = WMINIMA_USD()
 """
     name: tWMINIMA:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -21956,7 +23300,8 @@ WMINIMA_USD = WMINIMA_USD()
 class WMINIMA_UST(NamedTuple):
     """
         name: tWMINIMA:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -21965,7 +23310,8 @@ class WMINIMA_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWMINIMA:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -21992,7 +23338,8 @@ class WMINIMA_UST(NamedTuple):
 WMINIMA_UST = WMINIMA_UST()
 """
     name: tWMINIMA:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -22005,7 +23352,8 @@ WMINIMA_UST = WMINIMA_UST()
 class WNCG_USD(NamedTuple):
     """
         name: tWNCG:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 12.0
@@ -22014,7 +23362,8 @@ class WNCG_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWNCG:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 12.0
@@ -22041,7 +23390,8 @@ class WNCG_USD(NamedTuple):
 WNCG_USD = WNCG_USD()
 """
     name: tWNCG:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 12.0
@@ -22054,7 +23404,8 @@ WNCG_USD = WNCG_USD()
 class WOOUSD(NamedTuple):
     """
         name: tWOOUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 10.0
@@ -22063,7 +23414,8 @@ class WOOUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWOOUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 10.0
@@ -22090,7 +23442,8 @@ class WOOUSD(NamedTuple):
 WOOUSD = WOOUSD()
 """
     name: tWOOUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 10.0
@@ -22103,7 +23456,8 @@ WOOUSD = WOOUSD()
 class WOOUST(NamedTuple):
     """
         name: tWOOUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 10.0
@@ -22112,7 +23466,8 @@ class WOOUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tWOOUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 10.0
@@ -22139,7 +23494,8 @@ class WOOUST(NamedTuple):
 WOOUST = WOOUST()
 """
     name: tWOOUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 10.0
@@ -22152,7 +23508,8 @@ WOOUST = WOOUST()
 class XAGF0_USTF0(NamedTuple):
     """
         name: tXAGF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.1
@@ -22161,7 +23518,8 @@ class XAGF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAGF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.1
@@ -22188,7 +23546,8 @@ class XAGF0_USTF0(NamedTuple):
 XAGF0_USTF0 = XAGF0_USTF0()
 """
     name: tXAGF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.1
@@ -22201,7 +23560,8 @@ XAGF0_USTF0 = XAGF0_USTF0()
 class XAUT_BTC(NamedTuple):
     """
         name: tXAUT:BTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -22210,7 +23570,8 @@ class XAUT_BTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAUT:BTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -22237,7 +23598,8 @@ class XAUT_BTC(NamedTuple):
 XAUT_BTC = XAUT_BTC()
 """
     name: tXAUT:BTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -22250,7 +23612,8 @@ XAUT_BTC = XAUT_BTC()
 class XAUT_USD(NamedTuple):
     """
         name: tXAUT:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -22259,7 +23622,8 @@ class XAUT_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAUT:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -22286,7 +23650,8 @@ class XAUT_USD(NamedTuple):
 XAUT_USD = XAUT_USD()
 """
     name: tXAUT:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -22299,7 +23664,8 @@ XAUT_USD = XAUT_USD()
 class XAUT_UST(NamedTuple):
     """
         name: tXAUT:UST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 0.002
@@ -22308,7 +23674,8 @@ class XAUT_UST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAUT:UST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 0.002
@@ -22335,7 +23702,8 @@ class XAUT_UST(NamedTuple):
 XAUT_UST = XAUT_UST()
 """
     name: tXAUT:UST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 0.002
@@ -22348,7 +23716,8 @@ XAUT_UST = XAUT_UST()
 class XAUTF0_BTCF0(NamedTuple):
     """
         name: tXAUTF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -22357,7 +23726,8 @@ class XAUTF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAUTF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -22384,7 +23754,8 @@ class XAUTF0_BTCF0(NamedTuple):
 XAUTF0_BTCF0 = XAUTF0_BTCF0()
 """
     name: tXAUTF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -22397,7 +23768,8 @@ XAUTF0_BTCF0 = XAUTF0_BTCF0()
 class XAUTF0_USTF0(NamedTuple):
     """
         name: tXAUTF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.002
@@ -22406,7 +23778,8 @@ class XAUTF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXAUTF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.002
@@ -22433,7 +23806,8 @@ class XAUTF0_USTF0(NamedTuple):
 XAUTF0_USTF0 = XAUTF0_USTF0()
 """
     name: tXAUTF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.002
@@ -22446,7 +23820,8 @@ XAUTF0_USTF0 = XAUTF0_USTF0()
 class XCAD_USD(NamedTuple):
     """
         name: tXCAD:USD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -22455,7 +23830,8 @@ class XCAD_USD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXCAD:USD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -22482,7 +23858,8 @@ class XCAD_USD(NamedTuple):
 XCAD_USD = XCAD_USD()
 """
     name: tXCAD:USD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -22495,7 +23872,8 @@ XCAD_USD = XCAD_USD()
 class XCNUSD(NamedTuple):
     """
         name: tXCNUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -22504,7 +23882,8 @@ class XCNUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXCNUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -22531,7 +23910,8 @@ class XCNUSD(NamedTuple):
 XCNUSD = XCNUSD()
 """
     name: tXCNUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -22544,7 +23924,8 @@ XCNUSD = XCNUSD()
 class XCNUST(NamedTuple):
     """
         name: tXCNUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.001
@@ -22553,7 +23934,8 @@ class XCNUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXCNUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.001
@@ -22580,7 +23962,8 @@ class XCNUST(NamedTuple):
 XCNUST = XCNUST()
 """
     name: tXCNUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.001
@@ -22593,7 +23976,8 @@ XCNUST = XCNUST()
 class XDCUSD(NamedTuple):
     """
         name: tXDCUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 54.0
@@ -22602,7 +23986,8 @@ class XDCUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXDCUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 54.0
@@ -22629,7 +24014,8 @@ class XDCUSD(NamedTuple):
 XDCUSD = XDCUSD()
 """
     name: tXDCUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 54.0
@@ -22642,7 +24028,8 @@ XDCUSD = XDCUSD()
 class XDCUST(NamedTuple):
     """
         name: tXDCUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 54.0
@@ -22651,7 +24038,8 @@ class XDCUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXDCUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 54.0
@@ -22678,7 +24066,8 @@ class XDCUST(NamedTuple):
 XDCUST = XDCUST()
 """
     name: tXDCUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 54.0
@@ -22691,7 +24080,8 @@ XDCUST = XDCUST()
 class XLMBTC(NamedTuple):
     """
         name: tXLMBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 25.0
         initial_margin: 50.0
         min_order_size: 14.0
@@ -22700,7 +24090,8 @@ class XLMBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXLMBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 25.0
     initial_margin: float = 50.0
     min_order_size: float = 14.0
@@ -22727,7 +24118,8 @@ class XLMBTC(NamedTuple):
 XLMBTC = XLMBTC()
 """
     name: tXLMBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 25.0
     initial_margin: 50.0
     min_order_size: 14.0
@@ -22740,7 +24132,8 @@ XLMBTC = XLMBTC()
 class XLMF0_USTF0(NamedTuple):
     """
         name: tXLMF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 14.0
@@ -22749,7 +24142,8 @@ class XLMF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXLMF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 14.0
@@ -22776,7 +24170,8 @@ class XLMF0_USTF0(NamedTuple):
 XLMF0_USTF0 = XLMF0_USTF0()
 """
     name: tXLMF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 14.0
@@ -22789,7 +24184,8 @@ XLMF0_USTF0 = XLMF0_USTF0()
 class XLMUSD(NamedTuple):
     """
         name: tXLMUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 25.0
         initial_margin: 50.0
         min_order_size: 14.0
@@ -22798,7 +24194,8 @@ class XLMUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXLMUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 25.0
     initial_margin: float = 50.0
     min_order_size: float = 14.0
@@ -22825,7 +24222,8 @@ class XLMUSD(NamedTuple):
 XLMUSD = XLMUSD()
 """
     name: tXLMUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 25.0
     initial_margin: 50.0
     min_order_size: 14.0
@@ -22838,7 +24236,8 @@ XLMUSD = XLMUSD()
 class XLMUST(NamedTuple):
     """
         name: tXLMUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 14.0
@@ -22847,7 +24246,8 @@ class XLMUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXLMUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 14.0
@@ -22874,7 +24274,8 @@ class XLMUST(NamedTuple):
 XLMUST = XLMUST()
 """
     name: tXLMUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 14.0
@@ -22887,7 +24288,8 @@ XLMUST = XLMUST()
 class XMRBTC(NamedTuple):
     """
         name: tXMRBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -22896,7 +24298,8 @@ class XMRBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXMRBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -22923,7 +24326,8 @@ class XMRBTC(NamedTuple):
 XMRBTC = XMRBTC()
 """
     name: tXMRBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -22936,7 +24340,8 @@ XMRBTC = XMRBTC()
 class XMRF0_USTF0(NamedTuple):
     """
         name: tXMRF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.02
@@ -22945,7 +24350,8 @@ class XMRF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXMRF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.02
@@ -22972,7 +24378,8 @@ class XMRF0_USTF0(NamedTuple):
 XMRF0_USTF0 = XMRF0_USTF0()
 """
     name: tXMRF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.02
@@ -22985,7 +24392,8 @@ XMRF0_USTF0 = XMRF0_USTF0()
 class XMRUSD(NamedTuple):
     """
         name: tXMRUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -22994,7 +24402,8 @@ class XMRUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXMRUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -23021,7 +24430,8 @@ class XMRUSD(NamedTuple):
 XMRUSD = XMRUSD()
 """
     name: tXMRUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -23034,7 +24444,8 @@ XMRUSD = XMRUSD()
 class XMRUST(NamedTuple):
     """
         name: tXMRUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -23043,7 +24454,8 @@ class XMRUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXMRUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -23070,7 +24482,8 @@ class XMRUST(NamedTuple):
 XMRUST = XMRUST()
 """
     name: tXMRUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -23083,7 +24496,8 @@ XMRUST = XMRUST()
 class XPDF0_USTF0(NamedTuple):
     """
         name: tXPDF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -23092,7 +24506,8 @@ class XPDF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXPDF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -23119,7 +24534,8 @@ class XPDF0_USTF0(NamedTuple):
 XPDF0_USTF0 = XPDF0_USTF0()
 """
     name: tXPDF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -23132,7 +24548,8 @@ XPDF0_USTF0 = XPDF0_USTF0()
 class XPTF0_USTF0(NamedTuple):
     """
         name: tXPTF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.001
@@ -23141,7 +24558,8 @@ class XPTF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXPTF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.001
@@ -23168,7 +24586,8 @@ class XPTF0_USTF0(NamedTuple):
 XPTF0_USTF0 = XPTF0_USTF0()
 """
     name: tXPTF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.001
@@ -23181,7 +24600,8 @@ XPTF0_USTF0 = XPTF0_USTF0()
 class XRDBTC(NamedTuple):
     """
         name: tXRDBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 24.0
@@ -23190,7 +24610,8 @@ class XRDBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRDBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 24.0
@@ -23217,7 +24638,8 @@ class XRDBTC(NamedTuple):
 XRDBTC = XRDBTC()
 """
     name: tXRDBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 24.0
@@ -23230,7 +24652,8 @@ XRDBTC = XRDBTC()
 class XRDUSD(NamedTuple):
     """
         name: tXRDUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 24.0
@@ -23239,7 +24662,8 @@ class XRDUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRDUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 24.0
@@ -23266,7 +24690,8 @@ class XRDUSD(NamedTuple):
 XRDUSD = XRDUSD()
 """
     name: tXRDUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 24.0
@@ -23279,7 +24704,8 @@ XRDUSD = XRDUSD()
 class XRPBTC(NamedTuple):
     """
         name: tXRPBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 6.0
@@ -23288,7 +24714,8 @@ class XRPBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRPBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 6.0
@@ -23315,7 +24742,8 @@ class XRPBTC(NamedTuple):
 XRPBTC = XRPBTC()
 """
     name: tXRPBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 6.0
@@ -23328,7 +24756,8 @@ XRPBTC = XRPBTC()
 class XRPF0_BTCF0(NamedTuple):
     """
         name: tXRPF0:BTCF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 6.0
@@ -23337,7 +24766,8 @@ class XRPF0_BTCF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRPF0:BTCF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 6.0
@@ -23364,7 +24794,8 @@ class XRPF0_BTCF0(NamedTuple):
 XRPF0_BTCF0 = XRPF0_BTCF0()
 """
     name: tXRPF0:BTCF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 6.0
@@ -23377,7 +24808,8 @@ XRPF0_BTCF0 = XRPF0_BTCF0()
 class XRPF0_USTF0(NamedTuple):
     """
         name: tXRPF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 6.0
@@ -23386,7 +24818,8 @@ class XRPF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRPF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 6.0
@@ -23413,7 +24846,8 @@ class XRPF0_USTF0(NamedTuple):
 XRPF0_USTF0 = XRPF0_USTF0()
 """
     name: tXRPF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 6.0
@@ -23426,7 +24860,8 @@ XRPF0_USTF0 = XRPF0_USTF0()
 class XRPUSD(NamedTuple):
     """
         name: tXRPUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 10.0
         initial_margin: 20.0
         min_order_size: 6.0
@@ -23435,7 +24870,8 @@ class XRPUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRPUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 10.0
     initial_margin: float = 20.0
     min_order_size: float = 6.0
@@ -23462,7 +24898,8 @@ class XRPUSD(NamedTuple):
 XRPUSD = XRPUSD()
 """
     name: tXRPUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 10.0
     initial_margin: 20.0
     min_order_size: 6.0
@@ -23475,7 +24912,8 @@ XRPUSD = XRPUSD()
 class XRPUST(NamedTuple):
     """
         name: tXRPUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -23484,7 +24922,8 @@ class XRPUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXRPUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -23511,7 +24950,8 @@ class XRPUST(NamedTuple):
 XRPUST = XRPUST()
 """
     name: tXRPUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
@@ -23524,7 +24964,8 @@ XRPUST = XRPUST()
 class XTZBTC(NamedTuple):
     """
         name: tXTZBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -23533,7 +24974,8 @@ class XTZBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXTZBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -23560,7 +25002,8 @@ class XTZBTC(NamedTuple):
 XTZBTC = XTZBTC()
 """
     name: tXTZBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -23573,7 +25016,8 @@ XTZBTC = XTZBTC()
 class XTZF0_USTF0(NamedTuple):
     """
         name: tXTZF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 2.0
@@ -23582,7 +25026,8 @@ class XTZF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXTZF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 2.0
@@ -23609,7 +25054,8 @@ class XTZF0_USTF0(NamedTuple):
 XTZF0_USTF0 = XTZF0_USTF0()
 """
     name: tXTZF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 2.0
@@ -23622,7 +25068,8 @@ XTZF0_USTF0 = XTZF0_USTF0()
 class XTZUSD(NamedTuple):
     """
         name: tXTZUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -23631,7 +25078,8 @@ class XTZUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXTZUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -23658,7 +25106,8 @@ class XTZUSD(NamedTuple):
 XTZUSD = XTZUSD()
 """
     name: tXTZUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -23671,7 +25120,8 @@ XTZUSD = XTZUSD()
 class XTZUST(NamedTuple):
     """
         name: tXTZUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -23680,7 +25130,8 @@ class XTZUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXTZUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -23707,7 +25158,8 @@ class XTZUST(NamedTuple):
 XTZUST = XTZUST()
 """
     name: tXTZUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -23720,7 +25172,8 @@ XTZUST = XTZUST()
 class XVGUSD(NamedTuple):
     """
         name: tXVGUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 432.0
@@ -23729,7 +25182,8 @@ class XVGUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tXVGUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 432.0
@@ -23756,7 +25210,8 @@ class XVGUSD(NamedTuple):
 XVGUSD = XVGUSD()
 """
     name: tXVGUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 432.0
@@ -23769,7 +25224,8 @@ XVGUSD = XVGUSD()
 class YFIUSD(NamedTuple):
     """
         name: tYFIUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.0002
@@ -23778,7 +25234,8 @@ class YFIUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tYFIUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.0002
@@ -23805,7 +25262,8 @@ class YFIUSD(NamedTuple):
 YFIUSD = YFIUSD()
 """
     name: tYFIUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.0002
@@ -23818,7 +25276,8 @@ YFIUSD = YFIUSD()
 class YFIUST(NamedTuple):
     """
         name: tYFIUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.0002
@@ -23827,7 +25286,8 @@ class YFIUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tYFIUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.0002
@@ -23854,7 +25314,8 @@ class YFIUST(NamedTuple):
 YFIUST = YFIUST()
 """
     name: tYFIUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.0002
@@ -23867,7 +25328,8 @@ YFIUST = YFIUST()
 class ZECBTC(NamedTuple):
     """
         name: tZECBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -23876,7 +25338,8 @@ class ZECBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZECBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -23903,7 +25366,8 @@ class ZECBTC(NamedTuple):
 ZECBTC = ZECBTC()
 """
     name: tZECBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -23916,7 +25380,8 @@ ZECBTC = ZECBTC()
 class ZECF0_USTF0(NamedTuple):
     """
         name: tZECF0:USTF0
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 0.5
         initial_margin: 1.0
         min_order_size: 0.02
@@ -23925,7 +25390,8 @@ class ZECF0_USTF0(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZECF0:USTF0"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 0.5
     initial_margin: float = 1.0
     min_order_size: float = 0.02
@@ -23952,7 +25418,8 @@ class ZECF0_USTF0(NamedTuple):
 ZECF0_USTF0 = ZECF0_USTF0()
 """
     name: tZECF0:USTF0
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 0.5
     initial_margin: 1.0
     min_order_size: 0.02
@@ -23965,7 +25432,8 @@ ZECF0_USTF0 = ZECF0_USTF0()
 class ZECUSD(NamedTuple):
     """
         name: tZECUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 0.02
@@ -23974,7 +25442,8 @@ class ZECUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZECUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 0.02
@@ -24001,7 +25470,8 @@ class ZECUSD(NamedTuple):
 ZECUSD = ZECUSD()
 """
     name: tZECUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 0.02
@@ -24014,7 +25484,8 @@ ZECUSD = ZECUSD()
 class ZILBTC(NamedTuple):
     """
         name: tZILBTC
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 40.0
@@ -24023,7 +25494,8 @@ class ZILBTC(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZILBTC"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 40.0
@@ -24050,7 +25522,8 @@ class ZILBTC(NamedTuple):
 ZILBTC = ZILBTC()
 """
     name: tZILBTC
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 40.0
@@ -24063,7 +25536,8 @@ ZILBTC = ZILBTC()
 class ZILUSD(NamedTuple):
     """
         name: tZILUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 40.0
@@ -24072,7 +25546,8 @@ class ZILUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZILUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 40.0
@@ -24099,7 +25574,8 @@ class ZILUSD(NamedTuple):
 ZILUSD = ZILUSD()
 """
     name: tZILUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 40.0
@@ -24112,7 +25588,8 @@ ZILUSD = ZILUSD()
 class ZMTUSD(NamedTuple):
     """
         name: tZMTUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -24121,7 +25598,8 @@ class ZMTUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZMTUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -24148,7 +25626,8 @@ class ZMTUSD(NamedTuple):
 ZMTUSD = ZMTUSD()
 """
     name: tZMTUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -24161,7 +25640,8 @@ ZMTUSD = ZMTUSD()
 class ZMTUST(NamedTuple):
     """
         name: tZMTUST
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 2.0
@@ -24170,7 +25650,8 @@ class ZMTUST(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZMTUST"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 2.0
@@ -24197,7 +25678,8 @@ class ZMTUST(NamedTuple):
 ZMTUST = ZMTUST()
 """
     name: tZMTUST
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 2.0
@@ -24210,7 +25692,8 @@ ZMTUST = ZMTUST()
 class ZRXUSD(NamedTuple):
     """
         name: tZRXUSD
-        precision: 5
+        significant_digits: 5
+        tick_size: None
         min_margin: 15.0
         initial_margin: 30.0
         min_order_size: 6.0
@@ -24219,7 +25702,8 @@ class ZRXUSD(NamedTuple):
         exchange: bitfinex
     """
     name: str = "tZRXUSD"
-    precision: int = 5
+    significant_digits: int = 5
+    tick_size: int = None
     min_margin: float = 15.0
     initial_margin: float = 30.0
     min_order_size: float = 6.0
@@ -24246,7 +25730,8 @@ class ZRXUSD(NamedTuple):
 ZRXUSD = ZRXUSD()
 """
     name: tZRXUSD
-    precision: 5
+    significant_digits: 5
+    tick_size: None
     min_margin: 15.0
     initial_margin: 30.0
     min_order_size: 6.0
