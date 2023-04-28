@@ -41,7 +41,7 @@ print(symbol)
 print(symbol.name)
 > "tBTCUSD"
 
-print(symbol.precision)
+print(symbol.significant_digits)
 > 5
 
 print(symbol.min_margin)
