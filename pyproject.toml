@@ -1,0 +1,46 @@
+[build-system]
+requires = [
+    "setuptools>=61.2",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbols"
+version = "0.5.1"
+authors = [
+    { name = "Matheus Tura" },
+]
+description = "A library for cryptocurrency ticker symbols manipulation"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.6"
+
+[project.license]
+text = "GPL-3.0"
+
+[project.readme]
+text = "\"Get the advantage of IDE hints for every symbol, don't worry about repeatedly consulting exchange/symbol-specific information. You can have all information in itself as an accessible object.\""
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/zatura/symbols"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+namespaces = false
