@@ -1,7 +1,7 @@
-from typing import NamedTuple
+from ._model import Symbol
 
 
-class ONEINCH_USD(NamedTuple):
+class ONEINCH_USD(Symbol):
     """
         name: t1INCH:USD
         significant_digits: 5
@@ -39,7 +39,7 @@ class ONEINCH_USD(NamedTuple):
         return "t1INCH:USD"
 
 
-ONEINCH_USD = ONEINCH_USD()
+ONEINCH_USD = ONEINCH_USD(*ONEINCH_USD._fields)
 """
     name: t1INCH:USD
     significant_digits: 5
@@ -53,7 +53,7 @@ ONEINCH_USD = ONEINCH_USD()
 """
 
 
-class ONEINCH_UST(NamedTuple):
+class ONEINCH_UST(Symbol):
     """
         name: t1INCH:UST
         significant_digits: 5
@@ -91,7 +91,7 @@ class ONEINCH_UST(NamedTuple):
         return "t1INCH:UST"
 
 
-ONEINCH_UST = ONEINCH_UST()
+ONEINCH_UST = ONEINCH_UST(*ONEINCH_UST._fields)
 """
     name: t1INCH:UST
     significant_digits: 5
@@ -105,7 +105,7 @@ ONEINCH_UST = ONEINCH_UST()
 """
 
 
-class AAVE_USD(NamedTuple):
+class AAVE_USD(Symbol):
     """
         name: tAAVE:USD
         significant_digits: 5
@@ -143,7 +143,7 @@ class AAVE_USD(NamedTuple):
         return "tAAVE:USD"
 
 
-AAVE_USD = AAVE_USD()
+AAVE_USD = AAVE_USD(*AAVE_USD._fields)
 """
     name: tAAVE:USD
     significant_digits: 5
@@ -157,7 +157,7 @@ AAVE_USD = AAVE_USD()
 """
 
 
-class AAVE_UST(NamedTuple):
+class AAVE_UST(Symbol):
     """
         name: tAAVE:UST
         significant_digits: 5
@@ -195,7 +195,7 @@ class AAVE_UST(NamedTuple):
         return "tAAVE:UST"
 
 
-AAVE_UST = AAVE_UST()
+AAVE_UST = AAVE_UST(*AAVE_UST._fields)
 """
     name: tAAVE:UST
     significant_digits: 5
@@ -209,7 +209,7 @@ AAVE_UST = AAVE_UST()
 """
 
 
-class AAVEF0_USTF0(NamedTuple):
+class AAVEF0_USTF0(Symbol):
     """
         name: tAAVEF0:USTF0
         significant_digits: 5
@@ -247,7 +247,7 @@ class AAVEF0_USTF0(NamedTuple):
         return "tAAVEF0:USTF0"
 
 
-AAVEF0_USTF0 = AAVEF0_USTF0()
+AAVEF0_USTF0 = AAVEF0_USTF0(*AAVEF0_USTF0._fields)
 """
     name: tAAVEF0:USTF0
     significant_digits: 5
@@ -261,7 +261,7 @@ AAVEF0_USTF0 = AAVEF0_USTF0()
 """
 
 
-class ADABTC(NamedTuple):
+class ADABTC(Symbol):
     """
         name: tADABTC
         significant_digits: 5
@@ -299,7 +299,7 @@ class ADABTC(NamedTuple):
         return "tADABTC"
 
 
-ADABTC = ADABTC()
+ADABTC = ADABTC(*ADABTC._fields)
 """
     name: tADABTC
     significant_digits: 5
@@ -313,7 +313,7 @@ ADABTC = ADABTC()
 """
 
 
-class ADAF0_USTF0(NamedTuple):
+class ADAF0_USTF0(Symbol):
     """
         name: tADAF0:USTF0
         significant_digits: 5
@@ -351,7 +351,7 @@ class ADAF0_USTF0(NamedTuple):
         return "tADAF0:USTF0"
 
 
-ADAF0_USTF0 = ADAF0_USTF0()
+ADAF0_USTF0 = ADAF0_USTF0(*ADAF0_USTF0._fields)
 """
     name: tADAF0:USTF0
     significant_digits: 5
@@ -365,7 +365,7 @@ ADAF0_USTF0 = ADAF0_USTF0()
 """
 
 
-class ADAUSD(NamedTuple):
+class ADAUSD(Symbol):
     """
         name: tADAUSD
         significant_digits: 5
@@ -403,7 +403,7 @@ class ADAUSD(NamedTuple):
         return "tADAUSD"
 
 
-ADAUSD = ADAUSD()
+ADAUSD = ADAUSD(*ADAUSD._fields)
 """
     name: tADAUSD
     significant_digits: 5
@@ -417,7 +417,7 @@ ADAUSD = ADAUSD()
 """
 
 
-class ADAUST(NamedTuple):
+class ADAUST(Symbol):
     """
         name: tADAUST
         significant_digits: 5
@@ -455,7 +455,7 @@ class ADAUST(NamedTuple):
         return "tADAUST"
 
 
-ADAUST = ADAUST()
+ADAUST = ADAUST(*ADAUST._fields)
 """
     name: tADAUST
     significant_digits: 5
@@ -469,7 +469,7 @@ ADAUST = ADAUST()
 """
 
 
-class AIXUSD(NamedTuple):
+class AIXUSD(Symbol):
     """
         name: tAIXUSD
         significant_digits: 5
@@ -507,7 +507,7 @@ class AIXUSD(NamedTuple):
         return "tAIXUSD"
 
 
-AIXUSD = AIXUSD()
+AIXUSD = AIXUSD(*AIXUSD._fields)
 """
     name: tAIXUSD
     significant_digits: 5
@@ -521,7 +521,7 @@ AIXUSD = AIXUSD()
 """
 
 
-class AIXUST(NamedTuple):
+class AIXUST(Symbol):
     """
         name: tAIXUST
         significant_digits: 5
@@ -559,7 +559,7 @@ class AIXUST(NamedTuple):
         return "tAIXUST"
 
 
-AIXUST = AIXUST()
+AIXUST = AIXUST(*AIXUST._fields)
 """
     name: tAIXUST
     significant_digits: 5
@@ -573,7 +573,7 @@ AIXUST = AIXUST()
 """
 
 
-class ALGBTC(NamedTuple):
+class ALGBTC(Symbol):
     """
         name: tALGBTC
         significant_digits: 5
@@ -611,7 +611,7 @@ class ALGBTC(NamedTuple):
         return "tALGBTC"
 
 
-ALGBTC = ALGBTC()
+ALGBTC = ALGBTC(*ALGBTC._fields)
 """
     name: tALGBTC
     significant_digits: 5
@@ -625,7 +625,7 @@ ALGBTC = ALGBTC()
 """
 
 
-class ALGF0_USTF0(NamedTuple):
+class ALGF0_USTF0(Symbol):
     """
         name: tALGF0:USTF0
         significant_digits: 5
@@ -663,7 +663,7 @@ class ALGF0_USTF0(NamedTuple):
         return "tALGF0:USTF0"
 
 
-ALGF0_USTF0 = ALGF0_USTF0()
+ALGF0_USTF0 = ALGF0_USTF0(*ALGF0_USTF0._fields)
 """
     name: tALGF0:USTF0
     significant_digits: 5
@@ -677,7 +677,7 @@ ALGF0_USTF0 = ALGF0_USTF0()
 """
 
 
-class ALGUSD(NamedTuple):
+class ALGUSD(Symbol):
     """
         name: tALGUSD
         significant_digits: 5
@@ -715,7 +715,7 @@ class ALGUSD(NamedTuple):
         return "tALGUSD"
 
 
-ALGUSD = ALGUSD()
+ALGUSD = ALGUSD(*ALGUSD._fields)
 """
     name: tALGUSD
     significant_digits: 5
@@ -729,7 +729,7 @@ ALGUSD = ALGUSD()
 """
 
 
-class ALGUST(NamedTuple):
+class ALGUST(Symbol):
     """
         name: tALGUST
         significant_digits: 5
@@ -767,7 +767,7 @@ class ALGUST(NamedTuple):
         return "tALGUST"
 
 
-ALGUST = ALGUST()
+ALGUST = ALGUST(*ALGUST._fields)
 """
     name: tALGUST
     significant_digits: 5
@@ -781,7 +781,7 @@ ALGUST = ALGUST()
 """
 
 
-class AMPBTC(NamedTuple):
+class AMPBTC(Symbol):
     """
         name: tAMPBTC
         significant_digits: 5
@@ -819,7 +819,7 @@ class AMPBTC(NamedTuple):
         return "tAMPBTC"
 
 
-AMPBTC = AMPBTC()
+AMPBTC = AMPBTC(*AMPBTC._fields)
 """
     name: tAMPBTC
     significant_digits: 5
@@ -833,7 +833,7 @@ AMPBTC = AMPBTC()
 """
 
 
-class AMPF0_USTF0(NamedTuple):
+class AMPF0_USTF0(Symbol):
     """
         name: tAMPF0:USTF0
         significant_digits: 5
@@ -871,7 +871,7 @@ class AMPF0_USTF0(NamedTuple):
         return "tAMPF0:USTF0"
 
 
-AMPF0_USTF0 = AMPF0_USTF0()
+AMPF0_USTF0 = AMPF0_USTF0(*AMPF0_USTF0._fields)
 """
     name: tAMPF0:USTF0
     significant_digits: 5
@@ -885,7 +885,7 @@ AMPF0_USTF0 = AMPF0_USTF0()
 """
 
 
-class AMPUSD(NamedTuple):
+class AMPUSD(Symbol):
     """
         name: tAMPUSD
         significant_digits: 5
@@ -923,7 +923,7 @@ class AMPUSD(NamedTuple):
         return "tAMPUSD"
 
 
-AMPUSD = AMPUSD()
+AMPUSD = AMPUSD(*AMPUSD._fields)
 """
     name: tAMPUSD
     significant_digits: 5
@@ -937,7 +937,7 @@ AMPUSD = AMPUSD()
 """
 
 
-class AMPUST(NamedTuple):
+class AMPUST(Symbol):
     """
         name: tAMPUST
         significant_digits: 5
@@ -975,7 +975,7 @@ class AMPUST(NamedTuple):
         return "tAMPUST"
 
 
-AMPUST = AMPUST()
+AMPUST = AMPUST(*AMPUST._fields)
 """
     name: tAMPUST
     significant_digits: 5
@@ -989,7 +989,7 @@ AMPUST = AMPUST()
 """
 
 
-class ANTBTC(NamedTuple):
+class ANTBTC(Symbol):
     """
         name: tANTBTC
         significant_digits: 5
@@ -1027,7 +1027,7 @@ class ANTBTC(NamedTuple):
         return "tANTBTC"
 
 
-ANTBTC = ANTBTC()
+ANTBTC = ANTBTC(*ANTBTC._fields)
 """
     name: tANTBTC
     significant_digits: 5
@@ -1041,7 +1041,7 @@ ANTBTC = ANTBTC()
 """
 
 
-class ANTUSD(NamedTuple):
+class ANTUSD(Symbol):
     """
         name: tANTUSD
         significant_digits: 5
@@ -1079,7 +1079,7 @@ class ANTUSD(NamedTuple):
         return "tANTUSD"
 
 
-ANTUSD = ANTUSD()
+ANTUSD = ANTUSD(*ANTUSD._fields)
 """
     name: tANTUSD
     significant_digits: 5
@@ -1093,7 +1093,7 @@ ANTUSD = ANTUSD()
 """
 
 
-class APEF0_USTF0(NamedTuple):
+class APEF0_USTF0(Symbol):
     """
         name: tAPEF0:USTF0
         significant_digits: 5
@@ -1131,7 +1131,7 @@ class APEF0_USTF0(NamedTuple):
         return "tAPEF0:USTF0"
 
 
-APEF0_USTF0 = APEF0_USTF0()
+APEF0_USTF0 = APEF0_USTF0(*APEF0_USTF0._fields)
 """
     name: tAPEF0:USTF0
     significant_digits: 5
@@ -1145,7 +1145,7 @@ APEF0_USTF0 = APEF0_USTF0()
 """
 
 
-class APENFT_USD(NamedTuple):
+class APENFT_USD(Symbol):
     """
         name: tAPENFT:USD
         significant_digits: 5
@@ -1183,7 +1183,7 @@ class APENFT_USD(NamedTuple):
         return "tAPENFT:USD"
 
 
-APENFT_USD = APENFT_USD()
+APENFT_USD = APENFT_USD(*APENFT_USD._fields)
 """
     name: tAPENFT:USD
     significant_digits: 5
@@ -1197,7 +1197,7 @@ APENFT_USD = APENFT_USD()
 """
 
 
-class APENFT_UST(NamedTuple):
+class APENFT_UST(Symbol):
     """
         name: tAPENFT:UST
         significant_digits: 5
@@ -1235,7 +1235,7 @@ class APENFT_UST(NamedTuple):
         return "tAPENFT:UST"
 
 
-APENFT_UST = APENFT_UST()
+APENFT_UST = APENFT_UST(*APENFT_UST._fields)
 """
     name: tAPENFT:UST
     significant_digits: 5
@@ -1249,7 +1249,7 @@ APENFT_UST = APENFT_UST()
 """
 
 
-class APEUSD(NamedTuple):
+class APEUSD(Symbol):
     """
         name: tAPEUSD
         significant_digits: 5
@@ -1287,7 +1287,7 @@ class APEUSD(NamedTuple):
         return "tAPEUSD"
 
 
-APEUSD = APEUSD()
+APEUSD = APEUSD(*APEUSD._fields)
 """
     name: tAPEUSD
     significant_digits: 5
@@ -1301,7 +1301,7 @@ APEUSD = APEUSD()
 """
 
 
-class APEUST(NamedTuple):
+class APEUST(Symbol):
     """
         name: tAPEUST
         significant_digits: 5
@@ -1339,7 +1339,7 @@ class APEUST(NamedTuple):
         return "tAPEUST"
 
 
-APEUST = APEUST()
+APEUST = APEUST(*APEUST._fields)
 """
     name: tAPEUST
     significant_digits: 5
@@ -1353,7 +1353,7 @@ APEUST = APEUST()
 """
 
 
-class APTF0_USTF0(NamedTuple):
+class APTF0_USTF0(Symbol):
     """
         name: tAPTF0:USTF0
         significant_digits: 5
@@ -1391,7 +1391,7 @@ class APTF0_USTF0(NamedTuple):
         return "tAPTF0:USTF0"
 
 
-APTF0_USTF0 = APTF0_USTF0()
+APTF0_USTF0 = APTF0_USTF0(*APTF0_USTF0._fields)
 """
     name: tAPTF0:USTF0
     significant_digits: 5
@@ -1405,7 +1405,7 @@ APTF0_USTF0 = APTF0_USTF0()
 """
 
 
-class APTUSD(NamedTuple):
+class APTUSD(Symbol):
     """
         name: tAPTUSD
         significant_digits: 5
@@ -1443,7 +1443,7 @@ class APTUSD(NamedTuple):
         return "tAPTUSD"
 
 
-APTUSD = APTUSD()
+APTUSD = APTUSD(*APTUSD._fields)
 """
     name: tAPTUSD
     significant_digits: 5
@@ -1457,7 +1457,7 @@ APTUSD = APTUSD()
 """
 
 
-class APTUST(NamedTuple):
+class APTUST(Symbol):
     """
         name: tAPTUST
         significant_digits: 5
@@ -1495,7 +1495,7 @@ class APTUST(NamedTuple):
         return "tAPTUST"
 
 
-APTUST = APTUST()
+APTUST = APTUST(*APTUST._fields)
 """
     name: tAPTUST
     significant_digits: 5
@@ -1509,7 +1509,7 @@ APTUST = APTUST()
 """
 
 
-class ARBF0_USTF0(NamedTuple):
+class ARBF0_USTF0(Symbol):
     """
         name: tARBF0:USTF0
         significant_digits: 5
@@ -1547,7 +1547,7 @@ class ARBF0_USTF0(NamedTuple):
         return "tARBF0:USTF0"
 
 
-ARBF0_USTF0 = ARBF0_USTF0()
+ARBF0_USTF0 = ARBF0_USTF0(*ARBF0_USTF0._fields)
 """
     name: tARBF0:USTF0
     significant_digits: 5
@@ -1561,7 +1561,7 @@ ARBF0_USTF0 = ARBF0_USTF0()
 """
 
 
-class ARBUSD(NamedTuple):
+class ARBUSD(Symbol):
     """
         name: tARBUSD
         significant_digits: 5
@@ -1599,7 +1599,7 @@ class ARBUSD(NamedTuple):
         return "tARBUSD"
 
 
-ARBUSD = ARBUSD()
+ARBUSD = ARBUSD(*ARBUSD._fields)
 """
     name: tARBUSD
     significant_digits: 5
@@ -1613,7 +1613,7 @@ ARBUSD = ARBUSD()
 """
 
 
-class ARBUST(NamedTuple):
+class ARBUST(Symbol):
     """
         name: tARBUST
         significant_digits: 5
@@ -1651,7 +1651,7 @@ class ARBUST(NamedTuple):
         return "tARBUST"
 
 
-ARBUST = ARBUST()
+ARBUST = ARBUST(*ARBUST._fields)
 """
     name: tARBUST
     significant_digits: 5
@@ -1665,7 +1665,7 @@ ARBUST = ARBUST()
 """
 
 
-class ATLAS_USD(NamedTuple):
+class ATLAS_USD(Symbol):
     """
         name: tATLAS:USD
         significant_digits: 5
@@ -1703,7 +1703,7 @@ class ATLAS_USD(NamedTuple):
         return "tATLAS:USD"
 
 
-ATLAS_USD = ATLAS_USD()
+ATLAS_USD = ATLAS_USD(*ATLAS_USD._fields)
 """
     name: tATLAS:USD
     significant_digits: 5
@@ -1717,7 +1717,7 @@ ATLAS_USD = ATLAS_USD()
 """
 
 
-class ATLAS_UST(NamedTuple):
+class ATLAS_UST(Symbol):
     """
         name: tATLAS:UST
         significant_digits: 5
@@ -1755,7 +1755,7 @@ class ATLAS_UST(NamedTuple):
         return "tATLAS:UST"
 
 
-ATLAS_UST = ATLAS_UST()
+ATLAS_UST = ATLAS_UST(*ATLAS_UST._fields)
 """
     name: tATLAS:UST
     significant_digits: 5
@@ -1769,7 +1769,7 @@ ATLAS_UST = ATLAS_UST()
 """
 
 
-class ATOBTC(NamedTuple):
+class ATOBTC(Symbol):
     """
         name: tATOBTC
         significant_digits: 5
@@ -1807,7 +1807,7 @@ class ATOBTC(NamedTuple):
         return "tATOBTC"
 
 
-ATOBTC = ATOBTC()
+ATOBTC = ATOBTC(*ATOBTC._fields)
 """
     name: tATOBTC
     significant_digits: 5
@@ -1821,7 +1821,7 @@ ATOBTC = ATOBTC()
 """
 
 
-class ATOETH(NamedTuple):
+class ATOETH(Symbol):
     """
         name: tATOETH
         significant_digits: 5
@@ -1859,7 +1859,7 @@ class ATOETH(NamedTuple):
         return "tATOETH"
 
 
-ATOETH = ATOETH()
+ATOETH = ATOETH(*ATOETH._fields)
 """
     name: tATOETH
     significant_digits: 5
@@ -1873,7 +1873,7 @@ ATOETH = ATOETH()
 """
 
 
-class ATOF0_USTF0(NamedTuple):
+class ATOF0_USTF0(Symbol):
     """
         name: tATOF0:USTF0
         significant_digits: 5
@@ -1911,7 +1911,7 @@ class ATOF0_USTF0(NamedTuple):
         return "tATOF0:USTF0"
 
 
-ATOF0_USTF0 = ATOF0_USTF0()
+ATOF0_USTF0 = ATOF0_USTF0(*ATOF0_USTF0._fields)
 """
     name: tATOF0:USTF0
     significant_digits: 5
@@ -1925,7 +1925,7 @@ ATOF0_USTF0 = ATOF0_USTF0()
 """
 
 
-class ATOUSD(NamedTuple):
+class ATOUSD(Symbol):
     """
         name: tATOUSD
         significant_digits: 5
@@ -1963,7 +1963,7 @@ class ATOUSD(NamedTuple):
         return "tATOUSD"
 
 
-ATOUSD = ATOUSD()
+ATOUSD = ATOUSD(*ATOUSD._fields)
 """
     name: tATOUSD
     significant_digits: 5
@@ -1977,7 +1977,7 @@ ATOUSD = ATOUSD()
 """
 
 
-class ATOUST(NamedTuple):
+class ATOUST(Symbol):
     """
         name: tATOUST
         significant_digits: 5
@@ -2015,7 +2015,7 @@ class ATOUST(NamedTuple):
         return "tATOUST"
 
 
-ATOUST = ATOUST()
+ATOUST = ATOUST(*ATOUST._fields)
 """
     name: tATOUST
     significant_digits: 5
@@ -2029,7 +2029,7 @@ ATOUST = ATOUST()
 """
 
 
-class AUSTRALIA200IXF0_USTF0(NamedTuple):
+class AUSTRALIA200IXF0_USTF0(Symbol):
     """
         name: tAUSTRALIA200IXF0:USTF0
         significant_digits: 5
@@ -2067,7 +2067,7 @@ class AUSTRALIA200IXF0_USTF0(NamedTuple):
         return "tAUSTRALIA200IXF0:USTF0"
 
 
-AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0()
+AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0(*AUSTRALIA200IXF0_USTF0._fields)
 """
     name: tAUSTRALIA200IXF0:USTF0
     significant_digits: 5
@@ -2081,7 +2081,7 @@ AUSTRALIA200IXF0_USTF0 = AUSTRALIA200IXF0_USTF0()
 """
 
 
-class AVAX_BTC(NamedTuple):
+class AVAX_BTC(Symbol):
     """
         name: tAVAX:BTC
         significant_digits: 5
@@ -2119,7 +2119,7 @@ class AVAX_BTC(NamedTuple):
         return "tAVAX:BTC"
 
 
-AVAX_BTC = AVAX_BTC()
+AVAX_BTC = AVAX_BTC(*AVAX_BTC._fields)
 """
     name: tAVAX:BTC
     significant_digits: 5
@@ -2133,7 +2133,7 @@ AVAX_BTC = AVAX_BTC()
 """
 
 
-class AVAX_USD(NamedTuple):
+class AVAX_USD(Symbol):
     """
         name: tAVAX:USD
         significant_digits: 5
@@ -2171,7 +2171,7 @@ class AVAX_USD(NamedTuple):
         return "tAVAX:USD"
 
 
-AVAX_USD = AVAX_USD()
+AVAX_USD = AVAX_USD(*AVAX_USD._fields)
 """
     name: tAVAX:USD
     significant_digits: 5
@@ -2185,7 +2185,7 @@ AVAX_USD = AVAX_USD()
 """
 
 
-class AVAX_UST(NamedTuple):
+class AVAX_UST(Symbol):
     """
         name: tAVAX:UST
         significant_digits: 5
@@ -2223,7 +2223,7 @@ class AVAX_UST(NamedTuple):
         return "tAVAX:UST"
 
 
-AVAX_UST = AVAX_UST()
+AVAX_UST = AVAX_UST(*AVAX_UST._fields)
 """
     name: tAVAX:UST
     significant_digits: 5
@@ -2237,7 +2237,7 @@ AVAX_UST = AVAX_UST()
 """
 
 
-class AVAXF0_BTCF0(NamedTuple):
+class AVAXF0_BTCF0(Symbol):
     """
         name: tAVAXF0:BTCF0
         significant_digits: 5
@@ -2275,7 +2275,7 @@ class AVAXF0_BTCF0(NamedTuple):
         return "tAVAXF0:BTCF0"
 
 
-AVAXF0_BTCF0 = AVAXF0_BTCF0()
+AVAXF0_BTCF0 = AVAXF0_BTCF0(*AVAXF0_BTCF0._fields)
 """
     name: tAVAXF0:BTCF0
     significant_digits: 5
@@ -2289,7 +2289,7 @@ AVAXF0_BTCF0 = AVAXF0_BTCF0()
 """
 
 
-class AVAXF0_USTF0(NamedTuple):
+class AVAXF0_USTF0(Symbol):
     """
         name: tAVAXF0:USTF0
         significant_digits: 5
@@ -2327,7 +2327,7 @@ class AVAXF0_USTF0(NamedTuple):
         return "tAVAXF0:USTF0"
 
 
-AVAXF0_USTF0 = AVAXF0_USTF0()
+AVAXF0_USTF0 = AVAXF0_USTF0(*AVAXF0_USTF0._fields)
 """
     name: tAVAXF0:USTF0
     significant_digits: 5
@@ -2341,7 +2341,7 @@ AVAXF0_USTF0 = AVAXF0_USTF0()
 """
 
 
-class AXSF0_USTF0(NamedTuple):
+class AXSF0_USTF0(Symbol):
     """
         name: tAXSF0:USTF0
         significant_digits: 5
@@ -2379,7 +2379,7 @@ class AXSF0_USTF0(NamedTuple):
         return "tAXSF0:USTF0"
 
 
-AXSF0_USTF0 = AXSF0_USTF0()
+AXSF0_USTF0 = AXSF0_USTF0(*AXSF0_USTF0._fields)
 """
     name: tAXSF0:USTF0
     significant_digits: 5
@@ -2393,7 +2393,7 @@ AXSF0_USTF0 = AXSF0_USTF0()
 """
 
 
-class AXSUSD(NamedTuple):
+class AXSUSD(Symbol):
     """
         name: tAXSUSD
         significant_digits: 5
@@ -2431,7 +2431,7 @@ class AXSUSD(NamedTuple):
         return "tAXSUSD"
 
 
-AXSUSD = AXSUSD()
+AXSUSD = AXSUSD(*AXSUSD._fields)
 """
     name: tAXSUSD
     significant_digits: 5
@@ -2445,7 +2445,7 @@ AXSUSD = AXSUSD()
 """
 
 
-class AXSUST(NamedTuple):
+class AXSUST(Symbol):
     """
         name: tAXSUST
         significant_digits: 5
@@ -2483,7 +2483,7 @@ class AXSUST(NamedTuple):
         return "tAXSUST"
 
 
-AXSUST = AXSUST()
+AXSUST = AXSUST(*AXSUST._fields)
 """
     name: tAXSUST
     significant_digits: 5
@@ -2497,7 +2497,7 @@ AXSUST = AXSUST()
 """
 
 
-class B2MUSD(NamedTuple):
+class B2MUSD(Symbol):
     """
         name: tB2MUSD
         significant_digits: 5
@@ -2535,7 +2535,7 @@ class B2MUSD(NamedTuple):
         return "tB2MUSD"
 
 
-B2MUSD = B2MUSD()
+B2MUSD = B2MUSD(*B2MUSD._fields)
 """
     name: tB2MUSD
     significant_digits: 5
@@ -2549,7 +2549,7 @@ B2MUSD = B2MUSD()
 """
 
 
-class B2MUST(NamedTuple):
+class B2MUST(Symbol):
     """
         name: tB2MUST
         significant_digits: 5
@@ -2587,7 +2587,7 @@ class B2MUST(NamedTuple):
         return "tB2MUST"
 
 
-B2MUST = B2MUST()
+B2MUST = B2MUST(*B2MUST._fields)
 """
     name: tB2MUST
     significant_digits: 5
@@ -2601,7 +2601,7 @@ B2MUST = B2MUST()
 """
 
 
-class BALUSD(NamedTuple):
+class BALUSD(Symbol):
     """
         name: tBALUSD
         significant_digits: 5
@@ -2639,7 +2639,7 @@ class BALUSD(NamedTuple):
         return "tBALUSD"
 
 
-BALUSD = BALUSD()
+BALUSD = BALUSD(*BALUSD._fields)
 """
     name: tBALUSD
     significant_digits: 5
@@ -2653,7 +2653,7 @@ BALUSD = BALUSD()
 """
 
 
-class BALUST(NamedTuple):
+class BALUST(Symbol):
     """
         name: tBALUST
         significant_digits: 5
@@ -2691,7 +2691,7 @@ class BALUST(NamedTuple):
         return "tBALUST"
 
 
-BALUST = BALUST()
+BALUST = BALUST(*BALUST._fields)
 """
     name: tBALUST
     significant_digits: 5
@@ -2705,7 +2705,7 @@ BALUST = BALUST()
 """
 
 
-class BAND_USD(NamedTuple):
+class BAND_USD(Symbol):
     """
         name: tBAND:USD
         significant_digits: 5
@@ -2743,7 +2743,7 @@ class BAND_USD(NamedTuple):
         return "tBAND:USD"
 
 
-BAND_USD = BAND_USD()
+BAND_USD = BAND_USD(*BAND_USD._fields)
 """
     name: tBAND:USD
     significant_digits: 5
@@ -2757,7 +2757,7 @@ BAND_USD = BAND_USD()
 """
 
 
-class BAND_UST(NamedTuple):
+class BAND_UST(Symbol):
     """
         name: tBAND:UST
         significant_digits: 5
@@ -2795,7 +2795,7 @@ class BAND_UST(NamedTuple):
         return "tBAND:UST"
 
 
-BAND_UST = BAND_UST()
+BAND_UST = BAND_UST(*BAND_UST._fields)
 """
     name: tBAND:UST
     significant_digits: 5
@@ -2809,7 +2809,7 @@ BAND_UST = BAND_UST()
 """
 
 
-class BATUSD(NamedTuple):
+class BATUSD(Symbol):
     """
         name: tBATUSD
         significant_digits: 5
@@ -2847,7 +2847,7 @@ class BATUSD(NamedTuple):
         return "tBATUSD"
 
 
-BATUSD = BATUSD()
+BATUSD = BATUSD(*BATUSD._fields)
 """
     name: tBATUSD
     significant_digits: 5
@@ -2861,7 +2861,7 @@ BATUSD = BATUSD()
 """
 
 
-class BATUST(NamedTuple):
+class BATUST(Symbol):
     """
         name: tBATUST
         significant_digits: 5
@@ -2899,7 +2899,7 @@ class BATUST(NamedTuple):
         return "tBATUST"
 
 
-BATUST = BATUST()
+BATUST = BATUST(*BATUST._fields)
 """
     name: tBATUST
     significant_digits: 5
@@ -2913,7 +2913,7 @@ BATUST = BATUST()
 """
 
 
-class BCHABC_USD(NamedTuple):
+class BCHABC_USD(Symbol):
     """
         name: tBCHABC:USD
         significant_digits: 5
@@ -2951,7 +2951,7 @@ class BCHABC_USD(NamedTuple):
         return "tBCHABC:USD"
 
 
-BCHABC_USD = BCHABC_USD()
+BCHABC_USD = BCHABC_USD(*BCHABC_USD._fields)
 """
     name: tBCHABC:USD
     significant_digits: 5
@@ -2965,7 +2965,7 @@ BCHABC_USD = BCHABC_USD()
 """
 
 
-class BCHN_USD(NamedTuple):
+class BCHN_USD(Symbol):
     """
         name: tBCHN:USD
         significant_digits: 5
@@ -3003,7 +3003,7 @@ class BCHN_USD(NamedTuple):
         return "tBCHN:USD"
 
 
-BCHN_USD = BCHN_USD()
+BCHN_USD = BCHN_USD(*BCHN_USD._fields)
 """
     name: tBCHN:USD
     significant_digits: 5
@@ -3017,7 +3017,7 @@ BCHN_USD = BCHN_USD()
 """
 
 
-class BEST_USD(NamedTuple):
+class BEST_USD(Symbol):
     """
         name: tBEST:USD
         significant_digits: 5
@@ -3055,7 +3055,7 @@ class BEST_USD(NamedTuple):
         return "tBEST:USD"
 
 
-BEST_USD = BEST_USD()
+BEST_USD = BEST_USD(*BEST_USD._fields)
 """
     name: tBEST:USD
     significant_digits: 5
@@ -3069,7 +3069,7 @@ BEST_USD = BEST_USD()
 """
 
 
-class BGBUSD(NamedTuple):
+class BGBUSD(Symbol):
     """
         name: tBGBUSD
         significant_digits: 5
@@ -3107,7 +3107,7 @@ class BGBUSD(NamedTuple):
         return "tBGBUSD"
 
 
-BGBUSD = BGBUSD()
+BGBUSD = BGBUSD(*BGBUSD._fields)
 """
     name: tBGBUSD
     significant_digits: 5
@@ -3121,7 +3121,7 @@ BGBUSD = BGBUSD()
 """
 
 
-class BGBUST(NamedTuple):
+class BGBUST(Symbol):
     """
         name: tBGBUST
         significant_digits: 5
@@ -3159,7 +3159,7 @@ class BGBUST(NamedTuple):
         return "tBGBUST"
 
 
-BGBUST = BGBUST()
+BGBUST = BGBUST(*BGBUST._fields)
 """
     name: tBGBUST
     significant_digits: 5
@@ -3173,7 +3173,7 @@ BGBUST = BGBUST()
 """
 
 
-class BLUR_USD(NamedTuple):
+class BLUR_USD(Symbol):
     """
         name: tBLUR:USD
         significant_digits: 5
@@ -3211,7 +3211,7 @@ class BLUR_USD(NamedTuple):
         return "tBLUR:USD"
 
 
-BLUR_USD = BLUR_USD()
+BLUR_USD = BLUR_USD(*BLUR_USD._fields)
 """
     name: tBLUR:USD
     significant_digits: 5
@@ -3225,7 +3225,7 @@ BLUR_USD = BLUR_USD()
 """
 
 
-class BLUR_UST(NamedTuple):
+class BLUR_UST(Symbol):
     """
         name: tBLUR:UST
         significant_digits: 5
@@ -3263,7 +3263,7 @@ class BLUR_UST(NamedTuple):
         return "tBLUR:UST"
 
 
-BLUR_UST = BLUR_UST()
+BLUR_UST = BLUR_UST(*BLUR_UST._fields)
 """
     name: tBLUR:UST
     significant_digits: 5
@@ -3277,7 +3277,7 @@ BLUR_UST = BLUR_UST()
 """
 
 
-class BMNBTC(NamedTuple):
+class BMNBTC(Symbol):
     """
         name: tBMNBTC
         significant_digits: 5
@@ -3315,7 +3315,7 @@ class BMNBTC(NamedTuple):
         return "tBMNBTC"
 
 
-BMNBTC = BMNBTC()
+BMNBTC = BMNBTC(*BMNBTC._fields)
 """
     name: tBMNBTC
     significant_digits: 5
@@ -3329,7 +3329,7 @@ BMNBTC = BMNBTC()
 """
 
 
-class BMNUSD(NamedTuple):
+class BMNUSD(Symbol):
     """
         name: tBMNUSD
         significant_digits: 5
@@ -3367,7 +3367,7 @@ class BMNUSD(NamedTuple):
         return "tBMNUSD"
 
 
-BMNUSD = BMNUSD()
+BMNUSD = BMNUSD(*BMNUSD._fields)
 """
     name: tBMNUSD
     significant_digits: 5
@@ -3381,7 +3381,7 @@ BMNUSD = BMNUSD()
 """
 
 
-class BNTUSD(NamedTuple):
+class BNTUSD(Symbol):
     """
         name: tBNTUSD
         significant_digits: 5
@@ -3419,7 +3419,7 @@ class BNTUSD(NamedTuple):
         return "tBNTUSD"
 
 
-BNTUSD = BNTUSD()
+BNTUSD = BNTUSD(*BNTUSD._fields)
 """
     name: tBNTUSD
     significant_digits: 5
@@ -3433,7 +3433,7 @@ BNTUSD = BNTUSD()
 """
 
 
-class BOBA_USD(NamedTuple):
+class BOBA_USD(Symbol):
     """
         name: tBOBA:USD
         significant_digits: 5
@@ -3471,7 +3471,7 @@ class BOBA_USD(NamedTuple):
         return "tBOBA:USD"
 
 
-BOBA_USD = BOBA_USD()
+BOBA_USD = BOBA_USD(*BOBA_USD._fields)
 """
     name: tBOBA:USD
     significant_digits: 5
@@ -3485,7 +3485,7 @@ BOBA_USD = BOBA_USD()
 """
 
 
-class BOBA_UST(NamedTuple):
+class BOBA_UST(Symbol):
     """
         name: tBOBA:UST
         significant_digits: 5
@@ -3523,7 +3523,7 @@ class BOBA_UST(NamedTuple):
         return "tBOBA:UST"
 
 
-BOBA_UST = BOBA_UST()
+BOBA_UST = BOBA_UST(*BOBA_UST._fields)
 """
     name: tBOBA:UST
     significant_digits: 5
@@ -3537,7 +3537,7 @@ BOBA_UST = BOBA_UST()
 """
 
 
-class BOOUSD(NamedTuple):
+class BOOUSD(Symbol):
     """
         name: tBOOUSD
         significant_digits: 5
@@ -3575,7 +3575,7 @@ class BOOUSD(NamedTuple):
         return "tBOOUSD"
 
 
-BOOUSD = BOOUSD()
+BOOUSD = BOOUSD(*BOOUSD._fields)
 """
     name: tBOOUSD
     significant_digits: 5
@@ -3589,7 +3589,7 @@ BOOUSD = BOOUSD()
 """
 
 
-class BOOUST(NamedTuple):
+class BOOUST(Symbol):
     """
         name: tBOOUST
         significant_digits: 5
@@ -3627,7 +3627,7 @@ class BOOUST(NamedTuple):
         return "tBOOUST"
 
 
-BOOUST = BOOUST()
+BOOUST = BOOUST(*BOOUST._fields)
 """
     name: tBOOUST
     significant_digits: 5
@@ -3641,7 +3641,7 @@ BOOUST = BOOUST()
 """
 
 
-class BOSON_USD(NamedTuple):
+class BOSON_USD(Symbol):
     """
         name: tBOSON:USD
         significant_digits: 5
@@ -3679,7 +3679,7 @@ class BOSON_USD(NamedTuple):
         return "tBOSON:USD"
 
 
-BOSON_USD = BOSON_USD()
+BOSON_USD = BOSON_USD(*BOSON_USD._fields)
 """
     name: tBOSON:USD
     significant_digits: 5
@@ -3693,7 +3693,7 @@ BOSON_USD = BOSON_USD()
 """
 
 
-class BOSON_UST(NamedTuple):
+class BOSON_UST(Symbol):
     """
         name: tBOSON:UST
         significant_digits: 5
@@ -3731,7 +3731,7 @@ class BOSON_UST(NamedTuple):
         return "tBOSON:UST"
 
 
-BOSON_UST = BOSON_UST()
+BOSON_UST = BOSON_UST(*BOSON_UST._fields)
 """
     name: tBOSON:UST
     significant_digits: 5
@@ -3745,7 +3745,7 @@ BOSON_UST = BOSON_UST()
 """
 
 
-class BRISE_USD(NamedTuple):
+class BRISE_USD(Symbol):
     """
         name: tBRISE:USD
         significant_digits: 5
@@ -3783,7 +3783,7 @@ class BRISE_USD(NamedTuple):
         return "tBRISE:USD"
 
 
-BRISE_USD = BRISE_USD()
+BRISE_USD = BRISE_USD(*BRISE_USD._fields)
 """
     name: tBRISE:USD
     significant_digits: 5
@@ -3797,7 +3797,7 @@ BRISE_USD = BRISE_USD()
 """
 
 
-class BRISE_UST(NamedTuple):
+class BRISE_UST(Symbol):
     """
         name: tBRISE:UST
         significant_digits: 5
@@ -3835,7 +3835,7 @@ class BRISE_UST(NamedTuple):
         return "tBRISE:UST"
 
 
-BRISE_UST = BRISE_UST()
+BRISE_UST = BRISE_UST(*BRISE_UST._fields)
 """
     name: tBRISE:UST
     significant_digits: 5
@@ -3849,7 +3849,7 @@ BRISE_UST = BRISE_UST()
 """
 
 
-class BTC_CNHT(NamedTuple):
+class BTC_CNHT(Symbol):
     """
         name: tBTC:CNHT
         significant_digits: 5
@@ -3887,7 +3887,7 @@ class BTC_CNHT(NamedTuple):
         return "tBTC:CNHT"
 
 
-BTC_CNHT = BTC_CNHT()
+BTC_CNHT = BTC_CNHT(*BTC_CNHT._fields)
 """
     name: tBTC:CNHT
     significant_digits: 5
@@ -3901,7 +3901,7 @@ BTC_CNHT = BTC_CNHT()
 """
 
 
-class BTC_MXNT(NamedTuple):
+class BTC_MXNT(Symbol):
     """
         name: tBTC:MXNT
         significant_digits: 5
@@ -3939,7 +3939,7 @@ class BTC_MXNT(NamedTuple):
         return "tBTC:MXNT"
 
 
-BTC_MXNT = BTC_MXNT()
+BTC_MXNT = BTC_MXNT(*BTC_MXNT._fields)
 """
     name: tBTC:MXNT
     significant_digits: 5
@@ -3953,7 +3953,7 @@ BTC_MXNT = BTC_MXNT()
 """
 
 
-class BTC_XAUT(NamedTuple):
+class BTC_XAUT(Symbol):
     """
         name: tBTC:XAUT
         significant_digits: 5
@@ -3991,7 +3991,7 @@ class BTC_XAUT(NamedTuple):
         return "tBTC:XAUT"
 
 
-BTC_XAUT = BTC_XAUT()
+BTC_XAUT = BTC_XAUT(*BTC_XAUT._fields)
 """
     name: tBTC:XAUT
     significant_digits: 5
@@ -4005,7 +4005,7 @@ BTC_XAUT = BTC_XAUT()
 """
 
 
-class BTCDOMF0_USTF0(NamedTuple):
+class BTCDOMF0_USTF0(Symbol):
     """
         name: tBTCDOMF0:USTF0
         significant_digits: 5
@@ -4043,7 +4043,7 @@ class BTCDOMF0_USTF0(NamedTuple):
         return "tBTCDOMF0:USTF0"
 
 
-BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
+BTCDOMF0_USTF0 = BTCDOMF0_USTF0(*BTCDOMF0_USTF0._fields)
 """
     name: tBTCDOMF0:USTF0
     significant_digits: 5
@@ -4057,7 +4057,7 @@ BTCDOMF0_USTF0 = BTCDOMF0_USTF0()
 """
 
 
-class BTCEUR(NamedTuple):
+class BTCEUR(Symbol):
     """
         name: tBTCEUR
         significant_digits: 5
@@ -4095,7 +4095,7 @@ class BTCEUR(NamedTuple):
         return "tBTCEUR"
 
 
-BTCEUR = BTCEUR()
+BTCEUR = BTCEUR(*BTCEUR._fields)
 """
     name: tBTCEUR
     significant_digits: 5
@@ -4109,7 +4109,7 @@ BTCEUR = BTCEUR()
 """
 
 
-class BTCEUT(NamedTuple):
+class BTCEUT(Symbol):
     """
         name: tBTCEUT
         significant_digits: 5
@@ -4147,7 +4147,7 @@ class BTCEUT(NamedTuple):
         return "tBTCEUT"
 
 
-BTCEUT = BTCEUT()
+BTCEUT = BTCEUT(*BTCEUT._fields)
 """
     name: tBTCEUT
     significant_digits: 5
@@ -4161,7 +4161,7 @@ BTCEUT = BTCEUT()
 """
 
 
-class BTCF0_EUTF0(NamedTuple):
+class BTCF0_EUTF0(Symbol):
     """
         name: tBTCF0:EUTF0
         significant_digits: 5
@@ -4199,7 +4199,7 @@ class BTCF0_EUTF0(NamedTuple):
         return "tBTCF0:EUTF0"
 
 
-BTCF0_EUTF0 = BTCF0_EUTF0()
+BTCF0_EUTF0 = BTCF0_EUTF0(*BTCF0_EUTF0._fields)
 """
     name: tBTCF0:EUTF0
     significant_digits: 5
@@ -4213,7 +4213,7 @@ BTCF0_EUTF0 = BTCF0_EUTF0()
 """
 
 
-class BTCF0_USTF0(NamedTuple):
+class BTCF0_USTF0(Symbol):
     """
         name: tBTCF0:USTF0
         significant_digits: 5
@@ -4251,7 +4251,7 @@ class BTCF0_USTF0(NamedTuple):
         return "tBTCF0:USTF0"
 
 
-BTCF0_USTF0 = BTCF0_USTF0()
+BTCF0_USTF0 = BTCF0_USTF0(*BTCF0_USTF0._fields)
 """
     name: tBTCF0:USTF0
     significant_digits: 5
@@ -4265,7 +4265,7 @@ BTCF0_USTF0 = BTCF0_USTF0()
 """
 
 
-class BTCGBP(NamedTuple):
+class BTCGBP(Symbol):
     """
         name: tBTCGBP
         significant_digits: 5
@@ -4303,7 +4303,7 @@ class BTCGBP(NamedTuple):
         return "tBTCGBP"
 
 
-BTCGBP = BTCGBP()
+BTCGBP = BTCGBP(*BTCGBP._fields)
 """
     name: tBTCGBP
     significant_digits: 5
@@ -4317,7 +4317,7 @@ BTCGBP = BTCGBP()
 """
 
 
-class BTCJPY(NamedTuple):
+class BTCJPY(Symbol):
     """
         name: tBTCJPY
         significant_digits: 5
@@ -4355,7 +4355,7 @@ class BTCJPY(NamedTuple):
         return "tBTCJPY"
 
 
-BTCJPY = BTCJPY()
+BTCJPY = BTCJPY(*BTCJPY._fields)
 """
     name: tBTCJPY
     significant_digits: 5
@@ -4369,7 +4369,7 @@ BTCJPY = BTCJPY()
 """
 
 
-class BTCMIM(NamedTuple):
+class BTCMIM(Symbol):
     """
         name: tBTCMIM
         significant_digits: 5
@@ -4407,7 +4407,7 @@ class BTCMIM(NamedTuple):
         return "tBTCMIM"
 
 
-BTCMIM = BTCMIM()
+BTCMIM = BTCMIM(*BTCMIM._fields)
 """
     name: tBTCMIM
     significant_digits: 5
@@ -4421,7 +4421,7 @@ BTCMIM = BTCMIM()
 """
 
 
-class BTCTRY(NamedTuple):
+class BTCTRY(Symbol):
     """
         name: tBTCTRY
         significant_digits: 5
@@ -4459,7 +4459,7 @@ class BTCTRY(NamedTuple):
         return "tBTCTRY"
 
 
-BTCTRY = BTCTRY()
+BTCTRY = BTCTRY(*BTCTRY._fields)
 """
     name: tBTCTRY
     significant_digits: 5
@@ -4473,7 +4473,7 @@ BTCTRY = BTCTRY()
 """
 
 
-class BTCUSD(NamedTuple):
+class BTCUSD(Symbol):
     """
         name: tBTCUSD
         significant_digits: 5
@@ -4511,7 +4511,7 @@ class BTCUSD(NamedTuple):
         return "tBTCUSD"
 
 
-BTCUSD = BTCUSD()
+BTCUSD = BTCUSD(*BTCUSD._fields)
 """
     name: tBTCUSD
     significant_digits: 5
@@ -4525,7 +4525,7 @@ BTCUSD = BTCUSD()
 """
 
 
-class BTCUST(NamedTuple):
+class BTCUST(Symbol):
     """
         name: tBTCUST
         significant_digits: 5
@@ -4563,7 +4563,7 @@ class BTCUST(NamedTuple):
         return "tBTCUST"
 
 
-BTCUST = BTCUST()
+BTCUST = BTCUST(*BTCUST._fields)
 """
     name: tBTCUST
     significant_digits: 5
@@ -4577,7 +4577,7 @@ BTCUST = BTCUST()
 """
 
 
-class BTGBTC(NamedTuple):
+class BTGBTC(Symbol):
     """
         name: tBTGBTC
         significant_digits: 5
@@ -4615,7 +4615,7 @@ class BTGBTC(NamedTuple):
         return "tBTGBTC"
 
 
-BTGBTC = BTGBTC()
+BTGBTC = BTGBTC(*BTGBTC._fields)
 """
     name: tBTGBTC
     significant_digits: 5
@@ -4629,7 +4629,7 @@ BTGBTC = BTGBTC()
 """
 
 
-class BTGUSD(NamedTuple):
+class BTGUSD(Symbol):
     """
         name: tBTGUSD
         significant_digits: 5
@@ -4667,7 +4667,7 @@ class BTGUSD(NamedTuple):
         return "tBTGUSD"
 
 
-BTGUSD = BTGUSD()
+BTGUSD = BTGUSD(*BTGUSD._fields)
 """
     name: tBTGUSD
     significant_digits: 5
@@ -4681,7 +4681,7 @@ BTGUSD = BTGUSD()
 """
 
 
-class BTSE_USD(NamedTuple):
+class BTSE_USD(Symbol):
     """
         name: tBTSE:USD
         significant_digits: 5
@@ -4719,7 +4719,7 @@ class BTSE_USD(NamedTuple):
         return "tBTSE:USD"
 
 
-BTSE_USD = BTSE_USD()
+BTSE_USD = BTSE_USD(*BTSE_USD._fields)
 """
     name: tBTSE:USD
     significant_digits: 5
@@ -4733,7 +4733,7 @@ BTSE_USD = BTSE_USD()
 """
 
 
-class BTTUSD(NamedTuple):
+class BTTUSD(Symbol):
     """
         name: tBTTUSD
         significant_digits: 5
@@ -4771,7 +4771,7 @@ class BTTUSD(NamedTuple):
         return "tBTTUSD"
 
 
-BTTUSD = BTTUSD()
+BTTUSD = BTTUSD(*BTTUSD._fields)
 """
     name: tBTTUSD
     significant_digits: 5
@@ -4785,7 +4785,7 @@ BTTUSD = BTTUSD()
 """
 
 
-class CCDBTC(NamedTuple):
+class CCDBTC(Symbol):
     """
         name: tCCDBTC
         significant_digits: 5
@@ -4823,7 +4823,7 @@ class CCDBTC(NamedTuple):
         return "tCCDBTC"
 
 
-CCDBTC = CCDBTC()
+CCDBTC = CCDBTC(*CCDBTC._fields)
 """
     name: tCCDBTC
     significant_digits: 5
@@ -4837,7 +4837,7 @@ CCDBTC = CCDBTC()
 """
 
 
-class CCDUSD(NamedTuple):
+class CCDUSD(Symbol):
     """
         name: tCCDUSD
         significant_digits: 5
@@ -4875,7 +4875,7 @@ class CCDUSD(NamedTuple):
         return "tCCDUSD"
 
 
-CCDUSD = CCDUSD()
+CCDUSD = CCDUSD(*CCDUSD._fields)
 """
     name: tCCDUSD
     significant_digits: 5
@@ -4889,7 +4889,7 @@ CCDUSD = CCDUSD()
 """
 
 
-class CCDUST(NamedTuple):
+class CCDUST(Symbol):
     """
         name: tCCDUST
         significant_digits: 5
@@ -4927,7 +4927,7 @@ class CCDUST(NamedTuple):
         return "tCCDUST"
 
 
-CCDUST = CCDUST()
+CCDUST = CCDUST(*CCDUST._fields)
 """
     name: tCCDUST
     significant_digits: 5
@@ -4941,7 +4941,7 @@ CCDUST = CCDUST()
 """
 
 
-class CHEX_USD(NamedTuple):
+class CHEX_USD(Symbol):
     """
         name: tCHEX:USD
         significant_digits: 5
@@ -4979,7 +4979,7 @@ class CHEX_USD(NamedTuple):
         return "tCHEX:USD"
 
 
-CHEX_USD = CHEX_USD()
+CHEX_USD = CHEX_USD(*CHEX_USD._fields)
 """
     name: tCHEX:USD
     significant_digits: 5
@@ -4993,7 +4993,7 @@ CHEX_USD = CHEX_USD()
 """
 
 
-class CHSB_BTC(NamedTuple):
+class CHSB_BTC(Symbol):
     """
         name: tCHSB:BTC
         significant_digits: 5
@@ -5031,7 +5031,7 @@ class CHSB_BTC(NamedTuple):
         return "tCHSB:BTC"
 
 
-CHSB_BTC = CHSB_BTC()
+CHSB_BTC = CHSB_BTC(*CHSB_BTC._fields)
 """
     name: tCHSB:BTC
     significant_digits: 5
@@ -5045,7 +5045,7 @@ CHSB_BTC = CHSB_BTC()
 """
 
 
-class CHSB_USD(NamedTuple):
+class CHSB_USD(Symbol):
     """
         name: tCHSB:USD
         significant_digits: 5
@@ -5083,7 +5083,7 @@ class CHSB_USD(NamedTuple):
         return "tCHSB:USD"
 
 
-CHSB_USD = CHSB_USD()
+CHSB_USD = CHSB_USD(*CHSB_USD._fields)
 """
     name: tCHSB:USD
     significant_digits: 5
@@ -5097,7 +5097,7 @@ CHSB_USD = CHSB_USD()
 """
 
 
-class CHSB_UST(NamedTuple):
+class CHSB_UST(Symbol):
     """
         name: tCHSB:UST
         significant_digits: 5
@@ -5135,7 +5135,7 @@ class CHSB_UST(NamedTuple):
         return "tCHSB:UST"
 
 
-CHSB_UST = CHSB_UST()
+CHSB_UST = CHSB_UST(*CHSB_UST._fields)
 """
     name: tCHSB:UST
     significant_digits: 5
@@ -5149,7 +5149,7 @@ CHSB_UST = CHSB_UST()
 """
 
 
-class CHZUSD(NamedTuple):
+class CHZUSD(Symbol):
     """
         name: tCHZUSD
         significant_digits: 5
@@ -5187,7 +5187,7 @@ class CHZUSD(NamedTuple):
         return "tCHZUSD"
 
 
-CHZUSD = CHZUSD()
+CHZUSD = CHZUSD(*CHZUSD._fields)
 """
     name: tCHZUSD
     significant_digits: 5
@@ -5201,7 +5201,7 @@ CHZUSD = CHZUSD()
 """
 
 
-class CHZUST(NamedTuple):
+class CHZUST(Symbol):
     """
         name: tCHZUST
         significant_digits: 5
@@ -5239,7 +5239,7 @@ class CHZUST(NamedTuple):
         return "tCHZUST"
 
 
-CHZUST = CHZUST()
+CHZUST = CHZUST(*CHZUST._fields)
 """
     name: tCHZUST
     significant_digits: 5
@@ -5253,7 +5253,7 @@ CHZUST = CHZUST()
 """
 
 
-class CLOUSD(NamedTuple):
+class CLOUSD(Symbol):
     """
         name: tCLOUSD
         significant_digits: 5
@@ -5291,7 +5291,7 @@ class CLOUSD(NamedTuple):
         return "tCLOUSD"
 
 
-CLOUSD = CLOUSD()
+CLOUSD = CLOUSD(*CLOUSD._fields)
 """
     name: tCLOUSD
     significant_digits: 5
@@ -5305,7 +5305,7 @@ CLOUSD = CLOUSD()
 """
 
 
-class CNH_CNHT(NamedTuple):
+class CNH_CNHT(Symbol):
     """
         name: tCNH:CNHT
         significant_digits: 5
@@ -5343,7 +5343,7 @@ class CNH_CNHT(NamedTuple):
         return "tCNH:CNHT"
 
 
-CNH_CNHT = CNH_CNHT()
+CNH_CNHT = CNH_CNHT(*CNH_CNHT._fields)
 """
     name: tCNH:CNHT
     significant_digits: 5
@@ -5357,7 +5357,7 @@ CNH_CNHT = CNH_CNHT()
 """
 
 
-class COMP_USD(NamedTuple):
+class COMP_USD(Symbol):
     """
         name: tCOMP:USD
         significant_digits: 5
@@ -5395,7 +5395,7 @@ class COMP_USD(NamedTuple):
         return "tCOMP:USD"
 
 
-COMP_USD = COMP_USD()
+COMP_USD = COMP_USD(*COMP_USD._fields)
 """
     name: tCOMP:USD
     significant_digits: 5
@@ -5409,7 +5409,7 @@ COMP_USD = COMP_USD()
 """
 
 
-class COMP_UST(NamedTuple):
+class COMP_UST(Symbol):
     """
         name: tCOMP:UST
         significant_digits: 5
@@ -5447,7 +5447,7 @@ class COMP_UST(NamedTuple):
         return "tCOMP:UST"
 
 
-COMP_UST = COMP_UST()
+COMP_UST = COMP_UST(*COMP_UST._fields)
 """
     name: tCOMP:UST
     significant_digits: 5
@@ -5461,7 +5461,7 @@ COMP_UST = COMP_UST()
 """
 
 
-class COMPF0_USTF0(NamedTuple):
+class COMPF0_USTF0(Symbol):
     """
         name: tCOMPF0:USTF0
         significant_digits: 5
@@ -5499,7 +5499,7 @@ class COMPF0_USTF0(NamedTuple):
         return "tCOMPF0:USTF0"
 
 
-COMPF0_USTF0 = COMPF0_USTF0()
+COMPF0_USTF0 = COMPF0_USTF0(*COMPF0_USTF0._fields)
 """
     name: tCOMPF0:USTF0
     significant_digits: 5
@@ -5513,7 +5513,7 @@ COMPF0_USTF0 = COMPF0_USTF0()
 """
 
 
-class CONV_USD(NamedTuple):
+class CONV_USD(Symbol):
     """
         name: tCONV:USD
         significant_digits: 5
@@ -5551,7 +5551,7 @@ class CONV_USD(NamedTuple):
         return "tCONV:USD"
 
 
-CONV_USD = CONV_USD()
+CONV_USD = CONV_USD(*CONV_USD._fields)
 """
     name: tCONV:USD
     significant_digits: 5
@@ -5565,7 +5565,7 @@ CONV_USD = CONV_USD()
 """
 
 
-class CONV_UST(NamedTuple):
+class CONV_UST(Symbol):
     """
         name: tCONV:UST
         significant_digits: 5
@@ -5603,7 +5603,7 @@ class CONV_UST(NamedTuple):
         return "tCONV:UST"
 
 
-CONV_UST = CONV_UST()
+CONV_UST = CONV_UST(*CONV_UST._fields)
 """
     name: tCONV:UST
     significant_digits: 5
@@ -5617,7 +5617,7 @@ CONV_UST = CONV_UST()
 """
 
 
-class CRVF0_USTF0(NamedTuple):
+class CRVF0_USTF0(Symbol):
     """
         name: tCRVF0:USTF0
         significant_digits: 5
@@ -5655,7 +5655,7 @@ class CRVF0_USTF0(NamedTuple):
         return "tCRVF0:USTF0"
 
 
-CRVF0_USTF0 = CRVF0_USTF0()
+CRVF0_USTF0 = CRVF0_USTF0(*CRVF0_USTF0._fields)
 """
     name: tCRVF0:USTF0
     significant_digits: 5
@@ -5669,7 +5669,7 @@ CRVF0_USTF0 = CRVF0_USTF0()
 """
 
 
-class CRVUSD(NamedTuple):
+class CRVUSD(Symbol):
     """
         name: tCRVUSD
         significant_digits: 5
@@ -5707,7 +5707,7 @@ class CRVUSD(NamedTuple):
         return "tCRVUSD"
 
 
-CRVUSD = CRVUSD()
+CRVUSD = CRVUSD(*CRVUSD._fields)
 """
     name: tCRVUSD
     significant_digits: 5
@@ -5721,7 +5721,7 @@ CRVUSD = CRVUSD()
 """
 
 
-class CRVUST(NamedTuple):
+class CRVUST(Symbol):
     """
         name: tCRVUST
         significant_digits: 5
@@ -5759,7 +5759,7 @@ class CRVUST(NamedTuple):
         return "tCRVUST"
 
 
-CRVUST = CRVUST()
+CRVUST = CRVUST(*CRVUST._fields)
 """
     name: tCRVUST
     significant_digits: 5
@@ -5773,7 +5773,7 @@ CRVUST = CRVUST()
 """
 
 
-class DAIBTC(NamedTuple):
+class DAIBTC(Symbol):
     """
         name: tDAIBTC
         significant_digits: 5
@@ -5811,7 +5811,7 @@ class DAIBTC(NamedTuple):
         return "tDAIBTC"
 
 
-DAIBTC = DAIBTC()
+DAIBTC = DAIBTC(*DAIBTC._fields)
 """
     name: tDAIBTC
     significant_digits: 5
@@ -5825,7 +5825,7 @@ DAIBTC = DAIBTC()
 """
 
 
-class DAIUSD(NamedTuple):
+class DAIUSD(Symbol):
     """
         name: tDAIUSD
         significant_digits: 5
@@ -5863,7 +5863,7 @@ class DAIUSD(NamedTuple):
         return "tDAIUSD"
 
 
-DAIUSD = DAIUSD()
+DAIUSD = DAIUSD(*DAIUSD._fields)
 """
     name: tDAIUSD
     significant_digits: 5
@@ -5877,7 +5877,7 @@ DAIUSD = DAIUSD()
 """
 
 
-class DGBUSD(NamedTuple):
+class DGBUSD(Symbol):
     """
         name: tDGBUSD
         significant_digits: 5
@@ -5915,7 +5915,7 @@ class DGBUSD(NamedTuple):
         return "tDGBUSD"
 
 
-DGBUSD = DGBUSD()
+DGBUSD = DGBUSD(*DGBUSD._fields)
 """
     name: tDGBUSD
     significant_digits: 5
@@ -5929,7 +5929,7 @@ DGBUSD = DGBUSD()
 """
 
 
-class DOGE_BTC(NamedTuple):
+class DOGE_BTC(Symbol):
     """
         name: tDOGE:BTC
         significant_digits: 5
@@ -5967,7 +5967,7 @@ class DOGE_BTC(NamedTuple):
         return "tDOGE:BTC"
 
 
-DOGE_BTC = DOGE_BTC()
+DOGE_BTC = DOGE_BTC(*DOGE_BTC._fields)
 """
     name: tDOGE:BTC
     significant_digits: 5
@@ -5981,7 +5981,7 @@ DOGE_BTC = DOGE_BTC()
 """
 
 
-class DOGE_USD(NamedTuple):
+class DOGE_USD(Symbol):
     """
         name: tDOGE:USD
         significant_digits: 5
@@ -6019,7 +6019,7 @@ class DOGE_USD(NamedTuple):
         return "tDOGE:USD"
 
 
-DOGE_USD = DOGE_USD()
+DOGE_USD = DOGE_USD(*DOGE_USD._fields)
 """
     name: tDOGE:USD
     significant_digits: 5
@@ -6033,7 +6033,7 @@ DOGE_USD = DOGE_USD()
 """
 
 
-class DOGE_UST(NamedTuple):
+class DOGE_UST(Symbol):
     """
         name: tDOGE:UST
         significant_digits: 5
@@ -6071,7 +6071,7 @@ class DOGE_UST(NamedTuple):
         return "tDOGE:UST"
 
 
-DOGE_UST = DOGE_UST()
+DOGE_UST = DOGE_UST(*DOGE_UST._fields)
 """
     name: tDOGE:UST
     significant_digits: 5
@@ -6085,7 +6085,7 @@ DOGE_UST = DOGE_UST()
 """
 
 
-class DOGEF0_USTF0(NamedTuple):
+class DOGEF0_USTF0(Symbol):
     """
         name: tDOGEF0:USTF0
         significant_digits: 5
@@ -6123,7 +6123,7 @@ class DOGEF0_USTF0(NamedTuple):
         return "tDOGEF0:USTF0"
 
 
-DOGEF0_USTF0 = DOGEF0_USTF0()
+DOGEF0_USTF0 = DOGEF0_USTF0(*DOGEF0_USTF0._fields)
 """
     name: tDOGEF0:USTF0
     significant_digits: 5
@@ -6137,7 +6137,7 @@ DOGEF0_USTF0 = DOGEF0_USTF0()
 """
 
 
-class DORA_USD(NamedTuple):
+class DORA_USD(Symbol):
     """
         name: tDORA:USD
         significant_digits: 5
@@ -6175,7 +6175,7 @@ class DORA_USD(NamedTuple):
         return "tDORA:USD"
 
 
-DORA_USD = DORA_USD()
+DORA_USD = DORA_USD(*DORA_USD._fields)
 """
     name: tDORA:USD
     significant_digits: 5
@@ -6189,7 +6189,7 @@ DORA_USD = DORA_USD()
 """
 
 
-class DORA_UST(NamedTuple):
+class DORA_UST(Symbol):
     """
         name: tDORA:UST
         significant_digits: 5
@@ -6227,7 +6227,7 @@ class DORA_UST(NamedTuple):
         return "tDORA:UST"
 
 
-DORA_UST = DORA_UST()
+DORA_UST = DORA_UST(*DORA_UST._fields)
 """
     name: tDORA:UST
     significant_digits: 5
@@ -6241,7 +6241,7 @@ DORA_UST = DORA_UST()
 """
 
 
-class DOTBTC(NamedTuple):
+class DOTBTC(Symbol):
     """
         name: tDOTBTC
         significant_digits: 5
@@ -6279,7 +6279,7 @@ class DOTBTC(NamedTuple):
         return "tDOTBTC"
 
 
-DOTBTC = DOTBTC()
+DOTBTC = DOTBTC(*DOTBTC._fields)
 """
     name: tDOTBTC
     significant_digits: 5
@@ -6293,7 +6293,7 @@ DOTBTC = DOTBTC()
 """
 
 
-class DOTF0_BTCF0(NamedTuple):
+class DOTF0_BTCF0(Symbol):
     """
         name: tDOTF0:BTCF0
         significant_digits: 5
@@ -6331,7 +6331,7 @@ class DOTF0_BTCF0(NamedTuple):
         return "tDOTF0:BTCF0"
 
 
-DOTF0_BTCF0 = DOTF0_BTCF0()
+DOTF0_BTCF0 = DOTF0_BTCF0(*DOTF0_BTCF0._fields)
 """
     name: tDOTF0:BTCF0
     significant_digits: 5
@@ -6345,7 +6345,7 @@ DOTF0_BTCF0 = DOTF0_BTCF0()
 """
 
 
-class DOTF0_USTF0(NamedTuple):
+class DOTF0_USTF0(Symbol):
     """
         name: tDOTF0:USTF0
         significant_digits: 5
@@ -6383,7 +6383,7 @@ class DOTF0_USTF0(NamedTuple):
         return "tDOTF0:USTF0"
 
 
-DOTF0_USTF0 = DOTF0_USTF0()
+DOTF0_USTF0 = DOTF0_USTF0(*DOTF0_USTF0._fields)
 """
     name: tDOTF0:USTF0
     significant_digits: 5
@@ -6397,7 +6397,7 @@ DOTF0_USTF0 = DOTF0_USTF0()
 """
 
 
-class DOTUSD(NamedTuple):
+class DOTUSD(Symbol):
     """
         name: tDOTUSD
         significant_digits: 5
@@ -6435,7 +6435,7 @@ class DOTUSD(NamedTuple):
         return "tDOTUSD"
 
 
-DOTUSD = DOTUSD()
+DOTUSD = DOTUSD(*DOTUSD._fields)
 """
     name: tDOTUSD
     significant_digits: 5
@@ -6449,7 +6449,7 @@ DOTUSD = DOTUSD()
 """
 
 
-class DOTUST(NamedTuple):
+class DOTUST(Symbol):
     """
         name: tDOTUST
         significant_digits: 5
@@ -6487,7 +6487,7 @@ class DOTUST(NamedTuple):
         return "tDOTUST"
 
 
-DOTUST = DOTUST()
+DOTUST = DOTUST(*DOTUST._fields)
 """
     name: tDOTUST
     significant_digits: 5
@@ -6501,7 +6501,7 @@ DOTUST = DOTUST()
 """
 
 
-class DSHBTC(NamedTuple):
+class DSHBTC(Symbol):
     """
         name: tDSHBTC
         significant_digits: 5
@@ -6539,7 +6539,7 @@ class DSHBTC(NamedTuple):
         return "tDSHBTC"
 
 
-DSHBTC = DSHBTC()
+DSHBTC = DSHBTC(*DSHBTC._fields)
 """
     name: tDSHBTC
     significant_digits: 5
@@ -6553,7 +6553,7 @@ DSHBTC = DSHBTC()
 """
 
 
-class DSHUSD(NamedTuple):
+class DSHUSD(Symbol):
     """
         name: tDSHUSD
         significant_digits: 5
@@ -6591,7 +6591,7 @@ class DSHUSD(NamedTuple):
         return "tDSHUSD"
 
 
-DSHUSD = DSHUSD()
+DSHUSD = DSHUSD(*DSHUSD._fields)
 """
     name: tDSHUSD
     significant_digits: 5
@@ -6605,7 +6605,7 @@ DSHUSD = DSHUSD()
 """
 
 
-class DUSK_BTC(NamedTuple):
+class DUSK_BTC(Symbol):
     """
         name: tDUSK:BTC
         significant_digits: 5
@@ -6643,7 +6643,7 @@ class DUSK_BTC(NamedTuple):
         return "tDUSK:BTC"
 
 
-DUSK_BTC = DUSK_BTC()
+DUSK_BTC = DUSK_BTC(*DUSK_BTC._fields)
 """
     name: tDUSK:BTC
     significant_digits: 5
@@ -6657,7 +6657,7 @@ DUSK_BTC = DUSK_BTC()
 """
 
 
-class DUSK_USD(NamedTuple):
+class DUSK_USD(Symbol):
     """
         name: tDUSK:USD
         significant_digits: 5
@@ -6695,7 +6695,7 @@ class DUSK_USD(NamedTuple):
         return "tDUSK:USD"
 
 
-DUSK_USD = DUSK_USD()
+DUSK_USD = DUSK_USD(*DUSK_USD._fields)
 """
     name: tDUSK:USD
     significant_digits: 5
@@ -6709,7 +6709,7 @@ DUSK_USD = DUSK_USD()
 """
 
 
-class DVFUSD(NamedTuple):
+class DVFUSD(Symbol):
     """
         name: tDVFUSD
         significant_digits: 5
@@ -6747,7 +6747,7 @@ class DVFUSD(NamedTuple):
         return "tDVFUSD"
 
 
-DVFUSD = DVFUSD()
+DVFUSD = DVFUSD(*DVFUSD._fields)
 """
     name: tDVFUSD
     significant_digits: 5
@@ -6761,7 +6761,7 @@ DVFUSD = DVFUSD()
 """
 
 
-class EDOUSD(NamedTuple):
+class EDOUSD(Symbol):
     """
         name: tEDOUSD
         significant_digits: 5
@@ -6799,7 +6799,7 @@ class EDOUSD(NamedTuple):
         return "tEDOUSD"
 
 
-EDOUSD = EDOUSD()
+EDOUSD = EDOUSD(*EDOUSD._fields)
 """
     name: tEDOUSD
     significant_digits: 5
@@ -6813,7 +6813,7 @@ EDOUSD = EDOUSD()
 """
 
 
-class EGLD_USD(NamedTuple):
+class EGLD_USD(Symbol):
     """
         name: tEGLD:USD
         significant_digits: 5
@@ -6851,7 +6851,7 @@ class EGLD_USD(NamedTuple):
         return "tEGLD:USD"
 
 
-EGLD_USD = EGLD_USD()
+EGLD_USD = EGLD_USD(*EGLD_USD._fields)
 """
     name: tEGLD:USD
     significant_digits: 5
@@ -6865,7 +6865,7 @@ EGLD_USD = EGLD_USD()
 """
 
 
-class EGLD_UST(NamedTuple):
+class EGLD_UST(Symbol):
     """
         name: tEGLD:UST
         significant_digits: 5
@@ -6903,7 +6903,7 @@ class EGLD_UST(NamedTuple):
         return "tEGLD:UST"
 
 
-EGLD_UST = EGLD_UST()
+EGLD_UST = EGLD_UST(*EGLD_UST._fields)
 """
     name: tEGLD:UST
     significant_digits: 5
@@ -6917,7 +6917,7 @@ EGLD_UST = EGLD_UST()
 """
 
 
-class EGLDF0_USTF0(NamedTuple):
+class EGLDF0_USTF0(Symbol):
     """
         name: tEGLDF0:USTF0
         significant_digits: 5
@@ -6955,7 +6955,7 @@ class EGLDF0_USTF0(NamedTuple):
         return "tEGLDF0:USTF0"
 
 
-EGLDF0_USTF0 = EGLDF0_USTF0()
+EGLDF0_USTF0 = EGLDF0_USTF0(*EGLDF0_USTF0._fields)
 """
     name: tEGLDF0:USTF0
     significant_digits: 5
@@ -6969,7 +6969,7 @@ EGLDF0_USTF0 = EGLDF0_USTF0()
 """
 
 
-class ENJUSD(NamedTuple):
+class ENJUSD(Symbol):
     """
         name: tENJUSD
         significant_digits: 5
@@ -7007,7 +7007,7 @@ class ENJUSD(NamedTuple):
         return "tENJUSD"
 
 
-ENJUSD = ENJUSD()
+ENJUSD = ENJUSD(*ENJUSD._fields)
 """
     name: tENJUSD
     significant_digits: 5
@@ -7021,7 +7021,7 @@ ENJUSD = ENJUSD()
 """
 
 
-class EOSBTC(NamedTuple):
+class EOSBTC(Symbol):
     """
         name: tEOSBTC
         significant_digits: 5
@@ -7059,7 +7059,7 @@ class EOSBTC(NamedTuple):
         return "tEOSBTC"
 
 
-EOSBTC = EOSBTC()
+EOSBTC = EOSBTC(*EOSBTC._fields)
 """
     name: tEOSBTC
     significant_digits: 5
@@ -7073,7 +7073,7 @@ EOSBTC = EOSBTC()
 """
 
 
-class EOSETH(NamedTuple):
+class EOSETH(Symbol):
     """
         name: tEOSETH
         significant_digits: 5
@@ -7111,7 +7111,7 @@ class EOSETH(NamedTuple):
         return "tEOSETH"
 
 
-EOSETH = EOSETH()
+EOSETH = EOSETH(*EOSETH._fields)
 """
     name: tEOSETH
     significant_digits: 5
@@ -7125,7 +7125,7 @@ EOSETH = EOSETH()
 """
 
 
-class EOSEUR(NamedTuple):
+class EOSEUR(Symbol):
     """
         name: tEOSEUR
         significant_digits: 5
@@ -7163,7 +7163,7 @@ class EOSEUR(NamedTuple):
         return "tEOSEUR"
 
 
-EOSEUR = EOSEUR()
+EOSEUR = EOSEUR(*EOSEUR._fields)
 """
     name: tEOSEUR
     significant_digits: 5
@@ -7177,7 +7177,7 @@ EOSEUR = EOSEUR()
 """
 
 
-class EOSF0_USTF0(NamedTuple):
+class EOSF0_USTF0(Symbol):
     """
         name: tEOSF0:USTF0
         significant_digits: 5
@@ -7215,7 +7215,7 @@ class EOSF0_USTF0(NamedTuple):
         return "tEOSF0:USTF0"
 
 
-EOSF0_USTF0 = EOSF0_USTF0()
+EOSF0_USTF0 = EOSF0_USTF0(*EOSF0_USTF0._fields)
 """
     name: tEOSF0:USTF0
     significant_digits: 5
@@ -7229,7 +7229,7 @@ EOSF0_USTF0 = EOSF0_USTF0()
 """
 
 
-class EOSUSD(NamedTuple):
+class EOSUSD(Symbol):
     """
         name: tEOSUSD
         significant_digits: 5
@@ -7267,7 +7267,7 @@ class EOSUSD(NamedTuple):
         return "tEOSUSD"
 
 
-EOSUSD = EOSUSD()
+EOSUSD = EOSUSD(*EOSUSD._fields)
 """
     name: tEOSUSD
     significant_digits: 5
@@ -7281,7 +7281,7 @@ EOSUSD = EOSUSD()
 """
 
 
-class EOSUST(NamedTuple):
+class EOSUST(Symbol):
     """
         name: tEOSUST
         significant_digits: 5
@@ -7319,7 +7319,7 @@ class EOSUST(NamedTuple):
         return "tEOSUST"
 
 
-EOSUST = EOSUST()
+EOSUST = EOSUST(*EOSUST._fields)
 """
     name: tEOSUST
     significant_digits: 5
@@ -7333,7 +7333,7 @@ EOSUST = EOSUST()
 """
 
 
-class ETCBTC(NamedTuple):
+class ETCBTC(Symbol):
     """
         name: tETCBTC
         significant_digits: 5
@@ -7371,7 +7371,7 @@ class ETCBTC(NamedTuple):
         return "tETCBTC"
 
 
-ETCBTC = ETCBTC()
+ETCBTC = ETCBTC(*ETCBTC._fields)
 """
     name: tETCBTC
     significant_digits: 5
@@ -7385,7 +7385,7 @@ ETCBTC = ETCBTC()
 """
 
 
-class ETCF0_USTF0(NamedTuple):
+class ETCF0_USTF0(Symbol):
     """
         name: tETCF0:USTF0
         significant_digits: 5
@@ -7423,7 +7423,7 @@ class ETCF0_USTF0(NamedTuple):
         return "tETCF0:USTF0"
 
 
-ETCF0_USTF0 = ETCF0_USTF0()
+ETCF0_USTF0 = ETCF0_USTF0(*ETCF0_USTF0._fields)
 """
     name: tETCF0:USTF0
     significant_digits: 5
@@ -7437,7 +7437,7 @@ ETCF0_USTF0 = ETCF0_USTF0()
 """
 
 
-class ETCUSD(NamedTuple):
+class ETCUSD(Symbol):
     """
         name: tETCUSD
         significant_digits: 5
@@ -7475,7 +7475,7 @@ class ETCUSD(NamedTuple):
         return "tETCUSD"
 
 
-ETCUSD = ETCUSD()
+ETCUSD = ETCUSD(*ETCUSD._fields)
 """
     name: tETCUSD
     significant_digits: 5
@@ -7489,7 +7489,7 @@ ETCUSD = ETCUSD()
 """
 
 
-class ETCUST(NamedTuple):
+class ETCUST(Symbol):
     """
         name: tETCUST
         significant_digits: 5
@@ -7527,7 +7527,7 @@ class ETCUST(NamedTuple):
         return "tETCUST"
 
 
-ETCUST = ETCUST()
+ETCUST = ETCUST(*ETCUST._fields)
 """
     name: tETCUST
     significant_digits: 5
@@ -7541,7 +7541,7 @@ ETCUST = ETCUST()
 """
 
 
-class ETH2X_ETH(NamedTuple):
+class ETH2X_ETH(Symbol):
     """
         name: tETH2X:ETH
         significant_digits: 5
@@ -7579,7 +7579,7 @@ class ETH2X_ETH(NamedTuple):
         return "tETH2X:ETH"
 
 
-ETH2X_ETH = ETH2X_ETH()
+ETH2X_ETH = ETH2X_ETH(*ETH2X_ETH._fields)
 """
     name: tETH2X:ETH
     significant_digits: 5
@@ -7593,7 +7593,7 @@ ETH2X_ETH = ETH2X_ETH()
 """
 
 
-class ETH2X_USD(NamedTuple):
+class ETH2X_USD(Symbol):
     """
         name: tETH2X:USD
         significant_digits: 5
@@ -7631,7 +7631,7 @@ class ETH2X_USD(NamedTuple):
         return "tETH2X:USD"
 
 
-ETH2X_USD = ETH2X_USD()
+ETH2X_USD = ETH2X_USD(*ETH2X_USD._fields)
 """
     name: tETH2X:USD
     significant_digits: 5
@@ -7645,7 +7645,7 @@ ETH2X_USD = ETH2X_USD()
 """
 
 
-class ETH2X_UST(NamedTuple):
+class ETH2X_UST(Symbol):
     """
         name: tETH2X:UST
         significant_digits: 5
@@ -7683,7 +7683,7 @@ class ETH2X_UST(NamedTuple):
         return "tETH2X:UST"
 
 
-ETH2X_UST = ETH2X_UST()
+ETH2X_UST = ETH2X_UST(*ETH2X_UST._fields)
 """
     name: tETH2X:UST
     significant_digits: 5
@@ -7697,7 +7697,7 @@ ETH2X_UST = ETH2X_UST()
 """
 
 
-class ETH_MXNT(NamedTuple):
+class ETH_MXNT(Symbol):
     """
         name: tETH:MXNT
         significant_digits: 5
@@ -7735,7 +7735,7 @@ class ETH_MXNT(NamedTuple):
         return "tETH:MXNT"
 
 
-ETH_MXNT = ETH_MXNT()
+ETH_MXNT = ETH_MXNT(*ETH_MXNT._fields)
 """
     name: tETH:MXNT
     significant_digits: 5
@@ -7749,7 +7749,7 @@ ETH_MXNT = ETH_MXNT()
 """
 
 
-class ETH_XAUT(NamedTuple):
+class ETH_XAUT(Symbol):
     """
         name: tETH:XAUT
         significant_digits: 5
@@ -7787,7 +7787,7 @@ class ETH_XAUT(NamedTuple):
         return "tETH:XAUT"
 
 
-ETH_XAUT = ETH_XAUT()
+ETH_XAUT = ETH_XAUT(*ETH_XAUT._fields)
 """
     name: tETH:XAUT
     significant_digits: 5
@@ -7801,7 +7801,7 @@ ETH_XAUT = ETH_XAUT()
 """
 
 
-class ETHBTC(NamedTuple):
+class ETHBTC(Symbol):
     """
         name: tETHBTC
         significant_digits: 5
@@ -7839,7 +7839,7 @@ class ETHBTC(NamedTuple):
         return "tETHBTC"
 
 
-ETHBTC = ETHBTC()
+ETHBTC = ETHBTC(*ETHBTC._fields)
 """
     name: tETHBTC
     significant_digits: 5
@@ -7853,7 +7853,7 @@ ETHBTC = ETHBTC()
 """
 
 
-class ETHEUR(NamedTuple):
+class ETHEUR(Symbol):
     """
         name: tETHEUR
         significant_digits: 5
@@ -7891,7 +7891,7 @@ class ETHEUR(NamedTuple):
         return "tETHEUR"
 
 
-ETHEUR = ETHEUR()
+ETHEUR = ETHEUR(*ETHEUR._fields)
 """
     name: tETHEUR
     significant_digits: 5
@@ -7905,7 +7905,7 @@ ETHEUR = ETHEUR()
 """
 
 
-class ETHEUT(NamedTuple):
+class ETHEUT(Symbol):
     """
         name: tETHEUT
         significant_digits: 5
@@ -7943,7 +7943,7 @@ class ETHEUT(NamedTuple):
         return "tETHEUT"
 
 
-ETHEUT = ETHEUT()
+ETHEUT = ETHEUT(*ETHEUT._fields)
 """
     name: tETHEUT
     significant_digits: 5
@@ -7957,7 +7957,7 @@ ETHEUT = ETHEUT()
 """
 
 
-class ETHF0_BTCF0(NamedTuple):
+class ETHF0_BTCF0(Symbol):
     """
         name: tETHF0:BTCF0
         significant_digits: 5
@@ -7995,7 +7995,7 @@ class ETHF0_BTCF0(NamedTuple):
         return "tETHF0:BTCF0"
 
 
-ETHF0_BTCF0 = ETHF0_BTCF0()
+ETHF0_BTCF0 = ETHF0_BTCF0(*ETHF0_BTCF0._fields)
 """
     name: tETHF0:BTCF0
     significant_digits: 5
@@ -8009,7 +8009,7 @@ ETHF0_BTCF0 = ETHF0_BTCF0()
 """
 
 
-class ETHF0_EUTF0(NamedTuple):
+class ETHF0_EUTF0(Symbol):
     """
         name: tETHF0:EUTF0
         significant_digits: 5
@@ -8047,7 +8047,7 @@ class ETHF0_EUTF0(NamedTuple):
         return "tETHF0:EUTF0"
 
 
-ETHF0_EUTF0 = ETHF0_EUTF0()
+ETHF0_EUTF0 = ETHF0_EUTF0(*ETHF0_EUTF0._fields)
 """
     name: tETHF0:EUTF0
     significant_digits: 5
@@ -8061,7 +8061,7 @@ ETHF0_EUTF0 = ETHF0_EUTF0()
 """
 
 
-class ETHF0_USTF0(NamedTuple):
+class ETHF0_USTF0(Symbol):
     """
         name: tETHF0:USTF0
         significant_digits: 5
@@ -8099,7 +8099,7 @@ class ETHF0_USTF0(NamedTuple):
         return "tETHF0:USTF0"
 
 
-ETHF0_USTF0 = ETHF0_USTF0()
+ETHF0_USTF0 = ETHF0_USTF0(*ETHF0_USTF0._fields)
 """
     name: tETHF0:USTF0
     significant_digits: 5
@@ -8113,7 +8113,7 @@ ETHF0_USTF0 = ETHF0_USTF0()
 """
 
 
-class ETHGBP(NamedTuple):
+class ETHGBP(Symbol):
     """
         name: tETHGBP
         significant_digits: 5
@@ -8151,7 +8151,7 @@ class ETHGBP(NamedTuple):
         return "tETHGBP"
 
 
-ETHGBP = ETHGBP()
+ETHGBP = ETHGBP(*ETHGBP._fields)
 """
     name: tETHGBP
     significant_digits: 5
@@ -8165,7 +8165,7 @@ ETHGBP = ETHGBP()
 """
 
 
-class ETHJPY(NamedTuple):
+class ETHJPY(Symbol):
     """
         name: tETHJPY
         significant_digits: 5
@@ -8203,7 +8203,7 @@ class ETHJPY(NamedTuple):
         return "tETHJPY"
 
 
-ETHJPY = ETHJPY()
+ETHJPY = ETHJPY(*ETHJPY._fields)
 """
     name: tETHJPY
     significant_digits: 5
@@ -8217,7 +8217,7 @@ ETHJPY = ETHJPY()
 """
 
 
-class ETHUSD(NamedTuple):
+class ETHUSD(Symbol):
     """
         name: tETHUSD
         significant_digits: 5
@@ -8255,7 +8255,7 @@ class ETHUSD(NamedTuple):
         return "tETHUSD"
 
 
-ETHUSD = ETHUSD()
+ETHUSD = ETHUSD(*ETHUSD._fields)
 """
     name: tETHUSD
     significant_digits: 5
@@ -8269,7 +8269,7 @@ ETHUSD = ETHUSD()
 """
 
 
-class ETHUST(NamedTuple):
+class ETHUST(Symbol):
     """
         name: tETHUST
         significant_digits: 5
@@ -8307,7 +8307,7 @@ class ETHUST(NamedTuple):
         return "tETHUST"
 
 
-ETHUST = ETHUST()
+ETHUST = ETHUST(*ETHUST._fields)
 """
     name: tETHUST
     significant_digits: 5
@@ -8321,7 +8321,7 @@ ETHUST = ETHUST()
 """
 
 
-class ETHW_USD(NamedTuple):
+class ETHW_USD(Symbol):
     """
         name: tETHW:USD
         significant_digits: 5
@@ -8359,7 +8359,7 @@ class ETHW_USD(NamedTuple):
         return "tETHW:USD"
 
 
-ETHW_USD = ETHW_USD()
+ETHW_USD = ETHW_USD(*ETHW_USD._fields)
 """
     name: tETHW:USD
     significant_digits: 5
@@ -8373,7 +8373,7 @@ ETHW_USD = ETHW_USD()
 """
 
 
-class ETHW_UST(NamedTuple):
+class ETHW_UST(Symbol):
     """
         name: tETHW:UST
         significant_digits: 5
@@ -8411,7 +8411,7 @@ class ETHW_UST(NamedTuple):
         return "tETHW:UST"
 
 
-ETHW_UST = ETHW_UST()
+ETHW_UST = ETHW_UST(*ETHW_UST._fields)
 """
     name: tETHW:UST
     significant_digits: 5
@@ -8425,7 +8425,7 @@ ETHW_UST = ETHW_UST()
 """
 
 
-class ETPUSD(NamedTuple):
+class ETPUSD(Symbol):
     """
         name: tETPUSD
         significant_digits: 5
@@ -8463,7 +8463,7 @@ class ETPUSD(NamedTuple):
         return "tETPUSD"
 
 
-ETPUSD = ETPUSD()
+ETPUSD = ETPUSD(*ETPUSD._fields)
 """
     name: tETPUSD
     significant_digits: 5
@@ -8477,7 +8477,7 @@ ETPUSD = ETPUSD()
 """
 
 
-class EURF0_USTF0(NamedTuple):
+class EURF0_USTF0(Symbol):
     """
         name: tEURF0:USTF0
         significant_digits: 5
@@ -8515,7 +8515,7 @@ class EURF0_USTF0(NamedTuple):
         return "tEURF0:USTF0"
 
 
-EURF0_USTF0 = EURF0_USTF0()
+EURF0_USTF0 = EURF0_USTF0(*EURF0_USTF0._fields)
 """
     name: tEURF0:USTF0
     significant_digits: 5
@@ -8529,7 +8529,7 @@ EURF0_USTF0 = EURF0_USTF0()
 """
 
 
-class EUROPE50IXF0_USTF0(NamedTuple):
+class EUROPE50IXF0_USTF0(Symbol):
     """
         name: tEUROPE50IXF0:USTF0
         significant_digits: 5
@@ -8567,7 +8567,7 @@ class EUROPE50IXF0_USTF0(NamedTuple):
         return "tEUROPE50IXF0:USTF0"
 
 
-EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0()
+EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0(*EUROPE50IXF0_USTF0._fields)
 """
     name: tEUROPE50IXF0:USTF0
     significant_digits: 5
@@ -8581,7 +8581,7 @@ EUROPE50IXF0_USTF0 = EUROPE50IXF0_USTF0()
 """
 
 
-class EURUST(NamedTuple):
+class EURUST(Symbol):
     """
         name: tEURUST
         significant_digits: 5
@@ -8619,7 +8619,7 @@ class EURUST(NamedTuple):
         return "tEURUST"
 
 
-EURUST = EURUST()
+EURUST = EURUST(*EURUST._fields)
 """
     name: tEURUST
     significant_digits: 5
@@ -8633,7 +8633,7 @@ EURUST = EURUST()
 """
 
 
-class EUSUSD(NamedTuple):
+class EUSUSD(Symbol):
     """
         name: tEUSUSD
         significant_digits: 5
@@ -8671,7 +8671,7 @@ class EUSUSD(NamedTuple):
         return "tEUSUSD"
 
 
-EUSUSD = EUSUSD()
+EUSUSD = EUSUSD(*EUSUSD._fields)
 """
     name: tEUSUSD
     significant_digits: 5
@@ -8685,7 +8685,7 @@ EUSUSD = EUSUSD()
 """
 
 
-class EUT_MXNT(NamedTuple):
+class EUT_MXNT(Symbol):
     """
         name: tEUT:MXNT
         significant_digits: 5
@@ -8723,7 +8723,7 @@ class EUT_MXNT(NamedTuple):
         return "tEUT:MXNT"
 
 
-EUT_MXNT = EUT_MXNT()
+EUT_MXNT = EUT_MXNT(*EUT_MXNT._fields)
 """
     name: tEUT:MXNT
     significant_digits: 5
@@ -8737,7 +8737,7 @@ EUT_MXNT = EUT_MXNT()
 """
 
 
-class EUTEUR(NamedTuple):
+class EUTEUR(Symbol):
     """
         name: tEUTEUR
         significant_digits: 5
@@ -8775,7 +8775,7 @@ class EUTEUR(NamedTuple):
         return "tEUTEUR"
 
 
-EUTEUR = EUTEUR()
+EUTEUR = EUTEUR(*EUTEUR._fields)
 """
     name: tEUTEUR
     significant_digits: 5
@@ -8789,7 +8789,7 @@ EUTEUR = EUTEUR()
 """
 
 
-class EUTUSD(NamedTuple):
+class EUTUSD(Symbol):
     """
         name: tEUTUSD
         significant_digits: 5
@@ -8827,7 +8827,7 @@ class EUTUSD(NamedTuple):
         return "tEUTUSD"
 
 
-EUTUSD = EUTUSD()
+EUTUSD = EUTUSD(*EUTUSD._fields)
 """
     name: tEUTUSD
     significant_digits: 5
@@ -8841,7 +8841,7 @@ EUTUSD = EUTUSD()
 """
 
 
-class EUTUST(NamedTuple):
+class EUTUST(Symbol):
     """
         name: tEUTUST
         significant_digits: 5
@@ -8879,7 +8879,7 @@ class EUTUST(NamedTuple):
         return "tEUTUST"
 
 
-EUTUST = EUTUST()
+EUTUST = EUTUST(*EUTUST._fields)
 """
     name: tEUTUST
     significant_digits: 5
@@ -8893,7 +8893,7 @@ EUTUST = EUTUST()
 """
 
 
-class FBTUSD(NamedTuple):
+class FBTUSD(Symbol):
     """
         name: tFBTUSD
         significant_digits: 5
@@ -8931,7 +8931,7 @@ class FBTUSD(NamedTuple):
         return "tFBTUSD"
 
 
-FBTUSD = FBTUSD()
+FBTUSD = FBTUSD(*FBTUSD._fields)
 """
     name: tFBTUSD
     significant_digits: 5
@@ -8945,7 +8945,7 @@ FBTUSD = FBTUSD()
 """
 
 
-class FBTUST(NamedTuple):
+class FBTUST(Symbol):
     """
         name: tFBTUST
         significant_digits: 5
@@ -8983,7 +8983,7 @@ class FBTUST(NamedTuple):
         return "tFBTUST"
 
 
-FBTUST = FBTUST()
+FBTUST = FBTUST(*FBTUST._fields)
 """
     name: tFBTUST
     significant_digits: 5
@@ -8997,7 +8997,7 @@ FBTUST = FBTUST()
 """
 
 
-class FCLUSD(NamedTuple):
+class FCLUSD(Symbol):
     """
         name: tFCLUSD
         significant_digits: 5
@@ -9035,7 +9035,7 @@ class FCLUSD(NamedTuple):
         return "tFCLUSD"
 
 
-FCLUSD = FCLUSD()
+FCLUSD = FCLUSD(*FCLUSD._fields)
 """
     name: tFCLUSD
     significant_digits: 5
@@ -9049,7 +9049,7 @@ FCLUSD = FCLUSD()
 """
 
 
-class FCLUST(NamedTuple):
+class FCLUST(Symbol):
     """
         name: tFCLUST
         significant_digits: 5
@@ -9087,7 +9087,7 @@ class FCLUST(NamedTuple):
         return "tFCLUST"
 
 
-FCLUST = FCLUST()
+FCLUST = FCLUST(*FCLUST._fields)
 """
     name: tFCLUST
     significant_digits: 5
@@ -9101,7 +9101,7 @@ FCLUST = FCLUST()
 """
 
 
-class FETUSD(NamedTuple):
+class FETUSD(Symbol):
     """
         name: tFETUSD
         significant_digits: 5
@@ -9139,7 +9139,7 @@ class FETUSD(NamedTuple):
         return "tFETUSD"
 
 
-FETUSD = FETUSD()
+FETUSD = FETUSD(*FETUSD._fields)
 """
     name: tFETUSD
     significant_digits: 5
@@ -9153,7 +9153,7 @@ FETUSD = FETUSD()
 """
 
 
-class FETUST(NamedTuple):
+class FETUST(Symbol):
     """
         name: tFETUST
         significant_digits: 5
@@ -9191,7 +9191,7 @@ class FETUST(NamedTuple):
         return "tFETUST"
 
 
-FETUST = FETUST()
+FETUST = FETUST(*FETUST._fields)
 """
     name: tFETUST
     significant_digits: 5
@@ -9205,7 +9205,7 @@ FETUST = FETUST()
 """
 
 
-class FILF0_USTF0(NamedTuple):
+class FILF0_USTF0(Symbol):
     """
         name: tFILF0:USTF0
         significant_digits: 5
@@ -9243,7 +9243,7 @@ class FILF0_USTF0(NamedTuple):
         return "tFILF0:USTF0"
 
 
-FILF0_USTF0 = FILF0_USTF0()
+FILF0_USTF0 = FILF0_USTF0(*FILF0_USTF0._fields)
 """
     name: tFILF0:USTF0
     significant_digits: 5
@@ -9257,7 +9257,7 @@ FILF0_USTF0 = FILF0_USTF0()
 """
 
 
-class FILUSD(NamedTuple):
+class FILUSD(Symbol):
     """
         name: tFILUSD
         significant_digits: 5
@@ -9295,7 +9295,7 @@ class FILUSD(NamedTuple):
         return "tFILUSD"
 
 
-FILUSD = FILUSD()
+FILUSD = FILUSD(*FILUSD._fields)
 """
     name: tFILUSD
     significant_digits: 5
@@ -9309,7 +9309,7 @@ FILUSD = FILUSD()
 """
 
 
-class FILUST(NamedTuple):
+class FILUST(Symbol):
     """
         name: tFILUST
         significant_digits: 5
@@ -9347,7 +9347,7 @@ class FILUST(NamedTuple):
         return "tFILUST"
 
 
-FILUST = FILUST()
+FILUST = FILUST(*FILUST._fields)
 """
     name: tFILUST
     significant_digits: 5
@@ -9361,7 +9361,111 @@ FILUST = FILUST()
 """
 
 
-class FLRUSD(NamedTuple):
+class FLOKI_USD(Symbol):
+    """
+        name: tFLOKI:USD
+        significant_digits: 5
+        tick_size: None
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 2500000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tFLOKI:USD"
+    significant_digits: int = 5
+    tick_size: int = None
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 2500000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tFLOKI:USD"
+
+    def __str__(self):
+        return "tFLOKI:USD"
+
+    def __call__(self):
+        return "tFLOKI:USD"
+
+
+FLOKI_USD = FLOKI_USD(*FLOKI_USD._fields)
+"""
+    name: tFLOKI:USD
+    significant_digits: 5
+    tick_size: None
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 2500000000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class FLOKI_UST(Symbol):
+    """
+        name: tFLOKI:UST
+        significant_digits: 5
+        tick_size: None
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 2500000000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tFLOKI:UST"
+    significant_digits: int = 5
+    tick_size: int = None
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 2500000000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tFLOKI:UST"
+
+    def __str__(self):
+        return "tFLOKI:UST"
+
+    def __call__(self):
+        return "tFLOKI:UST"
+
+
+FLOKI_UST = FLOKI_UST(*FLOKI_UST._fields)
+"""
+    name: tFLOKI:UST
+    significant_digits: 5
+    tick_size: None
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 2500000000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class FLRUSD(Symbol):
     """
         name: tFLRUSD
         significant_digits: 5
@@ -9399,7 +9503,7 @@ class FLRUSD(NamedTuple):
         return "tFLRUSD"
 
 
-FLRUSD = FLRUSD()
+FLRUSD = FLRUSD(*FLRUSD._fields)
 """
     name: tFLRUSD
     significant_digits: 5
@@ -9413,7 +9517,7 @@ FLRUSD = FLRUSD()
 """
 
 
-class FLRUST(NamedTuple):
+class FLRUST(Symbol):
     """
         name: tFLRUST
         significant_digits: 5
@@ -9451,7 +9555,7 @@ class FLRUST(NamedTuple):
         return "tFLRUST"
 
 
-FLRUST = FLRUST()
+FLRUST = FLRUST(*FLRUST._fields)
 """
     name: tFLRUST
     significant_digits: 5
@@ -9465,7 +9569,7 @@ FLRUST = FLRUST()
 """
 
 
-class FORTH_USD(NamedTuple):
+class FORTH_USD(Symbol):
     """
         name: tFORTH:USD
         significant_digits: 5
@@ -9503,7 +9607,7 @@ class FORTH_USD(NamedTuple):
         return "tFORTH:USD"
 
 
-FORTH_USD = FORTH_USD()
+FORTH_USD = FORTH_USD(*FORTH_USD._fields)
 """
     name: tFORTH:USD
     significant_digits: 5
@@ -9517,7 +9621,7 @@ FORTH_USD = FORTH_USD()
 """
 
 
-class FORTH_UST(NamedTuple):
+class FORTH_UST(Symbol):
     """
         name: tFORTH:UST
         significant_digits: 5
@@ -9555,7 +9659,7 @@ class FORTH_UST(NamedTuple):
         return "tFORTH:UST"
 
 
-FORTH_UST = FORTH_UST()
+FORTH_UST = FORTH_UST(*FORTH_UST._fields)
 """
     name: tFORTH:UST
     significant_digits: 5
@@ -9569,7 +9673,7 @@ FORTH_UST = FORTH_UST()
 """
 
 
-class FRANCE40IXF0_USTF0(NamedTuple):
+class FRANCE40IXF0_USTF0(Symbol):
     """
         name: tFRANCE40IXF0:USTF0
         significant_digits: 5
@@ -9607,7 +9711,7 @@ class FRANCE40IXF0_USTF0(NamedTuple):
         return "tFRANCE40IXF0:USTF0"
 
 
-FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0()
+FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0(*FRANCE40IXF0_USTF0._fields)
 """
     name: tFRANCE40IXF0:USTF0
     significant_digits: 5
@@ -9621,7 +9725,7 @@ FRANCE40IXF0_USTF0 = FRANCE40IXF0_USTF0()
 """
 
 
-class FTMF0_USTF0(NamedTuple):
+class FTMF0_USTF0(Symbol):
     """
         name: tFTMF0:USTF0
         significant_digits: 5
@@ -9659,7 +9763,7 @@ class FTMF0_USTF0(NamedTuple):
         return "tFTMF0:USTF0"
 
 
-FTMF0_USTF0 = FTMF0_USTF0()
+FTMF0_USTF0 = FTMF0_USTF0(*FTMF0_USTF0._fields)
 """
     name: tFTMF0:USTF0
     significant_digits: 5
@@ -9673,7 +9777,7 @@ FTMF0_USTF0 = FTMF0_USTF0()
 """
 
 
-class FTMUSD(NamedTuple):
+class FTMUSD(Symbol):
     """
         name: tFTMUSD
         significant_digits: 5
@@ -9711,7 +9815,7 @@ class FTMUSD(NamedTuple):
         return "tFTMUSD"
 
 
-FTMUSD = FTMUSD()
+FTMUSD = FTMUSD(*FTMUSD._fields)
 """
     name: tFTMUSD
     significant_digits: 5
@@ -9725,7 +9829,7 @@ FTMUSD = FTMUSD()
 """
 
 
-class FTMUST(NamedTuple):
+class FTMUST(Symbol):
     """
         name: tFTMUST
         significant_digits: 5
@@ -9763,7 +9867,7 @@ class FTMUST(NamedTuple):
         return "tFTMUST"
 
 
-FTMUST = FTMUST()
+FTMUST = FTMUST(*FTMUST._fields)
 """
     name: tFTMUST
     significant_digits: 5
@@ -9777,7 +9881,7 @@ FTMUST = FTMUST()
 """
 
 
-class FUNUSD(NamedTuple):
+class FUNUSD(Symbol):
     """
         name: tFUNUSD
         significant_digits: 5
@@ -9815,7 +9919,7 @@ class FUNUSD(NamedTuple):
         return "tFUNUSD"
 
 
-FUNUSD = FUNUSD()
+FUNUSD = FUNUSD(*FUNUSD._fields)
 """
     name: tFUNUSD
     significant_digits: 5
@@ -9829,7 +9933,7 @@ FUNUSD = FUNUSD()
 """
 
 
-class GALA_USD(NamedTuple):
+class GALA_USD(Symbol):
     """
         name: tGALA:USD
         significant_digits: 5
@@ -9867,7 +9971,7 @@ class GALA_USD(NamedTuple):
         return "tGALA:USD"
 
 
-GALA_USD = GALA_USD()
+GALA_USD = GALA_USD(*GALA_USD._fields)
 """
     name: tGALA:USD
     significant_digits: 5
@@ -9881,7 +9985,7 @@ GALA_USD = GALA_USD()
 """
 
 
-class GALA_UST(NamedTuple):
+class GALA_UST(Symbol):
     """
         name: tGALA:UST
         significant_digits: 5
@@ -9919,7 +10023,7 @@ class GALA_UST(NamedTuple):
         return "tGALA:UST"
 
 
-GALA_UST = GALA_UST()
+GALA_UST = GALA_UST(*GALA_UST._fields)
 """
     name: tGALA:UST
     significant_digits: 5
@@ -9933,7 +10037,7 @@ GALA_UST = GALA_UST()
 """
 
 
-class GALAF0_USTF0(NamedTuple):
+class GALAF0_USTF0(Symbol):
     """
         name: tGALAF0:USTF0
         significant_digits: 5
@@ -9971,7 +10075,7 @@ class GALAF0_USTF0(NamedTuple):
         return "tGALAF0:USTF0"
 
 
-GALAF0_USTF0 = GALAF0_USTF0()
+GALAF0_USTF0 = GALAF0_USTF0(*GALAF0_USTF0._fields)
 """
     name: tGALAF0:USTF0
     significant_digits: 5
@@ -9985,7 +10089,7 @@ GALAF0_USTF0 = GALAF0_USTF0()
 """
 
 
-class GBPEUT(NamedTuple):
+class GBPEUT(Symbol):
     """
         name: tGBPEUT
         significant_digits: 5
@@ -10023,7 +10127,7 @@ class GBPEUT(NamedTuple):
         return "tGBPEUT"
 
 
-GBPEUT = GBPEUT()
+GBPEUT = GBPEUT(*GBPEUT._fields)
 """
     name: tGBPEUT
     significant_digits: 5
@@ -10037,7 +10141,7 @@ GBPEUT = GBPEUT()
 """
 
 
-class GBPF0_USTF0(NamedTuple):
+class GBPF0_USTF0(Symbol):
     """
         name: tGBPF0:USTF0
         significant_digits: 5
@@ -10075,7 +10179,7 @@ class GBPF0_USTF0(NamedTuple):
         return "tGBPF0:USTF0"
 
 
-GBPF0_USTF0 = GBPF0_USTF0()
+GBPF0_USTF0 = GBPF0_USTF0(*GBPF0_USTF0._fields)
 """
     name: tGBPF0:USTF0
     significant_digits: 5
@@ -10089,7 +10193,7 @@ GBPF0_USTF0 = GBPF0_USTF0()
 """
 
 
-class GBPUST(NamedTuple):
+class GBPUST(Symbol):
     """
         name: tGBPUST
         significant_digits: 5
@@ -10127,7 +10231,7 @@ class GBPUST(NamedTuple):
         return "tGBPUST"
 
 
-GBPUST = GBPUST()
+GBPUST = GBPUST(*GBPUST._fields)
 """
     name: tGBPUST
     significant_digits: 5
@@ -10141,7 +10245,7 @@ GBPUST = GBPUST()
 """
 
 
-class GERMANY40IXF0_USTF0(NamedTuple):
+class GERMANY40IXF0_USTF0(Symbol):
     """
         name: tGERMANY40IXF0:USTF0
         significant_digits: 5
@@ -10179,7 +10283,7 @@ class GERMANY40IXF0_USTF0(NamedTuple):
         return "tGERMANY40IXF0:USTF0"
 
 
-GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0()
+GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0(*GERMANY40IXF0_USTF0._fields)
 """
     name: tGERMANY40IXF0:USTF0
     significant_digits: 5
@@ -10193,7 +10297,7 @@ GERMANY40IXF0_USTF0 = GERMANY40IXF0_USTF0()
 """
 
 
-class GNOUSD(NamedTuple):
+class GNOUSD(Symbol):
     """
         name: tGNOUSD
         significant_digits: 5
@@ -10231,7 +10335,7 @@ class GNOUSD(NamedTuple):
         return "tGNOUSD"
 
 
-GNOUSD = GNOUSD()
+GNOUSD = GNOUSD(*GNOUSD._fields)
 """
     name: tGNOUSD
     significant_digits: 5
@@ -10245,7 +10349,7 @@ GNOUSD = GNOUSD()
 """
 
 
-class GNTUSD(NamedTuple):
+class GNTUSD(Symbol):
     """
         name: tGNTUSD
         significant_digits: 5
@@ -10283,7 +10387,7 @@ class GNTUSD(NamedTuple):
         return "tGNTUSD"
 
 
-GNTUSD = GNTUSD()
+GNTUSD = GNTUSD(*GNTUSD._fields)
 """
     name: tGNTUSD
     significant_digits: 5
@@ -10297,7 +10401,7 @@ GNTUSD = GNTUSD()
 """
 
 
-class GPTUSD(NamedTuple):
+class GPTUSD(Symbol):
     """
         name: tGPTUSD
         significant_digits: 5
@@ -10335,7 +10439,7 @@ class GPTUSD(NamedTuple):
         return "tGPTUSD"
 
 
-GPTUSD = GPTUSD()
+GPTUSD = GPTUSD(*GPTUSD._fields)
 """
     name: tGPTUSD
     significant_digits: 5
@@ -10349,7 +10453,7 @@ GPTUSD = GPTUSD()
 """
 
 
-class GPTUST(NamedTuple):
+class GPTUST(Symbol):
     """
         name: tGPTUST
         significant_digits: 5
@@ -10387,7 +10491,7 @@ class GPTUST(NamedTuple):
         return "tGPTUST"
 
 
-GPTUST = GPTUST()
+GPTUST = GPTUST(*GPTUST._fields)
 """
     name: tGPTUST
     significant_digits: 5
@@ -10401,7 +10505,7 @@ GPTUST = GPTUST()
 """
 
 
-class GRTUSD(NamedTuple):
+class GRTUSD(Symbol):
     """
         name: tGRTUSD
         significant_digits: 5
@@ -10439,7 +10543,7 @@ class GRTUSD(NamedTuple):
         return "tGRTUSD"
 
 
-GRTUSD = GRTUSD()
+GRTUSD = GRTUSD(*GRTUSD._fields)
 """
     name: tGRTUSD
     significant_digits: 5
@@ -10453,7 +10557,7 @@ GRTUSD = GRTUSD()
 """
 
 
-class GRTUST(NamedTuple):
+class GRTUST(Symbol):
     """
         name: tGRTUST
         significant_digits: 5
@@ -10491,7 +10595,7 @@ class GRTUST(NamedTuple):
         return "tGRTUST"
 
 
-GRTUST = GRTUST()
+GRTUST = GRTUST(*GRTUST._fields)
 """
     name: tGRTUST
     significant_digits: 5
@@ -10505,7 +10609,7 @@ GRTUST = GRTUST()
 """
 
 
-class GTXUSD(NamedTuple):
+class GTXUSD(Symbol):
     """
         name: tGTXUSD
         significant_digits: 5
@@ -10543,7 +10647,7 @@ class GTXUSD(NamedTuple):
         return "tGTXUSD"
 
 
-GTXUSD = GTXUSD()
+GTXUSD = GTXUSD(*GTXUSD._fields)
 """
     name: tGTXUSD
     significant_digits: 5
@@ -10557,7 +10661,7 @@ GTXUSD = GTXUSD()
 """
 
 
-class GTXUST(NamedTuple):
+class GTXUST(Symbol):
     """
         name: tGTXUST
         significant_digits: 5
@@ -10595,7 +10699,7 @@ class GTXUST(NamedTuple):
         return "tGTXUST"
 
 
-GTXUST = GTXUST()
+GTXUST = GTXUST(*GTXUST._fields)
 """
     name: tGTXUST
     significant_digits: 5
@@ -10609,7 +10713,7 @@ GTXUST = GTXUST()
 """
 
 
-class GXTUSD(NamedTuple):
+class GXTUSD(Symbol):
     """
         name: tGXTUSD
         significant_digits: 5
@@ -10647,7 +10751,7 @@ class GXTUSD(NamedTuple):
         return "tGXTUSD"
 
 
-GXTUSD = GXTUSD()
+GXTUSD = GXTUSD(*GXTUSD._fields)
 """
     name: tGXTUSD
     significant_digits: 5
@@ -10661,7 +10765,7 @@ GXTUSD = GXTUSD()
 """
 
 
-class GXTUST(NamedTuple):
+class GXTUST(Symbol):
     """
         name: tGXTUST
         significant_digits: 5
@@ -10699,7 +10803,7 @@ class GXTUST(NamedTuple):
         return "tGXTUST"
 
 
-GXTUST = GXTUST()
+GXTUST = GXTUST(*GXTUST._fields)
 """
     name: tGXTUST
     significant_digits: 5
@@ -10713,7 +10817,7 @@ GXTUST = GXTUST()
 """
 
 
-class HECUSD(NamedTuple):
+class HECUSD(Symbol):
     """
         name: tHECUSD
         significant_digits: 5
@@ -10751,7 +10855,7 @@ class HECUSD(NamedTuple):
         return "tHECUSD"
 
 
-HECUSD = HECUSD()
+HECUSD = HECUSD(*HECUSD._fields)
 """
     name: tHECUSD
     significant_digits: 5
@@ -10765,7 +10869,7 @@ HECUSD = HECUSD()
 """
 
 
-class HECUST(NamedTuple):
+class HECUST(Symbol):
     """
         name: tHECUST
         significant_digits: 5
@@ -10803,7 +10907,7 @@ class HECUST(NamedTuple):
         return "tHECUST"
 
 
-HECUST = HECUST()
+HECUST = HECUST(*HECUST._fields)
 """
     name: tHECUST
     significant_digits: 5
@@ -10817,7 +10921,7 @@ HECUST = HECUST()
 """
 
 
-class HIXUSD(NamedTuple):
+class HIXUSD(Symbol):
     """
         name: tHIXUSD
         significant_digits: 5
@@ -10855,7 +10959,7 @@ class HIXUSD(NamedTuple):
         return "tHIXUSD"
 
 
-HIXUSD = HIXUSD()
+HIXUSD = HIXUSD(*HIXUSD._fields)
 """
     name: tHIXUSD
     significant_digits: 5
@@ -10869,7 +10973,7 @@ HIXUSD = HIXUSD()
 """
 
 
-class HIXUST(NamedTuple):
+class HIXUST(Symbol):
     """
         name: tHIXUST
         significant_digits: 5
@@ -10907,7 +11011,7 @@ class HIXUST(NamedTuple):
         return "tHIXUST"
 
 
-HIXUST = HIXUST()
+HIXUST = HIXUST(*HIXUST._fields)
 """
     name: tHIXUST
     significant_digits: 5
@@ -10921,7 +11025,7 @@ HIXUST = HIXUST()
 """
 
 
-class HMTUSD(NamedTuple):
+class HMTUSD(Symbol):
     """
         name: tHMTUSD
         significant_digits: 5
@@ -10959,7 +11063,7 @@ class HMTUSD(NamedTuple):
         return "tHMTUSD"
 
 
-HMTUSD = HMTUSD()
+HMTUSD = HMTUSD(*HMTUSD._fields)
 """
     name: tHMTUSD
     significant_digits: 5
@@ -10973,7 +11077,7 @@ HMTUSD = HMTUSD()
 """
 
 
-class HMTUST(NamedTuple):
+class HMTUST(Symbol):
     """
         name: tHMTUST
         significant_digits: 5
@@ -11011,7 +11115,7 @@ class HMTUST(NamedTuple):
         return "tHMTUST"
 
 
-HMTUST = HMTUST()
+HMTUST = HMTUST(*HMTUST._fields)
 """
     name: tHMTUST
     significant_digits: 5
@@ -11025,7 +11129,7 @@ HMTUST = HMTUST()
 """
 
 
-class HONGKONG50IXF0_USTF0(NamedTuple):
+class HONGKONG50IXF0_USTF0(Symbol):
     """
         name: tHONGKONG50IXF0:USTF0
         significant_digits: 5
@@ -11063,7 +11167,7 @@ class HONGKONG50IXF0_USTF0(NamedTuple):
         return "tHONGKONG50IXF0:USTF0"
 
 
-HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0()
+HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0(*HONGKONG50IXF0_USTF0._fields)
 """
     name: tHONGKONG50IXF0:USTF0
     significant_digits: 5
@@ -11077,7 +11181,7 @@ HONGKONG50IXF0_USTF0 = HONGKONG50IXF0_USTF0()
 """
 
 
-class HTXUSD(NamedTuple):
+class HTXUSD(Symbol):
     """
         name: tHTXUSD
         significant_digits: 5
@@ -11115,7 +11219,7 @@ class HTXUSD(NamedTuple):
         return "tHTXUSD"
 
 
-HTXUSD = HTXUSD()
+HTXUSD = HTXUSD(*HTXUSD._fields)
 """
     name: tHTXUSD
     significant_digits: 5
@@ -11129,7 +11233,7 @@ HTXUSD = HTXUSD()
 """
 
 
-class HTXUST(NamedTuple):
+class HTXUST(Symbol):
     """
         name: tHTXUST
         significant_digits: 5
@@ -11167,7 +11271,7 @@ class HTXUST(NamedTuple):
         return "tHTXUST"
 
 
-HTXUST = HTXUST()
+HTXUST = HTXUST(*HTXUST._fields)
 """
     name: tHTXUST
     significant_digits: 5
@@ -11181,7 +11285,7 @@ HTXUST = HTXUST()
 """
 
 
-class ICEUSD(NamedTuple):
+class ICEUSD(Symbol):
     """
         name: tICEUSD
         significant_digits: 5
@@ -11219,7 +11323,7 @@ class ICEUSD(NamedTuple):
         return "tICEUSD"
 
 
-ICEUSD = ICEUSD()
+ICEUSD = ICEUSD(*ICEUSD._fields)
 """
     name: tICEUSD
     significant_digits: 5
@@ -11233,7 +11337,7 @@ ICEUSD = ICEUSD()
 """
 
 
-class ICPBTC(NamedTuple):
+class ICPBTC(Symbol):
     """
         name: tICPBTC
         significant_digits: 5
@@ -11271,7 +11375,7 @@ class ICPBTC(NamedTuple):
         return "tICPBTC"
 
 
-ICPBTC = ICPBTC()
+ICPBTC = ICPBTC(*ICPBTC._fields)
 """
     name: tICPBTC
     significant_digits: 5
@@ -11285,7 +11389,7 @@ ICPBTC = ICPBTC()
 """
 
 
-class ICPF0_USTF0(NamedTuple):
+class ICPF0_USTF0(Symbol):
     """
         name: tICPF0:USTF0
         significant_digits: 5
@@ -11323,7 +11427,7 @@ class ICPF0_USTF0(NamedTuple):
         return "tICPF0:USTF0"
 
 
-ICPF0_USTF0 = ICPF0_USTF0()
+ICPF0_USTF0 = ICPF0_USTF0(*ICPF0_USTF0._fields)
 """
     name: tICPF0:USTF0
     significant_digits: 5
@@ -11337,7 +11441,7 @@ ICPF0_USTF0 = ICPF0_USTF0()
 """
 
 
-class ICPUSD(NamedTuple):
+class ICPUSD(Symbol):
     """
         name: tICPUSD
         significant_digits: 5
@@ -11375,7 +11479,7 @@ class ICPUSD(NamedTuple):
         return "tICPUSD"
 
 
-ICPUSD = ICPUSD()
+ICPUSD = ICPUSD(*ICPUSD._fields)
 """
     name: tICPUSD
     significant_digits: 5
@@ -11389,7 +11493,7 @@ ICPUSD = ICPUSD()
 """
 
 
-class ICPUST(NamedTuple):
+class ICPUST(Symbol):
     """
         name: tICPUST
         significant_digits: 5
@@ -11427,7 +11531,7 @@ class ICPUST(NamedTuple):
         return "tICPUST"
 
 
-ICPUST = ICPUST()
+ICPUST = ICPUST(*ICPUST._fields)
 """
     name: tICPUST
     significant_digits: 5
@@ -11441,7 +11545,7 @@ ICPUST = ICPUST()
 """
 
 
-class IDXUSD(NamedTuple):
+class IDXUSD(Symbol):
     """
         name: tIDXUSD
         significant_digits: 5
@@ -11479,7 +11583,7 @@ class IDXUSD(NamedTuple):
         return "tIDXUSD"
 
 
-IDXUSD = IDXUSD()
+IDXUSD = IDXUSD(*IDXUSD._fields)
 """
     name: tIDXUSD
     significant_digits: 5
@@ -11493,7 +11597,7 @@ IDXUSD = IDXUSD()
 """
 
 
-class IDXUST(NamedTuple):
+class IDXUST(Symbol):
     """
         name: tIDXUST
         significant_digits: 5
@@ -11531,7 +11635,7 @@ class IDXUST(NamedTuple):
         return "tIDXUST"
 
 
-IDXUST = IDXUST()
+IDXUST = IDXUST(*IDXUST._fields)
 """
     name: tIDXUST
     significant_digits: 5
@@ -11545,7 +11649,7 @@ IDXUST = IDXUST()
 """
 
 
-class IOTBTC(NamedTuple):
+class IOTBTC(Symbol):
     """
         name: tIOTBTC
         significant_digits: 5
@@ -11583,7 +11687,7 @@ class IOTBTC(NamedTuple):
         return "tIOTBTC"
 
 
-IOTBTC = IOTBTC()
+IOTBTC = IOTBTC(*IOTBTC._fields)
 """
     name: tIOTBTC
     significant_digits: 5
@@ -11597,7 +11701,7 @@ IOTBTC = IOTBTC()
 """
 
 
-class IOTF0_USTF0(NamedTuple):
+class IOTF0_USTF0(Symbol):
     """
         name: tIOTF0:USTF0
         significant_digits: 5
@@ -11635,7 +11739,7 @@ class IOTF0_USTF0(NamedTuple):
         return "tIOTF0:USTF0"
 
 
-IOTF0_USTF0 = IOTF0_USTF0()
+IOTF0_USTF0 = IOTF0_USTF0(*IOTF0_USTF0._fields)
 """
     name: tIOTF0:USTF0
     significant_digits: 5
@@ -11649,7 +11753,7 @@ IOTF0_USTF0 = IOTF0_USTF0()
 """
 
 
-class IOTUSD(NamedTuple):
+class IOTUSD(Symbol):
     """
         name: tIOTUSD
         significant_digits: 5
@@ -11687,7 +11791,7 @@ class IOTUSD(NamedTuple):
         return "tIOTUSD"
 
 
-IOTUSD = IOTUSD()
+IOTUSD = IOTUSD(*IOTUSD._fields)
 """
     name: tIOTUSD
     significant_digits: 5
@@ -11701,7 +11805,7 @@ IOTUSD = IOTUSD()
 """
 
 
-class JAPAN225IXF0_USTF0(NamedTuple):
+class JAPAN225IXF0_USTF0(Symbol):
     """
         name: tJAPAN225IXF0:USTF0
         significant_digits: 5
@@ -11739,7 +11843,7 @@ class JAPAN225IXF0_USTF0(NamedTuple):
         return "tJAPAN225IXF0:USTF0"
 
 
-JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0()
+JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0(*JAPAN225IXF0_USTF0._fields)
 """
     name: tJAPAN225IXF0:USTF0
     significant_digits: 5
@@ -11753,7 +11857,7 @@ JAPAN225IXF0_USTF0 = JAPAN225IXF0_USTF0()
 """
 
 
-class JASMY_USD(NamedTuple):
+class JASMY_USD(Symbol):
     """
         name: tJASMY:USD
         significant_digits: 5
@@ -11791,7 +11895,7 @@ class JASMY_USD(NamedTuple):
         return "tJASMY:USD"
 
 
-JASMY_USD = JASMY_USD()
+JASMY_USD = JASMY_USD(*JASMY_USD._fields)
 """
     name: tJASMY:USD
     significant_digits: 5
@@ -11805,7 +11909,7 @@ JASMY_USD = JASMY_USD()
 """
 
 
-class JASMY_UST(NamedTuple):
+class JASMY_UST(Symbol):
     """
         name: tJASMY:UST
         significant_digits: 5
@@ -11843,7 +11947,7 @@ class JASMY_UST(NamedTuple):
         return "tJASMY:UST"
 
 
-JASMY_UST = JASMY_UST()
+JASMY_UST = JASMY_UST(*JASMY_UST._fields)
 """
     name: tJASMY:UST
     significant_digits: 5
@@ -11857,7 +11961,7 @@ JASMY_UST = JASMY_UST()
 """
 
 
-class JASMYF0_USTF0(NamedTuple):
+class JASMYF0_USTF0(Symbol):
     """
         name: tJASMYF0:USTF0
         significant_digits: 5
@@ -11895,7 +11999,7 @@ class JASMYF0_USTF0(NamedTuple):
         return "tJASMYF0:USTF0"
 
 
-JASMYF0_USTF0 = JASMYF0_USTF0()
+JASMYF0_USTF0 = JASMYF0_USTF0(*JASMYF0_USTF0._fields)
 """
     name: tJASMYF0:USTF0
     significant_digits: 5
@@ -11909,7 +12013,7 @@ JASMYF0_USTF0 = JASMYF0_USTF0()
 """
 
 
-class JPYF0_USTF0(NamedTuple):
+class JPYF0_USTF0(Symbol):
     """
         name: tJPYF0:USTF0
         significant_digits: 5
@@ -11947,7 +12051,7 @@ class JPYF0_USTF0(NamedTuple):
         return "tJPYF0:USTF0"
 
 
-JPYF0_USTF0 = JPYF0_USTF0()
+JPYF0_USTF0 = JPYF0_USTF0(*JPYF0_USTF0._fields)
 """
     name: tJPYF0:USTF0
     significant_digits: 5
@@ -11961,7 +12065,7 @@ JPYF0_USTF0 = JPYF0_USTF0()
 """
 
 
-class JPYUST(NamedTuple):
+class JPYUST(Symbol):
     """
         name: tJPYUST
         significant_digits: 5
@@ -11999,7 +12103,7 @@ class JPYUST(NamedTuple):
         return "tJPYUST"
 
 
-JPYUST = JPYUST()
+JPYUST = JPYUST(*JPYUST._fields)
 """
     name: tJPYUST
     significant_digits: 5
@@ -12013,7 +12117,7 @@ JPYUST = JPYUST()
 """
 
 
-class JSTBTC(NamedTuple):
+class JSTBTC(Symbol):
     """
         name: tJSTBTC
         significant_digits: 5
@@ -12051,7 +12155,7 @@ class JSTBTC(NamedTuple):
         return "tJSTBTC"
 
 
-JSTBTC = JSTBTC()
+JSTBTC = JSTBTC(*JSTBTC._fields)
 """
     name: tJSTBTC
     significant_digits: 5
@@ -12065,7 +12169,7 @@ JSTBTC = JSTBTC()
 """
 
 
-class JSTUSD(NamedTuple):
+class JSTUSD(Symbol):
     """
         name: tJSTUSD
         significant_digits: 5
@@ -12103,7 +12207,7 @@ class JSTUSD(NamedTuple):
         return "tJSTUSD"
 
 
-JSTUSD = JSTUSD()
+JSTUSD = JSTUSD(*JSTUSD._fields)
 """
     name: tJSTUSD
     significant_digits: 5
@@ -12117,7 +12221,7 @@ JSTUSD = JSTUSD()
 """
 
 
-class JSTUST(NamedTuple):
+class JSTUST(Symbol):
     """
         name: tJSTUST
         significant_digits: 5
@@ -12155,7 +12259,7 @@ class JSTUST(NamedTuple):
         return "tJSTUST"
 
 
-JSTUST = JSTUST()
+JSTUST = JSTUST(*JSTUST._fields)
 """
     name: tJSTUST
     significant_digits: 5
@@ -12169,7 +12273,7 @@ JSTUST = JSTUST()
 """
 
 
-class KANUSD(NamedTuple):
+class KANUSD(Symbol):
     """
         name: tKANUSD
         significant_digits: 5
@@ -12207,7 +12311,7 @@ class KANUSD(NamedTuple):
         return "tKANUSD"
 
 
-KANUSD = KANUSD()
+KANUSD = KANUSD(*KANUSD._fields)
 """
     name: tKANUSD
     significant_digits: 5
@@ -12221,7 +12325,7 @@ KANUSD = KANUSD()
 """
 
 
-class KANUST(NamedTuple):
+class KANUST(Symbol):
     """
         name: tKANUST
         significant_digits: 5
@@ -12259,7 +12363,7 @@ class KANUST(NamedTuple):
         return "tKANUST"
 
 
-KANUST = KANUST()
+KANUST = KANUST(*KANUST._fields)
 """
     name: tKANUST
     significant_digits: 5
@@ -12273,7 +12377,7 @@ KANUST = KANUST()
 """
 
 
-class KNCBTC(NamedTuple):
+class KNCBTC(Symbol):
     """
         name: tKNCBTC
         significant_digits: 5
@@ -12311,7 +12415,7 @@ class KNCBTC(NamedTuple):
         return "tKNCBTC"
 
 
-KNCBTC = KNCBTC()
+KNCBTC = KNCBTC(*KNCBTC._fields)
 """
     name: tKNCBTC
     significant_digits: 5
@@ -12325,7 +12429,7 @@ KNCBTC = KNCBTC()
 """
 
 
-class KNCF0_USTF0(NamedTuple):
+class KNCF0_USTF0(Symbol):
     """
         name: tKNCF0:USTF0
         significant_digits: 5
@@ -12363,7 +12467,7 @@ class KNCF0_USTF0(NamedTuple):
         return "tKNCF0:USTF0"
 
 
-KNCF0_USTF0 = KNCF0_USTF0()
+KNCF0_USTF0 = KNCF0_USTF0(*KNCF0_USTF0._fields)
 """
     name: tKNCF0:USTF0
     significant_digits: 5
@@ -12377,7 +12481,7 @@ KNCF0_USTF0 = KNCF0_USTF0()
 """
 
 
-class KNCUSD(NamedTuple):
+class KNCUSD(Symbol):
     """
         name: tKNCUSD
         significant_digits: 5
@@ -12415,7 +12519,7 @@ class KNCUSD(NamedTuple):
         return "tKNCUSD"
 
 
-KNCUSD = KNCUSD()
+KNCUSD = KNCUSD(*KNCUSD._fields)
 """
     name: tKNCUSD
     significant_digits: 5
@@ -12429,7 +12533,7 @@ KNCUSD = KNCUSD()
 """
 
 
-class KSMUSD(NamedTuple):
+class KSMUSD(Symbol):
     """
         name: tKSMUSD
         significant_digits: 5
@@ -12467,7 +12571,7 @@ class KSMUSD(NamedTuple):
         return "tKSMUSD"
 
 
-KSMUSD = KSMUSD()
+KSMUSD = KSMUSD(*KSMUSD._fields)
 """
     name: tKSMUSD
     significant_digits: 5
@@ -12481,7 +12585,7 @@ KSMUSD = KSMUSD()
 """
 
 
-class KSMUST(NamedTuple):
+class KSMUST(Symbol):
     """
         name: tKSMUST
         significant_digits: 5
@@ -12519,7 +12623,7 @@ class KSMUST(NamedTuple):
         return "tKSMUST"
 
 
-KSMUST = KSMUST()
+KSMUST = KSMUST(*KSMUST._fields)
 """
     name: tKSMUST
     significant_digits: 5
@@ -12533,7 +12637,7 @@ KSMUST = KSMUST()
 """
 
 
-class LDOUSD(NamedTuple):
+class LDOUSD(Symbol):
     """
         name: tLDOUSD
         significant_digits: 5
@@ -12571,7 +12675,7 @@ class LDOUSD(NamedTuple):
         return "tLDOUSD"
 
 
-LDOUSD = LDOUSD()
+LDOUSD = LDOUSD(*LDOUSD._fields)
 """
     name: tLDOUSD
     significant_digits: 5
@@ -12585,7 +12689,7 @@ LDOUSD = LDOUSD()
 """
 
 
-class LDOUST(NamedTuple):
+class LDOUST(Symbol):
     """
         name: tLDOUST
         significant_digits: 5
@@ -12623,7 +12727,7 @@ class LDOUST(NamedTuple):
         return "tLDOUST"
 
 
-LDOUST = LDOUST()
+LDOUST = LDOUST(*LDOUST._fields)
 """
     name: tLDOUST
     significant_digits: 5
@@ -12637,7 +12741,7 @@ LDOUST = LDOUST()
 """
 
 
-class LEOBTC(NamedTuple):
+class LEOBTC(Symbol):
     """
         name: tLEOBTC
         significant_digits: 5
@@ -12675,7 +12779,7 @@ class LEOBTC(NamedTuple):
         return "tLEOBTC"
 
 
-LEOBTC = LEOBTC()
+LEOBTC = LEOBTC(*LEOBTC._fields)
 """
     name: tLEOBTC
     significant_digits: 5
@@ -12689,7 +12793,7 @@ LEOBTC = LEOBTC()
 """
 
 
-class LEOETH(NamedTuple):
+class LEOETH(Symbol):
     """
         name: tLEOETH
         significant_digits: 5
@@ -12727,7 +12831,7 @@ class LEOETH(NamedTuple):
         return "tLEOETH"
 
 
-LEOETH = LEOETH()
+LEOETH = LEOETH(*LEOETH._fields)
 """
     name: tLEOETH
     significant_digits: 5
@@ -12741,7 +12845,7 @@ LEOETH = LEOETH()
 """
 
 
-class LEOUSD(NamedTuple):
+class LEOUSD(Symbol):
     """
         name: tLEOUSD
         significant_digits: 5
@@ -12779,7 +12883,7 @@ class LEOUSD(NamedTuple):
         return "tLEOUSD"
 
 
-LEOUSD = LEOUSD()
+LEOUSD = LEOUSD(*LEOUSD._fields)
 """
     name: tLEOUSD
     significant_digits: 5
@@ -12793,7 +12897,7 @@ LEOUSD = LEOUSD()
 """
 
 
-class LEOUST(NamedTuple):
+class LEOUST(Symbol):
     """
         name: tLEOUST
         significant_digits: 5
@@ -12831,7 +12935,7 @@ class LEOUST(NamedTuple):
         return "tLEOUST"
 
 
-LEOUST = LEOUST()
+LEOUST = LEOUST(*LEOUST._fields)
 """
     name: tLEOUST
     significant_digits: 5
@@ -12845,7 +12949,7 @@ LEOUST = LEOUST()
 """
 
 
-class LINK_USD(NamedTuple):
+class LINK_USD(Symbol):
     """
         name: tLINK:USD
         significant_digits: 5
@@ -12883,7 +12987,7 @@ class LINK_USD(NamedTuple):
         return "tLINK:USD"
 
 
-LINK_USD = LINK_USD()
+LINK_USD = LINK_USD(*LINK_USD._fields)
 """
     name: tLINK:USD
     significant_digits: 5
@@ -12897,7 +13001,7 @@ LINK_USD = LINK_USD()
 """
 
 
-class LINK_UST(NamedTuple):
+class LINK_UST(Symbol):
     """
         name: tLINK:UST
         significant_digits: 5
@@ -12935,7 +13039,7 @@ class LINK_UST(NamedTuple):
         return "tLINK:UST"
 
 
-LINK_UST = LINK_UST()
+LINK_UST = LINK_UST(*LINK_UST._fields)
 """
     name: tLINK:UST
     significant_digits: 5
@@ -12949,7 +13053,7 @@ LINK_UST = LINK_UST()
 """
 
 
-class LINKF0_USTF0(NamedTuple):
+class LINKF0_USTF0(Symbol):
     """
         name: tLINKF0:USTF0
         significant_digits: 5
@@ -12987,7 +13091,7 @@ class LINKF0_USTF0(NamedTuple):
         return "tLINKF0:USTF0"
 
 
-LINKF0_USTF0 = LINKF0_USTF0()
+LINKF0_USTF0 = LINKF0_USTF0(*LINKF0_USTF0._fields)
 """
     name: tLINKF0:USTF0
     significant_digits: 5
@@ -13001,7 +13105,7 @@ LINKF0_USTF0 = LINKF0_USTF0()
 """
 
 
-class LRCUSD(NamedTuple):
+class LRCUSD(Symbol):
     """
         name: tLRCUSD
         significant_digits: 5
@@ -13039,7 +13143,7 @@ class LRCUSD(NamedTuple):
         return "tLRCUSD"
 
 
-LRCUSD = LRCUSD()
+LRCUSD = LRCUSD(*LRCUSD._fields)
 """
     name: tLRCUSD
     significant_digits: 5
@@ -13053,7 +13157,7 @@ LRCUSD = LRCUSD()
 """
 
 
-class LTCBTC(NamedTuple):
+class LTCBTC(Symbol):
     """
         name: tLTCBTC
         significant_digits: 5
@@ -13091,7 +13195,7 @@ class LTCBTC(NamedTuple):
         return "tLTCBTC"
 
 
-LTCBTC = LTCBTC()
+LTCBTC = LTCBTC(*LTCBTC._fields)
 """
     name: tLTCBTC
     significant_digits: 5
@@ -13105,7 +13209,7 @@ LTCBTC = LTCBTC()
 """
 
 
-class LTCF0_BTCF0(NamedTuple):
+class LTCF0_BTCF0(Symbol):
     """
         name: tLTCF0:BTCF0
         significant_digits: 5
@@ -13143,7 +13247,7 @@ class LTCF0_BTCF0(NamedTuple):
         return "tLTCF0:BTCF0"
 
 
-LTCF0_BTCF0 = LTCF0_BTCF0()
+LTCF0_BTCF0 = LTCF0_BTCF0(*LTCF0_BTCF0._fields)
 """
     name: tLTCF0:BTCF0
     significant_digits: 5
@@ -13157,7 +13261,7 @@ LTCF0_BTCF0 = LTCF0_BTCF0()
 """
 
 
-class LTCF0_USTF0(NamedTuple):
+class LTCF0_USTF0(Symbol):
     """
         name: tLTCF0:USTF0
         significant_digits: 5
@@ -13195,7 +13299,7 @@ class LTCF0_USTF0(NamedTuple):
         return "tLTCF0:USTF0"
 
 
-LTCF0_USTF0 = LTCF0_USTF0()
+LTCF0_USTF0 = LTCF0_USTF0(*LTCF0_USTF0._fields)
 """
     name: tLTCF0:USTF0
     significant_digits: 5
@@ -13209,7 +13313,7 @@ LTCF0_USTF0 = LTCF0_USTF0()
 """
 
 
-class LTCUSD(NamedTuple):
+class LTCUSD(Symbol):
     """
         name: tLTCUSD
         significant_digits: 5
@@ -13247,7 +13351,7 @@ class LTCUSD(NamedTuple):
         return "tLTCUSD"
 
 
-LTCUSD = LTCUSD()
+LTCUSD = LTCUSD(*LTCUSD._fields)
 """
     name: tLTCUSD
     significant_digits: 5
@@ -13261,7 +13365,7 @@ LTCUSD = LTCUSD()
 """
 
 
-class LTCUST(NamedTuple):
+class LTCUST(Symbol):
     """
         name: tLTCUST
         significant_digits: 5
@@ -13299,7 +13403,7 @@ class LTCUST(NamedTuple):
         return "tLTCUST"
 
 
-LTCUST = LTCUST()
+LTCUST = LTCUST(*LTCUST._fields)
 """
     name: tLTCUST
     significant_digits: 5
@@ -13313,7 +13417,7 @@ LTCUST = LTCUST()
 """
 
 
-class LUNA2_USD(NamedTuple):
+class LUNA2_USD(Symbol):
     """
         name: tLUNA2:USD
         significant_digits: 5
@@ -13351,7 +13455,7 @@ class LUNA2_USD(NamedTuple):
         return "tLUNA2:USD"
 
 
-LUNA2_USD = LUNA2_USD()
+LUNA2_USD = LUNA2_USD(*LUNA2_USD._fields)
 """
     name: tLUNA2:USD
     significant_digits: 5
@@ -13365,7 +13469,7 @@ LUNA2_USD = LUNA2_USD()
 """
 
 
-class LUNA2_UST(NamedTuple):
+class LUNA2_UST(Symbol):
     """
         name: tLUNA2:UST
         significant_digits: 5
@@ -13403,7 +13507,7 @@ class LUNA2_UST(NamedTuple):
         return "tLUNA2:UST"
 
 
-LUNA2_UST = LUNA2_UST()
+LUNA2_UST = LUNA2_UST(*LUNA2_UST._fields)
 """
     name: tLUNA2:UST
     significant_digits: 5
@@ -13417,7 +13521,7 @@ LUNA2_UST = LUNA2_UST()
 """
 
 
-class LUNA_USD(NamedTuple):
+class LUNA_USD(Symbol):
     """
         name: tLUNA:USD
         significant_digits: 5
@@ -13455,7 +13559,7 @@ class LUNA_USD(NamedTuple):
         return "tLUNA:USD"
 
 
-LUNA_USD = LUNA_USD()
+LUNA_USD = LUNA_USD(*LUNA_USD._fields)
 """
     name: tLUNA:USD
     significant_digits: 5
@@ -13469,7 +13573,7 @@ LUNA_USD = LUNA_USD()
 """
 
 
-class LUNA_UST(NamedTuple):
+class LUNA_UST(Symbol):
     """
         name: tLUNA:UST
         significant_digits: 5
@@ -13507,7 +13611,7 @@ class LUNA_UST(NamedTuple):
         return "tLUNA:UST"
 
 
-LUNA_UST = LUNA_UST()
+LUNA_UST = LUNA_UST(*LUNA_UST._fields)
 """
     name: tLUNA:UST
     significant_digits: 5
@@ -13521,7 +13625,7 @@ LUNA_UST = LUNA_UST()
 """
 
 
-class LUXO_USD(NamedTuple):
+class LUXO_USD(Symbol):
     """
         name: tLUXO:USD
         significant_digits: 5
@@ -13559,7 +13663,7 @@ class LUXO_USD(NamedTuple):
         return "tLUXO:USD"
 
 
-LUXO_USD = LUXO_USD()
+LUXO_USD = LUXO_USD(*LUXO_USD._fields)
 """
     name: tLUXO:USD
     significant_digits: 5
@@ -13573,7 +13677,7 @@ LUXO_USD = LUXO_USD()
 """
 
 
-class LYMUSD(NamedTuple):
+class LYMUSD(Symbol):
     """
         name: tLYMUSD
         significant_digits: 5
@@ -13611,7 +13715,7 @@ class LYMUSD(NamedTuple):
         return "tLYMUSD"
 
 
-LYMUSD = LYMUSD()
+LYMUSD = LYMUSD(*LYMUSD._fields)
 """
     name: tLYMUSD
     significant_digits: 5
@@ -13625,7 +13729,7 @@ LYMUSD = LYMUSD()
 """
 
 
-class MATIC_BTC(NamedTuple):
+class MATIC_BTC(Symbol):
     """
         name: tMATIC:BTC
         significant_digits: 5
@@ -13663,7 +13767,7 @@ class MATIC_BTC(NamedTuple):
         return "tMATIC:BTC"
 
 
-MATIC_BTC = MATIC_BTC()
+MATIC_BTC = MATIC_BTC(*MATIC_BTC._fields)
 """
     name: tMATIC:BTC
     significant_digits: 5
@@ -13677,7 +13781,7 @@ MATIC_BTC = MATIC_BTC()
 """
 
 
-class MATIC_USD(NamedTuple):
+class MATIC_USD(Symbol):
     """
         name: tMATIC:USD
         significant_digits: 5
@@ -13715,7 +13819,7 @@ class MATIC_USD(NamedTuple):
         return "tMATIC:USD"
 
 
-MATIC_USD = MATIC_USD()
+MATIC_USD = MATIC_USD(*MATIC_USD._fields)
 """
     name: tMATIC:USD
     significant_digits: 5
@@ -13729,7 +13833,7 @@ MATIC_USD = MATIC_USD()
 """
 
 
-class MATIC_UST(NamedTuple):
+class MATIC_UST(Symbol):
     """
         name: tMATIC:UST
         significant_digits: 5
@@ -13767,7 +13871,7 @@ class MATIC_UST(NamedTuple):
         return "tMATIC:UST"
 
 
-MATIC_UST = MATIC_UST()
+MATIC_UST = MATIC_UST(*MATIC_UST._fields)
 """
     name: tMATIC:UST
     significant_digits: 5
@@ -13781,7 +13885,7 @@ MATIC_UST = MATIC_UST()
 """
 
 
-class MATICF0_USTF0(NamedTuple):
+class MATICF0_USTF0(Symbol):
     """
         name: tMATICF0:USTF0
         significant_digits: 5
@@ -13819,7 +13923,7 @@ class MATICF0_USTF0(NamedTuple):
         return "tMATICF0:USTF0"
 
 
-MATICF0_USTF0 = MATICF0_USTF0()
+MATICF0_USTF0 = MATICF0_USTF0(*MATICF0_USTF0._fields)
 """
     name: tMATICF0:USTF0
     significant_digits: 5
@@ -13833,7 +13937,7 @@ MATICF0_USTF0 = MATICF0_USTF0()
 """
 
 
-class MIMUSD(NamedTuple):
+class MIMUSD(Symbol):
     """
         name: tMIMUSD
         significant_digits: 5
@@ -13871,7 +13975,7 @@ class MIMUSD(NamedTuple):
         return "tMIMUSD"
 
 
-MIMUSD = MIMUSD()
+MIMUSD = MIMUSD(*MIMUSD._fields)
 """
     name: tMIMUSD
     significant_digits: 5
@@ -13885,7 +13989,7 @@ MIMUSD = MIMUSD()
 """
 
 
-class MIMUST(NamedTuple):
+class MIMUST(Symbol):
     """
         name: tMIMUST
         significant_digits: 5
@@ -13923,7 +14027,7 @@ class MIMUST(NamedTuple):
         return "tMIMUST"
 
 
-MIMUST = MIMUST()
+MIMUST = MIMUST(*MIMUST._fields)
 """
     name: tMIMUST
     significant_digits: 5
@@ -13937,7 +14041,7 @@ MIMUST = MIMUST()
 """
 
 
-class MKRF0_USTF0(NamedTuple):
+class MKRF0_USTF0(Symbol):
     """
         name: tMKRF0:USTF0
         significant_digits: 5
@@ -13975,7 +14079,7 @@ class MKRF0_USTF0(NamedTuple):
         return "tMKRF0:USTF0"
 
 
-MKRF0_USTF0 = MKRF0_USTF0()
+MKRF0_USTF0 = MKRF0_USTF0(*MKRF0_USTF0._fields)
 """
     name: tMKRF0:USTF0
     significant_digits: 5
@@ -13989,7 +14093,7 @@ MKRF0_USTF0 = MKRF0_USTF0()
 """
 
 
-class MKRUSD(NamedTuple):
+class MKRUSD(Symbol):
     """
         name: tMKRUSD
         significant_digits: 5
@@ -14027,7 +14131,7 @@ class MKRUSD(NamedTuple):
         return "tMKRUSD"
 
 
-MKRUSD = MKRUSD()
+MKRUSD = MKRUSD(*MKRUSD._fields)
 """
     name: tMKRUSD
     significant_digits: 5
@@ -14041,7 +14145,7 @@ MKRUSD = MKRUSD()
 """
 
 
-class MKRUST(NamedTuple):
+class MKRUST(Symbol):
     """
         name: tMKRUST
         significant_digits: 5
@@ -14079,7 +14183,7 @@ class MKRUST(NamedTuple):
         return "tMKRUST"
 
 
-MKRUST = MKRUST()
+MKRUST = MKRUST(*MKRUST._fields)
 """
     name: tMKRUST
     significant_digits: 5
@@ -14093,7 +14197,7 @@ MKRUST = MKRUST()
 """
 
 
-class MLNUSD(NamedTuple):
+class MLNUSD(Symbol):
     """
         name: tMLNUSD
         significant_digits: 5
@@ -14131,7 +14235,7 @@ class MLNUSD(NamedTuple):
         return "tMLNUSD"
 
 
-MLNUSD = MLNUSD()
+MLNUSD = MLNUSD(*MLNUSD._fields)
 """
     name: tMLNUSD
     significant_digits: 5
@@ -14145,7 +14249,7 @@ MLNUSD = MLNUSD()
 """
 
 
-class MNABTC(NamedTuple):
+class MNABTC(Symbol):
     """
         name: tMNABTC
         significant_digits: 5
@@ -14183,7 +14287,7 @@ class MNABTC(NamedTuple):
         return "tMNABTC"
 
 
-MNABTC = MNABTC()
+MNABTC = MNABTC(*MNABTC._fields)
 """
     name: tMNABTC
     significant_digits: 5
@@ -14197,7 +14301,7 @@ MNABTC = MNABTC()
 """
 
 
-class MNAUSD(NamedTuple):
+class MNAUSD(Symbol):
     """
         name: tMNAUSD
         significant_digits: 5
@@ -14235,7 +14339,7 @@ class MNAUSD(NamedTuple):
         return "tMNAUSD"
 
 
-MNAUSD = MNAUSD()
+MNAUSD = MNAUSD(*MNAUSD._fields)
 """
     name: tMNAUSD
     significant_digits: 5
@@ -14249,7 +14353,7 @@ MNAUSD = MNAUSD()
 """
 
 
-class MOBUSD(NamedTuple):
+class MOBUSD(Symbol):
     """
         name: tMOBUSD
         significant_digits: 5
@@ -14287,7 +14391,7 @@ class MOBUSD(NamedTuple):
         return "tMOBUSD"
 
 
-MOBUSD = MOBUSD()
+MOBUSD = MOBUSD(*MOBUSD._fields)
 """
     name: tMOBUSD
     significant_digits: 5
@@ -14301,7 +14405,7 @@ MOBUSD = MOBUSD()
 """
 
 
-class MOBUST(NamedTuple):
+class MOBUST(Symbol):
     """
         name: tMOBUST
         significant_digits: 5
@@ -14339,7 +14443,7 @@ class MOBUST(NamedTuple):
         return "tMOBUST"
 
 
-MOBUST = MOBUST()
+MOBUST = MOBUST(*MOBUST._fields)
 """
     name: tMOBUST
     significant_digits: 5
@@ -14353,7 +14457,7 @@ MOBUST = MOBUST()
 """
 
 
-class MXNT_USD(NamedTuple):
+class MXNT_USD(Symbol):
     """
         name: tMXNT:USD
         significant_digits: 5
@@ -14391,7 +14495,7 @@ class MXNT_USD(NamedTuple):
         return "tMXNT:USD"
 
 
-MXNT_USD = MXNT_USD()
+MXNT_USD = MXNT_USD(*MXNT_USD._fields)
 """
     name: tMXNT:USD
     significant_digits: 5
@@ -14405,7 +14509,7 @@ MXNT_USD = MXNT_USD()
 """
 
 
-class NEAR_USD(NamedTuple):
+class NEAR_USD(Symbol):
     """
         name: tNEAR:USD
         significant_digits: 5
@@ -14443,7 +14547,7 @@ class NEAR_USD(NamedTuple):
         return "tNEAR:USD"
 
 
-NEAR_USD = NEAR_USD()
+NEAR_USD = NEAR_USD(*NEAR_USD._fields)
 """
     name: tNEAR:USD
     significant_digits: 5
@@ -14457,7 +14561,7 @@ NEAR_USD = NEAR_USD()
 """
 
 
-class NEAR_UST(NamedTuple):
+class NEAR_UST(Symbol):
     """
         name: tNEAR:UST
         significant_digits: 5
@@ -14495,7 +14599,7 @@ class NEAR_UST(NamedTuple):
         return "tNEAR:UST"
 
 
-NEAR_UST = NEAR_UST()
+NEAR_UST = NEAR_UST(*NEAR_UST._fields)
 """
     name: tNEAR:UST
     significant_digits: 5
@@ -14509,7 +14613,7 @@ NEAR_UST = NEAR_UST()
 """
 
 
-class NEARF0_USTF0(NamedTuple):
+class NEARF0_USTF0(Symbol):
     """
         name: tNEARF0:USTF0
         significant_digits: 5
@@ -14547,7 +14651,7 @@ class NEARF0_USTF0(NamedTuple):
         return "tNEARF0:USTF0"
 
 
-NEARF0_USTF0 = NEARF0_USTF0()
+NEARF0_USTF0 = NEARF0_USTF0(*NEARF0_USTF0._fields)
 """
     name: tNEARF0:USTF0
     significant_digits: 5
@@ -14561,7 +14665,7 @@ NEARF0_USTF0 = NEARF0_USTF0()
 """
 
 
-class NEOBTC(NamedTuple):
+class NEOBTC(Symbol):
     """
         name: tNEOBTC
         significant_digits: 5
@@ -14599,7 +14703,7 @@ class NEOBTC(NamedTuple):
         return "tNEOBTC"
 
 
-NEOBTC = NEOBTC()
+NEOBTC = NEOBTC(*NEOBTC._fields)
 """
     name: tNEOBTC
     significant_digits: 5
@@ -14613,7 +14717,7 @@ NEOBTC = NEOBTC()
 """
 
 
-class NEOF0_USTF0(NamedTuple):
+class NEOF0_USTF0(Symbol):
     """
         name: tNEOF0:USTF0
         significant_digits: 5
@@ -14651,7 +14755,7 @@ class NEOF0_USTF0(NamedTuple):
         return "tNEOF0:USTF0"
 
 
-NEOF0_USTF0 = NEOF0_USTF0()
+NEOF0_USTF0 = NEOF0_USTF0(*NEOF0_USTF0._fields)
 """
     name: tNEOF0:USTF0
     significant_digits: 5
@@ -14665,7 +14769,7 @@ NEOF0_USTF0 = NEOF0_USTF0()
 """
 
 
-class NEOUSD(NamedTuple):
+class NEOUSD(Symbol):
     """
         name: tNEOUSD
         significant_digits: 5
@@ -14703,7 +14807,7 @@ class NEOUSD(NamedTuple):
         return "tNEOUSD"
 
 
-NEOUSD = NEOUSD()
+NEOUSD = NEOUSD(*NEOUSD._fields)
 """
     name: tNEOUSD
     significant_digits: 5
@@ -14717,7 +14821,7 @@ NEOUSD = NEOUSD()
 """
 
 
-class NEOUST(NamedTuple):
+class NEOUST(Symbol):
     """
         name: tNEOUST
         significant_digits: 5
@@ -14755,7 +14859,7 @@ class NEOUST(NamedTuple):
         return "tNEOUST"
 
 
-NEOUST = NEOUST()
+NEOUST = NEOUST(*NEOUST._fields)
 """
     name: tNEOUST
     significant_digits: 5
@@ -14769,7 +14873,7 @@ NEOUST = NEOUST()
 """
 
 
-class NEXO_BTC(NamedTuple):
+class NEXO_BTC(Symbol):
     """
         name: tNEXO:BTC
         significant_digits: 5
@@ -14807,7 +14911,7 @@ class NEXO_BTC(NamedTuple):
         return "tNEXO:BTC"
 
 
-NEXO_BTC = NEXO_BTC()
+NEXO_BTC = NEXO_BTC(*NEXO_BTC._fields)
 """
     name: tNEXO:BTC
     significant_digits: 5
@@ -14821,7 +14925,7 @@ NEXO_BTC = NEXO_BTC()
 """
 
 
-class NEXO_USD(NamedTuple):
+class NEXO_USD(Symbol):
     """
         name: tNEXO:USD
         significant_digits: 5
@@ -14859,7 +14963,7 @@ class NEXO_USD(NamedTuple):
         return "tNEXO:USD"
 
 
-NEXO_USD = NEXO_USD()
+NEXO_USD = NEXO_USD(*NEXO_USD._fields)
 """
     name: tNEXO:USD
     significant_digits: 5
@@ -14873,7 +14977,7 @@ NEXO_USD = NEXO_USD()
 """
 
 
-class NEXO_UST(NamedTuple):
+class NEXO_UST(Symbol):
     """
         name: tNEXO:UST
         significant_digits: 5
@@ -14911,7 +15015,7 @@ class NEXO_UST(NamedTuple):
         return "tNEXO:UST"
 
 
-NEXO_UST = NEXO_UST()
+NEXO_UST = NEXO_UST(*NEXO_UST._fields)
 """
     name: tNEXO:UST
     significant_digits: 5
@@ -14925,7 +15029,7 @@ NEXO_UST = NEXO_UST()
 """
 
 
-class NOMUSD(NamedTuple):
+class NOMUSD(Symbol):
     """
         name: tNOMUSD
         significant_digits: 5
@@ -14963,7 +15067,7 @@ class NOMUSD(NamedTuple):
         return "tNOMUSD"
 
 
-NOMUSD = NOMUSD()
+NOMUSD = NOMUSD(*NOMUSD._fields)
 """
     name: tNOMUSD
     significant_digits: 5
@@ -14977,7 +15081,7 @@ NOMUSD = NOMUSD()
 """
 
 
-class NOMUST(NamedTuple):
+class NOMUST(Symbol):
     """
         name: tNOMUST
         significant_digits: 5
@@ -15015,7 +15119,7 @@ class NOMUST(NamedTuple):
         return "tNOMUST"
 
 
-NOMUST = NOMUST()
+NOMUST = NOMUST(*NOMUST._fields)
 """
     name: tNOMUST
     significant_digits: 5
@@ -15029,7 +15133,7 @@ NOMUST = NOMUST()
 """
 
 
-class NXRA_USD(NamedTuple):
+class NXRA_USD(Symbol):
     """
         name: tNXRA:USD
         significant_digits: 5
@@ -15067,7 +15171,7 @@ class NXRA_USD(NamedTuple):
         return "tNXRA:USD"
 
 
-NXRA_USD = NXRA_USD()
+NXRA_USD = NXRA_USD(*NXRA_USD._fields)
 """
     name: tNXRA:USD
     significant_digits: 5
@@ -15081,7 +15185,7 @@ NXRA_USD = NXRA_USD()
 """
 
 
-class OCEAN_USD(NamedTuple):
+class OCEAN_USD(Symbol):
     """
         name: tOCEAN:USD
         significant_digits: 5
@@ -15119,7 +15223,7 @@ class OCEAN_USD(NamedTuple):
         return "tOCEAN:USD"
 
 
-OCEAN_USD = OCEAN_USD()
+OCEAN_USD = OCEAN_USD(*OCEAN_USD._fields)
 """
     name: tOCEAN:USD
     significant_digits: 5
@@ -15133,7 +15237,7 @@ OCEAN_USD = OCEAN_USD()
 """
 
 
-class OCEAN_UST(NamedTuple):
+class OCEAN_UST(Symbol):
     """
         name: tOCEAN:UST
         significant_digits: 5
@@ -15171,7 +15275,7 @@ class OCEAN_UST(NamedTuple):
         return "tOCEAN:UST"
 
 
-OCEAN_UST = OCEAN_UST()
+OCEAN_UST = OCEAN_UST(*OCEAN_UST._fields)
 """
     name: tOCEAN:UST
     significant_digits: 5
@@ -15185,7 +15289,7 @@ OCEAN_UST = OCEAN_UST()
 """
 
 
-class OGNUSD(NamedTuple):
+class OGNUSD(Symbol):
     """
         name: tOGNUSD
         significant_digits: 5
@@ -15223,7 +15327,7 @@ class OGNUSD(NamedTuple):
         return "tOGNUSD"
 
 
-OGNUSD = OGNUSD()
+OGNUSD = OGNUSD(*OGNUSD._fields)
 """
     name: tOGNUSD
     significant_digits: 5
@@ -15237,7 +15341,7 @@ OGNUSD = OGNUSD()
 """
 
 
-class OGNUST(NamedTuple):
+class OGNUST(Symbol):
     """
         name: tOGNUST
         significant_digits: 5
@@ -15275,7 +15379,7 @@ class OGNUST(NamedTuple):
         return "tOGNUST"
 
 
-OGNUST = OGNUST()
+OGNUST = OGNUST(*OGNUST._fields)
 """
     name: tOGNUST
     significant_digits: 5
@@ -15289,7 +15393,7 @@ OGNUST = OGNUST()
 """
 
 
-class OMGBTC(NamedTuple):
+class OMGBTC(Symbol):
     """
         name: tOMGBTC
         significant_digits: 5
@@ -15327,7 +15431,7 @@ class OMGBTC(NamedTuple):
         return "tOMGBTC"
 
 
-OMGBTC = OMGBTC()
+OMGBTC = OMGBTC(*OMGBTC._fields)
 """
     name: tOMGBTC
     significant_digits: 5
@@ -15341,7 +15445,7 @@ OMGBTC = OMGBTC()
 """
 
 
-class OMGETH(NamedTuple):
+class OMGETH(Symbol):
     """
         name: tOMGETH
         significant_digits: 5
@@ -15379,7 +15483,7 @@ class OMGETH(NamedTuple):
         return "tOMGETH"
 
 
-OMGETH = OMGETH()
+OMGETH = OMGETH(*OMGETH._fields)
 """
     name: tOMGETH
     significant_digits: 5
@@ -15393,7 +15497,7 @@ OMGETH = OMGETH()
 """
 
 
-class OMGF0_USTF0(NamedTuple):
+class OMGF0_USTF0(Symbol):
     """
         name: tOMGF0:USTF0
         significant_digits: 5
@@ -15431,7 +15535,7 @@ class OMGF0_USTF0(NamedTuple):
         return "tOMGF0:USTF0"
 
 
-OMGF0_USTF0 = OMGF0_USTF0()
+OMGF0_USTF0 = OMGF0_USTF0(*OMGF0_USTF0._fields)
 """
     name: tOMGF0:USTF0
     significant_digits: 5
@@ -15445,7 +15549,7 @@ OMGF0_USTF0 = OMGF0_USTF0()
 """
 
 
-class OMGUSD(NamedTuple):
+class OMGUSD(Symbol):
     """
         name: tOMGUSD
         significant_digits: 5
@@ -15483,7 +15587,7 @@ class OMGUSD(NamedTuple):
         return "tOMGUSD"
 
 
-OMGUSD = OMGUSD()
+OMGUSD = OMGUSD(*OMGUSD._fields)
 """
     name: tOMGUSD
     significant_digits: 5
@@ -15497,7 +15601,7 @@ OMGUSD = OMGUSD()
 """
 
 
-class OMNUSD(NamedTuple):
+class OMNUSD(Symbol):
     """
         name: tOMNUSD
         significant_digits: 5
@@ -15535,7 +15639,7 @@ class OMNUSD(NamedTuple):
         return "tOMNUSD"
 
 
-OMNUSD = OMNUSD()
+OMNUSD = OMNUSD(*OMNUSD._fields)
 """
     name: tOMNUSD
     significant_digits: 5
@@ -15549,7 +15653,7 @@ OMNUSD = OMNUSD()
 """
 
 
-class ONEUSD(NamedTuple):
+class ONEUSD(Symbol):
     """
         name: tONEUSD
         significant_digits: 5
@@ -15587,7 +15691,7 @@ class ONEUSD(NamedTuple):
         return "tONEUSD"
 
 
-ONEUSD = ONEUSD()
+ONEUSD = ONEUSD(*ONEUSD._fields)
 """
     name: tONEUSD
     significant_digits: 5
@@ -15601,7 +15705,7 @@ ONEUSD = ONEUSD()
 """
 
 
-class ONEUST(NamedTuple):
+class ONEUST(Symbol):
     """
         name: tONEUST
         significant_digits: 5
@@ -15639,7 +15743,7 @@ class ONEUST(NamedTuple):
         return "tONEUST"
 
 
-ONEUST = ONEUST()
+ONEUST = ONEUST(*ONEUST._fields)
 """
     name: tONEUST
     significant_digits: 5
@@ -15653,7 +15757,7 @@ ONEUST = ONEUST()
 """
 
 
-class PASUSD(NamedTuple):
+class PASUSD(Symbol):
     """
         name: tPASUSD
         significant_digits: 5
@@ -15691,7 +15795,7 @@ class PASUSD(NamedTuple):
         return "tPASUSD"
 
 
-PASUSD = PASUSD()
+PASUSD = PASUSD(*PASUSD._fields)
 """
     name: tPASUSD
     significant_digits: 5
@@ -15705,7 +15809,7 @@ PASUSD = PASUSD()
 """
 
 
-class PAXUSD(NamedTuple):
+class PAXUSD(Symbol):
     """
         name: tPAXUSD
         significant_digits: 5
@@ -15743,7 +15847,7 @@ class PAXUSD(NamedTuple):
         return "tPAXUSD"
 
 
-PAXUSD = PAXUSD()
+PAXUSD = PAXUSD(*PAXUSD._fields)
 """
     name: tPAXUSD
     significant_digits: 5
@@ -15757,7 +15861,7 @@ PAXUSD = PAXUSD()
 """
 
 
-class PAXUST(NamedTuple):
+class PAXUST(Symbol):
     """
         name: tPAXUST
         significant_digits: 5
@@ -15795,7 +15899,7 @@ class PAXUST(NamedTuple):
         return "tPAXUST"
 
 
-PAXUST = PAXUST()
+PAXUST = PAXUST(*PAXUST._fields)
 """
     name: tPAXUST
     significant_digits: 5
@@ -15809,7 +15913,7 @@ PAXUST = PAXUST()
 """
 
 
-class PLANETS_USD(NamedTuple):
+class PLANETS_USD(Symbol):
     """
         name: tPLANETS:USD
         significant_digits: 5
@@ -15847,7 +15951,7 @@ class PLANETS_USD(NamedTuple):
         return "tPLANETS:USD"
 
 
-PLANETS_USD = PLANETS_USD()
+PLANETS_USD = PLANETS_USD(*PLANETS_USD._fields)
 """
     name: tPLANETS:USD
     significant_digits: 5
@@ -15861,7 +15965,7 @@ PLANETS_USD = PLANETS_USD()
 """
 
 
-class PLANETS_UST(NamedTuple):
+class PLANETS_UST(Symbol):
     """
         name: tPLANETS:UST
         significant_digits: 5
@@ -15899,7 +16003,7 @@ class PLANETS_UST(NamedTuple):
         return "tPLANETS:UST"
 
 
-PLANETS_UST = PLANETS_UST()
+PLANETS_UST = PLANETS_UST(*PLANETS_UST._fields)
 """
     name: tPLANETS:UST
     significant_digits: 5
@@ -15913,7 +16017,7 @@ PLANETS_UST = PLANETS_UST()
 """
 
 
-class PLUUSD(NamedTuple):
+class PLUUSD(Symbol):
     """
         name: tPLUUSD
         significant_digits: 5
@@ -15951,7 +16055,7 @@ class PLUUSD(NamedTuple):
         return "tPLUUSD"
 
 
-PLUUSD = PLUUSD()
+PLUUSD = PLUUSD(*PLUUSD._fields)
 """
     name: tPLUUSD
     significant_digits: 5
@@ -15965,7 +16069,7 @@ PLUUSD = PLUUSD()
 """
 
 
-class PNKUSD(NamedTuple):
+class PNKUSD(Symbol):
     """
         name: tPNKUSD
         significant_digits: 5
@@ -16003,7 +16107,7 @@ class PNKUSD(NamedTuple):
         return "tPNKUSD"
 
 
-PNKUSD = PNKUSD()
+PNKUSD = PNKUSD(*PNKUSD._fields)
 """
     name: tPNKUSD
     significant_digits: 5
@@ -16017,7 +16121,7 @@ PNKUSD = PNKUSD()
 """
 
 
-class POLC_USD(NamedTuple):
+class POLC_USD(Symbol):
     """
         name: tPOLC:USD
         significant_digits: 5
@@ -16055,7 +16159,7 @@ class POLC_USD(NamedTuple):
         return "tPOLC:USD"
 
 
-POLC_USD = POLC_USD()
+POLC_USD = POLC_USD(*POLC_USD._fields)
 """
     name: tPOLC:USD
     significant_digits: 5
@@ -16069,7 +16173,7 @@ POLC_USD = POLC_USD()
 """
 
 
-class POLC_UST(NamedTuple):
+class POLC_UST(Symbol):
     """
         name: tPOLC:UST
         significant_digits: 5
@@ -16107,7 +16211,7 @@ class POLC_UST(NamedTuple):
         return "tPOLC:UST"
 
 
-POLC_UST = POLC_UST()
+POLC_UST = POLC_UST(*POLC_UST._fields)
 """
     name: tPOLC:UST
     significant_digits: 5
@@ -16121,7 +16225,7 @@ POLC_UST = POLC_UST()
 """
 
 
-class POLIS_USD(NamedTuple):
+class POLIS_USD(Symbol):
     """
         name: tPOLIS:USD
         significant_digits: 5
@@ -16159,7 +16263,7 @@ class POLIS_USD(NamedTuple):
         return "tPOLIS:USD"
 
 
-POLIS_USD = POLIS_USD()
+POLIS_USD = POLIS_USD(*POLIS_USD._fields)
 """
     name: tPOLIS:USD
     significant_digits: 5
@@ -16173,7 +16277,7 @@ POLIS_USD = POLIS_USD()
 """
 
 
-class POLIS_UST(NamedTuple):
+class POLIS_UST(Symbol):
     """
         name: tPOLIS:UST
         significant_digits: 5
@@ -16211,7 +16315,7 @@ class POLIS_UST(NamedTuple):
         return "tPOLIS:UST"
 
 
-POLIS_UST = POLIS_UST()
+POLIS_UST = POLIS_UST(*POLIS_UST._fields)
 """
     name: tPOLIS:UST
     significant_digits: 5
@@ -16225,7 +16329,7 @@ POLIS_UST = POLIS_UST()
 """
 
 
-class PRMX_USD(NamedTuple):
+class PRMX_USD(Symbol):
     """
         name: tPRMX:USD
         significant_digits: 5
@@ -16263,7 +16367,7 @@ class PRMX_USD(NamedTuple):
         return "tPRMX:USD"
 
 
-PRMX_USD = PRMX_USD()
+PRMX_USD = PRMX_USD(*PRMX_USD._fields)
 """
     name: tPRMX:USD
     significant_digits: 5
@@ -16277,7 +16381,7 @@ PRMX_USD = PRMX_USD()
 """
 
 
-class PRMX_UST(NamedTuple):
+class PRMX_UST(Symbol):
     """
         name: tPRMX:UST
         significant_digits: 5
@@ -16315,7 +16419,7 @@ class PRMX_UST(NamedTuple):
         return "tPRMX:UST"
 
 
-PRMX_UST = PRMX_UST()
+PRMX_UST = PRMX_UST(*PRMX_UST._fields)
 """
     name: tPRMX:UST
     significant_digits: 5
@@ -16329,7 +16433,7 @@ PRMX_UST = PRMX_UST()
 """
 
 
-class QRDO_USD(NamedTuple):
+class QRDO_USD(Symbol):
     """
         name: tQRDO:USD
         significant_digits: 5
@@ -16367,7 +16471,7 @@ class QRDO_USD(NamedTuple):
         return "tQRDO:USD"
 
 
-QRDO_USD = QRDO_USD()
+QRDO_USD = QRDO_USD(*QRDO_USD._fields)
 """
     name: tQRDO:USD
     significant_digits: 5
@@ -16381,7 +16485,7 @@ QRDO_USD = QRDO_USD()
 """
 
 
-class QRDO_UST(NamedTuple):
+class QRDO_UST(Symbol):
     """
         name: tQRDO:UST
         significant_digits: 5
@@ -16419,7 +16523,7 @@ class QRDO_UST(NamedTuple):
         return "tQRDO:UST"
 
 
-QRDO_UST = QRDO_UST()
+QRDO_UST = QRDO_UST(*QRDO_UST._fields)
 """
     name: tQRDO:UST
     significant_digits: 5
@@ -16433,7 +16537,7 @@ QRDO_UST = QRDO_UST()
 """
 
 
-class QTFBTC(NamedTuple):
+class QTFBTC(Symbol):
     """
         name: tQTFBTC
         significant_digits: 5
@@ -16471,7 +16575,7 @@ class QTFBTC(NamedTuple):
         return "tQTFBTC"
 
 
-QTFBTC = QTFBTC()
+QTFBTC = QTFBTC(*QTFBTC._fields)
 """
     name: tQTFBTC
     significant_digits: 5
@@ -16485,7 +16589,7 @@ QTFBTC = QTFBTC()
 """
 
 
-class QTFUSD(NamedTuple):
+class QTFUSD(Symbol):
     """
         name: tQTFUSD
         significant_digits: 5
@@ -16523,7 +16627,7 @@ class QTFUSD(NamedTuple):
         return "tQTFUSD"
 
 
-QTFUSD = QTFUSD()
+QTFUSD = QTFUSD(*QTFUSD._fields)
 """
     name: tQTFUSD
     significant_digits: 5
@@ -16537,7 +16641,7 @@ QTFUSD = QTFUSD()
 """
 
 
-class QTMUSD(NamedTuple):
+class QTMUSD(Symbol):
     """
         name: tQTMUSD
         significant_digits: 5
@@ -16575,7 +16679,7 @@ class QTMUSD(NamedTuple):
         return "tQTMUSD"
 
 
-QTMUSD = QTMUSD()
+QTMUSD = QTMUSD(*QTMUSD._fields)
 """
     name: tQTMUSD
     significant_digits: 5
@@ -16589,7 +16693,7 @@ QTMUSD = QTMUSD()
 """
 
 
-class RBTUSD(NamedTuple):
+class RBTUSD(Symbol):
     """
         name: tRBTUSD
         significant_digits: 5
@@ -16627,7 +16731,7 @@ class RBTUSD(NamedTuple):
         return "tRBTUSD"
 
 
-RBTUSD = RBTUSD()
+RBTUSD = RBTUSD(*RBTUSD._fields)
 """
     name: tRBTUSD
     significant_digits: 5
@@ -16641,7 +16745,7 @@ RBTUSD = RBTUSD()
 """
 
 
-class REEF_USD(NamedTuple):
+class REEF_USD(Symbol):
     """
         name: tREEF:USD
         significant_digits: 5
@@ -16679,7 +16783,7 @@ class REEF_USD(NamedTuple):
         return "tREEF:USD"
 
 
-REEF_USD = REEF_USD()
+REEF_USD = REEF_USD(*REEF_USD._fields)
 """
     name: tREEF:USD
     significant_digits: 5
@@ -16693,7 +16797,7 @@ REEF_USD = REEF_USD()
 """
 
 
-class REEF_UST(NamedTuple):
+class REEF_UST(Symbol):
     """
         name: tREEF:UST
         significant_digits: 5
@@ -16731,7 +16835,7 @@ class REEF_UST(NamedTuple):
         return "tREEF:UST"
 
 
-REEF_UST = REEF_UST()
+REEF_UST = REEF_UST(*REEF_UST._fields)
 """
     name: tREEF:UST
     significant_digits: 5
@@ -16745,7 +16849,7 @@ REEF_UST = REEF_UST()
 """
 
 
-class REPUSD(NamedTuple):
+class REPUSD(Symbol):
     """
         name: tREPUSD
         significant_digits: 5
@@ -16783,7 +16887,7 @@ class REPUSD(NamedTuple):
         return "tREPUSD"
 
 
-REPUSD = REPUSD()
+REPUSD = REPUSD(*REPUSD._fields)
 """
     name: tREPUSD
     significant_digits: 5
@@ -16797,7 +16901,7 @@ REPUSD = REPUSD()
 """
 
 
-class REQUSD(NamedTuple):
+class REQUSD(Symbol):
     """
         name: tREQUSD
         significant_digits: 5
@@ -16835,7 +16939,7 @@ class REQUSD(NamedTuple):
         return "tREQUSD"
 
 
-REQUSD = REQUSD()
+REQUSD = REQUSD(*REQUSD._fields)
 """
     name: tREQUSD
     significant_digits: 5
@@ -16849,7 +16953,7 @@ REQUSD = REQUSD()
 """
 
 
-class RLYUSD(NamedTuple):
+class RLYUSD(Symbol):
     """
         name: tRLYUSD
         significant_digits: 5
@@ -16887,7 +16991,7 @@ class RLYUSD(NamedTuple):
         return "tRLYUSD"
 
 
-RLYUSD = RLYUSD()
+RLYUSD = RLYUSD(*RLYUSD._fields)
 """
     name: tRLYUSD
     significant_digits: 5
@@ -16901,7 +17005,7 @@ RLYUSD = RLYUSD()
 """
 
 
-class RLYUST(NamedTuple):
+class RLYUST(Symbol):
     """
         name: tRLYUST
         significant_digits: 5
@@ -16939,7 +17043,7 @@ class RLYUST(NamedTuple):
         return "tRLYUST"
 
 
-RLYUST = RLYUST()
+RLYUST = RLYUST(*RLYUST._fields)
 """
     name: tRLYUST
     significant_digits: 5
@@ -16953,7 +17057,7 @@ RLYUST = RLYUST()
 """
 
 
-class RRTUSD(NamedTuple):
+class RRTUSD(Symbol):
     """
         name: tRRTUSD
         significant_digits: 5
@@ -16991,7 +17095,7 @@ class RRTUSD(NamedTuple):
         return "tRRTUSD"
 
 
-RRTUSD = RRTUSD()
+RRTUSD = RRTUSD(*RRTUSD._fields)
 """
     name: tRRTUSD
     significant_digits: 5
@@ -17005,7 +17109,7 @@ RRTUSD = RRTUSD()
 """
 
 
-class SAND_USD(NamedTuple):
+class SAND_USD(Symbol):
     """
         name: tSAND:USD
         significant_digits: 5
@@ -17043,7 +17147,7 @@ class SAND_USD(NamedTuple):
         return "tSAND:USD"
 
 
-SAND_USD = SAND_USD()
+SAND_USD = SAND_USD(*SAND_USD._fields)
 """
     name: tSAND:USD
     significant_digits: 5
@@ -17057,7 +17161,7 @@ SAND_USD = SAND_USD()
 """
 
 
-class SAND_UST(NamedTuple):
+class SAND_UST(Symbol):
     """
         name: tSAND:UST
         significant_digits: 5
@@ -17095,7 +17199,7 @@ class SAND_UST(NamedTuple):
         return "tSAND:UST"
 
 
-SAND_UST = SAND_UST()
+SAND_UST = SAND_UST(*SAND_UST._fields)
 """
     name: tSAND:UST
     significant_digits: 5
@@ -17109,7 +17213,7 @@ SAND_UST = SAND_UST()
 """
 
 
-class SANDF0_USTF0(NamedTuple):
+class SANDF0_USTF0(Symbol):
     """
         name: tSANDF0:USTF0
         significant_digits: 5
@@ -17147,7 +17251,7 @@ class SANDF0_USTF0(NamedTuple):
         return "tSANDF0:USTF0"
 
 
-SANDF0_USTF0 = SANDF0_USTF0()
+SANDF0_USTF0 = SANDF0_USTF0(*SANDF0_USTF0._fields)
 """
     name: tSANDF0:USTF0
     significant_digits: 5
@@ -17161,7 +17265,7 @@ SANDF0_USTF0 = SANDF0_USTF0()
 """
 
 
-class SENATE_USD(NamedTuple):
+class SENATE_USD(Symbol):
     """
         name: tSENATE:USD
         significant_digits: 5
@@ -17199,7 +17303,7 @@ class SENATE_USD(NamedTuple):
         return "tSENATE:USD"
 
 
-SENATE_USD = SENATE_USD()
+SENATE_USD = SENATE_USD(*SENATE_USD._fields)
 """
     name: tSENATE:USD
     significant_digits: 5
@@ -17213,7 +17317,7 @@ SENATE_USD = SENATE_USD()
 """
 
 
-class SGBUSD(NamedTuple):
+class SGBUSD(Symbol):
     """
         name: tSGBUSD
         significant_digits: 5
@@ -17251,7 +17355,7 @@ class SGBUSD(NamedTuple):
         return "tSGBUSD"
 
 
-SGBUSD = SGBUSD()
+SGBUSD = SGBUSD(*SGBUSD._fields)
 """
     name: tSGBUSD
     significant_digits: 5
@@ -17265,7 +17369,7 @@ SGBUSD = SGBUSD()
 """
 
 
-class SGBUST(NamedTuple):
+class SGBUST(Symbol):
     """
         name: tSGBUST
         significant_digits: 5
@@ -17303,7 +17407,7 @@ class SGBUST(NamedTuple):
         return "tSGBUST"
 
 
-SGBUST = SGBUST()
+SGBUST = SGBUST(*SGBUST._fields)
 """
     name: tSGBUST
     significant_digits: 5
@@ -17317,7 +17421,7 @@ SGBUST = SGBUST()
 """
 
 
-class SHFT_USD(NamedTuple):
+class SHFT_USD(Symbol):
     """
         name: tSHFT:USD
         significant_digits: 5
@@ -17355,7 +17459,7 @@ class SHFT_USD(NamedTuple):
         return "tSHFT:USD"
 
 
-SHFT_USD = SHFT_USD()
+SHFT_USD = SHFT_USD(*SHFT_USD._fields)
 """
     name: tSHFT:USD
     significant_digits: 5
@@ -17369,7 +17473,7 @@ SHFT_USD = SHFT_USD()
 """
 
 
-class SHFT_UST(NamedTuple):
+class SHFT_UST(Symbol):
     """
         name: tSHFT:UST
         significant_digits: 5
@@ -17407,7 +17511,7 @@ class SHFT_UST(NamedTuple):
         return "tSHFT:UST"
 
 
-SHFT_UST = SHFT_UST()
+SHFT_UST = SHFT_UST(*SHFT_UST._fields)
 """
     name: tSHFT:UST
     significant_digits: 5
@@ -17421,7 +17525,7 @@ SHFT_UST = SHFT_UST()
 """
 
 
-class SHIB_USD(NamedTuple):
+class SHIB_USD(Symbol):
     """
         name: tSHIB:USD
         significant_digits: 5
@@ -17459,7 +17563,7 @@ class SHIB_USD(NamedTuple):
         return "tSHIB:USD"
 
 
-SHIB_USD = SHIB_USD()
+SHIB_USD = SHIB_USD(*SHIB_USD._fields)
 """
     name: tSHIB:USD
     significant_digits: 5
@@ -17473,7 +17577,7 @@ SHIB_USD = SHIB_USD()
 """
 
 
-class SHIB_UST(NamedTuple):
+class SHIB_UST(Symbol):
     """
         name: tSHIB:UST
         significant_digits: 5
@@ -17511,7 +17615,7 @@ class SHIB_UST(NamedTuple):
         return "tSHIB:UST"
 
 
-SHIB_UST = SHIB_UST()
+SHIB_UST = SHIB_UST(*SHIB_UST._fields)
 """
     name: tSHIB:UST
     significant_digits: 5
@@ -17525,7 +17629,7 @@ SHIB_UST = SHIB_UST()
 """
 
 
-class SHIBF0_USTF0(NamedTuple):
+class SHIBF0_USTF0(Symbol):
     """
         name: tSHIBF0:USTF0
         significant_digits: 5
@@ -17563,7 +17667,7 @@ class SHIBF0_USTF0(NamedTuple):
         return "tSHIBF0:USTF0"
 
 
-SHIBF0_USTF0 = SHIBF0_USTF0()
+SHIBF0_USTF0 = SHIBF0_USTF0(*SHIBF0_USTF0._fields)
 """
     name: tSHIBF0:USTF0
     significant_digits: 5
@@ -17577,7 +17681,7 @@ SHIBF0_USTF0 = SHIBF0_USTF0()
 """
 
 
-class SIDUS_USD(NamedTuple):
+class SIDUS_USD(Symbol):
     """
         name: tSIDUS:USD
         significant_digits: 5
@@ -17615,7 +17719,7 @@ class SIDUS_USD(NamedTuple):
         return "tSIDUS:USD"
 
 
-SIDUS_USD = SIDUS_USD()
+SIDUS_USD = SIDUS_USD(*SIDUS_USD._fields)
 """
     name: tSIDUS:USD
     significant_digits: 5
@@ -17629,7 +17733,7 @@ SIDUS_USD = SIDUS_USD()
 """
 
 
-class SMRUSD(NamedTuple):
+class SMRUSD(Symbol):
     """
         name: tSMRUSD
         significant_digits: 5
@@ -17667,7 +17771,7 @@ class SMRUSD(NamedTuple):
         return "tSMRUSD"
 
 
-SMRUSD = SMRUSD()
+SMRUSD = SMRUSD(*SMRUSD._fields)
 """
     name: tSMRUSD
     significant_digits: 5
@@ -17681,7 +17785,7 @@ SMRUSD = SMRUSD()
 """
 
 
-class SMRUST(NamedTuple):
+class SMRUST(Symbol):
     """
         name: tSMRUST
         significant_digits: 5
@@ -17719,7 +17823,7 @@ class SMRUST(NamedTuple):
         return "tSMRUST"
 
 
-SMRUST = SMRUST()
+SMRUST = SMRUST(*SMRUST._fields)
 """
     name: tSMRUST
     significant_digits: 5
@@ -17733,7 +17837,7 @@ SMRUST = SMRUST()
 """
 
 
-class SNTUSD(NamedTuple):
+class SNTUSD(Symbol):
     """
         name: tSNTUSD
         significant_digits: 5
@@ -17771,7 +17875,7 @@ class SNTUSD(NamedTuple):
         return "tSNTUSD"
 
 
-SNTUSD = SNTUSD()
+SNTUSD = SNTUSD(*SNTUSD._fields)
 """
     name: tSNTUSD
     significant_digits: 5
@@ -17785,7 +17889,7 @@ SNTUSD = SNTUSD()
 """
 
 
-class SNXUSD(NamedTuple):
+class SNXUSD(Symbol):
     """
         name: tSNXUSD
         significant_digits: 5
@@ -17823,7 +17927,7 @@ class SNXUSD(NamedTuple):
         return "tSNXUSD"
 
 
-SNXUSD = SNXUSD()
+SNXUSD = SNXUSD(*SNXUSD._fields)
 """
     name: tSNXUSD
     significant_digits: 5
@@ -17837,7 +17941,7 @@ SNXUSD = SNXUSD()
 """
 
 
-class SNXUST(NamedTuple):
+class SNXUST(Symbol):
     """
         name: tSNXUST
         significant_digits: 5
@@ -17875,7 +17979,7 @@ class SNXUST(NamedTuple):
         return "tSNXUST"
 
 
-SNXUST = SNXUST()
+SNXUST = SNXUST(*SNXUST._fields)
 """
     name: tSNXUST
     significant_digits: 5
@@ -17889,7 +17993,7 @@ SNXUST = SNXUST()
 """
 
 
-class SOLBTC(NamedTuple):
+class SOLBTC(Symbol):
     """
         name: tSOLBTC
         significant_digits: 5
@@ -17927,7 +18031,7 @@ class SOLBTC(NamedTuple):
         return "tSOLBTC"
 
 
-SOLBTC = SOLBTC()
+SOLBTC = SOLBTC(*SOLBTC._fields)
 """
     name: tSOLBTC
     significant_digits: 5
@@ -17941,7 +18045,7 @@ SOLBTC = SOLBTC()
 """
 
 
-class SOLF0_BTCF0(NamedTuple):
+class SOLF0_BTCF0(Symbol):
     """
         name: tSOLF0:BTCF0
         significant_digits: 5
@@ -17979,7 +18083,7 @@ class SOLF0_BTCF0(NamedTuple):
         return "tSOLF0:BTCF0"
 
 
-SOLF0_BTCF0 = SOLF0_BTCF0()
+SOLF0_BTCF0 = SOLF0_BTCF0(*SOLF0_BTCF0._fields)
 """
     name: tSOLF0:BTCF0
     significant_digits: 5
@@ -17993,7 +18097,7 @@ SOLF0_BTCF0 = SOLF0_BTCF0()
 """
 
 
-class SOLF0_USTF0(NamedTuple):
+class SOLF0_USTF0(Symbol):
     """
         name: tSOLF0:USTF0
         significant_digits: 5
@@ -18031,7 +18135,7 @@ class SOLF0_USTF0(NamedTuple):
         return "tSOLF0:USTF0"
 
 
-SOLF0_USTF0 = SOLF0_USTF0()
+SOLF0_USTF0 = SOLF0_USTF0(*SOLF0_USTF0._fields)
 """
     name: tSOLF0:USTF0
     significant_digits: 5
@@ -18045,7 +18149,7 @@ SOLF0_USTF0 = SOLF0_USTF0()
 """
 
 
-class SOLUSD(NamedTuple):
+class SOLUSD(Symbol):
     """
         name: tSOLUSD
         significant_digits: 5
@@ -18083,7 +18187,7 @@ class SOLUSD(NamedTuple):
         return "tSOLUSD"
 
 
-SOLUSD = SOLUSD()
+SOLUSD = SOLUSD(*SOLUSD._fields)
 """
     name: tSOLUSD
     significant_digits: 5
@@ -18097,7 +18201,7 @@ SOLUSD = SOLUSD()
 """
 
 
-class SOLUST(NamedTuple):
+class SOLUST(Symbol):
     """
         name: tSOLUST
         significant_digits: 5
@@ -18135,7 +18239,7 @@ class SOLUST(NamedTuple):
         return "tSOLUST"
 
 
-SOLUST = SOLUST()
+SOLUST = SOLUST(*SOLUST._fields)
 """
     name: tSOLUST
     significant_digits: 5
@@ -18149,7 +18253,7 @@ SOLUST = SOLUST()
 """
 
 
-class SPAIN35IXF0_USTF0(NamedTuple):
+class SPAIN35IXF0_USTF0(Symbol):
     """
         name: tSPAIN35IXF0:USTF0
         significant_digits: 5
@@ -18187,7 +18291,7 @@ class SPAIN35IXF0_USTF0(NamedTuple):
         return "tSPAIN35IXF0:USTF0"
 
 
-SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0()
+SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0(*SPAIN35IXF0_USTF0._fields)
 """
     name: tSPAIN35IXF0:USTF0
     significant_digits: 5
@@ -18201,7 +18305,7 @@ SPAIN35IXF0_USTF0 = SPAIN35IXF0_USTF0()
 """
 
 
-class SPELL_USD(NamedTuple):
+class SPELL_USD(Symbol):
     """
         name: tSPELL:USD
         significant_digits: 5
@@ -18239,7 +18343,7 @@ class SPELL_USD(NamedTuple):
         return "tSPELL:USD"
 
 
-SPELL_USD = SPELL_USD()
+SPELL_USD = SPELL_USD(*SPELL_USD._fields)
 """
     name: tSPELL:USD
     significant_digits: 5
@@ -18253,7 +18357,7 @@ SPELL_USD = SPELL_USD()
 """
 
 
-class STGF0_USTF0(NamedTuple):
+class STGF0_USTF0(Symbol):
     """
         name: tSTGF0:USTF0
         significant_digits: 5
@@ -18291,7 +18395,7 @@ class STGF0_USTF0(NamedTuple):
         return "tSTGF0:USTF0"
 
 
-STGF0_USTF0 = STGF0_USTF0()
+STGF0_USTF0 = STGF0_USTF0(*STGF0_USTF0._fields)
 """
     name: tSTGF0:USTF0
     significant_digits: 5
@@ -18305,7 +18409,7 @@ STGF0_USTF0 = STGF0_USTF0()
 """
 
 
-class STGUSD(NamedTuple):
+class STGUSD(Symbol):
     """
         name: tSTGUSD
         significant_digits: 5
@@ -18343,7 +18447,7 @@ class STGUSD(NamedTuple):
         return "tSTGUSD"
 
 
-STGUSD = STGUSD()
+STGUSD = STGUSD(*STGUSD._fields)
 """
     name: tSTGUSD
     significant_digits: 5
@@ -18357,7 +18461,7 @@ STGUSD = STGUSD()
 """
 
 
-class STGUST(NamedTuple):
+class STGUST(Symbol):
     """
         name: tSTGUST
         significant_digits: 5
@@ -18395,7 +18499,7 @@ class STGUST(NamedTuple):
         return "tSTGUST"
 
 
-STGUST = STGUST()
+STGUST = STGUST(*STGUST._fields)
 """
     name: tSTGUST
     significant_digits: 5
@@ -18409,7 +18513,7 @@ STGUST = STGUST()
 """
 
 
-class STJUSD(NamedTuple):
+class STJUSD(Symbol):
     """
         name: tSTJUSD
         significant_digits: 5
@@ -18447,7 +18551,7 @@ class STJUSD(NamedTuple):
         return "tSTJUSD"
 
 
-STJUSD = STJUSD()
+STJUSD = STJUSD(*STJUSD._fields)
 """
     name: tSTJUSD
     significant_digits: 5
@@ -18461,7 +18565,111 @@ STJUSD = STJUSD()
 """
 
 
-class SUKU_USD(NamedTuple):
+class SUIUSD(Symbol):
+    """
+        name: tSUIUSD
+        significant_digits: 5
+        tick_size: None
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 50000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tSUIUSD"
+    significant_digits: int = 5
+    tick_size: int = None
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 50000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tSUIUSD"
+
+    def __str__(self):
+        return "tSUIUSD"
+
+    def __call__(self):
+        return "tSUIUSD"
+
+
+SUIUSD = SUIUSD(*SUIUSD._fields)
+"""
+    name: tSUIUSD
+    significant_digits: 5
+    tick_size: None
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 50000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class SUIUST(Symbol):
+    """
+        name: tSUIUST
+        significant_digits: 5
+        tick_size: None
+        min_margin: 15.0
+        initial_margin: 30.0
+        min_order_size: 0.001
+        max_order_size: 50000.0
+        has_margin: False
+        exchange: bitfinex
+    """
+    name: str = "tSUIUST"
+    significant_digits: int = 5
+    tick_size: int = None
+    min_margin: float = 15.0
+    initial_margin: float = 30.0
+    min_order_size: float = 0.001
+    max_order_size: float = 50000.0
+    has_margin: bool = False
+    exchange: str = "bitfinex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "tSUIUST"
+
+    def __str__(self):
+        return "tSUIUST"
+
+    def __call__(self):
+        return "tSUIUST"
+
+
+SUIUST = SUIUST(*SUIUST._fields)
+"""
+    name: tSUIUST
+    significant_digits: 5
+    tick_size: None
+    min_margin: 15.0
+    initial_margin: 30.0
+    min_order_size: 0.001
+    max_order_size: 50000.0
+    has_margin: False
+    exchange: bitfinex
+"""
+
+
+class SUKU_USD(Symbol):
     """
         name: tSUKU:USD
         significant_digits: 5
@@ -18499,7 +18707,7 @@ class SUKU_USD(NamedTuple):
         return "tSUKU:USD"
 
 
-SUKU_USD = SUKU_USD()
+SUKU_USD = SUKU_USD(*SUKU_USD._fields)
 """
     name: tSUKU:USD
     significant_digits: 5
@@ -18513,7 +18721,7 @@ SUKU_USD = SUKU_USD()
 """
 
 
-class SUKU_UST(NamedTuple):
+class SUKU_UST(Symbol):
     """
         name: tSUKU:UST
         significant_digits: 5
@@ -18551,7 +18759,7 @@ class SUKU_UST(NamedTuple):
         return "tSUKU:UST"
 
 
-SUKU_UST = SUKU_UST()
+SUKU_UST = SUKU_UST(*SUKU_UST._fields)
 """
     name: tSUKU:UST
     significant_digits: 5
@@ -18565,7 +18773,7 @@ SUKU_UST = SUKU_UST()
 """
 
 
-class SUNUSD(NamedTuple):
+class SUNUSD(Symbol):
     """
         name: tSUNUSD
         significant_digits: 5
@@ -18603,7 +18811,7 @@ class SUNUSD(NamedTuple):
         return "tSUNUSD"
 
 
-SUNUSD = SUNUSD()
+SUNUSD = SUNUSD(*SUNUSD._fields)
 """
     name: tSUNUSD
     significant_digits: 5
@@ -18617,7 +18825,7 @@ SUNUSD = SUNUSD()
 """
 
 
-class SUNUST(NamedTuple):
+class SUNUST(Symbol):
     """
         name: tSUNUST
         significant_digits: 5
@@ -18655,7 +18863,7 @@ class SUNUST(NamedTuple):
         return "tSUNUST"
 
 
-SUNUST = SUNUST()
+SUNUST = SUNUST(*SUNUST._fields)
 """
     name: tSUNUST
     significant_digits: 5
@@ -18669,7 +18877,7 @@ SUNUST = SUNUST()
 """
 
 
-class SUSHI_USD(NamedTuple):
+class SUSHI_USD(Symbol):
     """
         name: tSUSHI:USD
         significant_digits: 5
@@ -18707,7 +18915,7 @@ class SUSHI_USD(NamedTuple):
         return "tSUSHI:USD"
 
 
-SUSHI_USD = SUSHI_USD()
+SUSHI_USD = SUSHI_USD(*SUSHI_USD._fields)
 """
     name: tSUSHI:USD
     significant_digits: 5
@@ -18721,7 +18929,7 @@ SUSHI_USD = SUSHI_USD()
 """
 
 
-class SUSHI_UST(NamedTuple):
+class SUSHI_UST(Symbol):
     """
         name: tSUSHI:UST
         significant_digits: 5
@@ -18759,7 +18967,7 @@ class SUSHI_UST(NamedTuple):
         return "tSUSHI:UST"
 
 
-SUSHI_UST = SUSHI_UST()
+SUSHI_UST = SUSHI_UST(*SUSHI_UST._fields)
 """
     name: tSUSHI:UST
     significant_digits: 5
@@ -18773,7 +18981,7 @@ SUSHI_UST = SUSHI_UST()
 """
 
 
-class SUSHIF0_USTF0(NamedTuple):
+class SUSHIF0_USTF0(Symbol):
     """
         name: tSUSHIF0:USTF0
         significant_digits: 5
@@ -18811,7 +19019,7 @@ class SUSHIF0_USTF0(NamedTuple):
         return "tSUSHIF0:USTF0"
 
 
-SUSHIF0_USTF0 = SUSHIF0_USTF0()
+SUSHIF0_USTF0 = SUSHIF0_USTF0(*SUSHIF0_USTF0._fields)
 """
     name: tSUSHIF0:USTF0
     significant_digits: 5
@@ -18825,7 +19033,7 @@ SUSHIF0_USTF0 = SUSHIF0_USTF0()
 """
 
 
-class SWEAT_USD(NamedTuple):
+class SWEAT_USD(Symbol):
     """
         name: tSWEAT:USD
         significant_digits: 5
@@ -18863,7 +19071,7 @@ class SWEAT_USD(NamedTuple):
         return "tSWEAT:USD"
 
 
-SWEAT_USD = SWEAT_USD()
+SWEAT_USD = SWEAT_USD(*SWEAT_USD._fields)
 """
     name: tSWEAT:USD
     significant_digits: 5
@@ -18877,7 +19085,7 @@ SWEAT_USD = SWEAT_USD()
 """
 
 
-class SWEAT_UST(NamedTuple):
+class SWEAT_UST(Symbol):
     """
         name: tSWEAT:UST
         significant_digits: 5
@@ -18915,7 +19123,7 @@ class SWEAT_UST(NamedTuple):
         return "tSWEAT:UST"
 
 
-SWEAT_UST = SWEAT_UST()
+SWEAT_UST = SWEAT_UST(*SWEAT_UST._fields)
 """
     name: tSWEAT:UST
     significant_digits: 5
@@ -18929,7 +19137,7 @@ SWEAT_UST = SWEAT_UST()
 """
 
 
-class SXXUSD(NamedTuple):
+class SXXUSD(Symbol):
     """
         name: tSXXUSD
         significant_digits: 5
@@ -18967,7 +19175,7 @@ class SXXUSD(NamedTuple):
         return "tSXXUSD"
 
 
-SXXUSD = SXXUSD()
+SXXUSD = SXXUSD(*SXXUSD._fields)
 """
     name: tSXXUSD
     significant_digits: 5
@@ -18981,7 +19189,7 @@ SXXUSD = SXXUSD()
 """
 
 
-class TERRAUST_USD(NamedTuple):
+class TERRAUST_USD(Symbol):
     """
         name: tTERRAUST:USD
         significant_digits: 5
@@ -19019,7 +19227,7 @@ class TERRAUST_USD(NamedTuple):
         return "tTERRAUST:USD"
 
 
-TERRAUST_USD = TERRAUST_USD()
+TERRAUST_USD = TERRAUST_USD(*TERRAUST_USD._fields)
 """
     name: tTERRAUST:USD
     significant_digits: 5
@@ -19033,7 +19241,7 @@ TERRAUST_USD = TERRAUST_USD()
 """
 
 
-class TESTADA_TESTUSD(NamedTuple):
+class TESTADA_TESTUSD(Symbol):
     """
         name: tTESTADA:TESTUSD
         significant_digits: 5
@@ -19071,7 +19279,7 @@ class TESTADA_TESTUSD(NamedTuple):
         return "tTESTADA:TESTUSD"
 
 
-TESTADA_TESTUSD = TESTADA_TESTUSD()
+TESTADA_TESTUSD = TESTADA_TESTUSD(*TESTADA_TESTUSD._fields)
 """
     name: tTESTADA:TESTUSD
     significant_digits: 5
@@ -19085,7 +19293,7 @@ TESTADA_TESTUSD = TESTADA_TESTUSD()
 """
 
 
-class TESTADAF0_TESTUSDTF0(NamedTuple):
+class TESTADAF0_TESTUSDTF0(Symbol):
     """
         name: tTESTADAF0:TESTUSDTF0
         significant_digits: 5
@@ -19123,7 +19331,7 @@ class TESTADAF0_TESTUSDTF0(NamedTuple):
         return "tTESTADAF0:TESTUSDTF0"
 
 
-TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0()
+TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0(*TESTADAF0_TESTUSDTF0._fields)
 """
     name: tTESTADAF0:TESTUSDTF0
     significant_digits: 5
@@ -19137,7 +19345,7 @@ TESTADAF0_TESTUSDTF0 = TESTADAF0_TESTUSDTF0()
 """
 
 
-class TESTALGO_TESTUSD(NamedTuple):
+class TESTALGO_TESTUSD(Symbol):
     """
         name: tTESTALGO:TESTUSD
         significant_digits: 5
@@ -19175,7 +19383,7 @@ class TESTALGO_TESTUSD(NamedTuple):
         return "tTESTALGO:TESTUSD"
 
 
-TESTALGO_TESTUSD = TESTALGO_TESTUSD()
+TESTALGO_TESTUSD = TESTALGO_TESTUSD(*TESTALGO_TESTUSD._fields)
 """
     name: tTESTALGO:TESTUSD
     significant_digits: 5
@@ -19189,7 +19397,7 @@ TESTALGO_TESTUSD = TESTALGO_TESTUSD()
 """
 
 
-class TESTALGOF0_TESTUSDTF0(NamedTuple):
+class TESTALGOF0_TESTUSDTF0(Symbol):
     """
         name: tTESTALGOF0:TESTUSDTF0
         significant_digits: 5
@@ -19227,7 +19435,7 @@ class TESTALGOF0_TESTUSDTF0(NamedTuple):
         return "tTESTALGOF0:TESTUSDTF0"
 
 
-TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0()
+TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0(*TESTALGOF0_TESTUSDTF0._fields)
 """
     name: tTESTALGOF0:TESTUSDTF0
     significant_digits: 5
@@ -19241,7 +19449,7 @@ TESTALGOF0_TESTUSDTF0 = TESTALGOF0_TESTUSDTF0()
 """
 
 
-class TESTAPT_TESTUSD(NamedTuple):
+class TESTAPT_TESTUSD(Symbol):
     """
         name: tTESTAPT:TESTUSD
         significant_digits: 5
@@ -19279,7 +19487,7 @@ class TESTAPT_TESTUSD(NamedTuple):
         return "tTESTAPT:TESTUSD"
 
 
-TESTAPT_TESTUSD = TESTAPT_TESTUSD()
+TESTAPT_TESTUSD = TESTAPT_TESTUSD(*TESTAPT_TESTUSD._fields)
 """
     name: tTESTAPT:TESTUSD
     significant_digits: 5
@@ -19293,7 +19501,7 @@ TESTAPT_TESTUSD = TESTAPT_TESTUSD()
 """
 
 
-class TESTAPTF0_TESTUSDTF0(NamedTuple):
+class TESTAPTF0_TESTUSDTF0(Symbol):
     """
         name: tTESTAPTF0:TESTUSDTF0
         significant_digits: 5
@@ -19331,7 +19539,7 @@ class TESTAPTF0_TESTUSDTF0(NamedTuple):
         return "tTESTAPTF0:TESTUSDTF0"
 
 
-TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0()
+TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0(*TESTAPTF0_TESTUSDTF0._fields)
 """
     name: tTESTAPTF0:TESTUSDTF0
     significant_digits: 5
@@ -19345,7 +19553,7 @@ TESTAPTF0_TESTUSDTF0 = TESTAPTF0_TESTUSDTF0()
 """
 
 
-class TESTAVAX_TESTUSD(NamedTuple):
+class TESTAVAX_TESTUSD(Symbol):
     """
         name: tTESTAVAX:TESTUSD
         significant_digits: 5
@@ -19383,7 +19591,7 @@ class TESTAVAX_TESTUSD(NamedTuple):
         return "tTESTAVAX:TESTUSD"
 
 
-TESTAVAX_TESTUSD = TESTAVAX_TESTUSD()
+TESTAVAX_TESTUSD = TESTAVAX_TESTUSD(*TESTAVAX_TESTUSD._fields)
 """
     name: tTESTAVAX:TESTUSD
     significant_digits: 5
@@ -19397,7 +19605,7 @@ TESTAVAX_TESTUSD = TESTAVAX_TESTUSD()
 """
 
 
-class TESTAVAXF0_TESTUSDTF0(NamedTuple):
+class TESTAVAXF0_TESTUSDTF0(Symbol):
     """
         name: tTESTAVAXF0:TESTUSDTF0
         significant_digits: 5
@@ -19435,7 +19643,7 @@ class TESTAVAXF0_TESTUSDTF0(NamedTuple):
         return "tTESTAVAXF0:TESTUSDTF0"
 
 
-TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0()
+TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0(*TESTAVAXF0_TESTUSDTF0._fields)
 """
     name: tTESTAVAXF0:TESTUSDTF0
     significant_digits: 5
@@ -19449,7 +19657,7 @@ TESTAVAXF0_TESTUSDTF0 = TESTAVAXF0_TESTUSDTF0()
 """
 
 
-class TESTBTC_TESTUSD(NamedTuple):
+class TESTBTC_TESTUSD(Symbol):
     """
         name: tTESTBTC:TESTUSD
         significant_digits: 5
@@ -19487,7 +19695,7 @@ class TESTBTC_TESTUSD(NamedTuple):
         return "tTESTBTC:TESTUSD"
 
 
-TESTBTC_TESTUSD = TESTBTC_TESTUSD()
+TESTBTC_TESTUSD = TESTBTC_TESTUSD(*TESTBTC_TESTUSD._fields)
 """
     name: tTESTBTC:TESTUSD
     significant_digits: 5
@@ -19501,7 +19709,7 @@ TESTBTC_TESTUSD = TESTBTC_TESTUSD()
 """
 
 
-class TESTBTC_TESTUSDT(NamedTuple):
+class TESTBTC_TESTUSDT(Symbol):
     """
         name: tTESTBTC:TESTUSDT
         significant_digits: 5
@@ -19539,7 +19747,7 @@ class TESTBTC_TESTUSDT(NamedTuple):
         return "tTESTBTC:TESTUSDT"
 
 
-TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
+TESTBTC_TESTUSDT = TESTBTC_TESTUSDT(*TESTBTC_TESTUSDT._fields)
 """
     name: tTESTBTC:TESTUSDT
     significant_digits: 5
@@ -19553,7 +19761,7 @@ TESTBTC_TESTUSDT = TESTBTC_TESTUSDT()
 """
 
 
-class TESTBTCF0_TESTUSDTF0(NamedTuple):
+class TESTBTCF0_TESTUSDTF0(Symbol):
     """
         name: tTESTBTCF0:TESTUSDTF0
         significant_digits: 5
@@ -19591,7 +19799,7 @@ class TESTBTCF0_TESTUSDTF0(NamedTuple):
         return "tTESTBTCF0:TESTUSDTF0"
 
 
-TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
+TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0(*TESTBTCF0_TESTUSDTF0._fields)
 """
     name: tTESTBTCF0:TESTUSDTF0
     significant_digits: 5
@@ -19605,7 +19813,7 @@ TESTBTCF0_TESTUSDTF0 = TESTBTCF0_TESTUSDTF0()
 """
 
 
-class TESTDOGE_TESTUSD(NamedTuple):
+class TESTDOGE_TESTUSD(Symbol):
     """
         name: tTESTDOGE:TESTUSD
         significant_digits: 5
@@ -19643,7 +19851,7 @@ class TESTDOGE_TESTUSD(NamedTuple):
         return "tTESTDOGE:TESTUSD"
 
 
-TESTDOGE_TESTUSD = TESTDOGE_TESTUSD()
+TESTDOGE_TESTUSD = TESTDOGE_TESTUSD(*TESTDOGE_TESTUSD._fields)
 """
     name: tTESTDOGE:TESTUSD
     significant_digits: 5
@@ -19657,7 +19865,7 @@ TESTDOGE_TESTUSD = TESTDOGE_TESTUSD()
 """
 
 
-class TESTDOGEF0_TESTUSDTF0(NamedTuple):
+class TESTDOGEF0_TESTUSDTF0(Symbol):
     """
         name: tTESTDOGEF0:TESTUSDTF0
         significant_digits: 5
@@ -19695,7 +19903,7 @@ class TESTDOGEF0_TESTUSDTF0(NamedTuple):
         return "tTESTDOGEF0:TESTUSDTF0"
 
 
-TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0()
+TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0(*TESTDOGEF0_TESTUSDTF0._fields)
 """
     name: tTESTDOGEF0:TESTUSDTF0
     significant_digits: 5
@@ -19709,7 +19917,7 @@ TESTDOGEF0_TESTUSDTF0 = TESTDOGEF0_TESTUSDTF0()
 """
 
 
-class TESTDOT_TESTUSD(NamedTuple):
+class TESTDOT_TESTUSD(Symbol):
     """
         name: tTESTDOT:TESTUSD
         significant_digits: 5
@@ -19747,7 +19955,7 @@ class TESTDOT_TESTUSD(NamedTuple):
         return "tTESTDOT:TESTUSD"
 
 
-TESTDOT_TESTUSD = TESTDOT_TESTUSD()
+TESTDOT_TESTUSD = TESTDOT_TESTUSD(*TESTDOT_TESTUSD._fields)
 """
     name: tTESTDOT:TESTUSD
     significant_digits: 5
@@ -19761,7 +19969,7 @@ TESTDOT_TESTUSD = TESTDOT_TESTUSD()
 """
 
 
-class TESTDOTF0_TESTUSDTF0(NamedTuple):
+class TESTDOTF0_TESTUSDTF0(Symbol):
     """
         name: tTESTDOTF0:TESTUSDTF0
         significant_digits: 5
@@ -19799,7 +20007,7 @@ class TESTDOTF0_TESTUSDTF0(NamedTuple):
         return "tTESTDOTF0:TESTUSDTF0"
 
 
-TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0()
+TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0(*TESTDOTF0_TESTUSDTF0._fields)
 """
     name: tTESTDOTF0:TESTUSDTF0
     significant_digits: 5
@@ -19813,7 +20021,7 @@ TESTDOTF0_TESTUSDTF0 = TESTDOTF0_TESTUSDTF0()
 """
 
 
-class TESTEOS_TESTUSD(NamedTuple):
+class TESTEOS_TESTUSD(Symbol):
     """
         name: tTESTEOS:TESTUSD
         significant_digits: 5
@@ -19851,7 +20059,7 @@ class TESTEOS_TESTUSD(NamedTuple):
         return "tTESTEOS:TESTUSD"
 
 
-TESTEOS_TESTUSD = TESTEOS_TESTUSD()
+TESTEOS_TESTUSD = TESTEOS_TESTUSD(*TESTEOS_TESTUSD._fields)
 """
     name: tTESTEOS:TESTUSD
     significant_digits: 5
@@ -19865,7 +20073,7 @@ TESTEOS_TESTUSD = TESTEOS_TESTUSD()
 """
 
 
-class TESTEOSF0_TESTUSDTF0(NamedTuple):
+class TESTEOSF0_TESTUSDTF0(Symbol):
     """
         name: tTESTEOSF0:TESTUSDTF0
         significant_digits: 5
@@ -19903,7 +20111,7 @@ class TESTEOSF0_TESTUSDTF0(NamedTuple):
         return "tTESTEOSF0:TESTUSDTF0"
 
 
-TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0()
+TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0(*TESTEOSF0_TESTUSDTF0._fields)
 """
     name: tTESTEOSF0:TESTUSDTF0
     significant_digits: 5
@@ -19917,7 +20125,7 @@ TESTEOSF0_TESTUSDTF0 = TESTEOSF0_TESTUSDTF0()
 """
 
 
-class TESTETH_TESTUSD(NamedTuple):
+class TESTETH_TESTUSD(Symbol):
     """
         name: tTESTETH:TESTUSD
         significant_digits: 5
@@ -19955,7 +20163,7 @@ class TESTETH_TESTUSD(NamedTuple):
         return "tTESTETH:TESTUSD"
 
 
-TESTETH_TESTUSD = TESTETH_TESTUSD()
+TESTETH_TESTUSD = TESTETH_TESTUSD(*TESTETH_TESTUSD._fields)
 """
     name: tTESTETH:TESTUSD
     significant_digits: 5
@@ -19969,7 +20177,7 @@ TESTETH_TESTUSD = TESTETH_TESTUSD()
 """
 
 
-class TESTETHF0_TESTUSDTF0(NamedTuple):
+class TESTETHF0_TESTUSDTF0(Symbol):
     """
         name: tTESTETHF0:TESTUSDTF0
         significant_digits: 5
@@ -20007,7 +20215,7 @@ class TESTETHF0_TESTUSDTF0(NamedTuple):
         return "tTESTETHF0:TESTUSDTF0"
 
 
-TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0()
+TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0(*TESTETHF0_TESTUSDTF0._fields)
 """
     name: tTESTETHF0:TESTUSDTF0
     significant_digits: 5
@@ -20021,7 +20229,7 @@ TESTETHF0_TESTUSDTF0 = TESTETHF0_TESTUSDTF0()
 """
 
 
-class TESTFIL_TESTUSD(NamedTuple):
+class TESTFIL_TESTUSD(Symbol):
     """
         name: tTESTFIL:TESTUSD
         significant_digits: 5
@@ -20059,7 +20267,7 @@ class TESTFIL_TESTUSD(NamedTuple):
         return "tTESTFIL:TESTUSD"
 
 
-TESTFIL_TESTUSD = TESTFIL_TESTUSD()
+TESTFIL_TESTUSD = TESTFIL_TESTUSD(*TESTFIL_TESTUSD._fields)
 """
     name: tTESTFIL:TESTUSD
     significant_digits: 5
@@ -20073,7 +20281,7 @@ TESTFIL_TESTUSD = TESTFIL_TESTUSD()
 """
 
 
-class TESTFILF0_TESTUSDTF0(NamedTuple):
+class TESTFILF0_TESTUSDTF0(Symbol):
     """
         name: tTESTFILF0:TESTUSDTF0
         significant_digits: 5
@@ -20111,7 +20319,7 @@ class TESTFILF0_TESTUSDTF0(NamedTuple):
         return "tTESTFILF0:TESTUSDTF0"
 
 
-TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0()
+TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0(*TESTFILF0_TESTUSDTF0._fields)
 """
     name: tTESTFILF0:TESTUSDTF0
     significant_digits: 5
@@ -20125,7 +20333,7 @@ TESTFILF0_TESTUSDTF0 = TESTFILF0_TESTUSDTF0()
 """
 
 
-class TESTLTC_TESTUSD(NamedTuple):
+class TESTLTC_TESTUSD(Symbol):
     """
         name: tTESTLTC:TESTUSD
         significant_digits: 5
@@ -20163,7 +20371,7 @@ class TESTLTC_TESTUSD(NamedTuple):
         return "tTESTLTC:TESTUSD"
 
 
-TESTLTC_TESTUSD = TESTLTC_TESTUSD()
+TESTLTC_TESTUSD = TESTLTC_TESTUSD(*TESTLTC_TESTUSD._fields)
 """
     name: tTESTLTC:TESTUSD
     significant_digits: 5
@@ -20177,7 +20385,7 @@ TESTLTC_TESTUSD = TESTLTC_TESTUSD()
 """
 
 
-class TESTLTCF0_TESTUSDTF0(NamedTuple):
+class TESTLTCF0_TESTUSDTF0(Symbol):
     """
         name: tTESTLTCF0:TESTUSDTF0
         significant_digits: 5
@@ -20215,7 +20423,7 @@ class TESTLTCF0_TESTUSDTF0(NamedTuple):
         return "tTESTLTCF0:TESTUSDTF0"
 
 
-TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0()
+TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0(*TESTLTCF0_TESTUSDTF0._fields)
 """
     name: tTESTLTCF0:TESTUSDTF0
     significant_digits: 5
@@ -20229,7 +20437,7 @@ TESTLTCF0_TESTUSDTF0 = TESTLTCF0_TESTUSDTF0()
 """
 
 
-class TESTMATIC_TESTUSD(NamedTuple):
+class TESTMATIC_TESTUSD(Symbol):
     """
         name: tTESTMATIC:TESTUSD
         significant_digits: 5
@@ -20267,7 +20475,7 @@ class TESTMATIC_TESTUSD(NamedTuple):
         return "tTESTMATIC:TESTUSD"
 
 
-TESTMATIC_TESTUSD = TESTMATIC_TESTUSD()
+TESTMATIC_TESTUSD = TESTMATIC_TESTUSD(*TESTMATIC_TESTUSD._fields)
 """
     name: tTESTMATIC:TESTUSD
     significant_digits: 5
@@ -20281,7 +20489,7 @@ TESTMATIC_TESTUSD = TESTMATIC_TESTUSD()
 """
 
 
-class TESTMATIC_TESTUSDT(NamedTuple):
+class TESTMATIC_TESTUSDT(Symbol):
     """
         name: tTESTMATIC:TESTUSDT
         significant_digits: 5
@@ -20319,7 +20527,7 @@ class TESTMATIC_TESTUSDT(NamedTuple):
         return "tTESTMATIC:TESTUSDT"
 
 
-TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT()
+TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT(*TESTMATIC_TESTUSDT._fields)
 """
     name: tTESTMATIC:TESTUSDT
     significant_digits: 5
@@ -20333,7 +20541,7 @@ TESTMATIC_TESTUSDT = TESTMATIC_TESTUSDT()
 """
 
 
-class TESTMATICF0_TESTUSDTF0(NamedTuple):
+class TESTMATICF0_TESTUSDTF0(Symbol):
     """
         name: tTESTMATICF0:TESTUSDTF0
         significant_digits: 5
@@ -20371,7 +20579,7 @@ class TESTMATICF0_TESTUSDTF0(NamedTuple):
         return "tTESTMATICF0:TESTUSDTF0"
 
 
-TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0()
+TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0(*TESTMATICF0_TESTUSDTF0._fields)
 """
     name: tTESTMATICF0:TESTUSDTF0
     significant_digits: 5
@@ -20385,7 +20593,7 @@ TESTMATICF0_TESTUSDTF0 = TESTMATICF0_TESTUSDTF0()
 """
 
 
-class TESTNEAR_TESTUSD(NamedTuple):
+class TESTNEAR_TESTUSD(Symbol):
     """
         name: tTESTNEAR:TESTUSD
         significant_digits: 5
@@ -20423,7 +20631,7 @@ class TESTNEAR_TESTUSD(NamedTuple):
         return "tTESTNEAR:TESTUSD"
 
 
-TESTNEAR_TESTUSD = TESTNEAR_TESTUSD()
+TESTNEAR_TESTUSD = TESTNEAR_TESTUSD(*TESTNEAR_TESTUSD._fields)
 """
     name: tTESTNEAR:TESTUSD
     significant_digits: 5
@@ -20437,7 +20645,7 @@ TESTNEAR_TESTUSD = TESTNEAR_TESTUSD()
 """
 
 
-class TESTNEARF0_TESTUSDTF0(NamedTuple):
+class TESTNEARF0_TESTUSDTF0(Symbol):
     """
         name: tTESTNEARF0:TESTUSDTF0
         significant_digits: 5
@@ -20475,7 +20683,7 @@ class TESTNEARF0_TESTUSDTF0(NamedTuple):
         return "tTESTNEARF0:TESTUSDTF0"
 
 
-TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0()
+TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0(*TESTNEARF0_TESTUSDTF0._fields)
 """
     name: tTESTNEARF0:TESTUSDTF0
     significant_digits: 5
@@ -20489,7 +20697,7 @@ TESTNEARF0_TESTUSDTF0 = TESTNEARF0_TESTUSDTF0()
 """
 
 
-class TESTSOL_TESTUSD(NamedTuple):
+class TESTSOL_TESTUSD(Symbol):
     """
         name: tTESTSOL:TESTUSD
         significant_digits: 5
@@ -20527,7 +20735,7 @@ class TESTSOL_TESTUSD(NamedTuple):
         return "tTESTSOL:TESTUSD"
 
 
-TESTSOL_TESTUSD = TESTSOL_TESTUSD()
+TESTSOL_TESTUSD = TESTSOL_TESTUSD(*TESTSOL_TESTUSD._fields)
 """
     name: tTESTSOL:TESTUSD
     significant_digits: 5
@@ -20541,7 +20749,7 @@ TESTSOL_TESTUSD = TESTSOL_TESTUSD()
 """
 
 
-class TESTSOLF0_TESTUSDTF0(NamedTuple):
+class TESTSOLF0_TESTUSDTF0(Symbol):
     """
         name: tTESTSOLF0:TESTUSDTF0
         significant_digits: 5
@@ -20579,7 +20787,7 @@ class TESTSOLF0_TESTUSDTF0(NamedTuple):
         return "tTESTSOLF0:TESTUSDTF0"
 
 
-TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0()
+TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0(*TESTSOLF0_TESTUSDTF0._fields)
 """
     name: tTESTSOLF0:TESTUSDTF0
     significant_digits: 5
@@ -20593,7 +20801,7 @@ TESTSOLF0_TESTUSDTF0 = TESTSOLF0_TESTUSDTF0()
 """
 
 
-class TESTXAUT_TESTUSD(NamedTuple):
+class TESTXAUT_TESTUSD(Symbol):
     """
         name: tTESTXAUT:TESTUSD
         significant_digits: 5
@@ -20631,7 +20839,7 @@ class TESTXAUT_TESTUSD(NamedTuple):
         return "tTESTXAUT:TESTUSD"
 
 
-TESTXAUT_TESTUSD = TESTXAUT_TESTUSD()
+TESTXAUT_TESTUSD = TESTXAUT_TESTUSD(*TESTXAUT_TESTUSD._fields)
 """
     name: tTESTXAUT:TESTUSD
     significant_digits: 5
@@ -20645,7 +20853,7 @@ TESTXAUT_TESTUSD = TESTXAUT_TESTUSD()
 """
 
 
-class TESTXAUTF0_TESTUSDTF0(NamedTuple):
+class TESTXAUTF0_TESTUSDTF0(Symbol):
     """
         name: tTESTXAUTF0:TESTUSDTF0
         significant_digits: 5
@@ -20683,7 +20891,7 @@ class TESTXAUTF0_TESTUSDTF0(NamedTuple):
         return "tTESTXAUTF0:TESTUSDTF0"
 
 
-TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0()
+TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0(*TESTXAUTF0_TESTUSDTF0._fields)
 """
     name: tTESTXAUTF0:TESTUSDTF0
     significant_digits: 5
@@ -20697,7 +20905,7 @@ TESTXAUTF0_TESTUSDTF0 = TESTXAUTF0_TESTUSDTF0()
 """
 
 
-class TESTXTZ_TESTUSD(NamedTuple):
+class TESTXTZ_TESTUSD(Symbol):
     """
         name: tTESTXTZ:TESTUSD
         significant_digits: 5
@@ -20735,7 +20943,7 @@ class TESTXTZ_TESTUSD(NamedTuple):
         return "tTESTXTZ:TESTUSD"
 
 
-TESTXTZ_TESTUSD = TESTXTZ_TESTUSD()
+TESTXTZ_TESTUSD = TESTXTZ_TESTUSD(*TESTXTZ_TESTUSD._fields)
 """
     name: tTESTXTZ:TESTUSD
     significant_digits: 5
@@ -20749,7 +20957,7 @@ TESTXTZ_TESTUSD = TESTXTZ_TESTUSD()
 """
 
 
-class TESTXTZF0_TESTUSDTF0(NamedTuple):
+class TESTXTZF0_TESTUSDTF0(Symbol):
     """
         name: tTESTXTZF0:TESTUSDTF0
         significant_digits: 5
@@ -20787,7 +20995,7 @@ class TESTXTZF0_TESTUSDTF0(NamedTuple):
         return "tTESTXTZF0:TESTUSDTF0"
 
 
-TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0()
+TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0(*TESTXTZF0_TESTUSDTF0._fields)
 """
     name: tTESTXTZF0:TESTUSDTF0
     significant_digits: 5
@@ -20801,7 +21009,7 @@ TESTXTZF0_TESTUSDTF0 = TESTXTZF0_TESTUSDTF0()
 """
 
 
-class THETA_USD(NamedTuple):
+class THETA_USD(Symbol):
     """
         name: tTHETA:USD
         significant_digits: 5
@@ -20839,7 +21047,7 @@ class THETA_USD(NamedTuple):
         return "tTHETA:USD"
 
 
-THETA_USD = THETA_USD()
+THETA_USD = THETA_USD(*THETA_USD._fields)
 """
     name: tTHETA:USD
     significant_digits: 5
@@ -20853,7 +21061,7 @@ THETA_USD = THETA_USD()
 """
 
 
-class THETA_UST(NamedTuple):
+class THETA_UST(Symbol):
     """
         name: tTHETA:UST
         significant_digits: 5
@@ -20891,7 +21099,7 @@ class THETA_UST(NamedTuple):
         return "tTHETA:UST"
 
 
-THETA_UST = THETA_UST()
+THETA_UST = THETA_UST(*THETA_UST._fields)
 """
     name: tTHETA:UST
     significant_digits: 5
@@ -20905,7 +21113,7 @@ THETA_UST = THETA_UST()
 """
 
 
-class TLOS_USD(NamedTuple):
+class TLOS_USD(Symbol):
     """
         name: tTLOS:USD
         significant_digits: 5
@@ -20943,7 +21151,7 @@ class TLOS_USD(NamedTuple):
         return "tTLOS:USD"
 
 
-TLOS_USD = TLOS_USD()
+TLOS_USD = TLOS_USD(*TLOS_USD._fields)
 """
     name: tTLOS:USD
     significant_digits: 5
@@ -20957,7 +21165,7 @@ TLOS_USD = TLOS_USD()
 """
 
 
-class TONUSD(NamedTuple):
+class TONUSD(Symbol):
     """
         name: tTONUSD
         significant_digits: 5
@@ -20995,7 +21203,7 @@ class TONUSD(NamedTuple):
         return "tTONUSD"
 
 
-TONUSD = TONUSD()
+TONUSD = TONUSD(*TONUSD._fields)
 """
     name: tTONUSD
     significant_digits: 5
@@ -21009,7 +21217,7 @@ TONUSD = TONUSD()
 """
 
 
-class TONUST(NamedTuple):
+class TONUST(Symbol):
     """
         name: tTONUST
         significant_digits: 5
@@ -21047,7 +21255,7 @@ class TONUST(NamedTuple):
         return "tTONUST"
 
 
-TONUST = TONUST()
+TONUST = TONUST(*TONUST._fields)
 """
     name: tTONUST
     significant_digits: 5
@@ -21061,7 +21269,7 @@ TONUST = TONUST()
 """
 
 
-class TRADE_USD(NamedTuple):
+class TRADE_USD(Symbol):
     """
         name: tTRADE:USD
         significant_digits: 5
@@ -21099,7 +21307,7 @@ class TRADE_USD(NamedTuple):
         return "tTRADE:USD"
 
 
-TRADE_USD = TRADE_USD()
+TRADE_USD = TRADE_USD(*TRADE_USD._fields)
 """
     name: tTRADE:USD
     significant_digits: 5
@@ -21113,7 +21321,7 @@ TRADE_USD = TRADE_USD()
 """
 
 
-class TRADE_UST(NamedTuple):
+class TRADE_UST(Symbol):
     """
         name: tTRADE:UST
         significant_digits: 5
@@ -21151,7 +21359,7 @@ class TRADE_UST(NamedTuple):
         return "tTRADE:UST"
 
 
-TRADE_UST = TRADE_UST()
+TRADE_UST = TRADE_UST(*TRADE_UST._fields)
 """
     name: tTRADE:UST
     significant_digits: 5
@@ -21165,7 +21373,7 @@ TRADE_UST = TRADE_UST()
 """
 
 
-class TREEB_USD(NamedTuple):
+class TREEB_USD(Symbol):
     """
         name: tTREEB:USD
         significant_digits: 5
@@ -21203,7 +21411,7 @@ class TREEB_USD(NamedTuple):
         return "tTREEB:USD"
 
 
-TREEB_USD = TREEB_USD()
+TREEB_USD = TREEB_USD(*TREEB_USD._fields)
 """
     name: tTREEB:USD
     significant_digits: 5
@@ -21217,7 +21425,7 @@ TREEB_USD = TREEB_USD()
 """
 
 
-class TREEB_UST(NamedTuple):
+class TREEB_UST(Symbol):
     """
         name: tTREEB:UST
         significant_digits: 5
@@ -21255,7 +21463,7 @@ class TREEB_UST(NamedTuple):
         return "tTREEB:UST"
 
 
-TREEB_UST = TREEB_UST()
+TREEB_UST = TREEB_UST(*TREEB_UST._fields)
 """
     name: tTREEB:UST
     significant_digits: 5
@@ -21269,7 +21477,7 @@ TREEB_UST = TREEB_UST()
 """
 
 
-class TRXBTC(NamedTuple):
+class TRXBTC(Symbol):
     """
         name: tTRXBTC
         significant_digits: 5
@@ -21307,7 +21515,7 @@ class TRXBTC(NamedTuple):
         return "tTRXBTC"
 
 
-TRXBTC = TRXBTC()
+TRXBTC = TRXBTC(*TRXBTC._fields)
 """
     name: tTRXBTC
     significant_digits: 5
@@ -21321,7 +21529,7 @@ TRXBTC = TRXBTC()
 """
 
 
-class TRXETH(NamedTuple):
+class TRXETH(Symbol):
     """
         name: tTRXETH
         significant_digits: 5
@@ -21359,7 +21567,7 @@ class TRXETH(NamedTuple):
         return "tTRXETH"
 
 
-TRXETH = TRXETH()
+TRXETH = TRXETH(*TRXETH._fields)
 """
     name: tTRXETH
     significant_digits: 5
@@ -21373,7 +21581,7 @@ TRXETH = TRXETH()
 """
 
 
-class TRXEUR(NamedTuple):
+class TRXEUR(Symbol):
     """
         name: tTRXEUR
         significant_digits: 5
@@ -21411,7 +21619,7 @@ class TRXEUR(NamedTuple):
         return "tTRXEUR"
 
 
-TRXEUR = TRXEUR()
+TRXEUR = TRXEUR(*TRXEUR._fields)
 """
     name: tTRXEUR
     significant_digits: 5
@@ -21425,7 +21633,7 @@ TRXEUR = TRXEUR()
 """
 
 
-class TRXF0_USTF0(NamedTuple):
+class TRXF0_USTF0(Symbol):
     """
         name: tTRXF0:USTF0
         significant_digits: 5
@@ -21463,7 +21671,7 @@ class TRXF0_USTF0(NamedTuple):
         return "tTRXF0:USTF0"
 
 
-TRXF0_USTF0 = TRXF0_USTF0()
+TRXF0_USTF0 = TRXF0_USTF0(*TRXF0_USTF0._fields)
 """
     name: tTRXF0:USTF0
     significant_digits: 5
@@ -21477,7 +21685,7 @@ TRXF0_USTF0 = TRXF0_USTF0()
 """
 
 
-class TRXUSD(NamedTuple):
+class TRXUSD(Symbol):
     """
         name: tTRXUSD
         significant_digits: 5
@@ -21515,7 +21723,7 @@ class TRXUSD(NamedTuple):
         return "tTRXUSD"
 
 
-TRXUSD = TRXUSD()
+TRXUSD = TRXUSD(*TRXUSD._fields)
 """
     name: tTRXUSD
     significant_digits: 5
@@ -21529,7 +21737,7 @@ TRXUSD = TRXUSD()
 """
 
 
-class TRXUST(NamedTuple):
+class TRXUST(Symbol):
     """
         name: tTRXUST
         significant_digits: 5
@@ -21567,7 +21775,7 @@ class TRXUST(NamedTuple):
         return "tTRXUST"
 
 
-TRXUST = TRXUST()
+TRXUST = TRXUST(*TRXUST._fields)
 """
     name: tTRXUST
     significant_digits: 5
@@ -21581,7 +21789,7 @@ TRXUST = TRXUST()
 """
 
 
-class TRYUST(NamedTuple):
+class TRYUST(Symbol):
     """
         name: tTRYUST
         significant_digits: 5
@@ -21619,7 +21827,7 @@ class TRYUST(NamedTuple):
         return "tTRYUST"
 
 
-TRYUST = TRYUST()
+TRYUST = TRYUST(*TRYUST._fields)
 """
     name: tTRYUST
     significant_digits: 5
@@ -21633,7 +21841,7 @@ TRYUST = TRYUST()
 """
 
 
-class TSDUSD(NamedTuple):
+class TSDUSD(Symbol):
     """
         name: tTSDUSD
         significant_digits: 5
@@ -21671,7 +21879,7 @@ class TSDUSD(NamedTuple):
         return "tTSDUSD"
 
 
-TSDUSD = TSDUSD()
+TSDUSD = TSDUSD(*TSDUSD._fields)
 """
     name: tTSDUSD
     significant_digits: 5
@@ -21685,7 +21893,7 @@ TSDUSD = TSDUSD()
 """
 
 
-class TSDUST(NamedTuple):
+class TSDUST(Symbol):
     """
         name: tTSDUST
         significant_digits: 5
@@ -21723,7 +21931,7 @@ class TSDUST(NamedTuple):
         return "tTSDUST"
 
 
-TSDUST = TSDUST()
+TSDUST = TSDUST(*TSDUST._fields)
 """
     name: tTSDUST
     significant_digits: 5
@@ -21737,7 +21945,7 @@ TSDUST = TSDUST()
 """
 
 
-class UDCUSD(NamedTuple):
+class UDCUSD(Symbol):
     """
         name: tUDCUSD
         significant_digits: 5
@@ -21775,7 +21983,7 @@ class UDCUSD(NamedTuple):
         return "tUDCUSD"
 
 
-UDCUSD = UDCUSD()
+UDCUSD = UDCUSD(*UDCUSD._fields)
 """
     name: tUDCUSD
     significant_digits: 5
@@ -21789,7 +21997,7 @@ UDCUSD = UDCUSD()
 """
 
 
-class UDCUST(NamedTuple):
+class UDCUST(Symbol):
     """
         name: tUDCUST
         significant_digits: 5
@@ -21827,7 +22035,7 @@ class UDCUST(NamedTuple):
         return "tUDCUST"
 
 
-UDCUST = UDCUST()
+UDCUST = UDCUST(*UDCUST._fields)
 """
     name: tUDCUST
     significant_digits: 5
@@ -21841,7 +22049,7 @@ UDCUST = UDCUST()
 """
 
 
-class UK100IXF0_USTF0(NamedTuple):
+class UK100IXF0_USTF0(Symbol):
     """
         name: tUK100IXF0:USTF0
         significant_digits: 5
@@ -21879,7 +22087,7 @@ class UK100IXF0_USTF0(NamedTuple):
         return "tUK100IXF0:USTF0"
 
 
-UK100IXF0_USTF0 = UK100IXF0_USTF0()
+UK100IXF0_USTF0 = UK100IXF0_USTF0(*UK100IXF0_USTF0._fields)
 """
     name: tUK100IXF0:USTF0
     significant_digits: 5
@@ -21893,7 +22101,7 @@ UK100IXF0_USTF0 = UK100IXF0_USTF0()
 """
 
 
-class UKOILF0_USTF0(NamedTuple):
+class UKOILF0_USTF0(Symbol):
     """
         name: tUKOILF0:USTF0
         significant_digits: 5
@@ -21931,7 +22139,7 @@ class UKOILF0_USTF0(NamedTuple):
         return "tUKOILF0:USTF0"
 
 
-UKOILF0_USTF0 = UKOILF0_USTF0()
+UKOILF0_USTF0 = UKOILF0_USTF0(*UKOILF0_USTF0._fields)
 """
     name: tUKOILF0:USTF0
     significant_digits: 5
@@ -21945,7 +22153,7 @@ UKOILF0_USTF0 = UKOILF0_USTF0()
 """
 
 
-class UNIF0_USTF0(NamedTuple):
+class UNIF0_USTF0(Symbol):
     """
         name: tUNIF0:USTF0
         significant_digits: 5
@@ -21983,7 +22191,7 @@ class UNIF0_USTF0(NamedTuple):
         return "tUNIF0:USTF0"
 
 
-UNIF0_USTF0 = UNIF0_USTF0()
+UNIF0_USTF0 = UNIF0_USTF0(*UNIF0_USTF0._fields)
 """
     name: tUNIF0:USTF0
     significant_digits: 5
@@ -21997,7 +22205,7 @@ UNIF0_USTF0 = UNIF0_USTF0()
 """
 
 
-class UNIUSD(NamedTuple):
+class UNIUSD(Symbol):
     """
         name: tUNIUSD
         significant_digits: 5
@@ -22035,7 +22243,7 @@ class UNIUSD(NamedTuple):
         return "tUNIUSD"
 
 
-UNIUSD = UNIUSD()
+UNIUSD = UNIUSD(*UNIUSD._fields)
 """
     name: tUNIUSD
     significant_digits: 5
@@ -22049,7 +22257,7 @@ UNIUSD = UNIUSD()
 """
 
 
-class UNIUST(NamedTuple):
+class UNIUST(Symbol):
     """
         name: tUNIUST
         significant_digits: 5
@@ -22087,7 +22295,7 @@ class UNIUST(NamedTuple):
         return "tUNIUST"
 
 
-UNIUST = UNIUST()
+UNIUST = UNIUST(*UNIUST._fields)
 """
     name: tUNIUST
     significant_digits: 5
@@ -22101,7 +22309,7 @@ UNIUST = UNIUST()
 """
 
 
-class UOSBTC(NamedTuple):
+class UOSBTC(Symbol):
     """
         name: tUOSBTC
         significant_digits: 5
@@ -22139,7 +22347,7 @@ class UOSBTC(NamedTuple):
         return "tUOSBTC"
 
 
-UOSBTC = UOSBTC()
+UOSBTC = UOSBTC(*UOSBTC._fields)
 """
     name: tUOSBTC
     significant_digits: 5
@@ -22153,7 +22361,7 @@ UOSBTC = UOSBTC()
 """
 
 
-class UOSUSD(NamedTuple):
+class UOSUSD(Symbol):
     """
         name: tUOSUSD
         significant_digits: 5
@@ -22191,7 +22399,7 @@ class UOSUSD(NamedTuple):
         return "tUOSUSD"
 
 
-UOSUSD = UOSUSD()
+UOSUSD = UOSUSD(*UOSUSD._fields)
 """
     name: tUOSUSD
     significant_digits: 5
@@ -22205,7 +22413,7 @@ UOSUSD = UOSUSD()
 """
 
 
-class UST_CNHT(NamedTuple):
+class UST_CNHT(Symbol):
     """
         name: tUST:CNHT
         significant_digits: 5
@@ -22243,7 +22451,7 @@ class UST_CNHT(NamedTuple):
         return "tUST:CNHT"
 
 
-UST_CNHT = UST_CNHT()
+UST_CNHT = UST_CNHT(*UST_CNHT._fields)
 """
     name: tUST:CNHT
     significant_digits: 5
@@ -22257,7 +22465,7 @@ UST_CNHT = UST_CNHT()
 """
 
 
-class UST_MXNT(NamedTuple):
+class UST_MXNT(Symbol):
     """
         name: tUST:MXNT
         significant_digits: 5
@@ -22295,7 +22503,7 @@ class UST_MXNT(NamedTuple):
         return "tUST:MXNT"
 
 
-UST_MXNT = UST_MXNT()
+UST_MXNT = UST_MXNT(*UST_MXNT._fields)
 """
     name: tUST:MXNT
     significant_digits: 5
@@ -22309,7 +22517,7 @@ UST_MXNT = UST_MXNT()
 """
 
 
-class USTUSD(NamedTuple):
+class USTUSD(Symbol):
     """
         name: tUSTUSD
         significant_digits: 5
@@ -22347,7 +22555,7 @@ class USTUSD(NamedTuple):
         return "tUSTUSD"
 
 
-USTUSD = USTUSD()
+USTUSD = USTUSD(*USTUSD._fields)
 """
     name: tUSTUSD
     significant_digits: 5
@@ -22361,7 +22569,7 @@ USTUSD = USTUSD()
 """
 
 
-class UTKUSD(NamedTuple):
+class UTKUSD(Symbol):
     """
         name: tUTKUSD
         significant_digits: 5
@@ -22399,7 +22607,7 @@ class UTKUSD(NamedTuple):
         return "tUTKUSD"
 
 
-UTKUSD = UTKUSD()
+UTKUSD = UTKUSD(*UTKUSD._fields)
 """
     name: tUTKUSD
     significant_digits: 5
@@ -22413,7 +22621,7 @@ UTKUSD = UTKUSD()
 """
 
 
-class VELO_USD(NamedTuple):
+class VELO_USD(Symbol):
     """
         name: tVELO:USD
         significant_digits: 5
@@ -22451,7 +22659,7 @@ class VELO_USD(NamedTuple):
         return "tVELO:USD"
 
 
-VELO_USD = VELO_USD()
+VELO_USD = VELO_USD(*VELO_USD._fields)
 """
     name: tVELO:USD
     significant_digits: 5
@@ -22465,7 +22673,7 @@ VELO_USD = VELO_USD()
 """
 
 
-class VELO_UST(NamedTuple):
+class VELO_UST(Symbol):
     """
         name: tVELO:UST
         significant_digits: 5
@@ -22503,7 +22711,7 @@ class VELO_UST(NamedTuple):
         return "tVELO:UST"
 
 
-VELO_UST = VELO_UST()
+VELO_UST = VELO_UST(*VELO_UST._fields)
 """
     name: tVELO:UST
     significant_digits: 5
@@ -22517,7 +22725,7 @@ VELO_UST = VELO_UST()
 """
 
 
-class VETBTC(NamedTuple):
+class VETBTC(Symbol):
     """
         name: tVETBTC
         significant_digits: 5
@@ -22555,7 +22763,7 @@ class VETBTC(NamedTuple):
         return "tVETBTC"
 
 
-VETBTC = VETBTC()
+VETBTC = VETBTC(*VETBTC._fields)
 """
     name: tVETBTC
     significant_digits: 5
@@ -22569,7 +22777,7 @@ VETBTC = VETBTC()
 """
 
 
-class VETUSD(NamedTuple):
+class VETUSD(Symbol):
     """
         name: tVETUSD
         significant_digits: 5
@@ -22607,7 +22815,7 @@ class VETUSD(NamedTuple):
         return "tVETUSD"
 
 
-VETUSD = VETUSD()
+VETUSD = VETUSD(*VETUSD._fields)
 """
     name: tVETUSD
     significant_digits: 5
@@ -22621,7 +22829,7 @@ VETUSD = VETUSD()
 """
 
 
-class VETUST(NamedTuple):
+class VETUST(Symbol):
     """
         name: tVETUST
         significant_digits: 5
@@ -22659,7 +22867,7 @@ class VETUST(NamedTuple):
         return "tVETUST"
 
 
-VETUST = VETUST()
+VETUST = VETUST(*VETUST._fields)
 """
     name: tVETUST
     significant_digits: 5
@@ -22673,7 +22881,7 @@ VETUST = VETUST()
 """
 
 
-class VRAUSD(NamedTuple):
+class VRAUSD(Symbol):
     """
         name: tVRAUSD
         significant_digits: 5
@@ -22711,7 +22919,7 @@ class VRAUSD(NamedTuple):
         return "tVRAUSD"
 
 
-VRAUSD = VRAUSD()
+VRAUSD = VRAUSD(*VRAUSD._fields)
 """
     name: tVRAUSD
     significant_digits: 5
@@ -22725,7 +22933,7 @@ VRAUSD = VRAUSD()
 """
 
 
-class VRAUST(NamedTuple):
+class VRAUST(Symbol):
     """
         name: tVRAUST
         significant_digits: 5
@@ -22763,7 +22971,7 @@ class VRAUST(NamedTuple):
         return "tVRAUST"
 
 
-VRAUST = VRAUST()
+VRAUST = VRAUST(*VRAUST._fields)
 """
     name: tVRAUST
     significant_digits: 5
@@ -22777,7 +22985,7 @@ VRAUST = VRAUST()
 """
 
 
-class VSYUSD(NamedTuple):
+class VSYUSD(Symbol):
     """
         name: tVSYUSD
         significant_digits: 5
@@ -22815,7 +23023,7 @@ class VSYUSD(NamedTuple):
         return "tVSYUSD"
 
 
-VSYUSD = VSYUSD()
+VSYUSD = VSYUSD(*VSYUSD._fields)
 """
     name: tVSYUSD
     significant_digits: 5
@@ -22829,7 +23037,7 @@ VSYUSD = VSYUSD()
 """
 
 
-class WAVES_USD(NamedTuple):
+class WAVES_USD(Symbol):
     """
         name: tWAVES:USD
         significant_digits: 5
@@ -22867,7 +23075,7 @@ class WAVES_USD(NamedTuple):
         return "tWAVES:USD"
 
 
-WAVES_USD = WAVES_USD()
+WAVES_USD = WAVES_USD(*WAVES_USD._fields)
 """
     name: tWAVES:USD
     significant_digits: 5
@@ -22881,7 +23089,7 @@ WAVES_USD = WAVES_USD()
 """
 
 
-class WAVES_UST(NamedTuple):
+class WAVES_UST(Symbol):
     """
         name: tWAVES:UST
         significant_digits: 5
@@ -22919,7 +23127,7 @@ class WAVES_UST(NamedTuple):
         return "tWAVES:UST"
 
 
-WAVES_UST = WAVES_UST()
+WAVES_UST = WAVES_UST(*WAVES_UST._fields)
 """
     name: tWAVES:UST
     significant_digits: 5
@@ -22933,7 +23141,7 @@ WAVES_UST = WAVES_UST()
 """
 
 
-class WAVESF0_USTF0(NamedTuple):
+class WAVESF0_USTF0(Symbol):
     """
         name: tWAVESF0:USTF0
         significant_digits: 5
@@ -22971,7 +23179,7 @@ class WAVESF0_USTF0(NamedTuple):
         return "tWAVESF0:USTF0"
 
 
-WAVESF0_USTF0 = WAVESF0_USTF0()
+WAVESF0_USTF0 = WAVESF0_USTF0(*WAVESF0_USTF0._fields)
 """
     name: tWAVESF0:USTF0
     significant_digits: 5
@@ -22985,7 +23193,7 @@ WAVESF0_USTF0 = WAVESF0_USTF0()
 """
 
 
-class WAXUSD(NamedTuple):
+class WAXUSD(Symbol):
     """
         name: tWAXUSD
         significant_digits: 5
@@ -23023,7 +23231,7 @@ class WAXUSD(NamedTuple):
         return "tWAXUSD"
 
 
-WAXUSD = WAXUSD()
+WAXUSD = WAXUSD(*WAXUSD._fields)
 """
     name: tWAXUSD
     significant_digits: 5
@@ -23037,7 +23245,7 @@ WAXUSD = WAXUSD()
 """
 
 
-class WBTBTC(NamedTuple):
+class WBTBTC(Symbol):
     """
         name: tWBTBTC
         significant_digits: 5
@@ -23075,7 +23283,7 @@ class WBTBTC(NamedTuple):
         return "tWBTBTC"
 
 
-WBTBTC = WBTBTC()
+WBTBTC = WBTBTC(*WBTBTC._fields)
 """
     name: tWBTBTC
     significant_digits: 5
@@ -23089,7 +23297,7 @@ WBTBTC = WBTBTC()
 """
 
 
-class WBTUSD(NamedTuple):
+class WBTUSD(Symbol):
     """
         name: tWBTUSD
         significant_digits: 5
@@ -23127,7 +23335,7 @@ class WBTUSD(NamedTuple):
         return "tWBTUSD"
 
 
-WBTUSD = WBTUSD()
+WBTUSD = WBTUSD(*WBTUSD._fields)
 """
     name: tWBTUSD
     significant_digits: 5
@@ -23141,7 +23349,7 @@ WBTUSD = WBTUSD()
 """
 
 
-class WILD_USD(NamedTuple):
+class WILD_USD(Symbol):
     """
         name: tWILD:USD
         significant_digits: 5
@@ -23179,7 +23387,7 @@ class WILD_USD(NamedTuple):
         return "tWILD:USD"
 
 
-WILD_USD = WILD_USD()
+WILD_USD = WILD_USD(*WILD_USD._fields)
 """
     name: tWILD:USD
     significant_digits: 5
@@ -23193,7 +23401,7 @@ WILD_USD = WILD_USD()
 """
 
 
-class WILD_UST(NamedTuple):
+class WILD_UST(Symbol):
     """
         name: tWILD:UST
         significant_digits: 5
@@ -23231,7 +23439,7 @@ class WILD_UST(NamedTuple):
         return "tWILD:UST"
 
 
-WILD_UST = WILD_UST()
+WILD_UST = WILD_UST(*WILD_UST._fields)
 """
     name: tWILD:UST
     significant_digits: 5
@@ -23245,7 +23453,7 @@ WILD_UST = WILD_UST()
 """
 
 
-class WMINIMA_USD(NamedTuple):
+class WMINIMA_USD(Symbol):
     """
         name: tWMINIMA:USD
         significant_digits: 5
@@ -23283,7 +23491,7 @@ class WMINIMA_USD(NamedTuple):
         return "tWMINIMA:USD"
 
 
-WMINIMA_USD = WMINIMA_USD()
+WMINIMA_USD = WMINIMA_USD(*WMINIMA_USD._fields)
 """
     name: tWMINIMA:USD
     significant_digits: 5
@@ -23297,7 +23505,7 @@ WMINIMA_USD = WMINIMA_USD()
 """
 
 
-class WMINIMA_UST(NamedTuple):
+class WMINIMA_UST(Symbol):
     """
         name: tWMINIMA:UST
         significant_digits: 5
@@ -23335,7 +23543,7 @@ class WMINIMA_UST(NamedTuple):
         return "tWMINIMA:UST"
 
 
-WMINIMA_UST = WMINIMA_UST()
+WMINIMA_UST = WMINIMA_UST(*WMINIMA_UST._fields)
 """
     name: tWMINIMA:UST
     significant_digits: 5
@@ -23349,7 +23557,7 @@ WMINIMA_UST = WMINIMA_UST()
 """
 
 
-class WNCG_USD(NamedTuple):
+class WNCG_USD(Symbol):
     """
         name: tWNCG:USD
         significant_digits: 5
@@ -23387,7 +23595,7 @@ class WNCG_USD(NamedTuple):
         return "tWNCG:USD"
 
 
-WNCG_USD = WNCG_USD()
+WNCG_USD = WNCG_USD(*WNCG_USD._fields)
 """
     name: tWNCG:USD
     significant_digits: 5
@@ -23401,7 +23609,7 @@ WNCG_USD = WNCG_USD()
 """
 
 
-class WOOUSD(NamedTuple):
+class WOOUSD(Symbol):
     """
         name: tWOOUSD
         significant_digits: 5
@@ -23439,7 +23647,7 @@ class WOOUSD(NamedTuple):
         return "tWOOUSD"
 
 
-WOOUSD = WOOUSD()
+WOOUSD = WOOUSD(*WOOUSD._fields)
 """
     name: tWOOUSD
     significant_digits: 5
@@ -23453,7 +23661,7 @@ WOOUSD = WOOUSD()
 """
 
 
-class WOOUST(NamedTuple):
+class WOOUST(Symbol):
     """
         name: tWOOUST
         significant_digits: 5
@@ -23491,7 +23699,7 @@ class WOOUST(NamedTuple):
         return "tWOOUST"
 
 
-WOOUST = WOOUST()
+WOOUST = WOOUST(*WOOUST._fields)
 """
     name: tWOOUST
     significant_digits: 5
@@ -23505,7 +23713,7 @@ WOOUST = WOOUST()
 """
 
 
-class XAGF0_USTF0(NamedTuple):
+class XAGF0_USTF0(Symbol):
     """
         name: tXAGF0:USTF0
         significant_digits: 5
@@ -23543,7 +23751,7 @@ class XAGF0_USTF0(NamedTuple):
         return "tXAGF0:USTF0"
 
 
-XAGF0_USTF0 = XAGF0_USTF0()
+XAGF0_USTF0 = XAGF0_USTF0(*XAGF0_USTF0._fields)
 """
     name: tXAGF0:USTF0
     significant_digits: 5
@@ -23557,7 +23765,7 @@ XAGF0_USTF0 = XAGF0_USTF0()
 """
 
 
-class XAUT_BTC(NamedTuple):
+class XAUT_BTC(Symbol):
     """
         name: tXAUT:BTC
         significant_digits: 5
@@ -23595,7 +23803,7 @@ class XAUT_BTC(NamedTuple):
         return "tXAUT:BTC"
 
 
-XAUT_BTC = XAUT_BTC()
+XAUT_BTC = XAUT_BTC(*XAUT_BTC._fields)
 """
     name: tXAUT:BTC
     significant_digits: 5
@@ -23609,7 +23817,7 @@ XAUT_BTC = XAUT_BTC()
 """
 
 
-class XAUT_USD(NamedTuple):
+class XAUT_USD(Symbol):
     """
         name: tXAUT:USD
         significant_digits: 5
@@ -23647,7 +23855,7 @@ class XAUT_USD(NamedTuple):
         return "tXAUT:USD"
 
 
-XAUT_USD = XAUT_USD()
+XAUT_USD = XAUT_USD(*XAUT_USD._fields)
 """
     name: tXAUT:USD
     significant_digits: 5
@@ -23661,7 +23869,7 @@ XAUT_USD = XAUT_USD()
 """
 
 
-class XAUT_UST(NamedTuple):
+class XAUT_UST(Symbol):
     """
         name: tXAUT:UST
         significant_digits: 5
@@ -23699,7 +23907,7 @@ class XAUT_UST(NamedTuple):
         return "tXAUT:UST"
 
 
-XAUT_UST = XAUT_UST()
+XAUT_UST = XAUT_UST(*XAUT_UST._fields)
 """
     name: tXAUT:UST
     significant_digits: 5
@@ -23713,7 +23921,7 @@ XAUT_UST = XAUT_UST()
 """
 
 
-class XAUTF0_BTCF0(NamedTuple):
+class XAUTF0_BTCF0(Symbol):
     """
         name: tXAUTF0:BTCF0
         significant_digits: 5
@@ -23751,7 +23959,7 @@ class XAUTF0_BTCF0(NamedTuple):
         return "tXAUTF0:BTCF0"
 
 
-XAUTF0_BTCF0 = XAUTF0_BTCF0()
+XAUTF0_BTCF0 = XAUTF0_BTCF0(*XAUTF0_BTCF0._fields)
 """
     name: tXAUTF0:BTCF0
     significant_digits: 5
@@ -23765,7 +23973,7 @@ XAUTF0_BTCF0 = XAUTF0_BTCF0()
 """
 
 
-class XAUTF0_USTF0(NamedTuple):
+class XAUTF0_USTF0(Symbol):
     """
         name: tXAUTF0:USTF0
         significant_digits: 5
@@ -23803,7 +24011,7 @@ class XAUTF0_USTF0(NamedTuple):
         return "tXAUTF0:USTF0"
 
 
-XAUTF0_USTF0 = XAUTF0_USTF0()
+XAUTF0_USTF0 = XAUTF0_USTF0(*XAUTF0_USTF0._fields)
 """
     name: tXAUTF0:USTF0
     significant_digits: 5
@@ -23817,7 +24025,7 @@ XAUTF0_USTF0 = XAUTF0_USTF0()
 """
 
 
-class XCAD_USD(NamedTuple):
+class XCAD_USD(Symbol):
     """
         name: tXCAD:USD
         significant_digits: 5
@@ -23855,7 +24063,7 @@ class XCAD_USD(NamedTuple):
         return "tXCAD:USD"
 
 
-XCAD_USD = XCAD_USD()
+XCAD_USD = XCAD_USD(*XCAD_USD._fields)
 """
     name: tXCAD:USD
     significant_digits: 5
@@ -23869,7 +24077,7 @@ XCAD_USD = XCAD_USD()
 """
 
 
-class XCNUSD(NamedTuple):
+class XCNUSD(Symbol):
     """
         name: tXCNUSD
         significant_digits: 5
@@ -23907,7 +24115,7 @@ class XCNUSD(NamedTuple):
         return "tXCNUSD"
 
 
-XCNUSD = XCNUSD()
+XCNUSD = XCNUSD(*XCNUSD._fields)
 """
     name: tXCNUSD
     significant_digits: 5
@@ -23921,7 +24129,7 @@ XCNUSD = XCNUSD()
 """
 
 
-class XCNUST(NamedTuple):
+class XCNUST(Symbol):
     """
         name: tXCNUST
         significant_digits: 5
@@ -23959,7 +24167,7 @@ class XCNUST(NamedTuple):
         return "tXCNUST"
 
 
-XCNUST = XCNUST()
+XCNUST = XCNUST(*XCNUST._fields)
 """
     name: tXCNUST
     significant_digits: 5
@@ -23973,7 +24181,7 @@ XCNUST = XCNUST()
 """
 
 
-class XDCUSD(NamedTuple):
+class XDCUSD(Symbol):
     """
         name: tXDCUSD
         significant_digits: 5
@@ -24011,7 +24219,7 @@ class XDCUSD(NamedTuple):
         return "tXDCUSD"
 
 
-XDCUSD = XDCUSD()
+XDCUSD = XDCUSD(*XDCUSD._fields)
 """
     name: tXDCUSD
     significant_digits: 5
@@ -24025,7 +24233,7 @@ XDCUSD = XDCUSD()
 """
 
 
-class XDCUST(NamedTuple):
+class XDCUST(Symbol):
     """
         name: tXDCUST
         significant_digits: 5
@@ -24063,7 +24271,7 @@ class XDCUST(NamedTuple):
         return "tXDCUST"
 
 
-XDCUST = XDCUST()
+XDCUST = XDCUST(*XDCUST._fields)
 """
     name: tXDCUST
     significant_digits: 5
@@ -24077,7 +24285,7 @@ XDCUST = XDCUST()
 """
 
 
-class XLMBTC(NamedTuple):
+class XLMBTC(Symbol):
     """
         name: tXLMBTC
         significant_digits: 5
@@ -24115,7 +24323,7 @@ class XLMBTC(NamedTuple):
         return "tXLMBTC"
 
 
-XLMBTC = XLMBTC()
+XLMBTC = XLMBTC(*XLMBTC._fields)
 """
     name: tXLMBTC
     significant_digits: 5
@@ -24129,7 +24337,7 @@ XLMBTC = XLMBTC()
 """
 
 
-class XLMF0_USTF0(NamedTuple):
+class XLMF0_USTF0(Symbol):
     """
         name: tXLMF0:USTF0
         significant_digits: 5
@@ -24167,7 +24375,7 @@ class XLMF0_USTF0(NamedTuple):
         return "tXLMF0:USTF0"
 
 
-XLMF0_USTF0 = XLMF0_USTF0()
+XLMF0_USTF0 = XLMF0_USTF0(*XLMF0_USTF0._fields)
 """
     name: tXLMF0:USTF0
     significant_digits: 5
@@ -24181,7 +24389,7 @@ XLMF0_USTF0 = XLMF0_USTF0()
 """
 
 
-class XLMUSD(NamedTuple):
+class XLMUSD(Symbol):
     """
         name: tXLMUSD
         significant_digits: 5
@@ -24219,7 +24427,7 @@ class XLMUSD(NamedTuple):
         return "tXLMUSD"
 
 
-XLMUSD = XLMUSD()
+XLMUSD = XLMUSD(*XLMUSD._fields)
 """
     name: tXLMUSD
     significant_digits: 5
@@ -24233,7 +24441,7 @@ XLMUSD = XLMUSD()
 """
 
 
-class XLMUST(NamedTuple):
+class XLMUST(Symbol):
     """
         name: tXLMUST
         significant_digits: 5
@@ -24271,7 +24479,7 @@ class XLMUST(NamedTuple):
         return "tXLMUST"
 
 
-XLMUST = XLMUST()
+XLMUST = XLMUST(*XLMUST._fields)
 """
     name: tXLMUST
     significant_digits: 5
@@ -24285,7 +24493,7 @@ XLMUST = XLMUST()
 """
 
 
-class XMRBTC(NamedTuple):
+class XMRBTC(Symbol):
     """
         name: tXMRBTC
         significant_digits: 5
@@ -24323,7 +24531,7 @@ class XMRBTC(NamedTuple):
         return "tXMRBTC"
 
 
-XMRBTC = XMRBTC()
+XMRBTC = XMRBTC(*XMRBTC._fields)
 """
     name: tXMRBTC
     significant_digits: 5
@@ -24337,7 +24545,7 @@ XMRBTC = XMRBTC()
 """
 
 
-class XMRF0_USTF0(NamedTuple):
+class XMRF0_USTF0(Symbol):
     """
         name: tXMRF0:USTF0
         significant_digits: 5
@@ -24375,7 +24583,7 @@ class XMRF0_USTF0(NamedTuple):
         return "tXMRF0:USTF0"
 
 
-XMRF0_USTF0 = XMRF0_USTF0()
+XMRF0_USTF0 = XMRF0_USTF0(*XMRF0_USTF0._fields)
 """
     name: tXMRF0:USTF0
     significant_digits: 5
@@ -24389,7 +24597,7 @@ XMRF0_USTF0 = XMRF0_USTF0()
 """
 
 
-class XMRUSD(NamedTuple):
+class XMRUSD(Symbol):
     """
         name: tXMRUSD
         significant_digits: 5
@@ -24427,7 +24635,7 @@ class XMRUSD(NamedTuple):
         return "tXMRUSD"
 
 
-XMRUSD = XMRUSD()
+XMRUSD = XMRUSD(*XMRUSD._fields)
 """
     name: tXMRUSD
     significant_digits: 5
@@ -24441,7 +24649,7 @@ XMRUSD = XMRUSD()
 """
 
 
-class XMRUST(NamedTuple):
+class XMRUST(Symbol):
     """
         name: tXMRUST
         significant_digits: 5
@@ -24479,7 +24687,7 @@ class XMRUST(NamedTuple):
         return "tXMRUST"
 
 
-XMRUST = XMRUST()
+XMRUST = XMRUST(*XMRUST._fields)
 """
     name: tXMRUST
     significant_digits: 5
@@ -24493,7 +24701,7 @@ XMRUST = XMRUST()
 """
 
 
-class XPDF0_USTF0(NamedTuple):
+class XPDF0_USTF0(Symbol):
     """
         name: tXPDF0:USTF0
         significant_digits: 5
@@ -24531,7 +24739,7 @@ class XPDF0_USTF0(NamedTuple):
         return "tXPDF0:USTF0"
 
 
-XPDF0_USTF0 = XPDF0_USTF0()
+XPDF0_USTF0 = XPDF0_USTF0(*XPDF0_USTF0._fields)
 """
     name: tXPDF0:USTF0
     significant_digits: 5
@@ -24545,7 +24753,7 @@ XPDF0_USTF0 = XPDF0_USTF0()
 """
 
 
-class XPTF0_USTF0(NamedTuple):
+class XPTF0_USTF0(Symbol):
     """
         name: tXPTF0:USTF0
         significant_digits: 5
@@ -24583,7 +24791,7 @@ class XPTF0_USTF0(NamedTuple):
         return "tXPTF0:USTF0"
 
 
-XPTF0_USTF0 = XPTF0_USTF0()
+XPTF0_USTF0 = XPTF0_USTF0(*XPTF0_USTF0._fields)
 """
     name: tXPTF0:USTF0
     significant_digits: 5
@@ -24597,7 +24805,7 @@ XPTF0_USTF0 = XPTF0_USTF0()
 """
 
 
-class XRDBTC(NamedTuple):
+class XRDBTC(Symbol):
     """
         name: tXRDBTC
         significant_digits: 5
@@ -24635,7 +24843,7 @@ class XRDBTC(NamedTuple):
         return "tXRDBTC"
 
 
-XRDBTC = XRDBTC()
+XRDBTC = XRDBTC(*XRDBTC._fields)
 """
     name: tXRDBTC
     significant_digits: 5
@@ -24649,7 +24857,7 @@ XRDBTC = XRDBTC()
 """
 
 
-class XRDUSD(NamedTuple):
+class XRDUSD(Symbol):
     """
         name: tXRDUSD
         significant_digits: 5
@@ -24687,7 +24895,7 @@ class XRDUSD(NamedTuple):
         return "tXRDUSD"
 
 
-XRDUSD = XRDUSD()
+XRDUSD = XRDUSD(*XRDUSD._fields)
 """
     name: tXRDUSD
     significant_digits: 5
@@ -24701,7 +24909,7 @@ XRDUSD = XRDUSD()
 """
 
 
-class XRPBTC(NamedTuple):
+class XRPBTC(Symbol):
     """
         name: tXRPBTC
         significant_digits: 5
@@ -24739,7 +24947,7 @@ class XRPBTC(NamedTuple):
         return "tXRPBTC"
 
 
-XRPBTC = XRPBTC()
+XRPBTC = XRPBTC(*XRPBTC._fields)
 """
     name: tXRPBTC
     significant_digits: 5
@@ -24753,7 +24961,7 @@ XRPBTC = XRPBTC()
 """
 
 
-class XRPF0_BTCF0(NamedTuple):
+class XRPF0_BTCF0(Symbol):
     """
         name: tXRPF0:BTCF0
         significant_digits: 5
@@ -24791,7 +24999,7 @@ class XRPF0_BTCF0(NamedTuple):
         return "tXRPF0:BTCF0"
 
 
-XRPF0_BTCF0 = XRPF0_BTCF0()
+XRPF0_BTCF0 = XRPF0_BTCF0(*XRPF0_BTCF0._fields)
 """
     name: tXRPF0:BTCF0
     significant_digits: 5
@@ -24805,7 +25013,7 @@ XRPF0_BTCF0 = XRPF0_BTCF0()
 """
 
 
-class XRPF0_USTF0(NamedTuple):
+class XRPF0_USTF0(Symbol):
     """
         name: tXRPF0:USTF0
         significant_digits: 5
@@ -24843,7 +25051,7 @@ class XRPF0_USTF0(NamedTuple):
         return "tXRPF0:USTF0"
 
 
-XRPF0_USTF0 = XRPF0_USTF0()
+XRPF0_USTF0 = XRPF0_USTF0(*XRPF0_USTF0._fields)
 """
     name: tXRPF0:USTF0
     significant_digits: 5
@@ -24857,7 +25065,7 @@ XRPF0_USTF0 = XRPF0_USTF0()
 """
 
 
-class XRPUSD(NamedTuple):
+class XRPUSD(Symbol):
     """
         name: tXRPUSD
         significant_digits: 5
@@ -24895,7 +25103,7 @@ class XRPUSD(NamedTuple):
         return "tXRPUSD"
 
 
-XRPUSD = XRPUSD()
+XRPUSD = XRPUSD(*XRPUSD._fields)
 """
     name: tXRPUSD
     significant_digits: 5
@@ -24909,7 +25117,7 @@ XRPUSD = XRPUSD()
 """
 
 
-class XRPUST(NamedTuple):
+class XRPUST(Symbol):
     """
         name: tXRPUST
         significant_digits: 5
@@ -24947,7 +25155,7 @@ class XRPUST(NamedTuple):
         return "tXRPUST"
 
 
-XRPUST = XRPUST()
+XRPUST = XRPUST(*XRPUST._fields)
 """
     name: tXRPUST
     significant_digits: 5
@@ -24961,7 +25169,7 @@ XRPUST = XRPUST()
 """
 
 
-class XTZBTC(NamedTuple):
+class XTZBTC(Symbol):
     """
         name: tXTZBTC
         significant_digits: 5
@@ -24999,7 +25207,7 @@ class XTZBTC(NamedTuple):
         return "tXTZBTC"
 
 
-XTZBTC = XTZBTC()
+XTZBTC = XTZBTC(*XTZBTC._fields)
 """
     name: tXTZBTC
     significant_digits: 5
@@ -25013,7 +25221,7 @@ XTZBTC = XTZBTC()
 """
 
 
-class XTZF0_USTF0(NamedTuple):
+class XTZF0_USTF0(Symbol):
     """
         name: tXTZF0:USTF0
         significant_digits: 5
@@ -25051,7 +25259,7 @@ class XTZF0_USTF0(NamedTuple):
         return "tXTZF0:USTF0"
 
 
-XTZF0_USTF0 = XTZF0_USTF0()
+XTZF0_USTF0 = XTZF0_USTF0(*XTZF0_USTF0._fields)
 """
     name: tXTZF0:USTF0
     significant_digits: 5
@@ -25065,7 +25273,7 @@ XTZF0_USTF0 = XTZF0_USTF0()
 """
 
 
-class XTZUSD(NamedTuple):
+class XTZUSD(Symbol):
     """
         name: tXTZUSD
         significant_digits: 5
@@ -25103,7 +25311,7 @@ class XTZUSD(NamedTuple):
         return "tXTZUSD"
 
 
-XTZUSD = XTZUSD()
+XTZUSD = XTZUSD(*XTZUSD._fields)
 """
     name: tXTZUSD
     significant_digits: 5
@@ -25117,7 +25325,7 @@ XTZUSD = XTZUSD()
 """
 
 
-class XTZUST(NamedTuple):
+class XTZUST(Symbol):
     """
         name: tXTZUST
         significant_digits: 5
@@ -25155,7 +25363,7 @@ class XTZUST(NamedTuple):
         return "tXTZUST"
 
 
-XTZUST = XTZUST()
+XTZUST = XTZUST(*XTZUST._fields)
 """
     name: tXTZUST
     significant_digits: 5
@@ -25169,7 +25377,7 @@ XTZUST = XTZUST()
 """
 
 
-class XVGUSD(NamedTuple):
+class XVGUSD(Symbol):
     """
         name: tXVGUSD
         significant_digits: 5
@@ -25207,7 +25415,7 @@ class XVGUSD(NamedTuple):
         return "tXVGUSD"
 
 
-XVGUSD = XVGUSD()
+XVGUSD = XVGUSD(*XVGUSD._fields)
 """
     name: tXVGUSD
     significant_digits: 5
@@ -25221,7 +25429,7 @@ XVGUSD = XVGUSD()
 """
 
 
-class YFIUSD(NamedTuple):
+class YFIUSD(Symbol):
     """
         name: tYFIUSD
         significant_digits: 5
@@ -25259,7 +25467,7 @@ class YFIUSD(NamedTuple):
         return "tYFIUSD"
 
 
-YFIUSD = YFIUSD()
+YFIUSD = YFIUSD(*YFIUSD._fields)
 """
     name: tYFIUSD
     significant_digits: 5
@@ -25273,7 +25481,7 @@ YFIUSD = YFIUSD()
 """
 
 
-class YFIUST(NamedTuple):
+class YFIUST(Symbol):
     """
         name: tYFIUST
         significant_digits: 5
@@ -25311,7 +25519,7 @@ class YFIUST(NamedTuple):
         return "tYFIUST"
 
 
-YFIUST = YFIUST()
+YFIUST = YFIUST(*YFIUST._fields)
 """
     name: tYFIUST
     significant_digits: 5
@@ -25325,7 +25533,7 @@ YFIUST = YFIUST()
 """
 
 
-class ZECBTC(NamedTuple):
+class ZECBTC(Symbol):
     """
         name: tZECBTC
         significant_digits: 5
@@ -25363,7 +25571,7 @@ class ZECBTC(NamedTuple):
         return "tZECBTC"
 
 
-ZECBTC = ZECBTC()
+ZECBTC = ZECBTC(*ZECBTC._fields)
 """
     name: tZECBTC
     significant_digits: 5
@@ -25377,7 +25585,7 @@ ZECBTC = ZECBTC()
 """
 
 
-class ZECF0_USTF0(NamedTuple):
+class ZECF0_USTF0(Symbol):
     """
         name: tZECF0:USTF0
         significant_digits: 5
@@ -25415,7 +25623,7 @@ class ZECF0_USTF0(NamedTuple):
         return "tZECF0:USTF0"
 
 
-ZECF0_USTF0 = ZECF0_USTF0()
+ZECF0_USTF0 = ZECF0_USTF0(*ZECF0_USTF0._fields)
 """
     name: tZECF0:USTF0
     significant_digits: 5
@@ -25429,7 +25637,7 @@ ZECF0_USTF0 = ZECF0_USTF0()
 """
 
 
-class ZECUSD(NamedTuple):
+class ZECUSD(Symbol):
     """
         name: tZECUSD
         significant_digits: 5
@@ -25467,7 +25675,7 @@ class ZECUSD(NamedTuple):
         return "tZECUSD"
 
 
-ZECUSD = ZECUSD()
+ZECUSD = ZECUSD(*ZECUSD._fields)
 """
     name: tZECUSD
     significant_digits: 5
@@ -25481,7 +25689,7 @@ ZECUSD = ZECUSD()
 """
 
 
-class ZILBTC(NamedTuple):
+class ZILBTC(Symbol):
     """
         name: tZILBTC
         significant_digits: 5
@@ -25519,7 +25727,7 @@ class ZILBTC(NamedTuple):
         return "tZILBTC"
 
 
-ZILBTC = ZILBTC()
+ZILBTC = ZILBTC(*ZILBTC._fields)
 """
     name: tZILBTC
     significant_digits: 5
@@ -25533,7 +25741,7 @@ ZILBTC = ZILBTC()
 """
 
 
-class ZILUSD(NamedTuple):
+class ZILUSD(Symbol):
     """
         name: tZILUSD
         significant_digits: 5
@@ -25571,7 +25779,7 @@ class ZILUSD(NamedTuple):
         return "tZILUSD"
 
 
-ZILUSD = ZILUSD()
+ZILUSD = ZILUSD(*ZILUSD._fields)
 """
     name: tZILUSD
     significant_digits: 5
@@ -25585,7 +25793,7 @@ ZILUSD = ZILUSD()
 """
 
 
-class ZMTUSD(NamedTuple):
+class ZMTUSD(Symbol):
     """
         name: tZMTUSD
         significant_digits: 5
@@ -25623,7 +25831,7 @@ class ZMTUSD(NamedTuple):
         return "tZMTUSD"
 
 
-ZMTUSD = ZMTUSD()
+ZMTUSD = ZMTUSD(*ZMTUSD._fields)
 """
     name: tZMTUSD
     significant_digits: 5
@@ -25637,7 +25845,7 @@ ZMTUSD = ZMTUSD()
 """
 
 
-class ZMTUST(NamedTuple):
+class ZMTUST(Symbol):
     """
         name: tZMTUST
         significant_digits: 5
@@ -25675,7 +25883,7 @@ class ZMTUST(NamedTuple):
         return "tZMTUST"
 
 
-ZMTUST = ZMTUST()
+ZMTUST = ZMTUST(*ZMTUST._fields)
 """
     name: tZMTUST
     significant_digits: 5
@@ -25689,7 +25897,7 @@ ZMTUST = ZMTUST()
 """
 
 
-class ZRXUSD(NamedTuple):
+class ZRXUSD(Symbol):
     """
         name: tZRXUSD
         significant_digits: 5
@@ -25727,7 +25935,7 @@ class ZRXUSD(NamedTuple):
         return "tZRXUSD"
 
 
-ZRXUSD = ZRXUSD()
+ZRXUSD = ZRXUSD(*ZRXUSD._fields)
 """
     name: tZRXUSD
     significant_digits: 5

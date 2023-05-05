@@ -1,7 +1,7 @@
-from typing import NamedTuple
+from ._model import Symbol
 
 
-class ZERO0_USD(NamedTuple):
+class ZERO0_USD(Symbol):
     """
         name: 00-USD
         significant_digits: None
@@ -39,7 +39,7 @@ class ZERO0_USD(NamedTuple):
         return "00-USD"
 
 
-ZERO0_USD = ZERO0_USD()
+ZERO0_USD = ZERO0_USD(*ZERO0_USD._fields)
 """
     name: 00-USD
     significant_digits: None
@@ -53,7 +53,7 @@ ZERO0_USD = ZERO0_USD()
 """
 
 
-class ONEINCH_BTC(NamedTuple):
+class ONEINCH_BTC(Symbol):
     """
         name: 1INCH-BTC
         significant_digits: None
@@ -91,7 +91,7 @@ class ONEINCH_BTC(NamedTuple):
         return "1INCH-BTC"
 
 
-ONEINCH_BTC = ONEINCH_BTC()
+ONEINCH_BTC = ONEINCH_BTC(*ONEINCH_BTC._fields)
 """
     name: 1INCH-BTC
     significant_digits: None
@@ -105,7 +105,7 @@ ONEINCH_BTC = ONEINCH_BTC()
 """
 
 
-class ONEINCH_EUR(NamedTuple):
+class ONEINCH_EUR(Symbol):
     """
         name: 1INCH-EUR
         significant_digits: None
@@ -143,7 +143,7 @@ class ONEINCH_EUR(NamedTuple):
         return "1INCH-EUR"
 
 
-ONEINCH_EUR = ONEINCH_EUR()
+ONEINCH_EUR = ONEINCH_EUR(*ONEINCH_EUR._fields)
 """
     name: 1INCH-EUR
     significant_digits: None
@@ -157,7 +157,7 @@ ONEINCH_EUR = ONEINCH_EUR()
 """
 
 
-class ONEINCH_GBP(NamedTuple):
+class ONEINCH_GBP(Symbol):
     """
         name: 1INCH-GBP
         significant_digits: None
@@ -195,7 +195,7 @@ class ONEINCH_GBP(NamedTuple):
         return "1INCH-GBP"
 
 
-ONEINCH_GBP = ONEINCH_GBP()
+ONEINCH_GBP = ONEINCH_GBP(*ONEINCH_GBP._fields)
 """
     name: 1INCH-GBP
     significant_digits: None
@@ -209,7 +209,7 @@ ONEINCH_GBP = ONEINCH_GBP()
 """
 
 
-class ONEINCH_USD(NamedTuple):
+class ONEINCH_USD(Symbol):
     """
         name: 1INCH-USD
         significant_digits: None
@@ -247,7 +247,7 @@ class ONEINCH_USD(NamedTuple):
         return "1INCH-USD"
 
 
-ONEINCH_USD = ONEINCH_USD()
+ONEINCH_USD = ONEINCH_USD(*ONEINCH_USD._fields)
 """
     name: 1INCH-USD
     significant_digits: None
@@ -261,7 +261,7 @@ ONEINCH_USD = ONEINCH_USD()
 """
 
 
-class AAVE_BTC(NamedTuple):
+class AAVE_BTC(Symbol):
     """
         name: AAVE-BTC
         significant_digits: None
@@ -299,7 +299,7 @@ class AAVE_BTC(NamedTuple):
         return "AAVE-BTC"
 
 
-AAVE_BTC = AAVE_BTC()
+AAVE_BTC = AAVE_BTC(*AAVE_BTC._fields)
 """
     name: AAVE-BTC
     significant_digits: None
@@ -313,7 +313,7 @@ AAVE_BTC = AAVE_BTC()
 """
 
 
-class AAVE_EUR(NamedTuple):
+class AAVE_EUR(Symbol):
     """
         name: AAVE-EUR
         significant_digits: None
@@ -351,7 +351,7 @@ class AAVE_EUR(NamedTuple):
         return "AAVE-EUR"
 
 
-AAVE_EUR = AAVE_EUR()
+AAVE_EUR = AAVE_EUR(*AAVE_EUR._fields)
 """
     name: AAVE-EUR
     significant_digits: None
@@ -365,7 +365,7 @@ AAVE_EUR = AAVE_EUR()
 """
 
 
-class AAVE_GBP(NamedTuple):
+class AAVE_GBP(Symbol):
     """
         name: AAVE-GBP
         significant_digits: None
@@ -403,7 +403,7 @@ class AAVE_GBP(NamedTuple):
         return "AAVE-GBP"
 
 
-AAVE_GBP = AAVE_GBP()
+AAVE_GBP = AAVE_GBP(*AAVE_GBP._fields)
 """
     name: AAVE-GBP
     significant_digits: None
@@ -417,7 +417,7 @@ AAVE_GBP = AAVE_GBP()
 """
 
 
-class AAVE_USD(NamedTuple):
+class AAVE_USD(Symbol):
     """
         name: AAVE-USD
         significant_digits: None
@@ -455,7 +455,7 @@ class AAVE_USD(NamedTuple):
         return "AAVE-USD"
 
 
-AAVE_USD = AAVE_USD()
+AAVE_USD = AAVE_USD(*AAVE_USD._fields)
 """
     name: AAVE-USD
     significant_digits: None
@@ -469,7 +469,7 @@ AAVE_USD = AAVE_USD()
 """
 
 
-class ABT_USD(NamedTuple):
+class ABT_USD(Symbol):
     """
         name: ABT-USD
         significant_digits: None
@@ -507,7 +507,7 @@ class ABT_USD(NamedTuple):
         return "ABT-USD"
 
 
-ABT_USD = ABT_USD()
+ABT_USD = ABT_USD(*ABT_USD._fields)
 """
     name: ABT-USD
     significant_digits: None
@@ -521,7 +521,7 @@ ABT_USD = ABT_USD()
 """
 
 
-class ACH_USD(NamedTuple):
+class ACH_USD(Symbol):
     """
         name: ACH-USD
         significant_digits: None
@@ -559,7 +559,7 @@ class ACH_USD(NamedTuple):
         return "ACH-USD"
 
 
-ACH_USD = ACH_USD()
+ACH_USD = ACH_USD(*ACH_USD._fields)
 """
     name: ACH-USD
     significant_digits: None
@@ -573,7 +573,7 @@ ACH_USD = ACH_USD()
 """
 
 
-class ACH_USDT(NamedTuple):
+class ACH_USDT(Symbol):
     """
         name: ACH-USDT
         significant_digits: None
@@ -611,7 +611,7 @@ class ACH_USDT(NamedTuple):
         return "ACH-USDT"
 
 
-ACH_USDT = ACH_USDT()
+ACH_USDT = ACH_USDT(*ACH_USDT._fields)
 """
     name: ACH-USDT
     significant_digits: None
@@ -625,7 +625,7 @@ ACH_USDT = ACH_USDT()
 """
 
 
-class ACS_USD(NamedTuple):
+class ACS_USD(Symbol):
     """
         name: ACS-USD
         significant_digits: None
@@ -663,7 +663,7 @@ class ACS_USD(NamedTuple):
         return "ACS-USD"
 
 
-ACS_USD = ACS_USD()
+ACS_USD = ACS_USD(*ACS_USD._fields)
 """
     name: ACS-USD
     significant_digits: None
@@ -677,7 +677,7 @@ ACS_USD = ACS_USD()
 """
 
 
-class ADA_BTC(NamedTuple):
+class ADA_BTC(Symbol):
     """
         name: ADA-BTC
         significant_digits: None
@@ -715,7 +715,7 @@ class ADA_BTC(NamedTuple):
         return "ADA-BTC"
 
 
-ADA_BTC = ADA_BTC()
+ADA_BTC = ADA_BTC(*ADA_BTC._fields)
 """
     name: ADA-BTC
     significant_digits: None
@@ -729,7 +729,7 @@ ADA_BTC = ADA_BTC()
 """
 
 
-class ADA_ETH(NamedTuple):
+class ADA_ETH(Symbol):
     """
         name: ADA-ETH
         significant_digits: None
@@ -767,7 +767,7 @@ class ADA_ETH(NamedTuple):
         return "ADA-ETH"
 
 
-ADA_ETH = ADA_ETH()
+ADA_ETH = ADA_ETH(*ADA_ETH._fields)
 """
     name: ADA-ETH
     significant_digits: None
@@ -781,7 +781,7 @@ ADA_ETH = ADA_ETH()
 """
 
 
-class ADA_EUR(NamedTuple):
+class ADA_EUR(Symbol):
     """
         name: ADA-EUR
         significant_digits: None
@@ -819,7 +819,7 @@ class ADA_EUR(NamedTuple):
         return "ADA-EUR"
 
 
-ADA_EUR = ADA_EUR()
+ADA_EUR = ADA_EUR(*ADA_EUR._fields)
 """
     name: ADA-EUR
     significant_digits: None
@@ -833,7 +833,7 @@ ADA_EUR = ADA_EUR()
 """
 
 
-class ADA_GBP(NamedTuple):
+class ADA_GBP(Symbol):
     """
         name: ADA-GBP
         significant_digits: None
@@ -871,7 +871,7 @@ class ADA_GBP(NamedTuple):
         return "ADA-GBP"
 
 
-ADA_GBP = ADA_GBP()
+ADA_GBP = ADA_GBP(*ADA_GBP._fields)
 """
     name: ADA-GBP
     significant_digits: None
@@ -885,7 +885,7 @@ ADA_GBP = ADA_GBP()
 """
 
 
-class ADA_USD(NamedTuple):
+class ADA_USD(Symbol):
     """
         name: ADA-USD
         significant_digits: None
@@ -923,7 +923,7 @@ class ADA_USD(NamedTuple):
         return "ADA-USD"
 
 
-ADA_USD = ADA_USD()
+ADA_USD = ADA_USD(*ADA_USD._fields)
 """
     name: ADA-USD
     significant_digits: None
@@ -937,7 +937,7 @@ ADA_USD = ADA_USD()
 """
 
 
-class ADA_USDC(NamedTuple):
+class ADA_USDC(Symbol):
     """
         name: ADA-USDC
         significant_digits: None
@@ -975,7 +975,7 @@ class ADA_USDC(NamedTuple):
         return "ADA-USDC"
 
 
-ADA_USDC = ADA_USDC()
+ADA_USDC = ADA_USDC(*ADA_USDC._fields)
 """
     name: ADA-USDC
     significant_digits: None
@@ -989,7 +989,7 @@ ADA_USDC = ADA_USDC()
 """
 
 
-class ADA_USDT(NamedTuple):
+class ADA_USDT(Symbol):
     """
         name: ADA-USDT
         significant_digits: None
@@ -1027,7 +1027,7 @@ class ADA_USDT(NamedTuple):
         return "ADA-USDT"
 
 
-ADA_USDT = ADA_USDT()
+ADA_USDT = ADA_USDT(*ADA_USDT._fields)
 """
     name: ADA-USDT
     significant_digits: None
@@ -1041,7 +1041,7 @@ ADA_USDT = ADA_USDT()
 """
 
 
-class AERGO_USD(NamedTuple):
+class AERGO_USD(Symbol):
     """
         name: AERGO-USD
         significant_digits: None
@@ -1079,7 +1079,7 @@ class AERGO_USD(NamedTuple):
         return "AERGO-USD"
 
 
-AERGO_USD = AERGO_USD()
+AERGO_USD = AERGO_USD(*AERGO_USD._fields)
 """
     name: AERGO-USD
     significant_digits: None
@@ -1093,7 +1093,7 @@ AERGO_USD = AERGO_USD()
 """
 
 
-class AGLD_USD(NamedTuple):
+class AGLD_USD(Symbol):
     """
         name: AGLD-USD
         significant_digits: None
@@ -1131,7 +1131,7 @@ class AGLD_USD(NamedTuple):
         return "AGLD-USD"
 
 
-AGLD_USD = AGLD_USD()
+AGLD_USD = AGLD_USD(*AGLD_USD._fields)
 """
     name: AGLD-USD
     significant_digits: None
@@ -1145,7 +1145,7 @@ AGLD_USD = AGLD_USD()
 """
 
 
-class AGLD_USDT(NamedTuple):
+class AGLD_USDT(Symbol):
     """
         name: AGLD-USDT
         significant_digits: None
@@ -1183,7 +1183,7 @@ class AGLD_USDT(NamedTuple):
         return "AGLD-USDT"
 
 
-AGLD_USDT = AGLD_USDT()
+AGLD_USDT = AGLD_USDT(*AGLD_USDT._fields)
 """
     name: AGLD-USDT
     significant_digits: None
@@ -1197,7 +1197,7 @@ AGLD_USDT = AGLD_USDT()
 """
 
 
-class AIOZ_USD(NamedTuple):
+class AIOZ_USD(Symbol):
     """
         name: AIOZ-USD
         significant_digits: None
@@ -1235,7 +1235,7 @@ class AIOZ_USD(NamedTuple):
         return "AIOZ-USD"
 
 
-AIOZ_USD = AIOZ_USD()
+AIOZ_USD = AIOZ_USD(*AIOZ_USD._fields)
 """
     name: AIOZ-USD
     significant_digits: None
@@ -1249,7 +1249,7 @@ AIOZ_USD = AIOZ_USD()
 """
 
 
-class AIOZ_USDT(NamedTuple):
+class AIOZ_USDT(Symbol):
     """
         name: AIOZ-USDT
         significant_digits: None
@@ -1287,7 +1287,7 @@ class AIOZ_USDT(NamedTuple):
         return "AIOZ-USDT"
 
 
-AIOZ_USDT = AIOZ_USDT()
+AIOZ_USDT = AIOZ_USDT(*AIOZ_USDT._fields)
 """
     name: AIOZ-USDT
     significant_digits: None
@@ -1301,7 +1301,7 @@ AIOZ_USDT = AIOZ_USDT()
 """
 
 
-class ALCX_EUR(NamedTuple):
+class ALCX_EUR(Symbol):
     """
         name: ALCX-EUR
         significant_digits: None
@@ -1339,7 +1339,7 @@ class ALCX_EUR(NamedTuple):
         return "ALCX-EUR"
 
 
-ALCX_EUR = ALCX_EUR()
+ALCX_EUR = ALCX_EUR(*ALCX_EUR._fields)
 """
     name: ALCX-EUR
     significant_digits: None
@@ -1353,7 +1353,7 @@ ALCX_EUR = ALCX_EUR()
 """
 
 
-class ALCX_USD(NamedTuple):
+class ALCX_USD(Symbol):
     """
         name: ALCX-USD
         significant_digits: None
@@ -1391,7 +1391,7 @@ class ALCX_USD(NamedTuple):
         return "ALCX-USD"
 
 
-ALCX_USD = ALCX_USD()
+ALCX_USD = ALCX_USD(*ALCX_USD._fields)
 """
     name: ALCX-USD
     significant_digits: None
@@ -1405,7 +1405,7 @@ ALCX_USD = ALCX_USD()
 """
 
 
-class ALCX_USDT(NamedTuple):
+class ALCX_USDT(Symbol):
     """
         name: ALCX-USDT
         significant_digits: None
@@ -1443,7 +1443,7 @@ class ALCX_USDT(NamedTuple):
         return "ALCX-USDT"
 
 
-ALCX_USDT = ALCX_USDT()
+ALCX_USDT = ALCX_USDT(*ALCX_USDT._fields)
 """
     name: ALCX-USDT
     significant_digits: None
@@ -1457,7 +1457,7 @@ ALCX_USDT = ALCX_USDT()
 """
 
 
-class ALEPH_USD(NamedTuple):
+class ALEPH_USD(Symbol):
     """
         name: ALEPH-USD
         significant_digits: None
@@ -1495,7 +1495,7 @@ class ALEPH_USD(NamedTuple):
         return "ALEPH-USD"
 
 
-ALEPH_USD = ALEPH_USD()
+ALEPH_USD = ALEPH_USD(*ALEPH_USD._fields)
 """
     name: ALEPH-USD
     significant_digits: None
@@ -1509,7 +1509,7 @@ ALEPH_USD = ALEPH_USD()
 """
 
 
-class ALGO_BTC(NamedTuple):
+class ALGO_BTC(Symbol):
     """
         name: ALGO-BTC
         significant_digits: None
@@ -1547,7 +1547,7 @@ class ALGO_BTC(NamedTuple):
         return "ALGO-BTC"
 
 
-ALGO_BTC = ALGO_BTC()
+ALGO_BTC = ALGO_BTC(*ALGO_BTC._fields)
 """
     name: ALGO-BTC
     significant_digits: None
@@ -1561,7 +1561,7 @@ ALGO_BTC = ALGO_BTC()
 """
 
 
-class ALGO_EUR(NamedTuple):
+class ALGO_EUR(Symbol):
     """
         name: ALGO-EUR
         significant_digits: None
@@ -1599,7 +1599,7 @@ class ALGO_EUR(NamedTuple):
         return "ALGO-EUR"
 
 
-ALGO_EUR = ALGO_EUR()
+ALGO_EUR = ALGO_EUR(*ALGO_EUR._fields)
 """
     name: ALGO-EUR
     significant_digits: None
@@ -1613,7 +1613,7 @@ ALGO_EUR = ALGO_EUR()
 """
 
 
-class ALGO_GBP(NamedTuple):
+class ALGO_GBP(Symbol):
     """
         name: ALGO-GBP
         significant_digits: None
@@ -1651,7 +1651,7 @@ class ALGO_GBP(NamedTuple):
         return "ALGO-GBP"
 
 
-ALGO_GBP = ALGO_GBP()
+ALGO_GBP = ALGO_GBP(*ALGO_GBP._fields)
 """
     name: ALGO-GBP
     significant_digits: None
@@ -1665,7 +1665,7 @@ ALGO_GBP = ALGO_GBP()
 """
 
 
-class ALGO_USD(NamedTuple):
+class ALGO_USD(Symbol):
     """
         name: ALGO-USD
         significant_digits: None
@@ -1703,7 +1703,7 @@ class ALGO_USD(NamedTuple):
         return "ALGO-USD"
 
 
-ALGO_USD = ALGO_USD()
+ALGO_USD = ALGO_USD(*ALGO_USD._fields)
 """
     name: ALGO-USD
     significant_digits: None
@@ -1717,7 +1717,7 @@ ALGO_USD = ALGO_USD()
 """
 
 
-class ALICE_USD(NamedTuple):
+class ALICE_USD(Symbol):
     """
         name: ALICE-USD
         significant_digits: None
@@ -1755,7 +1755,7 @@ class ALICE_USD(NamedTuple):
         return "ALICE-USD"
 
 
-ALICE_USD = ALICE_USD()
+ALICE_USD = ALICE_USD(*ALICE_USD._fields)
 """
     name: ALICE-USD
     significant_digits: None
@@ -1769,7 +1769,7 @@ ALICE_USD = ALICE_USD()
 """
 
 
-class AMP_USD(NamedTuple):
+class AMP_USD(Symbol):
     """
         name: AMP-USD
         significant_digits: None
@@ -1807,7 +1807,7 @@ class AMP_USD(NamedTuple):
         return "AMP-USD"
 
 
-AMP_USD = AMP_USD()
+AMP_USD = AMP_USD(*AMP_USD._fields)
 """
     name: AMP-USD
     significant_digits: None
@@ -1821,7 +1821,7 @@ AMP_USD = AMP_USD()
 """
 
 
-class ANKR_BTC(NamedTuple):
+class ANKR_BTC(Symbol):
     """
         name: ANKR-BTC
         significant_digits: None
@@ -1859,7 +1859,7 @@ class ANKR_BTC(NamedTuple):
         return "ANKR-BTC"
 
 
-ANKR_BTC = ANKR_BTC()
+ANKR_BTC = ANKR_BTC(*ANKR_BTC._fields)
 """
     name: ANKR-BTC
     significant_digits: None
@@ -1873,7 +1873,7 @@ ANKR_BTC = ANKR_BTC()
 """
 
 
-class ANKR_EUR(NamedTuple):
+class ANKR_EUR(Symbol):
     """
         name: ANKR-EUR
         significant_digits: None
@@ -1911,7 +1911,7 @@ class ANKR_EUR(NamedTuple):
         return "ANKR-EUR"
 
 
-ANKR_EUR = ANKR_EUR()
+ANKR_EUR = ANKR_EUR(*ANKR_EUR._fields)
 """
     name: ANKR-EUR
     significant_digits: None
@@ -1925,7 +1925,7 @@ ANKR_EUR = ANKR_EUR()
 """
 
 
-class ANKR_GBP(NamedTuple):
+class ANKR_GBP(Symbol):
     """
         name: ANKR-GBP
         significant_digits: None
@@ -1963,7 +1963,7 @@ class ANKR_GBP(NamedTuple):
         return "ANKR-GBP"
 
 
-ANKR_GBP = ANKR_GBP()
+ANKR_GBP = ANKR_GBP(*ANKR_GBP._fields)
 """
     name: ANKR-GBP
     significant_digits: None
@@ -1977,7 +1977,7 @@ ANKR_GBP = ANKR_GBP()
 """
 
 
-class ANKR_USD(NamedTuple):
+class ANKR_USD(Symbol):
     """
         name: ANKR-USD
         significant_digits: None
@@ -2015,7 +2015,7 @@ class ANKR_USD(NamedTuple):
         return "ANKR-USD"
 
 
-ANKR_USD = ANKR_USD()
+ANKR_USD = ANKR_USD(*ANKR_USD._fields)
 """
     name: ANKR-USD
     significant_digits: None
@@ -2029,7 +2029,7 @@ ANKR_USD = ANKR_USD()
 """
 
 
-class ANT_USD(NamedTuple):
+class ANT_USD(Symbol):
     """
         name: ANT-USD
         significant_digits: None
@@ -2067,7 +2067,7 @@ class ANT_USD(NamedTuple):
         return "ANT-USD"
 
 
-ANT_USD = ANT_USD()
+ANT_USD = ANT_USD(*ANT_USD._fields)
 """
     name: ANT-USD
     significant_digits: None
@@ -2081,7 +2081,7 @@ ANT_USD = ANT_USD()
 """
 
 
-class APE_EUR(NamedTuple):
+class APE_EUR(Symbol):
     """
         name: APE-EUR
         significant_digits: None
@@ -2119,7 +2119,7 @@ class APE_EUR(NamedTuple):
         return "APE-EUR"
 
 
-APE_EUR = APE_EUR()
+APE_EUR = APE_EUR(*APE_EUR._fields)
 """
     name: APE-EUR
     significant_digits: None
@@ -2133,7 +2133,7 @@ APE_EUR = APE_EUR()
 """
 
 
-class APE_USD(NamedTuple):
+class APE_USD(Symbol):
     """
         name: APE-USD
         significant_digits: None
@@ -2171,7 +2171,7 @@ class APE_USD(NamedTuple):
         return "APE-USD"
 
 
-APE_USD = APE_USD()
+APE_USD = APE_USD(*APE_USD._fields)
 """
     name: APE-USD
     significant_digits: None
@@ -2185,7 +2185,7 @@ APE_USD = APE_USD()
 """
 
 
-class APE_USDT(NamedTuple):
+class APE_USDT(Symbol):
     """
         name: APE-USDT
         significant_digits: None
@@ -2223,7 +2223,7 @@ class APE_USDT(NamedTuple):
         return "APE-USDT"
 
 
-APE_USDT = APE_USDT()
+APE_USDT = APE_USDT(*APE_USDT._fields)
 """
     name: APE-USDT
     significant_digits: None
@@ -2237,7 +2237,7 @@ APE_USDT = APE_USDT()
 """
 
 
-class API3_USD(NamedTuple):
+class API3_USD(Symbol):
     """
         name: API3-USD
         significant_digits: None
@@ -2275,7 +2275,7 @@ class API3_USD(NamedTuple):
         return "API3-USD"
 
 
-API3_USD = API3_USD()
+API3_USD = API3_USD(*API3_USD._fields)
 """
     name: API3-USD
     significant_digits: None
@@ -2289,7 +2289,7 @@ API3_USD = API3_USD()
 """
 
 
-class API3_USDT(NamedTuple):
+class API3_USDT(Symbol):
     """
         name: API3-USDT
         significant_digits: None
@@ -2327,7 +2327,7 @@ class API3_USDT(NamedTuple):
         return "API3-USDT"
 
 
-API3_USDT = API3_USDT()
+API3_USDT = API3_USDT(*API3_USDT._fields)
 """
     name: API3-USDT
     significant_digits: None
@@ -2341,7 +2341,7 @@ API3_USDT = API3_USDT()
 """
 
 
-class APT_USD(NamedTuple):
+class APT_USD(Symbol):
     """
         name: APT-USD
         significant_digits: None
@@ -2379,7 +2379,7 @@ class APT_USD(NamedTuple):
         return "APT-USD"
 
 
-APT_USD = APT_USD()
+APT_USD = APT_USD(*APT_USD._fields)
 """
     name: APT-USD
     significant_digits: None
@@ -2393,7 +2393,7 @@ APT_USD = APT_USD()
 """
 
 
-class APT_USDT(NamedTuple):
+class APT_USDT(Symbol):
     """
         name: APT-USDT
         significant_digits: None
@@ -2431,7 +2431,7 @@ class APT_USDT(NamedTuple):
         return "APT-USDT"
 
 
-APT_USDT = APT_USDT()
+APT_USDT = APT_USDT(*APT_USDT._fields)
 """
     name: APT-USDT
     significant_digits: None
@@ -2445,7 +2445,7 @@ APT_USDT = APT_USDT()
 """
 
 
-class ARB_USD(NamedTuple):
+class ARB_USD(Symbol):
     """
         name: ARB-USD
         significant_digits: None
@@ -2483,7 +2483,7 @@ class ARB_USD(NamedTuple):
         return "ARB-USD"
 
 
-ARB_USD = ARB_USD()
+ARB_USD = ARB_USD(*ARB_USD._fields)
 """
     name: ARB-USD
     significant_digits: None
@@ -2497,7 +2497,7 @@ ARB_USD = ARB_USD()
 """
 
 
-class ARPA_EUR(NamedTuple):
+class ARPA_EUR(Symbol):
     """
         name: ARPA-EUR
         significant_digits: None
@@ -2535,7 +2535,7 @@ class ARPA_EUR(NamedTuple):
         return "ARPA-EUR"
 
 
-ARPA_EUR = ARPA_EUR()
+ARPA_EUR = ARPA_EUR(*ARPA_EUR._fields)
 """
     name: ARPA-EUR
     significant_digits: None
@@ -2549,7 +2549,7 @@ ARPA_EUR = ARPA_EUR()
 """
 
 
-class ARPA_USD(NamedTuple):
+class ARPA_USD(Symbol):
     """
         name: ARPA-USD
         significant_digits: None
@@ -2587,7 +2587,7 @@ class ARPA_USD(NamedTuple):
         return "ARPA-USD"
 
 
-ARPA_USD = ARPA_USD()
+ARPA_USD = ARPA_USD(*ARPA_USD._fields)
 """
     name: ARPA-USD
     significant_digits: None
@@ -2601,7 +2601,7 @@ ARPA_USD = ARPA_USD()
 """
 
 
-class ARPA_USDT(NamedTuple):
+class ARPA_USDT(Symbol):
     """
         name: ARPA-USDT
         significant_digits: None
@@ -2639,7 +2639,7 @@ class ARPA_USDT(NamedTuple):
         return "ARPA-USDT"
 
 
-ARPA_USDT = ARPA_USDT()
+ARPA_USDT = ARPA_USDT(*ARPA_USDT._fields)
 """
     name: ARPA-USDT
     significant_digits: None
@@ -2653,7 +2653,7 @@ ARPA_USDT = ARPA_USDT()
 """
 
 
-class ASM_USD(NamedTuple):
+class ASM_USD(Symbol):
     """
         name: ASM-USD
         significant_digits: None
@@ -2691,7 +2691,7 @@ class ASM_USD(NamedTuple):
         return "ASM-USD"
 
 
-ASM_USD = ASM_USD()
+ASM_USD = ASM_USD(*ASM_USD._fields)
 """
     name: ASM-USD
     significant_digits: None
@@ -2705,7 +2705,7 @@ ASM_USD = ASM_USD()
 """
 
 
-class ASM_USDT(NamedTuple):
+class ASM_USDT(Symbol):
     """
         name: ASM-USDT
         significant_digits: None
@@ -2743,7 +2743,7 @@ class ASM_USDT(NamedTuple):
         return "ASM-USDT"
 
 
-ASM_USDT = ASM_USDT()
+ASM_USDT = ASM_USDT(*ASM_USDT._fields)
 """
     name: ASM-USDT
     significant_digits: None
@@ -2757,7 +2757,7 @@ ASM_USDT = ASM_USDT()
 """
 
 
-class AST_USD(NamedTuple):
+class AST_USD(Symbol):
     """
         name: AST-USD
         significant_digits: None
@@ -2795,7 +2795,7 @@ class AST_USD(NamedTuple):
         return "AST-USD"
 
 
-AST_USD = AST_USD()
+AST_USD = AST_USD(*AST_USD._fields)
 """
     name: AST-USD
     significant_digits: None
@@ -2809,7 +2809,7 @@ AST_USD = AST_USD()
 """
 
 
-class ATA_USD(NamedTuple):
+class ATA_USD(Symbol):
     """
         name: ATA-USD
         significant_digits: None
@@ -2847,7 +2847,7 @@ class ATA_USD(NamedTuple):
         return "ATA-USD"
 
 
-ATA_USD = ATA_USD()
+ATA_USD = ATA_USD(*ATA_USD._fields)
 """
     name: ATA-USD
     significant_digits: None
@@ -2861,7 +2861,7 @@ ATA_USD = ATA_USD()
 """
 
 
-class ATA_USDT(NamedTuple):
+class ATA_USDT(Symbol):
     """
         name: ATA-USDT
         significant_digits: None
@@ -2899,7 +2899,7 @@ class ATA_USDT(NamedTuple):
         return "ATA-USDT"
 
 
-ATA_USDT = ATA_USDT()
+ATA_USDT = ATA_USDT(*ATA_USDT._fields)
 """
     name: ATA-USDT
     significant_digits: None
@@ -2913,7 +2913,7 @@ ATA_USDT = ATA_USDT()
 """
 
 
-class ATOM_BTC(NamedTuple):
+class ATOM_BTC(Symbol):
     """
         name: ATOM-BTC
         significant_digits: None
@@ -2951,7 +2951,7 @@ class ATOM_BTC(NamedTuple):
         return "ATOM-BTC"
 
 
-ATOM_BTC = ATOM_BTC()
+ATOM_BTC = ATOM_BTC(*ATOM_BTC._fields)
 """
     name: ATOM-BTC
     significant_digits: None
@@ -2965,7 +2965,7 @@ ATOM_BTC = ATOM_BTC()
 """
 
 
-class ATOM_EUR(NamedTuple):
+class ATOM_EUR(Symbol):
     """
         name: ATOM-EUR
         significant_digits: None
@@ -3003,7 +3003,7 @@ class ATOM_EUR(NamedTuple):
         return "ATOM-EUR"
 
 
-ATOM_EUR = ATOM_EUR()
+ATOM_EUR = ATOM_EUR(*ATOM_EUR._fields)
 """
     name: ATOM-EUR
     significant_digits: None
@@ -3017,7 +3017,7 @@ ATOM_EUR = ATOM_EUR()
 """
 
 
-class ATOM_GBP(NamedTuple):
+class ATOM_GBP(Symbol):
     """
         name: ATOM-GBP
         significant_digits: None
@@ -3055,7 +3055,7 @@ class ATOM_GBP(NamedTuple):
         return "ATOM-GBP"
 
 
-ATOM_GBP = ATOM_GBP()
+ATOM_GBP = ATOM_GBP(*ATOM_GBP._fields)
 """
     name: ATOM-GBP
     significant_digits: None
@@ -3069,7 +3069,7 @@ ATOM_GBP = ATOM_GBP()
 """
 
 
-class ATOM_USD(NamedTuple):
+class ATOM_USD(Symbol):
     """
         name: ATOM-USD
         significant_digits: None
@@ -3107,7 +3107,7 @@ class ATOM_USD(NamedTuple):
         return "ATOM-USD"
 
 
-ATOM_USD = ATOM_USD()
+ATOM_USD = ATOM_USD(*ATOM_USD._fields)
 """
     name: ATOM-USD
     significant_digits: None
@@ -3121,7 +3121,7 @@ ATOM_USD = ATOM_USD()
 """
 
 
-class ATOM_USDT(NamedTuple):
+class ATOM_USDT(Symbol):
     """
         name: ATOM-USDT
         significant_digits: None
@@ -3159,7 +3159,7 @@ class ATOM_USDT(NamedTuple):
         return "ATOM-USDT"
 
 
-ATOM_USDT = ATOM_USDT()
+ATOM_USDT = ATOM_USDT(*ATOM_USDT._fields)
 """
     name: ATOM-USDT
     significant_digits: None
@@ -3173,7 +3173,7 @@ ATOM_USDT = ATOM_USDT()
 """
 
 
-class AUCTION_EUR(NamedTuple):
+class AUCTION_EUR(Symbol):
     """
         name: AUCTION-EUR
         significant_digits: None
@@ -3211,7 +3211,7 @@ class AUCTION_EUR(NamedTuple):
         return "AUCTION-EUR"
 
 
-AUCTION_EUR = AUCTION_EUR()
+AUCTION_EUR = AUCTION_EUR(*AUCTION_EUR._fields)
 """
     name: AUCTION-EUR
     significant_digits: None
@@ -3225,7 +3225,7 @@ AUCTION_EUR = AUCTION_EUR()
 """
 
 
-class AUCTION_USD(NamedTuple):
+class AUCTION_USD(Symbol):
     """
         name: AUCTION-USD
         significant_digits: None
@@ -3263,7 +3263,7 @@ class AUCTION_USD(NamedTuple):
         return "AUCTION-USD"
 
 
-AUCTION_USD = AUCTION_USD()
+AUCTION_USD = AUCTION_USD(*AUCTION_USD._fields)
 """
     name: AUCTION-USD
     significant_digits: None
@@ -3277,7 +3277,7 @@ AUCTION_USD = AUCTION_USD()
 """
 
 
-class AUCTION_USDT(NamedTuple):
+class AUCTION_USDT(Symbol):
     """
         name: AUCTION-USDT
         significant_digits: None
@@ -3315,7 +3315,7 @@ class AUCTION_USDT(NamedTuple):
         return "AUCTION-USDT"
 
 
-AUCTION_USDT = AUCTION_USDT()
+AUCTION_USDT = AUCTION_USDT(*AUCTION_USDT._fields)
 """
     name: AUCTION-USDT
     significant_digits: None
@@ -3329,7 +3329,7 @@ AUCTION_USDT = AUCTION_USDT()
 """
 
 
-class AUDIO_USD(NamedTuple):
+class AUDIO_USD(Symbol):
     """
         name: AUDIO-USD
         significant_digits: None
@@ -3367,7 +3367,7 @@ class AUDIO_USD(NamedTuple):
         return "AUDIO-USD"
 
 
-AUDIO_USD = AUDIO_USD()
+AUDIO_USD = AUDIO_USD(*AUDIO_USD._fields)
 """
     name: AUDIO-USD
     significant_digits: None
@@ -3381,7 +3381,7 @@ AUDIO_USD = AUDIO_USD()
 """
 
 
-class AURORA_USD(NamedTuple):
+class AURORA_USD(Symbol):
     """
         name: AURORA-USD
         significant_digits: None
@@ -3419,7 +3419,7 @@ class AURORA_USD(NamedTuple):
         return "AURORA-USD"
 
 
-AURORA_USD = AURORA_USD()
+AURORA_USD = AURORA_USD(*AURORA_USD._fields)
 """
     name: AURORA-USD
     significant_digits: None
@@ -3433,7 +3433,7 @@ AURORA_USD = AURORA_USD()
 """
 
 
-class AVAX_BTC(NamedTuple):
+class AVAX_BTC(Symbol):
     """
         name: AVAX-BTC
         significant_digits: None
@@ -3471,7 +3471,7 @@ class AVAX_BTC(NamedTuple):
         return "AVAX-BTC"
 
 
-AVAX_BTC = AVAX_BTC()
+AVAX_BTC = AVAX_BTC(*AVAX_BTC._fields)
 """
     name: AVAX-BTC
     significant_digits: None
@@ -3485,7 +3485,7 @@ AVAX_BTC = AVAX_BTC()
 """
 
 
-class AVAX_EUR(NamedTuple):
+class AVAX_EUR(Symbol):
     """
         name: AVAX-EUR
         significant_digits: None
@@ -3523,7 +3523,7 @@ class AVAX_EUR(NamedTuple):
         return "AVAX-EUR"
 
 
-AVAX_EUR = AVAX_EUR()
+AVAX_EUR = AVAX_EUR(*AVAX_EUR._fields)
 """
     name: AVAX-EUR
     significant_digits: None
@@ -3537,7 +3537,7 @@ AVAX_EUR = AVAX_EUR()
 """
 
 
-class AVAX_USD(NamedTuple):
+class AVAX_USD(Symbol):
     """
         name: AVAX-USD
         significant_digits: None
@@ -3575,7 +3575,7 @@ class AVAX_USD(NamedTuple):
         return "AVAX-USD"
 
 
-AVAX_USD = AVAX_USD()
+AVAX_USD = AVAX_USD(*AVAX_USD._fields)
 """
     name: AVAX-USD
     significant_digits: None
@@ -3589,7 +3589,7 @@ AVAX_USD = AVAX_USD()
 """
 
 
-class AVAX_USDT(NamedTuple):
+class AVAX_USDT(Symbol):
     """
         name: AVAX-USDT
         significant_digits: None
@@ -3627,7 +3627,7 @@ class AVAX_USDT(NamedTuple):
         return "AVAX-USDT"
 
 
-AVAX_USDT = AVAX_USDT()
+AVAX_USDT = AVAX_USDT(*AVAX_USDT._fields)
 """
     name: AVAX-USDT
     significant_digits: None
@@ -3641,7 +3641,7 @@ AVAX_USDT = AVAX_USDT()
 """
 
 
-class AVT_USD(NamedTuple):
+class AVT_USD(Symbol):
     """
         name: AVT-USD
         significant_digits: None
@@ -3679,7 +3679,7 @@ class AVT_USD(NamedTuple):
         return "AVT-USD"
 
 
-AVT_USD = AVT_USD()
+AVT_USD = AVT_USD(*AVT_USD._fields)
 """
     name: AVT-USD
     significant_digits: None
@@ -3693,7 +3693,7 @@ AVT_USD = AVT_USD()
 """
 
 
-class AXL_USD(NamedTuple):
+class AXL_USD(Symbol):
     """
         name: AXL-USD
         significant_digits: None
@@ -3731,7 +3731,7 @@ class AXL_USD(NamedTuple):
         return "AXL-USD"
 
 
-AXL_USD = AXL_USD()
+AXL_USD = AXL_USD(*AXL_USD._fields)
 """
     name: AXL-USD
     significant_digits: None
@@ -3745,7 +3745,7 @@ AXL_USD = AXL_USD()
 """
 
 
-class AXS_BTC(NamedTuple):
+class AXS_BTC(Symbol):
     """
         name: AXS-BTC
         significant_digits: None
@@ -3783,7 +3783,7 @@ class AXS_BTC(NamedTuple):
         return "AXS-BTC"
 
 
-AXS_BTC = AXS_BTC()
+AXS_BTC = AXS_BTC(*AXS_BTC._fields)
 """
     name: AXS-BTC
     significant_digits: None
@@ -3797,7 +3797,7 @@ AXS_BTC = AXS_BTC()
 """
 
 
-class AXS_EUR(NamedTuple):
+class AXS_EUR(Symbol):
     """
         name: AXS-EUR
         significant_digits: None
@@ -3835,7 +3835,7 @@ class AXS_EUR(NamedTuple):
         return "AXS-EUR"
 
 
-AXS_EUR = AXS_EUR()
+AXS_EUR = AXS_EUR(*AXS_EUR._fields)
 """
     name: AXS-EUR
     significant_digits: None
@@ -3849,7 +3849,7 @@ AXS_EUR = AXS_EUR()
 """
 
 
-class AXS_USD(NamedTuple):
+class AXS_USD(Symbol):
     """
         name: AXS-USD
         significant_digits: None
@@ -3887,7 +3887,7 @@ class AXS_USD(NamedTuple):
         return "AXS-USD"
 
 
-AXS_USD = AXS_USD()
+AXS_USD = AXS_USD(*AXS_USD._fields)
 """
     name: AXS-USD
     significant_digits: None
@@ -3901,7 +3901,7 @@ AXS_USD = AXS_USD()
 """
 
 
-class AXS_USDT(NamedTuple):
+class AXS_USDT(Symbol):
     """
         name: AXS-USDT
         significant_digits: None
@@ -3939,7 +3939,7 @@ class AXS_USDT(NamedTuple):
         return "AXS-USDT"
 
 
-AXS_USDT = AXS_USDT()
+AXS_USDT = AXS_USDT(*AXS_USDT._fields)
 """
     name: AXS-USDT
     significant_digits: None
@@ -3953,7 +3953,7 @@ AXS_USDT = AXS_USDT()
 """
 
 
-class BADGER_EUR(NamedTuple):
+class BADGER_EUR(Symbol):
     """
         name: BADGER-EUR
         significant_digits: None
@@ -3991,7 +3991,7 @@ class BADGER_EUR(NamedTuple):
         return "BADGER-EUR"
 
 
-BADGER_EUR = BADGER_EUR()
+BADGER_EUR = BADGER_EUR(*BADGER_EUR._fields)
 """
     name: BADGER-EUR
     significant_digits: None
@@ -4005,7 +4005,7 @@ BADGER_EUR = BADGER_EUR()
 """
 
 
-class BADGER_USD(NamedTuple):
+class BADGER_USD(Symbol):
     """
         name: BADGER-USD
         significant_digits: None
@@ -4043,7 +4043,7 @@ class BADGER_USD(NamedTuple):
         return "BADGER-USD"
 
 
-BADGER_USD = BADGER_USD()
+BADGER_USD = BADGER_USD(*BADGER_USD._fields)
 """
     name: BADGER-USD
     significant_digits: None
@@ -4057,7 +4057,7 @@ BADGER_USD = BADGER_USD()
 """
 
 
-class BADGER_USDT(NamedTuple):
+class BADGER_USDT(Symbol):
     """
         name: BADGER-USDT
         significant_digits: None
@@ -4095,7 +4095,7 @@ class BADGER_USDT(NamedTuple):
         return "BADGER-USDT"
 
 
-BADGER_USDT = BADGER_USDT()
+BADGER_USDT = BADGER_USDT(*BADGER_USDT._fields)
 """
     name: BADGER-USDT
     significant_digits: None
@@ -4109,7 +4109,7 @@ BADGER_USDT = BADGER_USDT()
 """
 
 
-class BAL_BTC(NamedTuple):
+class BAL_BTC(Symbol):
     """
         name: BAL-BTC
         significant_digits: None
@@ -4147,7 +4147,7 @@ class BAL_BTC(NamedTuple):
         return "BAL-BTC"
 
 
-BAL_BTC = BAL_BTC()
+BAL_BTC = BAL_BTC(*BAL_BTC._fields)
 """
     name: BAL-BTC
     significant_digits: None
@@ -4161,7 +4161,7 @@ BAL_BTC = BAL_BTC()
 """
 
 
-class BAL_USD(NamedTuple):
+class BAL_USD(Symbol):
     """
         name: BAL-USD
         significant_digits: None
@@ -4199,7 +4199,7 @@ class BAL_USD(NamedTuple):
         return "BAL-USD"
 
 
-BAL_USD = BAL_USD()
+BAL_USD = BAL_USD(*BAL_USD._fields)
 """
     name: BAL-USD
     significant_digits: None
@@ -4213,7 +4213,7 @@ BAL_USD = BAL_USD()
 """
 
 
-class BAND_BTC(NamedTuple):
+class BAND_BTC(Symbol):
     """
         name: BAND-BTC
         significant_digits: None
@@ -4251,7 +4251,7 @@ class BAND_BTC(NamedTuple):
         return "BAND-BTC"
 
 
-BAND_BTC = BAND_BTC()
+BAND_BTC = BAND_BTC(*BAND_BTC._fields)
 """
     name: BAND-BTC
     significant_digits: None
@@ -4265,7 +4265,7 @@ BAND_BTC = BAND_BTC()
 """
 
 
-class BAND_EUR(NamedTuple):
+class BAND_EUR(Symbol):
     """
         name: BAND-EUR
         significant_digits: None
@@ -4303,7 +4303,7 @@ class BAND_EUR(NamedTuple):
         return "BAND-EUR"
 
 
-BAND_EUR = BAND_EUR()
+BAND_EUR = BAND_EUR(*BAND_EUR._fields)
 """
     name: BAND-EUR
     significant_digits: None
@@ -4317,7 +4317,7 @@ BAND_EUR = BAND_EUR()
 """
 
 
-class BAND_GBP(NamedTuple):
+class BAND_GBP(Symbol):
     """
         name: BAND-GBP
         significant_digits: None
@@ -4355,7 +4355,7 @@ class BAND_GBP(NamedTuple):
         return "BAND-GBP"
 
 
-BAND_GBP = BAND_GBP()
+BAND_GBP = BAND_GBP(*BAND_GBP._fields)
 """
     name: BAND-GBP
     significant_digits: None
@@ -4369,7 +4369,7 @@ BAND_GBP = BAND_GBP()
 """
 
 
-class BAND_USD(NamedTuple):
+class BAND_USD(Symbol):
     """
         name: BAND-USD
         significant_digits: None
@@ -4407,7 +4407,7 @@ class BAND_USD(NamedTuple):
         return "BAND-USD"
 
 
-BAND_USD = BAND_USD()
+BAND_USD = BAND_USD(*BAND_USD._fields)
 """
     name: BAND-USD
     significant_digits: None
@@ -4421,7 +4421,7 @@ BAND_USD = BAND_USD()
 """
 
 
-class BAT_BTC(NamedTuple):
+class BAT_BTC(Symbol):
     """
         name: BAT-BTC
         significant_digits: None
@@ -4459,7 +4459,7 @@ class BAT_BTC(NamedTuple):
         return "BAT-BTC"
 
 
-BAT_BTC = BAT_BTC()
+BAT_BTC = BAT_BTC(*BAT_BTC._fields)
 """
     name: BAT-BTC
     significant_digits: None
@@ -4473,7 +4473,7 @@ BAT_BTC = BAT_BTC()
 """
 
 
-class BAT_ETH(NamedTuple):
+class BAT_ETH(Symbol):
     """
         name: BAT-ETH
         significant_digits: None
@@ -4511,7 +4511,7 @@ class BAT_ETH(NamedTuple):
         return "BAT-ETH"
 
 
-BAT_ETH = BAT_ETH()
+BAT_ETH = BAT_ETH(*BAT_ETH._fields)
 """
     name: BAT-ETH
     significant_digits: None
@@ -4525,7 +4525,7 @@ BAT_ETH = BAT_ETH()
 """
 
 
-class BAT_EUR(NamedTuple):
+class BAT_EUR(Symbol):
     """
         name: BAT-EUR
         significant_digits: None
@@ -4563,7 +4563,7 @@ class BAT_EUR(NamedTuple):
         return "BAT-EUR"
 
 
-BAT_EUR = BAT_EUR()
+BAT_EUR = BAT_EUR(*BAT_EUR._fields)
 """
     name: BAT-EUR
     significant_digits: None
@@ -4577,7 +4577,7 @@ BAT_EUR = BAT_EUR()
 """
 
 
-class BAT_USD(NamedTuple):
+class BAT_USD(Symbol):
     """
         name: BAT-USD
         significant_digits: None
@@ -4615,7 +4615,7 @@ class BAT_USD(NamedTuple):
         return "BAT-USD"
 
 
-BAT_USD = BAT_USD()
+BAT_USD = BAT_USD(*BAT_USD._fields)
 """
     name: BAT-USD
     significant_digits: None
@@ -4629,7 +4629,7 @@ BAT_USD = BAT_USD()
 """
 
 
-class BAT_USDC(NamedTuple):
+class BAT_USDC(Symbol):
     """
         name: BAT-USDC
         significant_digits: None
@@ -4667,7 +4667,7 @@ class BAT_USDC(NamedTuple):
         return "BAT-USDC"
 
 
-BAT_USDC = BAT_USDC()
+BAT_USDC = BAT_USDC(*BAT_USDC._fields)
 """
     name: BAT-USDC
     significant_digits: None
@@ -4681,7 +4681,7 @@ BAT_USDC = BAT_USDC()
 """
 
 
-class BCH_BTC(NamedTuple):
+class BCH_BTC(Symbol):
     """
         name: BCH-BTC
         significant_digits: None
@@ -4719,7 +4719,7 @@ class BCH_BTC(NamedTuple):
         return "BCH-BTC"
 
 
-BCH_BTC = BCH_BTC()
+BCH_BTC = BCH_BTC(*BCH_BTC._fields)
 """
     name: BCH-BTC
     significant_digits: None
@@ -4733,7 +4733,7 @@ BCH_BTC = BCH_BTC()
 """
 
 
-class BCH_EUR(NamedTuple):
+class BCH_EUR(Symbol):
     """
         name: BCH-EUR
         significant_digits: None
@@ -4771,7 +4771,7 @@ class BCH_EUR(NamedTuple):
         return "BCH-EUR"
 
 
-BCH_EUR = BCH_EUR()
+BCH_EUR = BCH_EUR(*BCH_EUR._fields)
 """
     name: BCH-EUR
     significant_digits: None
@@ -4785,7 +4785,7 @@ BCH_EUR = BCH_EUR()
 """
 
 
-class BCH_GBP(NamedTuple):
+class BCH_GBP(Symbol):
     """
         name: BCH-GBP
         significant_digits: None
@@ -4823,7 +4823,7 @@ class BCH_GBP(NamedTuple):
         return "BCH-GBP"
 
 
-BCH_GBP = BCH_GBP()
+BCH_GBP = BCH_GBP(*BCH_GBP._fields)
 """
     name: BCH-GBP
     significant_digits: None
@@ -4837,7 +4837,7 @@ BCH_GBP = BCH_GBP()
 """
 
 
-class BCH_USD(NamedTuple):
+class BCH_USD(Symbol):
     """
         name: BCH-USD
         significant_digits: None
@@ -4875,7 +4875,7 @@ class BCH_USD(NamedTuple):
         return "BCH-USD"
 
 
-BCH_USD = BCH_USD()
+BCH_USD = BCH_USD(*BCH_USD._fields)
 """
     name: BCH-USD
     significant_digits: None
@@ -4889,7 +4889,7 @@ BCH_USD = BCH_USD()
 """
 
 
-class BICO_EUR(NamedTuple):
+class BICO_EUR(Symbol):
     """
         name: BICO-EUR
         significant_digits: None
@@ -4927,7 +4927,7 @@ class BICO_EUR(NamedTuple):
         return "BICO-EUR"
 
 
-BICO_EUR = BICO_EUR()
+BICO_EUR = BICO_EUR(*BICO_EUR._fields)
 """
     name: BICO-EUR
     significant_digits: None
@@ -4941,7 +4941,7 @@ BICO_EUR = BICO_EUR()
 """
 
 
-class BICO_USD(NamedTuple):
+class BICO_USD(Symbol):
     """
         name: BICO-USD
         significant_digits: None
@@ -4979,7 +4979,7 @@ class BICO_USD(NamedTuple):
         return "BICO-USD"
 
 
-BICO_USD = BICO_USD()
+BICO_USD = BICO_USD(*BICO_USD._fields)
 """
     name: BICO-USD
     significant_digits: None
@@ -4993,7 +4993,7 @@ BICO_USD = BICO_USD()
 """
 
 
-class BICO_USDT(NamedTuple):
+class BICO_USDT(Symbol):
     """
         name: BICO-USDT
         significant_digits: None
@@ -5031,7 +5031,7 @@ class BICO_USDT(NamedTuple):
         return "BICO-USDT"
 
 
-BICO_USDT = BICO_USDT()
+BICO_USDT = BICO_USDT(*BICO_USDT._fields)
 """
     name: BICO-USDT
     significant_digits: None
@@ -5045,7 +5045,7 @@ BICO_USDT = BICO_USDT()
 """
 
 
-class BIT_USD(NamedTuple):
+class BIT_USD(Symbol):
     """
         name: BIT-USD
         significant_digits: None
@@ -5083,7 +5083,7 @@ class BIT_USD(NamedTuple):
         return "BIT-USD"
 
 
-BIT_USD = BIT_USD()
+BIT_USD = BIT_USD(*BIT_USD._fields)
 """
     name: BIT-USD
     significant_digits: None
@@ -5097,7 +5097,7 @@ BIT_USD = BIT_USD()
 """
 
 
-class BIT_USDT(NamedTuple):
+class BIT_USDT(Symbol):
     """
         name: BIT-USDT
         significant_digits: None
@@ -5135,7 +5135,7 @@ class BIT_USDT(NamedTuple):
         return "BIT-USDT"
 
 
-BIT_USDT = BIT_USDT()
+BIT_USDT = BIT_USDT(*BIT_USDT._fields)
 """
     name: BIT-USDT
     significant_digits: None
@@ -5149,7 +5149,7 @@ BIT_USDT = BIT_USDT()
 """
 
 
-class BLUR_USD(NamedTuple):
+class BLUR_USD(Symbol):
     """
         name: BLUR-USD
         significant_digits: None
@@ -5187,7 +5187,7 @@ class BLUR_USD(NamedTuple):
         return "BLUR-USD"
 
 
-BLUR_USD = BLUR_USD()
+BLUR_USD = BLUR_USD(*BLUR_USD._fields)
 """
     name: BLUR-USD
     significant_digits: None
@@ -5201,7 +5201,7 @@ BLUR_USD = BLUR_USD()
 """
 
 
-class BLZ_USD(NamedTuple):
+class BLZ_USD(Symbol):
     """
         name: BLZ-USD
         significant_digits: None
@@ -5239,7 +5239,7 @@ class BLZ_USD(NamedTuple):
         return "BLZ-USD"
 
 
-BLZ_USD = BLZ_USD()
+BLZ_USD = BLZ_USD(*BLZ_USD._fields)
 """
     name: BLZ-USD
     significant_digits: None
@@ -5253,7 +5253,7 @@ BLZ_USD = BLZ_USD()
 """
 
 
-class BNT_BTC(NamedTuple):
+class BNT_BTC(Symbol):
     """
         name: BNT-BTC
         significant_digits: None
@@ -5291,7 +5291,7 @@ class BNT_BTC(NamedTuple):
         return "BNT-BTC"
 
 
-BNT_BTC = BNT_BTC()
+BNT_BTC = BNT_BTC(*BNT_BTC._fields)
 """
     name: BNT-BTC
     significant_digits: None
@@ -5305,7 +5305,7 @@ BNT_BTC = BNT_BTC()
 """
 
 
-class BNT_EUR(NamedTuple):
+class BNT_EUR(Symbol):
     """
         name: BNT-EUR
         significant_digits: None
@@ -5343,7 +5343,7 @@ class BNT_EUR(NamedTuple):
         return "BNT-EUR"
 
 
-BNT_EUR = BNT_EUR()
+BNT_EUR = BNT_EUR(*BNT_EUR._fields)
 """
     name: BNT-EUR
     significant_digits: None
@@ -5357,7 +5357,7 @@ BNT_EUR = BNT_EUR()
 """
 
 
-class BNT_GBP(NamedTuple):
+class BNT_GBP(Symbol):
     """
         name: BNT-GBP
         significant_digits: None
@@ -5395,7 +5395,7 @@ class BNT_GBP(NamedTuple):
         return "BNT-GBP"
 
 
-BNT_GBP = BNT_GBP()
+BNT_GBP = BNT_GBP(*BNT_GBP._fields)
 """
     name: BNT-GBP
     significant_digits: None
@@ -5409,7 +5409,7 @@ BNT_GBP = BNT_GBP()
 """
 
 
-class BNT_USD(NamedTuple):
+class BNT_USD(Symbol):
     """
         name: BNT-USD
         significant_digits: None
@@ -5447,7 +5447,7 @@ class BNT_USD(NamedTuple):
         return "BNT-USD"
 
 
-BNT_USD = BNT_USD()
+BNT_USD = BNT_USD(*BNT_USD._fields)
 """
     name: BNT-USD
     significant_digits: None
@@ -5461,7 +5461,7 @@ BNT_USD = BNT_USD()
 """
 
 
-class BOBA_USD(NamedTuple):
+class BOBA_USD(Symbol):
     """
         name: BOBA-USD
         significant_digits: None
@@ -5499,7 +5499,7 @@ class BOBA_USD(NamedTuple):
         return "BOBA-USD"
 
 
-BOBA_USD = BOBA_USD()
+BOBA_USD = BOBA_USD(*BOBA_USD._fields)
 """
     name: BOBA-USD
     significant_digits: None
@@ -5513,7 +5513,7 @@ BOBA_USD = BOBA_USD()
 """
 
 
-class BOBA_USDT(NamedTuple):
+class BOBA_USDT(Symbol):
     """
         name: BOBA-USDT
         significant_digits: None
@@ -5551,7 +5551,7 @@ class BOBA_USDT(NamedTuple):
         return "BOBA-USDT"
 
 
-BOBA_USDT = BOBA_USDT()
+BOBA_USDT = BOBA_USDT(*BOBA_USDT._fields)
 """
     name: BOBA-USDT
     significant_digits: None
@@ -5565,7 +5565,7 @@ BOBA_USDT = BOBA_USDT()
 """
 
 
-class BOND_USD(NamedTuple):
+class BOND_USD(Symbol):
     """
         name: BOND-USD
         significant_digits: None
@@ -5603,7 +5603,7 @@ class BOND_USD(NamedTuple):
         return "BOND-USD"
 
 
-BOND_USD = BOND_USD()
+BOND_USD = BOND_USD(*BOND_USD._fields)
 """
     name: BOND-USD
     significant_digits: None
@@ -5617,7 +5617,7 @@ BOND_USD = BOND_USD()
 """
 
 
-class BOND_USDT(NamedTuple):
+class BOND_USDT(Symbol):
     """
         name: BOND-USDT
         significant_digits: None
@@ -5655,7 +5655,7 @@ class BOND_USDT(NamedTuple):
         return "BOND-USDT"
 
 
-BOND_USDT = BOND_USDT()
+BOND_USDT = BOND_USDT(*BOND_USDT._fields)
 """
     name: BOND-USDT
     significant_digits: None
@@ -5669,7 +5669,7 @@ BOND_USDT = BOND_USDT()
 """
 
 
-class BTC_EUR(NamedTuple):
+class BTC_EUR(Symbol):
     """
         name: BTC-EUR
         significant_digits: None
@@ -5707,7 +5707,7 @@ class BTC_EUR(NamedTuple):
         return "BTC-EUR"
 
 
-BTC_EUR = BTC_EUR()
+BTC_EUR = BTC_EUR(*BTC_EUR._fields)
 """
     name: BTC-EUR
     significant_digits: None
@@ -5721,7 +5721,7 @@ BTC_EUR = BTC_EUR()
 """
 
 
-class BTC_GBP(NamedTuple):
+class BTC_GBP(Symbol):
     """
         name: BTC-GBP
         significant_digits: None
@@ -5759,7 +5759,7 @@ class BTC_GBP(NamedTuple):
         return "BTC-GBP"
 
 
-BTC_GBP = BTC_GBP()
+BTC_GBP = BTC_GBP(*BTC_GBP._fields)
 """
     name: BTC-GBP
     significant_digits: None
@@ -5773,7 +5773,7 @@ BTC_GBP = BTC_GBP()
 """
 
 
-class BTC_USD(NamedTuple):
+class BTC_USD(Symbol):
     """
         name: BTC-USD
         significant_digits: None
@@ -5811,7 +5811,7 @@ class BTC_USD(NamedTuple):
         return "BTC-USD"
 
 
-BTC_USD = BTC_USD()
+BTC_USD = BTC_USD(*BTC_USD._fields)
 """
     name: BTC-USD
     significant_digits: None
@@ -5825,7 +5825,7 @@ BTC_USD = BTC_USD()
 """
 
 
-class BTC_USDC(NamedTuple):
+class BTC_USDC(Symbol):
     """
         name: BTC-USDC
         significant_digits: None
@@ -5863,7 +5863,7 @@ class BTC_USDC(NamedTuple):
         return "BTC-USDC"
 
 
-BTC_USDC = BTC_USDC()
+BTC_USDC = BTC_USDC(*BTC_USDC._fields)
 """
     name: BTC-USDC
     significant_digits: None
@@ -5877,7 +5877,7 @@ BTC_USDC = BTC_USDC()
 """
 
 
-class BTC_USDT(NamedTuple):
+class BTC_USDT(Symbol):
     """
         name: BTC-USDT
         significant_digits: None
@@ -5915,7 +5915,7 @@ class BTC_USDT(NamedTuple):
         return "BTC-USDT"
 
 
-BTC_USDT = BTC_USDT()
+BTC_USDT = BTC_USDT(*BTC_USDT._fields)
 """
     name: BTC-USDT
     significant_digits: None
@@ -5929,7 +5929,7 @@ BTC_USDT = BTC_USDT()
 """
 
 
-class BTRST_BTC(NamedTuple):
+class BTRST_BTC(Symbol):
     """
         name: BTRST-BTC
         significant_digits: None
@@ -5967,7 +5967,7 @@ class BTRST_BTC(NamedTuple):
         return "BTRST-BTC"
 
 
-BTRST_BTC = BTRST_BTC()
+BTRST_BTC = BTRST_BTC(*BTRST_BTC._fields)
 """
     name: BTRST-BTC
     significant_digits: None
@@ -5981,7 +5981,7 @@ BTRST_BTC = BTRST_BTC()
 """
 
 
-class BTRST_EUR(NamedTuple):
+class BTRST_EUR(Symbol):
     """
         name: BTRST-EUR
         significant_digits: None
@@ -6019,7 +6019,7 @@ class BTRST_EUR(NamedTuple):
         return "BTRST-EUR"
 
 
-BTRST_EUR = BTRST_EUR()
+BTRST_EUR = BTRST_EUR(*BTRST_EUR._fields)
 """
     name: BTRST-EUR
     significant_digits: None
@@ -6033,7 +6033,7 @@ BTRST_EUR = BTRST_EUR()
 """
 
 
-class BTRST_GBP(NamedTuple):
+class BTRST_GBP(Symbol):
     """
         name: BTRST-GBP
         significant_digits: None
@@ -6071,7 +6071,7 @@ class BTRST_GBP(NamedTuple):
         return "BTRST-GBP"
 
 
-BTRST_GBP = BTRST_GBP()
+BTRST_GBP = BTRST_GBP(*BTRST_GBP._fields)
 """
     name: BTRST-GBP
     significant_digits: None
@@ -6085,7 +6085,7 @@ BTRST_GBP = BTRST_GBP()
 """
 
 
-class BTRST_USD(NamedTuple):
+class BTRST_USD(Symbol):
     """
         name: BTRST-USD
         significant_digits: None
@@ -6123,7 +6123,7 @@ class BTRST_USD(NamedTuple):
         return "BTRST-USD"
 
 
-BTRST_USD = BTRST_USD()
+BTRST_USD = BTRST_USD(*BTRST_USD._fields)
 """
     name: BTRST-USD
     significant_digits: None
@@ -6137,7 +6137,7 @@ BTRST_USD = BTRST_USD()
 """
 
 
-class BTRST_USDT(NamedTuple):
+class BTRST_USDT(Symbol):
     """
         name: BTRST-USDT
         significant_digits: None
@@ -6175,7 +6175,7 @@ class BTRST_USDT(NamedTuple):
         return "BTRST-USDT"
 
 
-BTRST_USDT = BTRST_USDT()
+BTRST_USDT = BTRST_USDT(*BTRST_USDT._fields)
 """
     name: BTRST-USDT
     significant_digits: None
@@ -6189,7 +6189,7 @@ BTRST_USDT = BTRST_USDT()
 """
 
 
-class BUSD_USD(NamedTuple):
+class BUSD_USD(Symbol):
     """
         name: BUSD-USD
         significant_digits: None
@@ -6227,7 +6227,7 @@ class BUSD_USD(NamedTuple):
         return "BUSD-USD"
 
 
-BUSD_USD = BUSD_USD()
+BUSD_USD = BUSD_USD(*BUSD_USD._fields)
 """
     name: BUSD-USD
     significant_digits: None
@@ -6241,7 +6241,7 @@ BUSD_USD = BUSD_USD()
 """
 
 
-class C98_USD(NamedTuple):
+class C98_USD(Symbol):
     """
         name: C98-USD
         significant_digits: None
@@ -6279,7 +6279,7 @@ class C98_USD(NamedTuple):
         return "C98-USD"
 
 
-C98_USD = C98_USD()
+C98_USD = C98_USD(*C98_USD._fields)
 """
     name: C98-USD
     significant_digits: None
@@ -6293,7 +6293,7 @@ C98_USD = C98_USD()
 """
 
 
-class C98_USDT(NamedTuple):
+class C98_USDT(Symbol):
     """
         name: C98-USDT
         significant_digits: None
@@ -6331,7 +6331,7 @@ class C98_USDT(NamedTuple):
         return "C98-USDT"
 
 
-C98_USDT = C98_USDT()
+C98_USDT = C98_USDT(*C98_USDT._fields)
 """
     name: C98-USDT
     significant_digits: None
@@ -6345,7 +6345,7 @@ C98_USDT = C98_USDT()
 """
 
 
-class CBETH_ETH(NamedTuple):
+class CBETH_ETH(Symbol):
     """
         name: CBETH-ETH
         significant_digits: None
@@ -6383,7 +6383,7 @@ class CBETH_ETH(NamedTuple):
         return "CBETH-ETH"
 
 
-CBETH_ETH = CBETH_ETH()
+CBETH_ETH = CBETH_ETH(*CBETH_ETH._fields)
 """
     name: CBETH-ETH
     significant_digits: None
@@ -6397,7 +6397,7 @@ CBETH_ETH = CBETH_ETH()
 """
 
 
-class CBETH_USD(NamedTuple):
+class CBETH_USD(Symbol):
     """
         name: CBETH-USD
         significant_digits: None
@@ -6435,7 +6435,7 @@ class CBETH_USD(NamedTuple):
         return "CBETH-USD"
 
 
-CBETH_USD = CBETH_USD()
+CBETH_USD = CBETH_USD(*CBETH_USD._fields)
 """
     name: CBETH-USD
     significant_digits: None
@@ -6449,7 +6449,7 @@ CBETH_USD = CBETH_USD()
 """
 
 
-class CELR_USD(NamedTuple):
+class CELR_USD(Symbol):
     """
         name: CELR-USD
         significant_digits: None
@@ -6487,7 +6487,7 @@ class CELR_USD(NamedTuple):
         return "CELR-USD"
 
 
-CELR_USD = CELR_USD()
+CELR_USD = CELR_USD(*CELR_USD._fields)
 """
     name: CELR-USD
     significant_digits: None
@@ -6501,7 +6501,7 @@ CELR_USD = CELR_USD()
 """
 
 
-class CGLD_BTC(NamedTuple):
+class CGLD_BTC(Symbol):
     """
         name: CGLD-BTC
         significant_digits: None
@@ -6539,7 +6539,7 @@ class CGLD_BTC(NamedTuple):
         return "CGLD-BTC"
 
 
-CGLD_BTC = CGLD_BTC()
+CGLD_BTC = CGLD_BTC(*CGLD_BTC._fields)
 """
     name: CGLD-BTC
     significant_digits: None
@@ -6553,7 +6553,7 @@ CGLD_BTC = CGLD_BTC()
 """
 
 
-class CGLD_EUR(NamedTuple):
+class CGLD_EUR(Symbol):
     """
         name: CGLD-EUR
         significant_digits: None
@@ -6591,7 +6591,7 @@ class CGLD_EUR(NamedTuple):
         return "CGLD-EUR"
 
 
-CGLD_EUR = CGLD_EUR()
+CGLD_EUR = CGLD_EUR(*CGLD_EUR._fields)
 """
     name: CGLD-EUR
     significant_digits: None
@@ -6605,7 +6605,7 @@ CGLD_EUR = CGLD_EUR()
 """
 
 
-class CGLD_GBP(NamedTuple):
+class CGLD_GBP(Symbol):
     """
         name: CGLD-GBP
         significant_digits: None
@@ -6643,7 +6643,7 @@ class CGLD_GBP(NamedTuple):
         return "CGLD-GBP"
 
 
-CGLD_GBP = CGLD_GBP()
+CGLD_GBP = CGLD_GBP(*CGLD_GBP._fields)
 """
     name: CGLD-GBP
     significant_digits: None
@@ -6657,7 +6657,7 @@ CGLD_GBP = CGLD_GBP()
 """
 
 
-class CGLD_USD(NamedTuple):
+class CGLD_USD(Symbol):
     """
         name: CGLD-USD
         significant_digits: None
@@ -6695,7 +6695,7 @@ class CGLD_USD(NamedTuple):
         return "CGLD-USD"
 
 
-CGLD_USD = CGLD_USD()
+CGLD_USD = CGLD_USD(*CGLD_USD._fields)
 """
     name: CGLD-USD
     significant_digits: None
@@ -6709,7 +6709,7 @@ CGLD_USD = CGLD_USD()
 """
 
 
-class CHZ_EUR(NamedTuple):
+class CHZ_EUR(Symbol):
     """
         name: CHZ-EUR
         significant_digits: None
@@ -6747,7 +6747,7 @@ class CHZ_EUR(NamedTuple):
         return "CHZ-EUR"
 
 
-CHZ_EUR = CHZ_EUR()
+CHZ_EUR = CHZ_EUR(*CHZ_EUR._fields)
 """
     name: CHZ-EUR
     significant_digits: None
@@ -6761,7 +6761,7 @@ CHZ_EUR = CHZ_EUR()
 """
 
 
-class CHZ_GBP(NamedTuple):
+class CHZ_GBP(Symbol):
     """
         name: CHZ-GBP
         significant_digits: None
@@ -6799,7 +6799,7 @@ class CHZ_GBP(NamedTuple):
         return "CHZ-GBP"
 
 
-CHZ_GBP = CHZ_GBP()
+CHZ_GBP = CHZ_GBP(*CHZ_GBP._fields)
 """
     name: CHZ-GBP
     significant_digits: None
@@ -6813,7 +6813,7 @@ CHZ_GBP = CHZ_GBP()
 """
 
 
-class CHZ_USD(NamedTuple):
+class CHZ_USD(Symbol):
     """
         name: CHZ-USD
         significant_digits: None
@@ -6851,7 +6851,7 @@ class CHZ_USD(NamedTuple):
         return "CHZ-USD"
 
 
-CHZ_USD = CHZ_USD()
+CHZ_USD = CHZ_USD(*CHZ_USD._fields)
 """
     name: CHZ-USD
     significant_digits: None
@@ -6865,7 +6865,7 @@ CHZ_USD = CHZ_USD()
 """
 
 
-class CHZ_USDT(NamedTuple):
+class CHZ_USDT(Symbol):
     """
         name: CHZ-USDT
         significant_digits: None
@@ -6903,7 +6903,7 @@ class CHZ_USDT(NamedTuple):
         return "CHZ-USDT"
 
 
-CHZ_USDT = CHZ_USDT()
+CHZ_USDT = CHZ_USDT(*CHZ_USDT._fields)
 """
     name: CHZ-USDT
     significant_digits: None
@@ -6917,7 +6917,7 @@ CHZ_USDT = CHZ_USDT()
 """
 
 
-class CLV_EUR(NamedTuple):
+class CLV_EUR(Symbol):
     """
         name: CLV-EUR
         significant_digits: None
@@ -6955,7 +6955,7 @@ class CLV_EUR(NamedTuple):
         return "CLV-EUR"
 
 
-CLV_EUR = CLV_EUR()
+CLV_EUR = CLV_EUR(*CLV_EUR._fields)
 """
     name: CLV-EUR
     significant_digits: None
@@ -6969,7 +6969,7 @@ CLV_EUR = CLV_EUR()
 """
 
 
-class CLV_GBP(NamedTuple):
+class CLV_GBP(Symbol):
     """
         name: CLV-GBP
         significant_digits: None
@@ -7007,7 +7007,7 @@ class CLV_GBP(NamedTuple):
         return "CLV-GBP"
 
 
-CLV_GBP = CLV_GBP()
+CLV_GBP = CLV_GBP(*CLV_GBP._fields)
 """
     name: CLV-GBP
     significant_digits: None
@@ -7021,7 +7021,7 @@ CLV_GBP = CLV_GBP()
 """
 
 
-class CLV_USD(NamedTuple):
+class CLV_USD(Symbol):
     """
         name: CLV-USD
         significant_digits: None
@@ -7059,7 +7059,7 @@ class CLV_USD(NamedTuple):
         return "CLV-USD"
 
 
-CLV_USD = CLV_USD()
+CLV_USD = CLV_USD(*CLV_USD._fields)
 """
     name: CLV-USD
     significant_digits: None
@@ -7073,7 +7073,7 @@ CLV_USD = CLV_USD()
 """
 
 
-class CLV_USDT(NamedTuple):
+class CLV_USDT(Symbol):
     """
         name: CLV-USDT
         significant_digits: None
@@ -7111,7 +7111,7 @@ class CLV_USDT(NamedTuple):
         return "CLV-USDT"
 
 
-CLV_USDT = CLV_USDT()
+CLV_USDT = CLV_USDT(*CLV_USDT._fields)
 """
     name: CLV-USDT
     significant_digits: None
@@ -7125,7 +7125,7 @@ CLV_USDT = CLV_USDT()
 """
 
 
-class COMP_BTC(NamedTuple):
+class COMP_BTC(Symbol):
     """
         name: COMP-BTC
         significant_digits: None
@@ -7163,7 +7163,7 @@ class COMP_BTC(NamedTuple):
         return "COMP-BTC"
 
 
-COMP_BTC = COMP_BTC()
+COMP_BTC = COMP_BTC(*COMP_BTC._fields)
 """
     name: COMP-BTC
     significant_digits: None
@@ -7177,7 +7177,7 @@ COMP_BTC = COMP_BTC()
 """
 
 
-class COMP_USD(NamedTuple):
+class COMP_USD(Symbol):
     """
         name: COMP-USD
         significant_digits: None
@@ -7215,7 +7215,7 @@ class COMP_USD(NamedTuple):
         return "COMP-USD"
 
 
-COMP_USD = COMP_USD()
+COMP_USD = COMP_USD(*COMP_USD._fields)
 """
     name: COMP-USD
     significant_digits: None
@@ -7229,7 +7229,7 @@ COMP_USD = COMP_USD()
 """
 
 
-class COTI_USD(NamedTuple):
+class COTI_USD(Symbol):
     """
         name: COTI-USD
         significant_digits: None
@@ -7267,7 +7267,7 @@ class COTI_USD(NamedTuple):
         return "COTI-USD"
 
 
-COTI_USD = COTI_USD()
+COTI_USD = COTI_USD(*COTI_USD._fields)
 """
     name: COTI-USD
     significant_digits: None
@@ -7281,7 +7281,7 @@ COTI_USD = COTI_USD()
 """
 
 
-class COVAL_USD(NamedTuple):
+class COVAL_USD(Symbol):
     """
         name: COVAL-USD
         significant_digits: None
@@ -7319,7 +7319,7 @@ class COVAL_USD(NamedTuple):
         return "COVAL-USD"
 
 
-COVAL_USD = COVAL_USD()
+COVAL_USD = COVAL_USD(*COVAL_USD._fields)
 """
     name: COVAL-USD
     significant_digits: None
@@ -7333,7 +7333,7 @@ COVAL_USD = COVAL_USD()
 """
 
 
-class COVAL_USDT(NamedTuple):
+class COVAL_USDT(Symbol):
     """
         name: COVAL-USDT
         significant_digits: None
@@ -7371,7 +7371,7 @@ class COVAL_USDT(NamedTuple):
         return "COVAL-USDT"
 
 
-COVAL_USDT = COVAL_USDT()
+COVAL_USDT = COVAL_USDT(*COVAL_USDT._fields)
 """
     name: COVAL-USDT
     significant_digits: None
@@ -7385,7 +7385,7 @@ COVAL_USDT = COVAL_USDT()
 """
 
 
-class CRO_EUR(NamedTuple):
+class CRO_EUR(Symbol):
     """
         name: CRO-EUR
         significant_digits: None
@@ -7423,7 +7423,7 @@ class CRO_EUR(NamedTuple):
         return "CRO-EUR"
 
 
-CRO_EUR = CRO_EUR()
+CRO_EUR = CRO_EUR(*CRO_EUR._fields)
 """
     name: CRO-EUR
     significant_digits: None
@@ -7437,7 +7437,7 @@ CRO_EUR = CRO_EUR()
 """
 
 
-class CRO_USD(NamedTuple):
+class CRO_USD(Symbol):
     """
         name: CRO-USD
         significant_digits: None
@@ -7475,7 +7475,7 @@ class CRO_USD(NamedTuple):
         return "CRO-USD"
 
 
-CRO_USD = CRO_USD()
+CRO_USD = CRO_USD(*CRO_USD._fields)
 """
     name: CRO-USD
     significant_digits: None
@@ -7489,7 +7489,7 @@ CRO_USD = CRO_USD()
 """
 
 
-class CRO_USDT(NamedTuple):
+class CRO_USDT(Symbol):
     """
         name: CRO-USDT
         significant_digits: None
@@ -7527,7 +7527,7 @@ class CRO_USDT(NamedTuple):
         return "CRO-USDT"
 
 
-CRO_USDT = CRO_USDT()
+CRO_USDT = CRO_USDT(*CRO_USDT._fields)
 """
     name: CRO-USDT
     significant_digits: None
@@ -7541,7 +7541,7 @@ CRO_USDT = CRO_USDT()
 """
 
 
-class CRPT_USD(NamedTuple):
+class CRPT_USD(Symbol):
     """
         name: CRPT-USD
         significant_digits: None
@@ -7579,7 +7579,7 @@ class CRPT_USD(NamedTuple):
         return "CRPT-USD"
 
 
-CRPT_USD = CRPT_USD()
+CRPT_USD = CRPT_USD(*CRPT_USD._fields)
 """
     name: CRPT-USD
     significant_digits: None
@@ -7593,7 +7593,7 @@ CRPT_USD = CRPT_USD()
 """
 
 
-class CRV_BTC(NamedTuple):
+class CRV_BTC(Symbol):
     """
         name: CRV-BTC
         significant_digits: None
@@ -7631,7 +7631,7 @@ class CRV_BTC(NamedTuple):
         return "CRV-BTC"
 
 
-CRV_BTC = CRV_BTC()
+CRV_BTC = CRV_BTC(*CRV_BTC._fields)
 """
     name: CRV-BTC
     significant_digits: None
@@ -7645,7 +7645,7 @@ CRV_BTC = CRV_BTC()
 """
 
 
-class CRV_EUR(NamedTuple):
+class CRV_EUR(Symbol):
     """
         name: CRV-EUR
         significant_digits: None
@@ -7683,7 +7683,7 @@ class CRV_EUR(NamedTuple):
         return "CRV-EUR"
 
 
-CRV_EUR = CRV_EUR()
+CRV_EUR = CRV_EUR(*CRV_EUR._fields)
 """
     name: CRV-EUR
     significant_digits: None
@@ -7697,7 +7697,7 @@ CRV_EUR = CRV_EUR()
 """
 
 
-class CRV_GBP(NamedTuple):
+class CRV_GBP(Symbol):
     """
         name: CRV-GBP
         significant_digits: None
@@ -7735,7 +7735,7 @@ class CRV_GBP(NamedTuple):
         return "CRV-GBP"
 
 
-CRV_GBP = CRV_GBP()
+CRV_GBP = CRV_GBP(*CRV_GBP._fields)
 """
     name: CRV-GBP
     significant_digits: None
@@ -7749,7 +7749,7 @@ CRV_GBP = CRV_GBP()
 """
 
 
-class CRV_USD(NamedTuple):
+class CRV_USD(Symbol):
     """
         name: CRV-USD
         significant_digits: None
@@ -7787,7 +7787,7 @@ class CRV_USD(NamedTuple):
         return "CRV-USD"
 
 
-CRV_USD = CRV_USD()
+CRV_USD = CRV_USD(*CRV_USD._fields)
 """
     name: CRV-USD
     significant_digits: None
@@ -7801,7 +7801,7 @@ CRV_USD = CRV_USD()
 """
 
 
-class CTSI_BTC(NamedTuple):
+class CTSI_BTC(Symbol):
     """
         name: CTSI-BTC
         significant_digits: None
@@ -7839,7 +7839,7 @@ class CTSI_BTC(NamedTuple):
         return "CTSI-BTC"
 
 
-CTSI_BTC = CTSI_BTC()
+CTSI_BTC = CTSI_BTC(*CTSI_BTC._fields)
 """
     name: CTSI-BTC
     significant_digits: None
@@ -7853,7 +7853,7 @@ CTSI_BTC = CTSI_BTC()
 """
 
 
-class CTSI_USD(NamedTuple):
+class CTSI_USD(Symbol):
     """
         name: CTSI-USD
         significant_digits: None
@@ -7891,7 +7891,7 @@ class CTSI_USD(NamedTuple):
         return "CTSI-USD"
 
 
-CTSI_USD = CTSI_USD()
+CTSI_USD = CTSI_USD(*CTSI_USD._fields)
 """
     name: CTSI-USD
     significant_digits: None
@@ -7905,7 +7905,7 @@ CTSI_USD = CTSI_USD()
 """
 
 
-class CTX_EUR(NamedTuple):
+class CTX_EUR(Symbol):
     """
         name: CTX-EUR
         significant_digits: None
@@ -7943,7 +7943,7 @@ class CTX_EUR(NamedTuple):
         return "CTX-EUR"
 
 
-CTX_EUR = CTX_EUR()
+CTX_EUR = CTX_EUR(*CTX_EUR._fields)
 """
     name: CTX-EUR
     significant_digits: None
@@ -7957,7 +7957,7 @@ CTX_EUR = CTX_EUR()
 """
 
 
-class CTX_USD(NamedTuple):
+class CTX_USD(Symbol):
     """
         name: CTX-USD
         significant_digits: None
@@ -7995,7 +7995,7 @@ class CTX_USD(NamedTuple):
         return "CTX-USD"
 
 
-CTX_USD = CTX_USD()
+CTX_USD = CTX_USD(*CTX_USD._fields)
 """
     name: CTX-USD
     significant_digits: None
@@ -8009,7 +8009,7 @@ CTX_USD = CTX_USD()
 """
 
 
-class CTX_USDT(NamedTuple):
+class CTX_USDT(Symbol):
     """
         name: CTX-USDT
         significant_digits: None
@@ -8047,7 +8047,7 @@ class CTX_USDT(NamedTuple):
         return "CTX-USDT"
 
 
-CTX_USDT = CTX_USDT()
+CTX_USDT = CTX_USDT(*CTX_USDT._fields)
 """
     name: CTX-USDT
     significant_digits: None
@@ -8061,7 +8061,7 @@ CTX_USDT = CTX_USDT()
 """
 
 
-class CVC_USD(NamedTuple):
+class CVC_USD(Symbol):
     """
         name: CVC-USD
         significant_digits: None
@@ -8099,7 +8099,7 @@ class CVC_USD(NamedTuple):
         return "CVC-USD"
 
 
-CVC_USD = CVC_USD()
+CVC_USD = CVC_USD(*CVC_USD._fields)
 """
     name: CVC-USD
     significant_digits: None
@@ -8113,7 +8113,7 @@ CVC_USD = CVC_USD()
 """
 
 
-class CVC_USDC(NamedTuple):
+class CVC_USDC(Symbol):
     """
         name: CVC-USDC
         significant_digits: None
@@ -8151,7 +8151,7 @@ class CVC_USDC(NamedTuple):
         return "CVC-USDC"
 
 
-CVC_USDC = CVC_USDC()
+CVC_USDC = CVC_USDC(*CVC_USDC._fields)
 """
     name: CVC-USDC
     significant_digits: None
@@ -8165,7 +8165,7 @@ CVC_USDC = CVC_USDC()
 """
 
 
-class CVX_USD(NamedTuple):
+class CVX_USD(Symbol):
     """
         name: CVX-USD
         significant_digits: None
@@ -8203,7 +8203,7 @@ class CVX_USD(NamedTuple):
         return "CVX-USD"
 
 
-CVX_USD = CVX_USD()
+CVX_USD = CVX_USD(*CVX_USD._fields)
 """
     name: CVX-USD
     significant_digits: None
@@ -8217,7 +8217,7 @@ CVX_USD = CVX_USD()
 """
 
 
-class DAI_USD(NamedTuple):
+class DAI_USD(Symbol):
     """
         name: DAI-USD
         significant_digits: None
@@ -8255,7 +8255,7 @@ class DAI_USD(NamedTuple):
         return "DAI-USD"
 
 
-DAI_USD = DAI_USD()
+DAI_USD = DAI_USD(*DAI_USD._fields)
 """
     name: DAI-USD
     significant_digits: None
@@ -8269,7 +8269,7 @@ DAI_USD = DAI_USD()
 """
 
 
-class DAI_USDC(NamedTuple):
+class DAI_USDC(Symbol):
     """
         name: DAI-USDC
         significant_digits: None
@@ -8307,7 +8307,7 @@ class DAI_USDC(NamedTuple):
         return "DAI-USDC"
 
 
-DAI_USDC = DAI_USDC()
+DAI_USDC = DAI_USDC(*DAI_USDC._fields)
 """
     name: DAI-USDC
     significant_digits: None
@@ -8321,7 +8321,7 @@ DAI_USDC = DAI_USDC()
 """
 
 
-class DAR_USD(NamedTuple):
+class DAR_USD(Symbol):
     """
         name: DAR-USD
         significant_digits: None
@@ -8359,7 +8359,7 @@ class DAR_USD(NamedTuple):
         return "DAR-USD"
 
 
-DAR_USD = DAR_USD()
+DAR_USD = DAR_USD(*DAR_USD._fields)
 """
     name: DAR-USD
     significant_digits: None
@@ -8373,7 +8373,7 @@ DAR_USD = DAR_USD()
 """
 
 
-class DASH_BTC(NamedTuple):
+class DASH_BTC(Symbol):
     """
         name: DASH-BTC
         significant_digits: None
@@ -8411,7 +8411,7 @@ class DASH_BTC(NamedTuple):
         return "DASH-BTC"
 
 
-DASH_BTC = DASH_BTC()
+DASH_BTC = DASH_BTC(*DASH_BTC._fields)
 """
     name: DASH-BTC
     significant_digits: None
@@ -8425,7 +8425,7 @@ DASH_BTC = DASH_BTC()
 """
 
 
-class DASH_USD(NamedTuple):
+class DASH_USD(Symbol):
     """
         name: DASH-USD
         significant_digits: None
@@ -8463,7 +8463,7 @@ class DASH_USD(NamedTuple):
         return "DASH-USD"
 
 
-DASH_USD = DASH_USD()
+DASH_USD = DASH_USD(*DASH_USD._fields)
 """
     name: DASH-USD
     significant_digits: None
@@ -8477,7 +8477,7 @@ DASH_USD = DASH_USD()
 """
 
 
-class DDX_EUR(NamedTuple):
+class DDX_EUR(Symbol):
     """
         name: DDX-EUR
         significant_digits: None
@@ -8515,7 +8515,7 @@ class DDX_EUR(NamedTuple):
         return "DDX-EUR"
 
 
-DDX_EUR = DDX_EUR()
+DDX_EUR = DDX_EUR(*DDX_EUR._fields)
 """
     name: DDX-EUR
     significant_digits: None
@@ -8529,7 +8529,7 @@ DDX_EUR = DDX_EUR()
 """
 
 
-class DDX_USD(NamedTuple):
+class DDX_USD(Symbol):
     """
         name: DDX-USD
         significant_digits: None
@@ -8567,7 +8567,7 @@ class DDX_USD(NamedTuple):
         return "DDX-USD"
 
 
-DDX_USD = DDX_USD()
+DDX_USD = DDX_USD(*DDX_USD._fields)
 """
     name: DDX-USD
     significant_digits: None
@@ -8581,7 +8581,7 @@ DDX_USD = DDX_USD()
 """
 
 
-class DDX_USDT(NamedTuple):
+class DDX_USDT(Symbol):
     """
         name: DDX-USDT
         significant_digits: None
@@ -8619,7 +8619,7 @@ class DDX_USDT(NamedTuple):
         return "DDX-USDT"
 
 
-DDX_USDT = DDX_USDT()
+DDX_USDT = DDX_USDT(*DDX_USDT._fields)
 """
     name: DDX-USDT
     significant_digits: None
@@ -8633,7 +8633,7 @@ DDX_USDT = DDX_USDT()
 """
 
 
-class DESO_EUR(NamedTuple):
+class DESO_EUR(Symbol):
     """
         name: DESO-EUR
         significant_digits: None
@@ -8671,7 +8671,7 @@ class DESO_EUR(NamedTuple):
         return "DESO-EUR"
 
 
-DESO_EUR = DESO_EUR()
+DESO_EUR = DESO_EUR(*DESO_EUR._fields)
 """
     name: DESO-EUR
     significant_digits: None
@@ -8685,7 +8685,7 @@ DESO_EUR = DESO_EUR()
 """
 
 
-class DESO_USD(NamedTuple):
+class DESO_USD(Symbol):
     """
         name: DESO-USD
         significant_digits: None
@@ -8723,7 +8723,7 @@ class DESO_USD(NamedTuple):
         return "DESO-USD"
 
 
-DESO_USD = DESO_USD()
+DESO_USD = DESO_USD(*DESO_USD._fields)
 """
     name: DESO-USD
     significant_digits: None
@@ -8737,7 +8737,7 @@ DESO_USD = DESO_USD()
 """
 
 
-class DESO_USDT(NamedTuple):
+class DESO_USDT(Symbol):
     """
         name: DESO-USDT
         significant_digits: None
@@ -8775,7 +8775,7 @@ class DESO_USDT(NamedTuple):
         return "DESO-USDT"
 
 
-DESO_USDT = DESO_USDT()
+DESO_USDT = DESO_USDT(*DESO_USDT._fields)
 """
     name: DESO-USDT
     significant_digits: None
@@ -8789,7 +8789,7 @@ DESO_USDT = DESO_USDT()
 """
 
 
-class DEXT_USD(NamedTuple):
+class DEXT_USD(Symbol):
     """
         name: DEXT-USD
         significant_digits: None
@@ -8827,7 +8827,7 @@ class DEXT_USD(NamedTuple):
         return "DEXT-USD"
 
 
-DEXT_USD = DEXT_USD()
+DEXT_USD = DEXT_USD(*DEXT_USD._fields)
 """
     name: DEXT-USD
     significant_digits: None
@@ -8841,7 +8841,7 @@ DEXT_USD = DEXT_USD()
 """
 
 
-class DIA_EUR(NamedTuple):
+class DIA_EUR(Symbol):
     """
         name: DIA-EUR
         significant_digits: None
@@ -8879,7 +8879,7 @@ class DIA_EUR(NamedTuple):
         return "DIA-EUR"
 
 
-DIA_EUR = DIA_EUR()
+DIA_EUR = DIA_EUR(*DIA_EUR._fields)
 """
     name: DIA-EUR
     significant_digits: None
@@ -8893,7 +8893,7 @@ DIA_EUR = DIA_EUR()
 """
 
 
-class DIA_USD(NamedTuple):
+class DIA_USD(Symbol):
     """
         name: DIA-USD
         significant_digits: None
@@ -8931,7 +8931,7 @@ class DIA_USD(NamedTuple):
         return "DIA-USD"
 
 
-DIA_USD = DIA_USD()
+DIA_USD = DIA_USD(*DIA_USD._fields)
 """
     name: DIA-USD
     significant_digits: None
@@ -8945,7 +8945,7 @@ DIA_USD = DIA_USD()
 """
 
 
-class DIA_USDT(NamedTuple):
+class DIA_USDT(Symbol):
     """
         name: DIA-USDT
         significant_digits: None
@@ -8983,7 +8983,7 @@ class DIA_USDT(NamedTuple):
         return "DIA-USDT"
 
 
-DIA_USDT = DIA_USDT()
+DIA_USDT = DIA_USDT(*DIA_USDT._fields)
 """
     name: DIA-USDT
     significant_digits: None
@@ -8997,7 +8997,7 @@ DIA_USDT = DIA_USDT()
 """
 
 
-class DIMO_USD(NamedTuple):
+class DIMO_USD(Symbol):
     """
         name: DIMO-USD
         significant_digits: None
@@ -9035,7 +9035,7 @@ class DIMO_USD(NamedTuple):
         return "DIMO-USD"
 
 
-DIMO_USD = DIMO_USD()
+DIMO_USD = DIMO_USD(*DIMO_USD._fields)
 """
     name: DIMO-USD
     significant_digits: None
@@ -9049,7 +9049,7 @@ DIMO_USD = DIMO_USD()
 """
 
 
-class DNT_USD(NamedTuple):
+class DNT_USD(Symbol):
     """
         name: DNT-USD
         significant_digits: None
@@ -9087,7 +9087,7 @@ class DNT_USD(NamedTuple):
         return "DNT-USD"
 
 
-DNT_USD = DNT_USD()
+DNT_USD = DNT_USD(*DNT_USD._fields)
 """
     name: DNT-USD
     significant_digits: None
@@ -9101,7 +9101,7 @@ DNT_USD = DNT_USD()
 """
 
 
-class DNT_USDC(NamedTuple):
+class DNT_USDC(Symbol):
     """
         name: DNT-USDC
         significant_digits: None
@@ -9139,7 +9139,7 @@ class DNT_USDC(NamedTuple):
         return "DNT-USDC"
 
 
-DNT_USDC = DNT_USDC()
+DNT_USDC = DNT_USDC(*DNT_USDC._fields)
 """
     name: DNT-USDC
     significant_digits: None
@@ -9153,7 +9153,7 @@ DNT_USDC = DNT_USDC()
 """
 
 
-class DOGE_BTC(NamedTuple):
+class DOGE_BTC(Symbol):
     """
         name: DOGE-BTC
         significant_digits: None
@@ -9191,7 +9191,7 @@ class DOGE_BTC(NamedTuple):
         return "DOGE-BTC"
 
 
-DOGE_BTC = DOGE_BTC()
+DOGE_BTC = DOGE_BTC(*DOGE_BTC._fields)
 """
     name: DOGE-BTC
     significant_digits: None
@@ -9205,7 +9205,7 @@ DOGE_BTC = DOGE_BTC()
 """
 
 
-class DOGE_EUR(NamedTuple):
+class DOGE_EUR(Symbol):
     """
         name: DOGE-EUR
         significant_digits: None
@@ -9243,7 +9243,7 @@ class DOGE_EUR(NamedTuple):
         return "DOGE-EUR"
 
 
-DOGE_EUR = DOGE_EUR()
+DOGE_EUR = DOGE_EUR(*DOGE_EUR._fields)
 """
     name: DOGE-EUR
     significant_digits: None
@@ -9257,7 +9257,7 @@ DOGE_EUR = DOGE_EUR()
 """
 
 
-class DOGE_GBP(NamedTuple):
+class DOGE_GBP(Symbol):
     """
         name: DOGE-GBP
         significant_digits: None
@@ -9295,7 +9295,7 @@ class DOGE_GBP(NamedTuple):
         return "DOGE-GBP"
 
 
-DOGE_GBP = DOGE_GBP()
+DOGE_GBP = DOGE_GBP(*DOGE_GBP._fields)
 """
     name: DOGE-GBP
     significant_digits: None
@@ -9309,7 +9309,7 @@ DOGE_GBP = DOGE_GBP()
 """
 
 
-class DOGE_USD(NamedTuple):
+class DOGE_USD(Symbol):
     """
         name: DOGE-USD
         significant_digits: None
@@ -9347,7 +9347,7 @@ class DOGE_USD(NamedTuple):
         return "DOGE-USD"
 
 
-DOGE_USD = DOGE_USD()
+DOGE_USD = DOGE_USD(*DOGE_USD._fields)
 """
     name: DOGE-USD
     significant_digits: None
@@ -9361,7 +9361,7 @@ DOGE_USD = DOGE_USD()
 """
 
 
-class DOGE_USDT(NamedTuple):
+class DOGE_USDT(Symbol):
     """
         name: DOGE-USDT
         significant_digits: None
@@ -9399,7 +9399,7 @@ class DOGE_USDT(NamedTuple):
         return "DOGE-USDT"
 
 
-DOGE_USDT = DOGE_USDT()
+DOGE_USDT = DOGE_USDT(*DOGE_USDT._fields)
 """
     name: DOGE-USDT
     significant_digits: None
@@ -9413,7 +9413,7 @@ DOGE_USDT = DOGE_USDT()
 """
 
 
-class DOT_BTC(NamedTuple):
+class DOT_BTC(Symbol):
     """
         name: DOT-BTC
         significant_digits: None
@@ -9451,7 +9451,7 @@ class DOT_BTC(NamedTuple):
         return "DOT-BTC"
 
 
-DOT_BTC = DOT_BTC()
+DOT_BTC = DOT_BTC(*DOT_BTC._fields)
 """
     name: DOT-BTC
     significant_digits: None
@@ -9465,7 +9465,7 @@ DOT_BTC = DOT_BTC()
 """
 
 
-class DOT_EUR(NamedTuple):
+class DOT_EUR(Symbol):
     """
         name: DOT-EUR
         significant_digits: None
@@ -9503,7 +9503,7 @@ class DOT_EUR(NamedTuple):
         return "DOT-EUR"
 
 
-DOT_EUR = DOT_EUR()
+DOT_EUR = DOT_EUR(*DOT_EUR._fields)
 """
     name: DOT-EUR
     significant_digits: None
@@ -9517,7 +9517,7 @@ DOT_EUR = DOT_EUR()
 """
 
 
-class DOT_GBP(NamedTuple):
+class DOT_GBP(Symbol):
     """
         name: DOT-GBP
         significant_digits: None
@@ -9555,7 +9555,7 @@ class DOT_GBP(NamedTuple):
         return "DOT-GBP"
 
 
-DOT_GBP = DOT_GBP()
+DOT_GBP = DOT_GBP(*DOT_GBP._fields)
 """
     name: DOT-GBP
     significant_digits: None
@@ -9569,7 +9569,7 @@ DOT_GBP = DOT_GBP()
 """
 
 
-class DOT_USD(NamedTuple):
+class DOT_USD(Symbol):
     """
         name: DOT-USD
         significant_digits: None
@@ -9607,7 +9607,7 @@ class DOT_USD(NamedTuple):
         return "DOT-USD"
 
 
-DOT_USD = DOT_USD()
+DOT_USD = DOT_USD(*DOT_USD._fields)
 """
     name: DOT-USD
     significant_digits: None
@@ -9621,7 +9621,7 @@ DOT_USD = DOT_USD()
 """
 
 
-class DOT_USDT(NamedTuple):
+class DOT_USDT(Symbol):
     """
         name: DOT-USDT
         significant_digits: None
@@ -9659,7 +9659,7 @@ class DOT_USDT(NamedTuple):
         return "DOT-USDT"
 
 
-DOT_USDT = DOT_USDT()
+DOT_USDT = DOT_USDT(*DOT_USDT._fields)
 """
     name: DOT-USDT
     significant_digits: None
@@ -9673,7 +9673,7 @@ DOT_USDT = DOT_USDT()
 """
 
 
-class DREP_USD(NamedTuple):
+class DREP_USD(Symbol):
     """
         name: DREP-USD
         significant_digits: None
@@ -9711,7 +9711,7 @@ class DREP_USD(NamedTuple):
         return "DREP-USD"
 
 
-DREP_USD = DREP_USD()
+DREP_USD = DREP_USD(*DREP_USD._fields)
 """
     name: DREP-USD
     significant_digits: None
@@ -9725,7 +9725,7 @@ DREP_USD = DREP_USD()
 """
 
 
-class DREP_USDT(NamedTuple):
+class DREP_USDT(Symbol):
     """
         name: DREP-USDT
         significant_digits: None
@@ -9763,7 +9763,7 @@ class DREP_USDT(NamedTuple):
         return "DREP-USDT"
 
 
-DREP_USDT = DREP_USDT()
+DREP_USDT = DREP_USDT(*DREP_USDT._fields)
 """
     name: DREP-USDT
     significant_digits: None
@@ -9777,7 +9777,7 @@ DREP_USDT = DREP_USDT()
 """
 
 
-class DYP_USD(NamedTuple):
+class DYP_USD(Symbol):
     """
         name: DYP-USD
         significant_digits: None
@@ -9815,7 +9815,7 @@ class DYP_USD(NamedTuple):
         return "DYP-USD"
 
 
-DYP_USD = DYP_USD()
+DYP_USD = DYP_USD(*DYP_USD._fields)
 """
     name: DYP-USD
     significant_digits: None
@@ -9829,7 +9829,7 @@ DYP_USD = DYP_USD()
 """
 
 
-class DYP_USDT(NamedTuple):
+class DYP_USDT(Symbol):
     """
         name: DYP-USDT
         significant_digits: None
@@ -9867,7 +9867,7 @@ class DYP_USDT(NamedTuple):
         return "DYP-USDT"
 
 
-DYP_USDT = DYP_USDT()
+DYP_USDT = DYP_USDT(*DYP_USDT._fields)
 """
     name: DYP-USDT
     significant_digits: None
@@ -9881,7 +9881,7 @@ DYP_USDT = DYP_USDT()
 """
 
 
-class EGLD_USD(NamedTuple):
+class EGLD_USD(Symbol):
     """
         name: EGLD-USD
         significant_digits: None
@@ -9919,7 +9919,7 @@ class EGLD_USD(NamedTuple):
         return "EGLD-USD"
 
 
-EGLD_USD = EGLD_USD()
+EGLD_USD = EGLD_USD(*EGLD_USD._fields)
 """
     name: EGLD-USD
     significant_digits: None
@@ -9933,7 +9933,7 @@ EGLD_USD = EGLD_USD()
 """
 
 
-class ELA_USD(NamedTuple):
+class ELA_USD(Symbol):
     """
         name: ELA-USD
         significant_digits: None
@@ -9971,7 +9971,7 @@ class ELA_USD(NamedTuple):
         return "ELA-USD"
 
 
-ELA_USD = ELA_USD()
+ELA_USD = ELA_USD(*ELA_USD._fields)
 """
     name: ELA-USD
     significant_digits: None
@@ -9985,7 +9985,7 @@ ELA_USD = ELA_USD()
 """
 
 
-class ELA_USDT(NamedTuple):
+class ELA_USDT(Symbol):
     """
         name: ELA-USDT
         significant_digits: None
@@ -10023,7 +10023,7 @@ class ELA_USDT(NamedTuple):
         return "ELA-USDT"
 
 
-ELA_USDT = ELA_USDT()
+ELA_USDT = ELA_USDT(*ELA_USDT._fields)
 """
     name: ELA-USDT
     significant_digits: None
@@ -10037,7 +10037,7 @@ ELA_USDT = ELA_USDT()
 """
 
 
-class ENJ_BTC(NamedTuple):
+class ENJ_BTC(Symbol):
     """
         name: ENJ-BTC
         significant_digits: None
@@ -10075,7 +10075,7 @@ class ENJ_BTC(NamedTuple):
         return "ENJ-BTC"
 
 
-ENJ_BTC = ENJ_BTC()
+ENJ_BTC = ENJ_BTC(*ENJ_BTC._fields)
 """
     name: ENJ-BTC
     significant_digits: None
@@ -10089,7 +10089,7 @@ ENJ_BTC = ENJ_BTC()
 """
 
 
-class ENJ_USD(NamedTuple):
+class ENJ_USD(Symbol):
     """
         name: ENJ-USD
         significant_digits: None
@@ -10127,7 +10127,7 @@ class ENJ_USD(NamedTuple):
         return "ENJ-USD"
 
 
-ENJ_USD = ENJ_USD()
+ENJ_USD = ENJ_USD(*ENJ_USD._fields)
 """
     name: ENJ-USD
     significant_digits: None
@@ -10141,7 +10141,7 @@ ENJ_USD = ENJ_USD()
 """
 
 
-class ENJ_USDT(NamedTuple):
+class ENJ_USDT(Symbol):
     """
         name: ENJ-USDT
         significant_digits: None
@@ -10179,7 +10179,7 @@ class ENJ_USDT(NamedTuple):
         return "ENJ-USDT"
 
 
-ENJ_USDT = ENJ_USDT()
+ENJ_USDT = ENJ_USDT(*ENJ_USDT._fields)
 """
     name: ENJ-USDT
     significant_digits: None
@@ -10193,7 +10193,7 @@ ENJ_USDT = ENJ_USDT()
 """
 
 
-class ENS_EUR(NamedTuple):
+class ENS_EUR(Symbol):
     """
         name: ENS-EUR
         significant_digits: None
@@ -10231,7 +10231,7 @@ class ENS_EUR(NamedTuple):
         return "ENS-EUR"
 
 
-ENS_EUR = ENS_EUR()
+ENS_EUR = ENS_EUR(*ENS_EUR._fields)
 """
     name: ENS-EUR
     significant_digits: None
@@ -10245,7 +10245,7 @@ ENS_EUR = ENS_EUR()
 """
 
 
-class ENS_USD(NamedTuple):
+class ENS_USD(Symbol):
     """
         name: ENS-USD
         significant_digits: None
@@ -10283,7 +10283,7 @@ class ENS_USD(NamedTuple):
         return "ENS-USD"
 
 
-ENS_USD = ENS_USD()
+ENS_USD = ENS_USD(*ENS_USD._fields)
 """
     name: ENS-USD
     significant_digits: None
@@ -10297,7 +10297,7 @@ ENS_USD = ENS_USD()
 """
 
 
-class ENS_USDT(NamedTuple):
+class ENS_USDT(Symbol):
     """
         name: ENS-USDT
         significant_digits: None
@@ -10335,7 +10335,7 @@ class ENS_USDT(NamedTuple):
         return "ENS-USDT"
 
 
-ENS_USDT = ENS_USDT()
+ENS_USDT = ENS_USDT(*ENS_USDT._fields)
 """
     name: ENS-USDT
     significant_digits: None
@@ -10349,7 +10349,7 @@ ENS_USDT = ENS_USDT()
 """
 
 
-class EOS_BTC(NamedTuple):
+class EOS_BTC(Symbol):
     """
         name: EOS-BTC
         significant_digits: None
@@ -10387,7 +10387,7 @@ class EOS_BTC(NamedTuple):
         return "EOS-BTC"
 
 
-EOS_BTC = EOS_BTC()
+EOS_BTC = EOS_BTC(*EOS_BTC._fields)
 """
     name: EOS-BTC
     significant_digits: None
@@ -10401,7 +10401,7 @@ EOS_BTC = EOS_BTC()
 """
 
 
-class EOS_EUR(NamedTuple):
+class EOS_EUR(Symbol):
     """
         name: EOS-EUR
         significant_digits: None
@@ -10439,7 +10439,7 @@ class EOS_EUR(NamedTuple):
         return "EOS-EUR"
 
 
-EOS_EUR = EOS_EUR()
+EOS_EUR = EOS_EUR(*EOS_EUR._fields)
 """
     name: EOS-EUR
     significant_digits: None
@@ -10453,7 +10453,7 @@ EOS_EUR = EOS_EUR()
 """
 
 
-class EOS_USD(NamedTuple):
+class EOS_USD(Symbol):
     """
         name: EOS-USD
         significant_digits: None
@@ -10491,7 +10491,7 @@ class EOS_USD(NamedTuple):
         return "EOS-USD"
 
 
-EOS_USD = EOS_USD()
+EOS_USD = EOS_USD(*EOS_USD._fields)
 """
     name: EOS-USD
     significant_digits: None
@@ -10505,7 +10505,7 @@ EOS_USD = EOS_USD()
 """
 
 
-class ERN_EUR(NamedTuple):
+class ERN_EUR(Symbol):
     """
         name: ERN-EUR
         significant_digits: None
@@ -10543,7 +10543,7 @@ class ERN_EUR(NamedTuple):
         return "ERN-EUR"
 
 
-ERN_EUR = ERN_EUR()
+ERN_EUR = ERN_EUR(*ERN_EUR._fields)
 """
     name: ERN-EUR
     significant_digits: None
@@ -10557,7 +10557,7 @@ ERN_EUR = ERN_EUR()
 """
 
 
-class ERN_USD(NamedTuple):
+class ERN_USD(Symbol):
     """
         name: ERN-USD
         significant_digits: None
@@ -10595,7 +10595,7 @@ class ERN_USD(NamedTuple):
         return "ERN-USD"
 
 
-ERN_USD = ERN_USD()
+ERN_USD = ERN_USD(*ERN_USD._fields)
 """
     name: ERN-USD
     significant_digits: None
@@ -10609,7 +10609,7 @@ ERN_USD = ERN_USD()
 """
 
 
-class ERN_USDT(NamedTuple):
+class ERN_USDT(Symbol):
     """
         name: ERN-USDT
         significant_digits: None
@@ -10647,7 +10647,7 @@ class ERN_USDT(NamedTuple):
         return "ERN-USDT"
 
 
-ERN_USDT = ERN_USDT()
+ERN_USDT = ERN_USDT(*ERN_USDT._fields)
 """
     name: ERN-USDT
     significant_digits: None
@@ -10661,7 +10661,7 @@ ERN_USDT = ERN_USDT()
 """
 
 
-class ETC_BTC(NamedTuple):
+class ETC_BTC(Symbol):
     """
         name: ETC-BTC
         significant_digits: None
@@ -10699,7 +10699,7 @@ class ETC_BTC(NamedTuple):
         return "ETC-BTC"
 
 
-ETC_BTC = ETC_BTC()
+ETC_BTC = ETC_BTC(*ETC_BTC._fields)
 """
     name: ETC-BTC
     significant_digits: None
@@ -10713,7 +10713,7 @@ ETC_BTC = ETC_BTC()
 """
 
 
-class ETC_EUR(NamedTuple):
+class ETC_EUR(Symbol):
     """
         name: ETC-EUR
         significant_digits: None
@@ -10751,7 +10751,7 @@ class ETC_EUR(NamedTuple):
         return "ETC-EUR"
 
 
-ETC_EUR = ETC_EUR()
+ETC_EUR = ETC_EUR(*ETC_EUR._fields)
 """
     name: ETC-EUR
     significant_digits: None
@@ -10765,7 +10765,7 @@ ETC_EUR = ETC_EUR()
 """
 
 
-class ETC_GBP(NamedTuple):
+class ETC_GBP(Symbol):
     """
         name: ETC-GBP
         significant_digits: None
@@ -10803,7 +10803,7 @@ class ETC_GBP(NamedTuple):
         return "ETC-GBP"
 
 
-ETC_GBP = ETC_GBP()
+ETC_GBP = ETC_GBP(*ETC_GBP._fields)
 """
     name: ETC-GBP
     significant_digits: None
@@ -10817,7 +10817,7 @@ ETC_GBP = ETC_GBP()
 """
 
 
-class ETC_USD(NamedTuple):
+class ETC_USD(Symbol):
     """
         name: ETC-USD
         significant_digits: None
@@ -10855,7 +10855,7 @@ class ETC_USD(NamedTuple):
         return "ETC-USD"
 
 
-ETC_USD = ETC_USD()
+ETC_USD = ETC_USD(*ETC_USD._fields)
 """
     name: ETC-USD
     significant_digits: None
@@ -10869,7 +10869,7 @@ ETC_USD = ETC_USD()
 """
 
 
-class ETH_BTC(NamedTuple):
+class ETH_BTC(Symbol):
     """
         name: ETH-BTC
         significant_digits: None
@@ -10907,7 +10907,7 @@ class ETH_BTC(NamedTuple):
         return "ETH-BTC"
 
 
-ETH_BTC = ETH_BTC()
+ETH_BTC = ETH_BTC(*ETH_BTC._fields)
 """
     name: ETH-BTC
     significant_digits: None
@@ -10921,7 +10921,7 @@ ETH_BTC = ETH_BTC()
 """
 
 
-class ETH_DAI(NamedTuple):
+class ETH_DAI(Symbol):
     """
         name: ETH-DAI
         significant_digits: None
@@ -10959,7 +10959,7 @@ class ETH_DAI(NamedTuple):
         return "ETH-DAI"
 
 
-ETH_DAI = ETH_DAI()
+ETH_DAI = ETH_DAI(*ETH_DAI._fields)
 """
     name: ETH-DAI
     significant_digits: None
@@ -10973,7 +10973,7 @@ ETH_DAI = ETH_DAI()
 """
 
 
-class ETH_EUR(NamedTuple):
+class ETH_EUR(Symbol):
     """
         name: ETH-EUR
         significant_digits: None
@@ -11011,7 +11011,7 @@ class ETH_EUR(NamedTuple):
         return "ETH-EUR"
 
 
-ETH_EUR = ETH_EUR()
+ETH_EUR = ETH_EUR(*ETH_EUR._fields)
 """
     name: ETH-EUR
     significant_digits: None
@@ -11025,7 +11025,7 @@ ETH_EUR = ETH_EUR()
 """
 
 
-class ETH_GBP(NamedTuple):
+class ETH_GBP(Symbol):
     """
         name: ETH-GBP
         significant_digits: None
@@ -11063,7 +11063,7 @@ class ETH_GBP(NamedTuple):
         return "ETH-GBP"
 
 
-ETH_GBP = ETH_GBP()
+ETH_GBP = ETH_GBP(*ETH_GBP._fields)
 """
     name: ETH-GBP
     significant_digits: None
@@ -11077,7 +11077,7 @@ ETH_GBP = ETH_GBP()
 """
 
 
-class ETH_USD(NamedTuple):
+class ETH_USD(Symbol):
     """
         name: ETH-USD
         significant_digits: None
@@ -11115,7 +11115,7 @@ class ETH_USD(NamedTuple):
         return "ETH-USD"
 
 
-ETH_USD = ETH_USD()
+ETH_USD = ETH_USD(*ETH_USD._fields)
 """
     name: ETH-USD
     significant_digits: None
@@ -11129,7 +11129,7 @@ ETH_USD = ETH_USD()
 """
 
 
-class ETH_USDC(NamedTuple):
+class ETH_USDC(Symbol):
     """
         name: ETH-USDC
         significant_digits: None
@@ -11167,7 +11167,7 @@ class ETH_USDC(NamedTuple):
         return "ETH-USDC"
 
 
-ETH_USDC = ETH_USDC()
+ETH_USDC = ETH_USDC(*ETH_USDC._fields)
 """
     name: ETH-USDC
     significant_digits: None
@@ -11181,7 +11181,7 @@ ETH_USDC = ETH_USDC()
 """
 
 
-class ETH_USDT(NamedTuple):
+class ETH_USDT(Symbol):
     """
         name: ETH-USDT
         significant_digits: None
@@ -11219,7 +11219,7 @@ class ETH_USDT(NamedTuple):
         return "ETH-USDT"
 
 
-ETH_USDT = ETH_USDT()
+ETH_USDT = ETH_USDT(*ETH_USDT._fields)
 """
     name: ETH-USDT
     significant_digits: None
@@ -11233,7 +11233,7 @@ ETH_USDT = ETH_USDT()
 """
 
 
-class EUROC_EUR(NamedTuple):
+class EUROC_EUR(Symbol):
     """
         name: EUROC-EUR
         significant_digits: None
@@ -11271,7 +11271,7 @@ class EUROC_EUR(NamedTuple):
         return "EUROC-EUR"
 
 
-EUROC_EUR = EUROC_EUR()
+EUROC_EUR = EUROC_EUR(*EUROC_EUR._fields)
 """
     name: EUROC-EUR
     significant_digits: None
@@ -11285,7 +11285,7 @@ EUROC_EUR = EUROC_EUR()
 """
 
 
-class EUROC_USD(NamedTuple):
+class EUROC_USD(Symbol):
     """
         name: EUROC-USD
         significant_digits: None
@@ -11323,7 +11323,7 @@ class EUROC_USD(NamedTuple):
         return "EUROC-USD"
 
 
-EUROC_USD = EUROC_USD()
+EUROC_USD = EUROC_USD(*EUROC_USD._fields)
 """
     name: EUROC-USD
     significant_digits: None
@@ -11337,7 +11337,7 @@ EUROC_USD = EUROC_USD()
 """
 
 
-class FARM_USD(NamedTuple):
+class FARM_USD(Symbol):
     """
         name: FARM-USD
         significant_digits: None
@@ -11375,7 +11375,7 @@ class FARM_USD(NamedTuple):
         return "FARM-USD"
 
 
-FARM_USD = FARM_USD()
+FARM_USD = FARM_USD(*FARM_USD._fields)
 """
     name: FARM-USD
     significant_digits: None
@@ -11389,7 +11389,7 @@ FARM_USD = FARM_USD()
 """
 
 
-class FARM_USDT(NamedTuple):
+class FARM_USDT(Symbol):
     """
         name: FARM-USDT
         significant_digits: None
@@ -11427,7 +11427,7 @@ class FARM_USDT(NamedTuple):
         return "FARM-USDT"
 
 
-FARM_USDT = FARM_USDT()
+FARM_USDT = FARM_USDT(*FARM_USDT._fields)
 """
     name: FARM-USDT
     significant_digits: None
@@ -11441,7 +11441,7 @@ FARM_USDT = FARM_USDT()
 """
 
 
-class FET_USD(NamedTuple):
+class FET_USD(Symbol):
     """
         name: FET-USD
         significant_digits: None
@@ -11479,7 +11479,7 @@ class FET_USD(NamedTuple):
         return "FET-USD"
 
 
-FET_USD = FET_USD()
+FET_USD = FET_USD(*FET_USD._fields)
 """
     name: FET-USD
     significant_digits: None
@@ -11493,7 +11493,7 @@ FET_USD = FET_USD()
 """
 
 
-class FET_USDT(NamedTuple):
+class FET_USDT(Symbol):
     """
         name: FET-USDT
         significant_digits: None
@@ -11531,7 +11531,7 @@ class FET_USDT(NamedTuple):
         return "FET-USDT"
 
 
-FET_USDT = FET_USDT()
+FET_USDT = FET_USDT(*FET_USDT._fields)
 """
     name: FET-USDT
     significant_digits: None
@@ -11545,7 +11545,7 @@ FET_USDT = FET_USDT()
 """
 
 
-class FIDA_EUR(NamedTuple):
+class FIDA_EUR(Symbol):
     """
         name: FIDA-EUR
         significant_digits: None
@@ -11583,7 +11583,7 @@ class FIDA_EUR(NamedTuple):
         return "FIDA-EUR"
 
 
-FIDA_EUR = FIDA_EUR()
+FIDA_EUR = FIDA_EUR(*FIDA_EUR._fields)
 """
     name: FIDA-EUR
     significant_digits: None
@@ -11597,7 +11597,7 @@ FIDA_EUR = FIDA_EUR()
 """
 
 
-class FIDA_USD(NamedTuple):
+class FIDA_USD(Symbol):
     """
         name: FIDA-USD
         significant_digits: None
@@ -11635,7 +11635,7 @@ class FIDA_USD(NamedTuple):
         return "FIDA-USD"
 
 
-FIDA_USD = FIDA_USD()
+FIDA_USD = FIDA_USD(*FIDA_USD._fields)
 """
     name: FIDA-USD
     significant_digits: None
@@ -11649,7 +11649,7 @@ FIDA_USD = FIDA_USD()
 """
 
 
-class FIDA_USDT(NamedTuple):
+class FIDA_USDT(Symbol):
     """
         name: FIDA-USDT
         significant_digits: None
@@ -11687,7 +11687,7 @@ class FIDA_USDT(NamedTuple):
         return "FIDA-USDT"
 
 
-FIDA_USDT = FIDA_USDT()
+FIDA_USDT = FIDA_USDT(*FIDA_USDT._fields)
 """
     name: FIDA-USDT
     significant_digits: None
@@ -11701,7 +11701,7 @@ FIDA_USDT = FIDA_USDT()
 """
 
 
-class FIL_BTC(NamedTuple):
+class FIL_BTC(Symbol):
     """
         name: FIL-BTC
         significant_digits: None
@@ -11739,7 +11739,7 @@ class FIL_BTC(NamedTuple):
         return "FIL-BTC"
 
 
-FIL_BTC = FIL_BTC()
+FIL_BTC = FIL_BTC(*FIL_BTC._fields)
 """
     name: FIL-BTC
     significant_digits: None
@@ -11753,7 +11753,7 @@ FIL_BTC = FIL_BTC()
 """
 
 
-class FIL_EUR(NamedTuple):
+class FIL_EUR(Symbol):
     """
         name: FIL-EUR
         significant_digits: None
@@ -11791,7 +11791,7 @@ class FIL_EUR(NamedTuple):
         return "FIL-EUR"
 
 
-FIL_EUR = FIL_EUR()
+FIL_EUR = FIL_EUR(*FIL_EUR._fields)
 """
     name: FIL-EUR
     significant_digits: None
@@ -11805,7 +11805,7 @@ FIL_EUR = FIL_EUR()
 """
 
 
-class FIL_GBP(NamedTuple):
+class FIL_GBP(Symbol):
     """
         name: FIL-GBP
         significant_digits: None
@@ -11843,7 +11843,7 @@ class FIL_GBP(NamedTuple):
         return "FIL-GBP"
 
 
-FIL_GBP = FIL_GBP()
+FIL_GBP = FIL_GBP(*FIL_GBP._fields)
 """
     name: FIL-GBP
     significant_digits: None
@@ -11857,7 +11857,7 @@ FIL_GBP = FIL_GBP()
 """
 
 
-class FIL_USD(NamedTuple):
+class FIL_USD(Symbol):
     """
         name: FIL-USD
         significant_digits: None
@@ -11895,7 +11895,7 @@ class FIL_USD(NamedTuple):
         return "FIL-USD"
 
 
-FIL_USD = FIL_USD()
+FIL_USD = FIL_USD(*FIL_USD._fields)
 """
     name: FIL-USD
     significant_digits: None
@@ -11909,7 +11909,7 @@ FIL_USD = FIL_USD()
 """
 
 
-class FIS_USD(NamedTuple):
+class FIS_USD(Symbol):
     """
         name: FIS-USD
         significant_digits: None
@@ -11947,7 +11947,7 @@ class FIS_USD(NamedTuple):
         return "FIS-USD"
 
 
-FIS_USD = FIS_USD()
+FIS_USD = FIS_USD(*FIS_USD._fields)
 """
     name: FIS-USD
     significant_digits: None
@@ -11961,7 +11961,7 @@ FIS_USD = FIS_USD()
 """
 
 
-class FIS_USDT(NamedTuple):
+class FIS_USDT(Symbol):
     """
         name: FIS-USDT
         significant_digits: None
@@ -11999,7 +11999,7 @@ class FIS_USDT(NamedTuple):
         return "FIS-USDT"
 
 
-FIS_USDT = FIS_USDT()
+FIS_USDT = FIS_USDT(*FIS_USDT._fields)
 """
     name: FIS-USDT
     significant_digits: None
@@ -12013,7 +12013,7 @@ FIS_USDT = FIS_USDT()
 """
 
 
-class FLOW_USD(NamedTuple):
+class FLOW_USD(Symbol):
     """
         name: FLOW-USD
         significant_digits: None
@@ -12051,7 +12051,7 @@ class FLOW_USD(NamedTuple):
         return "FLOW-USD"
 
 
-FLOW_USD = FLOW_USD()
+FLOW_USD = FLOW_USD(*FLOW_USD._fields)
 """
     name: FLOW-USD
     significant_digits: None
@@ -12065,7 +12065,7 @@ FLOW_USD = FLOW_USD()
 """
 
 
-class FLOW_USDT(NamedTuple):
+class FLOW_USDT(Symbol):
     """
         name: FLOW-USDT
         significant_digits: None
@@ -12103,7 +12103,7 @@ class FLOW_USDT(NamedTuple):
         return "FLOW-USDT"
 
 
-FLOW_USDT = FLOW_USDT()
+FLOW_USDT = FLOW_USDT(*FLOW_USDT._fields)
 """
     name: FLOW-USDT
     significant_digits: None
@@ -12117,7 +12117,7 @@ FLOW_USDT = FLOW_USDT()
 """
 
 
-class FLR_USD(NamedTuple):
+class FLR_USD(Symbol):
     """
         name: FLR-USD
         significant_digits: None
@@ -12155,7 +12155,7 @@ class FLR_USD(NamedTuple):
         return "FLR-USD"
 
 
-FLR_USD = FLR_USD()
+FLR_USD = FLR_USD(*FLR_USD._fields)
 """
     name: FLR-USD
     significant_digits: None
@@ -12169,7 +12169,7 @@ FLR_USD = FLR_USD()
 """
 
 
-class FORT_USD(NamedTuple):
+class FORT_USD(Symbol):
     """
         name: FORT-USD
         significant_digits: None
@@ -12207,7 +12207,7 @@ class FORT_USD(NamedTuple):
         return "FORT-USD"
 
 
-FORT_USD = FORT_USD()
+FORT_USD = FORT_USD(*FORT_USD._fields)
 """
     name: FORT-USD
     significant_digits: None
@@ -12221,7 +12221,7 @@ FORT_USD = FORT_USD()
 """
 
 
-class FORT_USDT(NamedTuple):
+class FORT_USDT(Symbol):
     """
         name: FORT-USDT
         significant_digits: None
@@ -12259,7 +12259,7 @@ class FORT_USDT(NamedTuple):
         return "FORT-USDT"
 
 
-FORT_USDT = FORT_USDT()
+FORT_USDT = FORT_USDT(*FORT_USDT._fields)
 """
     name: FORT-USDT
     significant_digits: None
@@ -12273,7 +12273,7 @@ FORT_USDT = FORT_USDT()
 """
 
 
-class FORTH_BTC(NamedTuple):
+class FORTH_BTC(Symbol):
     """
         name: FORTH-BTC
         significant_digits: None
@@ -12311,7 +12311,7 @@ class FORTH_BTC(NamedTuple):
         return "FORTH-BTC"
 
 
-FORTH_BTC = FORTH_BTC()
+FORTH_BTC = FORTH_BTC(*FORTH_BTC._fields)
 """
     name: FORTH-BTC
     significant_digits: None
@@ -12325,7 +12325,7 @@ FORTH_BTC = FORTH_BTC()
 """
 
 
-class FORTH_EUR(NamedTuple):
+class FORTH_EUR(Symbol):
     """
         name: FORTH-EUR
         significant_digits: None
@@ -12363,7 +12363,7 @@ class FORTH_EUR(NamedTuple):
         return "FORTH-EUR"
 
 
-FORTH_EUR = FORTH_EUR()
+FORTH_EUR = FORTH_EUR(*FORTH_EUR._fields)
 """
     name: FORTH-EUR
     significant_digits: None
@@ -12377,7 +12377,7 @@ FORTH_EUR = FORTH_EUR()
 """
 
 
-class FORTH_GBP(NamedTuple):
+class FORTH_GBP(Symbol):
     """
         name: FORTH-GBP
         significant_digits: None
@@ -12415,7 +12415,7 @@ class FORTH_GBP(NamedTuple):
         return "FORTH-GBP"
 
 
-FORTH_GBP = FORTH_GBP()
+FORTH_GBP = FORTH_GBP(*FORTH_GBP._fields)
 """
     name: FORTH-GBP
     significant_digits: None
@@ -12429,7 +12429,7 @@ FORTH_GBP = FORTH_GBP()
 """
 
 
-class FORTH_USD(NamedTuple):
+class FORTH_USD(Symbol):
     """
         name: FORTH-USD
         significant_digits: None
@@ -12467,7 +12467,7 @@ class FORTH_USD(NamedTuple):
         return "FORTH-USD"
 
 
-FORTH_USD = FORTH_USD()
+FORTH_USD = FORTH_USD(*FORTH_USD._fields)
 """
     name: FORTH-USD
     significant_digits: None
@@ -12481,7 +12481,7 @@ FORTH_USD = FORTH_USD()
 """
 
 
-class FOX_USD(NamedTuple):
+class FOX_USD(Symbol):
     """
         name: FOX-USD
         significant_digits: None
@@ -12519,7 +12519,7 @@ class FOX_USD(NamedTuple):
         return "FOX-USD"
 
 
-FOX_USD = FOX_USD()
+FOX_USD = FOX_USD(*FOX_USD._fields)
 """
     name: FOX-USD
     significant_digits: None
@@ -12533,7 +12533,7 @@ FOX_USD = FOX_USD()
 """
 
 
-class FOX_USDT(NamedTuple):
+class FOX_USDT(Symbol):
     """
         name: FOX-USDT
         significant_digits: None
@@ -12571,7 +12571,7 @@ class FOX_USDT(NamedTuple):
         return "FOX-USDT"
 
 
-FOX_USDT = FOX_USDT()
+FOX_USDT = FOX_USDT(*FOX_USDT._fields)
 """
     name: FOX-USDT
     significant_digits: None
@@ -12585,7 +12585,7 @@ FOX_USDT = FOX_USDT()
 """
 
 
-class FX_USD(NamedTuple):
+class FX_USD(Symbol):
     """
         name: FX-USD
         significant_digits: None
@@ -12623,7 +12623,7 @@ class FX_USD(NamedTuple):
         return "FX-USD"
 
 
-FX_USD = FX_USD()
+FX_USD = FX_USD(*FX_USD._fields)
 """
     name: FX-USD
     significant_digits: None
@@ -12637,7 +12637,7 @@ FX_USD = FX_USD()
 """
 
 
-class GAL_USD(NamedTuple):
+class GAL_USD(Symbol):
     """
         name: GAL-USD
         significant_digits: None
@@ -12675,7 +12675,7 @@ class GAL_USD(NamedTuple):
         return "GAL-USD"
 
 
-GAL_USD = GAL_USD()
+GAL_USD = GAL_USD(*GAL_USD._fields)
 """
     name: GAL-USD
     significant_digits: None
@@ -12689,7 +12689,7 @@ GAL_USD = GAL_USD()
 """
 
 
-class GAL_USDT(NamedTuple):
+class GAL_USDT(Symbol):
     """
         name: GAL-USDT
         significant_digits: None
@@ -12727,7 +12727,7 @@ class GAL_USDT(NamedTuple):
         return "GAL-USDT"
 
 
-GAL_USDT = GAL_USDT()
+GAL_USDT = GAL_USDT(*GAL_USDT._fields)
 """
     name: GAL-USDT
     significant_digits: None
@@ -12741,7 +12741,7 @@ GAL_USDT = GAL_USDT()
 """
 
 
-class GALA_EUR(NamedTuple):
+class GALA_EUR(Symbol):
     """
         name: GALA-EUR
         significant_digits: None
@@ -12779,7 +12779,7 @@ class GALA_EUR(NamedTuple):
         return "GALA-EUR"
 
 
-GALA_EUR = GALA_EUR()
+GALA_EUR = GALA_EUR(*GALA_EUR._fields)
 """
     name: GALA-EUR
     significant_digits: None
@@ -12793,7 +12793,7 @@ GALA_EUR = GALA_EUR()
 """
 
 
-class GALA_USD(NamedTuple):
+class GALA_USD(Symbol):
     """
         name: GALA-USD
         significant_digits: None
@@ -12831,7 +12831,7 @@ class GALA_USD(NamedTuple):
         return "GALA-USD"
 
 
-GALA_USD = GALA_USD()
+GALA_USD = GALA_USD(*GALA_USD._fields)
 """
     name: GALA-USD
     significant_digits: None
@@ -12845,7 +12845,7 @@ GALA_USD = GALA_USD()
 """
 
 
-class GALA_USDT(NamedTuple):
+class GALA_USDT(Symbol):
     """
         name: GALA-USDT
         significant_digits: None
@@ -12883,7 +12883,7 @@ class GALA_USDT(NamedTuple):
         return "GALA-USDT"
 
 
-GALA_USDT = GALA_USDT()
+GALA_USDT = GALA_USDT(*GALA_USDT._fields)
 """
     name: GALA-USDT
     significant_digits: None
@@ -12897,7 +12897,7 @@ GALA_USDT = GALA_USDT()
 """
 
 
-class GFI_USD(NamedTuple):
+class GFI_USD(Symbol):
     """
         name: GFI-USD
         significant_digits: None
@@ -12935,7 +12935,7 @@ class GFI_USD(NamedTuple):
         return "GFI-USD"
 
 
-GFI_USD = GFI_USD()
+GFI_USD = GFI_USD(*GFI_USD._fields)
 """
     name: GFI-USD
     significant_digits: None
@@ -12949,7 +12949,7 @@ GFI_USD = GFI_USD()
 """
 
 
-class GHST_USD(NamedTuple):
+class GHST_USD(Symbol):
     """
         name: GHST-USD
         significant_digits: None
@@ -12987,7 +12987,7 @@ class GHST_USD(NamedTuple):
         return "GHST-USD"
 
 
-GHST_USD = GHST_USD()
+GHST_USD = GHST_USD(*GHST_USD._fields)
 """
     name: GHST-USD
     significant_digits: None
@@ -13001,7 +13001,7 @@ GHST_USD = GHST_USD()
 """
 
 
-class GLM_USD(NamedTuple):
+class GLM_USD(Symbol):
     """
         name: GLM-USD
         significant_digits: None
@@ -13039,7 +13039,7 @@ class GLM_USD(NamedTuple):
         return "GLM-USD"
 
 
-GLM_USD = GLM_USD()
+GLM_USD = GLM_USD(*GLM_USD._fields)
 """
     name: GLM-USD
     significant_digits: None
@@ -13053,7 +13053,7 @@ GLM_USD = GLM_USD()
 """
 
 
-class GMT_USD(NamedTuple):
+class GMT_USD(Symbol):
     """
         name: GMT-USD
         significant_digits: None
@@ -13091,7 +13091,7 @@ class GMT_USD(NamedTuple):
         return "GMT-USD"
 
 
-GMT_USD = GMT_USD()
+GMT_USD = GMT_USD(*GMT_USD._fields)
 """
     name: GMT-USD
     significant_digits: None
@@ -13105,7 +13105,7 @@ GMT_USD = GMT_USD()
 """
 
 
-class GMT_USDT(NamedTuple):
+class GMT_USDT(Symbol):
     """
         name: GMT-USDT
         significant_digits: None
@@ -13143,7 +13143,7 @@ class GMT_USDT(NamedTuple):
         return "GMT-USDT"
 
 
-GMT_USDT = GMT_USDT()
+GMT_USDT = GMT_USDT(*GMT_USDT._fields)
 """
     name: GMT-USDT
     significant_digits: None
@@ -13157,7 +13157,7 @@ GMT_USDT = GMT_USDT()
 """
 
 
-class GNO_USD(NamedTuple):
+class GNO_USD(Symbol):
     """
         name: GNO-USD
         significant_digits: None
@@ -13195,7 +13195,7 @@ class GNO_USD(NamedTuple):
         return "GNO-USD"
 
 
-GNO_USD = GNO_USD()
+GNO_USD = GNO_USD(*GNO_USD._fields)
 """
     name: GNO-USD
     significant_digits: None
@@ -13209,7 +13209,7 @@ GNO_USD = GNO_USD()
 """
 
 
-class GNO_USDT(NamedTuple):
+class GNO_USDT(Symbol):
     """
         name: GNO-USDT
         significant_digits: None
@@ -13247,7 +13247,7 @@ class GNO_USDT(NamedTuple):
         return "GNO-USDT"
 
 
-GNO_USDT = GNO_USDT()
+GNO_USDT = GNO_USDT(*GNO_USDT._fields)
 """
     name: GNO-USDT
     significant_digits: None
@@ -13261,7 +13261,7 @@ GNO_USDT = GNO_USDT()
 """
 
 
-class GNT_USDC(NamedTuple):
+class GNT_USDC(Symbol):
     """
         name: GNT-USDC
         significant_digits: None
@@ -13299,7 +13299,7 @@ class GNT_USDC(NamedTuple):
         return "GNT-USDC"
 
 
-GNT_USDC = GNT_USDC()
+GNT_USDC = GNT_USDC(*GNT_USDC._fields)
 """
     name: GNT-USDC
     significant_digits: None
@@ -13313,7 +13313,7 @@ GNT_USDC = GNT_USDC()
 """
 
 
-class GODS_USD(NamedTuple):
+class GODS_USD(Symbol):
     """
         name: GODS-USD
         significant_digits: None
@@ -13351,7 +13351,7 @@ class GODS_USD(NamedTuple):
         return "GODS-USD"
 
 
-GODS_USD = GODS_USD()
+GODS_USD = GODS_USD(*GODS_USD._fields)
 """
     name: GODS-USD
     significant_digits: None
@@ -13365,7 +13365,7 @@ GODS_USD = GODS_USD()
 """
 
 
-class GRT_BTC(NamedTuple):
+class GRT_BTC(Symbol):
     """
         name: GRT-BTC
         significant_digits: None
@@ -13403,7 +13403,7 @@ class GRT_BTC(NamedTuple):
         return "GRT-BTC"
 
 
-GRT_BTC = GRT_BTC()
+GRT_BTC = GRT_BTC(*GRT_BTC._fields)
 """
     name: GRT-BTC
     significant_digits: None
@@ -13417,7 +13417,7 @@ GRT_BTC = GRT_BTC()
 """
 
 
-class GRT_EUR(NamedTuple):
+class GRT_EUR(Symbol):
     """
         name: GRT-EUR
         significant_digits: None
@@ -13455,7 +13455,7 @@ class GRT_EUR(NamedTuple):
         return "GRT-EUR"
 
 
-GRT_EUR = GRT_EUR()
+GRT_EUR = GRT_EUR(*GRT_EUR._fields)
 """
     name: GRT-EUR
     significant_digits: None
@@ -13469,7 +13469,7 @@ GRT_EUR = GRT_EUR()
 """
 
 
-class GRT_GBP(NamedTuple):
+class GRT_GBP(Symbol):
     """
         name: GRT-GBP
         significant_digits: None
@@ -13507,7 +13507,7 @@ class GRT_GBP(NamedTuple):
         return "GRT-GBP"
 
 
-GRT_GBP = GRT_GBP()
+GRT_GBP = GRT_GBP(*GRT_GBP._fields)
 """
     name: GRT-GBP
     significant_digits: None
@@ -13521,7 +13521,7 @@ GRT_GBP = GRT_GBP()
 """
 
 
-class GRT_USD(NamedTuple):
+class GRT_USD(Symbol):
     """
         name: GRT-USD
         significant_digits: None
@@ -13559,7 +13559,7 @@ class GRT_USD(NamedTuple):
         return "GRT-USD"
 
 
-GRT_USD = GRT_USD()
+GRT_USD = GRT_USD(*GRT_USD._fields)
 """
     name: GRT-USD
     significant_digits: None
@@ -13573,7 +13573,7 @@ GRT_USD = GRT_USD()
 """
 
 
-class GST_USD(NamedTuple):
+class GST_USD(Symbol):
     """
         name: GST-USD
         significant_digits: None
@@ -13611,7 +13611,7 @@ class GST_USD(NamedTuple):
         return "GST-USD"
 
 
-GST_USD = GST_USD()
+GST_USD = GST_USD(*GST_USD._fields)
 """
     name: GST-USD
     significant_digits: None
@@ -13625,7 +13625,7 @@ GST_USD = GST_USD()
 """
 
 
-class GTC_USD(NamedTuple):
+class GTC_USD(Symbol):
     """
         name: GTC-USD
         significant_digits: None
@@ -13663,7 +13663,7 @@ class GTC_USD(NamedTuple):
         return "GTC-USD"
 
 
-GTC_USD = GTC_USD()
+GTC_USD = GTC_USD(*GTC_USD._fields)
 """
     name: GTC-USD
     significant_digits: None
@@ -13677,7 +13677,7 @@ GTC_USD = GTC_USD()
 """
 
 
-class GUSD_USD(NamedTuple):
+class GUSD_USD(Symbol):
     """
         name: GUSD-USD
         significant_digits: None
@@ -13715,7 +13715,7 @@ class GUSD_USD(NamedTuple):
         return "GUSD-USD"
 
 
-GUSD_USD = GUSD_USD()
+GUSD_USD = GUSD_USD(*GUSD_USD._fields)
 """
     name: GUSD-USD
     significant_digits: None
@@ -13729,7 +13729,7 @@ GUSD_USD = GUSD_USD()
 """
 
 
-class GYEN_USD(NamedTuple):
+class GYEN_USD(Symbol):
     """
         name: GYEN-USD
         significant_digits: None
@@ -13767,7 +13767,7 @@ class GYEN_USD(NamedTuple):
         return "GYEN-USD"
 
 
-GYEN_USD = GYEN_USD()
+GYEN_USD = GYEN_USD(*GYEN_USD._fields)
 """
     name: GYEN-USD
     significant_digits: None
@@ -13781,7 +13781,7 @@ GYEN_USD = GYEN_USD()
 """
 
 
-class HBAR_USD(NamedTuple):
+class HBAR_USD(Symbol):
     """
         name: HBAR-USD
         significant_digits: None
@@ -13819,7 +13819,7 @@ class HBAR_USD(NamedTuple):
         return "HBAR-USD"
 
 
-HBAR_USD = HBAR_USD()
+HBAR_USD = HBAR_USD(*HBAR_USD._fields)
 """
     name: HBAR-USD
     significant_digits: None
@@ -13833,7 +13833,7 @@ HBAR_USD = HBAR_USD()
 """
 
 
-class HBAR_USDT(NamedTuple):
+class HBAR_USDT(Symbol):
     """
         name: HBAR-USDT
         significant_digits: None
@@ -13871,7 +13871,7 @@ class HBAR_USDT(NamedTuple):
         return "HBAR-USDT"
 
 
-HBAR_USDT = HBAR_USDT()
+HBAR_USDT = HBAR_USDT(*HBAR_USDT._fields)
 """
     name: HBAR-USDT
     significant_digits: None
@@ -13885,7 +13885,7 @@ HBAR_USDT = HBAR_USDT()
 """
 
 
-class HFT_USD(NamedTuple):
+class HFT_USD(Symbol):
     """
         name: HFT-USD
         significant_digits: None
@@ -13923,7 +13923,7 @@ class HFT_USD(NamedTuple):
         return "HFT-USD"
 
 
-HFT_USD = HFT_USD()
+HFT_USD = HFT_USD(*HFT_USD._fields)
 """
     name: HFT-USD
     significant_digits: None
@@ -13937,7 +13937,7 @@ HFT_USD = HFT_USD()
 """
 
 
-class HFT_USDT(NamedTuple):
+class HFT_USDT(Symbol):
     """
         name: HFT-USDT
         significant_digits: None
@@ -13975,7 +13975,7 @@ class HFT_USDT(NamedTuple):
         return "HFT-USDT"
 
 
-HFT_USDT = HFT_USDT()
+HFT_USDT = HFT_USDT(*HFT_USDT._fields)
 """
     name: HFT-USDT
     significant_digits: None
@@ -13989,7 +13989,7 @@ HFT_USDT = HFT_USDT()
 """
 
 
-class HIGH_USD(NamedTuple):
+class HIGH_USD(Symbol):
     """
         name: HIGH-USD
         significant_digits: None
@@ -14027,7 +14027,7 @@ class HIGH_USD(NamedTuple):
         return "HIGH-USD"
 
 
-HIGH_USD = HIGH_USD()
+HIGH_USD = HIGH_USD(*HIGH_USD._fields)
 """
     name: HIGH-USD
     significant_digits: None
@@ -14041,7 +14041,7 @@ HIGH_USD = HIGH_USD()
 """
 
 
-class HOPR_USD(NamedTuple):
+class HOPR_USD(Symbol):
     """
         name: HOPR-USD
         significant_digits: None
@@ -14079,7 +14079,7 @@ class HOPR_USD(NamedTuple):
         return "HOPR-USD"
 
 
-HOPR_USD = HOPR_USD()
+HOPR_USD = HOPR_USD(*HOPR_USD._fields)
 """
     name: HOPR-USD
     significant_digits: None
@@ -14093,7 +14093,7 @@ HOPR_USD = HOPR_USD()
 """
 
 
-class HOPR_USDT(NamedTuple):
+class HOPR_USDT(Symbol):
     """
         name: HOPR-USDT
         significant_digits: None
@@ -14131,7 +14131,7 @@ class HOPR_USDT(NamedTuple):
         return "HOPR-USDT"
 
 
-HOPR_USDT = HOPR_USDT()
+HOPR_USDT = HOPR_USDT(*HOPR_USDT._fields)
 """
     name: HOPR-USDT
     significant_digits: None
@@ -14145,7 +14145,7 @@ HOPR_USDT = HOPR_USDT()
 """
 
 
-class ICP_BTC(NamedTuple):
+class ICP_BTC(Symbol):
     """
         name: ICP-BTC
         significant_digits: None
@@ -14183,7 +14183,7 @@ class ICP_BTC(NamedTuple):
         return "ICP-BTC"
 
 
-ICP_BTC = ICP_BTC()
+ICP_BTC = ICP_BTC(*ICP_BTC._fields)
 """
     name: ICP-BTC
     significant_digits: None
@@ -14197,7 +14197,7 @@ ICP_BTC = ICP_BTC()
 """
 
 
-class ICP_EUR(NamedTuple):
+class ICP_EUR(Symbol):
     """
         name: ICP-EUR
         significant_digits: None
@@ -14235,7 +14235,7 @@ class ICP_EUR(NamedTuple):
         return "ICP-EUR"
 
 
-ICP_EUR = ICP_EUR()
+ICP_EUR = ICP_EUR(*ICP_EUR._fields)
 """
     name: ICP-EUR
     significant_digits: None
@@ -14249,7 +14249,7 @@ ICP_EUR = ICP_EUR()
 """
 
 
-class ICP_GBP(NamedTuple):
+class ICP_GBP(Symbol):
     """
         name: ICP-GBP
         significant_digits: None
@@ -14287,7 +14287,7 @@ class ICP_GBP(NamedTuple):
         return "ICP-GBP"
 
 
-ICP_GBP = ICP_GBP()
+ICP_GBP = ICP_GBP(*ICP_GBP._fields)
 """
     name: ICP-GBP
     significant_digits: None
@@ -14301,7 +14301,7 @@ ICP_GBP = ICP_GBP()
 """
 
 
-class ICP_USD(NamedTuple):
+class ICP_USD(Symbol):
     """
         name: ICP-USD
         significant_digits: None
@@ -14339,7 +14339,7 @@ class ICP_USD(NamedTuple):
         return "ICP-USD"
 
 
-ICP_USD = ICP_USD()
+ICP_USD = ICP_USD(*ICP_USD._fields)
 """
     name: ICP-USD
     significant_digits: None
@@ -14353,7 +14353,7 @@ ICP_USD = ICP_USD()
 """
 
 
-class ICP_USDT(NamedTuple):
+class ICP_USDT(Symbol):
     """
         name: ICP-USDT
         significant_digits: None
@@ -14391,7 +14391,7 @@ class ICP_USDT(NamedTuple):
         return "ICP-USDT"
 
 
-ICP_USDT = ICP_USDT()
+ICP_USDT = ICP_USDT(*ICP_USDT._fields)
 """
     name: ICP-USDT
     significant_digits: None
@@ -14405,7 +14405,7 @@ ICP_USDT = ICP_USDT()
 """
 
 
-class IDEX_USD(NamedTuple):
+class IDEX_USD(Symbol):
     """
         name: IDEX-USD
         significant_digits: None
@@ -14443,7 +14443,7 @@ class IDEX_USD(NamedTuple):
         return "IDEX-USD"
 
 
-IDEX_USD = IDEX_USD()
+IDEX_USD = IDEX_USD(*IDEX_USD._fields)
 """
     name: IDEX-USD
     significant_digits: None
@@ -14457,7 +14457,7 @@ IDEX_USD = IDEX_USD()
 """
 
 
-class IDEX_USDT(NamedTuple):
+class IDEX_USDT(Symbol):
     """
         name: IDEX-USDT
         significant_digits: None
@@ -14495,7 +14495,7 @@ class IDEX_USDT(NamedTuple):
         return "IDEX-USDT"
 
 
-IDEX_USDT = IDEX_USDT()
+IDEX_USDT = IDEX_USDT(*IDEX_USDT._fields)
 """
     name: IDEX-USDT
     significant_digits: None
@@ -14509,7 +14509,7 @@ IDEX_USDT = IDEX_USDT()
 """
 
 
-class ILV_USD(NamedTuple):
+class ILV_USD(Symbol):
     """
         name: ILV-USD
         significant_digits: None
@@ -14547,7 +14547,7 @@ class ILV_USD(NamedTuple):
         return "ILV-USD"
 
 
-ILV_USD = ILV_USD()
+ILV_USD = ILV_USD(*ILV_USD._fields)
 """
     name: ILV-USD
     significant_digits: None
@@ -14561,7 +14561,7 @@ ILV_USD = ILV_USD()
 """
 
 
-class IMX_USD(NamedTuple):
+class IMX_USD(Symbol):
     """
         name: IMX-USD
         significant_digits: None
@@ -14599,7 +14599,7 @@ class IMX_USD(NamedTuple):
         return "IMX-USD"
 
 
-IMX_USD = IMX_USD()
+IMX_USD = IMX_USD(*IMX_USD._fields)
 """
     name: IMX-USD
     significant_digits: None
@@ -14613,7 +14613,7 @@ IMX_USD = IMX_USD()
 """
 
 
-class IMX_USDT(NamedTuple):
+class IMX_USDT(Symbol):
     """
         name: IMX-USDT
         significant_digits: None
@@ -14651,7 +14651,7 @@ class IMX_USDT(NamedTuple):
         return "IMX-USDT"
 
 
-IMX_USDT = IMX_USDT()
+IMX_USDT = IMX_USDT(*IMX_USDT._fields)
 """
     name: IMX-USDT
     significant_digits: None
@@ -14665,7 +14665,7 @@ IMX_USDT = IMX_USDT()
 """
 
 
-class INDEX_USD(NamedTuple):
+class INDEX_USD(Symbol):
     """
         name: INDEX-USD
         significant_digits: None
@@ -14703,7 +14703,7 @@ class INDEX_USD(NamedTuple):
         return "INDEX-USD"
 
 
-INDEX_USD = INDEX_USD()
+INDEX_USD = INDEX_USD(*INDEX_USD._fields)
 """
     name: INDEX-USD
     significant_digits: None
@@ -14717,7 +14717,7 @@ INDEX_USD = INDEX_USD()
 """
 
 
-class INDEX_USDT(NamedTuple):
+class INDEX_USDT(Symbol):
     """
         name: INDEX-USDT
         significant_digits: None
@@ -14755,7 +14755,7 @@ class INDEX_USDT(NamedTuple):
         return "INDEX-USDT"
 
 
-INDEX_USDT = INDEX_USDT()
+INDEX_USDT = INDEX_USDT(*INDEX_USDT._fields)
 """
     name: INDEX-USDT
     significant_digits: None
@@ -14769,7 +14769,7 @@ INDEX_USDT = INDEX_USDT()
 """
 
 
-class INJ_USD(NamedTuple):
+class INJ_USD(Symbol):
     """
         name: INJ-USD
         significant_digits: None
@@ -14807,7 +14807,7 @@ class INJ_USD(NamedTuple):
         return "INJ-USD"
 
 
-INJ_USD = INJ_USD()
+INJ_USD = INJ_USD(*INJ_USD._fields)
 """
     name: INJ-USD
     significant_digits: None
@@ -14821,7 +14821,7 @@ INJ_USD = INJ_USD()
 """
 
 
-class INV_USD(NamedTuple):
+class INV_USD(Symbol):
     """
         name: INV-USD
         significant_digits: None
@@ -14859,7 +14859,7 @@ class INV_USD(NamedTuple):
         return "INV-USD"
 
 
-INV_USD = INV_USD()
+INV_USD = INV_USD(*INV_USD._fields)
 """
     name: INV-USD
     significant_digits: None
@@ -14873,7 +14873,7 @@ INV_USD = INV_USD()
 """
 
 
-class IOTX_EUR(NamedTuple):
+class IOTX_EUR(Symbol):
     """
         name: IOTX-EUR
         significant_digits: None
@@ -14911,7 +14911,7 @@ class IOTX_EUR(NamedTuple):
         return "IOTX-EUR"
 
 
-IOTX_EUR = IOTX_EUR()
+IOTX_EUR = IOTX_EUR(*IOTX_EUR._fields)
 """
     name: IOTX-EUR
     significant_digits: None
@@ -14925,7 +14925,7 @@ IOTX_EUR = IOTX_EUR()
 """
 
 
-class IOTX_USD(NamedTuple):
+class IOTX_USD(Symbol):
     """
         name: IOTX-USD
         significant_digits: None
@@ -14963,7 +14963,7 @@ class IOTX_USD(NamedTuple):
         return "IOTX-USD"
 
 
-IOTX_USD = IOTX_USD()
+IOTX_USD = IOTX_USD(*IOTX_USD._fields)
 """
     name: IOTX-USD
     significant_digits: None
@@ -14977,7 +14977,7 @@ IOTX_USD = IOTX_USD()
 """
 
 
-class JASMY_USD(NamedTuple):
+class JASMY_USD(Symbol):
     """
         name: JASMY-USD
         significant_digits: None
@@ -15015,7 +15015,7 @@ class JASMY_USD(NamedTuple):
         return "JASMY-USD"
 
 
-JASMY_USD = JASMY_USD()
+JASMY_USD = JASMY_USD(*JASMY_USD._fields)
 """
     name: JASMY-USD
     significant_digits: None
@@ -15029,7 +15029,7 @@ JASMY_USD = JASMY_USD()
 """
 
 
-class JASMY_USDT(NamedTuple):
+class JASMY_USDT(Symbol):
     """
         name: JASMY-USDT
         significant_digits: None
@@ -15067,7 +15067,7 @@ class JASMY_USDT(NamedTuple):
         return "JASMY-USDT"
 
 
-JASMY_USDT = JASMY_USDT()
+JASMY_USDT = JASMY_USDT(*JASMY_USDT._fields)
 """
     name: JASMY-USDT
     significant_digits: None
@@ -15081,7 +15081,7 @@ JASMY_USDT = JASMY_USDT()
 """
 
 
-class JUP_USD(NamedTuple):
+class JUP_USD(Symbol):
     """
         name: JUP-USD
         significant_digits: None
@@ -15119,7 +15119,7 @@ class JUP_USD(NamedTuple):
         return "JUP-USD"
 
 
-JUP_USD = JUP_USD()
+JUP_USD = JUP_USD(*JUP_USD._fields)
 """
     name: JUP-USD
     significant_digits: None
@@ -15133,7 +15133,7 @@ JUP_USD = JUP_USD()
 """
 
 
-class KAVA_USD(NamedTuple):
+class KAVA_USD(Symbol):
     """
         name: KAVA-USD
         significant_digits: None
@@ -15171,7 +15171,7 @@ class KAVA_USD(NamedTuple):
         return "KAVA-USD"
 
 
-KAVA_USD = KAVA_USD()
+KAVA_USD = KAVA_USD(*KAVA_USD._fields)
 """
     name: KAVA-USD
     significant_digits: None
@@ -15185,7 +15185,7 @@ KAVA_USD = KAVA_USD()
 """
 
 
-class KEEP_USD(NamedTuple):
+class KEEP_USD(Symbol):
     """
         name: KEEP-USD
         significant_digits: None
@@ -15223,7 +15223,7 @@ class KEEP_USD(NamedTuple):
         return "KEEP-USD"
 
 
-KEEP_USD = KEEP_USD()
+KEEP_USD = KEEP_USD(*KEEP_USD._fields)
 """
     name: KEEP-USD
     significant_digits: None
@@ -15237,7 +15237,7 @@ KEEP_USD = KEEP_USD()
 """
 
 
-class KNC_BTC(NamedTuple):
+class KNC_BTC(Symbol):
     """
         name: KNC-BTC
         significant_digits: None
@@ -15275,7 +15275,7 @@ class KNC_BTC(NamedTuple):
         return "KNC-BTC"
 
 
-KNC_BTC = KNC_BTC()
+KNC_BTC = KNC_BTC(*KNC_BTC._fields)
 """
     name: KNC-BTC
     significant_digits: None
@@ -15289,7 +15289,7 @@ KNC_BTC = KNC_BTC()
 """
 
 
-class KNC_USD(NamedTuple):
+class KNC_USD(Symbol):
     """
         name: KNC-USD
         significant_digits: None
@@ -15327,7 +15327,7 @@ class KNC_USD(NamedTuple):
         return "KNC-USD"
 
 
-KNC_USD = KNC_USD()
+KNC_USD = KNC_USD(*KNC_USD._fields)
 """
     name: KNC-USD
     significant_digits: None
@@ -15341,7 +15341,7 @@ KNC_USD = KNC_USD()
 """
 
 
-class KRL_EUR(NamedTuple):
+class KRL_EUR(Symbol):
     """
         name: KRL-EUR
         significant_digits: None
@@ -15379,7 +15379,7 @@ class KRL_EUR(NamedTuple):
         return "KRL-EUR"
 
 
-KRL_EUR = KRL_EUR()
+KRL_EUR = KRL_EUR(*KRL_EUR._fields)
 """
     name: KRL-EUR
     significant_digits: None
@@ -15393,7 +15393,7 @@ KRL_EUR = KRL_EUR()
 """
 
 
-class KRL_USD(NamedTuple):
+class KRL_USD(Symbol):
     """
         name: KRL-USD
         significant_digits: None
@@ -15431,7 +15431,7 @@ class KRL_USD(NamedTuple):
         return "KRL-USD"
 
 
-KRL_USD = KRL_USD()
+KRL_USD = KRL_USD(*KRL_USD._fields)
 """
     name: KRL-USD
     significant_digits: None
@@ -15445,7 +15445,7 @@ KRL_USD = KRL_USD()
 """
 
 
-class KRL_USDT(NamedTuple):
+class KRL_USDT(Symbol):
     """
         name: KRL-USDT
         significant_digits: None
@@ -15483,7 +15483,7 @@ class KRL_USDT(NamedTuple):
         return "KRL-USDT"
 
 
-KRL_USDT = KRL_USDT()
+KRL_USDT = KRL_USDT(*KRL_USDT._fields)
 """
     name: KRL-USDT
     significant_digits: None
@@ -15497,7 +15497,7 @@ KRL_USDT = KRL_USDT()
 """
 
 
-class KSM_USD(NamedTuple):
+class KSM_USD(Symbol):
     """
         name: KSM-USD
         significant_digits: None
@@ -15535,7 +15535,7 @@ class KSM_USD(NamedTuple):
         return "KSM-USD"
 
 
-KSM_USD = KSM_USD()
+KSM_USD = KSM_USD(*KSM_USD._fields)
 """
     name: KSM-USD
     significant_digits: None
@@ -15549,7 +15549,7 @@ KSM_USD = KSM_USD()
 """
 
 
-class KSM_USDT(NamedTuple):
+class KSM_USDT(Symbol):
     """
         name: KSM-USDT
         significant_digits: None
@@ -15587,7 +15587,7 @@ class KSM_USDT(NamedTuple):
         return "KSM-USDT"
 
 
-KSM_USDT = KSM_USDT()
+KSM_USDT = KSM_USDT(*KSM_USDT._fields)
 """
     name: KSM-USDT
     significant_digits: None
@@ -15601,7 +15601,7 @@ KSM_USDT = KSM_USDT()
 """
 
 
-class LCX_EUR(NamedTuple):
+class LCX_EUR(Symbol):
     """
         name: LCX-EUR
         significant_digits: None
@@ -15639,7 +15639,7 @@ class LCX_EUR(NamedTuple):
         return "LCX-EUR"
 
 
-LCX_EUR = LCX_EUR()
+LCX_EUR = LCX_EUR(*LCX_EUR._fields)
 """
     name: LCX-EUR
     significant_digits: None
@@ -15653,7 +15653,7 @@ LCX_EUR = LCX_EUR()
 """
 
 
-class LCX_USD(NamedTuple):
+class LCX_USD(Symbol):
     """
         name: LCX-USD
         significant_digits: None
@@ -15691,7 +15691,7 @@ class LCX_USD(NamedTuple):
         return "LCX-USD"
 
 
-LCX_USD = LCX_USD()
+LCX_USD = LCX_USD(*LCX_USD._fields)
 """
     name: LCX-USD
     significant_digits: None
@@ -15705,7 +15705,7 @@ LCX_USD = LCX_USD()
 """
 
 
-class LCX_USDT(NamedTuple):
+class LCX_USDT(Symbol):
     """
         name: LCX-USDT
         significant_digits: None
@@ -15743,7 +15743,7 @@ class LCX_USDT(NamedTuple):
         return "LCX-USDT"
 
 
-LCX_USDT = LCX_USDT()
+LCX_USDT = LCX_USDT(*LCX_USDT._fields)
 """
     name: LCX-USDT
     significant_digits: None
@@ -15757,7 +15757,7 @@ LCX_USDT = LCX_USDT()
 """
 
 
-class LDO_USD(NamedTuple):
+class LDO_USD(Symbol):
     """
         name: LDO-USD
         significant_digits: None
@@ -15795,7 +15795,7 @@ class LDO_USD(NamedTuple):
         return "LDO-USD"
 
 
-LDO_USD = LDO_USD()
+LDO_USD = LDO_USD(*LDO_USD._fields)
 """
     name: LDO-USD
     significant_digits: None
@@ -15809,7 +15809,7 @@ LDO_USD = LDO_USD()
 """
 
 
-class LINK_BTC(NamedTuple):
+class LINK_BTC(Symbol):
     """
         name: LINK-BTC
         significant_digits: None
@@ -15847,7 +15847,7 @@ class LINK_BTC(NamedTuple):
         return "LINK-BTC"
 
 
-LINK_BTC = LINK_BTC()
+LINK_BTC = LINK_BTC(*LINK_BTC._fields)
 """
     name: LINK-BTC
     significant_digits: None
@@ -15861,7 +15861,7 @@ LINK_BTC = LINK_BTC()
 """
 
 
-class LINK_ETH(NamedTuple):
+class LINK_ETH(Symbol):
     """
         name: LINK-ETH
         significant_digits: None
@@ -15899,7 +15899,7 @@ class LINK_ETH(NamedTuple):
         return "LINK-ETH"
 
 
-LINK_ETH = LINK_ETH()
+LINK_ETH = LINK_ETH(*LINK_ETH._fields)
 """
     name: LINK-ETH
     significant_digits: None
@@ -15913,7 +15913,7 @@ LINK_ETH = LINK_ETH()
 """
 
 
-class LINK_EUR(NamedTuple):
+class LINK_EUR(Symbol):
     """
         name: LINK-EUR
         significant_digits: None
@@ -15951,7 +15951,7 @@ class LINK_EUR(NamedTuple):
         return "LINK-EUR"
 
 
-LINK_EUR = LINK_EUR()
+LINK_EUR = LINK_EUR(*LINK_EUR._fields)
 """
     name: LINK-EUR
     significant_digits: None
@@ -15965,7 +15965,7 @@ LINK_EUR = LINK_EUR()
 """
 
 
-class LINK_GBP(NamedTuple):
+class LINK_GBP(Symbol):
     """
         name: LINK-GBP
         significant_digits: None
@@ -16003,7 +16003,7 @@ class LINK_GBP(NamedTuple):
         return "LINK-GBP"
 
 
-LINK_GBP = LINK_GBP()
+LINK_GBP = LINK_GBP(*LINK_GBP._fields)
 """
     name: LINK-GBP
     significant_digits: None
@@ -16017,7 +16017,7 @@ LINK_GBP = LINK_GBP()
 """
 
 
-class LINK_USD(NamedTuple):
+class LINK_USD(Symbol):
     """
         name: LINK-USD
         significant_digits: None
@@ -16055,7 +16055,7 @@ class LINK_USD(NamedTuple):
         return "LINK-USD"
 
 
-LINK_USD = LINK_USD()
+LINK_USD = LINK_USD(*LINK_USD._fields)
 """
     name: LINK-USD
     significant_digits: None
@@ -16069,7 +16069,7 @@ LINK_USD = LINK_USD()
 """
 
 
-class LINK_USDT(NamedTuple):
+class LINK_USDT(Symbol):
     """
         name: LINK-USDT
         significant_digits: None
@@ -16107,7 +16107,7 @@ class LINK_USDT(NamedTuple):
         return "LINK-USDT"
 
 
-LINK_USDT = LINK_USDT()
+LINK_USDT = LINK_USDT(*LINK_USDT._fields)
 """
     name: LINK-USDT
     significant_digits: None
@@ -16121,7 +16121,7 @@ LINK_USDT = LINK_USDT()
 """
 
 
-class LIT_USD(NamedTuple):
+class LIT_USD(Symbol):
     """
         name: LIT-USD
         significant_digits: None
@@ -16159,7 +16159,7 @@ class LIT_USD(NamedTuple):
         return "LIT-USD"
 
 
-LIT_USD = LIT_USD()
+LIT_USD = LIT_USD(*LIT_USD._fields)
 """
     name: LIT-USD
     significant_digits: None
@@ -16173,7 +16173,7 @@ LIT_USD = LIT_USD()
 """
 
 
-class LOKA_USD(NamedTuple):
+class LOKA_USD(Symbol):
     """
         name: LOKA-USD
         significant_digits: None
@@ -16211,7 +16211,7 @@ class LOKA_USD(NamedTuple):
         return "LOKA-USD"
 
 
-LOKA_USD = LOKA_USD()
+LOKA_USD = LOKA_USD(*LOKA_USD._fields)
 """
     name: LOKA-USD
     significant_digits: None
@@ -16225,7 +16225,7 @@ LOKA_USD = LOKA_USD()
 """
 
 
-class LOOM_USD(NamedTuple):
+class LOOM_USD(Symbol):
     """
         name: LOOM-USD
         significant_digits: None
@@ -16263,7 +16263,7 @@ class LOOM_USD(NamedTuple):
         return "LOOM-USD"
 
 
-LOOM_USD = LOOM_USD()
+LOOM_USD = LOOM_USD(*LOOM_USD._fields)
 """
     name: LOOM-USD
     significant_digits: None
@@ -16277,7 +16277,7 @@ LOOM_USD = LOOM_USD()
 """
 
 
-class LOOM_USDC(NamedTuple):
+class LOOM_USDC(Symbol):
     """
         name: LOOM-USDC
         significant_digits: None
@@ -16315,7 +16315,7 @@ class LOOM_USDC(NamedTuple):
         return "LOOM-USDC"
 
 
-LOOM_USDC = LOOM_USDC()
+LOOM_USDC = LOOM_USDC(*LOOM_USDC._fields)
 """
     name: LOOM-USDC
     significant_digits: None
@@ -16329,7 +16329,7 @@ LOOM_USDC = LOOM_USDC()
 """
 
 
-class LPT_USD(NamedTuple):
+class LPT_USD(Symbol):
     """
         name: LPT-USD
         significant_digits: None
@@ -16367,7 +16367,7 @@ class LPT_USD(NamedTuple):
         return "LPT-USD"
 
 
-LPT_USD = LPT_USD()
+LPT_USD = LPT_USD(*LPT_USD._fields)
 """
     name: LPT-USD
     significant_digits: None
@@ -16381,7 +16381,7 @@ LPT_USD = LPT_USD()
 """
 
 
-class LQTY_EUR(NamedTuple):
+class LQTY_EUR(Symbol):
     """
         name: LQTY-EUR
         significant_digits: None
@@ -16419,7 +16419,7 @@ class LQTY_EUR(NamedTuple):
         return "LQTY-EUR"
 
 
-LQTY_EUR = LQTY_EUR()
+LQTY_EUR = LQTY_EUR(*LQTY_EUR._fields)
 """
     name: LQTY-EUR
     significant_digits: None
@@ -16433,7 +16433,7 @@ LQTY_EUR = LQTY_EUR()
 """
 
 
-class LQTY_USD(NamedTuple):
+class LQTY_USD(Symbol):
     """
         name: LQTY-USD
         significant_digits: None
@@ -16471,7 +16471,7 @@ class LQTY_USD(NamedTuple):
         return "LQTY-USD"
 
 
-LQTY_USD = LQTY_USD()
+LQTY_USD = LQTY_USD(*LQTY_USD._fields)
 """
     name: LQTY-USD
     significant_digits: None
@@ -16485,7 +16485,7 @@ LQTY_USD = LQTY_USD()
 """
 
 
-class LQTY_USDT(NamedTuple):
+class LQTY_USDT(Symbol):
     """
         name: LQTY-USDT
         significant_digits: None
@@ -16523,7 +16523,7 @@ class LQTY_USDT(NamedTuple):
         return "LQTY-USDT"
 
 
-LQTY_USDT = LQTY_USDT()
+LQTY_USDT = LQTY_USDT(*LQTY_USDT._fields)
 """
     name: LQTY-USDT
     significant_digits: None
@@ -16537,7 +16537,7 @@ LQTY_USDT = LQTY_USDT()
 """
 
 
-class LRC_BTC(NamedTuple):
+class LRC_BTC(Symbol):
     """
         name: LRC-BTC
         significant_digits: None
@@ -16575,7 +16575,7 @@ class LRC_BTC(NamedTuple):
         return "LRC-BTC"
 
 
-LRC_BTC = LRC_BTC()
+LRC_BTC = LRC_BTC(*LRC_BTC._fields)
 """
     name: LRC-BTC
     significant_digits: None
@@ -16589,7 +16589,7 @@ LRC_BTC = LRC_BTC()
 """
 
 
-class LRC_USD(NamedTuple):
+class LRC_USD(Symbol):
     """
         name: LRC-USD
         significant_digits: None
@@ -16627,7 +16627,7 @@ class LRC_USD(NamedTuple):
         return "LRC-USD"
 
 
-LRC_USD = LRC_USD()
+LRC_USD = LRC_USD(*LRC_USD._fields)
 """
     name: LRC-USD
     significant_digits: None
@@ -16641,7 +16641,7 @@ LRC_USD = LRC_USD()
 """
 
 
-class LRC_USDT(NamedTuple):
+class LRC_USDT(Symbol):
     """
         name: LRC-USDT
         significant_digits: None
@@ -16679,7 +16679,7 @@ class LRC_USDT(NamedTuple):
         return "LRC-USDT"
 
 
-LRC_USDT = LRC_USDT()
+LRC_USDT = LRC_USDT(*LRC_USDT._fields)
 """
     name: LRC-USDT
     significant_digits: None
@@ -16693,7 +16693,7 @@ LRC_USDT = LRC_USDT()
 """
 
 
-class LSETH_ETH(NamedTuple):
+class LSETH_ETH(Symbol):
     """
         name: LSETH-ETH
         significant_digits: None
@@ -16731,7 +16731,7 @@ class LSETH_ETH(NamedTuple):
         return "LSETH-ETH"
 
 
-LSETH_ETH = LSETH_ETH()
+LSETH_ETH = LSETH_ETH(*LSETH_ETH._fields)
 """
     name: LSETH-ETH
     significant_digits: None
@@ -16745,7 +16745,7 @@ LSETH_ETH = LSETH_ETH()
 """
 
 
-class LSETH_USD(NamedTuple):
+class LSETH_USD(Symbol):
     """
         name: LSETH-USD
         significant_digits: None
@@ -16783,7 +16783,7 @@ class LSETH_USD(NamedTuple):
         return "LSETH-USD"
 
 
-LSETH_USD = LSETH_USD()
+LSETH_USD = LSETH_USD(*LSETH_USD._fields)
 """
     name: LSETH-USD
     significant_digits: None
@@ -16797,7 +16797,7 @@ LSETH_USD = LSETH_USD()
 """
 
 
-class LTC_BTC(NamedTuple):
+class LTC_BTC(Symbol):
     """
         name: LTC-BTC
         significant_digits: None
@@ -16835,7 +16835,7 @@ class LTC_BTC(NamedTuple):
         return "LTC-BTC"
 
 
-LTC_BTC = LTC_BTC()
+LTC_BTC = LTC_BTC(*LTC_BTC._fields)
 """
     name: LTC-BTC
     significant_digits: None
@@ -16849,7 +16849,7 @@ LTC_BTC = LTC_BTC()
 """
 
 
-class LTC_EUR(NamedTuple):
+class LTC_EUR(Symbol):
     """
         name: LTC-EUR
         significant_digits: None
@@ -16887,7 +16887,7 @@ class LTC_EUR(NamedTuple):
         return "LTC-EUR"
 
 
-LTC_EUR = LTC_EUR()
+LTC_EUR = LTC_EUR(*LTC_EUR._fields)
 """
     name: LTC-EUR
     significant_digits: None
@@ -16901,7 +16901,7 @@ LTC_EUR = LTC_EUR()
 """
 
 
-class LTC_GBP(NamedTuple):
+class LTC_GBP(Symbol):
     """
         name: LTC-GBP
         significant_digits: None
@@ -16939,7 +16939,7 @@ class LTC_GBP(NamedTuple):
         return "LTC-GBP"
 
 
-LTC_GBP = LTC_GBP()
+LTC_GBP = LTC_GBP(*LTC_GBP._fields)
 """
     name: LTC-GBP
     significant_digits: None
@@ -16953,7 +16953,7 @@ LTC_GBP = LTC_GBP()
 """
 
 
-class LTC_USD(NamedTuple):
+class LTC_USD(Symbol):
     """
         name: LTC-USD
         significant_digits: None
@@ -16991,7 +16991,7 @@ class LTC_USD(NamedTuple):
         return "LTC-USD"
 
 
-LTC_USD = LTC_USD()
+LTC_USD = LTC_USD(*LTC_USD._fields)
 """
     name: LTC-USD
     significant_digits: None
@@ -17005,7 +17005,7 @@ LTC_USD = LTC_USD()
 """
 
 
-class MAGIC_USD(NamedTuple):
+class MAGIC_USD(Symbol):
     """
         name: MAGIC-USD
         significant_digits: None
@@ -17043,7 +17043,7 @@ class MAGIC_USD(NamedTuple):
         return "MAGIC-USD"
 
 
-MAGIC_USD = MAGIC_USD()
+MAGIC_USD = MAGIC_USD(*MAGIC_USD._fields)
 """
     name: MAGIC-USD
     significant_digits: None
@@ -17057,7 +17057,7 @@ MAGIC_USD = MAGIC_USD()
 """
 
 
-class MANA_BTC(NamedTuple):
+class MANA_BTC(Symbol):
     """
         name: MANA-BTC
         significant_digits: None
@@ -17095,7 +17095,7 @@ class MANA_BTC(NamedTuple):
         return "MANA-BTC"
 
 
-MANA_BTC = MANA_BTC()
+MANA_BTC = MANA_BTC(*MANA_BTC._fields)
 """
     name: MANA-BTC
     significant_digits: None
@@ -17109,7 +17109,7 @@ MANA_BTC = MANA_BTC()
 """
 
 
-class MANA_ETH(NamedTuple):
+class MANA_ETH(Symbol):
     """
         name: MANA-ETH
         significant_digits: None
@@ -17147,7 +17147,7 @@ class MANA_ETH(NamedTuple):
         return "MANA-ETH"
 
 
-MANA_ETH = MANA_ETH()
+MANA_ETH = MANA_ETH(*MANA_ETH._fields)
 """
     name: MANA-ETH
     significant_digits: None
@@ -17161,7 +17161,7 @@ MANA_ETH = MANA_ETH()
 """
 
 
-class MANA_EUR(NamedTuple):
+class MANA_EUR(Symbol):
     """
         name: MANA-EUR
         significant_digits: None
@@ -17199,7 +17199,7 @@ class MANA_EUR(NamedTuple):
         return "MANA-EUR"
 
 
-MANA_EUR = MANA_EUR()
+MANA_EUR = MANA_EUR(*MANA_EUR._fields)
 """
     name: MANA-EUR
     significant_digits: None
@@ -17213,7 +17213,7 @@ MANA_EUR = MANA_EUR()
 """
 
 
-class MANA_USD(NamedTuple):
+class MANA_USD(Symbol):
     """
         name: MANA-USD
         significant_digits: None
@@ -17251,7 +17251,7 @@ class MANA_USD(NamedTuple):
         return "MANA-USD"
 
 
-MANA_USD = MANA_USD()
+MANA_USD = MANA_USD(*MANA_USD._fields)
 """
     name: MANA-USD
     significant_digits: None
@@ -17265,7 +17265,7 @@ MANA_USD = MANA_USD()
 """
 
 
-class MANA_USDC(NamedTuple):
+class MANA_USDC(Symbol):
     """
         name: MANA-USDC
         significant_digits: None
@@ -17303,7 +17303,7 @@ class MANA_USDC(NamedTuple):
         return "MANA-USDC"
 
 
-MANA_USDC = MANA_USDC()
+MANA_USDC = MANA_USDC(*MANA_USDC._fields)
 """
     name: MANA-USDC
     significant_digits: None
@@ -17317,7 +17317,7 @@ MANA_USDC = MANA_USDC()
 """
 
 
-class MASK_EUR(NamedTuple):
+class MASK_EUR(Symbol):
     """
         name: MASK-EUR
         significant_digits: None
@@ -17355,7 +17355,7 @@ class MASK_EUR(NamedTuple):
         return "MASK-EUR"
 
 
-MASK_EUR = MASK_EUR()
+MASK_EUR = MASK_EUR(*MASK_EUR._fields)
 """
     name: MASK-EUR
     significant_digits: None
@@ -17369,7 +17369,7 @@ MASK_EUR = MASK_EUR()
 """
 
 
-class MASK_GBP(NamedTuple):
+class MASK_GBP(Symbol):
     """
         name: MASK-GBP
         significant_digits: None
@@ -17407,7 +17407,7 @@ class MASK_GBP(NamedTuple):
         return "MASK-GBP"
 
 
-MASK_GBP = MASK_GBP()
+MASK_GBP = MASK_GBP(*MASK_GBP._fields)
 """
     name: MASK-GBP
     significant_digits: None
@@ -17421,7 +17421,7 @@ MASK_GBP = MASK_GBP()
 """
 
 
-class MASK_USD(NamedTuple):
+class MASK_USD(Symbol):
     """
         name: MASK-USD
         significant_digits: None
@@ -17459,7 +17459,7 @@ class MASK_USD(NamedTuple):
         return "MASK-USD"
 
 
-MASK_USD = MASK_USD()
+MASK_USD = MASK_USD(*MASK_USD._fields)
 """
     name: MASK-USD
     significant_digits: None
@@ -17473,7 +17473,7 @@ MASK_USD = MASK_USD()
 """
 
 
-class MASK_USDT(NamedTuple):
+class MASK_USDT(Symbol):
     """
         name: MASK-USDT
         significant_digits: None
@@ -17511,7 +17511,7 @@ class MASK_USDT(NamedTuple):
         return "MASK-USDT"
 
 
-MASK_USDT = MASK_USDT()
+MASK_USDT = MASK_USDT(*MASK_USDT._fields)
 """
     name: MASK-USDT
     significant_digits: None
@@ -17525,7 +17525,7 @@ MASK_USDT = MASK_USDT()
 """
 
 
-class MATH_USD(NamedTuple):
+class MATH_USD(Symbol):
     """
         name: MATH-USD
         significant_digits: None
@@ -17563,7 +17563,7 @@ class MATH_USD(NamedTuple):
         return "MATH-USD"
 
 
-MATH_USD = MATH_USD()
+MATH_USD = MATH_USD(*MATH_USD._fields)
 """
     name: MATH-USD
     significant_digits: None
@@ -17577,7 +17577,7 @@ MATH_USD = MATH_USD()
 """
 
 
-class MATH_USDT(NamedTuple):
+class MATH_USDT(Symbol):
     """
         name: MATH-USDT
         significant_digits: None
@@ -17615,7 +17615,7 @@ class MATH_USDT(NamedTuple):
         return "MATH-USDT"
 
 
-MATH_USDT = MATH_USDT()
+MATH_USDT = MATH_USDT(*MATH_USDT._fields)
 """
     name: MATH-USDT
     significant_digits: None
@@ -17629,7 +17629,7 @@ MATH_USDT = MATH_USDT()
 """
 
 
-class MATIC_BTC(NamedTuple):
+class MATIC_BTC(Symbol):
     """
         name: MATIC-BTC
         significant_digits: None
@@ -17667,7 +17667,7 @@ class MATIC_BTC(NamedTuple):
         return "MATIC-BTC"
 
 
-MATIC_BTC = MATIC_BTC()
+MATIC_BTC = MATIC_BTC(*MATIC_BTC._fields)
 """
     name: MATIC-BTC
     significant_digits: None
@@ -17681,7 +17681,7 @@ MATIC_BTC = MATIC_BTC()
 """
 
 
-class MATIC_EUR(NamedTuple):
+class MATIC_EUR(Symbol):
     """
         name: MATIC-EUR
         significant_digits: None
@@ -17719,7 +17719,7 @@ class MATIC_EUR(NamedTuple):
         return "MATIC-EUR"
 
 
-MATIC_EUR = MATIC_EUR()
+MATIC_EUR = MATIC_EUR(*MATIC_EUR._fields)
 """
     name: MATIC-EUR
     significant_digits: None
@@ -17733,7 +17733,7 @@ MATIC_EUR = MATIC_EUR()
 """
 
 
-class MATIC_GBP(NamedTuple):
+class MATIC_GBP(Symbol):
     """
         name: MATIC-GBP
         significant_digits: None
@@ -17771,7 +17771,7 @@ class MATIC_GBP(NamedTuple):
         return "MATIC-GBP"
 
 
-MATIC_GBP = MATIC_GBP()
+MATIC_GBP = MATIC_GBP(*MATIC_GBP._fields)
 """
     name: MATIC-GBP
     significant_digits: None
@@ -17785,7 +17785,7 @@ MATIC_GBP = MATIC_GBP()
 """
 
 
-class MATIC_USD(NamedTuple):
+class MATIC_USD(Symbol):
     """
         name: MATIC-USD
         significant_digits: None
@@ -17823,7 +17823,7 @@ class MATIC_USD(NamedTuple):
         return "MATIC-USD"
 
 
-MATIC_USD = MATIC_USD()
+MATIC_USD = MATIC_USD(*MATIC_USD._fields)
 """
     name: MATIC-USD
     significant_digits: None
@@ -17837,7 +17837,7 @@ MATIC_USD = MATIC_USD()
 """
 
 
-class MATIC_USDT(NamedTuple):
+class MATIC_USDT(Symbol):
     """
         name: MATIC-USDT
         significant_digits: None
@@ -17875,7 +17875,7 @@ class MATIC_USDT(NamedTuple):
         return "MATIC-USDT"
 
 
-MATIC_USDT = MATIC_USDT()
+MATIC_USDT = MATIC_USDT(*MATIC_USDT._fields)
 """
     name: MATIC-USDT
     significant_digits: None
@@ -17889,7 +17889,7 @@ MATIC_USDT = MATIC_USDT()
 """
 
 
-class MCO2_USD(NamedTuple):
+class MCO2_USD(Symbol):
     """
         name: MCO2-USD
         significant_digits: None
@@ -17927,7 +17927,7 @@ class MCO2_USD(NamedTuple):
         return "MCO2-USD"
 
 
-MCO2_USD = MCO2_USD()
+MCO2_USD = MCO2_USD(*MCO2_USD._fields)
 """
     name: MCO2-USD
     significant_digits: None
@@ -17941,7 +17941,7 @@ MCO2_USD = MCO2_USD()
 """
 
 
-class MCO2_USDT(NamedTuple):
+class MCO2_USDT(Symbol):
     """
         name: MCO2-USDT
         significant_digits: None
@@ -17979,7 +17979,7 @@ class MCO2_USDT(NamedTuple):
         return "MCO2-USDT"
 
 
-MCO2_USDT = MCO2_USDT()
+MCO2_USDT = MCO2_USDT(*MCO2_USDT._fields)
 """
     name: MCO2-USDT
     significant_digits: None
@@ -17993,7 +17993,7 @@ MCO2_USDT = MCO2_USDT()
 """
 
 
-class MDT_USD(NamedTuple):
+class MDT_USD(Symbol):
     """
         name: MDT-USD
         significant_digits: None
@@ -18031,7 +18031,7 @@ class MDT_USD(NamedTuple):
         return "MDT-USD"
 
 
-MDT_USD = MDT_USD()
+MDT_USD = MDT_USD(*MDT_USD._fields)
 """
     name: MDT-USD
     significant_digits: None
@@ -18045,7 +18045,7 @@ MDT_USD = MDT_USD()
 """
 
 
-class MDT_USDT(NamedTuple):
+class MDT_USDT(Symbol):
     """
         name: MDT-USDT
         significant_digits: None
@@ -18083,7 +18083,7 @@ class MDT_USDT(NamedTuple):
         return "MDT-USDT"
 
 
-MDT_USDT = MDT_USDT()
+MDT_USDT = MDT_USDT(*MDT_USDT._fields)
 """
     name: MDT-USDT
     significant_digits: None
@@ -18097,7 +18097,7 @@ MDT_USDT = MDT_USDT()
 """
 
 
-class MEDIA_USD(NamedTuple):
+class MEDIA_USD(Symbol):
     """
         name: MEDIA-USD
         significant_digits: None
@@ -18135,7 +18135,7 @@ class MEDIA_USD(NamedTuple):
         return "MEDIA-USD"
 
 
-MEDIA_USD = MEDIA_USD()
+MEDIA_USD = MEDIA_USD(*MEDIA_USD._fields)
 """
     name: MEDIA-USD
     significant_digits: None
@@ -18149,7 +18149,7 @@ MEDIA_USD = MEDIA_USD()
 """
 
 
-class MEDIA_USDT(NamedTuple):
+class MEDIA_USDT(Symbol):
     """
         name: MEDIA-USDT
         significant_digits: None
@@ -18187,7 +18187,7 @@ class MEDIA_USDT(NamedTuple):
         return "MEDIA-USDT"
 
 
-MEDIA_USDT = MEDIA_USDT()
+MEDIA_USDT = MEDIA_USDT(*MEDIA_USDT._fields)
 """
     name: MEDIA-USDT
     significant_digits: None
@@ -18201,7 +18201,7 @@ MEDIA_USDT = MEDIA_USDT()
 """
 
 
-class METIS_USD(NamedTuple):
+class METIS_USD(Symbol):
     """
         name: METIS-USD
         significant_digits: None
@@ -18239,7 +18239,7 @@ class METIS_USD(NamedTuple):
         return "METIS-USD"
 
 
-METIS_USD = METIS_USD()
+METIS_USD = METIS_USD(*METIS_USD._fields)
 """
     name: METIS-USD
     significant_digits: None
@@ -18253,7 +18253,7 @@ METIS_USD = METIS_USD()
 """
 
 
-class METIS_USDT(NamedTuple):
+class METIS_USDT(Symbol):
     """
         name: METIS-USDT
         significant_digits: None
@@ -18291,7 +18291,7 @@ class METIS_USDT(NamedTuple):
         return "METIS-USDT"
 
 
-METIS_USDT = METIS_USDT()
+METIS_USDT = METIS_USDT(*METIS_USDT._fields)
 """
     name: METIS-USDT
     significant_digits: None
@@ -18305,7 +18305,7 @@ METIS_USDT = METIS_USDT()
 """
 
 
-class MINA_EUR(NamedTuple):
+class MINA_EUR(Symbol):
     """
         name: MINA-EUR
         significant_digits: None
@@ -18343,7 +18343,7 @@ class MINA_EUR(NamedTuple):
         return "MINA-EUR"
 
 
-MINA_EUR = MINA_EUR()
+MINA_EUR = MINA_EUR(*MINA_EUR._fields)
 """
     name: MINA-EUR
     significant_digits: None
@@ -18357,7 +18357,7 @@ MINA_EUR = MINA_EUR()
 """
 
 
-class MINA_USD(NamedTuple):
+class MINA_USD(Symbol):
     """
         name: MINA-USD
         significant_digits: None
@@ -18395,7 +18395,7 @@ class MINA_USD(NamedTuple):
         return "MINA-USD"
 
 
-MINA_USD = MINA_USD()
+MINA_USD = MINA_USD(*MINA_USD._fields)
 """
     name: MINA-USD
     significant_digits: None
@@ -18409,7 +18409,7 @@ MINA_USD = MINA_USD()
 """
 
 
-class MINA_USDT(NamedTuple):
+class MINA_USDT(Symbol):
     """
         name: MINA-USDT
         significant_digits: None
@@ -18447,7 +18447,7 @@ class MINA_USDT(NamedTuple):
         return "MINA-USDT"
 
 
-MINA_USDT = MINA_USDT()
+MINA_USDT = MINA_USDT(*MINA_USDT._fields)
 """
     name: MINA-USDT
     significant_digits: None
@@ -18461,7 +18461,7 @@ MINA_USDT = MINA_USDT()
 """
 
 
-class MIR_BTC(NamedTuple):
+class MIR_BTC(Symbol):
     """
         name: MIR-BTC
         significant_digits: None
@@ -18499,7 +18499,7 @@ class MIR_BTC(NamedTuple):
         return "MIR-BTC"
 
 
-MIR_BTC = MIR_BTC()
+MIR_BTC = MIR_BTC(*MIR_BTC._fields)
 """
     name: MIR-BTC
     significant_digits: None
@@ -18513,7 +18513,7 @@ MIR_BTC = MIR_BTC()
 """
 
 
-class MIR_EUR(NamedTuple):
+class MIR_EUR(Symbol):
     """
         name: MIR-EUR
         significant_digits: None
@@ -18551,7 +18551,7 @@ class MIR_EUR(NamedTuple):
         return "MIR-EUR"
 
 
-MIR_EUR = MIR_EUR()
+MIR_EUR = MIR_EUR(*MIR_EUR._fields)
 """
     name: MIR-EUR
     significant_digits: None
@@ -18565,7 +18565,7 @@ MIR_EUR = MIR_EUR()
 """
 
 
-class MIR_GBP(NamedTuple):
+class MIR_GBP(Symbol):
     """
         name: MIR-GBP
         significant_digits: None
@@ -18603,7 +18603,7 @@ class MIR_GBP(NamedTuple):
         return "MIR-GBP"
 
 
-MIR_GBP = MIR_GBP()
+MIR_GBP = MIR_GBP(*MIR_GBP._fields)
 """
     name: MIR-GBP
     significant_digits: None
@@ -18617,7 +18617,7 @@ MIR_GBP = MIR_GBP()
 """
 
 
-class MIR_USD(NamedTuple):
+class MIR_USD(Symbol):
     """
         name: MIR-USD
         significant_digits: None
@@ -18655,7 +18655,7 @@ class MIR_USD(NamedTuple):
         return "MIR-USD"
 
 
-MIR_USD = MIR_USD()
+MIR_USD = MIR_USD(*MIR_USD._fields)
 """
     name: MIR-USD
     significant_digits: None
@@ -18669,7 +18669,7 @@ MIR_USD = MIR_USD()
 """
 
 
-class MKR_BTC(NamedTuple):
+class MKR_BTC(Symbol):
     """
         name: MKR-BTC
         significant_digits: None
@@ -18707,7 +18707,7 @@ class MKR_BTC(NamedTuple):
         return "MKR-BTC"
 
 
-MKR_BTC = MKR_BTC()
+MKR_BTC = MKR_BTC(*MKR_BTC._fields)
 """
     name: MKR-BTC
     significant_digits: None
@@ -18721,7 +18721,7 @@ MKR_BTC = MKR_BTC()
 """
 
 
-class MKR_USD(NamedTuple):
+class MKR_USD(Symbol):
     """
         name: MKR-USD
         significant_digits: None
@@ -18759,7 +18759,7 @@ class MKR_USD(NamedTuple):
         return "MKR-USD"
 
 
-MKR_USD = MKR_USD()
+MKR_USD = MKR_USD(*MKR_USD._fields)
 """
     name: MKR-USD
     significant_digits: None
@@ -18773,7 +18773,7 @@ MKR_USD = MKR_USD()
 """
 
 
-class MLN_USD(NamedTuple):
+class MLN_USD(Symbol):
     """
         name: MLN-USD
         significant_digits: None
@@ -18811,7 +18811,7 @@ class MLN_USD(NamedTuple):
         return "MLN-USD"
 
 
-MLN_USD = MLN_USD()
+MLN_USD = MLN_USD(*MLN_USD._fields)
 """
     name: MLN-USD
     significant_digits: None
@@ -18825,7 +18825,7 @@ MLN_USD = MLN_USD()
 """
 
 
-class MNDE_USD(NamedTuple):
+class MNDE_USD(Symbol):
     """
         name: MNDE-USD
         significant_digits: None
@@ -18863,7 +18863,7 @@ class MNDE_USD(NamedTuple):
         return "MNDE-USD"
 
 
-MNDE_USD = MNDE_USD()
+MNDE_USD = MNDE_USD(*MNDE_USD._fields)
 """
     name: MNDE-USD
     significant_digits: None
@@ -18877,7 +18877,7 @@ MNDE_USD = MNDE_USD()
 """
 
 
-class MONA_USD(NamedTuple):
+class MONA_USD(Symbol):
     """
         name: MONA-USD
         significant_digits: None
@@ -18915,7 +18915,7 @@ class MONA_USD(NamedTuple):
         return "MONA-USD"
 
 
-MONA_USD = MONA_USD()
+MONA_USD = MONA_USD(*MONA_USD._fields)
 """
     name: MONA-USD
     significant_digits: None
@@ -18929,7 +18929,7 @@ MONA_USD = MONA_USD()
 """
 
 
-class MPL_USD(NamedTuple):
+class MPL_USD(Symbol):
     """
         name: MPL-USD
         significant_digits: None
@@ -18967,7 +18967,7 @@ class MPL_USD(NamedTuple):
         return "MPL-USD"
 
 
-MPL_USD = MPL_USD()
+MPL_USD = MPL_USD(*MPL_USD._fields)
 """
     name: MPL-USD
     significant_digits: None
@@ -18981,7 +18981,7 @@ MPL_USD = MPL_USD()
 """
 
 
-class MSOL_USD(NamedTuple):
+class MSOL_USD(Symbol):
     """
         name: MSOL-USD
         significant_digits: None
@@ -19019,7 +19019,7 @@ class MSOL_USD(NamedTuple):
         return "MSOL-USD"
 
 
-MSOL_USD = MSOL_USD()
+MSOL_USD = MSOL_USD(*MSOL_USD._fields)
 """
     name: MSOL-USD
     significant_digits: None
@@ -19033,7 +19033,7 @@ MSOL_USD = MSOL_USD()
 """
 
 
-class MTL_USD(NamedTuple):
+class MTL_USD(Symbol):
     """
         name: MTL-USD
         significant_digits: None
@@ -19071,7 +19071,7 @@ class MTL_USD(NamedTuple):
         return "MTL-USD"
 
 
-MTL_USD = MTL_USD()
+MTL_USD = MTL_USD(*MTL_USD._fields)
 """
     name: MTL-USD
     significant_digits: None
@@ -19085,7 +19085,59 @@ MTL_USD = MTL_USD()
 """
 
 
-class MUSD_USD(NamedTuple):
+class MULTI_USD(Symbol):
+    """
+        name: MULTI-USD
+        significant_digits: None
+        tick_size: 0.001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "MULTI-USD"
+    significant_digits: int = None
+    tick_size: int = 0.001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MULTI-USD"
+
+    def __str__(self):
+        return "MULTI-USD"
+
+    def __call__(self):
+        return "MULTI-USD"
+
+
+MULTI_USD = MULTI_USD(*MULTI_USD._fields)
+"""
+    name: MULTI-USD
+    significant_digits: None
+    tick_size: 0.001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class MUSD_USD(Symbol):
     """
         name: MUSD-USD
         significant_digits: None
@@ -19123,7 +19175,7 @@ class MUSD_USD(NamedTuple):
         return "MUSD-USD"
 
 
-MUSD_USD = MUSD_USD()
+MUSD_USD = MUSD_USD(*MUSD_USD._fields)
 """
     name: MUSD-USD
     significant_digits: None
@@ -19137,7 +19189,7 @@ MUSD_USD = MUSD_USD()
 """
 
 
-class MUSE_USD(NamedTuple):
+class MUSE_USD(Symbol):
     """
         name: MUSE-USD
         significant_digits: None
@@ -19175,7 +19227,7 @@ class MUSE_USD(NamedTuple):
         return "MUSE-USD"
 
 
-MUSE_USD = MUSE_USD()
+MUSE_USD = MUSE_USD(*MUSE_USD._fields)
 """
     name: MUSE-USD
     significant_digits: None
@@ -19189,7 +19241,7 @@ MUSE_USD = MUSE_USD()
 """
 
 
-class MXC_USD(NamedTuple):
+class MXC_USD(Symbol):
     """
         name: MXC-USD
         significant_digits: None
@@ -19227,7 +19279,7 @@ class MXC_USD(NamedTuple):
         return "MXC-USD"
 
 
-MXC_USD = MXC_USD()
+MXC_USD = MXC_USD(*MXC_USD._fields)
 """
     name: MXC-USD
     significant_digits: None
@@ -19241,7 +19293,7 @@ MXC_USD = MXC_USD()
 """
 
 
-class NCT_EUR(NamedTuple):
+class NCT_EUR(Symbol):
     """
         name: NCT-EUR
         significant_digits: None
@@ -19279,7 +19331,7 @@ class NCT_EUR(NamedTuple):
         return "NCT-EUR"
 
 
-NCT_EUR = NCT_EUR()
+NCT_EUR = NCT_EUR(*NCT_EUR._fields)
 """
     name: NCT-EUR
     significant_digits: None
@@ -19293,7 +19345,7 @@ NCT_EUR = NCT_EUR()
 """
 
 
-class NCT_USD(NamedTuple):
+class NCT_USD(Symbol):
     """
         name: NCT-USD
         significant_digits: None
@@ -19331,7 +19383,7 @@ class NCT_USD(NamedTuple):
         return "NCT-USD"
 
 
-NCT_USD = NCT_USD()
+NCT_USD = NCT_USD(*NCT_USD._fields)
 """
     name: NCT-USD
     significant_digits: None
@@ -19345,7 +19397,7 @@ NCT_USD = NCT_USD()
 """
 
 
-class NCT_USDT(NamedTuple):
+class NCT_USDT(Symbol):
     """
         name: NCT-USDT
         significant_digits: None
@@ -19383,7 +19435,7 @@ class NCT_USDT(NamedTuple):
         return "NCT-USDT"
 
 
-NCT_USDT = NCT_USDT()
+NCT_USDT = NCT_USDT(*NCT_USDT._fields)
 """
     name: NCT-USDT
     significant_digits: None
@@ -19397,7 +19449,7 @@ NCT_USDT = NCT_USDT()
 """
 
 
-class NEAR_USD(NamedTuple):
+class NEAR_USD(Symbol):
     """
         name: NEAR-USD
         significant_digits: None
@@ -19435,7 +19487,7 @@ class NEAR_USD(NamedTuple):
         return "NEAR-USD"
 
 
-NEAR_USD = NEAR_USD()
+NEAR_USD = NEAR_USD(*NEAR_USD._fields)
 """
     name: NEAR-USD
     significant_digits: None
@@ -19449,7 +19501,7 @@ NEAR_USD = NEAR_USD()
 """
 
 
-class NEAR_USDT(NamedTuple):
+class NEAR_USDT(Symbol):
     """
         name: NEAR-USDT
         significant_digits: None
@@ -19487,7 +19539,7 @@ class NEAR_USDT(NamedTuple):
         return "NEAR-USDT"
 
 
-NEAR_USDT = NEAR_USDT()
+NEAR_USDT = NEAR_USDT(*NEAR_USDT._fields)
 """
     name: NEAR-USDT
     significant_digits: None
@@ -19501,7 +19553,7 @@ NEAR_USDT = NEAR_USDT()
 """
 
 
-class NEST_USD(NamedTuple):
+class NEST_USD(Symbol):
     """
         name: NEST-USD
         significant_digits: None
@@ -19539,7 +19591,7 @@ class NEST_USD(NamedTuple):
         return "NEST-USD"
 
 
-NEST_USD = NEST_USD()
+NEST_USD = NEST_USD(*NEST_USD._fields)
 """
     name: NEST-USD
     significant_digits: None
@@ -19553,7 +19605,7 @@ NEST_USD = NEST_USD()
 """
 
 
-class NEST_USDT(NamedTuple):
+class NEST_USDT(Symbol):
     """
         name: NEST-USDT
         significant_digits: None
@@ -19591,7 +19643,7 @@ class NEST_USDT(NamedTuple):
         return "NEST-USDT"
 
 
-NEST_USDT = NEST_USDT()
+NEST_USDT = NEST_USDT(*NEST_USDT._fields)
 """
     name: NEST-USDT
     significant_digits: None
@@ -19605,7 +19657,7 @@ NEST_USDT = NEST_USDT()
 """
 
 
-class NKN_BTC(NamedTuple):
+class NKN_BTC(Symbol):
     """
         name: NKN-BTC
         significant_digits: None
@@ -19643,7 +19695,7 @@ class NKN_BTC(NamedTuple):
         return "NKN-BTC"
 
 
-NKN_BTC = NKN_BTC()
+NKN_BTC = NKN_BTC(*NKN_BTC._fields)
 """
     name: NKN-BTC
     significant_digits: None
@@ -19657,7 +19709,7 @@ NKN_BTC = NKN_BTC()
 """
 
 
-class NKN_EUR(NamedTuple):
+class NKN_EUR(Symbol):
     """
         name: NKN-EUR
         significant_digits: None
@@ -19695,7 +19747,7 @@ class NKN_EUR(NamedTuple):
         return "NKN-EUR"
 
 
-NKN_EUR = NKN_EUR()
+NKN_EUR = NKN_EUR(*NKN_EUR._fields)
 """
     name: NKN-EUR
     significant_digits: None
@@ -19709,7 +19761,7 @@ NKN_EUR = NKN_EUR()
 """
 
 
-class NKN_GBP(NamedTuple):
+class NKN_GBP(Symbol):
     """
         name: NKN-GBP
         significant_digits: None
@@ -19747,7 +19799,7 @@ class NKN_GBP(NamedTuple):
         return "NKN-GBP"
 
 
-NKN_GBP = NKN_GBP()
+NKN_GBP = NKN_GBP(*NKN_GBP._fields)
 """
     name: NKN-GBP
     significant_digits: None
@@ -19761,7 +19813,7 @@ NKN_GBP = NKN_GBP()
 """
 
 
-class NKN_USD(NamedTuple):
+class NKN_USD(Symbol):
     """
         name: NKN-USD
         significant_digits: None
@@ -19799,7 +19851,7 @@ class NKN_USD(NamedTuple):
         return "NKN-USD"
 
 
-NKN_USD = NKN_USD()
+NKN_USD = NKN_USD(*NKN_USD._fields)
 """
     name: NKN-USD
     significant_digits: None
@@ -19813,7 +19865,7 @@ NKN_USD = NKN_USD()
 """
 
 
-class NMR_BTC(NamedTuple):
+class NMR_BTC(Symbol):
     """
         name: NMR-BTC
         significant_digits: None
@@ -19851,7 +19903,7 @@ class NMR_BTC(NamedTuple):
         return "NMR-BTC"
 
 
-NMR_BTC = NMR_BTC()
+NMR_BTC = NMR_BTC(*NMR_BTC._fields)
 """
     name: NMR-BTC
     significant_digits: None
@@ -19865,7 +19917,7 @@ NMR_BTC = NMR_BTC()
 """
 
 
-class NMR_EUR(NamedTuple):
+class NMR_EUR(Symbol):
     """
         name: NMR-EUR
         significant_digits: None
@@ -19903,7 +19955,7 @@ class NMR_EUR(NamedTuple):
         return "NMR-EUR"
 
 
-NMR_EUR = NMR_EUR()
+NMR_EUR = NMR_EUR(*NMR_EUR._fields)
 """
     name: NMR-EUR
     significant_digits: None
@@ -19917,7 +19969,7 @@ NMR_EUR = NMR_EUR()
 """
 
 
-class NMR_GBP(NamedTuple):
+class NMR_GBP(Symbol):
     """
         name: NMR-GBP
         significant_digits: None
@@ -19955,7 +20007,7 @@ class NMR_GBP(NamedTuple):
         return "NMR-GBP"
 
 
-NMR_GBP = NMR_GBP()
+NMR_GBP = NMR_GBP(*NMR_GBP._fields)
 """
     name: NMR-GBP
     significant_digits: None
@@ -19969,7 +20021,7 @@ NMR_GBP = NMR_GBP()
 """
 
 
-class NMR_USD(NamedTuple):
+class NMR_USD(Symbol):
     """
         name: NMR-USD
         significant_digits: None
@@ -20007,7 +20059,7 @@ class NMR_USD(NamedTuple):
         return "NMR-USD"
 
 
-NMR_USD = NMR_USD()
+NMR_USD = NMR_USD(*NMR_USD._fields)
 """
     name: NMR-USD
     significant_digits: None
@@ -20021,7 +20073,7 @@ NMR_USD = NMR_USD()
 """
 
 
-class NU_BTC(NamedTuple):
+class NU_BTC(Symbol):
     """
         name: NU-BTC
         significant_digits: None
@@ -20059,7 +20111,7 @@ class NU_BTC(NamedTuple):
         return "NU-BTC"
 
 
-NU_BTC = NU_BTC()
+NU_BTC = NU_BTC(*NU_BTC._fields)
 """
     name: NU-BTC
     significant_digits: None
@@ -20073,7 +20125,7 @@ NU_BTC = NU_BTC()
 """
 
 
-class NU_EUR(NamedTuple):
+class NU_EUR(Symbol):
     """
         name: NU-EUR
         significant_digits: None
@@ -20111,7 +20163,7 @@ class NU_EUR(NamedTuple):
         return "NU-EUR"
 
 
-NU_EUR = NU_EUR()
+NU_EUR = NU_EUR(*NU_EUR._fields)
 """
     name: NU-EUR
     significant_digits: None
@@ -20125,7 +20177,7 @@ NU_EUR = NU_EUR()
 """
 
 
-class NU_GBP(NamedTuple):
+class NU_GBP(Symbol):
     """
         name: NU-GBP
         significant_digits: None
@@ -20163,7 +20215,7 @@ class NU_GBP(NamedTuple):
         return "NU-GBP"
 
 
-NU_GBP = NU_GBP()
+NU_GBP = NU_GBP(*NU_GBP._fields)
 """
     name: NU-GBP
     significant_digits: None
@@ -20177,7 +20229,7 @@ NU_GBP = NU_GBP()
 """
 
 
-class NU_USD(NamedTuple):
+class NU_USD(Symbol):
     """
         name: NU-USD
         significant_digits: None
@@ -20215,7 +20267,7 @@ class NU_USD(NamedTuple):
         return "NU-USD"
 
 
-NU_USD = NU_USD()
+NU_USD = NU_USD(*NU_USD._fields)
 """
     name: NU-USD
     significant_digits: None
@@ -20229,7 +20281,7 @@ NU_USD = NU_USD()
 """
 
 
-class OCEAN_USD(NamedTuple):
+class OCEAN_USD(Symbol):
     """
         name: OCEAN-USD
         significant_digits: None
@@ -20267,7 +20319,7 @@ class OCEAN_USD(NamedTuple):
         return "OCEAN-USD"
 
 
-OCEAN_USD = OCEAN_USD()
+OCEAN_USD = OCEAN_USD(*OCEAN_USD._fields)
 """
     name: OCEAN-USD
     significant_digits: None
@@ -20281,7 +20333,7 @@ OCEAN_USD = OCEAN_USD()
 """
 
 
-class OGN_BTC(NamedTuple):
+class OGN_BTC(Symbol):
     """
         name: OGN-BTC
         significant_digits: None
@@ -20319,7 +20371,7 @@ class OGN_BTC(NamedTuple):
         return "OGN-BTC"
 
 
-OGN_BTC = OGN_BTC()
+OGN_BTC = OGN_BTC(*OGN_BTC._fields)
 """
     name: OGN-BTC
     significant_digits: None
@@ -20333,7 +20385,7 @@ OGN_BTC = OGN_BTC()
 """
 
 
-class OGN_USD(NamedTuple):
+class OGN_USD(Symbol):
     """
         name: OGN-USD
         significant_digits: None
@@ -20371,7 +20423,7 @@ class OGN_USD(NamedTuple):
         return "OGN-USD"
 
 
-OGN_USD = OGN_USD()
+OGN_USD = OGN_USD(*OGN_USD._fields)
 """
     name: OGN-USD
     significant_digits: None
@@ -20385,7 +20437,7 @@ OGN_USD = OGN_USD()
 """
 
 
-class OMG_BTC(NamedTuple):
+class OMG_BTC(Symbol):
     """
         name: OMG-BTC
         significant_digits: None
@@ -20423,7 +20475,7 @@ class OMG_BTC(NamedTuple):
         return "OMG-BTC"
 
 
-OMG_BTC = OMG_BTC()
+OMG_BTC = OMG_BTC(*OMG_BTC._fields)
 """
     name: OMG-BTC
     significant_digits: None
@@ -20437,7 +20489,7 @@ OMG_BTC = OMG_BTC()
 """
 
 
-class OMG_EUR(NamedTuple):
+class OMG_EUR(Symbol):
     """
         name: OMG-EUR
         significant_digits: None
@@ -20475,7 +20527,7 @@ class OMG_EUR(NamedTuple):
         return "OMG-EUR"
 
 
-OMG_EUR = OMG_EUR()
+OMG_EUR = OMG_EUR(*OMG_EUR._fields)
 """
     name: OMG-EUR
     significant_digits: None
@@ -20489,7 +20541,7 @@ OMG_EUR = OMG_EUR()
 """
 
 
-class OMG_GBP(NamedTuple):
+class OMG_GBP(Symbol):
     """
         name: OMG-GBP
         significant_digits: None
@@ -20527,7 +20579,7 @@ class OMG_GBP(NamedTuple):
         return "OMG-GBP"
 
 
-OMG_GBP = OMG_GBP()
+OMG_GBP = OMG_GBP(*OMG_GBP._fields)
 """
     name: OMG-GBP
     significant_digits: None
@@ -20541,7 +20593,7 @@ OMG_GBP = OMG_GBP()
 """
 
 
-class OMG_USD(NamedTuple):
+class OMG_USD(Symbol):
     """
         name: OMG-USD
         significant_digits: None
@@ -20579,7 +20631,7 @@ class OMG_USD(NamedTuple):
         return "OMG-USD"
 
 
-OMG_USD = OMG_USD()
+OMG_USD = OMG_USD(*OMG_USD._fields)
 """
     name: OMG-USD
     significant_digits: None
@@ -20593,7 +20645,7 @@ OMG_USD = OMG_USD()
 """
 
 
-class OOKI_USD(NamedTuple):
+class OOKI_USD(Symbol):
     """
         name: OOKI-USD
         significant_digits: None
@@ -20631,7 +20683,7 @@ class OOKI_USD(NamedTuple):
         return "OOKI-USD"
 
 
-OOKI_USD = OOKI_USD()
+OOKI_USD = OOKI_USD(*OOKI_USD._fields)
 """
     name: OOKI-USD
     significant_digits: None
@@ -20645,7 +20697,7 @@ OOKI_USD = OOKI_USD()
 """
 
 
-class OP_USD(NamedTuple):
+class OP_USD(Symbol):
     """
         name: OP-USD
         significant_digits: None
@@ -20683,7 +20735,7 @@ class OP_USD(NamedTuple):
         return "OP-USD"
 
 
-OP_USD = OP_USD()
+OP_USD = OP_USD(*OP_USD._fields)
 """
     name: OP-USD
     significant_digits: None
@@ -20697,7 +20749,7 @@ OP_USD = OP_USD()
 """
 
 
-class OP_USDT(NamedTuple):
+class OP_USDT(Symbol):
     """
         name: OP-USDT
         significant_digits: None
@@ -20735,7 +20787,7 @@ class OP_USDT(NamedTuple):
         return "OP-USDT"
 
 
-OP_USDT = OP_USDT()
+OP_USDT = OP_USDT(*OP_USDT._fields)
 """
     name: OP-USDT
     significant_digits: None
@@ -20749,7 +20801,7 @@ OP_USDT = OP_USDT()
 """
 
 
-class ORCA_USD(NamedTuple):
+class ORCA_USD(Symbol):
     """
         name: ORCA-USD
         significant_digits: None
@@ -20787,7 +20839,7 @@ class ORCA_USD(NamedTuple):
         return "ORCA-USD"
 
 
-ORCA_USD = ORCA_USD()
+ORCA_USD = ORCA_USD(*ORCA_USD._fields)
 """
     name: ORCA-USD
     significant_digits: None
@@ -20801,7 +20853,7 @@ ORCA_USD = ORCA_USD()
 """
 
 
-class ORN_BTC(NamedTuple):
+class ORN_BTC(Symbol):
     """
         name: ORN-BTC
         significant_digits: None
@@ -20839,7 +20891,7 @@ class ORN_BTC(NamedTuple):
         return "ORN-BTC"
 
 
-ORN_BTC = ORN_BTC()
+ORN_BTC = ORN_BTC(*ORN_BTC._fields)
 """
     name: ORN-BTC
     significant_digits: None
@@ -20853,7 +20905,7 @@ ORN_BTC = ORN_BTC()
 """
 
 
-class ORN_USD(NamedTuple):
+class ORN_USD(Symbol):
     """
         name: ORN-USD
         significant_digits: None
@@ -20891,7 +20943,7 @@ class ORN_USD(NamedTuple):
         return "ORN-USD"
 
 
-ORN_USD = ORN_USD()
+ORN_USD = ORN_USD(*ORN_USD._fields)
 """
     name: ORN-USD
     significant_digits: None
@@ -20905,7 +20957,7 @@ ORN_USD = ORN_USD()
 """
 
 
-class ORN_USDT(NamedTuple):
+class ORN_USDT(Symbol):
     """
         name: ORN-USDT
         significant_digits: None
@@ -20943,7 +20995,7 @@ class ORN_USDT(NamedTuple):
         return "ORN-USDT"
 
 
-ORN_USDT = ORN_USDT()
+ORN_USDT = ORN_USDT(*ORN_USDT._fields)
 """
     name: ORN-USDT
     significant_digits: None
@@ -20957,7 +21009,7 @@ ORN_USDT = ORN_USDT()
 """
 
 
-class OXT_USD(NamedTuple):
+class OXT_USD(Symbol):
     """
         name: OXT-USD
         significant_digits: None
@@ -20995,7 +21047,7 @@ class OXT_USD(NamedTuple):
         return "OXT-USD"
 
 
-OXT_USD = OXT_USD()
+OXT_USD = OXT_USD(*OXT_USD._fields)
 """
     name: OXT-USD
     significant_digits: None
@@ -21009,7 +21061,7 @@ OXT_USD = OXT_USD()
 """
 
 
-class PAX_USD(NamedTuple):
+class PAX_USD(Symbol):
     """
         name: PAX-USD
         significant_digits: None
@@ -21047,7 +21099,7 @@ class PAX_USD(NamedTuple):
         return "PAX-USD"
 
 
-PAX_USD = PAX_USD()
+PAX_USD = PAX_USD(*PAX_USD._fields)
 """
     name: PAX-USD
     significant_digits: None
@@ -21061,7 +21113,7 @@ PAX_USD = PAX_USD()
 """
 
 
-class PAX_USDT(NamedTuple):
+class PAX_USDT(Symbol):
     """
         name: PAX-USDT
         significant_digits: None
@@ -21099,7 +21151,7 @@ class PAX_USDT(NamedTuple):
         return "PAX-USDT"
 
 
-PAX_USDT = PAX_USDT()
+PAX_USDT = PAX_USDT(*PAX_USDT._fields)
 """
     name: PAX-USDT
     significant_digits: None
@@ -21113,7 +21165,7 @@ PAX_USDT = PAX_USDT()
 """
 
 
-class PERP_EUR(NamedTuple):
+class PERP_EUR(Symbol):
     """
         name: PERP-EUR
         significant_digits: None
@@ -21151,7 +21203,7 @@ class PERP_EUR(NamedTuple):
         return "PERP-EUR"
 
 
-PERP_EUR = PERP_EUR()
+PERP_EUR = PERP_EUR(*PERP_EUR._fields)
 """
     name: PERP-EUR
     significant_digits: None
@@ -21165,7 +21217,7 @@ PERP_EUR = PERP_EUR()
 """
 
 
-class PERP_USD(NamedTuple):
+class PERP_USD(Symbol):
     """
         name: PERP-USD
         significant_digits: None
@@ -21203,7 +21255,7 @@ class PERP_USD(NamedTuple):
         return "PERP-USD"
 
 
-PERP_USD = PERP_USD()
+PERP_USD = PERP_USD(*PERP_USD._fields)
 """
     name: PERP-USD
     significant_digits: None
@@ -21217,7 +21269,7 @@ PERP_USD = PERP_USD()
 """
 
 
-class PERP_USDT(NamedTuple):
+class PERP_USDT(Symbol):
     """
         name: PERP-USDT
         significant_digits: None
@@ -21255,7 +21307,7 @@ class PERP_USDT(NamedTuple):
         return "PERP-USDT"
 
 
-PERP_USDT = PERP_USDT()
+PERP_USDT = PERP_USDT(*PERP_USDT._fields)
 """
     name: PERP-USDT
     significant_digits: None
@@ -21269,7 +21321,7 @@ PERP_USDT = PERP_USDT()
 """
 
 
-class PLA_USD(NamedTuple):
+class PLA_USD(Symbol):
     """
         name: PLA-USD
         significant_digits: None
@@ -21307,7 +21359,7 @@ class PLA_USD(NamedTuple):
         return "PLA-USD"
 
 
-PLA_USD = PLA_USD()
+PLA_USD = PLA_USD(*PLA_USD._fields)
 """
     name: PLA-USD
     significant_digits: None
@@ -21321,7 +21373,7 @@ PLA_USD = PLA_USD()
 """
 
 
-class PLU_USD(NamedTuple):
+class PLU_USD(Symbol):
     """
         name: PLU-USD
         significant_digits: None
@@ -21359,7 +21411,7 @@ class PLU_USD(NamedTuple):
         return "PLU-USD"
 
 
-PLU_USD = PLU_USD()
+PLU_USD = PLU_USD(*PLU_USD._fields)
 """
     name: PLU-USD
     significant_digits: None
@@ -21373,7 +21425,7 @@ PLU_USD = PLU_USD()
 """
 
 
-class PNG_USD(NamedTuple):
+class PNG_USD(Symbol):
     """
         name: PNG-USD
         significant_digits: None
@@ -21411,7 +21463,7 @@ class PNG_USD(NamedTuple):
         return "PNG-USD"
 
 
-PNG_USD = PNG_USD()
+PNG_USD = PNG_USD(*PNG_USD._fields)
 """
     name: PNG-USD
     significant_digits: None
@@ -21425,7 +21477,7 @@ PNG_USD = PNG_USD()
 """
 
 
-class POLS_USD(NamedTuple):
+class POLS_USD(Symbol):
     """
         name: POLS-USD
         significant_digits: None
@@ -21463,7 +21515,7 @@ class POLS_USD(NamedTuple):
         return "POLS-USD"
 
 
-POLS_USD = POLS_USD()
+POLS_USD = POLS_USD(*POLS_USD._fields)
 """
     name: POLS-USD
     significant_digits: None
@@ -21477,7 +21529,7 @@ POLS_USD = POLS_USD()
 """
 
 
-class POLS_USDT(NamedTuple):
+class POLS_USDT(Symbol):
     """
         name: POLS-USDT
         significant_digits: None
@@ -21515,7 +21567,7 @@ class POLS_USDT(NamedTuple):
         return "POLS-USDT"
 
 
-POLS_USDT = POLS_USDT()
+POLS_USDT = POLS_USDT(*POLS_USDT._fields)
 """
     name: POLS-USDT
     significant_digits: None
@@ -21529,7 +21581,7 @@ POLS_USDT = POLS_USDT()
 """
 
 
-class POLY_USD(NamedTuple):
+class POLY_USD(Symbol):
     """
         name: POLY-USD
         significant_digits: None
@@ -21567,7 +21619,7 @@ class POLY_USD(NamedTuple):
         return "POLY-USD"
 
 
-POLY_USD = POLY_USD()
+POLY_USD = POLY_USD(*POLY_USD._fields)
 """
     name: POLY-USD
     significant_digits: None
@@ -21581,7 +21633,7 @@ POLY_USD = POLY_USD()
 """
 
 
-class POLY_USDT(NamedTuple):
+class POLY_USDT(Symbol):
     """
         name: POLY-USDT
         significant_digits: None
@@ -21619,7 +21671,7 @@ class POLY_USDT(NamedTuple):
         return "POLY-USDT"
 
 
-POLY_USDT = POLY_USDT()
+POLY_USDT = POLY_USDT(*POLY_USDT._fields)
 """
     name: POLY-USDT
     significant_digits: None
@@ -21633,7 +21685,7 @@ POLY_USDT = POLY_USDT()
 """
 
 
-class POND_USD(NamedTuple):
+class POND_USD(Symbol):
     """
         name: POND-USD
         significant_digits: None
@@ -21671,7 +21723,7 @@ class POND_USD(NamedTuple):
         return "POND-USD"
 
 
-POND_USD = POND_USD()
+POND_USD = POND_USD(*POND_USD._fields)
 """
     name: POND-USD
     significant_digits: None
@@ -21685,7 +21737,7 @@ POND_USD = POND_USD()
 """
 
 
-class POND_USDT(NamedTuple):
+class POND_USDT(Symbol):
     """
         name: POND-USDT
         significant_digits: None
@@ -21723,7 +21775,7 @@ class POND_USDT(NamedTuple):
         return "POND-USDT"
 
 
-POND_USDT = POND_USDT()
+POND_USDT = POND_USDT(*POND_USDT._fields)
 """
     name: POND-USDT
     significant_digits: None
@@ -21737,7 +21789,7 @@ POND_USDT = POND_USDT()
 """
 
 
-class POWR_EUR(NamedTuple):
+class POWR_EUR(Symbol):
     """
         name: POWR-EUR
         significant_digits: None
@@ -21775,7 +21827,7 @@ class POWR_EUR(NamedTuple):
         return "POWR-EUR"
 
 
-POWR_EUR = POWR_EUR()
+POWR_EUR = POWR_EUR(*POWR_EUR._fields)
 """
     name: POWR-EUR
     significant_digits: None
@@ -21789,7 +21841,7 @@ POWR_EUR = POWR_EUR()
 """
 
 
-class POWR_USD(NamedTuple):
+class POWR_USD(Symbol):
     """
         name: POWR-USD
         significant_digits: None
@@ -21827,7 +21879,7 @@ class POWR_USD(NamedTuple):
         return "POWR-USD"
 
 
-POWR_USD = POWR_USD()
+POWR_USD = POWR_USD(*POWR_USD._fields)
 """
     name: POWR-USD
     significant_digits: None
@@ -21841,7 +21893,7 @@ POWR_USD = POWR_USD()
 """
 
 
-class POWR_USDT(NamedTuple):
+class POWR_USDT(Symbol):
     """
         name: POWR-USDT
         significant_digits: None
@@ -21879,7 +21931,7 @@ class POWR_USDT(NamedTuple):
         return "POWR-USDT"
 
 
-POWR_USDT = POWR_USDT()
+POWR_USDT = POWR_USDT(*POWR_USDT._fields)
 """
     name: POWR-USDT
     significant_digits: None
@@ -21893,7 +21945,7 @@ POWR_USDT = POWR_USDT()
 """
 
 
-class PRIME_USD(NamedTuple):
+class PRIME_USD(Symbol):
     """
         name: PRIME-USD
         significant_digits: None
@@ -21931,7 +21983,7 @@ class PRIME_USD(NamedTuple):
         return "PRIME-USD"
 
 
-PRIME_USD = PRIME_USD()
+PRIME_USD = PRIME_USD(*PRIME_USD._fields)
 """
     name: PRIME-USD
     significant_digits: None
@@ -21945,7 +21997,7 @@ PRIME_USD = PRIME_USD()
 """
 
 
-class PRO_USD(NamedTuple):
+class PRO_USD(Symbol):
     """
         name: PRO-USD
         significant_digits: None
@@ -21983,7 +22035,7 @@ class PRO_USD(NamedTuple):
         return "PRO-USD"
 
 
-PRO_USD = PRO_USD()
+PRO_USD = PRO_USD(*PRO_USD._fields)
 """
     name: PRO-USD
     significant_digits: None
@@ -21997,7 +22049,7 @@ PRO_USD = PRO_USD()
 """
 
 
-class PRQ_USD(NamedTuple):
+class PRQ_USD(Symbol):
     """
         name: PRQ-USD
         significant_digits: None
@@ -22035,7 +22087,7 @@ class PRQ_USD(NamedTuple):
         return "PRQ-USD"
 
 
-PRQ_USD = PRQ_USD()
+PRQ_USD = PRQ_USD(*PRQ_USD._fields)
 """
     name: PRQ-USD
     significant_digits: None
@@ -22049,7 +22101,7 @@ PRQ_USD = PRQ_USD()
 """
 
 
-class PRQ_USDT(NamedTuple):
+class PRQ_USDT(Symbol):
     """
         name: PRQ-USDT
         significant_digits: None
@@ -22087,7 +22139,7 @@ class PRQ_USDT(NamedTuple):
         return "PRQ-USDT"
 
 
-PRQ_USDT = PRQ_USDT()
+PRQ_USDT = PRQ_USDT(*PRQ_USDT._fields)
 """
     name: PRQ-USDT
     significant_digits: None
@@ -22101,7 +22153,7 @@ PRQ_USDT = PRQ_USDT()
 """
 
 
-class PUNDIX_USD(NamedTuple):
+class PUNDIX_USD(Symbol):
     """
         name: PUNDIX-USD
         significant_digits: None
@@ -22139,7 +22191,7 @@ class PUNDIX_USD(NamedTuple):
         return "PUNDIX-USD"
 
 
-PUNDIX_USD = PUNDIX_USD()
+PUNDIX_USD = PUNDIX_USD(*PUNDIX_USD._fields)
 """
     name: PUNDIX-USD
     significant_digits: None
@@ -22153,7 +22205,7 @@ PUNDIX_USD = PUNDIX_USD()
 """
 
 
-class PYR_USD(NamedTuple):
+class PYR_USD(Symbol):
     """
         name: PYR-USD
         significant_digits: None
@@ -22191,7 +22243,7 @@ class PYR_USD(NamedTuple):
         return "PYR-USD"
 
 
-PYR_USD = PYR_USD()
+PYR_USD = PYR_USD(*PYR_USD._fields)
 """
     name: PYR-USD
     significant_digits: None
@@ -22205,7 +22257,7 @@ PYR_USD = PYR_USD()
 """
 
 
-class QI_USD(NamedTuple):
+class QI_USD(Symbol):
     """
         name: QI-USD
         significant_digits: None
@@ -22243,7 +22295,7 @@ class QI_USD(NamedTuple):
         return "QI-USD"
 
 
-QI_USD = QI_USD()
+QI_USD = QI_USD(*QI_USD._fields)
 """
     name: QI-USD
     significant_digits: None
@@ -22257,7 +22309,7 @@ QI_USD = QI_USD()
 """
 
 
-class QNT_USD(NamedTuple):
+class QNT_USD(Symbol):
     """
         name: QNT-USD
         significant_digits: None
@@ -22295,7 +22347,7 @@ class QNT_USD(NamedTuple):
         return "QNT-USD"
 
 
-QNT_USD = QNT_USD()
+QNT_USD = QNT_USD(*QNT_USD._fields)
 """
     name: QNT-USD
     significant_digits: None
@@ -22309,7 +22361,7 @@ QNT_USD = QNT_USD()
 """
 
 
-class QNT_USDT(NamedTuple):
+class QNT_USDT(Symbol):
     """
         name: QNT-USDT
         significant_digits: None
@@ -22347,7 +22399,7 @@ class QNT_USDT(NamedTuple):
         return "QNT-USDT"
 
 
-QNT_USDT = QNT_USDT()
+QNT_USDT = QNT_USDT(*QNT_USDT._fields)
 """
     name: QNT-USDT
     significant_digits: None
@@ -22361,7 +22413,7 @@ QNT_USDT = QNT_USDT()
 """
 
 
-class QSP_USD(NamedTuple):
+class QSP_USD(Symbol):
     """
         name: QSP-USD
         significant_digits: None
@@ -22399,7 +22451,7 @@ class QSP_USD(NamedTuple):
         return "QSP-USD"
 
 
-QSP_USD = QSP_USD()
+QSP_USD = QSP_USD(*QSP_USD._fields)
 """
     name: QSP-USD
     significant_digits: None
@@ -22413,7 +22465,7 @@ QSP_USD = QSP_USD()
 """
 
 
-class QSP_USDT(NamedTuple):
+class QSP_USDT(Symbol):
     """
         name: QSP-USDT
         significant_digits: None
@@ -22451,7 +22503,7 @@ class QSP_USDT(NamedTuple):
         return "QSP-USDT"
 
 
-QSP_USDT = QSP_USDT()
+QSP_USDT = QSP_USDT(*QSP_USDT._fields)
 """
     name: QSP-USDT
     significant_digits: None
@@ -22465,7 +22517,7 @@ QSP_USDT = QSP_USDT()
 """
 
 
-class QUICK_USD(NamedTuple):
+class QUICK_USD(Symbol):
     """
         name: QUICK-USD
         significant_digits: None
@@ -22503,7 +22555,7 @@ class QUICK_USD(NamedTuple):
         return "QUICK-USD"
 
 
-QUICK_USD = QUICK_USD()
+QUICK_USD = QUICK_USD(*QUICK_USD._fields)
 """
     name: QUICK-USD
     significant_digits: None
@@ -22517,7 +22569,7 @@ QUICK_USD = QUICK_USD()
 """
 
 
-class RAD_BTC(NamedTuple):
+class RAD_BTC(Symbol):
     """
         name: RAD-BTC
         significant_digits: None
@@ -22555,7 +22607,7 @@ class RAD_BTC(NamedTuple):
         return "RAD-BTC"
 
 
-RAD_BTC = RAD_BTC()
+RAD_BTC = RAD_BTC(*RAD_BTC._fields)
 """
     name: RAD-BTC
     significant_digits: None
@@ -22569,7 +22621,7 @@ RAD_BTC = RAD_BTC()
 """
 
 
-class RAD_EUR(NamedTuple):
+class RAD_EUR(Symbol):
     """
         name: RAD-EUR
         significant_digits: None
@@ -22607,7 +22659,7 @@ class RAD_EUR(NamedTuple):
         return "RAD-EUR"
 
 
-RAD_EUR = RAD_EUR()
+RAD_EUR = RAD_EUR(*RAD_EUR._fields)
 """
     name: RAD-EUR
     significant_digits: None
@@ -22621,7 +22673,7 @@ RAD_EUR = RAD_EUR()
 """
 
 
-class RAD_GBP(NamedTuple):
+class RAD_GBP(Symbol):
     """
         name: RAD-GBP
         significant_digits: None
@@ -22659,7 +22711,7 @@ class RAD_GBP(NamedTuple):
         return "RAD-GBP"
 
 
-RAD_GBP = RAD_GBP()
+RAD_GBP = RAD_GBP(*RAD_GBP._fields)
 """
     name: RAD-GBP
     significant_digits: None
@@ -22673,7 +22725,7 @@ RAD_GBP = RAD_GBP()
 """
 
 
-class RAD_USD(NamedTuple):
+class RAD_USD(Symbol):
     """
         name: RAD-USD
         significant_digits: None
@@ -22711,7 +22763,7 @@ class RAD_USD(NamedTuple):
         return "RAD-USD"
 
 
-RAD_USD = RAD_USD()
+RAD_USD = RAD_USD(*RAD_USD._fields)
 """
     name: RAD-USD
     significant_digits: None
@@ -22725,7 +22777,7 @@ RAD_USD = RAD_USD()
 """
 
 
-class RAD_USDT(NamedTuple):
+class RAD_USDT(Symbol):
     """
         name: RAD-USDT
         significant_digits: None
@@ -22763,7 +22815,7 @@ class RAD_USDT(NamedTuple):
         return "RAD-USDT"
 
 
-RAD_USDT = RAD_USDT()
+RAD_USDT = RAD_USDT(*RAD_USDT._fields)
 """
     name: RAD-USDT
     significant_digits: None
@@ -22777,7 +22829,7 @@ RAD_USDT = RAD_USDT()
 """
 
 
-class RAI_USD(NamedTuple):
+class RAI_USD(Symbol):
     """
         name: RAI-USD
         significant_digits: None
@@ -22815,7 +22867,7 @@ class RAI_USD(NamedTuple):
         return "RAI-USD"
 
 
-RAI_USD = RAI_USD()
+RAI_USD = RAI_USD(*RAI_USD._fields)
 """
     name: RAI-USD
     significant_digits: None
@@ -22829,7 +22881,7 @@ RAI_USD = RAI_USD()
 """
 
 
-class RARE_USD(NamedTuple):
+class RARE_USD(Symbol):
     """
         name: RARE-USD
         significant_digits: None
@@ -22867,7 +22919,7 @@ class RARE_USD(NamedTuple):
         return "RARE-USD"
 
 
-RARE_USD = RARE_USD()
+RARE_USD = RARE_USD(*RARE_USD._fields)
 """
     name: RARE-USD
     significant_digits: None
@@ -22881,7 +22933,7 @@ RARE_USD = RARE_USD()
 """
 
 
-class RARI_USD(NamedTuple):
+class RARI_USD(Symbol):
     """
         name: RARI-USD
         significant_digits: None
@@ -22919,7 +22971,7 @@ class RARI_USD(NamedTuple):
         return "RARI-USD"
 
 
-RARI_USD = RARI_USD()
+RARI_USD = RARI_USD(*RARI_USD._fields)
 """
     name: RARI-USD
     significant_digits: None
@@ -22933,7 +22985,7 @@ RARI_USD = RARI_USD()
 """
 
 
-class RBN_USD(NamedTuple):
+class RBN_USD(Symbol):
     """
         name: RBN-USD
         significant_digits: None
@@ -22971,7 +23023,7 @@ class RBN_USD(NamedTuple):
         return "RBN-USD"
 
 
-RBN_USD = RBN_USD()
+RBN_USD = RBN_USD(*RBN_USD._fields)
 """
     name: RBN-USD
     significant_digits: None
@@ -22985,7 +23037,7 @@ RBN_USD = RBN_USD()
 """
 
 
-class REN_BTC(NamedTuple):
+class REN_BTC(Symbol):
     """
         name: REN-BTC
         significant_digits: None
@@ -23023,7 +23075,7 @@ class REN_BTC(NamedTuple):
         return "REN-BTC"
 
 
-REN_BTC = REN_BTC()
+REN_BTC = REN_BTC(*REN_BTC._fields)
 """
     name: REN-BTC
     significant_digits: None
@@ -23037,7 +23089,7 @@ REN_BTC = REN_BTC()
 """
 
 
-class REN_USD(NamedTuple):
+class REN_USD(Symbol):
     """
         name: REN-USD
         significant_digits: None
@@ -23075,7 +23127,7 @@ class REN_USD(NamedTuple):
         return "REN-USD"
 
 
-REN_USD = REN_USD()
+REN_USD = REN_USD(*REN_USD._fields)
 """
     name: REN-USD
     significant_digits: None
@@ -23089,7 +23141,7 @@ REN_USD = REN_USD()
 """
 
 
-class REP_BTC(NamedTuple):
+class REP_BTC(Symbol):
     """
         name: REP-BTC
         significant_digits: None
@@ -23127,7 +23179,7 @@ class REP_BTC(NamedTuple):
         return "REP-BTC"
 
 
-REP_BTC = REP_BTC()
+REP_BTC = REP_BTC(*REP_BTC._fields)
 """
     name: REP-BTC
     significant_digits: None
@@ -23141,7 +23193,7 @@ REP_BTC = REP_BTC()
 """
 
 
-class REP_USD(NamedTuple):
+class REP_USD(Symbol):
     """
         name: REP-USD
         significant_digits: None
@@ -23179,7 +23231,7 @@ class REP_USD(NamedTuple):
         return "REP-USD"
 
 
-REP_USD = REP_USD()
+REP_USD = REP_USD(*REP_USD._fields)
 """
     name: REP-USD
     significant_digits: None
@@ -23193,7 +23245,7 @@ REP_USD = REP_USD()
 """
 
 
-class REQ_BTC(NamedTuple):
+class REQ_BTC(Symbol):
     """
         name: REQ-BTC
         significant_digits: None
@@ -23231,7 +23283,7 @@ class REQ_BTC(NamedTuple):
         return "REQ-BTC"
 
 
-REQ_BTC = REQ_BTC()
+REQ_BTC = REQ_BTC(*REQ_BTC._fields)
 """
     name: REQ-BTC
     significant_digits: None
@@ -23245,7 +23297,7 @@ REQ_BTC = REQ_BTC()
 """
 
 
-class REQ_EUR(NamedTuple):
+class REQ_EUR(Symbol):
     """
         name: REQ-EUR
         significant_digits: None
@@ -23283,7 +23335,7 @@ class REQ_EUR(NamedTuple):
         return "REQ-EUR"
 
 
-REQ_EUR = REQ_EUR()
+REQ_EUR = REQ_EUR(*REQ_EUR._fields)
 """
     name: REQ-EUR
     significant_digits: None
@@ -23297,7 +23349,7 @@ REQ_EUR = REQ_EUR()
 """
 
 
-class REQ_GBP(NamedTuple):
+class REQ_GBP(Symbol):
     """
         name: REQ-GBP
         significant_digits: None
@@ -23335,7 +23387,7 @@ class REQ_GBP(NamedTuple):
         return "REQ-GBP"
 
 
-REQ_GBP = REQ_GBP()
+REQ_GBP = REQ_GBP(*REQ_GBP._fields)
 """
     name: REQ-GBP
     significant_digits: None
@@ -23349,7 +23401,7 @@ REQ_GBP = REQ_GBP()
 """
 
 
-class REQ_USD(NamedTuple):
+class REQ_USD(Symbol):
     """
         name: REQ-USD
         significant_digits: None
@@ -23387,7 +23439,7 @@ class REQ_USD(NamedTuple):
         return "REQ-USD"
 
 
-REQ_USD = REQ_USD()
+REQ_USD = REQ_USD(*REQ_USD._fields)
 """
     name: REQ-USD
     significant_digits: None
@@ -23401,7 +23453,7 @@ REQ_USD = REQ_USD()
 """
 
 
-class REQ_USDT(NamedTuple):
+class REQ_USDT(Symbol):
     """
         name: REQ-USDT
         significant_digits: None
@@ -23439,7 +23491,7 @@ class REQ_USDT(NamedTuple):
         return "REQ-USDT"
 
 
-REQ_USDT = REQ_USDT()
+REQ_USDT = REQ_USDT(*REQ_USDT._fields)
 """
     name: REQ-USDT
     significant_digits: None
@@ -23453,7 +23505,7 @@ REQ_USDT = REQ_USDT()
 """
 
 
-class RGT_USD(NamedTuple):
+class RGT_USD(Symbol):
     """
         name: RGT-USD
         significant_digits: None
@@ -23491,7 +23543,7 @@ class RGT_USD(NamedTuple):
         return "RGT-USD"
 
 
-RGT_USD = RGT_USD()
+RGT_USD = RGT_USD(*RGT_USD._fields)
 """
     name: RGT-USD
     significant_digits: None
@@ -23505,7 +23557,7 @@ RGT_USD = RGT_USD()
 """
 
 
-class RLC_BTC(NamedTuple):
+class RLC_BTC(Symbol):
     """
         name: RLC-BTC
         significant_digits: None
@@ -23543,7 +23595,7 @@ class RLC_BTC(NamedTuple):
         return "RLC-BTC"
 
 
-RLC_BTC = RLC_BTC()
+RLC_BTC = RLC_BTC(*RLC_BTC._fields)
 """
     name: RLC-BTC
     significant_digits: None
@@ -23557,7 +23609,7 @@ RLC_BTC = RLC_BTC()
 """
 
 
-class RLC_USD(NamedTuple):
+class RLC_USD(Symbol):
     """
         name: RLC-USD
         significant_digits: None
@@ -23595,7 +23647,7 @@ class RLC_USD(NamedTuple):
         return "RLC-USD"
 
 
-RLC_USD = RLC_USD()
+RLC_USD = RLC_USD(*RLC_USD._fields)
 """
     name: RLC-USD
     significant_digits: None
@@ -23609,7 +23661,7 @@ RLC_USD = RLC_USD()
 """
 
 
-class RLY_EUR(NamedTuple):
+class RLY_EUR(Symbol):
     """
         name: RLY-EUR
         significant_digits: None
@@ -23647,7 +23699,7 @@ class RLY_EUR(NamedTuple):
         return "RLY-EUR"
 
 
-RLY_EUR = RLY_EUR()
+RLY_EUR = RLY_EUR(*RLY_EUR._fields)
 """
     name: RLY-EUR
     significant_digits: None
@@ -23661,7 +23713,7 @@ RLY_EUR = RLY_EUR()
 """
 
 
-class RLY_GBP(NamedTuple):
+class RLY_GBP(Symbol):
     """
         name: RLY-GBP
         significant_digits: None
@@ -23699,7 +23751,7 @@ class RLY_GBP(NamedTuple):
         return "RLY-GBP"
 
 
-RLY_GBP = RLY_GBP()
+RLY_GBP = RLY_GBP(*RLY_GBP._fields)
 """
     name: RLY-GBP
     significant_digits: None
@@ -23713,7 +23765,7 @@ RLY_GBP = RLY_GBP()
 """
 
 
-class RLY_USD(NamedTuple):
+class RLY_USD(Symbol):
     """
         name: RLY-USD
         significant_digits: None
@@ -23751,7 +23803,7 @@ class RLY_USD(NamedTuple):
         return "RLY-USD"
 
 
-RLY_USD = RLY_USD()
+RLY_USD = RLY_USD(*RLY_USD._fields)
 """
     name: RLY-USD
     significant_digits: None
@@ -23765,7 +23817,7 @@ RLY_USD = RLY_USD()
 """
 
 
-class RLY_USDT(NamedTuple):
+class RLY_USDT(Symbol):
     """
         name: RLY-USDT
         significant_digits: None
@@ -23803,7 +23855,7 @@ class RLY_USDT(NamedTuple):
         return "RLY-USDT"
 
 
-RLY_USDT = RLY_USDT()
+RLY_USDT = RLY_USDT(*RLY_USDT._fields)
 """
     name: RLY-USDT
     significant_digits: None
@@ -23817,7 +23869,7 @@ RLY_USDT = RLY_USDT()
 """
 
 
-class RNDR_EUR(NamedTuple):
+class RNDR_EUR(Symbol):
     """
         name: RNDR-EUR
         significant_digits: None
@@ -23855,7 +23907,7 @@ class RNDR_EUR(NamedTuple):
         return "RNDR-EUR"
 
 
-RNDR_EUR = RNDR_EUR()
+RNDR_EUR = RNDR_EUR(*RNDR_EUR._fields)
 """
     name: RNDR-EUR
     significant_digits: None
@@ -23869,7 +23921,7 @@ RNDR_EUR = RNDR_EUR()
 """
 
 
-class RNDR_USD(NamedTuple):
+class RNDR_USD(Symbol):
     """
         name: RNDR-USD
         significant_digits: None
@@ -23907,7 +23959,7 @@ class RNDR_USD(NamedTuple):
         return "RNDR-USD"
 
 
-RNDR_USD = RNDR_USD()
+RNDR_USD = RNDR_USD(*RNDR_USD._fields)
 """
     name: RNDR-USD
     significant_digits: None
@@ -23921,7 +23973,7 @@ RNDR_USD = RNDR_USD()
 """
 
 
-class RNDR_USDT(NamedTuple):
+class RNDR_USDT(Symbol):
     """
         name: RNDR-USDT
         significant_digits: None
@@ -23959,7 +24011,7 @@ class RNDR_USDT(NamedTuple):
         return "RNDR-USDT"
 
 
-RNDR_USDT = RNDR_USDT()
+RNDR_USDT = RNDR_USDT(*RNDR_USDT._fields)
 """
     name: RNDR-USDT
     significant_digits: None
@@ -23973,7 +24025,7 @@ RNDR_USDT = RNDR_USDT()
 """
 
 
-class ROSE_USD(NamedTuple):
+class ROSE_USD(Symbol):
     """
         name: ROSE-USD
         significant_digits: None
@@ -24011,7 +24063,7 @@ class ROSE_USD(NamedTuple):
         return "ROSE-USD"
 
 
-ROSE_USD = ROSE_USD()
+ROSE_USD = ROSE_USD(*ROSE_USD._fields)
 """
     name: ROSE-USD
     significant_digits: None
@@ -24025,7 +24077,7 @@ ROSE_USD = ROSE_USD()
 """
 
 
-class ROSE_USDT(NamedTuple):
+class ROSE_USDT(Symbol):
     """
         name: ROSE-USDT
         significant_digits: None
@@ -24063,7 +24115,7 @@ class ROSE_USDT(NamedTuple):
         return "ROSE-USDT"
 
 
-ROSE_USDT = ROSE_USDT()
+ROSE_USDT = ROSE_USDT(*ROSE_USDT._fields)
 """
     name: ROSE-USDT
     significant_digits: None
@@ -24077,7 +24129,7 @@ ROSE_USDT = ROSE_USDT()
 """
 
 
-class RPL_USD(NamedTuple):
+class RPL_USD(Symbol):
     """
         name: RPL-USD
         significant_digits: None
@@ -24115,7 +24167,7 @@ class RPL_USD(NamedTuple):
         return "RPL-USD"
 
 
-RPL_USD = RPL_USD()
+RPL_USD = RPL_USD(*RPL_USD._fields)
 """
     name: RPL-USD
     significant_digits: None
@@ -24129,7 +24181,7 @@ RPL_USD = RPL_USD()
 """
 
 
-class SAND_USD(NamedTuple):
+class SAND_USD(Symbol):
     """
         name: SAND-USD
         significant_digits: None
@@ -24167,7 +24219,7 @@ class SAND_USD(NamedTuple):
         return "SAND-USD"
 
 
-SAND_USD = SAND_USD()
+SAND_USD = SAND_USD(*SAND_USD._fields)
 """
     name: SAND-USD
     significant_digits: None
@@ -24181,7 +24233,7 @@ SAND_USD = SAND_USD()
 """
 
 
-class SAND_USDT(NamedTuple):
+class SAND_USDT(Symbol):
     """
         name: SAND-USDT
         significant_digits: None
@@ -24219,7 +24271,7 @@ class SAND_USDT(NamedTuple):
         return "SAND-USDT"
 
 
-SAND_USDT = SAND_USDT()
+SAND_USDT = SAND_USDT(*SAND_USDT._fields)
 """
     name: SAND-USDT
     significant_digits: None
@@ -24233,7 +24285,7 @@ SAND_USDT = SAND_USDT()
 """
 
 
-class SHIB_EUR(NamedTuple):
+class SHIB_EUR(Symbol):
     """
         name: SHIB-EUR
         significant_digits: None
@@ -24271,7 +24323,7 @@ class SHIB_EUR(NamedTuple):
         return "SHIB-EUR"
 
 
-SHIB_EUR = SHIB_EUR()
+SHIB_EUR = SHIB_EUR(*SHIB_EUR._fields)
 """
     name: SHIB-EUR
     significant_digits: None
@@ -24285,7 +24337,7 @@ SHIB_EUR = SHIB_EUR()
 """
 
 
-class SHIB_GBP(NamedTuple):
+class SHIB_GBP(Symbol):
     """
         name: SHIB-GBP
         significant_digits: None
@@ -24323,7 +24375,7 @@ class SHIB_GBP(NamedTuple):
         return "SHIB-GBP"
 
 
-SHIB_GBP = SHIB_GBP()
+SHIB_GBP = SHIB_GBP(*SHIB_GBP._fields)
 """
     name: SHIB-GBP
     significant_digits: None
@@ -24337,7 +24389,7 @@ SHIB_GBP = SHIB_GBP()
 """
 
 
-class SHIB_USD(NamedTuple):
+class SHIB_USD(Symbol):
     """
         name: SHIB-USD
         significant_digits: None
@@ -24375,7 +24427,7 @@ class SHIB_USD(NamedTuple):
         return "SHIB-USD"
 
 
-SHIB_USD = SHIB_USD()
+SHIB_USD = SHIB_USD(*SHIB_USD._fields)
 """
     name: SHIB-USD
     significant_digits: None
@@ -24389,7 +24441,7 @@ SHIB_USD = SHIB_USD()
 """
 
 
-class SHIB_USDT(NamedTuple):
+class SHIB_USDT(Symbol):
     """
         name: SHIB-USDT
         significant_digits: None
@@ -24427,7 +24479,7 @@ class SHIB_USDT(NamedTuple):
         return "SHIB-USDT"
 
 
-SHIB_USDT = SHIB_USDT()
+SHIB_USDT = SHIB_USDT(*SHIB_USDT._fields)
 """
     name: SHIB-USDT
     significant_digits: None
@@ -24441,7 +24493,7 @@ SHIB_USDT = SHIB_USDT()
 """
 
 
-class SHPING_EUR(NamedTuple):
+class SHPING_EUR(Symbol):
     """
         name: SHPING-EUR
         significant_digits: None
@@ -24479,7 +24531,7 @@ class SHPING_EUR(NamedTuple):
         return "SHPING-EUR"
 
 
-SHPING_EUR = SHPING_EUR()
+SHPING_EUR = SHPING_EUR(*SHPING_EUR._fields)
 """
     name: SHPING-EUR
     significant_digits: None
@@ -24493,7 +24545,7 @@ SHPING_EUR = SHPING_EUR()
 """
 
 
-class SHPING_USD(NamedTuple):
+class SHPING_USD(Symbol):
     """
         name: SHPING-USD
         significant_digits: None
@@ -24531,7 +24583,7 @@ class SHPING_USD(NamedTuple):
         return "SHPING-USD"
 
 
-SHPING_USD = SHPING_USD()
+SHPING_USD = SHPING_USD(*SHPING_USD._fields)
 """
     name: SHPING-USD
     significant_digits: None
@@ -24545,7 +24597,7 @@ SHPING_USD = SHPING_USD()
 """
 
 
-class SHPING_USDT(NamedTuple):
+class SHPING_USDT(Symbol):
     """
         name: SHPING-USDT
         significant_digits: None
@@ -24583,7 +24635,7 @@ class SHPING_USDT(NamedTuple):
         return "SHPING-USDT"
 
 
-SHPING_USDT = SHPING_USDT()
+SHPING_USDT = SHPING_USDT(*SHPING_USDT._fields)
 """
     name: SHPING-USDT
     significant_digits: None
@@ -24597,7 +24649,7 @@ SHPING_USDT = SHPING_USDT()
 """
 
 
-class SKL_BTC(NamedTuple):
+class SKL_BTC(Symbol):
     """
         name: SKL-BTC
         significant_digits: None
@@ -24635,7 +24687,7 @@ class SKL_BTC(NamedTuple):
         return "SKL-BTC"
 
 
-SKL_BTC = SKL_BTC()
+SKL_BTC = SKL_BTC(*SKL_BTC._fields)
 """
     name: SKL-BTC
     significant_digits: None
@@ -24649,7 +24701,7 @@ SKL_BTC = SKL_BTC()
 """
 
 
-class SKL_EUR(NamedTuple):
+class SKL_EUR(Symbol):
     """
         name: SKL-EUR
         significant_digits: None
@@ -24687,7 +24739,7 @@ class SKL_EUR(NamedTuple):
         return "SKL-EUR"
 
 
-SKL_EUR = SKL_EUR()
+SKL_EUR = SKL_EUR(*SKL_EUR._fields)
 """
     name: SKL-EUR
     significant_digits: None
@@ -24701,7 +24753,7 @@ SKL_EUR = SKL_EUR()
 """
 
 
-class SKL_GBP(NamedTuple):
+class SKL_GBP(Symbol):
     """
         name: SKL-GBP
         significant_digits: None
@@ -24739,7 +24791,7 @@ class SKL_GBP(NamedTuple):
         return "SKL-GBP"
 
 
-SKL_GBP = SKL_GBP()
+SKL_GBP = SKL_GBP(*SKL_GBP._fields)
 """
     name: SKL-GBP
     significant_digits: None
@@ -24753,7 +24805,7 @@ SKL_GBP = SKL_GBP()
 """
 
 
-class SKL_USD(NamedTuple):
+class SKL_USD(Symbol):
     """
         name: SKL-USD
         significant_digits: None
@@ -24791,7 +24843,7 @@ class SKL_USD(NamedTuple):
         return "SKL-USD"
 
 
-SKL_USD = SKL_USD()
+SKL_USD = SKL_USD(*SKL_USD._fields)
 """
     name: SKL-USD
     significant_digits: None
@@ -24805,7 +24857,7 @@ SKL_USD = SKL_USD()
 """
 
 
-class SNT_USD(NamedTuple):
+class SNT_USD(Symbol):
     """
         name: SNT-USD
         significant_digits: None
@@ -24843,7 +24895,7 @@ class SNT_USD(NamedTuple):
         return "SNT-USD"
 
 
-SNT_USD = SNT_USD()
+SNT_USD = SNT_USD(*SNT_USD._fields)
 """
     name: SNT-USD
     significant_digits: None
@@ -24857,7 +24909,7 @@ SNT_USD = SNT_USD()
 """
 
 
-class SNX_BTC(NamedTuple):
+class SNX_BTC(Symbol):
     """
         name: SNX-BTC
         significant_digits: None
@@ -24895,7 +24947,7 @@ class SNX_BTC(NamedTuple):
         return "SNX-BTC"
 
 
-SNX_BTC = SNX_BTC()
+SNX_BTC = SNX_BTC(*SNX_BTC._fields)
 """
     name: SNX-BTC
     significant_digits: None
@@ -24909,7 +24961,7 @@ SNX_BTC = SNX_BTC()
 """
 
 
-class SNX_EUR(NamedTuple):
+class SNX_EUR(Symbol):
     """
         name: SNX-EUR
         significant_digits: None
@@ -24947,7 +24999,7 @@ class SNX_EUR(NamedTuple):
         return "SNX-EUR"
 
 
-SNX_EUR = SNX_EUR()
+SNX_EUR = SNX_EUR(*SNX_EUR._fields)
 """
     name: SNX-EUR
     significant_digits: None
@@ -24961,7 +25013,7 @@ SNX_EUR = SNX_EUR()
 """
 
 
-class SNX_GBP(NamedTuple):
+class SNX_GBP(Symbol):
     """
         name: SNX-GBP
         significant_digits: None
@@ -24999,7 +25051,7 @@ class SNX_GBP(NamedTuple):
         return "SNX-GBP"
 
 
-SNX_GBP = SNX_GBP()
+SNX_GBP = SNX_GBP(*SNX_GBP._fields)
 """
     name: SNX-GBP
     significant_digits: None
@@ -25013,7 +25065,7 @@ SNX_GBP = SNX_GBP()
 """
 
 
-class SNX_USD(NamedTuple):
+class SNX_USD(Symbol):
     """
         name: SNX-USD
         significant_digits: None
@@ -25051,7 +25103,7 @@ class SNX_USD(NamedTuple):
         return "SNX-USD"
 
 
-SNX_USD = SNX_USD()
+SNX_USD = SNX_USD(*SNX_USD._fields)
 """
     name: SNX-USD
     significant_digits: None
@@ -25065,7 +25117,7 @@ SNX_USD = SNX_USD()
 """
 
 
-class SOL_BTC(NamedTuple):
+class SOL_BTC(Symbol):
     """
         name: SOL-BTC
         significant_digits: None
@@ -25103,7 +25155,7 @@ class SOL_BTC(NamedTuple):
         return "SOL-BTC"
 
 
-SOL_BTC = SOL_BTC()
+SOL_BTC = SOL_BTC(*SOL_BTC._fields)
 """
     name: SOL-BTC
     significant_digits: None
@@ -25117,7 +25169,7 @@ SOL_BTC = SOL_BTC()
 """
 
 
-class SOL_ETH(NamedTuple):
+class SOL_ETH(Symbol):
     """
         name: SOL-ETH
         significant_digits: None
@@ -25155,7 +25207,7 @@ class SOL_ETH(NamedTuple):
         return "SOL-ETH"
 
 
-SOL_ETH = SOL_ETH()
+SOL_ETH = SOL_ETH(*SOL_ETH._fields)
 """
     name: SOL-ETH
     significant_digits: None
@@ -25169,7 +25221,7 @@ SOL_ETH = SOL_ETH()
 """
 
 
-class SOL_EUR(NamedTuple):
+class SOL_EUR(Symbol):
     """
         name: SOL-EUR
         significant_digits: None
@@ -25207,7 +25259,7 @@ class SOL_EUR(NamedTuple):
         return "SOL-EUR"
 
 
-SOL_EUR = SOL_EUR()
+SOL_EUR = SOL_EUR(*SOL_EUR._fields)
 """
     name: SOL-EUR
     significant_digits: None
@@ -25221,7 +25273,7 @@ SOL_EUR = SOL_EUR()
 """
 
 
-class SOL_GBP(NamedTuple):
+class SOL_GBP(Symbol):
     """
         name: SOL-GBP
         significant_digits: None
@@ -25259,7 +25311,7 @@ class SOL_GBP(NamedTuple):
         return "SOL-GBP"
 
 
-SOL_GBP = SOL_GBP()
+SOL_GBP = SOL_GBP(*SOL_GBP._fields)
 """
     name: SOL-GBP
     significant_digits: None
@@ -25273,7 +25325,7 @@ SOL_GBP = SOL_GBP()
 """
 
 
-class SOL_USD(NamedTuple):
+class SOL_USD(Symbol):
     """
         name: SOL-USD
         significant_digits: None
@@ -25311,7 +25363,7 @@ class SOL_USD(NamedTuple):
         return "SOL-USD"
 
 
-SOL_USD = SOL_USD()
+SOL_USD = SOL_USD(*SOL_USD._fields)
 """
     name: SOL-USD
     significant_digits: None
@@ -25325,7 +25377,7 @@ SOL_USD = SOL_USD()
 """
 
 
-class SOL_USDT(NamedTuple):
+class SOL_USDT(Symbol):
     """
         name: SOL-USDT
         significant_digits: None
@@ -25363,7 +25415,7 @@ class SOL_USDT(NamedTuple):
         return "SOL-USDT"
 
 
-SOL_USDT = SOL_USDT()
+SOL_USDT = SOL_USDT(*SOL_USDT._fields)
 """
     name: SOL-USDT
     significant_digits: None
@@ -25377,7 +25429,59 @@ SOL_USDT = SOL_USDT()
 """
 
 
-class SPELL_USD(NamedTuple):
+class SPA_USD(Symbol):
+    """
+        name: SPA-USD
+        significant_digits: None
+        tick_size: 0.000001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 1
+        max_order_size: None
+        has_margin: False
+        exchange: coinbase
+    """
+    name: str = "SPA-USD"
+    significant_digits: int = None
+    tick_size: int = 0.000001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 1
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "coinbase"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SPA-USD"
+
+    def __str__(self):
+        return "SPA-USD"
+
+    def __call__(self):
+        return "SPA-USD"
+
+
+SPA_USD = SPA_USD(*SPA_USD._fields)
+"""
+    name: SPA-USD
+    significant_digits: None
+    tick_size: 0.000001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 1
+    max_order_size: None
+    has_margin: False
+    exchange: coinbase
+"""
+
+
+class SPELL_USD(Symbol):
     """
         name: SPELL-USD
         significant_digits: None
@@ -25415,7 +25519,7 @@ class SPELL_USD(NamedTuple):
         return "SPELL-USD"
 
 
-SPELL_USD = SPELL_USD()
+SPELL_USD = SPELL_USD(*SPELL_USD._fields)
 """
     name: SPELL-USD
     significant_digits: None
@@ -25429,7 +25533,7 @@ SPELL_USD = SPELL_USD()
 """
 
 
-class SPELL_USDT(NamedTuple):
+class SPELL_USDT(Symbol):
     """
         name: SPELL-USDT
         significant_digits: None
@@ -25467,7 +25571,7 @@ class SPELL_USDT(NamedTuple):
         return "SPELL-USDT"
 
 
-SPELL_USDT = SPELL_USDT()
+SPELL_USDT = SPELL_USDT(*SPELL_USDT._fields)
 """
     name: SPELL-USDT
     significant_digits: None
@@ -25481,7 +25585,7 @@ SPELL_USDT = SPELL_USDT()
 """
 
 
-class STG_USD(NamedTuple):
+class STG_USD(Symbol):
     """
         name: STG-USD
         significant_digits: None
@@ -25519,7 +25623,7 @@ class STG_USD(NamedTuple):
         return "STG-USD"
 
 
-STG_USD = STG_USD()
+STG_USD = STG_USD(*STG_USD._fields)
 """
     name: STG-USD
     significant_digits: None
@@ -25533,7 +25637,7 @@ STG_USD = STG_USD()
 """
 
 
-class STG_USDT(NamedTuple):
+class STG_USDT(Symbol):
     """
         name: STG-USDT
         significant_digits: None
@@ -25571,7 +25675,7 @@ class STG_USDT(NamedTuple):
         return "STG-USDT"
 
 
-STG_USDT = STG_USDT()
+STG_USDT = STG_USDT(*STG_USDT._fields)
 """
     name: STG-USDT
     significant_digits: None
@@ -25585,7 +25689,7 @@ STG_USDT = STG_USDT()
 """
 
 
-class STORJ_BTC(NamedTuple):
+class STORJ_BTC(Symbol):
     """
         name: STORJ-BTC
         significant_digits: None
@@ -25623,7 +25727,7 @@ class STORJ_BTC(NamedTuple):
         return "STORJ-BTC"
 
 
-STORJ_BTC = STORJ_BTC()
+STORJ_BTC = STORJ_BTC(*STORJ_BTC._fields)
 """
     name: STORJ-BTC
     significant_digits: None
@@ -25637,7 +25741,7 @@ STORJ_BTC = STORJ_BTC()
 """
 
 
-class STORJ_USD(NamedTuple):
+class STORJ_USD(Symbol):
     """
         name: STORJ-USD
         significant_digits: None
@@ -25675,7 +25779,7 @@ class STORJ_USD(NamedTuple):
         return "STORJ-USD"
 
 
-STORJ_USD = STORJ_USD()
+STORJ_USD = STORJ_USD(*STORJ_USD._fields)
 """
     name: STORJ-USD
     significant_digits: None
@@ -25689,7 +25793,7 @@ STORJ_USD = STORJ_USD()
 """
 
 
-class STX_USD(NamedTuple):
+class STX_USD(Symbol):
     """
         name: STX-USD
         significant_digits: None
@@ -25727,7 +25831,7 @@ class STX_USD(NamedTuple):
         return "STX-USD"
 
 
-STX_USD = STX_USD()
+STX_USD = STX_USD(*STX_USD._fields)
 """
     name: STX-USD
     significant_digits: None
@@ -25741,7 +25845,7 @@ STX_USD = STX_USD()
 """
 
 
-class STX_USDT(NamedTuple):
+class STX_USDT(Symbol):
     """
         name: STX-USDT
         significant_digits: None
@@ -25779,7 +25883,7 @@ class STX_USDT(NamedTuple):
         return "STX-USDT"
 
 
-STX_USDT = STX_USDT()
+STX_USDT = STX_USDT(*STX_USDT._fields)
 """
     name: STX-USDT
     significant_digits: None
@@ -25793,7 +25897,7 @@ STX_USDT = STX_USDT()
 """
 
 
-class SUKU_EUR(NamedTuple):
+class SUKU_EUR(Symbol):
     """
         name: SUKU-EUR
         significant_digits: None
@@ -25831,7 +25935,7 @@ class SUKU_EUR(NamedTuple):
         return "SUKU-EUR"
 
 
-SUKU_EUR = SUKU_EUR()
+SUKU_EUR = SUKU_EUR(*SUKU_EUR._fields)
 """
     name: SUKU-EUR
     significant_digits: None
@@ -25845,7 +25949,7 @@ SUKU_EUR = SUKU_EUR()
 """
 
 
-class SUKU_USD(NamedTuple):
+class SUKU_USD(Symbol):
     """
         name: SUKU-USD
         significant_digits: None
@@ -25883,7 +25987,7 @@ class SUKU_USD(NamedTuple):
         return "SUKU-USD"
 
 
-SUKU_USD = SUKU_USD()
+SUKU_USD = SUKU_USD(*SUKU_USD._fields)
 """
     name: SUKU-USD
     significant_digits: None
@@ -25897,7 +26001,7 @@ SUKU_USD = SUKU_USD()
 """
 
 
-class SUKU_USDT(NamedTuple):
+class SUKU_USDT(Symbol):
     """
         name: SUKU-USDT
         significant_digits: None
@@ -25935,7 +26039,7 @@ class SUKU_USDT(NamedTuple):
         return "SUKU-USDT"
 
 
-SUKU_USDT = SUKU_USDT()
+SUKU_USDT = SUKU_USDT(*SUKU_USDT._fields)
 """
     name: SUKU-USDT
     significant_digits: None
@@ -25949,7 +26053,7 @@ SUKU_USDT = SUKU_USDT()
 """
 
 
-class SUPER_USD(NamedTuple):
+class SUPER_USD(Symbol):
     """
         name: SUPER-USD
         significant_digits: None
@@ -25987,7 +26091,7 @@ class SUPER_USD(NamedTuple):
         return "SUPER-USD"
 
 
-SUPER_USD = SUPER_USD()
+SUPER_USD = SUPER_USD(*SUPER_USD._fields)
 """
     name: SUPER-USD
     significant_digits: None
@@ -26001,7 +26105,7 @@ SUPER_USD = SUPER_USD()
 """
 
 
-class SUPER_USDT(NamedTuple):
+class SUPER_USDT(Symbol):
     """
         name: SUPER-USDT
         significant_digits: None
@@ -26039,7 +26143,7 @@ class SUPER_USDT(NamedTuple):
         return "SUPER-USDT"
 
 
-SUPER_USDT = SUPER_USDT()
+SUPER_USDT = SUPER_USDT(*SUPER_USDT._fields)
 """
     name: SUPER-USDT
     significant_digits: None
@@ -26053,7 +26157,7 @@ SUPER_USDT = SUPER_USDT()
 """
 
 
-class SUSHI_BTC(NamedTuple):
+class SUSHI_BTC(Symbol):
     """
         name: SUSHI-BTC
         significant_digits: None
@@ -26091,7 +26195,7 @@ class SUSHI_BTC(NamedTuple):
         return "SUSHI-BTC"
 
 
-SUSHI_BTC = SUSHI_BTC()
+SUSHI_BTC = SUSHI_BTC(*SUSHI_BTC._fields)
 """
     name: SUSHI-BTC
     significant_digits: None
@@ -26105,7 +26209,7 @@ SUSHI_BTC = SUSHI_BTC()
 """
 
 
-class SUSHI_ETH(NamedTuple):
+class SUSHI_ETH(Symbol):
     """
         name: SUSHI-ETH
         significant_digits: None
@@ -26143,7 +26247,7 @@ class SUSHI_ETH(NamedTuple):
         return "SUSHI-ETH"
 
 
-SUSHI_ETH = SUSHI_ETH()
+SUSHI_ETH = SUSHI_ETH(*SUSHI_ETH._fields)
 """
     name: SUSHI-ETH
     significant_digits: None
@@ -26157,7 +26261,7 @@ SUSHI_ETH = SUSHI_ETH()
 """
 
 
-class SUSHI_EUR(NamedTuple):
+class SUSHI_EUR(Symbol):
     """
         name: SUSHI-EUR
         significant_digits: None
@@ -26195,7 +26299,7 @@ class SUSHI_EUR(NamedTuple):
         return "SUSHI-EUR"
 
 
-SUSHI_EUR = SUSHI_EUR()
+SUSHI_EUR = SUSHI_EUR(*SUSHI_EUR._fields)
 """
     name: SUSHI-EUR
     significant_digits: None
@@ -26209,7 +26313,7 @@ SUSHI_EUR = SUSHI_EUR()
 """
 
 
-class SUSHI_GBP(NamedTuple):
+class SUSHI_GBP(Symbol):
     """
         name: SUSHI-GBP
         significant_digits: None
@@ -26247,7 +26351,7 @@ class SUSHI_GBP(NamedTuple):
         return "SUSHI-GBP"
 
 
-SUSHI_GBP = SUSHI_GBP()
+SUSHI_GBP = SUSHI_GBP(*SUSHI_GBP._fields)
 """
     name: SUSHI-GBP
     significant_digits: None
@@ -26261,7 +26365,7 @@ SUSHI_GBP = SUSHI_GBP()
 """
 
 
-class SUSHI_USD(NamedTuple):
+class SUSHI_USD(Symbol):
     """
         name: SUSHI-USD
         significant_digits: None
@@ -26299,7 +26403,7 @@ class SUSHI_USD(NamedTuple):
         return "SUSHI-USD"
 
 
-SUSHI_USD = SUSHI_USD()
+SUSHI_USD = SUSHI_USD(*SUSHI_USD._fields)
 """
     name: SUSHI-USD
     significant_digits: None
@@ -26313,7 +26417,7 @@ SUSHI_USD = SUSHI_USD()
 """
 
 
-class SWFTC_USD(NamedTuple):
+class SWFTC_USD(Symbol):
     """
         name: SWFTC-USD
         significant_digits: None
@@ -26351,7 +26455,7 @@ class SWFTC_USD(NamedTuple):
         return "SWFTC-USD"
 
 
-SWFTC_USD = SWFTC_USD()
+SWFTC_USD = SWFTC_USD(*SWFTC_USD._fields)
 """
     name: SWFTC-USD
     significant_digits: None
@@ -26365,7 +26469,7 @@ SWFTC_USD = SWFTC_USD()
 """
 
 
-class SYLO_USD(NamedTuple):
+class SYLO_USD(Symbol):
     """
         name: SYLO-USD
         significant_digits: None
@@ -26403,7 +26507,7 @@ class SYLO_USD(NamedTuple):
         return "SYLO-USD"
 
 
-SYLO_USD = SYLO_USD()
+SYLO_USD = SYLO_USD(*SYLO_USD._fields)
 """
     name: SYLO-USD
     significant_digits: None
@@ -26417,7 +26521,7 @@ SYLO_USD = SYLO_USD()
 """
 
 
-class SYLO_USDT(NamedTuple):
+class SYLO_USDT(Symbol):
     """
         name: SYLO-USDT
         significant_digits: None
@@ -26455,7 +26559,7 @@ class SYLO_USDT(NamedTuple):
         return "SYLO-USDT"
 
 
-SYLO_USDT = SYLO_USDT()
+SYLO_USDT = SYLO_USDT(*SYLO_USDT._fields)
 """
     name: SYLO-USDT
     significant_digits: None
@@ -26469,7 +26573,7 @@ SYLO_USDT = SYLO_USDT()
 """
 
 
-class SYN_USD(NamedTuple):
+class SYN_USD(Symbol):
     """
         name: SYN-USD
         significant_digits: None
@@ -26507,7 +26611,7 @@ class SYN_USD(NamedTuple):
         return "SYN-USD"
 
 
-SYN_USD = SYN_USD()
+SYN_USD = SYN_USD(*SYN_USD._fields)
 """
     name: SYN-USD
     significant_digits: None
@@ -26521,7 +26625,7 @@ SYN_USD = SYN_USD()
 """
 
 
-class T_USD(NamedTuple):
+class T_USD(Symbol):
     """
         name: T-USD
         significant_digits: None
@@ -26559,7 +26663,7 @@ class T_USD(NamedTuple):
         return "T-USD"
 
 
-T_USD = T_USD()
+T_USD = T_USD(*T_USD._fields)
 """
     name: T-USD
     significant_digits: None
@@ -26573,7 +26677,7 @@ T_USD = T_USD()
 """
 
 
-class TIME_USD(NamedTuple):
+class TIME_USD(Symbol):
     """
         name: TIME-USD
         significant_digits: None
@@ -26611,7 +26715,7 @@ class TIME_USD(NamedTuple):
         return "TIME-USD"
 
 
-TIME_USD = TIME_USD()
+TIME_USD = TIME_USD(*TIME_USD._fields)
 """
     name: TIME-USD
     significant_digits: None
@@ -26625,7 +26729,7 @@ TIME_USD = TIME_USD()
 """
 
 
-class TIME_USDT(NamedTuple):
+class TIME_USDT(Symbol):
     """
         name: TIME-USDT
         significant_digits: None
@@ -26663,7 +26767,7 @@ class TIME_USDT(NamedTuple):
         return "TIME-USDT"
 
 
-TIME_USDT = TIME_USDT()
+TIME_USDT = TIME_USDT(*TIME_USDT._fields)
 """
     name: TIME-USDT
     significant_digits: None
@@ -26677,7 +26781,7 @@ TIME_USDT = TIME_USDT()
 """
 
 
-class TONE_USD(NamedTuple):
+class TONE_USD(Symbol):
     """
         name: TONE-USD
         significant_digits: None
@@ -26715,7 +26819,7 @@ class TONE_USD(NamedTuple):
         return "TONE-USD"
 
 
-TONE_USD = TONE_USD()
+TONE_USD = TONE_USD(*TONE_USD._fields)
 """
     name: TONE-USD
     significant_digits: None
@@ -26729,7 +26833,7 @@ TONE_USD = TONE_USD()
 """
 
 
-class TRAC_EUR(NamedTuple):
+class TRAC_EUR(Symbol):
     """
         name: TRAC-EUR
         significant_digits: None
@@ -26767,7 +26871,7 @@ class TRAC_EUR(NamedTuple):
         return "TRAC-EUR"
 
 
-TRAC_EUR = TRAC_EUR()
+TRAC_EUR = TRAC_EUR(*TRAC_EUR._fields)
 """
     name: TRAC-EUR
     significant_digits: None
@@ -26781,7 +26885,7 @@ TRAC_EUR = TRAC_EUR()
 """
 
 
-class TRAC_USD(NamedTuple):
+class TRAC_USD(Symbol):
     """
         name: TRAC-USD
         significant_digits: None
@@ -26819,7 +26923,7 @@ class TRAC_USD(NamedTuple):
         return "TRAC-USD"
 
 
-TRAC_USD = TRAC_USD()
+TRAC_USD = TRAC_USD(*TRAC_USD._fields)
 """
     name: TRAC-USD
     significant_digits: None
@@ -26833,7 +26937,7 @@ TRAC_USD = TRAC_USD()
 """
 
 
-class TRAC_USDT(NamedTuple):
+class TRAC_USDT(Symbol):
     """
         name: TRAC-USDT
         significant_digits: None
@@ -26871,7 +26975,7 @@ class TRAC_USDT(NamedTuple):
         return "TRAC-USDT"
 
 
-TRAC_USDT = TRAC_USDT()
+TRAC_USDT = TRAC_USDT(*TRAC_USDT._fields)
 """
     name: TRAC-USDT
     significant_digits: None
@@ -26885,7 +26989,7 @@ TRAC_USDT = TRAC_USDT()
 """
 
 
-class TRB_BTC(NamedTuple):
+class TRB_BTC(Symbol):
     """
         name: TRB-BTC
         significant_digits: None
@@ -26923,7 +27027,7 @@ class TRB_BTC(NamedTuple):
         return "TRB-BTC"
 
 
-TRB_BTC = TRB_BTC()
+TRB_BTC = TRB_BTC(*TRB_BTC._fields)
 """
     name: TRB-BTC
     significant_digits: None
@@ -26937,7 +27041,7 @@ TRB_BTC = TRB_BTC()
 """
 
 
-class TRB_USD(NamedTuple):
+class TRB_USD(Symbol):
     """
         name: TRB-USD
         significant_digits: None
@@ -26975,7 +27079,7 @@ class TRB_USD(NamedTuple):
         return "TRB-USD"
 
 
-TRB_USD = TRB_USD()
+TRB_USD = TRB_USD(*TRB_USD._fields)
 """
     name: TRB-USD
     significant_digits: None
@@ -26989,7 +27093,7 @@ TRB_USD = TRB_USD()
 """
 
 
-class TRIBE_USD(NamedTuple):
+class TRIBE_USD(Symbol):
     """
         name: TRIBE-USD
         significant_digits: None
@@ -27027,7 +27131,7 @@ class TRIBE_USD(NamedTuple):
         return "TRIBE-USD"
 
 
-TRIBE_USD = TRIBE_USD()
+TRIBE_USD = TRIBE_USD(*TRIBE_USD._fields)
 """
     name: TRIBE-USD
     significant_digits: None
@@ -27041,7 +27145,7 @@ TRIBE_USD = TRIBE_USD()
 """
 
 
-class TRU_BTC(NamedTuple):
+class TRU_BTC(Symbol):
     """
         name: TRU-BTC
         significant_digits: None
@@ -27079,7 +27183,7 @@ class TRU_BTC(NamedTuple):
         return "TRU-BTC"
 
 
-TRU_BTC = TRU_BTC()
+TRU_BTC = TRU_BTC(*TRU_BTC._fields)
 """
     name: TRU-BTC
     significant_digits: None
@@ -27093,7 +27197,7 @@ TRU_BTC = TRU_BTC()
 """
 
 
-class TRU_EUR(NamedTuple):
+class TRU_EUR(Symbol):
     """
         name: TRU-EUR
         significant_digits: None
@@ -27131,7 +27235,7 @@ class TRU_EUR(NamedTuple):
         return "TRU-EUR"
 
 
-TRU_EUR = TRU_EUR()
+TRU_EUR = TRU_EUR(*TRU_EUR._fields)
 """
     name: TRU-EUR
     significant_digits: None
@@ -27145,7 +27249,7 @@ TRU_EUR = TRU_EUR()
 """
 
 
-class TRU_USD(NamedTuple):
+class TRU_USD(Symbol):
     """
         name: TRU-USD
         significant_digits: None
@@ -27183,7 +27287,7 @@ class TRU_USD(NamedTuple):
         return "TRU-USD"
 
 
-TRU_USD = TRU_USD()
+TRU_USD = TRU_USD(*TRU_USD._fields)
 """
     name: TRU-USD
     significant_digits: None
@@ -27197,7 +27301,7 @@ TRU_USD = TRU_USD()
 """
 
 
-class TRU_USDT(NamedTuple):
+class TRU_USDT(Symbol):
     """
         name: TRU-USDT
         significant_digits: None
@@ -27235,7 +27339,7 @@ class TRU_USDT(NamedTuple):
         return "TRU-USDT"
 
 
-TRU_USDT = TRU_USDT()
+TRU_USDT = TRU_USDT(*TRU_USDT._fields)
 """
     name: TRU-USDT
     significant_digits: None
@@ -27249,7 +27353,7 @@ TRU_USDT = TRU_USDT()
 """
 
 
-class TVK_USD(NamedTuple):
+class TVK_USD(Symbol):
     """
         name: TVK-USD
         significant_digits: None
@@ -27287,7 +27391,7 @@ class TVK_USD(NamedTuple):
         return "TVK-USD"
 
 
-TVK_USD = TVK_USD()
+TVK_USD = TVK_USD(*TVK_USD._fields)
 """
     name: TVK-USD
     significant_digits: None
@@ -27301,7 +27405,7 @@ TVK_USD = TVK_USD()
 """
 
 
-class UMA_BTC(NamedTuple):
+class UMA_BTC(Symbol):
     """
         name: UMA-BTC
         significant_digits: None
@@ -27339,7 +27443,7 @@ class UMA_BTC(NamedTuple):
         return "UMA-BTC"
 
 
-UMA_BTC = UMA_BTC()
+UMA_BTC = UMA_BTC(*UMA_BTC._fields)
 """
     name: UMA-BTC
     significant_digits: None
@@ -27353,7 +27457,7 @@ UMA_BTC = UMA_BTC()
 """
 
 
-class UMA_EUR(NamedTuple):
+class UMA_EUR(Symbol):
     """
         name: UMA-EUR
         significant_digits: None
@@ -27391,7 +27495,7 @@ class UMA_EUR(NamedTuple):
         return "UMA-EUR"
 
 
-UMA_EUR = UMA_EUR()
+UMA_EUR = UMA_EUR(*UMA_EUR._fields)
 """
     name: UMA-EUR
     significant_digits: None
@@ -27405,7 +27509,7 @@ UMA_EUR = UMA_EUR()
 """
 
 
-class UMA_GBP(NamedTuple):
+class UMA_GBP(Symbol):
     """
         name: UMA-GBP
         significant_digits: None
@@ -27443,7 +27547,7 @@ class UMA_GBP(NamedTuple):
         return "UMA-GBP"
 
 
-UMA_GBP = UMA_GBP()
+UMA_GBP = UMA_GBP(*UMA_GBP._fields)
 """
     name: UMA-GBP
     significant_digits: None
@@ -27457,7 +27561,7 @@ UMA_GBP = UMA_GBP()
 """
 
 
-class UMA_USD(NamedTuple):
+class UMA_USD(Symbol):
     """
         name: UMA-USD
         significant_digits: None
@@ -27495,7 +27599,7 @@ class UMA_USD(NamedTuple):
         return "UMA-USD"
 
 
-UMA_USD = UMA_USD()
+UMA_USD = UMA_USD(*UMA_USD._fields)
 """
     name: UMA-USD
     significant_digits: None
@@ -27509,7 +27613,7 @@ UMA_USD = UMA_USD()
 """
 
 
-class UNFI_USD(NamedTuple):
+class UNFI_USD(Symbol):
     """
         name: UNFI-USD
         significant_digits: None
@@ -27547,7 +27651,7 @@ class UNFI_USD(NamedTuple):
         return "UNFI-USD"
 
 
-UNFI_USD = UNFI_USD()
+UNFI_USD = UNFI_USD(*UNFI_USD._fields)
 """
     name: UNFI-USD
     significant_digits: None
@@ -27561,7 +27665,7 @@ UNFI_USD = UNFI_USD()
 """
 
 
-class UNI_BTC(NamedTuple):
+class UNI_BTC(Symbol):
     """
         name: UNI-BTC
         significant_digits: None
@@ -27599,7 +27703,7 @@ class UNI_BTC(NamedTuple):
         return "UNI-BTC"
 
 
-UNI_BTC = UNI_BTC()
+UNI_BTC = UNI_BTC(*UNI_BTC._fields)
 """
     name: UNI-BTC
     significant_digits: None
@@ -27613,7 +27717,7 @@ UNI_BTC = UNI_BTC()
 """
 
 
-class UNI_EUR(NamedTuple):
+class UNI_EUR(Symbol):
     """
         name: UNI-EUR
         significant_digits: None
@@ -27651,7 +27755,7 @@ class UNI_EUR(NamedTuple):
         return "UNI-EUR"
 
 
-UNI_EUR = UNI_EUR()
+UNI_EUR = UNI_EUR(*UNI_EUR._fields)
 """
     name: UNI-EUR
     significant_digits: None
@@ -27665,7 +27769,7 @@ UNI_EUR = UNI_EUR()
 """
 
 
-class UNI_GBP(NamedTuple):
+class UNI_GBP(Symbol):
     """
         name: UNI-GBP
         significant_digits: None
@@ -27703,7 +27807,7 @@ class UNI_GBP(NamedTuple):
         return "UNI-GBP"
 
 
-UNI_GBP = UNI_GBP()
+UNI_GBP = UNI_GBP(*UNI_GBP._fields)
 """
     name: UNI-GBP
     significant_digits: None
@@ -27717,7 +27821,7 @@ UNI_GBP = UNI_GBP()
 """
 
 
-class UNI_USD(NamedTuple):
+class UNI_USD(Symbol):
     """
         name: UNI-USD
         significant_digits: None
@@ -27755,7 +27859,7 @@ class UNI_USD(NamedTuple):
         return "UNI-USD"
 
 
-UNI_USD = UNI_USD()
+UNI_USD = UNI_USD(*UNI_USD._fields)
 """
     name: UNI-USD
     significant_digits: None
@@ -27769,7 +27873,7 @@ UNI_USD = UNI_USD()
 """
 
 
-class UPI_USD(NamedTuple):
+class UPI_USD(Symbol):
     """
         name: UPI-USD
         significant_digits: None
@@ -27807,7 +27911,7 @@ class UPI_USD(NamedTuple):
         return "UPI-USD"
 
 
-UPI_USD = UPI_USD()
+UPI_USD = UPI_USD(*UPI_USD._fields)
 """
     name: UPI-USD
     significant_digits: None
@@ -27821,7 +27925,7 @@ UPI_USD = UPI_USD()
 """
 
 
-class UPI_USDT(NamedTuple):
+class UPI_USDT(Symbol):
     """
         name: UPI-USDT
         significant_digits: None
@@ -27859,7 +27963,7 @@ class UPI_USDT(NamedTuple):
         return "UPI-USDT"
 
 
-UPI_USDT = UPI_USDT()
+UPI_USDT = UPI_USDT(*UPI_USDT._fields)
 """
     name: UPI-USDT
     significant_digits: None
@@ -27873,7 +27977,7 @@ UPI_USDT = UPI_USDT()
 """
 
 
-class USDC_EUR(NamedTuple):
+class USDC_EUR(Symbol):
     """
         name: USDC-EUR
         significant_digits: None
@@ -27911,7 +28015,7 @@ class USDC_EUR(NamedTuple):
         return "USDC-EUR"
 
 
-USDC_EUR = USDC_EUR()
+USDC_EUR = USDC_EUR(*USDC_EUR._fields)
 """
     name: USDC-EUR
     significant_digits: None
@@ -27925,7 +28029,7 @@ USDC_EUR = USDC_EUR()
 """
 
 
-class USDC_GBP(NamedTuple):
+class USDC_GBP(Symbol):
     """
         name: USDC-GBP
         significant_digits: None
@@ -27963,7 +28067,7 @@ class USDC_GBP(NamedTuple):
         return "USDC-GBP"
 
 
-USDC_GBP = USDC_GBP()
+USDC_GBP = USDC_GBP(*USDC_GBP._fields)
 """
     name: USDC-GBP
     significant_digits: None
@@ -27977,7 +28081,7 @@ USDC_GBP = USDC_GBP()
 """
 
 
-class USDT_EUR(NamedTuple):
+class USDT_EUR(Symbol):
     """
         name: USDT-EUR
         significant_digits: None
@@ -28015,7 +28119,7 @@ class USDT_EUR(NamedTuple):
         return "USDT-EUR"
 
 
-USDT_EUR = USDT_EUR()
+USDT_EUR = USDT_EUR(*USDT_EUR._fields)
 """
     name: USDT-EUR
     significant_digits: None
@@ -28029,7 +28133,7 @@ USDT_EUR = USDT_EUR()
 """
 
 
-class USDT_GBP(NamedTuple):
+class USDT_GBP(Symbol):
     """
         name: USDT-GBP
         significant_digits: None
@@ -28067,7 +28171,7 @@ class USDT_GBP(NamedTuple):
         return "USDT-GBP"
 
 
-USDT_GBP = USDT_GBP()
+USDT_GBP = USDT_GBP(*USDT_GBP._fields)
 """
     name: USDT-GBP
     significant_digits: None
@@ -28081,7 +28185,7 @@ USDT_GBP = USDT_GBP()
 """
 
 
-class USDT_USD(NamedTuple):
+class USDT_USD(Symbol):
     """
         name: USDT-USD
         significant_digits: None
@@ -28119,7 +28223,7 @@ class USDT_USD(NamedTuple):
         return "USDT-USD"
 
 
-USDT_USD = USDT_USD()
+USDT_USD = USDT_USD(*USDT_USD._fields)
 """
     name: USDT-USD
     significant_digits: None
@@ -28133,7 +28237,7 @@ USDT_USD = USDT_USD()
 """
 
 
-class USDT_USDC(NamedTuple):
+class USDT_USDC(Symbol):
     """
         name: USDT-USDC
         significant_digits: None
@@ -28171,7 +28275,7 @@ class USDT_USDC(NamedTuple):
         return "USDT-USDC"
 
 
-USDT_USDC = USDT_USDC()
+USDT_USDC = USDT_USDC(*USDT_USDC._fields)
 """
     name: USDT-USDC
     significant_digits: None
@@ -28185,7 +28289,7 @@ USDT_USDC = USDT_USDC()
 """
 
 
-class UST_EUR(NamedTuple):
+class UST_EUR(Symbol):
     """
         name: UST-EUR
         significant_digits: None
@@ -28223,7 +28327,7 @@ class UST_EUR(NamedTuple):
         return "UST-EUR"
 
 
-UST_EUR = UST_EUR()
+UST_EUR = UST_EUR(*UST_EUR._fields)
 """
     name: UST-EUR
     significant_digits: None
@@ -28237,7 +28341,7 @@ UST_EUR = UST_EUR()
 """
 
 
-class UST_USD(NamedTuple):
+class UST_USD(Symbol):
     """
         name: UST-USD
         significant_digits: None
@@ -28275,7 +28379,7 @@ class UST_USD(NamedTuple):
         return "UST-USD"
 
 
-UST_USD = UST_USD()
+UST_USD = UST_USD(*UST_USD._fields)
 """
     name: UST-USD
     significant_digits: None
@@ -28289,7 +28393,7 @@ UST_USD = UST_USD()
 """
 
 
-class UST_USDT(NamedTuple):
+class UST_USDT(Symbol):
     """
         name: UST-USDT
         significant_digits: None
@@ -28327,7 +28431,7 @@ class UST_USDT(NamedTuple):
         return "UST-USDT"
 
 
-UST_USDT = UST_USDT()
+UST_USDT = UST_USDT(*UST_USDT._fields)
 """
     name: UST-USDT
     significant_digits: None
@@ -28341,7 +28445,7 @@ UST_USDT = UST_USDT()
 """
 
 
-class VGX_EUR(NamedTuple):
+class VGX_EUR(Symbol):
     """
         name: VGX-EUR
         significant_digits: None
@@ -28379,7 +28483,7 @@ class VGX_EUR(NamedTuple):
         return "VGX-EUR"
 
 
-VGX_EUR = VGX_EUR()
+VGX_EUR = VGX_EUR(*VGX_EUR._fields)
 """
     name: VGX-EUR
     significant_digits: None
@@ -28393,7 +28497,7 @@ VGX_EUR = VGX_EUR()
 """
 
 
-class VGX_USD(NamedTuple):
+class VGX_USD(Symbol):
     """
         name: VGX-USD
         significant_digits: None
@@ -28431,7 +28535,7 @@ class VGX_USD(NamedTuple):
         return "VGX-USD"
 
 
-VGX_USD = VGX_USD()
+VGX_USD = VGX_USD(*VGX_USD._fields)
 """
     name: VGX-USD
     significant_digits: None
@@ -28445,7 +28549,7 @@ VGX_USD = VGX_USD()
 """
 
 
-class VGX_USDT(NamedTuple):
+class VGX_USDT(Symbol):
     """
         name: VGX-USDT
         significant_digits: None
@@ -28483,7 +28587,7 @@ class VGX_USDT(NamedTuple):
         return "VGX-USDT"
 
 
-VGX_USDT = VGX_USDT()
+VGX_USDT = VGX_USDT(*VGX_USDT._fields)
 """
     name: VGX-USDT
     significant_digits: None
@@ -28497,7 +28601,7 @@ VGX_USDT = VGX_USDT()
 """
 
 
-class VOXEL_USD(NamedTuple):
+class VOXEL_USD(Symbol):
     """
         name: VOXEL-USD
         significant_digits: None
@@ -28535,7 +28639,7 @@ class VOXEL_USD(NamedTuple):
         return "VOXEL-USD"
 
 
-VOXEL_USD = VOXEL_USD()
+VOXEL_USD = VOXEL_USD(*VOXEL_USD._fields)
 """
     name: VOXEL-USD
     significant_digits: None
@@ -28549,7 +28653,7 @@ VOXEL_USD = VOXEL_USD()
 """
 
 
-class WAMPL_USD(NamedTuple):
+class WAMPL_USD(Symbol):
     """
         name: WAMPL-USD
         significant_digits: None
@@ -28587,7 +28691,7 @@ class WAMPL_USD(NamedTuple):
         return "WAMPL-USD"
 
 
-WAMPL_USD = WAMPL_USD()
+WAMPL_USD = WAMPL_USD(*WAMPL_USD._fields)
 """
     name: WAMPL-USD
     significant_digits: None
@@ -28601,7 +28705,7 @@ WAMPL_USD = WAMPL_USD()
 """
 
 
-class WAMPL_USDT(NamedTuple):
+class WAMPL_USDT(Symbol):
     """
         name: WAMPL-USDT
         significant_digits: None
@@ -28639,7 +28743,7 @@ class WAMPL_USDT(NamedTuple):
         return "WAMPL-USDT"
 
 
-WAMPL_USDT = WAMPL_USDT()
+WAMPL_USDT = WAMPL_USDT(*WAMPL_USDT._fields)
 """
     name: WAMPL-USDT
     significant_digits: None
@@ -28653,7 +28757,7 @@ WAMPL_USDT = WAMPL_USDT()
 """
 
 
-class WAXL_USD(NamedTuple):
+class WAXL_USD(Symbol):
     """
         name: WAXL-USD
         significant_digits: None
@@ -28691,7 +28795,7 @@ class WAXL_USD(NamedTuple):
         return "WAXL-USD"
 
 
-WAXL_USD = WAXL_USD()
+WAXL_USD = WAXL_USD(*WAXL_USD._fields)
 """
     name: WAXL-USD
     significant_digits: None
@@ -28705,7 +28809,7 @@ WAXL_USD = WAXL_USD()
 """
 
 
-class WBTC_BTC(NamedTuple):
+class WBTC_BTC(Symbol):
     """
         name: WBTC-BTC
         significant_digits: None
@@ -28743,7 +28847,7 @@ class WBTC_BTC(NamedTuple):
         return "WBTC-BTC"
 
 
-WBTC_BTC = WBTC_BTC()
+WBTC_BTC = WBTC_BTC(*WBTC_BTC._fields)
 """
     name: WBTC-BTC
     significant_digits: None
@@ -28757,7 +28861,7 @@ WBTC_BTC = WBTC_BTC()
 """
 
 
-class WBTC_USD(NamedTuple):
+class WBTC_USD(Symbol):
     """
         name: WBTC-USD
         significant_digits: None
@@ -28795,7 +28899,7 @@ class WBTC_USD(NamedTuple):
         return "WBTC-USD"
 
 
-WBTC_USD = WBTC_USD()
+WBTC_USD = WBTC_USD(*WBTC_USD._fields)
 """
     name: WBTC-USD
     significant_digits: None
@@ -28809,7 +28913,7 @@ WBTC_USD = WBTC_USD()
 """
 
 
-class WCFG_BTC(NamedTuple):
+class WCFG_BTC(Symbol):
     """
         name: WCFG-BTC
         significant_digits: None
@@ -28847,7 +28951,7 @@ class WCFG_BTC(NamedTuple):
         return "WCFG-BTC"
 
 
-WCFG_BTC = WCFG_BTC()
+WCFG_BTC = WCFG_BTC(*WCFG_BTC._fields)
 """
     name: WCFG-BTC
     significant_digits: None
@@ -28861,7 +28965,7 @@ WCFG_BTC = WCFG_BTC()
 """
 
 
-class WCFG_EUR(NamedTuple):
+class WCFG_EUR(Symbol):
     """
         name: WCFG-EUR
         significant_digits: None
@@ -28899,7 +29003,7 @@ class WCFG_EUR(NamedTuple):
         return "WCFG-EUR"
 
 
-WCFG_EUR = WCFG_EUR()
+WCFG_EUR = WCFG_EUR(*WCFG_EUR._fields)
 """
     name: WCFG-EUR
     significant_digits: None
@@ -28913,7 +29017,7 @@ WCFG_EUR = WCFG_EUR()
 """
 
 
-class WCFG_USD(NamedTuple):
+class WCFG_USD(Symbol):
     """
         name: WCFG-USD
         significant_digits: None
@@ -28951,7 +29055,7 @@ class WCFG_USD(NamedTuple):
         return "WCFG-USD"
 
 
-WCFG_USD = WCFG_USD()
+WCFG_USD = WCFG_USD(*WCFG_USD._fields)
 """
     name: WCFG-USD
     significant_digits: None
@@ -28965,7 +29069,7 @@ WCFG_USD = WCFG_USD()
 """
 
 
-class WCFG_USDT(NamedTuple):
+class WCFG_USDT(Symbol):
     """
         name: WCFG-USDT
         significant_digits: None
@@ -29003,7 +29107,7 @@ class WCFG_USDT(NamedTuple):
         return "WCFG-USDT"
 
 
-WCFG_USDT = WCFG_USDT()
+WCFG_USDT = WCFG_USDT(*WCFG_USDT._fields)
 """
     name: WCFG-USDT
     significant_digits: None
@@ -29017,7 +29121,7 @@ WCFG_USDT = WCFG_USDT()
 """
 
 
-class WLUNA_EUR(NamedTuple):
+class WLUNA_EUR(Symbol):
     """
         name: WLUNA-EUR
         significant_digits: None
@@ -29055,7 +29159,7 @@ class WLUNA_EUR(NamedTuple):
         return "WLUNA-EUR"
 
 
-WLUNA_EUR = WLUNA_EUR()
+WLUNA_EUR = WLUNA_EUR(*WLUNA_EUR._fields)
 """
     name: WLUNA-EUR
     significant_digits: None
@@ -29069,7 +29173,7 @@ WLUNA_EUR = WLUNA_EUR()
 """
 
 
-class WLUNA_GBP(NamedTuple):
+class WLUNA_GBP(Symbol):
     """
         name: WLUNA-GBP
         significant_digits: None
@@ -29107,7 +29211,7 @@ class WLUNA_GBP(NamedTuple):
         return "WLUNA-GBP"
 
 
-WLUNA_GBP = WLUNA_GBP()
+WLUNA_GBP = WLUNA_GBP(*WLUNA_GBP._fields)
 """
     name: WLUNA-GBP
     significant_digits: None
@@ -29121,7 +29225,7 @@ WLUNA_GBP = WLUNA_GBP()
 """
 
 
-class WLUNA_USD(NamedTuple):
+class WLUNA_USD(Symbol):
     """
         name: WLUNA-USD
         significant_digits: None
@@ -29159,7 +29263,7 @@ class WLUNA_USD(NamedTuple):
         return "WLUNA-USD"
 
 
-WLUNA_USD = WLUNA_USD()
+WLUNA_USD = WLUNA_USD(*WLUNA_USD._fields)
 """
     name: WLUNA-USD
     significant_digits: None
@@ -29173,7 +29277,7 @@ WLUNA_USD = WLUNA_USD()
 """
 
 
-class WLUNA_USDT(NamedTuple):
+class WLUNA_USDT(Symbol):
     """
         name: WLUNA-USDT
         significant_digits: None
@@ -29211,7 +29315,7 @@ class WLUNA_USDT(NamedTuple):
         return "WLUNA-USDT"
 
 
-WLUNA_USDT = WLUNA_USDT()
+WLUNA_USDT = WLUNA_USDT(*WLUNA_USDT._fields)
 """
     name: WLUNA-USDT
     significant_digits: None
@@ -29225,7 +29329,7 @@ WLUNA_USDT = WLUNA_USDT()
 """
 
 
-class XCN_USD(NamedTuple):
+class XCN_USD(Symbol):
     """
         name: XCN-USD
         significant_digits: None
@@ -29263,7 +29367,7 @@ class XCN_USD(NamedTuple):
         return "XCN-USD"
 
 
-XCN_USD = XCN_USD()
+XCN_USD = XCN_USD(*XCN_USD._fields)
 """
     name: XCN-USD
     significant_digits: None
@@ -29277,7 +29381,7 @@ XCN_USD = XCN_USD()
 """
 
 
-class XCN_USDT(NamedTuple):
+class XCN_USDT(Symbol):
     """
         name: XCN-USDT
         significant_digits: None
@@ -29315,7 +29419,7 @@ class XCN_USDT(NamedTuple):
         return "XCN-USDT"
 
 
-XCN_USDT = XCN_USDT()
+XCN_USDT = XCN_USDT(*XCN_USDT._fields)
 """
     name: XCN-USDT
     significant_digits: None
@@ -29329,7 +29433,7 @@ XCN_USDT = XCN_USDT()
 """
 
 
-class XLM_BTC(NamedTuple):
+class XLM_BTC(Symbol):
     """
         name: XLM-BTC
         significant_digits: None
@@ -29367,7 +29471,7 @@ class XLM_BTC(NamedTuple):
         return "XLM-BTC"
 
 
-XLM_BTC = XLM_BTC()
+XLM_BTC = XLM_BTC(*XLM_BTC._fields)
 """
     name: XLM-BTC
     significant_digits: None
@@ -29381,7 +29485,7 @@ XLM_BTC = XLM_BTC()
 """
 
 
-class XLM_EUR(NamedTuple):
+class XLM_EUR(Symbol):
     """
         name: XLM-EUR
         significant_digits: None
@@ -29419,7 +29523,7 @@ class XLM_EUR(NamedTuple):
         return "XLM-EUR"
 
 
-XLM_EUR = XLM_EUR()
+XLM_EUR = XLM_EUR(*XLM_EUR._fields)
 """
     name: XLM-EUR
     significant_digits: None
@@ -29433,7 +29537,7 @@ XLM_EUR = XLM_EUR()
 """
 
 
-class XLM_USD(NamedTuple):
+class XLM_USD(Symbol):
     """
         name: XLM-USD
         significant_digits: None
@@ -29471,7 +29575,7 @@ class XLM_USD(NamedTuple):
         return "XLM-USD"
 
 
-XLM_USD = XLM_USD()
+XLM_USD = XLM_USD(*XLM_USD._fields)
 """
     name: XLM-USD
     significant_digits: None
@@ -29485,7 +29589,7 @@ XLM_USD = XLM_USD()
 """
 
 
-class XLM_USDT(NamedTuple):
+class XLM_USDT(Symbol):
     """
         name: XLM-USDT
         significant_digits: None
@@ -29523,7 +29627,7 @@ class XLM_USDT(NamedTuple):
         return "XLM-USDT"
 
 
-XLM_USDT = XLM_USDT()
+XLM_USDT = XLM_USDT(*XLM_USDT._fields)
 """
     name: XLM-USDT
     significant_digits: None
@@ -29537,7 +29641,7 @@ XLM_USDT = XLM_USDT()
 """
 
 
-class XRP_BTC(NamedTuple):
+class XRP_BTC(Symbol):
     """
         name: XRP-BTC
         significant_digits: None
@@ -29575,7 +29679,7 @@ class XRP_BTC(NamedTuple):
         return "XRP-BTC"
 
 
-XRP_BTC = XRP_BTC()
+XRP_BTC = XRP_BTC(*XRP_BTC._fields)
 """
     name: XRP-BTC
     significant_digits: None
@@ -29589,7 +29693,7 @@ XRP_BTC = XRP_BTC()
 """
 
 
-class XRP_EUR(NamedTuple):
+class XRP_EUR(Symbol):
     """
         name: XRP-EUR
         significant_digits: None
@@ -29627,7 +29731,7 @@ class XRP_EUR(NamedTuple):
         return "XRP-EUR"
 
 
-XRP_EUR = XRP_EUR()
+XRP_EUR = XRP_EUR(*XRP_EUR._fields)
 """
     name: XRP-EUR
     significant_digits: None
@@ -29641,7 +29745,7 @@ XRP_EUR = XRP_EUR()
 """
 
 
-class XRP_GBP(NamedTuple):
+class XRP_GBP(Symbol):
     """
         name: XRP-GBP
         significant_digits: None
@@ -29679,7 +29783,7 @@ class XRP_GBP(NamedTuple):
         return "XRP-GBP"
 
 
-XRP_GBP = XRP_GBP()
+XRP_GBP = XRP_GBP(*XRP_GBP._fields)
 """
     name: XRP-GBP
     significant_digits: None
@@ -29693,7 +29797,7 @@ XRP_GBP = XRP_GBP()
 """
 
 
-class XRP_USD(NamedTuple):
+class XRP_USD(Symbol):
     """
         name: XRP-USD
         significant_digits: None
@@ -29731,7 +29835,7 @@ class XRP_USD(NamedTuple):
         return "XRP-USD"
 
 
-XRP_USD = XRP_USD()
+XRP_USD = XRP_USD(*XRP_USD._fields)
 """
     name: XRP-USD
     significant_digits: None
@@ -29745,7 +29849,7 @@ XRP_USD = XRP_USD()
 """
 
 
-class XTZ_BTC(NamedTuple):
+class XTZ_BTC(Symbol):
     """
         name: XTZ-BTC
         significant_digits: None
@@ -29783,7 +29887,7 @@ class XTZ_BTC(NamedTuple):
         return "XTZ-BTC"
 
 
-XTZ_BTC = XTZ_BTC()
+XTZ_BTC = XTZ_BTC(*XTZ_BTC._fields)
 """
     name: XTZ-BTC
     significant_digits: None
@@ -29797,7 +29901,7 @@ XTZ_BTC = XTZ_BTC()
 """
 
 
-class XTZ_EUR(NamedTuple):
+class XTZ_EUR(Symbol):
     """
         name: XTZ-EUR
         significant_digits: None
@@ -29835,7 +29939,7 @@ class XTZ_EUR(NamedTuple):
         return "XTZ-EUR"
 
 
-XTZ_EUR = XTZ_EUR()
+XTZ_EUR = XTZ_EUR(*XTZ_EUR._fields)
 """
     name: XTZ-EUR
     significant_digits: None
@@ -29849,7 +29953,7 @@ XTZ_EUR = XTZ_EUR()
 """
 
 
-class XTZ_GBP(NamedTuple):
+class XTZ_GBP(Symbol):
     """
         name: XTZ-GBP
         significant_digits: None
@@ -29887,7 +29991,7 @@ class XTZ_GBP(NamedTuple):
         return "XTZ-GBP"
 
 
-XTZ_GBP = XTZ_GBP()
+XTZ_GBP = XTZ_GBP(*XTZ_GBP._fields)
 """
     name: XTZ-GBP
     significant_digits: None
@@ -29901,7 +30005,7 @@ XTZ_GBP = XTZ_GBP()
 """
 
 
-class XTZ_USD(NamedTuple):
+class XTZ_USD(Symbol):
     """
         name: XTZ-USD
         significant_digits: None
@@ -29939,7 +30043,7 @@ class XTZ_USD(NamedTuple):
         return "XTZ-USD"
 
 
-XTZ_USD = XTZ_USD()
+XTZ_USD = XTZ_USD(*XTZ_USD._fields)
 """
     name: XTZ-USD
     significant_digits: None
@@ -29953,7 +30057,7 @@ XTZ_USD = XTZ_USD()
 """
 
 
-class XYO_BTC(NamedTuple):
+class XYO_BTC(Symbol):
     """
         name: XYO-BTC
         significant_digits: None
@@ -29991,7 +30095,7 @@ class XYO_BTC(NamedTuple):
         return "XYO-BTC"
 
 
-XYO_BTC = XYO_BTC()
+XYO_BTC = XYO_BTC(*XYO_BTC._fields)
 """
     name: XYO-BTC
     significant_digits: None
@@ -30005,7 +30109,7 @@ XYO_BTC = XYO_BTC()
 """
 
 
-class XYO_EUR(NamedTuple):
+class XYO_EUR(Symbol):
     """
         name: XYO-EUR
         significant_digits: None
@@ -30043,7 +30147,7 @@ class XYO_EUR(NamedTuple):
         return "XYO-EUR"
 
 
-XYO_EUR = XYO_EUR()
+XYO_EUR = XYO_EUR(*XYO_EUR._fields)
 """
     name: XYO-EUR
     significant_digits: None
@@ -30057,7 +30161,7 @@ XYO_EUR = XYO_EUR()
 """
 
 
-class XYO_USD(NamedTuple):
+class XYO_USD(Symbol):
     """
         name: XYO-USD
         significant_digits: None
@@ -30095,7 +30199,7 @@ class XYO_USD(NamedTuple):
         return "XYO-USD"
 
 
-XYO_USD = XYO_USD()
+XYO_USD = XYO_USD(*XYO_USD._fields)
 """
     name: XYO-USD
     significant_digits: None
@@ -30109,7 +30213,7 @@ XYO_USD = XYO_USD()
 """
 
 
-class XYO_USDT(NamedTuple):
+class XYO_USDT(Symbol):
     """
         name: XYO-USDT
         significant_digits: None
@@ -30147,7 +30251,7 @@ class XYO_USDT(NamedTuple):
         return "XYO-USDT"
 
 
-XYO_USDT = XYO_USDT()
+XYO_USDT = XYO_USDT(*XYO_USDT._fields)
 """
     name: XYO-USDT
     significant_digits: None
@@ -30161,7 +30265,7 @@ XYO_USDT = XYO_USDT()
 """
 
 
-class YFI_BTC(NamedTuple):
+class YFI_BTC(Symbol):
     """
         name: YFI-BTC
         significant_digits: None
@@ -30199,7 +30303,7 @@ class YFI_BTC(NamedTuple):
         return "YFI-BTC"
 
 
-YFI_BTC = YFI_BTC()
+YFI_BTC = YFI_BTC(*YFI_BTC._fields)
 """
     name: YFI-BTC
     significant_digits: None
@@ -30213,7 +30317,7 @@ YFI_BTC = YFI_BTC()
 """
 
 
-class YFI_USD(NamedTuple):
+class YFI_USD(Symbol):
     """
         name: YFI-USD
         significant_digits: None
@@ -30251,7 +30355,7 @@ class YFI_USD(NamedTuple):
         return "YFI-USD"
 
 
-YFI_USD = YFI_USD()
+YFI_USD = YFI_USD(*YFI_USD._fields)
 """
     name: YFI-USD
     significant_digits: None
@@ -30265,7 +30369,7 @@ YFI_USD = YFI_USD()
 """
 
 
-class YFII_USD(NamedTuple):
+class YFII_USD(Symbol):
     """
         name: YFII-USD
         significant_digits: None
@@ -30303,7 +30407,7 @@ class YFII_USD(NamedTuple):
         return "YFII-USD"
 
 
-YFII_USD = YFII_USD()
+YFII_USD = YFII_USD(*YFII_USD._fields)
 """
     name: YFII-USD
     significant_digits: None
@@ -30317,7 +30421,7 @@ YFII_USD = YFII_USD()
 """
 
 
-class ZEC_BTC(NamedTuple):
+class ZEC_BTC(Symbol):
     """
         name: ZEC-BTC
         significant_digits: None
@@ -30355,7 +30459,7 @@ class ZEC_BTC(NamedTuple):
         return "ZEC-BTC"
 
 
-ZEC_BTC = ZEC_BTC()
+ZEC_BTC = ZEC_BTC(*ZEC_BTC._fields)
 """
     name: ZEC-BTC
     significant_digits: None
@@ -30369,7 +30473,7 @@ ZEC_BTC = ZEC_BTC()
 """
 
 
-class ZEC_USD(NamedTuple):
+class ZEC_USD(Symbol):
     """
         name: ZEC-USD
         significant_digits: None
@@ -30407,7 +30511,7 @@ class ZEC_USD(NamedTuple):
         return "ZEC-USD"
 
 
-ZEC_USD = ZEC_USD()
+ZEC_USD = ZEC_USD(*ZEC_USD._fields)
 """
     name: ZEC-USD
     significant_digits: None
@@ -30421,7 +30525,7 @@ ZEC_USD = ZEC_USD()
 """
 
 
-class ZEC_USDC(NamedTuple):
+class ZEC_USDC(Symbol):
     """
         name: ZEC-USDC
         significant_digits: None
@@ -30459,7 +30563,7 @@ class ZEC_USDC(NamedTuple):
         return "ZEC-USDC"
 
 
-ZEC_USDC = ZEC_USDC()
+ZEC_USDC = ZEC_USDC(*ZEC_USDC._fields)
 """
     name: ZEC-USDC
     significant_digits: None
@@ -30473,7 +30577,7 @@ ZEC_USDC = ZEC_USDC()
 """
 
 
-class ZEN_BTC(NamedTuple):
+class ZEN_BTC(Symbol):
     """
         name: ZEN-BTC
         significant_digits: None
@@ -30511,7 +30615,7 @@ class ZEN_BTC(NamedTuple):
         return "ZEN-BTC"
 
 
-ZEN_BTC = ZEN_BTC()
+ZEN_BTC = ZEN_BTC(*ZEN_BTC._fields)
 """
     name: ZEN-BTC
     significant_digits: None
@@ -30525,7 +30629,7 @@ ZEN_BTC = ZEN_BTC()
 """
 
 
-class ZEN_USD(NamedTuple):
+class ZEN_USD(Symbol):
     """
         name: ZEN-USD
         significant_digits: None
@@ -30563,7 +30667,7 @@ class ZEN_USD(NamedTuple):
         return "ZEN-USD"
 
 
-ZEN_USD = ZEN_USD()
+ZEN_USD = ZEN_USD(*ZEN_USD._fields)
 """
     name: ZEN-USD
     significant_digits: None
@@ -30577,7 +30681,7 @@ ZEN_USD = ZEN_USD()
 """
 
 
-class ZEN_USDT(NamedTuple):
+class ZEN_USDT(Symbol):
     """
         name: ZEN-USDT
         significant_digits: None
@@ -30615,7 +30719,7 @@ class ZEN_USDT(NamedTuple):
         return "ZEN-USDT"
 
 
-ZEN_USDT = ZEN_USDT()
+ZEN_USDT = ZEN_USDT(*ZEN_USDT._fields)
 """
     name: ZEN-USDT
     significant_digits: None
@@ -30629,7 +30733,7 @@ ZEN_USDT = ZEN_USDT()
 """
 
 
-class ZRX_BTC(NamedTuple):
+class ZRX_BTC(Symbol):
     """
         name: ZRX-BTC
         significant_digits: None
@@ -30667,7 +30771,7 @@ class ZRX_BTC(NamedTuple):
         return "ZRX-BTC"
 
 
-ZRX_BTC = ZRX_BTC()
+ZRX_BTC = ZRX_BTC(*ZRX_BTC._fields)
 """
     name: ZRX-BTC
     significant_digits: None
@@ -30681,7 +30785,7 @@ ZRX_BTC = ZRX_BTC()
 """
 
 
-class ZRX_EUR(NamedTuple):
+class ZRX_EUR(Symbol):
     """
         name: ZRX-EUR
         significant_digits: None
@@ -30719,7 +30823,7 @@ class ZRX_EUR(NamedTuple):
         return "ZRX-EUR"
 
 
-ZRX_EUR = ZRX_EUR()
+ZRX_EUR = ZRX_EUR(*ZRX_EUR._fields)
 """
     name: ZRX-EUR
     significant_digits: None
@@ -30733,7 +30837,7 @@ ZRX_EUR = ZRX_EUR()
 """
 
 
-class ZRX_USD(NamedTuple):
+class ZRX_USD(Symbol):
     """
         name: ZRX-USD
         significant_digits: None
@@ -30771,7 +30875,7 @@ class ZRX_USD(NamedTuple):
         return "ZRX-USD"
 
 
-ZRX_USD = ZRX_USD()
+ZRX_USD = ZRX_USD(*ZRX_USD._fields)
 """
     name: ZRX-USD
     significant_digits: None

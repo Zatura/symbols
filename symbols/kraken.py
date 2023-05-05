@@ -1,7 +1,7 @@
-from typing import NamedTuple
+from ._model import Symbol
 
 
-class ONEINCHEUR(NamedTuple):
+class ONEINCHEUR(Symbol):
     """
         name: 1INCHEUR
         significant_digits: None
@@ -39,7 +39,7 @@ class ONEINCHEUR(NamedTuple):
         return "1INCHEUR"
 
 
-ONEINCHEUR = ONEINCHEUR()
+ONEINCHEUR = ONEINCHEUR(*ONEINCHEUR._fields)
 """
     name: 1INCHEUR
     significant_digits: None
@@ -53,7 +53,7 @@ ONEINCHEUR = ONEINCHEUR()
 """
 
 
-class ONEINCHUSD(NamedTuple):
+class ONEINCHUSD(Symbol):
     """
         name: 1INCHUSD
         significant_digits: None
@@ -91,7 +91,7 @@ class ONEINCHUSD(NamedTuple):
         return "1INCHUSD"
 
 
-ONEINCHUSD = ONEINCHUSD()
+ONEINCHUSD = ONEINCHUSD(*ONEINCHUSD._fields)
 """
     name: 1INCHUSD
     significant_digits: None
@@ -105,7 +105,7 @@ ONEINCHUSD = ONEINCHUSD()
 """
 
 
-class AAVEETH(NamedTuple):
+class AAVEETH(Symbol):
     """
         name: AAVEETH
         significant_digits: None
@@ -143,7 +143,7 @@ class AAVEETH(NamedTuple):
         return "AAVEETH"
 
 
-AAVEETH = AAVEETH()
+AAVEETH = AAVEETH(*AAVEETH._fields)
 """
     name: AAVEETH
     significant_digits: None
@@ -157,7 +157,7 @@ AAVEETH = AAVEETH()
 """
 
 
-class AAVEEUR(NamedTuple):
+class AAVEEUR(Symbol):
     """
         name: AAVEEUR
         significant_digits: None
@@ -195,7 +195,7 @@ class AAVEEUR(NamedTuple):
         return "AAVEEUR"
 
 
-AAVEEUR = AAVEEUR()
+AAVEEUR = AAVEEUR(*AAVEEUR._fields)
 """
     name: AAVEEUR
     significant_digits: None
@@ -209,7 +209,7 @@ AAVEEUR = AAVEEUR()
 """
 
 
-class AAVEGBP(NamedTuple):
+class AAVEGBP(Symbol):
     """
         name: AAVEGBP
         significant_digits: None
@@ -247,7 +247,7 @@ class AAVEGBP(NamedTuple):
         return "AAVEGBP"
 
 
-AAVEGBP = AAVEGBP()
+AAVEGBP = AAVEGBP(*AAVEGBP._fields)
 """
     name: AAVEGBP
     significant_digits: None
@@ -261,7 +261,7 @@ AAVEGBP = AAVEGBP()
 """
 
 
-class AAVEUSD(NamedTuple):
+class AAVEUSD(Symbol):
     """
         name: AAVEUSD
         significant_digits: None
@@ -299,7 +299,7 @@ class AAVEUSD(NamedTuple):
         return "AAVEUSD"
 
 
-AAVEUSD = AAVEUSD()
+AAVEUSD = AAVEUSD(*AAVEUSD._fields)
 """
     name: AAVEUSD
     significant_digits: None
@@ -313,7 +313,7 @@ AAVEUSD = AAVEUSD()
 """
 
 
-class AAVEXBT(NamedTuple):
+class AAVEXBT(Symbol):
     """
         name: AAVEXBT
         significant_digits: None
@@ -351,7 +351,7 @@ class AAVEXBT(NamedTuple):
         return "AAVEXBT"
 
 
-AAVEXBT = AAVEXBT()
+AAVEXBT = AAVEXBT(*AAVEXBT._fields)
 """
     name: AAVEXBT
     significant_digits: None
@@ -365,7 +365,7 @@ AAVEXBT = AAVEXBT()
 """
 
 
-class ACAEUR(NamedTuple):
+class ACAEUR(Symbol):
     """
         name: ACAEUR
         significant_digits: None
@@ -403,7 +403,7 @@ class ACAEUR(NamedTuple):
         return "ACAEUR"
 
 
-ACAEUR = ACAEUR()
+ACAEUR = ACAEUR(*ACAEUR._fields)
 """
     name: ACAEUR
     significant_digits: None
@@ -417,7 +417,7 @@ ACAEUR = ACAEUR()
 """
 
 
-class ACAUSD(NamedTuple):
+class ACAUSD(Symbol):
     """
         name: ACAUSD
         significant_digits: None
@@ -455,7 +455,7 @@ class ACAUSD(NamedTuple):
         return "ACAUSD"
 
 
-ACAUSD = ACAUSD()
+ACAUSD = ACAUSD(*ACAUSD._fields)
 """
     name: ACAUSD
     significant_digits: None
@@ -469,7 +469,7 @@ ACAUSD = ACAUSD()
 """
 
 
-class ACHEUR(NamedTuple):
+class ACHEUR(Symbol):
     """
         name: ACHEUR
         significant_digits: None
@@ -507,7 +507,7 @@ class ACHEUR(NamedTuple):
         return "ACHEUR"
 
 
-ACHEUR = ACHEUR()
+ACHEUR = ACHEUR(*ACHEUR._fields)
 """
     name: ACHEUR
     significant_digits: None
@@ -521,7 +521,7 @@ ACHEUR = ACHEUR()
 """
 
 
-class ACHUSD(NamedTuple):
+class ACHUSD(Symbol):
     """
         name: ACHUSD
         significant_digits: None
@@ -559,7 +559,7 @@ class ACHUSD(NamedTuple):
         return "ACHUSD"
 
 
-ACHUSD = ACHUSD()
+ACHUSD = ACHUSD(*ACHUSD._fields)
 """
     name: ACHUSD
     significant_digits: None
@@ -573,7 +573,7 @@ ACHUSD = ACHUSD()
 """
 
 
-class ADAAUD(NamedTuple):
+class ADAAUD(Symbol):
     """
         name: ADAAUD
         significant_digits: None
@@ -611,7 +611,7 @@ class ADAAUD(NamedTuple):
         return "ADAAUD"
 
 
-ADAAUD = ADAAUD()
+ADAAUD = ADAAUD(*ADAAUD._fields)
 """
     name: ADAAUD
     significant_digits: None
@@ -625,7 +625,7 @@ ADAAUD = ADAAUD()
 """
 
 
-class ADAETH(NamedTuple):
+class ADAETH(Symbol):
     """
         name: ADAETH
         significant_digits: None
@@ -663,7 +663,7 @@ class ADAETH(NamedTuple):
         return "ADAETH"
 
 
-ADAETH = ADAETH()
+ADAETH = ADAETH(*ADAETH._fields)
 """
     name: ADAETH
     significant_digits: None
@@ -677,7 +677,7 @@ ADAETH = ADAETH()
 """
 
 
-class ADAEUR(NamedTuple):
+class ADAEUR(Symbol):
     """
         name: ADAEUR
         significant_digits: None
@@ -715,7 +715,7 @@ class ADAEUR(NamedTuple):
         return "ADAEUR"
 
 
-ADAEUR = ADAEUR()
+ADAEUR = ADAEUR(*ADAEUR._fields)
 """
     name: ADAEUR
     significant_digits: None
@@ -729,7 +729,7 @@ ADAEUR = ADAEUR()
 """
 
 
-class ADAGBP(NamedTuple):
+class ADAGBP(Symbol):
     """
         name: ADAGBP
         significant_digits: None
@@ -767,7 +767,7 @@ class ADAGBP(NamedTuple):
         return "ADAGBP"
 
 
-ADAGBP = ADAGBP()
+ADAGBP = ADAGBP(*ADAGBP._fields)
 """
     name: ADAGBP
     significant_digits: None
@@ -781,7 +781,7 @@ ADAGBP = ADAGBP()
 """
 
 
-class ADAUSD(NamedTuple):
+class ADAUSD(Symbol):
     """
         name: ADAUSD
         significant_digits: None
@@ -819,7 +819,7 @@ class ADAUSD(NamedTuple):
         return "ADAUSD"
 
 
-ADAUSD = ADAUSD()
+ADAUSD = ADAUSD(*ADAUSD._fields)
 """
     name: ADAUSD
     significant_digits: None
@@ -833,7 +833,7 @@ ADAUSD = ADAUSD()
 """
 
 
-class ADAUSDT(NamedTuple):
+class ADAUSDT(Symbol):
     """
         name: ADAUSDT
         significant_digits: None
@@ -871,7 +871,7 @@ class ADAUSDT(NamedTuple):
         return "ADAUSDT"
 
 
-ADAUSDT = ADAUSDT()
+ADAUSDT = ADAUSDT(*ADAUSDT._fields)
 """
     name: ADAUSDT
     significant_digits: None
@@ -885,7 +885,7 @@ ADAUSDT = ADAUSDT()
 """
 
 
-class ADAXBT(NamedTuple):
+class ADAXBT(Symbol):
     """
         name: ADAXBT
         significant_digits: None
@@ -923,7 +923,7 @@ class ADAXBT(NamedTuple):
         return "ADAXBT"
 
 
-ADAXBT = ADAXBT()
+ADAXBT = ADAXBT(*ADAXBT._fields)
 """
     name: ADAXBT
     significant_digits: None
@@ -937,7 +937,7 @@ ADAXBT = ADAXBT()
 """
 
 
-class ADXEUR(NamedTuple):
+class ADXEUR(Symbol):
     """
         name: ADXEUR
         significant_digits: None
@@ -975,7 +975,7 @@ class ADXEUR(NamedTuple):
         return "ADXEUR"
 
 
-ADXEUR = ADXEUR()
+ADXEUR = ADXEUR(*ADXEUR._fields)
 """
     name: ADXEUR
     significant_digits: None
@@ -989,7 +989,7 @@ ADXEUR = ADXEUR()
 """
 
 
-class ADXUSD(NamedTuple):
+class ADXUSD(Symbol):
     """
         name: ADXUSD
         significant_digits: None
@@ -1027,7 +1027,7 @@ class ADXUSD(NamedTuple):
         return "ADXUSD"
 
 
-ADXUSD = ADXUSD()
+ADXUSD = ADXUSD(*ADXUSD._fields)
 """
     name: ADXUSD
     significant_digits: None
@@ -1041,7 +1041,7 @@ ADXUSD = ADXUSD()
 """
 
 
-class AGLDEUR(NamedTuple):
+class AGLDEUR(Symbol):
     """
         name: AGLDEUR
         significant_digits: None
@@ -1079,7 +1079,7 @@ class AGLDEUR(NamedTuple):
         return "AGLDEUR"
 
 
-AGLDEUR = AGLDEUR()
+AGLDEUR = AGLDEUR(*AGLDEUR._fields)
 """
     name: AGLDEUR
     significant_digits: None
@@ -1093,7 +1093,7 @@ AGLDEUR = AGLDEUR()
 """
 
 
-class AGLDUSD(NamedTuple):
+class AGLDUSD(Symbol):
     """
         name: AGLDUSD
         significant_digits: None
@@ -1131,7 +1131,7 @@ class AGLDUSD(NamedTuple):
         return "AGLDUSD"
 
 
-AGLDUSD = AGLDUSD()
+AGLDUSD = AGLDUSD(*AGLDUSD._fields)
 """
     name: AGLDUSD
     significant_digits: None
@@ -1145,7 +1145,7 @@ AGLDUSD = AGLDUSD()
 """
 
 
-class AIREUR(NamedTuple):
+class AIREUR(Symbol):
     """
         name: AIREUR
         significant_digits: None
@@ -1183,7 +1183,7 @@ class AIREUR(NamedTuple):
         return "AIREUR"
 
 
-AIREUR = AIREUR()
+AIREUR = AIREUR(*AIREUR._fields)
 """
     name: AIREUR
     significant_digits: None
@@ -1197,7 +1197,7 @@ AIREUR = AIREUR()
 """
 
 
-class AIRUSD(NamedTuple):
+class AIRUSD(Symbol):
     """
         name: AIRUSD
         significant_digits: None
@@ -1235,7 +1235,7 @@ class AIRUSD(NamedTuple):
         return "AIRUSD"
 
 
-AIRUSD = AIRUSD()
+AIRUSD = AIRUSD(*AIRUSD._fields)
 """
     name: AIRUSD
     significant_digits: None
@@ -1249,7 +1249,7 @@ AIRUSD = AIRUSD()
 """
 
 
-class AKTEUR(NamedTuple):
+class AKTEUR(Symbol):
     """
         name: AKTEUR
         significant_digits: None
@@ -1287,7 +1287,7 @@ class AKTEUR(NamedTuple):
         return "AKTEUR"
 
 
-AKTEUR = AKTEUR()
+AKTEUR = AKTEUR(*AKTEUR._fields)
 """
     name: AKTEUR
     significant_digits: None
@@ -1301,7 +1301,7 @@ AKTEUR = AKTEUR()
 """
 
 
-class AKTUSD(NamedTuple):
+class AKTUSD(Symbol):
     """
         name: AKTUSD
         significant_digits: None
@@ -1339,7 +1339,7 @@ class AKTUSD(NamedTuple):
         return "AKTUSD"
 
 
-AKTUSD = AKTUSD()
+AKTUSD = AKTUSD(*AKTUSD._fields)
 """
     name: AKTUSD
     significant_digits: None
@@ -1353,7 +1353,7 @@ AKTUSD = AKTUSD()
 """
 
 
-class ALCXEUR(NamedTuple):
+class ALCXEUR(Symbol):
     """
         name: ALCXEUR
         significant_digits: None
@@ -1391,7 +1391,7 @@ class ALCXEUR(NamedTuple):
         return "ALCXEUR"
 
 
-ALCXEUR = ALCXEUR()
+ALCXEUR = ALCXEUR(*ALCXEUR._fields)
 """
     name: ALCXEUR
     significant_digits: None
@@ -1405,7 +1405,7 @@ ALCXEUR = ALCXEUR()
 """
 
 
-class ALCXUSD(NamedTuple):
+class ALCXUSD(Symbol):
     """
         name: ALCXUSD
         significant_digits: None
@@ -1443,7 +1443,7 @@ class ALCXUSD(NamedTuple):
         return "ALCXUSD"
 
 
-ALCXUSD = ALCXUSD()
+ALCXUSD = ALCXUSD(*ALCXUSD._fields)
 """
     name: ALCXUSD
     significant_digits: None
@@ -1457,7 +1457,7 @@ ALCXUSD = ALCXUSD()
 """
 
 
-class ALGOETH(NamedTuple):
+class ALGOETH(Symbol):
     """
         name: ALGOETH
         significant_digits: None
@@ -1495,7 +1495,7 @@ class ALGOETH(NamedTuple):
         return "ALGOETH"
 
 
-ALGOETH = ALGOETH()
+ALGOETH = ALGOETH(*ALGOETH._fields)
 """
     name: ALGOETH
     significant_digits: None
@@ -1509,7 +1509,7 @@ ALGOETH = ALGOETH()
 """
 
 
-class ALGOEUR(NamedTuple):
+class ALGOEUR(Symbol):
     """
         name: ALGOEUR
         significant_digits: None
@@ -1547,7 +1547,7 @@ class ALGOEUR(NamedTuple):
         return "ALGOEUR"
 
 
-ALGOEUR = ALGOEUR()
+ALGOEUR = ALGOEUR(*ALGOEUR._fields)
 """
     name: ALGOEUR
     significant_digits: None
@@ -1561,7 +1561,7 @@ ALGOEUR = ALGOEUR()
 """
 
 
-class ALGOGBP(NamedTuple):
+class ALGOGBP(Symbol):
     """
         name: ALGOGBP
         significant_digits: None
@@ -1599,7 +1599,7 @@ class ALGOGBP(NamedTuple):
         return "ALGOGBP"
 
 
-ALGOGBP = ALGOGBP()
+ALGOGBP = ALGOGBP(*ALGOGBP._fields)
 """
     name: ALGOGBP
     significant_digits: None
@@ -1613,7 +1613,7 @@ ALGOGBP = ALGOGBP()
 """
 
 
-class ALGOUSD(NamedTuple):
+class ALGOUSD(Symbol):
     """
         name: ALGOUSD
         significant_digits: None
@@ -1651,7 +1651,7 @@ class ALGOUSD(NamedTuple):
         return "ALGOUSD"
 
 
-ALGOUSD = ALGOUSD()
+ALGOUSD = ALGOUSD(*ALGOUSD._fields)
 """
     name: ALGOUSD
     significant_digits: None
@@ -1665,7 +1665,7 @@ ALGOUSD = ALGOUSD()
 """
 
 
-class ALGOUSDT(NamedTuple):
+class ALGOUSDT(Symbol):
     """
         name: ALGOUSDT
         significant_digits: None
@@ -1703,7 +1703,7 @@ class ALGOUSDT(NamedTuple):
         return "ALGOUSDT"
 
 
-ALGOUSDT = ALGOUSDT()
+ALGOUSDT = ALGOUSDT(*ALGOUSDT._fields)
 """
     name: ALGOUSDT
     significant_digits: None
@@ -1717,7 +1717,7 @@ ALGOUSDT = ALGOUSDT()
 """
 
 
-class ALGOXBT(NamedTuple):
+class ALGOXBT(Symbol):
     """
         name: ALGOXBT
         significant_digits: None
@@ -1755,7 +1755,7 @@ class ALGOXBT(NamedTuple):
         return "ALGOXBT"
 
 
-ALGOXBT = ALGOXBT()
+ALGOXBT = ALGOXBT(*ALGOXBT._fields)
 """
     name: ALGOXBT
     significant_digits: None
@@ -1769,7 +1769,7 @@ ALGOXBT = ALGOXBT()
 """
 
 
-class ALICEEUR(NamedTuple):
+class ALICEEUR(Symbol):
     """
         name: ALICEEUR
         significant_digits: None
@@ -1807,7 +1807,7 @@ class ALICEEUR(NamedTuple):
         return "ALICEEUR"
 
 
-ALICEEUR = ALICEEUR()
+ALICEEUR = ALICEEUR(*ALICEEUR._fields)
 """
     name: ALICEEUR
     significant_digits: None
@@ -1821,7 +1821,7 @@ ALICEEUR = ALICEEUR()
 """
 
 
-class ALICEUSD(NamedTuple):
+class ALICEUSD(Symbol):
     """
         name: ALICEUSD
         significant_digits: None
@@ -1859,7 +1859,7 @@ class ALICEUSD(NamedTuple):
         return "ALICEUSD"
 
 
-ALICEUSD = ALICEUSD()
+ALICEUSD = ALICEUSD(*ALICEUSD._fields)
 """
     name: ALICEUSD
     significant_digits: None
@@ -1873,7 +1873,7 @@ ALICEUSD = ALICEUSD()
 """
 
 
-class ALPHAEUR(NamedTuple):
+class ALPHAEUR(Symbol):
     """
         name: ALPHAEUR
         significant_digits: None
@@ -1911,7 +1911,7 @@ class ALPHAEUR(NamedTuple):
         return "ALPHAEUR"
 
 
-ALPHAEUR = ALPHAEUR()
+ALPHAEUR = ALPHAEUR(*ALPHAEUR._fields)
 """
     name: ALPHAEUR
     significant_digits: None
@@ -1925,7 +1925,7 @@ ALPHAEUR = ALPHAEUR()
 """
 
 
-class ALPHAUSD(NamedTuple):
+class ALPHAUSD(Symbol):
     """
         name: ALPHAUSD
         significant_digits: None
@@ -1963,7 +1963,7 @@ class ALPHAUSD(NamedTuple):
         return "ALPHAUSD"
 
 
-ALPHAUSD = ALPHAUSD()
+ALPHAUSD = ALPHAUSD(*ALPHAUSD._fields)
 """
     name: ALPHAUSD
     significant_digits: None
@@ -1977,7 +1977,7 @@ ALPHAUSD = ALPHAUSD()
 """
 
 
-class ANKREUR(NamedTuple):
+class ANKREUR(Symbol):
     """
         name: ANKREUR
         significant_digits: None
@@ -2015,7 +2015,7 @@ class ANKREUR(NamedTuple):
         return "ANKREUR"
 
 
-ANKREUR = ANKREUR()
+ANKREUR = ANKREUR(*ANKREUR._fields)
 """
     name: ANKREUR
     significant_digits: None
@@ -2029,7 +2029,7 @@ ANKREUR = ANKREUR()
 """
 
 
-class ANKRUSD(NamedTuple):
+class ANKRUSD(Symbol):
     """
         name: ANKRUSD
         significant_digits: None
@@ -2067,7 +2067,7 @@ class ANKRUSD(NamedTuple):
         return "ANKRUSD"
 
 
-ANKRUSD = ANKRUSD()
+ANKRUSD = ANKRUSD(*ANKRUSD._fields)
 """
     name: ANKRUSD
     significant_digits: None
@@ -2081,7 +2081,7 @@ ANKRUSD = ANKRUSD()
 """
 
 
-class ANKRXBT(NamedTuple):
+class ANKRXBT(Symbol):
     """
         name: ANKRXBT
         significant_digits: None
@@ -2119,7 +2119,7 @@ class ANKRXBT(NamedTuple):
         return "ANKRXBT"
 
 
-ANKRXBT = ANKRXBT()
+ANKRXBT = ANKRXBT(*ANKRXBT._fields)
 """
     name: ANKRXBT
     significant_digits: None
@@ -2133,7 +2133,7 @@ ANKRXBT = ANKRXBT()
 """
 
 
-class ANTETH(NamedTuple):
+class ANTETH(Symbol):
     """
         name: ANTETH
         significant_digits: None
@@ -2171,7 +2171,7 @@ class ANTETH(NamedTuple):
         return "ANTETH"
 
 
-ANTETH = ANTETH()
+ANTETH = ANTETH(*ANTETH._fields)
 """
     name: ANTETH
     significant_digits: None
@@ -2185,7 +2185,7 @@ ANTETH = ANTETH()
 """
 
 
-class ANTEUR(NamedTuple):
+class ANTEUR(Symbol):
     """
         name: ANTEUR
         significant_digits: None
@@ -2223,7 +2223,7 @@ class ANTEUR(NamedTuple):
         return "ANTEUR"
 
 
-ANTEUR = ANTEUR()
+ANTEUR = ANTEUR(*ANTEUR._fields)
 """
     name: ANTEUR
     significant_digits: None
@@ -2237,7 +2237,7 @@ ANTEUR = ANTEUR()
 """
 
 
-class ANTUSD(NamedTuple):
+class ANTUSD(Symbol):
     """
         name: ANTUSD
         significant_digits: None
@@ -2275,7 +2275,7 @@ class ANTUSD(NamedTuple):
         return "ANTUSD"
 
 
-ANTUSD = ANTUSD()
+ANTUSD = ANTUSD(*ANTUSD._fields)
 """
     name: ANTUSD
     significant_digits: None
@@ -2289,7 +2289,7 @@ ANTUSD = ANTUSD()
 """
 
 
-class ANTXBT(NamedTuple):
+class ANTXBT(Symbol):
     """
         name: ANTXBT
         significant_digits: None
@@ -2327,7 +2327,7 @@ class ANTXBT(NamedTuple):
         return "ANTXBT"
 
 
-ANTXBT = ANTXBT()
+ANTXBT = ANTXBT(*ANTXBT._fields)
 """
     name: ANTXBT
     significant_digits: None
@@ -2341,7 +2341,7 @@ ANTXBT = ANTXBT()
 """
 
 
-class APEEUR(NamedTuple):
+class APEEUR(Symbol):
     """
         name: APEEUR
         significant_digits: None
@@ -2379,7 +2379,7 @@ class APEEUR(NamedTuple):
         return "APEEUR"
 
 
-APEEUR = APEEUR()
+APEEUR = APEEUR(*APEEUR._fields)
 """
     name: APEEUR
     significant_digits: None
@@ -2393,7 +2393,7 @@ APEEUR = APEEUR()
 """
 
 
-class APEUSD(NamedTuple):
+class APEUSD(Symbol):
     """
         name: APEUSD
         significant_digits: None
@@ -2431,7 +2431,7 @@ class APEUSD(NamedTuple):
         return "APEUSD"
 
 
-APEUSD = APEUSD()
+APEUSD = APEUSD(*APEUSD._fields)
 """
     name: APEUSD
     significant_digits: None
@@ -2445,7 +2445,7 @@ APEUSD = APEUSD()
 """
 
 
-class APEUSDT(NamedTuple):
+class APEUSDT(Symbol):
     """
         name: APEUSDT
         significant_digits: None
@@ -2483,7 +2483,7 @@ class APEUSDT(NamedTuple):
         return "APEUSDT"
 
 
-APEUSDT = APEUSDT()
+APEUSDT = APEUSDT(*APEUSDT._fields)
 """
     name: APEUSDT
     significant_digits: None
@@ -2497,7 +2497,7 @@ APEUSDT = APEUSDT()
 """
 
 
-class API3EUR(NamedTuple):
+class API3EUR(Symbol):
     """
         name: API3EUR
         significant_digits: None
@@ -2535,7 +2535,7 @@ class API3EUR(NamedTuple):
         return "API3EUR"
 
 
-API3EUR = API3EUR()
+API3EUR = API3EUR(*API3EUR._fields)
 """
     name: API3EUR
     significant_digits: None
@@ -2549,7 +2549,7 @@ API3EUR = API3EUR()
 """
 
 
-class API3USD(NamedTuple):
+class API3USD(Symbol):
     """
         name: API3USD
         significant_digits: None
@@ -2587,7 +2587,7 @@ class API3USD(NamedTuple):
         return "API3USD"
 
 
-API3USD = API3USD()
+API3USD = API3USD(*API3USD._fields)
 """
     name: API3USD
     significant_digits: None
@@ -2601,7 +2601,7 @@ API3USD = API3USD()
 """
 
 
-class APTEUR(NamedTuple):
+class APTEUR(Symbol):
     """
         name: APTEUR
         significant_digits: None
@@ -2639,7 +2639,7 @@ class APTEUR(NamedTuple):
         return "APTEUR"
 
 
-APTEUR = APTEUR()
+APTEUR = APTEUR(*APTEUR._fields)
 """
     name: APTEUR
     significant_digits: None
@@ -2653,7 +2653,7 @@ APTEUR = APTEUR()
 """
 
 
-class APTUSD(NamedTuple):
+class APTUSD(Symbol):
     """
         name: APTUSD
         significant_digits: None
@@ -2691,7 +2691,7 @@ class APTUSD(NamedTuple):
         return "APTUSD"
 
 
-APTUSD = APTUSD()
+APTUSD = APTUSD(*APTUSD._fields)
 """
     name: APTUSD
     significant_digits: None
@@ -2705,7 +2705,7 @@ APTUSD = APTUSD()
 """
 
 
-class ARBEUR(NamedTuple):
+class ARBEUR(Symbol):
     """
         name: ARBEUR
         significant_digits: None
@@ -2743,7 +2743,7 @@ class ARBEUR(NamedTuple):
         return "ARBEUR"
 
 
-ARBEUR = ARBEUR()
+ARBEUR = ARBEUR(*ARBEUR._fields)
 """
     name: ARBEUR
     significant_digits: None
@@ -2757,7 +2757,7 @@ ARBEUR = ARBEUR()
 """
 
 
-class ARBUSD(NamedTuple):
+class ARBUSD(Symbol):
     """
         name: ARBUSD
         significant_digits: None
@@ -2795,7 +2795,7 @@ class ARBUSD(NamedTuple):
         return "ARBUSD"
 
 
-ARBUSD = ARBUSD()
+ARBUSD = ARBUSD(*ARBUSD._fields)
 """
     name: ARBUSD
     significant_digits: None
@@ -2809,7 +2809,7 @@ ARBUSD = ARBUSD()
 """
 
 
-class ARPAEUR(NamedTuple):
+class ARPAEUR(Symbol):
     """
         name: ARPAEUR
         significant_digits: None
@@ -2847,7 +2847,7 @@ class ARPAEUR(NamedTuple):
         return "ARPAEUR"
 
 
-ARPAEUR = ARPAEUR()
+ARPAEUR = ARPAEUR(*ARPAEUR._fields)
 """
     name: ARPAEUR
     significant_digits: None
@@ -2861,7 +2861,7 @@ ARPAEUR = ARPAEUR()
 """
 
 
-class ARPAUSD(NamedTuple):
+class ARPAUSD(Symbol):
     """
         name: ARPAUSD
         significant_digits: None
@@ -2899,7 +2899,7 @@ class ARPAUSD(NamedTuple):
         return "ARPAUSD"
 
 
-ARPAUSD = ARPAUSD()
+ARPAUSD = ARPAUSD(*ARPAUSD._fields)
 """
     name: ARPAUSD
     significant_digits: None
@@ -2913,7 +2913,7 @@ ARPAUSD = ARPAUSD()
 """
 
 
-class ASTREUR(NamedTuple):
+class ASTREUR(Symbol):
     """
         name: ASTREUR
         significant_digits: None
@@ -2951,7 +2951,7 @@ class ASTREUR(NamedTuple):
         return "ASTREUR"
 
 
-ASTREUR = ASTREUR()
+ASTREUR = ASTREUR(*ASTREUR._fields)
 """
     name: ASTREUR
     significant_digits: None
@@ -2965,7 +2965,7 @@ ASTREUR = ASTREUR()
 """
 
 
-class ASTRUSD(NamedTuple):
+class ASTRUSD(Symbol):
     """
         name: ASTRUSD
         significant_digits: None
@@ -3003,7 +3003,7 @@ class ASTRUSD(NamedTuple):
         return "ASTRUSD"
 
 
-ASTRUSD = ASTRUSD()
+ASTRUSD = ASTRUSD(*ASTRUSD._fields)
 """
     name: ASTRUSD
     significant_digits: None
@@ -3017,7 +3017,7 @@ ASTRUSD = ASTRUSD()
 """
 
 
-class ATLASEUR(NamedTuple):
+class ATLASEUR(Symbol):
     """
         name: ATLASEUR
         significant_digits: None
@@ -3055,7 +3055,7 @@ class ATLASEUR(NamedTuple):
         return "ATLASEUR"
 
 
-ATLASEUR = ATLASEUR()
+ATLASEUR = ATLASEUR(*ATLASEUR._fields)
 """
     name: ATLASEUR
     significant_digits: None
@@ -3069,7 +3069,7 @@ ATLASEUR = ATLASEUR()
 """
 
 
-class ATLASUSD(NamedTuple):
+class ATLASUSD(Symbol):
     """
         name: ATLASUSD
         significant_digits: None
@@ -3107,7 +3107,7 @@ class ATLASUSD(NamedTuple):
         return "ATLASUSD"
 
 
-ATLASUSD = ATLASUSD()
+ATLASUSD = ATLASUSD(*ATLASUSD._fields)
 """
     name: ATLASUSD
     significant_digits: None
@@ -3121,7 +3121,7 @@ ATLASUSD = ATLASUSD()
 """
 
 
-class ATOMETH(NamedTuple):
+class ATOMETH(Symbol):
     """
         name: ATOMETH
         significant_digits: None
@@ -3159,7 +3159,7 @@ class ATOMETH(NamedTuple):
         return "ATOMETH"
 
 
-ATOMETH = ATOMETH()
+ATOMETH = ATOMETH(*ATOMETH._fields)
 """
     name: ATOMETH
     significant_digits: None
@@ -3173,7 +3173,7 @@ ATOMETH = ATOMETH()
 """
 
 
-class ATOMEUR(NamedTuple):
+class ATOMEUR(Symbol):
     """
         name: ATOMEUR
         significant_digits: None
@@ -3211,7 +3211,7 @@ class ATOMEUR(NamedTuple):
         return "ATOMEUR"
 
 
-ATOMEUR = ATOMEUR()
+ATOMEUR = ATOMEUR(*ATOMEUR._fields)
 """
     name: ATOMEUR
     significant_digits: None
@@ -3225,7 +3225,7 @@ ATOMEUR = ATOMEUR()
 """
 
 
-class ATOMGBP(NamedTuple):
+class ATOMGBP(Symbol):
     """
         name: ATOMGBP
         significant_digits: None
@@ -3263,7 +3263,7 @@ class ATOMGBP(NamedTuple):
         return "ATOMGBP"
 
 
-ATOMGBP = ATOMGBP()
+ATOMGBP = ATOMGBP(*ATOMGBP._fields)
 """
     name: ATOMGBP
     significant_digits: None
@@ -3277,7 +3277,7 @@ ATOMGBP = ATOMGBP()
 """
 
 
-class ATOMUSD(NamedTuple):
+class ATOMUSD(Symbol):
     """
         name: ATOMUSD
         significant_digits: None
@@ -3315,7 +3315,7 @@ class ATOMUSD(NamedTuple):
         return "ATOMUSD"
 
 
-ATOMUSD = ATOMUSD()
+ATOMUSD = ATOMUSD(*ATOMUSD._fields)
 """
     name: ATOMUSD
     significant_digits: None
@@ -3329,7 +3329,7 @@ ATOMUSD = ATOMUSD()
 """
 
 
-class ATOMUSDT(NamedTuple):
+class ATOMUSDT(Symbol):
     """
         name: ATOMUSDT
         significant_digits: None
@@ -3367,7 +3367,7 @@ class ATOMUSDT(NamedTuple):
         return "ATOMUSDT"
 
 
-ATOMUSDT = ATOMUSDT()
+ATOMUSDT = ATOMUSDT(*ATOMUSDT._fields)
 """
     name: ATOMUSDT
     significant_digits: None
@@ -3381,7 +3381,7 @@ ATOMUSDT = ATOMUSDT()
 """
 
 
-class ATOMXBT(NamedTuple):
+class ATOMXBT(Symbol):
     """
         name: ATOMXBT
         significant_digits: None
@@ -3419,7 +3419,7 @@ class ATOMXBT(NamedTuple):
         return "ATOMXBT"
 
 
-ATOMXBT = ATOMXBT()
+ATOMXBT = ATOMXBT(*ATOMXBT._fields)
 """
     name: ATOMXBT
     significant_digits: None
@@ -3433,7 +3433,7 @@ ATOMXBT = ATOMXBT()
 """
 
 
-class AUDIOEUR(NamedTuple):
+class AUDIOEUR(Symbol):
     """
         name: AUDIOEUR
         significant_digits: None
@@ -3471,7 +3471,7 @@ class AUDIOEUR(NamedTuple):
         return "AUDIOEUR"
 
 
-AUDIOEUR = AUDIOEUR()
+AUDIOEUR = AUDIOEUR(*AUDIOEUR._fields)
 """
     name: AUDIOEUR
     significant_digits: None
@@ -3485,7 +3485,7 @@ AUDIOEUR = AUDIOEUR()
 """
 
 
-class AUDIOUSD(NamedTuple):
+class AUDIOUSD(Symbol):
     """
         name: AUDIOUSD
         significant_digits: None
@@ -3523,7 +3523,7 @@ class AUDIOUSD(NamedTuple):
         return "AUDIOUSD"
 
 
-AUDIOUSD = AUDIOUSD()
+AUDIOUSD = AUDIOUSD(*AUDIOUSD._fields)
 """
     name: AUDIOUSD
     significant_digits: None
@@ -3537,7 +3537,7 @@ AUDIOUSD = AUDIOUSD()
 """
 
 
-class AUDJPY(NamedTuple):
+class AUDJPY(Symbol):
     """
         name: AUDJPY
         significant_digits: None
@@ -3575,7 +3575,7 @@ class AUDJPY(NamedTuple):
         return "AUDJPY"
 
 
-AUDJPY = AUDJPY()
+AUDJPY = AUDJPY(*AUDJPY._fields)
 """
     name: AUDJPY
     significant_digits: None
@@ -3589,7 +3589,7 @@ AUDJPY = AUDJPY()
 """
 
 
-class AUDUSD(NamedTuple):
+class AUDUSD(Symbol):
     """
         name: AUDUSD
         significant_digits: None
@@ -3627,7 +3627,7 @@ class AUDUSD(NamedTuple):
         return "AUDUSD"
 
 
-AUDUSD = AUDUSD()
+AUDUSD = AUDUSD(*AUDUSD._fields)
 """
     name: AUDUSD
     significant_digits: None
@@ -3641,7 +3641,7 @@ AUDUSD = AUDUSD()
 """
 
 
-class AVAXEUR(NamedTuple):
+class AVAXEUR(Symbol):
     """
         name: AVAXEUR
         significant_digits: None
@@ -3679,7 +3679,7 @@ class AVAXEUR(NamedTuple):
         return "AVAXEUR"
 
 
-AVAXEUR = AVAXEUR()
+AVAXEUR = AVAXEUR(*AVAXEUR._fields)
 """
     name: AVAXEUR
     significant_digits: None
@@ -3693,7 +3693,7 @@ AVAXEUR = AVAXEUR()
 """
 
 
-class AVAXUSD(NamedTuple):
+class AVAXUSD(Symbol):
     """
         name: AVAXUSD
         significant_digits: None
@@ -3731,7 +3731,7 @@ class AVAXUSD(NamedTuple):
         return "AVAXUSD"
 
 
-AVAXUSD = AVAXUSD()
+AVAXUSD = AVAXUSD(*AVAXUSD._fields)
 """
     name: AVAXUSD
     significant_digits: None
@@ -3745,7 +3745,7 @@ AVAXUSD = AVAXUSD()
 """
 
 
-class AVAXUSDT(NamedTuple):
+class AVAXUSDT(Symbol):
     """
         name: AVAXUSDT
         significant_digits: None
@@ -3783,7 +3783,7 @@ class AVAXUSDT(NamedTuple):
         return "AVAXUSDT"
 
 
-AVAXUSDT = AVAXUSDT()
+AVAXUSDT = AVAXUSDT(*AVAXUSDT._fields)
 """
     name: AVAXUSDT
     significant_digits: None
@@ -3797,7 +3797,7 @@ AVAXUSDT = AVAXUSDT()
 """
 
 
-class AXSEUR(NamedTuple):
+class AXSEUR(Symbol):
     """
         name: AXSEUR
         significant_digits: None
@@ -3835,7 +3835,7 @@ class AXSEUR(NamedTuple):
         return "AXSEUR"
 
 
-AXSEUR = AXSEUR()
+AXSEUR = AXSEUR(*AXSEUR._fields)
 """
     name: AXSEUR
     significant_digits: None
@@ -3849,7 +3849,7 @@ AXSEUR = AXSEUR()
 """
 
 
-class AXSUSD(NamedTuple):
+class AXSUSD(Symbol):
     """
         name: AXSUSD
         significant_digits: None
@@ -3887,7 +3887,7 @@ class AXSUSD(NamedTuple):
         return "AXSUSD"
 
 
-AXSUSD = AXSUSD()
+AXSUSD = AXSUSD(*AXSUSD._fields)
 """
     name: AXSUSD
     significant_digits: None
@@ -3901,7 +3901,7 @@ AXSUSD = AXSUSD()
 """
 
 
-class BADGEREUR(NamedTuple):
+class BADGEREUR(Symbol):
     """
         name: BADGEREUR
         significant_digits: None
@@ -3939,7 +3939,7 @@ class BADGEREUR(NamedTuple):
         return "BADGEREUR"
 
 
-BADGEREUR = BADGEREUR()
+BADGEREUR = BADGEREUR(*BADGEREUR._fields)
 """
     name: BADGEREUR
     significant_digits: None
@@ -3953,7 +3953,7 @@ BADGEREUR = BADGEREUR()
 """
 
 
-class BADGERUSD(NamedTuple):
+class BADGERUSD(Symbol):
     """
         name: BADGERUSD
         significant_digits: None
@@ -3991,7 +3991,7 @@ class BADGERUSD(NamedTuple):
         return "BADGERUSD"
 
 
-BADGERUSD = BADGERUSD()
+BADGERUSD = BADGERUSD(*BADGERUSD._fields)
 """
     name: BADGERUSD
     significant_digits: None
@@ -4005,7 +4005,7 @@ BADGERUSD = BADGERUSD()
 """
 
 
-class BALEUR(NamedTuple):
+class BALEUR(Symbol):
     """
         name: BALEUR
         significant_digits: None
@@ -4043,7 +4043,7 @@ class BALEUR(NamedTuple):
         return "BALEUR"
 
 
-BALEUR = BALEUR()
+BALEUR = BALEUR(*BALEUR._fields)
 """
     name: BALEUR
     significant_digits: None
@@ -4057,7 +4057,7 @@ BALEUR = BALEUR()
 """
 
 
-class BALUSD(NamedTuple):
+class BALUSD(Symbol):
     """
         name: BALUSD
         significant_digits: None
@@ -4095,7 +4095,7 @@ class BALUSD(NamedTuple):
         return "BALUSD"
 
 
-BALUSD = BALUSD()
+BALUSD = BALUSD(*BALUSD._fields)
 """
     name: BALUSD
     significant_digits: None
@@ -4109,7 +4109,7 @@ BALUSD = BALUSD()
 """
 
 
-class BALXBT(NamedTuple):
+class BALXBT(Symbol):
     """
         name: BALXBT
         significant_digits: None
@@ -4147,7 +4147,7 @@ class BALXBT(NamedTuple):
         return "BALXBT"
 
 
-BALXBT = BALXBT()
+BALXBT = BALXBT(*BALXBT._fields)
 """
     name: BALXBT
     significant_digits: None
@@ -4161,7 +4161,7 @@ BALXBT = BALXBT()
 """
 
 
-class BANDEUR(NamedTuple):
+class BANDEUR(Symbol):
     """
         name: BANDEUR
         significant_digits: None
@@ -4199,7 +4199,7 @@ class BANDEUR(NamedTuple):
         return "BANDEUR"
 
 
-BANDEUR = BANDEUR()
+BANDEUR = BANDEUR(*BANDEUR._fields)
 """
     name: BANDEUR
     significant_digits: None
@@ -4213,7 +4213,7 @@ BANDEUR = BANDEUR()
 """
 
 
-class BANDUSD(NamedTuple):
+class BANDUSD(Symbol):
     """
         name: BANDUSD
         significant_digits: None
@@ -4251,7 +4251,7 @@ class BANDUSD(NamedTuple):
         return "BANDUSD"
 
 
-BANDUSD = BANDUSD()
+BANDUSD = BANDUSD(*BANDUSD._fields)
 """
     name: BANDUSD
     significant_digits: None
@@ -4265,7 +4265,7 @@ BANDUSD = BANDUSD()
 """
 
 
-class BATETH(NamedTuple):
+class BATETH(Symbol):
     """
         name: BATETH
         significant_digits: None
@@ -4303,7 +4303,7 @@ class BATETH(NamedTuple):
         return "BATETH"
 
 
-BATETH = BATETH()
+BATETH = BATETH(*BATETH._fields)
 """
     name: BATETH
     significant_digits: None
@@ -4317,7 +4317,7 @@ BATETH = BATETH()
 """
 
 
-class BATEUR(NamedTuple):
+class BATEUR(Symbol):
     """
         name: BATEUR
         significant_digits: None
@@ -4355,7 +4355,7 @@ class BATEUR(NamedTuple):
         return "BATEUR"
 
 
-BATEUR = BATEUR()
+BATEUR = BATEUR(*BATEUR._fields)
 """
     name: BATEUR
     significant_digits: None
@@ -4369,7 +4369,7 @@ BATEUR = BATEUR()
 """
 
 
-class BATJPY(NamedTuple):
+class BATJPY(Symbol):
     """
         name: BATJPY
         significant_digits: None
@@ -4407,7 +4407,7 @@ class BATJPY(NamedTuple):
         return "BATJPY"
 
 
-BATJPY = BATJPY()
+BATJPY = BATJPY(*BATJPY._fields)
 """
     name: BATJPY
     significant_digits: None
@@ -4421,7 +4421,7 @@ BATJPY = BATJPY()
 """
 
 
-class BATUSD(NamedTuple):
+class BATUSD(Symbol):
     """
         name: BATUSD
         significant_digits: None
@@ -4459,7 +4459,7 @@ class BATUSD(NamedTuple):
         return "BATUSD"
 
 
-BATUSD = BATUSD()
+BATUSD = BATUSD(*BATUSD._fields)
 """
     name: BATUSD
     significant_digits: None
@@ -4473,7 +4473,7 @@ BATUSD = BATUSD()
 """
 
 
-class BATXBT(NamedTuple):
+class BATXBT(Symbol):
     """
         name: BATXBT
         significant_digits: None
@@ -4511,7 +4511,7 @@ class BATXBT(NamedTuple):
         return "BATXBT"
 
 
-BATXBT = BATXBT()
+BATXBT = BATXBT(*BATXBT._fields)
 """
     name: BATXBT
     significant_digits: None
@@ -4525,7 +4525,7 @@ BATXBT = BATXBT()
 """
 
 
-class BCHAUD(NamedTuple):
+class BCHAUD(Symbol):
     """
         name: BCHAUD
         significant_digits: None
@@ -4563,7 +4563,7 @@ class BCHAUD(NamedTuple):
         return "BCHAUD"
 
 
-BCHAUD = BCHAUD()
+BCHAUD = BCHAUD(*BCHAUD._fields)
 """
     name: BCHAUD
     significant_digits: None
@@ -4577,7 +4577,7 @@ BCHAUD = BCHAUD()
 """
 
 
-class BCHETH(NamedTuple):
+class BCHETH(Symbol):
     """
         name: BCHETH
         significant_digits: None
@@ -4615,7 +4615,7 @@ class BCHETH(NamedTuple):
         return "BCHETH"
 
 
-BCHETH = BCHETH()
+BCHETH = BCHETH(*BCHETH._fields)
 """
     name: BCHETH
     significant_digits: None
@@ -4629,7 +4629,7 @@ BCHETH = BCHETH()
 """
 
 
-class BCHEUR(NamedTuple):
+class BCHEUR(Symbol):
     """
         name: BCHEUR
         significant_digits: None
@@ -4667,7 +4667,7 @@ class BCHEUR(NamedTuple):
         return "BCHEUR"
 
 
-BCHEUR = BCHEUR()
+BCHEUR = BCHEUR(*BCHEUR._fields)
 """
     name: BCHEUR
     significant_digits: None
@@ -4681,7 +4681,7 @@ BCHEUR = BCHEUR()
 """
 
 
-class BCHGBP(NamedTuple):
+class BCHGBP(Symbol):
     """
         name: BCHGBP
         significant_digits: None
@@ -4719,7 +4719,7 @@ class BCHGBP(NamedTuple):
         return "BCHGBP"
 
 
-BCHGBP = BCHGBP()
+BCHGBP = BCHGBP(*BCHGBP._fields)
 """
     name: BCHGBP
     significant_digits: None
@@ -4733,7 +4733,7 @@ BCHGBP = BCHGBP()
 """
 
 
-class BCHJPY(NamedTuple):
+class BCHJPY(Symbol):
     """
         name: BCHJPY
         significant_digits: None
@@ -4771,7 +4771,7 @@ class BCHJPY(NamedTuple):
         return "BCHJPY"
 
 
-BCHJPY = BCHJPY()
+BCHJPY = BCHJPY(*BCHJPY._fields)
 """
     name: BCHJPY
     significant_digits: None
@@ -4785,7 +4785,7 @@ BCHJPY = BCHJPY()
 """
 
 
-class BCHUSD(NamedTuple):
+class BCHUSD(Symbol):
     """
         name: BCHUSD
         significant_digits: None
@@ -4823,7 +4823,7 @@ class BCHUSD(NamedTuple):
         return "BCHUSD"
 
 
-BCHUSD = BCHUSD()
+BCHUSD = BCHUSD(*BCHUSD._fields)
 """
     name: BCHUSD
     significant_digits: None
@@ -4837,7 +4837,7 @@ BCHUSD = BCHUSD()
 """
 
 
-class BCHUSDT(NamedTuple):
+class BCHUSDT(Symbol):
     """
         name: BCHUSDT
         significant_digits: None
@@ -4875,7 +4875,7 @@ class BCHUSDT(NamedTuple):
         return "BCHUSDT"
 
 
-BCHUSDT = BCHUSDT()
+BCHUSDT = BCHUSDT(*BCHUSDT._fields)
 """
     name: BCHUSDT
     significant_digits: None
@@ -4889,7 +4889,7 @@ BCHUSDT = BCHUSDT()
 """
 
 
-class BCHXBT(NamedTuple):
+class BCHXBT(Symbol):
     """
         name: BCHXBT
         significant_digits: None
@@ -4927,7 +4927,7 @@ class BCHXBT(NamedTuple):
         return "BCHXBT"
 
 
-BCHXBT = BCHXBT()
+BCHXBT = BCHXBT(*BCHXBT._fields)
 """
     name: BCHXBT
     significant_digits: None
@@ -4941,7 +4941,7 @@ BCHXBT = BCHXBT()
 """
 
 
-class BICOEUR(NamedTuple):
+class BICOEUR(Symbol):
     """
         name: BICOEUR
         significant_digits: None
@@ -4979,7 +4979,7 @@ class BICOEUR(NamedTuple):
         return "BICOEUR"
 
 
-BICOEUR = BICOEUR()
+BICOEUR = BICOEUR(*BICOEUR._fields)
 """
     name: BICOEUR
     significant_digits: None
@@ -4993,7 +4993,7 @@ BICOEUR = BICOEUR()
 """
 
 
-class BICOUSD(NamedTuple):
+class BICOUSD(Symbol):
     """
         name: BICOUSD
         significant_digits: None
@@ -5031,7 +5031,7 @@ class BICOUSD(NamedTuple):
         return "BICOUSD"
 
 
-BICOUSD = BICOUSD()
+BICOUSD = BICOUSD(*BICOUSD._fields)
 """
     name: BICOUSD
     significant_digits: None
@@ -5045,7 +5045,7 @@ BICOUSD = BICOUSD()
 """
 
 
-class BITEUR(NamedTuple):
+class BITEUR(Symbol):
     """
         name: BITEUR
         significant_digits: None
@@ -5083,7 +5083,7 @@ class BITEUR(NamedTuple):
         return "BITEUR"
 
 
-BITEUR = BITEUR()
+BITEUR = BITEUR(*BITEUR._fields)
 """
     name: BITEUR
     significant_digits: None
@@ -5097,7 +5097,7 @@ BITEUR = BITEUR()
 """
 
 
-class BITUSD(NamedTuple):
+class BITUSD(Symbol):
     """
         name: BITUSD
         significant_digits: None
@@ -5135,7 +5135,7 @@ class BITUSD(NamedTuple):
         return "BITUSD"
 
 
-BITUSD = BITUSD()
+BITUSD = BITUSD(*BITUSD._fields)
 """
     name: BITUSD
     significant_digits: None
@@ -5149,7 +5149,7 @@ BITUSD = BITUSD()
 """
 
 
-class BLUREUR(NamedTuple):
+class BLUREUR(Symbol):
     """
         name: BLUREUR
         significant_digits: None
@@ -5187,7 +5187,7 @@ class BLUREUR(NamedTuple):
         return "BLUREUR"
 
 
-BLUREUR = BLUREUR()
+BLUREUR = BLUREUR(*BLUREUR._fields)
 """
     name: BLUREUR
     significant_digits: None
@@ -5201,7 +5201,7 @@ BLUREUR = BLUREUR()
 """
 
 
-class BLURUSD(NamedTuple):
+class BLURUSD(Symbol):
     """
         name: BLURUSD
         significant_digits: None
@@ -5239,7 +5239,7 @@ class BLURUSD(NamedTuple):
         return "BLURUSD"
 
 
-BLURUSD = BLURUSD()
+BLURUSD = BLURUSD(*BLURUSD._fields)
 """
     name: BLURUSD
     significant_digits: None
@@ -5253,7 +5253,7 @@ BLURUSD = BLURUSD()
 """
 
 
-class BLZEUR(NamedTuple):
+class BLZEUR(Symbol):
     """
         name: BLZEUR
         significant_digits: None
@@ -5291,7 +5291,7 @@ class BLZEUR(NamedTuple):
         return "BLZEUR"
 
 
-BLZEUR = BLZEUR()
+BLZEUR = BLZEUR(*BLZEUR._fields)
 """
     name: BLZEUR
     significant_digits: None
@@ -5305,7 +5305,7 @@ BLZEUR = BLZEUR()
 """
 
 
-class BLZUSD(NamedTuple):
+class BLZUSD(Symbol):
     """
         name: BLZUSD
         significant_digits: None
@@ -5343,7 +5343,7 @@ class BLZUSD(NamedTuple):
         return "BLZUSD"
 
 
-BLZUSD = BLZUSD()
+BLZUSD = BLZUSD(*BLZUSD._fields)
 """
     name: BLZUSD
     significant_digits: None
@@ -5357,7 +5357,7 @@ BLZUSD = BLZUSD()
 """
 
 
-class BNCEUR(NamedTuple):
+class BNCEUR(Symbol):
     """
         name: BNCEUR
         significant_digits: None
@@ -5395,7 +5395,7 @@ class BNCEUR(NamedTuple):
         return "BNCEUR"
 
 
-BNCEUR = BNCEUR()
+BNCEUR = BNCEUR(*BNCEUR._fields)
 """
     name: BNCEUR
     significant_digits: None
@@ -5409,7 +5409,7 @@ BNCEUR = BNCEUR()
 """
 
 
-class BNCUSD(NamedTuple):
+class BNCUSD(Symbol):
     """
         name: BNCUSD
         significant_digits: None
@@ -5447,7 +5447,7 @@ class BNCUSD(NamedTuple):
         return "BNCUSD"
 
 
-BNCUSD = BNCUSD()
+BNCUSD = BNCUSD(*BNCUSD._fields)
 """
     name: BNCUSD
     significant_digits: None
@@ -5461,7 +5461,7 @@ BNCUSD = BNCUSD()
 """
 
 
-class BNTEUR(NamedTuple):
+class BNTEUR(Symbol):
     """
         name: BNTEUR
         significant_digits: None
@@ -5499,7 +5499,7 @@ class BNTEUR(NamedTuple):
         return "BNTEUR"
 
 
-BNTEUR = BNTEUR()
+BNTEUR = BNTEUR(*BNTEUR._fields)
 """
     name: BNTEUR
     significant_digits: None
@@ -5513,7 +5513,7 @@ BNTEUR = BNTEUR()
 """
 
 
-class BNTUSD(NamedTuple):
+class BNTUSD(Symbol):
     """
         name: BNTUSD
         significant_digits: None
@@ -5551,7 +5551,7 @@ class BNTUSD(NamedTuple):
         return "BNTUSD"
 
 
-BNTUSD = BNTUSD()
+BNTUSD = BNTUSD(*BNTUSD._fields)
 """
     name: BNTUSD
     significant_digits: None
@@ -5565,7 +5565,7 @@ BNTUSD = BNTUSD()
 """
 
 
-class BNTXBT(NamedTuple):
+class BNTXBT(Symbol):
     """
         name: BNTXBT
         significant_digits: None
@@ -5603,7 +5603,7 @@ class BNTXBT(NamedTuple):
         return "BNTXBT"
 
 
-BNTXBT = BNTXBT()
+BNTXBT = BNTXBT(*BNTXBT._fields)
 """
     name: BNTXBT
     significant_digits: None
@@ -5617,7 +5617,7 @@ BNTXBT = BNTXBT()
 """
 
 
-class BOBAEUR(NamedTuple):
+class BOBAEUR(Symbol):
     """
         name: BOBAEUR
         significant_digits: None
@@ -5655,7 +5655,7 @@ class BOBAEUR(NamedTuple):
         return "BOBAEUR"
 
 
-BOBAEUR = BOBAEUR()
+BOBAEUR = BOBAEUR(*BOBAEUR._fields)
 """
     name: BOBAEUR
     significant_digits: None
@@ -5669,7 +5669,7 @@ BOBAEUR = BOBAEUR()
 """
 
 
-class BOBAUSD(NamedTuple):
+class BOBAUSD(Symbol):
     """
         name: BOBAUSD
         significant_digits: None
@@ -5707,7 +5707,7 @@ class BOBAUSD(NamedTuple):
         return "BOBAUSD"
 
 
-BOBAUSD = BOBAUSD()
+BOBAUSD = BOBAUSD(*BOBAUSD._fields)
 """
     name: BOBAUSD
     significant_digits: None
@@ -5721,7 +5721,7 @@ BOBAUSD = BOBAUSD()
 """
 
 
-class BONDEUR(NamedTuple):
+class BONDEUR(Symbol):
     """
         name: BONDEUR
         significant_digits: None
@@ -5759,7 +5759,7 @@ class BONDEUR(NamedTuple):
         return "BONDEUR"
 
 
-BONDEUR = BONDEUR()
+BONDEUR = BONDEUR(*BONDEUR._fields)
 """
     name: BONDEUR
     significant_digits: None
@@ -5773,7 +5773,7 @@ BONDEUR = BONDEUR()
 """
 
 
-class BONDUSD(NamedTuple):
+class BONDUSD(Symbol):
     """
         name: BONDUSD
         significant_digits: None
@@ -5811,7 +5811,7 @@ class BONDUSD(NamedTuple):
         return "BONDUSD"
 
 
-BONDUSD = BONDUSD()
+BONDUSD = BONDUSD(*BONDUSD._fields)
 """
     name: BONDUSD
     significant_digits: None
@@ -5825,7 +5825,7 @@ BONDUSD = BONDUSD()
 """
 
 
-class BSXEUR(NamedTuple):
+class BSXEUR(Symbol):
     """
         name: BSXEUR
         significant_digits: None
@@ -5863,7 +5863,7 @@ class BSXEUR(NamedTuple):
         return "BSXEUR"
 
 
-BSXEUR = BSXEUR()
+BSXEUR = BSXEUR(*BSXEUR._fields)
 """
     name: BSXEUR
     significant_digits: None
@@ -5877,7 +5877,7 @@ BSXEUR = BSXEUR()
 """
 
 
-class BSXUSD(NamedTuple):
+class BSXUSD(Symbol):
     """
         name: BSXUSD
         significant_digits: None
@@ -5915,7 +5915,7 @@ class BSXUSD(NamedTuple):
         return "BSXUSD"
 
 
-BSXUSD = BSXUSD()
+BSXUSD = BSXUSD(*BSXUSD._fields)
 """
     name: BSXUSD
     significant_digits: None
@@ -5929,7 +5929,7 @@ BSXUSD = BSXUSD()
 """
 
 
-class BTTEUR(NamedTuple):
+class BTTEUR(Symbol):
     """
         name: BTTEUR
         significant_digits: None
@@ -5967,7 +5967,7 @@ class BTTEUR(NamedTuple):
         return "BTTEUR"
 
 
-BTTEUR = BTTEUR()
+BTTEUR = BTTEUR(*BTTEUR._fields)
 """
     name: BTTEUR
     significant_digits: None
@@ -5981,7 +5981,7 @@ BTTEUR = BTTEUR()
 """
 
 
-class BTTUSD(NamedTuple):
+class BTTUSD(Symbol):
     """
         name: BTTUSD
         significant_digits: None
@@ -6019,7 +6019,7 @@ class BTTUSD(NamedTuple):
         return "BTTUSD"
 
 
-BTTUSD = BTTUSD()
+BTTUSD = BTTUSD(*BTTUSD._fields)
 """
     name: BTTUSD
     significant_digits: None
@@ -6033,7 +6033,7 @@ BTTUSD = BTTUSD()
 """
 
 
-class C98EUR(NamedTuple):
+class C98EUR(Symbol):
     """
         name: C98EUR
         significant_digits: None
@@ -6071,7 +6071,7 @@ class C98EUR(NamedTuple):
         return "C98EUR"
 
 
-C98EUR = C98EUR()
+C98EUR = C98EUR(*C98EUR._fields)
 """
     name: C98EUR
     significant_digits: None
@@ -6085,7 +6085,7 @@ C98EUR = C98EUR()
 """
 
 
-class C98USD(NamedTuple):
+class C98USD(Symbol):
     """
         name: C98USD
         significant_digits: None
@@ -6123,7 +6123,7 @@ class C98USD(NamedTuple):
         return "C98USD"
 
 
-C98USD = C98USD()
+C98USD = C98USD(*C98USD._fields)
 """
     name: C98USD
     significant_digits: None
@@ -6137,7 +6137,7 @@ C98USD = C98USD()
 """
 
 
-class CELREUR(NamedTuple):
+class CELREUR(Symbol):
     """
         name: CELREUR
         significant_digits: None
@@ -6175,7 +6175,7 @@ class CELREUR(NamedTuple):
         return "CELREUR"
 
 
-CELREUR = CELREUR()
+CELREUR = CELREUR(*CELREUR._fields)
 """
     name: CELREUR
     significant_digits: None
@@ -6189,7 +6189,7 @@ CELREUR = CELREUR()
 """
 
 
-class CELRUSD(NamedTuple):
+class CELRUSD(Symbol):
     """
         name: CELRUSD
         significant_digits: None
@@ -6227,7 +6227,7 @@ class CELRUSD(NamedTuple):
         return "CELRUSD"
 
 
-CELRUSD = CELRUSD()
+CELRUSD = CELRUSD(*CELRUSD._fields)
 """
     name: CELRUSD
     significant_digits: None
@@ -6241,7 +6241,7 @@ CELRUSD = CELRUSD()
 """
 
 
-class CFGEUR(NamedTuple):
+class CFGEUR(Symbol):
     """
         name: CFGEUR
         significant_digits: None
@@ -6279,7 +6279,7 @@ class CFGEUR(NamedTuple):
         return "CFGEUR"
 
 
-CFGEUR = CFGEUR()
+CFGEUR = CFGEUR(*CFGEUR._fields)
 """
     name: CFGEUR
     significant_digits: None
@@ -6293,7 +6293,7 @@ CFGEUR = CFGEUR()
 """
 
 
-class CFGUSD(NamedTuple):
+class CFGUSD(Symbol):
     """
         name: CFGUSD
         significant_digits: None
@@ -6331,7 +6331,7 @@ class CFGUSD(NamedTuple):
         return "CFGUSD"
 
 
-CFGUSD = CFGUSD()
+CFGUSD = CFGUSD(*CFGUSD._fields)
 """
     name: CFGUSD
     significant_digits: None
@@ -6345,7 +6345,7 @@ CFGUSD = CFGUSD()
 """
 
 
-class CHREUR(NamedTuple):
+class CHREUR(Symbol):
     """
         name: CHREUR
         significant_digits: None
@@ -6383,7 +6383,7 @@ class CHREUR(NamedTuple):
         return "CHREUR"
 
 
-CHREUR = CHREUR()
+CHREUR = CHREUR(*CHREUR._fields)
 """
     name: CHREUR
     significant_digits: None
@@ -6397,7 +6397,7 @@ CHREUR = CHREUR()
 """
 
 
-class CHRUSD(NamedTuple):
+class CHRUSD(Symbol):
     """
         name: CHRUSD
         significant_digits: None
@@ -6435,7 +6435,7 @@ class CHRUSD(NamedTuple):
         return "CHRUSD"
 
 
-CHRUSD = CHRUSD()
+CHRUSD = CHRUSD(*CHRUSD._fields)
 """
     name: CHRUSD
     significant_digits: None
@@ -6449,7 +6449,7 @@ CHRUSD = CHRUSD()
 """
 
 
-class CHZEUR(NamedTuple):
+class CHZEUR(Symbol):
     """
         name: CHZEUR
         significant_digits: None
@@ -6487,7 +6487,7 @@ class CHZEUR(NamedTuple):
         return "CHZEUR"
 
 
-CHZEUR = CHZEUR()
+CHZEUR = CHZEUR(*CHZEUR._fields)
 """
     name: CHZEUR
     significant_digits: None
@@ -6501,7 +6501,7 @@ CHZEUR = CHZEUR()
 """
 
 
-class CHZUSD(NamedTuple):
+class CHZUSD(Symbol):
     """
         name: CHZUSD
         significant_digits: None
@@ -6539,7 +6539,7 @@ class CHZUSD(NamedTuple):
         return "CHZUSD"
 
 
-CHZUSD = CHZUSD()
+CHZUSD = CHZUSD(*CHZUSD._fields)
 """
     name: CHZUSD
     significant_digits: None
@@ -6553,7 +6553,7 @@ CHZUSD = CHZUSD()
 """
 
 
-class COMPEUR(NamedTuple):
+class COMPEUR(Symbol):
     """
         name: COMPEUR
         significant_digits: None
@@ -6591,7 +6591,7 @@ class COMPEUR(NamedTuple):
         return "COMPEUR"
 
 
-COMPEUR = COMPEUR()
+COMPEUR = COMPEUR(*COMPEUR._fields)
 """
     name: COMPEUR
     significant_digits: None
@@ -6605,7 +6605,7 @@ COMPEUR = COMPEUR()
 """
 
 
-class COMPUSD(NamedTuple):
+class COMPUSD(Symbol):
     """
         name: COMPUSD
         significant_digits: None
@@ -6643,7 +6643,7 @@ class COMPUSD(NamedTuple):
         return "COMPUSD"
 
 
-COMPUSD = COMPUSD()
+COMPUSD = COMPUSD(*COMPUSD._fields)
 """
     name: COMPUSD
     significant_digits: None
@@ -6657,7 +6657,7 @@ COMPUSD = COMPUSD()
 """
 
 
-class COMPXBT(NamedTuple):
+class COMPXBT(Symbol):
     """
         name: COMPXBT
         significant_digits: None
@@ -6695,7 +6695,7 @@ class COMPXBT(NamedTuple):
         return "COMPXBT"
 
 
-COMPXBT = COMPXBT()
+COMPXBT = COMPXBT(*COMPXBT._fields)
 """
     name: COMPXBT
     significant_digits: None
@@ -6709,7 +6709,7 @@ COMPXBT = COMPXBT()
 """
 
 
-class COTIEUR(NamedTuple):
+class COTIEUR(Symbol):
     """
         name: COTIEUR
         significant_digits: None
@@ -6747,7 +6747,7 @@ class COTIEUR(NamedTuple):
         return "COTIEUR"
 
 
-COTIEUR = COTIEUR()
+COTIEUR = COTIEUR(*COTIEUR._fields)
 """
     name: COTIEUR
     significant_digits: None
@@ -6761,7 +6761,7 @@ COTIEUR = COTIEUR()
 """
 
 
-class COTIUSD(NamedTuple):
+class COTIUSD(Symbol):
     """
         name: COTIUSD
         significant_digits: None
@@ -6799,7 +6799,7 @@ class COTIUSD(NamedTuple):
         return "COTIUSD"
 
 
-COTIUSD = COTIUSD()
+COTIUSD = COTIUSD(*COTIUSD._fields)
 """
     name: COTIUSD
     significant_digits: None
@@ -6813,7 +6813,7 @@ COTIUSD = COTIUSD()
 """
 
 
-class CQTEUR(NamedTuple):
+class CQTEUR(Symbol):
     """
         name: CQTEUR
         significant_digits: None
@@ -6851,7 +6851,7 @@ class CQTEUR(NamedTuple):
         return "CQTEUR"
 
 
-CQTEUR = CQTEUR()
+CQTEUR = CQTEUR(*CQTEUR._fields)
 """
     name: CQTEUR
     significant_digits: None
@@ -6865,7 +6865,7 @@ CQTEUR = CQTEUR()
 """
 
 
-class CQTUSD(NamedTuple):
+class CQTUSD(Symbol):
     """
         name: CQTUSD
         significant_digits: None
@@ -6903,7 +6903,7 @@ class CQTUSD(NamedTuple):
         return "CQTUSD"
 
 
-CQTUSD = CQTUSD()
+CQTUSD = CQTUSD(*CQTUSD._fields)
 """
     name: CQTUSD
     significant_digits: None
@@ -6917,7 +6917,7 @@ CQTUSD = CQTUSD()
 """
 
 
-class CRVETH(NamedTuple):
+class CRVETH(Symbol):
     """
         name: CRVETH
         significant_digits: None
@@ -6955,7 +6955,7 @@ class CRVETH(NamedTuple):
         return "CRVETH"
 
 
-CRVETH = CRVETH()
+CRVETH = CRVETH(*CRVETH._fields)
 """
     name: CRVETH
     significant_digits: None
@@ -6969,7 +6969,7 @@ CRVETH = CRVETH()
 """
 
 
-class CRVEUR(NamedTuple):
+class CRVEUR(Symbol):
     """
         name: CRVEUR
         significant_digits: None
@@ -7007,7 +7007,7 @@ class CRVEUR(NamedTuple):
         return "CRVEUR"
 
 
-CRVEUR = CRVEUR()
+CRVEUR = CRVEUR(*CRVEUR._fields)
 """
     name: CRVEUR
     significant_digits: None
@@ -7021,7 +7021,7 @@ CRVEUR = CRVEUR()
 """
 
 
-class CRVUSD(NamedTuple):
+class CRVUSD(Symbol):
     """
         name: CRVUSD
         significant_digits: None
@@ -7059,7 +7059,7 @@ class CRVUSD(NamedTuple):
         return "CRVUSD"
 
 
-CRVUSD = CRVUSD()
+CRVUSD = CRVUSD(*CRVUSD._fields)
 """
     name: CRVUSD
     significant_digits: None
@@ -7073,7 +7073,7 @@ CRVUSD = CRVUSD()
 """
 
 
-class CRVXBT(NamedTuple):
+class CRVXBT(Symbol):
     """
         name: CRVXBT
         significant_digits: None
@@ -7111,7 +7111,7 @@ class CRVXBT(NamedTuple):
         return "CRVXBT"
 
 
-CRVXBT = CRVXBT()
+CRVXBT = CRVXBT(*CRVXBT._fields)
 """
     name: CRVXBT
     significant_digits: None
@@ -7125,7 +7125,7 @@ CRVXBT = CRVXBT()
 """
 
 
-class CSMEUR(NamedTuple):
+class CSMEUR(Symbol):
     """
         name: CSMEUR
         significant_digits: None
@@ -7163,7 +7163,7 @@ class CSMEUR(NamedTuple):
         return "CSMEUR"
 
 
-CSMEUR = CSMEUR()
+CSMEUR = CSMEUR(*CSMEUR._fields)
 """
     name: CSMEUR
     significant_digits: None
@@ -7177,7 +7177,7 @@ CSMEUR = CSMEUR()
 """
 
 
-class CSMUSD(NamedTuple):
+class CSMUSD(Symbol):
     """
         name: CSMUSD
         significant_digits: None
@@ -7215,7 +7215,7 @@ class CSMUSD(NamedTuple):
         return "CSMUSD"
 
 
-CSMUSD = CSMUSD()
+CSMUSD = CSMUSD(*CSMUSD._fields)
 """
     name: CSMUSD
     significant_digits: None
@@ -7229,7 +7229,7 @@ CSMUSD = CSMUSD()
 """
 
 
-class CTSIEUR(NamedTuple):
+class CTSIEUR(Symbol):
     """
         name: CTSIEUR
         significant_digits: None
@@ -7267,7 +7267,7 @@ class CTSIEUR(NamedTuple):
         return "CTSIEUR"
 
 
-CTSIEUR = CTSIEUR()
+CTSIEUR = CTSIEUR(*CTSIEUR._fields)
 """
     name: CTSIEUR
     significant_digits: None
@@ -7281,7 +7281,7 @@ CTSIEUR = CTSIEUR()
 """
 
 
-class CTSIUSD(NamedTuple):
+class CTSIUSD(Symbol):
     """
         name: CTSIUSD
         significant_digits: None
@@ -7319,7 +7319,7 @@ class CTSIUSD(NamedTuple):
         return "CTSIUSD"
 
 
-CTSIUSD = CTSIUSD()
+CTSIUSD = CTSIUSD(*CTSIUSD._fields)
 """
     name: CTSIUSD
     significant_digits: None
@@ -7333,7 +7333,7 @@ CTSIUSD = CTSIUSD()
 """
 
 
-class CVCEUR(NamedTuple):
+class CVCEUR(Symbol):
     """
         name: CVCEUR
         significant_digits: None
@@ -7371,7 +7371,7 @@ class CVCEUR(NamedTuple):
         return "CVCEUR"
 
 
-CVCEUR = CVCEUR()
+CVCEUR = CVCEUR(*CVCEUR._fields)
 """
     name: CVCEUR
     significant_digits: None
@@ -7385,7 +7385,7 @@ CVCEUR = CVCEUR()
 """
 
 
-class CVCUSD(NamedTuple):
+class CVCUSD(Symbol):
     """
         name: CVCUSD
         significant_digits: None
@@ -7423,7 +7423,7 @@ class CVCUSD(NamedTuple):
         return "CVCUSD"
 
 
-CVCUSD = CVCUSD()
+CVCUSD = CVCUSD(*CVCUSD._fields)
 """
     name: CVCUSD
     significant_digits: None
@@ -7437,7 +7437,7 @@ CVCUSD = CVCUSD()
 """
 
 
-class CVXEUR(NamedTuple):
+class CVXEUR(Symbol):
     """
         name: CVXEUR
         significant_digits: None
@@ -7475,7 +7475,7 @@ class CVXEUR(NamedTuple):
         return "CVXEUR"
 
 
-CVXEUR = CVXEUR()
+CVXEUR = CVXEUR(*CVXEUR._fields)
 """
     name: CVXEUR
     significant_digits: None
@@ -7489,7 +7489,7 @@ CVXEUR = CVXEUR()
 """
 
 
-class CVXUSD(NamedTuple):
+class CVXUSD(Symbol):
     """
         name: CVXUSD
         significant_digits: None
@@ -7527,7 +7527,7 @@ class CVXUSD(NamedTuple):
         return "CVXUSD"
 
 
-CVXUSD = CVXUSD()
+CVXUSD = CVXUSD(*CVXUSD._fields)
 """
     name: CVXUSD
     significant_digits: None
@@ -7541,7 +7541,7 @@ CVXUSD = CVXUSD()
 """
 
 
-class DAIEUR(NamedTuple):
+class DAIEUR(Symbol):
     """
         name: DAIEUR
         significant_digits: None
@@ -7579,7 +7579,7 @@ class DAIEUR(NamedTuple):
         return "DAIEUR"
 
 
-DAIEUR = DAIEUR()
+DAIEUR = DAIEUR(*DAIEUR._fields)
 """
     name: DAIEUR
     significant_digits: None
@@ -7593,7 +7593,7 @@ DAIEUR = DAIEUR()
 """
 
 
-class DAIUSD(NamedTuple):
+class DAIUSD(Symbol):
     """
         name: DAIUSD
         significant_digits: None
@@ -7631,7 +7631,7 @@ class DAIUSD(NamedTuple):
         return "DAIUSD"
 
 
-DAIUSD = DAIUSD()
+DAIUSD = DAIUSD(*DAIUSD._fields)
 """
     name: DAIUSD
     significant_digits: None
@@ -7645,7 +7645,7 @@ DAIUSD = DAIUSD()
 """
 
 
-class DAIUSDT(NamedTuple):
+class DAIUSDT(Symbol):
     """
         name: DAIUSDT
         significant_digits: None
@@ -7683,7 +7683,7 @@ class DAIUSDT(NamedTuple):
         return "DAIUSDT"
 
 
-DAIUSDT = DAIUSDT()
+DAIUSDT = DAIUSDT(*DAIUSDT._fields)
 """
     name: DAIUSDT
     significant_digits: None
@@ -7697,7 +7697,7 @@ DAIUSDT = DAIUSDT()
 """
 
 
-class DASHEUR(NamedTuple):
+class DASHEUR(Symbol):
     """
         name: DASHEUR
         significant_digits: None
@@ -7735,7 +7735,7 @@ class DASHEUR(NamedTuple):
         return "DASHEUR"
 
 
-DASHEUR = DASHEUR()
+DASHEUR = DASHEUR(*DASHEUR._fields)
 """
     name: DASHEUR
     significant_digits: None
@@ -7749,7 +7749,7 @@ DASHEUR = DASHEUR()
 """
 
 
-class DASHUSD(NamedTuple):
+class DASHUSD(Symbol):
     """
         name: DASHUSD
         significant_digits: None
@@ -7787,7 +7787,7 @@ class DASHUSD(NamedTuple):
         return "DASHUSD"
 
 
-DASHUSD = DASHUSD()
+DASHUSD = DASHUSD(*DASHUSD._fields)
 """
     name: DASHUSD
     significant_digits: None
@@ -7801,7 +7801,7 @@ DASHUSD = DASHUSD()
 """
 
 
-class DASHXBT(NamedTuple):
+class DASHXBT(Symbol):
     """
         name: DASHXBT
         significant_digits: None
@@ -7839,7 +7839,7 @@ class DASHXBT(NamedTuple):
         return "DASHXBT"
 
 
-DASHXBT = DASHXBT()
+DASHXBT = DASHXBT(*DASHXBT._fields)
 """
     name: DASHXBT
     significant_digits: None
@@ -7853,7 +7853,7 @@ DASHXBT = DASHXBT()
 """
 
 
-class DENTEUR(NamedTuple):
+class DENTEUR(Symbol):
     """
         name: DENTEUR
         significant_digits: None
@@ -7891,7 +7891,7 @@ class DENTEUR(NamedTuple):
         return "DENTEUR"
 
 
-DENTEUR = DENTEUR()
+DENTEUR = DENTEUR(*DENTEUR._fields)
 """
     name: DENTEUR
     significant_digits: None
@@ -7905,7 +7905,7 @@ DENTEUR = DENTEUR()
 """
 
 
-class DENTUSD(NamedTuple):
+class DENTUSD(Symbol):
     """
         name: DENTUSD
         significant_digits: None
@@ -7943,7 +7943,7 @@ class DENTUSD(NamedTuple):
         return "DENTUSD"
 
 
-DENTUSD = DENTUSD()
+DENTUSD = DENTUSD(*DENTUSD._fields)
 """
     name: DENTUSD
     significant_digits: None
@@ -7957,7 +7957,7 @@ DENTUSD = DENTUSD()
 """
 
 
-class DOTETH(NamedTuple):
+class DOTETH(Symbol):
     """
         name: DOTETH
         significant_digits: None
@@ -7995,7 +7995,7 @@ class DOTETH(NamedTuple):
         return "DOTETH"
 
 
-DOTETH = DOTETH()
+DOTETH = DOTETH(*DOTETH._fields)
 """
     name: DOTETH
     significant_digits: None
@@ -8009,7 +8009,7 @@ DOTETH = DOTETH()
 """
 
 
-class DOTEUR(NamedTuple):
+class DOTEUR(Symbol):
     """
         name: DOTEUR
         significant_digits: None
@@ -8047,7 +8047,7 @@ class DOTEUR(NamedTuple):
         return "DOTEUR"
 
 
-DOTEUR = DOTEUR()
+DOTEUR = DOTEUR(*DOTEUR._fields)
 """
     name: DOTEUR
     significant_digits: None
@@ -8061,7 +8061,7 @@ DOTEUR = DOTEUR()
 """
 
 
-class DOTGBP(NamedTuple):
+class DOTGBP(Symbol):
     """
         name: DOTGBP
         significant_digits: None
@@ -8099,7 +8099,7 @@ class DOTGBP(NamedTuple):
         return "DOTGBP"
 
 
-DOTGBP = DOTGBP()
+DOTGBP = DOTGBP(*DOTGBP._fields)
 """
     name: DOTGBP
     significant_digits: None
@@ -8113,7 +8113,7 @@ DOTGBP = DOTGBP()
 """
 
 
-class DOTJPY(NamedTuple):
+class DOTJPY(Symbol):
     """
         name: DOTJPY
         significant_digits: None
@@ -8151,7 +8151,7 @@ class DOTJPY(NamedTuple):
         return "DOTJPY"
 
 
-DOTJPY = DOTJPY()
+DOTJPY = DOTJPY(*DOTJPY._fields)
 """
     name: DOTJPY
     significant_digits: None
@@ -8165,7 +8165,7 @@ DOTJPY = DOTJPY()
 """
 
 
-class DOTUSD(NamedTuple):
+class DOTUSD(Symbol):
     """
         name: DOTUSD
         significant_digits: None
@@ -8203,7 +8203,7 @@ class DOTUSD(NamedTuple):
         return "DOTUSD"
 
 
-DOTUSD = DOTUSD()
+DOTUSD = DOTUSD(*DOTUSD._fields)
 """
     name: DOTUSD
     significant_digits: None
@@ -8217,7 +8217,7 @@ DOTUSD = DOTUSD()
 """
 
 
-class DOTUSDT(NamedTuple):
+class DOTUSDT(Symbol):
     """
         name: DOTUSDT
         significant_digits: None
@@ -8255,7 +8255,7 @@ class DOTUSDT(NamedTuple):
         return "DOTUSDT"
 
 
-DOTUSDT = DOTUSDT()
+DOTUSDT = DOTUSDT(*DOTUSDT._fields)
 """
     name: DOTUSDT
     significant_digits: None
@@ -8269,7 +8269,7 @@ DOTUSDT = DOTUSDT()
 """
 
 
-class DOTXBT(NamedTuple):
+class DOTXBT(Symbol):
     """
         name: DOTXBT
         significant_digits: None
@@ -8307,7 +8307,7 @@ class DOTXBT(NamedTuple):
         return "DOTXBT"
 
 
-DOTXBT = DOTXBT()
+DOTXBT = DOTXBT(*DOTXBT._fields)
 """
     name: DOTXBT
     significant_digits: None
@@ -8321,7 +8321,7 @@ DOTXBT = DOTXBT()
 """
 
 
-class DYDXEUR(NamedTuple):
+class DYDXEUR(Symbol):
     """
         name: DYDXEUR
         significant_digits: None
@@ -8359,7 +8359,7 @@ class DYDXEUR(NamedTuple):
         return "DYDXEUR"
 
 
-DYDXEUR = DYDXEUR()
+DYDXEUR = DYDXEUR(*DYDXEUR._fields)
 """
     name: DYDXEUR
     significant_digits: None
@@ -8373,7 +8373,7 @@ DYDXEUR = DYDXEUR()
 """
 
 
-class DYDXUSD(NamedTuple):
+class DYDXUSD(Symbol):
     """
         name: DYDXUSD
         significant_digits: None
@@ -8411,7 +8411,7 @@ class DYDXUSD(NamedTuple):
         return "DYDXUSD"
 
 
-DYDXUSD = DYDXUSD()
+DYDXUSD = DYDXUSD(*DYDXUSD._fields)
 """
     name: DYDXUSD
     significant_digits: None
@@ -8425,7 +8425,7 @@ DYDXUSD = DYDXUSD()
 """
 
 
-class EGLDEUR(NamedTuple):
+class EGLDEUR(Symbol):
     """
         name: EGLDEUR
         significant_digits: None
@@ -8463,7 +8463,7 @@ class EGLDEUR(NamedTuple):
         return "EGLDEUR"
 
 
-EGLDEUR = EGLDEUR()
+EGLDEUR = EGLDEUR(*EGLDEUR._fields)
 """
     name: EGLDEUR
     significant_digits: None
@@ -8477,7 +8477,7 @@ EGLDEUR = EGLDEUR()
 """
 
 
-class EGLDUSD(NamedTuple):
+class EGLDUSD(Symbol):
     """
         name: EGLDUSD
         significant_digits: None
@@ -8515,7 +8515,7 @@ class EGLDUSD(NamedTuple):
         return "EGLDUSD"
 
 
-EGLDUSD = EGLDUSD()
+EGLDUSD = EGLDUSD(*EGLDUSD._fields)
 """
     name: EGLDUSD
     significant_digits: None
@@ -8529,7 +8529,7 @@ EGLDUSD = EGLDUSD()
 """
 
 
-class ENJEUR(NamedTuple):
+class ENJEUR(Symbol):
     """
         name: ENJEUR
         significant_digits: None
@@ -8567,7 +8567,7 @@ class ENJEUR(NamedTuple):
         return "ENJEUR"
 
 
-ENJEUR = ENJEUR()
+ENJEUR = ENJEUR(*ENJEUR._fields)
 """
     name: ENJEUR
     significant_digits: None
@@ -8581,7 +8581,7 @@ ENJEUR = ENJEUR()
 """
 
 
-class ENJGBP(NamedTuple):
+class ENJGBP(Symbol):
     """
         name: ENJGBP
         significant_digits: None
@@ -8619,7 +8619,7 @@ class ENJGBP(NamedTuple):
         return "ENJGBP"
 
 
-ENJGBP = ENJGBP()
+ENJGBP = ENJGBP(*ENJGBP._fields)
 """
     name: ENJGBP
     significant_digits: None
@@ -8633,7 +8633,7 @@ ENJGBP = ENJGBP()
 """
 
 
-class ENJJPY(NamedTuple):
+class ENJJPY(Symbol):
     """
         name: ENJJPY
         significant_digits: None
@@ -8671,7 +8671,7 @@ class ENJJPY(NamedTuple):
         return "ENJJPY"
 
 
-ENJJPY = ENJJPY()
+ENJJPY = ENJJPY(*ENJJPY._fields)
 """
     name: ENJJPY
     significant_digits: None
@@ -8685,7 +8685,7 @@ ENJJPY = ENJJPY()
 """
 
 
-class ENJUSD(NamedTuple):
+class ENJUSD(Symbol):
     """
         name: ENJUSD
         significant_digits: None
@@ -8723,7 +8723,7 @@ class ENJUSD(NamedTuple):
         return "ENJUSD"
 
 
-ENJUSD = ENJUSD()
+ENJUSD = ENJUSD(*ENJUSD._fields)
 """
     name: ENJUSD
     significant_digits: None
@@ -8737,7 +8737,7 @@ ENJUSD = ENJUSD()
 """
 
 
-class ENJXBT(NamedTuple):
+class ENJXBT(Symbol):
     """
         name: ENJXBT
         significant_digits: None
@@ -8775,7 +8775,7 @@ class ENJXBT(NamedTuple):
         return "ENJXBT"
 
 
-ENJXBT = ENJXBT()
+ENJXBT = ENJXBT(*ENJXBT._fields)
 """
     name: ENJXBT
     significant_digits: None
@@ -8789,7 +8789,7 @@ ENJXBT = ENJXBT()
 """
 
 
-class ENSEUR(NamedTuple):
+class ENSEUR(Symbol):
     """
         name: ENSEUR
         significant_digits: None
@@ -8827,7 +8827,7 @@ class ENSEUR(NamedTuple):
         return "ENSEUR"
 
 
-ENSEUR = ENSEUR()
+ENSEUR = ENSEUR(*ENSEUR._fields)
 """
     name: ENSEUR
     significant_digits: None
@@ -8841,7 +8841,7 @@ ENSEUR = ENSEUR()
 """
 
 
-class ENSUSD(NamedTuple):
+class ENSUSD(Symbol):
     """
         name: ENSUSD
         significant_digits: None
@@ -8879,7 +8879,7 @@ class ENSUSD(NamedTuple):
         return "ENSUSD"
 
 
-ENSUSD = ENSUSD()
+ENSUSD = ENSUSD(*ENSUSD._fields)
 """
     name: ENSUSD
     significant_digits: None
@@ -8893,7 +8893,7 @@ ENSUSD = ENSUSD()
 """
 
 
-class EOSETH(NamedTuple):
+class EOSETH(Symbol):
     """
         name: EOSETH
         significant_digits: None
@@ -8931,7 +8931,7 @@ class EOSETH(NamedTuple):
         return "EOSETH"
 
 
-EOSETH = EOSETH()
+EOSETH = EOSETH(*EOSETH._fields)
 """
     name: EOSETH
     significant_digits: None
@@ -8945,7 +8945,7 @@ EOSETH = EOSETH()
 """
 
 
-class EOSEUR(NamedTuple):
+class EOSEUR(Symbol):
     """
         name: EOSEUR
         significant_digits: None
@@ -8983,7 +8983,7 @@ class EOSEUR(NamedTuple):
         return "EOSEUR"
 
 
-EOSEUR = EOSEUR()
+EOSEUR = EOSEUR(*EOSEUR._fields)
 """
     name: EOSEUR
     significant_digits: None
@@ -8997,7 +8997,7 @@ EOSEUR = EOSEUR()
 """
 
 
-class EOSUSD(NamedTuple):
+class EOSUSD(Symbol):
     """
         name: EOSUSD
         significant_digits: None
@@ -9035,7 +9035,7 @@ class EOSUSD(NamedTuple):
         return "EOSUSD"
 
 
-EOSUSD = EOSUSD()
+EOSUSD = EOSUSD(*EOSUSD._fields)
 """
     name: EOSUSD
     significant_digits: None
@@ -9049,7 +9049,7 @@ EOSUSD = EOSUSD()
 """
 
 
-class EOSUSDT(NamedTuple):
+class EOSUSDT(Symbol):
     """
         name: EOSUSDT
         significant_digits: None
@@ -9087,7 +9087,7 @@ class EOSUSDT(NamedTuple):
         return "EOSUSDT"
 
 
-EOSUSDT = EOSUSDT()
+EOSUSDT = EOSUSDT(*EOSUSDT._fields)
 """
     name: EOSUSDT
     significant_digits: None
@@ -9101,7 +9101,7 @@ EOSUSDT = EOSUSDT()
 """
 
 
-class EOSXBT(NamedTuple):
+class EOSXBT(Symbol):
     """
         name: EOSXBT
         significant_digits: None
@@ -9139,7 +9139,7 @@ class EOSXBT(NamedTuple):
         return "EOSXBT"
 
 
-EOSXBT = EOSXBT()
+EOSXBT = EOSXBT(*EOSXBT._fields)
 """
     name: EOSXBT
     significant_digits: None
@@ -9153,7 +9153,7 @@ EOSXBT = EOSXBT()
 """
 
 
-class ETH2_SETH(NamedTuple):
+class ETH2_SETH(Symbol):
     """
         name: ETH2.SETH
         significant_digits: None
@@ -9191,7 +9191,7 @@ class ETH2_SETH(NamedTuple):
         return "ETH2.SETH"
 
 
-ETH2_SETH = ETH2_SETH()
+ETH2_SETH = ETH2_SETH(*ETH2_SETH._fields)
 """
     name: ETH2.SETH
     significant_digits: None
@@ -9205,7 +9205,7 @@ ETH2_SETH = ETH2_SETH()
 """
 
 
-class ETHAED(NamedTuple):
+class ETHAED(Symbol):
     """
         name: ETHAED
         significant_digits: None
@@ -9243,7 +9243,7 @@ class ETHAED(NamedTuple):
         return "ETHAED"
 
 
-ETHAED = ETHAED()
+ETHAED = ETHAED(*ETHAED._fields)
 """
     name: ETHAED
     significant_digits: None
@@ -9257,7 +9257,7 @@ ETHAED = ETHAED()
 """
 
 
-class ETHAUD(NamedTuple):
+class ETHAUD(Symbol):
     """
         name: ETHAUD
         significant_digits: None
@@ -9295,7 +9295,7 @@ class ETHAUD(NamedTuple):
         return "ETHAUD"
 
 
-ETHAUD = ETHAUD()
+ETHAUD = ETHAUD(*ETHAUD._fields)
 """
     name: ETHAUD
     significant_digits: None
@@ -9309,7 +9309,7 @@ ETHAUD = ETHAUD()
 """
 
 
-class ETHCHF(NamedTuple):
+class ETHCHF(Symbol):
     """
         name: ETHCHF
         significant_digits: None
@@ -9347,7 +9347,7 @@ class ETHCHF(NamedTuple):
         return "ETHCHF"
 
 
-ETHCHF = ETHCHF()
+ETHCHF = ETHCHF(*ETHCHF._fields)
 """
     name: ETHCHF
     significant_digits: None
@@ -9361,7 +9361,7 @@ ETHCHF = ETHCHF()
 """
 
 
-class ETHDAI(NamedTuple):
+class ETHDAI(Symbol):
     """
         name: ETHDAI
         significant_digits: None
@@ -9399,7 +9399,7 @@ class ETHDAI(NamedTuple):
         return "ETHDAI"
 
 
-ETHDAI = ETHDAI()
+ETHDAI = ETHDAI(*ETHDAI._fields)
 """
     name: ETHDAI
     significant_digits: None
@@ -9413,7 +9413,7 @@ ETHDAI = ETHDAI()
 """
 
 
-class ETHUSDC(NamedTuple):
+class ETHUSDC(Symbol):
     """
         name: ETHUSDC
         significant_digits: None
@@ -9451,7 +9451,7 @@ class ETHUSDC(NamedTuple):
         return "ETHUSDC"
 
 
-ETHUSDC = ETHUSDC()
+ETHUSDC = ETHUSDC(*ETHUSDC._fields)
 """
     name: ETHUSDC
     significant_digits: None
@@ -9465,7 +9465,7 @@ ETHUSDC = ETHUSDC()
 """
 
 
-class ETHUSDT(NamedTuple):
+class ETHUSDT(Symbol):
     """
         name: ETHUSDT
         significant_digits: None
@@ -9503,7 +9503,7 @@ class ETHUSDT(NamedTuple):
         return "ETHUSDT"
 
 
-ETHUSDT = ETHUSDT()
+ETHUSDT = ETHUSDT(*ETHUSDT._fields)
 """
     name: ETHUSDT
     significant_digits: None
@@ -9517,7 +9517,7 @@ ETHUSDT = ETHUSDT()
 """
 
 
-class ETHWETH(NamedTuple):
+class ETHWETH(Symbol):
     """
         name: ETHWETH
         significant_digits: None
@@ -9555,7 +9555,7 @@ class ETHWETH(NamedTuple):
         return "ETHWETH"
 
 
-ETHWETH = ETHWETH()
+ETHWETH = ETHWETH(*ETHWETH._fields)
 """
     name: ETHWETH
     significant_digits: None
@@ -9569,7 +9569,7 @@ ETHWETH = ETHWETH()
 """
 
 
-class ETHWEUR(NamedTuple):
+class ETHWEUR(Symbol):
     """
         name: ETHWEUR
         significant_digits: None
@@ -9607,7 +9607,7 @@ class ETHWEUR(NamedTuple):
         return "ETHWEUR"
 
 
-ETHWEUR = ETHWEUR()
+ETHWEUR = ETHWEUR(*ETHWEUR._fields)
 """
     name: ETHWEUR
     significant_digits: None
@@ -9621,7 +9621,7 @@ ETHWEUR = ETHWEUR()
 """
 
 
-class ETHWUSD(NamedTuple):
+class ETHWUSD(Symbol):
     """
         name: ETHWUSD
         significant_digits: None
@@ -9659,7 +9659,7 @@ class ETHWUSD(NamedTuple):
         return "ETHWUSD"
 
 
-ETHWUSD = ETHWUSD()
+ETHWUSD = ETHWUSD(*ETHWUSD._fields)
 """
     name: ETHWUSD
     significant_digits: None
@@ -9673,7 +9673,7 @@ ETHWUSD = ETHWUSD()
 """
 
 
-class EULEUR(NamedTuple):
+class EULEUR(Symbol):
     """
         name: EULEUR
         significant_digits: None
@@ -9711,7 +9711,7 @@ class EULEUR(NamedTuple):
         return "EULEUR"
 
 
-EULEUR = EULEUR()
+EULEUR = EULEUR(*EULEUR._fields)
 """
     name: EULEUR
     significant_digits: None
@@ -9725,7 +9725,7 @@ EULEUR = EULEUR()
 """
 
 
-class EULUSD(NamedTuple):
+class EULUSD(Symbol):
     """
         name: EULUSD
         significant_digits: None
@@ -9763,7 +9763,7 @@ class EULUSD(NamedTuple):
         return "EULUSD"
 
 
-EULUSD = EULUSD()
+EULUSD = EULUSD(*EULUSD._fields)
 """
     name: EULUSD
     significant_digits: None
@@ -9777,7 +9777,7 @@ EULUSD = EULUSD()
 """
 
 
-class EURAUD(NamedTuple):
+class EURAUD(Symbol):
     """
         name: EURAUD
         significant_digits: None
@@ -9815,7 +9815,7 @@ class EURAUD(NamedTuple):
         return "EURAUD"
 
 
-EURAUD = EURAUD()
+EURAUD = EURAUD(*EURAUD._fields)
 """
     name: EURAUD
     significant_digits: None
@@ -9829,7 +9829,7 @@ EURAUD = EURAUD()
 """
 
 
-class EURCAD(NamedTuple):
+class EURCAD(Symbol):
     """
         name: EURCAD
         significant_digits: None
@@ -9867,7 +9867,7 @@ class EURCAD(NamedTuple):
         return "EURCAD"
 
 
-EURCAD = EURCAD()
+EURCAD = EURCAD(*EURCAD._fields)
 """
     name: EURCAD
     significant_digits: None
@@ -9881,7 +9881,7 @@ EURCAD = EURCAD()
 """
 
 
-class EURCHF(NamedTuple):
+class EURCHF(Symbol):
     """
         name: EURCHF
         significant_digits: None
@@ -9919,7 +9919,7 @@ class EURCHF(NamedTuple):
         return "EURCHF"
 
 
-EURCHF = EURCHF()
+EURCHF = EURCHF(*EURCHF._fields)
 """
     name: EURCHF
     significant_digits: None
@@ -9933,7 +9933,7 @@ EURCHF = EURCHF()
 """
 
 
-class EURGBP(NamedTuple):
+class EURGBP(Symbol):
     """
         name: EURGBP
         significant_digits: None
@@ -9971,7 +9971,7 @@ class EURGBP(NamedTuple):
         return "EURGBP"
 
 
-EURGBP = EURGBP()
+EURGBP = EURGBP(*EURGBP._fields)
 """
     name: EURGBP
     significant_digits: None
@@ -9985,7 +9985,7 @@ EURGBP = EURGBP()
 """
 
 
-class EURJPY(NamedTuple):
+class EURJPY(Symbol):
     """
         name: EURJPY
         significant_digits: None
@@ -10023,7 +10023,7 @@ class EURJPY(NamedTuple):
         return "EURJPY"
 
 
-EURJPY = EURJPY()
+EURJPY = EURJPY(*EURJPY._fields)
 """
     name: EURJPY
     significant_digits: None
@@ -10037,7 +10037,163 @@ EURJPY = EURJPY()
 """
 
 
-class EWTEUR(NamedTuple):
+class EURTEUR(Symbol):
+    """
+        name: EURTEUR
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 5
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "EURTEUR"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 5
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EURTEUR"
+
+    def __str__(self):
+        return "EURTEUR"
+
+    def __call__(self):
+        return "EURTEUR"
+
+
+EURTEUR = EURTEUR(*EURTEUR._fields)
+"""
+    name: EURTEUR
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 5
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class EURTUSD(Symbol):
+    """
+        name: EURTUSD
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 5
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "EURTUSD"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 5
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EURTUSD"
+
+    def __str__(self):
+        return "EURTUSD"
+
+    def __call__(self):
+        return "EURTUSD"
+
+
+EURTUSD = EURTUSD(*EURTUSD._fields)
+"""
+    name: EURTUSD
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 5
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class EURTUSDT(Symbol):
+    """
+        name: EURTUSDT
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 5
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "EURTUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 5
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EURTUSDT"
+
+    def __str__(self):
+        return "EURTUSDT"
+
+    def __call__(self):
+        return "EURTUSDT"
+
+
+EURTUSDT = EURTUSDT(*EURTUSDT._fields)
+"""
+    name: EURTUSDT
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 5
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class EWTEUR(Symbol):
     """
         name: EWTEUR
         significant_digits: None
@@ -10075,7 +10231,7 @@ class EWTEUR(NamedTuple):
         return "EWTEUR"
 
 
-EWTEUR = EWTEUR()
+EWTEUR = EWTEUR(*EWTEUR._fields)
 """
     name: EWTEUR
     significant_digits: None
@@ -10089,7 +10245,7 @@ EWTEUR = EWTEUR()
 """
 
 
-class EWTGBP(NamedTuple):
+class EWTGBP(Symbol):
     """
         name: EWTGBP
         significant_digits: None
@@ -10127,7 +10283,7 @@ class EWTGBP(NamedTuple):
         return "EWTGBP"
 
 
-EWTGBP = EWTGBP()
+EWTGBP = EWTGBP(*EWTGBP._fields)
 """
     name: EWTGBP
     significant_digits: None
@@ -10141,7 +10297,7 @@ EWTGBP = EWTGBP()
 """
 
 
-class EWTUSD(NamedTuple):
+class EWTUSD(Symbol):
     """
         name: EWTUSD
         significant_digits: None
@@ -10179,7 +10335,7 @@ class EWTUSD(NamedTuple):
         return "EWTUSD"
 
 
-EWTUSD = EWTUSD()
+EWTUSD = EWTUSD(*EWTUSD._fields)
 """
     name: EWTUSD
     significant_digits: None
@@ -10193,7 +10349,7 @@ EWTUSD = EWTUSD()
 """
 
 
-class EWTXBT(NamedTuple):
+class EWTXBT(Symbol):
     """
         name: EWTXBT
         significant_digits: None
@@ -10231,7 +10387,7 @@ class EWTXBT(NamedTuple):
         return "EWTXBT"
 
 
-EWTXBT = EWTXBT()
+EWTXBT = EWTXBT(*EWTXBT._fields)
 """
     name: EWTXBT
     significant_digits: None
@@ -10245,7 +10401,7 @@ EWTXBT = EWTXBT()
 """
 
 
-class FARMEUR(NamedTuple):
+class FARMEUR(Symbol):
     """
         name: FARMEUR
         significant_digits: None
@@ -10283,7 +10439,7 @@ class FARMEUR(NamedTuple):
         return "FARMEUR"
 
 
-FARMEUR = FARMEUR()
+FARMEUR = FARMEUR(*FARMEUR._fields)
 """
     name: FARMEUR
     significant_digits: None
@@ -10297,7 +10453,7 @@ FARMEUR = FARMEUR()
 """
 
 
-class FARMUSD(NamedTuple):
+class FARMUSD(Symbol):
     """
         name: FARMUSD
         significant_digits: None
@@ -10335,7 +10491,7 @@ class FARMUSD(NamedTuple):
         return "FARMUSD"
 
 
-FARMUSD = FARMUSD()
+FARMUSD = FARMUSD(*FARMUSD._fields)
 """
     name: FARMUSD
     significant_digits: None
@@ -10349,7 +10505,7 @@ FARMUSD = FARMUSD()
 """
 
 
-class FETEUR(NamedTuple):
+class FETEUR(Symbol):
     """
         name: FETEUR
         significant_digits: None
@@ -10387,7 +10543,7 @@ class FETEUR(NamedTuple):
         return "FETEUR"
 
 
-FETEUR = FETEUR()
+FETEUR = FETEUR(*FETEUR._fields)
 """
     name: FETEUR
     significant_digits: None
@@ -10401,7 +10557,7 @@ FETEUR = FETEUR()
 """
 
 
-class FETUSD(NamedTuple):
+class FETUSD(Symbol):
     """
         name: FETUSD
         significant_digits: None
@@ -10439,7 +10595,7 @@ class FETUSD(NamedTuple):
         return "FETUSD"
 
 
-FETUSD = FETUSD()
+FETUSD = FETUSD(*FETUSD._fields)
 """
     name: FETUSD
     significant_digits: None
@@ -10453,7 +10609,7 @@ FETUSD = FETUSD()
 """
 
 
-class FIDAEUR(NamedTuple):
+class FIDAEUR(Symbol):
     """
         name: FIDAEUR
         significant_digits: None
@@ -10491,7 +10647,7 @@ class FIDAEUR(NamedTuple):
         return "FIDAEUR"
 
 
-FIDAEUR = FIDAEUR()
+FIDAEUR = FIDAEUR(*FIDAEUR._fields)
 """
     name: FIDAEUR
     significant_digits: None
@@ -10505,7 +10661,7 @@ FIDAEUR = FIDAEUR()
 """
 
 
-class FIDAUSD(NamedTuple):
+class FIDAUSD(Symbol):
     """
         name: FIDAUSD
         significant_digits: None
@@ -10543,7 +10699,7 @@ class FIDAUSD(NamedTuple):
         return "FIDAUSD"
 
 
-FIDAUSD = FIDAUSD()
+FIDAUSD = FIDAUSD(*FIDAUSD._fields)
 """
     name: FIDAUSD
     significant_digits: None
@@ -10557,7 +10713,7 @@ FIDAUSD = FIDAUSD()
 """
 
 
-class FILETH(NamedTuple):
+class FILETH(Symbol):
     """
         name: FILETH
         significant_digits: None
@@ -10595,7 +10751,7 @@ class FILETH(NamedTuple):
         return "FILETH"
 
 
-FILETH = FILETH()
+FILETH = FILETH(*FILETH._fields)
 """
     name: FILETH
     significant_digits: None
@@ -10609,7 +10765,7 @@ FILETH = FILETH()
 """
 
 
-class FILEUR(NamedTuple):
+class FILEUR(Symbol):
     """
         name: FILEUR
         significant_digits: None
@@ -10647,7 +10803,7 @@ class FILEUR(NamedTuple):
         return "FILEUR"
 
 
-FILEUR = FILEUR()
+FILEUR = FILEUR(*FILEUR._fields)
 """
     name: FILEUR
     significant_digits: None
@@ -10661,7 +10817,7 @@ FILEUR = FILEUR()
 """
 
 
-class FILGBP(NamedTuple):
+class FILGBP(Symbol):
     """
         name: FILGBP
         significant_digits: None
@@ -10699,7 +10855,7 @@ class FILGBP(NamedTuple):
         return "FILGBP"
 
 
-FILGBP = FILGBP()
+FILGBP = FILGBP(*FILGBP._fields)
 """
     name: FILGBP
     significant_digits: None
@@ -10713,7 +10869,7 @@ FILGBP = FILGBP()
 """
 
 
-class FILUSD(NamedTuple):
+class FILUSD(Symbol):
     """
         name: FILUSD
         significant_digits: None
@@ -10751,7 +10907,7 @@ class FILUSD(NamedTuple):
         return "FILUSD"
 
 
-FILUSD = FILUSD()
+FILUSD = FILUSD(*FILUSD._fields)
 """
     name: FILUSD
     significant_digits: None
@@ -10765,7 +10921,7 @@ FILUSD = FILUSD()
 """
 
 
-class FILXBT(NamedTuple):
+class FILXBT(Symbol):
     """
         name: FILXBT
         significant_digits: None
@@ -10803,7 +10959,7 @@ class FILXBT(NamedTuple):
         return "FILXBT"
 
 
-FILXBT = FILXBT()
+FILXBT = FILXBT(*FILXBT._fields)
 """
     name: FILXBT
     significant_digits: None
@@ -10817,7 +10973,7 @@ FILXBT = FILXBT()
 """
 
 
-class FISEUR(NamedTuple):
+class FISEUR(Symbol):
     """
         name: FISEUR
         significant_digits: None
@@ -10855,7 +11011,7 @@ class FISEUR(NamedTuple):
         return "FISEUR"
 
 
-FISEUR = FISEUR()
+FISEUR = FISEUR(*FISEUR._fields)
 """
     name: FISEUR
     significant_digits: None
@@ -10869,7 +11025,7 @@ FISEUR = FISEUR()
 """
 
 
-class FISUSD(NamedTuple):
+class FISUSD(Symbol):
     """
         name: FISUSD
         significant_digits: None
@@ -10907,7 +11063,7 @@ class FISUSD(NamedTuple):
         return "FISUSD"
 
 
-FISUSD = FISUSD()
+FISUSD = FISUSD(*FISUSD._fields)
 """
     name: FISUSD
     significant_digits: None
@@ -10921,7 +11077,7 @@ FISUSD = FISUSD()
 """
 
 
-class FLOWETH(NamedTuple):
+class FLOWETH(Symbol):
     """
         name: FLOWETH
         significant_digits: None
@@ -10959,7 +11115,7 @@ class FLOWETH(NamedTuple):
         return "FLOWETH"
 
 
-FLOWETH = FLOWETH()
+FLOWETH = FLOWETH(*FLOWETH._fields)
 """
     name: FLOWETH
     significant_digits: None
@@ -10973,7 +11129,7 @@ FLOWETH = FLOWETH()
 """
 
 
-class FLOWEUR(NamedTuple):
+class FLOWEUR(Symbol):
     """
         name: FLOWEUR
         significant_digits: None
@@ -11011,7 +11167,7 @@ class FLOWEUR(NamedTuple):
         return "FLOWEUR"
 
 
-FLOWEUR = FLOWEUR()
+FLOWEUR = FLOWEUR(*FLOWEUR._fields)
 """
     name: FLOWEUR
     significant_digits: None
@@ -11025,7 +11181,7 @@ FLOWEUR = FLOWEUR()
 """
 
 
-class FLOWGBP(NamedTuple):
+class FLOWGBP(Symbol):
     """
         name: FLOWGBP
         significant_digits: None
@@ -11063,7 +11219,7 @@ class FLOWGBP(NamedTuple):
         return "FLOWGBP"
 
 
-FLOWGBP = FLOWGBP()
+FLOWGBP = FLOWGBP(*FLOWGBP._fields)
 """
     name: FLOWGBP
     significant_digits: None
@@ -11077,7 +11233,7 @@ FLOWGBP = FLOWGBP()
 """
 
 
-class FLOWUSD(NamedTuple):
+class FLOWUSD(Symbol):
     """
         name: FLOWUSD
         significant_digits: None
@@ -11115,7 +11271,7 @@ class FLOWUSD(NamedTuple):
         return "FLOWUSD"
 
 
-FLOWUSD = FLOWUSD()
+FLOWUSD = FLOWUSD(*FLOWUSD._fields)
 """
     name: FLOWUSD
     significant_digits: None
@@ -11129,7 +11285,7 @@ FLOWUSD = FLOWUSD()
 """
 
 
-class FLOWXBT(NamedTuple):
+class FLOWXBT(Symbol):
     """
         name: FLOWXBT
         significant_digits: None
@@ -11167,7 +11323,7 @@ class FLOWXBT(NamedTuple):
         return "FLOWXBT"
 
 
-FLOWXBT = FLOWXBT()
+FLOWXBT = FLOWXBT(*FLOWXBT._fields)
 """
     name: FLOWXBT
     significant_digits: None
@@ -11181,7 +11337,7 @@ FLOWXBT = FLOWXBT()
 """
 
 
-class FLREUR(NamedTuple):
+class FLREUR(Symbol):
     """
         name: FLREUR
         significant_digits: None
@@ -11219,7 +11375,7 @@ class FLREUR(NamedTuple):
         return "FLREUR"
 
 
-FLREUR = FLREUR()
+FLREUR = FLREUR(*FLREUR._fields)
 """
     name: FLREUR
     significant_digits: None
@@ -11233,7 +11389,7 @@ FLREUR = FLREUR()
 """
 
 
-class FLRUSD(NamedTuple):
+class FLRUSD(Symbol):
     """
         name: FLRUSD
         significant_digits: None
@@ -11271,7 +11427,7 @@ class FLRUSD(NamedTuple):
         return "FLRUSD"
 
 
-FLRUSD = FLRUSD()
+FLRUSD = FLRUSD(*FLRUSD._fields)
 """
     name: FLRUSD
     significant_digits: None
@@ -11285,7 +11441,7 @@ FLRUSD = FLRUSD()
 """
 
 
-class FORTHEUR(NamedTuple):
+class FORTHEUR(Symbol):
     """
         name: FORTHEUR
         significant_digits: None
@@ -11323,7 +11479,7 @@ class FORTHEUR(NamedTuple):
         return "FORTHEUR"
 
 
-FORTHEUR = FORTHEUR()
+FORTHEUR = FORTHEUR(*FORTHEUR._fields)
 """
     name: FORTHEUR
     significant_digits: None
@@ -11337,7 +11493,7 @@ FORTHEUR = FORTHEUR()
 """
 
 
-class FORTHUSD(NamedTuple):
+class FORTHUSD(Symbol):
     """
         name: FORTHUSD
         significant_digits: None
@@ -11375,7 +11531,7 @@ class FORTHUSD(NamedTuple):
         return "FORTHUSD"
 
 
-FORTHUSD = FORTHUSD()
+FORTHUSD = FORTHUSD(*FORTHUSD._fields)
 """
     name: FORTHUSD
     significant_digits: None
@@ -11389,7 +11545,7 @@ FORTHUSD = FORTHUSD()
 """
 
 
-class FTMEUR(NamedTuple):
+class FTMEUR(Symbol):
     """
         name: FTMEUR
         significant_digits: None
@@ -11427,7 +11583,7 @@ class FTMEUR(NamedTuple):
         return "FTMEUR"
 
 
-FTMEUR = FTMEUR()
+FTMEUR = FTMEUR(*FTMEUR._fields)
 """
     name: FTMEUR
     significant_digits: None
@@ -11441,7 +11597,7 @@ FTMEUR = FTMEUR()
 """
 
 
-class FTMUSD(NamedTuple):
+class FTMUSD(Symbol):
     """
         name: FTMUSD
         significant_digits: None
@@ -11479,7 +11635,7 @@ class FTMUSD(NamedTuple):
         return "FTMUSD"
 
 
-FTMUSD = FTMUSD()
+FTMUSD = FTMUSD(*FTMUSD._fields)
 """
     name: FTMUSD
     significant_digits: None
@@ -11493,7 +11649,7 @@ FTMUSD = FTMUSD()
 """
 
 
-class FXSEUR(NamedTuple):
+class FXSEUR(Symbol):
     """
         name: FXSEUR
         significant_digits: None
@@ -11531,7 +11687,7 @@ class FXSEUR(NamedTuple):
         return "FXSEUR"
 
 
-FXSEUR = FXSEUR()
+FXSEUR = FXSEUR(*FXSEUR._fields)
 """
     name: FXSEUR
     significant_digits: None
@@ -11545,7 +11701,7 @@ FXSEUR = FXSEUR()
 """
 
 
-class FXSUSD(NamedTuple):
+class FXSUSD(Symbol):
     """
         name: FXSUSD
         significant_digits: None
@@ -11583,7 +11739,7 @@ class FXSUSD(NamedTuple):
         return "FXSUSD"
 
 
-FXSUSD = FXSUSD()
+FXSUSD = FXSUSD(*FXSUSD._fields)
 """
     name: FXSUSD
     significant_digits: None
@@ -11597,7 +11753,7 @@ FXSUSD = FXSUSD()
 """
 
 
-class GALAEUR(NamedTuple):
+class GALAEUR(Symbol):
     """
         name: GALAEUR
         significant_digits: None
@@ -11635,7 +11791,7 @@ class GALAEUR(NamedTuple):
         return "GALAEUR"
 
 
-GALAEUR = GALAEUR()
+GALAEUR = GALAEUR(*GALAEUR._fields)
 """
     name: GALAEUR
     significant_digits: None
@@ -11649,7 +11805,7 @@ GALAEUR = GALAEUR()
 """
 
 
-class GALAUSD(NamedTuple):
+class GALAUSD(Symbol):
     """
         name: GALAUSD
         significant_digits: None
@@ -11687,7 +11843,7 @@ class GALAUSD(NamedTuple):
         return "GALAUSD"
 
 
-GALAUSD = GALAUSD()
+GALAUSD = GALAUSD(*GALAUSD._fields)
 """
     name: GALAUSD
     significant_digits: None
@@ -11701,7 +11857,7 @@ GALAUSD = GALAUSD()
 """
 
 
-class GALEUR(NamedTuple):
+class GALEUR(Symbol):
     """
         name: GALEUR
         significant_digits: None
@@ -11739,7 +11895,7 @@ class GALEUR(NamedTuple):
         return "GALEUR"
 
 
-GALEUR = GALEUR()
+GALEUR = GALEUR(*GALEUR._fields)
 """
     name: GALEUR
     significant_digits: None
@@ -11753,7 +11909,7 @@ GALEUR = GALEUR()
 """
 
 
-class GALUSD(NamedTuple):
+class GALUSD(Symbol):
     """
         name: GALUSD
         significant_digits: None
@@ -11791,7 +11947,7 @@ class GALUSD(NamedTuple):
         return "GALUSD"
 
 
-GALUSD = GALUSD()
+GALUSD = GALUSD(*GALUSD._fields)
 """
     name: GALUSD
     significant_digits: None
@@ -11805,7 +11961,7 @@ GALUSD = GALUSD()
 """
 
 
-class GARIEUR(NamedTuple):
+class GARIEUR(Symbol):
     """
         name: GARIEUR
         significant_digits: None
@@ -11843,7 +11999,7 @@ class GARIEUR(NamedTuple):
         return "GARIEUR"
 
 
-GARIEUR = GARIEUR()
+GARIEUR = GARIEUR(*GARIEUR._fields)
 """
     name: GARIEUR
     significant_digits: None
@@ -11857,7 +12013,7 @@ GARIEUR = GARIEUR()
 """
 
 
-class GARIUSD(NamedTuple):
+class GARIUSD(Symbol):
     """
         name: GARIUSD
         significant_digits: None
@@ -11895,7 +12051,7 @@ class GARIUSD(NamedTuple):
         return "GARIUSD"
 
 
-GARIUSD = GARIUSD()
+GARIUSD = GARIUSD(*GARIUSD._fields)
 """
     name: GARIUSD
     significant_digits: None
@@ -11909,7 +12065,7 @@ GARIUSD = GARIUSD()
 """
 
 
-class GHSTEUR(NamedTuple):
+class GHSTEUR(Symbol):
     """
         name: GHSTEUR
         significant_digits: None
@@ -11947,7 +12103,7 @@ class GHSTEUR(NamedTuple):
         return "GHSTEUR"
 
 
-GHSTEUR = GHSTEUR()
+GHSTEUR = GHSTEUR(*GHSTEUR._fields)
 """
     name: GHSTEUR
     significant_digits: None
@@ -11961,7 +12117,7 @@ GHSTEUR = GHSTEUR()
 """
 
 
-class GHSTUSD(NamedTuple):
+class GHSTUSD(Symbol):
     """
         name: GHSTUSD
         significant_digits: None
@@ -11999,7 +12155,7 @@ class GHSTUSD(NamedTuple):
         return "GHSTUSD"
 
 
-GHSTUSD = GHSTUSD()
+GHSTUSD = GHSTUSD(*GHSTUSD._fields)
 """
     name: GHSTUSD
     significant_digits: None
@@ -12013,7 +12169,7 @@ GHSTUSD = GHSTUSD()
 """
 
 
-class GHSTXBT(NamedTuple):
+class GHSTXBT(Symbol):
     """
         name: GHSTXBT
         significant_digits: None
@@ -12051,7 +12207,7 @@ class GHSTXBT(NamedTuple):
         return "GHSTXBT"
 
 
-GHSTXBT = GHSTXBT()
+GHSTXBT = GHSTXBT(*GHSTXBT._fields)
 """
     name: GHSTXBT
     significant_digits: None
@@ -12065,7 +12221,7 @@ GHSTXBT = GHSTXBT()
 """
 
 
-class GLMREUR(NamedTuple):
+class GLMREUR(Symbol):
     """
         name: GLMREUR
         significant_digits: None
@@ -12103,7 +12259,7 @@ class GLMREUR(NamedTuple):
         return "GLMREUR"
 
 
-GLMREUR = GLMREUR()
+GLMREUR = GLMREUR(*GLMREUR._fields)
 """
     name: GLMREUR
     significant_digits: None
@@ -12117,7 +12273,7 @@ GLMREUR = GLMREUR()
 """
 
 
-class GLMRUSD(NamedTuple):
+class GLMRUSD(Symbol):
     """
         name: GLMRUSD
         significant_digits: None
@@ -12155,7 +12311,7 @@ class GLMRUSD(NamedTuple):
         return "GLMRUSD"
 
 
-GLMRUSD = GLMRUSD()
+GLMRUSD = GLMRUSD(*GLMRUSD._fields)
 """
     name: GLMRUSD
     significant_digits: None
@@ -12169,7 +12325,7 @@ GLMRUSD = GLMRUSD()
 """
 
 
-class GMTEUR(NamedTuple):
+class GMTEUR(Symbol):
     """
         name: GMTEUR
         significant_digits: None
@@ -12207,7 +12363,7 @@ class GMTEUR(NamedTuple):
         return "GMTEUR"
 
 
-GMTEUR = GMTEUR()
+GMTEUR = GMTEUR(*GMTEUR._fields)
 """
     name: GMTEUR
     significant_digits: None
@@ -12221,7 +12377,7 @@ GMTEUR = GMTEUR()
 """
 
 
-class GMTUSD(NamedTuple):
+class GMTUSD(Symbol):
     """
         name: GMTUSD
         significant_digits: None
@@ -12259,7 +12415,7 @@ class GMTUSD(NamedTuple):
         return "GMTUSD"
 
 
-GMTUSD = GMTUSD()
+GMTUSD = GMTUSD(*GMTUSD._fields)
 """
     name: GMTUSD
     significant_digits: None
@@ -12273,7 +12429,7 @@ GMTUSD = GMTUSD()
 """
 
 
-class GMXEUR(NamedTuple):
+class GMXEUR(Symbol):
     """
         name: GMXEUR
         significant_digits: None
@@ -12311,7 +12467,7 @@ class GMXEUR(NamedTuple):
         return "GMXEUR"
 
 
-GMXEUR = GMXEUR()
+GMXEUR = GMXEUR(*GMXEUR._fields)
 """
     name: GMXEUR
     significant_digits: None
@@ -12325,7 +12481,7 @@ GMXEUR = GMXEUR()
 """
 
 
-class GMXUSD(NamedTuple):
+class GMXUSD(Symbol):
     """
         name: GMXUSD
         significant_digits: None
@@ -12363,7 +12519,7 @@ class GMXUSD(NamedTuple):
         return "GMXUSD"
 
 
-GMXUSD = GMXUSD()
+GMXUSD = GMXUSD(*GMXUSD._fields)
 """
     name: GMXUSD
     significant_digits: None
@@ -12377,7 +12533,7 @@ GMXUSD = GMXUSD()
 """
 
 
-class GNOEUR(NamedTuple):
+class GNOEUR(Symbol):
     """
         name: GNOEUR
         significant_digits: None
@@ -12415,7 +12571,7 @@ class GNOEUR(NamedTuple):
         return "GNOEUR"
 
 
-GNOEUR = GNOEUR()
+GNOEUR = GNOEUR(*GNOEUR._fields)
 """
     name: GNOEUR
     significant_digits: None
@@ -12429,7 +12585,7 @@ GNOEUR = GNOEUR()
 """
 
 
-class GNOUSD(NamedTuple):
+class GNOUSD(Symbol):
     """
         name: GNOUSD
         significant_digits: None
@@ -12467,7 +12623,7 @@ class GNOUSD(NamedTuple):
         return "GNOUSD"
 
 
-GNOUSD = GNOUSD()
+GNOUSD = GNOUSD(*GNOUSD._fields)
 """
     name: GNOUSD
     significant_digits: None
@@ -12481,7 +12637,7 @@ GNOUSD = GNOUSD()
 """
 
 
-class GNOXBT(NamedTuple):
+class GNOXBT(Symbol):
     """
         name: GNOXBT
         significant_digits: None
@@ -12519,7 +12675,7 @@ class GNOXBT(NamedTuple):
         return "GNOXBT"
 
 
-GNOXBT = GNOXBT()
+GNOXBT = GNOXBT(*GNOXBT._fields)
 """
     name: GNOXBT
     significant_digits: None
@@ -12533,7 +12689,7 @@ GNOXBT = GNOXBT()
 """
 
 
-class GRTEUR(NamedTuple):
+class GRTEUR(Symbol):
     """
         name: GRTEUR
         significant_digits: None
@@ -12571,7 +12727,7 @@ class GRTEUR(NamedTuple):
         return "GRTEUR"
 
 
-GRTEUR = GRTEUR()
+GRTEUR = GRTEUR(*GRTEUR._fields)
 """
     name: GRTEUR
     significant_digits: None
@@ -12585,7 +12741,7 @@ GRTEUR = GRTEUR()
 """
 
 
-class GRTGBP(NamedTuple):
+class GRTGBP(Symbol):
     """
         name: GRTGBP
         significant_digits: None
@@ -12623,7 +12779,7 @@ class GRTGBP(NamedTuple):
         return "GRTGBP"
 
 
-GRTGBP = GRTGBP()
+GRTGBP = GRTGBP(*GRTGBP._fields)
 """
     name: GRTGBP
     significant_digits: None
@@ -12637,7 +12793,7 @@ GRTGBP = GRTGBP()
 """
 
 
-class GRTUSD(NamedTuple):
+class GRTUSD(Symbol):
     """
         name: GRTUSD
         significant_digits: None
@@ -12675,7 +12831,7 @@ class GRTUSD(NamedTuple):
         return "GRTUSD"
 
 
-GRTUSD = GRTUSD()
+GRTUSD = GRTUSD(*GRTUSD._fields)
 """
     name: GRTUSD
     significant_digits: None
@@ -12689,7 +12845,7 @@ GRTUSD = GRTUSD()
 """
 
 
-class GRTXBT(NamedTuple):
+class GRTXBT(Symbol):
     """
         name: GRTXBT
         significant_digits: None
@@ -12727,7 +12883,7 @@ class GRTXBT(NamedTuple):
         return "GRTXBT"
 
 
-GRTXBT = GRTXBT()
+GRTXBT = GRTXBT(*GRTXBT._fields)
 """
     name: GRTXBT
     significant_digits: None
@@ -12741,7 +12897,7 @@ GRTXBT = GRTXBT()
 """
 
 
-class GSTEUR(NamedTuple):
+class GSTEUR(Symbol):
     """
         name: GSTEUR
         significant_digits: None
@@ -12779,7 +12935,7 @@ class GSTEUR(NamedTuple):
         return "GSTEUR"
 
 
-GSTEUR = GSTEUR()
+GSTEUR = GSTEUR(*GSTEUR._fields)
 """
     name: GSTEUR
     significant_digits: None
@@ -12793,7 +12949,7 @@ GSTEUR = GSTEUR()
 """
 
 
-class GSTUSD(NamedTuple):
+class GSTUSD(Symbol):
     """
         name: GSTUSD
         significant_digits: None
@@ -12831,7 +12987,7 @@ class GSTUSD(NamedTuple):
         return "GSTUSD"
 
 
-GSTUSD = GSTUSD()
+GSTUSD = GSTUSD(*GSTUSD._fields)
 """
     name: GSTUSD
     significant_digits: None
@@ -12845,7 +13001,7 @@ GSTUSD = GSTUSD()
 """
 
 
-class GTCEUR(NamedTuple):
+class GTCEUR(Symbol):
     """
         name: GTCEUR
         significant_digits: None
@@ -12883,7 +13039,7 @@ class GTCEUR(NamedTuple):
         return "GTCEUR"
 
 
-GTCEUR = GTCEUR()
+GTCEUR = GTCEUR(*GTCEUR._fields)
 """
     name: GTCEUR
     significant_digits: None
@@ -12897,7 +13053,7 @@ GTCEUR = GTCEUR()
 """
 
 
-class GTCUSD(NamedTuple):
+class GTCUSD(Symbol):
     """
         name: GTCUSD
         significant_digits: None
@@ -12935,7 +13091,7 @@ class GTCUSD(NamedTuple):
         return "GTCUSD"
 
 
-GTCUSD = GTCUSD()
+GTCUSD = GTCUSD(*GTCUSD._fields)
 """
     name: GTCUSD
     significant_digits: None
@@ -12949,7 +13105,7 @@ GTCUSD = GTCUSD()
 """
 
 
-class HDXEUR(NamedTuple):
+class HDXEUR(Symbol):
     """
         name: HDXEUR
         significant_digits: None
@@ -12987,7 +13143,7 @@ class HDXEUR(NamedTuple):
         return "HDXEUR"
 
 
-HDXEUR = HDXEUR()
+HDXEUR = HDXEUR(*HDXEUR._fields)
 """
     name: HDXEUR
     significant_digits: None
@@ -13001,7 +13157,7 @@ HDXEUR = HDXEUR()
 """
 
 
-class HDXUSD(NamedTuple):
+class HDXUSD(Symbol):
     """
         name: HDXUSD
         significant_digits: None
@@ -13039,7 +13195,7 @@ class HDXUSD(NamedTuple):
         return "HDXUSD"
 
 
-HDXUSD = HDXUSD()
+HDXUSD = HDXUSD(*HDXUSD._fields)
 """
     name: HDXUSD
     significant_digits: None
@@ -13053,7 +13209,7 @@ HDXUSD = HDXUSD()
 """
 
 
-class HFTEUR(NamedTuple):
+class HFTEUR(Symbol):
     """
         name: HFTEUR
         significant_digits: None
@@ -13091,7 +13247,7 @@ class HFTEUR(NamedTuple):
         return "HFTEUR"
 
 
-HFTEUR = HFTEUR()
+HFTEUR = HFTEUR(*HFTEUR._fields)
 """
     name: HFTEUR
     significant_digits: None
@@ -13105,7 +13261,7 @@ HFTEUR = HFTEUR()
 """
 
 
-class HFTUSD(NamedTuple):
+class HFTUSD(Symbol):
     """
         name: HFTUSD
         significant_digits: None
@@ -13143,7 +13299,7 @@ class HFTUSD(NamedTuple):
         return "HFTUSD"
 
 
-HFTUSD = HFTUSD()
+HFTUSD = HFTUSD(*HFTUSD._fields)
 """
     name: HFTUSD
     significant_digits: None
@@ -13157,7 +13313,7 @@ HFTUSD = HFTUSD()
 """
 
 
-class ICPEUR(NamedTuple):
+class ICPEUR(Symbol):
     """
         name: ICPEUR
         significant_digits: None
@@ -13195,7 +13351,7 @@ class ICPEUR(NamedTuple):
         return "ICPEUR"
 
 
-ICPEUR = ICPEUR()
+ICPEUR = ICPEUR(*ICPEUR._fields)
 """
     name: ICPEUR
     significant_digits: None
@@ -13209,7 +13365,7 @@ ICPEUR = ICPEUR()
 """
 
 
-class ICPUSD(NamedTuple):
+class ICPUSD(Symbol):
     """
         name: ICPUSD
         significant_digits: None
@@ -13247,7 +13403,7 @@ class ICPUSD(NamedTuple):
         return "ICPUSD"
 
 
-ICPUSD = ICPUSD()
+ICPUSD = ICPUSD(*ICPUSD._fields)
 """
     name: ICPUSD
     significant_digits: None
@@ -13261,7 +13417,7 @@ ICPUSD = ICPUSD()
 """
 
 
-class ICXETH(NamedTuple):
+class ICXETH(Symbol):
     """
         name: ICXETH
         significant_digits: None
@@ -13299,7 +13455,7 @@ class ICXETH(NamedTuple):
         return "ICXETH"
 
 
-ICXETH = ICXETH()
+ICXETH = ICXETH(*ICXETH._fields)
 """
     name: ICXETH
     significant_digits: None
@@ -13313,7 +13469,7 @@ ICXETH = ICXETH()
 """
 
 
-class ICXEUR(NamedTuple):
+class ICXEUR(Symbol):
     """
         name: ICXEUR
         significant_digits: None
@@ -13351,7 +13507,7 @@ class ICXEUR(NamedTuple):
         return "ICXEUR"
 
 
-ICXEUR = ICXEUR()
+ICXEUR = ICXEUR(*ICXEUR._fields)
 """
     name: ICXEUR
     significant_digits: None
@@ -13365,7 +13521,7 @@ ICXEUR = ICXEUR()
 """
 
 
-class ICXUSD(NamedTuple):
+class ICXUSD(Symbol):
     """
         name: ICXUSD
         significant_digits: None
@@ -13403,7 +13559,7 @@ class ICXUSD(NamedTuple):
         return "ICXUSD"
 
 
-ICXUSD = ICXUSD()
+ICXUSD = ICXUSD(*ICXUSD._fields)
 """
     name: ICXUSD
     significant_digits: None
@@ -13417,7 +13573,7 @@ ICXUSD = ICXUSD()
 """
 
 
-class ICXXBT(NamedTuple):
+class ICXXBT(Symbol):
     """
         name: ICXXBT
         significant_digits: None
@@ -13455,7 +13611,7 @@ class ICXXBT(NamedTuple):
         return "ICXXBT"
 
 
-ICXXBT = ICXXBT()
+ICXXBT = ICXXBT(*ICXXBT._fields)
 """
     name: ICXXBT
     significant_digits: None
@@ -13469,7 +13625,7 @@ ICXXBT = ICXXBT()
 """
 
 
-class IDEXEUR(NamedTuple):
+class IDEXEUR(Symbol):
     """
         name: IDEXEUR
         significant_digits: None
@@ -13507,7 +13663,7 @@ class IDEXEUR(NamedTuple):
         return "IDEXEUR"
 
 
-IDEXEUR = IDEXEUR()
+IDEXEUR = IDEXEUR(*IDEXEUR._fields)
 """
     name: IDEXEUR
     significant_digits: None
@@ -13521,7 +13677,7 @@ IDEXEUR = IDEXEUR()
 """
 
 
-class IDEXUSD(NamedTuple):
+class IDEXUSD(Symbol):
     """
         name: IDEXUSD
         significant_digits: None
@@ -13559,7 +13715,7 @@ class IDEXUSD(NamedTuple):
         return "IDEXUSD"
 
 
-IDEXUSD = IDEXUSD()
+IDEXUSD = IDEXUSD(*IDEXUSD._fields)
 """
     name: IDEXUSD
     significant_digits: None
@@ -13573,7 +13729,7 @@ IDEXUSD = IDEXUSD()
 """
 
 
-class IMXEUR(NamedTuple):
+class IMXEUR(Symbol):
     """
         name: IMXEUR
         significant_digits: None
@@ -13611,7 +13767,7 @@ class IMXEUR(NamedTuple):
         return "IMXEUR"
 
 
-IMXEUR = IMXEUR()
+IMXEUR = IMXEUR(*IMXEUR._fields)
 """
     name: IMXEUR
     significant_digits: None
@@ -13625,7 +13781,7 @@ IMXEUR = IMXEUR()
 """
 
 
-class IMXUSD(NamedTuple):
+class IMXUSD(Symbol):
     """
         name: IMXUSD
         significant_digits: None
@@ -13663,7 +13819,7 @@ class IMXUSD(NamedTuple):
         return "IMXUSD"
 
 
-IMXUSD = IMXUSD()
+IMXUSD = IMXUSD(*IMXUSD._fields)
 """
     name: IMXUSD
     significant_digits: None
@@ -13677,7 +13833,7 @@ IMXUSD = IMXUSD()
 """
 
 
-class INJEUR(NamedTuple):
+class INJEUR(Symbol):
     """
         name: INJEUR
         significant_digits: None
@@ -13715,7 +13871,7 @@ class INJEUR(NamedTuple):
         return "INJEUR"
 
 
-INJEUR = INJEUR()
+INJEUR = INJEUR(*INJEUR._fields)
 """
     name: INJEUR
     significant_digits: None
@@ -13729,7 +13885,7 @@ INJEUR = INJEUR()
 """
 
 
-class INJUSD(NamedTuple):
+class INJUSD(Symbol):
     """
         name: INJUSD
         significant_digits: None
@@ -13767,7 +13923,7 @@ class INJUSD(NamedTuple):
         return "INJUSD"
 
 
-INJUSD = INJUSD()
+INJUSD = INJUSD(*INJUSD._fields)
 """
     name: INJUSD
     significant_digits: None
@@ -13781,7 +13937,7 @@ INJUSD = INJUSD()
 """
 
 
-class INTREUR(NamedTuple):
+class INTREUR(Symbol):
     """
         name: INTREUR
         significant_digits: None
@@ -13819,7 +13975,7 @@ class INTREUR(NamedTuple):
         return "INTREUR"
 
 
-INTREUR = INTREUR()
+INTREUR = INTREUR(*INTREUR._fields)
 """
     name: INTREUR
     significant_digits: None
@@ -13833,7 +13989,7 @@ INTREUR = INTREUR()
 """
 
 
-class INTRUSD(NamedTuple):
+class INTRUSD(Symbol):
     """
         name: INTRUSD
         significant_digits: None
@@ -13871,7 +14027,7 @@ class INTRUSD(NamedTuple):
         return "INTRUSD"
 
 
-INTRUSD = INTRUSD()
+INTRUSD = INTRUSD(*INTRUSD._fields)
 """
     name: INTRUSD
     significant_digits: None
@@ -13885,7 +14041,7 @@ INTRUSD = INTRUSD()
 """
 
 
-class JASMYEUR(NamedTuple):
+class JASMYEUR(Symbol):
     """
         name: JASMYEUR
         significant_digits: None
@@ -13923,7 +14079,7 @@ class JASMYEUR(NamedTuple):
         return "JASMYEUR"
 
 
-JASMYEUR = JASMYEUR()
+JASMYEUR = JASMYEUR(*JASMYEUR._fields)
 """
     name: JASMYEUR
     significant_digits: None
@@ -13937,7 +14093,7 @@ JASMYEUR = JASMYEUR()
 """
 
 
-class JASMYUSD(NamedTuple):
+class JASMYUSD(Symbol):
     """
         name: JASMYUSD
         significant_digits: None
@@ -13975,7 +14131,7 @@ class JASMYUSD(NamedTuple):
         return "JASMYUSD"
 
 
-JASMYUSD = JASMYUSD()
+JASMYUSD = JASMYUSD(*JASMYUSD._fields)
 """
     name: JASMYUSD
     significant_digits: None
@@ -13989,7 +14145,7 @@ JASMYUSD = JASMYUSD()
 """
 
 
-class JUNOEUR(NamedTuple):
+class JUNOEUR(Symbol):
     """
         name: JUNOEUR
         significant_digits: None
@@ -14027,7 +14183,7 @@ class JUNOEUR(NamedTuple):
         return "JUNOEUR"
 
 
-JUNOEUR = JUNOEUR()
+JUNOEUR = JUNOEUR(*JUNOEUR._fields)
 """
     name: JUNOEUR
     significant_digits: None
@@ -14041,7 +14197,7 @@ JUNOEUR = JUNOEUR()
 """
 
 
-class JUNOUSD(NamedTuple):
+class JUNOUSD(Symbol):
     """
         name: JUNOUSD
         significant_digits: None
@@ -14079,7 +14235,7 @@ class JUNOUSD(NamedTuple):
         return "JUNOUSD"
 
 
-JUNOUSD = JUNOUSD()
+JUNOUSD = JUNOUSD(*JUNOUSD._fields)
 """
     name: JUNOUSD
     significant_digits: None
@@ -14093,7 +14249,7 @@ JUNOUSD = JUNOUSD()
 """
 
 
-class KAREUR(NamedTuple):
+class KAREUR(Symbol):
     """
         name: KAREUR
         significant_digits: None
@@ -14131,7 +14287,7 @@ class KAREUR(NamedTuple):
         return "KAREUR"
 
 
-KAREUR = KAREUR()
+KAREUR = KAREUR(*KAREUR._fields)
 """
     name: KAREUR
     significant_digits: None
@@ -14145,7 +14301,7 @@ KAREUR = KAREUR()
 """
 
 
-class KARUSD(NamedTuple):
+class KARUSD(Symbol):
     """
         name: KARUSD
         significant_digits: None
@@ -14183,7 +14339,7 @@ class KARUSD(NamedTuple):
         return "KARUSD"
 
 
-KARUSD = KARUSD()
+KARUSD = KARUSD(*KARUSD._fields)
 """
     name: KARUSD
     significant_digits: None
@@ -14197,7 +14353,7 @@ KARUSD = KARUSD()
 """
 
 
-class KAVAETH(NamedTuple):
+class KAVAETH(Symbol):
     """
         name: KAVAETH
         significant_digits: None
@@ -14235,7 +14391,7 @@ class KAVAETH(NamedTuple):
         return "KAVAETH"
 
 
-KAVAETH = KAVAETH()
+KAVAETH = KAVAETH(*KAVAETH._fields)
 """
     name: KAVAETH
     significant_digits: None
@@ -14249,7 +14405,7 @@ KAVAETH = KAVAETH()
 """
 
 
-class KAVAEUR(NamedTuple):
+class KAVAEUR(Symbol):
     """
         name: KAVAEUR
         significant_digits: None
@@ -14287,7 +14443,7 @@ class KAVAEUR(NamedTuple):
         return "KAVAEUR"
 
 
-KAVAEUR = KAVAEUR()
+KAVAEUR = KAVAEUR(*KAVAEUR._fields)
 """
     name: KAVAEUR
     significant_digits: None
@@ -14301,7 +14457,7 @@ KAVAEUR = KAVAEUR()
 """
 
 
-class KAVAUSD(NamedTuple):
+class KAVAUSD(Symbol):
     """
         name: KAVAUSD
         significant_digits: None
@@ -14339,7 +14495,7 @@ class KAVAUSD(NamedTuple):
         return "KAVAUSD"
 
 
-KAVAUSD = KAVAUSD()
+KAVAUSD = KAVAUSD(*KAVAUSD._fields)
 """
     name: KAVAUSD
     significant_digits: None
@@ -14353,7 +14509,7 @@ KAVAUSD = KAVAUSD()
 """
 
 
-class KAVAXBT(NamedTuple):
+class KAVAXBT(Symbol):
     """
         name: KAVAXBT
         significant_digits: None
@@ -14391,7 +14547,7 @@ class KAVAXBT(NamedTuple):
         return "KAVAXBT"
 
 
-KAVAXBT = KAVAXBT()
+KAVAXBT = KAVAXBT(*KAVAXBT._fields)
 """
     name: KAVAXBT
     significant_digits: None
@@ -14405,7 +14561,7 @@ KAVAXBT = KAVAXBT()
 """
 
 
-class KEEPEUR(NamedTuple):
+class KEEPEUR(Symbol):
     """
         name: KEEPEUR
         significant_digits: None
@@ -14443,7 +14599,7 @@ class KEEPEUR(NamedTuple):
         return "KEEPEUR"
 
 
-KEEPEUR = KEEPEUR()
+KEEPEUR = KEEPEUR(*KEEPEUR._fields)
 """
     name: KEEPEUR
     significant_digits: None
@@ -14457,7 +14613,7 @@ KEEPEUR = KEEPEUR()
 """
 
 
-class KEEPUSD(NamedTuple):
+class KEEPUSD(Symbol):
     """
         name: KEEPUSD
         significant_digits: None
@@ -14495,7 +14651,7 @@ class KEEPUSD(NamedTuple):
         return "KEEPUSD"
 
 
-KEEPUSD = KEEPUSD()
+KEEPUSD = KEEPUSD(*KEEPUSD._fields)
 """
     name: KEEPUSD
     significant_digits: None
@@ -14509,7 +14665,7 @@ KEEPUSD = KEEPUSD()
 """
 
 
-class KEEPXBT(NamedTuple):
+class KEEPXBT(Symbol):
     """
         name: KEEPXBT
         significant_digits: None
@@ -14547,7 +14703,7 @@ class KEEPXBT(NamedTuple):
         return "KEEPXBT"
 
 
-KEEPXBT = KEEPXBT()
+KEEPXBT = KEEPXBT(*KEEPXBT._fields)
 """
     name: KEEPXBT
     significant_digits: None
@@ -14561,7 +14717,7 @@ KEEPXBT = KEEPXBT()
 """
 
 
-class KEYEUR(NamedTuple):
+class KEYEUR(Symbol):
     """
         name: KEYEUR
         significant_digits: None
@@ -14599,7 +14755,7 @@ class KEYEUR(NamedTuple):
         return "KEYEUR"
 
 
-KEYEUR = KEYEUR()
+KEYEUR = KEYEUR(*KEYEUR._fields)
 """
     name: KEYEUR
     significant_digits: None
@@ -14613,7 +14769,7 @@ KEYEUR = KEYEUR()
 """
 
 
-class KEYUSD(NamedTuple):
+class KEYUSD(Symbol):
     """
         name: KEYUSD
         significant_digits: None
@@ -14651,7 +14807,7 @@ class KEYUSD(NamedTuple):
         return "KEYUSD"
 
 
-KEYUSD = KEYUSD()
+KEYUSD = KEYUSD(*KEYUSD._fields)
 """
     name: KEYUSD
     significant_digits: None
@@ -14665,7 +14821,7 @@ KEYUSD = KEYUSD()
 """
 
 
-class KILTEUR(NamedTuple):
+class KILTEUR(Symbol):
     """
         name: KILTEUR
         significant_digits: None
@@ -14703,7 +14859,7 @@ class KILTEUR(NamedTuple):
         return "KILTEUR"
 
 
-KILTEUR = KILTEUR()
+KILTEUR = KILTEUR(*KILTEUR._fields)
 """
     name: KILTEUR
     significant_digits: None
@@ -14717,7 +14873,7 @@ KILTEUR = KILTEUR()
 """
 
 
-class KILTUSD(NamedTuple):
+class KILTUSD(Symbol):
     """
         name: KILTUSD
         significant_digits: None
@@ -14755,7 +14911,7 @@ class KILTUSD(NamedTuple):
         return "KILTUSD"
 
 
-KILTUSD = KILTUSD()
+KILTUSD = KILTUSD(*KILTUSD._fields)
 """
     name: KILTUSD
     significant_digits: None
@@ -14769,7 +14925,7 @@ KILTUSD = KILTUSD()
 """
 
 
-class KINEUR(NamedTuple):
+class KINEUR(Symbol):
     """
         name: KINEUR
         significant_digits: None
@@ -14807,7 +14963,7 @@ class KINEUR(NamedTuple):
         return "KINEUR"
 
 
-KINEUR = KINEUR()
+KINEUR = KINEUR(*KINEUR._fields)
 """
     name: KINEUR
     significant_digits: None
@@ -14821,7 +14977,7 @@ KINEUR = KINEUR()
 """
 
 
-class KINTEUR(NamedTuple):
+class KINTEUR(Symbol):
     """
         name: KINTEUR
         significant_digits: None
@@ -14859,7 +15015,7 @@ class KINTEUR(NamedTuple):
         return "KINTEUR"
 
 
-KINTEUR = KINTEUR()
+KINTEUR = KINTEUR(*KINTEUR._fields)
 """
     name: KINTEUR
     significant_digits: None
@@ -14873,7 +15029,7 @@ KINTEUR = KINTEUR()
 """
 
 
-class KINTUSD(NamedTuple):
+class KINTUSD(Symbol):
     """
         name: KINTUSD
         significant_digits: None
@@ -14911,7 +15067,7 @@ class KINTUSD(NamedTuple):
         return "KINTUSD"
 
 
-KINTUSD = KINTUSD()
+KINTUSD = KINTUSD(*KINTUSD._fields)
 """
     name: KINTUSD
     significant_digits: None
@@ -14925,7 +15081,7 @@ KINTUSD = KINTUSD()
 """
 
 
-class KINUSD(NamedTuple):
+class KINUSD(Symbol):
     """
         name: KINUSD
         significant_digits: None
@@ -14963,7 +15119,7 @@ class KINUSD(NamedTuple):
         return "KINUSD"
 
 
-KINUSD = KINUSD()
+KINUSD = KINUSD(*KINUSD._fields)
 """
     name: KINUSD
     significant_digits: None
@@ -14977,7 +15133,7 @@ KINUSD = KINUSD()
 """
 
 
-class KNCETH(NamedTuple):
+class KNCETH(Symbol):
     """
         name: KNCETH
         significant_digits: None
@@ -15015,7 +15171,7 @@ class KNCETH(NamedTuple):
         return "KNCETH"
 
 
-KNCETH = KNCETH()
+KNCETH = KNCETH(*KNCETH._fields)
 """
     name: KNCETH
     significant_digits: None
@@ -15029,7 +15185,7 @@ KNCETH = KNCETH()
 """
 
 
-class KNCEUR(NamedTuple):
+class KNCEUR(Symbol):
     """
         name: KNCEUR
         significant_digits: None
@@ -15067,7 +15223,7 @@ class KNCEUR(NamedTuple):
         return "KNCEUR"
 
 
-KNCEUR = KNCEUR()
+KNCEUR = KNCEUR(*KNCEUR._fields)
 """
     name: KNCEUR
     significant_digits: None
@@ -15081,7 +15237,7 @@ KNCEUR = KNCEUR()
 """
 
 
-class KNCUSD(NamedTuple):
+class KNCUSD(Symbol):
     """
         name: KNCUSD
         significant_digits: None
@@ -15119,7 +15275,7 @@ class KNCUSD(NamedTuple):
         return "KNCUSD"
 
 
-KNCUSD = KNCUSD()
+KNCUSD = KNCUSD(*KNCUSD._fields)
 """
     name: KNCUSD
     significant_digits: None
@@ -15133,7 +15289,7 @@ KNCUSD = KNCUSD()
 """
 
 
-class KNCXBT(NamedTuple):
+class KNCXBT(Symbol):
     """
         name: KNCXBT
         significant_digits: None
@@ -15171,7 +15327,7 @@ class KNCXBT(NamedTuple):
         return "KNCXBT"
 
 
-KNCXBT = KNCXBT()
+KNCXBT = KNCXBT(*KNCXBT._fields)
 """
     name: KNCXBT
     significant_digits: None
@@ -15185,7 +15341,7 @@ KNCXBT = KNCXBT()
 """
 
 
-class KP3REUR(NamedTuple):
+class KP3REUR(Symbol):
     """
         name: KP3REUR
         significant_digits: None
@@ -15223,7 +15379,7 @@ class KP3REUR(NamedTuple):
         return "KP3REUR"
 
 
-KP3REUR = KP3REUR()
+KP3REUR = KP3REUR(*KP3REUR._fields)
 """
     name: KP3REUR
     significant_digits: None
@@ -15237,7 +15393,7 @@ KP3REUR = KP3REUR()
 """
 
 
-class KP3RUSD(NamedTuple):
+class KP3RUSD(Symbol):
     """
         name: KP3RUSD
         significant_digits: None
@@ -15275,7 +15431,7 @@ class KP3RUSD(NamedTuple):
         return "KP3RUSD"
 
 
-KP3RUSD = KP3RUSD()
+KP3RUSD = KP3RUSD(*KP3RUSD._fields)
 """
     name: KP3RUSD
     significant_digits: None
@@ -15289,7 +15445,7 @@ KP3RUSD = KP3RUSD()
 """
 
 
-class KSMDOT(NamedTuple):
+class KSMDOT(Symbol):
     """
         name: KSMDOT
         significant_digits: None
@@ -15327,7 +15483,7 @@ class KSMDOT(NamedTuple):
         return "KSMDOT"
 
 
-KSMDOT = KSMDOT()
+KSMDOT = KSMDOT(*KSMDOT._fields)
 """
     name: KSMDOT
     significant_digits: None
@@ -15341,7 +15497,7 @@ KSMDOT = KSMDOT()
 """
 
 
-class KSMETH(NamedTuple):
+class KSMETH(Symbol):
     """
         name: KSMETH
         significant_digits: None
@@ -15379,7 +15535,7 @@ class KSMETH(NamedTuple):
         return "KSMETH"
 
 
-KSMETH = KSMETH()
+KSMETH = KSMETH(*KSMETH._fields)
 """
     name: KSMETH
     significant_digits: None
@@ -15393,7 +15549,7 @@ KSMETH = KSMETH()
 """
 
 
-class KSMEUR(NamedTuple):
+class KSMEUR(Symbol):
     """
         name: KSMEUR
         significant_digits: None
@@ -15431,7 +15587,7 @@ class KSMEUR(NamedTuple):
         return "KSMEUR"
 
 
-KSMEUR = KSMEUR()
+KSMEUR = KSMEUR(*KSMEUR._fields)
 """
     name: KSMEUR
     significant_digits: None
@@ -15445,7 +15601,7 @@ KSMEUR = KSMEUR()
 """
 
 
-class KSMGBP(NamedTuple):
+class KSMGBP(Symbol):
     """
         name: KSMGBP
         significant_digits: None
@@ -15483,7 +15639,7 @@ class KSMGBP(NamedTuple):
         return "KSMGBP"
 
 
-KSMGBP = KSMGBP()
+KSMGBP = KSMGBP(*KSMGBP._fields)
 """
     name: KSMGBP
     significant_digits: None
@@ -15497,7 +15653,7 @@ KSMGBP = KSMGBP()
 """
 
 
-class KSMUSD(NamedTuple):
+class KSMUSD(Symbol):
     """
         name: KSMUSD
         significant_digits: None
@@ -15535,7 +15691,7 @@ class KSMUSD(NamedTuple):
         return "KSMUSD"
 
 
-KSMUSD = KSMUSD()
+KSMUSD = KSMUSD(*KSMUSD._fields)
 """
     name: KSMUSD
     significant_digits: None
@@ -15549,7 +15705,7 @@ KSMUSD = KSMUSD()
 """
 
 
-class KSMXBT(NamedTuple):
+class KSMXBT(Symbol):
     """
         name: KSMXBT
         significant_digits: None
@@ -15587,7 +15743,7 @@ class KSMXBT(NamedTuple):
         return "KSMXBT"
 
 
-KSMXBT = KSMXBT()
+KSMXBT = KSMXBT(*KSMXBT._fields)
 """
     name: KSMXBT
     significant_digits: None
@@ -15601,7 +15757,7 @@ KSMXBT = KSMXBT()
 """
 
 
-class LCXEUR(NamedTuple):
+class LCXEUR(Symbol):
     """
         name: LCXEUR
         significant_digits: None
@@ -15639,7 +15795,7 @@ class LCXEUR(NamedTuple):
         return "LCXEUR"
 
 
-LCXEUR = LCXEUR()
+LCXEUR = LCXEUR(*LCXEUR._fields)
 """
     name: LCXEUR
     significant_digits: None
@@ -15653,7 +15809,7 @@ LCXEUR = LCXEUR()
 """
 
 
-class LCXUSD(NamedTuple):
+class LCXUSD(Symbol):
     """
         name: LCXUSD
         significant_digits: None
@@ -15691,7 +15847,7 @@ class LCXUSD(NamedTuple):
         return "LCXUSD"
 
 
-LCXUSD = LCXUSD()
+LCXUSD = LCXUSD(*LCXUSD._fields)
 """
     name: LCXUSD
     significant_digits: None
@@ -15705,7 +15861,7 @@ LCXUSD = LCXUSD()
 """
 
 
-class LDOEUR(NamedTuple):
+class LDOEUR(Symbol):
     """
         name: LDOEUR
         significant_digits: None
@@ -15743,7 +15899,7 @@ class LDOEUR(NamedTuple):
         return "LDOEUR"
 
 
-LDOEUR = LDOEUR()
+LDOEUR = LDOEUR(*LDOEUR._fields)
 """
     name: LDOEUR
     significant_digits: None
@@ -15757,7 +15913,7 @@ LDOEUR = LDOEUR()
 """
 
 
-class LDOUSD(NamedTuple):
+class LDOUSD(Symbol):
     """
         name: LDOUSD
         significant_digits: None
@@ -15795,7 +15951,7 @@ class LDOUSD(NamedTuple):
         return "LDOUSD"
 
 
-LDOUSD = LDOUSD()
+LDOUSD = LDOUSD(*LDOUSD._fields)
 """
     name: LDOUSD
     significant_digits: None
@@ -15809,7 +15965,7 @@ LDOUSD = LDOUSD()
 """
 
 
-class LINKAUD(NamedTuple):
+class LINKAUD(Symbol):
     """
         name: LINKAUD
         significant_digits: None
@@ -15847,7 +16003,7 @@ class LINKAUD(NamedTuple):
         return "LINKAUD"
 
 
-LINKAUD = LINKAUD()
+LINKAUD = LINKAUD(*LINKAUD._fields)
 """
     name: LINKAUD
     significant_digits: None
@@ -15861,7 +16017,7 @@ LINKAUD = LINKAUD()
 """
 
 
-class LINKETH(NamedTuple):
+class LINKETH(Symbol):
     """
         name: LINKETH
         significant_digits: None
@@ -15899,7 +16055,7 @@ class LINKETH(NamedTuple):
         return "LINKETH"
 
 
-LINKETH = LINKETH()
+LINKETH = LINKETH(*LINKETH._fields)
 """
     name: LINKETH
     significant_digits: None
@@ -15913,7 +16069,7 @@ LINKETH = LINKETH()
 """
 
 
-class LINKEUR(NamedTuple):
+class LINKEUR(Symbol):
     """
         name: LINKEUR
         significant_digits: None
@@ -15951,7 +16107,7 @@ class LINKEUR(NamedTuple):
         return "LINKEUR"
 
 
-LINKEUR = LINKEUR()
+LINKEUR = LINKEUR(*LINKEUR._fields)
 """
     name: LINKEUR
     significant_digits: None
@@ -15965,7 +16121,7 @@ LINKEUR = LINKEUR()
 """
 
 
-class LINKGBP(NamedTuple):
+class LINKGBP(Symbol):
     """
         name: LINKGBP
         significant_digits: None
@@ -16003,7 +16159,7 @@ class LINKGBP(NamedTuple):
         return "LINKGBP"
 
 
-LINKGBP = LINKGBP()
+LINKGBP = LINKGBP(*LINKGBP._fields)
 """
     name: LINKGBP
     significant_digits: None
@@ -16017,7 +16173,7 @@ LINKGBP = LINKGBP()
 """
 
 
-class LINKJPY(NamedTuple):
+class LINKJPY(Symbol):
     """
         name: LINKJPY
         significant_digits: None
@@ -16055,7 +16211,7 @@ class LINKJPY(NamedTuple):
         return "LINKJPY"
 
 
-LINKJPY = LINKJPY()
+LINKJPY = LINKJPY(*LINKJPY._fields)
 """
     name: LINKJPY
     significant_digits: None
@@ -16069,7 +16225,7 @@ LINKJPY = LINKJPY()
 """
 
 
-class LINKUSD(NamedTuple):
+class LINKUSD(Symbol):
     """
         name: LINKUSD
         significant_digits: None
@@ -16107,7 +16263,7 @@ class LINKUSD(NamedTuple):
         return "LINKUSD"
 
 
-LINKUSD = LINKUSD()
+LINKUSD = LINKUSD(*LINKUSD._fields)
 """
     name: LINKUSD
     significant_digits: None
@@ -16121,7 +16277,7 @@ LINKUSD = LINKUSD()
 """
 
 
-class LINKUSDT(NamedTuple):
+class LINKUSDT(Symbol):
     """
         name: LINKUSDT
         significant_digits: None
@@ -16159,7 +16315,7 @@ class LINKUSDT(NamedTuple):
         return "LINKUSDT"
 
 
-LINKUSDT = LINKUSDT()
+LINKUSDT = LINKUSDT(*LINKUSDT._fields)
 """
     name: LINKUSDT
     significant_digits: None
@@ -16173,7 +16329,7 @@ LINKUSDT = LINKUSDT()
 """
 
 
-class LINKXBT(NamedTuple):
+class LINKXBT(Symbol):
     """
         name: LINKXBT
         significant_digits: None
@@ -16211,7 +16367,7 @@ class LINKXBT(NamedTuple):
         return "LINKXBT"
 
 
-LINKXBT = LINKXBT()
+LINKXBT = LINKXBT(*LINKXBT._fields)
 """
     name: LINKXBT
     significant_digits: None
@@ -16225,7 +16381,7 @@ LINKXBT = LINKXBT()
 """
 
 
-class LPTEUR(NamedTuple):
+class LPTEUR(Symbol):
     """
         name: LPTEUR
         significant_digits: None
@@ -16263,7 +16419,7 @@ class LPTEUR(NamedTuple):
         return "LPTEUR"
 
 
-LPTEUR = LPTEUR()
+LPTEUR = LPTEUR(*LPTEUR._fields)
 """
     name: LPTEUR
     significant_digits: None
@@ -16277,7 +16433,7 @@ LPTEUR = LPTEUR()
 """
 
 
-class LPTGBP(NamedTuple):
+class LPTGBP(Symbol):
     """
         name: LPTGBP
         significant_digits: None
@@ -16315,7 +16471,7 @@ class LPTGBP(NamedTuple):
         return "LPTGBP"
 
 
-LPTGBP = LPTGBP()
+LPTGBP = LPTGBP(*LPTGBP._fields)
 """
     name: LPTGBP
     significant_digits: None
@@ -16329,7 +16485,7 @@ LPTGBP = LPTGBP()
 """
 
 
-class LPTUSD(NamedTuple):
+class LPTUSD(Symbol):
     """
         name: LPTUSD
         significant_digits: None
@@ -16367,7 +16523,7 @@ class LPTUSD(NamedTuple):
         return "LPTUSD"
 
 
-LPTUSD = LPTUSD()
+LPTUSD = LPTUSD(*LPTUSD._fields)
 """
     name: LPTUSD
     significant_digits: None
@@ -16381,7 +16537,7 @@ LPTUSD = LPTUSD()
 """
 
 
-class LPTXBT(NamedTuple):
+class LPTXBT(Symbol):
     """
         name: LPTXBT
         significant_digits: None
@@ -16419,7 +16575,7 @@ class LPTXBT(NamedTuple):
         return "LPTXBT"
 
 
-LPTXBT = LPTXBT()
+LPTXBT = LPTXBT(*LPTXBT._fields)
 """
     name: LPTXBT
     significant_digits: None
@@ -16433,7 +16589,7 @@ LPTXBT = LPTXBT()
 """
 
 
-class LRCEUR(NamedTuple):
+class LRCEUR(Symbol):
     """
         name: LRCEUR
         significant_digits: None
@@ -16471,7 +16627,7 @@ class LRCEUR(NamedTuple):
         return "LRCEUR"
 
 
-LRCEUR = LRCEUR()
+LRCEUR = LRCEUR(*LRCEUR._fields)
 """
     name: LRCEUR
     significant_digits: None
@@ -16485,7 +16641,7 @@ LRCEUR = LRCEUR()
 """
 
 
-class LRCUSD(NamedTuple):
+class LRCUSD(Symbol):
     """
         name: LRCUSD
         significant_digits: None
@@ -16523,7 +16679,7 @@ class LRCUSD(NamedTuple):
         return "LRCUSD"
 
 
-LRCUSD = LRCUSD()
+LRCUSD = LRCUSD(*LRCUSD._fields)
 """
     name: LRCUSD
     significant_digits: None
@@ -16537,7 +16693,7 @@ LRCUSD = LRCUSD()
 """
 
 
-class LSKETH(NamedTuple):
+class LSKETH(Symbol):
     """
         name: LSKETH
         significant_digits: None
@@ -16575,7 +16731,7 @@ class LSKETH(NamedTuple):
         return "LSKETH"
 
 
-LSKETH = LSKETH()
+LSKETH = LSKETH(*LSKETH._fields)
 """
     name: LSKETH
     significant_digits: None
@@ -16589,7 +16745,7 @@ LSKETH = LSKETH()
 """
 
 
-class LSKEUR(NamedTuple):
+class LSKEUR(Symbol):
     """
         name: LSKEUR
         significant_digits: None
@@ -16627,7 +16783,7 @@ class LSKEUR(NamedTuple):
         return "LSKEUR"
 
 
-LSKEUR = LSKEUR()
+LSKEUR = LSKEUR(*LSKEUR._fields)
 """
     name: LSKEUR
     significant_digits: None
@@ -16641,7 +16797,7 @@ LSKEUR = LSKEUR()
 """
 
 
-class LSKUSD(NamedTuple):
+class LSKUSD(Symbol):
     """
         name: LSKUSD
         significant_digits: None
@@ -16679,7 +16835,7 @@ class LSKUSD(NamedTuple):
         return "LSKUSD"
 
 
-LSKUSD = LSKUSD()
+LSKUSD = LSKUSD(*LSKUSD._fields)
 """
     name: LSKUSD
     significant_digits: None
@@ -16693,7 +16849,7 @@ LSKUSD = LSKUSD()
 """
 
 
-class LSKXBT(NamedTuple):
+class LSKXBT(Symbol):
     """
         name: LSKXBT
         significant_digits: None
@@ -16731,7 +16887,7 @@ class LSKXBT(NamedTuple):
         return "LSKXBT"
 
 
-LSKXBT = LSKXBT()
+LSKXBT = LSKXBT(*LSKXBT._fields)
 """
     name: LSKXBT
     significant_digits: None
@@ -16745,7 +16901,7 @@ LSKXBT = LSKXBT()
 """
 
 
-class LTCAUD(NamedTuple):
+class LTCAUD(Symbol):
     """
         name: LTCAUD
         significant_digits: None
@@ -16783,7 +16939,7 @@ class LTCAUD(NamedTuple):
         return "LTCAUD"
 
 
-LTCAUD = LTCAUD()
+LTCAUD = LTCAUD(*LTCAUD._fields)
 """
     name: LTCAUD
     significant_digits: None
@@ -16797,7 +16953,7 @@ LTCAUD = LTCAUD()
 """
 
 
-class LTCETH(NamedTuple):
+class LTCETH(Symbol):
     """
         name: LTCETH
         significant_digits: None
@@ -16835,7 +16991,7 @@ class LTCETH(NamedTuple):
         return "LTCETH"
 
 
-LTCETH = LTCETH()
+LTCETH = LTCETH(*LTCETH._fields)
 """
     name: LTCETH
     significant_digits: None
@@ -16849,7 +17005,7 @@ LTCETH = LTCETH()
 """
 
 
-class LTCGBP(NamedTuple):
+class LTCGBP(Symbol):
     """
         name: LTCGBP
         significant_digits: None
@@ -16887,7 +17043,7 @@ class LTCGBP(NamedTuple):
         return "LTCGBP"
 
 
-LTCGBP = LTCGBP()
+LTCGBP = LTCGBP(*LTCGBP._fields)
 """
     name: LTCGBP
     significant_digits: None
@@ -16901,7 +17057,7 @@ LTCGBP = LTCGBP()
 """
 
 
-class LTCUSDT(NamedTuple):
+class LTCUSDT(Symbol):
     """
         name: LTCUSDT
         significant_digits: None
@@ -16939,7 +17095,7 @@ class LTCUSDT(NamedTuple):
         return "LTCUSDT"
 
 
-LTCUSDT = LTCUSDT()
+LTCUSDT = LTCUSDT(*LTCUSDT._fields)
 """
     name: LTCUSDT
     significant_digits: None
@@ -16953,7 +17109,7 @@ LTCUSDT = LTCUSDT()
 """
 
 
-class LUNA2EUR(NamedTuple):
+class LUNA2EUR(Symbol):
     """
         name: LUNA2EUR
         significant_digits: None
@@ -16991,7 +17147,7 @@ class LUNA2EUR(NamedTuple):
         return "LUNA2EUR"
 
 
-LUNA2EUR = LUNA2EUR()
+LUNA2EUR = LUNA2EUR(*LUNA2EUR._fields)
 """
     name: LUNA2EUR
     significant_digits: None
@@ -17005,7 +17161,7 @@ LUNA2EUR = LUNA2EUR()
 """
 
 
-class LUNA2USD(NamedTuple):
+class LUNA2USD(Symbol):
     """
         name: LUNA2USD
         significant_digits: None
@@ -17043,7 +17199,7 @@ class LUNA2USD(NamedTuple):
         return "LUNA2USD"
 
 
-LUNA2USD = LUNA2USD()
+LUNA2USD = LUNA2USD(*LUNA2USD._fields)
 """
     name: LUNA2USD
     significant_digits: None
@@ -17057,7 +17213,7 @@ LUNA2USD = LUNA2USD()
 """
 
 
-class LUNAEUR(NamedTuple):
+class LUNAEUR(Symbol):
     """
         name: LUNAEUR
         significant_digits: None
@@ -17095,7 +17251,7 @@ class LUNAEUR(NamedTuple):
         return "LUNAEUR"
 
 
-LUNAEUR = LUNAEUR()
+LUNAEUR = LUNAEUR(*LUNAEUR._fields)
 """
     name: LUNAEUR
     significant_digits: None
@@ -17109,7 +17265,7 @@ LUNAEUR = LUNAEUR()
 """
 
 
-class LUNAUSD(NamedTuple):
+class LUNAUSD(Symbol):
     """
         name: LUNAUSD
         significant_digits: None
@@ -17147,7 +17303,7 @@ class LUNAUSD(NamedTuple):
         return "LUNAUSD"
 
 
-LUNAUSD = LUNAUSD()
+LUNAUSD = LUNAUSD(*LUNAUSD._fields)
 """
     name: LUNAUSD
     significant_digits: None
@@ -17161,7 +17317,7 @@ LUNAUSD = LUNAUSD()
 """
 
 
-class MANAETH(NamedTuple):
+class MANAETH(Symbol):
     """
         name: MANAETH
         significant_digits: None
@@ -17199,7 +17355,7 @@ class MANAETH(NamedTuple):
         return "MANAETH"
 
 
-MANAETH = MANAETH()
+MANAETH = MANAETH(*MANAETH._fields)
 """
     name: MANAETH
     significant_digits: None
@@ -17213,7 +17369,7 @@ MANAETH = MANAETH()
 """
 
 
-class MANAEUR(NamedTuple):
+class MANAEUR(Symbol):
     """
         name: MANAEUR
         significant_digits: None
@@ -17251,7 +17407,7 @@ class MANAEUR(NamedTuple):
         return "MANAEUR"
 
 
-MANAEUR = MANAEUR()
+MANAEUR = MANAEUR(*MANAEUR._fields)
 """
     name: MANAEUR
     significant_digits: None
@@ -17265,7 +17421,7 @@ MANAEUR = MANAEUR()
 """
 
 
-class MANAUSD(NamedTuple):
+class MANAUSD(Symbol):
     """
         name: MANAUSD
         significant_digits: None
@@ -17303,7 +17459,7 @@ class MANAUSD(NamedTuple):
         return "MANAUSD"
 
 
-MANAUSD = MANAUSD()
+MANAUSD = MANAUSD(*MANAUSD._fields)
 """
     name: MANAUSD
     significant_digits: None
@@ -17317,7 +17473,7 @@ MANAUSD = MANAUSD()
 """
 
 
-class MANAUSDT(NamedTuple):
+class MANAUSDT(Symbol):
     """
         name: MANAUSDT
         significant_digits: None
@@ -17355,7 +17511,7 @@ class MANAUSDT(NamedTuple):
         return "MANAUSDT"
 
 
-MANAUSDT = MANAUSDT()
+MANAUSDT = MANAUSDT(*MANAUSDT._fields)
 """
     name: MANAUSDT
     significant_digits: None
@@ -17369,7 +17525,7 @@ MANAUSDT = MANAUSDT()
 """
 
 
-class MANAXBT(NamedTuple):
+class MANAXBT(Symbol):
     """
         name: MANAXBT
         significant_digits: None
@@ -17407,7 +17563,7 @@ class MANAXBT(NamedTuple):
         return "MANAXBT"
 
 
-MANAXBT = MANAXBT()
+MANAXBT = MANAXBT(*MANAXBT._fields)
 """
     name: MANAXBT
     significant_digits: None
@@ -17421,7 +17577,7 @@ MANAXBT = MANAXBT()
 """
 
 
-class MASKEUR(NamedTuple):
+class MASKEUR(Symbol):
     """
         name: MASKEUR
         significant_digits: None
@@ -17459,7 +17615,7 @@ class MASKEUR(NamedTuple):
         return "MASKEUR"
 
 
-MASKEUR = MASKEUR()
+MASKEUR = MASKEUR(*MASKEUR._fields)
 """
     name: MASKEUR
     significant_digits: None
@@ -17473,7 +17629,7 @@ MASKEUR = MASKEUR()
 """
 
 
-class MASKUSD(NamedTuple):
+class MASKUSD(Symbol):
     """
         name: MASKUSD
         significant_digits: None
@@ -17511,7 +17667,7 @@ class MASKUSD(NamedTuple):
         return "MASKUSD"
 
 
-MASKUSD = MASKUSD()
+MASKUSD = MASKUSD(*MASKUSD._fields)
 """
     name: MASKUSD
     significant_digits: None
@@ -17525,7 +17681,7 @@ MASKUSD = MASKUSD()
 """
 
 
-class MATICEUR(NamedTuple):
+class MATICEUR(Symbol):
     """
         name: MATICEUR
         significant_digits: None
@@ -17563,7 +17719,7 @@ class MATICEUR(NamedTuple):
         return "MATICEUR"
 
 
-MATICEUR = MATICEUR()
+MATICEUR = MATICEUR(*MATICEUR._fields)
 """
     name: MATICEUR
     significant_digits: None
@@ -17577,7 +17733,7 @@ MATICEUR = MATICEUR()
 """
 
 
-class MATICGBP(NamedTuple):
+class MATICGBP(Symbol):
     """
         name: MATICGBP
         significant_digits: None
@@ -17615,7 +17771,7 @@ class MATICGBP(NamedTuple):
         return "MATICGBP"
 
 
-MATICGBP = MATICGBP()
+MATICGBP = MATICGBP(*MATICGBP._fields)
 """
     name: MATICGBP
     significant_digits: None
@@ -17629,7 +17785,7 @@ MATICGBP = MATICGBP()
 """
 
 
-class MATICUSD(NamedTuple):
+class MATICUSD(Symbol):
     """
         name: MATICUSD
         significant_digits: None
@@ -17667,7 +17823,7 @@ class MATICUSD(NamedTuple):
         return "MATICUSD"
 
 
-MATICUSD = MATICUSD()
+MATICUSD = MATICUSD(*MATICUSD._fields)
 """
     name: MATICUSD
     significant_digits: None
@@ -17681,7 +17837,7 @@ MATICUSD = MATICUSD()
 """
 
 
-class MATICUSDT(NamedTuple):
+class MATICUSDT(Symbol):
     """
         name: MATICUSDT
         significant_digits: None
@@ -17719,7 +17875,7 @@ class MATICUSDT(NamedTuple):
         return "MATICUSDT"
 
 
-MATICUSDT = MATICUSDT()
+MATICUSDT = MATICUSDT(*MATICUSDT._fields)
 """
     name: MATICUSDT
     significant_digits: None
@@ -17733,7 +17889,7 @@ MATICUSDT = MATICUSDT()
 """
 
 
-class MATICXBT(NamedTuple):
+class MATICXBT(Symbol):
     """
         name: MATICXBT
         significant_digits: None
@@ -17771,7 +17927,7 @@ class MATICXBT(NamedTuple):
         return "MATICXBT"
 
 
-MATICXBT = MATICXBT()
+MATICXBT = MATICXBT(*MATICXBT._fields)
 """
     name: MATICXBT
     significant_digits: None
@@ -17785,7 +17941,7 @@ MATICXBT = MATICXBT()
 """
 
 
-class MCEUR(NamedTuple):
+class MCEUR(Symbol):
     """
         name: MCEUR
         significant_digits: None
@@ -17823,7 +17979,7 @@ class MCEUR(NamedTuple):
         return "MCEUR"
 
 
-MCEUR = MCEUR()
+MCEUR = MCEUR(*MCEUR._fields)
 """
     name: MCEUR
     significant_digits: None
@@ -17837,7 +17993,7 @@ MCEUR = MCEUR()
 """
 
 
-class MCUSD(NamedTuple):
+class MCUSD(Symbol):
     """
         name: MCUSD
         significant_digits: None
@@ -17875,7 +18031,7 @@ class MCUSD(NamedTuple):
         return "MCUSD"
 
 
-MCUSD = MCUSD()
+MCUSD = MCUSD(*MCUSD._fields)
 """
     name: MCUSD
     significant_digits: None
@@ -17889,7 +18045,7 @@ MCUSD = MCUSD()
 """
 
 
-class MINAEUR(NamedTuple):
+class MINAEUR(Symbol):
     """
         name: MINAEUR
         significant_digits: None
@@ -17927,7 +18083,7 @@ class MINAEUR(NamedTuple):
         return "MINAEUR"
 
 
-MINAEUR = MINAEUR()
+MINAEUR = MINAEUR(*MINAEUR._fields)
 """
     name: MINAEUR
     significant_digits: None
@@ -17941,7 +18097,7 @@ MINAEUR = MINAEUR()
 """
 
 
-class MINAGBP(NamedTuple):
+class MINAGBP(Symbol):
     """
         name: MINAGBP
         significant_digits: None
@@ -17979,7 +18135,7 @@ class MINAGBP(NamedTuple):
         return "MINAGBP"
 
 
-MINAGBP = MINAGBP()
+MINAGBP = MINAGBP(*MINAGBP._fields)
 """
     name: MINAGBP
     significant_digits: None
@@ -17993,7 +18149,7 @@ MINAGBP = MINAGBP()
 """
 
 
-class MINAUSD(NamedTuple):
+class MINAUSD(Symbol):
     """
         name: MINAUSD
         significant_digits: None
@@ -18031,7 +18187,7 @@ class MINAUSD(NamedTuple):
         return "MINAUSD"
 
 
-MINAUSD = MINAUSD()
+MINAUSD = MINAUSD(*MINAUSD._fields)
 """
     name: MINAUSD
     significant_digits: None
@@ -18045,7 +18201,7 @@ MINAUSD = MINAUSD()
 """
 
 
-class MINAXBT(NamedTuple):
+class MINAXBT(Symbol):
     """
         name: MINAXBT
         significant_digits: None
@@ -18083,7 +18239,7 @@ class MINAXBT(NamedTuple):
         return "MINAXBT"
 
 
-MINAXBT = MINAXBT()
+MINAXBT = MINAXBT(*MINAXBT._fields)
 """
     name: MINAXBT
     significant_digits: None
@@ -18097,7 +18253,7 @@ MINAXBT = MINAXBT()
 """
 
 
-class MIREUR(NamedTuple):
+class MIREUR(Symbol):
     """
         name: MIREUR
         significant_digits: None
@@ -18135,7 +18291,7 @@ class MIREUR(NamedTuple):
         return "MIREUR"
 
 
-MIREUR = MIREUR()
+MIREUR = MIREUR(*MIREUR._fields)
 """
     name: MIREUR
     significant_digits: None
@@ -18149,7 +18305,7 @@ MIREUR = MIREUR()
 """
 
 
-class MIRUSD(NamedTuple):
+class MIRUSD(Symbol):
     """
         name: MIRUSD
         significant_digits: None
@@ -18187,7 +18343,7 @@ class MIRUSD(NamedTuple):
         return "MIRUSD"
 
 
-MIRUSD = MIRUSD()
+MIRUSD = MIRUSD(*MIRUSD._fields)
 """
     name: MIRUSD
     significant_digits: None
@@ -18201,7 +18357,7 @@ MIRUSD = MIRUSD()
 """
 
 
-class MKREUR(NamedTuple):
+class MKREUR(Symbol):
     """
         name: MKREUR
         significant_digits: None
@@ -18239,7 +18395,7 @@ class MKREUR(NamedTuple):
         return "MKREUR"
 
 
-MKREUR = MKREUR()
+MKREUR = MKREUR(*MKREUR._fields)
 """
     name: MKREUR
     significant_digits: None
@@ -18253,7 +18409,7 @@ MKREUR = MKREUR()
 """
 
 
-class MKRUSD(NamedTuple):
+class MKRUSD(Symbol):
     """
         name: MKRUSD
         significant_digits: None
@@ -18291,7 +18447,7 @@ class MKRUSD(NamedTuple):
         return "MKRUSD"
 
 
-MKRUSD = MKRUSD()
+MKRUSD = MKRUSD(*MKRUSD._fields)
 """
     name: MKRUSD
     significant_digits: None
@@ -18305,7 +18461,7 @@ MKRUSD = MKRUSD()
 """
 
 
-class MKRXBT(NamedTuple):
+class MKRXBT(Symbol):
     """
         name: MKRXBT
         significant_digits: None
@@ -18343,7 +18499,7 @@ class MKRXBT(NamedTuple):
         return "MKRXBT"
 
 
-MKRXBT = MKRXBT()
+MKRXBT = MKRXBT(*MKRXBT._fields)
 """
     name: MKRXBT
     significant_digits: None
@@ -18357,7 +18513,7 @@ MKRXBT = MKRXBT()
 """
 
 
-class MNGOEUR(NamedTuple):
+class MNGOEUR(Symbol):
     """
         name: MNGOEUR
         significant_digits: None
@@ -18395,7 +18551,7 @@ class MNGOEUR(NamedTuple):
         return "MNGOEUR"
 
 
-MNGOEUR = MNGOEUR()
+MNGOEUR = MNGOEUR(*MNGOEUR._fields)
 """
     name: MNGOEUR
     significant_digits: None
@@ -18409,7 +18565,7 @@ MNGOEUR = MNGOEUR()
 """
 
 
-class MNGOUSD(NamedTuple):
+class MNGOUSD(Symbol):
     """
         name: MNGOUSD
         significant_digits: None
@@ -18447,7 +18603,7 @@ class MNGOUSD(NamedTuple):
         return "MNGOUSD"
 
 
-MNGOUSD = MNGOUSD()
+MNGOUSD = MNGOUSD(*MNGOUSD._fields)
 """
     name: MNGOUSD
     significant_digits: None
@@ -18461,7 +18617,7 @@ MNGOUSD = MNGOUSD()
 """
 
 
-class MOVREUR(NamedTuple):
+class MOVREUR(Symbol):
     """
         name: MOVREUR
         significant_digits: None
@@ -18499,7 +18655,7 @@ class MOVREUR(NamedTuple):
         return "MOVREUR"
 
 
-MOVREUR = MOVREUR()
+MOVREUR = MOVREUR(*MOVREUR._fields)
 """
     name: MOVREUR
     significant_digits: None
@@ -18513,7 +18669,7 @@ MOVREUR = MOVREUR()
 """
 
 
-class MOVRUSD(NamedTuple):
+class MOVRUSD(Symbol):
     """
         name: MOVRUSD
         significant_digits: None
@@ -18551,7 +18707,7 @@ class MOVRUSD(NamedTuple):
         return "MOVRUSD"
 
 
-MOVRUSD = MOVRUSD()
+MOVRUSD = MOVRUSD(*MOVRUSD._fields)
 """
     name: MOVRUSD
     significant_digits: None
@@ -18565,7 +18721,7 @@ MOVRUSD = MOVRUSD()
 """
 
 
-class MSOLEUR(NamedTuple):
+class MSOLEUR(Symbol):
     """
         name: MSOLEUR
         significant_digits: None
@@ -18603,7 +18759,7 @@ class MSOLEUR(NamedTuple):
         return "MSOLEUR"
 
 
-MSOLEUR = MSOLEUR()
+MSOLEUR = MSOLEUR(*MSOLEUR._fields)
 """
     name: MSOLEUR
     significant_digits: None
@@ -18617,7 +18773,7 @@ MSOLEUR = MSOLEUR()
 """
 
 
-class MSOLUSD(NamedTuple):
+class MSOLUSD(Symbol):
     """
         name: MSOLUSD
         significant_digits: None
@@ -18655,7 +18811,7 @@ class MSOLUSD(NamedTuple):
         return "MSOLUSD"
 
 
-MSOLUSD = MSOLUSD()
+MSOLUSD = MSOLUSD(*MSOLUSD._fields)
 """
     name: MSOLUSD
     significant_digits: None
@@ -18669,7 +18825,7 @@ MSOLUSD = MSOLUSD()
 """
 
 
-class MULTIEUR(NamedTuple):
+class MULTIEUR(Symbol):
     """
         name: MULTIEUR
         significant_digits: None
@@ -18707,7 +18863,7 @@ class MULTIEUR(NamedTuple):
         return "MULTIEUR"
 
 
-MULTIEUR = MULTIEUR()
+MULTIEUR = MULTIEUR(*MULTIEUR._fields)
 """
     name: MULTIEUR
     significant_digits: None
@@ -18721,7 +18877,7 @@ MULTIEUR = MULTIEUR()
 """
 
 
-class MULTIUSD(NamedTuple):
+class MULTIUSD(Symbol):
     """
         name: MULTIUSD
         significant_digits: None
@@ -18759,7 +18915,7 @@ class MULTIUSD(NamedTuple):
         return "MULTIUSD"
 
 
-MULTIUSD = MULTIUSD()
+MULTIUSD = MULTIUSD(*MULTIUSD._fields)
 """
     name: MULTIUSD
     significant_digits: None
@@ -18773,7 +18929,7 @@ MULTIUSD = MULTIUSD()
 """
 
 
-class MVEUR(NamedTuple):
+class MVEUR(Symbol):
     """
         name: MVEUR
         significant_digits: None
@@ -18811,7 +18967,7 @@ class MVEUR(NamedTuple):
         return "MVEUR"
 
 
-MVEUR = MVEUR()
+MVEUR = MVEUR(*MVEUR._fields)
 """
     name: MVEUR
     significant_digits: None
@@ -18825,7 +18981,7 @@ MVEUR = MVEUR()
 """
 
 
-class MVUSD(NamedTuple):
+class MVUSD(Symbol):
     """
         name: MVUSD
         significant_digits: None
@@ -18863,7 +19019,7 @@ class MVUSD(NamedTuple):
         return "MVUSD"
 
 
-MVUSD = MVUSD()
+MVUSD = MVUSD(*MVUSD._fields)
 """
     name: MVUSD
     significant_digits: None
@@ -18877,7 +19033,7 @@ MVUSD = MVUSD()
 """
 
 
-class MXCEUR(NamedTuple):
+class MXCEUR(Symbol):
     """
         name: MXCEUR
         significant_digits: None
@@ -18915,7 +19071,7 @@ class MXCEUR(NamedTuple):
         return "MXCEUR"
 
 
-MXCEUR = MXCEUR()
+MXCEUR = MXCEUR(*MXCEUR._fields)
 """
     name: MXCEUR
     significant_digits: None
@@ -18929,7 +19085,7 @@ MXCEUR = MXCEUR()
 """
 
 
-class MXCUSD(NamedTuple):
+class MXCUSD(Symbol):
     """
         name: MXCUSD
         significant_digits: None
@@ -18967,7 +19123,7 @@ class MXCUSD(NamedTuple):
         return "MXCUSD"
 
 
-MXCUSD = MXCUSD()
+MXCUSD = MXCUSD(*MXCUSD._fields)
 """
     name: MXCUSD
     significant_digits: None
@@ -18981,7 +19137,7 @@ MXCUSD = MXCUSD()
 """
 
 
-class NANOETH(NamedTuple):
+class NANOETH(Symbol):
     """
         name: NANOETH
         significant_digits: None
@@ -19019,7 +19175,7 @@ class NANOETH(NamedTuple):
         return "NANOETH"
 
 
-NANOETH = NANOETH()
+NANOETH = NANOETH(*NANOETH._fields)
 """
     name: NANOETH
     significant_digits: None
@@ -19033,7 +19189,7 @@ NANOETH = NANOETH()
 """
 
 
-class NANOEUR(NamedTuple):
+class NANOEUR(Symbol):
     """
         name: NANOEUR
         significant_digits: None
@@ -19071,7 +19227,7 @@ class NANOEUR(NamedTuple):
         return "NANOEUR"
 
 
-NANOEUR = NANOEUR()
+NANOEUR = NANOEUR(*NANOEUR._fields)
 """
     name: NANOEUR
     significant_digits: None
@@ -19085,7 +19241,7 @@ NANOEUR = NANOEUR()
 """
 
 
-class NANOUSD(NamedTuple):
+class NANOUSD(Symbol):
     """
         name: NANOUSD
         significant_digits: None
@@ -19123,7 +19279,7 @@ class NANOUSD(NamedTuple):
         return "NANOUSD"
 
 
-NANOUSD = NANOUSD()
+NANOUSD = NANOUSD(*NANOUSD._fields)
 """
     name: NANOUSD
     significant_digits: None
@@ -19137,7 +19293,7 @@ NANOUSD = NANOUSD()
 """
 
 
-class NANOXBT(NamedTuple):
+class NANOXBT(Symbol):
     """
         name: NANOXBT
         significant_digits: None
@@ -19175,7 +19331,7 @@ class NANOXBT(NamedTuple):
         return "NANOXBT"
 
 
-NANOXBT = NANOXBT()
+NANOXBT = NANOXBT(*NANOXBT._fields)
 """
     name: NANOXBT
     significant_digits: None
@@ -19189,7 +19345,7 @@ NANOXBT = NANOXBT()
 """
 
 
-class NEAREUR(NamedTuple):
+class NEAREUR(Symbol):
     """
         name: NEAREUR
         significant_digits: None
@@ -19227,7 +19383,7 @@ class NEAREUR(NamedTuple):
         return "NEAREUR"
 
 
-NEAREUR = NEAREUR()
+NEAREUR = NEAREUR(*NEAREUR._fields)
 """
     name: NEAREUR
     significant_digits: None
@@ -19241,7 +19397,7 @@ NEAREUR = NEAREUR()
 """
 
 
-class NEARUSD(NamedTuple):
+class NEARUSD(Symbol):
     """
         name: NEARUSD
         significant_digits: None
@@ -19279,7 +19435,7 @@ class NEARUSD(NamedTuple):
         return "NEARUSD"
 
 
-NEARUSD = NEARUSD()
+NEARUSD = NEARUSD(*NEARUSD._fields)
 """
     name: NEARUSD
     significant_digits: None
@@ -19293,7 +19449,7 @@ NEARUSD = NEARUSD()
 """
 
 
-class NMREUR(NamedTuple):
+class NMREUR(Symbol):
     """
         name: NMREUR
         significant_digits: None
@@ -19331,7 +19487,7 @@ class NMREUR(NamedTuple):
         return "NMREUR"
 
 
-NMREUR = NMREUR()
+NMREUR = NMREUR(*NMREUR._fields)
 """
     name: NMREUR
     significant_digits: None
@@ -19345,7 +19501,7 @@ NMREUR = NMREUR()
 """
 
 
-class NMRUSD(NamedTuple):
+class NMRUSD(Symbol):
     """
         name: NMRUSD
         significant_digits: None
@@ -19383,7 +19539,7 @@ class NMRUSD(NamedTuple):
         return "NMRUSD"
 
 
-NMRUSD = NMRUSD()
+NMRUSD = NMRUSD(*NMRUSD._fields)
 """
     name: NMRUSD
     significant_digits: None
@@ -19397,7 +19553,7 @@ NMRUSD = NMRUSD()
 """
 
 
-class NODLEUR(NamedTuple):
+class NODLEUR(Symbol):
     """
         name: NODLEUR
         significant_digits: None
@@ -19435,7 +19591,7 @@ class NODLEUR(NamedTuple):
         return "NODLEUR"
 
 
-NODLEUR = NODLEUR()
+NODLEUR = NODLEUR(*NODLEUR._fields)
 """
     name: NODLEUR
     significant_digits: None
@@ -19449,7 +19605,7 @@ NODLEUR = NODLEUR()
 """
 
 
-class NODLUSD(NamedTuple):
+class NODLUSD(Symbol):
     """
         name: NODLUSD
         significant_digits: None
@@ -19487,7 +19643,7 @@ class NODLUSD(NamedTuple):
         return "NODLUSD"
 
 
-NODLUSD = NODLUSD()
+NODLUSD = NODLUSD(*NODLUSD._fields)
 """
     name: NODLUSD
     significant_digits: None
@@ -19501,7 +19657,7 @@ NODLUSD = NODLUSD()
 """
 
 
-class NYMEUR(NamedTuple):
+class NYMEUR(Symbol):
     """
         name: NYMEUR
         significant_digits: None
@@ -19539,7 +19695,7 @@ class NYMEUR(NamedTuple):
         return "NYMEUR"
 
 
-NYMEUR = NYMEUR()
+NYMEUR = NYMEUR(*NYMEUR._fields)
 """
     name: NYMEUR
     significant_digits: None
@@ -19553,7 +19709,7 @@ NYMEUR = NYMEUR()
 """
 
 
-class NYMUSD(NamedTuple):
+class NYMUSD(Symbol):
     """
         name: NYMUSD
         significant_digits: None
@@ -19591,7 +19747,7 @@ class NYMUSD(NamedTuple):
         return "NYMUSD"
 
 
-NYMUSD = NYMUSD()
+NYMUSD = NYMUSD(*NYMUSD._fields)
 """
     name: NYMUSD
     significant_digits: None
@@ -19605,7 +19761,7 @@ NYMUSD = NYMUSD()
 """
 
 
-class NYMXBT(NamedTuple):
+class NYMXBT(Symbol):
     """
         name: NYMXBT
         significant_digits: None
@@ -19643,7 +19799,7 @@ class NYMXBT(NamedTuple):
         return "NYMXBT"
 
 
-NYMXBT = NYMXBT()
+NYMXBT = NYMXBT(*NYMXBT._fields)
 """
     name: NYMXBT
     significant_digits: None
@@ -19657,7 +19813,7 @@ NYMXBT = NYMXBT()
 """
 
 
-class OCEANEUR(NamedTuple):
+class OCEANEUR(Symbol):
     """
         name: OCEANEUR
         significant_digits: None
@@ -19695,7 +19851,7 @@ class OCEANEUR(NamedTuple):
         return "OCEANEUR"
 
 
-OCEANEUR = OCEANEUR()
+OCEANEUR = OCEANEUR(*OCEANEUR._fields)
 """
     name: OCEANEUR
     significant_digits: None
@@ -19709,7 +19865,7 @@ OCEANEUR = OCEANEUR()
 """
 
 
-class OCEANGBP(NamedTuple):
+class OCEANGBP(Symbol):
     """
         name: OCEANGBP
         significant_digits: None
@@ -19747,7 +19903,7 @@ class OCEANGBP(NamedTuple):
         return "OCEANGBP"
 
 
-OCEANGBP = OCEANGBP()
+OCEANGBP = OCEANGBP(*OCEANGBP._fields)
 """
     name: OCEANGBP
     significant_digits: None
@@ -19761,7 +19917,7 @@ OCEANGBP = OCEANGBP()
 """
 
 
-class OCEANUSD(NamedTuple):
+class OCEANUSD(Symbol):
     """
         name: OCEANUSD
         significant_digits: None
@@ -19799,7 +19955,7 @@ class OCEANUSD(NamedTuple):
         return "OCEANUSD"
 
 
-OCEANUSD = OCEANUSD()
+OCEANUSD = OCEANUSD(*OCEANUSD._fields)
 """
     name: OCEANUSD
     significant_digits: None
@@ -19813,7 +19969,7 @@ OCEANUSD = OCEANUSD()
 """
 
 
-class OCEANXBT(NamedTuple):
+class OCEANXBT(Symbol):
     """
         name: OCEANXBT
         significant_digits: None
@@ -19851,7 +20007,7 @@ class OCEANXBT(NamedTuple):
         return "OCEANXBT"
 
 
-OCEANXBT = OCEANXBT()
+OCEANXBT = OCEANXBT(*OCEANXBT._fields)
 """
     name: OCEANXBT
     significant_digits: None
@@ -19865,7 +20021,7 @@ OCEANXBT = OCEANXBT()
 """
 
 
-class OGNEUR(NamedTuple):
+class OGNEUR(Symbol):
     """
         name: OGNEUR
         significant_digits: None
@@ -19903,7 +20059,7 @@ class OGNEUR(NamedTuple):
         return "OGNEUR"
 
 
-OGNEUR = OGNEUR()
+OGNEUR = OGNEUR(*OGNEUR._fields)
 """
     name: OGNEUR
     significant_digits: None
@@ -19917,7 +20073,7 @@ OGNEUR = OGNEUR()
 """
 
 
-class OGNUSD(NamedTuple):
+class OGNUSD(Symbol):
     """
         name: OGNUSD
         significant_digits: None
@@ -19955,7 +20111,7 @@ class OGNUSD(NamedTuple):
         return "OGNUSD"
 
 
-OGNUSD = OGNUSD()
+OGNUSD = OGNUSD(*OGNUSD._fields)
 """
     name: OGNUSD
     significant_digits: None
@@ -19969,7 +20125,7 @@ OGNUSD = OGNUSD()
 """
 
 
-class OMGETH(NamedTuple):
+class OMGETH(Symbol):
     """
         name: OMGETH
         significant_digits: None
@@ -20007,7 +20163,7 @@ class OMGETH(NamedTuple):
         return "OMGETH"
 
 
-OMGETH = OMGETH()
+OMGETH = OMGETH(*OMGETH._fields)
 """
     name: OMGETH
     significant_digits: None
@@ -20021,7 +20177,7 @@ OMGETH = OMGETH()
 """
 
 
-class OMGEUR(NamedTuple):
+class OMGEUR(Symbol):
     """
         name: OMGEUR
         significant_digits: None
@@ -20059,7 +20215,7 @@ class OMGEUR(NamedTuple):
         return "OMGEUR"
 
 
-OMGEUR = OMGEUR()
+OMGEUR = OMGEUR(*OMGEUR._fields)
 """
     name: OMGEUR
     significant_digits: None
@@ -20073,7 +20229,7 @@ OMGEUR = OMGEUR()
 """
 
 
-class OMGJPY(NamedTuple):
+class OMGJPY(Symbol):
     """
         name: OMGJPY
         significant_digits: None
@@ -20111,7 +20267,7 @@ class OMGJPY(NamedTuple):
         return "OMGJPY"
 
 
-OMGJPY = OMGJPY()
+OMGJPY = OMGJPY(*OMGJPY._fields)
 """
     name: OMGJPY
     significant_digits: None
@@ -20125,7 +20281,7 @@ OMGJPY = OMGJPY()
 """
 
 
-class OMGUSD(NamedTuple):
+class OMGUSD(Symbol):
     """
         name: OMGUSD
         significant_digits: None
@@ -20163,7 +20319,7 @@ class OMGUSD(NamedTuple):
         return "OMGUSD"
 
 
-OMGUSD = OMGUSD()
+OMGUSD = OMGUSD(*OMGUSD._fields)
 """
     name: OMGUSD
     significant_digits: None
@@ -20177,7 +20333,7 @@ OMGUSD = OMGUSD()
 """
 
 
-class OMGXBT(NamedTuple):
+class OMGXBT(Symbol):
     """
         name: OMGXBT
         significant_digits: None
@@ -20215,7 +20371,7 @@ class OMGXBT(NamedTuple):
         return "OMGXBT"
 
 
-OMGXBT = OMGXBT()
+OMGXBT = OMGXBT(*OMGXBT._fields)
 """
     name: OMGXBT
     significant_digits: None
@@ -20229,7 +20385,7 @@ OMGXBT = OMGXBT()
 """
 
 
-class ORCAEUR(NamedTuple):
+class ORCAEUR(Symbol):
     """
         name: ORCAEUR
         significant_digits: None
@@ -20267,7 +20423,7 @@ class ORCAEUR(NamedTuple):
         return "ORCAEUR"
 
 
-ORCAEUR = ORCAEUR()
+ORCAEUR = ORCAEUR(*ORCAEUR._fields)
 """
     name: ORCAEUR
     significant_digits: None
@@ -20281,7 +20437,7 @@ ORCAEUR = ORCAEUR()
 """
 
 
-class ORCAUSD(NamedTuple):
+class ORCAUSD(Symbol):
     """
         name: ORCAUSD
         significant_digits: None
@@ -20319,7 +20475,7 @@ class ORCAUSD(NamedTuple):
         return "ORCAUSD"
 
 
-ORCAUSD = ORCAUSD()
+ORCAUSD = ORCAUSD(*ORCAUSD._fields)
 """
     name: ORCAUSD
     significant_digits: None
@@ -20333,7 +20489,7 @@ ORCAUSD = ORCAUSD()
 """
 
 
-class OXTEUR(NamedTuple):
+class OXTEUR(Symbol):
     """
         name: OXTEUR
         significant_digits: None
@@ -20371,7 +20527,7 @@ class OXTEUR(NamedTuple):
         return "OXTEUR"
 
 
-OXTEUR = OXTEUR()
+OXTEUR = OXTEUR(*OXTEUR._fields)
 """
     name: OXTEUR
     significant_digits: None
@@ -20385,7 +20541,7 @@ OXTEUR = OXTEUR()
 """
 
 
-class OXTUSD(NamedTuple):
+class OXTUSD(Symbol):
     """
         name: OXTUSD
         significant_digits: None
@@ -20423,7 +20579,7 @@ class OXTUSD(NamedTuple):
         return "OXTUSD"
 
 
-OXTUSD = OXTUSD()
+OXTUSD = OXTUSD(*OXTUSD._fields)
 """
     name: OXTUSD
     significant_digits: None
@@ -20437,7 +20593,7 @@ OXTUSD = OXTUSD()
 """
 
 
-class OXTXBT(NamedTuple):
+class OXTXBT(Symbol):
     """
         name: OXTXBT
         significant_digits: None
@@ -20475,7 +20631,7 @@ class OXTXBT(NamedTuple):
         return "OXTXBT"
 
 
-OXTXBT = OXTXBT()
+OXTXBT = OXTXBT(*OXTXBT._fields)
 """
     name: OXTXBT
     significant_digits: None
@@ -20489,7 +20645,7 @@ OXTXBT = OXTXBT()
 """
 
 
-class OXYEUR(NamedTuple):
+class OXYEUR(Symbol):
     """
         name: OXYEUR
         significant_digits: None
@@ -20527,7 +20683,7 @@ class OXYEUR(NamedTuple):
         return "OXYEUR"
 
 
-OXYEUR = OXYEUR()
+OXYEUR = OXYEUR(*OXYEUR._fields)
 """
     name: OXYEUR
     significant_digits: None
@@ -20541,7 +20697,7 @@ OXYEUR = OXYEUR()
 """
 
 
-class OXYUSD(NamedTuple):
+class OXYUSD(Symbol):
     """
         name: OXYUSD
         significant_digits: None
@@ -20579,7 +20735,7 @@ class OXYUSD(NamedTuple):
         return "OXYUSD"
 
 
-OXYUSD = OXYUSD()
+OXYUSD = OXYUSD(*OXYUSD._fields)
 """
     name: OXYUSD
     significant_digits: None
@@ -20593,7 +20749,7 @@ OXYUSD = OXYUSD()
 """
 
 
-class PARAEUR(NamedTuple):
+class PARAEUR(Symbol):
     """
         name: PARAEUR
         significant_digits: None
@@ -20631,7 +20787,7 @@ class PARAEUR(NamedTuple):
         return "PARAEUR"
 
 
-PARAEUR = PARAEUR()
+PARAEUR = PARAEUR(*PARAEUR._fields)
 """
     name: PARAEUR
     significant_digits: None
@@ -20645,7 +20801,7 @@ PARAEUR = PARAEUR()
 """
 
 
-class PARAUSD(NamedTuple):
+class PARAUSD(Symbol):
     """
         name: PARAUSD
         significant_digits: None
@@ -20683,7 +20839,7 @@ class PARAUSD(NamedTuple):
         return "PARAUSD"
 
 
-PARAUSD = PARAUSD()
+PARAUSD = PARAUSD(*PARAUSD._fields)
 """
     name: PARAUSD
     significant_digits: None
@@ -20697,7 +20853,7 @@ PARAUSD = PARAUSD()
 """
 
 
-class PAXGETH(NamedTuple):
+class PAXGETH(Symbol):
     """
         name: PAXGETH
         significant_digits: None
@@ -20735,7 +20891,7 @@ class PAXGETH(NamedTuple):
         return "PAXGETH"
 
 
-PAXGETH = PAXGETH()
+PAXGETH = PAXGETH(*PAXGETH._fields)
 """
     name: PAXGETH
     significant_digits: None
@@ -20749,7 +20905,7 @@ PAXGETH = PAXGETH()
 """
 
 
-class PAXGEUR(NamedTuple):
+class PAXGEUR(Symbol):
     """
         name: PAXGEUR
         significant_digits: None
@@ -20787,7 +20943,7 @@ class PAXGEUR(NamedTuple):
         return "PAXGEUR"
 
 
-PAXGEUR = PAXGEUR()
+PAXGEUR = PAXGEUR(*PAXGEUR._fields)
 """
     name: PAXGEUR
     significant_digits: None
@@ -20801,7 +20957,7 @@ PAXGEUR = PAXGEUR()
 """
 
 
-class PAXGUSD(NamedTuple):
+class PAXGUSD(Symbol):
     """
         name: PAXGUSD
         significant_digits: None
@@ -20839,7 +20995,7 @@ class PAXGUSD(NamedTuple):
         return "PAXGUSD"
 
 
-PAXGUSD = PAXGUSD()
+PAXGUSD = PAXGUSD(*PAXGUSD._fields)
 """
     name: PAXGUSD
     significant_digits: None
@@ -20853,7 +21009,7 @@ PAXGUSD = PAXGUSD()
 """
 
 
-class PAXGXBT(NamedTuple):
+class PAXGXBT(Symbol):
     """
         name: PAXGXBT
         significant_digits: None
@@ -20891,7 +21047,7 @@ class PAXGXBT(NamedTuple):
         return "PAXGXBT"
 
 
-PAXGXBT = PAXGXBT()
+PAXGXBT = PAXGXBT(*PAXGXBT._fields)
 """
     name: PAXGXBT
     significant_digits: None
@@ -20905,7 +21061,7 @@ PAXGXBT = PAXGXBT()
 """
 
 
-class PERPEUR(NamedTuple):
+class PERPEUR(Symbol):
     """
         name: PERPEUR
         significant_digits: None
@@ -20943,7 +21099,7 @@ class PERPEUR(NamedTuple):
         return "PERPEUR"
 
 
-PERPEUR = PERPEUR()
+PERPEUR = PERPEUR(*PERPEUR._fields)
 """
     name: PERPEUR
     significant_digits: None
@@ -20957,7 +21113,7 @@ PERPEUR = PERPEUR()
 """
 
 
-class PERPUSD(NamedTuple):
+class PERPUSD(Symbol):
     """
         name: PERPUSD
         significant_digits: None
@@ -20995,7 +21151,7 @@ class PERPUSD(NamedTuple):
         return "PERPUSD"
 
 
-PERPUSD = PERPUSD()
+PERPUSD = PERPUSD(*PERPUSD._fields)
 """
     name: PERPUSD
     significant_digits: None
@@ -21009,7 +21165,7 @@ PERPUSD = PERPUSD()
 """
 
 
-class PHAEUR(NamedTuple):
+class PHAEUR(Symbol):
     """
         name: PHAEUR
         significant_digits: None
@@ -21047,7 +21203,7 @@ class PHAEUR(NamedTuple):
         return "PHAEUR"
 
 
-PHAEUR = PHAEUR()
+PHAEUR = PHAEUR(*PHAEUR._fields)
 """
     name: PHAEUR
     significant_digits: None
@@ -21061,7 +21217,7 @@ PHAEUR = PHAEUR()
 """
 
 
-class PHAUSD(NamedTuple):
+class PHAUSD(Symbol):
     """
         name: PHAUSD
         significant_digits: None
@@ -21099,7 +21255,7 @@ class PHAUSD(NamedTuple):
         return "PHAUSD"
 
 
-PHAUSD = PHAUSD()
+PHAUSD = PHAUSD(*PHAUSD._fields)
 """
     name: PHAUSD
     significant_digits: None
@@ -21113,7 +21269,7 @@ PHAUSD = PHAUSD()
 """
 
 
-class PLAEUR(NamedTuple):
+class PLAEUR(Symbol):
     """
         name: PLAEUR
         significant_digits: None
@@ -21151,7 +21307,7 @@ class PLAEUR(NamedTuple):
         return "PLAEUR"
 
 
-PLAEUR = PLAEUR()
+PLAEUR = PLAEUR(*PLAEUR._fields)
 """
     name: PLAEUR
     significant_digits: None
@@ -21165,7 +21321,7 @@ PLAEUR = PLAEUR()
 """
 
 
-class PLAUSD(NamedTuple):
+class PLAUSD(Symbol):
     """
         name: PLAUSD
         significant_digits: None
@@ -21203,7 +21359,7 @@ class PLAUSD(NamedTuple):
         return "PLAUSD"
 
 
-PLAUSD = PLAUSD()
+PLAUSD = PLAUSD(*PLAUSD._fields)
 """
     name: PLAUSD
     significant_digits: None
@@ -21217,7 +21373,7 @@ PLAUSD = PLAUSD()
 """
 
 
-class POLISEUR(NamedTuple):
+class POLISEUR(Symbol):
     """
         name: POLISEUR
         significant_digits: None
@@ -21255,7 +21411,7 @@ class POLISEUR(NamedTuple):
         return "POLISEUR"
 
 
-POLISEUR = POLISEUR()
+POLISEUR = POLISEUR(*POLISEUR._fields)
 """
     name: POLISEUR
     significant_digits: None
@@ -21269,7 +21425,7 @@ POLISEUR = POLISEUR()
 """
 
 
-class POLISUSD(NamedTuple):
+class POLISUSD(Symbol):
     """
         name: POLISUSD
         significant_digits: None
@@ -21307,7 +21463,7 @@ class POLISUSD(NamedTuple):
         return "POLISUSD"
 
 
-POLISUSD = POLISUSD()
+POLISUSD = POLISUSD(*POLISUSD._fields)
 """
     name: POLISUSD
     significant_digits: None
@@ -21321,7 +21477,7 @@ POLISUSD = POLISUSD()
 """
 
 
-class POLSEUR(NamedTuple):
+class POLSEUR(Symbol):
     """
         name: POLSEUR
         significant_digits: None
@@ -21359,7 +21515,7 @@ class POLSEUR(NamedTuple):
         return "POLSEUR"
 
 
-POLSEUR = POLSEUR()
+POLSEUR = POLSEUR(*POLSEUR._fields)
 """
     name: POLSEUR
     significant_digits: None
@@ -21373,7 +21529,7 @@ POLSEUR = POLSEUR()
 """
 
 
-class POLSUSD(NamedTuple):
+class POLSUSD(Symbol):
     """
         name: POLSUSD
         significant_digits: None
@@ -21411,7 +21567,7 @@ class POLSUSD(NamedTuple):
         return "POLSUSD"
 
 
-POLSUSD = POLSUSD()
+POLSUSD = POLSUSD(*POLSUSD._fields)
 """
     name: POLSUSD
     significant_digits: None
@@ -21425,7 +21581,7 @@ POLSUSD = POLSUSD()
 """
 
 
-class PONDEUR(NamedTuple):
+class PONDEUR(Symbol):
     """
         name: PONDEUR
         significant_digits: None
@@ -21463,7 +21619,7 @@ class PONDEUR(NamedTuple):
         return "PONDEUR"
 
 
-PONDEUR = PONDEUR()
+PONDEUR = PONDEUR(*PONDEUR._fields)
 """
     name: PONDEUR
     significant_digits: None
@@ -21477,7 +21633,7 @@ PONDEUR = PONDEUR()
 """
 
 
-class PONDUSD(NamedTuple):
+class PONDUSD(Symbol):
     """
         name: PONDUSD
         significant_digits: None
@@ -21515,7 +21671,7 @@ class PONDUSD(NamedTuple):
         return "PONDUSD"
 
 
-PONDUSD = PONDUSD()
+PONDUSD = PONDUSD(*PONDUSD._fields)
 """
     name: PONDUSD
     significant_digits: None
@@ -21529,7 +21685,7 @@ PONDUSD = PONDUSD()
 """
 
 
-class POWREUR(NamedTuple):
+class POWREUR(Symbol):
     """
         name: POWREUR
         significant_digits: None
@@ -21567,7 +21723,7 @@ class POWREUR(NamedTuple):
         return "POWREUR"
 
 
-POWREUR = POWREUR()
+POWREUR = POWREUR(*POWREUR._fields)
 """
     name: POWREUR
     significant_digits: None
@@ -21581,7 +21737,7 @@ POWREUR = POWREUR()
 """
 
 
-class POWRUSD(NamedTuple):
+class POWRUSD(Symbol):
     """
         name: POWRUSD
         significant_digits: None
@@ -21619,7 +21775,7 @@ class POWRUSD(NamedTuple):
         return "POWRUSD"
 
 
-POWRUSD = POWRUSD()
+POWRUSD = POWRUSD(*POWRUSD._fields)
 """
     name: POWRUSD
     significant_digits: None
@@ -21633,7 +21789,7 @@ POWRUSD = POWRUSD()
 """
 
 
-class PSTAKEEUR(NamedTuple):
+class PSTAKEEUR(Symbol):
     """
         name: PSTAKEEUR
         significant_digits: None
@@ -21671,7 +21827,7 @@ class PSTAKEEUR(NamedTuple):
         return "PSTAKEEUR"
 
 
-PSTAKEEUR = PSTAKEEUR()
+PSTAKEEUR = PSTAKEEUR(*PSTAKEEUR._fields)
 """
     name: PSTAKEEUR
     significant_digits: None
@@ -21685,7 +21841,7 @@ PSTAKEEUR = PSTAKEEUR()
 """
 
 
-class PSTAKEUSD(NamedTuple):
+class PSTAKEUSD(Symbol):
     """
         name: PSTAKEUSD
         significant_digits: None
@@ -21723,7 +21879,7 @@ class PSTAKEUSD(NamedTuple):
         return "PSTAKEUSD"
 
 
-PSTAKEUSD = PSTAKEUSD()
+PSTAKEUSD = PSTAKEUSD(*PSTAKEUSD._fields)
 """
     name: PSTAKEUSD
     significant_digits: None
@@ -21737,7 +21893,7 @@ PSTAKEUSD = PSTAKEUSD()
 """
 
 
-class QNTEUR(NamedTuple):
+class QNTEUR(Symbol):
     """
         name: QNTEUR
         significant_digits: None
@@ -21775,7 +21931,7 @@ class QNTEUR(NamedTuple):
         return "QNTEUR"
 
 
-QNTEUR = QNTEUR()
+QNTEUR = QNTEUR(*QNTEUR._fields)
 """
     name: QNTEUR
     significant_digits: None
@@ -21789,7 +21945,7 @@ QNTEUR = QNTEUR()
 """
 
 
-class QNTUSD(NamedTuple):
+class QNTUSD(Symbol):
     """
         name: QNTUSD
         significant_digits: None
@@ -21827,7 +21983,7 @@ class QNTUSD(NamedTuple):
         return "QNTUSD"
 
 
-QNTUSD = QNTUSD()
+QNTUSD = QNTUSD(*QNTUSD._fields)
 """
     name: QNTUSD
     significant_digits: None
@@ -21841,7 +21997,7 @@ QNTUSD = QNTUSD()
 """
 
 
-class QTUMETH(NamedTuple):
+class QTUMETH(Symbol):
     """
         name: QTUMETH
         significant_digits: None
@@ -21879,7 +22035,7 @@ class QTUMETH(NamedTuple):
         return "QTUMETH"
 
 
-QTUMETH = QTUMETH()
+QTUMETH = QTUMETH(*QTUMETH._fields)
 """
     name: QTUMETH
     significant_digits: None
@@ -21893,7 +22049,7 @@ QTUMETH = QTUMETH()
 """
 
 
-class QTUMEUR(NamedTuple):
+class QTUMEUR(Symbol):
     """
         name: QTUMEUR
         significant_digits: None
@@ -21931,7 +22087,7 @@ class QTUMEUR(NamedTuple):
         return "QTUMEUR"
 
 
-QTUMEUR = QTUMEUR()
+QTUMEUR = QTUMEUR(*QTUMEUR._fields)
 """
     name: QTUMEUR
     significant_digits: None
@@ -21945,7 +22101,7 @@ QTUMEUR = QTUMEUR()
 """
 
 
-class QTUMUSD(NamedTuple):
+class QTUMUSD(Symbol):
     """
         name: QTUMUSD
         significant_digits: None
@@ -21983,7 +22139,7 @@ class QTUMUSD(NamedTuple):
         return "QTUMUSD"
 
 
-QTUMUSD = QTUMUSD()
+QTUMUSD = QTUMUSD(*QTUMUSD._fields)
 """
     name: QTUMUSD
     significant_digits: None
@@ -21997,7 +22153,7 @@ QTUMUSD = QTUMUSD()
 """
 
 
-class QTUMXBT(NamedTuple):
+class QTUMXBT(Symbol):
     """
         name: QTUMXBT
         significant_digits: None
@@ -22035,7 +22191,7 @@ class QTUMXBT(NamedTuple):
         return "QTUMXBT"
 
 
-QTUMXBT = QTUMXBT()
+QTUMXBT = QTUMXBT(*QTUMXBT._fields)
 """
     name: QTUMXBT
     significant_digits: None
@@ -22049,7 +22205,7 @@ QTUMXBT = QTUMXBT()
 """
 
 
-class RADEUR(NamedTuple):
+class RADEUR(Symbol):
     """
         name: RADEUR
         significant_digits: None
@@ -22087,7 +22243,7 @@ class RADEUR(NamedTuple):
         return "RADEUR"
 
 
-RADEUR = RADEUR()
+RADEUR = RADEUR(*RADEUR._fields)
 """
     name: RADEUR
     significant_digits: None
@@ -22101,7 +22257,7 @@ RADEUR = RADEUR()
 """
 
 
-class RADUSD(NamedTuple):
+class RADUSD(Symbol):
     """
         name: RADUSD
         significant_digits: None
@@ -22139,7 +22295,7 @@ class RADUSD(NamedTuple):
         return "RADUSD"
 
 
-RADUSD = RADUSD()
+RADUSD = RADUSD(*RADUSD._fields)
 """
     name: RADUSD
     significant_digits: None
@@ -22153,7 +22309,7 @@ RADUSD = RADUSD()
 """
 
 
-class RAREEUR(NamedTuple):
+class RAREEUR(Symbol):
     """
         name: RAREEUR
         significant_digits: None
@@ -22191,7 +22347,7 @@ class RAREEUR(NamedTuple):
         return "RAREEUR"
 
 
-RAREEUR = RAREEUR()
+RAREEUR = RAREEUR(*RAREEUR._fields)
 """
     name: RAREEUR
     significant_digits: None
@@ -22205,7 +22361,7 @@ RAREEUR = RAREEUR()
 """
 
 
-class RAREUSD(NamedTuple):
+class RAREUSD(Symbol):
     """
         name: RAREUSD
         significant_digits: None
@@ -22243,7 +22399,7 @@ class RAREUSD(NamedTuple):
         return "RAREUSD"
 
 
-RAREUSD = RAREUSD()
+RAREUSD = RAREUSD(*RAREUSD._fields)
 """
     name: RAREUSD
     significant_digits: None
@@ -22257,7 +22413,7 @@ RAREUSD = RAREUSD()
 """
 
 
-class RARIEUR(NamedTuple):
+class RARIEUR(Symbol):
     """
         name: RARIEUR
         significant_digits: None
@@ -22295,7 +22451,7 @@ class RARIEUR(NamedTuple):
         return "RARIEUR"
 
 
-RARIEUR = RARIEUR()
+RARIEUR = RARIEUR(*RARIEUR._fields)
 """
     name: RARIEUR
     significant_digits: None
@@ -22309,7 +22465,7 @@ RARIEUR = RARIEUR()
 """
 
 
-class RARIUSD(NamedTuple):
+class RARIUSD(Symbol):
     """
         name: RARIUSD
         significant_digits: None
@@ -22347,7 +22503,7 @@ class RARIUSD(NamedTuple):
         return "RARIUSD"
 
 
-RARIUSD = RARIUSD()
+RARIUSD = RARIUSD(*RARIUSD._fields)
 """
     name: RARIUSD
     significant_digits: None
@@ -22361,7 +22517,7 @@ RARIUSD = RARIUSD()
 """
 
 
-class RARIXBT(NamedTuple):
+class RARIXBT(Symbol):
     """
         name: RARIXBT
         significant_digits: None
@@ -22399,7 +22555,7 @@ class RARIXBT(NamedTuple):
         return "RARIXBT"
 
 
-RARIXBT = RARIXBT()
+RARIXBT = RARIXBT(*RARIXBT._fields)
 """
     name: RARIXBT
     significant_digits: None
@@ -22413,7 +22569,7 @@ RARIXBT = RARIXBT()
 """
 
 
-class RAYEUR(NamedTuple):
+class RAYEUR(Symbol):
     """
         name: RAYEUR
         significant_digits: None
@@ -22451,7 +22607,7 @@ class RAYEUR(NamedTuple):
         return "RAYEUR"
 
 
-RAYEUR = RAYEUR()
+RAYEUR = RAYEUR(*RAYEUR._fields)
 """
     name: RAYEUR
     significant_digits: None
@@ -22465,7 +22621,7 @@ RAYEUR = RAYEUR()
 """
 
 
-class RAYUSD(NamedTuple):
+class RAYUSD(Symbol):
     """
         name: RAYUSD
         significant_digits: None
@@ -22503,7 +22659,7 @@ class RAYUSD(NamedTuple):
         return "RAYUSD"
 
 
-RAYUSD = RAYUSD()
+RAYUSD = RAYUSD(*RAYUSD._fields)
 """
     name: RAYUSD
     significant_digits: None
@@ -22517,7 +22673,7 @@ RAYUSD = RAYUSD()
 """
 
 
-class RBCEUR(NamedTuple):
+class RBCEUR(Symbol):
     """
         name: RBCEUR
         significant_digits: None
@@ -22555,7 +22711,7 @@ class RBCEUR(NamedTuple):
         return "RBCEUR"
 
 
-RBCEUR = RBCEUR()
+RBCEUR = RBCEUR(*RBCEUR._fields)
 """
     name: RBCEUR
     significant_digits: None
@@ -22569,7 +22725,7 @@ RBCEUR = RBCEUR()
 """
 
 
-class RBCUSD(NamedTuple):
+class RBCUSD(Symbol):
     """
         name: RBCUSD
         significant_digits: None
@@ -22607,7 +22763,7 @@ class RBCUSD(NamedTuple):
         return "RBCUSD"
 
 
-RBCUSD = RBCUSD()
+RBCUSD = RBCUSD(*RBCUSD._fields)
 """
     name: RBCUSD
     significant_digits: None
@@ -22621,7 +22777,7 @@ RBCUSD = RBCUSD()
 """
 
 
-class RENEUR(NamedTuple):
+class RENEUR(Symbol):
     """
         name: RENEUR
         significant_digits: None
@@ -22659,7 +22815,7 @@ class RENEUR(NamedTuple):
         return "RENEUR"
 
 
-RENEUR = RENEUR()
+RENEUR = RENEUR(*RENEUR._fields)
 """
     name: RENEUR
     significant_digits: None
@@ -22673,7 +22829,7 @@ RENEUR = RENEUR()
 """
 
 
-class RENUSD(NamedTuple):
+class RENUSD(Symbol):
     """
         name: RENUSD
         significant_digits: None
@@ -22711,7 +22867,7 @@ class RENUSD(NamedTuple):
         return "RENUSD"
 
 
-RENUSD = RENUSD()
+RENUSD = RENUSD(*RENUSD._fields)
 """
     name: RENUSD
     significant_digits: None
@@ -22725,7 +22881,7 @@ RENUSD = RENUSD()
 """
 
 
-class RENXBT(NamedTuple):
+class RENXBT(Symbol):
     """
         name: RENXBT
         significant_digits: None
@@ -22763,7 +22919,7 @@ class RENXBT(NamedTuple):
         return "RENXBT"
 
 
-RENXBT = RENXBT()
+RENXBT = RENXBT(*RENXBT._fields)
 """
     name: RENXBT
     significant_digits: None
@@ -22777,7 +22933,7 @@ RENXBT = RENXBT()
 """
 
 
-class REPV2ETH(NamedTuple):
+class REPV2ETH(Symbol):
     """
         name: REPV2ETH
         significant_digits: None
@@ -22815,7 +22971,7 @@ class REPV2ETH(NamedTuple):
         return "REPV2ETH"
 
 
-REPV2ETH = REPV2ETH()
+REPV2ETH = REPV2ETH(*REPV2ETH._fields)
 """
     name: REPV2ETH
     significant_digits: None
@@ -22829,7 +22985,7 @@ REPV2ETH = REPV2ETH()
 """
 
 
-class REPV2EUR(NamedTuple):
+class REPV2EUR(Symbol):
     """
         name: REPV2EUR
         significant_digits: None
@@ -22867,7 +23023,7 @@ class REPV2EUR(NamedTuple):
         return "REPV2EUR"
 
 
-REPV2EUR = REPV2EUR()
+REPV2EUR = REPV2EUR(*REPV2EUR._fields)
 """
     name: REPV2EUR
     significant_digits: None
@@ -22881,7 +23037,7 @@ REPV2EUR = REPV2EUR()
 """
 
 
-class REPV2USD(NamedTuple):
+class REPV2USD(Symbol):
     """
         name: REPV2USD
         significant_digits: None
@@ -22919,7 +23075,7 @@ class REPV2USD(NamedTuple):
         return "REPV2USD"
 
 
-REPV2USD = REPV2USD()
+REPV2USD = REPV2USD(*REPV2USD._fields)
 """
     name: REPV2USD
     significant_digits: None
@@ -22933,7 +23089,7 @@ REPV2USD = REPV2USD()
 """
 
 
-class REPV2XBT(NamedTuple):
+class REPV2XBT(Symbol):
     """
         name: REPV2XBT
         significant_digits: None
@@ -22971,7 +23127,7 @@ class REPV2XBT(NamedTuple):
         return "REPV2XBT"
 
 
-REPV2XBT = REPV2XBT()
+REPV2XBT = REPV2XBT(*REPV2XBT._fields)
 """
     name: REPV2XBT
     significant_digits: None
@@ -22985,7 +23141,7 @@ REPV2XBT = REPV2XBT()
 """
 
 
-class REQEUR(NamedTuple):
+class REQEUR(Symbol):
     """
         name: REQEUR
         significant_digits: None
@@ -23023,7 +23179,7 @@ class REQEUR(NamedTuple):
         return "REQEUR"
 
 
-REQEUR = REQEUR()
+REQEUR = REQEUR(*REQEUR._fields)
 """
     name: REQEUR
     significant_digits: None
@@ -23037,7 +23193,7 @@ REQEUR = REQEUR()
 """
 
 
-class REQUSD(NamedTuple):
+class REQUSD(Symbol):
     """
         name: REQUSD
         significant_digits: None
@@ -23075,7 +23231,7 @@ class REQUSD(NamedTuple):
         return "REQUSD"
 
 
-REQUSD = REQUSD()
+REQUSD = REQUSD(*REQUSD._fields)
 """
     name: REQUSD
     significant_digits: None
@@ -23089,7 +23245,7 @@ REQUSD = REQUSD()
 """
 
 
-class RLCEUR(NamedTuple):
+class RLCEUR(Symbol):
     """
         name: RLCEUR
         significant_digits: None
@@ -23127,7 +23283,7 @@ class RLCEUR(NamedTuple):
         return "RLCEUR"
 
 
-RLCEUR = RLCEUR()
+RLCEUR = RLCEUR(*RLCEUR._fields)
 """
     name: RLCEUR
     significant_digits: None
@@ -23141,7 +23297,7 @@ RLCEUR = RLCEUR()
 """
 
 
-class RLCUSD(NamedTuple):
+class RLCUSD(Symbol):
     """
         name: RLCUSD
         significant_digits: None
@@ -23179,7 +23335,7 @@ class RLCUSD(NamedTuple):
         return "RLCUSD"
 
 
-RLCUSD = RLCUSD()
+RLCUSD = RLCUSD(*RLCUSD._fields)
 """
     name: RLCUSD
     significant_digits: None
@@ -23193,7 +23349,7 @@ RLCUSD = RLCUSD()
 """
 
 
-class RNDREUR(NamedTuple):
+class RNDREUR(Symbol):
     """
         name: RNDREUR
         significant_digits: None
@@ -23231,7 +23387,7 @@ class RNDREUR(NamedTuple):
         return "RNDREUR"
 
 
-RNDREUR = RNDREUR()
+RNDREUR = RNDREUR(*RNDREUR._fields)
 """
     name: RNDREUR
     significant_digits: None
@@ -23245,7 +23401,7 @@ RNDREUR = RNDREUR()
 """
 
 
-class RNDRUSD(NamedTuple):
+class RNDRUSD(Symbol):
     """
         name: RNDRUSD
         significant_digits: None
@@ -23283,7 +23439,7 @@ class RNDRUSD(NamedTuple):
         return "RNDRUSD"
 
 
-RNDRUSD = RNDRUSD()
+RNDRUSD = RNDRUSD(*RNDRUSD._fields)
 """
     name: RNDRUSD
     significant_digits: None
@@ -23297,7 +23453,7 @@ RNDRUSD = RNDRUSD()
 """
 
 
-class ROOKEUR(NamedTuple):
+class ROOKEUR(Symbol):
     """
         name: ROOKEUR
         significant_digits: None
@@ -23335,7 +23491,7 @@ class ROOKEUR(NamedTuple):
         return "ROOKEUR"
 
 
-ROOKEUR = ROOKEUR()
+ROOKEUR = ROOKEUR(*ROOKEUR._fields)
 """
     name: ROOKEUR
     significant_digits: None
@@ -23349,7 +23505,7 @@ ROOKEUR = ROOKEUR()
 """
 
 
-class ROOKUSD(NamedTuple):
+class ROOKUSD(Symbol):
     """
         name: ROOKUSD
         significant_digits: None
@@ -23387,7 +23543,7 @@ class ROOKUSD(NamedTuple):
         return "ROOKUSD"
 
 
-ROOKUSD = ROOKUSD()
+ROOKUSD = ROOKUSD(*ROOKUSD._fields)
 """
     name: ROOKUSD
     significant_digits: None
@@ -23401,7 +23557,7 @@ ROOKUSD = ROOKUSD()
 """
 
 
-class RPLEUR(NamedTuple):
+class RPLEUR(Symbol):
     """
         name: RPLEUR
         significant_digits: None
@@ -23439,7 +23595,7 @@ class RPLEUR(NamedTuple):
         return "RPLEUR"
 
 
-RPLEUR = RPLEUR()
+RPLEUR = RPLEUR(*RPLEUR._fields)
 """
     name: RPLEUR
     significant_digits: None
@@ -23453,7 +23609,7 @@ RPLEUR = RPLEUR()
 """
 
 
-class RPLUSD(NamedTuple):
+class RPLUSD(Symbol):
     """
         name: RPLUSD
         significant_digits: None
@@ -23491,7 +23647,7 @@ class RPLUSD(NamedTuple):
         return "RPLUSD"
 
 
-RPLUSD = RPLUSD()
+RPLUSD = RPLUSD(*RPLUSD._fields)
 """
     name: RPLUSD
     significant_digits: None
@@ -23505,7 +23661,7 @@ RPLUSD = RPLUSD()
 """
 
 
-class RUNEEUR(NamedTuple):
+class RUNEEUR(Symbol):
     """
         name: RUNEEUR
         significant_digits: None
@@ -23543,7 +23699,7 @@ class RUNEEUR(NamedTuple):
         return "RUNEEUR"
 
 
-RUNEEUR = RUNEEUR()
+RUNEEUR = RUNEEUR(*RUNEEUR._fields)
 """
     name: RUNEEUR
     significant_digits: None
@@ -23557,7 +23713,7 @@ RUNEEUR = RUNEEUR()
 """
 
 
-class RUNEUSD(NamedTuple):
+class RUNEUSD(Symbol):
     """
         name: RUNEUSD
         significant_digits: None
@@ -23595,7 +23751,7 @@ class RUNEUSD(NamedTuple):
         return "RUNEUSD"
 
 
-RUNEUSD = RUNEUSD()
+RUNEUSD = RUNEUSD(*RUNEUSD._fields)
 """
     name: RUNEUSD
     significant_digits: None
@@ -23609,7 +23765,7 @@ RUNEUSD = RUNEUSD()
 """
 
 
-class SAMOEUR(NamedTuple):
+class SAMOEUR(Symbol):
     """
         name: SAMOEUR
         significant_digits: None
@@ -23647,7 +23803,7 @@ class SAMOEUR(NamedTuple):
         return "SAMOEUR"
 
 
-SAMOEUR = SAMOEUR()
+SAMOEUR = SAMOEUR(*SAMOEUR._fields)
 """
     name: SAMOEUR
     significant_digits: None
@@ -23661,7 +23817,7 @@ SAMOEUR = SAMOEUR()
 """
 
 
-class SAMOUSD(NamedTuple):
+class SAMOUSD(Symbol):
     """
         name: SAMOUSD
         significant_digits: None
@@ -23699,7 +23855,7 @@ class SAMOUSD(NamedTuple):
         return "SAMOUSD"
 
 
-SAMOUSD = SAMOUSD()
+SAMOUSD = SAMOUSD(*SAMOUSD._fields)
 """
     name: SAMOUSD
     significant_digits: None
@@ -23713,7 +23869,7 @@ SAMOUSD = SAMOUSD()
 """
 
 
-class SANDEUR(NamedTuple):
+class SANDEUR(Symbol):
     """
         name: SANDEUR
         significant_digits: None
@@ -23751,7 +23907,7 @@ class SANDEUR(NamedTuple):
         return "SANDEUR"
 
 
-SANDEUR = SANDEUR()
+SANDEUR = SANDEUR(*SANDEUR._fields)
 """
     name: SANDEUR
     significant_digits: None
@@ -23765,7 +23921,7 @@ SANDEUR = SANDEUR()
 """
 
 
-class SANDGBP(NamedTuple):
+class SANDGBP(Symbol):
     """
         name: SANDGBP
         significant_digits: None
@@ -23803,7 +23959,7 @@ class SANDGBP(NamedTuple):
         return "SANDGBP"
 
 
-SANDGBP = SANDGBP()
+SANDGBP = SANDGBP(*SANDGBP._fields)
 """
     name: SANDGBP
     significant_digits: None
@@ -23817,7 +23973,7 @@ SANDGBP = SANDGBP()
 """
 
 
-class SANDUSD(NamedTuple):
+class SANDUSD(Symbol):
     """
         name: SANDUSD
         significant_digits: None
@@ -23855,7 +24011,7 @@ class SANDUSD(NamedTuple):
         return "SANDUSD"
 
 
-SANDUSD = SANDUSD()
+SANDUSD = SANDUSD(*SANDUSD._fields)
 """
     name: SANDUSD
     significant_digits: None
@@ -23869,7 +24025,7 @@ SANDUSD = SANDUSD()
 """
 
 
-class SANDXBT(NamedTuple):
+class SANDXBT(Symbol):
     """
         name: SANDXBT
         significant_digits: None
@@ -23907,7 +24063,7 @@ class SANDXBT(NamedTuple):
         return "SANDXBT"
 
 
-SANDXBT = SANDXBT()
+SANDXBT = SANDXBT(*SANDXBT._fields)
 """
     name: SANDXBT
     significant_digits: None
@@ -23921,7 +24077,7 @@ SANDXBT = SANDXBT()
 """
 
 
-class SBREUR(NamedTuple):
+class SBREUR(Symbol):
     """
         name: SBREUR
         significant_digits: None
@@ -23959,7 +24115,7 @@ class SBREUR(NamedTuple):
         return "SBREUR"
 
 
-SBREUR = SBREUR()
+SBREUR = SBREUR(*SBREUR._fields)
 """
     name: SBREUR
     significant_digits: None
@@ -23973,7 +24129,7 @@ SBREUR = SBREUR()
 """
 
 
-class SBRUSD(NamedTuple):
+class SBRUSD(Symbol):
     """
         name: SBRUSD
         significant_digits: None
@@ -24011,7 +24167,7 @@ class SBRUSD(NamedTuple):
         return "SBRUSD"
 
 
-SBRUSD = SBRUSD()
+SBRUSD = SBRUSD(*SBRUSD._fields)
 """
     name: SBRUSD
     significant_digits: None
@@ -24025,7 +24181,7 @@ SBRUSD = SBRUSD()
 """
 
 
-class SCETH(NamedTuple):
+class SCETH(Symbol):
     """
         name: SCETH
         significant_digits: None
@@ -24063,7 +24219,7 @@ class SCETH(NamedTuple):
         return "SCETH"
 
 
-SCETH = SCETH()
+SCETH = SCETH(*SCETH._fields)
 """
     name: SCETH
     significant_digits: None
@@ -24077,7 +24233,7 @@ SCETH = SCETH()
 """
 
 
-class SCEUR(NamedTuple):
+class SCEUR(Symbol):
     """
         name: SCEUR
         significant_digits: None
@@ -24115,7 +24271,7 @@ class SCEUR(NamedTuple):
         return "SCEUR"
 
 
-SCEUR = SCEUR()
+SCEUR = SCEUR(*SCEUR._fields)
 """
     name: SCEUR
     significant_digits: None
@@ -24129,7 +24285,7 @@ SCEUR = SCEUR()
 """
 
 
-class SCRTEUR(NamedTuple):
+class SCRTEUR(Symbol):
     """
         name: SCRTEUR
         significant_digits: None
@@ -24167,7 +24323,7 @@ class SCRTEUR(NamedTuple):
         return "SCRTEUR"
 
 
-SCRTEUR = SCRTEUR()
+SCRTEUR = SCRTEUR(*SCRTEUR._fields)
 """
     name: SCRTEUR
     significant_digits: None
@@ -24181,7 +24337,7 @@ SCRTEUR = SCRTEUR()
 """
 
 
-class SCRTUSD(NamedTuple):
+class SCRTUSD(Symbol):
     """
         name: SCRTUSD
         significant_digits: None
@@ -24219,7 +24375,7 @@ class SCRTUSD(NamedTuple):
         return "SCRTUSD"
 
 
-SCRTUSD = SCRTUSD()
+SCRTUSD = SCRTUSD(*SCRTUSD._fields)
 """
     name: SCRTUSD
     significant_digits: None
@@ -24233,7 +24389,7 @@ SCRTUSD = SCRTUSD()
 """
 
 
-class SCUSD(NamedTuple):
+class SCUSD(Symbol):
     """
         name: SCUSD
         significant_digits: None
@@ -24271,7 +24427,7 @@ class SCUSD(NamedTuple):
         return "SCUSD"
 
 
-SCUSD = SCUSD()
+SCUSD = SCUSD(*SCUSD._fields)
 """
     name: SCUSD
     significant_digits: None
@@ -24285,7 +24441,7 @@ SCUSD = SCUSD()
 """
 
 
-class SCXBT(NamedTuple):
+class SCXBT(Symbol):
     """
         name: SCXBT
         significant_digits: None
@@ -24323,7 +24479,7 @@ class SCXBT(NamedTuple):
         return "SCXBT"
 
 
-SCXBT = SCXBT()
+SCXBT = SCXBT(*SCXBT._fields)
 """
     name: SCXBT
     significant_digits: None
@@ -24337,7 +24493,7 @@ SCXBT = SCXBT()
 """
 
 
-class SDNEUR(NamedTuple):
+class SDNEUR(Symbol):
     """
         name: SDNEUR
         significant_digits: None
@@ -24375,7 +24531,7 @@ class SDNEUR(NamedTuple):
         return "SDNEUR"
 
 
-SDNEUR = SDNEUR()
+SDNEUR = SDNEUR(*SDNEUR._fields)
 """
     name: SDNEUR
     significant_digits: None
@@ -24389,7 +24545,7 @@ SDNEUR = SDNEUR()
 """
 
 
-class SDNUSD(NamedTuple):
+class SDNUSD(Symbol):
     """
         name: SDNUSD
         significant_digits: None
@@ -24427,7 +24583,7 @@ class SDNUSD(NamedTuple):
         return "SDNUSD"
 
 
-SDNUSD = SDNUSD()
+SDNUSD = SDNUSD(*SDNUSD._fields)
 """
     name: SDNUSD
     significant_digits: None
@@ -24441,7 +24597,7 @@ SDNUSD = SDNUSD()
 """
 
 
-class SGBEUR(NamedTuple):
+class SGBEUR(Symbol):
     """
         name: SGBEUR
         significant_digits: None
@@ -24479,7 +24635,7 @@ class SGBEUR(NamedTuple):
         return "SGBEUR"
 
 
-SGBEUR = SGBEUR()
+SGBEUR = SGBEUR(*SGBEUR._fields)
 """
     name: SGBEUR
     significant_digits: None
@@ -24493,7 +24649,7 @@ SGBEUR = SGBEUR()
 """
 
 
-class SGBUSD(NamedTuple):
+class SGBUSD(Symbol):
     """
         name: SGBUSD
         significant_digits: None
@@ -24531,7 +24687,7 @@ class SGBUSD(NamedTuple):
         return "SGBUSD"
 
 
-SGBUSD = SGBUSD()
+SGBUSD = SGBUSD(*SGBUSD._fields)
 """
     name: SGBUSD
     significant_digits: None
@@ -24545,7 +24701,7 @@ SGBUSD = SGBUSD()
 """
 
 
-class SHIBEUR(NamedTuple):
+class SHIBEUR(Symbol):
     """
         name: SHIBEUR
         significant_digits: None
@@ -24583,7 +24739,7 @@ class SHIBEUR(NamedTuple):
         return "SHIBEUR"
 
 
-SHIBEUR = SHIBEUR()
+SHIBEUR = SHIBEUR(*SHIBEUR._fields)
 """
     name: SHIBEUR
     significant_digits: None
@@ -24597,7 +24753,7 @@ SHIBEUR = SHIBEUR()
 """
 
 
-class SHIBUSD(NamedTuple):
+class SHIBUSD(Symbol):
     """
         name: SHIBUSD
         significant_digits: None
@@ -24635,7 +24791,7 @@ class SHIBUSD(NamedTuple):
         return "SHIBUSD"
 
 
-SHIBUSD = SHIBUSD()
+SHIBUSD = SHIBUSD(*SHIBUSD._fields)
 """
     name: SHIBUSD
     significant_digits: None
@@ -24649,7 +24805,7 @@ SHIBUSD = SHIBUSD()
 """
 
 
-class SHIBUSDT(NamedTuple):
+class SHIBUSDT(Symbol):
     """
         name: SHIBUSDT
         significant_digits: None
@@ -24687,7 +24843,7 @@ class SHIBUSDT(NamedTuple):
         return "SHIBUSDT"
 
 
-SHIBUSDT = SHIBUSDT()
+SHIBUSDT = SHIBUSDT(*SHIBUSDT._fields)
 """
     name: SHIBUSDT
     significant_digits: None
@@ -24701,7 +24857,7 @@ SHIBUSDT = SHIBUSDT()
 """
 
 
-class SNXETH(NamedTuple):
+class SNXETH(Symbol):
     """
         name: SNXETH
         significant_digits: None
@@ -24739,7 +24895,7 @@ class SNXETH(NamedTuple):
         return "SNXETH"
 
 
-SNXETH = SNXETH()
+SNXETH = SNXETH(*SNXETH._fields)
 """
     name: SNXETH
     significant_digits: None
@@ -24753,7 +24909,7 @@ SNXETH = SNXETH()
 """
 
 
-class SNXEUR(NamedTuple):
+class SNXEUR(Symbol):
     """
         name: SNXEUR
         significant_digits: None
@@ -24791,7 +24947,7 @@ class SNXEUR(NamedTuple):
         return "SNXEUR"
 
 
-SNXEUR = SNXEUR()
+SNXEUR = SNXEUR(*SNXEUR._fields)
 """
     name: SNXEUR
     significant_digits: None
@@ -24805,7 +24961,7 @@ SNXEUR = SNXEUR()
 """
 
 
-class SNXUSD(NamedTuple):
+class SNXUSD(Symbol):
     """
         name: SNXUSD
         significant_digits: None
@@ -24843,7 +24999,7 @@ class SNXUSD(NamedTuple):
         return "SNXUSD"
 
 
-SNXUSD = SNXUSD()
+SNXUSD = SNXUSD(*SNXUSD._fields)
 """
     name: SNXUSD
     significant_digits: None
@@ -24857,7 +25013,7 @@ SNXUSD = SNXUSD()
 """
 
 
-class SNXXBT(NamedTuple):
+class SNXXBT(Symbol):
     """
         name: SNXXBT
         significant_digits: None
@@ -24895,7 +25051,7 @@ class SNXXBT(NamedTuple):
         return "SNXXBT"
 
 
-SNXXBT = SNXXBT()
+SNXXBT = SNXXBT(*SNXXBT._fields)
 """
     name: SNXXBT
     significant_digits: None
@@ -24909,7 +25065,7 @@ SNXXBT = SNXXBT()
 """
 
 
-class SOLEUR(NamedTuple):
+class SOLEUR(Symbol):
     """
         name: SOLEUR
         significant_digits: None
@@ -24947,7 +25103,7 @@ class SOLEUR(NamedTuple):
         return "SOLEUR"
 
 
-SOLEUR = SOLEUR()
+SOLEUR = SOLEUR(*SOLEUR._fields)
 """
     name: SOLEUR
     significant_digits: None
@@ -24961,7 +25117,7 @@ SOLEUR = SOLEUR()
 """
 
 
-class SOLGBP(NamedTuple):
+class SOLGBP(Symbol):
     """
         name: SOLGBP
         significant_digits: None
@@ -24999,7 +25155,7 @@ class SOLGBP(NamedTuple):
         return "SOLGBP"
 
 
-SOLGBP = SOLGBP()
+SOLGBP = SOLGBP(*SOLGBP._fields)
 """
     name: SOLGBP
     significant_digits: None
@@ -25013,7 +25169,7 @@ SOLGBP = SOLGBP()
 """
 
 
-class SOLUSD(NamedTuple):
+class SOLUSD(Symbol):
     """
         name: SOLUSD
         significant_digits: None
@@ -25051,7 +25207,7 @@ class SOLUSD(NamedTuple):
         return "SOLUSD"
 
 
-SOLUSD = SOLUSD()
+SOLUSD = SOLUSD(*SOLUSD._fields)
 """
     name: SOLUSD
     significant_digits: None
@@ -25065,7 +25221,7 @@ SOLUSD = SOLUSD()
 """
 
 
-class SOLUSDT(NamedTuple):
+class SOLUSDT(Symbol):
     """
         name: SOLUSDT
         significant_digits: None
@@ -25103,7 +25259,7 @@ class SOLUSDT(NamedTuple):
         return "SOLUSDT"
 
 
-SOLUSDT = SOLUSDT()
+SOLUSDT = SOLUSDT(*SOLUSDT._fields)
 """
     name: SOLUSDT
     significant_digits: None
@@ -25117,7 +25273,7 @@ SOLUSDT = SOLUSDT()
 """
 
 
-class SOLXBT(NamedTuple):
+class SOLXBT(Symbol):
     """
         name: SOLXBT
         significant_digits: None
@@ -25155,7 +25311,7 @@ class SOLXBT(NamedTuple):
         return "SOLXBT"
 
 
-SOLXBT = SOLXBT()
+SOLXBT = SOLXBT(*SOLXBT._fields)
 """
     name: SOLXBT
     significant_digits: None
@@ -25169,7 +25325,7 @@ SOLXBT = SOLXBT()
 """
 
 
-class SPELLEUR(NamedTuple):
+class SPELLEUR(Symbol):
     """
         name: SPELLEUR
         significant_digits: None
@@ -25207,7 +25363,7 @@ class SPELLEUR(NamedTuple):
         return "SPELLEUR"
 
 
-SPELLEUR = SPELLEUR()
+SPELLEUR = SPELLEUR(*SPELLEUR._fields)
 """
     name: SPELLEUR
     significant_digits: None
@@ -25221,7 +25377,7 @@ SPELLEUR = SPELLEUR()
 """
 
 
-class SPELLUSD(NamedTuple):
+class SPELLUSD(Symbol):
     """
         name: SPELLUSD
         significant_digits: None
@@ -25259,7 +25415,7 @@ class SPELLUSD(NamedTuple):
         return "SPELLUSD"
 
 
-SPELLUSD = SPELLUSD()
+SPELLUSD = SPELLUSD(*SPELLUSD._fields)
 """
     name: SPELLUSD
     significant_digits: None
@@ -25273,7 +25429,7 @@ SPELLUSD = SPELLUSD()
 """
 
 
-class SRMEUR(NamedTuple):
+class SRMEUR(Symbol):
     """
         name: SRMEUR
         significant_digits: None
@@ -25311,7 +25467,7 @@ class SRMEUR(NamedTuple):
         return "SRMEUR"
 
 
-SRMEUR = SRMEUR()
+SRMEUR = SRMEUR(*SRMEUR._fields)
 """
     name: SRMEUR
     significant_digits: None
@@ -25325,7 +25481,7 @@ SRMEUR = SRMEUR()
 """
 
 
-class SRMUSD(NamedTuple):
+class SRMUSD(Symbol):
     """
         name: SRMUSD
         significant_digits: None
@@ -25363,7 +25519,7 @@ class SRMUSD(NamedTuple):
         return "SRMUSD"
 
 
-SRMUSD = SRMUSD()
+SRMUSD = SRMUSD(*SRMUSD._fields)
 """
     name: SRMUSD
     significant_digits: None
@@ -25377,7 +25533,7 @@ SRMUSD = SRMUSD()
 """
 
 
-class SRMXBT(NamedTuple):
+class SRMXBT(Symbol):
     """
         name: SRMXBT
         significant_digits: None
@@ -25415,7 +25571,7 @@ class SRMXBT(NamedTuple):
         return "SRMXBT"
 
 
-SRMXBT = SRMXBT()
+SRMXBT = SRMXBT(*SRMXBT._fields)
 """
     name: SRMXBT
     significant_digits: None
@@ -25429,7 +25585,7 @@ SRMXBT = SRMXBT()
 """
 
 
-class STEPEUR(NamedTuple):
+class STEPEUR(Symbol):
     """
         name: STEPEUR
         significant_digits: None
@@ -25467,7 +25623,7 @@ class STEPEUR(NamedTuple):
         return "STEPEUR"
 
 
-STEPEUR = STEPEUR()
+STEPEUR = STEPEUR(*STEPEUR._fields)
 """
     name: STEPEUR
     significant_digits: None
@@ -25481,7 +25637,7 @@ STEPEUR = STEPEUR()
 """
 
 
-class STEPUSD(NamedTuple):
+class STEPUSD(Symbol):
     """
         name: STEPUSD
         significant_digits: None
@@ -25519,7 +25675,7 @@ class STEPUSD(NamedTuple):
         return "STEPUSD"
 
 
-STEPUSD = STEPUSD()
+STEPUSD = STEPUSD(*STEPUSD._fields)
 """
     name: STEPUSD
     significant_digits: None
@@ -25533,7 +25689,7 @@ STEPUSD = STEPUSD()
 """
 
 
-class STGEUR(NamedTuple):
+class STGEUR(Symbol):
     """
         name: STGEUR
         significant_digits: None
@@ -25571,7 +25727,7 @@ class STGEUR(NamedTuple):
         return "STGEUR"
 
 
-STGEUR = STGEUR()
+STGEUR = STGEUR(*STGEUR._fields)
 """
     name: STGEUR
     significant_digits: None
@@ -25585,7 +25741,7 @@ STGEUR = STGEUR()
 """
 
 
-class STGUSD(NamedTuple):
+class STGUSD(Symbol):
     """
         name: STGUSD
         significant_digits: None
@@ -25623,7 +25779,7 @@ class STGUSD(NamedTuple):
         return "STGUSD"
 
 
-STGUSD = STGUSD()
+STGUSD = STGUSD(*STGUSD._fields)
 """
     name: STGUSD
     significant_digits: None
@@ -25637,7 +25793,7 @@ STGUSD = STGUSD()
 """
 
 
-class STORJEUR(NamedTuple):
+class STORJEUR(Symbol):
     """
         name: STORJEUR
         significant_digits: None
@@ -25675,7 +25831,7 @@ class STORJEUR(NamedTuple):
         return "STORJEUR"
 
 
-STORJEUR = STORJEUR()
+STORJEUR = STORJEUR(*STORJEUR._fields)
 """
     name: STORJEUR
     significant_digits: None
@@ -25689,7 +25845,7 @@ STORJEUR = STORJEUR()
 """
 
 
-class STORJUSD(NamedTuple):
+class STORJUSD(Symbol):
     """
         name: STORJUSD
         significant_digits: None
@@ -25727,7 +25883,7 @@ class STORJUSD(NamedTuple):
         return "STORJUSD"
 
 
-STORJUSD = STORJUSD()
+STORJUSD = STORJUSD(*STORJUSD._fields)
 """
     name: STORJUSD
     significant_digits: None
@@ -25741,7 +25897,7 @@ STORJUSD = STORJUSD()
 """
 
 
-class STORJXBT(NamedTuple):
+class STORJXBT(Symbol):
     """
         name: STORJXBT
         significant_digits: None
@@ -25779,7 +25935,7 @@ class STORJXBT(NamedTuple):
         return "STORJXBT"
 
 
-STORJXBT = STORJXBT()
+STORJXBT = STORJXBT(*STORJXBT._fields)
 """
     name: STORJXBT
     significant_digits: None
@@ -25793,7 +25949,7 @@ STORJXBT = STORJXBT()
 """
 
 
-class STXEUR(NamedTuple):
+class STXEUR(Symbol):
     """
         name: STXEUR
         significant_digits: None
@@ -25831,7 +25987,7 @@ class STXEUR(NamedTuple):
         return "STXEUR"
 
 
-STXEUR = STXEUR()
+STXEUR = STXEUR(*STXEUR._fields)
 """
     name: STXEUR
     significant_digits: None
@@ -25845,7 +26001,7 @@ STXEUR = STXEUR()
 """
 
 
-class STXUSD(NamedTuple):
+class STXUSD(Symbol):
     """
         name: STXUSD
         significant_digits: None
@@ -25883,7 +26039,7 @@ class STXUSD(NamedTuple):
         return "STXUSD"
 
 
-STXUSD = STXUSD()
+STXUSD = STXUSD(*STXUSD._fields)
 """
     name: STXUSD
     significant_digits: None
@@ -25897,7 +26053,111 @@ STXUSD = STXUSD()
 """
 
 
-class SUPEREUR(NamedTuple):
+class SUIEUR(Symbol):
+    """
+        name: SUIEUR
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.005
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "SUIEUR"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.005
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUIEUR"
+
+    def __str__(self):
+        return "SUIEUR"
+
+    def __call__(self):
+        return "SUIEUR"
+
+
+SUIEUR = SUIEUR(*SUIEUR._fields)
+"""
+    name: SUIEUR
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.005
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class SUIUSD(Symbol):
+    """
+        name: SUIUSD
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: 0.005
+        max_order_size: None
+        has_margin: False
+        exchange: kraken
+    """
+    name: str = "SUIUSD"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = 0.005
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "kraken"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUIUSD"
+
+    def __str__(self):
+        return "SUIUSD"
+
+    def __call__(self):
+        return "SUIUSD"
+
+
+SUIUSD = SUIUSD(*SUIUSD._fields)
+"""
+    name: SUIUSD
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: 0.005
+    max_order_size: None
+    has_margin: False
+    exchange: kraken
+"""
+
+
+class SUPEREUR(Symbol):
     """
         name: SUPEREUR
         significant_digits: None
@@ -25935,7 +26195,7 @@ class SUPEREUR(NamedTuple):
         return "SUPEREUR"
 
 
-SUPEREUR = SUPEREUR()
+SUPEREUR = SUPEREUR(*SUPEREUR._fields)
 """
     name: SUPEREUR
     significant_digits: None
@@ -25949,7 +26209,7 @@ SUPEREUR = SUPEREUR()
 """
 
 
-class SUPERUSD(NamedTuple):
+class SUPERUSD(Symbol):
     """
         name: SUPERUSD
         significant_digits: None
@@ -25987,7 +26247,7 @@ class SUPERUSD(NamedTuple):
         return "SUPERUSD"
 
 
-SUPERUSD = SUPERUSD()
+SUPERUSD = SUPERUSD(*SUPERUSD._fields)
 """
     name: SUPERUSD
     significant_digits: None
@@ -26001,7 +26261,7 @@ SUPERUSD = SUPERUSD()
 """
 
 
-class SUSHIEUR(NamedTuple):
+class SUSHIEUR(Symbol):
     """
         name: SUSHIEUR
         significant_digits: None
@@ -26039,7 +26299,7 @@ class SUSHIEUR(NamedTuple):
         return "SUSHIEUR"
 
 
-SUSHIEUR = SUSHIEUR()
+SUSHIEUR = SUSHIEUR(*SUSHIEUR._fields)
 """
     name: SUSHIEUR
     significant_digits: None
@@ -26053,7 +26313,7 @@ SUSHIEUR = SUSHIEUR()
 """
 
 
-class SUSHIGBP(NamedTuple):
+class SUSHIGBP(Symbol):
     """
         name: SUSHIGBP
         significant_digits: None
@@ -26091,7 +26351,7 @@ class SUSHIGBP(NamedTuple):
         return "SUSHIGBP"
 
 
-SUSHIGBP = SUSHIGBP()
+SUSHIGBP = SUSHIGBP(*SUSHIGBP._fields)
 """
     name: SUSHIGBP
     significant_digits: None
@@ -26105,7 +26365,7 @@ SUSHIGBP = SUSHIGBP()
 """
 
 
-class SUSHIUSD(NamedTuple):
+class SUSHIUSD(Symbol):
     """
         name: SUSHIUSD
         significant_digits: None
@@ -26143,7 +26403,7 @@ class SUSHIUSD(NamedTuple):
         return "SUSHIUSD"
 
 
-SUSHIUSD = SUSHIUSD()
+SUSHIUSD = SUSHIUSD(*SUSHIUSD._fields)
 """
     name: SUSHIUSD
     significant_digits: None
@@ -26157,7 +26417,7 @@ SUSHIUSD = SUSHIUSD()
 """
 
 
-class SUSHIXBT(NamedTuple):
+class SUSHIXBT(Symbol):
     """
         name: SUSHIXBT
         significant_digits: None
@@ -26195,7 +26455,7 @@ class SUSHIXBT(NamedTuple):
         return "SUSHIXBT"
 
 
-SUSHIXBT = SUSHIXBT()
+SUSHIXBT = SUSHIXBT(*SUSHIXBT._fields)
 """
     name: SUSHIXBT
     significant_digits: None
@@ -26209,7 +26469,7 @@ SUSHIXBT = SUSHIXBT()
 """
 
 
-class SYNEUR(NamedTuple):
+class SYNEUR(Symbol):
     """
         name: SYNEUR
         significant_digits: None
@@ -26247,7 +26507,7 @@ class SYNEUR(NamedTuple):
         return "SYNEUR"
 
 
-SYNEUR = SYNEUR()
+SYNEUR = SYNEUR(*SYNEUR._fields)
 """
     name: SYNEUR
     significant_digits: None
@@ -26261,7 +26521,7 @@ SYNEUR = SYNEUR()
 """
 
 
-class SYNUSD(NamedTuple):
+class SYNUSD(Symbol):
     """
         name: SYNUSD
         significant_digits: None
@@ -26299,7 +26559,7 @@ class SYNUSD(NamedTuple):
         return "SYNUSD"
 
 
-SYNUSD = SYNUSD()
+SYNUSD = SYNUSD(*SYNUSD._fields)
 """
     name: SYNUSD
     significant_digits: None
@@ -26313,7 +26573,7 @@ SYNUSD = SYNUSD()
 """
 
 
-class TBTCEUR(NamedTuple):
+class TBTCEUR(Symbol):
     """
         name: TBTCEUR
         significant_digits: None
@@ -26351,7 +26611,7 @@ class TBTCEUR(NamedTuple):
         return "TBTCEUR"
 
 
-TBTCEUR = TBTCEUR()
+TBTCEUR = TBTCEUR(*TBTCEUR._fields)
 """
     name: TBTCEUR
     significant_digits: None
@@ -26365,7 +26625,7 @@ TBTCEUR = TBTCEUR()
 """
 
 
-class TBTCUSD(NamedTuple):
+class TBTCUSD(Symbol):
     """
         name: TBTCUSD
         significant_digits: None
@@ -26403,7 +26663,7 @@ class TBTCUSD(NamedTuple):
         return "TBTCUSD"
 
 
-TBTCUSD = TBTCUSD()
+TBTCUSD = TBTCUSD(*TBTCUSD._fields)
 """
     name: TBTCUSD
     significant_digits: None
@@ -26417,7 +26677,7 @@ TBTCUSD = TBTCUSD()
 """
 
 
-class TBTCXBT(NamedTuple):
+class TBTCXBT(Symbol):
     """
         name: TBTCXBT
         significant_digits: None
@@ -26455,7 +26715,7 @@ class TBTCXBT(NamedTuple):
         return "TBTCXBT"
 
 
-TBTCXBT = TBTCXBT()
+TBTCXBT = TBTCXBT(*TBTCXBT._fields)
 """
     name: TBTCXBT
     significant_digits: None
@@ -26469,7 +26729,7 @@ TBTCXBT = TBTCXBT()
 """
 
 
-class TEEREUR(NamedTuple):
+class TEEREUR(Symbol):
     """
         name: TEEREUR
         significant_digits: None
@@ -26507,7 +26767,7 @@ class TEEREUR(NamedTuple):
         return "TEEREUR"
 
 
-TEEREUR = TEEREUR()
+TEEREUR = TEEREUR(*TEEREUR._fields)
 """
     name: TEEREUR
     significant_digits: None
@@ -26521,7 +26781,7 @@ TEEREUR = TEEREUR()
 """
 
 
-class TEERUSD(NamedTuple):
+class TEERUSD(Symbol):
     """
         name: TEERUSD
         significant_digits: None
@@ -26559,7 +26819,7 @@ class TEERUSD(NamedTuple):
         return "TEERUSD"
 
 
-TEERUSD = TEERUSD()
+TEERUSD = TEERUSD(*TEERUSD._fields)
 """
     name: TEERUSD
     significant_digits: None
@@ -26573,7 +26833,7 @@ TEERUSD = TEERUSD()
 """
 
 
-class TEUR(NamedTuple):
+class TEUR(Symbol):
     """
         name: TEUR
         significant_digits: None
@@ -26611,7 +26871,7 @@ class TEUR(NamedTuple):
         return "TEUR"
 
 
-TEUR = TEUR()
+TEUR = TEUR(*TEUR._fields)
 """
     name: TEUR
     significant_digits: None
@@ -26625,7 +26885,7 @@ TEUR = TEUR()
 """
 
 
-class TLMEUR(NamedTuple):
+class TLMEUR(Symbol):
     """
         name: TLMEUR
         significant_digits: None
@@ -26663,7 +26923,7 @@ class TLMEUR(NamedTuple):
         return "TLMEUR"
 
 
-TLMEUR = TLMEUR()
+TLMEUR = TLMEUR(*TLMEUR._fields)
 """
     name: TLMEUR
     significant_digits: None
@@ -26677,7 +26937,7 @@ TLMEUR = TLMEUR()
 """
 
 
-class TLMUSD(NamedTuple):
+class TLMUSD(Symbol):
     """
         name: TLMUSD
         significant_digits: None
@@ -26715,7 +26975,7 @@ class TLMUSD(NamedTuple):
         return "TLMUSD"
 
 
-TLMUSD = TLMUSD()
+TLMUSD = TLMUSD(*TLMUSD._fields)
 """
     name: TLMUSD
     significant_digits: None
@@ -26729,7 +26989,7 @@ TLMUSD = TLMUSD()
 """
 
 
-class TOKEEUR(NamedTuple):
+class TOKEEUR(Symbol):
     """
         name: TOKEEUR
         significant_digits: None
@@ -26767,7 +27027,7 @@ class TOKEEUR(NamedTuple):
         return "TOKEEUR"
 
 
-TOKEEUR = TOKEEUR()
+TOKEEUR = TOKEEUR(*TOKEEUR._fields)
 """
     name: TOKEEUR
     significant_digits: None
@@ -26781,7 +27041,7 @@ TOKEEUR = TOKEEUR()
 """
 
 
-class TOKEUSD(NamedTuple):
+class TOKEUSD(Symbol):
     """
         name: TOKEUSD
         significant_digits: None
@@ -26819,7 +27079,7 @@ class TOKEUSD(NamedTuple):
         return "TOKEUSD"
 
 
-TOKEUSD = TOKEUSD()
+TOKEUSD = TOKEUSD(*TOKEUSD._fields)
 """
     name: TOKEUSD
     significant_digits: None
@@ -26833,7 +27093,7 @@ TOKEUSD = TOKEUSD()
 """
 
 
-class TRIBEEUR(NamedTuple):
+class TRIBEEUR(Symbol):
     """
         name: TRIBEEUR
         significant_digits: None
@@ -26871,7 +27131,7 @@ class TRIBEEUR(NamedTuple):
         return "TRIBEEUR"
 
 
-TRIBEEUR = TRIBEEUR()
+TRIBEEUR = TRIBEEUR(*TRIBEEUR._fields)
 """
     name: TRIBEEUR
     significant_digits: None
@@ -26885,7 +27145,7 @@ TRIBEEUR = TRIBEEUR()
 """
 
 
-class TRIBEUSD(NamedTuple):
+class TRIBEUSD(Symbol):
     """
         name: TRIBEUSD
         significant_digits: None
@@ -26923,7 +27183,7 @@ class TRIBEUSD(NamedTuple):
         return "TRIBEUSD"
 
 
-TRIBEUSD = TRIBEUSD()
+TRIBEUSD = TRIBEUSD(*TRIBEUSD._fields)
 """
     name: TRIBEUSD
     significant_digits: None
@@ -26937,7 +27197,7 @@ TRIBEUSD = TRIBEUSD()
 """
 
 
-class TRUEUR(NamedTuple):
+class TRUEUR(Symbol):
     """
         name: TRUEUR
         significant_digits: None
@@ -26975,7 +27235,7 @@ class TRUEUR(NamedTuple):
         return "TRUEUR"
 
 
-TRUEUR = TRUEUR()
+TRUEUR = TRUEUR(*TRUEUR._fields)
 """
     name: TRUEUR
     significant_digits: None
@@ -26989,7 +27249,7 @@ TRUEUR = TRUEUR()
 """
 
 
-class TRUUSD(NamedTuple):
+class TRUUSD(Symbol):
     """
         name: TRUUSD
         significant_digits: None
@@ -27027,7 +27287,7 @@ class TRUUSD(NamedTuple):
         return "TRUUSD"
 
 
-TRUUSD = TRUUSD()
+TRUUSD = TRUUSD(*TRUUSD._fields)
 """
     name: TRUUSD
     significant_digits: None
@@ -27041,7 +27301,7 @@ TRUUSD = TRUUSD()
 """
 
 
-class TRXETH(NamedTuple):
+class TRXETH(Symbol):
     """
         name: TRXETH
         significant_digits: None
@@ -27079,7 +27339,7 @@ class TRXETH(NamedTuple):
         return "TRXETH"
 
 
-TRXETH = TRXETH()
+TRXETH = TRXETH(*TRXETH._fields)
 """
     name: TRXETH
     significant_digits: None
@@ -27093,7 +27353,7 @@ TRXETH = TRXETH()
 """
 
 
-class TRXEUR(NamedTuple):
+class TRXEUR(Symbol):
     """
         name: TRXEUR
         significant_digits: None
@@ -27131,7 +27391,7 @@ class TRXEUR(NamedTuple):
         return "TRXEUR"
 
 
-TRXEUR = TRXEUR()
+TRXEUR = TRXEUR(*TRXEUR._fields)
 """
     name: TRXEUR
     significant_digits: None
@@ -27145,7 +27405,7 @@ TRXEUR = TRXEUR()
 """
 
 
-class TRXUSD(NamedTuple):
+class TRXUSD(Symbol):
     """
         name: TRXUSD
         significant_digits: None
@@ -27183,7 +27443,7 @@ class TRXUSD(NamedTuple):
         return "TRXUSD"
 
 
-TRXUSD = TRXUSD()
+TRXUSD = TRXUSD(*TRXUSD._fields)
 """
     name: TRXUSD
     significant_digits: None
@@ -27197,7 +27457,7 @@ TRXUSD = TRXUSD()
 """
 
 
-class TRXXBT(NamedTuple):
+class TRXXBT(Symbol):
     """
         name: TRXXBT
         significant_digits: None
@@ -27235,7 +27495,7 @@ class TRXXBT(NamedTuple):
         return "TRXXBT"
 
 
-TRXXBT = TRXXBT()
+TRXXBT = TRXXBT(*TRXXBT._fields)
 """
     name: TRXXBT
     significant_digits: None
@@ -27249,7 +27509,7 @@ TRXXBT = TRXXBT()
 """
 
 
-class TUSD(NamedTuple):
+class TUSD(Symbol):
     """
         name: TUSD
         significant_digits: None
@@ -27287,7 +27547,7 @@ class TUSD(NamedTuple):
         return "TUSD"
 
 
-TUSD = TUSD()
+TUSD = TUSD(*TUSD._fields)
 """
     name: TUSD
     significant_digits: None
@@ -27301,7 +27561,7 @@ TUSD = TUSD()
 """
 
 
-class TVKEUR(NamedTuple):
+class TVKEUR(Symbol):
     """
         name: TVKEUR
         significant_digits: None
@@ -27339,7 +27599,7 @@ class TVKEUR(NamedTuple):
         return "TVKEUR"
 
 
-TVKEUR = TVKEUR()
+TVKEUR = TVKEUR(*TVKEUR._fields)
 """
     name: TVKEUR
     significant_digits: None
@@ -27353,7 +27613,7 @@ TVKEUR = TVKEUR()
 """
 
 
-class TVKUSD(NamedTuple):
+class TVKUSD(Symbol):
     """
         name: TVKUSD
         significant_digits: None
@@ -27391,7 +27651,7 @@ class TVKUSD(NamedTuple):
         return "TVKUSD"
 
 
-TVKUSD = TVKUSD()
+TVKUSD = TVKUSD(*TVKUSD._fields)
 """
     name: TVKUSD
     significant_digits: None
@@ -27405,7 +27665,7 @@ TVKUSD = TVKUSD()
 """
 
 
-class UMAEUR(NamedTuple):
+class UMAEUR(Symbol):
     """
         name: UMAEUR
         significant_digits: None
@@ -27443,7 +27703,7 @@ class UMAEUR(NamedTuple):
         return "UMAEUR"
 
 
-UMAEUR = UMAEUR()
+UMAEUR = UMAEUR(*UMAEUR._fields)
 """
     name: UMAEUR
     significant_digits: None
@@ -27457,7 +27717,7 @@ UMAEUR = UMAEUR()
 """
 
 
-class UMAUSD(NamedTuple):
+class UMAUSD(Symbol):
     """
         name: UMAUSD
         significant_digits: None
@@ -27495,7 +27755,7 @@ class UMAUSD(NamedTuple):
         return "UMAUSD"
 
 
-UMAUSD = UMAUSD()
+UMAUSD = UMAUSD(*UMAUSD._fields)
 """
     name: UMAUSD
     significant_digits: None
@@ -27509,7 +27769,7 @@ UMAUSD = UMAUSD()
 """
 
 
-class UNFIEUR(NamedTuple):
+class UNFIEUR(Symbol):
     """
         name: UNFIEUR
         significant_digits: None
@@ -27547,7 +27807,7 @@ class UNFIEUR(NamedTuple):
         return "UNFIEUR"
 
 
-UNFIEUR = UNFIEUR()
+UNFIEUR = UNFIEUR(*UNFIEUR._fields)
 """
     name: UNFIEUR
     significant_digits: None
@@ -27561,7 +27821,7 @@ UNFIEUR = UNFIEUR()
 """
 
 
-class UNFIUSD(NamedTuple):
+class UNFIUSD(Symbol):
     """
         name: UNFIUSD
         significant_digits: None
@@ -27599,7 +27859,7 @@ class UNFIUSD(NamedTuple):
         return "UNFIUSD"
 
 
-UNFIUSD = UNFIUSD()
+UNFIUSD = UNFIUSD(*UNFIUSD._fields)
 """
     name: UNFIUSD
     significant_digits: None
@@ -27613,7 +27873,7 @@ UNFIUSD = UNFIUSD()
 """
 
 
-class UNIETH(NamedTuple):
+class UNIETH(Symbol):
     """
         name: UNIETH
         significant_digits: None
@@ -27651,7 +27911,7 @@ class UNIETH(NamedTuple):
         return "UNIETH"
 
 
-UNIETH = UNIETH()
+UNIETH = UNIETH(*UNIETH._fields)
 """
     name: UNIETH
     significant_digits: None
@@ -27665,7 +27925,7 @@ UNIETH = UNIETH()
 """
 
 
-class UNIEUR(NamedTuple):
+class UNIEUR(Symbol):
     """
         name: UNIEUR
         significant_digits: None
@@ -27703,7 +27963,7 @@ class UNIEUR(NamedTuple):
         return "UNIEUR"
 
 
-UNIEUR = UNIEUR()
+UNIEUR = UNIEUR(*UNIEUR._fields)
 """
     name: UNIEUR
     significant_digits: None
@@ -27717,7 +27977,7 @@ UNIEUR = UNIEUR()
 """
 
 
-class UNIUSD(NamedTuple):
+class UNIUSD(Symbol):
     """
         name: UNIUSD
         significant_digits: None
@@ -27755,7 +28015,7 @@ class UNIUSD(NamedTuple):
         return "UNIUSD"
 
 
-UNIUSD = UNIUSD()
+UNIUSD = UNIUSD(*UNIUSD._fields)
 """
     name: UNIUSD
     significant_digits: None
@@ -27769,7 +28029,7 @@ UNIUSD = UNIUSD()
 """
 
 
-class UNIXBT(NamedTuple):
+class UNIXBT(Symbol):
     """
         name: UNIXBT
         significant_digits: None
@@ -27807,7 +28067,7 @@ class UNIXBT(NamedTuple):
         return "UNIXBT"
 
 
-UNIXBT = UNIXBT()
+UNIXBT = UNIXBT(*UNIXBT._fields)
 """
     name: UNIXBT
     significant_digits: None
@@ -27821,7 +28081,7 @@ UNIXBT = UNIXBT()
 """
 
 
-class USDAED(NamedTuple):
+class USDAED(Symbol):
     """
         name: USDAED
         significant_digits: None
@@ -27859,7 +28119,7 @@ class USDAED(NamedTuple):
         return "USDAED"
 
 
-USDAED = USDAED()
+USDAED = USDAED(*USDAED._fields)
 """
     name: USDAED
     significant_digits: None
@@ -27873,7 +28133,7 @@ USDAED = USDAED()
 """
 
 
-class USDCAUD(NamedTuple):
+class USDCAUD(Symbol):
     """
         name: USDCAUD
         significant_digits: None
@@ -27911,7 +28171,7 @@ class USDCAUD(NamedTuple):
         return "USDCAUD"
 
 
-USDCAUD = USDCAUD()
+USDCAUD = USDCAUD(*USDCAUD._fields)
 """
     name: USDCAUD
     significant_digits: None
@@ -27925,7 +28185,7 @@ USDCAUD = USDCAUD()
 """
 
 
-class USDCCAD(NamedTuple):
+class USDCCAD(Symbol):
     """
         name: USDCCAD
         significant_digits: None
@@ -27963,7 +28223,7 @@ class USDCCAD(NamedTuple):
         return "USDCCAD"
 
 
-USDCCAD = USDCCAD()
+USDCCAD = USDCCAD(*USDCCAD._fields)
 """
     name: USDCCAD
     significant_digits: None
@@ -27977,7 +28237,7 @@ USDCCAD = USDCCAD()
 """
 
 
-class USDCCHF(NamedTuple):
+class USDCCHF(Symbol):
     """
         name: USDCCHF
         significant_digits: None
@@ -28015,7 +28275,7 @@ class USDCCHF(NamedTuple):
         return "USDCCHF"
 
 
-USDCCHF = USDCCHF()
+USDCCHF = USDCCHF(*USDCCHF._fields)
 """
     name: USDCCHF
     significant_digits: None
@@ -28029,7 +28289,7 @@ USDCCHF = USDCCHF()
 """
 
 
-class USDCEUR(NamedTuple):
+class USDCEUR(Symbol):
     """
         name: USDCEUR
         significant_digits: None
@@ -28067,7 +28327,7 @@ class USDCEUR(NamedTuple):
         return "USDCEUR"
 
 
-USDCEUR = USDCEUR()
+USDCEUR = USDCEUR(*USDCEUR._fields)
 """
     name: USDCEUR
     significant_digits: None
@@ -28081,7 +28341,7 @@ USDCEUR = USDCEUR()
 """
 
 
-class USDCGBP(NamedTuple):
+class USDCGBP(Symbol):
     """
         name: USDCGBP
         significant_digits: None
@@ -28119,7 +28379,7 @@ class USDCGBP(NamedTuple):
         return "USDCGBP"
 
 
-USDCGBP = USDCGBP()
+USDCGBP = USDCGBP(*USDCGBP._fields)
 """
     name: USDCGBP
     significant_digits: None
@@ -28133,7 +28393,7 @@ USDCGBP = USDCGBP()
 """
 
 
-class USDCHF(NamedTuple):
+class USDCHF(Symbol):
     """
         name: USDCHF
         significant_digits: None
@@ -28171,7 +28431,7 @@ class USDCHF(NamedTuple):
         return "USDCHF"
 
 
-USDCHF = USDCHF()
+USDCHF = USDCHF(*USDCHF._fields)
 """
     name: USDCHF
     significant_digits: None
@@ -28185,7 +28445,7 @@ USDCHF = USDCHF()
 """
 
 
-class USDCUSD(NamedTuple):
+class USDCUSD(Symbol):
     """
         name: USDCUSD
         significant_digits: None
@@ -28223,7 +28483,7 @@ class USDCUSD(NamedTuple):
         return "USDCUSD"
 
 
-USDCUSD = USDCUSD()
+USDCUSD = USDCUSD(*USDCUSD._fields)
 """
     name: USDCUSD
     significant_digits: None
@@ -28237,7 +28497,7 @@ USDCUSD = USDCUSD()
 """
 
 
-class USDCUSDT(NamedTuple):
+class USDCUSDT(Symbol):
     """
         name: USDCUSDT
         significant_digits: None
@@ -28275,7 +28535,7 @@ class USDCUSDT(NamedTuple):
         return "USDCUSDT"
 
 
-USDCUSDT = USDCUSDT()
+USDCUSDT = USDCUSDT(*USDCUSDT._fields)
 """
     name: USDCUSDT
     significant_digits: None
@@ -28289,7 +28549,7 @@ USDCUSDT = USDCUSDT()
 """
 
 
-class USDTAUD(NamedTuple):
+class USDTAUD(Symbol):
     """
         name: USDTAUD
         significant_digits: None
@@ -28327,7 +28587,7 @@ class USDTAUD(NamedTuple):
         return "USDTAUD"
 
 
-USDTAUD = USDTAUD()
+USDTAUD = USDTAUD(*USDTAUD._fields)
 """
     name: USDTAUD
     significant_digits: None
@@ -28341,7 +28601,7 @@ USDTAUD = USDTAUD()
 """
 
 
-class USDTCAD(NamedTuple):
+class USDTCAD(Symbol):
     """
         name: USDTCAD
         significant_digits: None
@@ -28379,7 +28639,7 @@ class USDTCAD(NamedTuple):
         return "USDTCAD"
 
 
-USDTCAD = USDTCAD()
+USDTCAD = USDTCAD(*USDTCAD._fields)
 """
     name: USDTCAD
     significant_digits: None
@@ -28393,7 +28653,7 @@ USDTCAD = USDTCAD()
 """
 
 
-class USDTCHF(NamedTuple):
+class USDTCHF(Symbol):
     """
         name: USDTCHF
         significant_digits: None
@@ -28431,7 +28691,7 @@ class USDTCHF(NamedTuple):
         return "USDTCHF"
 
 
-USDTCHF = USDTCHF()
+USDTCHF = USDTCHF(*USDTCHF._fields)
 """
     name: USDTCHF
     significant_digits: None
@@ -28445,7 +28705,7 @@ USDTCHF = USDTCHF()
 """
 
 
-class USDTEUR(NamedTuple):
+class USDTEUR(Symbol):
     """
         name: USDTEUR
         significant_digits: None
@@ -28483,7 +28743,7 @@ class USDTEUR(NamedTuple):
         return "USDTEUR"
 
 
-USDTEUR = USDTEUR()
+USDTEUR = USDTEUR(*USDTEUR._fields)
 """
     name: USDTEUR
     significant_digits: None
@@ -28497,7 +28757,7 @@ USDTEUR = USDTEUR()
 """
 
 
-class USDTGBP(NamedTuple):
+class USDTGBP(Symbol):
     """
         name: USDTGBP
         significant_digits: None
@@ -28535,7 +28795,7 @@ class USDTGBP(NamedTuple):
         return "USDTGBP"
 
 
-USDTGBP = USDTGBP()
+USDTGBP = USDTGBP(*USDTGBP._fields)
 """
     name: USDTGBP
     significant_digits: None
@@ -28549,7 +28809,7 @@ USDTGBP = USDTGBP()
 """
 
 
-class USDTJPY(NamedTuple):
+class USDTJPY(Symbol):
     """
         name: USDTJPY
         significant_digits: None
@@ -28587,7 +28847,7 @@ class USDTJPY(NamedTuple):
         return "USDTJPY"
 
 
-USDTJPY = USDTJPY()
+USDTJPY = USDTJPY(*USDTJPY._fields)
 """
     name: USDTJPY
     significant_digits: None
@@ -28601,7 +28861,7 @@ USDTJPY = USDTJPY()
 """
 
 
-class USDTZUSD(NamedTuple):
+class USDTZUSD(Symbol):
     """
         name: USDTUSD
         significant_digits: None
@@ -28639,7 +28899,7 @@ class USDTZUSD(NamedTuple):
         return "USDTUSD"
 
 
-USDTZUSD = USDTZUSD()
+USDTZUSD = USDTZUSD(*USDTZUSD._fields)
 """
     name: USDTUSD
     significant_digits: None
@@ -28653,7 +28913,7 @@ USDTZUSD = USDTZUSD()
 """
 
 
-class USTEUR(NamedTuple):
+class USTEUR(Symbol):
     """
         name: USTEUR
         significant_digits: None
@@ -28691,7 +28951,7 @@ class USTEUR(NamedTuple):
         return "USTEUR"
 
 
-USTEUR = USTEUR()
+USTEUR = USTEUR(*USTEUR._fields)
 """
     name: USTEUR
     significant_digits: None
@@ -28705,7 +28965,7 @@ USTEUR = USTEUR()
 """
 
 
-class USTUSD(NamedTuple):
+class USTUSD(Symbol):
     """
         name: USTUSD
         significant_digits: None
@@ -28743,7 +29003,7 @@ class USTUSD(NamedTuple):
         return "USTUSD"
 
 
-USTUSD = USTUSD()
+USTUSD = USTUSD(*USTUSD._fields)
 """
     name: USTUSD
     significant_digits: None
@@ -28757,7 +29017,7 @@ USTUSD = USTUSD()
 """
 
 
-class USTUSDC(NamedTuple):
+class USTUSDC(Symbol):
     """
         name: USTUSDC
         significant_digits: None
@@ -28795,7 +29055,7 @@ class USTUSDC(NamedTuple):
         return "USTUSDC"
 
 
-USTUSDC = USTUSDC()
+USTUSDC = USTUSDC(*USTUSDC._fields)
 """
     name: USTUSDC
     significant_digits: None
@@ -28809,7 +29069,7 @@ USTUSDC = USTUSDC()
 """
 
 
-class USTUSDT(NamedTuple):
+class USTUSDT(Symbol):
     """
         name: USTUSDT
         significant_digits: None
@@ -28847,7 +29107,7 @@ class USTUSDT(NamedTuple):
         return "USTUSDT"
 
 
-USTUSDT = USTUSDT()
+USTUSDT = USTUSDT(*USTUSDT._fields)
 """
     name: USTUSDT
     significant_digits: None
@@ -28861,7 +29121,7 @@ USTUSDT = USTUSDT()
 """
 
 
-class WAVESETH(NamedTuple):
+class WAVESETH(Symbol):
     """
         name: WAVESETH
         significant_digits: None
@@ -28899,7 +29159,7 @@ class WAVESETH(NamedTuple):
         return "WAVESETH"
 
 
-WAVESETH = WAVESETH()
+WAVESETH = WAVESETH(*WAVESETH._fields)
 """
     name: WAVESETH
     significant_digits: None
@@ -28913,7 +29173,7 @@ WAVESETH = WAVESETH()
 """
 
 
-class WAVESEUR(NamedTuple):
+class WAVESEUR(Symbol):
     """
         name: WAVESEUR
         significant_digits: None
@@ -28951,7 +29211,7 @@ class WAVESEUR(NamedTuple):
         return "WAVESEUR"
 
 
-WAVESEUR = WAVESEUR()
+WAVESEUR = WAVESEUR(*WAVESEUR._fields)
 """
     name: WAVESEUR
     significant_digits: None
@@ -28965,7 +29225,7 @@ WAVESEUR = WAVESEUR()
 """
 
 
-class WAVESUSD(NamedTuple):
+class WAVESUSD(Symbol):
     """
         name: WAVESUSD
         significant_digits: None
@@ -29003,7 +29263,7 @@ class WAVESUSD(NamedTuple):
         return "WAVESUSD"
 
 
-WAVESUSD = WAVESUSD()
+WAVESUSD = WAVESUSD(*WAVESUSD._fields)
 """
     name: WAVESUSD
     significant_digits: None
@@ -29017,7 +29277,7 @@ WAVESUSD = WAVESUSD()
 """
 
 
-class WAVESXBT(NamedTuple):
+class WAVESXBT(Symbol):
     """
         name: WAVESXBT
         significant_digits: None
@@ -29055,7 +29315,7 @@ class WAVESXBT(NamedTuple):
         return "WAVESXBT"
 
 
-WAVESXBT = WAVESXBT()
+WAVESXBT = WAVESXBT(*WAVESXBT._fields)
 """
     name: WAVESXBT
     significant_digits: None
@@ -29069,7 +29329,7 @@ WAVESXBT = WAVESXBT()
 """
 
 
-class WAXLEUR(NamedTuple):
+class WAXLEUR(Symbol):
     """
         name: WAXLEUR
         significant_digits: None
@@ -29107,7 +29367,7 @@ class WAXLEUR(NamedTuple):
         return "WAXLEUR"
 
 
-WAXLEUR = WAXLEUR()
+WAXLEUR = WAXLEUR(*WAXLEUR._fields)
 """
     name: WAXLEUR
     significant_digits: None
@@ -29121,7 +29381,7 @@ WAXLEUR = WAXLEUR()
 """
 
 
-class WAXLUSD(NamedTuple):
+class WAXLUSD(Symbol):
     """
         name: WAXLUSD
         significant_digits: None
@@ -29159,7 +29419,7 @@ class WAXLUSD(NamedTuple):
         return "WAXLUSD"
 
 
-WAXLUSD = WAXLUSD()
+WAXLUSD = WAXLUSD(*WAXLUSD._fields)
 """
     name: WAXLUSD
     significant_digits: None
@@ -29173,7 +29433,7 @@ WAXLUSD = WAXLUSD()
 """
 
 
-class WBTCEUR(NamedTuple):
+class WBTCEUR(Symbol):
     """
         name: WBTCEUR
         significant_digits: None
@@ -29211,7 +29471,7 @@ class WBTCEUR(NamedTuple):
         return "WBTCEUR"
 
 
-WBTCEUR = WBTCEUR()
+WBTCEUR = WBTCEUR(*WBTCEUR._fields)
 """
     name: WBTCEUR
     significant_digits: None
@@ -29225,7 +29485,7 @@ WBTCEUR = WBTCEUR()
 """
 
 
-class WBTCUSD(NamedTuple):
+class WBTCUSD(Symbol):
     """
         name: WBTCUSD
         significant_digits: None
@@ -29263,7 +29523,7 @@ class WBTCUSD(NamedTuple):
         return "WBTCUSD"
 
 
-WBTCUSD = WBTCUSD()
+WBTCUSD = WBTCUSD(*WBTCUSD._fields)
 """
     name: WBTCUSD
     significant_digits: None
@@ -29277,7 +29537,7 @@ WBTCUSD = WBTCUSD()
 """
 
 
-class WBTCXBT(NamedTuple):
+class WBTCXBT(Symbol):
     """
         name: WBTCXBT
         significant_digits: None
@@ -29315,7 +29575,7 @@ class WBTCXBT(NamedTuple):
         return "WBTCXBT"
 
 
-WBTCXBT = WBTCXBT()
+WBTCXBT = WBTCXBT(*WBTCXBT._fields)
 """
     name: WBTCXBT
     significant_digits: None
@@ -29329,7 +29589,7 @@ WBTCXBT = WBTCXBT()
 """
 
 
-class WOOEUR(NamedTuple):
+class WOOEUR(Symbol):
     """
         name: WOOEUR
         significant_digits: None
@@ -29367,7 +29627,7 @@ class WOOEUR(NamedTuple):
         return "WOOEUR"
 
 
-WOOEUR = WOOEUR()
+WOOEUR = WOOEUR(*WOOEUR._fields)
 """
     name: WOOEUR
     significant_digits: None
@@ -29381,7 +29641,7 @@ WOOEUR = WOOEUR()
 """
 
 
-class WOOUSD(NamedTuple):
+class WOOUSD(Symbol):
     """
         name: WOOUSD
         significant_digits: None
@@ -29419,7 +29679,7 @@ class WOOUSD(NamedTuple):
         return "WOOUSD"
 
 
-WOOUSD = WOOUSD()
+WOOUSD = WOOUSD(*WOOUSD._fields)
 """
     name: WOOUSD
     significant_digits: None
@@ -29433,7 +29693,7 @@ WOOUSD = WOOUSD()
 """
 
 
-class XBTAED(NamedTuple):
+class XBTAED(Symbol):
     """
         name: XBTAED
         significant_digits: None
@@ -29471,7 +29731,7 @@ class XBTAED(NamedTuple):
         return "XBTAED"
 
 
-XBTAED = XBTAED()
+XBTAED = XBTAED(*XBTAED._fields)
 """
     name: XBTAED
     significant_digits: None
@@ -29485,7 +29745,7 @@ XBTAED = XBTAED()
 """
 
 
-class XBTAUD(NamedTuple):
+class XBTAUD(Symbol):
     """
         name: XBTAUD
         significant_digits: None
@@ -29523,7 +29783,7 @@ class XBTAUD(NamedTuple):
         return "XBTAUD"
 
 
-XBTAUD = XBTAUD()
+XBTAUD = XBTAUD(*XBTAUD._fields)
 """
     name: XBTAUD
     significant_digits: None
@@ -29537,7 +29797,7 @@ XBTAUD = XBTAUD()
 """
 
 
-class XBTCHF(NamedTuple):
+class XBTCHF(Symbol):
     """
         name: XBTCHF
         significant_digits: None
@@ -29575,7 +29835,7 @@ class XBTCHF(NamedTuple):
         return "XBTCHF"
 
 
-XBTCHF = XBTCHF()
+XBTCHF = XBTCHF(*XBTCHF._fields)
 """
     name: XBTCHF
     significant_digits: None
@@ -29589,7 +29849,7 @@ XBTCHF = XBTCHF()
 """
 
 
-class XBTDAI(NamedTuple):
+class XBTDAI(Symbol):
     """
         name: XBTDAI
         significant_digits: None
@@ -29627,7 +29887,7 @@ class XBTDAI(NamedTuple):
         return "XBTDAI"
 
 
-XBTDAI = XBTDAI()
+XBTDAI = XBTDAI(*XBTDAI._fields)
 """
     name: XBTDAI
     significant_digits: None
@@ -29641,7 +29901,7 @@ XBTDAI = XBTDAI()
 """
 
 
-class XBTUSDC(NamedTuple):
+class XBTUSDC(Symbol):
     """
         name: XBTUSDC
         significant_digits: None
@@ -29679,7 +29939,7 @@ class XBTUSDC(NamedTuple):
         return "XBTUSDC"
 
 
-XBTUSDC = XBTUSDC()
+XBTUSDC = XBTUSDC(*XBTUSDC._fields)
 """
     name: XBTUSDC
     significant_digits: None
@@ -29693,7 +29953,7 @@ XBTUSDC = XBTUSDC()
 """
 
 
-class XBTUSDT(NamedTuple):
+class XBTUSDT(Symbol):
     """
         name: XBTUSDT
         significant_digits: None
@@ -29731,7 +29991,7 @@ class XBTUSDT(NamedTuple):
         return "XBTUSDT"
 
 
-XBTUSDT = XBTUSDT()
+XBTUSDT = XBTUSDT(*XBTUSDT._fields)
 """
     name: XBTUSDT
     significant_digits: None
@@ -29745,7 +30005,7 @@ XBTUSDT = XBTUSDT()
 """
 
 
-class XCNEUR(NamedTuple):
+class XCNEUR(Symbol):
     """
         name: XCNEUR
         significant_digits: None
@@ -29783,7 +30043,7 @@ class XCNEUR(NamedTuple):
         return "XCNEUR"
 
 
-XCNEUR = XCNEUR()
+XCNEUR = XCNEUR(*XCNEUR._fields)
 """
     name: XCNEUR
     significant_digits: None
@@ -29797,7 +30057,7 @@ XCNEUR = XCNEUR()
 """
 
 
-class XCNUSD(NamedTuple):
+class XCNUSD(Symbol):
     """
         name: XCNUSD
         significant_digits: None
@@ -29835,7 +30095,7 @@ class XCNUSD(NamedTuple):
         return "XCNUSD"
 
 
-XCNUSD = XCNUSD()
+XCNUSD = XCNUSD(*XCNUSD._fields)
 """
     name: XCNUSD
     significant_digits: None
@@ -29849,7 +30109,7 @@ XCNUSD = XCNUSD()
 """
 
 
-class XDGEUR(NamedTuple):
+class XDGEUR(Symbol):
     """
         name: XDGEUR
         significant_digits: None
@@ -29887,7 +30147,7 @@ class XDGEUR(NamedTuple):
         return "XDGEUR"
 
 
-XDGEUR = XDGEUR()
+XDGEUR = XDGEUR(*XDGEUR._fields)
 """
     name: XDGEUR
     significant_digits: None
@@ -29901,7 +30161,7 @@ XDGEUR = XDGEUR()
 """
 
 
-class XDGUSD(NamedTuple):
+class XDGUSD(Symbol):
     """
         name: XDGUSD
         significant_digits: None
@@ -29939,7 +30199,7 @@ class XDGUSD(NamedTuple):
         return "XDGUSD"
 
 
-XDGUSD = XDGUSD()
+XDGUSD = XDGUSD(*XDGUSD._fields)
 """
     name: XDGUSD
     significant_digits: None
@@ -29953,7 +30213,7 @@ XDGUSD = XDGUSD()
 """
 
 
-class XDGUSDT(NamedTuple):
+class XDGUSDT(Symbol):
     """
         name: XDGUSDT
         significant_digits: None
@@ -29991,7 +30251,7 @@ class XDGUSDT(NamedTuple):
         return "XDGUSDT"
 
 
-XDGUSDT = XDGUSDT()
+XDGUSDT = XDGUSDT(*XDGUSDT._fields)
 """
     name: XDGUSDT
     significant_digits: None
@@ -30005,7 +30265,7 @@ XDGUSDT = XDGUSDT()
 """
 
 
-class XETCXETH(NamedTuple):
+class XETCXETH(Symbol):
     """
         name: ETCETH
         significant_digits: None
@@ -30043,7 +30303,7 @@ class XETCXETH(NamedTuple):
         return "ETCETH"
 
 
-XETCXETH = XETCXETH()
+XETCXETH = XETCXETH(*XETCXETH._fields)
 """
     name: ETCETH
     significant_digits: None
@@ -30057,7 +30317,7 @@ XETCXETH = XETCXETH()
 """
 
 
-class XETCXXBT(NamedTuple):
+class XETCXXBT(Symbol):
     """
         name: ETCXBT
         significant_digits: None
@@ -30095,7 +30355,7 @@ class XETCXXBT(NamedTuple):
         return "ETCXBT"
 
 
-XETCXXBT = XETCXXBT()
+XETCXXBT = XETCXXBT(*XETCXXBT._fields)
 """
     name: ETCXBT
     significant_digits: None
@@ -30109,7 +30369,7 @@ XETCXXBT = XETCXXBT()
 """
 
 
-class XETCZEUR(NamedTuple):
+class XETCZEUR(Symbol):
     """
         name: ETCEUR
         significant_digits: None
@@ -30147,7 +30407,7 @@ class XETCZEUR(NamedTuple):
         return "ETCEUR"
 
 
-XETCZEUR = XETCZEUR()
+XETCZEUR = XETCZEUR(*XETCZEUR._fields)
 """
     name: ETCEUR
     significant_digits: None
@@ -30161,7 +30421,7 @@ XETCZEUR = XETCZEUR()
 """
 
 
-class XETCZUSD(NamedTuple):
+class XETCZUSD(Symbol):
     """
         name: ETCUSD
         significant_digits: None
@@ -30199,7 +30459,7 @@ class XETCZUSD(NamedTuple):
         return "ETCUSD"
 
 
-XETCZUSD = XETCZUSD()
+XETCZUSD = XETCZUSD(*XETCZUSD._fields)
 """
     name: ETCUSD
     significant_digits: None
@@ -30213,7 +30473,7 @@ XETCZUSD = XETCZUSD()
 """
 
 
-class XETHXXBT(NamedTuple):
+class XETHXXBT(Symbol):
     """
         name: ETHXBT
         significant_digits: None
@@ -30251,7 +30511,7 @@ class XETHXXBT(NamedTuple):
         return "ETHXBT"
 
 
-XETHXXBT = XETHXXBT()
+XETHXXBT = XETHXXBT(*XETHXXBT._fields)
 """
     name: ETHXBT
     significant_digits: None
@@ -30265,7 +30525,7 @@ XETHXXBT = XETHXXBT()
 """
 
 
-class XETHZCAD(NamedTuple):
+class XETHZCAD(Symbol):
     """
         name: ETHCAD
         significant_digits: None
@@ -30303,7 +30563,7 @@ class XETHZCAD(NamedTuple):
         return "ETHCAD"
 
 
-XETHZCAD = XETHZCAD()
+XETHZCAD = XETHZCAD(*XETHZCAD._fields)
 """
     name: ETHCAD
     significant_digits: None
@@ -30317,7 +30577,7 @@ XETHZCAD = XETHZCAD()
 """
 
 
-class XETHZEUR(NamedTuple):
+class XETHZEUR(Symbol):
     """
         name: ETHEUR
         significant_digits: None
@@ -30355,7 +30615,7 @@ class XETHZEUR(NamedTuple):
         return "ETHEUR"
 
 
-XETHZEUR = XETHZEUR()
+XETHZEUR = XETHZEUR(*XETHZEUR._fields)
 """
     name: ETHEUR
     significant_digits: None
@@ -30369,7 +30629,7 @@ XETHZEUR = XETHZEUR()
 """
 
 
-class XETHZGBP(NamedTuple):
+class XETHZGBP(Symbol):
     """
         name: ETHGBP
         significant_digits: None
@@ -30407,7 +30667,7 @@ class XETHZGBP(NamedTuple):
         return "ETHGBP"
 
 
-XETHZGBP = XETHZGBP()
+XETHZGBP = XETHZGBP(*XETHZGBP._fields)
 """
     name: ETHGBP
     significant_digits: None
@@ -30421,7 +30681,7 @@ XETHZGBP = XETHZGBP()
 """
 
 
-class XETHZJPY(NamedTuple):
+class XETHZJPY(Symbol):
     """
         name: ETHJPY
         significant_digits: None
@@ -30459,7 +30719,7 @@ class XETHZJPY(NamedTuple):
         return "ETHJPY"
 
 
-XETHZJPY = XETHZJPY()
+XETHZJPY = XETHZJPY(*XETHZJPY._fields)
 """
     name: ETHJPY
     significant_digits: None
@@ -30473,7 +30733,7 @@ XETHZJPY = XETHZJPY()
 """
 
 
-class XETHZUSD(NamedTuple):
+class XETHZUSD(Symbol):
     """
         name: ETHUSD
         significant_digits: None
@@ -30511,7 +30771,7 @@ class XETHZUSD(NamedTuple):
         return "ETHUSD"
 
 
-XETHZUSD = XETHZUSD()
+XETHZUSD = XETHZUSD(*XETHZUSD._fields)
 """
     name: ETHUSD
     significant_digits: None
@@ -30525,7 +30785,7 @@ XETHZUSD = XETHZUSD()
 """
 
 
-class XLTCXXBT(NamedTuple):
+class XLTCXXBT(Symbol):
     """
         name: LTCXBT
         significant_digits: None
@@ -30563,7 +30823,7 @@ class XLTCXXBT(NamedTuple):
         return "LTCXBT"
 
 
-XLTCXXBT = XLTCXXBT()
+XLTCXXBT = XLTCXXBT(*XLTCXXBT._fields)
 """
     name: LTCXBT
     significant_digits: None
@@ -30577,7 +30837,7 @@ XLTCXXBT = XLTCXXBT()
 """
 
 
-class XLTCZEUR(NamedTuple):
+class XLTCZEUR(Symbol):
     """
         name: LTCEUR
         significant_digits: None
@@ -30615,7 +30875,7 @@ class XLTCZEUR(NamedTuple):
         return "LTCEUR"
 
 
-XLTCZEUR = XLTCZEUR()
+XLTCZEUR = XLTCZEUR(*XLTCZEUR._fields)
 """
     name: LTCEUR
     significant_digits: None
@@ -30629,7 +30889,7 @@ XLTCZEUR = XLTCZEUR()
 """
 
 
-class XLTCZJPY(NamedTuple):
+class XLTCZJPY(Symbol):
     """
         name: LTCJPY
         significant_digits: None
@@ -30667,7 +30927,7 @@ class XLTCZJPY(NamedTuple):
         return "LTCJPY"
 
 
-XLTCZJPY = XLTCZJPY()
+XLTCZJPY = XLTCZJPY(*XLTCZJPY._fields)
 """
     name: LTCJPY
     significant_digits: None
@@ -30681,7 +30941,7 @@ XLTCZJPY = XLTCZJPY()
 """
 
 
-class XLTCZUSD(NamedTuple):
+class XLTCZUSD(Symbol):
     """
         name: LTCUSD
         significant_digits: None
@@ -30719,7 +30979,7 @@ class XLTCZUSD(NamedTuple):
         return "LTCUSD"
 
 
-XLTCZUSD = XLTCZUSD()
+XLTCZUSD = XLTCZUSD(*XLTCZUSD._fields)
 """
     name: LTCUSD
     significant_digits: None
@@ -30733,7 +30993,7 @@ XLTCZUSD = XLTCZUSD()
 """
 
 
-class XMLNXETH(NamedTuple):
+class XMLNXETH(Symbol):
     """
         name: MLNETH
         significant_digits: None
@@ -30771,7 +31031,7 @@ class XMLNXETH(NamedTuple):
         return "MLNETH"
 
 
-XMLNXETH = XMLNXETH()
+XMLNXETH = XMLNXETH(*XMLNXETH._fields)
 """
     name: MLNETH
     significant_digits: None
@@ -30785,7 +31045,7 @@ XMLNXETH = XMLNXETH()
 """
 
 
-class XMLNXXBT(NamedTuple):
+class XMLNXXBT(Symbol):
     """
         name: MLNXBT
         significant_digits: None
@@ -30823,7 +31083,7 @@ class XMLNXXBT(NamedTuple):
         return "MLNXBT"
 
 
-XMLNXXBT = XMLNXXBT()
+XMLNXXBT = XMLNXXBT(*XMLNXXBT._fields)
 """
     name: MLNXBT
     significant_digits: None
@@ -30837,7 +31097,7 @@ XMLNXXBT = XMLNXXBT()
 """
 
 
-class XMLNZEUR(NamedTuple):
+class XMLNZEUR(Symbol):
     """
         name: MLNEUR
         significant_digits: None
@@ -30875,7 +31135,7 @@ class XMLNZEUR(NamedTuple):
         return "MLNEUR"
 
 
-XMLNZEUR = XMLNZEUR()
+XMLNZEUR = XMLNZEUR(*XMLNZEUR._fields)
 """
     name: MLNEUR
     significant_digits: None
@@ -30889,7 +31149,7 @@ XMLNZEUR = XMLNZEUR()
 """
 
 
-class XMLNZUSD(NamedTuple):
+class XMLNZUSD(Symbol):
     """
         name: MLNUSD
         significant_digits: None
@@ -30927,7 +31187,7 @@ class XMLNZUSD(NamedTuple):
         return "MLNUSD"
 
 
-XMLNZUSD = XMLNZUSD()
+XMLNZUSD = XMLNZUSD(*XMLNZUSD._fields)
 """
     name: MLNUSD
     significant_digits: None
@@ -30941,7 +31201,7 @@ XMLNZUSD = XMLNZUSD()
 """
 
 
-class XMRUSDT(NamedTuple):
+class XMRUSDT(Symbol):
     """
         name: XMRUSDT
         significant_digits: None
@@ -30979,7 +31239,7 @@ class XMRUSDT(NamedTuple):
         return "XMRUSDT"
 
 
-XMRUSDT = XMRUSDT()
+XMRUSDT = XMRUSDT(*XMRUSDT._fields)
 """
     name: XMRUSDT
     significant_digits: None
@@ -30993,7 +31253,7 @@ XMRUSDT = XMRUSDT()
 """
 
 
-class XREPXXBT(NamedTuple):
+class XREPXXBT(Symbol):
     """
         name: REPXBT
         significant_digits: None
@@ -31031,7 +31291,7 @@ class XREPXXBT(NamedTuple):
         return "REPXBT"
 
 
-XREPXXBT = XREPXXBT()
+XREPXXBT = XREPXXBT(*XREPXXBT._fields)
 """
     name: REPXBT
     significant_digits: None
@@ -31045,7 +31305,7 @@ XREPXXBT = XREPXXBT()
 """
 
 
-class XREPZEUR(NamedTuple):
+class XREPZEUR(Symbol):
     """
         name: REPEUR
         significant_digits: None
@@ -31083,7 +31343,7 @@ class XREPZEUR(NamedTuple):
         return "REPEUR"
 
 
-XREPZEUR = XREPZEUR()
+XREPZEUR = XREPZEUR(*XREPZEUR._fields)
 """
     name: REPEUR
     significant_digits: None
@@ -31097,7 +31357,7 @@ XREPZEUR = XREPZEUR()
 """
 
 
-class XREPZUSD(NamedTuple):
+class XREPZUSD(Symbol):
     """
         name: REPUSD
         significant_digits: None
@@ -31135,7 +31395,7 @@ class XREPZUSD(NamedTuple):
         return "REPUSD"
 
 
-XREPZUSD = XREPZUSD()
+XREPZUSD = XREPZUSD(*XREPZUSD._fields)
 """
     name: REPUSD
     significant_digits: None
@@ -31149,7 +31409,7 @@ XREPZUSD = XREPZUSD()
 """
 
 
-class XRPAUD(NamedTuple):
+class XRPAUD(Symbol):
     """
         name: XRPAUD
         significant_digits: None
@@ -31187,7 +31447,7 @@ class XRPAUD(NamedTuple):
         return "XRPAUD"
 
 
-XRPAUD = XRPAUD()
+XRPAUD = XRPAUD(*XRPAUD._fields)
 """
     name: XRPAUD
     significant_digits: None
@@ -31201,7 +31461,7 @@ XRPAUD = XRPAUD()
 """
 
 
-class XRPETH(NamedTuple):
+class XRPETH(Symbol):
     """
         name: XRPETH
         significant_digits: None
@@ -31239,7 +31499,7 @@ class XRPETH(NamedTuple):
         return "XRPETH"
 
 
-XRPETH = XRPETH()
+XRPETH = XRPETH(*XRPETH._fields)
 """
     name: XRPETH
     significant_digits: None
@@ -31253,7 +31513,7 @@ XRPETH = XRPETH()
 """
 
 
-class XRPGBP(NamedTuple):
+class XRPGBP(Symbol):
     """
         name: XRPGBP
         significant_digits: None
@@ -31291,7 +31551,7 @@ class XRPGBP(NamedTuple):
         return "XRPGBP"
 
 
-XRPGBP = XRPGBP()
+XRPGBP = XRPGBP(*XRPGBP._fields)
 """
     name: XRPGBP
     significant_digits: None
@@ -31305,7 +31565,7 @@ XRPGBP = XRPGBP()
 """
 
 
-class XRPUSDT(NamedTuple):
+class XRPUSDT(Symbol):
     """
         name: XRPUSDT
         significant_digits: None
@@ -31343,7 +31603,7 @@ class XRPUSDT(NamedTuple):
         return "XRPUSDT"
 
 
-XRPUSDT = XRPUSDT()
+XRPUSDT = XRPUSDT(*XRPUSDT._fields)
 """
     name: XRPUSDT
     significant_digits: None
@@ -31357,7 +31617,7 @@ XRPUSDT = XRPUSDT()
 """
 
 
-class XRTEUR(NamedTuple):
+class XRTEUR(Symbol):
     """
         name: XRTEUR
         significant_digits: None
@@ -31395,7 +31655,7 @@ class XRTEUR(NamedTuple):
         return "XRTEUR"
 
 
-XRTEUR = XRTEUR()
+XRTEUR = XRTEUR(*XRTEUR._fields)
 """
     name: XRTEUR
     significant_digits: None
@@ -31409,7 +31669,7 @@ XRTEUR = XRTEUR()
 """
 
 
-class XRTUSD(NamedTuple):
+class XRTUSD(Symbol):
     """
         name: XRTUSD
         significant_digits: None
@@ -31447,7 +31707,7 @@ class XRTUSD(NamedTuple):
         return "XRTUSD"
 
 
-XRTUSD = XRTUSD()
+XRTUSD = XRTUSD(*XRTUSD._fields)
 """
     name: XRTUSD
     significant_digits: None
@@ -31461,7 +31721,7 @@ XRTUSD = XRTUSD()
 """
 
 
-class XTZAUD(NamedTuple):
+class XTZAUD(Symbol):
     """
         name: XTZAUD
         significant_digits: None
@@ -31499,7 +31759,7 @@ class XTZAUD(NamedTuple):
         return "XTZAUD"
 
 
-XTZAUD = XTZAUD()
+XTZAUD = XTZAUD(*XTZAUD._fields)
 """
     name: XTZAUD
     significant_digits: None
@@ -31513,7 +31773,7 @@ XTZAUD = XTZAUD()
 """
 
 
-class XTZETH(NamedTuple):
+class XTZETH(Symbol):
     """
         name: XTZETH
         significant_digits: None
@@ -31551,7 +31811,7 @@ class XTZETH(NamedTuple):
         return "XTZETH"
 
 
-XTZETH = XTZETH()
+XTZETH = XTZETH(*XTZETH._fields)
 """
     name: XTZETH
     significant_digits: None
@@ -31565,7 +31825,7 @@ XTZETH = XTZETH()
 """
 
 
-class XTZEUR(NamedTuple):
+class XTZEUR(Symbol):
     """
         name: XTZEUR
         significant_digits: None
@@ -31603,7 +31863,7 @@ class XTZEUR(NamedTuple):
         return "XTZEUR"
 
 
-XTZEUR = XTZEUR()
+XTZEUR = XTZEUR(*XTZEUR._fields)
 """
     name: XTZEUR
     significant_digits: None
@@ -31617,7 +31877,7 @@ XTZEUR = XTZEUR()
 """
 
 
-class XTZGBP(NamedTuple):
+class XTZGBP(Symbol):
     """
         name: XTZGBP
         significant_digits: None
@@ -31655,7 +31915,7 @@ class XTZGBP(NamedTuple):
         return "XTZGBP"
 
 
-XTZGBP = XTZGBP()
+XTZGBP = XTZGBP(*XTZGBP._fields)
 """
     name: XTZGBP
     significant_digits: None
@@ -31669,7 +31929,7 @@ XTZGBP = XTZGBP()
 """
 
 
-class XTZUSD(NamedTuple):
+class XTZUSD(Symbol):
     """
         name: XTZUSD
         significant_digits: None
@@ -31707,7 +31967,7 @@ class XTZUSD(NamedTuple):
         return "XTZUSD"
 
 
-XTZUSD = XTZUSD()
+XTZUSD = XTZUSD(*XTZUSD._fields)
 """
     name: XTZUSD
     significant_digits: None
@@ -31721,7 +31981,7 @@ XTZUSD = XTZUSD()
 """
 
 
-class XTZUSDT(NamedTuple):
+class XTZUSDT(Symbol):
     """
         name: XTZUSDT
         significant_digits: None
@@ -31759,7 +32019,7 @@ class XTZUSDT(NamedTuple):
         return "XTZUSDT"
 
 
-XTZUSDT = XTZUSDT()
+XTZUSDT = XTZUSDT(*XTZUSDT._fields)
 """
     name: XTZUSDT
     significant_digits: None
@@ -31773,7 +32033,7 @@ XTZUSDT = XTZUSDT()
 """
 
 
-class XTZXBT(NamedTuple):
+class XTZXBT(Symbol):
     """
         name: XTZXBT
         significant_digits: None
@@ -31811,7 +32071,7 @@ class XTZXBT(NamedTuple):
         return "XTZXBT"
 
 
-XTZXBT = XTZXBT()
+XTZXBT = XTZXBT(*XTZXBT._fields)
 """
     name: XTZXBT
     significant_digits: None
@@ -31825,7 +32085,7 @@ XTZXBT = XTZXBT()
 """
 
 
-class XXBTZCAD(NamedTuple):
+class XXBTZCAD(Symbol):
     """
         name: XBTCAD
         significant_digits: None
@@ -31863,7 +32123,7 @@ class XXBTZCAD(NamedTuple):
         return "XBTCAD"
 
 
-XXBTZCAD = XXBTZCAD()
+XXBTZCAD = XXBTZCAD(*XXBTZCAD._fields)
 """
     name: XBTCAD
     significant_digits: None
@@ -31877,7 +32137,7 @@ XXBTZCAD = XXBTZCAD()
 """
 
 
-class XXBTZEUR(NamedTuple):
+class XXBTZEUR(Symbol):
     """
         name: XBTEUR
         significant_digits: None
@@ -31915,7 +32175,7 @@ class XXBTZEUR(NamedTuple):
         return "XBTEUR"
 
 
-XXBTZEUR = XXBTZEUR()
+XXBTZEUR = XXBTZEUR(*XXBTZEUR._fields)
 """
     name: XBTEUR
     significant_digits: None
@@ -31929,7 +32189,7 @@ XXBTZEUR = XXBTZEUR()
 """
 
 
-class XXBTZGBP(NamedTuple):
+class XXBTZGBP(Symbol):
     """
         name: XBTGBP
         significant_digits: None
@@ -31967,7 +32227,7 @@ class XXBTZGBP(NamedTuple):
         return "XBTGBP"
 
 
-XXBTZGBP = XXBTZGBP()
+XXBTZGBP = XXBTZGBP(*XXBTZGBP._fields)
 """
     name: XBTGBP
     significant_digits: None
@@ -31981,7 +32241,7 @@ XXBTZGBP = XXBTZGBP()
 """
 
 
-class XXBTZJPY(NamedTuple):
+class XXBTZJPY(Symbol):
     """
         name: XBTJPY
         significant_digits: None
@@ -32019,7 +32279,7 @@ class XXBTZJPY(NamedTuple):
         return "XBTJPY"
 
 
-XXBTZJPY = XXBTZJPY()
+XXBTZJPY = XXBTZJPY(*XXBTZJPY._fields)
 """
     name: XBTJPY
     significant_digits: None
@@ -32033,7 +32293,7 @@ XXBTZJPY = XXBTZJPY()
 """
 
 
-class XXBTZUSD(NamedTuple):
+class XXBTZUSD(Symbol):
     """
         name: XBTUSD
         significant_digits: None
@@ -32071,7 +32331,7 @@ class XXBTZUSD(NamedTuple):
         return "XBTUSD"
 
 
-XXBTZUSD = XXBTZUSD()
+XXBTZUSD = XXBTZUSD(*XXBTZUSD._fields)
 """
     name: XBTUSD
     significant_digits: None
@@ -32085,7 +32345,7 @@ XXBTZUSD = XXBTZUSD()
 """
 
 
-class XXDGXXBT(NamedTuple):
+class XXDGXXBT(Symbol):
     """
         name: XDGXBT
         significant_digits: None
@@ -32123,7 +32383,7 @@ class XXDGXXBT(NamedTuple):
         return "XDGXBT"
 
 
-XXDGXXBT = XXDGXXBT()
+XXDGXXBT = XXDGXXBT(*XXDGXXBT._fields)
 """
     name: XDGXBT
     significant_digits: None
@@ -32137,7 +32397,7 @@ XXDGXXBT = XXDGXXBT()
 """
 
 
-class XXLMXXBT(NamedTuple):
+class XXLMXXBT(Symbol):
     """
         name: XLMXBT
         significant_digits: None
@@ -32175,7 +32435,7 @@ class XXLMXXBT(NamedTuple):
         return "XLMXBT"
 
 
-XXLMXXBT = XXLMXXBT()
+XXLMXXBT = XXLMXXBT(*XXLMXXBT._fields)
 """
     name: XLMXBT
     significant_digits: None
@@ -32189,7 +32449,7 @@ XXLMXXBT = XXLMXXBT()
 """
 
 
-class XXLMZEUR(NamedTuple):
+class XXLMZEUR(Symbol):
     """
         name: XLMEUR
         significant_digits: None
@@ -32227,7 +32487,7 @@ class XXLMZEUR(NamedTuple):
         return "XLMEUR"
 
 
-XXLMZEUR = XXLMZEUR()
+XXLMZEUR = XXLMZEUR(*XXLMZEUR._fields)
 """
     name: XLMEUR
     significant_digits: None
@@ -32241,7 +32501,7 @@ XXLMZEUR = XXLMZEUR()
 """
 
 
-class XXLMZGBP(NamedTuple):
+class XXLMZGBP(Symbol):
     """
         name: XLMGBP
         significant_digits: None
@@ -32279,7 +32539,7 @@ class XXLMZGBP(NamedTuple):
         return "XLMGBP"
 
 
-XXLMZGBP = XXLMZGBP()
+XXLMZGBP = XXLMZGBP(*XXLMZGBP._fields)
 """
     name: XLMGBP
     significant_digits: None
@@ -32293,7 +32553,7 @@ XXLMZGBP = XXLMZGBP()
 """
 
 
-class XXLMZUSD(NamedTuple):
+class XXLMZUSD(Symbol):
     """
         name: XLMUSD
         significant_digits: None
@@ -32331,7 +32591,7 @@ class XXLMZUSD(NamedTuple):
         return "XLMUSD"
 
 
-XXLMZUSD = XXLMZUSD()
+XXLMZUSD = XXLMZUSD(*XXLMZUSD._fields)
 """
     name: XLMUSD
     significant_digits: None
@@ -32345,7 +32605,7 @@ XXLMZUSD = XXLMZUSD()
 """
 
 
-class XXMRXXBT(NamedTuple):
+class XXMRXXBT(Symbol):
     """
         name: XMRXBT
         significant_digits: None
@@ -32383,7 +32643,7 @@ class XXMRXXBT(NamedTuple):
         return "XMRXBT"
 
 
-XXMRXXBT = XXMRXXBT()
+XXMRXXBT = XXMRXXBT(*XXMRXXBT._fields)
 """
     name: XMRXBT
     significant_digits: None
@@ -32397,7 +32657,7 @@ XXMRXXBT = XXMRXXBT()
 """
 
 
-class XXMRZEUR(NamedTuple):
+class XXMRZEUR(Symbol):
     """
         name: XMREUR
         significant_digits: None
@@ -32435,7 +32695,7 @@ class XXMRZEUR(NamedTuple):
         return "XMREUR"
 
 
-XXMRZEUR = XXMRZEUR()
+XXMRZEUR = XXMRZEUR(*XXMRZEUR._fields)
 """
     name: XMREUR
     significant_digits: None
@@ -32449,7 +32709,7 @@ XXMRZEUR = XXMRZEUR()
 """
 
 
-class XXMRZUSD(NamedTuple):
+class XXMRZUSD(Symbol):
     """
         name: XMRUSD
         significant_digits: None
@@ -32487,7 +32747,7 @@ class XXMRZUSD(NamedTuple):
         return "XMRUSD"
 
 
-XXMRZUSD = XXMRZUSD()
+XXMRZUSD = XXMRZUSD(*XXMRZUSD._fields)
 """
     name: XMRUSD
     significant_digits: None
@@ -32501,7 +32761,7 @@ XXMRZUSD = XXMRZUSD()
 """
 
 
-class XXRPXXBT(NamedTuple):
+class XXRPXXBT(Symbol):
     """
         name: XRPXBT
         significant_digits: None
@@ -32539,7 +32799,7 @@ class XXRPXXBT(NamedTuple):
         return "XRPXBT"
 
 
-XXRPXXBT = XXRPXXBT()
+XXRPXXBT = XXRPXXBT(*XXRPXXBT._fields)
 """
     name: XRPXBT
     significant_digits: None
@@ -32553,7 +32813,7 @@ XXRPXXBT = XXRPXXBT()
 """
 
 
-class XXRPZCAD(NamedTuple):
+class XXRPZCAD(Symbol):
     """
         name: XRPCAD
         significant_digits: None
@@ -32591,7 +32851,7 @@ class XXRPZCAD(NamedTuple):
         return "XRPCAD"
 
 
-XXRPZCAD = XXRPZCAD()
+XXRPZCAD = XXRPZCAD(*XXRPZCAD._fields)
 """
     name: XRPCAD
     significant_digits: None
@@ -32605,7 +32865,7 @@ XXRPZCAD = XXRPZCAD()
 """
 
 
-class XXRPZEUR(NamedTuple):
+class XXRPZEUR(Symbol):
     """
         name: XRPEUR
         significant_digits: None
@@ -32643,7 +32903,7 @@ class XXRPZEUR(NamedTuple):
         return "XRPEUR"
 
 
-XXRPZEUR = XXRPZEUR()
+XXRPZEUR = XXRPZEUR(*XXRPZEUR._fields)
 """
     name: XRPEUR
     significant_digits: None
@@ -32657,7 +32917,7 @@ XXRPZEUR = XXRPZEUR()
 """
 
 
-class XXRPZJPY(NamedTuple):
+class XXRPZJPY(Symbol):
     """
         name: XRPJPY
         significant_digits: None
@@ -32695,7 +32955,7 @@ class XXRPZJPY(NamedTuple):
         return "XRPJPY"
 
 
-XXRPZJPY = XXRPZJPY()
+XXRPZJPY = XXRPZJPY(*XXRPZJPY._fields)
 """
     name: XRPJPY
     significant_digits: None
@@ -32709,7 +32969,7 @@ XXRPZJPY = XXRPZJPY()
 """
 
 
-class XXRPZUSD(NamedTuple):
+class XXRPZUSD(Symbol):
     """
         name: XRPUSD
         significant_digits: None
@@ -32747,7 +33007,7 @@ class XXRPZUSD(NamedTuple):
         return "XRPUSD"
 
 
-XXRPZUSD = XXRPZUSD()
+XXRPZUSD = XXRPZUSD(*XXRPZUSD._fields)
 """
     name: XRPUSD
     significant_digits: None
@@ -32761,7 +33021,7 @@ XXRPZUSD = XXRPZUSD()
 """
 
 
-class XZECXXBT(NamedTuple):
+class XZECXXBT(Symbol):
     """
         name: ZECXBT
         significant_digits: None
@@ -32799,7 +33059,7 @@ class XZECXXBT(NamedTuple):
         return "ZECXBT"
 
 
-XZECXXBT = XZECXXBT()
+XZECXXBT = XZECXXBT(*XZECXXBT._fields)
 """
     name: ZECXBT
     significant_digits: None
@@ -32813,7 +33073,7 @@ XZECXXBT = XZECXXBT()
 """
 
 
-class XZECZEUR(NamedTuple):
+class XZECZEUR(Symbol):
     """
         name: ZECEUR
         significant_digits: None
@@ -32851,7 +33111,7 @@ class XZECZEUR(NamedTuple):
         return "ZECEUR"
 
 
-XZECZEUR = XZECZEUR()
+XZECZEUR = XZECZEUR(*XZECZEUR._fields)
 """
     name: ZECEUR
     significant_digits: None
@@ -32865,7 +33125,7 @@ XZECZEUR = XZECZEUR()
 """
 
 
-class XZECZUSD(NamedTuple):
+class XZECZUSD(Symbol):
     """
         name: ZECUSD
         significant_digits: None
@@ -32903,7 +33163,7 @@ class XZECZUSD(NamedTuple):
         return "ZECUSD"
 
 
-XZECZUSD = XZECZUSD()
+XZECZUSD = XZECZUSD(*XZECZUSD._fields)
 """
     name: ZECUSD
     significant_digits: None
@@ -32917,7 +33177,7 @@ XZECZUSD = XZECZUSD()
 """
 
 
-class YFIEUR(NamedTuple):
+class YFIEUR(Symbol):
     """
         name: YFIEUR
         significant_digits: None
@@ -32955,7 +33215,7 @@ class YFIEUR(NamedTuple):
         return "YFIEUR"
 
 
-YFIEUR = YFIEUR()
+YFIEUR = YFIEUR(*YFIEUR._fields)
 """
     name: YFIEUR
     significant_digits: None
@@ -32969,7 +33229,7 @@ YFIEUR = YFIEUR()
 """
 
 
-class YFIUSD(NamedTuple):
+class YFIUSD(Symbol):
     """
         name: YFIUSD
         significant_digits: None
@@ -33007,7 +33267,7 @@ class YFIUSD(NamedTuple):
         return "YFIUSD"
 
 
-YFIUSD = YFIUSD()
+YFIUSD = YFIUSD(*YFIUSD._fields)
 """
     name: YFIUSD
     significant_digits: None
@@ -33021,7 +33281,7 @@ YFIUSD = YFIUSD()
 """
 
 
-class YFIXBT(NamedTuple):
+class YFIXBT(Symbol):
     """
         name: YFIXBT
         significant_digits: None
@@ -33059,7 +33319,7 @@ class YFIXBT(NamedTuple):
         return "YFIXBT"
 
 
-YFIXBT = YFIXBT()
+YFIXBT = YFIXBT(*YFIXBT._fields)
 """
     name: YFIXBT
     significant_digits: None
@@ -33073,7 +33333,7 @@ YFIXBT = YFIXBT()
 """
 
 
-class YGGEUR(NamedTuple):
+class YGGEUR(Symbol):
     """
         name: YGGEUR
         significant_digits: None
@@ -33111,7 +33371,7 @@ class YGGEUR(NamedTuple):
         return "YGGEUR"
 
 
-YGGEUR = YGGEUR()
+YGGEUR = YGGEUR(*YGGEUR._fields)
 """
     name: YGGEUR
     significant_digits: None
@@ -33125,7 +33385,7 @@ YGGEUR = YGGEUR()
 """
 
 
-class YGGUSD(NamedTuple):
+class YGGUSD(Symbol):
     """
         name: YGGUSD
         significant_digits: None
@@ -33163,7 +33423,7 @@ class YGGUSD(NamedTuple):
         return "YGGUSD"
 
 
-YGGUSD = YGGUSD()
+YGGUSD = YGGUSD(*YGGUSD._fields)
 """
     name: YGGUSD
     significant_digits: None
@@ -33177,7 +33437,7 @@ YGGUSD = YGGUSD()
 """
 
 
-class ZEURZUSD(NamedTuple):
+class ZEURZUSD(Symbol):
     """
         name: EURUSD
         significant_digits: None
@@ -33215,7 +33475,7 @@ class ZEURZUSD(NamedTuple):
         return "EURUSD"
 
 
-ZEURZUSD = ZEURZUSD()
+ZEURZUSD = ZEURZUSD(*ZEURZUSD._fields)
 """
     name: EURUSD
     significant_digits: None
@@ -33229,7 +33489,7 @@ ZEURZUSD = ZEURZUSD()
 """
 
 
-class ZGBPZUSD(NamedTuple):
+class ZGBPZUSD(Symbol):
     """
         name: GBPUSD
         significant_digits: None
@@ -33267,7 +33527,7 @@ class ZGBPZUSD(NamedTuple):
         return "GBPUSD"
 
 
-ZGBPZUSD = ZGBPZUSD()
+ZGBPZUSD = ZGBPZUSD(*ZGBPZUSD._fields)
 """
     name: GBPUSD
     significant_digits: None
@@ -33281,7 +33541,7 @@ ZGBPZUSD = ZGBPZUSD()
 """
 
 
-class ZRXEUR(NamedTuple):
+class ZRXEUR(Symbol):
     """
         name: ZRXEUR
         significant_digits: None
@@ -33319,7 +33579,7 @@ class ZRXEUR(NamedTuple):
         return "ZRXEUR"
 
 
-ZRXEUR = ZRXEUR()
+ZRXEUR = ZRXEUR(*ZRXEUR._fields)
 """
     name: ZRXEUR
     significant_digits: None
@@ -33333,7 +33593,7 @@ ZRXEUR = ZRXEUR()
 """
 
 
-class ZRXUSD(NamedTuple):
+class ZRXUSD(Symbol):
     """
         name: ZRXUSD
         significant_digits: None
@@ -33371,7 +33631,7 @@ class ZRXUSD(NamedTuple):
         return "ZRXUSD"
 
 
-ZRXUSD = ZRXUSD()
+ZRXUSD = ZRXUSD(*ZRXUSD._fields)
 """
     name: ZRXUSD
     significant_digits: None
@@ -33385,7 +33645,7 @@ ZRXUSD = ZRXUSD()
 """
 
 
-class ZRXXBT(NamedTuple):
+class ZRXXBT(Symbol):
     """
         name: ZRXXBT
         significant_digits: None
@@ -33423,7 +33683,7 @@ class ZRXXBT(NamedTuple):
         return "ZRXXBT"
 
 
-ZRXXBT = ZRXXBT()
+ZRXXBT = ZRXXBT(*ZRXXBT._fields)
 """
     name: ZRXXBT
     significant_digits: None
@@ -33437,7 +33697,7 @@ ZRXXBT = ZRXXBT()
 """
 
 
-class ZUSDZCAD(NamedTuple):
+class ZUSDZCAD(Symbol):
     """
         name: USDCAD
         significant_digits: None
@@ -33475,7 +33735,7 @@ class ZUSDZCAD(NamedTuple):
         return "USDCAD"
 
 
-ZUSDZCAD = ZUSDZCAD()
+ZUSDZCAD = ZUSDZCAD(*ZUSDZCAD._fields)
 """
     name: USDCAD
     significant_digits: None
@@ -33489,7 +33749,7 @@ ZUSDZCAD = ZUSDZCAD()
 """
 
 
-class ZUSDZJPY(NamedTuple):
+class ZUSDZJPY(Symbol):
     """
         name: USDJPY
         significant_digits: None
@@ -33527,7 +33787,7 @@ class ZUSDZJPY(NamedTuple):
         return "USDJPY"
 
 
-ZUSDZJPY = ZUSDZJPY()
+ZUSDZJPY = ZUSDZJPY(*ZUSDZJPY._fields)
 """
     name: USDJPY
     significant_digits: None

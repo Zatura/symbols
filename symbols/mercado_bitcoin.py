@@ -1,5831 +1,7 @@
-from typing import NamedTuple
+from ._model import Symbol
 
 
-class MBFP07_BRL(NamedTuple):
-    """
-        name: MBFP07-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP07-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP07-BRL"
-
-    def __str__(self):
-        return "MBFP07-BRL"
-
-    def __call__(self):
-        return "MBFP07-BRL"
-
-
-MBFP07_BRL = MBFP07_BRL()
-"""
-    name: MBFP07-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH18_BRL(NamedTuple):
-    """
-        name: MBCCSH18-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH18-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH18-BRL"
-
-    def __str__(self):
-        return "MBCCSH18-BRL"
-
-    def __call__(self):
-        return "MBCCSH18-BRL"
-
-
-MBCCSH18_BRL = MBCCSH18_BRL()
-"""
-    name: MBCCSH18-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH21_BRL(NamedTuple):
-    """
-        name: MBCCSH21-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH21-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH21-BRL"
-
-    def __str__(self):
-        return "MBCCSH21-BRL"
-
-    def __call__(self):
-        return "MBCCSH21-BRL"
-
-
-MBCCSH21_BRL = MBCCSH21_BRL()
-"""
-    name: MBCCSH21-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RACA_BRL(NamedTuple):
-    """
-        name: RACA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RACA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RACA-BRL"
-
-    def __str__(self):
-        return "RACA-BRL"
-
-    def __call__(self):
-        return "RACA-BRL"
-
-
-RACA_BRL = RACA_BRL()
-"""
-    name: RACA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class YFI_BRL(NamedTuple):
-    """
-        name: YFI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "YFI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YFI-BRL"
-
-    def __str__(self):
-        return "YFI-BRL"
-
-    def __call__(self):
-        return "YFI-BRL"
-
-
-YFI_BRL = YFI_BRL()
-"""
-    name: YFI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ENJ_BRL(NamedTuple):
-    """
-        name: ENJ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ENJ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ENJ-BRL"
-
-    def __str__(self):
-        return "ENJ-BRL"
-
-    def __call__(self):
-        return "ENJ-BRL"
-
-
-ENJ_BRL = ENJ_BRL()
-"""
-    name: ENJ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class QNT_BRL(NamedTuple):
-    """
-        name: QNT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "QNT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "QNT-BRL"
-
-    def __str__(self):
-        return "QNT-BRL"
-
-    def __call__(self):
-        return "QNT-BRL"
-
-
-QNT_BRL = QNT_BRL()
-"""
-    name: QNT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CVX_BRL(NamedTuple):
-    """
-        name: CVX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CVX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CVX-BRL"
-
-    def __str__(self):
-        return "CVX-BRL"
-
-    def __call__(self):
-        return "CVX-BRL"
-
-
-CVX_BRL = CVX_BRL()
-"""
-    name: CVX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDEN04_BRL(NamedTuple):
-    """
-        name: RFDEN04-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDEN04-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDEN04-BRL"
-
-    def __str__(self):
-        return "RFDEN04-BRL"
-
-    def __call__(self):
-        return "RFDEN04-BRL"
-
-
-RFDEN04_BRL = RFDEN04_BRL()
-"""
-    name: RFDEN04-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH04_BRL(NamedTuple):
-    """
-        name: MBCCSH04-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH04-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH04-BRL"
-
-    def __str__(self):
-        return "MBCCSH04-BRL"
-
-    def __call__(self):
-        return "MBCCSH04-BRL"
-
-
-MBCCSH04_BRL = MBCCSH04_BRL()
-"""
-    name: MBCCSH04-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GYEN_BRL(NamedTuple):
-    """
-        name: GYEN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GYEN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GYEN-BRL"
-
-    def __str__(self):
-        return "GYEN-BRL"
-
-    def __call__(self):
-        return "GYEN-BRL"
-
-
-GYEN_BRL = GYEN_BRL()
-"""
-    name: GYEN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK04_BRL(NamedTuple):
-    """
-        name: MBPRK04-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK04-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK04-BRL"
-
-    def __str__(self):
-        return "MBPRK04-BRL"
-
-    def __call__(self):
-        return "MBPRK04-BRL"
-
-
-MBPRK04_BRL = MBPRK04_BRL()
-"""
-    name: MBPRK04-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class METIS_BRL(NamedTuple):
-    """
-        name: METIS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "METIS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "METIS-BRL"
-
-    def __str__(self):
-        return "METIS-BRL"
-
-    def __call__(self):
-        return "METIS-BRL"
-
-
-METIS_BRL = METIS_BRL()
-"""
-    name: METIS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class HOT_BRL(NamedTuple):
-    """
-        name: HOT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "HOT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "HOT-BRL"
-
-    def __str__(self):
-        return "HOT-BRL"
-
-    def __call__(self):
-        return "HOT-BRL"
-
-
-HOT_BRL = HOT_BRL()
-"""
-    name: HOT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MATIC_BRL(NamedTuple):
-    """
-        name: MATIC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MATIC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MATIC-BRL"
-
-    def __str__(self):
-        return "MATIC-BRL"
-
-    def __call__(self):
-        return "MATIC-BRL"
-
-
-MATIC_BRL = MATIC_BRL()
-"""
-    name: MATIC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SUPER_BRL(NamedTuple):
-    """
-        name: SUPER-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SUPER-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SUPER-BRL"
-
-    def __str__(self):
-        return "SUPER-BRL"
-
-    def __call__(self):
-        return "SUPER-BRL"
-
-
-SUPER_BRL = SUPER_BRL()
-"""
-    name: SUPER-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class UMA_BRL(NamedTuple):
-    """
-        name: UMA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "UMA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "UMA-BRL"
-
-    def __str__(self):
-        return "UMA-BRL"
-
-    def __call__(self):
-        return "UMA-BRL"
-
-
-UMA_BRL = UMA_BRL()
-"""
-    name: UMA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class COTI_BRL(NamedTuple):
-    """
-        name: COTI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "COTI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "COTI-BRL"
-
-    def __str__(self):
-        return "COTI-BRL"
-
-    def __call__(self):
-        return "COTI-BRL"
-
-
-COTI_BRL = COTI_BRL()
-"""
-    name: COTI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ARB_BRL(NamedTuple):
-    """
-        name: ARB-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ARB-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ARB-BRL"
-
-    def __str__(self):
-        return "ARB-BRL"
-
-    def __call__(self):
-        return "ARB-BRL"
-
-
-ARB_BRL = ARB_BRL()
-"""
-    name: ARB-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class JUVFT_BRL(NamedTuple):
-    """
-        name: JUVFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "JUVFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "JUVFT-BRL"
-
-    def __str__(self):
-        return "JUVFT-BRL"
-
-    def __call__(self):
-        return "JUVFT-BRL"
-
-
-JUVFT_BRL = JUVFT_BRL()
-"""
-    name: JUVFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ICP_BRL(NamedTuple):
-    """
-        name: ICP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ICP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ICP-BRL"
-
-    def __str__(self):
-        return "ICP-BRL"
-
-    def __call__(self):
-        return "ICP-BRL"
-
-
-ICP_BRL = ICP_BRL()
-"""
-    name: ICP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class STORJ_BRL(NamedTuple):
-    """
-        name: STORJ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "STORJ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "STORJ-BRL"
-
-    def __str__(self):
-        return "STORJ-BRL"
-
-    def __call__(self):
-        return "STORJ-BRL"
-
-
-STORJ_BRL = STORJ_BRL()
-"""
-    name: STORJ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class UFCFT_BRL(NamedTuple):
-    """
-        name: UFCFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "UFCFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "UFCFT-BRL"
-
-    def __str__(self):
-        return "UFCFT-BRL"
-
-    def __call__(self):
-        return "UFCFT-BRL"
-
-
-UFCFT_BRL = UFCFT_BRL()
-"""
-    name: UFCFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK05_BRL(NamedTuple):
-    """
-        name: MBPRK05-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK05-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK05-BRL"
-
-    def __str__(self):
-        return "MBPRK05-BRL"
-
-    def __call__(self):
-        return "MBPRK05-BRL"
-
-
-MBPRK05_BRL = MBPRK05_BRL()
-"""
-    name: MBPRK05-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDCS06_BRL(NamedTuple):
-    """
-        name: RFDCS06-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDCS06-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDCS06-BRL"
-
-    def __str__(self):
-        return "RFDCS06-BRL"
-
-    def __call__(self):
-        return "RFDCS06-BRL"
-
-
-RFDCS06_BRL = RFDCS06_BRL()
-"""
-    name: RFDCS06-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class JASMY_BRL(NamedTuple):
-    """
-        name: JASMY-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "JASMY-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "JASMY-BRL"
-
-    def __str__(self):
-        return "JASMY-BRL"
-
-    def __call__(self):
-        return "JASMY-BRL"
-
-
-JASMY_BRL = JASMY_BRL()
-"""
-    name: JASMY-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ROSE_BRL(NamedTuple):
-    """
-        name: ROSE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ROSE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ROSE-BRL"
-
-    def __str__(self):
-        return "ROSE-BRL"
-
-    def __call__(self):
-        return "ROSE-BRL"
-
-
-ROSE_BRL = ROSE_BRL()
-"""
-    name: ROSE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CSCONS04_BRL(NamedTuple):
-    """
-        name: CSCONS04-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CSCONS04-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CSCONS04-BRL"
-
-    def __str__(self):
-        return "CSCONS04-BRL"
-
-    def __call__(self):
-        return "CSCONS04-BRL"
-
-
-CSCONS04_BRL = CSCONS04_BRL()
-"""
-    name: CSCONS04-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH15_BRL(NamedTuple):
-    """
-        name: MBCCSH15-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH15-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH15-BRL"
-
-    def __str__(self):
-        return "MBCCSH15-BRL"
-
-    def __call__(self):
-        return "MBCCSH15-BRL"
-
-
-MBCCSH15_BRL = MBCCSH15_BRL()
-"""
-    name: MBCCSH15-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AAVE_BRL(NamedTuple):
-    """
-        name: AAVE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AAVE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AAVE-BRL"
-
-    def __str__(self):
-        return "AAVE-BRL"
-
-    def __call__(self):
-        return "AAVE-BRL"
-
-
-AAVE_BRL = AAVE_BRL()
-"""
-    name: AAVE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH05_BRL(NamedTuple):
-    """
-        name: MBCCSH05-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH05-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH05-BRL"
-
-    def __str__(self):
-        return "MBCCSH05-BRL"
-
-    def __call__(self):
-        return "MBCCSH05-BRL"
-
-
-MBCCSH05_BRL = MBCCSH05_BRL()
-"""
-    name: MBCCSH05-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH01_BRL(NamedTuple):
-    """
-        name: MBCCSH01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH01-BRL"
-
-    def __str__(self):
-        return "MBCCSH01-BRL"
-
-    def __call__(self):
-        return "MBCCSH01-BRL"
-
-
-MBCCSH01_BRL = MBCCSH01_BRL()
-"""
-    name: MBCCSH01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ACMFT_BRL(NamedTuple):
-    """
-        name: ACMFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ACMFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ACMFT-BRL"
-
-    def __str__(self):
-        return "ACMFT-BRL"
-
-    def __call__(self):
-        return "ACMFT-BRL"
-
-
-ACMFT_BRL = ACMFT_BRL()
-"""
-    name: ACMFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ARGFT_BRL(NamedTuple):
-    """
-        name: ARGFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ARGFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ARGFT-BRL"
-
-    def __str__(self):
-        return "ARGFT-BRL"
-
-    def __call__(self):
-        return "ARGFT-BRL"
-
-
-ARGFT_BRL = ARGFT_BRL()
-"""
-    name: ARGFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP09_BRL(NamedTuple):
-    """
-        name: MBFP09-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP09-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP09-BRL"
-
-    def __str__(self):
-        return "MBFP09-BRL"
-
-    def __call__(self):
-        return "MBFP09-BRL"
-
-
-MBFP09_BRL = MBFP09_BRL()
-"""
-    name: MBFP09-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class VSPRK01_BRL(NamedTuple):
-    """
-        name: VSPRK01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "VSPRK01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "VSPRK01-BRL"
-
-    def __str__(self):
-        return "VSPRK01-BRL"
-
-    def __call__(self):
-        return "VSPRK01-BRL"
-
-
-VSPRK01_BRL = VSPRK01_BRL()
-"""
-    name: VSPRK01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK02_BRL(NamedTuple):
-    """
-        name: MBPRK02-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK02-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK02-BRL"
-
-    def __str__(self):
-        return "MBPRK02-BRL"
-
-    def __call__(self):
-        return "MBPRK02-BRL"
-
-
-MBPRK02_BRL = MBPRK02_BRL()
-"""
-    name: MBPRK02-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LRC_BRL(NamedTuple):
-    """
-        name: LRC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LRC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LRC-BRL"
-
-    def __str__(self):
-        return "LRC-BRL"
-
-    def __call__(self):
-        return "LRC-BRL"
-
-
-LRC_BRL = LRC_BRL()
-"""
-    name: LRC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH10_BRL(NamedTuple):
-    """
-        name: MBCCSH10-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH10-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH10-BRL"
-
-    def __str__(self):
-        return "MBCCSH10-BRL"
-
-    def __call__(self):
-        return "MBCCSH10-BRL"
-
-
-MBCCSH10_BRL = MBCCSH10_BRL()
-"""
-    name: MBCCSH10-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH26_BRL(NamedTuple):
-    """
-        name: MBCCSH26-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH26-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH26-BRL"
-
-    def __str__(self):
-        return "MBCCSH26-BRL"
-
-    def __call__(self):
-        return "MBCCSH26-BRL"
-
-
-MBCCSH26_BRL = MBCCSH26_BRL()
-"""
-    name: MBCCSH26-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BAND_BRL(NamedTuple):
-    """
-        name: BAND-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BAND-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BAND-BRL"
-
-    def __str__(self):
-        return "BAND-BRL"
-
-    def __call__(self):
-        return "BAND-BRL"
-
-
-BAND_BRL = BAND_BRL()
-"""
-    name: BAND-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GALA_BRL(NamedTuple):
-    """
-        name: GALA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GALA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GALA-BRL"
-
-    def __str__(self):
-        return "GALA-BRL"
-
-    def __call__(self):
-        return "GALA-BRL"
-
-
-GALA_BRL = GALA_BRL()
-"""
-    name: GALA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AXS_BRL(NamedTuple):
-    """
-        name: AXS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AXS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AXS-BRL"
-
-    def __str__(self):
-        return "AXS-BRL"
-
-    def __call__(self):
-        return "AXS-BRL"
-
-
-AXS_BRL = AXS_BRL()
-"""
-    name: AXS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class WBX_BRL(NamedTuple):
-    """
-        name: WBX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "WBX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "WBX-BRL"
-
-    def __str__(self):
-        return "WBX-BRL"
-
-    def __call__(self):
-        return "WBX-BRL"
-
-
-WBX_BRL = WBX_BRL()
-"""
-    name: WBX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ASRFT_BRL(NamedTuple):
-    """
-        name: ASRFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ASRFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ASRFT-BRL"
-
-    def __str__(self):
-        return "ASRFT-BRL"
-
-    def __call__(self):
-        return "ASRFT-BRL"
-
-
-ASRFT_BRL = ASRFT_BRL()
-"""
-    name: ASRFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP15_BRL(NamedTuple):
-    """
-        name: MBFP15-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP15-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP15-BRL"
-
-    def __str__(self):
-        return "MBFP15-BRL"
-
-    def __call__(self):
-        return "MBFP15-BRL"
-
-
-MBFP15_BRL = MBFP15_BRL()
-"""
-    name: MBFP15-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH17_BRL(NamedTuple):
-    """
-        name: MBCCSH17-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH17-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH17-BRL"
-
-    def __str__(self):
-        return "MBCCSH17-BRL"
-
-    def __call__(self):
-        return "MBCCSH17-BRL"
-
-
-MBCCSH17_BRL = MBCCSH17_BRL()
-"""
-    name: MBCCSH17-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CSCONS03_BRL(NamedTuple):
-    """
-        name: CSCONS03-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CSCONS03-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CSCONS03-BRL"
-
-    def __str__(self):
-        return "CSCONS03-BRL"
-
-    def __call__(self):
-        return "CSCONS03-BRL"
-
-
-CSCONS03_BRL = CSCONS03_BRL()
-"""
-    name: CSCONS03-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH28_BRL(NamedTuple):
-    """
-        name: MBCCSH28-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH28-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH28-BRL"
-
-    def __str__(self):
-        return "MBCCSH28-BRL"
-
-    def __call__(self):
-        return "MBCCSH28-BRL"
-
-
-MBCCSH28_BRL = MBCCSH28_BRL()
-"""
-    name: MBCCSH28-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AVAX_BRL(NamedTuple):
-    """
-        name: AVAX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AVAX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AVAX-BRL"
-
-    def __str__(self):
-        return "AVAX-BRL"
-
-    def __call__(self):
-        return "AVAX-BRL"
-
-
-AVAX_BRL = AVAX_BRL()
-"""
-    name: AVAX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class KNC_BRL(NamedTuple):
-    """
-        name: KNC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "KNC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KNC-BRL"
-
-    def __str__(self):
-        return "KNC-BRL"
-
-    def __call__(self):
-        return "KNC-BRL"
-
-
-KNC_BRL = KNC_BRL()
-"""
-    name: KNC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH06_BRL(NamedTuple):
-    """
-        name: MBCCSH06-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH06-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH06-BRL"
-
-    def __str__(self):
-        return "MBCCSH06-BRL"
-
-    def __call__(self):
-        return "MBCCSH06-BRL"
-
-
-MBCCSH06_BRL = MBCCSH06_BRL()
-"""
-    name: MBCCSH06-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDFP20_BRL(NamedTuple):
-    """
-        name: RFDFP20-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDFP20-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDFP20-BRL"
-
-    def __str__(self):
-        return "RFDFP20-BRL"
-
-    def __call__(self):
-        return "RFDFP20-BRL"
-
-
-RFDFP20_BRL = RFDFP20_BRL()
-"""
-    name: RFDFP20-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class KP3R_BRL(NamedTuple):
-    """
-        name: KP3R-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "KP3R-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KP3R-BRL"
-
-    def __str__(self):
-        return "KP3R-BRL"
-
-    def __call__(self):
-        return "KP3R-BRL"
-
-
-KP3R_BRL = KP3R_BRL()
-"""
-    name: KP3R-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BLZ_BRL(NamedTuple):
-    """
-        name: BLZ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BLZ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BLZ-BRL"
-
-    def __str__(self):
-        return "BLZ-BRL"
-
-    def __call__(self):
-        return "BLZ-BRL"
-
-
-BLZ_BRL = BLZ_BRL()
-"""
-    name: BLZ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OPUL_BRL(NamedTuple):
-    """
-        name: OPUL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OPUL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OPUL-BRL"
-
-    def __str__(self):
-        return "OPUL-BRL"
-
-    def __call__(self):
-        return "OPUL-BRL"
-
-
-OPUL_BRL = OPUL_BRL()
-"""
-    name: OPUL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CSCONS05_BRL(NamedTuple):
-    """
-        name: CSCONS05-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CSCONS05-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CSCONS05-BRL"
-
-    def __str__(self):
-        return "CSCONS05-BRL"
-
-    def __call__(self):
-        return "CSCONS05-BRL"
-
-
-CSCONS05_BRL = CSCONS05_BRL()
-"""
-    name: CSCONS05-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH12_BRL(NamedTuple):
-    """
-        name: MBCCSH12-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH12-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH12-BRL"
-
-    def __str__(self):
-        return "MBCCSH12-BRL"
-
-    def __call__(self):
-        return "MBCCSH12-BRL"
-
-
-MBCCSH12_BRL = MBCCSH12_BRL()
-"""
-    name: MBCCSH12-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ENS_BRL(NamedTuple):
-    """
-        name: ENS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ENS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ENS-BRL"
-
-    def __str__(self):
-        return "ENS-BRL"
-
-    def __call__(self):
-        return "ENS-BRL"
-
-
-ENS_BRL = ENS_BRL()
-"""
-    name: ENS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class KEEP_BRL(NamedTuple):
-    """
-        name: KEEP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "KEEP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KEEP-BRL"
-
-    def __str__(self):
-        return "KEEP-BRL"
-
-    def __call__(self):
-        return "KEEP-BRL"
-
-
-KEEP_BRL = KEEP_BRL()
-"""
-    name: KEEP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class POLS_BRL(NamedTuple):
-    """
-        name: POLS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "POLS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "POLS-BRL"
-
-    def __str__(self):
-        return "POLS-BRL"
-
-    def __call__(self):
-        return "POLS-BRL"
-
-
-POLS_BRL = POLS_BRL()
-"""
-    name: POLS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BNT_BRL(NamedTuple):
-    """
-        name: BNT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BNT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BNT-BRL"
-
-    def __str__(self):
-        return "BNT-BRL"
-
-    def __call__(self):
-        return "BNT-BRL"
-
-
-BNT_BRL = BNT_BRL()
-"""
-    name: BNT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class INTERFT_BRL(NamedTuple):
-    """
-        name: INTERFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "INTERFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "INTERFT-BRL"
-
-    def __str__(self):
-        return "INTERFT-BRL"
-
-    def __call__(self):
-        return "INTERFT-BRL"
-
-
-INTERFT_BRL = INTERFT_BRL()
-"""
-    name: INTERFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ILV_BRL(NamedTuple):
-    """
-        name: ILV-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ILV-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ILV-BRL"
-
-    def __str__(self):
-        return "ILV-BRL"
-
-    def __call__(self):
-        return "ILV-BRL"
-
-
-ILV_BRL = ILV_BRL()
-"""
-    name: ILV-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MPL_BRL(NamedTuple):
-    """
-        name: MPL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MPL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MPL-BRL"
-
-    def __str__(self):
-        return "MPL-BRL"
-
-    def __call__(self):
-        return "MPL-BRL"
-
-
-MPL_BRL = MPL_BRL()
-"""
-    name: MPL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CLV_BRL(NamedTuple):
-    """
-        name: CLV-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CLV-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CLV-BRL"
-
-    def __str__(self):
-        return "CLV-BRL"
-
-    def __call__(self):
-        return "CLV-BRL"
-
-
-CLV_BRL = CLV_BRL()
-"""
-    name: CLV-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CONS01_BRL(NamedTuple):
-    """
-        name: CONS01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CONS01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CONS01-BRL"
-
-    def __str__(self):
-        return "CONS01-BRL"
-
-    def __call__(self):
-        return "CONS01-BRL"
-
-
-CONS01_BRL = CONS01_BRL()
-"""
-    name: CONS01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GODS_BRL(NamedTuple):
-    """
-        name: GODS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GODS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GODS-BRL"
-
-    def __str__(self):
-        return "GODS-BRL"
-
-    def __call__(self):
-        return "GODS-BRL"
-
-
-GODS_BRL = GODS_BRL()
-"""
-    name: GODS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class UNI_BRL(NamedTuple):
-    """
-        name: UNI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "UNI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "UNI-BRL"
-
-    def __str__(self):
-        return "UNI-BRL"
-
-    def __call__(self):
-        return "UNI-BRL"
-
-
-UNI_BRL = UNI_BRL()
-"""
-    name: UNI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AMP_BRL(NamedTuple):
-    """
-        name: AMP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AMP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AMP-BRL"
-
-    def __str__(self):
-        return "AMP-BRL"
-
-    def __call__(self):
-        return "AMP-BRL"
-
-
-AMP_BRL = AMP_BRL()
-"""
-    name: AMP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH25_BRL(NamedTuple):
-    """
-        name: MBCCSH25-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH25-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH25-BRL"
-
-    def __str__(self):
-        return "MBCCSH25-BRL"
-
-    def __call__(self):
-        return "MBCCSH25-BRL"
-
-
-MBCCSH25_BRL = MBCCSH25_BRL()
-"""
-    name: MBCCSH25-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH03_BRL(NamedTuple):
-    """
-        name: MBCCSH03-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH03-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH03-BRL"
-
-    def __str__(self):
-        return "MBCCSH03-BRL"
-
-    def __call__(self):
-        return "MBCCSH03-BRL"
-
-
-MBCCSH03_BRL = MBCCSH03_BRL()
-"""
-    name: MBCCSH03-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDFP16_BRL(NamedTuple):
-    """
-        name: RFDFP16-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDFP16-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDFP16-BRL"
-
-    def __str__(self):
-        return "RFDFP16-BRL"
-
-    def __call__(self):
-        return "RFDFP16-BRL"
-
-
-RFDFP16_BRL = RFDFP16_BRL()
-"""
-    name: RFDFP16-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class REN_BRL(NamedTuple):
-    """
-        name: REN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "REN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "REN-BRL"
-
-    def __str__(self):
-        return "REN-BRL"
-
-    def __call__(self):
-        return "REN-BRL"
-
-
-REN_BRL = REN_BRL()
-"""
-    name: REN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PERP_BRL(NamedTuple):
-    """
-        name: PERP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PERP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PERP-BRL"
-
-    def __str__(self):
-        return "PERP-BRL"
-
-    def __call__(self):
-        return "PERP-BRL"
-
-
-PERP_BRL = PERP_BRL()
-"""
-    name: PERP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DOGE_BRL(NamedTuple):
-    """
-        name: DOGE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DOGE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DOGE-BRL"
-
-    def __str__(self):
-        return "DOGE-BRL"
-
-    def __call__(self):
-        return "DOGE-BRL"
-
-
-DOGE_BRL = DOGE_BRL()
-"""
-    name: DOGE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class WEMIX_BRL(NamedTuple):
-    """
-        name: WEMIX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "WEMIX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "WEMIX-BRL"
-
-    def __str__(self):
-        return "WEMIX-BRL"
-
-    def __call__(self):
-        return "WEMIX-BRL"
-
-
-WEMIX_BRL = WEMIX_BRL()
-"""
-    name: WEMIX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DPI_BRL(NamedTuple):
-    """
-        name: DPI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DPI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DPI-BRL"
-
-    def __str__(self):
-        return "DPI-BRL"
-
-    def __call__(self):
-        return "DPI-BRL"
-
-
-DPI_BRL = DPI_BRL()
-"""
-    name: DPI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH11_BRL(NamedTuple):
-    """
-        name: MBCCSH11-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH11-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH11-BRL"
-
-    def __str__(self):
-        return "MBCCSH11-BRL"
-
-    def __call__(self):
-        return "MBCCSH11-BRL"
-
-
-MBCCSH11_BRL = MBCCSH11_BRL()
-"""
-    name: MBCCSH11-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class WBTC_BRL(NamedTuple):
-    """
-        name: WBTC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "WBTC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "WBTC-BRL"
-
-    def __str__(self):
-        return "WBTC-BRL"
-
-    def __call__(self):
-        return "WBTC-BRL"
-
-
-WBTC_BRL = WBTC_BRL()
-"""
-    name: WBTC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PLA_BRL(NamedTuple):
-    """
-        name: PLA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PLA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PLA-BRL"
-
-    def __str__(self):
-        return "PLA-BRL"
-
-    def __call__(self):
-        return "PLA-BRL"
-
-
-PLA_BRL = PLA_BRL()
-"""
-    name: PLA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class STG_BRL(NamedTuple):
-    """
-        name: STG-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "STG-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "STG-BRL"
-
-    def __str__(self):
-        return "STG-BRL"
-
-    def __call__(self):
-        return "STG-BRL"
-
-
-STG_BRL = STG_BRL()
-"""
-    name: STG-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LPT_BRL(NamedTuple):
-    """
-        name: LPT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LPT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LPT-BRL"
-
-    def __str__(self):
-        return "LPT-BRL"
-
-    def __call__(self):
-        return "LPT-BRL"
-
-
-LPT_BRL = LPT_BRL()
-"""
-    name: LPT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SHIB_BRL(NamedTuple):
-    """
-        name: SHIB-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SHIB-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SHIB-BRL"
-
-    def __str__(self):
-        return "SHIB-BRL"
-
-    def __call__(self):
-        return "SHIB-BRL"
-
-
-SHIB_BRL = SHIB_BRL()
-"""
-    name: SHIB-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ANT_BRL(NamedTuple):
-    """
-        name: ANT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ANT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ANT-BRL"
-
-    def __str__(self):
-        return "ANT-BRL"
-
-    def __call__(self):
-        return "ANT-BRL"
-
-
-ANT_BRL = ANT_BRL()
-"""
-    name: ANT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MANA_BRL(NamedTuple):
-    """
-        name: MANA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MANA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MANA-BRL"
-
-    def __str__(self):
-        return "MANA-BRL"
-
-    def __call__(self):
-        return "MANA-BRL"
-
-
-MANA_BRL = MANA_BRL()
-"""
-    name: MANA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH02_BRL(NamedTuple):
-    """
-        name: MBCCSH02-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH02-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH02-BRL"
-
-    def __str__(self):
-        return "MBCCSH02-BRL"
-
-    def __call__(self):
-        return "MBCCSH02-BRL"
-
-
-MBCCSH02_BRL = MBCCSH02_BRL()
-"""
-    name: MBCCSH02-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MC_BRL(NamedTuple):
-    """
-        name: MC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MC-BRL"
-
-    def __str__(self):
-        return "MC-BRL"
-
-    def __call__(self):
-        return "MC-BRL"
-
-
-MC_BRL = MC_BRL()
-"""
-    name: MC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class TRB_BRL(NamedTuple):
-    """
-        name: TRB-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "TRB-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "TRB-BRL"
-
-    def __str__(self):
-        return "TRB-BRL"
-
-    def __call__(self):
-        return "TRB-BRL"
-
-
-TRB_BRL = TRB_BRL()
-"""
-    name: TRB-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ABFY_BRL(NamedTuple):
-    """
-        name: ABFY-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ABFY-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ABFY-BRL"
-
-    def __str__(self):
-        return "ABFY-BRL"
-
-    def __call__(self):
-        return "ABFY-BRL"
-
-
-ABFY_BRL = ABFY_BRL()
-"""
-    name: ABFY-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GALFT_BRL(NamedTuple):
-    """
-        name: GALFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GALFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GALFT-BRL"
-
-    def __str__(self):
-        return "GALFT-BRL"
-
-    def __call__(self):
-        return "GALFT-BRL"
-
-
-GALFT_BRL = GALFT_BRL()
-"""
-    name: GALFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BAL_BRL(NamedTuple):
-    """
-        name: BAL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BAL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BAL-BRL"
-
-    def __str__(self):
-        return "BAL-BRL"
-
-    def __call__(self):
-        return "BAL-BRL"
-
-
-BAL_BRL = BAL_BRL()
-"""
-    name: BAL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BAT_BRL(NamedTuple):
-    """
-        name: BAT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BAT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BAT-BRL"
-
-    def __str__(self):
-        return "BAT-BRL"
-
-    def __call__(self):
-        return "BAT-BRL"
-
-
-BAT_BRL = BAT_BRL()
-"""
-    name: BAT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH23_BRL(NamedTuple):
-    """
-        name: MBCCSH23-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH23-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH23-BRL"
-
-    def __str__(self):
-        return "MBCCSH23-BRL"
-
-    def __call__(self):
-        return "MBCCSH23-BRL"
-
-
-MBCCSH23_BRL = MBCCSH23_BRL()
-"""
-    name: MBCCSH23-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH30_BRL(NamedTuple):
-    """
-        name: MBCCSH30-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH30-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH30-BRL"
-
-    def __str__(self):
-        return "MBCCSH30-BRL"
-
-    def __call__(self):
-        return "MBCCSH30-BRL"
-
-
-MBCCSH30_BRL = MBCCSH30_BRL()
-"""
-    name: MBCCSH30-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH14_BRL(NamedTuple):
-    """
-        name: MBCCSH14-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH14-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH14-BRL"
-
-    def __str__(self):
-        return "MBCCSH14-BRL"
-
-    def __call__(self):
-        return "MBCCSH14-BRL"
-
-
-MBCCSH14_BRL = MBCCSH14_BRL()
-"""
-    name: MBCCSH14-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GRT_BRL(NamedTuple):
-    """
-        name: GRT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GRT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GRT-BRL"
-
-    def __str__(self):
-        return "GRT-BRL"
-
-    def __call__(self):
-        return "GRT-BRL"
-
-
-GRT_BRL = GRT_BRL()
-"""
-    name: GRT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CVC_BRL(NamedTuple):
-    """
-        name: CVC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CVC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CVC-BRL"
-
-    def __str__(self):
-        return "CVC-BRL"
-
-    def __call__(self):
-        return "CVC-BRL"
-
-
-CVC_BRL = CVC_BRL()
-"""
-    name: CVC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class NODL_BRL(NamedTuple):
-    """
-        name: NODL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "NODL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "NODL-BRL"
-
-    def __str__(self):
-        return "NODL-BRL"
-
-    def __call__(self):
-        return "NODL-BRL"
-
-
-NODL_BRL = NODL_BRL()
-"""
-    name: NODL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class COMP_BRL(NamedTuple):
-    """
-        name: COMP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "COMP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "COMP-BRL"
-
-    def __str__(self):
-        return "COMP-BRL"
-
-    def __call__(self):
-        return "COMP-BRL"
-
-
-COMP_BRL = COMP_BRL()
-"""
-    name: COMP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LQTY_BRL(NamedTuple):
-    """
-        name: LQTY-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LQTY-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LQTY-BRL"
-
-    def __str__(self):
-        return "LQTY-BRL"
-
-    def __call__(self):
-        return "LQTY-BRL"
-
-
-LQTY_BRL = LQTY_BRL()
-"""
-    name: LQTY-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class FARM_BRL(NamedTuple):
-    """
-        name: FARM-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "FARM-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FARM-BRL"
-
-    def __str__(self):
-        return "FARM-BRL"
-
-    def __call__(self):
-        return "FARM-BRL"
-
-
-FARM_BRL = FARM_BRL()
-"""
-    name: FARM-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class STX_BRL(NamedTuple):
-    """
-        name: STX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "STX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "STX-BRL"
-
-    def __str__(self):
-        return "STX-BRL"
-
-    def __call__(self):
-        return "STX-BRL"
-
-
-STX_BRL = STX_BRL()
-"""
-    name: STX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ENER02_BRL(NamedTuple):
-    """
-        name: ENER02-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ENER02-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ENER02-BRL"
-
-    def __str__(self):
-        return "ENER02-BRL"
-
-    def __call__(self):
-        return "ENER02-BRL"
-
-
-ENER02_BRL = ENER02_BRL()
-"""
-    name: ENER02-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP14_BRL(NamedTuple):
-    """
-        name: MBFP14-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP14-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP14-BRL"
-
-    def __str__(self):
-        return "MBFP14-BRL"
-
-    def __call__(self):
-        return "MBFP14-BRL"
-
-
-MBFP14_BRL = MBFP14_BRL()
-"""
-    name: MBFP14-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class EUROC_BRL(NamedTuple):
-    """
-        name: EUROC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "EUROC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "EUROC-BRL"
-
-    def __str__(self):
-        return "EUROC-BRL"
-
-    def __call__(self):
-        return "EUROC-BRL"
-
-
-EUROC_BRL = EUROC_BRL()
-"""
-    name: EUROC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ATMFT_BRL(NamedTuple):
-    """
-        name: ATMFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ATMFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ATMFT-BRL"
-
-    def __str__(self):
-        return "ATMFT-BRL"
-
-    def __call__(self):
-        return "ATMFT-BRL"
-
-
-ATMFT_BRL = ATMFT_BRL()
-"""
-    name: ATMFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MIR_BRL(NamedTuple):
-    """
-        name: MIR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MIR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MIR-BRL"
-
-    def __str__(self):
-        return "MIR-BRL"
-
-    def __call__(self):
-        return "MIR-BRL"
-
-
-MIR_BRL = MIR_BRL()
-"""
-    name: MIR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBVASCO01_BRL(NamedTuple):
-    """
-        name: MBVASCO01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBVASCO01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBVASCO01-BRL"
-
-    def __str__(self):
-        return "MBVASCO01-BRL"
-
-    def __call__(self):
-        return "MBVASCO01-BRL"
-
-
-MBVASCO01_BRL = MBVASCO01_BRL()
-"""
-    name: MBVASCO01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH24_BRL(NamedTuple):
-    """
-        name: MBCCSH24-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH24-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH24-BRL"
-
-    def __str__(self):
-        return "MBCCSH24-BRL"
-
-    def __call__(self):
-        return "MBCCSH24-BRL"
-
-
-MBCCSH24_BRL = MBCCSH24_BRL()
-"""
-    name: MBCCSH24-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AGIX_BRL(NamedTuple):
-    """
-        name: AGIX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AGIX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AGIX-BRL"
-
-    def __str__(self):
-        return "AGIX-BRL"
-
-    def __call__(self):
-        return "AGIX-BRL"
-
-
-AGIX_BRL = AGIX_BRL()
-"""
-    name: AGIX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBTKN01_BRL(NamedTuple):
-    """
-        name: MBTKN01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBTKN01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBTKN01-BRL"
-
-    def __str__(self):
-        return "MBTKN01-BRL"
-
-    def __call__(self):
-        return "MBTKN01-BRL"
-
-
-MBTKN01_BRL = MBTKN01_BRL()
-"""
-    name: MBTKN01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OP_BRL(NamedTuple):
+class OP_BRL(Symbol):
     """
         name: OP-BRL
         significant_digits: 8
@@ -5863,7 +39,7 @@ class OP_BRL(NamedTuple):
         return "OP-BRL"
 
 
-OP_BRL = OP_BRL()
+OP_BRL = OP_BRL(*OP_BRL._fields)
 """
     name: OP-BRL
     significant_digits: 8
@@ -5877,9 +53,9 @@ OP_BRL = OP_BRL()
 """
 
 
-class RAD_BRL(NamedTuple):
+class YFI_BRL(Symbol):
     """
-        name: RAD-BRL
+        name: YFI-BRL
         significant_digits: 8
         tick_size: None
         min_margin: None
@@ -5889,7 +65,7 @@ class RAD_BRL(NamedTuple):
         has_margin: False
         exchange: mercado_bitcoin
     """
-    name: str = "RAD-BRL"
+    name: str = "YFI-BRL"
     significant_digits: int = 8
     tick_size: int = None
     min_margin: float = None
@@ -5906,18 +82,18 @@ class RAD_BRL(NamedTuple):
             return self.name == other.name
 
     def __repr__(self):
-        return "RAD-BRL"
+        return "YFI-BRL"
 
     def __str__(self):
-        return "RAD-BRL"
+        return "YFI-BRL"
 
     def __call__(self):
-        return "RAD-BRL"
+        return "YFI-BRL"
 
 
-RAD_BRL = RAD_BRL()
+YFI_BRL = YFI_BRL(*YFI_BRL._fields)
 """
-    name: RAD-BRL
+    name: YFI-BRL
     significant_digits: 8
     tick_size: None
     min_margin: None
@@ -5929,1827 +105,7 @@ RAD_BRL = RAD_BRL()
 """
 
 
-class BTRST_BRL(NamedTuple):
-    """
-        name: BTRST-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BTRST-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BTRST-BRL"
-
-    def __str__(self):
-        return "BTRST-BRL"
-
-    def __call__(self):
-        return "BTRST-BRL"
-
-
-BTRST_BRL = BTRST_BRL()
-"""
-    name: BTRST-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AIOZ_BRL(NamedTuple):
-    """
-        name: AIOZ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AIOZ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AIOZ-BRL"
-
-    def __str__(self):
-        return "AIOZ-BRL"
-
-    def __call__(self):
-        return "AIOZ-BRL"
-
-
-AIOZ_BRL = AIOZ_BRL()
-"""
-    name: AIOZ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class API3_BRL(NamedTuple):
-    """
-        name: API3-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "API3-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "API3-BRL"
-
-    def __str__(self):
-        return "API3-BRL"
-
-    def __call__(self):
-        return "API3-BRL"
-
-
-API3_BRL = API3_BRL()
-"""
-    name: API3-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH08_BRL(NamedTuple):
-    """
-        name: MBCCSH08-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH08-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH08-BRL"
-
-    def __str__(self):
-        return "MBCCSH08-BRL"
-
-    def __call__(self):
-        return "MBCCSH08-BRL"
-
-
-MBCCSH08_BRL = MBCCSH08_BRL()
-"""
-    name: MBCCSH08-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBRL_BRL(NamedTuple):
-    """
-        name: MBRL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBRL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBRL-BRL"
-
-    def __str__(self):
-        return "MBRL-BRL"
-
-    def __call__(self):
-        return "MBRL-BRL"
-
-
-MBRL_BRL = MBRL_BRL()
-"""
-    name: MBRL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH13_BRL(NamedTuple):
-    """
-        name: MBCCSH13-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH13-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH13-BRL"
-
-    def __str__(self):
-        return "MBCCSH13-BRL"
-
-    def __call__(self):
-        return "MBCCSH13-BRL"
-
-
-MBCCSH13_BRL = MBCCSH13_BRL()
-"""
-    name: MBCCSH13-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CITYFT_BRL(NamedTuple):
-    """
-        name: CITYFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CITYFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CITYFT-BRL"
-
-    def __str__(self):
-        return "CITYFT-BRL"
-
-    def __call__(self):
-        return "CITYFT-BRL"
-
-
-CITYFT_BRL = CITYFT_BRL()
-"""
-    name: CITYFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OXT_BRL(NamedTuple):
-    """
-        name: OXT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OXT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OXT-BRL"
-
-    def __str__(self):
-        return "OXT-BRL"
-
-    def __call__(self):
-        return "OXT-BRL"
-
-
-OXT_BRL = OXT_BRL()
-"""
-    name: OXT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class YGG_BRL(NamedTuple):
-    """
-        name: YGG-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "YGG-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YGG-BRL"
-
-    def __str__(self):
-        return "YGG-BRL"
-
-    def __call__(self):
-        return "YGG-BRL"
-
-
-YGG_BRL = YGG_BRL()
-"""
-    name: YGG-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH29_BRL(NamedTuple):
-    """
-        name: MBCCSH29-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH29-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH29-BRL"
-
-    def __str__(self):
-        return "MBCCSH29-BRL"
-
-    def __call__(self):
-        return "MBCCSH29-BRL"
-
-
-MBCCSH29_BRL = MBCCSH29_BRL()
-"""
-    name: MBCCSH29-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AUDIO_BRL(NamedTuple):
-    """
-        name: AUDIO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AUDIO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AUDIO-BRL"
-
-    def __str__(self):
-        return "AUDIO-BRL"
-
-    def __call__(self):
-        return "AUDIO-BRL"
-
-
-AUDIO_BRL = AUDIO_BRL()
-"""
-    name: AUDIO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SNX_BRL(NamedTuple):
-    """
-        name: SNX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SNX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SNX-BRL"
-
-    def __str__(self):
-        return "SNX-BRL"
-
-    def __call__(self):
-        return "SNX-BRL"
-
-
-SNX_BRL = SNX_BRL()
-"""
-    name: SNX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BARFT_BRL(NamedTuple):
-    """
-        name: BARFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BARFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BARFT-BRL"
-
-    def __str__(self):
-        return "BARFT-BRL"
-
-    def __call__(self):
-        return "BARFT-BRL"
-
-
-BARFT_BRL = BARFT_BRL()
-"""
-    name: BARFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MINA_BRL(NamedTuple):
-    """
-        name: MINA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MINA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MINA-BRL"
-
-    def __str__(self):
-        return "MINA-BRL"
-
-    def __call__(self):
-        return "MINA-BRL"
-
-
-MINA_BRL = MINA_BRL()
-"""
-    name: MINA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH33_BRL(NamedTuple):
-    """
-        name: MBCCSH33-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH33-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH33-BRL"
-
-    def __str__(self):
-        return "MBCCSH33-BRL"
-
-    def __call__(self):
-        return "MBCCSH33-BRL"
-
-
-MBCCSH33_BRL = MBCCSH33_BRL()
-"""
-    name: MBCCSH33-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class USDC_BRL(NamedTuple):
-    """
-        name: USDC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "USDC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "USDC-BRL"
-
-    def __str__(self):
-        return "USDC-BRL"
-
-    def __call__(self):
-        return "USDC-BRL"
-
-
-USDC_BRL = USDC_BRL()
-"""
-    name: USDC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBSANTOS01_BRL(NamedTuple):
-    """
-        name: MBSANTOS01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBSANTOS01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBSANTOS01-BRL"
-
-    def __str__(self):
-        return "MBSANTOS01-BRL"
-
-    def __call__(self):
-        return "MBSANTOS01-BRL"
-
-
-MBSANTOS01_BRL = MBSANTOS01_BRL()
-"""
-    name: MBSANTOS01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CSCONS01_BRL(NamedTuple):
-    """
-        name: CSCONS01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CSCONS01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CSCONS01-BRL"
-
-    def __str__(self):
-        return "CSCONS01-BRL"
-
-    def __call__(self):
-        return "CSCONS01-BRL"
-
-
-CSCONS01_BRL = CSCONS01_BRL()
-"""
-    name: CSCONS01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SAND_BRL(NamedTuple):
-    """
-        name: SAND-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SAND-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SAND-BRL"
-
-    def __str__(self):
-        return "SAND-BRL"
-
-    def __call__(self):
-        return "SAND-BRL"
-
-
-SAND_BRL = SAND_BRL()
-"""
-    name: SAND-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class FLOW_BRL(NamedTuple):
-    """
-        name: FLOW-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "FLOW-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FLOW-BRL"
-
-    def __str__(self):
-        return "FLOW-BRL"
-
-    def __call__(self):
-        return "FLOW-BRL"
-
-
-FLOW_BRL = FLOW_BRL()
-"""
-    name: FLOW-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK03_BRL(NamedTuple):
-    """
-        name: MBPRK03-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK03-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK03-BRL"
-
-    def __str__(self):
-        return "MBPRK03-BRL"
-
-    def __call__(self):
-        return "MBPRK03-BRL"
-
-
-MBPRK03_BRL = MBPRK03_BRL()
-"""
-    name: MBPRK03-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class APE_BRL(NamedTuple):
-    """
-        name: APE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "APE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "APE-BRL"
-
-    def __str__(self):
-        return "APE-BRL"
-
-    def __call__(self):
-        return "APE-BRL"
-
-
-APE_BRL = APE_BRL()
-"""
-    name: APE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDCS07_BRL(NamedTuple):
-    """
-        name: RFDCS07-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDCS07-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDCS07-BRL"
-
-    def __str__(self):
-        return "RFDCS07-BRL"
-
-    def __call__(self):
-        return "RFDCS07-BRL"
-
-
-RFDCS07_BRL = RFDCS07_BRL()
-"""
-    name: RFDCS07-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PAXG_BRL(NamedTuple):
-    """
-        name: PAXG-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PAXG-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PAXG-BRL"
-
-    def __str__(self):
-        return "PAXG-BRL"
-
-    def __call__(self):
-        return "PAXG-BRL"
-
-
-PAXG_BRL = PAXG_BRL()
-"""
-    name: PAXG-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DAI_BRL(NamedTuple):
-    """
-        name: DAI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DAI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DAI-BRL"
-
-    def __str__(self):
-        return "DAI-BRL"
-
-    def __call__(self):
-        return "DAI-BRL"
-
-
-DAI_BRL = DAI_BRL()
-"""
-    name: DAI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ADS_BRL(NamedTuple):
-    """
-        name: ADS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ADS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ADS-BRL"
-
-    def __str__(self):
-        return "ADS-BRL"
-
-    def __call__(self):
-        return "ADS-BRL"
-
-
-ADS_BRL = ADS_BRL()
-"""
-    name: ADS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SKL_BRL(NamedTuple):
-    """
-        name: SKL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SKL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SKL-BRL"
-
-    def __str__(self):
-        return "SKL-BRL"
-
-    def __call__(self):
-        return "SKL-BRL"
-
-
-SKL_BRL = SKL_BRL()
-"""
-    name: SKL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class APT_BRL(NamedTuple):
-    """
-        name: APT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "APT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "APT-BRL"
-
-    def __str__(self):
-        return "APT-BRL"
-
-    def __call__(self):
-        return "APT-BRL"
-
-
-APT_BRL = APT_BRL()
-"""
-    name: APT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RIB_BRL(NamedTuple):
-    """
-        name: RIB-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RIB-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RIB-BRL"
-
-    def __str__(self):
-        return "RIB-BRL"
-
-    def __call__(self):
-        return "RIB-BRL"
-
-
-RIB_BRL = RIB_BRL()
-"""
-    name: RIB-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH27_BRL(NamedTuple):
-    """
-        name: MBCCSH27-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH27-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH27-BRL"
-
-    def __str__(self):
-        return "MBCCSH27-BRL"
-
-    def __call__(self):
-        return "MBCCSH27-BRL"
-
-
-MBCCSH27_BRL = MBCCSH27_BRL()
-"""
-    name: MBCCSH27-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ANKR_BRL(NamedTuple):
-    """
-        name: ANKR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ANKR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ANKR-BRL"
-
-    def __str__(self):
-        return "ANKR-BRL"
-
-    def __call__(self):
-        return "ANKR-BRL"
-
-
-ANKR_BRL = ANKR_BRL()
-"""
-    name: ANKR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DOT_BRL(NamedTuple):
-    """
-        name: DOT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DOT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DOT-BRL"
-
-    def __str__(self):
-        return "DOT-BRL"
-
-    def __call__(self):
-        return "DOT-BRL"
-
-
-DOT_BRL = DOT_BRL()
-"""
-    name: DOT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SCCPFT_BRL(NamedTuple):
-    """
-        name: SCCPFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SCCPFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SCCPFT-BRL"
-
-    def __str__(self):
-        return "SCCPFT-BRL"
-
-    def __call__(self):
-        return "SCCPFT-BRL"
-
-
-SCCPFT_BRL = SCCPFT_BRL()
-"""
-    name: SCCPFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP08_BRL(NamedTuple):
-    """
-        name: MBFP08-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP08-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP08-BRL"
-
-    def __str__(self):
-        return "MBFP08-BRL"
-
-    def __call__(self):
-        return "MBFP08-BRL"
-
-
-MBFP08_BRL = MBFP08_BRL()
-"""
-    name: MBFP08-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP10_BRL(NamedTuple):
-    """
-        name: MBFP10-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP10-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP10-BRL"
-
-    def __str__(self):
-        return "MBFP10-BRL"
-
-    def __call__(self):
-        return "MBFP10-BRL"
-
-
-MBFP10_BRL = MBFP10_BRL()
-"""
-    name: MBFP10-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ETH_BRL(NamedTuple):
+class ETH_BRL(Symbol):
     """
         name: ETH-BRL
         significant_digits: 8
@@ -7787,7 +143,7 @@ class ETH_BRL(NamedTuple):
         return "ETH-BRL"
 
 
-ETH_BRL = ETH_BRL()
+ETH_BRL = ETH_BRL(*ETH_BRL._fields)
 """
     name: ETH-BRL
     significant_digits: 8
@@ -7801,9 +157,9 @@ ETH_BRL = ETH_BRL()
 """
 
 
-class RFDFP18_BRL(NamedTuple):
+class GALFT_BRL(Symbol):
     """
-        name: RFDFP18-BRL
+        name: GALFT-BRL
         significant_digits: 8
         tick_size: None
         min_margin: None
@@ -7813,7 +169,7 @@ class RFDFP18_BRL(NamedTuple):
         has_margin: False
         exchange: mercado_bitcoin
     """
-    name: str = "RFDFP18-BRL"
+    name: str = "GALFT-BRL"
     significant_digits: int = 8
     tick_size: int = None
     min_margin: float = None
@@ -7830,18 +186,18 @@ class RFDFP18_BRL(NamedTuple):
             return self.name == other.name
 
     def __repr__(self):
-        return "RFDFP18-BRL"
+        return "GALFT-BRL"
 
     def __str__(self):
-        return "RFDFP18-BRL"
+        return "GALFT-BRL"
 
     def __call__(self):
-        return "RFDFP18-BRL"
+        return "GALFT-BRL"
 
 
-RFDFP18_BRL = RFDFP18_BRL()
+GALFT_BRL = GALFT_BRL(*GALFT_BRL._fields)
 """
-    name: RFDFP18-BRL
+    name: GALFT-BRL
     significant_digits: 8
     tick_size: None
     min_margin: None
@@ -7853,9 +209,9 @@ RFDFP18_BRL = RFDFP18_BRL()
 """
 
 
-class POLY_BRL(NamedTuple):
+class STX_BRL(Symbol):
     """
-        name: POLY-BRL
+        name: STX-BRL
         significant_digits: 8
         tick_size: None
         min_margin: None
@@ -7865,7 +221,7 @@ class POLY_BRL(NamedTuple):
         has_margin: False
         exchange: mercado_bitcoin
     """
-    name: str = "POLY-BRL"
+    name: str = "STX-BRL"
     significant_digits: int = 8
     tick_size: int = None
     min_margin: float = None
@@ -7882,18 +238,18 @@ class POLY_BRL(NamedTuple):
             return self.name == other.name
 
     def __repr__(self):
-        return "POLY-BRL"
+        return "STX-BRL"
 
     def __str__(self):
-        return "POLY-BRL"
+        return "STX-BRL"
 
     def __call__(self):
-        return "POLY-BRL"
+        return "STX-BRL"
 
 
-POLY_BRL = POLY_BRL()
+STX_BRL = STX_BRL(*STX_BRL._fields)
 """
-    name: POLY-BRL
+    name: STX-BRL
     significant_digits: 8
     tick_size: None
     min_margin: None
@@ -7905,5311 +261,7 @@ POLY_BRL = POLY_BRL()
 """
 
 
-class RARE_BRL(NamedTuple):
-    """
-        name: RARE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RARE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RARE-BRL"
-
-    def __str__(self):
-        return "RARE-BRL"
-
-    def __call__(self):
-        return "RARE-BRL"
-
-
-RARE_BRL = RARE_BRL()
-"""
-    name: RARE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class POWR_BRL(NamedTuple):
-    """
-        name: POWR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "POWR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "POWR-BRL"
-
-    def __str__(self):
-        return "POWR-BRL"
-
-    def __call__(self):
-        return "POWR-BRL"
-
-
-POWR_BRL = POWR_BRL()
-"""
-    name: POWR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ALLFT_BRL(NamedTuple):
-    """
-        name: ALLFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ALLFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ALLFT-BRL"
-
-    def __str__(self):
-        return "ALLFT-BRL"
-
-    def __call__(self):
-        return "ALLFT-BRL"
-
-
-ALLFT_BRL = ALLFT_BRL()
-"""
-    name: ALLFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SUSHI_BRL(NamedTuple):
-    """
-        name: SUSHI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SUSHI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SUSHI-BRL"
-
-    def __str__(self):
-        return "SUSHI-BRL"
-
-    def __call__(self):
-        return "SUSHI-BRL"
-
-
-SUSHI_BRL = SUSHI_BRL()
-"""
-    name: SUSHI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ADA_BRL(NamedTuple):
-    """
-        name: ADA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ADA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ADA-BRL"
-
-    def __str__(self):
-        return "ADA-BRL"
-
-    def __call__(self):
-        return "ADA-BRL"
-
-
-ADA_BRL = ADA_BRL()
-"""
-    name: ADA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LTC_BRL(NamedTuple):
-    """
-        name: LTC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LTC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LTC-BRL"
-
-    def __str__(self):
-        return "LTC-BRL"
-
-    def __call__(self):
-        return "LTC-BRL"
-
-
-LTC_BRL = LTC_BRL()
-"""
-    name: LTC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class FET_BRL(NamedTuple):
-    """
-        name: FET-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "FET-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FET-BRL"
-
-    def __str__(self):
-        return "FET-BRL"
-
-    def __call__(self):
-        return "FET-BRL"
-
-
-FET_BRL = FET_BRL()
-"""
-    name: FET-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MCO2_BRL(NamedTuple):
-    """
-        name: MCO2-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MCO2-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MCO2-BRL"
-
-    def __str__(self):
-        return "MCO2-BRL"
-
-    def __call__(self):
-        return "MCO2-BRL"
-
-
-MCO2_BRL = MCO2_BRL()
-"""
-    name: MCO2-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BTC_BRL(NamedTuple):
-    """
-        name: BTC-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BTC-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BTC-BRL"
-
-    def __str__(self):
-        return "BTC-BRL"
-
-    def __call__(self):
-        return "BTC-BRL"
-
-
-BTC_BRL = BTC_BRL()
-"""
-    name: BTC-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ZRX_BRL(NamedTuple):
-    """
-        name: ZRX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ZRX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ZRX-BRL"
-
-    def __str__(self):
-        return "ZRX-BRL"
-
-    def __call__(self):
-        return "ZRX-BRL"
-
-
-ZRX_BRL = ZRX_BRL()
-"""
-    name: ZRX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP12_BRL(NamedTuple):
-    """
-        name: MBFP12-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP12-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP12-BRL"
-
-    def __str__(self):
-        return "MBFP12-BRL"
-
-    def __call__(self):
-        return "MBFP12-BRL"
-
-
-MBFP12_BRL = MBFP12_BRL()
-"""
-    name: MBFP12-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class FLOKI_BRL(NamedTuple):
-    """
-        name: FLOKI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "FLOKI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FLOKI-BRL"
-
-    def __str__(self):
-        return "FLOKI-BRL"
-
-    def __call__(self):
-        return "FLOKI-BRL"
-
-
-FLOKI_BRL = FLOKI_BRL()
-"""
-    name: FLOKI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class TRU_BRL(NamedTuple):
-    """
-        name: TRU-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "TRU-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "TRU-BRL"
-
-    def __str__(self):
-        return "TRU-BRL"
-
-    def __call__(self):
-        return "TRU-BRL"
-
-
-TRU_BRL = TRU_BRL()
-"""
-    name: TRU-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ERN_BRL(NamedTuple):
-    """
-        name: ERN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ERN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ERN-BRL"
-
-    def __str__(self):
-        return "ERN-BRL"
-
-    def __call__(self):
-        return "ERN-BRL"
-
-
-ERN_BRL = ERN_BRL()
-"""
-    name: ERN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK07_BRL(NamedTuple):
-    """
-        name: MBPRK07-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK07-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK07-BRL"
-
-    def __str__(self):
-        return "MBPRK07-BRL"
-
-    def __call__(self):
-        return "MBPRK07-BRL"
-
-
-MBPRK07_BRL = MBPRK07_BRL()
-"""
-    name: MBPRK07-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class TLM_BRL(NamedTuple):
-    """
-        name: TLM-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "TLM-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "TLM-BRL"
-
-    def __str__(self):
-        return "TLM-BRL"
-
-    def __call__(self):
-        return "TLM-BRL"
-
-
-TLM_BRL = TLM_BRL()
-"""
-    name: TLM-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class STVFT_BRL(NamedTuple):
-    """
-        name: STVFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "STVFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "STVFT-BRL"
-
-    def __str__(self):
-        return "STVFT-BRL"
-
-    def __call__(self):
-        return "STVFT-BRL"
-
-
-STVFT_BRL = STVFT_BRL()
-"""
-    name: STVFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SOL_BRL(NamedTuple):
-    """
-        name: SOL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SOL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SOL-BRL"
-
-    def __str__(self):
-        return "SOL-BRL"
-
-    def __call__(self):
-        return "SOL-BRL"
-
-
-SOL_BRL = SOL_BRL()
-"""
-    name: SOL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ALCX_BRL(NamedTuple):
-    """
-        name: ALCX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ALCX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ALCX-BRL"
-
-    def __str__(self):
-        return "ALCX-BRL"
-
-    def __call__(self):
-        return "ALCX-BRL"
-
-
-ALCX_BRL = ALCX_BRL()
-"""
-    name: ALCX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OGN_BRL(NamedTuple):
-    """
-        name: OGN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OGN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OGN-BRL"
-
-    def __str__(self):
-        return "OGN-BRL"
-
-    def __call__(self):
-        return "OGN-BRL"
-
-
-OGN_BRL = OGN_BRL()
-"""
-    name: OGN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CSCONS02_BRL(NamedTuple):
-    """
-        name: CSCONS02-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CSCONS02-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CSCONS02-BRL"
-
-    def __str__(self):
-        return "CSCONS02-BRL"
-
-    def __call__(self):
-        return "CSCONS02-BRL"
-
-
-CSCONS02_BRL = CSCONS02_BRL()
-"""
-    name: CSCONS02-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CRV_BRL(NamedTuple):
-    """
-        name: CRV-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CRV-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CRV-BRL"
-
-    def __str__(self):
-        return "CRV-BRL"
-
-    def __call__(self):
-        return "CRV-BRL"
-
-
-CRV_BRL = CRV_BRL()
-"""
-    name: CRV-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MKR_BRL(NamedTuple):
-    """
-        name: MKR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MKR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MKR-BRL"
-
-    def __str__(self):
-        return "MKR-BRL"
-
-    def __call__(self):
-        return "MKR-BRL"
-
-
-MKR_BRL = MKR_BRL()
-"""
-    name: MKR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ATOM_BRL(NamedTuple):
-    """
-        name: ATOM-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ATOM-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ATOM-BRL"
-
-    def __str__(self):
-        return "ATOM-BRL"
-
-    def __call__(self):
-        return "ATOM-BRL"
-
-
-ATOM_BRL = ATOM_BRL()
-"""
-    name: ATOM-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BLUR_BRL(NamedTuple):
-    """
-        name: BLUR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BLUR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BLUR-BRL"
-
-    def __str__(self):
-        return "BLUR-BRL"
-
-    def __call__(self):
-        return "BLUR-BRL"
-
-
-BLUR_BRL = BLUR_BRL()
-"""
-    name: BLUR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP13_BRL(NamedTuple):
-    """
-        name: MBFP13-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP13-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP13-BRL"
-
-    def __str__(self):
-        return "MBFP13-BRL"
-
-    def __call__(self):
-        return "MBFP13-BRL"
-
-
-MBFP13_BRL = MBFP13_BRL()
-"""
-    name: MBFP13-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class USDT_BRL(NamedTuple):
-    """
-        name: USDT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "USDT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "USDT-BRL"
-
-    def __str__(self):
-        return "USDT-BRL"
-
-    def __call__(self):
-        return "USDT-BRL"
-
-
-USDT_BRL = USDT_BRL()
-"""
-    name: USDT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CEEK_BRL(NamedTuple):
-    """
-        name: CEEK-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CEEK-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CEEK-BRL"
-
-    def __str__(self):
-        return "CEEK-BRL"
-
-    def __call__(self):
-        return "CEEK-BRL"
-
-
-CEEK_BRL = CEEK_BRL()
-"""
-    name: CEEK-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ACH_BRL(NamedTuple):
-    """
-        name: ACH-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ACH-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ACH-BRL"
-
-    def __str__(self):
-        return "ACH-BRL"
-
-    def __call__(self):
-        return "ACH-BRL"
-
-
-ACH_BRL = ACH_BRL()
-"""
-    name: ACH-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OMG_BRL(NamedTuple):
-    """
-        name: OMG-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OMG-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OMG-BRL"
-
-    def __str__(self):
-        return "OMG-BRL"
-
-    def __call__(self):
-        return "OMG-BRL"
-
-
-OMG_BRL = OMG_BRL()
-"""
-    name: OMG-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GALOFT_BRL(NamedTuple):
-    """
-        name: GALOFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GALOFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GALOFT-BRL"
-
-    def __str__(self):
-        return "GALOFT-BRL"
-
-    def __call__(self):
-        return "GALOFT-BRL"
-
-
-GALOFT_BRL = GALOFT_BRL()
-"""
-    name: GALOFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class NAVIFT_BRL(NamedTuple):
-    """
-        name: NAVIFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "NAVIFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "NAVIFT-BRL"
-
-    def __str__(self):
-        return "NAVIFT-BRL"
-
-    def __call__(self):
-        return "NAVIFT-BRL"
-
-
-NAVIFT_BRL = NAVIFT_BRL()
-"""
-    name: NAVIFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class KSM_BRL(NamedTuple):
-    """
-        name: KSM-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "KSM-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "KSM-BRL"
-
-    def __str__(self):
-        return "KSM-BRL"
-
-    def __call__(self):
-        return "KSM-BRL"
-
-
-KSM_BRL = KSM_BRL()
-"""
-    name: KSM-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK06_BRL(NamedTuple):
-    """
-        name: MBPRK06-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK06-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK06-BRL"
-
-    def __str__(self):
-        return "MBPRK06-BRL"
-
-    def __call__(self):
-        return "MBPRK06-BRL"
-
-
-MBPRK06_BRL = MBPRK06_BRL()
-"""
-    name: MBPRK06-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LOOKS_BRL(NamedTuple):
-    """
-        name: LOOKS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LOOKS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LOOKS-BRL"
-
-    def __str__(self):
-        return "LOOKS-BRL"
-
-    def __call__(self):
-        return "LOOKS-BRL"
-
-
-LOOKS_BRL = LOOKS_BRL()
-"""
-    name: LOOKS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RARI_BRL(NamedTuple):
-    """
-        name: RARI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RARI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RARI-BRL"
-
-    def __str__(self):
-        return "RARI-BRL"
-
-    def __call__(self):
-        return "RARI-BRL"
-
-
-RARI_BRL = RARI_BRL()
-"""
-    name: RARI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDFP17_BRL(NamedTuple):
-    """
-        name: RFDFP17-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDFP17-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDFP17-BRL"
-
-    def __str__(self):
-        return "RFDFP17-BRL"
-
-    def __call__(self):
-        return "RFDFP17-BRL"
-
-
-RFDFP17_BRL = RFDFP17_BRL()
-"""
-    name: RFDFP17-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH22_BRL(NamedTuple):
-    """
-        name: MBCCSH22-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH22-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH22-BRL"
-
-    def __str__(self):
-        return "MBCCSH22-BRL"
-
-    def __call__(self):
-        return "MBCCSH22-BRL"
-
-
-MBCCSH22_BRL = MBCCSH22_BRL()
-"""
-    name: MBCCSH22-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCONS02_BRL(NamedTuple):
-    """
-        name: MBCONS02-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCONS02-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCONS02-BRL"
-
-    def __str__(self):
-        return "MBCONS02-BRL"
-
-    def __call__(self):
-        return "MBCONS02-BRL"
-
-
-MBCONS02_BRL = MBCONS02_BRL()
-"""
-    name: MBCONS02-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RLY_BRL(NamedTuple):
-    """
-        name: RLY-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RLY-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RLY-BRL"
-
-    def __str__(self):
-        return "RLY-BRL"
-
-    def __call__(self):
-        return "RLY-BRL"
-
-
-RLY_BRL = RLY_BRL()
-"""
-    name: RLY-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DG_BRL(NamedTuple):
-    """
-        name: DG-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DG-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DG-BRL"
-
-    def __str__(self):
-        return "DG-BRL"
-
-    def __call__(self):
-        return "DG-BRL"
-
-
-DG_BRL = DG_BRL()
-"""
-    name: DG-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BICO_BRL(NamedTuple):
-    """
-        name: BICO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BICO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BICO-BRL"
-
-    def __str__(self):
-        return "BICO-BRL"
-
-    def __call__(self):
-        return "BICO-BRL"
-
-
-BICO_BRL = BICO_BRL()
-"""
-    name: BICO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BTB10_BRL(NamedTuple):
-    """
-        name: BTB10-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BTB10-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BTB10-BRL"
-
-    def __str__(self):
-        return "BTB10-BRL"
-
-    def __call__(self):
-        return "BTB10-BRL"
-
-
-BTB10_BRL = BTB10_BRL()
-"""
-    name: BTB10-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PFLFT_BRL(NamedTuple):
-    """
-        name: PFLFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PFLFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PFLFT-BRL"
-
-    def __str__(self):
-        return "PFLFT-BRL"
-
-    def __call__(self):
-        return "PFLFT-BRL"
-
-
-PFLFT_BRL = PFLFT_BRL()
-"""
-    name: PFLFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SPFCFT_BRL(NamedTuple):
-    """
-        name: SPFCFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SPFCFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SPFCFT-BRL"
-
-    def __str__(self):
-        return "SPFCFT-BRL"
-
-    def __call__(self):
-        return "SPFCFT-BRL"
-
-
-SPFCFT_BRL = SPFCFT_BRL()
-"""
-    name: SPFCFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class AMFT_BRL(NamedTuple):
-    """
-        name: AMFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "AMFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "AMFT-BRL"
-
-    def __str__(self):
-        return "AMFT-BRL"
-
-    def __call__(self):
-        return "AMFT-BRL"
-
-
-AMFT_BRL = AMFT_BRL()
-"""
-    name: AMFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CAIFT_BRL(NamedTuple):
-    """
-        name: CAIFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CAIFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CAIFT-BRL"
-
-    def __str__(self):
-        return "CAIFT-BRL"
-
-    def __call__(self):
-        return "CAIFT-BRL"
-
-
-CAIFT_BRL = CAIFT_BRL()
-"""
-    name: CAIFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ATLAS_BRL(NamedTuple):
-    """
-        name: ATLAS-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ATLAS-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ATLAS-BRL"
-
-    def __str__(self):
-        return "ATLAS-BRL"
-
-    def __call__(self):
-        return "ATLAS-BRL"
-
-
-ATLAS_BRL = ATLAS_BRL()
-"""
-    name: ATLAS-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDFP19_BRL(NamedTuple):
-    """
-        name: RFDFP19-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDFP19-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDFP19-BRL"
-
-    def __str__(self):
-        return "RFDFP19-BRL"
-
-    def __call__(self):
-        return "RFDFP19-BRL"
-
-
-RFDFP19_BRL = RFDFP19_BRL()
-"""
-    name: RFDFP19-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH20_BRL(NamedTuple):
-    """
-        name: MBCCSH20-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH20-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH20-BRL"
-
-    def __str__(self):
-        return "MBCCSH20-BRL"
-
-    def __call__(self):
-        return "MBCCSH20-BRL"
-
-
-MBCCSH20_BRL = MBCCSH20_BRL()
-"""
-    name: MBCCSH20-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LDO_BRL(NamedTuple):
-    """
-        name: LDO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LDO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LDO-BRL"
-
-    def __str__(self):
-        return "LDO-BRL"
-
-    def __call__(self):
-        return "LDO-BRL"
-
-
-LDO_BRL = LDO_BRL()
-"""
-    name: LDO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SDAO_BRL(NamedTuple):
-    """
-        name: SDAO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SDAO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SDAO-BRL"
-
-    def __str__(self):
-        return "SDAO-BRL"
-
-    def __call__(self):
-        return "SDAO-BRL"
-
-
-SDAO_BRL = SDAO_BRL()
-"""
-    name: SDAO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SLP_BRL(NamedTuple):
-    """
-        name: SLP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SLP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SLP-BRL"
-
-    def __str__(self):
-        return "SLP-BRL"
-
-    def __call__(self):
-        return "SLP-BRL"
-
-
-SLP_BRL = SLP_BRL()
-"""
-    name: SLP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class THFT_BRL(NamedTuple):
-    """
-        name: THFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "THFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "THFT-BRL"
-
-    def __str__(self):
-        return "THFT-BRL"
-
-    def __call__(self):
-        return "THFT-BRL"
-
-
-THFT_BRL = THFT_BRL()
-"""
-    name: THFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBPRK01_BRL(NamedTuple):
-    """
-        name: MBPRK01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBPRK01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBPRK01-BRL"
-
-    def __str__(self):
-        return "MBPRK01-BRL"
-
-    def __call__(self):
-        return "MBPRK01-BRL"
-
-
-MBPRK01_BRL = MBPRK01_BRL()
-"""
-    name: MBPRK01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DIA_BRL(NamedTuple):
-    """
-        name: DIA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DIA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DIA-BRL"
-
-    def __str__(self):
-        return "DIA-BRL"
-
-    def __call__(self):
-        return "DIA-BRL"
-
-
-DIA_BRL = DIA_BRL()
-"""
-    name: DIA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CHZ_BRL(NamedTuple):
-    """
-        name: CHZ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CHZ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CHZ-BRL"
-
-    def __str__(self):
-        return "CHZ-BRL"
-
-    def __call__(self):
-        return "CHZ-BRL"
-
-
-CHZ_BRL = CHZ_BRL()
-"""
-    name: CHZ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class LINK_BRL(NamedTuple):
-    """
-        name: LINK-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "LINK-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LINK-BRL"
-
-    def __str__(self):
-        return "LINK-BRL"
-
-    def __call__(self):
-        return "LINK-BRL"
-
-
-LINK_BRL = LINK_BRL()
-"""
-    name: LINK-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DYDX_BRL(NamedTuple):
-    """
-        name: DYDX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "DYDX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "DYDX-BRL"
-
-    def __str__(self):
-        return "DYDX-BRL"
-
-    def __call__(self):
-        return "DYDX-BRL"
-
-
-DYDX_BRL = DYDX_BRL()
-"""
-    name: DYDX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GVC01_BRL(NamedTuple):
-    """
-        name: GVC01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GVC01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GVC01-BRL"
-
-    def __str__(self):
-        return "GVC01-BRL"
-
-    def __call__(self):
-        return "GVC01-BRL"
-
-
-GVC01_BRL = GVC01_BRL()
-"""
-    name: GVC01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH31_BRL(NamedTuple):
-    """
-        name: MBCCSH31-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH31-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH31-BRL"
-
-    def __str__(self):
-        return "MBCCSH31-BRL"
-
-    def __call__(self):
-        return "MBCCSH31-BRL"
-
-
-MBCCSH31_BRL = MBCCSH31_BRL()
-"""
-    name: MBCCSH31-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SYN_BRL(NamedTuple):
-    """
-        name: SYN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SYN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SYN-BRL"
-
-    def __str__(self):
-        return "SYN-BRL"
-
-    def __call__(self):
-        return "SYN-BRL"
-
-
-SYN_BRL = SYN_BRL()
-"""
-    name: SYN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ALPHA_BRL(NamedTuple):
-    """
-        name: ALPHA-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ALPHA-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ALPHA-BRL"
-
-    def __str__(self):
-        return "ALPHA-BRL"
-
-    def __call__(self):
-        return "ALPHA-BRL"
-
-
-ALPHA_BRL = ALPHA_BRL()
-"""
-    name: ALPHA-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OCEAN_BRL(NamedTuple):
-    """
-        name: OCEAN-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OCEAN-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OCEAN-BRL"
-
-    def __str__(self):
-        return "OCEAN-BRL"
-
-    def __call__(self):
-        return "OCEAN-BRL"
-
-
-OCEAN_BRL = OCEAN_BRL()
-"""
-    name: OCEAN-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GHST_BRL(NamedTuple):
-    """
-        name: GHST-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GHST-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GHST-BRL"
-
-    def __str__(self):
-        return "GHST-BRL"
-
-    def __call__(self):
-        return "GHST-BRL"
-
-
-GHST_BRL = GHST_BRL()
-"""
-    name: GHST-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH16_BRL(NamedTuple):
-    """
-        name: MBCCSH16-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH16-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH16-BRL"
-
-    def __str__(self):
-        return "MBCCSH16-BRL"
-
-    def __call__(self):
-        return "MBCCSH16-BRL"
-
-
-MBCCSH16_BRL = MBCCSH16_BRL()
-"""
-    name: MBCCSH16-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH19_BRL(NamedTuple):
-    """
-        name: MBCCSH19-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH19-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH19-BRL"
-
-    def __str__(self):
-        return "MBCCSH19-BRL"
-
-    def __call__(self):
-        return "MBCCSH19-BRL"
-
-
-MBCCSH19_BRL = MBCCSH19_BRL()
-"""
-    name: MBCCSH19-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PORFT_BRL(NamedTuple):
-    """
-        name: PORFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PORFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PORFT-BRL"
-
-    def __str__(self):
-        return "PORFT-BRL"
-
-    def __call__(self):
-        return "PORFT-BRL"
-
-
-PORFT_BRL = PORFT_BRL()
-"""
-    name: PORFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class IMX_BRL(NamedTuple):
-    """
-        name: IMX-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "IMX-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "IMX-BRL"
-
-    def __str__(self):
-        return "IMX-BRL"
-
-    def __call__(self):
-        return "IMX-BRL"
-
-
-IMX_BRL = IMX_BRL()
-"""
-    name: IMX-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GNO_BRL(NamedTuple):
-    """
-        name: GNO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GNO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GNO-BRL"
-
-    def __str__(self):
-        return "GNO-BRL"
-
-    def __call__(self):
-        return "GNO-BRL"
-
-
-GNO_BRL = GNO_BRL()
-"""
-    name: GNO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH32_BRL(NamedTuple):
-    """
-        name: MBCCSH32-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH32-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH32-BRL"
-
-    def __str__(self):
-        return "MBCCSH32-BRL"
-
-    def __call__(self):
-        return "MBCCSH32-BRL"
-
-
-MBCCSH32_BRL = MBCCSH32_BRL()
-"""
-    name: MBCCSH32-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBFP11_BRL(NamedTuple):
-    """
-        name: MBFP11-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBFP11-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBFP11-BRL"
-
-    def __str__(self):
-        return "MBFP11-BRL"
-
-    def __call__(self):
-        return "MBFP11-BRL"
-
-
-MBFP11_BRL = MBFP11_BRL()
-"""
-    name: MBFP11-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH34_BRL(NamedTuple):
-    """
-        name: MBCCSH34-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH34-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH34-BRL"
-
-    def __str__(self):
-        return "MBCCSH34-BRL"
-
-    def __call__(self):
-        return "MBCCSH34-BRL"
-
-
-MBCCSH34_BRL = MBCCSH34_BRL()
-"""
-    name: MBCCSH34-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SAUBERFT_BRL(NamedTuple):
-    """
-        name: SAUBERFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SAUBERFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SAUBERFT-BRL"
-
-    def __str__(self):
-        return "SAUBERFT-BRL"
-
-    def __call__(self):
-        return "SAUBERFT-BRL"
-
-
-SAUBERFT_BRL = SAUBERFT_BRL()
-"""
-    name: SAUBERFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class XTZ_BRL(NamedTuple):
-    """
-        name: XTZ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "XTZ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XTZ-BRL"
-
-    def __str__(self):
-        return "XTZ-BRL"
-
-    def __call__(self):
-        return "XTZ-BRL"
-
-
-XTZ_BRL = XTZ_BRL()
-"""
-    name: XTZ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GMT_BRL(NamedTuple):
-    """
-        name: GMT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GMT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GMT-BRL"
-
-    def __str__(self):
-        return "GMT-BRL"
-
-    def __call__(self):
-        return "GMT-BRL"
-
-
-GMT_BRL = GMT_BRL()
-"""
-    name: GMT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCONS01_BRL(NamedTuple):
-    """
-        name: MBCONS01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCONS01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCONS01-BRL"
-
-    def __str__(self):
-        return "MBCONS01-BRL"
-
-    def __call__(self):
-        return "MBCONS01-BRL"
-
-
-MBCONS01_BRL = MBCONS01_BRL()
-"""
-    name: MBCONS01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MVI_BRL(NamedTuple):
-    """
-        name: MVI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MVI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MVI-BRL"
-
-    def __str__(self):
-        return "MVI-BRL"
-
-    def __call__(self):
-        return "MVI-BRL"
-
-
-MVI_BRL = MVI_BRL()
-"""
-    name: MVI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class OGFT_BRL(NamedTuple):
-    """
-        name: OGFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "OGFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "OGFT-BRL"
-
-    def __str__(self):
-        return "OGFT-BRL"
-
-    def __call__(self):
-        return "OGFT-BRL"
-
-
-OGFT_BRL = OGFT_BRL()
-"""
-    name: OGFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class FIL_BRL(NamedTuple):
-    """
-        name: FIL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "FIL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "FIL-BRL"
-
-    def __str__(self):
-        return "FIL-BRL"
-
-    def __call__(self):
-        return "FIL-BRL"
-
-
-FIL_BRL = FIL_BRL()
-"""
-    name: FIL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class REQ_BRL(NamedTuple):
-    """
-        name: REQ-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "REQ-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "REQ-BRL"
-
-    def __str__(self):
-        return "REQ-BRL"
-
-    def __call__(self):
-        return "REQ-BRL"
-
-
-REQ_BRL = REQ_BRL()
-"""
-    name: REQ-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ENER01_BRL(NamedTuple):
-    """
-        name: ENER01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ENER01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ENER01-BRL"
-
-    def __str__(self):
-        return "ENER01-BRL"
-
-    def __call__(self):
-        return "ENER01-BRL"
-
-
-ENER01_BRL = ENER01_BRL()
-"""
-    name: ENER01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MENGOFT_BRL(NamedTuple):
-    """
-        name: MENGOFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MENGOFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MENGOFT-BRL"
-
-    def __str__(self):
-        return "MENGOFT-BRL"
-
-    def __call__(self):
-        return "MENGOFT-BRL"
-
-
-MENGOFT_BRL = MENGOFT_BRL()
-"""
-    name: MENGOFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class XRP_BRL(NamedTuple):
-    """
-        name: XRP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "XRP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XRP-BRL"
-
-    def __str__(self):
-        return "XRP-BRL"
-
-    def __call__(self):
-        return "XRP-BRL"
-
-
-XRP_BRL = XRP_BRL()
-"""
-    name: XRP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class CTSI_BRL(NamedTuple):
-    """
-        name: CTSI-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "CTSI-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "CTSI-BRL"
-
-    def __str__(self):
-        return "CTSI-BRL"
-
-    def __call__(self):
-        return "CTSI-BRL"
-
-
-CTSI_BRL = CTSI_BRL()
-"""
-    name: CTSI-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ALGO_BRL(NamedTuple):
-    """
-        name: ALGO-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ALGO-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ALGO-BRL"
-
-    def __str__(self):
-        return "ALGO-BRL"
-
-    def __call__(self):
-        return "ALGO-BRL"
-
-
-ALGO_BRL = ALGO_BRL()
-"""
-    name: ALGO-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class GST_BRL(NamedTuple):
-    """
-        name: GST-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "GST-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "GST-BRL"
-
-    def __str__(self):
-        return "GST-BRL"
-
-    def __call__(self):
-        return "GST-BRL"
-
-
-GST_BRL = GST_BRL()
-"""
-    name: GST-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH09_BRL(NamedTuple):
-    """
-        name: MBCCSH09-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH09-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH09-BRL"
-
-    def __str__(self):
-        return "MBCCSH09-BRL"
-
-    def __call__(self):
-        return "MBCCSH09-BRL"
-
-
-MBCCSH09_BRL = MBCCSH09_BRL()
-"""
-    name: MBCCSH09-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class XLM_BRL(NamedTuple):
-    """
-        name: XLM-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "XLM-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XLM-BRL"
-
-    def __str__(self):
-        return "XLM-BRL"
-
-    def __call__(self):
-        return "XLM-BRL"
-
-
-XLM_BRL = XLM_BRL()
-"""
-    name: XLM-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class SPELL_BRL(NamedTuple):
-    """
-        name: SPELL-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "SPELL-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "SPELL-BRL"
-
-    def __str__(self):
-        return "SPELL-BRL"
-
-    def __call__(self):
-        return "SPELL-BRL"
-
-
-SPELL_BRL = SPELL_BRL()
-"""
-    name: SPELL-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class PSGFT_BRL(NamedTuple):
-    """
-        name: PSGFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "PSGFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "PSGFT-BRL"
-
-    def __str__(self):
-        return "PSGFT-BRL"
-
-    def __call__(self):
-        return "PSGFT-BRL"
-
-
-PSGFT_BRL = PSGFT_BRL()
-"""
-    name: PSGFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BTB05_BRL(NamedTuple):
-    """
-        name: BTB05-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BTB05-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BTB05-BRL"
-
-    def __str__(self):
-        return "BTB05-BRL"
-
-    def __call__(self):
-        return "BTB05-BRL"
-
-
-BTB05_BRL = BTB05_BRL()
-"""
-    name: BTB05-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RFDIM01_BRL(NamedTuple):
-    """
-        name: RFDIM01-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RFDIM01-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RFDIM01-BRL"
-
-    def __str__(self):
-        return "RFDIM01-BRL"
-
-    def __call__(self):
-        return "RFDIM01-BRL"
-
-
-RFDIM01_BRL = RFDIM01_BRL()
-"""
-    name: RFDIM01-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ENER03_BRL(NamedTuple):
-    """
-        name: ENER03-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ENER03-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ENER03-BRL"
-
-    def __str__(self):
-        return "ENER03-BRL"
-
-    def __call__(self):
-        return "ENER03-BRL"
-
-
-ENER03_BRL = ENER03_BRL()
-"""
-    name: ENER03-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class MBCCSH07_BRL(NamedTuple):
-    """
-        name: MBCCSH07-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "MBCCSH07-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "MBCCSH07-BRL"
-
-    def __str__(self):
-        return "MBCCSH07-BRL"
-
-    def __call__(self):
-        return "MBCCSH07-BRL"
-
-
-MBCCSH07_BRL = MBCCSH07_BRL()
-"""
-    name: MBCCSH07-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class USDP_BRL(NamedTuple):
-    """
-        name: USDP-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "USDP-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "USDP-BRL"
-
-    def __str__(self):
-        return "USDP-BRL"
-
-    def __call__(self):
-        return "USDP-BRL"
-
-
-USDP_BRL = USDP_BRL()
-"""
-    name: USDP-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BADGER_BRL(NamedTuple):
-    """
-        name: BADGER-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BADGER-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BADGER-BRL"
-
-    def __str__(self):
-        return "BADGER-BRL"
-
-    def __call__(self):
-        return "BADGER-BRL"
-
-
-BADGER_BRL = BADGER_BRL()
-"""
-    name: BADGER-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class RNDR_BRL(NamedTuple):
-    """
-        name: RNDR-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "RNDR-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "RNDR-BRL"
-
-    def __str__(self):
-        return "RNDR-BRL"
-
-    def __call__(self):
-        return "RNDR-BRL"
-
-
-RNDR_BRL = RNDR_BRL()
-"""
-    name: RNDR-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class HIGH_BRL(NamedTuple):
-    """
-        name: HIGH-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "HIGH-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "HIGH-BRL"
-
-    def __str__(self):
-        return "HIGH-BRL"
-
-    def __call__(self):
-        return "HIGH-BRL"
-
-
-HIGH_BRL = HIGH_BRL()
-"""
-    name: HIGH-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class BCH_BRL(NamedTuple):
-    """
-        name: BCH-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "BCH-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "BCH-BRL"
-
-    def __str__(self):
-        return "BCH-BRL"
-
-    def __call__(self):
-        return "BCH-BRL"
-
-
-BCH_BRL = BCH_BRL()
-"""
-    name: BCH-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class YBOFT_BRL(NamedTuple):
-    """
-        name: YBOFT-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "YBOFT-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "YBOFT-BRL"
-
-    def __str__(self):
-        return "YBOFT-BRL"
-
-    def __call__(self):
-        return "YBOFT-BRL"
-
-
-YBOFT_BRL = YBOFT_BRL()
-"""
-    name: YBOFT-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class ALICE_BRL(NamedTuple):
-    """
-        name: ALICE-BRL
-        significant_digits: 8
-        tick_size: None
-        min_margin: None
-        initial_margin: None
-        min_order_size: None
-        max_order_size: None
-        has_margin: False
-        exchange: mercado_bitcoin
-    """
-    name: str = "ALICE-BRL"
-    significant_digits: int = 8
-    tick_size: int = None
-    min_margin: float = None
-    initial_margin: float = None
-    min_order_size: float = None
-    max_order_size: float = None
-    has_margin: bool = False
-    exchange: str = "mercado_bitcoin"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ALICE-BRL"
-
-    def __str__(self):
-        return "ALICE-BRL"
-
-    def __call__(self):
-        return "ALICE-BRL"
-
-
-ALICE_BRL = ALICE_BRL()
-"""
-    name: ALICE-BRL
-    significant_digits: 8
-    tick_size: None
-    min_margin: None
-    initial_margin: None
-    min_order_size: None
-    max_order_size: None
-    has_margin: False
-    exchange: mercado_bitcoin
-"""
-
-
-class DAO_BRL(NamedTuple):
+class DAO_BRL(Symbol):
     """
         name: DAO-BRL
         significant_digits: 8
@@ -13247,9 +299,13113 @@ class DAO_BRL(NamedTuple):
         return "DAO-BRL"
 
 
-DAO_BRL = DAO_BRL()
+DAO_BRL = DAO_BRL(*DAO_BRL._fields)
 """
     name: DAO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ALGO_BRL(Symbol):
+    """
+        name: ALGO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ALGO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ALGO-BRL"
+
+    def __str__(self):
+        return "ALGO-BRL"
+
+    def __call__(self):
+        return "ALGO-BRL"
+
+
+ALGO_BRL = ALGO_BRL(*ALGO_BRL._fields)
+"""
+    name: ALGO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP20_BRL(Symbol):
+    """
+        name: RFDFP20-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP20-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP20-BRL"
+
+    def __str__(self):
+        return "RFDFP20-BRL"
+
+    def __call__(self):
+        return "RFDFP20-BRL"
+
+
+RFDFP20_BRL = RFDFP20_BRL(*RFDFP20_BRL._fields)
+"""
+    name: RFDFP20-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ENER02_BRL(Symbol):
+    """
+        name: ENER02-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ENER02-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ENER02-BRL"
+
+    def __str__(self):
+        return "ENER02-BRL"
+
+    def __call__(self):
+        return "ENER02-BRL"
+
+
+ENER02_BRL = ENER02_BRL(*ENER02_BRL._fields)
+"""
+    name: ENER02-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PLA_BRL(Symbol):
+    """
+        name: PLA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PLA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PLA-BRL"
+
+    def __str__(self):
+        return "PLA-BRL"
+
+    def __call__(self):
+        return "PLA-BRL"
+
+
+PLA_BRL = PLA_BRL(*PLA_BRL._fields)
+"""
+    name: PLA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SLP_BRL(Symbol):
+    """
+        name: SLP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SLP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SLP-BRL"
+
+    def __str__(self):
+        return "SLP-BRL"
+
+    def __call__(self):
+        return "SLP-BRL"
+
+
+SLP_BRL = SLP_BRL(*SLP_BRL._fields)
+"""
+    name: SLP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK01_BRL(Symbol):
+    """
+        name: MBPRK01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK01-BRL"
+
+    def __str__(self):
+        return "MBPRK01-BRL"
+
+    def __call__(self):
+        return "MBPRK01-BRL"
+
+
+MBPRK01_BRL = MBPRK01_BRL(*MBPRK01_BRL._fields)
+"""
+    name: MBPRK01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class POLS_BRL(Symbol):
+    """
+        name: POLS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "POLS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "POLS-BRL"
+
+    def __str__(self):
+        return "POLS-BRL"
+
+    def __call__(self):
+        return "POLS-BRL"
+
+
+POLS_BRL = POLS_BRL(*POLS_BRL._fields)
+"""
+    name: POLS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH17_BRL(Symbol):
+    """
+        name: MBCCSH17-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH17-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH17-BRL"
+
+    def __str__(self):
+        return "MBCCSH17-BRL"
+
+    def __call__(self):
+        return "MBCCSH17-BRL"
+
+
+MBCCSH17_BRL = MBCCSH17_BRL(*MBCCSH17_BRL._fields)
+"""
+    name: MBCCSH17-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH07_BRL(Symbol):
+    """
+        name: MBCCSH07-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH07-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH07-BRL"
+
+    def __str__(self):
+        return "MBCCSH07-BRL"
+
+    def __call__(self):
+        return "MBCCSH07-BRL"
+
+
+MBCCSH07_BRL = MBCCSH07_BRL(*MBCCSH07_BRL._fields)
+"""
+    name: MBCCSH07-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BLZ_BRL(Symbol):
+    """
+        name: BLZ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BLZ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLZ-BRL"
+
+    def __str__(self):
+        return "BLZ-BRL"
+
+    def __call__(self):
+        return "BLZ-BRL"
+
+
+BLZ_BRL = BLZ_BRL(*BLZ_BRL._fields)
+"""
+    name: BLZ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ANT_BRL(Symbol):
+    """
+        name: ANT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ANT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ANT-BRL"
+
+    def __str__(self):
+        return "ANT-BRL"
+
+    def __call__(self):
+        return "ANT-BRL"
+
+
+ANT_BRL = ANT_BRL(*ANT_BRL._fields)
+"""
+    name: ANT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class UNI_BRL(Symbol):
+    """
+        name: UNI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "UNI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "UNI-BRL"
+
+    def __str__(self):
+        return "UNI-BRL"
+
+    def __call__(self):
+        return "UNI-BRL"
+
+
+UNI_BRL = UNI_BRL(*UNI_BRL._fields)
+"""
+    name: UNI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class POWR_BRL(Symbol):
+    """
+        name: POWR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "POWR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "POWR-BRL"
+
+    def __str__(self):
+        return "POWR-BRL"
+
+    def __call__(self):
+        return "POWR-BRL"
+
+
+POWR_BRL = POWR_BRL(*POWR_BRL._fields)
+"""
+    name: POWR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RIB_BRL(Symbol):
+    """
+        name: RIB-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RIB-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RIB-BRL"
+
+    def __str__(self):
+        return "RIB-BRL"
+
+    def __call__(self):
+        return "RIB-BRL"
+
+
+RIB_BRL = RIB_BRL(*RIB_BRL._fields)
+"""
+    name: RIB-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ATMFT_BRL(Symbol):
+    """
+        name: ATMFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ATMFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ATMFT-BRL"
+
+    def __str__(self):
+        return "ATMFT-BRL"
+
+    def __call__(self):
+        return "ATMFT-BRL"
+
+
+ATMFT_BRL = ATMFT_BRL(*ATMFT_BRL._fields)
+"""
+    name: ATMFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH16_BRL(Symbol):
+    """
+        name: MBCCSH16-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH16-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH16-BRL"
+
+    def __str__(self):
+        return "MBCCSH16-BRL"
+
+    def __call__(self):
+        return "MBCCSH16-BRL"
+
+
+MBCCSH16_BRL = MBCCSH16_BRL(*MBCCSH16_BRL._fields)
+"""
+    name: MBCCSH16-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ZRX_BRL(Symbol):
+    """
+        name: ZRX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ZRX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ZRX-BRL"
+
+    def __str__(self):
+        return "ZRX-BRL"
+
+    def __call__(self):
+        return "ZRX-BRL"
+
+
+ZRX_BRL = ZRX_BRL(*ZRX_BRL._fields)
+"""
+    name: ZRX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PORFT_BRL(Symbol):
+    """
+        name: PORFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PORFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PORFT-BRL"
+
+    def __str__(self):
+        return "PORFT-BRL"
+
+    def __call__(self):
+        return "PORFT-BRL"
+
+
+PORFT_BRL = PORFT_BRL(*PORFT_BRL._fields)
+"""
+    name: PORFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CVX_BRL(Symbol):
+    """
+        name: CVX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CVX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CVX-BRL"
+
+    def __str__(self):
+        return "CVX-BRL"
+
+    def __call__(self):
+        return "CVX-BRL"
+
+
+CVX_BRL = CVX_BRL(*CVX_BRL._fields)
+"""
+    name: CVX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class INTERFT_BRL(Symbol):
+    """
+        name: INTERFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "INTERFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "INTERFT-BRL"
+
+    def __str__(self):
+        return "INTERFT-BRL"
+
+    def __call__(self):
+        return "INTERFT-BRL"
+
+
+INTERFT_BRL = INTERFT_BRL(*INTERFT_BRL._fields)
+"""
+    name: INTERFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP12_BRL(Symbol):
+    """
+        name: MBFP12-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP12-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP12-BRL"
+
+    def __str__(self):
+        return "MBFP12-BRL"
+
+    def __call__(self):
+        return "MBFP12-BRL"
+
+
+MBFP12_BRL = MBFP12_BRL(*MBFP12_BRL._fields)
+"""
+    name: MBFP12-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ENER03_BRL(Symbol):
+    """
+        name: ENER03-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ENER03-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ENER03-BRL"
+
+    def __str__(self):
+        return "ENER03-BRL"
+
+    def __call__(self):
+        return "ENER03-BRL"
+
+
+ENER03_BRL = ENER03_BRL(*ENER03_BRL._fields)
+"""
+    name: ENER03-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH25_BRL(Symbol):
+    """
+        name: MBCCSH25-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH25-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH25-BRL"
+
+    def __str__(self):
+        return "MBCCSH25-BRL"
+
+    def __call__(self):
+        return "MBCCSH25-BRL"
+
+
+MBCCSH25_BRL = MBCCSH25_BRL(*MBCCSH25_BRL._fields)
+"""
+    name: MBCCSH25-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MINA_BRL(Symbol):
+    """
+        name: MINA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MINA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MINA-BRL"
+
+    def __str__(self):
+        return "MINA-BRL"
+
+    def __call__(self):
+        return "MINA-BRL"
+
+
+MINA_BRL = MINA_BRL(*MINA_BRL._fields)
+"""
+    name: MINA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GHST_BRL(Symbol):
+    """
+        name: GHST-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GHST-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GHST-BRL"
+
+    def __str__(self):
+        return "GHST-BRL"
+
+    def __call__(self):
+        return "GHST-BRL"
+
+
+GHST_BRL = GHST_BRL(*GHST_BRL._fields)
+"""
+    name: GHST-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class WBTC_BRL(Symbol):
+    """
+        name: WBTC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "WBTC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "WBTC-BRL"
+
+    def __str__(self):
+        return "WBTC-BRL"
+
+    def __call__(self):
+        return "WBTC-BRL"
+
+
+WBTC_BRL = WBTC_BRL(*WBTC_BRL._fields)
+"""
+    name: WBTC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AMFT_BRL(Symbol):
+    """
+        name: AMFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AMFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AMFT-BRL"
+
+    def __str__(self):
+        return "AMFT-BRL"
+
+    def __call__(self):
+        return "AMFT-BRL"
+
+
+AMFT_BRL = AMFT_BRL(*AMFT_BRL._fields)
+"""
+    name: AMFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BLUR_BRL(Symbol):
+    """
+        name: BLUR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BLUR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BLUR-BRL"
+
+    def __str__(self):
+        return "BLUR-BRL"
+
+    def __call__(self):
+        return "BLUR-BRL"
+
+
+BLUR_BRL = BLUR_BRL(*BLUR_BRL._fields)
+"""
+    name: BLUR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK02_BRL(Symbol):
+    """
+        name: MBPRK02-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK02-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK02-BRL"
+
+    def __str__(self):
+        return "MBPRK02-BRL"
+
+    def __call__(self):
+        return "MBPRK02-BRL"
+
+
+MBPRK02_BRL = MBPRK02_BRL(*MBPRK02_BRL._fields)
+"""
+    name: MBPRK02-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BNT_BRL(Symbol):
+    """
+        name: BNT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BNT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BNT-BRL"
+
+    def __str__(self):
+        return "BNT-BRL"
+
+    def __call__(self):
+        return "BNT-BRL"
+
+
+BNT_BRL = BNT_BRL(*BNT_BRL._fields)
+"""
+    name: BNT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ROSE_BRL(Symbol):
+    """
+        name: ROSE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ROSE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ROSE-BRL"
+
+    def __str__(self):
+        return "ROSE-BRL"
+
+    def __call__(self):
+        return "ROSE-BRL"
+
+
+ROSE_BRL = ROSE_BRL(*ROSE_BRL._fields)
+"""
+    name: ROSE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH27_BRL(Symbol):
+    """
+        name: MBCCSH27-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH27-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH27-BRL"
+
+    def __str__(self):
+        return "MBCCSH27-BRL"
+
+    def __call__(self):
+        return "MBCCSH27-BRL"
+
+
+MBCCSH27_BRL = MBCCSH27_BRL(*MBCCSH27_BRL._fields)
+"""
+    name: MBCCSH27-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CTSI_BRL(Symbol):
+    """
+        name: CTSI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CTSI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CTSI-BRL"
+
+    def __str__(self):
+        return "CTSI-BRL"
+
+    def __call__(self):
+        return "CTSI-BRL"
+
+
+CTSI_BRL = CTSI_BRL(*CTSI_BRL._fields)
+"""
+    name: CTSI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH03_BRL(Symbol):
+    """
+        name: MBCCSH03-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH03-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH03-BRL"
+
+    def __str__(self):
+        return "MBCCSH03-BRL"
+
+    def __call__(self):
+        return "MBCCSH03-BRL"
+
+
+MBCCSH03_BRL = MBCCSH03_BRL(*MBCCSH03_BRL._fields)
+"""
+    name: MBCCSH03-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class THFT_BRL(Symbol):
+    """
+        name: THFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "THFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "THFT-BRL"
+
+    def __str__(self):
+        return "THFT-BRL"
+
+    def __call__(self):
+        return "THFT-BRL"
+
+
+THFT_BRL = THFT_BRL(*THFT_BRL._fields)
+"""
+    name: THFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ENER01_BRL(Symbol):
+    """
+        name: ENER01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ENER01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ENER01-BRL"
+
+    def __str__(self):
+        return "ENER01-BRL"
+
+    def __call__(self):
+        return "ENER01-BRL"
+
+
+ENER01_BRL = ENER01_BRL(*ENER01_BRL._fields)
+"""
+    name: ENER01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH15_BRL(Symbol):
+    """
+        name: MBCCSH15-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH15-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH15-BRL"
+
+    def __str__(self):
+        return "MBCCSH15-BRL"
+
+    def __call__(self):
+        return "MBCCSH15-BRL"
+
+
+MBCCSH15_BRL = MBCCSH15_BRL(*MBCCSH15_BRL._fields)
+"""
+    name: MBCCSH15-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class COMP_BRL(Symbol):
+    """
+        name: COMP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "COMP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "COMP-BRL"
+
+    def __str__(self):
+        return "COMP-BRL"
+
+    def __call__(self):
+        return "COMP-BRL"
+
+
+COMP_BRL = COMP_BRL(*COMP_BRL._fields)
+"""
+    name: COMP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CLV_BRL(Symbol):
+    """
+        name: CLV-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CLV-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CLV-BRL"
+
+    def __str__(self):
+        return "CLV-BRL"
+
+    def __call__(self):
+        return "CLV-BRL"
+
+
+CLV_BRL = CLV_BRL(*CLV_BRL._fields)
+"""
+    name: CLV-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH05_BRL(Symbol):
+    """
+        name: MBCCSH05-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH05-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH05-BRL"
+
+    def __str__(self):
+        return "MBCCSH05-BRL"
+
+    def __call__(self):
+        return "MBCCSH05-BRL"
+
+
+MBCCSH05_BRL = MBCCSH05_BRL(*MBCCSH05_BRL._fields)
+"""
+    name: MBCCSH05-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCONS01_BRL(Symbol):
+    """
+        name: MBCONS01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCONS01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCONS01-BRL"
+
+    def __str__(self):
+        return "MBCONS01-BRL"
+
+    def __call__(self):
+        return "MBCONS01-BRL"
+
+
+MBCONS01_BRL = MBCONS01_BRL(*MBCONS01_BRL._fields)
+"""
+    name: MBCONS01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH22_BRL(Symbol):
+    """
+        name: MBCCSH22-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH22-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH22-BRL"
+
+    def __str__(self):
+        return "MBCCSH22-BRL"
+
+    def __call__(self):
+        return "MBCCSH22-BRL"
+
+
+MBCCSH22_BRL = MBCCSH22_BRL(*MBCCSH22_BRL._fields)
+"""
+    name: MBCCSH22-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MATIC_BRL(Symbol):
+    """
+        name: MATIC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MATIC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MATIC-BRL"
+
+    def __str__(self):
+        return "MATIC-BRL"
+
+    def __call__(self):
+        return "MATIC-BRL"
+
+
+MATIC_BRL = MATIC_BRL(*MATIC_BRL._fields)
+"""
+    name: MATIC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LTC_BRL(Symbol):
+    """
+        name: LTC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LTC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LTC-BRL"
+
+    def __str__(self):
+        return "LTC-BRL"
+
+    def __call__(self):
+        return "LTC-BRL"
+
+
+LTC_BRL = LTC_BRL(*LTC_BRL._fields)
+"""
+    name: LTC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDCS07_BRL(Symbol):
+    """
+        name: RFDCS07-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDCS07-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDCS07-BRL"
+
+    def __str__(self):
+        return "RFDCS07-BRL"
+
+    def __call__(self):
+        return "RFDCS07-BRL"
+
+
+RFDCS07_BRL = RFDCS07_BRL(*RFDCS07_BRL._fields)
+"""
+    name: RFDCS07-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RLY_BRL(Symbol):
+    """
+        name: RLY-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RLY-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RLY-BRL"
+
+    def __str__(self):
+        return "RLY-BRL"
+
+    def __call__(self):
+        return "RLY-BRL"
+
+
+RLY_BRL = RLY_BRL(*RLY_BRL._fields)
+"""
+    name: RLY-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH28_BRL(Symbol):
+    """
+        name: MBCCSH28-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH28-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH28-BRL"
+
+    def __str__(self):
+        return "MBCCSH28-BRL"
+
+    def __call__(self):
+        return "MBCCSH28-BRL"
+
+
+MBCCSH28_BRL = MBCCSH28_BRL(*MBCCSH28_BRL._fields)
+"""
+    name: MBCCSH28-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SPFCFT_BRL(Symbol):
+    """
+        name: SPFCFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SPFCFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SPFCFT-BRL"
+
+    def __str__(self):
+        return "SPFCFT-BRL"
+
+    def __call__(self):
+        return "SPFCFT-BRL"
+
+
+SPFCFT_BRL = SPFCFT_BRL(*SPFCFT_BRL._fields)
+"""
+    name: SPFCFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP07_BRL(Symbol):
+    """
+        name: MBFP07-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP07-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP07-BRL"
+
+    def __str__(self):
+        return "MBFP07-BRL"
+
+    def __call__(self):
+        return "MBFP07-BRL"
+
+
+MBFP07_BRL = MBFP07_BRL(*MBFP07_BRL._fields)
+"""
+    name: MBFP07-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH21_BRL(Symbol):
+    """
+        name: MBCCSH21-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH21-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH21-BRL"
+
+    def __str__(self):
+        return "MBCCSH21-BRL"
+
+    def __call__(self):
+        return "MBCCSH21-BRL"
+
+
+MBCCSH21_BRL = MBCCSH21_BRL(*MBCCSH21_BRL._fields)
+"""
+    name: MBCCSH21-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CAIFT_BRL(Symbol):
+    """
+        name: CAIFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CAIFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CAIFT-BRL"
+
+    def __str__(self):
+        return "CAIFT-BRL"
+
+    def __call__(self):
+        return "CAIFT-BRL"
+
+
+CAIFT_BRL = CAIFT_BRL(*CAIFT_BRL._fields)
+"""
+    name: CAIFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class TRU_BRL(Symbol):
+    """
+        name: TRU-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "TRU-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "TRU-BRL"
+
+    def __str__(self):
+        return "TRU-BRL"
+
+    def __call__(self):
+        return "TRU-BRL"
+
+
+TRU_BRL = TRU_BRL(*TRU_BRL._fields)
+"""
+    name: TRU-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP18_BRL(Symbol):
+    """
+        name: RFDFP18-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP18-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP18-BRL"
+
+    def __str__(self):
+        return "RFDFP18-BRL"
+
+    def __call__(self):
+        return "RFDFP18-BRL"
+
+
+RFDFP18_BRL = RFDFP18_BRL(*RFDFP18_BRL._fields)
+"""
+    name: RFDFP18-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH08_BRL(Symbol):
+    """
+        name: MBCCSH08-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH08-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH08-BRL"
+
+    def __str__(self):
+        return "MBCCSH08-BRL"
+
+    def __call__(self):
+        return "MBCCSH08-BRL"
+
+
+MBCCSH08_BRL = MBCCSH08_BRL(*MBCCSH08_BRL._fields)
+"""
+    name: MBCCSH08-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDEN04_BRL(Symbol):
+    """
+        name: RFDEN04-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDEN04-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDEN04-BRL"
+
+    def __str__(self):
+        return "RFDEN04-BRL"
+
+    def __call__(self):
+        return "RFDEN04-BRL"
+
+
+RFDEN04_BRL = RFDEN04_BRL(*RFDEN04_BRL._fields)
+"""
+    name: RFDEN04-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BAND_BRL(Symbol):
+    """
+        name: BAND-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BAND-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BAND-BRL"
+
+    def __str__(self):
+        return "BAND-BRL"
+
+    def __call__(self):
+        return "BAND-BRL"
+
+
+BAND_BRL = BAND_BRL(*BAND_BRL._fields)
+"""
+    name: BAND-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SAUBERFT_BRL(Symbol):
+    """
+        name: SAUBERFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SAUBERFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SAUBERFT-BRL"
+
+    def __str__(self):
+        return "SAUBERFT-BRL"
+
+    def __call__(self):
+        return "SAUBERFT-BRL"
+
+
+SAUBERFT_BRL = SAUBERFT_BRL(*SAUBERFT_BRL._fields)
+"""
+    name: SAUBERFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ATLAS_BRL(Symbol):
+    """
+        name: ATLAS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ATLAS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ATLAS-BRL"
+
+    def __str__(self):
+        return "ATLAS-BRL"
+
+    def __call__(self):
+        return "ATLAS-BRL"
+
+
+ATLAS_BRL = ATLAS_BRL(*ATLAS_BRL._fields)
+"""
+    name: ATLAS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class VSPRK01_BRL(Symbol):
+    """
+        name: VSPRK01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "VSPRK01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "VSPRK01-BRL"
+
+    def __str__(self):
+        return "VSPRK01-BRL"
+
+    def __call__(self):
+        return "VSPRK01-BRL"
+
+
+VSPRK01_BRL = VSPRK01_BRL(*VSPRK01_BRL._fields)
+"""
+    name: VSPRK01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class QNT_BRL(Symbol):
+    """
+        name: QNT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "QNT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "QNT-BRL"
+
+    def __str__(self):
+        return "QNT-BRL"
+
+    def __call__(self):
+        return "QNT-BRL"
+
+
+QNT_BRL = QNT_BRL(*QNT_BRL._fields)
+"""
+    name: QNT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ARB_BRL(Symbol):
+    """
+        name: ARB-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ARB-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARB-BRL"
+
+    def __str__(self):
+        return "ARB-BRL"
+
+    def __call__(self):
+        return "ARB-BRL"
+
+
+ARB_BRL = ARB_BRL(*ARB_BRL._fields)
+"""
+    name: ARB-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BCH_BRL(Symbol):
+    """
+        name: BCH-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BCH-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BCH-BRL"
+
+    def __str__(self):
+        return "BCH-BRL"
+
+    def __call__(self):
+        return "BCH-BRL"
+
+
+BCH_BRL = BCH_BRL(*BCH_BRL._fields)
+"""
+    name: BCH-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ERN_BRL(Symbol):
+    """
+        name: ERN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ERN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ERN-BRL"
+
+    def __str__(self):
+        return "ERN-BRL"
+
+    def __call__(self):
+        return "ERN-BRL"
+
+
+ERN_BRL = ERN_BRL(*ERN_BRL._fields)
+"""
+    name: ERN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class API3_BRL(Symbol):
+    """
+        name: API3-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "API3-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "API3-BRL"
+
+    def __str__(self):
+        return "API3-BRL"
+
+    def __call__(self):
+        return "API3-BRL"
+
+
+API3_BRL = API3_BRL(*API3_BRL._fields)
+"""
+    name: API3-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PAXG_BRL(Symbol):
+    """
+        name: PAXG-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PAXG-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PAXG-BRL"
+
+    def __str__(self):
+        return "PAXG-BRL"
+
+    def __call__(self):
+        return "PAXG-BRL"
+
+
+PAXG_BRL = PAXG_BRL(*PAXG_BRL._fields)
+"""
+    name: PAXG-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ALCX_BRL(Symbol):
+    """
+        name: ALCX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ALCX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ALCX-BRL"
+
+    def __str__(self):
+        return "ALCX-BRL"
+
+    def __call__(self):
+        return "ALCX-BRL"
+
+
+ALCX_BRL = ALCX_BRL(*ALCX_BRL._fields)
+"""
+    name: ALCX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ALPHA_BRL(Symbol):
+    """
+        name: ALPHA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ALPHA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ALPHA-BRL"
+
+    def __str__(self):
+        return "ALPHA-BRL"
+
+    def __call__(self):
+        return "ALPHA-BRL"
+
+
+ALPHA_BRL = ALPHA_BRL(*ALPHA_BRL._fields)
+"""
+    name: ALPHA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class WBX_BRL(Symbol):
+    """
+        name: WBX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "WBX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "WBX-BRL"
+
+    def __str__(self):
+        return "WBX-BRL"
+
+    def __call__(self):
+        return "WBX-BRL"
+
+
+WBX_BRL = WBX_BRL(*WBX_BRL._fields)
+"""
+    name: WBX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SHIB_BRL(Symbol):
+    """
+        name: SHIB-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SHIB-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SHIB-BRL"
+
+    def __str__(self):
+        return "SHIB-BRL"
+
+    def __call__(self):
+        return "SHIB-BRL"
+
+
+SHIB_BRL = SHIB_BRL(*SHIB_BRL._fields)
+"""
+    name: SHIB-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH24_BRL(Symbol):
+    """
+        name: MBCCSH24-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH24-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH24-BRL"
+
+    def __str__(self):
+        return "MBCCSH24-BRL"
+
+    def __call__(self):
+        return "MBCCSH24-BRL"
+
+
+MBCCSH24_BRL = MBCCSH24_BRL(*MBCCSH24_BRL._fields)
+"""
+    name: MBCCSH24-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PERP_BRL(Symbol):
+    """
+        name: PERP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PERP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PERP-BRL"
+
+    def __str__(self):
+        return "PERP-BRL"
+
+    def __call__(self):
+        return "PERP-BRL"
+
+
+PERP_BRL = PERP_BRL(*PERP_BRL._fields)
+"""
+    name: PERP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ASRFT_BRL(Symbol):
+    """
+        name: ASRFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ASRFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ASRFT-BRL"
+
+    def __str__(self):
+        return "ASRFT-BRL"
+
+    def __call__(self):
+        return "ASRFT-BRL"
+
+
+ASRFT_BRL = ASRFT_BRL(*ASRFT_BRL._fields)
+"""
+    name: ASRFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ENS_BRL(Symbol):
+    """
+        name: ENS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ENS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ENS-BRL"
+
+    def __str__(self):
+        return "ENS-BRL"
+
+    def __call__(self):
+        return "ENS-BRL"
+
+
+ENS_BRL = ENS_BRL(*ENS_BRL._fields)
+"""
+    name: ENS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GALOFT_BRL(Symbol):
+    """
+        name: GALOFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GALOFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GALOFT-BRL"
+
+    def __str__(self):
+        return "GALOFT-BRL"
+
+    def __call__(self):
+        return "GALOFT-BRL"
+
+
+GALOFT_BRL = GALOFT_BRL(*GALOFT_BRL._fields)
+"""
+    name: GALOFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBRL_BRL(Symbol):
+    """
+        name: MBRL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBRL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBRL-BRL"
+
+    def __str__(self):
+        return "MBRL-BRL"
+
+    def __call__(self):
+        return "MBRL-BRL"
+
+
+MBRL_BRL = MBRL_BRL(*MBRL_BRL._fields)
+"""
+    name: MBRL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP21_BRL(Symbol):
+    """
+        name: RFDFP21-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP21-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP21-BRL"
+
+    def __str__(self):
+        return "RFDFP21-BRL"
+
+    def __call__(self):
+        return "RFDFP21-BRL"
+
+
+RFDFP21_BRL = RFDFP21_BRL(*RFDFP21_BRL._fields)
+"""
+    name: RFDFP21-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class APT_BRL(Symbol):
+    """
+        name: APT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "APT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "APT-BRL"
+
+    def __str__(self):
+        return "APT-BRL"
+
+    def __call__(self):
+        return "APT-BRL"
+
+
+APT_BRL = APT_BRL(*APT_BRL._fields)
+"""
+    name: APT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH30_BRL(Symbol):
+    """
+        name: MBCCSH30-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH30-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH30-BRL"
+
+    def __str__(self):
+        return "MBCCSH30-BRL"
+
+    def __call__(self):
+        return "MBCCSH30-BRL"
+
+
+MBCCSH30_BRL = MBCCSH30_BRL(*MBCCSH30_BRL._fields)
+"""
+    name: MBCCSH30-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class TLM_BRL(Symbol):
+    """
+        name: TLM-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "TLM-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "TLM-BRL"
+
+    def __str__(self):
+        return "TLM-BRL"
+
+    def __call__(self):
+        return "TLM-BRL"
+
+
+TLM_BRL = TLM_BRL(*TLM_BRL._fields)
+"""
+    name: TLM-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH11_BRL(Symbol):
+    """
+        name: MBCCSH11-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH11-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH11-BRL"
+
+    def __str__(self):
+        return "MBCCSH11-BRL"
+
+    def __call__(self):
+        return "MBCCSH11-BRL"
+
+
+MBCCSH11_BRL = MBCCSH11_BRL(*MBCCSH11_BRL._fields)
+"""
+    name: MBCCSH11-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SUPER_BRL(Symbol):
+    """
+        name: SUPER-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SUPER-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUPER-BRL"
+
+    def __str__(self):
+        return "SUPER-BRL"
+
+    def __call__(self):
+        return "SUPER-BRL"
+
+
+SUPER_BRL = SUPER_BRL(*SUPER_BRL._fields)
+"""
+    name: SUPER-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CRV_BRL(Symbol):
+    """
+        name: CRV-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CRV-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CRV-BRL"
+
+    def __str__(self):
+        return "CRV-BRL"
+
+    def __call__(self):
+        return "CRV-BRL"
+
+
+CRV_BRL = CRV_BRL(*CRV_BRL._fields)
+"""
+    name: CRV-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ALLFT_BRL(Symbol):
+    """
+        name: ALLFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ALLFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ALLFT-BRL"
+
+    def __str__(self):
+        return "ALLFT-BRL"
+
+    def __call__(self):
+        return "ALLFT-BRL"
+
+
+ALLFT_BRL = ALLFT_BRL(*ALLFT_BRL._fields)
+"""
+    name: ALLFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BTRST_BRL(Symbol):
+    """
+        name: BTRST-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BTRST-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BTRST-BRL"
+
+    def __str__(self):
+        return "BTRST-BRL"
+
+    def __call__(self):
+        return "BTRST-BRL"
+
+
+BTRST_BRL = BTRST_BRL(*BTRST_BRL._fields)
+"""
+    name: BTRST-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class USDP_BRL(Symbol):
+    """
+        name: USDP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "USDP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDP-BRL"
+
+    def __str__(self):
+        return "USDP-BRL"
+
+    def __call__(self):
+        return "USDP-BRL"
+
+
+USDP_BRL = USDP_BRL(*USDP_BRL._fields)
+"""
+    name: USDP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LOOKS_BRL(Symbol):
+    """
+        name: LOOKS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LOOKS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LOOKS-BRL"
+
+    def __str__(self):
+        return "LOOKS-BRL"
+
+    def __call__(self):
+        return "LOOKS-BRL"
+
+
+LOOKS_BRL = LOOKS_BRL(*LOOKS_BRL._fields)
+"""
+    name: LOOKS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK06_BRL(Symbol):
+    """
+        name: MBPRK06-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK06-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK06-BRL"
+
+    def __str__(self):
+        return "MBPRK06-BRL"
+
+    def __call__(self):
+        return "MBPRK06-BRL"
+
+
+MBPRK06_BRL = MBPRK06_BRL(*MBPRK06_BRL._fields)
+"""
+    name: MBPRK06-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LRC_BRL(Symbol):
+    """
+        name: LRC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LRC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LRC-BRL"
+
+    def __str__(self):
+        return "LRC-BRL"
+
+    def __call__(self):
+        return "LRC-BRL"
+
+
+LRC_BRL = LRC_BRL(*LRC_BRL._fields)
+"""
+    name: LRC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SKL_BRL(Symbol):
+    """
+        name: SKL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SKL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SKL-BRL"
+
+    def __str__(self):
+        return "SKL-BRL"
+
+    def __call__(self):
+        return "SKL-BRL"
+
+
+SKL_BRL = SKL_BRL(*SKL_BRL._fields)
+"""
+    name: SKL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CSCONS02_BRL(Symbol):
+    """
+        name: CSCONS02-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CSCONS02-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CSCONS02-BRL"
+
+    def __str__(self):
+        return "CSCONS02-BRL"
+
+    def __call__(self):
+        return "CSCONS02-BRL"
+
+
+CSCONS02_BRL = CSCONS02_BRL(*CSCONS02_BRL._fields)
+"""
+    name: CSCONS02-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LDO_BRL(Symbol):
+    """
+        name: LDO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LDO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LDO-BRL"
+
+    def __str__(self):
+        return "LDO-BRL"
+
+    def __call__(self):
+        return "LDO-BRL"
+
+
+LDO_BRL = LDO_BRL(*LDO_BRL._fields)
+"""
+    name: LDO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AMP_BRL(Symbol):
+    """
+        name: AMP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AMP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AMP-BRL"
+
+    def __str__(self):
+        return "AMP-BRL"
+
+    def __call__(self):
+        return "AMP-BRL"
+
+
+AMP_BRL = AMP_BRL(*AMP_BRL._fields)
+"""
+    name: AMP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP17_BRL(Symbol):
+    """
+        name: RFDFP17-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP17-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP17-BRL"
+
+    def __str__(self):
+        return "RFDFP17-BRL"
+
+    def __call__(self):
+        return "RFDFP17-BRL"
+
+
+RFDFP17_BRL = RFDFP17_BRL(*RFDFP17_BRL._fields)
+"""
+    name: RFDFP17-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BAL_BRL(Symbol):
+    """
+        name: BAL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BAL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BAL-BRL"
+
+    def __str__(self):
+        return "BAL-BRL"
+
+    def __call__(self):
+        return "BAL-BRL"
+
+
+BAL_BRL = BAL_BRL(*BAL_BRL._fields)
+"""
+    name: BAL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ENJ_BRL(Symbol):
+    """
+        name: ENJ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ENJ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ENJ-BRL"
+
+    def __str__(self):
+        return "ENJ-BRL"
+
+    def __call__(self):
+        return "ENJ-BRL"
+
+
+ENJ_BRL = ENJ_BRL(*ENJ_BRL._fields)
+"""
+    name: ENJ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BTC_BRL(Symbol):
+    """
+        name: BTC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BTC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BTC-BRL"
+
+    def __str__(self):
+        return "BTC-BRL"
+
+    def __call__(self):
+        return "BTC-BRL"
+
+
+BTC_BRL = BTC_BRL(*BTC_BRL._fields)
+"""
+    name: BTC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ADS_BRL(Symbol):
+    """
+        name: ADS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ADS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ADS-BRL"
+
+    def __str__(self):
+        return "ADS-BRL"
+
+    def __call__(self):
+        return "ADS-BRL"
+
+
+ADS_BRL = ADS_BRL(*ADS_BRL._fields)
+"""
+    name: ADS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK04_BRL(Symbol):
+    """
+        name: MBPRK04-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK04-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK04-BRL"
+
+    def __str__(self):
+        return "MBPRK04-BRL"
+
+    def __call__(self):
+        return "MBPRK04-BRL"
+
+
+MBPRK04_BRL = MBPRK04_BRL(*MBPRK04_BRL._fields)
+"""
+    name: MBPRK04-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GMT_BRL(Symbol):
+    """
+        name: GMT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GMT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GMT-BRL"
+
+    def __str__(self):
+        return "GMT-BRL"
+
+    def __call__(self):
+        return "GMT-BRL"
+
+
+GMT_BRL = GMT_BRL(*GMT_BRL._fields)
+"""
+    name: GMT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RARI_BRL(Symbol):
+    """
+        name: RARI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RARI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RARI-BRL"
+
+    def __str__(self):
+        return "RARI-BRL"
+
+    def __call__(self):
+        return "RARI-BRL"
+
+
+RARI_BRL = RARI_BRL(*RARI_BRL._fields)
+"""
+    name: RARI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP08_BRL(Symbol):
+    """
+        name: MBFP08-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP08-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP08-BRL"
+
+    def __str__(self):
+        return "MBFP08-BRL"
+
+    def __call__(self):
+        return "MBFP08-BRL"
+
+
+MBFP08_BRL = MBFP08_BRL(*MBFP08_BRL._fields)
+"""
+    name: MBFP08-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GALA_BRL(Symbol):
+    """
+        name: GALA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GALA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GALA-BRL"
+
+    def __str__(self):
+        return "GALA-BRL"
+
+    def __call__(self):
+        return "GALA-BRL"
+
+
+GALA_BRL = GALA_BRL(*GALA_BRL._fields)
+"""
+    name: GALA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ICP_BRL(Symbol):
+    """
+        name: ICP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ICP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ICP-BRL"
+
+    def __str__(self):
+        return "ICP-BRL"
+
+    def __call__(self):
+        return "ICP-BRL"
+
+
+ICP_BRL = ICP_BRL(*ICP_BRL._fields)
+"""
+    name: ICP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH01_BRL(Symbol):
+    """
+        name: MBCCSH01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH01-BRL"
+
+    def __str__(self):
+        return "MBCCSH01-BRL"
+
+    def __call__(self):
+        return "MBCCSH01-BRL"
+
+
+MBCCSH01_BRL = MBCCSH01_BRL(*MBCCSH01_BRL._fields)
+"""
+    name: MBCCSH01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH31_BRL(Symbol):
+    """
+        name: MBCCSH31-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH31-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH31-BRL"
+
+    def __str__(self):
+        return "MBCCSH31-BRL"
+
+    def __call__(self):
+        return "MBCCSH31-BRL"
+
+
+MBCCSH31_BRL = MBCCSH31_BRL(*MBCCSH31_BRL._fields)
+"""
+    name: MBCCSH31-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class COTI_BRL(Symbol):
+    """
+        name: COTI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "COTI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "COTI-BRL"
+
+    def __str__(self):
+        return "COTI-BRL"
+
+    def __call__(self):
+        return "COTI-BRL"
+
+
+COTI_BRL = COTI_BRL(*COTI_BRL._fields)
+"""
+    name: COTI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MIR_BRL(Symbol):
+    """
+        name: MIR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MIR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MIR-BRL"
+
+    def __str__(self):
+        return "MIR-BRL"
+
+    def __call__(self):
+        return "MIR-BRL"
+
+
+MIR_BRL = MIR_BRL(*MIR_BRL._fields)
+"""
+    name: MIR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class POLY_BRL(Symbol):
+    """
+        name: POLY-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "POLY-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "POLY-BRL"
+
+    def __str__(self):
+        return "POLY-BRL"
+
+    def __call__(self):
+        return "POLY-BRL"
+
+
+POLY_BRL = POLY_BRL(*POLY_BRL._fields)
+"""
+    name: POLY-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AGIX_BRL(Symbol):
+    """
+        name: AGIX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AGIX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AGIX-BRL"
+
+    def __str__(self):
+        return "AGIX-BRL"
+
+    def __call__(self):
+        return "AGIX-BRL"
+
+
+AGIX_BRL = AGIX_BRL(*AGIX_BRL._fields)
+"""
+    name: AGIX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class KSM_BRL(Symbol):
+    """
+        name: KSM-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "KSM-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "KSM-BRL"
+
+    def __str__(self):
+        return "KSM-BRL"
+
+    def __call__(self):
+        return "KSM-BRL"
+
+
+KSM_BRL = KSM_BRL(*KSM_BRL._fields)
+"""
+    name: KSM-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SCCPFT_BRL(Symbol):
+    """
+        name: SCCPFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SCCPFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SCCPFT-BRL"
+
+    def __str__(self):
+        return "SCCPFT-BRL"
+
+    def __call__(self):
+        return "SCCPFT-BRL"
+
+
+SCCPFT_BRL = SCCPFT_BRL(*SCCPFT_BRL._fields)
+"""
+    name: SCCPFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP11_BRL(Symbol):
+    """
+        name: MBFP11-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP11-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP11-BRL"
+
+    def __str__(self):
+        return "MBFP11-BRL"
+
+    def __call__(self):
+        return "MBFP11-BRL"
+
+
+MBFP11_BRL = MBFP11_BRL(*MBFP11_BRL._fields)
+"""
+    name: MBFP11-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SPELL_BRL(Symbol):
+    """
+        name: SPELL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SPELL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SPELL-BRL"
+
+    def __str__(self):
+        return "SPELL-BRL"
+
+    def __call__(self):
+        return "SPELL-BRL"
+
+
+SPELL_BRL = SPELL_BRL(*SPELL_BRL._fields)
+"""
+    name: SPELL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MPL_BRL(Symbol):
+    """
+        name: MPL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MPL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MPL-BRL"
+
+    def __str__(self):
+        return "MPL-BRL"
+
+    def __call__(self):
+        return "MPL-BRL"
+
+
+MPL_BRL = MPL_BRL(*MPL_BRL._fields)
+"""
+    name: MPL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AUDIO_BRL(Symbol):
+    """
+        name: AUDIO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AUDIO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AUDIO-BRL"
+
+    def __str__(self):
+        return "AUDIO-BRL"
+
+    def __call__(self):
+        return "AUDIO-BRL"
+
+
+AUDIO_BRL = AUDIO_BRL(*AUDIO_BRL._fields)
+"""
+    name: AUDIO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DG_BRL(Symbol):
+    """
+        name: DG-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DG-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DG-BRL"
+
+    def __str__(self):
+        return "DG-BRL"
+
+    def __call__(self):
+        return "DG-BRL"
+
+
+DG_BRL = DG_BRL(*DG_BRL._fields)
+"""
+    name: DG-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class FARM_BRL(Symbol):
+    """
+        name: FARM-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "FARM-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FARM-BRL"
+
+    def __str__(self):
+        return "FARM-BRL"
+
+    def __call__(self):
+        return "FARM-BRL"
+
+
+FARM_BRL = FARM_BRL(*FARM_BRL._fields)
+"""
+    name: FARM-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DOT_BRL(Symbol):
+    """
+        name: DOT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DOT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DOT-BRL"
+
+    def __str__(self):
+        return "DOT-BRL"
+
+    def __call__(self):
+        return "DOT-BRL"
+
+
+DOT_BRL = DOT_BRL(*DOT_BRL._fields)
+"""
+    name: DOT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DIA_BRL(Symbol):
+    """
+        name: DIA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DIA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DIA-BRL"
+
+    def __str__(self):
+        return "DIA-BRL"
+
+    def __call__(self):
+        return "DIA-BRL"
+
+
+DIA_BRL = DIA_BRL(*DIA_BRL._fields)
+"""
+    name: DIA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class REQ_BRL(Symbol):
+    """
+        name: REQ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "REQ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "REQ-BRL"
+
+    def __str__(self):
+        return "REQ-BRL"
+
+    def __call__(self):
+        return "REQ-BRL"
+
+
+REQ_BRL = REQ_BRL(*REQ_BRL._fields)
+"""
+    name: REQ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP14_BRL(Symbol):
+    """
+        name: MBFP14-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP14-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP14-BRL"
+
+    def __str__(self):
+        return "MBFP14-BRL"
+
+    def __call__(self):
+        return "MBFP14-BRL"
+
+
+MBFP14_BRL = MBFP14_BRL(*MBFP14_BRL._fields)
+"""
+    name: MBFP14-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GRT_BRL(Symbol):
+    """
+        name: GRT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GRT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GRT-BRL"
+
+    def __str__(self):
+        return "GRT-BRL"
+
+    def __call__(self):
+        return "GRT-BRL"
+
+
+GRT_BRL = GRT_BRL(*GRT_BRL._fields)
+"""
+    name: GRT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CSCONS01_BRL(Symbol):
+    """
+        name: CSCONS01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CSCONS01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CSCONS01-BRL"
+
+    def __str__(self):
+        return "CSCONS01-BRL"
+
+    def __call__(self):
+        return "CSCONS01-BRL"
+
+
+CSCONS01_BRL = CSCONS01_BRL(*CSCONS01_BRL._fields)
+"""
+    name: CSCONS01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH06_BRL(Symbol):
+    """
+        name: MBCCSH06-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH06-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH06-BRL"
+
+    def __str__(self):
+        return "MBCCSH06-BRL"
+
+    def __call__(self):
+        return "MBCCSH06-BRL"
+
+
+MBCCSH06_BRL = MBCCSH06_BRL(*MBCCSH06_BRL._fields)
+"""
+    name: MBCCSH06-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class WEMIX_BRL(Symbol):
+    """
+        name: WEMIX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "WEMIX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "WEMIX-BRL"
+
+    def __str__(self):
+        return "WEMIX-BRL"
+
+    def __call__(self):
+        return "WEMIX-BRL"
+
+
+WEMIX_BRL = WEMIX_BRL(*WEMIX_BRL._fields)
+"""
+    name: WEMIX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ADA_BRL(Symbol):
+    """
+        name: ADA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ADA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ADA-BRL"
+
+    def __str__(self):
+        return "ADA-BRL"
+
+    def __call__(self):
+        return "ADA-BRL"
+
+
+ADA_BRL = ADA_BRL(*ADA_BRL._fields)
+"""
+    name: ADA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class JUVFT_BRL(Symbol):
+    """
+        name: JUVFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "JUVFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "JUVFT-BRL"
+
+    def __str__(self):
+        return "JUVFT-BRL"
+
+    def __call__(self):
+        return "JUVFT-BRL"
+
+
+JUVFT_BRL = JUVFT_BRL(*JUVFT_BRL._fields)
+"""
+    name: JUVFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH02_BRL(Symbol):
+    """
+        name: MBCCSH02-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH02-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH02-BRL"
+
+    def __str__(self):
+        return "MBCCSH02-BRL"
+
+    def __call__(self):
+        return "MBCCSH02-BRL"
+
+
+MBCCSH02_BRL = MBCCSH02_BRL(*MBCCSH02_BRL._fields)
+"""
+    name: MBCCSH02-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RAD_BRL(Symbol):
+    """
+        name: RAD-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RAD-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RAD-BRL"
+
+    def __str__(self):
+        return "RAD-BRL"
+
+    def __call__(self):
+        return "RAD-BRL"
+
+
+RAD_BRL = RAD_BRL(*RAD_BRL._fields)
+"""
+    name: RAD-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GST_BRL(Symbol):
+    """
+        name: GST-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GST-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GST-BRL"
+
+    def __str__(self):
+        return "GST-BRL"
+
+    def __call__(self):
+        return "GST-BRL"
+
+
+GST_BRL = GST_BRL(*GST_BRL._fields)
+"""
+    name: GST-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK07_BRL(Symbol):
+    """
+        name: MBPRK07-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK07-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK07-BRL"
+
+    def __str__(self):
+        return "MBPRK07-BRL"
+
+    def __call__(self):
+        return "MBPRK07-BRL"
+
+
+MBPRK07_BRL = MBPRK07_BRL(*MBPRK07_BRL._fields)
+"""
+    name: MBPRK07-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MANA_BRL(Symbol):
+    """
+        name: MANA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MANA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MANA-BRL"
+
+    def __str__(self):
+        return "MANA-BRL"
+
+    def __call__(self):
+        return "MANA-BRL"
+
+
+MANA_BRL = MANA_BRL(*MANA_BRL._fields)
+"""
+    name: MANA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MC_BRL(Symbol):
+    """
+        name: MC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MC-BRL"
+
+    def __str__(self):
+        return "MC-BRL"
+
+    def __call__(self):
+        return "MC-BRL"
+
+
+MC_BRL = MC_BRL(*MC_BRL._fields)
+"""
+    name: MC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ARGFT_BRL(Symbol):
+    """
+        name: ARGFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ARGFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ARGFT-BRL"
+
+    def __str__(self):
+        return "ARGFT-BRL"
+
+    def __call__(self):
+        return "ARGFT-BRL"
+
+
+ARGFT_BRL = ARGFT_BRL(*ARGFT_BRL._fields)
+"""
+    name: ARGFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP13_BRL(Symbol):
+    """
+        name: MBFP13-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP13-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP13-BRL"
+
+    def __str__(self):
+        return "MBFP13-BRL"
+
+    def __call__(self):
+        return "MBFP13-BRL"
+
+
+MBFP13_BRL = MBFP13_BRL(*MBFP13_BRL._fields)
+"""
+    name: MBFP13-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CONS01_BRL(Symbol):
+    """
+        name: CONS01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CONS01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CONS01-BRL"
+
+    def __str__(self):
+        return "CONS01-BRL"
+
+    def __call__(self):
+        return "CONS01-BRL"
+
+
+CONS01_BRL = CONS01_BRL(*CONS01_BRL._fields)
+"""
+    name: CONS01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class YBOFT_BRL(Symbol):
+    """
+        name: YBOFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "YBOFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "YBOFT-BRL"
+
+    def __str__(self):
+        return "YBOFT-BRL"
+
+    def __call__(self):
+        return "YBOFT-BRL"
+
+
+YBOFT_BRL = YBOFT_BRL(*YBOFT_BRL._fields)
+"""
+    name: YBOFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BTB05_BRL(Symbol):
+    """
+        name: BTB05-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BTB05-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BTB05-BRL"
+
+    def __str__(self):
+        return "BTB05-BRL"
+
+    def __call__(self):
+        return "BTB05-BRL"
+
+
+BTB05_BRL = BTB05_BRL(*BTB05_BRL._fields)
+"""
+    name: BTB05-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ANKR_BRL(Symbol):
+    """
+        name: ANKR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ANKR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ANKR-BRL"
+
+    def __str__(self):
+        return "ANKR-BRL"
+
+    def __call__(self):
+        return "ANKR-BRL"
+
+
+ANKR_BRL = ANKR_BRL(*ANKR_BRL._fields)
+"""
+    name: ANKR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ATOM_BRL(Symbol):
+    """
+        name: ATOM-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ATOM-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ATOM-BRL"
+
+    def __str__(self):
+        return "ATOM-BRL"
+
+    def __call__(self):
+        return "ATOM-BRL"
+
+
+ATOM_BRL = ATOM_BRL(*ATOM_BRL._fields)
+"""
+    name: ATOM-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AXS_BRL(Symbol):
+    """
+        name: AXS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AXS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AXS-BRL"
+
+    def __str__(self):
+        return "AXS-BRL"
+
+    def __call__(self):
+        return "AXS-BRL"
+
+
+AXS_BRL = AXS_BRL(*AXS_BRL._fields)
+"""
+    name: AXS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GVC01_BRL(Symbol):
+    """
+        name: GVC01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GVC01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GVC01-BRL"
+
+    def __str__(self):
+        return "GVC01-BRL"
+
+    def __call__(self):
+        return "GVC01-BRL"
+
+
+GVC01_BRL = GVC01_BRL(*GVC01_BRL._fields)
+"""
+    name: GVC01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class FLOW_BRL(Symbol):
+    """
+        name: FLOW-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "FLOW-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FLOW-BRL"
+
+    def __str__(self):
+        return "FLOW-BRL"
+
+    def __call__(self):
+        return "FLOW-BRL"
+
+
+FLOW_BRL = FLOW_BRL(*FLOW_BRL._fields)
+"""
+    name: FLOW-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDCS06_BRL(Symbol):
+    """
+        name: RFDCS06-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDCS06-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDCS06-BRL"
+
+    def __str__(self):
+        return "RFDCS06-BRL"
+
+    def __call__(self):
+        return "RFDCS06-BRL"
+
+
+RFDCS06_BRL = RFDCS06_BRL(*RFDCS06_BRL._fields)
+"""
+    name: RFDCS06-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BADGER_BRL(Symbol):
+    """
+        name: BADGER-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BADGER-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BADGER-BRL"
+
+    def __str__(self):
+        return "BADGER-BRL"
+
+    def __call__(self):
+        return "BADGER-BRL"
+
+
+BADGER_BRL = BADGER_BRL(*BADGER_BRL._fields)
+"""
+    name: BADGER-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GYEN_BRL(Symbol):
+    """
+        name: GYEN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GYEN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GYEN-BRL"
+
+    def __str__(self):
+        return "GYEN-BRL"
+
+    def __call__(self):
+        return "GYEN-BRL"
+
+
+GYEN_BRL = GYEN_BRL(*GYEN_BRL._fields)
+"""
+    name: GYEN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK05_BRL(Symbol):
+    """
+        name: MBPRK05-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK05-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK05-BRL"
+
+    def __str__(self):
+        return "MBPRK05-BRL"
+
+    def __call__(self):
+        return "MBPRK05-BRL"
+
+
+MBPRK05_BRL = MBPRK05_BRL(*MBPRK05_BRL._fields)
+"""
+    name: MBPRK05-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ILV_BRL(Symbol):
+    """
+        name: ILV-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ILV-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ILV-BRL"
+
+    def __str__(self):
+        return "ILV-BRL"
+
+    def __call__(self):
+        return "ILV-BRL"
+
+
+ILV_BRL = ILV_BRL(*ILV_BRL._fields)
+"""
+    name: ILV-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CEEK_BRL(Symbol):
+    """
+        name: CEEK-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CEEK-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CEEK-BRL"
+
+    def __str__(self):
+        return "CEEK-BRL"
+
+    def __call__(self):
+        return "CEEK-BRL"
+
+
+CEEK_BRL = CEEK_BRL(*CEEK_BRL._fields)
+"""
+    name: CEEK-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SNX_BRL(Symbol):
+    """
+        name: SNX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SNX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SNX-BRL"
+
+    def __str__(self):
+        return "SNX-BRL"
+
+    def __call__(self):
+        return "SNX-BRL"
+
+
+SNX_BRL = SNX_BRL(*SNX_BRL._fields)
+"""
+    name: SNX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH12_BRL(Symbol):
+    """
+        name: MBCCSH12-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH12-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH12-BRL"
+
+    def __str__(self):
+        return "MBCCSH12-BRL"
+
+    def __call__(self):
+        return "MBCCSH12-BRL"
+
+
+MBCCSH12_BRL = MBCCSH12_BRL(*MBCCSH12_BRL._fields)
+"""
+    name: MBCCSH12-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ABFY_BRL(Symbol):
+    """
+        name: ABFY-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ABFY-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ABFY-BRL"
+
+    def __str__(self):
+        return "ABFY-BRL"
+
+    def __call__(self):
+        return "ABFY-BRL"
+
+
+ABFY_BRL = ABFY_BRL(*ABFY_BRL._fields)
+"""
+    name: ABFY-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ACMFT_BRL(Symbol):
+    """
+        name: ACMFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ACMFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ACMFT-BRL"
+
+    def __str__(self):
+        return "ACMFT-BRL"
+
+    def __call__(self):
+        return "ACMFT-BRL"
+
+
+ACMFT_BRL = ACMFT_BRL(*ACMFT_BRL._fields)
+"""
+    name: ACMFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DAI_BRL(Symbol):
+    """
+        name: DAI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DAI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DAI-BRL"
+
+    def __str__(self):
+        return "DAI-BRL"
+
+    def __call__(self):
+        return "DAI-BRL"
+
+
+DAI_BRL = DAI_BRL(*DAI_BRL._fields)
+"""
+    name: DAI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class YGG_BRL(Symbol):
+    """
+        name: YGG-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "YGG-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "YGG-BRL"
+
+    def __str__(self):
+        return "YGG-BRL"
+
+    def __call__(self):
+        return "YGG-BRL"
+
+
+YGG_BRL = YGG_BRL(*YGG_BRL._fields)
+"""
+    name: YGG-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BICO_BRL(Symbol):
+    """
+        name: BICO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BICO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BICO-BRL"
+
+    def __str__(self):
+        return "BICO-BRL"
+
+    def __call__(self):
+        return "BICO-BRL"
+
+
+BICO_BRL = BICO_BRL(*BICO_BRL._fields)
+"""
+    name: BICO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AVAX_BRL(Symbol):
+    """
+        name: AVAX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AVAX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AVAX-BRL"
+
+    def __str__(self):
+        return "AVAX-BRL"
+
+    def __call__(self):
+        return "AVAX-BRL"
+
+
+AVAX_BRL = AVAX_BRL(*AVAX_BRL._fields)
+"""
+    name: AVAX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class TRB_BRL(Symbol):
+    """
+        name: TRB-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "TRB-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "TRB-BRL"
+
+    def __str__(self):
+        return "TRB-BRL"
+
+    def __call__(self):
+        return "TRB-BRL"
+
+
+TRB_BRL = TRB_BRL(*TRB_BRL._fields)
+"""
+    name: TRB-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH32_BRL(Symbol):
+    """
+        name: MBCCSH32-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH32-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH32-BRL"
+
+    def __str__(self):
+        return "MBCCSH32-BRL"
+
+    def __call__(self):
+        return "MBCCSH32-BRL"
+
+
+MBCCSH32_BRL = MBCCSH32_BRL(*MBCCSH32_BRL._fields)
+"""
+    name: MBCCSH32-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SUSHI_BRL(Symbol):
+    """
+        name: SUSHI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SUSHI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUSHI-BRL"
+
+    def __str__(self):
+        return "SUSHI-BRL"
+
+    def __call__(self):
+        return "SUSHI-BRL"
+
+
+SUSHI_BRL = SUSHI_BRL(*SUSHI_BRL._fields)
+"""
+    name: SUSHI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PFLFT_BRL(Symbol):
+    """
+        name: PFLFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PFLFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PFLFT-BRL"
+
+    def __str__(self):
+        return "PFLFT-BRL"
+
+    def __call__(self):
+        return "PFLFT-BRL"
+
+
+PFLFT_BRL = PFLFT_BRL(*PFLFT_BRL._fields)
+"""
+    name: PFLFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class FET_BRL(Symbol):
+    """
+        name: FET-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "FET-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FET-BRL"
+
+    def __str__(self):
+        return "FET-BRL"
+
+    def __call__(self):
+        return "FET-BRL"
+
+
+FET_BRL = FET_BRL(*FET_BRL._fields)
+"""
+    name: FET-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class METIS_BRL(Symbol):
+    """
+        name: METIS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "METIS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "METIS-BRL"
+
+    def __str__(self):
+        return "METIS-BRL"
+
+    def __call__(self):
+        return "METIS-BRL"
+
+
+METIS_BRL = METIS_BRL(*METIS_BRL._fields)
+"""
+    name: METIS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class STORJ_BRL(Symbol):
+    """
+        name: STORJ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "STORJ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "STORJ-BRL"
+
+    def __str__(self):
+        return "STORJ-BRL"
+
+    def __call__(self):
+        return "STORJ-BRL"
+
+
+STORJ_BRL = STORJ_BRL(*STORJ_BRL._fields)
+"""
+    name: STORJ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDIM01_BRL(Symbol):
+    """
+        name: RFDIM01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDIM01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDIM01-BRL"
+
+    def __str__(self):
+        return "RFDIM01-BRL"
+
+    def __call__(self):
+        return "RFDIM01-BRL"
+
+
+RFDIM01_BRL = RFDIM01_BRL(*RFDIM01_BRL._fields)
+"""
+    name: RFDIM01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MCO2_BRL(Symbol):
+    """
+        name: MCO2-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MCO2-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MCO2-BRL"
+
+    def __str__(self):
+        return "MCO2-BRL"
+
+    def __call__(self):
+        return "MCO2-BRL"
+
+
+MCO2_BRL = MCO2_BRL(*MCO2_BRL._fields)
+"""
+    name: MCO2-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GODS_BRL(Symbol):
+    """
+        name: GODS-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GODS-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GODS-BRL"
+
+    def __str__(self):
+        return "GODS-BRL"
+
+    def __call__(self):
+        return "GODS-BRL"
+
+
+GODS_BRL = GODS_BRL(*GODS_BRL._fields)
+"""
+    name: GODS-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class VERDAOFT_BRL(Symbol):
+    """
+        name: VERDAOFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "VERDAOFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "VERDAOFT-BRL"
+
+    def __str__(self):
+        return "VERDAOFT-BRL"
+
+    def __call__(self):
+        return "VERDAOFT-BRL"
+
+
+VERDAOFT_BRL = VERDAOFT_BRL(*VERDAOFT_BRL._fields)
+"""
+    name: VERDAOFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH26_BRL(Symbol):
+    """
+        name: MBCCSH26-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH26-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH26-BRL"
+
+    def __str__(self):
+        return "MBCCSH26-BRL"
+
+    def __call__(self):
+        return "MBCCSH26-BRL"
+
+
+MBCCSH26_BRL = MBCCSH26_BRL(*MBCCSH26_BRL._fields)
+"""
+    name: MBCCSH26-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class XTZ_BRL(Symbol):
+    """
+        name: XTZ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "XTZ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XTZ-BRL"
+
+    def __str__(self):
+        return "XTZ-BRL"
+
+    def __call__(self):
+        return "XTZ-BRL"
+
+
+XTZ_BRL = XTZ_BRL(*XTZ_BRL._fields)
+"""
+    name: XTZ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class IMX_BRL(Symbol):
+    """
+        name: IMX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "IMX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "IMX-BRL"
+
+    def __str__(self):
+        return "IMX-BRL"
+
+    def __call__(self):
+        return "IMX-BRL"
+
+
+IMX_BRL = IMX_BRL(*IMX_BRL._fields)
+"""
+    name: IMX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class EUROC_BRL(Symbol):
+    """
+        name: EUROC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "EUROC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "EUROC-BRL"
+
+    def __str__(self):
+        return "EUROC-BRL"
+
+    def __call__(self):
+        return "EUROC-BRL"
+
+
+EUROC_BRL = EUROC_BRL(*EUROC_BRL._fields)
+"""
+    name: EUROC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AIOZ_BRL(Symbol):
+    """
+        name: AIOZ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AIOZ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AIOZ-BRL"
+
+    def __str__(self):
+        return "AIOZ-BRL"
+
+    def __call__(self):
+        return "AIOZ-BRL"
+
+
+AIOZ_BRL = AIOZ_BRL(*AIOZ_BRL._fields)
+"""
+    name: AIOZ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CSCONS04_BRL(Symbol):
+    """
+        name: CSCONS04-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CSCONS04-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CSCONS04-BRL"
+
+    def __str__(self):
+        return "CSCONS04-BRL"
+
+    def __call__(self):
+        return "CSCONS04-BRL"
+
+
+CSCONS04_BRL = CSCONS04_BRL(*CSCONS04_BRL._fields)
+"""
+    name: CSCONS04-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MENGOFT_BRL(Symbol):
+    """
+        name: MENGOFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MENGOFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MENGOFT-BRL"
+
+    def __str__(self):
+        return "MENGOFT-BRL"
+
+    def __call__(self):
+        return "MENGOFT-BRL"
+
+
+MENGOFT_BRL = MENGOFT_BRL(*MENGOFT_BRL._fields)
+"""
+    name: MENGOFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OMG_BRL(Symbol):
+    """
+        name: OMG-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OMG-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OMG-BRL"
+
+    def __str__(self):
+        return "OMG-BRL"
+
+    def __call__(self):
+        return "OMG-BRL"
+
+
+OMG_BRL = OMG_BRL(*OMG_BRL._fields)
+"""
+    name: OMG-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RNDR_BRL(Symbol):
+    """
+        name: RNDR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RNDR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RNDR-BRL"
+
+    def __str__(self):
+        return "RNDR-BRL"
+
+    def __call__(self):
+        return "RNDR-BRL"
+
+
+RNDR_BRL = RNDR_BRL(*RNDR_BRL._fields)
+"""
+    name: RNDR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP19_BRL(Symbol):
+    """
+        name: RFDFP19-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP19-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP19-BRL"
+
+    def __str__(self):
+        return "RFDFP19-BRL"
+
+    def __call__(self):
+        return "RFDFP19-BRL"
+
+
+RFDFP19_BRL = RFDFP19_BRL(*RFDFP19_BRL._fields)
+"""
+    name: RFDFP19-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH18_BRL(Symbol):
+    """
+        name: MBCCSH18-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH18-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH18-BRL"
+
+    def __str__(self):
+        return "MBCCSH18-BRL"
+
+    def __call__(self):
+        return "MBCCSH18-BRL"
+
+
+MBCCSH18_BRL = MBCCSH18_BRL(*MBCCSH18_BRL._fields)
+"""
+    name: MBCCSH18-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LPT_BRL(Symbol):
+    """
+        name: LPT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LPT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LPT-BRL"
+
+    def __str__(self):
+        return "LPT-BRL"
+
+    def __call__(self):
+        return "LPT-BRL"
+
+
+LPT_BRL = LPT_BRL(*LPT_BRL._fields)
+"""
+    name: LPT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CITYFT_BRL(Symbol):
+    """
+        name: CITYFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CITYFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CITYFT-BRL"
+
+    def __str__(self):
+        return "CITYFT-BRL"
+
+    def __call__(self):
+        return "CITYFT-BRL"
+
+
+CITYFT_BRL = CITYFT_BRL(*CITYFT_BRL._fields)
+"""
+    name: CITYFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class KP3R_BRL(Symbol):
+    """
+        name: KP3R-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "KP3R-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "KP3R-BRL"
+
+    def __str__(self):
+        return "KP3R-BRL"
+
+    def __call__(self):
+        return "KP3R-BRL"
+
+
+KP3R_BRL = KP3R_BRL(*KP3R_BRL._fields)
+"""
+    name: KP3R-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CSCONS03_BRL(Symbol):
+    """
+        name: CSCONS03-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CSCONS03-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CSCONS03-BRL"
+
+    def __str__(self):
+        return "CSCONS03-BRL"
+
+    def __call__(self):
+        return "CSCONS03-BRL"
+
+
+CSCONS03_BRL = CSCONS03_BRL(*CSCONS03_BRL._fields)
+"""
+    name: CSCONS03-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBSANTOS01_BRL(Symbol):
+    """
+        name: MBSANTOS01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBSANTOS01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBSANTOS01-BRL"
+
+    def __str__(self):
+        return "MBSANTOS01-BRL"
+
+    def __call__(self):
+        return "MBSANTOS01-BRL"
+
+
+MBSANTOS01_BRL = MBSANTOS01_BRL(*MBSANTOS01_BRL._fields)
+"""
+    name: MBSANTOS01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH34_BRL(Symbol):
+    """
+        name: MBCCSH34-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH34-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH34-BRL"
+
+    def __str__(self):
+        return "MBCCSH34-BRL"
+
+    def __call__(self):
+        return "MBCCSH34-BRL"
+
+
+MBCCSH34_BRL = MBCCSH34_BRL(*MBCCSH34_BRL._fields)
+"""
+    name: MBCCSH34-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RARE_BRL(Symbol):
+    """
+        name: RARE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RARE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RARE-BRL"
+
+    def __str__(self):
+        return "RARE-BRL"
+
+    def __call__(self):
+        return "RARE-BRL"
+
+
+RARE_BRL = RARE_BRL(*RARE_BRL._fields)
+"""
+    name: RARE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class JASMY_BRL(Symbol):
+    """
+        name: JASMY-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "JASMY-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "JASMY-BRL"
+
+    def __str__(self):
+        return "JASMY-BRL"
+
+    def __call__(self):
+        return "JASMY-BRL"
+
+
+JASMY_BRL = JASMY_BRL(*JASMY_BRL._fields)
+"""
+    name: JASMY-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OGN_BRL(Symbol):
+    """
+        name: OGN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OGN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OGN-BRL"
+
+    def __str__(self):
+        return "OGN-BRL"
+
+    def __call__(self):
+        return "OGN-BRL"
+
+
+OGN_BRL = OGN_BRL(*OGN_BRL._fields)
+"""
+    name: OGN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP09_BRL(Symbol):
+    """
+        name: MBFP09-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP09-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP09-BRL"
+
+    def __str__(self):
+        return "MBFP09-BRL"
+
+    def __call__(self):
+        return "MBFP09-BRL"
+
+
+MBFP09_BRL = MBFP09_BRL(*MBFP09_BRL._fields)
+"""
+    name: MBFP09-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BARFT_BRL(Symbol):
+    """
+        name: BARFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BARFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BARFT-BRL"
+
+    def __str__(self):
+        return "BARFT-BRL"
+
+    def __call__(self):
+        return "BARFT-BRL"
+
+
+BARFT_BRL = BARFT_BRL(*BARFT_BRL._fields)
+"""
+    name: BARFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH04_BRL(Symbol):
+    """
+        name: MBCCSH04-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH04-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH04-BRL"
+
+    def __str__(self):
+        return "MBCCSH04-BRL"
+
+    def __call__(self):
+        return "MBCCSH04-BRL"
+
+
+MBCCSH04_BRL = MBCCSH04_BRL(*MBCCSH04_BRL._fields)
+"""
+    name: MBCCSH04-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OGFT_BRL(Symbol):
+    """
+        name: OGFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OGFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OGFT-BRL"
+
+    def __str__(self):
+        return "OGFT-BRL"
+
+    def __call__(self):
+        return "OGFT-BRL"
+
+
+OGFT_BRL = OGFT_BRL(*OGFT_BRL._fields)
+"""
+    name: OGFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BTB10_BRL(Symbol):
+    """
+        name: BTB10-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BTB10-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BTB10-BRL"
+
+    def __str__(self):
+        return "BTB10-BRL"
+
+    def __call__(self):
+        return "BTB10-BRL"
+
+
+BTB10_BRL = BTB10_BRL(*BTB10_BRL._fields)
+"""
+    name: BTB10-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RACA_BRL(Symbol):
+    """
+        name: RACA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RACA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RACA-BRL"
+
+    def __str__(self):
+        return "RACA-BRL"
+
+    def __call__(self):
+        return "RACA-BRL"
+
+
+RACA_BRL = RACA_BRL(*RACA_BRL._fields)
+"""
+    name: RACA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBVASCO01_BRL(Symbol):
+    """
+        name: MBVASCO01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBVASCO01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBVASCO01-BRL"
+
+    def __str__(self):
+        return "MBVASCO01-BRL"
+
+    def __call__(self):
+        return "MBVASCO01-BRL"
+
+
+MBVASCO01_BRL = MBVASCO01_BRL(*MBVASCO01_BRL._fields)
+"""
+    name: MBVASCO01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP10_BRL(Symbol):
+    """
+        name: MBFP10-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP10-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP10-BRL"
+
+    def __str__(self):
+        return "MBFP10-BRL"
+
+    def __call__(self):
+        return "MBFP10-BRL"
+
+
+MBFP10_BRL = MBFP10_BRL(*MBFP10_BRL._fields)
+"""
+    name: MBFP10-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class FIL_BRL(Symbol):
+    """
+        name: FIL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "FIL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FIL-BRL"
+
+    def __str__(self):
+        return "FIL-BRL"
+
+    def __call__(self):
+        return "FIL-BRL"
+
+
+FIL_BRL = FIL_BRL(*FIL_BRL._fields)
+"""
+    name: FIL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LINK_BRL(Symbol):
+    """
+        name: LINK-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LINK-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LINK-BRL"
+
+    def __str__(self):
+        return "LINK-BRL"
+
+    def __call__(self):
+        return "LINK-BRL"
+
+
+LINK_BRL = LINK_BRL(*LINK_BRL._fields)
+"""
+    name: LINK-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH33_BRL(Symbol):
+    """
+        name: MBCCSH33-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH33-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH33-BRL"
+
+    def __str__(self):
+        return "MBCCSH33-BRL"
+
+    def __call__(self):
+        return "MBCCSH33-BRL"
+
+
+MBCCSH33_BRL = MBCCSH33_BRL(*MBCCSH33_BRL._fields)
+"""
+    name: MBCCSH33-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCONS02_BRL(Symbol):
+    """
+        name: MBCONS02-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCONS02-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCONS02-BRL"
+
+    def __str__(self):
+        return "MBCONS02-BRL"
+
+    def __call__(self):
+        return "MBCONS02-BRL"
+
+
+MBCONS02_BRL = MBCONS02_BRL(*MBCONS02_BRL._fields)
+"""
+    name: MBCONS02-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ACH_BRL(Symbol):
+    """
+        name: ACH-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ACH-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ACH-BRL"
+
+    def __str__(self):
+        return "ACH-BRL"
+
+    def __call__(self):
+        return "ACH-BRL"
+
+
+ACH_BRL = ACH_BRL(*ACH_BRL._fields)
+"""
+    name: ACH-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DPI_BRL(Symbol):
+    """
+        name: DPI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DPI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DPI-BRL"
+
+    def __str__(self):
+        return "DPI-BRL"
+
+    def __call__(self):
+        return "DPI-BRL"
+
+
+DPI_BRL = DPI_BRL(*DPI_BRL._fields)
+"""
+    name: DPI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SDAO_BRL(Symbol):
+    """
+        name: SDAO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SDAO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SDAO-BRL"
+
+    def __str__(self):
+        return "SDAO-BRL"
+
+    def __call__(self):
+        return "SDAO-BRL"
+
+
+SDAO_BRL = SDAO_BRL(*SDAO_BRL._fields)
+"""
+    name: SDAO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class XRP_BRL(Symbol):
+    """
+        name: XRP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "XRP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XRP-BRL"
+
+    def __str__(self):
+        return "XRP-BRL"
+
+    def __call__(self):
+        return "XRP-BRL"
+
+
+XRP_BRL = XRP_BRL(*XRP_BRL._fields)
+"""
+    name: XRP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CSCONS05_BRL(Symbol):
+    """
+        name: CSCONS05-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CSCONS05-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CSCONS05-BRL"
+
+    def __str__(self):
+        return "CSCONS05-BRL"
+
+    def __call__(self):
+        return "CSCONS05-BRL"
+
+
+CSCONS05_BRL = CSCONS05_BRL(*CSCONS05_BRL._fields)
+"""
+    name: CSCONS05-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class REN_BRL(Symbol):
+    """
+        name: REN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "REN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "REN-BRL"
+
+    def __str__(self):
+        return "REN-BRL"
+
+    def __call__(self):
+        return "REN-BRL"
+
+
+REN_BRL = REN_BRL(*REN_BRL._fields)
+"""
+    name: REN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH10_BRL(Symbol):
+    """
+        name: MBCCSH10-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH10-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH10-BRL"
+
+    def __str__(self):
+        return "MBCCSH10-BRL"
+
+    def __call__(self):
+        return "MBCCSH10-BRL"
+
+
+MBCCSH10_BRL = MBCCSH10_BRL(*MBCCSH10_BRL._fields)
+"""
+    name: MBCCSH10-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class HIGH_BRL(Symbol):
+    """
+        name: HIGH-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "HIGH-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "HIGH-BRL"
+
+    def __str__(self):
+        return "HIGH-BRL"
+
+    def __call__(self):
+        return "HIGH-BRL"
+
+
+HIGH_BRL = HIGH_BRL(*HIGH_BRL._fields)
+"""
+    name: HIGH-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class LQTY_BRL(Symbol):
+    """
+        name: LQTY-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "LQTY-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LQTY-BRL"
+
+    def __str__(self):
+        return "LQTY-BRL"
+
+    def __call__(self):
+        return "LQTY-BRL"
+
+
+LQTY_BRL = LQTY_BRL(*LQTY_BRL._fields)
+"""
+    name: LQTY-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SAND_BRL(Symbol):
+    """
+        name: SAND-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SAND-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SAND-BRL"
+
+    def __str__(self):
+        return "SAND-BRL"
+
+    def __call__(self):
+        return "SAND-BRL"
+
+
+SAND_BRL = SAND_BRL(*SAND_BRL._fields)
+"""
+    name: SAND-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBTKN01_BRL(Symbol):
+    """
+        name: MBTKN01-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBTKN01-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBTKN01-BRL"
+
+    def __str__(self):
+        return "MBTKN01-BRL"
+
+    def __call__(self):
+        return "MBTKN01-BRL"
+
+
+MBTKN01_BRL = MBTKN01_BRL(*MBTKN01_BRL._fields)
+"""
+    name: MBTKN01-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBPRK03_BRL(Symbol):
+    """
+        name: MBPRK03-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBPRK03-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBPRK03-BRL"
+
+    def __str__(self):
+        return "MBPRK03-BRL"
+
+    def __call__(self):
+        return "MBPRK03-BRL"
+
+
+MBPRK03_BRL = MBPRK03_BRL(*MBPRK03_BRL._fields)
+"""
+    name: MBPRK03-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DOGE_BRL(Symbol):
+    """
+        name: DOGE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DOGE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DOGE-BRL"
+
+    def __str__(self):
+        return "DOGE-BRL"
+
+    def __call__(self):
+        return "DOGE-BRL"
+
+
+DOGE_BRL = DOGE_BRL(*DOGE_BRL._fields)
+"""
+    name: DOGE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class STG_BRL(Symbol):
+    """
+        name: STG-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "STG-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "STG-BRL"
+
+    def __str__(self):
+        return "STG-BRL"
+
+    def __call__(self):
+        return "STG-BRL"
+
+
+STG_BRL = STG_BRL(*STG_BRL._fields)
+"""
+    name: STG-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class GNO_BRL(Symbol):
+    """
+        name: GNO-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "GNO-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "GNO-BRL"
+
+    def __str__(self):
+        return "GNO-BRL"
+
+    def __call__(self):
+        return "GNO-BRL"
+
+
+GNO_BRL = GNO_BRL(*GNO_BRL._fields)
+"""
+    name: GNO-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SYN_BRL(Symbol):
+    """
+        name: SYN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SYN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SYN-BRL"
+
+    def __str__(self):
+        return "SYN-BRL"
+
+    def __call__(self):
+        return "SYN-BRL"
+
+
+SYN_BRL = SYN_BRL(*SYN_BRL._fields)
+"""
+    name: SYN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OPUL_BRL(Symbol):
+    """
+        name: OPUL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OPUL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OPUL-BRL"
+
+    def __str__(self):
+        return "OPUL-BRL"
+
+    def __call__(self):
+        return "OPUL-BRL"
+
+
+OPUL_BRL = OPUL_BRL(*OPUL_BRL._fields)
+"""
+    name: OPUL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class PSGFT_BRL(Symbol):
+    """
+        name: PSGFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "PSGFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PSGFT-BRL"
+
+    def __str__(self):
+        return "PSGFT-BRL"
+
+    def __call__(self):
+        return "PSGFT-BRL"
+
+
+PSGFT_BRL = PSGFT_BRL(*PSGFT_BRL._fields)
+"""
+    name: PSGFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MVI_BRL(Symbol):
+    """
+        name: MVI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MVI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MVI-BRL"
+
+    def __str__(self):
+        return "MVI-BRL"
+
+    def __call__(self):
+        return "MVI-BRL"
+
+
+MVI_BRL = MVI_BRL(*MVI_BRL._fields)
+"""
+    name: MVI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class STVFT_BRL(Symbol):
+    """
+        name: STVFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "STVFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "STVFT-BRL"
+
+    def __str__(self):
+        return "STVFT-BRL"
+
+    def __call__(self):
+        return "STVFT-BRL"
+
+
+STVFT_BRL = STVFT_BRL(*STVFT_BRL._fields)
+"""
+    name: STVFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH09_BRL(Symbol):
+    """
+        name: MBCCSH09-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH09-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH09-BRL"
+
+    def __str__(self):
+        return "MBCCSH09-BRL"
+
+    def __call__(self):
+        return "MBCCSH09-BRL"
+
+
+MBCCSH09_BRL = MBCCSH09_BRL(*MBCCSH09_BRL._fields)
+"""
+    name: MBCCSH09-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH23_BRL(Symbol):
+    """
+        name: MBCCSH23-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH23-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH23-BRL"
+
+    def __str__(self):
+        return "MBCCSH23-BRL"
+
+    def __call__(self):
+        return "MBCCSH23-BRL"
+
+
+MBCCSH23_BRL = MBCCSH23_BRL(*MBCCSH23_BRL._fields)
+"""
+    name: MBCCSH23-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class APE_BRL(Symbol):
+    """
+        name: APE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "APE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "APE-BRL"
+
+    def __str__(self):
+        return "APE-BRL"
+
+    def __call__(self):
+        return "APE-BRL"
+
+
+APE_BRL = APE_BRL(*APE_BRL._fields)
+"""
+    name: APE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class UMA_BRL(Symbol):
+    """
+        name: UMA-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "UMA-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "UMA-BRL"
+
+    def __str__(self):
+        return "UMA-BRL"
+
+    def __call__(self):
+        return "UMA-BRL"
+
+
+UMA_BRL = UMA_BRL(*UMA_BRL._fields)
+"""
+    name: UMA-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH20_BRL(Symbol):
+    """
+        name: MBCCSH20-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH20-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH20-BRL"
+
+    def __str__(self):
+        return "MBCCSH20-BRL"
+
+    def __call__(self):
+        return "MBCCSH20-BRL"
+
+
+MBCCSH20_BRL = MBCCSH20_BRL(*MBCCSH20_BRL._fields)
+"""
+    name: MBCCSH20-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class NAVIFT_BRL(Symbol):
+    """
+        name: NAVIFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "NAVIFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "NAVIFT-BRL"
+
+    def __str__(self):
+        return "NAVIFT-BRL"
+
+    def __call__(self):
+        return "NAVIFT-BRL"
+
+
+NAVIFT_BRL = NAVIFT_BRL(*NAVIFT_BRL._fields)
+"""
+    name: NAVIFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CVC_BRL(Symbol):
+    """
+        name: CVC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CVC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CVC-BRL"
+
+    def __str__(self):
+        return "CVC-BRL"
+
+    def __call__(self):
+        return "CVC-BRL"
+
+
+CVC_BRL = CVC_BRL(*CVC_BRL._fields)
+"""
+    name: CVC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class KNC_BRL(Symbol):
+    """
+        name: KNC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "KNC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "KNC-BRL"
+
+    def __str__(self):
+        return "KNC-BRL"
+
+    def __call__(self):
+        return "KNC-BRL"
+
+
+KNC_BRL = KNC_BRL(*KNC_BRL._fields)
+"""
+    name: KNC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH14_BRL(Symbol):
+    """
+        name: MBCCSH14-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH14-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH14-BRL"
+
+    def __str__(self):
+        return "MBCCSH14-BRL"
+
+    def __call__(self):
+        return "MBCCSH14-BRL"
+
+
+MBCCSH14_BRL = MBCCSH14_BRL(*MBCCSH14_BRL._fields)
+"""
+    name: MBCCSH14-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class ALICE_BRL(Symbol):
+    """
+        name: ALICE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "ALICE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ALICE-BRL"
+
+    def __str__(self):
+        return "ALICE-BRL"
+
+    def __call__(self):
+        return "ALICE-BRL"
+
+
+ALICE_BRL = ALICE_BRL(*ALICE_BRL._fields)
+"""
+    name: ALICE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH19_BRL(Symbol):
+    """
+        name: MBCCSH19-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH19-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH19-BRL"
+
+    def __str__(self):
+        return "MBCCSH19-BRL"
+
+    def __call__(self):
+        return "MBCCSH19-BRL"
+
+
+MBCCSH19_BRL = MBCCSH19_BRL(*MBCCSH19_BRL._fields)
+"""
+    name: MBCCSH19-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH29_BRL(Symbol):
+    """
+        name: MBCCSH29-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH29-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH29-BRL"
+
+    def __str__(self):
+        return "MBCCSH29-BRL"
+
+    def __call__(self):
+        return "MBCCSH29-BRL"
+
+
+MBCCSH29_BRL = MBCCSH29_BRL(*MBCCSH29_BRL._fields)
+"""
+    name: MBCCSH29-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class BAT_BRL(Symbol):
+    """
+        name: BAT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "BAT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "BAT-BRL"
+
+    def __str__(self):
+        return "BAT-BRL"
+
+    def __call__(self):
+        return "BAT-BRL"
+
+
+BAT_BRL = BAT_BRL(*BAT_BRL._fields)
+"""
+    name: BAT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OCEAN_BRL(Symbol):
+    """
+        name: OCEAN-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OCEAN-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OCEAN-BRL"
+
+    def __str__(self):
+        return "OCEAN-BRL"
+
+    def __call__(self):
+        return "OCEAN-BRL"
+
+
+OCEAN_BRL = OCEAN_BRL(*OCEAN_BRL._fields)
+"""
+    name: OCEAN-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SOL_BRL(Symbol):
+    """
+        name: SOL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SOL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SOL-BRL"
+
+    def __str__(self):
+        return "SOL-BRL"
+
+    def __call__(self):
+        return "SOL-BRL"
+
+
+SOL_BRL = SOL_BRL(*SOL_BRL._fields)
+"""
+    name: SOL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class DYDX_BRL(Symbol):
+    """
+        name: DYDX-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "DYDX-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "DYDX-BRL"
+
+    def __str__(self):
+        return "DYDX-BRL"
+
+    def __call__(self):
+        return "DYDX-BRL"
+
+
+DYDX_BRL = DYDX_BRL(*DYDX_BRL._fields)
+"""
+    name: DYDX-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class USDT_BRL(Symbol):
+    """
+        name: USDT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "USDT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDT-BRL"
+
+    def __str__(self):
+        return "USDT-BRL"
+
+    def __call__(self):
+        return "USDT-BRL"
+
+
+USDT_BRL = USDT_BRL(*USDT_BRL._fields)
+"""
+    name: USDT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class HOT_BRL(Symbol):
+    """
+        name: HOT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "HOT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "HOT-BRL"
+
+    def __str__(self):
+        return "HOT-BRL"
+
+    def __call__(self):
+        return "HOT-BRL"
+
+
+HOT_BRL = HOT_BRL(*HOT_BRL._fields)
+"""
+    name: HOT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class XLM_BRL(Symbol):
+    """
+        name: XLM-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "XLM-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XLM-BRL"
+
+    def __str__(self):
+        return "XLM-BRL"
+
+    def __call__(self):
+        return "XLM-BRL"
+
+
+XLM_BRL = XLM_BRL(*XLM_BRL._fields)
+"""
+    name: XLM-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class KEEP_BRL(Symbol):
+    """
+        name: KEEP-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "KEEP-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "KEEP-BRL"
+
+    def __str__(self):
+        return "KEEP-BRL"
+
+    def __call__(self):
+        return "KEEP-BRL"
+
+
+KEEP_BRL = KEEP_BRL(*KEEP_BRL._fields)
+"""
+    name: KEEP-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class UFCFT_BRL(Symbol):
+    """
+        name: UFCFT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "UFCFT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "UFCFT-BRL"
+
+    def __str__(self):
+        return "UFCFT-BRL"
+
+    def __call__(self):
+        return "UFCFT-BRL"
+
+
+UFCFT_BRL = UFCFT_BRL(*UFCFT_BRL._fields)
+"""
+    name: UFCFT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class OXT_BRL(Symbol):
+    """
+        name: OXT-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "OXT-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "OXT-BRL"
+
+    def __str__(self):
+        return "OXT-BRL"
+
+    def __call__(self):
+        return "OXT-BRL"
+
+
+OXT_BRL = OXT_BRL(*OXT_BRL._fields)
+"""
+    name: OXT-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class SUI_BRL(Symbol):
+    """
+        name: SUI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "SUI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUI-BRL"
+
+    def __str__(self):
+        return "SUI-BRL"
+
+    def __call__(self):
+        return "SUI-BRL"
+
+
+SUI_BRL = SUI_BRL(*SUI_BRL._fields)
+"""
+    name: SUI-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MKR_BRL(Symbol):
+    """
+        name: MKR-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MKR-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MKR-BRL"
+
+    def __str__(self):
+        return "MKR-BRL"
+
+    def __call__(self):
+        return "MKR-BRL"
+
+
+MKR_BRL = MKR_BRL(*MKR_BRL._fields)
+"""
+    name: MKR-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class AAVE_BRL(Symbol):
+    """
+        name: AAVE-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "AAVE-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "AAVE-BRL"
+
+    def __str__(self):
+        return "AAVE-BRL"
+
+    def __call__(self):
+        return "AAVE-BRL"
+
+
+AAVE_BRL = AAVE_BRL(*AAVE_BRL._fields)
+"""
+    name: AAVE-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class NODL_BRL(Symbol):
+    """
+        name: NODL-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "NODL-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "NODL-BRL"
+
+    def __str__(self):
+        return "NODL-BRL"
+
+    def __call__(self):
+        return "NODL-BRL"
+
+
+NODL_BRL = NODL_BRL(*NODL_BRL._fields)
+"""
+    name: NODL-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class RFDFP16_BRL(Symbol):
+    """
+        name: RFDFP16-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "RFDFP16-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "RFDFP16-BRL"
+
+    def __str__(self):
+        return "RFDFP16-BRL"
+
+    def __call__(self):
+        return "RFDFP16-BRL"
+
+
+RFDFP16_BRL = RFDFP16_BRL(*RFDFP16_BRL._fields)
+"""
+    name: RFDFP16-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class CHZ_BRL(Symbol):
+    """
+        name: CHZ-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "CHZ-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "CHZ-BRL"
+
+    def __str__(self):
+        return "CHZ-BRL"
+
+    def __call__(self):
+        return "CHZ-BRL"
+
+
+CHZ_BRL = CHZ_BRL(*CHZ_BRL._fields)
+"""
+    name: CHZ-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBCCSH13_BRL(Symbol):
+    """
+        name: MBCCSH13-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBCCSH13-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBCCSH13-BRL"
+
+    def __str__(self):
+        return "MBCCSH13-BRL"
+
+    def __call__(self):
+        return "MBCCSH13-BRL"
+
+
+MBCCSH13_BRL = MBCCSH13_BRL(*MBCCSH13_BRL._fields)
+"""
+    name: MBCCSH13-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class MBFP15_BRL(Symbol):
+    """
+        name: MBFP15-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "MBFP15-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "MBFP15-BRL"
+
+    def __str__(self):
+        return "MBFP15-BRL"
+
+    def __call__(self):
+        return "MBFP15-BRL"
+
+
+MBFP15_BRL = MBFP15_BRL(*MBFP15_BRL._fields)
+"""
+    name: MBFP15-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class USDC_BRL(Symbol):
+    """
+        name: USDC-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "USDC-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "USDC-BRL"
+
+    def __str__(self):
+        return "USDC-BRL"
+
+    def __call__(self):
+        return "USDC-BRL"
+
+
+USDC_BRL = USDC_BRL(*USDC_BRL._fields)
+"""
+    name: USDC-BRL
+    significant_digits: 8
+    tick_size: None
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: mercado_bitcoin
+"""
+
+
+class FLOKI_BRL(Symbol):
+    """
+        name: FLOKI-BRL
+        significant_digits: 8
+        tick_size: None
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: mercado_bitcoin
+    """
+    name: str = "FLOKI-BRL"
+    significant_digits: int = 8
+    tick_size: int = None
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "mercado_bitcoin"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "FLOKI-BRL"
+
+    def __str__(self):
+        return "FLOKI-BRL"
+
+    def __call__(self):
+        return "FLOKI-BRL"
+
+
+FLOKI_BRL = FLOKI_BRL(*FLOKI_BRL._fields)
+"""
+    name: FLOKI-BRL
     significant_digits: 8
     tick_size: None
     min_margin: None

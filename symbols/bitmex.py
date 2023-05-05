@@ -1,7 +1,7 @@
-from typing import NamedTuple
+from ._model import Symbol
 
 
-class _EVOL7D(NamedTuple):
+class _EVOL7D(Symbol):
     """
         name: .EVOL7D
         significant_digits: None
@@ -39,7 +39,7 @@ class _EVOL7D(NamedTuple):
         return ".EVOL7D"
 
 
-_EVOL7D = _EVOL7D()
+_EVOL7D = _EVOL7D(*_EVOL7D._fields)
 """
     name: .EVOL7D
     significant_digits: None
@@ -53,7 +53,7 @@ _EVOL7D = _EVOL7D()
 """
 
 
-class _BADAXBT(NamedTuple):
+class _BADAXBT(Symbol):
     """
         name: .BADAXBT
         significant_digits: None
@@ -91,7 +91,7 @@ class _BADAXBT(NamedTuple):
         return ".BADAXBT"
 
 
-_BADAXBT = _BADAXBT()
+_BADAXBT = _BADAXBT(*_BADAXBT._fields)
 """
     name: .BADAXBT
     significant_digits: None
@@ -105,7 +105,7 @@ _BADAXBT = _BADAXBT()
 """
 
 
-class _BADAXBT30M(NamedTuple):
+class _BADAXBT30M(Symbol):
     """
         name: .BADAXBT30M
         significant_digits: None
@@ -143,7 +143,7 @@ class _BADAXBT30M(NamedTuple):
         return ".BADAXBT30M"
 
 
-_BADAXBT30M = _BADAXBT30M()
+_BADAXBT30M = _BADAXBT30M(*_BADAXBT30M._fields)
 """
     name: .BADAXBT30M
     significant_digits: None
@@ -157,7 +157,7 @@ _BADAXBT30M = _BADAXBT30M()
 """
 
 
-class _BBCHXBT(NamedTuple):
+class _BBCHXBT(Symbol):
     """
         name: .BBCHXBT
         significant_digits: None
@@ -195,7 +195,7 @@ class _BBCHXBT(NamedTuple):
         return ".BBCHXBT"
 
 
-_BBCHXBT = _BBCHXBT()
+_BBCHXBT = _BBCHXBT(*_BBCHXBT._fields)
 """
     name: .BBCHXBT
     significant_digits: None
@@ -209,7 +209,7 @@ _BBCHXBT = _BBCHXBT()
 """
 
 
-class _BBCHXBT30M(NamedTuple):
+class _BBCHXBT30M(Symbol):
     """
         name: .BBCHXBT30M
         significant_digits: None
@@ -247,7 +247,7 @@ class _BBCHXBT30M(NamedTuple):
         return ".BBCHXBT30M"
 
 
-_BBCHXBT30M = _BBCHXBT30M()
+_BBCHXBT30M = _BBCHXBT30M(*_BBCHXBT30M._fields)
 """
     name: .BBCHXBT30M
     significant_digits: None
@@ -261,7 +261,7 @@ _BBCHXBT30M = _BBCHXBT30M()
 """
 
 
-class _BEOSXBT(NamedTuple):
+class _BEOSXBT(Symbol):
     """
         name: .BEOSXBT
         significant_digits: None
@@ -299,7 +299,7 @@ class _BEOSXBT(NamedTuple):
         return ".BEOSXBT"
 
 
-_BEOSXBT = _BEOSXBT()
+_BEOSXBT = _BEOSXBT(*_BEOSXBT._fields)
 """
     name: .BEOSXBT
     significant_digits: None
@@ -313,7 +313,7 @@ _BEOSXBT = _BEOSXBT()
 """
 
 
-class _BEOSXBT30M(NamedTuple):
+class _BEOSXBT30M(Symbol):
     """
         name: .BEOSXBT30M
         significant_digits: None
@@ -351,7 +351,7 @@ class _BEOSXBT30M(NamedTuple):
         return ".BEOSXBT30M"
 
 
-_BEOSXBT30M = _BEOSXBT30M()
+_BEOSXBT30M = _BEOSXBT30M(*_BEOSXBT30M._fields)
 """
     name: .BEOSXBT30M
     significant_digits: None
@@ -365,7 +365,7 @@ _BEOSXBT30M = _BEOSXBT30M()
 """
 
 
-class _BXRPXBT(NamedTuple):
+class _BXRPXBT(Symbol):
     """
         name: .BXRPXBT
         significant_digits: None
@@ -403,7 +403,7 @@ class _BXRPXBT(NamedTuple):
         return ".BXRPXBT"
 
 
-_BXRPXBT = _BXRPXBT()
+_BXRPXBT = _BXRPXBT(*_BXRPXBT._fields)
 """
     name: .BXRPXBT
     significant_digits: None
@@ -417,7 +417,7 @@ _BXRPXBT = _BXRPXBT()
 """
 
 
-class _BXRPXBT30M(NamedTuple):
+class _BXRPXBT30M(Symbol):
     """
         name: .BXRPXBT30M
         significant_digits: None
@@ -455,7 +455,7 @@ class _BXRPXBT30M(NamedTuple):
         return ".BXRPXBT30M"
 
 
-_BXRPXBT30M = _BXRPXBT30M()
+_BXRPXBT30M = _BXRPXBT30M(*_BXRPXBT30M._fields)
 """
     name: .BXRPXBT30M
     significant_digits: None
@@ -469,7 +469,7 @@ _BXRPXBT30M = _BXRPXBT30M()
 """
 
 
-class _BTRXXBT(NamedTuple):
+class _BTRXXBT(Symbol):
     """
         name: .BTRXXBT
         significant_digits: None
@@ -507,7 +507,7 @@ class _BTRXXBT(NamedTuple):
         return ".BTRXXBT"
 
 
-_BTRXXBT = _BTRXXBT()
+_BTRXXBT = _BTRXXBT(*_BTRXXBT._fields)
 """
     name: .BTRXXBT
     significant_digits: None
@@ -521,7 +521,7 @@ _BTRXXBT = _BTRXXBT()
 """
 
 
-class _BTRXXBT30M(NamedTuple):
+class _BTRXXBT30M(Symbol):
     """
         name: .BTRXXBT30M
         significant_digits: None
@@ -559,7 +559,7 @@ class _BTRXXBT30M(NamedTuple):
         return ".BTRXXBT30M"
 
 
-_BTRXXBT30M = _BTRXXBT30M()
+_BTRXXBT30M = _BTRXXBT30M(*_BTRXXBT30M._fields)
 """
     name: .BTRXXBT30M
     significant_digits: None
@@ -573,7 +573,7 @@ _BTRXXBT30M = _BTRXXBT30M()
 """
 
 
-class _BADAXBT_NEXT(NamedTuple):
+class _BADAXBT_NEXT(Symbol):
     """
         name: .BADAXBT_NEXT
         significant_digits: None
@@ -611,7 +611,7 @@ class _BADAXBT_NEXT(NamedTuple):
         return ".BADAXBT_NEXT"
 
 
-_BADAXBT_NEXT = _BADAXBT_NEXT()
+_BADAXBT_NEXT = _BADAXBT_NEXT(*_BADAXBT_NEXT._fields)
 """
     name: .BADAXBT_NEXT
     significant_digits: None
@@ -625,7 +625,7 @@ _BADAXBT_NEXT = _BADAXBT_NEXT()
 """
 
 
-class _BBCHXBT_NEXT(NamedTuple):
+class _BBCHXBT_NEXT(Symbol):
     """
         name: .BBCHXBT_NEXT
         significant_digits: None
@@ -663,7 +663,7 @@ class _BBCHXBT_NEXT(NamedTuple):
         return ".BBCHXBT_NEXT"
 
 
-_BBCHXBT_NEXT = _BBCHXBT_NEXT()
+_BBCHXBT_NEXT = _BBCHXBT_NEXT(*_BBCHXBT_NEXT._fields)
 """
     name: .BBCHXBT_NEXT
     significant_digits: None
@@ -677,7 +677,7 @@ _BBCHXBT_NEXT = _BBCHXBT_NEXT()
 """
 
 
-class _BEOSXBT_NEXT(NamedTuple):
+class _BEOSXBT_NEXT(Symbol):
     """
         name: .BEOSXBT_NEXT
         significant_digits: None
@@ -715,7 +715,7 @@ class _BEOSXBT_NEXT(NamedTuple):
         return ".BEOSXBT_NEXT"
 
 
-_BEOSXBT_NEXT = _BEOSXBT_NEXT()
+_BEOSXBT_NEXT = _BEOSXBT_NEXT(*_BEOSXBT_NEXT._fields)
 """
     name: .BEOSXBT_NEXT
     significant_digits: None
@@ -729,7 +729,7 @@ _BEOSXBT_NEXT = _BEOSXBT_NEXT()
 """
 
 
-class _BTRXXBT_NEXT(NamedTuple):
+class _BTRXXBT_NEXT(Symbol):
     """
         name: .BTRXXBT_NEXT
         significant_digits: None
@@ -767,7 +767,7 @@ class _BTRXXBT_NEXT(NamedTuple):
         return ".BTRXXBT_NEXT"
 
 
-_BTRXXBT_NEXT = _BTRXXBT_NEXT()
+_BTRXXBT_NEXT = _BTRXXBT_NEXT(*_BTRXXBT_NEXT._fields)
 """
     name: .BTRXXBT_NEXT
     significant_digits: None
@@ -781,7 +781,7 @@ _BTRXXBT_NEXT = _BTRXXBT_NEXT()
 """
 
 
-class _BXRPXBT_NEXT(NamedTuple):
+class _BXRPXBT_NEXT(Symbol):
     """
         name: .BXRPXBT_NEXT
         significant_digits: None
@@ -819,7 +819,7 @@ class _BXRPXBT_NEXT(NamedTuple):
         return ".BXRPXBT_NEXT"
 
 
-_BXRPXBT_NEXT = _BXRPXBT_NEXT()
+_BXRPXBT_NEXT = _BXRPXBT_NEXT(*_BXRPXBT_NEXT._fields)
 """
     name: .BXRPXBT_NEXT
     significant_digits: None
@@ -833,7 +833,7 @@ _BXRPXBT_NEXT = _BXRPXBT_NEXT()
 """
 
 
-class _BXRP_NEXT(NamedTuple):
+class _BXRP_NEXT(Symbol):
     """
         name: .BXRP_NEXT
         significant_digits: None
@@ -871,7 +871,7 @@ class _BXRP_NEXT(NamedTuple):
         return ".BXRP_NEXT"
 
 
-_BXRP_NEXT = _BXRP_NEXT()
+_BXRP_NEXT = _BXRP_NEXT(*_BXRP_NEXT._fields)
 """
     name: .BXRP_NEXT
     significant_digits: None
@@ -885,7 +885,7 @@ _BXRP_NEXT = _BXRP_NEXT()
 """
 
 
-class _BXRP(NamedTuple):
+class _BXRP(Symbol):
     """
         name: .BXRP
         significant_digits: None
@@ -923,7 +923,7 @@ class _BXRP(NamedTuple):
         return ".BXRP"
 
 
-_BXRP = _BXRP()
+_BXRP = _BXRP(*_BXRP._fields)
 """
     name: .BXRP
     significant_digits: None
@@ -937,7 +937,7 @@ _BXRP = _BXRP()
 """
 
 
-class _XRPBON(NamedTuple):
+class _XRPBON(Symbol):
     """
         name: .XRPBON
         significant_digits: None
@@ -975,7 +975,7 @@ class _XRPBON(NamedTuple):
         return ".XRPBON"
 
 
-_XRPBON = _XRPBON()
+_XRPBON = _XRPBON(*_XRPBON._fields)
 """
     name: .XRPBON
     significant_digits: None
@@ -989,7 +989,7 @@ _XRPBON = _XRPBON()
 """
 
 
-class _XRPBON8H(NamedTuple):
+class _XRPBON8H(Symbol):
     """
         name: .XRPBON8H
         significant_digits: None
@@ -1027,7 +1027,7 @@ class _XRPBON8H(NamedTuple):
         return ".XRPBON8H"
 
 
-_XRPBON8H = _XRPBON8H()
+_XRPBON8H = _XRPBON8H(*_XRPBON8H._fields)
 """
     name: .XRPBON8H
     significant_digits: None
@@ -1041,7 +1041,7 @@ _XRPBON8H = _XRPBON8H()
 """
 
 
-class _XRPUSDPI(NamedTuple):
+class _XRPUSDPI(Symbol):
     """
         name: .XRPUSDPI
         significant_digits: None
@@ -1079,7 +1079,7 @@ class _XRPUSDPI(NamedTuple):
         return ".XRPUSDPI"
 
 
-_XRPUSDPI = _XRPUSDPI()
+_XRPUSDPI = _XRPUSDPI(*_XRPUSDPI._fields)
 """
     name: .XRPUSDPI
     significant_digits: None
@@ -1093,7 +1093,7 @@ _XRPUSDPI = _XRPUSDPI()
 """
 
 
-class _XRPUSDPI8H(NamedTuple):
+class _XRPUSDPI8H(Symbol):
     """
         name: .XRPUSDPI8H
         significant_digits: None
@@ -1131,7 +1131,7 @@ class _XRPUSDPI8H(NamedTuple):
         return ".XRPUSDPI8H"
 
 
-_XRPUSDPI8H = _XRPUSDPI8H()
+_XRPUSDPI8H = _XRPUSDPI8H(*_XRPUSDPI8H._fields)
 """
     name: .XRPUSDPI8H
     significant_digits: None
@@ -1145,7 +1145,7 @@ _XRPUSDPI8H = _XRPUSDPI8H()
 """
 
 
-class _BBCH(NamedTuple):
+class _BBCH(Symbol):
     """
         name: .BBCH
         significant_digits: None
@@ -1183,7 +1183,7 @@ class _BBCH(NamedTuple):
         return ".BBCH"
 
 
-_BBCH = _BBCH()
+_BBCH = _BBCH(*_BBCH._fields)
 """
     name: .BBCH
     significant_digits: None
@@ -1197,7 +1197,7 @@ _BBCH = _BBCH()
 """
 
 
-class _BCHBON(NamedTuple):
+class _BCHBON(Symbol):
     """
         name: .BCHBON
         significant_digits: None
@@ -1235,7 +1235,7 @@ class _BCHBON(NamedTuple):
         return ".BCHBON"
 
 
-_BCHBON = _BCHBON()
+_BCHBON = _BCHBON(*_BCHBON._fields)
 """
     name: .BCHBON
     significant_digits: None
@@ -1249,7 +1249,7 @@ _BCHBON = _BCHBON()
 """
 
 
-class _BCHBON8H(NamedTuple):
+class _BCHBON8H(Symbol):
     """
         name: .BCHBON8H
         significant_digits: None
@@ -1287,7 +1287,7 @@ class _BCHBON8H(NamedTuple):
         return ".BCHBON8H"
 
 
-_BCHBON8H = _BCHBON8H()
+_BCHBON8H = _BCHBON8H(*_BCHBON8H._fields)
 """
     name: .BCHBON8H
     significant_digits: None
@@ -1301,7 +1301,7 @@ _BCHBON8H = _BCHBON8H()
 """
 
 
-class _BCHUSDPI(NamedTuple):
+class _BCHUSDPI(Symbol):
     """
         name: .BCHUSDPI
         significant_digits: None
@@ -1339,7 +1339,7 @@ class _BCHUSDPI(NamedTuple):
         return ".BCHUSDPI"
 
 
-_BCHUSDPI = _BCHUSDPI()
+_BCHUSDPI = _BCHUSDPI(*_BCHUSDPI._fields)
 """
     name: .BCHUSDPI
     significant_digits: None
@@ -1353,7 +1353,7 @@ _BCHUSDPI = _BCHUSDPI()
 """
 
 
-class _BCHUSDPI8H(NamedTuple):
+class _BCHUSDPI8H(Symbol):
     """
         name: .BCHUSDPI8H
         significant_digits: None
@@ -1391,7 +1391,7 @@ class _BCHUSDPI8H(NamedTuple):
         return ".BCHUSDPI8H"
 
 
-_BCHUSDPI8H = _BCHUSDPI8H()
+_BCHUSDPI8H = _BCHUSDPI8H(*_BCHUSDPI8H._fields)
 """
     name: .BCHUSDPI8H
     significant_digits: None
@@ -1405,7 +1405,7 @@ _BCHUSDPI8H = _BCHUSDPI8H()
 """
 
 
-class _BBCH_NEXT(NamedTuple):
+class _BBCH_NEXT(Symbol):
     """
         name: .BBCH_NEXT
         significant_digits: None
@@ -1443,7 +1443,7 @@ class _BBCH_NEXT(NamedTuple):
         return ".BBCH_NEXT"
 
 
-_BBCH_NEXT = _BBCH_NEXT()
+_BBCH_NEXT = _BBCH_NEXT(*_BBCH_NEXT._fields)
 """
     name: .BBCH_NEXT
     significant_digits: None
@@ -1457,7 +1457,7 @@ _BBCH_NEXT = _BBCH_NEXT()
 """
 
 
-class _BUSDT(NamedTuple):
+class _BUSDT(Symbol):
     """
         name: .BUSDT
         significant_digits: None
@@ -1495,7 +1495,7 @@ class _BUSDT(NamedTuple):
         return ".BUSDT"
 
 
-_BUSDT = _BUSDT()
+_BUSDT = _BUSDT(*_BUSDT._fields)
 """
     name: .BUSDT
     significant_digits: None
@@ -1509,7 +1509,7 @@ _BUSDT = _BUSDT()
 """
 
 
-class _BUSDT_NEXT(NamedTuple):
+class _BUSDT_NEXT(Symbol):
     """
         name: .BUSDT_NEXT
         significant_digits: None
@@ -1547,7 +1547,7 @@ class _BUSDT_NEXT(NamedTuple):
         return ".BUSDT_NEXT"
 
 
-_BUSDT_NEXT = _BUSDT_NEXT()
+_BUSDT_NEXT = _BUSDT_NEXT(*_BUSDT_NEXT._fields)
 """
     name: .BUSDT_NEXT
     significant_digits: None
@@ -1561,7 +1561,7 @@ _BUSDT_NEXT = _BUSDT_NEXT()
 """
 
 
-class _BEOST(NamedTuple):
+class _BEOST(Symbol):
     """
         name: .BEOST
         significant_digits: None
@@ -1599,7 +1599,7 @@ class _BEOST(NamedTuple):
         return ".BEOST"
 
 
-_BEOST = _BEOST()
+_BEOST = _BEOST(*_BEOST._fields)
 """
     name: .BEOST
     significant_digits: None
@@ -1613,7 +1613,7 @@ _BEOST = _BEOST()
 """
 
 
-class _BEOST_NEXT(NamedTuple):
+class _BEOST_NEXT(Symbol):
     """
         name: .BEOST_NEXT
         significant_digits: None
@@ -1651,7 +1651,7 @@ class _BEOST_NEXT(NamedTuple):
         return ".BEOST_NEXT"
 
 
-_BEOST_NEXT = _BEOST_NEXT()
+_BEOST_NEXT = _BEOST_NEXT(*_BEOST_NEXT._fields)
 """
     name: .BEOST_NEXT
     significant_digits: None
@@ -1665,7 +1665,7 @@ _BEOST_NEXT = _BEOST_NEXT()
 """
 
 
-class _BEOST30M(NamedTuple):
+class _BEOST30M(Symbol):
     """
         name: .BEOST30M
         significant_digits: None
@@ -1703,7 +1703,7 @@ class _BEOST30M(NamedTuple):
         return ".BEOST30M"
 
 
-_BEOST30M = _BEOST30M()
+_BEOST30M = _BEOST30M(*_BEOST30M._fields)
 """
     name: .BEOST30M
     significant_digits: None
@@ -1717,7 +1717,7 @@ _BEOST30M = _BEOST30M()
 """
 
 
-class _BLINKT(NamedTuple):
+class _BLINKT(Symbol):
     """
         name: .BLINKT
         significant_digits: None
@@ -1755,7 +1755,7 @@ class _BLINKT(NamedTuple):
         return ".BLINKT"
 
 
-_BLINKT = _BLINKT()
+_BLINKT = _BLINKT(*_BLINKT._fields)
 """
     name: .BLINKT
     significant_digits: None
@@ -1769,7 +1769,7 @@ _BLINKT = _BLINKT()
 """
 
 
-class _BLINKT_NEXT(NamedTuple):
+class _BLINKT_NEXT(Symbol):
     """
         name: .BLINKT_NEXT
         significant_digits: None
@@ -1807,7 +1807,7 @@ class _BLINKT_NEXT(NamedTuple):
         return ".BLINKT_NEXT"
 
 
-_BLINKT_NEXT = _BLINKT_NEXT()
+_BLINKT_NEXT = _BLINKT_NEXT(*_BLINKT_NEXT._fields)
 """
     name: .BLINKT_NEXT
     significant_digits: None
@@ -1821,7 +1821,7 @@ _BLINKT_NEXT = _BLINKT_NEXT()
 """
 
 
-class _BLINKT30M(NamedTuple):
+class _BLINKT30M(Symbol):
     """
         name: .BLINKT30M
         significant_digits: None
@@ -1859,7 +1859,7 @@ class _BLINKT30M(NamedTuple):
         return ".BLINKT30M"
 
 
-_BLINKT30M = _BLINKT30M()
+_BLINKT30M = _BLINKT30M(*_BLINKT30M._fields)
 """
     name: .BLINKT30M
     significant_digits: None
@@ -1873,7 +1873,7 @@ _BLINKT30M = _BLINKT30M()
 """
 
 
-class _BADAT(NamedTuple):
+class _BADAT(Symbol):
     """
         name: .BADAT
         significant_digits: None
@@ -1911,7 +1911,7 @@ class _BADAT(NamedTuple):
         return ".BADAT"
 
 
-_BADAT = _BADAT()
+_BADAT = _BADAT(*_BADAT._fields)
 """
     name: .BADAT
     significant_digits: None
@@ -1925,7 +1925,7 @@ _BADAT = _BADAT()
 """
 
 
-class _BADAT_NEXT(NamedTuple):
+class _BADAT_NEXT(Symbol):
     """
         name: .BADAT_NEXT
         significant_digits: None
@@ -1963,7 +1963,7 @@ class _BADAT_NEXT(NamedTuple):
         return ".BADAT_NEXT"
 
 
-_BADAT_NEXT = _BADAT_NEXT()
+_BADAT_NEXT = _BADAT_NEXT(*_BADAT_NEXT._fields)
 """
     name: .BADAT_NEXT
     significant_digits: None
@@ -1977,7 +1977,7 @@ _BADAT_NEXT = _BADAT_NEXT()
 """
 
 
-class _BADAT30M(NamedTuple):
+class _BADAT30M(Symbol):
     """
         name: .BADAT30M
         significant_digits: None
@@ -2015,7 +2015,7 @@ class _BADAT30M(NamedTuple):
         return ".BADAT30M"
 
 
-_BADAT30M = _BADAT30M()
+_BADAT30M = _BADAT30M(*_BADAT30M._fields)
 """
     name: .BADAT30M
     significant_digits: None
@@ -2029,7 +2029,7 @@ _BADAT30M = _BADAT30M()
 """
 
 
-class _BXTZT(NamedTuple):
+class _BXTZT(Symbol):
     """
         name: .BXTZT
         significant_digits: None
@@ -2067,7 +2067,7 @@ class _BXTZT(NamedTuple):
         return ".BXTZT"
 
 
-_BXTZT = _BXTZT()
+_BXTZT = _BXTZT(*_BXTZT._fields)
 """
     name: .BXTZT
     significant_digits: None
@@ -2081,7 +2081,7 @@ _BXTZT = _BXTZT()
 """
 
 
-class _BXTZT_NEXT(NamedTuple):
+class _BXTZT_NEXT(Symbol):
     """
         name: .BXTZT_NEXT
         significant_digits: None
@@ -2119,7 +2119,7 @@ class _BXTZT_NEXT(NamedTuple):
         return ".BXTZT_NEXT"
 
 
-_BXTZT_NEXT = _BXTZT_NEXT()
+_BXTZT_NEXT = _BXTZT_NEXT(*_BXTZT_NEXT._fields)
 """
     name: .BXTZT_NEXT
     significant_digits: None
@@ -2133,7 +2133,7 @@ _BXTZT_NEXT = _BXTZT_NEXT()
 """
 
 
-class _BXTZT30M(NamedTuple):
+class _BXTZT30M(Symbol):
     """
         name: .BXTZT30M
         significant_digits: None
@@ -2171,7 +2171,7 @@ class _BXTZT30M(NamedTuple):
         return ".BXTZT30M"
 
 
-_BXTZT30M = _BXTZT30M()
+_BXTZT30M = _BXTZT30M(*_BXTZT30M._fields)
 """
     name: .BXTZT30M
     significant_digits: None
@@ -2185,7 +2185,7 @@ _BXTZT30M = _BXTZT30M()
 """
 
 
-class _LINKBON(NamedTuple):
+class _LINKBON(Symbol):
     """
         name: .LINKBON
         significant_digits: None
@@ -2223,7 +2223,7 @@ class _LINKBON(NamedTuple):
         return ".LINKBON"
 
 
-_LINKBON = _LINKBON()
+_LINKBON = _LINKBON(*_LINKBON._fields)
 """
     name: .LINKBON
     significant_digits: None
@@ -2237,7 +2237,7 @@ _LINKBON = _LINKBON()
 """
 
 
-class _LINKBON8H(NamedTuple):
+class _LINKBON8H(Symbol):
     """
         name: .LINKBON8H
         significant_digits: None
@@ -2275,7 +2275,7 @@ class _LINKBON8H(NamedTuple):
         return ".LINKBON8H"
 
 
-_LINKBON8H = _LINKBON8H()
+_LINKBON8H = _LINKBON8H(*_LINKBON8H._fields)
 """
     name: .LINKBON8H
     significant_digits: None
@@ -2289,7 +2289,7 @@ _LINKBON8H = _LINKBON8H()
 """
 
 
-class _LINKUSDTPI(NamedTuple):
+class _LINKUSDTPI(Symbol):
     """
         name: .LINKUSDTPI
         significant_digits: None
@@ -2327,7 +2327,7 @@ class _LINKUSDTPI(NamedTuple):
         return ".LINKUSDTPI"
 
 
-_LINKUSDTPI = _LINKUSDTPI()
+_LINKUSDTPI = _LINKUSDTPI(*_LINKUSDTPI._fields)
 """
     name: .LINKUSDTPI
     significant_digits: None
@@ -2341,7 +2341,7 @@ _LINKUSDTPI = _LINKUSDTPI()
 """
 
 
-class _LINKUSDTPI8H(NamedTuple):
+class _LINKUSDTPI8H(Symbol):
     """
         name: .LINKUSDTPI8H
         significant_digits: None
@@ -2379,7 +2379,7 @@ class _LINKUSDTPI8H(NamedTuple):
         return ".LINKUSDTPI8H"
 
 
-_LINKUSDTPI8H = _LINKUSDTPI8H()
+_LINKUSDTPI8H = _LINKUSDTPI8H(*_LINKUSDTPI8H._fields)
 """
     name: .LINKUSDTPI8H
     significant_digits: None
@@ -2393,7 +2393,7 @@ _LINKUSDTPI8H = _LINKUSDTPI8H()
 """
 
 
-class _USDTBON(NamedTuple):
+class _USDTBON(Symbol):
     """
         name: .USDTBON
         significant_digits: None
@@ -2431,7 +2431,7 @@ class _USDTBON(NamedTuple):
         return ".USDTBON"
 
 
-_USDTBON = _USDTBON()
+_USDTBON = _USDTBON(*_USDTBON._fields)
 """
     name: .USDTBON
     significant_digits: None
@@ -2445,7 +2445,7 @@ _USDTBON = _USDTBON()
 """
 
 
-class _USDTBON8H(NamedTuple):
+class _USDTBON8H(Symbol):
     """
         name: .USDTBON8H
         significant_digits: None
@@ -2483,7 +2483,7 @@ class _USDTBON8H(NamedTuple):
         return ".USDTBON8H"
 
 
-_USDTBON8H = _USDTBON8H()
+_USDTBON8H = _USDTBON8H(*_USDTBON8H._fields)
 """
     name: .USDTBON8H
     significant_digits: None
@@ -2497,7 +2497,7 @@ _USDTBON8H = _USDTBON8H()
 """
 
 
-class _BBNBT(NamedTuple):
+class _BBNBT(Symbol):
     """
         name: .BBNBT
         significant_digits: None
@@ -2535,7 +2535,7 @@ class _BBNBT(NamedTuple):
         return ".BBNBT"
 
 
-_BBNBT = _BBNBT()
+_BBNBT = _BBNBT(*_BBNBT._fields)
 """
     name: .BBNBT
     significant_digits: None
@@ -2549,7 +2549,7 @@ _BBNBT = _BBNBT()
 """
 
 
-class _BBNBT_NEXT(NamedTuple):
+class _BBNBT_NEXT(Symbol):
     """
         name: .BBNBT_NEXT
         significant_digits: None
@@ -2587,7 +2587,7 @@ class _BBNBT_NEXT(NamedTuple):
         return ".BBNBT_NEXT"
 
 
-_BBNBT_NEXT = _BBNBT_NEXT()
+_BBNBT_NEXT = _BBNBT_NEXT(*_BBNBT_NEXT._fields)
 """
     name: .BBNBT_NEXT
     significant_digits: None
@@ -2601,7 +2601,7 @@ _BBNBT_NEXT = _BBNBT_NEXT()
 """
 
 
-class _BBNBT30M(NamedTuple):
+class _BBNBT30M(Symbol):
     """
         name: .BBNBT30M
         significant_digits: None
@@ -2639,7 +2639,7 @@ class _BBNBT30M(NamedTuple):
         return ".BBNBT30M"
 
 
-_BBNBT30M = _BBNBT30M()
+_BBNBT30M = _BBNBT30M(*_BBNBT30M._fields)
 """
     name: .BBNBT30M
     significant_digits: None
@@ -2653,7 +2653,7 @@ _BBNBT30M = _BBNBT30M()
 """
 
 
-class _BDOTT(NamedTuple):
+class _BDOTT(Symbol):
     """
         name: .BDOTT
         significant_digits: None
@@ -2691,7 +2691,7 @@ class _BDOTT(NamedTuple):
         return ".BDOTT"
 
 
-_BDOTT = _BDOTT()
+_BDOTT = _BDOTT(*_BDOTT._fields)
 """
     name: .BDOTT
     significant_digits: None
@@ -2705,7 +2705,7 @@ _BDOTT = _BDOTT()
 """
 
 
-class _BDOTT_NEXT(NamedTuple):
+class _BDOTT_NEXT(Symbol):
     """
         name: .BDOTT_NEXT
         significant_digits: None
@@ -2743,7 +2743,7 @@ class _BDOTT_NEXT(NamedTuple):
         return ".BDOTT_NEXT"
 
 
-_BDOTT_NEXT = _BDOTT_NEXT()
+_BDOTT_NEXT = _BDOTT_NEXT(*_BDOTT_NEXT._fields)
 """
     name: .BDOTT_NEXT
     significant_digits: None
@@ -2757,7 +2757,7 @@ _BDOTT_NEXT = _BDOTT_NEXT()
 """
 
 
-class _BDOTT30M(NamedTuple):
+class _BDOTT30M(Symbol):
     """
         name: .BDOTT30M
         significant_digits: None
@@ -2795,7 +2795,7 @@ class _BDOTT30M(NamedTuple):
         return ".BDOTT30M"
 
 
-_BDOTT30M = _BDOTT30M()
+_BDOTT30M = _BDOTT30M(*_BDOTT30M._fields)
 """
     name: .BDOTT30M
     significant_digits: None
@@ -2809,7 +2809,7 @@ _BDOTT30M = _BDOTT30M()
 """
 
 
-class _BYFIT(NamedTuple):
+class _BYFIT(Symbol):
     """
         name: .BYFIT
         significant_digits: None
@@ -2847,7 +2847,7 @@ class _BYFIT(NamedTuple):
         return ".BYFIT"
 
 
-_BYFIT = _BYFIT()
+_BYFIT = _BYFIT(*_BYFIT._fields)
 """
     name: .BYFIT
     significant_digits: None
@@ -2861,7 +2861,7 @@ _BYFIT = _BYFIT()
 """
 
 
-class _BYFIT_NEXT(NamedTuple):
+class _BYFIT_NEXT(Symbol):
     """
         name: .BYFIT_NEXT
         significant_digits: None
@@ -2899,7 +2899,7 @@ class _BYFIT_NEXT(NamedTuple):
         return ".BYFIT_NEXT"
 
 
-_BYFIT_NEXT = _BYFIT_NEXT()
+_BYFIT_NEXT = _BYFIT_NEXT(*_BYFIT_NEXT._fields)
 """
     name: .BYFIT_NEXT
     significant_digits: None
@@ -2913,7 +2913,7 @@ _BYFIT_NEXT = _BYFIT_NEXT()
 """
 
 
-class _BYFIT30M(NamedTuple):
+class _BYFIT30M(Symbol):
     """
         name: .BYFIT30M
         significant_digits: None
@@ -2951,7 +2951,7 @@ class _BYFIT30M(NamedTuple):
         return ".BYFIT30M"
 
 
-_BYFIT30M = _BYFIT30M()
+_BYFIT30M = _BYFIT30M(*_BYFIT30M._fields)
 """
     name: .BYFIT30M
     significant_digits: None
@@ -2965,7 +2965,7 @@ _BYFIT30M = _BYFIT30M()
 """
 
 
-class _BDOGET(NamedTuple):
+class _BDOGET(Symbol):
     """
         name: .BDOGET
         significant_digits: None
@@ -3003,7 +3003,7 @@ class _BDOGET(NamedTuple):
         return ".BDOGET"
 
 
-_BDOGET = _BDOGET()
+_BDOGET = _BDOGET(*_BDOGET._fields)
 """
     name: .BDOGET
     significant_digits: None
@@ -3017,7 +3017,7 @@ _BDOGET = _BDOGET()
 """
 
 
-class _BDOGET_NEXT(NamedTuple):
+class _BDOGET_NEXT(Symbol):
     """
         name: .BDOGET_NEXT
         significant_digits: None
@@ -3055,7 +3055,7 @@ class _BDOGET_NEXT(NamedTuple):
         return ".BDOGET_NEXT"
 
 
-_BDOGET_NEXT = _BDOGET_NEXT()
+_BDOGET_NEXT = _BDOGET_NEXT(*_BDOGET_NEXT._fields)
 """
     name: .BDOGET_NEXT
     significant_digits: None
@@ -3069,7 +3069,7 @@ _BDOGET_NEXT = _BDOGET_NEXT()
 """
 
 
-class _DOGEBON(NamedTuple):
+class _DOGEBON(Symbol):
     """
         name: .DOGEBON
         significant_digits: None
@@ -3107,7 +3107,7 @@ class _DOGEBON(NamedTuple):
         return ".DOGEBON"
 
 
-_DOGEBON = _DOGEBON()
+_DOGEBON = _DOGEBON(*_DOGEBON._fields)
 """
     name: .DOGEBON
     significant_digits: None
@@ -3121,7 +3121,7 @@ _DOGEBON = _DOGEBON()
 """
 
 
-class _DOGEBON8H(NamedTuple):
+class _DOGEBON8H(Symbol):
     """
         name: .DOGEBON8H
         significant_digits: None
@@ -3159,7 +3159,7 @@ class _DOGEBON8H(NamedTuple):
         return ".DOGEBON8H"
 
 
-_DOGEBON8H = _DOGEBON8H()
+_DOGEBON8H = _DOGEBON8H(*_DOGEBON8H._fields)
 """
     name: .DOGEBON8H
     significant_digits: None
@@ -3173,7 +3173,7 @@ _DOGEBON8H = _DOGEBON8H()
 """
 
 
-class _DOGEUSDTPI(NamedTuple):
+class _DOGEUSDTPI(Symbol):
     """
         name: .DOGEUSDTPI
         significant_digits: None
@@ -3211,7 +3211,7 @@ class _DOGEUSDTPI(NamedTuple):
         return ".DOGEUSDTPI"
 
 
-_DOGEUSDTPI = _DOGEUSDTPI()
+_DOGEUSDTPI = _DOGEUSDTPI(*_DOGEUSDTPI._fields)
 """
     name: .DOGEUSDTPI
     significant_digits: None
@@ -3225,7 +3225,7 @@ _DOGEUSDTPI = _DOGEUSDTPI()
 """
 
 
-class _DOGEUSDTPI8H(NamedTuple):
+class _DOGEUSDTPI8H(Symbol):
     """
         name: .DOGEUSDTPI8H
         significant_digits: None
@@ -3263,7 +3263,7 @@ class _DOGEUSDTPI8H(NamedTuple):
         return ".DOGEUSDTPI8H"
 
 
-_DOGEUSDTPI8H = _DOGEUSDTPI8H()
+_DOGEUSDTPI8H = _DOGEUSDTPI8H(*_DOGEUSDTPI8H._fields)
 """
     name: .DOGEUSDTPI8H
     significant_digits: None
@@ -3277,7 +3277,7 @@ _DOGEUSDTPI8H = _DOGEUSDTPI8H()
 """
 
 
-class _BNBBON(NamedTuple):
+class _BNBBON(Symbol):
     """
         name: .BNBBON
         significant_digits: None
@@ -3315,7 +3315,7 @@ class _BNBBON(NamedTuple):
         return ".BNBBON"
 
 
-_BNBBON = _BNBBON()
+_BNBBON = _BNBBON(*_BNBBON._fields)
 """
     name: .BNBBON
     significant_digits: None
@@ -3329,7 +3329,7 @@ _BNBBON = _BNBBON()
 """
 
 
-class _BNBBON8H(NamedTuple):
+class _BNBBON8H(Symbol):
     """
         name: .BNBBON8H
         significant_digits: None
@@ -3367,7 +3367,7 @@ class _BNBBON8H(NamedTuple):
         return ".BNBBON8H"
 
 
-_BNBBON8H = _BNBBON8H()
+_BNBBON8H = _BNBBON8H(*_BNBBON8H._fields)
 """
     name: .BNBBON8H
     significant_digits: None
@@ -3381,7 +3381,7 @@ _BNBBON8H = _BNBBON8H()
 """
 
 
-class _BNBUSDTPI(NamedTuple):
+class _BNBUSDTPI(Symbol):
     """
         name: .BNBUSDTPI
         significant_digits: None
@@ -3419,7 +3419,7 @@ class _BNBUSDTPI(NamedTuple):
         return ".BNBUSDTPI"
 
 
-_BNBUSDTPI = _BNBUSDTPI()
+_BNBUSDTPI = _BNBUSDTPI(*_BNBUSDTPI._fields)
 """
     name: .BNBUSDTPI
     significant_digits: None
@@ -3433,7 +3433,7 @@ _BNBUSDTPI = _BNBUSDTPI()
 """
 
 
-class _BNBUSDTPI8H(NamedTuple):
+class _BNBUSDTPI8H(Symbol):
     """
         name: .BNBUSDTPI8H
         significant_digits: None
@@ -3471,7 +3471,7 @@ class _BNBUSDTPI8H(NamedTuple):
         return ".BNBUSDTPI8H"
 
 
-_BNBUSDTPI8H = _BNBUSDTPI8H()
+_BNBUSDTPI8H = _BNBUSDTPI8H(*_BNBUSDTPI8H._fields)
 """
     name: .BNBUSDTPI8H
     significant_digits: None
@@ -3485,7 +3485,7 @@ _BNBUSDTPI8H = _BNBUSDTPI8H()
 """
 
 
-class _ADABON(NamedTuple):
+class _ADABON(Symbol):
     """
         name: .ADABON
         significant_digits: None
@@ -3523,7 +3523,7 @@ class _ADABON(NamedTuple):
         return ".ADABON"
 
 
-_ADABON = _ADABON()
+_ADABON = _ADABON(*_ADABON._fields)
 """
     name: .ADABON
     significant_digits: None
@@ -3537,7 +3537,7 @@ _ADABON = _ADABON()
 """
 
 
-class _ADABON8H(NamedTuple):
+class _ADABON8H(Symbol):
     """
         name: .ADABON8H
         significant_digits: None
@@ -3575,7 +3575,7 @@ class _ADABON8H(NamedTuple):
         return ".ADABON8H"
 
 
-_ADABON8H = _ADABON8H()
+_ADABON8H = _ADABON8H(*_ADABON8H._fields)
 """
     name: .ADABON8H
     significant_digits: None
@@ -3589,7 +3589,7 @@ _ADABON8H = _ADABON8H()
 """
 
 
-class _ADAUSDTPI(NamedTuple):
+class _ADAUSDTPI(Symbol):
     """
         name: .ADAUSDTPI
         significant_digits: None
@@ -3627,7 +3627,7 @@ class _ADAUSDTPI(NamedTuple):
         return ".ADAUSDTPI"
 
 
-_ADAUSDTPI = _ADAUSDTPI()
+_ADAUSDTPI = _ADAUSDTPI(*_ADAUSDTPI._fields)
 """
     name: .ADAUSDTPI
     significant_digits: None
@@ -3641,7 +3641,7 @@ _ADAUSDTPI = _ADAUSDTPI()
 """
 
 
-class _ADAUSDTPI8H(NamedTuple):
+class _ADAUSDTPI8H(Symbol):
     """
         name: .ADAUSDTPI8H
         significant_digits: None
@@ -3679,7 +3679,7 @@ class _ADAUSDTPI8H(NamedTuple):
         return ".ADAUSDTPI8H"
 
 
-_ADAUSDTPI8H = _ADAUSDTPI8H()
+_ADAUSDTPI8H = _ADAUSDTPI8H(*_ADAUSDTPI8H._fields)
 """
     name: .ADAUSDTPI8H
     significant_digits: None
@@ -3693,7 +3693,7 @@ _ADAUSDTPI8H = _ADAUSDTPI8H()
 """
 
 
-class _DOTBON(NamedTuple):
+class _DOTBON(Symbol):
     """
         name: .DOTBON
         significant_digits: None
@@ -3731,7 +3731,7 @@ class _DOTBON(NamedTuple):
         return ".DOTBON"
 
 
-_DOTBON = _DOTBON()
+_DOTBON = _DOTBON(*_DOTBON._fields)
 """
     name: .DOTBON
     significant_digits: None
@@ -3745,7 +3745,7 @@ _DOTBON = _DOTBON()
 """
 
 
-class _DOTBON8H(NamedTuple):
+class _DOTBON8H(Symbol):
     """
         name: .DOTBON8H
         significant_digits: None
@@ -3783,7 +3783,7 @@ class _DOTBON8H(NamedTuple):
         return ".DOTBON8H"
 
 
-_DOTBON8H = _DOTBON8H()
+_DOTBON8H = _DOTBON8H(*_DOTBON8H._fields)
 """
     name: .DOTBON8H
     significant_digits: None
@@ -3797,7 +3797,7 @@ _DOTBON8H = _DOTBON8H()
 """
 
 
-class _DOTUSDTPI(NamedTuple):
+class _DOTUSDTPI(Symbol):
     """
         name: .DOTUSDTPI
         significant_digits: None
@@ -3835,7 +3835,7 @@ class _DOTUSDTPI(NamedTuple):
         return ".DOTUSDTPI"
 
 
-_DOTUSDTPI = _DOTUSDTPI()
+_DOTUSDTPI = _DOTUSDTPI(*_DOTUSDTPI._fields)
 """
     name: .DOTUSDTPI
     significant_digits: None
@@ -3849,7 +3849,7 @@ _DOTUSDTPI = _DOTUSDTPI()
 """
 
 
-class _DOTUSDTPI8H(NamedTuple):
+class _DOTUSDTPI8H(Symbol):
     """
         name: .DOTUSDTPI8H
         significant_digits: None
@@ -3887,7 +3887,7 @@ class _DOTUSDTPI8H(NamedTuple):
         return ".DOTUSDTPI8H"
 
 
-_DOTUSDTPI8H = _DOTUSDTPI8H()
+_DOTUSDTPI8H = _DOTUSDTPI8H(*_DOTUSDTPI8H._fields)
 """
     name: .DOTUSDTPI8H
     significant_digits: None
@@ -3901,7 +3901,7 @@ _DOTUSDTPI8H = _DOTUSDTPI8H()
 """
 
 
-class _EOSBON(NamedTuple):
+class _EOSBON(Symbol):
     """
         name: .EOSBON
         significant_digits: None
@@ -3939,7 +3939,7 @@ class _EOSBON(NamedTuple):
         return ".EOSBON"
 
 
-_EOSBON = _EOSBON()
+_EOSBON = _EOSBON(*_EOSBON._fields)
 """
     name: .EOSBON
     significant_digits: None
@@ -3953,7 +3953,7 @@ _EOSBON = _EOSBON()
 """
 
 
-class _EOSBON8H(NamedTuple):
+class _EOSBON8H(Symbol):
     """
         name: .EOSBON8H
         significant_digits: None
@@ -3991,7 +3991,7 @@ class _EOSBON8H(NamedTuple):
         return ".EOSBON8H"
 
 
-_EOSBON8H = _EOSBON8H()
+_EOSBON8H = _EOSBON8H(*_EOSBON8H._fields)
 """
     name: .EOSBON8H
     significant_digits: None
@@ -4005,7 +4005,7 @@ _EOSBON8H = _EOSBON8H()
 """
 
 
-class _EOSUSDTPI(NamedTuple):
+class _EOSUSDTPI(Symbol):
     """
         name: .EOSUSDTPI
         significant_digits: None
@@ -4043,7 +4043,7 @@ class _EOSUSDTPI(NamedTuple):
         return ".EOSUSDTPI"
 
 
-_EOSUSDTPI = _EOSUSDTPI()
+_EOSUSDTPI = _EOSUSDTPI(*_EOSUSDTPI._fields)
 """
     name: .EOSUSDTPI
     significant_digits: None
@@ -4057,7 +4057,7 @@ _EOSUSDTPI = _EOSUSDTPI()
 """
 
 
-class _EOSUSDTPI8H(NamedTuple):
+class _EOSUSDTPI8H(Symbol):
     """
         name: .EOSUSDTPI8H
         significant_digits: None
@@ -4095,7 +4095,7 @@ class _EOSUSDTPI8H(NamedTuple):
         return ".EOSUSDTPI8H"
 
 
-_EOSUSDTPI8H = _EOSUSDTPI8H()
+_EOSUSDTPI8H = _EOSUSDTPI8H(*_EOSUSDTPI8H._fields)
 """
     name: .EOSUSDTPI8H
     significant_digits: None
@@ -4109,7 +4109,7 @@ _EOSUSDTPI8H = _EOSUSDTPI8H()
 """
 
 
-class _XTZBON(NamedTuple):
+class _XTZBON(Symbol):
     """
         name: .XTZBON
         significant_digits: None
@@ -4147,7 +4147,7 @@ class _XTZBON(NamedTuple):
         return ".XTZBON"
 
 
-_XTZBON = _XTZBON()
+_XTZBON = _XTZBON(*_XTZBON._fields)
 """
     name: .XTZBON
     significant_digits: None
@@ -4161,7 +4161,7 @@ _XTZBON = _XTZBON()
 """
 
 
-class _XTZBON8H(NamedTuple):
+class _XTZBON8H(Symbol):
     """
         name: .XTZBON8H
         significant_digits: None
@@ -4199,7 +4199,7 @@ class _XTZBON8H(NamedTuple):
         return ".XTZBON8H"
 
 
-_XTZBON8H = _XTZBON8H()
+_XTZBON8H = _XTZBON8H(*_XTZBON8H._fields)
 """
     name: .XTZBON8H
     significant_digits: None
@@ -4213,7 +4213,7 @@ _XTZBON8H = _XTZBON8H()
 """
 
 
-class _XTZUSDTPI(NamedTuple):
+class _XTZUSDTPI(Symbol):
     """
         name: .XTZUSDTPI
         significant_digits: None
@@ -4251,7 +4251,7 @@ class _XTZUSDTPI(NamedTuple):
         return ".XTZUSDTPI"
 
 
-_XTZUSDTPI = _XTZUSDTPI()
+_XTZUSDTPI = _XTZUSDTPI(*_XTZUSDTPI._fields)
 """
     name: .XTZUSDTPI
     significant_digits: None
@@ -4265,7 +4265,7 @@ _XTZUSDTPI = _XTZUSDTPI()
 """
 
 
-class _YFIBON(NamedTuple):
+class _YFIBON(Symbol):
     """
         name: .YFIBON
         significant_digits: None
@@ -4303,7 +4303,7 @@ class _YFIBON(NamedTuple):
         return ".YFIBON"
 
 
-_YFIBON = _YFIBON()
+_YFIBON = _YFIBON(*_YFIBON._fields)
 """
     name: .YFIBON
     significant_digits: None
@@ -4317,7 +4317,7 @@ _YFIBON = _YFIBON()
 """
 
 
-class _YFIBON8H(NamedTuple):
+class _YFIBON8H(Symbol):
     """
         name: .YFIBON8H
         significant_digits: None
@@ -4355,7 +4355,7 @@ class _YFIBON8H(NamedTuple):
         return ".YFIBON8H"
 
 
-_YFIBON8H = _YFIBON8H()
+_YFIBON8H = _YFIBON8H(*_YFIBON8H._fields)
 """
     name: .YFIBON8H
     significant_digits: None
@@ -4369,7 +4369,7 @@ _YFIBON8H = _YFIBON8H()
 """
 
 
-class _YFIUSDTPI(NamedTuple):
+class _YFIUSDTPI(Symbol):
     """
         name: .YFIUSDTPI
         significant_digits: None
@@ -4407,7 +4407,7 @@ class _YFIUSDTPI(NamedTuple):
         return ".YFIUSDTPI"
 
 
-_YFIUSDTPI = _YFIUSDTPI()
+_YFIUSDTPI = _YFIUSDTPI(*_YFIUSDTPI._fields)
 """
     name: .YFIUSDTPI
     significant_digits: None
@@ -4421,7 +4421,7 @@ _YFIUSDTPI = _YFIUSDTPI()
 """
 
 
-class _BAAVET(NamedTuple):
+class _BAAVET(Symbol):
     """
         name: .BAAVET
         significant_digits: None
@@ -4459,7 +4459,7 @@ class _BAAVET(NamedTuple):
         return ".BAAVET"
 
 
-_BAAVET = _BAAVET()
+_BAAVET = _BAAVET(*_BAAVET._fields)
 """
     name: .BAAVET
     significant_digits: None
@@ -4473,7 +4473,7 @@ _BAAVET = _BAAVET()
 """
 
 
-class _BAAVET_NEXT(NamedTuple):
+class _BAAVET_NEXT(Symbol):
     """
         name: .BAAVET_NEXT
         significant_digits: None
@@ -4511,7 +4511,7 @@ class _BAAVET_NEXT(NamedTuple):
         return ".BAAVET_NEXT"
 
 
-_BAAVET_NEXT = _BAAVET_NEXT()
+_BAAVET_NEXT = _BAAVET_NEXT(*_BAAVET_NEXT._fields)
 """
     name: .BAAVET_NEXT
     significant_digits: None
@@ -4525,7 +4525,7 @@ _BAAVET_NEXT = _BAAVET_NEXT()
 """
 
 
-class _AAVEBON(NamedTuple):
+class _AAVEBON(Symbol):
     """
         name: .AAVEBON
         significant_digits: None
@@ -4563,7 +4563,7 @@ class _AAVEBON(NamedTuple):
         return ".AAVEBON"
 
 
-_AAVEBON = _AAVEBON()
+_AAVEBON = _AAVEBON(*_AAVEBON._fields)
 """
     name: .AAVEBON
     significant_digits: None
@@ -4577,7 +4577,7 @@ _AAVEBON = _AAVEBON()
 """
 
 
-class _AAVEBON8H(NamedTuple):
+class _AAVEBON8H(Symbol):
     """
         name: .AAVEBON8H
         significant_digits: None
@@ -4615,7 +4615,7 @@ class _AAVEBON8H(NamedTuple):
         return ".AAVEBON8H"
 
 
-_AAVEBON8H = _AAVEBON8H()
+_AAVEBON8H = _AAVEBON8H(*_AAVEBON8H._fields)
 """
     name: .AAVEBON8H
     significant_digits: None
@@ -4629,7 +4629,7 @@ _AAVEBON8H = _AAVEBON8H()
 """
 
 
-class _AAVEUSDTPI(NamedTuple):
+class _AAVEUSDTPI(Symbol):
     """
         name: .AAVEUSDTPI
         significant_digits: None
@@ -4667,7 +4667,7 @@ class _AAVEUSDTPI(NamedTuple):
         return ".AAVEUSDTPI"
 
 
-_AAVEUSDTPI = _AAVEUSDTPI()
+_AAVEUSDTPI = _AAVEUSDTPI(*_AAVEUSDTPI._fields)
 """
     name: .AAVEUSDTPI
     significant_digits: None
@@ -4681,7 +4681,7 @@ _AAVEUSDTPI = _AAVEUSDTPI()
 """
 
 
-class _AAVEUSDTPI8H(NamedTuple):
+class _AAVEUSDTPI8H(Symbol):
     """
         name: .AAVEUSDTPI8H
         significant_digits: None
@@ -4719,7 +4719,7 @@ class _AAVEUSDTPI8H(NamedTuple):
         return ".AAVEUSDTPI8H"
 
 
-_AAVEUSDTPI8H = _AAVEUSDTPI8H()
+_AAVEUSDTPI8H = _AAVEUSDTPI8H(*_AAVEUSDTPI8H._fields)
 """
     name: .AAVEUSDTPI8H
     significant_digits: None
@@ -4733,7 +4733,7 @@ _AAVEUSDTPI8H = _AAVEUSDTPI8H()
 """
 
 
-class _BUNIT(NamedTuple):
+class _BUNIT(Symbol):
     """
         name: .BUNIT
         significant_digits: None
@@ -4771,7 +4771,7 @@ class _BUNIT(NamedTuple):
         return ".BUNIT"
 
 
-_BUNIT = _BUNIT()
+_BUNIT = _BUNIT(*_BUNIT._fields)
 """
     name: .BUNIT
     significant_digits: None
@@ -4785,7 +4785,7 @@ _BUNIT = _BUNIT()
 """
 
 
-class _BUNIT_NEXT(NamedTuple):
+class _BUNIT_NEXT(Symbol):
     """
         name: .BUNIT_NEXT
         significant_digits: None
@@ -4823,7 +4823,7 @@ class _BUNIT_NEXT(NamedTuple):
         return ".BUNIT_NEXT"
 
 
-_BUNIT_NEXT = _BUNIT_NEXT()
+_BUNIT_NEXT = _BUNIT_NEXT(*_BUNIT_NEXT._fields)
 """
     name: .BUNIT_NEXT
     significant_digits: None
@@ -4837,7 +4837,7 @@ _BUNIT_NEXT = _BUNIT_NEXT()
 """
 
 
-class _UNIBON(NamedTuple):
+class _UNIBON(Symbol):
     """
         name: .UNIBON
         significant_digits: None
@@ -4875,7 +4875,7 @@ class _UNIBON(NamedTuple):
         return ".UNIBON"
 
 
-_UNIBON = _UNIBON()
+_UNIBON = _UNIBON(*_UNIBON._fields)
 """
     name: .UNIBON
     significant_digits: None
@@ -4889,7 +4889,7 @@ _UNIBON = _UNIBON()
 """
 
 
-class _UNIBON8H(NamedTuple):
+class _UNIBON8H(Symbol):
     """
         name: .UNIBON8H
         significant_digits: None
@@ -4927,7 +4927,7 @@ class _UNIBON8H(NamedTuple):
         return ".UNIBON8H"
 
 
-_UNIBON8H = _UNIBON8H()
+_UNIBON8H = _UNIBON8H(*_UNIBON8H._fields)
 """
     name: .UNIBON8H
     significant_digits: None
@@ -4941,7 +4941,7 @@ _UNIBON8H = _UNIBON8H()
 """
 
 
-class _UNIUSDTPI(NamedTuple):
+class _UNIUSDTPI(Symbol):
     """
         name: .UNIUSDTPI
         significant_digits: None
@@ -4979,7 +4979,7 @@ class _UNIUSDTPI(NamedTuple):
         return ".UNIUSDTPI"
 
 
-_UNIUSDTPI = _UNIUSDTPI()
+_UNIUSDTPI = _UNIUSDTPI(*_UNIUSDTPI._fields)
 """
     name: .UNIUSDTPI
     significant_digits: None
@@ -4993,7 +4993,7 @@ _UNIUSDTPI = _UNIUSDTPI()
 """
 
 
-class _UNIUSDTPI8H(NamedTuple):
+class _UNIUSDTPI8H(Symbol):
     """
         name: .UNIUSDTPI8H
         significant_digits: None
@@ -5031,7 +5031,7 @@ class _UNIUSDTPI8H(NamedTuple):
         return ".UNIUSDTPI8H"
 
 
-_UNIUSDTPI8H = _UNIUSDTPI8H()
+_UNIUSDTPI8H = _UNIUSDTPI8H(*_UNIUSDTPI8H._fields)
 """
     name: .UNIUSDTPI8H
     significant_digits: None
@@ -5045,7 +5045,7 @@ _UNIUSDTPI8H = _UNIUSDTPI8H()
 """
 
 
-class _BXLMT(NamedTuple):
+class _BXLMT(Symbol):
     """
         name: .BXLMT
         significant_digits: None
@@ -5083,7 +5083,7 @@ class _BXLMT(NamedTuple):
         return ".BXLMT"
 
 
-_BXLMT = _BXLMT()
+_BXLMT = _BXLMT(*_BXLMT._fields)
 """
     name: .BXLMT
     significant_digits: None
@@ -5097,7 +5097,7 @@ _BXLMT = _BXLMT()
 """
 
 
-class _BXLMT_NEXT(NamedTuple):
+class _BXLMT_NEXT(Symbol):
     """
         name: .BXLMT_NEXT
         significant_digits: None
@@ -5135,7 +5135,7 @@ class _BXLMT_NEXT(NamedTuple):
         return ".BXLMT_NEXT"
 
 
-_BXLMT_NEXT = _BXLMT_NEXT()
+_BXLMT_NEXT = _BXLMT_NEXT(*_BXLMT_NEXT._fields)
 """
     name: .BXLMT_NEXT
     significant_digits: None
@@ -5149,7 +5149,7 @@ _BXLMT_NEXT = _BXLMT_NEXT()
 """
 
 
-class _XLMBON(NamedTuple):
+class _XLMBON(Symbol):
     """
         name: .XLMBON
         significant_digits: None
@@ -5187,7 +5187,7 @@ class _XLMBON(NamedTuple):
         return ".XLMBON"
 
 
-_XLMBON = _XLMBON()
+_XLMBON = _XLMBON(*_XLMBON._fields)
 """
     name: .XLMBON
     significant_digits: None
@@ -5201,7 +5201,7 @@ _XLMBON = _XLMBON()
 """
 
 
-class _XLMBON8H(NamedTuple):
+class _XLMBON8H(Symbol):
     """
         name: .XLMBON8H
         significant_digits: None
@@ -5239,7 +5239,7 @@ class _XLMBON8H(NamedTuple):
         return ".XLMBON8H"
 
 
-_XLMBON8H = _XLMBON8H()
+_XLMBON8H = _XLMBON8H(*_XLMBON8H._fields)
 """
     name: .XLMBON8H
     significant_digits: None
@@ -5253,7 +5253,7 @@ _XLMBON8H = _XLMBON8H()
 """
 
 
-class _XLMUSDTPI(NamedTuple):
+class _XLMUSDTPI(Symbol):
     """
         name: .XLMUSDTPI
         significant_digits: None
@@ -5291,7 +5291,7 @@ class _XLMUSDTPI(NamedTuple):
         return ".XLMUSDTPI"
 
 
-_XLMUSDTPI = _XLMUSDTPI()
+_XLMUSDTPI = _XLMUSDTPI(*_XLMUSDTPI._fields)
 """
     name: .XLMUSDTPI
     significant_digits: None
@@ -5305,7 +5305,7 @@ _XLMUSDTPI = _XLMUSDTPI()
 """
 
 
-class _XLMUSDTPI8H(NamedTuple):
+class _XLMUSDTPI8H(Symbol):
     """
         name: .XLMUSDTPI8H
         significant_digits: None
@@ -5343,7 +5343,7 @@ class _XLMUSDTPI8H(NamedTuple):
         return ".XLMUSDTPI8H"
 
 
-_XLMUSDTPI8H = _XLMUSDTPI8H()
+_XLMUSDTPI8H = _XLMUSDTPI8H(*_XLMUSDTPI8H._fields)
 """
     name: .XLMUSDTPI8H
     significant_digits: None
@@ -5357,7 +5357,7 @@ _XLMUSDTPI8H = _XLMUSDTPI8H()
 """
 
 
-class _BTRXT(NamedTuple):
+class _BTRXT(Symbol):
     """
         name: .BTRXT
         significant_digits: None
@@ -5395,7 +5395,7 @@ class _BTRXT(NamedTuple):
         return ".BTRXT"
 
 
-_BTRXT = _BTRXT()
+_BTRXT = _BTRXT(*_BTRXT._fields)
 """
     name: .BTRXT
     significant_digits: None
@@ -5409,7 +5409,7 @@ _BTRXT = _BTRXT()
 """
 
 
-class _BTRXT_NEXT(NamedTuple):
+class _BTRXT_NEXT(Symbol):
     """
         name: .BTRXT_NEXT
         significant_digits: None
@@ -5447,7 +5447,7 @@ class _BTRXT_NEXT(NamedTuple):
         return ".BTRXT_NEXT"
 
 
-_BTRXT_NEXT = _BTRXT_NEXT()
+_BTRXT_NEXT = _BTRXT_NEXT(*_BTRXT_NEXT._fields)
 """
     name: .BTRXT_NEXT
     significant_digits: None
@@ -5461,7 +5461,7 @@ _BTRXT_NEXT = _BTRXT_NEXT()
 """
 
 
-class _TRXBON(NamedTuple):
+class _TRXBON(Symbol):
     """
         name: .TRXBON
         significant_digits: None
@@ -5499,7 +5499,7 @@ class _TRXBON(NamedTuple):
         return ".TRXBON"
 
 
-_TRXBON = _TRXBON()
+_TRXBON = _TRXBON(*_TRXBON._fields)
 """
     name: .TRXBON
     significant_digits: None
@@ -5513,7 +5513,7 @@ _TRXBON = _TRXBON()
 """
 
 
-class _TRXBON8H(NamedTuple):
+class _TRXBON8H(Symbol):
     """
         name: .TRXBON8H
         significant_digits: None
@@ -5551,7 +5551,7 @@ class _TRXBON8H(NamedTuple):
         return ".TRXBON8H"
 
 
-_TRXBON8H = _TRXBON8H()
+_TRXBON8H = _TRXBON8H(*_TRXBON8H._fields)
 """
     name: .TRXBON8H
     significant_digits: None
@@ -5565,7 +5565,7 @@ _TRXBON8H = _TRXBON8H()
 """
 
 
-class _TRXUSDTPI(NamedTuple):
+class _TRXUSDTPI(Symbol):
     """
         name: .TRXUSDTPI
         significant_digits: None
@@ -5603,7 +5603,7 @@ class _TRXUSDTPI(NamedTuple):
         return ".TRXUSDTPI"
 
 
-_TRXUSDTPI = _TRXUSDTPI()
+_TRXUSDTPI = _TRXUSDTPI(*_TRXUSDTPI._fields)
 """
     name: .TRXUSDTPI
     significant_digits: None
@@ -5617,7 +5617,7 @@ _TRXUSDTPI = _TRXUSDTPI()
 """
 
 
-class _TRXUSDTPI8H(NamedTuple):
+class _TRXUSDTPI8H(Symbol):
     """
         name: .TRXUSDTPI8H
         significant_digits: None
@@ -5655,7 +5655,7 @@ class _TRXUSDTPI8H(NamedTuple):
         return ".TRXUSDTPI8H"
 
 
-_TRXUSDTPI8H = _TRXUSDTPI8H()
+_TRXUSDTPI8H = _TRXUSDTPI8H(*_TRXUSDTPI8H._fields)
 """
     name: .TRXUSDTPI8H
     significant_digits: None
@@ -5669,7 +5669,7 @@ _TRXUSDTPI8H = _TRXUSDTPI8H()
 """
 
 
-class _BTRXT30M(NamedTuple):
+class _BTRXT30M(Symbol):
     """
         name: .BTRXT30M
         significant_digits: None
@@ -5707,7 +5707,7 @@ class _BTRXT30M(NamedTuple):
         return ".BTRXT30M"
 
 
-_BTRXT30M = _BTRXT30M()
+_BTRXT30M = _BTRXT30M(*_BTRXT30M._fields)
 """
     name: .BTRXT30M
     significant_digits: None
@@ -5721,7 +5721,7 @@ _BTRXT30M = _BTRXT30M()
 """
 
 
-class _BSOLT(NamedTuple):
+class _BSOLT(Symbol):
     """
         name: .BSOLT
         significant_digits: None
@@ -5759,7 +5759,7 @@ class _BSOLT(NamedTuple):
         return ".BSOLT"
 
 
-_BSOLT = _BSOLT()
+_BSOLT = _BSOLT(*_BSOLT._fields)
 """
     name: .BSOLT
     significant_digits: None
@@ -5773,7 +5773,7 @@ _BSOLT = _BSOLT()
 """
 
 
-class _BSOLT_NEXT(NamedTuple):
+class _BSOLT_NEXT(Symbol):
     """
         name: .BSOLT_NEXT
         significant_digits: None
@@ -5811,7 +5811,7 @@ class _BSOLT_NEXT(NamedTuple):
         return ".BSOLT_NEXT"
 
 
-_BSOLT_NEXT = _BSOLT_NEXT()
+_BSOLT_NEXT = _BSOLT_NEXT(*_BSOLT_NEXT._fields)
 """
     name: .BSOLT_NEXT
     significant_digits: None
@@ -5825,7 +5825,7 @@ _BSOLT_NEXT = _BSOLT_NEXT()
 """
 
 
-class _SOLBON(NamedTuple):
+class _SOLBON(Symbol):
     """
         name: .SOLBON
         significant_digits: None
@@ -5863,7 +5863,7 @@ class _SOLBON(NamedTuple):
         return ".SOLBON"
 
 
-_SOLBON = _SOLBON()
+_SOLBON = _SOLBON(*_SOLBON._fields)
 """
     name: .SOLBON
     significant_digits: None
@@ -5877,7 +5877,7 @@ _SOLBON = _SOLBON()
 """
 
 
-class _SOLBON8H(NamedTuple):
+class _SOLBON8H(Symbol):
     """
         name: .SOLBON8H
         significant_digits: None
@@ -5915,7 +5915,7 @@ class _SOLBON8H(NamedTuple):
         return ".SOLBON8H"
 
 
-_SOLBON8H = _SOLBON8H()
+_SOLBON8H = _SOLBON8H(*_SOLBON8H._fields)
 """
     name: .SOLBON8H
     significant_digits: None
@@ -5929,7 +5929,7 @@ _SOLBON8H = _SOLBON8H()
 """
 
 
-class _SOLUSDTPI(NamedTuple):
+class _SOLUSDTPI(Symbol):
     """
         name: .SOLUSDTPI
         significant_digits: None
@@ -5967,7 +5967,7 @@ class _SOLUSDTPI(NamedTuple):
         return ".SOLUSDTPI"
 
 
-_SOLUSDTPI = _SOLUSDTPI()
+_SOLUSDTPI = _SOLUSDTPI(*_SOLUSDTPI._fields)
 """
     name: .SOLUSDTPI
     significant_digits: None
@@ -5981,7 +5981,7 @@ _SOLUSDTPI = _SOLUSDTPI()
 """
 
 
-class _SOLUSDTPI8H(NamedTuple):
+class _SOLUSDTPI8H(Symbol):
     """
         name: .SOLUSDTPI8H
         significant_digits: None
@@ -6019,7 +6019,7 @@ class _SOLUSDTPI8H(NamedTuple):
         return ".SOLUSDTPI8H"
 
 
-_SOLUSDTPI8H = _SOLUSDTPI8H()
+_SOLUSDTPI8H = _SOLUSDTPI8H(*_SOLUSDTPI8H._fields)
 """
     name: .SOLUSDTPI8H
     significant_digits: None
@@ -6033,7 +6033,7 @@ _SOLUSDTPI8H = _SOLUSDTPI8H()
 """
 
 
-class _BFILT(NamedTuple):
+class _BFILT(Symbol):
     """
         name: .BFILT
         significant_digits: None
@@ -6071,7 +6071,7 @@ class _BFILT(NamedTuple):
         return ".BFILT"
 
 
-_BFILT = _BFILT()
+_BFILT = _BFILT(*_BFILT._fields)
 """
     name: .BFILT
     significant_digits: None
@@ -6085,7 +6085,7 @@ _BFILT = _BFILT()
 """
 
 
-class _BFILT_NEXT(NamedTuple):
+class _BFILT_NEXT(Symbol):
     """
         name: .BFILT_NEXT
         significant_digits: None
@@ -6123,7 +6123,7 @@ class _BFILT_NEXT(NamedTuple):
         return ".BFILT_NEXT"
 
 
-_BFILT_NEXT = _BFILT_NEXT()
+_BFILT_NEXT = _BFILT_NEXT(*_BFILT_NEXT._fields)
 """
     name: .BFILT_NEXT
     significant_digits: None
@@ -6137,7 +6137,7 @@ _BFILT_NEXT = _BFILT_NEXT()
 """
 
 
-class _FILBON(NamedTuple):
+class _FILBON(Symbol):
     """
         name: .FILBON
         significant_digits: None
@@ -6175,7 +6175,7 @@ class _FILBON(NamedTuple):
         return ".FILBON"
 
 
-_FILBON = _FILBON()
+_FILBON = _FILBON(*_FILBON._fields)
 """
     name: .FILBON
     significant_digits: None
@@ -6189,7 +6189,7 @@ _FILBON = _FILBON()
 """
 
 
-class _FILBON8H(NamedTuple):
+class _FILBON8H(Symbol):
     """
         name: .FILBON8H
         significant_digits: None
@@ -6227,7 +6227,7 @@ class _FILBON8H(NamedTuple):
         return ".FILBON8H"
 
 
-_FILBON8H = _FILBON8H()
+_FILBON8H = _FILBON8H(*_FILBON8H._fields)
 """
     name: .FILBON8H
     significant_digits: None
@@ -6241,7 +6241,7 @@ _FILBON8H = _FILBON8H()
 """
 
 
-class _FILUSDTPI(NamedTuple):
+class _FILUSDTPI(Symbol):
     """
         name: .FILUSDTPI
         significant_digits: None
@@ -6279,7 +6279,7 @@ class _FILUSDTPI(NamedTuple):
         return ".FILUSDTPI"
 
 
-_FILUSDTPI = _FILUSDTPI()
+_FILUSDTPI = _FILUSDTPI(*_FILUSDTPI._fields)
 """
     name: .FILUSDTPI
     significant_digits: None
@@ -6293,7 +6293,7 @@ _FILUSDTPI = _FILUSDTPI()
 """
 
 
-class _FILUSDTPI8H(NamedTuple):
+class _FILUSDTPI8H(Symbol):
     """
         name: .FILUSDTPI8H
         significant_digits: None
@@ -6331,7 +6331,7 @@ class _FILUSDTPI8H(NamedTuple):
         return ".FILUSDTPI8H"
 
 
-_FILUSDTPI8H = _FILUSDTPI8H()
+_FILUSDTPI8H = _FILUSDTPI8H(*_FILUSDTPI8H._fields)
 """
     name: .FILUSDTPI8H
     significant_digits: None
@@ -6345,7 +6345,7 @@ _FILUSDTPI8H = _FILUSDTPI8H()
 """
 
 
-class _EURBON(NamedTuple):
+class _EURBON(Symbol):
     """
         name: .EURBON
         significant_digits: None
@@ -6383,7 +6383,7 @@ class _EURBON(NamedTuple):
         return ".EURBON"
 
 
-_EURBON = _EURBON()
+_EURBON = _EURBON(*_EURBON._fields)
 """
     name: .EURBON
     significant_digits: None
@@ -6397,7 +6397,7 @@ _EURBON = _EURBON()
 """
 
 
-class _EURBON8H(NamedTuple):
+class _EURBON8H(Symbol):
     """
         name: .EURBON8H
         significant_digits: None
@@ -6435,7 +6435,7 @@ class _EURBON8H(NamedTuple):
         return ".EURBON8H"
 
 
-_EURBON8H = _EURBON8H()
+_EURBON8H = _EURBON8H(*_EURBON8H._fields)
 """
     name: .EURBON8H
     significant_digits: None
@@ -6449,7 +6449,7 @@ _EURBON8H = _EURBON8H()
 """
 
 
-class _BVETT(NamedTuple):
+class _BVETT(Symbol):
     """
         name: .BVETT
         significant_digits: None
@@ -6487,7 +6487,7 @@ class _BVETT(NamedTuple):
         return ".BVETT"
 
 
-_BVETT = _BVETT()
+_BVETT = _BVETT(*_BVETT._fields)
 """
     name: .BVETT
     significant_digits: None
@@ -6501,7 +6501,7 @@ _BVETT = _BVETT()
 """
 
 
-class _BVETT_NEXT(NamedTuple):
+class _BVETT_NEXT(Symbol):
     """
         name: .BVETT_NEXT
         significant_digits: None
@@ -6539,7 +6539,7 @@ class _BVETT_NEXT(NamedTuple):
         return ".BVETT_NEXT"
 
 
-_BVETT_NEXT = _BVETT_NEXT()
+_BVETT_NEXT = _BVETT_NEXT(*_BVETT_NEXT._fields)
 """
     name: .BVETT_NEXT
     significant_digits: None
@@ -6553,7 +6553,7 @@ _BVETT_NEXT = _BVETT_NEXT()
 """
 
 
-class _VETBON(NamedTuple):
+class _VETBON(Symbol):
     """
         name: .VETBON
         significant_digits: None
@@ -6591,7 +6591,7 @@ class _VETBON(NamedTuple):
         return ".VETBON"
 
 
-_VETBON = _VETBON()
+_VETBON = _VETBON(*_VETBON._fields)
 """
     name: .VETBON
     significant_digits: None
@@ -6605,7 +6605,7 @@ _VETBON = _VETBON()
 """
 
 
-class _VETBON8H(NamedTuple):
+class _VETBON8H(Symbol):
     """
         name: .VETBON8H
         significant_digits: None
@@ -6643,7 +6643,7 @@ class _VETBON8H(NamedTuple):
         return ".VETBON8H"
 
 
-_VETBON8H = _VETBON8H()
+_VETBON8H = _VETBON8H(*_VETBON8H._fields)
 """
     name: .VETBON8H
     significant_digits: None
@@ -6657,7 +6657,7 @@ _VETBON8H = _VETBON8H()
 """
 
 
-class _VETUSDTPI(NamedTuple):
+class _VETUSDTPI(Symbol):
     """
         name: .VETUSDTPI
         significant_digits: None
@@ -6695,7 +6695,7 @@ class _VETUSDTPI(NamedTuple):
         return ".VETUSDTPI"
 
 
-_VETUSDTPI = _VETUSDTPI()
+_VETUSDTPI = _VETUSDTPI(*_VETUSDTPI._fields)
 """
     name: .VETUSDTPI
     significant_digits: None
@@ -6709,7 +6709,7 @@ _VETUSDTPI = _VETUSDTPI()
 """
 
 
-class _VETUSDTPI8H(NamedTuple):
+class _VETUSDTPI8H(Symbol):
     """
         name: .VETUSDTPI8H
         significant_digits: None
@@ -6747,7 +6747,7 @@ class _VETUSDTPI8H(NamedTuple):
         return ".VETUSDTPI8H"
 
 
-_VETUSDTPI8H = _VETUSDTPI8H()
+_VETUSDTPI8H = _VETUSDTPI8H(*_VETUSDTPI8H._fields)
 """
     name: .VETUSDTPI8H
     significant_digits: None
@@ -6761,7 +6761,7 @@ _VETUSDTPI8H = _VETUSDTPI8H()
 """
 
 
-class _BMATICT(NamedTuple):
+class _BMATICT(Symbol):
     """
         name: .BMATICT
         significant_digits: None
@@ -6799,7 +6799,7 @@ class _BMATICT(NamedTuple):
         return ".BMATICT"
 
 
-_BMATICT = _BMATICT()
+_BMATICT = _BMATICT(*_BMATICT._fields)
 """
     name: .BMATICT
     significant_digits: None
@@ -6813,7 +6813,7 @@ _BMATICT = _BMATICT()
 """
 
 
-class _BMATICT_NEXT(NamedTuple):
+class _BMATICT_NEXT(Symbol):
     """
         name: .BMATICT_NEXT
         significant_digits: None
@@ -6851,7 +6851,7 @@ class _BMATICT_NEXT(NamedTuple):
         return ".BMATICT_NEXT"
 
 
-_BMATICT_NEXT = _BMATICT_NEXT()
+_BMATICT_NEXT = _BMATICT_NEXT(*_BMATICT_NEXT._fields)
 """
     name: .BMATICT_NEXT
     significant_digits: None
@@ -6865,7 +6865,7 @@ _BMATICT_NEXT = _BMATICT_NEXT()
 """
 
 
-class _MATICBON(NamedTuple):
+class _MATICBON(Symbol):
     """
         name: .MATICBON
         significant_digits: None
@@ -6903,7 +6903,7 @@ class _MATICBON(NamedTuple):
         return ".MATICBON"
 
 
-_MATICBON = _MATICBON()
+_MATICBON = _MATICBON(*_MATICBON._fields)
 """
     name: .MATICBON
     significant_digits: None
@@ -6917,7 +6917,7 @@ _MATICBON = _MATICBON()
 """
 
 
-class _MATICBON8H(NamedTuple):
+class _MATICBON8H(Symbol):
     """
         name: .MATICBON8H
         significant_digits: None
@@ -6955,7 +6955,7 @@ class _MATICBON8H(NamedTuple):
         return ".MATICBON8H"
 
 
-_MATICBON8H = _MATICBON8H()
+_MATICBON8H = _MATICBON8H(*_MATICBON8H._fields)
 """
     name: .MATICBON8H
     significant_digits: None
@@ -6969,7 +6969,7 @@ _MATICBON8H = _MATICBON8H()
 """
 
 
-class _MATICUSDTPI(NamedTuple):
+class _MATICUSDTPI(Symbol):
     """
         name: .MATICUSDTPI
         significant_digits: None
@@ -7007,7 +7007,7 @@ class _MATICUSDTPI(NamedTuple):
         return ".MATICUSDTPI"
 
 
-_MATICUSDTPI = _MATICUSDTPI()
+_MATICUSDTPI = _MATICUSDTPI(*_MATICUSDTPI._fields)
 """
     name: .MATICUSDTPI
     significant_digits: None
@@ -7021,7 +7021,7 @@ _MATICUSDTPI = _MATICUSDTPI()
 """
 
 
-class _MATICUSDTPI8H(NamedTuple):
+class _MATICUSDTPI8H(Symbol):
     """
         name: .MATICUSDTPI8H
         significant_digits: None
@@ -7059,7 +7059,7 @@ class _MATICUSDTPI8H(NamedTuple):
         return ".MATICUSDTPI8H"
 
 
-_MATICUSDTPI8H = _MATICUSDTPI8H()
+_MATICUSDTPI8H = _MATICUSDTPI8H(*_MATICUSDTPI8H._fields)
 """
     name: .MATICUSDTPI8H
     significant_digits: None
@@ -7073,7 +7073,7 @@ _MATICUSDTPI8H = _MATICUSDTPI8H()
 """
 
 
-class _BMKRT(NamedTuple):
+class _BMKRT(Symbol):
     """
         name: .BMKRT
         significant_digits: None
@@ -7111,7 +7111,7 @@ class _BMKRT(NamedTuple):
         return ".BMKRT"
 
 
-_BMKRT = _BMKRT()
+_BMKRT = _BMKRT(*_BMKRT._fields)
 """
     name: .BMKRT
     significant_digits: None
@@ -7125,7 +7125,7 @@ _BMKRT = _BMKRT()
 """
 
 
-class _BMKRT_NEXT(NamedTuple):
+class _BMKRT_NEXT(Symbol):
     """
         name: .BMKRT_NEXT
         significant_digits: None
@@ -7163,7 +7163,7 @@ class _BMKRT_NEXT(NamedTuple):
         return ".BMKRT_NEXT"
 
 
-_BMKRT_NEXT = _BMKRT_NEXT()
+_BMKRT_NEXT = _BMKRT_NEXT(*_BMKRT_NEXT._fields)
 """
     name: .BMKRT_NEXT
     significant_digits: None
@@ -7177,7 +7177,7 @@ _BMKRT_NEXT = _BMKRT_NEXT()
 """
 
 
-class _BAVAXT(NamedTuple):
+class _BAVAXT(Symbol):
     """
         name: .BAVAXT
         significant_digits: None
@@ -7215,7 +7215,7 @@ class _BAVAXT(NamedTuple):
         return ".BAVAXT"
 
 
-_BAVAXT = _BAVAXT()
+_BAVAXT = _BAVAXT(*_BAVAXT._fields)
 """
     name: .BAVAXT
     significant_digits: None
@@ -7229,7 +7229,7 @@ _BAVAXT = _BAVAXT()
 """
 
 
-class _BAVAXT_NEXT(NamedTuple):
+class _BAVAXT_NEXT(Symbol):
     """
         name: .BAVAXT_NEXT
         significant_digits: None
@@ -7267,7 +7267,7 @@ class _BAVAXT_NEXT(NamedTuple):
         return ".BAVAXT_NEXT"
 
 
-_BAVAXT_NEXT = _BAVAXT_NEXT()
+_BAVAXT_NEXT = _BAVAXT_NEXT(*_BAVAXT_NEXT._fields)
 """
     name: .BAVAXT_NEXT
     significant_digits: None
@@ -7281,7 +7281,7 @@ _BAVAXT_NEXT = _BAVAXT_NEXT()
 """
 
 
-class _BLUNAT(NamedTuple):
+class _BLUNAT(Symbol):
     """
         name: .BLUNAT
         significant_digits: None
@@ -7319,7 +7319,7 @@ class _BLUNAT(NamedTuple):
         return ".BLUNAT"
 
 
-_BLUNAT = _BLUNAT()
+_BLUNAT = _BLUNAT(*_BLUNAT._fields)
 """
     name: .BLUNAT
     significant_digits: None
@@ -7333,7 +7333,7 @@ _BLUNAT = _BLUNAT()
 """
 
 
-class _BLUNAT_NEXT(NamedTuple):
+class _BLUNAT_NEXT(Symbol):
     """
         name: .BLUNAT_NEXT
         significant_digits: None
@@ -7371,7 +7371,7 @@ class _BLUNAT_NEXT(NamedTuple):
         return ".BLUNAT_NEXT"
 
 
-_BLUNAT_NEXT = _BLUNAT_NEXT()
+_BLUNAT_NEXT = _BLUNAT_NEXT(*_BLUNAT_NEXT._fields)
 """
     name: .BLUNAT_NEXT
     significant_digits: None
@@ -7385,7 +7385,7 @@ _BLUNAT_NEXT = _BLUNAT_NEXT()
 """
 
 
-class _BCOMPT(NamedTuple):
+class _BCOMPT(Symbol):
     """
         name: .BCOMPT
         significant_digits: None
@@ -7423,7 +7423,7 @@ class _BCOMPT(NamedTuple):
         return ".BCOMPT"
 
 
-_BCOMPT = _BCOMPT()
+_BCOMPT = _BCOMPT(*_BCOMPT._fields)
 """
     name: .BCOMPT
     significant_digits: None
@@ -7437,7 +7437,7 @@ _BCOMPT = _BCOMPT()
 """
 
 
-class _BCOMPT_NEXT(NamedTuple):
+class _BCOMPT_NEXT(Symbol):
     """
         name: .BCOMPT_NEXT
         significant_digits: None
@@ -7475,7 +7475,7 @@ class _BCOMPT_NEXT(NamedTuple):
         return ".BCOMPT_NEXT"
 
 
-_BCOMPT_NEXT = _BCOMPT_NEXT()
+_BCOMPT_NEXT = _BCOMPT_NEXT(*_BCOMPT_NEXT._fields)
 """
     name: .BCOMPT_NEXT
     significant_digits: None
@@ -7489,7 +7489,7 @@ _BCOMPT_NEXT = _BCOMPT_NEXT()
 """
 
 
-class _BSUSHIT(NamedTuple):
+class _BSUSHIT(Symbol):
     """
         name: .BSUSHIT
         significant_digits: None
@@ -7527,7 +7527,7 @@ class _BSUSHIT(NamedTuple):
         return ".BSUSHIT"
 
 
-_BSUSHIT = _BSUSHIT()
+_BSUSHIT = _BSUSHIT(*_BSUSHIT._fields)
 """
     name: .BSUSHIT
     significant_digits: None
@@ -7541,7 +7541,7 @@ _BSUSHIT = _BSUSHIT()
 """
 
 
-class _BSUSHIT_NEXT(NamedTuple):
+class _BSUSHIT_NEXT(Symbol):
     """
         name: .BSUSHIT_NEXT
         significant_digits: None
@@ -7579,7 +7579,7 @@ class _BSUSHIT_NEXT(NamedTuple):
         return ".BSUSHIT_NEXT"
 
 
-_BSUSHIT_NEXT = _BSUSHIT_NEXT()
+_BSUSHIT_NEXT = _BSUSHIT_NEXT(*_BSUSHIT_NEXT._fields)
 """
     name: .BSUSHIT_NEXT
     significant_digits: None
@@ -7593,7 +7593,7 @@ _BSUSHIT_NEXT = _BSUSHIT_NEXT()
 """
 
 
-class _BGRTT(NamedTuple):
+class _BGRTT(Symbol):
     """
         name: .BGRTT
         significant_digits: None
@@ -7631,7 +7631,7 @@ class _BGRTT(NamedTuple):
         return ".BGRTT"
 
 
-_BGRTT = _BGRTT()
+_BGRTT = _BGRTT(*_BGRTT._fields)
 """
     name: .BGRTT
     significant_digits: None
@@ -7645,7 +7645,7 @@ _BGRTT = _BGRTT()
 """
 
 
-class _BGRTT_NEXT(NamedTuple):
+class _BGRTT_NEXT(Symbol):
     """
         name: .BGRTT_NEXT
         significant_digits: None
@@ -7683,7 +7683,7 @@ class _BGRTT_NEXT(NamedTuple):
         return ".BGRTT_NEXT"
 
 
-_BGRTT_NEXT = _BGRTT_NEXT()
+_BGRTT_NEXT = _BGRTT_NEXT(*_BGRTT_NEXT._fields)
 """
     name: .BGRTT_NEXT
     significant_digits: None
@@ -7697,7 +7697,7 @@ _BGRTT_NEXT = _BGRTT_NEXT()
 """
 
 
-class _BALTMEX(NamedTuple):
+class _BALTMEX(Symbol):
     """
         name: .BALTMEX
         significant_digits: None
@@ -7735,7 +7735,7 @@ class _BALTMEX(NamedTuple):
         return ".BALTMEX"
 
 
-_BALTMEX = _BALTMEX()
+_BALTMEX = _BALTMEX(*_BALTMEX._fields)
 """
     name: .BALTMEX
     significant_digits: None
@@ -7749,7 +7749,7 @@ _BALTMEX = _BALTMEX()
 """
 
 
-class _BDEFIMEX(NamedTuple):
+class _BDEFIMEX(Symbol):
     """
         name: .BDEFIMEX
         significant_digits: None
@@ -7787,7 +7787,7 @@ class _BDEFIMEX(NamedTuple):
         return ".BDEFIMEX"
 
 
-_BDEFIMEX = _BDEFIMEX()
+_BDEFIMEX = _BDEFIMEX(*_BDEFIMEX._fields)
 """
     name: .BDEFIMEX
     significant_digits: None
@@ -7801,7 +7801,7 @@ _BDEFIMEX = _BDEFIMEX()
 """
 
 
-class _ALTMEXBON(NamedTuple):
+class _ALTMEXBON(Symbol):
     """
         name: .ALTMEXBON
         significant_digits: None
@@ -7839,7 +7839,7 @@ class _ALTMEXBON(NamedTuple):
         return ".ALTMEXBON"
 
 
-_ALTMEXBON = _ALTMEXBON()
+_ALTMEXBON = _ALTMEXBON(*_ALTMEXBON._fields)
 """
     name: .ALTMEXBON
     significant_digits: None
@@ -7853,7 +7853,7 @@ _ALTMEXBON = _ALTMEXBON()
 """
 
 
-class _ALTMEXBON8H(NamedTuple):
+class _ALTMEXBON8H(Symbol):
     """
         name: .ALTMEXBON8H
         significant_digits: None
@@ -7891,7 +7891,7 @@ class _ALTMEXBON8H(NamedTuple):
         return ".ALTMEXBON8H"
 
 
-_ALTMEXBON8H = _ALTMEXBON8H()
+_ALTMEXBON8H = _ALTMEXBON8H(*_ALTMEXBON8H._fields)
 """
     name: .ALTMEXBON8H
     significant_digits: None
@@ -7905,7 +7905,7 @@ _ALTMEXBON8H = _ALTMEXBON8H()
 """
 
 
-class _ALTMEXUSDPI(NamedTuple):
+class _ALTMEXUSDPI(Symbol):
     """
         name: .ALTMEXUSDPI
         significant_digits: None
@@ -7943,7 +7943,7 @@ class _ALTMEXUSDPI(NamedTuple):
         return ".ALTMEXUSDPI"
 
 
-_ALTMEXUSDPI = _ALTMEXUSDPI()
+_ALTMEXUSDPI = _ALTMEXUSDPI(*_ALTMEXUSDPI._fields)
 """
     name: .ALTMEXUSDPI
     significant_digits: None
@@ -7957,7 +7957,7 @@ _ALTMEXUSDPI = _ALTMEXUSDPI()
 """
 
 
-class _ALTMEXUSDPI8H(NamedTuple):
+class _ALTMEXUSDPI8H(Symbol):
     """
         name: .ALTMEXUSDPI8H
         significant_digits: None
@@ -7995,7 +7995,7 @@ class _ALTMEXUSDPI8H(NamedTuple):
         return ".ALTMEXUSDPI8H"
 
 
-_ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
+_ALTMEXUSDPI8H = _ALTMEXUSDPI8H(*_ALTMEXUSDPI8H._fields)
 """
     name: .ALTMEXUSDPI8H
     significant_digits: None
@@ -8009,7 +8009,7 @@ _ALTMEXUSDPI8H = _ALTMEXUSDPI8H()
 """
 
 
-class _DEFIMEXBON(NamedTuple):
+class _DEFIMEXBON(Symbol):
     """
         name: .DEFIMEXBON
         significant_digits: None
@@ -8047,7 +8047,7 @@ class _DEFIMEXBON(NamedTuple):
         return ".DEFIMEXBON"
 
 
-_DEFIMEXBON = _DEFIMEXBON()
+_DEFIMEXBON = _DEFIMEXBON(*_DEFIMEXBON._fields)
 """
     name: .DEFIMEXBON
     significant_digits: None
@@ -8061,7 +8061,7 @@ _DEFIMEXBON = _DEFIMEXBON()
 """
 
 
-class _DEFIMEXBON8H(NamedTuple):
+class _DEFIMEXBON8H(Symbol):
     """
         name: .DEFIMEXBON8H
         significant_digits: None
@@ -8099,7 +8099,7 @@ class _DEFIMEXBON8H(NamedTuple):
         return ".DEFIMEXBON8H"
 
 
-_DEFIMEXBON8H = _DEFIMEXBON8H()
+_DEFIMEXBON8H = _DEFIMEXBON8H(*_DEFIMEXBON8H._fields)
 """
     name: .DEFIMEXBON8H
     significant_digits: None
@@ -8113,7 +8113,7 @@ _DEFIMEXBON8H = _DEFIMEXBON8H()
 """
 
 
-class _DEFIMEXUSDPI(NamedTuple):
+class _DEFIMEXUSDPI(Symbol):
     """
         name: .DEFIMEXUSDPI
         significant_digits: None
@@ -8151,7 +8151,7 @@ class _DEFIMEXUSDPI(NamedTuple):
         return ".DEFIMEXUSDPI"
 
 
-_DEFIMEXUSDPI = _DEFIMEXUSDPI()
+_DEFIMEXUSDPI = _DEFIMEXUSDPI(*_DEFIMEXUSDPI._fields)
 """
     name: .DEFIMEXUSDPI
     significant_digits: None
@@ -8165,7 +8165,7 @@ _DEFIMEXUSDPI = _DEFIMEXUSDPI()
 """
 
 
-class _DEFIMEXUSDPI8H(NamedTuple):
+class _DEFIMEXUSDPI8H(Symbol):
     """
         name: .DEFIMEXUSDPI8H
         significant_digits: None
@@ -8203,7 +8203,7 @@ class _DEFIMEXUSDPI8H(NamedTuple):
         return ".DEFIMEXUSDPI8H"
 
 
-_DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
+_DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H(*_DEFIMEXUSDPI8H._fields)
 """
     name: .DEFIMEXUSDPI8H
     significant_digits: None
@@ -8217,7 +8217,7 @@ _DEFIMEXUSDPI8H = _DEFIMEXUSDPI8H()
 """
 
 
-class _SUSHIBON(NamedTuple):
+class _SUSHIBON(Symbol):
     """
         name: .SUSHIBON
         significant_digits: None
@@ -8255,7 +8255,7 @@ class _SUSHIBON(NamedTuple):
         return ".SUSHIBON"
 
 
-_SUSHIBON = _SUSHIBON()
+_SUSHIBON = _SUSHIBON(*_SUSHIBON._fields)
 """
     name: .SUSHIBON
     significant_digits: None
@@ -8269,7 +8269,7 @@ _SUSHIBON = _SUSHIBON()
 """
 
 
-class _SUSHIBON8H(NamedTuple):
+class _SUSHIBON8H(Symbol):
     """
         name: .SUSHIBON8H
         significant_digits: None
@@ -8307,7 +8307,7 @@ class _SUSHIBON8H(NamedTuple):
         return ".SUSHIBON8H"
 
 
-_SUSHIBON8H = _SUSHIBON8H()
+_SUSHIBON8H = _SUSHIBON8H(*_SUSHIBON8H._fields)
 """
     name: .SUSHIBON8H
     significant_digits: None
@@ -8321,7 +8321,7 @@ _SUSHIBON8H = _SUSHIBON8H()
 """
 
 
-class _SUSHIUSDTPI(NamedTuple):
+class _SUSHIUSDTPI(Symbol):
     """
         name: .SUSHIUSDTPI
         significant_digits: None
@@ -8359,7 +8359,7 @@ class _SUSHIUSDTPI(NamedTuple):
         return ".SUSHIUSDTPI"
 
 
-_SUSHIUSDTPI = _SUSHIUSDTPI()
+_SUSHIUSDTPI = _SUSHIUSDTPI(*_SUSHIUSDTPI._fields)
 """
     name: .SUSHIUSDTPI
     significant_digits: None
@@ -8373,7 +8373,7 @@ _SUSHIUSDTPI = _SUSHIUSDTPI()
 """
 
 
-class _SUSHIUSDTPI8H(NamedTuple):
+class _SUSHIUSDTPI8H(Symbol):
     """
         name: .SUSHIUSDTPI8H
         significant_digits: None
@@ -8411,7 +8411,7 @@ class _SUSHIUSDTPI8H(NamedTuple):
         return ".SUSHIUSDTPI8H"
 
 
-_SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
+_SUSHIUSDTPI8H = _SUSHIUSDTPI8H(*_SUSHIUSDTPI8H._fields)
 """
     name: .SUSHIUSDTPI8H
     significant_digits: None
@@ -8425,7 +8425,7 @@ _SUSHIUSDTPI8H = _SUSHIUSDTPI8H()
 """
 
 
-class _BAXST(NamedTuple):
+class _BAXST(Symbol):
     """
         name: .BAXST
         significant_digits: None
@@ -8463,7 +8463,7 @@ class _BAXST(NamedTuple):
         return ".BAXST"
 
 
-_BAXST = _BAXST()
+_BAXST = _BAXST(*_BAXST._fields)
 """
     name: .BAXST
     significant_digits: None
@@ -8477,7 +8477,7 @@ _BAXST = _BAXST()
 """
 
 
-class _BAXST_NEXT(NamedTuple):
+class _BAXST_NEXT(Symbol):
     """
         name: .BAXST_NEXT
         significant_digits: None
@@ -8515,7 +8515,7 @@ class _BAXST_NEXT(NamedTuple):
         return ".BAXST_NEXT"
 
 
-_BAXST_NEXT = _BAXST_NEXT()
+_BAXST_NEXT = _BAXST_NEXT(*_BAXST_NEXT._fields)
 """
     name: .BAXST_NEXT
     significant_digits: None
@@ -8529,7 +8529,7 @@ _BAXST_NEXT = _BAXST_NEXT()
 """
 
 
-class _AXSBON(NamedTuple):
+class _AXSBON(Symbol):
     """
         name: .AXSBON
         significant_digits: None
@@ -8567,7 +8567,7 @@ class _AXSBON(NamedTuple):
         return ".AXSBON"
 
 
-_AXSBON = _AXSBON()
+_AXSBON = _AXSBON(*_AXSBON._fields)
 """
     name: .AXSBON
     significant_digits: None
@@ -8581,7 +8581,7 @@ _AXSBON = _AXSBON()
 """
 
 
-class _AXSBON8H(NamedTuple):
+class _AXSBON8H(Symbol):
     """
         name: .AXSBON8H
         significant_digits: None
@@ -8619,7 +8619,7 @@ class _AXSBON8H(NamedTuple):
         return ".AXSBON8H"
 
 
-_AXSBON8H = _AXSBON8H()
+_AXSBON8H = _AXSBON8H(*_AXSBON8H._fields)
 """
     name: .AXSBON8H
     significant_digits: None
@@ -8633,7 +8633,7 @@ _AXSBON8H = _AXSBON8H()
 """
 
 
-class _AXSUSDTPI(NamedTuple):
+class _AXSUSDTPI(Symbol):
     """
         name: .AXSUSDTPI
         significant_digits: None
@@ -8671,7 +8671,7 @@ class _AXSUSDTPI(NamedTuple):
         return ".AXSUSDTPI"
 
 
-_AXSUSDTPI = _AXSUSDTPI()
+_AXSUSDTPI = _AXSUSDTPI(*_AXSUSDTPI._fields)
 """
     name: .AXSUSDTPI
     significant_digits: None
@@ -8685,7 +8685,7 @@ _AXSUSDTPI = _AXSUSDTPI()
 """
 
 
-class _AXSUSDTPI8H(NamedTuple):
+class _AXSUSDTPI8H(Symbol):
     """
         name: .AXSUSDTPI8H
         significant_digits: None
@@ -8723,7 +8723,7 @@ class _AXSUSDTPI8H(NamedTuple):
         return ".AXSUSDTPI8H"
 
 
-_AXSUSDTPI8H = _AXSUSDTPI8H()
+_AXSUSDTPI8H = _AXSUSDTPI8H(*_AXSUSDTPI8H._fields)
 """
     name: .AXSUSDTPI8H
     significant_digits: None
@@ -8737,7 +8737,7 @@ _AXSUSDTPI8H = _AXSUSDTPI8H()
 """
 
 
-class _BSRMT(NamedTuple):
+class _BSRMT(Symbol):
     """
         name: .BSRMT
         significant_digits: None
@@ -8775,7 +8775,7 @@ class _BSRMT(NamedTuple):
         return ".BSRMT"
 
 
-_BSRMT = _BSRMT()
+_BSRMT = _BSRMT(*_BSRMT._fields)
 """
     name: .BSRMT
     significant_digits: None
@@ -8789,7 +8789,7 @@ _BSRMT = _BSRMT()
 """
 
 
-class _BSRMT_NEXT(NamedTuple):
+class _BSRMT_NEXT(Symbol):
     """
         name: .BSRMT_NEXT
         significant_digits: None
@@ -8827,7 +8827,7 @@ class _BSRMT_NEXT(NamedTuple):
         return ".BSRMT_NEXT"
 
 
-_BSRMT_NEXT = _BSRMT_NEXT()
+_BSRMT_NEXT = _BSRMT_NEXT(*_BSRMT_NEXT._fields)
 """
     name: .BSRMT_NEXT
     significant_digits: None
@@ -8841,7 +8841,7 @@ _BSRMT_NEXT = _BSRMT_NEXT()
 """
 
 
-class _SRMBON(NamedTuple):
+class _SRMBON(Symbol):
     """
         name: .SRMBON
         significant_digits: None
@@ -8879,7 +8879,7 @@ class _SRMBON(NamedTuple):
         return ".SRMBON"
 
 
-_SRMBON = _SRMBON()
+_SRMBON = _SRMBON(*_SRMBON._fields)
 """
     name: .SRMBON
     significant_digits: None
@@ -8893,7 +8893,7 @@ _SRMBON = _SRMBON()
 """
 
 
-class _SRMBON8H(NamedTuple):
+class _SRMBON8H(Symbol):
     """
         name: .SRMBON8H
         significant_digits: None
@@ -8931,7 +8931,7 @@ class _SRMBON8H(NamedTuple):
         return ".SRMBON8H"
 
 
-_SRMBON8H = _SRMBON8H()
+_SRMBON8H = _SRMBON8H(*_SRMBON8H._fields)
 """
     name: .SRMBON8H
     significant_digits: None
@@ -8945,7 +8945,7 @@ _SRMBON8H = _SRMBON8H()
 """
 
 
-class _SRMUSDTPI(NamedTuple):
+class _SRMUSDTPI(Symbol):
     """
         name: .SRMUSDTPI
         significant_digits: None
@@ -8983,7 +8983,7 @@ class _SRMUSDTPI(NamedTuple):
         return ".SRMUSDTPI"
 
 
-_SRMUSDTPI = _SRMUSDTPI()
+_SRMUSDTPI = _SRMUSDTPI(*_SRMUSDTPI._fields)
 """
     name: .SRMUSDTPI
     significant_digits: None
@@ -8997,7 +8997,7 @@ _SRMUSDTPI = _SRMUSDTPI()
 """
 
 
-class _SRMUSDTPI8H(NamedTuple):
+class _SRMUSDTPI8H(Symbol):
     """
         name: .SRMUSDTPI8H
         significant_digits: None
@@ -9035,7 +9035,7 @@ class _SRMUSDTPI8H(NamedTuple):
         return ".SRMUSDTPI8H"
 
 
-_SRMUSDTPI8H = _SRMUSDTPI8H()
+_SRMUSDTPI8H = _SRMUSDTPI8H(*_SRMUSDTPI8H._fields)
 """
     name: .SRMUSDTPI8H
     significant_digits: None
@@ -9049,7 +9049,7 @@ _SRMUSDTPI8H = _SRMUSDTPI8H()
 """
 
 
-class _BLUNA(NamedTuple):
+class _BLUNA(Symbol):
     """
         name: .BLUNA
         significant_digits: None
@@ -9087,7 +9087,7 @@ class _BLUNA(NamedTuple):
         return ".BLUNA"
 
 
-_BLUNA = _BLUNA()
+_BLUNA = _BLUNA(*_BLUNA._fields)
 """
     name: .BLUNA
     significant_digits: None
@@ -9101,7 +9101,7 @@ _BLUNA = _BLUNA()
 """
 
 
-class _BLUNA_NEXT(NamedTuple):
+class _BLUNA_NEXT(Symbol):
     """
         name: .BLUNA_NEXT
         significant_digits: None
@@ -9139,7 +9139,7 @@ class _BLUNA_NEXT(NamedTuple):
         return ".BLUNA_NEXT"
 
 
-_BLUNA_NEXT = _BLUNA_NEXT()
+_BLUNA_NEXT = _BLUNA_NEXT(*_BLUNA_NEXT._fields)
 """
     name: .BLUNA_NEXT
     significant_digits: None
@@ -9153,7 +9153,7 @@ _BLUNA_NEXT = _BLUNA_NEXT()
 """
 
 
-class _LUNABON(NamedTuple):
+class _LUNABON(Symbol):
     """
         name: .LUNABON
         significant_digits: None
@@ -9191,7 +9191,7 @@ class _LUNABON(NamedTuple):
         return ".LUNABON"
 
 
-_LUNABON = _LUNABON()
+_LUNABON = _LUNABON(*_LUNABON._fields)
 """
     name: .LUNABON
     significant_digits: None
@@ -9205,7 +9205,7 @@ _LUNABON = _LUNABON()
 """
 
 
-class _LUNABON8H(NamedTuple):
+class _LUNABON8H(Symbol):
     """
         name: .LUNABON8H
         significant_digits: None
@@ -9243,7 +9243,7 @@ class _LUNABON8H(NamedTuple):
         return ".LUNABON8H"
 
 
-_LUNABON8H = _LUNABON8H()
+_LUNABON8H = _LUNABON8H(*_LUNABON8H._fields)
 """
     name: .LUNABON8H
     significant_digits: None
@@ -9257,7 +9257,7 @@ _LUNABON8H = _LUNABON8H()
 """
 
 
-class _LUNAUSDPI(NamedTuple):
+class _LUNAUSDPI(Symbol):
     """
         name: .LUNAUSDPI
         significant_digits: None
@@ -9295,7 +9295,7 @@ class _LUNAUSDPI(NamedTuple):
         return ".LUNAUSDPI"
 
 
-_LUNAUSDPI = _LUNAUSDPI()
+_LUNAUSDPI = _LUNAUSDPI(*_LUNAUSDPI._fields)
 """
     name: .LUNAUSDPI
     significant_digits: None
@@ -9309,7 +9309,7 @@ _LUNAUSDPI = _LUNAUSDPI()
 """
 
 
-class _LUNAUSDPI8H(NamedTuple):
+class _LUNAUSDPI8H(Symbol):
     """
         name: .LUNAUSDPI8H
         significant_digits: None
@@ -9347,7 +9347,7 @@ class _LUNAUSDPI8H(NamedTuple):
         return ".LUNAUSDPI8H"
 
 
-_LUNAUSDPI8H = _LUNAUSDPI8H()
+_LUNAUSDPI8H = _LUNAUSDPI8H(*_LUNAUSDPI8H._fields)
 """
     name: .LUNAUSDPI8H
     significant_digits: None
@@ -9361,7 +9361,7 @@ _LUNAUSDPI8H = _LUNAUSDPI8H()
 """
 
 
-class _AVAXBON(NamedTuple):
+class _AVAXBON(Symbol):
     """
         name: .AVAXBON
         significant_digits: None
@@ -9399,7 +9399,7 @@ class _AVAXBON(NamedTuple):
         return ".AVAXBON"
 
 
-_AVAXBON = _AVAXBON()
+_AVAXBON = _AVAXBON(*_AVAXBON._fields)
 """
     name: .AVAXBON
     significant_digits: None
@@ -9413,7 +9413,7 @@ _AVAXBON = _AVAXBON()
 """
 
 
-class _AVAXBON8H(NamedTuple):
+class _AVAXBON8H(Symbol):
     """
         name: .AVAXBON8H
         significant_digits: None
@@ -9451,7 +9451,7 @@ class _AVAXBON8H(NamedTuple):
         return ".AVAXBON8H"
 
 
-_AVAXBON8H = _AVAXBON8H()
+_AVAXBON8H = _AVAXBON8H(*_AVAXBON8H._fields)
 """
     name: .AVAXBON8H
     significant_digits: None
@@ -9465,7 +9465,7 @@ _AVAXBON8H = _AVAXBON8H()
 """
 
 
-class _BAVAX(NamedTuple):
+class _BAVAX(Symbol):
     """
         name: .BAVAX
         significant_digits: None
@@ -9503,7 +9503,7 @@ class _BAVAX(NamedTuple):
         return ".BAVAX"
 
 
-_BAVAX = _BAVAX()
+_BAVAX = _BAVAX(*_BAVAX._fields)
 """
     name: .BAVAX
     significant_digits: None
@@ -9517,7 +9517,7 @@ _BAVAX = _BAVAX()
 """
 
 
-class _BAVAX_NEXT(NamedTuple):
+class _BAVAX_NEXT(Symbol):
     """
         name: .BAVAX_NEXT
         significant_digits: None
@@ -9555,7 +9555,7 @@ class _BAVAX_NEXT(NamedTuple):
         return ".BAVAX_NEXT"
 
 
-_BAVAX_NEXT = _BAVAX_NEXT()
+_BAVAX_NEXT = _BAVAX_NEXT(*_BAVAX_NEXT._fields)
 """
     name: .BAVAX_NEXT
     significant_digits: None
@@ -9569,7 +9569,7 @@ _BAVAX_NEXT = _BAVAX_NEXT()
 """
 
 
-class _AVAXUSDPI(NamedTuple):
+class _AVAXUSDPI(Symbol):
     """
         name: .AVAXUSDPI
         significant_digits: None
@@ -9607,7 +9607,7 @@ class _AVAXUSDPI(NamedTuple):
         return ".AVAXUSDPI"
 
 
-_AVAXUSDPI = _AVAXUSDPI()
+_AVAXUSDPI = _AVAXUSDPI(*_AVAXUSDPI._fields)
 """
     name: .AVAXUSDPI
     significant_digits: None
@@ -9621,7 +9621,7 @@ _AVAXUSDPI = _AVAXUSDPI()
 """
 
 
-class _AVAXUSDPI8H(NamedTuple):
+class _AVAXUSDPI8H(Symbol):
     """
         name: .AVAXUSDPI8H
         significant_digits: None
@@ -9659,7 +9659,7 @@ class _AVAXUSDPI8H(NamedTuple):
         return ".AVAXUSDPI8H"
 
 
-_AVAXUSDPI8H = _AVAXUSDPI8H()
+_AVAXUSDPI8H = _AVAXUSDPI8H(*_AVAXUSDPI8H._fields)
 """
     name: .AVAXUSDPI8H
     significant_digits: None
@@ -9673,7 +9673,7 @@ _AVAXUSDPI8H = _AVAXUSDPI8H()
 """
 
 
-class _BADA(NamedTuple):
+class _BADA(Symbol):
     """
         name: .BADA
         significant_digits: None
@@ -9711,7 +9711,7 @@ class _BADA(NamedTuple):
         return ".BADA"
 
 
-_BADA = _BADA()
+_BADA = _BADA(*_BADA._fields)
 """
     name: .BADA
     significant_digits: None
@@ -9725,7 +9725,7 @@ _BADA = _BADA()
 """
 
 
-class _BADA_NEXT(NamedTuple):
+class _BADA_NEXT(Symbol):
     """
         name: .BADA_NEXT
         significant_digits: None
@@ -9763,7 +9763,7 @@ class _BADA_NEXT(NamedTuple):
         return ".BADA_NEXT"
 
 
-_BADA_NEXT = _BADA_NEXT()
+_BADA_NEXT = _BADA_NEXT(*_BADA_NEXT._fields)
 """
     name: .BADA_NEXT
     significant_digits: None
@@ -9777,7 +9777,7 @@ _BADA_NEXT = _BADA_NEXT()
 """
 
 
-class _ADAUSDPI(NamedTuple):
+class _ADAUSDPI(Symbol):
     """
         name: .ADAUSDPI
         significant_digits: None
@@ -9815,7 +9815,7 @@ class _ADAUSDPI(NamedTuple):
         return ".ADAUSDPI"
 
 
-_ADAUSDPI = _ADAUSDPI()
+_ADAUSDPI = _ADAUSDPI(*_ADAUSDPI._fields)
 """
     name: .ADAUSDPI
     significant_digits: None
@@ -9829,7 +9829,7 @@ _ADAUSDPI = _ADAUSDPI()
 """
 
 
-class _ADAUSDPI8H(NamedTuple):
+class _ADAUSDPI8H(Symbol):
     """
         name: .ADAUSDPI8H
         significant_digits: None
@@ -9867,7 +9867,7 @@ class _ADAUSDPI8H(NamedTuple):
         return ".ADAUSDPI8H"
 
 
-_ADAUSDPI8H = _ADAUSDPI8H()
+_ADAUSDPI8H = _ADAUSDPI8H(*_ADAUSDPI8H._fields)
 """
     name: .ADAUSDPI8H
     significant_digits: None
@@ -9881,7 +9881,7 @@ _ADAUSDPI8H = _ADAUSDPI8H()
 """
 
 
-class _BDOGE(NamedTuple):
+class _BDOGE(Symbol):
     """
         name: .BDOGE
         significant_digits: None
@@ -9919,7 +9919,7 @@ class _BDOGE(NamedTuple):
         return ".BDOGE"
 
 
-_BDOGE = _BDOGE()
+_BDOGE = _BDOGE(*_BDOGE._fields)
 """
     name: .BDOGE
     significant_digits: None
@@ -9933,7 +9933,7 @@ _BDOGE = _BDOGE()
 """
 
 
-class _BDOGE_NEXT(NamedTuple):
+class _BDOGE_NEXT(Symbol):
     """
         name: .BDOGE_NEXT
         significant_digits: None
@@ -9971,7 +9971,7 @@ class _BDOGE_NEXT(NamedTuple):
         return ".BDOGE_NEXT"
 
 
-_BDOGE_NEXT = _BDOGE_NEXT()
+_BDOGE_NEXT = _BDOGE_NEXT(*_BDOGE_NEXT._fields)
 """
     name: .BDOGE_NEXT
     significant_digits: None
@@ -9985,7 +9985,7 @@ _BDOGE_NEXT = _BDOGE_NEXT()
 """
 
 
-class _DOGEUSDPI(NamedTuple):
+class _DOGEUSDPI(Symbol):
     """
         name: .DOGEUSDPI
         significant_digits: None
@@ -10023,7 +10023,7 @@ class _DOGEUSDPI(NamedTuple):
         return ".DOGEUSDPI"
 
 
-_DOGEUSDPI = _DOGEUSDPI()
+_DOGEUSDPI = _DOGEUSDPI(*_DOGEUSDPI._fields)
 """
     name: .DOGEUSDPI
     significant_digits: None
@@ -10037,7 +10037,7 @@ _DOGEUSDPI = _DOGEUSDPI()
 """
 
 
-class _DOGEUSDPI8H(NamedTuple):
+class _DOGEUSDPI8H(Symbol):
     """
         name: .DOGEUSDPI8H
         significant_digits: None
@@ -10075,7 +10075,7 @@ class _DOGEUSDPI8H(NamedTuple):
         return ".DOGEUSDPI8H"
 
 
-_DOGEUSDPI8H = _DOGEUSDPI8H()
+_DOGEUSDPI8H = _DOGEUSDPI8H(*_DOGEUSDPI8H._fields)
 """
     name: .DOGEUSDPI8H
     significant_digits: None
@@ -10089,7 +10089,7 @@ _DOGEUSDPI8H = _DOGEUSDPI8H()
 """
 
 
-class _BBNB(NamedTuple):
+class _BBNB(Symbol):
     """
         name: .BBNB
         significant_digits: None
@@ -10127,7 +10127,7 @@ class _BBNB(NamedTuple):
         return ".BBNB"
 
 
-_BBNB = _BBNB()
+_BBNB = _BBNB(*_BBNB._fields)
 """
     name: .BBNB
     significant_digits: None
@@ -10141,7 +10141,7 @@ _BBNB = _BBNB()
 """
 
 
-class _BBNB_NEXT(NamedTuple):
+class _BBNB_NEXT(Symbol):
     """
         name: .BBNB_NEXT
         significant_digits: None
@@ -10179,7 +10179,7 @@ class _BBNB_NEXT(NamedTuple):
         return ".BBNB_NEXT"
 
 
-_BBNB_NEXT = _BBNB_NEXT()
+_BBNB_NEXT = _BBNB_NEXT(*_BBNB_NEXT._fields)
 """
     name: .BBNB_NEXT
     significant_digits: None
@@ -10193,7 +10193,7 @@ _BBNB_NEXT = _BBNB_NEXT()
 """
 
 
-class _BNBUSDPI(NamedTuple):
+class _BNBUSDPI(Symbol):
     """
         name: .BNBUSDPI
         significant_digits: None
@@ -10231,7 +10231,7 @@ class _BNBUSDPI(NamedTuple):
         return ".BNBUSDPI"
 
 
-_BNBUSDPI = _BNBUSDPI()
+_BNBUSDPI = _BNBUSDPI(*_BNBUSDPI._fields)
 """
     name: .BNBUSDPI
     significant_digits: None
@@ -10245,7 +10245,7 @@ _BNBUSDPI = _BNBUSDPI()
 """
 
 
-class _BNBUSDPI8H(NamedTuple):
+class _BNBUSDPI8H(Symbol):
     """
         name: .BNBUSDPI8H
         significant_digits: None
@@ -10283,7 +10283,7 @@ class _BNBUSDPI8H(NamedTuple):
         return ".BNBUSDPI8H"
 
 
-_BNBUSDPI8H = _BNBUSDPI8H()
+_BNBUSDPI8H = _BNBUSDPI8H(*_BNBUSDPI8H._fields)
 """
     name: .BNBUSDPI8H
     significant_digits: None
@@ -10297,7 +10297,7 @@ _BNBUSDPI8H = _BNBUSDPI8H()
 """
 
 
-class _BDOT(NamedTuple):
+class _BDOT(Symbol):
     """
         name: .BDOT
         significant_digits: None
@@ -10335,7 +10335,7 @@ class _BDOT(NamedTuple):
         return ".BDOT"
 
 
-_BDOT = _BDOT()
+_BDOT = _BDOT(*_BDOT._fields)
 """
     name: .BDOT
     significant_digits: None
@@ -10349,7 +10349,7 @@ _BDOT = _BDOT()
 """
 
 
-class _BDOT_NEXT(NamedTuple):
+class _BDOT_NEXT(Symbol):
     """
         name: .BDOT_NEXT
         significant_digits: None
@@ -10387,7 +10387,7 @@ class _BDOT_NEXT(NamedTuple):
         return ".BDOT_NEXT"
 
 
-_BDOT_NEXT = _BDOT_NEXT()
+_BDOT_NEXT = _BDOT_NEXT(*_BDOT_NEXT._fields)
 """
     name: .BDOT_NEXT
     significant_digits: None
@@ -10401,7 +10401,7 @@ _BDOT_NEXT = _BDOT_NEXT()
 """
 
 
-class _DOTUSDPI(NamedTuple):
+class _DOTUSDPI(Symbol):
     """
         name: .DOTUSDPI
         significant_digits: None
@@ -10439,7 +10439,7 @@ class _DOTUSDPI(NamedTuple):
         return ".DOTUSDPI"
 
 
-_DOTUSDPI = _DOTUSDPI()
+_DOTUSDPI = _DOTUSDPI(*_DOTUSDPI._fields)
 """
     name: .DOTUSDPI
     significant_digits: None
@@ -10453,7 +10453,7 @@ _DOTUSDPI = _DOTUSDPI()
 """
 
 
-class _DOTUSDPI8H(NamedTuple):
+class _DOTUSDPI8H(Symbol):
     """
         name: .DOTUSDPI8H
         significant_digits: None
@@ -10491,7 +10491,7 @@ class _DOTUSDPI8H(NamedTuple):
         return ".DOTUSDPI8H"
 
 
-_DOTUSDPI8H = _DOTUSDPI8H()
+_DOTUSDPI8H = _DOTUSDPI8H(*_DOTUSDPI8H._fields)
 """
     name: .DOTUSDPI8H
     significant_digits: None
@@ -10505,7 +10505,7 @@ _DOTUSDPI8H = _DOTUSDPI8H()
 """
 
 
-class _BDOGET30M(NamedTuple):
+class _BDOGET30M(Symbol):
     """
         name: .BDOGET30M
         significant_digits: None
@@ -10543,7 +10543,7 @@ class _BDOGET30M(NamedTuple):
         return ".BDOGET30M"
 
 
-_BDOGET30M = _BDOGET30M()
+_BDOGET30M = _BDOGET30M(*_BDOGET30M._fields)
 """
     name: .BDOGET30M
     significant_digits: None
@@ -10557,7 +10557,7 @@ _BDOGET30M = _BDOGET30M()
 """
 
 
-class _BFILT30M(NamedTuple):
+class _BFILT30M(Symbol):
     """
         name: .BFILT30M
         significant_digits: None
@@ -10595,7 +10595,7 @@ class _BFILT30M(NamedTuple):
         return ".BFILT30M"
 
 
-_BFILT30M = _BFILT30M()
+_BFILT30M = _BFILT30M(*_BFILT30M._fields)
 """
     name: .BFILT30M
     significant_digits: None
@@ -10609,7 +10609,7 @@ _BFILT30M = _BFILT30M()
 """
 
 
-class _BUNIT30M(NamedTuple):
+class _BUNIT30M(Symbol):
     """
         name: .BUNIT30M
         significant_digits: None
@@ -10647,7 +10647,7 @@ class _BUNIT30M(NamedTuple):
         return ".BUNIT30M"
 
 
-_BUNIT30M = _BUNIT30M()
+_BUNIT30M = _BUNIT30M(*_BUNIT30M._fields)
 """
     name: .BUNIT30M
     significant_digits: None
@@ -10661,7 +10661,7 @@ _BUNIT30M = _BUNIT30M()
 """
 
 
-class _BXLMT30M(NamedTuple):
+class _BXLMT30M(Symbol):
     """
         name: .BXLMT30M
         significant_digits: None
@@ -10699,7 +10699,7 @@ class _BXLMT30M(NamedTuple):
         return ".BXLMT30M"
 
 
-_BXLMT30M = _BXLMT30M()
+_BXLMT30M = _BXLMT30M(*_BXLMT30M._fields)
 """
     name: .BXLMT30M
     significant_digits: None
@@ -10713,7 +10713,7 @@ _BXLMT30M = _BXLMT30M()
 """
 
 
-class _BAXS(NamedTuple):
+class _BAXS(Symbol):
     """
         name: .BAXS
         significant_digits: None
@@ -10751,7 +10751,7 @@ class _BAXS(NamedTuple):
         return ".BAXS"
 
 
-_BAXS = _BAXS()
+_BAXS = _BAXS(*_BAXS._fields)
 """
     name: .BAXS
     significant_digits: None
@@ -10765,7 +10765,7 @@ _BAXS = _BAXS()
 """
 
 
-class _BAXS_NEXT(NamedTuple):
+class _BAXS_NEXT(Symbol):
     """
         name: .BAXS_NEXT
         significant_digits: None
@@ -10803,7 +10803,7 @@ class _BAXS_NEXT(NamedTuple):
         return ".BAXS_NEXT"
 
 
-_BAXS_NEXT = _BAXS_NEXT()
+_BAXS_NEXT = _BAXS_NEXT(*_BAXS_NEXT._fields)
 """
     name: .BAXS_NEXT
     significant_digits: None
@@ -10817,7 +10817,7 @@ _BAXS_NEXT = _BAXS_NEXT()
 """
 
 
-class _AXSUSDPI(NamedTuple):
+class _AXSUSDPI(Symbol):
     """
         name: .AXSUSDPI
         significant_digits: None
@@ -10855,7 +10855,7 @@ class _AXSUSDPI(NamedTuple):
         return ".AXSUSDPI"
 
 
-_AXSUSDPI = _AXSUSDPI()
+_AXSUSDPI = _AXSUSDPI(*_AXSUSDPI._fields)
 """
     name: .AXSUSDPI
     significant_digits: None
@@ -10869,7 +10869,7 @@ _AXSUSDPI = _AXSUSDPI()
 """
 
 
-class _AXSUSDPI8H(NamedTuple):
+class _AXSUSDPI8H(Symbol):
     """
         name: .AXSUSDPI8H
         significant_digits: None
@@ -10907,7 +10907,7 @@ class _AXSUSDPI8H(NamedTuple):
         return ".AXSUSDPI8H"
 
 
-_AXSUSDPI8H = _AXSUSDPI8H()
+_AXSUSDPI8H = _AXSUSDPI8H(*_AXSUSDPI8H._fields)
 """
     name: .AXSUSDPI8H
     significant_digits: None
@@ -10921,7 +10921,7 @@ _AXSUSDPI8H = _AXSUSDPI8H()
 """
 
 
-class _BEOS(NamedTuple):
+class _BEOS(Symbol):
     """
         name: .BEOS
         significant_digits: None
@@ -10959,7 +10959,7 @@ class _BEOS(NamedTuple):
         return ".BEOS"
 
 
-_BEOS = _BEOS()
+_BEOS = _BEOS(*_BEOS._fields)
 """
     name: .BEOS
     significant_digits: None
@@ -10973,7 +10973,7 @@ _BEOS = _BEOS()
 """
 
 
-class _BEOS_NEXT(NamedTuple):
+class _BEOS_NEXT(Symbol):
     """
         name: .BEOS_NEXT
         significant_digits: None
@@ -11011,7 +11011,7 @@ class _BEOS_NEXT(NamedTuple):
         return ".BEOS_NEXT"
 
 
-_BEOS_NEXT = _BEOS_NEXT()
+_BEOS_NEXT = _BEOS_NEXT(*_BEOS_NEXT._fields)
 """
     name: .BEOS_NEXT
     significant_digits: None
@@ -11025,7 +11025,7 @@ _BEOS_NEXT = _BEOS_NEXT()
 """
 
 
-class _EOSUSDPI(NamedTuple):
+class _EOSUSDPI(Symbol):
     """
         name: .EOSUSDPI
         significant_digits: None
@@ -11063,7 +11063,7 @@ class _EOSUSDPI(NamedTuple):
         return ".EOSUSDPI"
 
 
-_EOSUSDPI = _EOSUSDPI()
+_EOSUSDPI = _EOSUSDPI(*_EOSUSDPI._fields)
 """
     name: .EOSUSDPI
     significant_digits: None
@@ -11077,7 +11077,7 @@ _EOSUSDPI = _EOSUSDPI()
 """
 
 
-class _EOSUSDPI8H(NamedTuple):
+class _EOSUSDPI8H(Symbol):
     """
         name: .EOSUSDPI8H
         significant_digits: None
@@ -11115,7 +11115,7 @@ class _EOSUSDPI8H(NamedTuple):
         return ".EOSUSDPI8H"
 
 
-_EOSUSDPI8H = _EOSUSDPI8H()
+_EOSUSDPI8H = _EOSUSDPI8H(*_EOSUSDPI8H._fields)
 """
     name: .EOSUSDPI8H
     significant_digits: None
@@ -11129,7 +11129,7 @@ _EOSUSDPI8H = _EOSUSDPI8H()
 """
 
 
-class _BLINK(NamedTuple):
+class _BLINK(Symbol):
     """
         name: .BLINK
         significant_digits: None
@@ -11167,7 +11167,7 @@ class _BLINK(NamedTuple):
         return ".BLINK"
 
 
-_BLINK = _BLINK()
+_BLINK = _BLINK(*_BLINK._fields)
 """
     name: .BLINK
     significant_digits: None
@@ -11181,7 +11181,7 @@ _BLINK = _BLINK()
 """
 
 
-class _BLINK_NEXT(NamedTuple):
+class _BLINK_NEXT(Symbol):
     """
         name: .BLINK_NEXT
         significant_digits: None
@@ -11219,7 +11219,7 @@ class _BLINK_NEXT(NamedTuple):
         return ".BLINK_NEXT"
 
 
-_BLINK_NEXT = _BLINK_NEXT()
+_BLINK_NEXT = _BLINK_NEXT(*_BLINK_NEXT._fields)
 """
     name: .BLINK_NEXT
     significant_digits: None
@@ -11233,7 +11233,7 @@ _BLINK_NEXT = _BLINK_NEXT()
 """
 
 
-class _LINKUSDPI(NamedTuple):
+class _LINKUSDPI(Symbol):
     """
         name: .LINKUSDPI
         significant_digits: None
@@ -11271,7 +11271,7 @@ class _LINKUSDPI(NamedTuple):
         return ".LINKUSDPI"
 
 
-_LINKUSDPI = _LINKUSDPI()
+_LINKUSDPI = _LINKUSDPI(*_LINKUSDPI._fields)
 """
     name: .LINKUSDPI
     significant_digits: None
@@ -11285,7 +11285,7 @@ _LINKUSDPI = _LINKUSDPI()
 """
 
 
-class _LINKUSDPI8H(NamedTuple):
+class _LINKUSDPI8H(Symbol):
     """
         name: .LINKUSDPI8H
         significant_digits: None
@@ -11323,7 +11323,7 @@ class _LINKUSDPI8H(NamedTuple):
         return ".LINKUSDPI8H"
 
 
-_LINKUSDPI8H = _LINKUSDPI8H()
+_LINKUSDPI8H = _LINKUSDPI8H(*_LINKUSDPI8H._fields)
 """
     name: .LINKUSDPI8H
     significant_digits: None
@@ -11337,7 +11337,7 @@ _LINKUSDPI8H = _LINKUSDPI8H()
 """
 
 
-class _BSOL(NamedTuple):
+class _BSOL(Symbol):
     """
         name: .BSOL
         significant_digits: None
@@ -11375,7 +11375,7 @@ class _BSOL(NamedTuple):
         return ".BSOL"
 
 
-_BSOL = _BSOL()
+_BSOL = _BSOL(*_BSOL._fields)
 """
     name: .BSOL
     significant_digits: None
@@ -11389,7 +11389,7 @@ _BSOL = _BSOL()
 """
 
 
-class _BSOL_NEXT(NamedTuple):
+class _BSOL_NEXT(Symbol):
     """
         name: .BSOL_NEXT
         significant_digits: None
@@ -11427,7 +11427,7 @@ class _BSOL_NEXT(NamedTuple):
         return ".BSOL_NEXT"
 
 
-_BSOL_NEXT = _BSOL_NEXT()
+_BSOL_NEXT = _BSOL_NEXT(*_BSOL_NEXT._fields)
 """
     name: .BSOL_NEXT
     significant_digits: None
@@ -11441,7 +11441,7 @@ _BSOL_NEXT = _BSOL_NEXT()
 """
 
 
-class _SOLUSDPI(NamedTuple):
+class _SOLUSDPI(Symbol):
     """
         name: .SOLUSDPI
         significant_digits: None
@@ -11479,7 +11479,7 @@ class _SOLUSDPI(NamedTuple):
         return ".SOLUSDPI"
 
 
-_SOLUSDPI = _SOLUSDPI()
+_SOLUSDPI = _SOLUSDPI(*_SOLUSDPI._fields)
 """
     name: .SOLUSDPI
     significant_digits: None
@@ -11493,7 +11493,7 @@ _SOLUSDPI = _SOLUSDPI()
 """
 
 
-class _SOLUSDPI8H(NamedTuple):
+class _SOLUSDPI8H(Symbol):
     """
         name: .SOLUSDPI8H
         significant_digits: None
@@ -11531,7 +11531,7 @@ class _SOLUSDPI8H(NamedTuple):
         return ".SOLUSDPI8H"
 
 
-_SOLUSDPI8H = _SOLUSDPI8H()
+_SOLUSDPI8H = _SOLUSDPI8H(*_SOLUSDPI8H._fields)
 """
     name: .SOLUSDPI8H
     significant_digits: None
@@ -11545,7 +11545,7 @@ _SOLUSDPI8H = _SOLUSDPI8H()
 """
 
 
-class _BAXST30M(NamedTuple):
+class _BAXST30M(Symbol):
     """
         name: .BAXST30M
         significant_digits: None
@@ -11583,7 +11583,7 @@ class _BAXST30M(NamedTuple):
         return ".BAXST30M"
 
 
-_BAXST30M = _BAXST30M()
+_BAXST30M = _BAXST30M(*_BAXST30M._fields)
 """
     name: .BAXST30M
     significant_digits: None
@@ -11597,7 +11597,7 @@ _BAXST30M = _BAXST30M()
 """
 
 
-class _BSOLT30M(NamedTuple):
+class _BSOLT30M(Symbol):
     """
         name: .BSOLT30M
         significant_digits: None
@@ -11635,7 +11635,7 @@ class _BSOLT30M(NamedTuple):
         return ".BSOLT30M"
 
 
-_BSOLT30M = _BSOLT30M()
+_BSOLT30M = _BSOLT30M(*_BSOLT30M._fields)
 """
     name: .BSOLT30M
     significant_digits: None
@@ -11649,7 +11649,7 @@ _BSOLT30M = _BSOLT30M()
 """
 
 
-class _BVETT30M(NamedTuple):
+class _BVETT30M(Symbol):
     """
         name: .BVETT30M
         significant_digits: None
@@ -11687,7 +11687,7 @@ class _BVETT30M(NamedTuple):
         return ".BVETT30M"
 
 
-_BVETT30M = _BVETT30M()
+_BVETT30M = _BVETT30M(*_BVETT30M._fields)
 """
     name: .BVETT30M
     significant_digits: None
@@ -11701,7 +11701,7 @@ _BVETT30M = _BVETT30M()
 """
 
 
-class _BMATICT30M(NamedTuple):
+class _BMATICT30M(Symbol):
     """
         name: .BMATICT30M
         significant_digits: None
@@ -11739,7 +11739,7 @@ class _BMATICT30M(NamedTuple):
         return ".BMATICT30M"
 
 
-_BMATICT30M = _BMATICT30M()
+_BMATICT30M = _BMATICT30M(*_BMATICT30M._fields)
 """
     name: .BMATICT30M
     significant_digits: None
@@ -11753,7 +11753,7 @@ _BMATICT30M = _BMATICT30M()
 """
 
 
-class _BAAVET30M(NamedTuple):
+class _BAAVET30M(Symbol):
     """
         name: .BAAVET30M
         significant_digits: None
@@ -11791,7 +11791,7 @@ class _BAAVET30M(NamedTuple):
         return ".BAAVET30M"
 
 
-_BAAVET30M = _BAAVET30M()
+_BAAVET30M = _BAAVET30M(*_BAAVET30M._fields)
 """
     name: .BAAVET30M
     significant_digits: None
@@ -11805,7 +11805,7 @@ _BAAVET30M = _BAAVET30M()
 """
 
 
-class _BSUSHIT30M(NamedTuple):
+class _BSUSHIT30M(Symbol):
     """
         name: .BSUSHIT30M
         significant_digits: None
@@ -11843,7 +11843,7 @@ class _BSUSHIT30M(NamedTuple):
         return ".BSUSHIT30M"
 
 
-_BSUSHIT30M = _BSUSHIT30M()
+_BSUSHIT30M = _BSUSHIT30M(*_BSUSHIT30M._fields)
 """
     name: .BSUSHIT30M
     significant_digits: None
@@ -11857,7 +11857,7 @@ _BSUSHIT30M = _BSUSHIT30M()
 """
 
 
-class _BSRMT30M(NamedTuple):
+class _BSRMT30M(Symbol):
     """
         name: .BSRMT30M
         significant_digits: None
@@ -11895,7 +11895,7 @@ class _BSRMT30M(NamedTuple):
         return ".BSRMT30M"
 
 
-_BSRMT30M = _BSRMT30M()
+_BSRMT30M = _BSRMT30M(*_BSRMT30M._fields)
 """
     name: .BSRMT30M
     significant_digits: None
@@ -11909,7 +11909,7 @@ _BSRMT30M = _BSRMT30M()
 """
 
 
-class _BXRPT(NamedTuple):
+class _BXRPT(Symbol):
     """
         name: .BXRPT
         significant_digits: None
@@ -11947,7 +11947,7 @@ class _BXRPT(NamedTuple):
         return ".BXRPT"
 
 
-_BXRPT = _BXRPT()
+_BXRPT = _BXRPT(*_BXRPT._fields)
 """
     name: .BXRPT
     significant_digits: None
@@ -11961,7 +11961,7 @@ _BXRPT = _BXRPT()
 """
 
 
-class _BXRPT_NEXT(NamedTuple):
+class _BXRPT_NEXT(Symbol):
     """
         name: .BXRPT_NEXT
         significant_digits: None
@@ -11999,7 +11999,7 @@ class _BXRPT_NEXT(NamedTuple):
         return ".BXRPT_NEXT"
 
 
-_BXRPT_NEXT = _BXRPT_NEXT()
+_BXRPT_NEXT = _BXRPT_NEXT(*_BXRPT_NEXT._fields)
 """
     name: .BXRPT_NEXT
     significant_digits: None
@@ -12013,7 +12013,7 @@ _BXRPT_NEXT = _BXRPT_NEXT()
 """
 
 
-class _BBCHT(NamedTuple):
+class _BBCHT(Symbol):
     """
         name: .BBCHT
         significant_digits: None
@@ -12051,7 +12051,7 @@ class _BBCHT(NamedTuple):
         return ".BBCHT"
 
 
-_BBCHT = _BBCHT()
+_BBCHT = _BBCHT(*_BBCHT._fields)
 """
     name: .BBCHT
     significant_digits: None
@@ -12065,7 +12065,7 @@ _BBCHT = _BBCHT()
 """
 
 
-class _BBCHT_NEXT(NamedTuple):
+class _BBCHT_NEXT(Symbol):
     """
         name: .BBCHT_NEXT
         significant_digits: None
@@ -12103,7 +12103,7 @@ class _BBCHT_NEXT(NamedTuple):
         return ".BBCHT_NEXT"
 
 
-_BBCHT_NEXT = _BBCHT_NEXT()
+_BBCHT_NEXT = _BBCHT_NEXT(*_BBCHT_NEXT._fields)
 """
     name: .BBCHT_NEXT
     significant_digits: None
@@ -12117,7 +12117,7 @@ _BBCHT_NEXT = _BBCHT_NEXT()
 """
 
 
-class _XRPUSDTPI(NamedTuple):
+class _XRPUSDTPI(Symbol):
     """
         name: .XRPUSDTPI
         significant_digits: None
@@ -12155,7 +12155,7 @@ class _XRPUSDTPI(NamedTuple):
         return ".XRPUSDTPI"
 
 
-_XRPUSDTPI = _XRPUSDTPI()
+_XRPUSDTPI = _XRPUSDTPI(*_XRPUSDTPI._fields)
 """
     name: .XRPUSDTPI
     significant_digits: None
@@ -12169,7 +12169,7 @@ _XRPUSDTPI = _XRPUSDTPI()
 """
 
 
-class _XRPUSDTPI8H(NamedTuple):
+class _XRPUSDTPI8H(Symbol):
     """
         name: .XRPUSDTPI8H
         significant_digits: None
@@ -12207,7 +12207,7 @@ class _XRPUSDTPI8H(NamedTuple):
         return ".XRPUSDTPI8H"
 
 
-_XRPUSDTPI8H = _XRPUSDTPI8H()
+_XRPUSDTPI8H = _XRPUSDTPI8H(*_XRPUSDTPI8H._fields)
 """
     name: .XRPUSDTPI8H
     significant_digits: None
@@ -12221,7 +12221,7 @@ _XRPUSDTPI8H = _XRPUSDTPI8H()
 """
 
 
-class _BCHUSDTPI(NamedTuple):
+class _BCHUSDTPI(Symbol):
     """
         name: .BCHUSDTPI
         significant_digits: None
@@ -12259,7 +12259,7 @@ class _BCHUSDTPI(NamedTuple):
         return ".BCHUSDTPI"
 
 
-_BCHUSDTPI = _BCHUSDTPI()
+_BCHUSDTPI = _BCHUSDTPI(*_BCHUSDTPI._fields)
 """
     name: .BCHUSDTPI
     significant_digits: None
@@ -12273,7 +12273,7 @@ _BCHUSDTPI = _BCHUSDTPI()
 """
 
 
-class _BCHUSDTPI8H(NamedTuple):
+class _BCHUSDTPI8H(Symbol):
     """
         name: .BCHUSDTPI8H
         significant_digits: None
@@ -12311,7 +12311,7 @@ class _BCHUSDTPI8H(NamedTuple):
         return ".BCHUSDTPI8H"
 
 
-_BCHUSDTPI8H = _BCHUSDTPI8H()
+_BCHUSDTPI8H = _BCHUSDTPI8H(*_BCHUSDTPI8H._fields)
 """
     name: .BCHUSDTPI8H
     significant_digits: None
@@ -12325,7 +12325,7 @@ _BCHUSDTPI8H = _BCHUSDTPI8H()
 """
 
 
-class _BDEFIMEX30M(NamedTuple):
+class _BDEFIMEX30M(Symbol):
     """
         name: .BDEFIMEX30M
         significant_digits: None
@@ -12363,7 +12363,7 @@ class _BDEFIMEX30M(NamedTuple):
         return ".BDEFIMEX30M"
 
 
-_BDEFIMEX30M = _BDEFIMEX30M()
+_BDEFIMEX30M = _BDEFIMEX30M(*_BDEFIMEX30M._fields)
 """
     name: .BDEFIMEX30M
     significant_digits: None
@@ -12377,7 +12377,7 @@ _BDEFIMEX30M = _BDEFIMEX30M()
 """
 
 
-class _BALTMEX30M(NamedTuple):
+class _BALTMEX30M(Symbol):
     """
         name: .BALTMEX30M
         significant_digits: None
@@ -12415,7 +12415,7 @@ class _BALTMEX30M(NamedTuple):
         return ".BALTMEX30M"
 
 
-_BALTMEX30M = _BALTMEX30M()
+_BALTMEX30M = _BALTMEX30M(*_BALTMEX30M._fields)
 """
     name: .BALTMEX30M
     significant_digits: None
@@ -12429,7 +12429,7 @@ _BALTMEX30M = _BALTMEX30M()
 """
 
 
-class _BFTMT(NamedTuple):
+class _BFTMT(Symbol):
     """
         name: .BFTMT
         significant_digits: None
@@ -12467,7 +12467,7 @@ class _BFTMT(NamedTuple):
         return ".BFTMT"
 
 
-_BFTMT = _BFTMT()
+_BFTMT = _BFTMT(*_BFTMT._fields)
 """
     name: .BFTMT
     significant_digits: None
@@ -12481,7 +12481,7 @@ _BFTMT = _BFTMT()
 """
 
 
-class _BFTMT_NEXT(NamedTuple):
+class _BFTMT_NEXT(Symbol):
     """
         name: .BFTMT_NEXT
         significant_digits: None
@@ -12519,7 +12519,7 @@ class _BFTMT_NEXT(NamedTuple):
         return ".BFTMT_NEXT"
 
 
-_BFTMT_NEXT = _BFTMT_NEXT()
+_BFTMT_NEXT = _BFTMT_NEXT(*_BFTMT_NEXT._fields)
 """
     name: .BFTMT_NEXT
     significant_digits: None
@@ -12533,7 +12533,7 @@ _BFTMT_NEXT = _BFTMT_NEXT()
 """
 
 
-class _FTMBON(NamedTuple):
+class _FTMBON(Symbol):
     """
         name: .FTMBON
         significant_digits: None
@@ -12571,7 +12571,7 @@ class _FTMBON(NamedTuple):
         return ".FTMBON"
 
 
-_FTMBON = _FTMBON()
+_FTMBON = _FTMBON(*_FTMBON._fields)
 """
     name: .FTMBON
     significant_digits: None
@@ -12585,7 +12585,7 @@ _FTMBON = _FTMBON()
 """
 
 
-class _FTMBON8H(NamedTuple):
+class _FTMBON8H(Symbol):
     """
         name: .FTMBON8H
         significant_digits: None
@@ -12623,7 +12623,7 @@ class _FTMBON8H(NamedTuple):
         return ".FTMBON8H"
 
 
-_FTMBON8H = _FTMBON8H()
+_FTMBON8H = _FTMBON8H(*_FTMBON8H._fields)
 """
     name: .FTMBON8H
     significant_digits: None
@@ -12637,7 +12637,7 @@ _FTMBON8H = _FTMBON8H()
 """
 
 
-class _FTMUSDTPI(NamedTuple):
+class _FTMUSDTPI(Symbol):
     """
         name: .FTMUSDTPI
         significant_digits: None
@@ -12675,7 +12675,7 @@ class _FTMUSDTPI(NamedTuple):
         return ".FTMUSDTPI"
 
 
-_FTMUSDTPI = _FTMUSDTPI()
+_FTMUSDTPI = _FTMUSDTPI(*_FTMUSDTPI._fields)
 """
     name: .FTMUSDTPI
     significant_digits: None
@@ -12689,7 +12689,7 @@ _FTMUSDTPI = _FTMUSDTPI()
 """
 
 
-class _FTMUSDTPI8H(NamedTuple):
+class _FTMUSDTPI8H(Symbol):
     """
         name: .FTMUSDTPI8H
         significant_digits: None
@@ -12727,7 +12727,7 @@ class _FTMUSDTPI8H(NamedTuple):
         return ".FTMUSDTPI8H"
 
 
-_FTMUSDTPI8H = _FTMUSDTPI8H()
+_FTMUSDTPI8H = _FTMUSDTPI8H(*_FTMUSDTPI8H._fields)
 """
     name: .FTMUSDTPI8H
     significant_digits: None
@@ -12741,7 +12741,7 @@ _FTMUSDTPI8H = _FTMUSDTPI8H()
 """
 
 
-class _BSHIBT(NamedTuple):
+class _BSHIBT(Symbol):
     """
         name: .BSHIBT
         significant_digits: None
@@ -12779,7 +12779,7 @@ class _BSHIBT(NamedTuple):
         return ".BSHIBT"
 
 
-_BSHIBT = _BSHIBT()
+_BSHIBT = _BSHIBT(*_BSHIBT._fields)
 """
     name: .BSHIBT
     significant_digits: None
@@ -12793,7 +12793,7 @@ _BSHIBT = _BSHIBT()
 """
 
 
-class _BSHIBT_NEXT(NamedTuple):
+class _BSHIBT_NEXT(Symbol):
     """
         name: .BSHIBT_NEXT
         significant_digits: None
@@ -12831,7 +12831,7 @@ class _BSHIBT_NEXT(NamedTuple):
         return ".BSHIBT_NEXT"
 
 
-_BSHIBT_NEXT = _BSHIBT_NEXT()
+_BSHIBT_NEXT = _BSHIBT_NEXT(*_BSHIBT_NEXT._fields)
 """
     name: .BSHIBT_NEXT
     significant_digits: None
@@ -12845,7 +12845,7 @@ _BSHIBT_NEXT = _BSHIBT_NEXT()
 """
 
 
-class _SHIBBON(NamedTuple):
+class _SHIBBON(Symbol):
     """
         name: .SHIBBON
         significant_digits: None
@@ -12883,7 +12883,7 @@ class _SHIBBON(NamedTuple):
         return ".SHIBBON"
 
 
-_SHIBBON = _SHIBBON()
+_SHIBBON = _SHIBBON(*_SHIBBON._fields)
 """
     name: .SHIBBON
     significant_digits: None
@@ -12897,7 +12897,7 @@ _SHIBBON = _SHIBBON()
 """
 
 
-class _SHIBBON8H(NamedTuple):
+class _SHIBBON8H(Symbol):
     """
         name: .SHIBBON8H
         significant_digits: None
@@ -12935,7 +12935,7 @@ class _SHIBBON8H(NamedTuple):
         return ".SHIBBON8H"
 
 
-_SHIBBON8H = _SHIBBON8H()
+_SHIBBON8H = _SHIBBON8H(*_SHIBBON8H._fields)
 """
     name: .SHIBBON8H
     significant_digits: None
@@ -12949,7 +12949,7 @@ _SHIBBON8H = _SHIBBON8H()
 """
 
 
-class _SHIBUSDTPI(NamedTuple):
+class _SHIBUSDTPI(Symbol):
     """
         name: .SHIBUSDTPI
         significant_digits: None
@@ -12987,7 +12987,7 @@ class _SHIBUSDTPI(NamedTuple):
         return ".SHIBUSDTPI"
 
 
-_SHIBUSDTPI = _SHIBUSDTPI()
+_SHIBUSDTPI = _SHIBUSDTPI(*_SHIBUSDTPI._fields)
 """
     name: .SHIBUSDTPI
     significant_digits: None
@@ -13001,7 +13001,7 @@ _SHIBUSDTPI = _SHIBUSDTPI()
 """
 
 
-class _SHIBUSDTPI8H(NamedTuple):
+class _SHIBUSDTPI8H(Symbol):
     """
         name: .SHIBUSDTPI8H
         significant_digits: None
@@ -13039,7 +13039,7 @@ class _SHIBUSDTPI8H(NamedTuple):
         return ".SHIBUSDTPI8H"
 
 
-_SHIBUSDTPI8H = _SHIBUSDTPI8H()
+_SHIBUSDTPI8H = _SHIBUSDTPI8H(*_SHIBUSDTPI8H._fields)
 """
     name: .SHIBUSDTPI8H
     significant_digits: None
@@ -13053,7 +13053,7 @@ _SHIBUSDTPI8H = _SHIBUSDTPI8H()
 """
 
 
-class _BLRCT(NamedTuple):
+class _BLRCT(Symbol):
     """
         name: .BLRCT
         significant_digits: None
@@ -13091,7 +13091,7 @@ class _BLRCT(NamedTuple):
         return ".BLRCT"
 
 
-_BLRCT = _BLRCT()
+_BLRCT = _BLRCT(*_BLRCT._fields)
 """
     name: .BLRCT
     significant_digits: None
@@ -13105,7 +13105,7 @@ _BLRCT = _BLRCT()
 """
 
 
-class _BLRCT_NEXT(NamedTuple):
+class _BLRCT_NEXT(Symbol):
     """
         name: .BLRCT_NEXT
         significant_digits: None
@@ -13143,7 +13143,7 @@ class _BLRCT_NEXT(NamedTuple):
         return ".BLRCT_NEXT"
 
 
-_BLRCT_NEXT = _BLRCT_NEXT()
+_BLRCT_NEXT = _BLRCT_NEXT(*_BLRCT_NEXT._fields)
 """
     name: .BLRCT_NEXT
     significant_digits: None
@@ -13157,7 +13157,7 @@ _BLRCT_NEXT = _BLRCT_NEXT()
 """
 
 
-class _BMANAT(NamedTuple):
+class _BMANAT(Symbol):
     """
         name: .BMANAT
         significant_digits: None
@@ -13195,7 +13195,7 @@ class _BMANAT(NamedTuple):
         return ".BMANAT"
 
 
-_BMANAT = _BMANAT()
+_BMANAT = _BMANAT(*_BMANAT._fields)
 """
     name: .BMANAT
     significant_digits: None
@@ -13209,7 +13209,7 @@ _BMANAT = _BMANAT()
 """
 
 
-class _BMANAT_NEXT(NamedTuple):
+class _BMANAT_NEXT(Symbol):
     """
         name: .BMANAT_NEXT
         significant_digits: None
@@ -13247,7 +13247,7 @@ class _BMANAT_NEXT(NamedTuple):
         return ".BMANAT_NEXT"
 
 
-_BMANAT_NEXT = _BMANAT_NEXT()
+_BMANAT_NEXT = _BMANAT_NEXT(*_BMANAT_NEXT._fields)
 """
     name: .BMANAT_NEXT
     significant_digits: None
@@ -13261,7 +13261,7 @@ _BMANAT_NEXT = _BMANAT_NEXT()
 """
 
 
-class _MANABON(NamedTuple):
+class _MANABON(Symbol):
     """
         name: .MANABON
         significant_digits: None
@@ -13299,7 +13299,7 @@ class _MANABON(NamedTuple):
         return ".MANABON"
 
 
-_MANABON = _MANABON()
+_MANABON = _MANABON(*_MANABON._fields)
 """
     name: .MANABON
     significant_digits: None
@@ -13313,7 +13313,7 @@ _MANABON = _MANABON()
 """
 
 
-class _MANABON8H(NamedTuple):
+class _MANABON8H(Symbol):
     """
         name: .MANABON8H
         significant_digits: None
@@ -13351,7 +13351,7 @@ class _MANABON8H(NamedTuple):
         return ".MANABON8H"
 
 
-_MANABON8H = _MANABON8H()
+_MANABON8H = _MANABON8H(*_MANABON8H._fields)
 """
     name: .MANABON8H
     significant_digits: None
@@ -13365,7 +13365,7 @@ _MANABON8H = _MANABON8H()
 """
 
 
-class _MANAUSDTPI(NamedTuple):
+class _MANAUSDTPI(Symbol):
     """
         name: .MANAUSDTPI
         significant_digits: None
@@ -13403,7 +13403,7 @@ class _MANAUSDTPI(NamedTuple):
         return ".MANAUSDTPI"
 
 
-_MANAUSDTPI = _MANAUSDTPI()
+_MANAUSDTPI = _MANAUSDTPI(*_MANAUSDTPI._fields)
 """
     name: .MANAUSDTPI
     significant_digits: None
@@ -13417,7 +13417,7 @@ _MANAUSDTPI = _MANAUSDTPI()
 """
 
 
-class _MANAUSDTPI8H(NamedTuple):
+class _MANAUSDTPI8H(Symbol):
     """
         name: .MANAUSDTPI8H
         significant_digits: None
@@ -13455,7 +13455,7 @@ class _MANAUSDTPI8H(NamedTuple):
         return ".MANAUSDTPI8H"
 
 
-_MANAUSDTPI8H = _MANAUSDTPI8H()
+_MANAUSDTPI8H = _MANAUSDTPI8H(*_MANAUSDTPI8H._fields)
 """
     name: .MANAUSDTPI8H
     significant_digits: None
@@ -13469,7 +13469,7 @@ _MANAUSDTPI8H = _MANAUSDTPI8H()
 """
 
 
-class _BSANDT(NamedTuple):
+class _BSANDT(Symbol):
     """
         name: .BSANDT
         significant_digits: None
@@ -13507,7 +13507,7 @@ class _BSANDT(NamedTuple):
         return ".BSANDT"
 
 
-_BSANDT = _BSANDT()
+_BSANDT = _BSANDT(*_BSANDT._fields)
 """
     name: .BSANDT
     significant_digits: None
@@ -13521,7 +13521,7 @@ _BSANDT = _BSANDT()
 """
 
 
-class _BSANDT_NEXT(NamedTuple):
+class _BSANDT_NEXT(Symbol):
     """
         name: .BSANDT_NEXT
         significant_digits: None
@@ -13559,7 +13559,7 @@ class _BSANDT_NEXT(NamedTuple):
         return ".BSANDT_NEXT"
 
 
-_BSANDT_NEXT = _BSANDT_NEXT()
+_BSANDT_NEXT = _BSANDT_NEXT(*_BSANDT_NEXT._fields)
 """
     name: .BSANDT_NEXT
     significant_digits: None
@@ -13573,7 +13573,7 @@ _BSANDT_NEXT = _BSANDT_NEXT()
 """
 
 
-class _SANDBON(NamedTuple):
+class _SANDBON(Symbol):
     """
         name: .SANDBON
         significant_digits: None
@@ -13611,7 +13611,7 @@ class _SANDBON(NamedTuple):
         return ".SANDBON"
 
 
-_SANDBON = _SANDBON()
+_SANDBON = _SANDBON(*_SANDBON._fields)
 """
     name: .SANDBON
     significant_digits: None
@@ -13625,7 +13625,7 @@ _SANDBON = _SANDBON()
 """
 
 
-class _SANDBON8H(NamedTuple):
+class _SANDBON8H(Symbol):
     """
         name: .SANDBON8H
         significant_digits: None
@@ -13663,7 +13663,7 @@ class _SANDBON8H(NamedTuple):
         return ".SANDBON8H"
 
 
-_SANDBON8H = _SANDBON8H()
+_SANDBON8H = _SANDBON8H(*_SANDBON8H._fields)
 """
     name: .SANDBON8H
     significant_digits: None
@@ -13677,7 +13677,7 @@ _SANDBON8H = _SANDBON8H()
 """
 
 
-class _SANDUSDTPI(NamedTuple):
+class _SANDUSDTPI(Symbol):
     """
         name: .SANDUSDTPI
         significant_digits: None
@@ -13715,7 +13715,7 @@ class _SANDUSDTPI(NamedTuple):
         return ".SANDUSDTPI"
 
 
-_SANDUSDTPI = _SANDUSDTPI()
+_SANDUSDTPI = _SANDUSDTPI(*_SANDUSDTPI._fields)
 """
     name: .SANDUSDTPI
     significant_digits: None
@@ -13729,7 +13729,7 @@ _SANDUSDTPI = _SANDUSDTPI()
 """
 
 
-class _SANDUSDTPI8H(NamedTuple):
+class _SANDUSDTPI8H(Symbol):
     """
         name: .SANDUSDTPI8H
         significant_digits: None
@@ -13767,7 +13767,7 @@ class _SANDUSDTPI8H(NamedTuple):
         return ".SANDUSDTPI8H"
 
 
-_SANDUSDTPI8H = _SANDUSDTPI8H()
+_SANDUSDTPI8H = _SANDUSDTPI8H(*_SANDUSDTPI8H._fields)
 """
     name: .SANDUSDTPI8H
     significant_digits: None
@@ -13781,7 +13781,7 @@ _SANDUSDTPI8H = _SANDUSDTPI8H()
 """
 
 
-class _BTHETAT(NamedTuple):
+class _BTHETAT(Symbol):
     """
         name: .BTHETAT
         significant_digits: None
@@ -13819,7 +13819,7 @@ class _BTHETAT(NamedTuple):
         return ".BTHETAT"
 
 
-_BTHETAT = _BTHETAT()
+_BTHETAT = _BTHETAT(*_BTHETAT._fields)
 """
     name: .BTHETAT
     significant_digits: None
@@ -13833,7 +13833,7 @@ _BTHETAT = _BTHETAT()
 """
 
 
-class _BTHETAT_NEXT(NamedTuple):
+class _BTHETAT_NEXT(Symbol):
     """
         name: .BTHETAT_NEXT
         significant_digits: None
@@ -13871,7 +13871,7 @@ class _BTHETAT_NEXT(NamedTuple):
         return ".BTHETAT_NEXT"
 
 
-_BTHETAT_NEXT = _BTHETAT_NEXT()
+_BTHETAT_NEXT = _BTHETAT_NEXT(*_BTHETAT_NEXT._fields)
 """
     name: .BTHETAT_NEXT
     significant_digits: None
@@ -13885,7 +13885,7 @@ _BTHETAT_NEXT = _BTHETAT_NEXT()
 """
 
 
-class _BENJT(NamedTuple):
+class _BENJT(Symbol):
     """
         name: .BENJT
         significant_digits: None
@@ -13923,7 +13923,7 @@ class _BENJT(NamedTuple):
         return ".BENJT"
 
 
-_BENJT = _BENJT()
+_BENJT = _BENJT(*_BENJT._fields)
 """
     name: .BENJT
     significant_digits: None
@@ -13937,7 +13937,7 @@ _BENJT = _BENJT()
 """
 
 
-class _BENJT_NEXT(NamedTuple):
+class _BENJT_NEXT(Symbol):
     """
         name: .BENJT_NEXT
         significant_digits: None
@@ -13975,7 +13975,7 @@ class _BENJT_NEXT(NamedTuple):
         return ".BENJT_NEXT"
 
 
-_BENJT_NEXT = _BENJT_NEXT()
+_BENJT_NEXT = _BENJT_NEXT(*_BENJT_NEXT._fields)
 """
     name: .BENJT_NEXT
     significant_digits: None
@@ -13989,7 +13989,7 @@ _BENJT_NEXT = _BENJT_NEXT()
 """
 
 
-class _BDEFIMEXT(NamedTuple):
+class _BDEFIMEXT(Symbol):
     """
         name: .BDEFIMEXT
         significant_digits: None
@@ -14027,7 +14027,7 @@ class _BDEFIMEXT(NamedTuple):
         return ".BDEFIMEXT"
 
 
-_BDEFIMEXT = _BDEFIMEXT()
+_BDEFIMEXT = _BDEFIMEXT(*_BDEFIMEXT._fields)
 """
     name: .BDEFIMEXT
     significant_digits: None
@@ -14041,7 +14041,7 @@ _BDEFIMEXT = _BDEFIMEXT()
 """
 
 
-class _DEFIMEXTBON(NamedTuple):
+class _DEFIMEXTBON(Symbol):
     """
         name: .DEFIMEXTBON
         significant_digits: None
@@ -14079,7 +14079,7 @@ class _DEFIMEXTBON(NamedTuple):
         return ".DEFIMEXTBON"
 
 
-_DEFIMEXTBON = _DEFIMEXTBON()
+_DEFIMEXTBON = _DEFIMEXTBON(*_DEFIMEXTBON._fields)
 """
     name: .DEFIMEXTBON
     significant_digits: None
@@ -14093,7 +14093,7 @@ _DEFIMEXTBON = _DEFIMEXTBON()
 """
 
 
-class _DEFIMEXTBON8H(NamedTuple):
+class _DEFIMEXTBON8H(Symbol):
     """
         name: .DEFIMEXTBON8H
         significant_digits: None
@@ -14131,7 +14131,7 @@ class _DEFIMEXTBON8H(NamedTuple):
         return ".DEFIMEXTBON8H"
 
 
-_DEFIMEXTBON8H = _DEFIMEXTBON8H()
+_DEFIMEXTBON8H = _DEFIMEXTBON8H(*_DEFIMEXTBON8H._fields)
 """
     name: .DEFIMEXTBON8H
     significant_digits: None
@@ -14145,7 +14145,7 @@ _DEFIMEXTBON8H = _DEFIMEXTBON8H()
 """
 
 
-class _DEFIMEXTUSDTPI(NamedTuple):
+class _DEFIMEXTUSDTPI(Symbol):
     """
         name: .DEFIMEXTUSDTPI
         significant_digits: None
@@ -14183,7 +14183,7 @@ class _DEFIMEXTUSDTPI(NamedTuple):
         return ".DEFIMEXTUSDTPI"
 
 
-_DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
+_DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI(*_DEFIMEXTUSDTPI._fields)
 """
     name: .DEFIMEXTUSDTPI
     significant_digits: None
@@ -14197,7 +14197,7 @@ _DEFIMEXTUSDTPI = _DEFIMEXTUSDTPI()
 """
 
 
-class _DEFIMEXTUSDTPI8H(NamedTuple):
+class _DEFIMEXTUSDTPI8H(Symbol):
     """
         name: .DEFIMEXTUSDTPI8H
         significant_digits: None
@@ -14235,7 +14235,7 @@ class _DEFIMEXTUSDTPI8H(NamedTuple):
         return ".DEFIMEXTUSDTPI8H"
 
 
-_DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
+_DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H(*_DEFIMEXTUSDTPI8H._fields)
 """
     name: .DEFIMEXTUSDTPI8H
     significant_digits: None
@@ -14249,7 +14249,7 @@ _DEFIMEXTUSDTPI8H = _DEFIMEXTUSDTPI8H()
 """
 
 
-class _BALTMEXT(NamedTuple):
+class _BALTMEXT(Symbol):
     """
         name: .BALTMEXT
         significant_digits: None
@@ -14287,7 +14287,7 @@ class _BALTMEXT(NamedTuple):
         return ".BALTMEXT"
 
 
-_BALTMEXT = _BALTMEXT()
+_BALTMEXT = _BALTMEXT(*_BALTMEXT._fields)
 """
     name: .BALTMEXT
     significant_digits: None
@@ -14301,7 +14301,7 @@ _BALTMEXT = _BALTMEXT()
 """
 
 
-class _ALTMEXTBON(NamedTuple):
+class _ALTMEXTBON(Symbol):
     """
         name: .ALTMEXTBON
         significant_digits: None
@@ -14339,7 +14339,7 @@ class _ALTMEXTBON(NamedTuple):
         return ".ALTMEXTBON"
 
 
-_ALTMEXTBON = _ALTMEXTBON()
+_ALTMEXTBON = _ALTMEXTBON(*_ALTMEXTBON._fields)
 """
     name: .ALTMEXTBON
     significant_digits: None
@@ -14353,7 +14353,7 @@ _ALTMEXTBON = _ALTMEXTBON()
 """
 
 
-class _ALTMEXTBON8H(NamedTuple):
+class _ALTMEXTBON8H(Symbol):
     """
         name: .ALTMEXTBON8H
         significant_digits: None
@@ -14391,7 +14391,7 @@ class _ALTMEXTBON8H(NamedTuple):
         return ".ALTMEXTBON8H"
 
 
-_ALTMEXTBON8H = _ALTMEXTBON8H()
+_ALTMEXTBON8H = _ALTMEXTBON8H(*_ALTMEXTBON8H._fields)
 """
     name: .ALTMEXTBON8H
     significant_digits: None
@@ -14405,7 +14405,7 @@ _ALTMEXTBON8H = _ALTMEXTBON8H()
 """
 
 
-class _ALTMEXTUSDTPI(NamedTuple):
+class _ALTMEXTUSDTPI(Symbol):
     """
         name: .ALTMEXTUSDTPI
         significant_digits: None
@@ -14443,7 +14443,7 @@ class _ALTMEXTUSDTPI(NamedTuple):
         return ".ALTMEXTUSDTPI"
 
 
-_ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
+_ALTMEXTUSDTPI = _ALTMEXTUSDTPI(*_ALTMEXTUSDTPI._fields)
 """
     name: .ALTMEXTUSDTPI
     significant_digits: None
@@ -14457,7 +14457,7 @@ _ALTMEXTUSDTPI = _ALTMEXTUSDTPI()
 """
 
 
-class _ALTMEXTUSDTPI8H(NamedTuple):
+class _ALTMEXTUSDTPI8H(Symbol):
     """
         name: .ALTMEXTUSDTPI8H
         significant_digits: None
@@ -14495,7 +14495,7 @@ class _ALTMEXTUSDTPI8H(NamedTuple):
         return ".ALTMEXTUSDTPI8H"
 
 
-_ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
+_ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H(*_ALTMEXTUSDTPI8H._fields)
 """
     name: .ALTMEXTUSDTPI8H
     significant_digits: None
@@ -14509,7 +14509,7 @@ _ALTMEXTUSDTPI8H = _ALTMEXTUSDTPI8H()
 """
 
 
-class _BMETAMEXT(NamedTuple):
+class _BMETAMEXT(Symbol):
     """
         name: .BMETAMEXT
         significant_digits: None
@@ -14547,7 +14547,7 @@ class _BMETAMEXT(NamedTuple):
         return ".BMETAMEXT"
 
 
-_BMETAMEXT = _BMETAMEXT()
+_BMETAMEXT = _BMETAMEXT(*_BMETAMEXT._fields)
 """
     name: .BMETAMEXT
     significant_digits: None
@@ -14561,7 +14561,7 @@ _BMETAMEXT = _BMETAMEXT()
 """
 
 
-class _METAMEXTBON(NamedTuple):
+class _METAMEXTBON(Symbol):
     """
         name: .METAMEXTBON
         significant_digits: None
@@ -14599,7 +14599,7 @@ class _METAMEXTBON(NamedTuple):
         return ".METAMEXTBON"
 
 
-_METAMEXTBON = _METAMEXTBON()
+_METAMEXTBON = _METAMEXTBON(*_METAMEXTBON._fields)
 """
     name: .METAMEXTBON
     significant_digits: None
@@ -14613,7 +14613,7 @@ _METAMEXTBON = _METAMEXTBON()
 """
 
 
-class _METAMEXTBON8H(NamedTuple):
+class _METAMEXTBON8H(Symbol):
     """
         name: .METAMEXTBON8H
         significant_digits: None
@@ -14651,7 +14651,7 @@ class _METAMEXTBON8H(NamedTuple):
         return ".METAMEXTBON8H"
 
 
-_METAMEXTBON8H = _METAMEXTBON8H()
+_METAMEXTBON8H = _METAMEXTBON8H(*_METAMEXTBON8H._fields)
 """
     name: .METAMEXTBON8H
     significant_digits: None
@@ -14665,7 +14665,7 @@ _METAMEXTBON8H = _METAMEXTBON8H()
 """
 
 
-class _METAMEXTUSDTPI(NamedTuple):
+class _METAMEXTUSDTPI(Symbol):
     """
         name: .METAMEXTUSDTPI
         significant_digits: None
@@ -14703,7 +14703,7 @@ class _METAMEXTUSDTPI(NamedTuple):
         return ".METAMEXTUSDTPI"
 
 
-_METAMEXTUSDTPI = _METAMEXTUSDTPI()
+_METAMEXTUSDTPI = _METAMEXTUSDTPI(*_METAMEXTUSDTPI._fields)
 """
     name: .METAMEXTUSDTPI
     significant_digits: None
@@ -14717,7 +14717,7 @@ _METAMEXTUSDTPI = _METAMEXTUSDTPI()
 """
 
 
-class _METAMEXTUSDTPI8H(NamedTuple):
+class _METAMEXTUSDTPI8H(Symbol):
     """
         name: .METAMEXTUSDTPI8H
         significant_digits: None
@@ -14755,7 +14755,7 @@ class _METAMEXTUSDTPI8H(NamedTuple):
         return ".METAMEXTUSDTPI8H"
 
 
-_METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
+_METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H(*_METAMEXTUSDTPI8H._fields)
 """
     name: .METAMEXTUSDTPI8H
     significant_digits: None
@@ -14769,7 +14769,7 @@ _METAMEXTUSDTPI8H = _METAMEXTUSDTPI8H()
 """
 
 
-class _AVAXUSDTPI(NamedTuple):
+class _AVAXUSDTPI(Symbol):
     """
         name: .AVAXUSDTPI
         significant_digits: None
@@ -14807,7 +14807,7 @@ class _AVAXUSDTPI(NamedTuple):
         return ".AVAXUSDTPI"
 
 
-_AVAXUSDTPI = _AVAXUSDTPI()
+_AVAXUSDTPI = _AVAXUSDTPI(*_AVAXUSDTPI._fields)
 """
     name: .AVAXUSDTPI
     significant_digits: None
@@ -14821,7 +14821,7 @@ _AVAXUSDTPI = _AVAXUSDTPI()
 """
 
 
-class _AVAXUSDTPI8H(NamedTuple):
+class _AVAXUSDTPI8H(Symbol):
     """
         name: .AVAXUSDTPI8H
         significant_digits: None
@@ -14859,7 +14859,7 @@ class _AVAXUSDTPI8H(NamedTuple):
         return ".AVAXUSDTPI8H"
 
 
-_AVAXUSDTPI8H = _AVAXUSDTPI8H()
+_AVAXUSDTPI8H = _AVAXUSDTPI8H(*_AVAXUSDTPI8H._fields)
 """
     name: .AVAXUSDTPI8H
     significant_digits: None
@@ -14873,7 +14873,7 @@ _AVAXUSDTPI8H = _AVAXUSDTPI8H()
 """
 
 
-class _LUNAUSDTPI(NamedTuple):
+class _LUNAUSDTPI(Symbol):
     """
         name: .LUNAUSDTPI
         significant_digits: None
@@ -14911,7 +14911,7 @@ class _LUNAUSDTPI(NamedTuple):
         return ".LUNAUSDTPI"
 
 
-_LUNAUSDTPI = _LUNAUSDTPI()
+_LUNAUSDTPI = _LUNAUSDTPI(*_LUNAUSDTPI._fields)
 """
     name: .LUNAUSDTPI
     significant_digits: None
@@ -14925,7 +14925,7 @@ _LUNAUSDTPI = _LUNAUSDTPI()
 """
 
 
-class _LUNAUSDTPI8H(NamedTuple):
+class _LUNAUSDTPI8H(Symbol):
     """
         name: .LUNAUSDTPI8H
         significant_digits: None
@@ -14963,7 +14963,7 @@ class _LUNAUSDTPI8H(NamedTuple):
         return ".LUNAUSDTPI8H"
 
 
-_LUNAUSDTPI8H = _LUNAUSDTPI8H()
+_LUNAUSDTPI8H = _LUNAUSDTPI8H(*_LUNAUSDTPI8H._fields)
 """
     name: .LUNAUSDTPI8H
     significant_digits: None
@@ -14977,7 +14977,7 @@ _LUNAUSDTPI8H = _LUNAUSDTPI8H()
 """
 
 
-class _BAPET(NamedTuple):
+class _BAPET(Symbol):
     """
         name: .BAPET
         significant_digits: None
@@ -15015,7 +15015,7 @@ class _BAPET(NamedTuple):
         return ".BAPET"
 
 
-_BAPET = _BAPET()
+_BAPET = _BAPET(*_BAPET._fields)
 """
     name: .BAPET
     significant_digits: None
@@ -15029,7 +15029,7 @@ _BAPET = _BAPET()
 """
 
 
-class _BAPET_NEXT(NamedTuple):
+class _BAPET_NEXT(Symbol):
     """
         name: .BAPET_NEXT
         significant_digits: None
@@ -15067,7 +15067,7 @@ class _BAPET_NEXT(NamedTuple):
         return ".BAPET_NEXT"
 
 
-_BAPET_NEXT = _BAPET_NEXT()
+_BAPET_NEXT = _BAPET_NEXT(*_BAPET_NEXT._fields)
 """
     name: .BAPET_NEXT
     significant_digits: None
@@ -15081,7 +15081,7 @@ _BAPET_NEXT = _BAPET_NEXT()
 """
 
 
-class _APEBON(NamedTuple):
+class _APEBON(Symbol):
     """
         name: .APEBON
         significant_digits: None
@@ -15119,7 +15119,7 @@ class _APEBON(NamedTuple):
         return ".APEBON"
 
 
-_APEBON = _APEBON()
+_APEBON = _APEBON(*_APEBON._fields)
 """
     name: .APEBON
     significant_digits: None
@@ -15133,7 +15133,7 @@ _APEBON = _APEBON()
 """
 
 
-class _APEBON8H(NamedTuple):
+class _APEBON8H(Symbol):
     """
         name: .APEBON8H
         significant_digits: None
@@ -15171,7 +15171,7 @@ class _APEBON8H(NamedTuple):
         return ".APEBON8H"
 
 
-_APEBON8H = _APEBON8H()
+_APEBON8H = _APEBON8H(*_APEBON8H._fields)
 """
     name: .APEBON8H
     significant_digits: None
@@ -15185,7 +15185,7 @@ _APEBON8H = _APEBON8H()
 """
 
 
-class _APEUSDTPI(NamedTuple):
+class _APEUSDTPI(Symbol):
     """
         name: .APEUSDTPI
         significant_digits: None
@@ -15223,7 +15223,7 @@ class _APEUSDTPI(NamedTuple):
         return ".APEUSDTPI"
 
 
-_APEUSDTPI = _APEUSDTPI()
+_APEUSDTPI = _APEUSDTPI(*_APEUSDTPI._fields)
 """
     name: .APEUSDTPI
     significant_digits: None
@@ -15237,7 +15237,7 @@ _APEUSDTPI = _APEUSDTPI()
 """
 
 
-class _APEUSDTPI8H(NamedTuple):
+class _APEUSDTPI8H(Symbol):
     """
         name: .APEUSDTPI8H
         significant_digits: None
@@ -15275,7 +15275,7 @@ class _APEUSDTPI8H(NamedTuple):
         return ".APEUSDTPI8H"
 
 
-_APEUSDTPI8H = _APEUSDTPI8H()
+_APEUSDTPI8H = _APEUSDTPI8H(*_APEUSDTPI8H._fields)
 """
     name: .APEUSDTPI8H
     significant_digits: None
@@ -15289,7 +15289,7 @@ _APEUSDTPI8H = _APEUSDTPI8H()
 """
 
 
-class _GMTBON(NamedTuple):
+class _GMTBON(Symbol):
     """
         name: .GMTBON
         significant_digits: None
@@ -15327,7 +15327,7 @@ class _GMTBON(NamedTuple):
         return ".GMTBON"
 
 
-_GMTBON = _GMTBON()
+_GMTBON = _GMTBON(*_GMTBON._fields)
 """
     name: .GMTBON
     significant_digits: None
@@ -15341,7 +15341,7 @@ _GMTBON = _GMTBON()
 """
 
 
-class _GMTBON8H(NamedTuple):
+class _GMTBON8H(Symbol):
     """
         name: .GMTBON8H
         significant_digits: None
@@ -15379,7 +15379,7 @@ class _GMTBON8H(NamedTuple):
         return ".GMTBON8H"
 
 
-_GMTBON8H = _GMTBON8H()
+_GMTBON8H = _GMTBON8H(*_GMTBON8H._fields)
 """
     name: .GMTBON8H
     significant_digits: None
@@ -15393,7 +15393,7 @@ _GMTBON8H = _GMTBON8H()
 """
 
 
-class _GMTUSDTPI(NamedTuple):
+class _GMTUSDTPI(Symbol):
     """
         name: .GMTUSDTPI
         significant_digits: None
@@ -15431,7 +15431,7 @@ class _GMTUSDTPI(NamedTuple):
         return ".GMTUSDTPI"
 
 
-_GMTUSDTPI = _GMTUSDTPI()
+_GMTUSDTPI = _GMTUSDTPI(*_GMTUSDTPI._fields)
 """
     name: .GMTUSDTPI
     significant_digits: None
@@ -15445,7 +15445,7 @@ _GMTUSDTPI = _GMTUSDTPI()
 """
 
 
-class _GMTUSDTPI8H(NamedTuple):
+class _GMTUSDTPI8H(Symbol):
     """
         name: .GMTUSDTPI8H
         significant_digits: None
@@ -15483,7 +15483,7 @@ class _GMTUSDTPI8H(NamedTuple):
         return ".GMTUSDTPI8H"
 
 
-_GMTUSDTPI8H = _GMTUSDTPI8H()
+_GMTUSDTPI8H = _GMTUSDTPI8H(*_GMTUSDTPI8H._fields)
 """
     name: .GMTUSDTPI8H
     significant_digits: None
@@ -15497,7 +15497,7 @@ _GMTUSDTPI8H = _GMTUSDTPI8H()
 """
 
 
-class _GMTUSDPI(NamedTuple):
+class _GMTUSDPI(Symbol):
     """
         name: .GMTUSDPI
         significant_digits: None
@@ -15535,7 +15535,7 @@ class _GMTUSDPI(NamedTuple):
         return ".GMTUSDPI"
 
 
-_GMTUSDPI = _GMTUSDPI()
+_GMTUSDPI = _GMTUSDPI(*_GMTUSDPI._fields)
 """
     name: .GMTUSDPI
     significant_digits: None
@@ -15549,7 +15549,7 @@ _GMTUSDPI = _GMTUSDPI()
 """
 
 
-class _GMTUSDPI8H(NamedTuple):
+class _GMTUSDPI8H(Symbol):
     """
         name: .GMTUSDPI8H
         significant_digits: None
@@ -15587,7 +15587,7 @@ class _GMTUSDPI8H(NamedTuple):
         return ".GMTUSDPI8H"
 
 
-_GMTUSDPI8H = _GMTUSDPI8H()
+_GMTUSDPI8H = _GMTUSDPI8H(*_GMTUSDPI8H._fields)
 """
     name: .GMTUSDPI8H
     significant_digits: None
@@ -15601,7 +15601,7 @@ _GMTUSDPI8H = _GMTUSDPI8H()
 """
 
 
-class _BGMT(NamedTuple):
+class _BGMT(Symbol):
     """
         name: .BGMT
         significant_digits: None
@@ -15639,7 +15639,7 @@ class _BGMT(NamedTuple):
         return ".BGMT"
 
 
-_BGMT = _BGMT()
+_BGMT = _BGMT(*_BGMT._fields)
 """
     name: .BGMT
     significant_digits: None
@@ -15653,7 +15653,7 @@ _BGMT = _BGMT()
 """
 
 
-class _BGMT_NEXT(NamedTuple):
+class _BGMT_NEXT(Symbol):
     """
         name: .BGMT_NEXT
         significant_digits: None
@@ -15691,7 +15691,7 @@ class _BGMT_NEXT(NamedTuple):
         return ".BGMT_NEXT"
 
 
-_BGMT_NEXT = _BGMT_NEXT()
+_BGMT_NEXT = _BGMT_NEXT(*_BGMT_NEXT._fields)
 """
     name: .BGMT_NEXT
     significant_digits: None
@@ -15705,7 +15705,7 @@ _BGMT_NEXT = _BGMT_NEXT()
 """
 
 
-class _BGMTT(NamedTuple):
+class _BGMTT(Symbol):
     """
         name: .BGMTT
         significant_digits: None
@@ -15743,7 +15743,7 @@ class _BGMTT(NamedTuple):
         return ".BGMTT"
 
 
-_BGMTT = _BGMTT()
+_BGMTT = _BGMTT(*_BGMTT._fields)
 """
     name: .BGMTT
     significant_digits: None
@@ -15757,7 +15757,7 @@ _BGMTT = _BGMTT()
 """
 
 
-class _BGMTT_NEXT(NamedTuple):
+class _BGMTT_NEXT(Symbol):
     """
         name: .BGMTT_NEXT
         significant_digits: None
@@ -15795,7 +15795,7 @@ class _BGMTT_NEXT(NamedTuple):
         return ".BGMTT_NEXT"
 
 
-_BGMTT_NEXT = _BGMTT_NEXT()
+_BGMTT_NEXT = _BGMTT_NEXT(*_BGMTT_NEXT._fields)
 """
     name: .BGMTT_NEXT
     significant_digits: None
@@ -15809,7 +15809,7 @@ _BGMTT_NEXT = _BGMTT_NEXT()
 """
 
 
-class _NEARBON(NamedTuple):
+class _NEARBON(Symbol):
     """
         name: .NEARBON
         significant_digits: None
@@ -15847,7 +15847,7 @@ class _NEARBON(NamedTuple):
         return ".NEARBON"
 
 
-_NEARBON = _NEARBON()
+_NEARBON = _NEARBON(*_NEARBON._fields)
 """
     name: .NEARBON
     significant_digits: None
@@ -15861,7 +15861,7 @@ _NEARBON = _NEARBON()
 """
 
 
-class _NEARBON8H(NamedTuple):
+class _NEARBON8H(Symbol):
     """
         name: .NEARBON8H
         significant_digits: None
@@ -15899,7 +15899,7 @@ class _NEARBON8H(NamedTuple):
         return ".NEARBON8H"
 
 
-_NEARBON8H = _NEARBON8H()
+_NEARBON8H = _NEARBON8H(*_NEARBON8H._fields)
 """
     name: .NEARBON8H
     significant_digits: None
@@ -15913,7 +15913,7 @@ _NEARBON8H = _NEARBON8H()
 """
 
 
-class _NEARUSDTPI(NamedTuple):
+class _NEARUSDTPI(Symbol):
     """
         name: .NEARUSDTPI
         significant_digits: None
@@ -15951,7 +15951,7 @@ class _NEARUSDTPI(NamedTuple):
         return ".NEARUSDTPI"
 
 
-_NEARUSDTPI = _NEARUSDTPI()
+_NEARUSDTPI = _NEARUSDTPI(*_NEARUSDTPI._fields)
 """
     name: .NEARUSDTPI
     significant_digits: None
@@ -15965,7 +15965,7 @@ _NEARUSDTPI = _NEARUSDTPI()
 """
 
 
-class _NEARUSDTPI8H(NamedTuple):
+class _NEARUSDTPI8H(Symbol):
     """
         name: .NEARUSDTPI8H
         significant_digits: None
@@ -16003,7 +16003,7 @@ class _NEARUSDTPI8H(NamedTuple):
         return ".NEARUSDTPI8H"
 
 
-_NEARUSDTPI8H = _NEARUSDTPI8H()
+_NEARUSDTPI8H = _NEARUSDTPI8H(*_NEARUSDTPI8H._fields)
 """
     name: .NEARUSDTPI8H
     significant_digits: None
@@ -16017,7 +16017,7 @@ _NEARUSDTPI8H = _NEARUSDTPI8H()
 """
 
 
-class _NEARUSDPI(NamedTuple):
+class _NEARUSDPI(Symbol):
     """
         name: .NEARUSDPI
         significant_digits: None
@@ -16055,7 +16055,7 @@ class _NEARUSDPI(NamedTuple):
         return ".NEARUSDPI"
 
 
-_NEARUSDPI = _NEARUSDPI()
+_NEARUSDPI = _NEARUSDPI(*_NEARUSDPI._fields)
 """
     name: .NEARUSDPI
     significant_digits: None
@@ -16069,7 +16069,7 @@ _NEARUSDPI = _NEARUSDPI()
 """
 
 
-class _NEARUSDPI8H(NamedTuple):
+class _NEARUSDPI8H(Symbol):
     """
         name: .NEARUSDPI8H
         significant_digits: None
@@ -16107,7 +16107,7 @@ class _NEARUSDPI8H(NamedTuple):
         return ".NEARUSDPI8H"
 
 
-_NEARUSDPI8H = _NEARUSDPI8H()
+_NEARUSDPI8H = _NEARUSDPI8H(*_NEARUSDPI8H._fields)
 """
     name: .NEARUSDPI8H
     significant_digits: None
@@ -16121,7 +16121,7 @@ _NEARUSDPI8H = _NEARUSDPI8H()
 """
 
 
-class _BNEAR(NamedTuple):
+class _BNEAR(Symbol):
     """
         name: .BNEAR
         significant_digits: None
@@ -16159,7 +16159,7 @@ class _BNEAR(NamedTuple):
         return ".BNEAR"
 
 
-_BNEAR = _BNEAR()
+_BNEAR = _BNEAR(*_BNEAR._fields)
 """
     name: .BNEAR
     significant_digits: None
@@ -16173,7 +16173,7 @@ _BNEAR = _BNEAR()
 """
 
 
-class _BNEAR_NEXT(NamedTuple):
+class _BNEAR_NEXT(Symbol):
     """
         name: .BNEAR_NEXT
         significant_digits: None
@@ -16211,7 +16211,7 @@ class _BNEAR_NEXT(NamedTuple):
         return ".BNEAR_NEXT"
 
 
-_BNEAR_NEXT = _BNEAR_NEXT()
+_BNEAR_NEXT = _BNEAR_NEXT(*_BNEAR_NEXT._fields)
 """
     name: .BNEAR_NEXT
     significant_digits: None
@@ -16225,7 +16225,7 @@ _BNEAR_NEXT = _BNEAR_NEXT()
 """
 
 
-class _BNEART(NamedTuple):
+class _BNEART(Symbol):
     """
         name: .BNEART
         significant_digits: None
@@ -16263,7 +16263,7 @@ class _BNEART(NamedTuple):
         return ".BNEART"
 
 
-_BNEART = _BNEART()
+_BNEART = _BNEART(*_BNEART._fields)
 """
     name: .BNEART
     significant_digits: None
@@ -16277,7 +16277,7 @@ _BNEART = _BNEART()
 """
 
 
-class _BNEART_NEXT(NamedTuple):
+class _BNEART_NEXT(Symbol):
     """
         name: .BNEART_NEXT
         significant_digits: None
@@ -16315,7 +16315,7 @@ class _BNEART_NEXT(NamedTuple):
         return ".BNEART_NEXT"
 
 
-_BNEART_NEXT = _BNEART_NEXT()
+_BNEART_NEXT = _BNEART_NEXT(*_BNEART_NEXT._fields)
 """
     name: .BNEART_NEXT
     significant_digits: None
@@ -16329,7 +16329,7 @@ _BNEART_NEXT = _BNEART_NEXT()
 """
 
 
-class _BLUNA30M(NamedTuple):
+class _BLUNA30M(Symbol):
     """
         name: .BLUNA30M
         significant_digits: None
@@ -16367,7 +16367,7 @@ class _BLUNA30M(NamedTuple):
         return ".BLUNA30M"
 
 
-_BLUNA30M = _BLUNA30M()
+_BLUNA30M = _BLUNA30M(*_BLUNA30M._fields)
 """
     name: .BLUNA30M
     significant_digits: None
@@ -16381,7 +16381,7 @@ _BLUNA30M = _BLUNA30M()
 """
 
 
-class _BLUNAT30M(NamedTuple):
+class _BLUNAT30M(Symbol):
     """
         name: .BLUNAT30M
         significant_digits: None
@@ -16419,7 +16419,7 @@ class _BLUNAT30M(NamedTuple):
         return ".BLUNAT30M"
 
 
-_BLUNAT30M = _BLUNAT30M()
+_BLUNAT30M = _BLUNAT30M(*_BLUNAT30M._fields)
 """
     name: .BLUNAT30M
     significant_digits: None
@@ -16433,7 +16433,7 @@ _BLUNAT30M = _BLUNAT30M()
 """
 
 
-class _BAPE(NamedTuple):
+class _BAPE(Symbol):
     """
         name: .BAPE
         significant_digits: None
@@ -16471,7 +16471,7 @@ class _BAPE(NamedTuple):
         return ".BAPE"
 
 
-_BAPE = _BAPE()
+_BAPE = _BAPE(*_BAPE._fields)
 """
     name: .BAPE
     significant_digits: None
@@ -16485,7 +16485,7 @@ _BAPE = _BAPE()
 """
 
 
-class _BAPE_NEXT(NamedTuple):
+class _BAPE_NEXT(Symbol):
     """
         name: .BAPE_NEXT
         significant_digits: None
@@ -16523,7 +16523,7 @@ class _BAPE_NEXT(NamedTuple):
         return ".BAPE_NEXT"
 
 
-_BAPE_NEXT = _BAPE_NEXT()
+_BAPE_NEXT = _BAPE_NEXT(*_BAPE_NEXT._fields)
 """
     name: .BAPE_NEXT
     significant_digits: None
@@ -16537,7 +16537,7 @@ _BAPE_NEXT = _BAPE_NEXT()
 """
 
 
-class _BTRX(NamedTuple):
+class _BTRX(Symbol):
     """
         name: .BTRX
         significant_digits: None
@@ -16575,7 +16575,7 @@ class _BTRX(NamedTuple):
         return ".BTRX"
 
 
-_BTRX = _BTRX()
+_BTRX = _BTRX(*_BTRX._fields)
 """
     name: .BTRX
     significant_digits: None
@@ -16589,7 +16589,7 @@ _BTRX = _BTRX()
 """
 
 
-class _BTRX_NEXT(NamedTuple):
+class _BTRX_NEXT(Symbol):
     """
         name: .BTRX_NEXT
         significant_digits: None
@@ -16627,7 +16627,7 @@ class _BTRX_NEXT(NamedTuple):
         return ".BTRX_NEXT"
 
 
-_BTRX_NEXT = _BTRX_NEXT()
+_BTRX_NEXT = _BTRX_NEXT(*_BTRX_NEXT._fields)
 """
     name: .BTRX_NEXT
     significant_digits: None
@@ -16641,7 +16641,7 @@ _BTRX_NEXT = _BTRX_NEXT()
 """
 
 
-class _BGAL(NamedTuple):
+class _BGAL(Symbol):
     """
         name: .BGAL
         significant_digits: None
@@ -16679,7 +16679,7 @@ class _BGAL(NamedTuple):
         return ".BGAL"
 
 
-_BGAL = _BGAL()
+_BGAL = _BGAL(*_BGAL._fields)
 """
     name: .BGAL
     significant_digits: None
@@ -16693,7 +16693,7 @@ _BGAL = _BGAL()
 """
 
 
-class _BGAL_NEXT(NamedTuple):
+class _BGAL_NEXT(Symbol):
     """
         name: .BGAL_NEXT
         significant_digits: None
@@ -16731,7 +16731,7 @@ class _BGAL_NEXT(NamedTuple):
         return ".BGAL_NEXT"
 
 
-_BGAL_NEXT = _BGAL_NEXT()
+_BGAL_NEXT = _BGAL_NEXT(*_BGAL_NEXT._fields)
 """
     name: .BGAL_NEXT
     significant_digits: None
@@ -16745,7 +16745,7 @@ _BGAL_NEXT = _BGAL_NEXT()
 """
 
 
-class _BGALT(NamedTuple):
+class _BGALT(Symbol):
     """
         name: .BGALT
         significant_digits: None
@@ -16783,7 +16783,7 @@ class _BGALT(NamedTuple):
         return ".BGALT"
 
 
-_BGALT = _BGALT()
+_BGALT = _BGALT(*_BGALT._fields)
 """
     name: .BGALT
     significant_digits: None
@@ -16797,7 +16797,7 @@ _BGALT = _BGALT()
 """
 
 
-class _BGALT_NEXT(NamedTuple):
+class _BGALT_NEXT(Symbol):
     """
         name: .BGALT_NEXT
         significant_digits: None
@@ -16835,7 +16835,7 @@ class _BGALT_NEXT(NamedTuple):
         return ".BGALT_NEXT"
 
 
-_BGALT_NEXT = _BGALT_NEXT()
+_BGALT_NEXT = _BGALT_NEXT(*_BGALT_NEXT._fields)
 """
     name: .BGALT_NEXT
     significant_digits: None
@@ -16849,7 +16849,7 @@ _BGALT_NEXT = _BGALT_NEXT()
 """
 
 
-class _GALBON(NamedTuple):
+class _GALBON(Symbol):
     """
         name: .GALBON
         significant_digits: None
@@ -16887,7 +16887,7 @@ class _GALBON(NamedTuple):
         return ".GALBON"
 
 
-_GALBON = _GALBON()
+_GALBON = _GALBON(*_GALBON._fields)
 """
     name: .GALBON
     significant_digits: None
@@ -16901,7 +16901,7 @@ _GALBON = _GALBON()
 """
 
 
-class _GALBON8H(NamedTuple):
+class _GALBON8H(Symbol):
     """
         name: .GALBON8H
         significant_digits: None
@@ -16939,7 +16939,7 @@ class _GALBON8H(NamedTuple):
         return ".GALBON8H"
 
 
-_GALBON8H = _GALBON8H()
+_GALBON8H = _GALBON8H(*_GALBON8H._fields)
 """
     name: .GALBON8H
     significant_digits: None
@@ -16953,7 +16953,7 @@ _GALBON8H = _GALBON8H()
 """
 
 
-class _APEUSDPI(NamedTuple):
+class _APEUSDPI(Symbol):
     """
         name: .APEUSDPI
         significant_digits: None
@@ -16991,7 +16991,7 @@ class _APEUSDPI(NamedTuple):
         return ".APEUSDPI"
 
 
-_APEUSDPI = _APEUSDPI()
+_APEUSDPI = _APEUSDPI(*_APEUSDPI._fields)
 """
     name: .APEUSDPI
     significant_digits: None
@@ -17005,7 +17005,7 @@ _APEUSDPI = _APEUSDPI()
 """
 
 
-class _APEUSDPI8H(NamedTuple):
+class _APEUSDPI8H(Symbol):
     """
         name: .APEUSDPI8H
         significant_digits: None
@@ -17043,7 +17043,7 @@ class _APEUSDPI8H(NamedTuple):
         return ".APEUSDPI8H"
 
 
-_APEUSDPI8H = _APEUSDPI8H()
+_APEUSDPI8H = _APEUSDPI8H(*_APEUSDPI8H._fields)
 """
     name: .APEUSDPI8H
     significant_digits: None
@@ -17057,7 +17057,7 @@ _APEUSDPI8H = _APEUSDPI8H()
 """
 
 
-class _TRXUSDPI(NamedTuple):
+class _TRXUSDPI(Symbol):
     """
         name: .TRXUSDPI
         significant_digits: None
@@ -17095,7 +17095,7 @@ class _TRXUSDPI(NamedTuple):
         return ".TRXUSDPI"
 
 
-_TRXUSDPI = _TRXUSDPI()
+_TRXUSDPI = _TRXUSDPI(*_TRXUSDPI._fields)
 """
     name: .TRXUSDPI
     significant_digits: None
@@ -17109,7 +17109,7 @@ _TRXUSDPI = _TRXUSDPI()
 """
 
 
-class _TRXUSDPI8H(NamedTuple):
+class _TRXUSDPI8H(Symbol):
     """
         name: .TRXUSDPI8H
         significant_digits: None
@@ -17147,7 +17147,7 @@ class _TRXUSDPI8H(NamedTuple):
         return ".TRXUSDPI8H"
 
 
-_TRXUSDPI8H = _TRXUSDPI8H()
+_TRXUSDPI8H = _TRXUSDPI8H(*_TRXUSDPI8H._fields)
 """
     name: .TRXUSDPI8H
     significant_digits: None
@@ -17161,7 +17161,7 @@ _TRXUSDPI8H = _TRXUSDPI8H()
 """
 
 
-class _GALUSDTPI(NamedTuple):
+class _GALUSDTPI(Symbol):
     """
         name: .GALUSDTPI
         significant_digits: None
@@ -17199,7 +17199,7 @@ class _GALUSDTPI(NamedTuple):
         return ".GALUSDTPI"
 
 
-_GALUSDTPI = _GALUSDTPI()
+_GALUSDTPI = _GALUSDTPI(*_GALUSDTPI._fields)
 """
     name: .GALUSDTPI
     significant_digits: None
@@ -17213,7 +17213,7 @@ _GALUSDTPI = _GALUSDTPI()
 """
 
 
-class _GALUSDTPI8H(NamedTuple):
+class _GALUSDTPI8H(Symbol):
     """
         name: .GALUSDTPI8H
         significant_digits: None
@@ -17251,7 +17251,7 @@ class _GALUSDTPI8H(NamedTuple):
         return ".GALUSDTPI8H"
 
 
-_GALUSDTPI8H = _GALUSDTPI8H()
+_GALUSDTPI8H = _GALUSDTPI8H(*_GALUSDTPI8H._fields)
 """
     name: .GALUSDTPI8H
     significant_digits: None
@@ -17265,7 +17265,7 @@ _GALUSDTPI8H = _GALUSDTPI8H()
 """
 
 
-class _GALUSDPI(NamedTuple):
+class _GALUSDPI(Symbol):
     """
         name: .GALUSDPI
         significant_digits: None
@@ -17303,7 +17303,7 @@ class _GALUSDPI(NamedTuple):
         return ".GALUSDPI"
 
 
-_GALUSDPI = _GALUSDPI()
+_GALUSDPI = _GALUSDPI(*_GALUSDPI._fields)
 """
     name: .GALUSDPI
     significant_digits: None
@@ -17317,7 +17317,7 @@ _GALUSDPI = _GALUSDPI()
 """
 
 
-class _GALUSDPI8H(NamedTuple):
+class _GALUSDPI8H(Symbol):
     """
         name: .GALUSDPI8H
         significant_digits: None
@@ -17355,7 +17355,7 @@ class _GALUSDPI8H(NamedTuple):
         return ".GALUSDPI8H"
 
 
-_GALUSDPI8H = _GALUSDPI8H()
+_GALUSDPI8H = _GALUSDPI8H(*_GALUSDPI8H._fields)
 """
     name: .GALUSDPI8H
     significant_digits: None
@@ -17369,7 +17369,7 @@ _GALUSDPI8H = _GALUSDPI8H()
 """
 
 
-class _BLUNC(NamedTuple):
+class _BLUNC(Symbol):
     """
         name: .BLUNC
         significant_digits: None
@@ -17407,7 +17407,7 @@ class _BLUNC(NamedTuple):
         return ".BLUNC"
 
 
-_BLUNC = _BLUNC()
+_BLUNC = _BLUNC(*_BLUNC._fields)
 """
     name: .BLUNC
     significant_digits: None
@@ -17421,7 +17421,7 @@ _BLUNC = _BLUNC()
 """
 
 
-class _BLUNC_NEXT(NamedTuple):
+class _BLUNC_NEXT(Symbol):
     """
         name: .BLUNC_NEXT
         significant_digits: None
@@ -17459,7 +17459,7 @@ class _BLUNC_NEXT(NamedTuple):
         return ".BLUNC_NEXT"
 
 
-_BLUNC_NEXT = _BLUNC_NEXT()
+_BLUNC_NEXT = _BLUNC_NEXT(*_BLUNC_NEXT._fields)
 """
     name: .BLUNC_NEXT
     significant_digits: None
@@ -17473,7 +17473,7 @@ _BLUNC_NEXT = _BLUNC_NEXT()
 """
 
 
-class _BLUNCT(NamedTuple):
+class _BLUNCT(Symbol):
     """
         name: .BLUNCT
         significant_digits: None
@@ -17511,7 +17511,7 @@ class _BLUNCT(NamedTuple):
         return ".BLUNCT"
 
 
-_BLUNCT = _BLUNCT()
+_BLUNCT = _BLUNCT(*_BLUNCT._fields)
 """
     name: .BLUNCT
     significant_digits: None
@@ -17525,7 +17525,7 @@ _BLUNCT = _BLUNCT()
 """
 
 
-class _BLUNCT_NEXT(NamedTuple):
+class _BLUNCT_NEXT(Symbol):
     """
         name: .BLUNCT_NEXT
         significant_digits: None
@@ -17563,7 +17563,7 @@ class _BLUNCT_NEXT(NamedTuple):
         return ".BLUNCT_NEXT"
 
 
-_BLUNCT_NEXT = _BLUNCT_NEXT()
+_BLUNCT_NEXT = _BLUNCT_NEXT(*_BLUNCT_NEXT._fields)
 """
     name: .BLUNCT_NEXT
     significant_digits: None
@@ -17577,7 +17577,7 @@ _BLUNCT_NEXT = _BLUNCT_NEXT()
 """
 
 
-class _BDFI(NamedTuple):
+class _BDFI(Symbol):
     """
         name: .BDFI
         significant_digits: None
@@ -17615,7 +17615,7 @@ class _BDFI(NamedTuple):
         return ".BDFI"
 
 
-_BDFI = _BDFI()
+_BDFI = _BDFI(*_BDFI._fields)
 """
     name: .BDFI
     significant_digits: None
@@ -17629,7 +17629,7 @@ _BDFI = _BDFI()
 """
 
 
-class _BDFIT(NamedTuple):
+class _BDFIT(Symbol):
     """
         name: .BDFIT
         significant_digits: None
@@ -17667,7 +17667,7 @@ class _BDFIT(NamedTuple):
         return ".BDFIT"
 
 
-_BDFIT = _BDFIT()
+_BDFIT = _BDFIT(*_BDFIT._fields)
 """
     name: .BDFIT
     significant_digits: None
@@ -17681,7 +17681,7 @@ _BDFIT = _BDFIT()
 """
 
 
-class _BGRT(NamedTuple):
+class _BGRT(Symbol):
     """
         name: .BGRT
         significant_digits: None
@@ -17719,7 +17719,7 @@ class _BGRT(NamedTuple):
         return ".BGRT"
 
 
-_BGRT = _BGRT()
+_BGRT = _BGRT(*_BGRT._fields)
 """
     name: .BGRT
     significant_digits: None
@@ -17733,7 +17733,7 @@ _BGRT = _BGRT()
 """
 
 
-class _EURUSDPI(NamedTuple):
+class _EURUSDPI(Symbol):
     """
         name: .EURUSDPI
         significant_digits: None
@@ -17771,7 +17771,7 @@ class _EURUSDPI(NamedTuple):
         return ".EURUSDPI"
 
 
-_EURUSDPI = _EURUSDPI()
+_EURUSDPI = _EURUSDPI(*_EURUSDPI._fields)
 """
     name: .EURUSDPI
     significant_digits: None
@@ -17785,7 +17785,7 @@ _EURUSDPI = _EURUSDPI()
 """
 
 
-class _USDCHFPI(NamedTuple):
+class _USDCHFPI(Symbol):
     """
         name: .USDCHFPI
         significant_digits: None
@@ -17823,7 +17823,7 @@ class _USDCHFPI(NamedTuple):
         return ".USDCHFPI"
 
 
-_USDCHFPI = _USDCHFPI()
+_USDCHFPI = _USDCHFPI(*_USDCHFPI._fields)
 """
     name: .USDCHFPI
     significant_digits: None
@@ -17837,7 +17837,7 @@ _USDCHFPI = _USDCHFPI()
 """
 
 
-class _EURCHFPI(NamedTuple):
+class _EURCHFPI(Symbol):
     """
         name: .EURCHFPI
         significant_digits: None
@@ -17875,7 +17875,7 @@ class _EURCHFPI(NamedTuple):
         return ".EURCHFPI"
 
 
-_EURCHFPI = _EURCHFPI()
+_EURCHFPI = _EURCHFPI(*_EURCHFPI._fields)
 """
     name: .EURCHFPI
     significant_digits: None
@@ -17889,7 +17889,7 @@ _EURCHFPI = _EURCHFPI()
 """
 
 
-class _EURTRYPI(NamedTuple):
+class _EURTRYPI(Symbol):
     """
         name: .EURTRYPI
         significant_digits: None
@@ -17927,7 +17927,7 @@ class _EURTRYPI(NamedTuple):
         return ".EURTRYPI"
 
 
-_EURTRYPI = _EURTRYPI()
+_EURTRYPI = _EURTRYPI(*_EURTRYPI._fields)
 """
     name: .EURTRYPI
     significant_digits: None
@@ -17941,7 +17941,7 @@ _EURTRYPI = _EURTRYPI()
 """
 
 
-class _USDTRYPI(NamedTuple):
+class _USDTRYPI(Symbol):
     """
         name: .USDTRYPI
         significant_digits: None
@@ -17979,7 +17979,7 @@ class _USDTRYPI(NamedTuple):
         return ".USDTRYPI"
 
 
-_USDTRYPI = _USDTRYPI()
+_USDTRYPI = _USDTRYPI(*_USDTRYPI._fields)
 """
     name: .USDTRYPI
     significant_digits: None
@@ -17993,7 +17993,7 @@ _USDTRYPI = _USDTRYPI()
 """
 
 
-class _USDINRPI(NamedTuple):
+class _USDINRPI(Symbol):
     """
         name: .USDINRPI
         significant_digits: None
@@ -18031,7 +18031,7 @@ class _USDINRPI(NamedTuple):
         return ".USDINRPI"
 
 
-_USDINRPI = _USDINRPI()
+_USDINRPI = _USDINRPI(*_USDINRPI._fields)
 """
     name: .USDINRPI
     significant_digits: None
@@ -18045,7 +18045,7 @@ _USDINRPI = _USDINRPI()
 """
 
 
-class _USDZARPI(NamedTuple):
+class _USDZARPI(Symbol):
     """
         name: .USDZARPI
         significant_digits: None
@@ -18083,7 +18083,7 @@ class _USDZARPI(NamedTuple):
         return ".USDZARPI"
 
 
-_USDZARPI = _USDZARPI()
+_USDZARPI = _USDZARPI(*_USDZARPI._fields)
 """
     name: .USDZARPI
     significant_digits: None
@@ -18097,7 +18097,7 @@ _USDZARPI = _USDZARPI()
 """
 
 
-class _USDBRLPI(NamedTuple):
+class _USDBRLPI(Symbol):
     """
         name: .USDBRLPI
         significant_digits: None
@@ -18135,7 +18135,7 @@ class _USDBRLPI(NamedTuple):
         return ".USDBRLPI"
 
 
-_USDBRLPI = _USDBRLPI()
+_USDBRLPI = _USDBRLPI(*_USDBRLPI._fields)
 """
     name: .USDBRLPI
     significant_digits: None
@@ -18149,7 +18149,7 @@ _USDBRLPI = _USDBRLPI()
 """
 
 
-class _USDMXNPI(NamedTuple):
+class _USDMXNPI(Symbol):
     """
         name: .USDMXNPI
         significant_digits: None
@@ -18187,7 +18187,7 @@ class _USDMXNPI(NamedTuple):
         return ".USDMXNPI"
 
 
-_USDMXNPI = _USDMXNPI()
+_USDMXNPI = _USDMXNPI(*_USDMXNPI._fields)
 """
     name: .USDMXNPI
     significant_digits: None
@@ -18201,7 +18201,7 @@ _USDMXNPI = _USDMXNPI()
 """
 
 
-class _NZDUSDPI(NamedTuple):
+class _NZDUSDPI(Symbol):
     """
         name: .NZDUSDPI
         significant_digits: None
@@ -18239,7 +18239,7 @@ class _NZDUSDPI(NamedTuple):
         return ".NZDUSDPI"
 
 
-_NZDUSDPI = _NZDUSDPI()
+_NZDUSDPI = _NZDUSDPI(*_NZDUSDPI._fields)
 """
     name: .NZDUSDPI
     significant_digits: None
@@ -18253,7 +18253,7 @@ _NZDUSDPI = _NZDUSDPI()
 """
 
 
-class _USDCNHPI(NamedTuple):
+class _USDCNHPI(Symbol):
     """
         name: .USDCNHPI
         significant_digits: None
@@ -18291,7 +18291,7 @@ class _USDCNHPI(NamedTuple):
         return ".USDCNHPI"
 
 
-_USDCNHPI = _USDCNHPI()
+_USDCNHPI = _USDCNHPI(*_USDCNHPI._fields)
 """
     name: .USDCNHPI
     significant_digits: None
@@ -18305,7 +18305,7 @@ _USDCNHPI = _USDCNHPI()
 """
 
 
-class _USDSEKPI(NamedTuple):
+class _USDSEKPI(Symbol):
     """
         name: .USDSEKPI
         significant_digits: None
@@ -18343,7 +18343,7 @@ class _USDSEKPI(NamedTuple):
         return ".USDSEKPI"
 
 
-_USDSEKPI = _USDSEKPI()
+_USDSEKPI = _USDSEKPI(*_USDSEKPI._fields)
 """
     name: .USDSEKPI
     significant_digits: None
@@ -18357,7 +18357,7 @@ _USDSEKPI = _USDSEKPI()
 """
 
 
-class _EURUSDPI8H(NamedTuple):
+class _EURUSDPI8H(Symbol):
     """
         name: .EURUSDPI8H
         significant_digits: None
@@ -18395,7 +18395,7 @@ class _EURUSDPI8H(NamedTuple):
         return ".EURUSDPI8H"
 
 
-_EURUSDPI8H = _EURUSDPI8H()
+_EURUSDPI8H = _EURUSDPI8H(*_EURUSDPI8H._fields)
 """
     name: .EURUSDPI8H
     significant_digits: None
@@ -18409,7 +18409,7 @@ _EURUSDPI8H = _EURUSDPI8H()
 """
 
 
-class _USDCHFPI8H(NamedTuple):
+class _USDCHFPI8H(Symbol):
     """
         name: .USDCHFPI8H
         significant_digits: None
@@ -18447,7 +18447,7 @@ class _USDCHFPI8H(NamedTuple):
         return ".USDCHFPI8H"
 
 
-_USDCHFPI8H = _USDCHFPI8H()
+_USDCHFPI8H = _USDCHFPI8H(*_USDCHFPI8H._fields)
 """
     name: .USDCHFPI8H
     significant_digits: None
@@ -18461,7 +18461,7 @@ _USDCHFPI8H = _USDCHFPI8H()
 """
 
 
-class _EURCHFPI8H(NamedTuple):
+class _EURCHFPI8H(Symbol):
     """
         name: .EURCHFPI8H
         significant_digits: None
@@ -18499,7 +18499,7 @@ class _EURCHFPI8H(NamedTuple):
         return ".EURCHFPI8H"
 
 
-_EURCHFPI8H = _EURCHFPI8H()
+_EURCHFPI8H = _EURCHFPI8H(*_EURCHFPI8H._fields)
 """
     name: .EURCHFPI8H
     significant_digits: None
@@ -18513,7 +18513,7 @@ _EURCHFPI8H = _EURCHFPI8H()
 """
 
 
-class _EURTRYPI8H(NamedTuple):
+class _EURTRYPI8H(Symbol):
     """
         name: .EURTRYPI8H
         significant_digits: None
@@ -18551,7 +18551,7 @@ class _EURTRYPI8H(NamedTuple):
         return ".EURTRYPI8H"
 
 
-_EURTRYPI8H = _EURTRYPI8H()
+_EURTRYPI8H = _EURTRYPI8H(*_EURTRYPI8H._fields)
 """
     name: .EURTRYPI8H
     significant_digits: None
@@ -18565,7 +18565,7 @@ _EURTRYPI8H = _EURTRYPI8H()
 """
 
 
-class _USDTRYPI8H(NamedTuple):
+class _USDTRYPI8H(Symbol):
     """
         name: .USDTRYPI8H
         significant_digits: None
@@ -18603,7 +18603,7 @@ class _USDTRYPI8H(NamedTuple):
         return ".USDTRYPI8H"
 
 
-_USDTRYPI8H = _USDTRYPI8H()
+_USDTRYPI8H = _USDTRYPI8H(*_USDTRYPI8H._fields)
 """
     name: .USDTRYPI8H
     significant_digits: None
@@ -18617,7 +18617,7 @@ _USDTRYPI8H = _USDTRYPI8H()
 """
 
 
-class _USDINRPI8H(NamedTuple):
+class _USDINRPI8H(Symbol):
     """
         name: .USDINRPI8H
         significant_digits: None
@@ -18655,7 +18655,7 @@ class _USDINRPI8H(NamedTuple):
         return ".USDINRPI8H"
 
 
-_USDINRPI8H = _USDINRPI8H()
+_USDINRPI8H = _USDINRPI8H(*_USDINRPI8H._fields)
 """
     name: .USDINRPI8H
     significant_digits: None
@@ -18669,7 +18669,7 @@ _USDINRPI8H = _USDINRPI8H()
 """
 
 
-class _USDZARPI8H(NamedTuple):
+class _USDZARPI8H(Symbol):
     """
         name: .USDZARPI8H
         significant_digits: None
@@ -18707,7 +18707,7 @@ class _USDZARPI8H(NamedTuple):
         return ".USDZARPI8H"
 
 
-_USDZARPI8H = _USDZARPI8H()
+_USDZARPI8H = _USDZARPI8H(*_USDZARPI8H._fields)
 """
     name: .USDZARPI8H
     significant_digits: None
@@ -18721,7 +18721,7 @@ _USDZARPI8H = _USDZARPI8H()
 """
 
 
-class _USDBRLPI8H(NamedTuple):
+class _USDBRLPI8H(Symbol):
     """
         name: .USDBRLPI8H
         significant_digits: None
@@ -18759,7 +18759,7 @@ class _USDBRLPI8H(NamedTuple):
         return ".USDBRLPI8H"
 
 
-_USDBRLPI8H = _USDBRLPI8H()
+_USDBRLPI8H = _USDBRLPI8H(*_USDBRLPI8H._fields)
 """
     name: .USDBRLPI8H
     significant_digits: None
@@ -18773,7 +18773,7 @@ _USDBRLPI8H = _USDBRLPI8H()
 """
 
 
-class _USDMXNPI8H(NamedTuple):
+class _USDMXNPI8H(Symbol):
     """
         name: .USDMXNPI8H
         significant_digits: None
@@ -18811,7 +18811,7 @@ class _USDMXNPI8H(NamedTuple):
         return ".USDMXNPI8H"
 
 
-_USDMXNPI8H = _USDMXNPI8H()
+_USDMXNPI8H = _USDMXNPI8H(*_USDMXNPI8H._fields)
 """
     name: .USDMXNPI8H
     significant_digits: None
@@ -18825,7 +18825,7 @@ _USDMXNPI8H = _USDMXNPI8H()
 """
 
 
-class _NZDUSDPI8H(NamedTuple):
+class _NZDUSDPI8H(Symbol):
     """
         name: .NZDUSDPI8H
         significant_digits: None
@@ -18863,7 +18863,7 @@ class _NZDUSDPI8H(NamedTuple):
         return ".NZDUSDPI8H"
 
 
-_NZDUSDPI8H = _NZDUSDPI8H()
+_NZDUSDPI8H = _NZDUSDPI8H(*_NZDUSDPI8H._fields)
 """
     name: .NZDUSDPI8H
     significant_digits: None
@@ -18877,7 +18877,7 @@ _NZDUSDPI8H = _NZDUSDPI8H()
 """
 
 
-class _USDCNHPI8H(NamedTuple):
+class _USDCNHPI8H(Symbol):
     """
         name: .USDCNHPI8H
         significant_digits: None
@@ -18915,7 +18915,7 @@ class _USDCNHPI8H(NamedTuple):
         return ".USDCNHPI8H"
 
 
-_USDCNHPI8H = _USDCNHPI8H()
+_USDCNHPI8H = _USDCNHPI8H(*_USDCNHPI8H._fields)
 """
     name: .USDCNHPI8H
     significant_digits: None
@@ -18929,7 +18929,7 @@ _USDCNHPI8H = _USDCNHPI8H()
 """
 
 
-class _USDSEKPI8H(NamedTuple):
+class _USDSEKPI8H(Symbol):
     """
         name: .USDSEKPI8H
         significant_digits: None
@@ -18967,7 +18967,7 @@ class _USDSEKPI8H(NamedTuple):
         return ".USDSEKPI8H"
 
 
-_USDSEKPI8H = _USDSEKPI8H()
+_USDSEKPI8H = _USDSEKPI8H(*_USDSEKPI8H._fields)
 """
     name: .USDSEKPI8H
     significant_digits: None
@@ -18981,7 +18981,7 @@ _USDSEKPI8H = _USDSEKPI8H()
 """
 
 
-class _EURUSDTPI(NamedTuple):
+class _EURUSDTPI(Symbol):
     """
         name: .EURUSDTPI
         significant_digits: None
@@ -19019,7 +19019,7 @@ class _EURUSDTPI(NamedTuple):
         return ".EURUSDTPI"
 
 
-_EURUSDTPI = _EURUSDTPI()
+_EURUSDTPI = _EURUSDTPI(*_EURUSDTPI._fields)
 """
     name: .EURUSDTPI
     significant_digits: None
@@ -19033,7 +19033,7 @@ _EURUSDTPI = _EURUSDTPI()
 """
 
 
-class _USDTCHFPI(NamedTuple):
+class _USDTCHFPI(Symbol):
     """
         name: .USDTCHFPI
         significant_digits: None
@@ -19071,7 +19071,7 @@ class _USDTCHFPI(NamedTuple):
         return ".USDTCHFPI"
 
 
-_USDTCHFPI = _USDTCHFPI()
+_USDTCHFPI = _USDTCHFPI(*_USDTCHFPI._fields)
 """
     name: .USDTCHFPI
     significant_digits: None
@@ -19085,7 +19085,7 @@ _USDTCHFPI = _USDTCHFPI()
 """
 
 
-class _USDTTRYPI(NamedTuple):
+class _USDTTRYPI(Symbol):
     """
         name: .USDTTRYPI
         significant_digits: None
@@ -19123,7 +19123,7 @@ class _USDTTRYPI(NamedTuple):
         return ".USDTTRYPI"
 
 
-_USDTTRYPI = _USDTTRYPI()
+_USDTTRYPI = _USDTTRYPI(*_USDTTRYPI._fields)
 """
     name: .USDTTRYPI
     significant_digits: None
@@ -19137,7 +19137,7 @@ _USDTTRYPI = _USDTTRYPI()
 """
 
 
-class _USDTINRPI(NamedTuple):
+class _USDTINRPI(Symbol):
     """
         name: .USDTINRPI
         significant_digits: None
@@ -19175,7 +19175,7 @@ class _USDTINRPI(NamedTuple):
         return ".USDTINRPI"
 
 
-_USDTINRPI = _USDTINRPI()
+_USDTINRPI = _USDTINRPI(*_USDTINRPI._fields)
 """
     name: .USDTINRPI
     significant_digits: None
@@ -19189,7 +19189,7 @@ _USDTINRPI = _USDTINRPI()
 """
 
 
-class _USDTZARPI(NamedTuple):
+class _USDTZARPI(Symbol):
     """
         name: .USDTZARPI
         significant_digits: None
@@ -19227,7 +19227,7 @@ class _USDTZARPI(NamedTuple):
         return ".USDTZARPI"
 
 
-_USDTZARPI = _USDTZARPI()
+_USDTZARPI = _USDTZARPI(*_USDTZARPI._fields)
 """
     name: .USDTZARPI
     significant_digits: None
@@ -19241,7 +19241,7 @@ _USDTZARPI = _USDTZARPI()
 """
 
 
-class _USDTBRLPI(NamedTuple):
+class _USDTBRLPI(Symbol):
     """
         name: .USDTBRLPI
         significant_digits: None
@@ -19279,7 +19279,7 @@ class _USDTBRLPI(NamedTuple):
         return ".USDTBRLPI"
 
 
-_USDTBRLPI = _USDTBRLPI()
+_USDTBRLPI = _USDTBRLPI(*_USDTBRLPI._fields)
 """
     name: .USDTBRLPI
     significant_digits: None
@@ -19293,7 +19293,7 @@ _USDTBRLPI = _USDTBRLPI()
 """
 
 
-class _USDTMXNPI(NamedTuple):
+class _USDTMXNPI(Symbol):
     """
         name: .USDTMXNPI
         significant_digits: None
@@ -19331,7 +19331,7 @@ class _USDTMXNPI(NamedTuple):
         return ".USDTMXNPI"
 
 
-_USDTMXNPI = _USDTMXNPI()
+_USDTMXNPI = _USDTMXNPI(*_USDTMXNPI._fields)
 """
     name: .USDTMXNPI
     significant_digits: None
@@ -19345,7 +19345,7 @@ _USDTMXNPI = _USDTMXNPI()
 """
 
 
-class _NZDUSDTPI(NamedTuple):
+class _NZDUSDTPI(Symbol):
     """
         name: .NZDUSDTPI
         significant_digits: None
@@ -19383,7 +19383,7 @@ class _NZDUSDTPI(NamedTuple):
         return ".NZDUSDTPI"
 
 
-_NZDUSDTPI = _NZDUSDTPI()
+_NZDUSDTPI = _NZDUSDTPI(*_NZDUSDTPI._fields)
 """
     name: .NZDUSDTPI
     significant_digits: None
@@ -19397,7 +19397,7 @@ _NZDUSDTPI = _NZDUSDTPI()
 """
 
 
-class _USDTCNHPI(NamedTuple):
+class _USDTCNHPI(Symbol):
     """
         name: .USDTCNHPI
         significant_digits: None
@@ -19435,7 +19435,7 @@ class _USDTCNHPI(NamedTuple):
         return ".USDTCNHPI"
 
 
-_USDTCNHPI = _USDTCNHPI()
+_USDTCNHPI = _USDTCNHPI(*_USDTCNHPI._fields)
 """
     name: .USDTCNHPI
     significant_digits: None
@@ -19449,7 +19449,7 @@ _USDTCNHPI = _USDTCNHPI()
 """
 
 
-class _USDTSEKPI(NamedTuple):
+class _USDTSEKPI(Symbol):
     """
         name: .USDTSEKPI
         significant_digits: None
@@ -19487,7 +19487,7 @@ class _USDTSEKPI(NamedTuple):
         return ".USDTSEKPI"
 
 
-_USDTSEKPI = _USDTSEKPI()
+_USDTSEKPI = _USDTSEKPI(*_USDTSEKPI._fields)
 """
     name: .USDTSEKPI
     significant_digits: None
@@ -19501,7 +19501,7 @@ _USDTSEKPI = _USDTSEKPI()
 """
 
 
-class _EURUSDTPI8H(NamedTuple):
+class _EURUSDTPI8H(Symbol):
     """
         name: .EURUSDTPI8H
         significant_digits: None
@@ -19539,7 +19539,7 @@ class _EURUSDTPI8H(NamedTuple):
         return ".EURUSDTPI8H"
 
 
-_EURUSDTPI8H = _EURUSDTPI8H()
+_EURUSDTPI8H = _EURUSDTPI8H(*_EURUSDTPI8H._fields)
 """
     name: .EURUSDTPI8H
     significant_digits: None
@@ -19553,7 +19553,7 @@ _EURUSDTPI8H = _EURUSDTPI8H()
 """
 
 
-class _USDTCHFPI8H(NamedTuple):
+class _USDTCHFPI8H(Symbol):
     """
         name: .USDTCHFPI8H
         significant_digits: None
@@ -19591,7 +19591,7 @@ class _USDTCHFPI8H(NamedTuple):
         return ".USDTCHFPI8H"
 
 
-_USDTCHFPI8H = _USDTCHFPI8H()
+_USDTCHFPI8H = _USDTCHFPI8H(*_USDTCHFPI8H._fields)
 """
     name: .USDTCHFPI8H
     significant_digits: None
@@ -19605,7 +19605,7 @@ _USDTCHFPI8H = _USDTCHFPI8H()
 """
 
 
-class _USDTTRYPI8H(NamedTuple):
+class _USDTTRYPI8H(Symbol):
     """
         name: .USDTTRYPI8H
         significant_digits: None
@@ -19643,7 +19643,7 @@ class _USDTTRYPI8H(NamedTuple):
         return ".USDTTRYPI8H"
 
 
-_USDTTRYPI8H = _USDTTRYPI8H()
+_USDTTRYPI8H = _USDTTRYPI8H(*_USDTTRYPI8H._fields)
 """
     name: .USDTTRYPI8H
     significant_digits: None
@@ -19657,7 +19657,7 @@ _USDTTRYPI8H = _USDTTRYPI8H()
 """
 
 
-class _USDTINRPI8H(NamedTuple):
+class _USDTINRPI8H(Symbol):
     """
         name: .USDTINRPI8H
         significant_digits: None
@@ -19695,7 +19695,7 @@ class _USDTINRPI8H(NamedTuple):
         return ".USDTINRPI8H"
 
 
-_USDTINRPI8H = _USDTINRPI8H()
+_USDTINRPI8H = _USDTINRPI8H(*_USDTINRPI8H._fields)
 """
     name: .USDTINRPI8H
     significant_digits: None
@@ -19709,7 +19709,7 @@ _USDTINRPI8H = _USDTINRPI8H()
 """
 
 
-class _USDTZARPI8H(NamedTuple):
+class _USDTZARPI8H(Symbol):
     """
         name: .USDTZARPI8H
         significant_digits: None
@@ -19747,7 +19747,7 @@ class _USDTZARPI8H(NamedTuple):
         return ".USDTZARPI8H"
 
 
-_USDTZARPI8H = _USDTZARPI8H()
+_USDTZARPI8H = _USDTZARPI8H(*_USDTZARPI8H._fields)
 """
     name: .USDTZARPI8H
     significant_digits: None
@@ -19761,7 +19761,7 @@ _USDTZARPI8H = _USDTZARPI8H()
 """
 
 
-class _USDTBRLPI8H(NamedTuple):
+class _USDTBRLPI8H(Symbol):
     """
         name: .USDTBRLPI8H
         significant_digits: None
@@ -19799,7 +19799,7 @@ class _USDTBRLPI8H(NamedTuple):
         return ".USDTBRLPI8H"
 
 
-_USDTBRLPI8H = _USDTBRLPI8H()
+_USDTBRLPI8H = _USDTBRLPI8H(*_USDTBRLPI8H._fields)
 """
     name: .USDTBRLPI8H
     significant_digits: None
@@ -19813,7 +19813,7 @@ _USDTBRLPI8H = _USDTBRLPI8H()
 """
 
 
-class _USDTMXNPI8H(NamedTuple):
+class _USDTMXNPI8H(Symbol):
     """
         name: .USDTMXNPI8H
         significant_digits: None
@@ -19851,7 +19851,7 @@ class _USDTMXNPI8H(NamedTuple):
         return ".USDTMXNPI8H"
 
 
-_USDTMXNPI8H = _USDTMXNPI8H()
+_USDTMXNPI8H = _USDTMXNPI8H(*_USDTMXNPI8H._fields)
 """
     name: .USDTMXNPI8H
     significant_digits: None
@@ -19865,7 +19865,7 @@ _USDTMXNPI8H = _USDTMXNPI8H()
 """
 
 
-class _NZDUSDTPI8H(NamedTuple):
+class _NZDUSDTPI8H(Symbol):
     """
         name: .NZDUSDTPI8H
         significant_digits: None
@@ -19903,7 +19903,7 @@ class _NZDUSDTPI8H(NamedTuple):
         return ".NZDUSDTPI8H"
 
 
-_NZDUSDTPI8H = _NZDUSDTPI8H()
+_NZDUSDTPI8H = _NZDUSDTPI8H(*_NZDUSDTPI8H._fields)
 """
     name: .NZDUSDTPI8H
     significant_digits: None
@@ -19917,7 +19917,7 @@ _NZDUSDTPI8H = _NZDUSDTPI8H()
 """
 
 
-class _USDTCNHPI8H(NamedTuple):
+class _USDTCNHPI8H(Symbol):
     """
         name: .USDTCNHPI8H
         significant_digits: None
@@ -19955,7 +19955,7 @@ class _USDTCNHPI8H(NamedTuple):
         return ".USDTCNHPI8H"
 
 
-_USDTCNHPI8H = _USDTCNHPI8H()
+_USDTCNHPI8H = _USDTCNHPI8H(*_USDTCNHPI8H._fields)
 """
     name: .USDTCNHPI8H
     significant_digits: None
@@ -19969,7 +19969,7 @@ _USDTCNHPI8H = _USDTCNHPI8H()
 """
 
 
-class _USDTSEKPI8H(NamedTuple):
+class _USDTSEKPI8H(Symbol):
     """
         name: .USDTSEKPI8H
         significant_digits: None
@@ -20007,7 +20007,7 @@ class _USDTSEKPI8H(NamedTuple):
         return ".USDTSEKPI8H"
 
 
-_USDTSEKPI8H = _USDTSEKPI8H()
+_USDTSEKPI8H = _USDTSEKPI8H(*_USDTSEKPI8H._fields)
 """
     name: .USDTSEKPI8H
     significant_digits: None
@@ -20021,7 +20021,7 @@ _USDTSEKPI8H = _USDTSEKPI8H()
 """
 
 
-class _CHFBON(NamedTuple):
+class _CHFBON(Symbol):
     """
         name: .CHFBON
         significant_digits: None
@@ -20059,7 +20059,7 @@ class _CHFBON(NamedTuple):
         return ".CHFBON"
 
 
-_CHFBON = _CHFBON()
+_CHFBON = _CHFBON(*_CHFBON._fields)
 """
     name: .CHFBON
     significant_digits: None
@@ -20073,7 +20073,7 @@ _CHFBON = _CHFBON()
 """
 
 
-class _TRYBON(NamedTuple):
+class _TRYBON(Symbol):
     """
         name: .TRYBON
         significant_digits: None
@@ -20111,7 +20111,7 @@ class _TRYBON(NamedTuple):
         return ".TRYBON"
 
 
-_TRYBON = _TRYBON()
+_TRYBON = _TRYBON(*_TRYBON._fields)
 """
     name: .TRYBON
     significant_digits: None
@@ -20125,7 +20125,7 @@ _TRYBON = _TRYBON()
 """
 
 
-class _INRBON(NamedTuple):
+class _INRBON(Symbol):
     """
         name: .INRBON
         significant_digits: None
@@ -20163,7 +20163,7 @@ class _INRBON(NamedTuple):
         return ".INRBON"
 
 
-_INRBON = _INRBON()
+_INRBON = _INRBON(*_INRBON._fields)
 """
     name: .INRBON
     significant_digits: None
@@ -20177,7 +20177,7 @@ _INRBON = _INRBON()
 """
 
 
-class _ZARBON(NamedTuple):
+class _ZARBON(Symbol):
     """
         name: .ZARBON
         significant_digits: None
@@ -20215,7 +20215,7 @@ class _ZARBON(NamedTuple):
         return ".ZARBON"
 
 
-_ZARBON = _ZARBON()
+_ZARBON = _ZARBON(*_ZARBON._fields)
 """
     name: .ZARBON
     significant_digits: None
@@ -20229,7 +20229,7 @@ _ZARBON = _ZARBON()
 """
 
 
-class _BRLBON(NamedTuple):
+class _BRLBON(Symbol):
     """
         name: .BRLBON
         significant_digits: None
@@ -20267,7 +20267,7 @@ class _BRLBON(NamedTuple):
         return ".BRLBON"
 
 
-_BRLBON = _BRLBON()
+_BRLBON = _BRLBON(*_BRLBON._fields)
 """
     name: .BRLBON
     significant_digits: None
@@ -20281,7 +20281,7 @@ _BRLBON = _BRLBON()
 """
 
 
-class _MXNBON(NamedTuple):
+class _MXNBON(Symbol):
     """
         name: .MXNBON
         significant_digits: None
@@ -20319,7 +20319,7 @@ class _MXNBON(NamedTuple):
         return ".MXNBON"
 
 
-_MXNBON = _MXNBON()
+_MXNBON = _MXNBON(*_MXNBON._fields)
 """
     name: .MXNBON
     significant_digits: None
@@ -20333,7 +20333,7 @@ _MXNBON = _MXNBON()
 """
 
 
-class _NZDBON(NamedTuple):
+class _NZDBON(Symbol):
     """
         name: .NZDBON
         significant_digits: None
@@ -20371,7 +20371,7 @@ class _NZDBON(NamedTuple):
         return ".NZDBON"
 
 
-_NZDBON = _NZDBON()
+_NZDBON = _NZDBON(*_NZDBON._fields)
 """
     name: .NZDBON
     significant_digits: None
@@ -20385,7 +20385,7 @@ _NZDBON = _NZDBON()
 """
 
 
-class _CNHBON(NamedTuple):
+class _CNHBON(Symbol):
     """
         name: .CNHBON
         significant_digits: None
@@ -20423,7 +20423,7 @@ class _CNHBON(NamedTuple):
         return ".CNHBON"
 
 
-_CNHBON = _CNHBON()
+_CNHBON = _CNHBON(*_CNHBON._fields)
 """
     name: .CNHBON
     significant_digits: None
@@ -20437,7 +20437,7 @@ _CNHBON = _CNHBON()
 """
 
 
-class _SEKBON(NamedTuple):
+class _SEKBON(Symbol):
     """
         name: .SEKBON
         significant_digits: None
@@ -20475,7 +20475,7 @@ class _SEKBON(NamedTuple):
         return ".SEKBON"
 
 
-_SEKBON = _SEKBON()
+_SEKBON = _SEKBON(*_SEKBON._fields)
 """
     name: .SEKBON
     significant_digits: None
@@ -20489,7 +20489,7 @@ _SEKBON = _SEKBON()
 """
 
 
-class _CHFBON8H(NamedTuple):
+class _CHFBON8H(Symbol):
     """
         name: .CHFBON8H
         significant_digits: None
@@ -20527,7 +20527,7 @@ class _CHFBON8H(NamedTuple):
         return ".CHFBON8H"
 
 
-_CHFBON8H = _CHFBON8H()
+_CHFBON8H = _CHFBON8H(*_CHFBON8H._fields)
 """
     name: .CHFBON8H
     significant_digits: None
@@ -20541,7 +20541,7 @@ _CHFBON8H = _CHFBON8H()
 """
 
 
-class _TRYBON8H(NamedTuple):
+class _TRYBON8H(Symbol):
     """
         name: .TRYBON8H
         significant_digits: None
@@ -20579,7 +20579,7 @@ class _TRYBON8H(NamedTuple):
         return ".TRYBON8H"
 
 
-_TRYBON8H = _TRYBON8H()
+_TRYBON8H = _TRYBON8H(*_TRYBON8H._fields)
 """
     name: .TRYBON8H
     significant_digits: None
@@ -20593,7 +20593,7 @@ _TRYBON8H = _TRYBON8H()
 """
 
 
-class _INRBON8H(NamedTuple):
+class _INRBON8H(Symbol):
     """
         name: .INRBON8H
         significant_digits: None
@@ -20631,7 +20631,7 @@ class _INRBON8H(NamedTuple):
         return ".INRBON8H"
 
 
-_INRBON8H = _INRBON8H()
+_INRBON8H = _INRBON8H(*_INRBON8H._fields)
 """
     name: .INRBON8H
     significant_digits: None
@@ -20645,7 +20645,7 @@ _INRBON8H = _INRBON8H()
 """
 
 
-class _ZARBON8H(NamedTuple):
+class _ZARBON8H(Symbol):
     """
         name: .ZARBON8H
         significant_digits: None
@@ -20683,7 +20683,7 @@ class _ZARBON8H(NamedTuple):
         return ".ZARBON8H"
 
 
-_ZARBON8H = _ZARBON8H()
+_ZARBON8H = _ZARBON8H(*_ZARBON8H._fields)
 """
     name: .ZARBON8H
     significant_digits: None
@@ -20697,7 +20697,7 @@ _ZARBON8H = _ZARBON8H()
 """
 
 
-class _BRLBON8H(NamedTuple):
+class _BRLBON8H(Symbol):
     """
         name: .BRLBON8H
         significant_digits: None
@@ -20735,7 +20735,7 @@ class _BRLBON8H(NamedTuple):
         return ".BRLBON8H"
 
 
-_BRLBON8H = _BRLBON8H()
+_BRLBON8H = _BRLBON8H(*_BRLBON8H._fields)
 """
     name: .BRLBON8H
     significant_digits: None
@@ -20749,7 +20749,7 @@ _BRLBON8H = _BRLBON8H()
 """
 
 
-class _MXNBON8H(NamedTuple):
+class _MXNBON8H(Symbol):
     """
         name: .MXNBON8H
         significant_digits: None
@@ -20787,7 +20787,7 @@ class _MXNBON8H(NamedTuple):
         return ".MXNBON8H"
 
 
-_MXNBON8H = _MXNBON8H()
+_MXNBON8H = _MXNBON8H(*_MXNBON8H._fields)
 """
     name: .MXNBON8H
     significant_digits: None
@@ -20801,7 +20801,7 @@ _MXNBON8H = _MXNBON8H()
 """
 
 
-class _NZDBON8H(NamedTuple):
+class _NZDBON8H(Symbol):
     """
         name: .NZDBON8H
         significant_digits: None
@@ -20839,7 +20839,7 @@ class _NZDBON8H(NamedTuple):
         return ".NZDBON8H"
 
 
-_NZDBON8H = _NZDBON8H()
+_NZDBON8H = _NZDBON8H(*_NZDBON8H._fields)
 """
     name: .NZDBON8H
     significant_digits: None
@@ -20853,7 +20853,7 @@ _NZDBON8H = _NZDBON8H()
 """
 
 
-class _CNHBON8H(NamedTuple):
+class _CNHBON8H(Symbol):
     """
         name: .CNHBON8H
         significant_digits: None
@@ -20891,7 +20891,7 @@ class _CNHBON8H(NamedTuple):
         return ".CNHBON8H"
 
 
-_CNHBON8H = _CNHBON8H()
+_CNHBON8H = _CNHBON8H(*_CNHBON8H._fields)
 """
     name: .CNHBON8H
     significant_digits: None
@@ -20905,7 +20905,7 @@ _CNHBON8H = _CNHBON8H()
 """
 
 
-class _SEKBON8H(NamedTuple):
+class _SEKBON8H(Symbol):
     """
         name: .SEKBON8H
         significant_digits: None
@@ -20943,7 +20943,7 @@ class _SEKBON8H(NamedTuple):
         return ".SEKBON8H"
 
 
-_SEKBON8H = _SEKBON8H()
+_SEKBON8H = _SEKBON8H(*_SEKBON8H._fields)
 """
     name: .SEKBON8H
     significant_digits: None
@@ -20957,7 +20957,7 @@ _SEKBON8H = _SEKBON8H()
 """
 
 
-class _BOP(NamedTuple):
+class _BOP(Symbol):
     """
         name: .BOP
         significant_digits: None
@@ -20995,7 +20995,7 @@ class _BOP(NamedTuple):
         return ".BOP"
 
 
-_BOP = _BOP()
+_BOP = _BOP(*_BOP._fields)
 """
     name: .BOP
     significant_digits: None
@@ -21009,7 +21009,7 @@ _BOP = _BOP()
 """
 
 
-class _BOP_NEXT(NamedTuple):
+class _BOP_NEXT(Symbol):
     """
         name: .BOP_NEXT
         significant_digits: None
@@ -21047,7 +21047,7 @@ class _BOP_NEXT(NamedTuple):
         return ".BOP_NEXT"
 
 
-_BOP_NEXT = _BOP_NEXT()
+_BOP_NEXT = _BOP_NEXT(*_BOP_NEXT._fields)
 """
     name: .BOP_NEXT
     significant_digits: None
@@ -21061,7 +21061,7 @@ _BOP_NEXT = _BOP_NEXT()
 """
 
 
-class _BOPT(NamedTuple):
+class _BOPT(Symbol):
     """
         name: .BOPT
         significant_digits: None
@@ -21099,7 +21099,7 @@ class _BOPT(NamedTuple):
         return ".BOPT"
 
 
-_BOPT = _BOPT()
+_BOPT = _BOPT(*_BOPT._fields)
 """
     name: .BOPT
     significant_digits: None
@@ -21113,7 +21113,7 @@ _BOPT = _BOPT()
 """
 
 
-class _BOPT_NEXT(NamedTuple):
+class _BOPT_NEXT(Symbol):
     """
         name: .BOPT_NEXT
         significant_digits: None
@@ -21151,7 +21151,7 @@ class _BOPT_NEXT(NamedTuple):
         return ".BOPT_NEXT"
 
 
-_BOPT_NEXT = _BOPT_NEXT()
+_BOPT_NEXT = _BOPT_NEXT(*_BOPT_NEXT._fields)
 """
     name: .BOPT_NEXT
     significant_digits: None
@@ -21165,7 +21165,7 @@ _BOPT_NEXT = _BOPT_NEXT()
 """
 
 
-class _OPBON(NamedTuple):
+class _OPBON(Symbol):
     """
         name: .OPBON
         significant_digits: None
@@ -21203,7 +21203,7 @@ class _OPBON(NamedTuple):
         return ".OPBON"
 
 
-_OPBON = _OPBON()
+_OPBON = _OPBON(*_OPBON._fields)
 """
     name: .OPBON
     significant_digits: None
@@ -21217,7 +21217,7 @@ _OPBON = _OPBON()
 """
 
 
-class _OPBON8H(NamedTuple):
+class _OPBON8H(Symbol):
     """
         name: .OPBON8H
         significant_digits: None
@@ -21255,7 +21255,7 @@ class _OPBON8H(NamedTuple):
         return ".OPBON8H"
 
 
-_OPBON8H = _OPBON8H()
+_OPBON8H = _OPBON8H(*_OPBON8H._fields)
 """
     name: .OPBON8H
     significant_digits: None
@@ -21269,7 +21269,7 @@ _OPBON8H = _OPBON8H()
 """
 
 
-class _OPUSDTPI(NamedTuple):
+class _OPUSDTPI(Symbol):
     """
         name: .OPUSDTPI
         significant_digits: None
@@ -21307,7 +21307,7 @@ class _OPUSDTPI(NamedTuple):
         return ".OPUSDTPI"
 
 
-_OPUSDTPI = _OPUSDTPI()
+_OPUSDTPI = _OPUSDTPI(*_OPUSDTPI._fields)
 """
     name: .OPUSDTPI
     significant_digits: None
@@ -21321,7 +21321,7 @@ _OPUSDTPI = _OPUSDTPI()
 """
 
 
-class _OPUSDTPI8H(NamedTuple):
+class _OPUSDTPI8H(Symbol):
     """
         name: .OPUSDTPI8H
         significant_digits: None
@@ -21359,7 +21359,7 @@ class _OPUSDTPI8H(NamedTuple):
         return ".OPUSDTPI8H"
 
 
-_OPUSDTPI8H = _OPUSDTPI8H()
+_OPUSDTPI8H = _OPUSDTPI8H(*_OPUSDTPI8H._fields)
 """
     name: .OPUSDTPI8H
     significant_digits: None
@@ -21373,7 +21373,7 @@ _OPUSDTPI8H = _OPUSDTPI8H()
 """
 
 
-class _OPUSDPI(NamedTuple):
+class _OPUSDPI(Symbol):
     """
         name: .OPUSDPI
         significant_digits: None
@@ -21411,7 +21411,7 @@ class _OPUSDPI(NamedTuple):
         return ".OPUSDPI"
 
 
-_OPUSDPI = _OPUSDPI()
+_OPUSDPI = _OPUSDPI(*_OPUSDPI._fields)
 """
     name: .OPUSDPI
     significant_digits: None
@@ -21425,7 +21425,7 @@ _OPUSDPI = _OPUSDPI()
 """
 
 
-class _OPUSDPI8H(NamedTuple):
+class _OPUSDPI8H(Symbol):
     """
         name: .OPUSDPI8H
         significant_digits: None
@@ -21463,7 +21463,7 @@ class _OPUSDPI8H(NamedTuple):
         return ".OPUSDPI8H"
 
 
-_OPUSDPI8H = _OPUSDPI8H()
+_OPUSDPI8H = _OPUSDPI8H(*_OPUSDPI8H._fields)
 """
     name: .OPUSDPI8H
     significant_digits: None
@@ -21477,7 +21477,7 @@ _OPUSDPI8H = _OPUSDPI8H()
 """
 
 
-class _BUSDC(NamedTuple):
+class _BUSDC(Symbol):
     """
         name: .BUSDC
         significant_digits: None
@@ -21515,7 +21515,7 @@ class _BUSDC(NamedTuple):
         return ".BUSDC"
 
 
-_BUSDC = _BUSDC()
+_BUSDC = _BUSDC(*_BUSDC._fields)
 """
     name: .BUSDC
     significant_digits: None
@@ -21529,7 +21529,7 @@ _BUSDC = _BUSDC()
 """
 
 
-class _BUSDCT(NamedTuple):
+class _BUSDCT(Symbol):
     """
         name: .BUSDCT
         significant_digits: None
@@ -21567,7 +21567,7 @@ class _BUSDCT(NamedTuple):
         return ".BUSDCT"
 
 
-_BUSDCT = _BUSDCT()
+_BUSDCT = _BUSDCT(*_BUSDCT._fields)
 """
     name: .BUSDCT
     significant_digits: None
@@ -21581,7 +21581,7 @@ _BUSDCT = _BUSDCT()
 """
 
 
-class _BETHPOWT(NamedTuple):
+class _BETHPOWT(Symbol):
     """
         name: .BETHPOWT
         significant_digits: None
@@ -21619,7 +21619,7 @@ class _BETHPOWT(NamedTuple):
         return ".BETHPOWT"
 
 
-_BETHPOWT = _BETHPOWT()
+_BETHPOWT = _BETHPOWT(*_BETHPOWT._fields)
 """
     name: .BETHPOWT
     significant_digits: None
@@ -21633,7 +21633,7 @@ _BETHPOWT = _BETHPOWT()
 """
 
 
-class _BETHPOWT_NEXT(NamedTuple):
+class _BETHPOWT_NEXT(Symbol):
     """
         name: .BETHPOWT_NEXT
         significant_digits: None
@@ -21671,7 +21671,7 @@ class _BETHPOWT_NEXT(NamedTuple):
         return ".BETHPOWT_NEXT"
 
 
-_BETHPOWT_NEXT = _BETHPOWT_NEXT()
+_BETHPOWT_NEXT = _BETHPOWT_NEXT(*_BETHPOWT_NEXT._fields)
 """
     name: .BETHPOWT_NEXT
     significant_digits: None
@@ -21685,7 +21685,7 @@ _BETHPOWT_NEXT = _BETHPOWT_NEXT()
 """
 
 
-class _BETHPOWT30M(NamedTuple):
+class _BETHPOWT30M(Symbol):
     """
         name: .BETHPOWT30M
         significant_digits: None
@@ -21723,7 +21723,7 @@ class _BETHPOWT30M(NamedTuple):
         return ".BETHPOWT30M"
 
 
-_BETHPOWT30M = _BETHPOWT30M()
+_BETHPOWT30M = _BETHPOWT30M(*_BETHPOWT30M._fields)
 """
     name: .BETHPOWT30M
     significant_digits: None
@@ -21737,7 +21737,7 @@ _BETHPOWT30M = _BETHPOWT30M()
 """
 
 
-class _BALTMEXT30M(NamedTuple):
+class _BALTMEXT30M(Symbol):
     """
         name: .BALTMEXT30M
         significant_digits: None
@@ -21775,7 +21775,7 @@ class _BALTMEXT30M(NamedTuple):
         return ".BALTMEXT30M"
 
 
-_BALTMEXT30M = _BALTMEXT30M()
+_BALTMEXT30M = _BALTMEXT30M(*_BALTMEXT30M._fields)
 """
     name: .BALTMEXT30M
     significant_digits: None
@@ -21789,7 +21789,7 @@ _BALTMEXT30M = _BALTMEXT30M()
 """
 
 
-class _BDEFIMEXT30M(NamedTuple):
+class _BDEFIMEXT30M(Symbol):
     """
         name: .BDEFIMEXT30M
         significant_digits: None
@@ -21827,7 +21827,7 @@ class _BDEFIMEXT30M(NamedTuple):
         return ".BDEFIMEXT30M"
 
 
-_BDEFIMEXT30M = _BDEFIMEXT30M()
+_BDEFIMEXT30M = _BDEFIMEXT30M(*_BDEFIMEXT30M._fields)
 """
     name: .BDEFIMEXT30M
     significant_digits: None
@@ -21841,7 +21841,7 @@ _BDEFIMEXT30M = _BDEFIMEXT30M()
 """
 
 
-class _BMETAMEXT30M(NamedTuple):
+class _BMETAMEXT30M(Symbol):
     """
         name: .BMETAMEXT30M
         significant_digits: None
@@ -21879,7 +21879,7 @@ class _BMETAMEXT30M(NamedTuple):
         return ".BMETAMEXT30M"
 
 
-_BMETAMEXT30M = _BMETAMEXT30M()
+_BMETAMEXT30M = _BMETAMEXT30M(*_BMETAMEXT30M._fields)
 """
     name: .BMETAMEXT30M
     significant_digits: None
@@ -21893,7 +21893,7 @@ _BMETAMEXT30M = _BMETAMEXT30M()
 """
 
 
-class _BUSDC_NEXT(NamedTuple):
+class _BUSDC_NEXT(Symbol):
     """
         name: .BUSDC_NEXT
         significant_digits: None
@@ -21931,7 +21931,7 @@ class _BUSDC_NEXT(NamedTuple):
         return ".BUSDC_NEXT"
 
 
-_BUSDC_NEXT = _BUSDC_NEXT()
+_BUSDC_NEXT = _BUSDC_NEXT(*_BUSDC_NEXT._fields)
 """
     name: .BUSDC_NEXT
     significant_digits: None
@@ -21945,7 +21945,7 @@ _BUSDC_NEXT = _BUSDC_NEXT()
 """
 
 
-class _BUSDCT_NEXT(NamedTuple):
+class _BUSDCT_NEXT(Symbol):
     """
         name: .BUSDCT_NEXT
         significant_digits: None
@@ -21983,7 +21983,7 @@ class _BUSDCT_NEXT(NamedTuple):
         return ".BUSDCT_NEXT"
 
 
-_BUSDCT_NEXT = _BUSDCT_NEXT()
+_BUSDCT_NEXT = _BUSDCT_NEXT(*_BUSDCT_NEXT._fields)
 """
     name: .BUSDCT_NEXT
     significant_digits: None
@@ -21997,7 +21997,7 @@ _BUSDCT_NEXT = _BUSDCT_NEXT()
 """
 
 
-class _BKLAY(NamedTuple):
+class _BKLAY(Symbol):
     """
         name: .BKLAY
         significant_digits: None
@@ -22035,7 +22035,7 @@ class _BKLAY(NamedTuple):
         return ".BKLAY"
 
 
-_BKLAY = _BKLAY()
+_BKLAY = _BKLAY(*_BKLAY._fields)
 """
     name: .BKLAY
     significant_digits: None
@@ -22049,7 +22049,7 @@ _BKLAY = _BKLAY()
 """
 
 
-class _BKLAY_NEXT(NamedTuple):
+class _BKLAY_NEXT(Symbol):
     """
         name: .BKLAY_NEXT
         significant_digits: None
@@ -22087,7 +22087,7 @@ class _BKLAY_NEXT(NamedTuple):
         return ".BKLAY_NEXT"
 
 
-_BKLAY_NEXT = _BKLAY_NEXT()
+_BKLAY_NEXT = _BKLAY_NEXT(*_BKLAY_NEXT._fields)
 """
     name: .BKLAY_NEXT
     significant_digits: None
@@ -22101,7 +22101,7 @@ _BKLAY_NEXT = _BKLAY_NEXT()
 """
 
 
-class _BKLAYT(NamedTuple):
+class _BKLAYT(Symbol):
     """
         name: .BKLAYT
         significant_digits: None
@@ -22139,7 +22139,7 @@ class _BKLAYT(NamedTuple):
         return ".BKLAYT"
 
 
-_BKLAYT = _BKLAYT()
+_BKLAYT = _BKLAYT(*_BKLAYT._fields)
 """
     name: .BKLAYT
     significant_digits: None
@@ -22153,7 +22153,7 @@ _BKLAYT = _BKLAYT()
 """
 
 
-class _BKLAYT_NEXT(NamedTuple):
+class _BKLAYT_NEXT(Symbol):
     """
         name: .BKLAYT_NEXT
         significant_digits: None
@@ -22191,7 +22191,7 @@ class _BKLAYT_NEXT(NamedTuple):
         return ".BKLAYT_NEXT"
 
 
-_BKLAYT_NEXT = _BKLAYT_NEXT()
+_BKLAYT_NEXT = _BKLAYT_NEXT(*_BKLAYT_NEXT._fields)
 """
     name: .BKLAYT_NEXT
     significant_digits: None
@@ -22205,7 +22205,7 @@ _BKLAYT_NEXT = _BKLAYT_NEXT()
 """
 
 
-class _KLAYUSDTPI(NamedTuple):
+class _KLAYUSDTPI(Symbol):
     """
         name: .KLAYUSDTPI
         significant_digits: None
@@ -22243,7 +22243,7 @@ class _KLAYUSDTPI(NamedTuple):
         return ".KLAYUSDTPI"
 
 
-_KLAYUSDTPI = _KLAYUSDTPI()
+_KLAYUSDTPI = _KLAYUSDTPI(*_KLAYUSDTPI._fields)
 """
     name: .KLAYUSDTPI
     significant_digits: None
@@ -22257,7 +22257,7 @@ _KLAYUSDTPI = _KLAYUSDTPI()
 """
 
 
-class _KLAYUSDTPI8H(NamedTuple):
+class _KLAYUSDTPI8H(Symbol):
     """
         name: .KLAYUSDTPI8H
         significant_digits: None
@@ -22295,7 +22295,7 @@ class _KLAYUSDTPI8H(NamedTuple):
         return ".KLAYUSDTPI8H"
 
 
-_KLAYUSDTPI8H = _KLAYUSDTPI8H()
+_KLAYUSDTPI8H = _KLAYUSDTPI8H(*_KLAYUSDTPI8H._fields)
 """
     name: .KLAYUSDTPI8H
     significant_digits: None
@@ -22309,7 +22309,7 @@ _KLAYUSDTPI8H = _KLAYUSDTPI8H()
 """
 
 
-class _KLAYUSDPI(NamedTuple):
+class _KLAYUSDPI(Symbol):
     """
         name: .KLAYUSDPI
         significant_digits: None
@@ -22347,7 +22347,7 @@ class _KLAYUSDPI(NamedTuple):
         return ".KLAYUSDPI"
 
 
-_KLAYUSDPI = _KLAYUSDPI()
+_KLAYUSDPI = _KLAYUSDPI(*_KLAYUSDPI._fields)
 """
     name: .KLAYUSDPI
     significant_digits: None
@@ -22361,7 +22361,7 @@ _KLAYUSDPI = _KLAYUSDPI()
 """
 
 
-class _KLAYUSDPI8H(NamedTuple):
+class _KLAYUSDPI8H(Symbol):
     """
         name: .KLAYUSDPI8H
         significant_digits: None
@@ -22399,7 +22399,7 @@ class _KLAYUSDPI8H(NamedTuple):
         return ".KLAYUSDPI8H"
 
 
-_KLAYUSDPI8H = _KLAYUSDPI8H()
+_KLAYUSDPI8H = _KLAYUSDPI8H(*_KLAYUSDPI8H._fields)
 """
     name: .KLAYUSDPI8H
     significant_digits: None
@@ -22413,7 +22413,7 @@ _KLAYUSDPI8H = _KLAYUSDPI8H()
 """
 
 
-class _KLAYBON(NamedTuple):
+class _KLAYBON(Symbol):
     """
         name: .KLAYBON
         significant_digits: None
@@ -22451,7 +22451,7 @@ class _KLAYBON(NamedTuple):
         return ".KLAYBON"
 
 
-_KLAYBON = _KLAYBON()
+_KLAYBON = _KLAYBON(*_KLAYBON._fields)
 """
     name: .KLAYBON
     significant_digits: None
@@ -22465,7 +22465,7 @@ _KLAYBON = _KLAYBON()
 """
 
 
-class _KLAYBON8H(NamedTuple):
+class _KLAYBON8H(Symbol):
     """
         name: .KLAYBON8H
         significant_digits: None
@@ -22503,7 +22503,7 @@ class _KLAYBON8H(NamedTuple):
         return ".KLAYBON8H"
 
 
-_KLAYBON8H = _KLAYBON8H()
+_KLAYBON8H = _KLAYBON8H(*_KLAYBON8H._fields)
 """
     name: .KLAYBON8H
     significant_digits: None
@@ -22517,7 +22517,7 @@ _KLAYBON8H = _KLAYBON8H()
 """
 
 
-class _BSTETH(NamedTuple):
+class _BSTETH(Symbol):
     """
         name: .BSTETH
         significant_digits: None
@@ -22555,7 +22555,7 @@ class _BSTETH(NamedTuple):
         return ".BSTETH"
 
 
-_BSTETH = _BSTETH()
+_BSTETH = _BSTETH(*_BSTETH._fields)
 """
     name: .BSTETH
     significant_digits: None
@@ -22569,7 +22569,7 @@ _BSTETH = _BSTETH()
 """
 
 
-class _BSTETHT(NamedTuple):
+class _BSTETHT(Symbol):
     """
         name: .BSTETHT
         significant_digits: None
@@ -22607,7 +22607,7 @@ class _BSTETHT(NamedTuple):
         return ".BSTETHT"
 
 
-_BSTETHT = _BSTETHT()
+_BSTETHT = _BSTETHT(*_BSTETHT._fields)
 """
     name: .BSTETHT
     significant_digits: None
@@ -22621,7 +22621,7 @@ _BSTETHT = _BSTETHT()
 """
 
 
-class _BDAI(NamedTuple):
+class _BDAI(Symbol):
     """
         name: .BDAI
         significant_digits: None
@@ -22659,7 +22659,7 @@ class _BDAI(NamedTuple):
         return ".BDAI"
 
 
-_BDAI = _BDAI()
+_BDAI = _BDAI(*_BDAI._fields)
 """
     name: .BDAI
     significant_digits: None
@@ -22673,7 +22673,7 @@ _BDAI = _BDAI()
 """
 
 
-class _BDAIT(NamedTuple):
+class _BDAIT(Symbol):
     """
         name: .BDAIT
         significant_digits: None
@@ -22711,7 +22711,7 @@ class _BDAIT(NamedTuple):
         return ".BDAIT"
 
 
-_BDAIT = _BDAIT()
+_BDAIT = _BDAIT(*_BDAIT._fields)
 """
     name: .BDAIT
     significant_digits: None
@@ -22725,7 +22725,7 @@ _BDAIT = _BDAIT()
 """
 
 
-class _BBUSD(NamedTuple):
+class _BBUSD(Symbol):
     """
         name: .BBUSD
         significant_digits: None
@@ -22763,7 +22763,7 @@ class _BBUSD(NamedTuple):
         return ".BBUSD"
 
 
-_BBUSD = _BBUSD()
+_BBUSD = _BBUSD(*_BBUSD._fields)
 """
     name: .BBUSD
     significant_digits: None
@@ -22777,7 +22777,7 @@ _BBUSD = _BBUSD()
 """
 
 
-class _BBUSDT(NamedTuple):
+class _BBUSDT(Symbol):
     """
         name: .BBUSDT
         significant_digits: None
@@ -22815,7 +22815,7 @@ class _BBUSDT(NamedTuple):
         return ".BBUSDT"
 
 
-_BBUSDT = _BBUSDT()
+_BBUSDT = _BBUSDT(*_BBUSDT._fields)
 """
     name: .BBUSDT
     significant_digits: None
@@ -22829,7 +22829,7 @@ _BBUSDT = _BBUSDT()
 """
 
 
-class _BWBTC(NamedTuple):
+class _BWBTC(Symbol):
     """
         name: .BWBTC
         significant_digits: None
@@ -22867,7 +22867,7 @@ class _BWBTC(NamedTuple):
         return ".BWBTC"
 
 
-_BWBTC = _BWBTC()
+_BWBTC = _BWBTC(*_BWBTC._fields)
 """
     name: .BWBTC
     significant_digits: None
@@ -22881,7 +22881,7 @@ _BWBTC = _BWBTC()
 """
 
 
-class _BWBTCT(NamedTuple):
+class _BWBTCT(Symbol):
     """
         name: .BWBTCT
         significant_digits: None
@@ -22919,7 +22919,7 @@ class _BWBTCT(NamedTuple):
         return ".BWBTCT"
 
 
-_BWBTCT = _BWBTCT()
+_BWBTCT = _BWBTCT(*_BWBTCT._fields)
 """
     name: .BWBTCT
     significant_digits: None
@@ -22933,7 +22933,7 @@ _BWBTCT = _BWBTCT()
 """
 
 
-class _BCRO(NamedTuple):
+class _BCRO(Symbol):
     """
         name: .BCRO
         significant_digits: None
@@ -22971,7 +22971,7 @@ class _BCRO(NamedTuple):
         return ".BCRO"
 
 
-_BCRO = _BCRO()
+_BCRO = _BCRO(*_BCRO._fields)
 """
     name: .BCRO
     significant_digits: None
@@ -22985,7 +22985,7 @@ _BCRO = _BCRO()
 """
 
 
-class _BCROT(NamedTuple):
+class _BCROT(Symbol):
     """
         name: .BCROT
         significant_digits: None
@@ -23023,7 +23023,7 @@ class _BCROT(NamedTuple):
         return ".BCROT"
 
 
-_BCROT = _BCROT()
+_BCROT = _BCROT(*_BCROT._fields)
 """
     name: .BCROT
     significant_digits: None
@@ -23037,7 +23037,7 @@ _BCROT = _BCROT()
 """
 
 
-class _BQNT(NamedTuple):
+class _BQNT(Symbol):
     """
         name: .BQNT
         significant_digits: None
@@ -23075,7 +23075,7 @@ class _BQNT(NamedTuple):
         return ".BQNT"
 
 
-_BQNT = _BQNT()
+_BQNT = _BQNT(*_BQNT._fields)
 """
     name: .BQNT
     significant_digits: None
@@ -23089,7 +23089,7 @@ _BQNT = _BQNT()
 """
 
 
-class _BQNTT(NamedTuple):
+class _BQNTT(Symbol):
     """
         name: .BQNTT
         significant_digits: None
@@ -23127,7 +23127,7 @@ class _BQNTT(NamedTuple):
         return ".BQNTT"
 
 
-_BQNTT = _BQNTT()
+_BQNTT = _BQNTT(*_BQNTT._fields)
 """
     name: .BQNTT
     significant_digits: None
@@ -23141,7 +23141,7 @@ _BQNTT = _BQNTT()
 """
 
 
-class _BOKB(NamedTuple):
+class _BOKB(Symbol):
     """
         name: .BOKB
         significant_digits: None
@@ -23179,7 +23179,7 @@ class _BOKB(NamedTuple):
         return ".BOKB"
 
 
-_BOKB = _BOKB()
+_BOKB = _BOKB(*_BOKB._fields)
 """
     name: .BOKB
     significant_digits: None
@@ -23193,7 +23193,7 @@ _BOKB = _BOKB()
 """
 
 
-class _BOKBT(NamedTuple):
+class _BOKBT(Symbol):
     """
         name: .BOKBT
         significant_digits: None
@@ -23231,7 +23231,7 @@ class _BOKBT(NamedTuple):
         return ".BOKBT"
 
 
-_BOKBT = _BOKBT()
+_BOKBT = _BOKBT(*_BOKBT._fields)
 """
     name: .BOKBT
     significant_digits: None
@@ -23245,7 +23245,7 @@ _BOKBT = _BOKBT()
 """
 
 
-class _BLEO(NamedTuple):
+class _BLEO(Symbol):
     """
         name: .BLEO
         significant_digits: None
@@ -23283,7 +23283,7 @@ class _BLEO(NamedTuple):
         return ".BLEO"
 
 
-_BLEO = _BLEO()
+_BLEO = _BLEO(*_BLEO._fields)
 """
     name: .BLEO
     significant_digits: None
@@ -23297,7 +23297,7 @@ _BLEO = _BLEO()
 """
 
 
-class _BLEOT(NamedTuple):
+class _BLEOT(Symbol):
     """
         name: .BLEOT
         significant_digits: None
@@ -23335,7 +23335,7 @@ class _BLEOT(NamedTuple):
         return ".BLEOT"
 
 
-_BLEOT = _BLEOT()
+_BLEOT = _BLEOT(*_BLEOT._fields)
 """
     name: .BLEOT
     significant_digits: None
@@ -23349,7 +23349,7 @@ _BLEOT = _BLEOT()
 """
 
 
-class _BAAVE(NamedTuple):
+class _BAAVE(Symbol):
     """
         name: .BAAVE
         significant_digits: None
@@ -23387,7 +23387,7 @@ class _BAAVE(NamedTuple):
         return ".BAAVE"
 
 
-_BAAVE = _BAAVE()
+_BAAVE = _BAAVE(*_BAAVE._fields)
 """
     name: .BAAVE
     significant_digits: None
@@ -23401,7 +23401,7 @@ _BAAVE = _BAAVE()
 """
 
 
-class _BMANA(NamedTuple):
+class _BMANA(Symbol):
     """
         name: .BMANA
         significant_digits: None
@@ -23439,7 +23439,7 @@ class _BMANA(NamedTuple):
         return ".BMANA"
 
 
-_BMANA = _BMANA()
+_BMANA = _BMANA(*_BMANA._fields)
 """
     name: .BMANA
     significant_digits: None
@@ -23453,7 +23453,7 @@ _BMANA = _BMANA()
 """
 
 
-class _BXLM(NamedTuple):
+class _BXLM(Symbol):
     """
         name: .BXLM
         significant_digits: None
@@ -23491,7 +23491,7 @@ class _BXLM(NamedTuple):
         return ".BXLM"
 
 
-_BXLM = _BXLM()
+_BXLM = _BXLM(*_BXLM._fields)
 """
     name: .BXLM
     significant_digits: None
@@ -23505,7 +23505,7 @@ _BXLM = _BXLM()
 """
 
 
-class _BVET(NamedTuple):
+class _BVET(Symbol):
     """
         name: .BVET
         significant_digits: None
@@ -23543,7 +23543,7 @@ class _BVET(NamedTuple):
         return ".BVET"
 
 
-_BVET = _BVET()
+_BVET = _BVET(*_BVET._fields)
 """
     name: .BVET
     significant_digits: None
@@ -23557,7 +23557,7 @@ _BVET = _BVET()
 """
 
 
-class _BFIL(NamedTuple):
+class _BFIL(Symbol):
     """
         name: .BFIL
         significant_digits: None
@@ -23595,7 +23595,7 @@ class _BFIL(NamedTuple):
         return ".BFIL"
 
 
-_BFIL = _BFIL()
+_BFIL = _BFIL(*_BFIL._fields)
 """
     name: .BFIL
     significant_digits: None
@@ -23609,7 +23609,7 @@ _BFIL = _BFIL()
 """
 
 
-class _BXTZ(NamedTuple):
+class _BXTZ(Symbol):
     """
         name: .BXTZ
         significant_digits: None
@@ -23647,7 +23647,7 @@ class _BXTZ(NamedTuple):
         return ".BXTZ"
 
 
-_BXTZ = _BXTZ()
+_BXTZ = _BXTZ(*_BXTZ._fields)
 """
     name: .BXTZ
     significant_digits: None
@@ -23661,7 +23661,7 @@ _BXTZ = _BXTZ()
 """
 
 
-class _BMKR(NamedTuple):
+class _BMKR(Symbol):
     """
         name: .BMKR
         significant_digits: None
@@ -23699,7 +23699,7 @@ class _BMKR(NamedTuple):
         return ".BMKR"
 
 
-_BMKR = _BMKR()
+_BMKR = _BMKR(*_BMKR._fields)
 """
     name: .BMKR
     significant_digits: None
@@ -23713,7 +23713,7 @@ _BMKR = _BMKR()
 """
 
 
-class _BFLOW(NamedTuple):
+class _BFLOW(Symbol):
     """
         name: .BFLOW
         significant_digits: None
@@ -23751,7 +23751,7 @@ class _BFLOW(NamedTuple):
         return ".BFLOW"
 
 
-_BFLOW = _BFLOW()
+_BFLOW = _BFLOW(*_BFLOW._fields)
 """
     name: .BFLOW
     significant_digits: None
@@ -23765,7 +23765,7 @@ _BFLOW = _BFLOW()
 """
 
 
-class _BFLOWT(NamedTuple):
+class _BFLOWT(Symbol):
     """
         name: .BFLOWT
         significant_digits: None
@@ -23803,7 +23803,7 @@ class _BFLOWT(NamedTuple):
         return ".BFLOWT"
 
 
-_BFLOWT = _BFLOWT()
+_BFLOWT = _BFLOWT(*_BFLOWT._fields)
 """
     name: .BFLOWT
     significant_digits: None
@@ -23817,7 +23817,7 @@ _BFLOWT = _BFLOWT()
 """
 
 
-class _BHBAR(NamedTuple):
+class _BHBAR(Symbol):
     """
         name: .BHBAR
         significant_digits: None
@@ -23855,7 +23855,7 @@ class _BHBAR(NamedTuple):
         return ".BHBAR"
 
 
-_BHBAR = _BHBAR()
+_BHBAR = _BHBAR(*_BHBAR._fields)
 """
     name: .BHBAR
     significant_digits: None
@@ -23869,7 +23869,7 @@ _BHBAR = _BHBAR()
 """
 
 
-class _BHBART(NamedTuple):
+class _BHBART(Symbol):
     """
         name: .BHBART
         significant_digits: None
@@ -23907,7 +23907,7 @@ class _BHBART(NamedTuple):
         return ".BHBART"
 
 
-_BHBART = _BHBART()
+_BHBART = _BHBART(*_BHBART._fields)
 """
     name: .BHBART
     significant_digits: None
@@ -23921,7 +23921,7 @@ _BHBART = _BHBART()
 """
 
 
-class _BEGLD(NamedTuple):
+class _BEGLD(Symbol):
     """
         name: .BEGLD
         significant_digits: None
@@ -23959,7 +23959,7 @@ class _BEGLD(NamedTuple):
         return ".BEGLD"
 
 
-_BEGLD = _BEGLD()
+_BEGLD = _BEGLD(*_BEGLD._fields)
 """
     name: .BEGLD
     significant_digits: None
@@ -23973,7 +23973,7 @@ _BEGLD = _BEGLD()
 """
 
 
-class _BEGLDT(NamedTuple):
+class _BEGLDT(Symbol):
     """
         name: .BEGLDT
         significant_digits: None
@@ -24011,7 +24011,7 @@ class _BEGLDT(NamedTuple):
         return ".BEGLDT"
 
 
-_BEGLDT = _BEGLDT()
+_BEGLDT = _BEGLDT(*_BEGLDT._fields)
 """
     name: .BEGLDT
     significant_digits: None
@@ -24025,7 +24025,7 @@ _BEGLDT = _BEGLDT()
 """
 
 
-class _BTUSD(NamedTuple):
+class _BTUSD(Symbol):
     """
         name: .BTUSD
         significant_digits: None
@@ -24063,7 +24063,7 @@ class _BTUSD(NamedTuple):
         return ".BTUSD"
 
 
-_BTUSD = _BTUSD()
+_BTUSD = _BTUSD(*_BTUSD._fields)
 """
     name: .BTUSD
     significant_digits: None
@@ -24077,7 +24077,7 @@ _BTUSD = _BTUSD()
 """
 
 
-class _BTUSDT(NamedTuple):
+class _BTUSDT(Symbol):
     """
         name: .BTUSDT
         significant_digits: None
@@ -24115,7 +24115,7 @@ class _BTUSDT(NamedTuple):
         return ".BTUSDT"
 
 
-_BTUSDT = _BTUSDT()
+_BTUSDT = _BTUSDT(*_BTUSDT._fields)
 """
     name: .BTUSDT
     significant_digits: None
@@ -24129,7 +24129,7 @@ _BTUSDT = _BTUSDT()
 """
 
 
-class _BUSDP(NamedTuple):
+class _BUSDP(Symbol):
     """
         name: .BUSDP
         significant_digits: None
@@ -24167,7 +24167,7 @@ class _BUSDP(NamedTuple):
         return ".BUSDP"
 
 
-_BUSDP = _BUSDP()
+_BUSDP = _BUSDP(*_BUSDP._fields)
 """
     name: .BUSDP
     significant_digits: None
@@ -24181,7 +24181,7 @@ _BUSDP = _BUSDP()
 """
 
 
-class _BHNT(NamedTuple):
+class _BHNT(Symbol):
     """
         name: .BHNT
         significant_digits: None
@@ -24219,7 +24219,7 @@ class _BHNT(NamedTuple):
         return ".BHNT"
 
 
-_BHNT = _BHNT()
+_BHNT = _BHNT(*_BHNT._fields)
 """
     name: .BHNT
     significant_digits: None
@@ -24233,7 +24233,7 @@ _BHNT = _BHNT()
 """
 
 
-class _BHNTT(NamedTuple):
+class _BHNTT(Symbol):
     """
         name: .BHNTT
         significant_digits: None
@@ -24271,7 +24271,7 @@ class _BHNTT(NamedTuple):
         return ".BHNTT"
 
 
-_BHNTT = _BHNTT()
+_BHNTT = _BHNTT(*_BHNTT._fields)
 """
     name: .BHNTT
     significant_digits: None
@@ -24285,7 +24285,7 @@ _BHNTT = _BHNTT()
 """
 
 
-class _BIOTA(NamedTuple):
+class _BIOTA(Symbol):
     """
         name: .BIOTA
         significant_digits: None
@@ -24323,7 +24323,7 @@ class _BIOTA(NamedTuple):
         return ".BIOTA"
 
 
-_BIOTA = _BIOTA()
+_BIOTA = _BIOTA(*_BIOTA._fields)
 """
     name: .BIOTA
     significant_digits: None
@@ -24337,7 +24337,7 @@ _BIOTA = _BIOTA()
 """
 
 
-class _BIOTAT(NamedTuple):
+class _BIOTAT(Symbol):
     """
         name: .BIOTAT
         significant_digits: None
@@ -24375,7 +24375,7 @@ class _BIOTAT(NamedTuple):
         return ".BIOTAT"
 
 
-_BIOTAT = _BIOTAT()
+_BIOTAT = _BIOTAT(*_BIOTAT._fields)
 """
     name: .BIOTAT
     significant_digits: None
@@ -24389,7 +24389,7 @@ _BIOTAT = _BIOTAT()
 """
 
 
-class _BXEC(NamedTuple):
+class _BXEC(Symbol):
     """
         name: .BXEC
         significant_digits: None
@@ -24427,7 +24427,7 @@ class _BXEC(NamedTuple):
         return ".BXEC"
 
 
-_BXEC = _BXEC()
+_BXEC = _BXEC(*_BXEC._fields)
 """
     name: .BXEC
     significant_digits: None
@@ -24441,7 +24441,7 @@ _BXEC = _BXEC()
 """
 
 
-class _BXECT(NamedTuple):
+class _BXECT(Symbol):
     """
         name: .BXECT
         significant_digits: None
@@ -24479,7 +24479,7 @@ class _BXECT(NamedTuple):
         return ".BXECT"
 
 
-_BXECT = _BXECT()
+_BXECT = _BXECT(*_BXECT._fields)
 """
     name: .BXECT
     significant_digits: None
@@ -24493,7 +24493,7 @@ _BXECT = _BXECT()
 """
 
 
-class _BFTTT(NamedTuple):
+class _BFTTT(Symbol):
     """
         name: .BFTTT
         significant_digits: None
@@ -24531,7 +24531,7 @@ class _BFTTT(NamedTuple):
         return ".BFTTT"
 
 
-_BFTTT = _BFTTT()
+_BFTTT = _BFTTT(*_BFTTT._fields)
 """
     name: .BFTTT
     significant_digits: None
@@ -24545,7 +24545,7 @@ _BFTTT = _BFTTT()
 """
 
 
-class _BSANDT30M(NamedTuple):
+class _BSANDT30M(Symbol):
     """
         name: .BSANDT30M
         significant_digits: None
@@ -24583,7 +24583,7 @@ class _BSANDT30M(NamedTuple):
         return ".BSANDT30M"
 
 
-_BSANDT30M = _BSANDT30M()
+_BSANDT30M = _BSANDT30M(*_BSANDT30M._fields)
 """
     name: .BSANDT30M
     significant_digits: None
@@ -24597,7 +24597,7 @@ _BSANDT30M = _BSANDT30M()
 """
 
 
-class _BNEART30M(NamedTuple):
+class _BNEART30M(Symbol):
     """
         name: .BNEART30M
         significant_digits: None
@@ -24635,7 +24635,7 @@ class _BNEART30M(NamedTuple):
         return ".BNEART30M"
 
 
-_BNEART30M = _BNEART30M()
+_BNEART30M = _BNEART30M(*_BNEART30M._fields)
 """
     name: .BNEART30M
     significant_digits: None
@@ -24649,7 +24649,7 @@ _BNEART30M = _BNEART30M()
 """
 
 
-class _BMANAT30M(NamedTuple):
+class _BMANAT30M(Symbol):
     """
         name: .BMANAT30M
         significant_digits: None
@@ -24687,7 +24687,7 @@ class _BMANAT30M(NamedTuple):
         return ".BMANAT30M"
 
 
-_BMANAT30M = _BMANAT30M()
+_BMANAT30M = _BMANAT30M(*_BMANAT30M._fields)
 """
     name: .BMANAT30M
     significant_digits: None
@@ -24701,7 +24701,7 @@ _BMANAT30M = _BMANAT30M()
 """
 
 
-class _BSHIBT30M(NamedTuple):
+class _BSHIBT30M(Symbol):
     """
         name: .BSHIBT30M
         significant_digits: None
@@ -24739,7 +24739,7 @@ class _BSHIBT30M(NamedTuple):
         return ".BSHIBT30M"
 
 
-_BSHIBT30M = _BSHIBT30M()
+_BSHIBT30M = _BSHIBT30M(*_BSHIBT30M._fields)
 """
     name: .BSHIBT30M
     significant_digits: None
@@ -24753,7 +24753,7 @@ _BSHIBT30M = _BSHIBT30M()
 """
 
 
-class _BOPT30M(NamedTuple):
+class _BOPT30M(Symbol):
     """
         name: .BOPT30M
         significant_digits: None
@@ -24791,7 +24791,7 @@ class _BOPT30M(NamedTuple):
         return ".BOPT30M"
 
 
-_BOPT30M = _BOPT30M()
+_BOPT30M = _BOPT30M(*_BOPT30M._fields)
 """
     name: .BOPT30M
     significant_digits: None
@@ -24805,7 +24805,7 @@ _BOPT30M = _BOPT30M()
 """
 
 
-class _BGALT30M(NamedTuple):
+class _BGALT30M(Symbol):
     """
         name: .BGALT30M
         significant_digits: None
@@ -24843,7 +24843,7 @@ class _BGALT30M(NamedTuple):
         return ".BGALT30M"
 
 
-_BGALT30M = _BGALT30M()
+_BGALT30M = _BGALT30M(*_BGALT30M._fields)
 """
     name: .BGALT30M
     significant_digits: None
@@ -24857,7 +24857,7 @@ _BGALT30M = _BGALT30M()
 """
 
 
-class _BGAL30M(NamedTuple):
+class _BGAL30M(Symbol):
     """
         name: .BGAL30M
         significant_digits: None
@@ -24895,7 +24895,7 @@ class _BGAL30M(NamedTuple):
         return ".BGAL30M"
 
 
-_BGAL30M = _BGAL30M()
+_BGAL30M = _BGAL30M(*_BGAL30M._fields)
 """
     name: .BGAL30M
     significant_digits: None
@@ -24909,7 +24909,7 @@ _BGAL30M = _BGAL30M()
 """
 
 
-class _BTRX30M(NamedTuple):
+class _BTRX30M(Symbol):
     """
         name: .BTRX30M
         significant_digits: None
@@ -24947,7 +24947,7 @@ class _BTRX30M(NamedTuple):
         return ".BTRX30M"
 
 
-_BTRX30M = _BTRX30M()
+_BTRX30M = _BTRX30M(*_BTRX30M._fields)
 """
     name: .BTRX30M
     significant_digits: None
@@ -24961,7 +24961,7 @@ _BTRX30M = _BTRX30M()
 """
 
 
-class _BOP30M(NamedTuple):
+class _BOP30M(Symbol):
     """
         name: .BOP30M
         significant_digits: None
@@ -24999,7 +24999,7 @@ class _BOP30M(NamedTuple):
         return ".BOP30M"
 
 
-_BOP30M = _BOP30M()
+_BOP30M = _BOP30M(*_BOP30M._fields)
 """
     name: .BOP30M
     significant_digits: None
@@ -25013,7 +25013,7 @@ _BOP30M = _BOP30M()
 """
 
 
-class _BAPE30M(NamedTuple):
+class _BAPE30M(Symbol):
     """
         name: .BAPE30M
         significant_digits: None
@@ -25051,7 +25051,7 @@ class _BAPE30M(NamedTuple):
         return ".BAPE30M"
 
 
-_BAPE30M = _BAPE30M()
+_BAPE30M = _BAPE30M(*_BAPE30M._fields)
 """
     name: .BAPE30M
     significant_digits: None
@@ -25065,7 +25065,7 @@ _BAPE30M = _BAPE30M()
 """
 
 
-class _BFTMT30M(NamedTuple):
+class _BFTMT30M(Symbol):
     """
         name: .BFTMT30M
         significant_digits: None
@@ -25103,7 +25103,7 @@ class _BFTMT30M(NamedTuple):
         return ".BFTMT30M"
 
 
-_BFTMT30M = _BFTMT30M()
+_BFTMT30M = _BFTMT30M(*_BFTMT30M._fields)
 """
     name: .BFTMT30M
     significant_digits: None
@@ -25117,7 +25117,7 @@ _BFTMT30M = _BFTMT30M()
 """
 
 
-class _BAPT(NamedTuple):
+class _BAPT(Symbol):
     """
         name: .BAPT
         significant_digits: None
@@ -25155,7 +25155,7 @@ class _BAPT(NamedTuple):
         return ".BAPT"
 
 
-_BAPT = _BAPT()
+_BAPT = _BAPT(*_BAPT._fields)
 """
     name: .BAPT
     significant_digits: None
@@ -25169,7 +25169,7 @@ _BAPT = _BAPT()
 """
 
 
-class _BAPT_NEXT(NamedTuple):
+class _BAPT_NEXT(Symbol):
     """
         name: .BAPT_NEXT
         significant_digits: None
@@ -25207,7 +25207,7 @@ class _BAPT_NEXT(NamedTuple):
         return ".BAPT_NEXT"
 
 
-_BAPT_NEXT = _BAPT_NEXT()
+_BAPT_NEXT = _BAPT_NEXT(*_BAPT_NEXT._fields)
 """
     name: .BAPT_NEXT
     significant_digits: None
@@ -25221,7 +25221,7 @@ _BAPT_NEXT = _BAPT_NEXT()
 """
 
 
-class _BAPT30M(NamedTuple):
+class _BAPT30M(Symbol):
     """
         name: .BAPT30M
         significant_digits: None
@@ -25259,7 +25259,7 @@ class _BAPT30M(NamedTuple):
         return ".BAPT30M"
 
 
-_BAPT30M = _BAPT30M()
+_BAPT30M = _BAPT30M(*_BAPT30M._fields)
 """
     name: .BAPT30M
     significant_digits: None
@@ -25273,7 +25273,7 @@ _BAPT30M = _BAPT30M()
 """
 
 
-class _BAPTT(NamedTuple):
+class _BAPTT(Symbol):
     """
         name: .BAPTT
         significant_digits: None
@@ -25311,7 +25311,7 @@ class _BAPTT(NamedTuple):
         return ".BAPTT"
 
 
-_BAPTT = _BAPTT()
+_BAPTT = _BAPTT(*_BAPTT._fields)
 """
     name: .BAPTT
     significant_digits: None
@@ -25325,7 +25325,7 @@ _BAPTT = _BAPTT()
 """
 
 
-class _BAPTT_NEXT(NamedTuple):
+class _BAPTT_NEXT(Symbol):
     """
         name: .BAPTT_NEXT
         significant_digits: None
@@ -25363,7 +25363,7 @@ class _BAPTT_NEXT(NamedTuple):
         return ".BAPTT_NEXT"
 
 
-_BAPTT_NEXT = _BAPTT_NEXT()
+_BAPTT_NEXT = _BAPTT_NEXT(*_BAPTT_NEXT._fields)
 """
     name: .BAPTT_NEXT
     significant_digits: None
@@ -25377,7 +25377,7 @@ _BAPTT_NEXT = _BAPTT_NEXT()
 """
 
 
-class _BAPTT30M(NamedTuple):
+class _BAPTT30M(Symbol):
     """
         name: .BAPTT30M
         significant_digits: None
@@ -25415,7 +25415,7 @@ class _BAPTT30M(NamedTuple):
         return ".BAPTT30M"
 
 
-_BAPTT30M = _BAPTT30M()
+_BAPTT30M = _BAPTT30M(*_BAPTT30M._fields)
 """
     name: .BAPTT30M
     significant_digits: None
@@ -25429,7 +25429,7 @@ _BAPTT30M = _BAPTT30M()
 """
 
 
-class _APTBON(NamedTuple):
+class _APTBON(Symbol):
     """
         name: .APTBON
         significant_digits: None
@@ -25467,7 +25467,7 @@ class _APTBON(NamedTuple):
         return ".APTBON"
 
 
-_APTBON = _APTBON()
+_APTBON = _APTBON(*_APTBON._fields)
 """
     name: .APTBON
     significant_digits: None
@@ -25481,7 +25481,7 @@ _APTBON = _APTBON()
 """
 
 
-class _APTBON8H(NamedTuple):
+class _APTBON8H(Symbol):
     """
         name: .APTBON8H
         significant_digits: None
@@ -25519,7 +25519,7 @@ class _APTBON8H(NamedTuple):
         return ".APTBON8H"
 
 
-_APTBON8H = _APTBON8H()
+_APTBON8H = _APTBON8H(*_APTBON8H._fields)
 """
     name: .APTBON8H
     significant_digits: None
@@ -25533,7 +25533,7 @@ _APTBON8H = _APTBON8H()
 """
 
 
-class _APTUSDTPI(NamedTuple):
+class _APTUSDTPI(Symbol):
     """
         name: .APTUSDTPI
         significant_digits: None
@@ -25571,7 +25571,7 @@ class _APTUSDTPI(NamedTuple):
         return ".APTUSDTPI"
 
 
-_APTUSDTPI = _APTUSDTPI()
+_APTUSDTPI = _APTUSDTPI(*_APTUSDTPI._fields)
 """
     name: .APTUSDTPI
     significant_digits: None
@@ -25585,7 +25585,7 @@ _APTUSDTPI = _APTUSDTPI()
 """
 
 
-class _APTUSDTPI8H(NamedTuple):
+class _APTUSDTPI8H(Symbol):
     """
         name: .APTUSDTPI8H
         significant_digits: None
@@ -25623,7 +25623,7 @@ class _APTUSDTPI8H(NamedTuple):
         return ".APTUSDTPI8H"
 
 
-_APTUSDTPI8H = _APTUSDTPI8H()
+_APTUSDTPI8H = _APTUSDTPI8H(*_APTUSDTPI8H._fields)
 """
     name: .APTUSDTPI8H
     significant_digits: None
@@ -25637,7 +25637,7 @@ _APTUSDTPI8H = _APTUSDTPI8H()
 """
 
 
-class _APTUSDPI(NamedTuple):
+class _APTUSDPI(Symbol):
     """
         name: .APTUSDPI
         significant_digits: None
@@ -25675,7 +25675,7 @@ class _APTUSDPI(NamedTuple):
         return ".APTUSDPI"
 
 
-_APTUSDPI = _APTUSDPI()
+_APTUSDPI = _APTUSDPI(*_APTUSDPI._fields)
 """
     name: .APTUSDPI
     significant_digits: None
@@ -25689,7 +25689,7 @@ _APTUSDPI = _APTUSDPI()
 """
 
 
-class _APTUSDPI8H(NamedTuple):
+class _APTUSDPI8H(Symbol):
     """
         name: .APTUSDPI8H
         significant_digits: None
@@ -25727,7 +25727,7 @@ class _APTUSDPI8H(NamedTuple):
         return ".APTUSDPI8H"
 
 
-_APTUSDPI8H = _APTUSDPI8H()
+_APTUSDPI8H = _APTUSDPI8H(*_APTUSDPI8H._fields)
 """
     name: .APTUSDPI8H
     significant_digits: None
@@ -25741,7 +25741,7 @@ _APTUSDPI8H = _APTUSDPI8H()
 """
 
 
-class _BFTT(NamedTuple):
+class _BFTT(Symbol):
     """
         name: .BFTT
         significant_digits: None
@@ -25779,7 +25779,7 @@ class _BFTT(NamedTuple):
         return ".BFTT"
 
 
-_BFTT = _BFTT()
+_BFTT = _BFTT(*_BFTT._fields)
 """
     name: .BFTT
     significant_digits: None
@@ -25793,7 +25793,7 @@ _BFTT = _BFTT()
 """
 
 
-class _BFTT_NEXT(NamedTuple):
+class _BFTT_NEXT(Symbol):
     """
         name: .BFTT_NEXT
         significant_digits: None
@@ -25831,7 +25831,7 @@ class _BFTT_NEXT(NamedTuple):
         return ".BFTT_NEXT"
 
 
-_BFTT_NEXT = _BFTT_NEXT()
+_BFTT_NEXT = _BFTT_NEXT(*_BFTT_NEXT._fields)
 """
     name: .BFTT_NEXT
     significant_digits: None
@@ -25845,7 +25845,7 @@ _BFTT_NEXT = _BFTT_NEXT()
 """
 
 
-class _BFTTT_NEXT(NamedTuple):
+class _BFTTT_NEXT(Symbol):
     """
         name: .BFTTT_NEXT
         significant_digits: None
@@ -25883,7 +25883,7 @@ class _BFTTT_NEXT(NamedTuple):
         return ".BFTTT_NEXT"
 
 
-_BFTTT_NEXT = _BFTTT_NEXT()
+_BFTTT_NEXT = _BFTTT_NEXT(*_BFTTT_NEXT._fields)
 """
     name: .BFTTT_NEXT
     significant_digits: None
@@ -25897,7 +25897,7 @@ _BFTTT_NEXT = _BFTTT_NEXT()
 """
 
 
-class _FTTBON(NamedTuple):
+class _FTTBON(Symbol):
     """
         name: .FTTBON
         significant_digits: None
@@ -25935,7 +25935,7 @@ class _FTTBON(NamedTuple):
         return ".FTTBON"
 
 
-_FTTBON = _FTTBON()
+_FTTBON = _FTTBON(*_FTTBON._fields)
 """
     name: .FTTBON
     significant_digits: None
@@ -25949,7 +25949,7 @@ _FTTBON = _FTTBON()
 """
 
 
-class _FTTBON8H(NamedTuple):
+class _FTTBON8H(Symbol):
     """
         name: .FTTBON8H
         significant_digits: None
@@ -25987,7 +25987,7 @@ class _FTTBON8H(NamedTuple):
         return ".FTTBON8H"
 
 
-_FTTBON8H = _FTTBON8H()
+_FTTBON8H = _FTTBON8H(*_FTTBON8H._fields)
 """
     name: .FTTBON8H
     significant_digits: None
@@ -26001,7 +26001,7 @@ _FTTBON8H = _FTTBON8H()
 """
 
 
-class _FTTUSDTPI(NamedTuple):
+class _FTTUSDTPI(Symbol):
     """
         name: .FTTUSDTPI
         significant_digits: None
@@ -26039,7 +26039,7 @@ class _FTTUSDTPI(NamedTuple):
         return ".FTTUSDTPI"
 
 
-_FTTUSDTPI = _FTTUSDTPI()
+_FTTUSDTPI = _FTTUSDTPI(*_FTTUSDTPI._fields)
 """
     name: .FTTUSDTPI
     significant_digits: None
@@ -26053,7 +26053,7 @@ _FTTUSDTPI = _FTTUSDTPI()
 """
 
 
-class _FTTUSDTPI8H(NamedTuple):
+class _FTTUSDTPI8H(Symbol):
     """
         name: .FTTUSDTPI8H
         significant_digits: None
@@ -26091,7 +26091,7 @@ class _FTTUSDTPI8H(NamedTuple):
         return ".FTTUSDTPI8H"
 
 
-_FTTUSDTPI8H = _FTTUSDTPI8H()
+_FTTUSDTPI8H = _FTTUSDTPI8H(*_FTTUSDTPI8H._fields)
 """
     name: .FTTUSDTPI8H
     significant_digits: None
@@ -26105,7 +26105,7 @@ _FTTUSDTPI8H = _FTTUSDTPI8H()
 """
 
 
-class _FTTUSDPI(NamedTuple):
+class _FTTUSDPI(Symbol):
     """
         name: .FTTUSDPI
         significant_digits: None
@@ -26143,7 +26143,7 @@ class _FTTUSDPI(NamedTuple):
         return ".FTTUSDPI"
 
 
-_FTTUSDPI = _FTTUSDPI()
+_FTTUSDPI = _FTTUSDPI(*_FTTUSDPI._fields)
 """
     name: .FTTUSDPI
     significant_digits: None
@@ -26157,7 +26157,7 @@ _FTTUSDPI = _FTTUSDPI()
 """
 
 
-class _FTTUSDPI8H(NamedTuple):
+class _FTTUSDPI8H(Symbol):
     """
         name: .FTTUSDPI8H
         significant_digits: None
@@ -26195,7 +26195,7 @@ class _FTTUSDPI8H(NamedTuple):
         return ".FTTUSDPI8H"
 
 
-_FTTUSDPI8H = _FTTUSDPI8H()
+_FTTUSDPI8H = _FTTUSDPI8H(*_FTTUSDPI8H._fields)
 """
     name: .FTTUSDPI8H
     significant_digits: None
@@ -26209,7 +26209,7 @@ _FTTUSDPI8H = _FTTUSDPI8H()
 """
 
 
-class _BMEXBON(NamedTuple):
+class _BMEXBON(Symbol):
     """
         name: .BMEXBON
         significant_digits: None
@@ -26247,7 +26247,7 @@ class _BMEXBON(NamedTuple):
         return ".BMEXBON"
 
 
-_BMEXBON = _BMEXBON()
+_BMEXBON = _BMEXBON(*_BMEXBON._fields)
 """
     name: .BMEXBON
     significant_digits: None
@@ -26261,7 +26261,7 @@ _BMEXBON = _BMEXBON()
 """
 
 
-class _BMEXBON8H(NamedTuple):
+class _BMEXBON8H(Symbol):
     """
         name: .BMEXBON8H
         significant_digits: None
@@ -26299,7 +26299,7 @@ class _BMEXBON8H(NamedTuple):
         return ".BMEXBON8H"
 
 
-_BMEXBON8H = _BMEXBON8H()
+_BMEXBON8H = _BMEXBON8H(*_BMEXBON8H._fields)
 """
     name: .BMEXBON8H
     significant_digits: None
@@ -26313,7 +26313,7 @@ _BMEXBON8H = _BMEXBON8H()
 """
 
 
-class _BMEXUSDTPI(NamedTuple):
+class _BMEXUSDTPI(Symbol):
     """
         name: .BMEXUSDTPI
         significant_digits: None
@@ -26351,7 +26351,7 @@ class _BMEXUSDTPI(NamedTuple):
         return ".BMEXUSDTPI"
 
 
-_BMEXUSDTPI = _BMEXUSDTPI()
+_BMEXUSDTPI = _BMEXUSDTPI(*_BMEXUSDTPI._fields)
 """
     name: .BMEXUSDTPI
     significant_digits: None
@@ -26365,7 +26365,7 @@ _BMEXUSDTPI = _BMEXUSDTPI()
 """
 
 
-class _BMEXUSDTPI8H(NamedTuple):
+class _BMEXUSDTPI8H(Symbol):
     """
         name: .BMEXUSDTPI8H
         significant_digits: None
@@ -26403,7 +26403,7 @@ class _BMEXUSDTPI8H(NamedTuple):
         return ".BMEXUSDTPI8H"
 
 
-_BMEXUSDTPI8H = _BMEXUSDTPI8H()
+_BMEXUSDTPI8H = _BMEXUSDTPI8H(*_BMEXUSDTPI8H._fields)
 """
     name: .BMEXUSDTPI8H
     significant_digits: None
@@ -26417,7 +26417,7 @@ _BMEXUSDTPI8H = _BMEXUSDTPI8H()
 """
 
 
-class _BMEXUSDPI(NamedTuple):
+class _BMEXUSDPI(Symbol):
     """
         name: .BMEXUSDPI
         significant_digits: None
@@ -26455,7 +26455,7 @@ class _BMEXUSDPI(NamedTuple):
         return ".BMEXUSDPI"
 
 
-_BMEXUSDPI = _BMEXUSDPI()
+_BMEXUSDPI = _BMEXUSDPI(*_BMEXUSDPI._fields)
 """
     name: .BMEXUSDPI
     significant_digits: None
@@ -26469,7 +26469,7 @@ _BMEXUSDPI = _BMEXUSDPI()
 """
 
 
-class _BMEXUSDPI8H(NamedTuple):
+class _BMEXUSDPI8H(Symbol):
     """
         name: .BMEXUSDPI8H
         significant_digits: None
@@ -26507,7 +26507,7 @@ class _BMEXUSDPI8H(NamedTuple):
         return ".BMEXUSDPI8H"
 
 
-_BMEXUSDPI8H = _BMEXUSDPI8H()
+_BMEXUSDPI8H = _BMEXUSDPI8H(*_BMEXUSDPI8H._fields)
 """
     name: .BMEXUSDPI8H
     significant_digits: None
@@ -26521,7 +26521,7 @@ _BMEXUSDPI8H = _BMEXUSDPI8H()
 """
 
 
-class _BBMEXT(NamedTuple):
+class _BBMEXT(Symbol):
     """
         name: .BBMEXT
         significant_digits: None
@@ -26559,7 +26559,7 @@ class _BBMEXT(NamedTuple):
         return ".BBMEXT"
 
 
-_BBMEXT = _BBMEXT()
+_BBMEXT = _BBMEXT(*_BBMEXT._fields)
 """
     name: .BBMEXT
     significant_digits: None
@@ -26573,7 +26573,7 @@ _BBMEXT = _BBMEXT()
 """
 
 
-class _BBMEXT_NEXT(NamedTuple):
+class _BBMEXT_NEXT(Symbol):
     """
         name: .BBMEXT_NEXT
         significant_digits: None
@@ -26611,7 +26611,7 @@ class _BBMEXT_NEXT(NamedTuple):
         return ".BBMEXT_NEXT"
 
 
-_BBMEXT_NEXT = _BBMEXT_NEXT()
+_BBMEXT_NEXT = _BBMEXT_NEXT(*_BBMEXT_NEXT._fields)
 """
     name: .BBMEXT_NEXT
     significant_digits: None
@@ -26625,7 +26625,7 @@ _BBMEXT_NEXT = _BBMEXT_NEXT()
 """
 
 
-class _BBMEX(NamedTuple):
+class _BBMEX(Symbol):
     """
         name: .BBMEX
         significant_digits: None
@@ -26663,7 +26663,7 @@ class _BBMEX(NamedTuple):
         return ".BBMEX"
 
 
-_BBMEX = _BBMEX()
+_BBMEX = _BBMEX(*_BBMEX._fields)
 """
     name: .BBMEX
     significant_digits: None
@@ -26677,7 +26677,7 @@ _BBMEX = _BBMEX()
 """
 
 
-class _BBMEX_NEXT(NamedTuple):
+class _BBMEX_NEXT(Symbol):
     """
         name: .BBMEX_NEXT
         significant_digits: None
@@ -26715,7 +26715,7 @@ class _BBMEX_NEXT(NamedTuple):
         return ".BBMEX_NEXT"
 
 
-_BBMEX_NEXT = _BBMEX_NEXT()
+_BBMEX_NEXT = _BBMEX_NEXT(*_BBMEX_NEXT._fields)
 """
     name: .BBMEX_NEXT
     significant_digits: None
@@ -26729,7 +26729,7 @@ _BBMEX_NEXT = _BBMEX_NEXT()
 """
 
 
-class _CROBON(NamedTuple):
+class _CROBON(Symbol):
     """
         name: .CROBON
         significant_digits: None
@@ -26767,7 +26767,7 @@ class _CROBON(NamedTuple):
         return ".CROBON"
 
 
-_CROBON = _CROBON()
+_CROBON = _CROBON(*_CROBON._fields)
 """
     name: .CROBON
     significant_digits: None
@@ -26781,7 +26781,7 @@ _CROBON = _CROBON()
 """
 
 
-class _CROBON8H(NamedTuple):
+class _CROBON8H(Symbol):
     """
         name: .CROBON8H
         significant_digits: None
@@ -26819,7 +26819,7 @@ class _CROBON8H(NamedTuple):
         return ".CROBON8H"
 
 
-_CROBON8H = _CROBON8H()
+_CROBON8H = _CROBON8H(*_CROBON8H._fields)
 """
     name: .CROBON8H
     significant_digits: None
@@ -26833,7 +26833,7 @@ _CROBON8H = _CROBON8H()
 """
 
 
-class _CROUSDTPI(NamedTuple):
+class _CROUSDTPI(Symbol):
     """
         name: .CROUSDTPI
         significant_digits: None
@@ -26871,7 +26871,7 @@ class _CROUSDTPI(NamedTuple):
         return ".CROUSDTPI"
 
 
-_CROUSDTPI = _CROUSDTPI()
+_CROUSDTPI = _CROUSDTPI(*_CROUSDTPI._fields)
 """
     name: .CROUSDTPI
     significant_digits: None
@@ -26885,7 +26885,7 @@ _CROUSDTPI = _CROUSDTPI()
 """
 
 
-class _CROUSDTPI8H(NamedTuple):
+class _CROUSDTPI8H(Symbol):
     """
         name: .CROUSDTPI8H
         significant_digits: None
@@ -26923,7 +26923,7 @@ class _CROUSDTPI8H(NamedTuple):
         return ".CROUSDTPI8H"
 
 
-_CROUSDTPI8H = _CROUSDTPI8H()
+_CROUSDTPI8H = _CROUSDTPI8H(*_CROUSDTPI8H._fields)
 """
     name: .CROUSDTPI8H
     significant_digits: None
@@ -26937,7 +26937,7 @@ _CROUSDTPI8H = _CROUSDTPI8H()
 """
 
 
-class _CROUSDPI(NamedTuple):
+class _CROUSDPI(Symbol):
     """
         name: .CROUSDPI
         significant_digits: None
@@ -26975,7 +26975,7 @@ class _CROUSDPI(NamedTuple):
         return ".CROUSDPI"
 
 
-_CROUSDPI = _CROUSDPI()
+_CROUSDPI = _CROUSDPI(*_CROUSDPI._fields)
 """
     name: .CROUSDPI
     significant_digits: None
@@ -26989,7 +26989,7 @@ _CROUSDPI = _CROUSDPI()
 """
 
 
-class _CROUSDPI8H(NamedTuple):
+class _CROUSDPI8H(Symbol):
     """
         name: .CROUSDPI8H
         significant_digits: None
@@ -27027,7 +27027,7 @@ class _CROUSDPI8H(NamedTuple):
         return ".CROUSDPI8H"
 
 
-_CROUSDPI8H = _CROUSDPI8H()
+_CROUSDPI8H = _CROUSDPI8H(*_CROUSDPI8H._fields)
 """
     name: .CROUSDPI8H
     significant_digits: None
@@ -27041,7 +27041,7 @@ _CROUSDPI8H = _CROUSDPI8H()
 """
 
 
-class _BFTT30M(NamedTuple):
+class _BFTT30M(Symbol):
     """
         name: .BFTT30M
         significant_digits: None
@@ -27079,7 +27079,7 @@ class _BFTT30M(NamedTuple):
         return ".BFTT30M"
 
 
-_BFTT30M = _BFTT30M()
+_BFTT30M = _BFTT30M(*_BFTT30M._fields)
 """
     name: .BFTT30M
     significant_digits: None
@@ -27093,7 +27093,7 @@ _BFTT30M = _BFTT30M()
 """
 
 
-class _BFTTT30M(NamedTuple):
+class _BFTTT30M(Symbol):
     """
         name: .BFTTT30M
         significant_digits: None
@@ -27131,7 +27131,7 @@ class _BFTTT30M(NamedTuple):
         return ".BFTTT30M"
 
 
-_BFTTT30M = _BFTTT30M()
+_BFTTT30M = _BFTTT30M(*_BFTTT30M._fields)
 """
     name: .BFTTT30M
     significant_digits: None
@@ -27145,7 +27145,7 @@ _BFTTT30M = _BFTTT30M()
 """
 
 
-class _BETHYLD(NamedTuple):
+class _BETHYLD(Symbol):
     """
         name: .BETHYLD
         significant_digits: None
@@ -27183,7 +27183,7 @@ class _BETHYLD(NamedTuple):
         return ".BETHYLD"
 
 
-_BETHYLD = _BETHYLD()
+_BETHYLD = _BETHYLD(*_BETHYLD._fields)
 """
     name: .BETHYLD
     significant_digits: None
@@ -27197,7 +27197,7 @@ _BETHYLD = _BETHYLD()
 """
 
 
-class _BFLRT(NamedTuple):
+class _BFLRT(Symbol):
     """
         name: .BFLRT
         significant_digits: None
@@ -27235,7 +27235,7 @@ class _BFLRT(NamedTuple):
         return ".BFLRT"
 
 
-_BFLRT = _BFLRT()
+_BFLRT = _BFLRT(*_BFLRT._fields)
 """
     name: .BFLRT
     significant_digits: None
@@ -27249,7 +27249,7 @@ _BFLRT = _BFLRT()
 """
 
 
-class _BFLRT_NEXT(NamedTuple):
+class _BFLRT_NEXT(Symbol):
     """
         name: .BFLRT_NEXT
         significant_digits: None
@@ -27287,7 +27287,7 @@ class _BFLRT_NEXT(NamedTuple):
         return ".BFLRT_NEXT"
 
 
-_BFLRT_NEXT = _BFLRT_NEXT()
+_BFLRT_NEXT = _BFLRT_NEXT(*_BFLRT_NEXT._fields)
 """
     name: .BFLRT_NEXT
     significant_digits: None
@@ -27301,7 +27301,7 @@ _BFLRT_NEXT = _BFLRT_NEXT()
 """
 
 
-class _BFLRT30M(NamedTuple):
+class _BFLRT30M(Symbol):
     """
         name: .BFLRT30M
         significant_digits: None
@@ -27339,7 +27339,7 @@ class _BFLRT30M(NamedTuple):
         return ".BFLRT30M"
 
 
-_BFLRT30M = _BFLRT30M()
+_BFLRT30M = _BFLRT30M(*_BFLRT30M._fields)
 """
     name: .BFLRT30M
     significant_digits: None
@@ -27353,7 +27353,7 @@ _BFLRT30M = _BFLRT30M()
 """
 
 
-class _FLRBON(NamedTuple):
+class _FLRBON(Symbol):
     """
         name: .FLRBON
         significant_digits: None
@@ -27391,7 +27391,7 @@ class _FLRBON(NamedTuple):
         return ".FLRBON"
 
 
-_FLRBON = _FLRBON()
+_FLRBON = _FLRBON(*_FLRBON._fields)
 """
     name: .FLRBON
     significant_digits: None
@@ -27405,7 +27405,7 @@ _FLRBON = _FLRBON()
 """
 
 
-class _FLRBON8H(NamedTuple):
+class _FLRBON8H(Symbol):
     """
         name: .FLRBON8H
         significant_digits: None
@@ -27443,7 +27443,7 @@ class _FLRBON8H(NamedTuple):
         return ".FLRBON8H"
 
 
-_FLRBON8H = _FLRBON8H()
+_FLRBON8H = _FLRBON8H(*_FLRBON8H._fields)
 """
     name: .FLRBON8H
     significant_digits: None
@@ -27457,7 +27457,7 @@ _FLRBON8H = _FLRBON8H()
 """
 
 
-class _FLRUSDTPI(NamedTuple):
+class _FLRUSDTPI(Symbol):
     """
         name: .FLRUSDTPI
         significant_digits: None
@@ -27495,7 +27495,7 @@ class _FLRUSDTPI(NamedTuple):
         return ".FLRUSDTPI"
 
 
-_FLRUSDTPI = _FLRUSDTPI()
+_FLRUSDTPI = _FLRUSDTPI(*_FLRUSDTPI._fields)
 """
     name: .FLRUSDTPI
     significant_digits: None
@@ -27509,7 +27509,7 @@ _FLRUSDTPI = _FLRUSDTPI()
 """
 
 
-class _FLRUSDTPI8H(NamedTuple):
+class _FLRUSDTPI8H(Symbol):
     """
         name: .FLRUSDTPI8H
         significant_digits: None
@@ -27547,7 +27547,7 @@ class _FLRUSDTPI8H(NamedTuple):
         return ".FLRUSDTPI8H"
 
 
-_FLRUSDTPI8H = _FLRUSDTPI8H()
+_FLRUSDTPI8H = _FLRUSDTPI8H(*_FLRUSDTPI8H._fields)
 """
     name: .FLRUSDTPI8H
     significant_digits: None
@@ -27561,7 +27561,7 @@ _FLRUSDTPI8H = _FLRUSDTPI8H()
 """
 
 
-class _FLRUSDPI(NamedTuple):
+class _FLRUSDPI(Symbol):
     """
         name: .FLRUSDPI
         significant_digits: None
@@ -27599,7 +27599,7 @@ class _FLRUSDPI(NamedTuple):
         return ".FLRUSDPI"
 
 
-_FLRUSDPI = _FLRUSDPI()
+_FLRUSDPI = _FLRUSDPI(*_FLRUSDPI._fields)
 """
     name: .FLRUSDPI
     significant_digits: None
@@ -27613,7 +27613,7 @@ _FLRUSDPI = _FLRUSDPI()
 """
 
 
-class _FLRUSDPI8H(NamedTuple):
+class _FLRUSDPI8H(Symbol):
     """
         name: .FLRUSDPI8H
         significant_digits: None
@@ -27651,7 +27651,7 @@ class _FLRUSDPI8H(NamedTuple):
         return ".FLRUSDPI8H"
 
 
-_FLRUSDPI8H = _FLRUSDPI8H()
+_FLRUSDPI8H = _FLRUSDPI8H(*_FLRUSDPI8H._fields)
 """
     name: .FLRUSDPI8H
     significant_digits: None
@@ -27665,7 +27665,7 @@ _FLRUSDPI8H = _FLRUSDPI8H()
 """
 
 
-class _BFLR(NamedTuple):
+class _BFLR(Symbol):
     """
         name: .BFLR
         significant_digits: None
@@ -27703,7 +27703,7 @@ class _BFLR(NamedTuple):
         return ".BFLR"
 
 
-_BFLR = _BFLR()
+_BFLR = _BFLR(*_BFLR._fields)
 """
     name: .BFLR
     significant_digits: None
@@ -27717,7 +27717,7 @@ _BFLR = _BFLR()
 """
 
 
-class _BFLR_NEXT(NamedTuple):
+class _BFLR_NEXT(Symbol):
     """
         name: .BFLR_NEXT
         significant_digits: None
@@ -27755,7 +27755,7 @@ class _BFLR_NEXT(NamedTuple):
         return ".BFLR_NEXT"
 
 
-_BFLR_NEXT = _BFLR_NEXT()
+_BFLR_NEXT = _BFLR_NEXT(*_BFLR_NEXT._fields)
 """
     name: .BFLR_NEXT
     significant_digits: None
@@ -27769,7 +27769,7 @@ _BFLR_NEXT = _BFLR_NEXT()
 """
 
 
-class _BLURBON(NamedTuple):
+class _BLURBON(Symbol):
     """
         name: .BLURBON
         significant_digits: None
@@ -27807,7 +27807,7 @@ class _BLURBON(NamedTuple):
         return ".BLURBON"
 
 
-_BLURBON = _BLURBON()
+_BLURBON = _BLURBON(*_BLURBON._fields)
 """
     name: .BLURBON
     significant_digits: None
@@ -27821,7 +27821,7 @@ _BLURBON = _BLURBON()
 """
 
 
-class _BLURBON8H(NamedTuple):
+class _BLURBON8H(Symbol):
     """
         name: .BLURBON8H
         significant_digits: None
@@ -27859,7 +27859,7 @@ class _BLURBON8H(NamedTuple):
         return ".BLURBON8H"
 
 
-_BLURBON8H = _BLURBON8H()
+_BLURBON8H = _BLURBON8H(*_BLURBON8H._fields)
 """
     name: .BLURBON8H
     significant_digits: None
@@ -27873,7 +27873,7 @@ _BLURBON8H = _BLURBON8H()
 """
 
 
-class _BLURUSDTPI(NamedTuple):
+class _BLURUSDTPI(Symbol):
     """
         name: .BLURUSDTPI
         significant_digits: None
@@ -27911,7 +27911,7 @@ class _BLURUSDTPI(NamedTuple):
         return ".BLURUSDTPI"
 
 
-_BLURUSDTPI = _BLURUSDTPI()
+_BLURUSDTPI = _BLURUSDTPI(*_BLURUSDTPI._fields)
 """
     name: .BLURUSDTPI
     significant_digits: None
@@ -27925,7 +27925,7 @@ _BLURUSDTPI = _BLURUSDTPI()
 """
 
 
-class _BLURUSDTPI8H(NamedTuple):
+class _BLURUSDTPI8H(Symbol):
     """
         name: .BLURUSDTPI8H
         significant_digits: None
@@ -27963,7 +27963,7 @@ class _BLURUSDTPI8H(NamedTuple):
         return ".BLURUSDTPI8H"
 
 
-_BLURUSDTPI8H = _BLURUSDTPI8H()
+_BLURUSDTPI8H = _BLURUSDTPI8H(*_BLURUSDTPI8H._fields)
 """
     name: .BLURUSDTPI8H
     significant_digits: None
@@ -27977,7 +27977,7 @@ _BLURUSDTPI8H = _BLURUSDTPI8H()
 """
 
 
-class _BLURUSDPI(NamedTuple):
+class _BLURUSDPI(Symbol):
     """
         name: .BLURUSDPI
         significant_digits: None
@@ -28015,7 +28015,7 @@ class _BLURUSDPI(NamedTuple):
         return ".BLURUSDPI"
 
 
-_BLURUSDPI = _BLURUSDPI()
+_BLURUSDPI = _BLURUSDPI(*_BLURUSDPI._fields)
 """
     name: .BLURUSDPI
     significant_digits: None
@@ -28029,7 +28029,7 @@ _BLURUSDPI = _BLURUSDPI()
 """
 
 
-class _BLURUSDPI8H(NamedTuple):
+class _BLURUSDPI8H(Symbol):
     """
         name: .BLURUSDPI8H
         significant_digits: None
@@ -28067,7 +28067,7 @@ class _BLURUSDPI8H(NamedTuple):
         return ".BLURUSDPI8H"
 
 
-_BLURUSDPI8H = _BLURUSDPI8H()
+_BLURUSDPI8H = _BLURUSDPI8H(*_BLURUSDPI8H._fields)
 """
     name: .BLURUSDPI8H
     significant_digits: None
@@ -28081,7 +28081,7 @@ _BLURUSDPI8H = _BLURUSDPI8H()
 """
 
 
-class _BBLUR(NamedTuple):
+class _BBLUR(Symbol):
     """
         name: .BBLUR
         significant_digits: None
@@ -28119,7 +28119,7 @@ class _BBLUR(NamedTuple):
         return ".BBLUR"
 
 
-_BBLUR = _BBLUR()
+_BBLUR = _BBLUR(*_BBLUR._fields)
 """
     name: .BBLUR
     significant_digits: None
@@ -28133,7 +28133,7 @@ _BBLUR = _BBLUR()
 """
 
 
-class _BBLUR_NEXT(NamedTuple):
+class _BBLUR_NEXT(Symbol):
     """
         name: .BBLUR_NEXT
         significant_digits: None
@@ -28171,7 +28171,7 @@ class _BBLUR_NEXT(NamedTuple):
         return ".BBLUR_NEXT"
 
 
-_BBLUR_NEXT = _BBLUR_NEXT()
+_BBLUR_NEXT = _BBLUR_NEXT(*_BBLUR_NEXT._fields)
 """
     name: .BBLUR_NEXT
     significant_digits: None
@@ -28185,7 +28185,7 @@ _BBLUR_NEXT = _BBLUR_NEXT()
 """
 
 
-class _BBLURT(NamedTuple):
+class _BBLURT(Symbol):
     """
         name: .BBLURT
         significant_digits: None
@@ -28223,7 +28223,7 @@ class _BBLURT(NamedTuple):
         return ".BBLURT"
 
 
-_BBLURT = _BBLURT()
+_BBLURT = _BBLURT(*_BBLURT._fields)
 """
     name: .BBLURT
     significant_digits: None
@@ -28237,7 +28237,7 @@ _BBLURT = _BBLURT()
 """
 
 
-class _BBLURT_NEXT(NamedTuple):
+class _BBLURT_NEXT(Symbol):
     """
         name: .BBLURT_NEXT
         significant_digits: None
@@ -28275,7 +28275,7 @@ class _BBLURT_NEXT(NamedTuple):
         return ".BBLURT_NEXT"
 
 
-_BBLURT_NEXT = _BBLURT_NEXT()
+_BBLURT_NEXT = _BBLURT_NEXT(*_BBLURT_NEXT._fields)
 """
     name: .BBLURT_NEXT
     significant_digits: None
@@ -28289,7 +28289,7 @@ _BBLURT_NEXT = _BBLURT_NEXT()
 """
 
 
-class _BGMXT(NamedTuple):
+class _BGMXT(Symbol):
     """
         name: .BGMXT
         significant_digits: None
@@ -28327,7 +28327,7 @@ class _BGMXT(NamedTuple):
         return ".BGMXT"
 
 
-_BGMXT = _BGMXT()
+_BGMXT = _BGMXT(*_BGMXT._fields)
 """
     name: .BGMXT
     significant_digits: None
@@ -28341,7 +28341,7 @@ _BGMXT = _BGMXT()
 """
 
 
-class _BGMXT_NEXT(NamedTuple):
+class _BGMXT_NEXT(Symbol):
     """
         name: .BGMXT_NEXT
         significant_digits: None
@@ -28379,7 +28379,7 @@ class _BGMXT_NEXT(NamedTuple):
         return ".BGMXT_NEXT"
 
 
-_BGMXT_NEXT = _BGMXT_NEXT()
+_BGMXT_NEXT = _BGMXT_NEXT(*_BGMXT_NEXT._fields)
 """
     name: .BGMXT_NEXT
     significant_digits: None
@@ -28393,7 +28393,7 @@ _BGMXT_NEXT = _BGMXT_NEXT()
 """
 
 
-class _BGMX(NamedTuple):
+class _BGMX(Symbol):
     """
         name: .BGMX
         significant_digits: None
@@ -28431,7 +28431,7 @@ class _BGMX(NamedTuple):
         return ".BGMX"
 
 
-_BGMX = _BGMX()
+_BGMX = _BGMX(*_BGMX._fields)
 """
     name: .BGMX
     significant_digits: None
@@ -28445,7 +28445,7 @@ _BGMX = _BGMX()
 """
 
 
-class _BGMX_NEXT(NamedTuple):
+class _BGMX_NEXT(Symbol):
     """
         name: .BGMX_NEXT
         significant_digits: None
@@ -28483,7 +28483,7 @@ class _BGMX_NEXT(NamedTuple):
         return ".BGMX_NEXT"
 
 
-_BGMX_NEXT = _BGMX_NEXT()
+_BGMX_NEXT = _BGMX_NEXT(*_BGMX_NEXT._fields)
 """
     name: .BGMX_NEXT
     significant_digits: None
@@ -28497,7 +28497,7 @@ _BGMX_NEXT = _BGMX_NEXT()
 """
 
 
-class _GMXBON(NamedTuple):
+class _GMXBON(Symbol):
     """
         name: .GMXBON
         significant_digits: None
@@ -28535,7 +28535,7 @@ class _GMXBON(NamedTuple):
         return ".GMXBON"
 
 
-_GMXBON = _GMXBON()
+_GMXBON = _GMXBON(*_GMXBON._fields)
 """
     name: .GMXBON
     significant_digits: None
@@ -28549,7 +28549,7 @@ _GMXBON = _GMXBON()
 """
 
 
-class _GMXBON8H(NamedTuple):
+class _GMXBON8H(Symbol):
     """
         name: .GMXBON8H
         significant_digits: None
@@ -28587,7 +28587,7 @@ class _GMXBON8H(NamedTuple):
         return ".GMXBON8H"
 
 
-_GMXBON8H = _GMXBON8H()
+_GMXBON8H = _GMXBON8H(*_GMXBON8H._fields)
 """
     name: .GMXBON8H
     significant_digits: None
@@ -28601,7 +28601,7 @@ _GMXBON8H = _GMXBON8H()
 """
 
 
-class _GMXUSDTPI(NamedTuple):
+class _GMXUSDTPI(Symbol):
     """
         name: .GMXUSDTPI
         significant_digits: None
@@ -28639,7 +28639,7 @@ class _GMXUSDTPI(NamedTuple):
         return ".GMXUSDTPI"
 
 
-_GMXUSDTPI = _GMXUSDTPI()
+_GMXUSDTPI = _GMXUSDTPI(*_GMXUSDTPI._fields)
 """
     name: .GMXUSDTPI
     significant_digits: None
@@ -28653,7 +28653,7 @@ _GMXUSDTPI = _GMXUSDTPI()
 """
 
 
-class _GMXUSDTPI8H(NamedTuple):
+class _GMXUSDTPI8H(Symbol):
     """
         name: .GMXUSDTPI8H
         significant_digits: None
@@ -28691,7 +28691,7 @@ class _GMXUSDTPI8H(NamedTuple):
         return ".GMXUSDTPI8H"
 
 
-_GMXUSDTPI8H = _GMXUSDTPI8H()
+_GMXUSDTPI8H = _GMXUSDTPI8H(*_GMXUSDTPI8H._fields)
 """
     name: .GMXUSDTPI8H
     significant_digits: None
@@ -28705,7 +28705,7 @@ _GMXUSDTPI8H = _GMXUSDTPI8H()
 """
 
 
-class _GMXUSDPI(NamedTuple):
+class _GMXUSDPI(Symbol):
     """
         name: .GMXUSDPI
         significant_digits: None
@@ -28743,7 +28743,7 @@ class _GMXUSDPI(NamedTuple):
         return ".GMXUSDPI"
 
 
-_GMXUSDPI = _GMXUSDPI()
+_GMXUSDPI = _GMXUSDPI(*_GMXUSDPI._fields)
 """
     name: .GMXUSDPI
     significant_digits: None
@@ -28757,7 +28757,7 @@ _GMXUSDPI = _GMXUSDPI()
 """
 
 
-class _GMXUSDPI8H(NamedTuple):
+class _GMXUSDPI8H(Symbol):
     """
         name: .GMXUSDPI8H
         significant_digits: None
@@ -28795,7 +28795,7 @@ class _GMXUSDPI8H(NamedTuple):
         return ".GMXUSDPI8H"
 
 
-_GMXUSDPI8H = _GMXUSDPI8H()
+_GMXUSDPI8H = _GMXUSDPI8H(*_GMXUSDPI8H._fields)
 """
     name: .GMXUSDPI8H
     significant_digits: None
@@ -28809,7 +28809,7 @@ _GMXUSDPI8H = _GMXUSDPI8H()
 """
 
 
-class _USDCBON(NamedTuple):
+class _USDCBON(Symbol):
     """
         name: .USDCBON
         significant_digits: None
@@ -28847,7 +28847,7 @@ class _USDCBON(NamedTuple):
         return ".USDCBON"
 
 
-_USDCBON = _USDCBON()
+_USDCBON = _USDCBON(*_USDCBON._fields)
 """
     name: .USDCBON
     significant_digits: None
@@ -28861,7 +28861,7 @@ _USDCBON = _USDCBON()
 """
 
 
-class _USDCBON8H(NamedTuple):
+class _USDCBON8H(Symbol):
     """
         name: .USDCBON8H
         significant_digits: None
@@ -28899,7 +28899,7 @@ class _USDCBON8H(NamedTuple):
         return ".USDCBON8H"
 
 
-_USDCBON8H = _USDCBON8H()
+_USDCBON8H = _USDCBON8H(*_USDCBON8H._fields)
 """
     name: .USDCBON8H
     significant_digits: None
@@ -28913,7 +28913,7 @@ _USDCBON8H = _USDCBON8H()
 """
 
 
-class _USDTUSDCPI(NamedTuple):
+class _USDTUSDCPI(Symbol):
     """
         name: .USDTUSDCPI
         significant_digits: None
@@ -28951,7 +28951,7 @@ class _USDTUSDCPI(NamedTuple):
         return ".USDTUSDCPI"
 
 
-_USDTUSDCPI = _USDTUSDCPI()
+_USDTUSDCPI = _USDTUSDCPI(*_USDTUSDCPI._fields)
 """
     name: .USDTUSDCPI
     significant_digits: None
@@ -28965,7 +28965,7 @@ _USDTUSDCPI = _USDTUSDCPI()
 """
 
 
-class _USDTUSDCPI8H(NamedTuple):
+class _USDTUSDCPI8H(Symbol):
     """
         name: .USDTUSDCPI8H
         significant_digits: None
@@ -29003,7 +29003,7 @@ class _USDTUSDCPI8H(NamedTuple):
         return ".USDTUSDCPI8H"
 
 
-_USDTUSDCPI8H = _USDTUSDCPI8H()
+_USDTUSDCPI8H = _USDTUSDCPI8H(*_USDTUSDCPI8H._fields)
 """
     name: .USDTUSDCPI8H
     significant_digits: None
@@ -29017,7 +29017,7 @@ _USDTUSDCPI8H = _USDTUSDCPI8H()
 """
 
 
-class _BUSDTUSDC(NamedTuple):
+class _BUSDTUSDC(Symbol):
     """
         name: .BUSDTUSDC
         significant_digits: None
@@ -29055,7 +29055,7 @@ class _BUSDTUSDC(NamedTuple):
         return ".BUSDTUSDC"
 
 
-_BUSDTUSDC = _BUSDTUSDC()
+_BUSDTUSDC = _BUSDTUSDC(*_BUSDTUSDC._fields)
 """
     name: .BUSDTUSDC
     significant_digits: None
@@ -29069,7 +29069,7 @@ _BUSDTUSDC = _BUSDTUSDC()
 """
 
 
-class _BARBT(NamedTuple):
+class _BARBT(Symbol):
     """
         name: .BARBT
         significant_digits: None
@@ -29107,7 +29107,7 @@ class _BARBT(NamedTuple):
         return ".BARBT"
 
 
-_BARBT = _BARBT()
+_BARBT = _BARBT(*_BARBT._fields)
 """
     name: .BARBT
     significant_digits: None
@@ -29121,7 +29121,7 @@ _BARBT = _BARBT()
 """
 
 
-class _BARBT_NEXT(NamedTuple):
+class _BARBT_NEXT(Symbol):
     """
         name: .BARBT_NEXT
         significant_digits: None
@@ -29159,7 +29159,7 @@ class _BARBT_NEXT(NamedTuple):
         return ".BARBT_NEXT"
 
 
-_BARBT_NEXT = _BARBT_NEXT()
+_BARBT_NEXT = _BARBT_NEXT(*_BARBT_NEXT._fields)
 """
     name: .BARBT_NEXT
     significant_digits: None
@@ -29173,7 +29173,7 @@ _BARBT_NEXT = _BARBT_NEXT()
 """
 
 
-class _BARBT30M(NamedTuple):
+class _BARBT30M(Symbol):
     """
         name: .BARBT30M
         significant_digits: None
@@ -29211,7 +29211,7 @@ class _BARBT30M(NamedTuple):
         return ".BARBT30M"
 
 
-_BARBT30M = _BARBT30M()
+_BARBT30M = _BARBT30M(*_BARBT30M._fields)
 """
     name: .BARBT30M
     significant_digits: None
@@ -29225,7 +29225,7 @@ _BARBT30M = _BARBT30M()
 """
 
 
-class _BARB(NamedTuple):
+class _BARB(Symbol):
     """
         name: .BARB
         significant_digits: None
@@ -29263,7 +29263,7 @@ class _BARB(NamedTuple):
         return ".BARB"
 
 
-_BARB = _BARB()
+_BARB = _BARB(*_BARB._fields)
 """
     name: .BARB
     significant_digits: None
@@ -29277,7 +29277,7 @@ _BARB = _BARB()
 """
 
 
-class _BARB_NEXT(NamedTuple):
+class _BARB_NEXT(Symbol):
     """
         name: .BARB_NEXT
         significant_digits: None
@@ -29315,7 +29315,7 @@ class _BARB_NEXT(NamedTuple):
         return ".BARB_NEXT"
 
 
-_BARB_NEXT = _BARB_NEXT()
+_BARB_NEXT = _BARB_NEXT(*_BARB_NEXT._fields)
 """
     name: .BARB_NEXT
     significant_digits: None
@@ -29329,7 +29329,7 @@ _BARB_NEXT = _BARB_NEXT()
 """
 
 
-class _ARBBON(NamedTuple):
+class _ARBBON(Symbol):
     """
         name: .ARBBON
         significant_digits: None
@@ -29367,7 +29367,7 @@ class _ARBBON(NamedTuple):
         return ".ARBBON"
 
 
-_ARBBON = _ARBBON()
+_ARBBON = _ARBBON(*_ARBBON._fields)
 """
     name: .ARBBON
     significant_digits: None
@@ -29381,7 +29381,7 @@ _ARBBON = _ARBBON()
 """
 
 
-class _ARBBON8H(NamedTuple):
+class _ARBBON8H(Symbol):
     """
         name: .ARBBON8H
         significant_digits: None
@@ -29419,7 +29419,7 @@ class _ARBBON8H(NamedTuple):
         return ".ARBBON8H"
 
 
-_ARBBON8H = _ARBBON8H()
+_ARBBON8H = _ARBBON8H(*_ARBBON8H._fields)
 """
     name: .ARBBON8H
     significant_digits: None
@@ -29433,7 +29433,7 @@ _ARBBON8H = _ARBBON8H()
 """
 
 
-class _ARBUSDTPI(NamedTuple):
+class _ARBUSDTPI(Symbol):
     """
         name: .ARBUSDTPI
         significant_digits: None
@@ -29471,7 +29471,7 @@ class _ARBUSDTPI(NamedTuple):
         return ".ARBUSDTPI"
 
 
-_ARBUSDTPI = _ARBUSDTPI()
+_ARBUSDTPI = _ARBUSDTPI(*_ARBUSDTPI._fields)
 """
     name: .ARBUSDTPI
     significant_digits: None
@@ -29485,7 +29485,7 @@ _ARBUSDTPI = _ARBUSDTPI()
 """
 
 
-class _ARBUSDTPI8H(NamedTuple):
+class _ARBUSDTPI8H(Symbol):
     """
         name: .ARBUSDTPI8H
         significant_digits: None
@@ -29523,7 +29523,7 @@ class _ARBUSDTPI8H(NamedTuple):
         return ".ARBUSDTPI8H"
 
 
-_ARBUSDTPI8H = _ARBUSDTPI8H()
+_ARBUSDTPI8H = _ARBUSDTPI8H(*_ARBUSDTPI8H._fields)
 """
     name: .ARBUSDTPI8H
     significant_digits: None
@@ -29537,7 +29537,7 @@ _ARBUSDTPI8H = _ARBUSDTPI8H()
 """
 
 
-class _ARBUSDPI(NamedTuple):
+class _ARBUSDPI(Symbol):
     """
         name: .ARBUSDPI
         significant_digits: None
@@ -29575,7 +29575,7 @@ class _ARBUSDPI(NamedTuple):
         return ".ARBUSDPI"
 
 
-_ARBUSDPI = _ARBUSDPI()
+_ARBUSDPI = _ARBUSDPI(*_ARBUSDPI._fields)
 """
     name: .ARBUSDPI
     significant_digits: None
@@ -29589,7 +29589,7 @@ _ARBUSDPI = _ARBUSDPI()
 """
 
 
-class _ARBUSDPI8H(NamedTuple):
+class _ARBUSDPI8H(Symbol):
     """
         name: .ARBUSDPI8H
         significant_digits: None
@@ -29627,7 +29627,7 @@ class _ARBUSDPI8H(NamedTuple):
         return ".ARBUSDPI8H"
 
 
-_ARBUSDPI8H = _ARBUSDPI8H()
+_ARBUSDPI8H = _ARBUSDPI8H(*_ARBUSDPI8H._fields)
 """
     name: .ARBUSDPI8H
     significant_digits: None
@@ -29641,7 +29641,1203 @@ _ARBUSDPI8H = _ARBUSDPI8H()
 """
 
 
-class ADAM23(NamedTuple):
+class _BPEPET(Symbol):
+    """
+        name: .BPEPET
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BPEPET"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BPEPET"
+
+    def __str__(self):
+        return ".BPEPET"
+
+    def __call__(self):
+        return ".BPEPET"
+
+
+_BPEPET = _BPEPET(*_BPEPET._fields)
+"""
+    name: .BPEPET
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BPEPET_NEXT(Symbol):
+    """
+        name: .BPEPET_NEXT
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BPEPET_NEXT"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BPEPET_NEXT"
+
+    def __str__(self):
+        return ".BPEPET_NEXT"
+
+    def __call__(self):
+        return ".BPEPET_NEXT"
+
+
+_BPEPET_NEXT = _BPEPET_NEXT(*_BPEPET_NEXT._fields)
+"""
+    name: .BPEPET_NEXT
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BPEPE(Symbol):
+    """
+        name: .BPEPE
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BPEPE"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BPEPE"
+
+    def __str__(self):
+        return ".BPEPE"
+
+    def __call__(self):
+        return ".BPEPE"
+
+
+_BPEPE = _BPEPE(*_BPEPE._fields)
+"""
+    name: .BPEPE
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BPEPE_NEXT(Symbol):
+    """
+        name: .BPEPE_NEXT
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BPEPE_NEXT"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BPEPE_NEXT"
+
+    def __str__(self):
+        return ".BPEPE_NEXT"
+
+    def __call__(self):
+        return ".BPEPE_NEXT"
+
+
+_BPEPE_NEXT = _BPEPE_NEXT(*_BPEPE_NEXT._fields)
+"""
+    name: .BPEPE_NEXT
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEBON(Symbol):
+    """
+        name: .PEPEBON
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEBON"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEBON"
+
+    def __str__(self):
+        return ".PEPEBON"
+
+    def __call__(self):
+        return ".PEPEBON"
+
+
+_PEPEBON = _PEPEBON(*_PEPEBON._fields)
+"""
+    name: .PEPEBON
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEBON8H(Symbol):
+    """
+        name: .PEPEBON8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEBON8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEBON8H"
+
+    def __str__(self):
+        return ".PEPEBON8H"
+
+    def __call__(self):
+        return ".PEPEBON8H"
+
+
+_PEPEBON8H = _PEPEBON8H(*_PEPEBON8H._fields)
+"""
+    name: .PEPEBON8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEUSDTPI(Symbol):
+    """
+        name: .PEPEUSDTPI
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEUSDTPI"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEUSDTPI"
+
+    def __str__(self):
+        return ".PEPEUSDTPI"
+
+    def __call__(self):
+        return ".PEPEUSDTPI"
+
+
+_PEPEUSDTPI = _PEPEUSDTPI(*_PEPEUSDTPI._fields)
+"""
+    name: .PEPEUSDTPI
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEUSDTPI8H(Symbol):
+    """
+        name: .PEPEUSDTPI8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEUSDTPI8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEUSDTPI8H"
+
+    def __str__(self):
+        return ".PEPEUSDTPI8H"
+
+    def __call__(self):
+        return ".PEPEUSDTPI8H"
+
+
+_PEPEUSDTPI8H = _PEPEUSDTPI8H(*_PEPEUSDTPI8H._fields)
+"""
+    name: .PEPEUSDTPI8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEUSDPI(Symbol):
+    """
+        name: .PEPEUSDPI
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEUSDPI"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEUSDPI"
+
+    def __str__(self):
+        return ".PEPEUSDPI"
+
+    def __call__(self):
+        return ".PEPEUSDPI"
+
+
+_PEPEUSDPI = _PEPEUSDPI(*_PEPEUSDPI._fields)
+"""
+    name: .PEPEUSDPI
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _PEPEUSDPI8H(Symbol):
+    """
+        name: .PEPEUSDPI8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".PEPEUSDPI8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".PEPEUSDPI8H"
+
+    def __str__(self):
+        return ".PEPEUSDPI8H"
+
+    def __call__(self):
+        return ".PEPEUSDPI8H"
+
+
+_PEPEUSDPI8H = _PEPEUSDPI8H(*_PEPEUSDPI8H._fields)
+"""
+    name: .PEPEUSDPI8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BSUIT(Symbol):
+    """
+        name: .BSUIT
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BSUIT"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BSUIT"
+
+    def __str__(self):
+        return ".BSUIT"
+
+    def __call__(self):
+        return ".BSUIT"
+
+
+_BSUIT = _BSUIT(*_BSUIT._fields)
+"""
+    name: .BSUIT
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BSUIT_NEXT(Symbol):
+    """
+        name: .BSUIT_NEXT
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BSUIT_NEXT"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BSUIT_NEXT"
+
+    def __str__(self):
+        return ".BSUIT_NEXT"
+
+    def __call__(self):
+        return ".BSUIT_NEXT"
+
+
+_BSUIT_NEXT = _BSUIT_NEXT(*_BSUIT_NEXT._fields)
+"""
+    name: .BSUIT_NEXT
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BSUI(Symbol):
+    """
+        name: .BSUI
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BSUI"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BSUI"
+
+    def __str__(self):
+        return ".BSUI"
+
+    def __call__(self):
+        return ".BSUI"
+
+
+_BSUI = _BSUI(*_BSUI._fields)
+"""
+    name: .BSUI
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BSUI_NEXT(Symbol):
+    """
+        name: .BSUI_NEXT
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BSUI_NEXT"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BSUI_NEXT"
+
+    def __str__(self):
+        return ".BSUI_NEXT"
+
+    def __call__(self):
+        return ".BSUI_NEXT"
+
+
+_BSUI_NEXT = _BSUI_NEXT(*_BSUI_NEXT._fields)
+"""
+    name: .BSUI_NEXT
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BSUIT30M(Symbol):
+    """
+        name: .BSUIT30M
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BSUIT30M"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BSUIT30M"
+
+    def __str__(self):
+        return ".BSUIT30M"
+
+    def __call__(self):
+        return ".BSUIT30M"
+
+
+_BSUIT30M = _BSUIT30M(*_BSUIT30M._fields)
+"""
+    name: .BSUIT30M
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIUSDTPI(Symbol):
+    """
+        name: .SUIUSDTPI
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIUSDTPI"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIUSDTPI"
+
+    def __str__(self):
+        return ".SUIUSDTPI"
+
+    def __call__(self):
+        return ".SUIUSDTPI"
+
+
+_SUIUSDTPI = _SUIUSDTPI(*_SUIUSDTPI._fields)
+"""
+    name: .SUIUSDTPI
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIUSDTPI8H(Symbol):
+    """
+        name: .SUIUSDTPI8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIUSDTPI8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIUSDTPI8H"
+
+    def __str__(self):
+        return ".SUIUSDTPI8H"
+
+    def __call__(self):
+        return ".SUIUSDTPI8H"
+
+
+_SUIUSDTPI8H = _SUIUSDTPI8H(*_SUIUSDTPI8H._fields)
+"""
+    name: .SUIUSDTPI8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIUSDPI(Symbol):
+    """
+        name: .SUIUSDPI
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIUSDPI"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIUSDPI"
+
+    def __str__(self):
+        return ".SUIUSDPI"
+
+    def __call__(self):
+        return ".SUIUSDPI"
+
+
+_SUIUSDPI = _SUIUSDPI(*_SUIUSDPI._fields)
+"""
+    name: .SUIUSDPI
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIUSDPI8H(Symbol):
+    """
+        name: .SUIUSDPI8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIUSDPI8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIUSDPI8H"
+
+    def __str__(self):
+        return ".SUIUSDPI8H"
+
+    def __call__(self):
+        return ".SUIUSDPI8H"
+
+
+_SUIUSDPI8H = _SUIUSDPI8H(*_SUIUSDPI8H._fields)
+"""
+    name: .SUIUSDPI8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIBON(Symbol):
+    """
+        name: .SUIBON
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIBON"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIBON"
+
+    def __str__(self):
+        return ".SUIBON"
+
+    def __call__(self):
+        return ".SUIBON"
+
+
+_SUIBON = _SUIBON(*_SUIBON._fields)
+"""
+    name: .SUIBON
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _SUIBON8H(Symbol):
+    """
+        name: .SUIBON8H
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".SUIBON8H"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".SUIBON8H"
+
+    def __str__(self):
+        return ".SUIBON8H"
+
+    def __call__(self):
+        return ".SUIBON8H"
+
+
+_SUIBON8H = _SUIBON8H(*_SUIBON8H._fields)
+"""
+    name: .SUIBON8H
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BKLAYT30M(Symbol):
+    """
+        name: .BKLAYT30M
+        significant_digits: None
+        tick_size: 1e-06
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BKLAYT30M"
+    significant_digits: int = None
+    tick_size: int = 1e-06
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BKLAYT30M"
+
+    def __str__(self):
+        return ".BKLAYT30M"
+
+    def __call__(self):
+        return ".BKLAYT30M"
+
+
+_BKLAYT30M = _BKLAYT30M(*_BKLAYT30M._fields)
+"""
+    name: .BKLAYT30M
+    significant_digits: None
+    tick_size: 1e-06
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class _BCROT30M(Symbol):
+    """
+        name: .BCROT30M
+        significant_digits: None
+        tick_size: 0.0001
+        min_margin: None
+        initial_margin: None
+        min_order_size: None
+        max_order_size: None
+        has_margin: False
+        exchange: bitmex
+    """
+    name: str = ".BCROT30M"
+    significant_digits: int = None
+    tick_size: int = 0.0001
+    min_margin: float = None
+    initial_margin: float = None
+    min_order_size: float = None
+    max_order_size: float = None
+    has_margin: bool = False
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return ".BCROT30M"
+
+    def __str__(self):
+        return ".BCROT30M"
+
+    def __call__(self):
+        return ".BCROT30M"
+
+
+_BCROT30M = _BCROT30M(*_BCROT30M._fields)
+"""
+    name: .BCROT30M
+    significant_digits: None
+    tick_size: 0.0001
+    min_margin: None
+    initial_margin: None
+    min_order_size: None
+    max_order_size: None
+    has_margin: False
+    exchange: bitmex
+"""
+
+
+class ADAM23(Symbol):
     """
         name: ADAM23
         significant_digits: None
@@ -29679,7 +30875,7 @@ class ADAM23(NamedTuple):
         return "ADAM23"
 
 
-ADAM23 = ADAM23()
+ADAM23 = ADAM23(*ADAM23._fields)
 """
     name: ADAM23
     significant_digits: None
@@ -29693,7 +30889,7 @@ ADAM23 = ADAM23()
 """
 
 
-class XRPM23(NamedTuple):
+class XRPM23(Symbol):
     """
         name: XRPM23
         significant_digits: None
@@ -29731,7 +30927,7 @@ class XRPM23(NamedTuple):
         return "XRPM23"
 
 
-XRPM23 = XRPM23()
+XRPM23 = XRPM23(*XRPM23._fields)
 """
     name: XRPM23
     significant_digits: None
@@ -29745,7 +30941,7 @@ XRPM23 = XRPM23()
 """
 
 
-class ARBUSDTM23(NamedTuple):
+class ARBUSDTM23(Symbol):
     """
         name: ARBUSDTM23
         significant_digits: None
@@ -29783,7 +30979,7 @@ class ARBUSDTM23(NamedTuple):
         return "ARBUSDTM23"
 
 
-ARBUSDTM23 = ARBUSDTM23()
+ARBUSDTM23 = ARBUSDTM23(*ARBUSDTM23._fields)
 """
     name: ARBUSDTM23
     significant_digits: None
@@ -29797,7 +30993,7 @@ ARBUSDTM23 = ARBUSDTM23()
 """
 
 
-class KLAYUSD(NamedTuple):
+class KLAYUSD(Symbol):
     """
         name: KLAYUSD
         significant_digits: None
@@ -29835,7 +31031,7 @@ class KLAYUSD(NamedTuple):
         return "KLAYUSD"
 
 
-KLAYUSD = KLAYUSD()
+KLAYUSD = KLAYUSD(*KLAYUSD._fields)
 """
     name: KLAYUSD
     significant_digits: None
@@ -29849,7 +31045,7 @@ KLAYUSD = KLAYUSD()
 """
 
 
-class KLAYUSDT(NamedTuple):
+class KLAYUSDT(Symbol):
     """
         name: KLAYUSDT
         significant_digits: None
@@ -29887,7 +31083,7 @@ class KLAYUSDT(NamedTuple):
         return "KLAYUSDT"
 
 
-KLAYUSDT = KLAYUSDT()
+KLAYUSDT = KLAYUSDT(*KLAYUSDT._fields)
 """
     name: KLAYUSDT
     significant_digits: None
@@ -29901,7 +31097,7 @@ KLAYUSDT = KLAYUSDT()
 """
 
 
-class XRPUSD(NamedTuple):
+class XRPUSD(Symbol):
     """
         name: XRPUSD
         significant_digits: None
@@ -29939,7 +31135,7 @@ class XRPUSD(NamedTuple):
         return "XRPUSD"
 
 
-XRPUSD = XRPUSD()
+XRPUSD = XRPUSD(*XRPUSD._fields)
 """
     name: XRPUSD
     significant_digits: None
@@ -29953,7 +31149,7 @@ XRPUSD = XRPUSD()
 """
 
 
-class BCHUSD(NamedTuple):
+class BCHUSD(Symbol):
     """
         name: BCHUSD
         significant_digits: None
@@ -29991,7 +31187,7 @@ class BCHUSD(NamedTuple):
         return "BCHUSD"
 
 
-BCHUSD = BCHUSD()
+BCHUSD = BCHUSD(*BCHUSD._fields)
 """
     name: BCHUSD
     significant_digits: None
@@ -30005,7 +31201,7 @@ BCHUSD = BCHUSD()
 """
 
 
-class DOGEUSD(NamedTuple):
+class DOGEUSD(Symbol):
     """
         name: DOGEUSD
         significant_digits: None
@@ -30043,7 +31239,7 @@ class DOGEUSD(NamedTuple):
         return "DOGEUSD"
 
 
-DOGEUSD = DOGEUSD()
+DOGEUSD = DOGEUSD(*DOGEUSD._fields)
 """
     name: DOGEUSD
     significant_digits: None
@@ -30057,7 +31253,7 @@ DOGEUSD = DOGEUSD()
 """
 
 
-class BNBUSD(NamedTuple):
+class BNBUSD(Symbol):
     """
         name: BNBUSD
         significant_digits: None
@@ -30095,7 +31291,7 @@ class BNBUSD(NamedTuple):
         return "BNBUSD"
 
 
-BNBUSD = BNBUSD()
+BNBUSD = BNBUSD(*BNBUSD._fields)
 """
     name: BNBUSD
     significant_digits: None
@@ -30109,7 +31305,7 @@ BNBUSD = BNBUSD()
 """
 
 
-class LINKUSD(NamedTuple):
+class LINKUSD(Symbol):
     """
         name: LINKUSD
         significant_digits: None
@@ -30147,7 +31343,7 @@ class LINKUSD(NamedTuple):
         return "LINKUSD"
 
 
-LINKUSD = LINKUSD()
+LINKUSD = LINKUSD(*LINKUSD._fields)
 """
     name: LINKUSD
     significant_digits: None
@@ -30161,7 +31357,7 @@ LINKUSD = LINKUSD()
 """
 
 
-class SOLUSD(NamedTuple):
+class SOLUSD(Symbol):
     """
         name: SOLUSD
         significant_digits: None
@@ -30199,7 +31395,7 @@ class SOLUSD(NamedTuple):
         return "SOLUSD"
 
 
-SOLUSD = SOLUSD()
+SOLUSD = SOLUSD(*SOLUSD._fields)
 """
     name: SOLUSD
     significant_digits: None
@@ -30213,7 +31409,7 @@ SOLUSD = SOLUSD()
 """
 
 
-class APTUSD(NamedTuple):
+class APTUSD(Symbol):
     """
         name: APTUSD
         significant_digits: None
@@ -30251,7 +31447,7 @@ class APTUSD(NamedTuple):
         return "APTUSD"
 
 
-APTUSD = APTUSD()
+APTUSD = APTUSD(*APTUSD._fields)
 """
     name: APTUSD
     significant_digits: None
@@ -30265,7 +31461,7 @@ APTUSD = APTUSD()
 """
 
 
-class BMEXUSD(NamedTuple):
+class BMEXUSD(Symbol):
     """
         name: BMEXUSD
         significant_digits: None
@@ -30303,7 +31499,7 @@ class BMEXUSD(NamedTuple):
         return "BMEXUSD"
 
 
-BMEXUSD = BMEXUSD()
+BMEXUSD = BMEXUSD(*BMEXUSD._fields)
 """
     name: BMEXUSD
     significant_digits: None
@@ -30317,7 +31513,7 @@ BMEXUSD = BMEXUSD()
 """
 
 
-class CROUSD(NamedTuple):
+class CROUSD(Symbol):
     """
         name: CROUSD
         significant_digits: None
@@ -30355,7 +31551,7 @@ class CROUSD(NamedTuple):
         return "CROUSD"
 
 
-CROUSD = CROUSD()
+CROUSD = CROUSD(*CROUSD._fields)
 """
     name: CROUSD
     significant_digits: None
@@ -30369,7 +31565,7 @@ CROUSD = CROUSD()
 """
 
 
-class FLRUSD(NamedTuple):
+class FLRUSD(Symbol):
     """
         name: FLRUSD
         significant_digits: None
@@ -30407,7 +31603,7 @@ class FLRUSD(NamedTuple):
         return "FLRUSD"
 
 
-FLRUSD = FLRUSD()
+FLRUSD = FLRUSD(*FLRUSD._fields)
 """
     name: FLRUSD
     significant_digits: None
@@ -30421,7 +31617,7 @@ FLRUSD = FLRUSD()
 """
 
 
-class BLURUSD(NamedTuple):
+class BLURUSD(Symbol):
     """
         name: BLURUSD
         significant_digits: None
@@ -30459,7 +31655,7 @@ class BLURUSD(NamedTuple):
         return "BLURUSD"
 
 
-BLURUSD = BLURUSD()
+BLURUSD = BLURUSD(*BLURUSD._fields)
 """
     name: BLURUSD
     significant_digits: None
@@ -30473,7 +31669,7 @@ BLURUSD = BLURUSD()
 """
 
 
-class GMXUSD(NamedTuple):
+class GMXUSD(Symbol):
     """
         name: GMXUSD
         significant_digits: None
@@ -30511,7 +31707,7 @@ class GMXUSD(NamedTuple):
         return "GMXUSD"
 
 
-GMXUSD = GMXUSD()
+GMXUSD = GMXUSD(*GMXUSD._fields)
 """
     name: GMXUSD
     significant_digits: None
@@ -30525,7 +31721,7 @@ GMXUSD = GMXUSD()
 """
 
 
-class ARBUSD(NamedTuple):
+class ARBUSD(Symbol):
     """
         name: ARBUSD
         significant_digits: None
@@ -30563,7 +31759,7 @@ class ARBUSD(NamedTuple):
         return "ARBUSD"
 
 
-ARBUSD = ARBUSD()
+ARBUSD = ARBUSD(*ARBUSD._fields)
 """
     name: ARBUSD
     significant_digits: None
@@ -30577,7 +31773,163 @@ ARBUSD = ARBUSD()
 """
 
 
-class DOGEUSDT(NamedTuple):
+class PEPEUSDT(Symbol):
+    """
+        name: PEPEUSDT
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 10000
+        max_order_size: 100000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "PEPEUSDT"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 10000
+    max_order_size: float = 100000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PEPEUSDT"
+
+    def __str__(self):
+        return "PEPEUSDT"
+
+    def __call__(self):
+        return "PEPEUSDT"
+
+
+PEPEUSDT = PEPEUSDT(*PEPEUSDT._fields)
+"""
+    name: PEPEUSDT
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 10000
+    max_order_size: 100000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class PEPEUSD(Symbol):
+    """
+        name: PEPEUSD
+        significant_digits: None
+        tick_size: 1e-09
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "PEPEUSD"
+    significant_digits: int = None
+    tick_size: int = 1e-09
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "PEPEUSD"
+
+    def __str__(self):
+        return "PEPEUSD"
+
+    def __call__(self):
+        return "PEPEUSD"
+
+
+PEPEUSD = PEPEUSD(*PEPEUSD._fields)
+"""
+    name: PEPEUSD
+    significant_digits: None
+    tick_size: 1e-09
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class SUIUSD(Symbol):
+    """
+        name: SUIUSD
+        significant_digits: None
+        tick_size: 0.001
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 500000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "SUIUSD"
+    significant_digits: int = None
+    tick_size: int = 0.001
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 500000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUIUSD"
+
+    def __str__(self):
+        return "SUIUSD"
+
+    def __call__(self):
+        return "SUIUSD"
+
+
+SUIUSD = SUIUSD(*SUIUSD._fields)
+"""
+    name: SUIUSD
+    significant_digits: None
+    tick_size: 0.001
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 500000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class DOGEUSDT(Symbol):
     """
         name: DOGEUSDT
         significant_digits: None
@@ -30615,7 +31967,7 @@ class DOGEUSDT(NamedTuple):
         return "DOGEUSDT"
 
 
-DOGEUSDT = DOGEUSDT()
+DOGEUSDT = DOGEUSDT(*DOGEUSDT._fields)
 """
     name: DOGEUSDT
     significant_digits: None
@@ -30629,7 +31981,7 @@ DOGEUSDT = DOGEUSDT()
 """
 
 
-class DOTUSDT(NamedTuple):
+class DOTUSDT(Symbol):
     """
         name: DOTUSDT
         significant_digits: None
@@ -30667,7 +32019,7 @@ class DOTUSDT(NamedTuple):
         return "DOTUSDT"
 
 
-DOTUSDT = DOTUSDT()
+DOTUSDT = DOTUSDT(*DOTUSDT._fields)
 """
     name: DOTUSDT
     significant_digits: None
@@ -30681,7 +32033,7 @@ DOTUSDT = DOTUSDT()
 """
 
 
-class ADAUSDT(NamedTuple):
+class ADAUSDT(Symbol):
     """
         name: ADAUSDT
         significant_digits: None
@@ -30719,7 +32071,7 @@ class ADAUSDT(NamedTuple):
         return "ADAUSDT"
 
 
-ADAUSDT = ADAUSDT()
+ADAUSDT = ADAUSDT(*ADAUSDT._fields)
 """
     name: ADAUSDT
     significant_digits: None
@@ -30733,7 +32085,7 @@ ADAUSDT = ADAUSDT()
 """
 
 
-class BNBUSDT(NamedTuple):
+class BNBUSDT(Symbol):
     """
         name: BNBUSDT
         significant_digits: None
@@ -30771,7 +32123,7 @@ class BNBUSDT(NamedTuple):
         return "BNBUSDT"
 
 
-BNBUSDT = BNBUSDT()
+BNBUSDT = BNBUSDT(*BNBUSDT._fields)
 """
     name: BNBUSDT
     significant_digits: None
@@ -30785,7 +32137,7 @@ BNBUSDT = BNBUSDT()
 """
 
 
-class SOLUSDT(NamedTuple):
+class SOLUSDT(Symbol):
     """
         name: SOLUSDT
         significant_digits: None
@@ -30823,7 +32175,7 @@ class SOLUSDT(NamedTuple):
         return "SOLUSDT"
 
 
-SOLUSDT = SOLUSDT()
+SOLUSDT = SOLUSDT(*SOLUSDT._fields)
 """
     name: SOLUSDT
     significant_digits: None
@@ -30837,7 +32189,7 @@ SOLUSDT = SOLUSDT()
 """
 
 
-class ADAUSD(NamedTuple):
+class ADAUSD(Symbol):
     """
         name: ADAUSD
         significant_digits: None
@@ -30875,7 +32227,7 @@ class ADAUSD(NamedTuple):
         return "ADAUSD"
 
 
-ADAUSD = ADAUSD()
+ADAUSD = ADAUSD(*ADAUSD._fields)
 """
     name: ADAUSD
     significant_digits: None
@@ -30889,7 +32241,7 @@ ADAUSD = ADAUSD()
 """
 
 
-class EOSUSD(NamedTuple):
+class EOSUSD(Symbol):
     """
         name: EOSUSD
         significant_digits: None
@@ -30927,7 +32279,7 @@ class EOSUSD(NamedTuple):
         return "EOSUSD"
 
 
-EOSUSD = EOSUSD()
+EOSUSD = EOSUSD(*EOSUSD._fields)
 """
     name: EOSUSD
     significant_digits: None
@@ -30941,7 +32293,7 @@ EOSUSD = EOSUSD()
 """
 
 
-class XRPUSDT(NamedTuple):
+class XRPUSDT(Symbol):
     """
         name: XRPUSDT
         significant_digits: None
@@ -30979,7 +32331,7 @@ class XRPUSDT(NamedTuple):
         return "XRPUSDT"
 
 
-XRPUSDT = XRPUSDT()
+XRPUSDT = XRPUSDT(*XRPUSDT._fields)
 """
     name: XRPUSDT
     significant_digits: None
@@ -30993,7 +32345,7 @@ XRPUSDT = XRPUSDT()
 """
 
 
-class BCHUSDT(NamedTuple):
+class BCHUSDT(Symbol):
     """
         name: BCHUSDT
         significant_digits: None
@@ -31031,7 +32383,7 @@ class BCHUSDT(NamedTuple):
         return "BCHUSDT"
 
 
-BCHUSDT = BCHUSDT()
+BCHUSDT = BCHUSDT(*BCHUSDT._fields)
 """
     name: BCHUSDT
     significant_digits: None
@@ -31045,7 +32397,7 @@ BCHUSDT = BCHUSDT()
 """
 
 
-class APEUSDT(NamedTuple):
+class APEUSDT(Symbol):
     """
         name: APEUSDT
         significant_digits: None
@@ -31083,7 +32435,7 @@ class APEUSDT(NamedTuple):
         return "APEUSDT"
 
 
-APEUSDT = APEUSDT()
+APEUSDT = APEUSDT(*APEUSDT._fields)
 """
     name: APEUSDT
     significant_digits: None
@@ -31097,7 +32449,7 @@ APEUSDT = APEUSDT()
 """
 
 
-class GMTUSDT(NamedTuple):
+class GMTUSDT(Symbol):
     """
         name: GMTUSDT
         significant_digits: None
@@ -31135,7 +32487,7 @@ class GMTUSDT(NamedTuple):
         return "GMTUSDT"
 
 
-GMTUSDT = GMTUSDT()
+GMTUSDT = GMTUSDT(*GMTUSDT._fields)
 """
     name: GMTUSDT
     significant_digits: None
@@ -31149,7 +32501,7 @@ GMTUSDT = GMTUSDT()
 """
 
 
-class GMTUSD(NamedTuple):
+class GMTUSD(Symbol):
     """
         name: GMTUSD
         significant_digits: None
@@ -31187,7 +32539,7 @@ class GMTUSD(NamedTuple):
         return "GMTUSD"
 
 
-GMTUSD = GMTUSD()
+GMTUSD = GMTUSD(*GMTUSD._fields)
 """
     name: GMTUSD
     significant_digits: None
@@ -31201,7 +32553,7 @@ GMTUSD = GMTUSD()
 """
 
 
-class NEARUSD(NamedTuple):
+class NEARUSD(Symbol):
     """
         name: NEARUSD
         significant_digits: None
@@ -31239,7 +32591,7 @@ class NEARUSD(NamedTuple):
         return "NEARUSD"
 
 
-NEARUSD = NEARUSD()
+NEARUSD = NEARUSD(*NEARUSD._fields)
 """
     name: NEARUSD
     significant_digits: None
@@ -31253,7 +32605,7 @@ NEARUSD = NEARUSD()
 """
 
 
-class APTUSDT(NamedTuple):
+class APTUSDT(Symbol):
     """
         name: APTUSDT
         significant_digits: None
@@ -31291,7 +32643,7 @@ class APTUSDT(NamedTuple):
         return "APTUSDT"
 
 
-APTUSDT = APTUSDT()
+APTUSDT = APTUSDT(*APTUSDT._fields)
 """
     name: APTUSDT
     significant_digits: None
@@ -31305,7 +32657,7 @@ APTUSDT = APTUSDT()
 """
 
 
-class BMEXUSDT(NamedTuple):
+class BMEXUSDT(Symbol):
     """
         name: BMEXUSDT
         significant_digits: None
@@ -31343,7 +32695,7 @@ class BMEXUSDT(NamedTuple):
         return "BMEXUSDT"
 
 
-BMEXUSDT = BMEXUSDT()
+BMEXUSDT = BMEXUSDT(*BMEXUSDT._fields)
 """
     name: BMEXUSDT
     significant_digits: None
@@ -31357,7 +32709,7 @@ BMEXUSDT = BMEXUSDT()
 """
 
 
-class CROUSDT(NamedTuple):
+class CROUSDT(Symbol):
     """
         name: CROUSDT
         significant_digits: None
@@ -31395,7 +32747,7 @@ class CROUSDT(NamedTuple):
         return "CROUSDT"
 
 
-CROUSDT = CROUSDT()
+CROUSDT = CROUSDT(*CROUSDT._fields)
 """
     name: CROUSDT
     significant_digits: None
@@ -31409,7 +32761,7 @@ CROUSDT = CROUSDT()
 """
 
 
-class FLRUSDT(NamedTuple):
+class FLRUSDT(Symbol):
     """
         name: FLRUSDT
         significant_digits: None
@@ -31447,7 +32799,7 @@ class FLRUSDT(NamedTuple):
         return "FLRUSDT"
 
 
-FLRUSDT = FLRUSDT()
+FLRUSDT = FLRUSDT(*FLRUSDT._fields)
 """
     name: FLRUSDT
     significant_digits: None
@@ -31461,7 +32813,7 @@ FLRUSDT = FLRUSDT()
 """
 
 
-class BLURUSDT(NamedTuple):
+class BLURUSDT(Symbol):
     """
         name: BLURUSDT
         significant_digits: None
@@ -31499,7 +32851,7 @@ class BLURUSDT(NamedTuple):
         return "BLURUSDT"
 
 
-BLURUSDT = BLURUSDT()
+BLURUSDT = BLURUSDT(*BLURUSDT._fields)
 """
     name: BLURUSDT
     significant_digits: None
@@ -31513,7 +32865,7 @@ BLURUSDT = BLURUSDT()
 """
 
 
-class GMXUSDT(NamedTuple):
+class GMXUSDT(Symbol):
     """
         name: GMXUSDT
         significant_digits: None
@@ -31551,7 +32903,7 @@ class GMXUSDT(NamedTuple):
         return "GMXUSDT"
 
 
-GMXUSDT = GMXUSDT()
+GMXUSDT = GMXUSDT(*GMXUSDT._fields)
 """
     name: GMXUSDT
     significant_digits: None
@@ -31565,7 +32917,7 @@ GMXUSDT = GMXUSDT()
 """
 
 
-class ARBUSDT(NamedTuple):
+class ARBUSDT(Symbol):
     """
         name: ARBUSDT
         significant_digits: None
@@ -31603,7 +32955,7 @@ class ARBUSDT(NamedTuple):
         return "ARBUSDT"
 
 
-ARBUSDT = ARBUSDT()
+ARBUSDT = ARBUSDT(*ARBUSDT._fields)
 """
     name: ARBUSDT
     significant_digits: None
@@ -31617,7 +32969,59 @@ ARBUSDT = ARBUSDT()
 """
 
 
-class LUNAUSD(NamedTuple):
+class SUIUSDT(Symbol):
+    """
+        name: SUIUSDT
+        significant_digits: None
+        tick_size: 0.001
+        min_margin: None
+        initial_margin: 0.03
+        min_order_size: 100
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "SUIUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.001
+    min_margin: float = None
+    initial_margin: float = 0.03
+    min_order_size: float = 100
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "SUIUSDT"
+
+    def __str__(self):
+        return "SUIUSDT"
+
+    def __call__(self):
+        return "SUIUSDT"
+
+
+SUIUSDT = SUIUSDT(*SUIUSDT._fields)
+"""
+    name: SUIUSDT
+    significant_digits: None
+    tick_size: 0.001
+    min_margin: None
+    initial_margin: 0.03
+    min_order_size: 100
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class LUNAUSD(Symbol):
     """
         name: LUNAUSD
         significant_digits: None
@@ -31655,7 +33059,7 @@ class LUNAUSD(NamedTuple):
         return "LUNAUSD"
 
 
-LUNAUSD = LUNAUSD()
+LUNAUSD = LUNAUSD(*LUNAUSD._fields)
 """
     name: LUNAUSD
     significant_digits: None
@@ -31669,7 +33073,7 @@ LUNAUSD = LUNAUSD()
 """
 
 
-class DOTUSD(NamedTuple):
+class DOTUSD(Symbol):
     """
         name: DOTUSD
         significant_digits: None
@@ -31707,7 +33111,7 @@ class DOTUSD(NamedTuple):
         return "DOTUSD"
 
 
-DOTUSD = DOTUSD()
+DOTUSD = DOTUSD(*DOTUSD._fields)
 """
     name: DOTUSD
     significant_digits: None
@@ -31721,7 +33125,7 @@ DOTUSD = DOTUSD()
 """
 
 
-class MATICUSDT(NamedTuple):
+class MATICUSDT(Symbol):
     """
         name: MATICUSDT
         significant_digits: None
@@ -31759,7 +33163,7 @@ class MATICUSDT(NamedTuple):
         return "MATICUSDT"
 
 
-MATICUSDT = MATICUSDT()
+MATICUSDT = MATICUSDT(*MATICUSDT._fields)
 """
     name: MATICUSDT
     significant_digits: None
@@ -31773,7 +33177,7 @@ MATICUSDT = MATICUSDT()
 """
 
 
-class AVAXUSD(NamedTuple):
+class AVAXUSD(Symbol):
     """
         name: AVAXUSD
         significant_digits: None
@@ -31811,7 +33215,7 @@ class AVAXUSD(NamedTuple):
         return "AVAXUSD"
 
 
-AVAXUSD = AVAXUSD()
+AVAXUSD = AVAXUSD(*AVAXUSD._fields)
 """
     name: AVAXUSD
     significant_digits: None
@@ -31825,7 +33229,7 @@ AVAXUSD = AVAXUSD()
 """
 
 
-class AXSUSD(NamedTuple):
+class AXSUSD(Symbol):
     """
         name: AXSUSD
         significant_digits: None
@@ -31863,7 +33267,7 @@ class AXSUSD(NamedTuple):
         return "AXSUSD"
 
 
-AXSUSD = AXSUSD()
+AXSUSD = AXSUSD(*AXSUSD._fields)
 """
     name: AXSUSD
     significant_digits: None
@@ -31877,7 +33281,7 @@ AXSUSD = AXSUSD()
 """
 
 
-class AVAXUSDT(NamedTuple):
+class AVAXUSDT(Symbol):
     """
         name: AVAXUSDT
         significant_digits: None
@@ -31915,7 +33319,7 @@ class AVAXUSDT(NamedTuple):
         return "AVAXUSDT"
 
 
-AVAXUSDT = AVAXUSDT()
+AVAXUSDT = AVAXUSDT(*AVAXUSDT._fields)
 """
     name: AVAXUSDT
     significant_digits: None
@@ -31929,7 +33333,7 @@ AVAXUSDT = AVAXUSDT()
 """
 
 
-class LUNAUSDT(NamedTuple):
+class LUNAUSDT(Symbol):
     """
         name: LUNAUSDT
         significant_digits: None
@@ -31967,7 +33371,7 @@ class LUNAUSDT(NamedTuple):
         return "LUNAUSDT"
 
 
-LUNAUSDT = LUNAUSDT()
+LUNAUSDT = LUNAUSDT(*LUNAUSDT._fields)
 """
     name: LUNAUSDT
     significant_digits: None
@@ -31981,7 +33385,7 @@ LUNAUSDT = LUNAUSDT()
 """
 
 
-class USDTUSDC(NamedTuple):
+class USDTUSDC(Symbol):
     """
         name: USDTUSDC
         significant_digits: None
@@ -32019,7 +33423,7 @@ class USDTUSDC(NamedTuple):
         return "USDTUSDC"
 
 
-USDTUSDC = USDTUSDC()
+USDTUSDC = USDTUSDC(*USDTUSDC._fields)
 """
     name: USDTUSDC
     significant_digits: None
@@ -32033,7 +33437,7 @@ USDTUSDC = USDTUSDC()
 """
 
 
-class UNI_USDT(NamedTuple):
+class UNI_USDT(Symbol):
     """
         name: UNI_USDT
         significant_digits: None
@@ -32071,7 +33475,7 @@ class UNI_USDT(NamedTuple):
         return "UNI_USDT"
 
 
-UNI_USDT = UNI_USDT()
+UNI_USDT = UNI_USDT(*UNI_USDT._fields)
 """
     name: UNI_USDT
     significant_digits: None
@@ -32085,7 +33489,7 @@ UNI_USDT = UNI_USDT()
 """
 
 
-class LINK_USDT(NamedTuple):
+class LINK_USDT(Symbol):
     """
         name: LINK_USDT
         significant_digits: None
@@ -32123,7 +33527,7 @@ class LINK_USDT(NamedTuple):
         return "LINK_USDT"
 
 
-LINK_USDT = LINK_USDT()
+LINK_USDT = LINK_USDT(*LINK_USDT._fields)
 """
     name: LINK_USDT
     significant_digits: None
@@ -32137,7 +33541,7 @@ LINK_USDT = LINK_USDT()
 """
 
 
-class MATIC_USDT(NamedTuple):
+class MATIC_USDT(Symbol):
     """
         name: MATIC_USDT
         significant_digits: None
@@ -32175,7 +33579,7 @@ class MATIC_USDT(NamedTuple):
         return "MATIC_USDT"
 
 
-MATIC_USDT = MATIC_USDT()
+MATIC_USDT = MATIC_USDT(*MATIC_USDT._fields)
 """
     name: MATIC_USDT
     significant_digits: None
@@ -32189,7 +33593,7 @@ MATIC_USDT = MATIC_USDT()
 """
 
 
-class AXS_USDT(NamedTuple):
+class AXS_USDT(Symbol):
     """
         name: AXS_USDT
         significant_digits: None
@@ -32227,7 +33631,7 @@ class AXS_USDT(NamedTuple):
         return "AXS_USDT"
 
 
-AXS_USDT = AXS_USDT()
+AXS_USDT = AXS_USDT(*AXS_USDT._fields)
 """
     name: AXS_USDT
     significant_digits: None
@@ -32241,7 +33645,7 @@ AXS_USDT = AXS_USDT()
 """
 
 
-class APE_USDT(NamedTuple):
+class APE_USDT(Symbol):
     """
         name: APE_USDT
         significant_digits: None
@@ -32279,7 +33683,7 @@ class APE_USDT(NamedTuple):
         return "APE_USDT"
 
 
-APE_USDT = APE_USDT()
+APE_USDT = APE_USDT(*APE_USDT._fields)
 """
     name: APE_USDT
     significant_digits: None
@@ -32293,7 +33697,7 @@ APE_USDT = APE_USDT()
 """
 
 
-class TRX_USDT(NamedTuple):
+class TRX_USDT(Symbol):
     """
         name: TRX_USDT
         significant_digits: None
@@ -32331,7 +33735,7 @@ class TRX_USDT(NamedTuple):
         return "TRX_USDT"
 
 
-TRX_USDT = TRX_USDT()
+TRX_USDT = TRX_USDT(*TRX_USDT._fields)
 """
     name: TRX_USDT
     significant_digits: None
@@ -32345,7 +33749,7 @@ TRX_USDT = TRX_USDT()
 """
 
 
-class SOL_USDT(NamedTuple):
+class SOL_USDT(Symbol):
     """
         name: SOL_USDT
         significant_digits: None
@@ -32383,7 +33787,7 @@ class SOL_USDT(NamedTuple):
         return "SOL_USDT"
 
 
-SOL_USDT = SOL_USDT()
+SOL_USDT = SOL_USDT(*SOL_USDT._fields)
 """
     name: SOL_USDT
     significant_digits: None
@@ -32397,7 +33801,7 @@ SOL_USDT = SOL_USDT()
 """
 
 
-class BMEX_USDT(NamedTuple):
+class BMEX_USDT(Symbol):
     """
         name: BMEX_USDT
         significant_digits: None
@@ -32435,7 +33839,7 @@ class BMEX_USDT(NamedTuple):
         return "BMEX_USDT"
 
 
-BMEX_USDT = BMEX_USDT()
+BMEX_USDT = BMEX_USDT(*BMEX_USDT._fields)
 """
     name: BMEX_USDT
     significant_digits: None
@@ -32449,7 +33853,7 @@ BMEX_USDT = BMEX_USDT()
 """
 
 
-class _XBT(NamedTuple):
+class _XBT(Symbol):
     """
         name: .XBT
         significant_digits: None
@@ -32487,7 +33891,7 @@ class _XBT(NamedTuple):
         return ".XBT"
 
 
-_XBT = _XBT()
+_XBT = _XBT(*_XBT._fields)
 """
     name: .XBT
     significant_digits: None
@@ -32501,7 +33905,7 @@ _XBT = _XBT()
 """
 
 
-class _XBT30M(NamedTuple):
+class _XBT30M(Symbol):
     """
         name: .XBT30M
         significant_digits: None
@@ -32539,7 +33943,7 @@ class _XBT30M(NamedTuple):
         return ".XBT30M"
 
 
-_XBT30M = _XBT30M()
+_XBT30M = _XBT30M(*_XBT30M._fields)
 """
     name: .XBT30M
     significant_digits: None
@@ -32553,7 +33957,7 @@ _XBT30M = _XBT30M()
 """
 
 
-class _XBTBON(NamedTuple):
+class _XBTBON(Symbol):
     """
         name: .XBTBON
         significant_digits: None
@@ -32591,7 +33995,7 @@ class _XBTBON(NamedTuple):
         return ".XBTBON"
 
 
-_XBTBON = _XBTBON()
+_XBTBON = _XBTBON(*_XBTBON._fields)
 """
     name: .XBTBON
     significant_digits: None
@@ -32605,7 +34009,7 @@ _XBTBON = _XBTBON()
 """
 
 
-class _XBTBON8H(NamedTuple):
+class _XBTBON8H(Symbol):
     """
         name: .XBTBON8H
         significant_digits: None
@@ -32643,7 +34047,7 @@ class _XBTBON8H(NamedTuple):
         return ".XBTBON8H"
 
 
-_XBTBON8H = _XBTBON8H()
+_XBTBON8H = _XBTBON8H(*_XBTBON8H._fields)
 """
     name: .XBTBON8H
     significant_digits: None
@@ -32657,7 +34061,7 @@ _XBTBON8H = _XBTBON8H()
 """
 
 
-class _XBTUSDPI(NamedTuple):
+class _XBTUSDPI(Symbol):
     """
         name: .XBTUSDPI
         significant_digits: None
@@ -32695,7 +34099,7 @@ class _XBTUSDPI(NamedTuple):
         return ".XBTUSDPI"
 
 
-_XBTUSDPI = _XBTUSDPI()
+_XBTUSDPI = _XBTUSDPI(*_XBTUSDPI._fields)
 """
     name: .XBTUSDPI
     significant_digits: None
@@ -32709,7 +34113,7 @@ _XBTUSDPI = _XBTUSDPI()
 """
 
 
-class _XBTUSDPI8H(NamedTuple):
+class _XBTUSDPI8H(Symbol):
     """
         name: .XBTUSDPI8H
         significant_digits: None
@@ -32747,7 +34151,7 @@ class _XBTUSDPI8H(NamedTuple):
         return ".XBTUSDPI8H"
 
 
-_XBTUSDPI8H = _XBTUSDPI8H()
+_XBTUSDPI8H = _XBTUSDPI8H(*_XBTUSDPI8H._fields)
 """
     name: .XBTUSDPI8H
     significant_digits: None
@@ -32761,7 +34165,7 @@ _XBTUSDPI8H = _XBTUSDPI8H()
 """
 
 
-class _BXBT(NamedTuple):
+class _BXBT(Symbol):
     """
         name: .BXBT
         significant_digits: None
@@ -32799,7 +34203,7 @@ class _BXBT(NamedTuple):
         return ".BXBT"
 
 
-_BXBT = _BXBT()
+_BXBT = _BXBT(*_BXBT._fields)
 """
     name: .BXBT
     significant_digits: None
@@ -32813,7 +34217,7 @@ _BXBT = _BXBT()
 """
 
 
-class _BXBT30M(NamedTuple):
+class _BXBT30M(Symbol):
     """
         name: .BXBT30M
         significant_digits: None
@@ -32851,7 +34255,7 @@ class _BXBT30M(NamedTuple):
         return ".BXBT30M"
 
 
-_BXBT30M = _BXBT30M()
+_BXBT30M = _BXBT30M(*_BXBT30M._fields)
 """
     name: .BXBT30M
     significant_digits: None
@@ -32865,7 +34269,7 @@ _BXBT30M = _BXBT30M()
 """
 
 
-class _BXBT_NEXT(NamedTuple):
+class _BXBT_NEXT(Symbol):
     """
         name: .BXBT_NEXT
         significant_digits: None
@@ -32903,7 +34307,7 @@ class _BXBT_NEXT(NamedTuple):
         return ".BXBT_NEXT"
 
 
-_BXBT_NEXT = _BXBT_NEXT()
+_BXBT_NEXT = _BXBT_NEXT(*_BXBT_NEXT._fields)
 """
     name: .BXBT_NEXT
     significant_digits: None
@@ -32917,7 +34321,7 @@ _BXBT_NEXT = _BXBT_NEXT()
 """
 
 
-class _BXBTEUR(NamedTuple):
+class _BXBTEUR(Symbol):
     """
         name: .BXBTEUR
         significant_digits: None
@@ -32955,7 +34359,7 @@ class _BXBTEUR(NamedTuple):
         return ".BXBTEUR"
 
 
-_BXBTEUR = _BXBTEUR()
+_BXBTEUR = _BXBTEUR(*_BXBTEUR._fields)
 """
     name: .BXBTEUR
     significant_digits: None
@@ -32969,7 +34373,7 @@ _BXBTEUR = _BXBTEUR()
 """
 
 
-class _BXBTEUR_NEXT(NamedTuple):
+class _BXBTEUR_NEXT(Symbol):
     """
         name: .BXBTEUR_NEXT
         significant_digits: None
@@ -33007,7 +34411,7 @@ class _BXBTEUR_NEXT(NamedTuple):
         return ".BXBTEUR_NEXT"
 
 
-_BXBTEUR_NEXT = _BXBTEUR_NEXT()
+_BXBTEUR_NEXT = _BXBTEUR_NEXT(*_BXBTEUR_NEXT._fields)
 """
     name: .BXBTEUR_NEXT
     significant_digits: None
@@ -33021,7 +34425,7 @@ _BXBTEUR_NEXT = _BXBTEUR_NEXT()
 """
 
 
-class _XBTEURPI(NamedTuple):
+class _XBTEURPI(Symbol):
     """
         name: .XBTEURPI
         significant_digits: None
@@ -33059,7 +34463,7 @@ class _XBTEURPI(NamedTuple):
         return ".XBTEURPI"
 
 
-_XBTEURPI = _XBTEURPI()
+_XBTEURPI = _XBTEURPI(*_XBTEURPI._fields)
 """
     name: .XBTEURPI
     significant_digits: None
@@ -33073,7 +34477,7 @@ _XBTEURPI = _XBTEURPI()
 """
 
 
-class _XBTEURPI8H(NamedTuple):
+class _XBTEURPI8H(Symbol):
     """
         name: .XBTEURPI8H
         significant_digits: None
@@ -33111,7 +34515,7 @@ class _XBTEURPI8H(NamedTuple):
         return ".XBTEURPI8H"
 
 
-_XBTEURPI8H = _XBTEURPI8H()
+_XBTEURPI8H = _XBTEURPI8H(*_XBTEURPI8H._fields)
 """
     name: .XBTEURPI8H
     significant_digits: None
@@ -33125,7 +34529,7 @@ _XBTEURPI8H = _XBTEURPI8H()
 """
 
 
-class _BXBTEUR30M(NamedTuple):
+class _BXBTEUR30M(Symbol):
     """
         name: .BXBTEUR30M
         significant_digits: None
@@ -33163,7 +34567,7 @@ class _BXBTEUR30M(NamedTuple):
         return ".BXBTEUR30M"
 
 
-_BXBTEUR30M = _BXBTEUR30M()
+_BXBTEUR30M = _BXBTEUR30M(*_BXBTEUR30M._fields)
 """
     name: .BXBTEUR30M
     significant_digits: None
@@ -33177,7 +34581,7 @@ _BXBTEUR30M = _BXBTEUR30M()
 """
 
 
-class _BXBTT(NamedTuple):
+class _BXBTT(Symbol):
     """
         name: .BXBTT
         significant_digits: None
@@ -33215,7 +34619,7 @@ class _BXBTT(NamedTuple):
         return ".BXBTT"
 
 
-_BXBTT = _BXBTT()
+_BXBTT = _BXBTT(*_BXBTT._fields)
 """
     name: .BXBTT
     significant_digits: None
@@ -33229,7 +34633,7 @@ _BXBTT = _BXBTT()
 """
 
 
-class _BXBTT_NEXT(NamedTuple):
+class _BXBTT_NEXT(Symbol):
     """
         name: .BXBTT_NEXT
         significant_digits: None
@@ -33267,7 +34671,7 @@ class _BXBTT_NEXT(NamedTuple):
         return ".BXBTT_NEXT"
 
 
-_BXBTT_NEXT = _BXBTT_NEXT()
+_BXBTT_NEXT = _BXBTT_NEXT(*_BXBTT_NEXT._fields)
 """
     name: .BXBTT_NEXT
     significant_digits: None
@@ -33281,7 +34685,7 @@ _BXBTT_NEXT = _BXBTT_NEXT()
 """
 
 
-class _BXBTT30M(NamedTuple):
+class _BXBTT30M(Symbol):
     """
         name: .BXBTT30M
         significant_digits: None
@@ -33319,7 +34723,7 @@ class _BXBTT30M(NamedTuple):
         return ".BXBTT30M"
 
 
-_BXBTT30M = _BXBTT30M()
+_BXBTT30M = _BXBTT30M(*_BXBTT30M._fields)
 """
     name: .BXBTT30M
     significant_digits: None
@@ -33333,7 +34737,7 @@ _BXBTT30M = _BXBTT30M()
 """
 
 
-class _XBTUSDTPI(NamedTuple):
+class _XBTUSDTPI(Symbol):
     """
         name: .XBTUSDTPI
         significant_digits: None
@@ -33371,7 +34775,7 @@ class _XBTUSDTPI(NamedTuple):
         return ".XBTUSDTPI"
 
 
-_XBTUSDTPI = _XBTUSDTPI()
+_XBTUSDTPI = _XBTUSDTPI(*_XBTUSDTPI._fields)
 """
     name: .XBTUSDTPI
     significant_digits: None
@@ -33385,7 +34789,7 @@ _XBTUSDTPI = _XBTUSDTPI()
 """
 
 
-class _XBTUSDTPI8H(NamedTuple):
+class _XBTUSDTPI8H(Symbol):
     """
         name: .XBTUSDTPI8H
         significant_digits: None
@@ -33423,7 +34827,7 @@ class _XBTUSDTPI8H(NamedTuple):
         return ".XBTUSDTPI8H"
 
 
-_XBTUSDTPI8H = _XBTUSDTPI8H()
+_XBTUSDTPI8H = _XBTUSDTPI8H(*_XBTUSDTPI8H._fields)
 """
     name: .XBTUSDTPI8H
     significant_digits: None
@@ -33437,7 +34841,7 @@ _XBTUSDTPI8H = _XBTUSDTPI8H()
 """
 
 
-class _BVOL(NamedTuple):
+class _BVOL(Symbol):
     """
         name: .BVOL
         significant_digits: None
@@ -33475,7 +34879,7 @@ class _BVOL(NamedTuple):
         return ".BVOL"
 
 
-_BVOL = _BVOL()
+_BVOL = _BVOL(*_BVOL._fields)
 """
     name: .BVOL
     significant_digits: None
@@ -33489,7 +34893,7 @@ _BVOL = _BVOL()
 """
 
 
-class _BVOL24H(NamedTuple):
+class _BVOL24H(Symbol):
     """
         name: .BVOL24H
         significant_digits: None
@@ -33527,7 +34931,7 @@ class _BVOL24H(NamedTuple):
         return ".BVOL24H"
 
 
-_BVOL24H = _BVOL24H()
+_BVOL24H = _BVOL24H(*_BVOL24H._fields)
 """
     name: .BVOL24H
     significant_digits: None
@@ -33541,7 +34945,7 @@ _BVOL24H = _BVOL24H()
 """
 
 
-class _BVOL7D(NamedTuple):
+class _BVOL7D(Symbol):
     """
         name: .BVOL7D
         significant_digits: None
@@ -33579,7 +34983,7 @@ class _BVOL7D(NamedTuple):
         return ".BVOL7D"
 
 
-_BVOL7D = _BVOL7D()
+_BVOL7D = _BVOL7D(*_BVOL7D._fields)
 """
     name: .BVOL7D
     significant_digits: None
@@ -33593,7 +34997,7 @@ _BVOL7D = _BVOL7D()
 """
 
 
-class _ETHBON(NamedTuple):
+class _ETHBON(Symbol):
     """
         name: .ETHBON
         significant_digits: None
@@ -33631,7 +35035,7 @@ class _ETHBON(NamedTuple):
         return ".ETHBON"
 
 
-_ETHBON = _ETHBON()
+_ETHBON = _ETHBON(*_ETHBON._fields)
 """
     name: .ETHBON
     significant_digits: None
@@ -33645,7 +35049,7 @@ _ETHBON = _ETHBON()
 """
 
 
-class _ETHBON8H(NamedTuple):
+class _ETHBON8H(Symbol):
     """
         name: .ETHBON8H
         significant_digits: None
@@ -33683,7 +35087,7 @@ class _ETHBON8H(NamedTuple):
         return ".ETHBON8H"
 
 
-_ETHBON8H = _ETHBON8H()
+_ETHBON8H = _ETHBON8H(*_ETHBON8H._fields)
 """
     name: .ETHBON8H
     significant_digits: None
@@ -33697,7 +35101,7 @@ _ETHBON8H = _ETHBON8H()
 """
 
 
-class _ETHUSDPI(NamedTuple):
+class _ETHUSDPI(Symbol):
     """
         name: .ETHUSDPI
         significant_digits: None
@@ -33735,7 +35139,7 @@ class _ETHUSDPI(NamedTuple):
         return ".ETHUSDPI"
 
 
-_ETHUSDPI = _ETHUSDPI()
+_ETHUSDPI = _ETHUSDPI(*_ETHUSDPI._fields)
 """
     name: .ETHUSDPI
     significant_digits: None
@@ -33749,7 +35153,7 @@ _ETHUSDPI = _ETHUSDPI()
 """
 
 
-class _ETHUSDPI8H(NamedTuple):
+class _ETHUSDPI8H(Symbol):
     """
         name: .ETHUSDPI8H
         significant_digits: None
@@ -33787,7 +35191,7 @@ class _ETHUSDPI8H(NamedTuple):
         return ".ETHUSDPI8H"
 
 
-_ETHUSDPI8H = _ETHUSDPI8H()
+_ETHUSDPI8H = _ETHUSDPI8H(*_ETHUSDPI8H._fields)
 """
     name: .ETHUSDPI8H
     significant_digits: None
@@ -33801,7 +35205,7 @@ _ETHUSDPI8H = _ETHUSDPI8H()
 """
 
 
-class _BETH(NamedTuple):
+class _BETH(Symbol):
     """
         name: .BETH
         significant_digits: None
@@ -33839,7 +35243,7 @@ class _BETH(NamedTuple):
         return ".BETH"
 
 
-_BETH = _BETH()
+_BETH = _BETH(*_BETH._fields)
 """
     name: .BETH
     significant_digits: None
@@ -33853,7 +35257,7 @@ _BETH = _BETH()
 """
 
 
-class _BETH30M(NamedTuple):
+class _BETH30M(Symbol):
     """
         name: .BETH30M
         significant_digits: None
@@ -33891,7 +35295,7 @@ class _BETH30M(NamedTuple):
         return ".BETH30M"
 
 
-_BETH30M = _BETH30M()
+_BETH30M = _BETH30M(*_BETH30M._fields)
 """
     name: .BETH30M
     significant_digits: None
@@ -33905,7 +35309,7 @@ _BETH30M = _BETH30M()
 """
 
 
-class _BETHXBT(NamedTuple):
+class _BETHXBT(Symbol):
     """
         name: .BETHXBT
         significant_digits: None
@@ -33943,7 +35347,7 @@ class _BETHXBT(NamedTuple):
         return ".BETHXBT"
 
 
-_BETHXBT = _BETHXBT()
+_BETHXBT = _BETHXBT(*_BETHXBT._fields)
 """
     name: .BETHXBT
     significant_digits: None
@@ -33957,7 +35361,7 @@ _BETHXBT = _BETHXBT()
 """
 
 
-class _BETHXBT30M(NamedTuple):
+class _BETHXBT30M(Symbol):
     """
         name: .BETHXBT30M
         significant_digits: None
@@ -33995,7 +35399,7 @@ class _BETHXBT30M(NamedTuple):
         return ".BETHXBT30M"
 
 
-_BETHXBT30M = _BETHXBT30M()
+_BETHXBT30M = _BETHXBT30M(*_BETHXBT30M._fields)
 """
     name: .BETHXBT30M
     significant_digits: None
@@ -34009,7 +35413,7 @@ _BETHXBT30M = _BETHXBT30M()
 """
 
 
-class _BETH_NEXT(NamedTuple):
+class _BETH_NEXT(Symbol):
     """
         name: .BETH_NEXT
         significant_digits: None
@@ -34047,7 +35451,7 @@ class _BETH_NEXT(NamedTuple):
         return ".BETH_NEXT"
 
 
-_BETH_NEXT = _BETH_NEXT()
+_BETH_NEXT = _BETH_NEXT(*_BETH_NEXT._fields)
 """
     name: .BETH_NEXT
     significant_digits: None
@@ -34061,7 +35465,7 @@ _BETH_NEXT = _BETH_NEXT()
 """
 
 
-class _BETHXBT_NEXT(NamedTuple):
+class _BETHXBT_NEXT(Symbol):
     """
         name: .BETHXBT_NEXT
         significant_digits: None
@@ -34099,7 +35503,7 @@ class _BETHXBT_NEXT(NamedTuple):
         return ".BETHXBT_NEXT"
 
 
-_BETHXBT_NEXT = _BETHXBT_NEXT()
+_BETHXBT_NEXT = _BETHXBT_NEXT(*_BETHXBT_NEXT._fields)
 """
     name: .BETHXBT_NEXT
     significant_digits: None
@@ -34113,7 +35517,7 @@ _BETHXBT_NEXT = _BETHXBT_NEXT()
 """
 
 
-class _BETHT(NamedTuple):
+class _BETHT(Symbol):
     """
         name: .BETHT
         significant_digits: None
@@ -34151,7 +35555,7 @@ class _BETHT(NamedTuple):
         return ".BETHT"
 
 
-_BETHT = _BETHT()
+_BETHT = _BETHT(*_BETHT._fields)
 """
     name: .BETHT
     significant_digits: None
@@ -34165,7 +35569,7 @@ _BETHT = _BETHT()
 """
 
 
-class _BETHT_NEXT(NamedTuple):
+class _BETHT_NEXT(Symbol):
     """
         name: .BETHT_NEXT
         significant_digits: None
@@ -34203,7 +35607,7 @@ class _BETHT_NEXT(NamedTuple):
         return ".BETHT_NEXT"
 
 
-_BETHT_NEXT = _BETHT_NEXT()
+_BETHT_NEXT = _BETHT_NEXT(*_BETHT_NEXT._fields)
 """
     name: .BETHT_NEXT
     significant_digits: None
@@ -34217,7 +35621,7 @@ _BETHT_NEXT = _BETHT_NEXT()
 """
 
 
-class _BETHT30M(NamedTuple):
+class _BETHT30M(Symbol):
     """
         name: .BETHT30M
         significant_digits: None
@@ -34255,7 +35659,7 @@ class _BETHT30M(NamedTuple):
         return ".BETHT30M"
 
 
-_BETHT30M = _BETHT30M()
+_BETHT30M = _BETHT30M(*_BETHT30M._fields)
 """
     name: .BETHT30M
     significant_digits: None
@@ -34269,7 +35673,7 @@ _BETHT30M = _BETHT30M()
 """
 
 
-class _ETHUSDTPI(NamedTuple):
+class _ETHUSDTPI(Symbol):
     """
         name: .ETHUSDTPI
         significant_digits: None
@@ -34307,7 +35711,7 @@ class _ETHUSDTPI(NamedTuple):
         return ".ETHUSDTPI"
 
 
-_ETHUSDTPI = _ETHUSDTPI()
+_ETHUSDTPI = _ETHUSDTPI(*_ETHUSDTPI._fields)
 """
     name: .ETHUSDTPI
     significant_digits: None
@@ -34321,7 +35725,7 @@ _ETHUSDTPI = _ETHUSDTPI()
 """
 
 
-class _ETHUSDTPI8H(NamedTuple):
+class _ETHUSDTPI8H(Symbol):
     """
         name: .ETHUSDTPI8H
         significant_digits: None
@@ -34359,7 +35763,7 @@ class _ETHUSDTPI8H(NamedTuple):
         return ".ETHUSDTPI8H"
 
 
-_ETHUSDTPI8H = _ETHUSDTPI8H()
+_ETHUSDTPI8H = _ETHUSDTPI8H(*_ETHUSDTPI8H._fields)
 """
     name: .ETHUSDTPI8H
     significant_digits: None
@@ -34373,7 +35777,7 @@ _ETHUSDTPI8H = _ETHUSDTPI8H()
 """
 
 
-class _ETHUSD_ETHPI(NamedTuple):
+class _ETHUSD_ETHPI(Symbol):
     """
         name: .ETHUSD_ETHPI
         significant_digits: None
@@ -34411,7 +35815,7 @@ class _ETHUSD_ETHPI(NamedTuple):
         return ".ETHUSD_ETHPI"
 
 
-_ETHUSD_ETHPI = _ETHUSD_ETHPI()
+_ETHUSD_ETHPI = _ETHUSD_ETHPI(*_ETHUSD_ETHPI._fields)
 """
     name: .ETHUSD_ETHPI
     significant_digits: None
@@ -34425,7 +35829,7 @@ _ETHUSD_ETHPI = _ETHUSD_ETHPI()
 """
 
 
-class _ETHUSD_ETHPI8H(NamedTuple):
+class _ETHUSD_ETHPI8H(Symbol):
     """
         name: .ETHUSD_ETHPI8H
         significant_digits: None
@@ -34463,7 +35867,7 @@ class _ETHUSD_ETHPI8H(NamedTuple):
         return ".ETHUSD_ETHPI8H"
 
 
-_ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
+_ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H(*_ETHUSD_ETHPI8H._fields)
 """
     name: .ETHUSD_ETHPI8H
     significant_digits: None
@@ -34477,7 +35881,7 @@ _ETHUSD_ETHPI8H = _ETHUSD_ETHPI8H()
 """
 
 
-class _BETC(NamedTuple):
+class _BETC(Symbol):
     """
         name: .BETC
         significant_digits: None
@@ -34515,7 +35919,7 @@ class _BETC(NamedTuple):
         return ".BETC"
 
 
-_BETC = _BETC()
+_BETC = _BETC(*_BETC._fields)
 """
     name: .BETC
     significant_digits: None
@@ -34529,7 +35933,7 @@ _BETC = _BETC()
 """
 
 
-class _LTCBON(NamedTuple):
+class _LTCBON(Symbol):
     """
         name: .LTCBON
         significant_digits: None
@@ -34567,7 +35971,7 @@ class _LTCBON(NamedTuple):
         return ".LTCBON"
 
 
-_LTCBON = _LTCBON()
+_LTCBON = _LTCBON(*_LTCBON._fields)
 """
     name: .LTCBON
     significant_digits: None
@@ -34581,7 +35985,7 @@ _LTCBON = _LTCBON()
 """
 
 
-class _LTCBON8H(NamedTuple):
+class _LTCBON8H(Symbol):
     """
         name: .LTCBON8H
         significant_digits: None
@@ -34619,7 +36023,7 @@ class _LTCBON8H(NamedTuple):
         return ".LTCBON8H"
 
 
-_LTCBON8H = _LTCBON8H()
+_LTCBON8H = _LTCBON8H(*_LTCBON8H._fields)
 """
     name: .LTCBON8H
     significant_digits: None
@@ -34633,7 +36037,7 @@ _LTCBON8H = _LTCBON8H()
 """
 
 
-class _BLTCXBT(NamedTuple):
+class _BLTCXBT(Symbol):
     """
         name: .BLTCXBT
         significant_digits: None
@@ -34671,7 +36075,7 @@ class _BLTCXBT(NamedTuple):
         return ".BLTCXBT"
 
 
-_BLTCXBT = _BLTCXBT()
+_BLTCXBT = _BLTCXBT(*_BLTCXBT._fields)
 """
     name: .BLTCXBT
     significant_digits: None
@@ -34685,7 +36089,7 @@ _BLTCXBT = _BLTCXBT()
 """
 
 
-class _BLTCXBT30M(NamedTuple):
+class _BLTCXBT30M(Symbol):
     """
         name: .BLTCXBT30M
         significant_digits: None
@@ -34723,7 +36127,7 @@ class _BLTCXBT30M(NamedTuple):
         return ".BLTCXBT30M"
 
 
-_BLTCXBT30M = _BLTCXBT30M()
+_BLTCXBT30M = _BLTCXBT30M(*_BLTCXBT30M._fields)
 """
     name: .BLTCXBT30M
     significant_digits: None
@@ -34737,7 +36141,7 @@ _BLTCXBT30M = _BLTCXBT30M()
 """
 
 
-class _BLTCXBT_NEXT(NamedTuple):
+class _BLTCXBT_NEXT(Symbol):
     """
         name: .BLTCXBT_NEXT
         significant_digits: None
@@ -34775,7 +36179,7 @@ class _BLTCXBT_NEXT(NamedTuple):
         return ".BLTCXBT_NEXT"
 
 
-_BLTCXBT_NEXT = _BLTCXBT_NEXT()
+_BLTCXBT_NEXT = _BLTCXBT_NEXT(*_BLTCXBT_NEXT._fields)
 """
     name: .BLTCXBT_NEXT
     significant_digits: None
@@ -34789,7 +36193,7 @@ _BLTCXBT_NEXT = _BLTCXBT_NEXT()
 """
 
 
-class _BLTC(NamedTuple):
+class _BLTC(Symbol):
     """
         name: .BLTC
         significant_digits: None
@@ -34827,7 +36231,7 @@ class _BLTC(NamedTuple):
         return ".BLTC"
 
 
-_BLTC = _BLTC()
+_BLTC = _BLTC(*_BLTC._fields)
 """
     name: .BLTC
     significant_digits: None
@@ -34841,7 +36245,7 @@ _BLTC = _BLTC()
 """
 
 
-class _LTCUSDPI(NamedTuple):
+class _LTCUSDPI(Symbol):
     """
         name: .LTCUSDPI
         significant_digits: None
@@ -34879,7 +36283,7 @@ class _LTCUSDPI(NamedTuple):
         return ".LTCUSDPI"
 
 
-_LTCUSDPI = _LTCUSDPI()
+_LTCUSDPI = _LTCUSDPI(*_LTCUSDPI._fields)
 """
     name: .LTCUSDPI
     significant_digits: None
@@ -34893,7 +36297,7 @@ _LTCUSDPI = _LTCUSDPI()
 """
 
 
-class _LTCUSDPI8H(NamedTuple):
+class _LTCUSDPI8H(Symbol):
     """
         name: .LTCUSDPI8H
         significant_digits: None
@@ -34931,7 +36335,7 @@ class _LTCUSDPI8H(NamedTuple):
         return ".LTCUSDPI8H"
 
 
-_LTCUSDPI8H = _LTCUSDPI8H()
+_LTCUSDPI8H = _LTCUSDPI8H(*_LTCUSDPI8H._fields)
 """
     name: .LTCUSDPI8H
     significant_digits: None
@@ -34945,7 +36349,7 @@ _LTCUSDPI8H = _LTCUSDPI8H()
 """
 
 
-class _BLTC_NEXT(NamedTuple):
+class _BLTC_NEXT(Symbol):
     """
         name: .BLTC_NEXT
         significant_digits: None
@@ -34983,7 +36387,7 @@ class _BLTC_NEXT(NamedTuple):
         return ".BLTC_NEXT"
 
 
-_BLTC_NEXT = _BLTC_NEXT()
+_BLTC_NEXT = _BLTC_NEXT(*_BLTC_NEXT._fields)
 """
     name: .BLTC_NEXT
     significant_digits: None
@@ -34997,7 +36401,7 @@ _BLTC_NEXT = _BLTC_NEXT()
 """
 
 
-class _BLTCT(NamedTuple):
+class _BLTCT(Symbol):
     """
         name: .BLTCT
         significant_digits: None
@@ -35035,7 +36439,7 @@ class _BLTCT(NamedTuple):
         return ".BLTCT"
 
 
-_BLTCT = _BLTCT()
+_BLTCT = _BLTCT(*_BLTCT._fields)
 """
     name: .BLTCT
     significant_digits: None
@@ -35049,7 +36453,7 @@ _BLTCT = _BLTCT()
 """
 
 
-class _BLTCT_NEXT(NamedTuple):
+class _BLTCT_NEXT(Symbol):
     """
         name: .BLTCT_NEXT
         significant_digits: None
@@ -35087,7 +36491,7 @@ class _BLTCT_NEXT(NamedTuple):
         return ".BLTCT_NEXT"
 
 
-_BLTCT_NEXT = _BLTCT_NEXT()
+_BLTCT_NEXT = _BLTCT_NEXT(*_BLTCT_NEXT._fields)
 """
     name: .BLTCT_NEXT
     significant_digits: None
@@ -35101,7 +36505,7 @@ _BLTCT_NEXT = _BLTCT_NEXT()
 """
 
 
-class _LTCUSDTPI(NamedTuple):
+class _LTCUSDTPI(Symbol):
     """
         name: .LTCUSDTPI
         significant_digits: None
@@ -35139,7 +36543,7 @@ class _LTCUSDTPI(NamedTuple):
         return ".LTCUSDTPI"
 
 
-_LTCUSDTPI = _LTCUSDTPI()
+_LTCUSDTPI = _LTCUSDTPI(*_LTCUSDTPI._fields)
 """
     name: .LTCUSDTPI
     significant_digits: None
@@ -35153,7 +36557,7 @@ _LTCUSDTPI = _LTCUSDTPI()
 """
 
 
-class _LTCUSDTPI8H(NamedTuple):
+class _LTCUSDTPI8H(Symbol):
     """
         name: .LTCUSDTPI8H
         significant_digits: None
@@ -35191,7 +36595,7 @@ class _LTCUSDTPI8H(NamedTuple):
         return ".LTCUSDTPI8H"
 
 
-_LTCUSDTPI8H = _LTCUSDTPI8H()
+_LTCUSDTPI8H = _LTCUSDTPI8H(*_LTCUSDTPI8H._fields)
 """
     name: .LTCUSDTPI8H
     significant_digits: None
@@ -35205,7 +36609,7 @@ _LTCUSDTPI8H = _LTCUSDTPI8H()
 """
 
 
-class _USDBON(NamedTuple):
+class _USDBON(Symbol):
     """
         name: .USDBON
         significant_digits: None
@@ -35243,7 +36647,7 @@ class _USDBON(NamedTuple):
         return ".USDBON"
 
 
-_USDBON = _USDBON()
+_USDBON = _USDBON(*_USDBON._fields)
 """
     name: .USDBON
     significant_digits: None
@@ -35257,7 +36661,7 @@ _USDBON = _USDBON()
 """
 
 
-class _USDBON8H(NamedTuple):
+class _USDBON8H(Symbol):
     """
         name: .USDBON8H
         significant_digits: None
@@ -35295,7 +36699,7 @@ class _USDBON8H(NamedTuple):
         return ".USDBON8H"
 
 
-_USDBON8H = _USDBON8H()
+_USDBON8H = _USDBON8H(*_USDBON8H._fields)
 """
     name: .USDBON8H
     significant_digits: None
@@ -35309,7 +36713,7 @@ _USDBON8H = _USDBON8H()
 """
 
 
-class XBTUSD(NamedTuple):
+class XBTUSD(Symbol):
     """
         name: XBTUSD
         significant_digits: None
@@ -35347,7 +36751,7 @@ class XBTUSD(NamedTuple):
         return "XBTUSD"
 
 
-XBTUSD = XBTUSD()
+XBTUSD = XBTUSD(*XBTUSD._fields)
 """
     name: XBTUSD
     significant_digits: None
@@ -35361,7 +36765,7 @@ XBTUSD = XBTUSD()
 """
 
 
-class XBTUSDT(NamedTuple):
+class XBTUSDT(Symbol):
     """
         name: XBTUSDT
         significant_digits: None
@@ -35399,7 +36803,7 @@ class XBTUSDT(NamedTuple):
         return "XBTUSDT"
 
 
-XBTUSDT = XBTUSDT()
+XBTUSDT = XBTUSDT(*XBTUSDT._fields)
 """
     name: XBTUSDT
     significant_digits: None
@@ -35413,7 +36817,7 @@ XBTUSDT = XBTUSDT()
 """
 
 
-class XBTEUR(NamedTuple):
+class XBTEUR(Symbol):
     """
         name: XBTEUR
         significant_digits: None
@@ -35451,7 +36855,7 @@ class XBTEUR(NamedTuple):
         return "XBTEUR"
 
 
-XBTEUR = XBTEUR()
+XBTEUR = XBTEUR(*XBTEUR._fields)
 """
     name: XBTEUR
     significant_digits: None
@@ -35465,891 +36869,7 @@ XBTEUR = XBTEUR()
 """
 
 
-class XBTJ23(NamedTuple):
-    """
-        name: XBTJ23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTJ23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTJ23"
-
-    def __str__(self):
-        return "XBTJ23"
-
-    def __call__(self):
-        return "XBTJ23"
-
-
-XBTJ23 = XBTJ23()
-"""
-    name: XBTJ23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTM23(NamedTuple):
-    """
-        name: XBTM23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTM23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTM23"
-
-    def __str__(self):
-        return "XBTM23"
-
-    def __call__(self):
-        return "XBTM23"
-
-
-XBTM23 = XBTM23()
-"""
-    name: XBTM23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTUSDTM23(NamedTuple):
-    """
-        name: XBTUSDTM23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTUSDTM23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTUSDTM23"
-
-    def __str__(self):
-        return "XBTUSDTM23"
-
-    def __call__(self):
-        return "XBTUSDTM23"
-
-
-XBTUSDTM23 = XBTUSDTM23()
-"""
-    name: XBTUSDTM23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTU23(NamedTuple):
-    """
-        name: XBTU23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTU23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTU23"
-
-    def __str__(self):
-        return "XBTU23"
-
-    def __call__(self):
-        return "XBTU23"
-
-
-XBTU23 = XBTU23()
-"""
-    name: XBTU23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTUSDTU23(NamedTuple):
-    """
-        name: XBTUSDTU23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTUSDTU23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTUSDTU23"
-
-    def __str__(self):
-        return "XBTUSDTU23"
-
-    def __call__(self):
-        return "XBTUSDTU23"
-
-
-XBTUSDTU23 = XBTUSDTU23()
-"""
-    name: XBTUSDTU23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTZ23(NamedTuple):
-    """
-        name: XBTZ23
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 100
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBTZ23"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 100
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBTZ23"
-
-    def __str__(self):
-        return "XBTZ23"
-
-    def __call__(self):
-        return "XBTZ23"
-
-
-XBTZ23 = XBTZ23()
-"""
-    name: XBTZ23
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 100
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBT_USDT(NamedTuple):
-    """
-        name: XBT_USDT
-        significant_digits: None
-        tick_size: 0.5
-        min_margin: None
-        initial_margin: 1
-        min_order_size: 10000
-        max_order_size: 100000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "XBT_USDT"
-    significant_digits: int = None
-    tick_size: int = 0.5
-    min_margin: float = None
-    initial_margin: float = 1
-    min_order_size: float = 10000
-    max_order_size: float = 100000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "XBT_USDT"
-
-    def __str__(self):
-        return "XBT_USDT"
-
-    def __call__(self):
-        return "XBT_USDT"
-
-
-XBT_USDT = XBT_USDT()
-"""
-    name: XBT_USDT
-    significant_digits: None
-    tick_size: 0.5
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 10000
-    max_order_size: 100000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHUSD(NamedTuple):
-    """
-        name: ETHUSD
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 0.01
-        min_order_size: 1
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHUSD"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 0.01
-    min_order_size: float = 1
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHUSD"
-
-    def __str__(self):
-        return "ETHUSD"
-
-    def __call__(self):
-        return "ETHUSD"
-
-
-ETHUSD = ETHUSD()
-"""
-    name: ETHUSD
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.01
-    min_order_size: 1
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHUSDT(NamedTuple):
-    """
-        name: ETHUSDT
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHUSDT"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHUSDT"
-
-    def __str__(self):
-        return "ETHUSDT"
-
-    def __call__(self):
-        return "ETHUSDT"
-
-
-ETHUSDT = ETHUSDT()
-"""
-    name: ETHUSDT
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHUSD_ETH(NamedTuple):
-    """
-        name: ETHUSD_ETH
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1
-        max_order_size: 100000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHUSD_ETH"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1
-    max_order_size: float = 100000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHUSD_ETH"
-
-    def __str__(self):
-        return "ETHUSD_ETH"
-
-    def __call__(self):
-        return "ETHUSD_ETH"
-
-
-ETHUSD_ETH = ETHUSD_ETH()
-"""
-    name: ETHUSD_ETH
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHM23(NamedTuple):
-    """
-        name: ETHM23
-        significant_digits: None
-        tick_size: 1e-05
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHM23"
-    significant_digits: int = None
-    tick_size: int = 1e-05
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHM23"
-
-    def __str__(self):
-        return "ETHM23"
-
-    def __call__(self):
-        return "ETHM23"
-
-
-ETHM23 = ETHM23()
-"""
-    name: ETHM23
-    significant_digits: None
-    tick_size: 1e-05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHUSDM23(NamedTuple):
-    """
-        name: ETHUSDM23
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1
-        max_order_size: 10000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHUSDM23"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1
-    max_order_size: float = 10000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHUSDM23"
-
-    def __str__(self):
-        return "ETHUSDM23"
-
-    def __call__(self):
-        return "ETHUSDM23"
-
-
-ETHUSDM23 = ETHUSDM23()
-"""
-    name: ETHUSDM23
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 10000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETHUSDTM23(NamedTuple):
-    """
-        name: ETHUSDTM23
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETHUSDTM23"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETHUSDTM23"
-
-    def __str__(self):
-        return "ETHUSDTM23"
-
-    def __call__(self):
-        return "ETHUSDTM23"
-
-
-ETHUSDTM23 = ETHUSDTM23()
-"""
-    name: ETHUSDTM23
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETH_USDT(NamedTuple):
-    """
-        name: ETH_USDT
-        significant_digits: None
-        tick_size: 0.05
-        min_margin: None
-        initial_margin: 1
-        min_order_size: 1000000
-        max_order_size: 10000000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETH_USDT"
-    significant_digits: int = None
-    tick_size: int = 0.05
-    min_margin: float = None
-    initial_margin: float = 1
-    min_order_size: float = 1000000
-    max_order_size: float = 10000000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETH_USDT"
-
-    def __str__(self):
-        return "ETH_USDT"
-
-    def __call__(self):
-        return "ETH_USDT"
-
-
-ETH_USDT = ETH_USDT()
-"""
-    name: ETH_USDT
-    significant_digits: None
-    tick_size: 0.05
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 10000000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class ETH_XBT(NamedTuple):
-    """
-        name: ETH_XBT
-        significant_digits: None
-        tick_size: 1e-07
-        min_margin: None
-        initial_margin: 1
-        min_order_size: 1000000
-        max_order_size: 100000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "ETH_XBT"
-    significant_digits: int = None
-    tick_size: int = 1e-07
-    min_margin: float = None
-    initial_margin: float = 1
-    min_order_size: float = 1000000
-    max_order_size: float = 100000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "ETH_XBT"
-
-    def __str__(self):
-        return "ETH_XBT"
-
-    def __call__(self):
-        return "ETH_XBT"
-
-
-ETH_XBT = ETH_XBT()
-"""
-    name: ETH_XBT
-    significant_digits: None
-    tick_size: 1e-07
-    min_margin: None
-    initial_margin: 1
-    min_order_size: 1000000
-    max_order_size: 100000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class LTCUSD(NamedTuple):
-    """
-        name: LTCUSD
-        significant_digits: None
-        tick_size: 0.01
-        min_margin: None
-        initial_margin: 0.02
-        min_order_size: 1
-        max_order_size: 100000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "LTCUSD"
-    significant_digits: int = None
-    tick_size: int = 0.01
-    min_margin: float = None
-    initial_margin: float = 0.02
-    min_order_size: float = 1
-    max_order_size: float = 100000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LTCUSD"
-
-    def __str__(self):
-        return "LTCUSD"
-
-    def __call__(self):
-        return "LTCUSD"
-
-
-LTCUSD = LTCUSD()
-"""
-    name: LTCUSD
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.02
-    min_order_size: 1
-    max_order_size: 100000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class LTCUSDT(NamedTuple):
-    """
-        name: LTCUSDT
-        significant_digits: None
-        tick_size: 0.01
-        min_margin: None
-        initial_margin: 0.03
-        min_order_size: 1000
-        max_order_size: 1000000000
-        has_margin: True
-        exchange: bitmex
-    """
-    name: str = "LTCUSDT"
-    significant_digits: int = None
-    tick_size: int = 0.01
-    min_margin: float = None
-    initial_margin: float = 0.03
-    min_order_size: float = 1000
-    max_order_size: float = 1000000000
-    has_margin: bool = True
-    exchange: str = "bitmex"
-
-    def __eq__(self, other):
-        if type(other) == str:
-            return self.name == other
-        if type(self) == type(other):
-            return self.name == other.name
-
-    def __repr__(self):
-        return "LTCUSDT"
-
-    def __str__(self):
-        return "LTCUSDT"
-
-    def __call__(self):
-        return "LTCUSDT"
-
-
-LTCUSDT = LTCUSDT()
-"""
-    name: LTCUSDT
-    significant_digits: None
-    tick_size: 0.01
-    min_margin: None
-    initial_margin: 0.03
-    min_order_size: 1000
-    max_order_size: 1000000000
-    has_margin: True
-    exchange: bitmex
-"""
-
-
-class XBTK23(NamedTuple):
+class XBTK23(Symbol):
     """
         name: XBTK23
         significant_digits: None
@@ -36387,7 +36907,7 @@ class XBTK23(NamedTuple):
         return "XBTK23"
 
 
-XBTK23 = XBTK23()
+XBTK23 = XBTK23(*XBTK23._fields)
 """
     name: XBTK23
     significant_digits: None
@@ -36396,6 +36916,838 @@ XBTK23 = XBTK23()
     initial_margin: 0.01
     min_order_size: 100
     max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTM23(Symbol):
+    """
+        name: XBTM23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTM23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTM23"
+
+    def __str__(self):
+        return "XBTM23"
+
+    def __call__(self):
+        return "XBTM23"
+
+
+XBTM23 = XBTM23(*XBTM23._fields)
+"""
+    name: XBTM23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTUSDTM23(Symbol):
+    """
+        name: XBTUSDTM23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTUSDTM23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTUSDTM23"
+
+    def __str__(self):
+        return "XBTUSDTM23"
+
+    def __call__(self):
+        return "XBTUSDTM23"
+
+
+XBTUSDTM23 = XBTUSDTM23(*XBTUSDTM23._fields)
+"""
+    name: XBTUSDTM23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTU23(Symbol):
+    """
+        name: XBTU23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTU23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTU23"
+
+    def __str__(self):
+        return "XBTU23"
+
+    def __call__(self):
+        return "XBTU23"
+
+
+XBTU23 = XBTU23(*XBTU23._fields)
+"""
+    name: XBTU23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTUSDTU23(Symbol):
+    """
+        name: XBTUSDTU23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTUSDTU23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTUSDTU23"
+
+    def __str__(self):
+        return "XBTUSDTU23"
+
+    def __call__(self):
+        return "XBTUSDTU23"
+
+
+XBTUSDTU23 = XBTUSDTU23(*XBTUSDTU23._fields)
+"""
+    name: XBTUSDTU23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBTZ23(Symbol):
+    """
+        name: XBTZ23
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 100
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBTZ23"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 100
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBTZ23"
+
+    def __str__(self):
+        return "XBTZ23"
+
+    def __call__(self):
+        return "XBTZ23"
+
+
+XBTZ23 = XBTZ23(*XBTZ23._fields)
+"""
+    name: XBTZ23
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 100
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class XBT_USDT(Symbol):
+    """
+        name: XBT_USDT
+        significant_digits: None
+        tick_size: 0.5
+        min_margin: None
+        initial_margin: 1
+        min_order_size: 10000
+        max_order_size: 100000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "XBT_USDT"
+    significant_digits: int = None
+    tick_size: int = 0.5
+    min_margin: float = None
+    initial_margin: float = 1
+    min_order_size: float = 10000
+    max_order_size: float = 100000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "XBT_USDT"
+
+    def __str__(self):
+        return "XBT_USDT"
+
+    def __call__(self):
+        return "XBT_USDT"
+
+
+XBT_USDT = XBT_USDT(*XBT_USDT._fields)
+"""
+    name: XBT_USDT
+    significant_digits: None
+    tick_size: 0.5
+    min_margin: None
+    initial_margin: 1
+    min_order_size: 10000
+    max_order_size: 100000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSD(Symbol):
+    """
+        name: ETHUSD
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 0.01
+        min_order_size: 1
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSD"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.01
+    min_order_size: float = 1
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSD"
+
+    def __str__(self):
+        return "ETHUSD"
+
+    def __call__(self):
+        return "ETHUSD"
+
+
+ETHUSD = ETHUSD(*ETHUSD._fields)
+"""
+    name: ETHUSD
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 0.01
+    min_order_size: 1
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSDT(Symbol):
+    """
+        name: ETHUSDT
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSDT"
+
+    def __str__(self):
+        return "ETHUSDT"
+
+    def __call__(self):
+        return "ETHUSDT"
+
+
+ETHUSDT = ETHUSDT(*ETHUSDT._fields)
+"""
+    name: ETHUSDT
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSD_ETH(Symbol):
+    """
+        name: ETHUSD_ETH
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSD_ETH"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSD_ETH"
+
+    def __str__(self):
+        return "ETHUSD_ETH"
+
+    def __call__(self):
+        return "ETHUSD_ETH"
+
+
+ETHUSD_ETH = ETHUSD_ETH(*ETHUSD_ETH._fields)
+"""
+    name: ETHUSD_ETH
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHM23(Symbol):
+    """
+        name: ETHM23
+        significant_digits: None
+        tick_size: 1e-05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHM23"
+    significant_digits: int = None
+    tick_size: int = 1e-05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHM23"
+
+    def __str__(self):
+        return "ETHM23"
+
+    def __call__(self):
+        return "ETHM23"
+
+
+ETHM23 = ETHM23(*ETHM23._fields)
+"""
+    name: ETHM23
+    significant_digits: None
+    tick_size: 1e-05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSDM23(Symbol):
+    """
+        name: ETHUSDM23
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 10000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSDM23"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 10000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSDM23"
+
+    def __str__(self):
+        return "ETHUSDM23"
+
+    def __call__(self):
+        return "ETHUSDM23"
+
+
+ETHUSDM23 = ETHUSDM23(*ETHUSDM23._fields)
+"""
+    name: ETHUSDM23
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 10000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETHUSDTM23(Symbol):
+    """
+        name: ETHUSDTM23
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETHUSDTM23"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETHUSDTM23"
+
+    def __str__(self):
+        return "ETHUSDTM23"
+
+    def __call__(self):
+        return "ETHUSDTM23"
+
+
+ETHUSDTM23 = ETHUSDTM23(*ETHUSDTM23._fields)
+"""
+    name: ETHUSDTM23
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1000
+    max_order_size: 1000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETH_USDT(Symbol):
+    """
+        name: ETH_USDT
+        significant_digits: None
+        tick_size: 0.05
+        min_margin: None
+        initial_margin: 1
+        min_order_size: 1000000
+        max_order_size: 10000000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETH_USDT"
+    significant_digits: int = None
+    tick_size: int = 0.05
+    min_margin: float = None
+    initial_margin: float = 1
+    min_order_size: float = 1000000
+    max_order_size: float = 10000000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETH_USDT"
+
+    def __str__(self):
+        return "ETH_USDT"
+
+    def __call__(self):
+        return "ETH_USDT"
+
+
+ETH_USDT = ETH_USDT(*ETH_USDT._fields)
+"""
+    name: ETH_USDT
+    significant_digits: None
+    tick_size: 0.05
+    min_margin: None
+    initial_margin: 1
+    min_order_size: 1000000
+    max_order_size: 10000000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class ETH_XBT(Symbol):
+    """
+        name: ETH_XBT
+        significant_digits: None
+        tick_size: 1e-07
+        min_margin: None
+        initial_margin: 1
+        min_order_size: 1000000
+        max_order_size: 100000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "ETH_XBT"
+    significant_digits: int = None
+    tick_size: int = 1e-07
+    min_margin: float = None
+    initial_margin: float = 1
+    min_order_size: float = 1000000
+    max_order_size: float = 100000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "ETH_XBT"
+
+    def __str__(self):
+        return "ETH_XBT"
+
+    def __call__(self):
+        return "ETH_XBT"
+
+
+ETH_XBT = ETH_XBT(*ETH_XBT._fields)
+"""
+    name: ETH_XBT
+    significant_digits: None
+    tick_size: 1e-07
+    min_margin: None
+    initial_margin: 1
+    min_order_size: 1000000
+    max_order_size: 100000000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class LTCUSD(Symbol):
+    """
+        name: LTCUSD
+        significant_digits: None
+        tick_size: 0.01
+        min_margin: None
+        initial_margin: 0.02
+        min_order_size: 1
+        max_order_size: 100000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "LTCUSD"
+    significant_digits: int = None
+    tick_size: int = 0.01
+    min_margin: float = None
+    initial_margin: float = 0.02
+    min_order_size: float = 1
+    max_order_size: float = 100000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LTCUSD"
+
+    def __str__(self):
+        return "LTCUSD"
+
+    def __call__(self):
+        return "LTCUSD"
+
+
+LTCUSD = LTCUSD(*LTCUSD._fields)
+"""
+    name: LTCUSD
+    significant_digits: None
+    tick_size: 0.01
+    min_margin: None
+    initial_margin: 0.02
+    min_order_size: 1
+    max_order_size: 100000000
+    has_margin: True
+    exchange: bitmex
+"""
+
+
+class LTCUSDT(Symbol):
+    """
+        name: LTCUSDT
+        significant_digits: None
+        tick_size: 0.01
+        min_margin: None
+        initial_margin: 0.03
+        min_order_size: 1000
+        max_order_size: 1000000000
+        has_margin: True
+        exchange: bitmex
+    """
+    name: str = "LTCUSDT"
+    significant_digits: int = None
+    tick_size: int = 0.01
+    min_margin: float = None
+    initial_margin: float = 0.03
+    min_order_size: float = 1000
+    max_order_size: float = 1000000000
+    has_margin: bool = True
+    exchange: str = "bitmex"
+
+    def __eq__(self, other):
+        if type(other) == str:
+            return self.name == other
+        if type(self) == type(other):
+            return self.name == other.name
+
+    def __repr__(self):
+        return "LTCUSDT"
+
+    def __str__(self):
+        return "LTCUSDT"
+
+    def __call__(self):
+        return "LTCUSDT"
+
+
+LTCUSDT = LTCUSDT(*LTCUSDT._fields)
+"""
+    name: LTCUSDT
+    significant_digits: None
+    tick_size: 0.01
+    min_margin: None
+    initial_margin: 0.03
+    min_order_size: 1000
+    max_order_size: 1000000000
     has_margin: True
     exchange: bitmex
 """
